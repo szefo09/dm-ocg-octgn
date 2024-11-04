@@ -52,8 +52,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Revival Soldier,
     - Skyscraper Shell,
     - Steamroller Mutant,
-    - Trombo, Fractured Doll
-    - Uncanny Turnip.
+    - Trombo, Fractured Doll,
+    - Uncanny Turnip
 - **Survivor Automation**: Shared effects are now automated for Survivors.
 - **Other Improvements**
   - **Deck Search Sorting**: Added sorting feature to deck search results.
