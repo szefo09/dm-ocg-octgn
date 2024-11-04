@@ -1281,6 +1281,83 @@ def sendToMana(count=1):
 		if type(choice) is not Card: return
 		remoteCall(choice.owner, "toMana", choice)
 
+def selfDiscard(count=1):
+	mute()
+	for i in range(count):
+		cardList = [card for card in me.hand]
+		if me.isInverted: reverse_cardList(cardList)
+		cardChoice = askCard2(cardList, "Choose a Card to discard")
+		if type(cardChoice) is not Card:
+			notify("Discard cancelled.")
+			return
+			# do anti-discard check here
+		toDiscard(cardChoice)
+		update()
+
+def suicide(name, action, arg):
+	mute()
+	choiceList = ['Yes', 'No']
+	colorsList = ['#FF0000', '#FF0000']
+	choice = askChoice("Destroy the card to activate effect?", choiceList, colorsList)
+	if choice == 0 or choice == 2:
+		return
+	cardList = [card for card in table if card.name == name and card.owner == me and isCreature(card) ]
+	toDiscard(cardList[-1])
+	action(arg)
+
+def opponentSacrifice(sacrificeArgs=[]):
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
+
+def tapCreature(count=1, targetALL=False, includeOwn=False):
+	mute()
+	if targetALL:
+		if includeOwn == True:
+			cardList = [card for card in table if
+						isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
+		else:
+			cardList = [card for card in table if
+						isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search("Creature",
+																											 card.Type)]
+		if len(cardList) == 0:
+			return
+		for card in cardList:
+			remoteCall(card.owner, "tap", card)
+	else:
+		for i in range(0, count):
+			if includeOwn == True:
+				cardList = [card for card in table if
+							isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
+			else:
+				cardList = [card for card in table if
+							isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search(
+								"Creature", card.Type)]
+			if len(cardList) == 0:
+				return
+			if me.isInverted: reverse_cardList(cardList)
+			choice = askCard2(cardList, 'Choose a Creature to tap')
+			if type(choice) is not Card:
+				return
+			remoteCall(choice.owner, "tap", choice)
+
+def semiReset():
+	mute()
+	if confirm("Are you sure you want to continue?"):
+		currentPlayers = getPlayers()
+		for player in currentPlayers:
+			cardsInHand = [c for c in player.hand]
+			cardsInGrave = [c for c in player.piles['Graveyard']]
+			if cardsInHand or cardsInGrave:
+				for card in cardsInHand:
+					remoteCall(player, 'toDeck', card)
+				for card in cardsInGrave:
+					remoteCall(player, 'toDeck', card)
+			remoteCall(player, 'shuffle', player.deck)
+			remoteCall(player, 'draw', [player.deck, False, 5])
+
+# Special Card Group Automatization
+
 def waveStrikerOnPlay(functionArray, card):
 	if isinstance(functionArray, str):
 		functionArray=[functionArray]
@@ -1297,6 +1374,8 @@ def waveStrikerOnDestroy(functionArray, card):
 	if functionArray and wscount >= 3:
 		for funct in functionArray:
 				eval(funct)
+
+#Special Card Automatization
 
 def apocalypseVise():
 	powerLeft=8000
@@ -1323,7 +1402,6 @@ def carnivalTotem():
 		toMana(handCard)
 		handCard.orientation = Rot270
 
-
 def dolmarks():
 	sacrifice()
 	fromMana(1,"ALL","ALL","ALL",True,True)
@@ -1331,6 +1409,12 @@ def dolmarks():
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sacrifice',[])
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
+
+def klujadras():
+	for player in players:
+		count = getWaveStrikerCount(player)
+		if count:
+			remoteCall(player, "draw", [player.Deck, False, count]) 
 
 def miraculousPlague():
 	mute()
@@ -1388,11 +1472,6 @@ def rothus():
 	sacrifice()
 	opponentSacrifice()
 
-def opponentSacrifice(sacrificeArgs=[]):
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
-	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
-
 def soulSwap():
 	mute()
 	targetPlayer = getTargetPlayer()
@@ -1412,19 +1491,6 @@ def craniumClamp():
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'selfDiscard', 2)
-
-def selfDiscard(count=1):
-	mute()
-	for i in range(count):
-		cardList = [card for card in me.hand]
-		if me.isInverted: reverse_cardList(cardList)
-		cardChoice = askCard2(cardList, "Choose a Card to discard")
-		if type(cardChoice) is not Card:
-			notify("Discard cancelled.")
-			return
-			# do anti-discard check here
-		toDiscard(cardChoice)
-		update()
 
 def mechaDragonsBreath():
 	power = askNumber()
@@ -1450,62 +1516,6 @@ def _fromManaToField(targetPlayer):
 	update()
 	remoteCall(targetPlayer, "toPlay", manaChoice)
 
-def tapCreature(count=1, targetALL=False, includeOwn=False):
-	mute()
-	if targetALL:
-		if includeOwn == True:
-			cardList = [card for card in table if
-						isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
-		else:
-			cardList = [card for card in table if
-						isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search("Creature",
-																											 card.Type)]
-		if len(cardList) == 0:
-			return
-		for card in cardList:
-			remoteCall(card.owner, "tap", card)
-	else:
-		for i in range(0, count):
-			if includeOwn == True:
-				cardList = [card for card in table if
-							isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
-			else:
-				cardList = [card for card in table if
-							isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search(
-								"Creature", card.Type)]
-			if len(cardList) == 0:
-				return
-			if me.isInverted: reverse_cardList(cardList)
-			choice = askCard2(cardList, 'Choose a Creature to tap')
-			if type(choice) is not Card:
-				return
-			remoteCall(choice.owner, "tap", choice)
-
-def semiReset():
-	mute()
-	if confirm("Are you sure you want to continue?"):
-		currentPlayers = getPlayers()
-		for player in currentPlayers:
-			cardsInHand = [c for c in player.hand]
-			cardsInGrave = [c for c in player.piles['Graveyard']]
-			if cardsInHand or cardsInGrave:
-				for card in cardsInHand:
-					remoteCall(player, 'toDeck', card)
-				for card in cardsInGrave:
-					remoteCall(player, 'toDeck', card)
-			remoteCall(player, 'shuffle', player.deck)
-			remoteCall(player, 'draw', [player.deck, False, 5])
-
-def suicide(name, action, arg):
-	mute()
-	choiceList = ['Yes', 'No']
-	colorsList = ['#FF0000', '#FF0000']
-	choice = askChoice("Destroy the card to activate effect?", choiceList, colorsList)
-	if choice == 0 or choice == 2:
-		return
-	cardList = [card for card in table if card.name == name and card.owner == me and isCreature(card) ]
-	toDiscard(cardList[-1])
-	action(arg)
 # End of Automation Code
 
 # MENU OPTIONS
@@ -1808,7 +1818,6 @@ def tapMultiple(cards, x=0, y=0): #batchExecuted for multiple cards tapped at on
 		else:
 			notify('{} untaps {} mana.'.format(me, untappedMana))
 
-
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	if isShield(card):
@@ -1924,12 +1933,6 @@ def drawX(group, x=0, y=0):
 	if count == None: return
 	for card in group.top(count): card.moveTo(card.owner.hand)
 	notify("{} draws {} cards.".format(me, count))
-
-def klujadras():
-	for player in players:
-		count = getWaveStrikerCount(player)
-		if count:
-			remoteCall(player, "draw", [player.Deck, False, count]) 
 
 #Discard top card
 def mill(group, count=1, conditional=False, x=0, y=0):
@@ -2204,7 +2207,6 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			functionList = cardScripts.get(card.Name).get('onDiscard')
 			for function in functionList:
 				eval(function)
-
 
 #Move To Hand (from battlezone)
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
