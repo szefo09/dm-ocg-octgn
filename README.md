@@ -27,16 +27,16 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Dolmarks, the Shadow Warrior**: Similar to Rothus, but also burns mana.
   - **Emergency Typhoon**: Draw up to two cards, then discard one.
   - **Magmarex**: Destroys all creatures with exactly 1000 power.
-  - **MechaDragon's Breath**: Choose a power number; all creatures with that power are destroyed.
+  - **Mechadragon's Breath**: Choose a power number; all creatures with that power are destroyed.
   - **Miraculous Plague**: Select two cards from the field and opponent chooses one to take to their hand, and the other is sent to Graveyard. Repeat for cards in Mana Zone.
   - **Proclamation of Death**: Rothus-like effect, prompting destruction.
   - **Slash Charger**: View entire deck of selected player, pick one card to send to Graveyard.
   - **Soulswap**: Select side, pick a creature on the field to send to mana, and choose a creature to play from mana.
   - **Galklife Dragon**: Destroys all cards with 4000 Power or less from Light civilization
   - **Scarlet Skyterror**: Destroys all cards with Blocker.
-  - **Death Cruzer the Annihilator**
-  - **Dorballom, Lord of Demons**
-  - **Stallob the Lifequasher**
+  - **Death Cruzer, the Annihilator**: Destroys all other creatures of the player.
+  - **Dorballom, Lord of Demons**: Destroys all non-darkness creatures and puts non-darkness mana into graveyard.
+  - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
