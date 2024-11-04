@@ -1046,7 +1046,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		wscount = getWaveStrikerCount()
 	
 	# We do this to handle survivor/wavestriker effects properly.
-	myCardList = [card for card in cardList if card.owner == me]
+	myCardList = [card for card in cardList if card.owner == me and not isBait(card)]
 	opponentList = [card for card in cardList if card.owner != me]
 
 	survivors = []
@@ -1106,7 +1106,7 @@ def destroyAllMana(group, civFilter="ALL"):
 		cardList = [card for card in group if isMana(card) and re.search(civFilter, card.Civilization)]
 	else: 
 		cardList = [card for card in group if isMana(card)]
-	if len(cardList == 0): return
+	if len(cardList) == 0: return
 	for card in cardList:
 		remoteCall(card.owner, "destroy", card)
 
