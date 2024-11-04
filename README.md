@@ -55,7 +55,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Trombo, Fractured Doll
     - Uncanny Turnip.
 - **Survivor Automation**: Shared effects are now automated for Survivors.
-- ** Other Improvements**
+- **Other Improvements**
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Lanerva Stratus, Poseidon's Admiral, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, and Terradragon Arque Delacerna to come into play from the opponent’s hand due to Lost Soul.
