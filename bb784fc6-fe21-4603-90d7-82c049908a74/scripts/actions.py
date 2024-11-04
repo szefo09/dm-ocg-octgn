@@ -1016,7 +1016,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 	for card in killList:
 		remoteCall(card.owner, "destroy", card)
 
-def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, survivors = []):
+def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False):
 	mute()
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
@@ -1040,9 +1040,6 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	
 	if condition:
 		if askYN('Destroy automatically?') != 1: return
-
-	if len(survivors)==0 and any(re.search("Survivor", card.Race) for card in cardList):
-		survivors = getSurvivorsOnYourTable()
 	global wscount
 	if not wscount:
 		wscount = getWaveStrikerCount()
@@ -1050,6 +1047,11 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	# We do this to handle survivor/wavestriker effects properly.
 	myCardList = [card for card in cardList if card.owner == me]
 	opponentList = [card for card in cardList if card.owner != me]
+
+	survivors = []
+	if any(re.search("Survivor", card.Race) for card in myCardList):
+		survivors = getSurvivorsOnYourTable()
+
 	for card in myCardList:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if
@@ -1082,7 +1084,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		for function in functionDict:
 			eval(function)
 	if len(opponentList):
-		remoteCall(opponentList[0].owner, "destroyAll", [opponentList,False ,powerFilter,civFilter, AllExceptFiltered, exactPower, survivors])
+		remoteCall(opponentList[0].owner, "destroyAll", [opponentList, False])
 
 def destroyMana(count=1):
 	mute()
@@ -1887,6 +1889,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					toDiscard(choice)
 					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
 					return
+		global wscount
+		wscount = getWaveStrikerCount()
 		toDiscard(cardToBeSaved)  # this function is CHANGING card for some reason, hence the on destroy bug.
 		card = cardToBeSaved  # fixed?
 		################# ON  DESTROY BUG HERE  PLS FIX ##############
