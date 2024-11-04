@@ -54,7 +54,7 @@ cardScripts = {
 	'Dark Hydra, Evil Planet Lord': {'onPlay': ['fromGrave()']},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': ['kill("ALL","Untap")']},
 	'Dolmarks, the Shadow Warrior': {'onPlay': ['dolmarks()']},
-	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness")']},
+	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness", True)']},
 	'Emperor Himiko': {'onPlay': ['draw(me.Deck, True)']},
 	'Emperor Marco': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Estol, Vizier of Aqua': {'onPlay': ['shields(me.Deck)']},
@@ -1099,11 +1099,11 @@ def destroyMana(count=1):
 			return
 		remoteCall(choice.owner, "destroy", choice)
 
-def destroyAllMana(group, civFilter="ALL"):
+def destroyAllMana(group, civFilter="ALL", AllExceptFiltered=False):
 	mute()
 	cardList = []
 	if(civFilter != "ALL"):
-		cardList = [card for card in group if isMana(card) and re.search(civFilter, card.Civilization)]
+			cardList = [card for card in group if isMana(card) and (re.search(civFilter, card.Civilization) != AllExceptFiltered)]
 	else: 
 		cardList = [card for card in group if isMana(card)]
 	if len(cardList) == 0: return
