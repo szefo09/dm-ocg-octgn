@@ -28,7 +28,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Emergency Typhoon**: Draw up to two cards, then discard one.
   - **Magmarex**: Destroys all creatures with exactly 1000 power.
   - **MechaDragon's Breath**: Choose a power number; all creatures with that power are destroyed.
-  - **Miraculous Plague**: Select two cards from the field and mana; opponent chooses one to take to their hand.
+  - **Miraculous Plague**: Select two cards from the field and opponent chooses one to take to their hand, and the other is sent to Graveyard. Repeat for card in Mana Zone.
   - **Proclamation of Death**: Rothus-like effect, prompting destruction.
   - **Slash Charger**: View entire deck of selected player, pick one card to send to Graveyard.
   - **Soulswap**: Select side, pick a creature on the field to send to mana, and choose a creature to play from mana.
