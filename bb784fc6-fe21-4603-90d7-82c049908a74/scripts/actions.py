@@ -40,6 +40,7 @@ cardScripts = {
 	'Bronze Chain Sickle': {'onPlay': ['mana(me.Deck)']},
 	'Bubble Lamp': {'onPlay': ['draw(me.Deck, True) if len([card for card in me.piles["Graveyard"] if re.search("Bubble Lamp", card.Name)]) > 0 else None']},
 	'Buinbe, Airspace Guardian': {'onPlay': ['draw(me.Deck, True)']},
+	'Carnival Totem': {'onPlay': ['carnivalTotem()']},
 	'Chaos Worm': {'onPlay': [' kill()']},
 	'Chief De Baula, Machine King of Mystic Light': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Cobalt Hulcus, Aqua Savage': {'onPlay': ['draw(me.Deck, True)']},
@@ -174,7 +175,6 @@ cardScripts = {
 	'Brain Cyclone': {'onPlay': ['draw(me.Deck, False, 1)']},
 	'Brain Serum': {'onPlay': [' draw(me.Deck, False, 2)']},
 	'Burst Shot': {'onPlay': [' destroyAll(table, True, 2000)']},
-	'Carnival Totem': {'onPlay': ['carnivalTotem()']},
 	'Cannonball Sling': {'onPlay': ['kill(2000)'],
 						 'onMetaMorph': ['kill(6000)']},
 	'Chains of Sacrifice': {'onPlay': ['kill("ALL","ALL","ALL",2)', 'sacrifice()']},
@@ -320,6 +320,7 @@ cardScripts = {
 	'XENOM, the Reaper Fortress': {'onPlay': [' targetDiscard(True)']},
 	'Zombie Carnival': {'onPlay': ['fromGrave()']},
 	'Zombie Cyclone': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
+	
 	# ON DESTROY EFFECTS
 
 	'Akashic First, Electro-Dragon': {'onDestroy': ['toHand(card)']},
@@ -365,6 +366,7 @@ cardScripts = {
 	'Worm Gowarski, Masked Insect': {'onDestroy': ['targetDiscard(True)']},
 
 	#ON DISCARD FROM HAND 
+	
 	'Bingole, the Explorer': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
 	'Dava Torey, Seeker of Clouds': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
 	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None'], 
@@ -374,9 +376,8 @@ cardScripts = {
 									'onPlay':['lookAtCards(3)']},
 	'Terradragon Arque Delacerna': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
 
-
-
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
+	
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
 	'Soul Garde, Storage Dragon Elemental': {'onTrigger': ['manaArmsCheck("Light", 5)']},
 	'Sg Spagelia, Dragment Symbol': {'onTrigger': ['manaArmsCheck("Water", 5)']},
@@ -2205,6 +2206,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		else:
 			notify("{} discards {} from {}.".format(me, card, src.name))
 
+	#Handle onDiscard effects
 	if src.name=="Hand":
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDiscard', {}):
