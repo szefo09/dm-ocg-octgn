@@ -637,6 +637,18 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 def reverse_cardList(list):
     list.reverse()
 
+def processEvolution(card, targets):
+	targetList = [c._id for c in targets]
+	evolveDict = eval(
+		me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
+	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
+		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
+			if isCreature(evolveTarget):
+				targetList += evolveDict[evolveTarget._id]  ##add those cards to the new evolution creature
+			del evolveDict[evolveTarget._id]
+	evolveDict[card._id] = targetList
+	me.setGlobalVariable("evolution", str(evolveDict))
+	evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -2361,30 +2373,52 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False)
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
 	if re.search("Evolution", card.Type):
-		targets = [c for c in table
-				   if c.controller == me
-				   and c.targetedBy == me]
-		targets = [c for c in targets
-				   if isCreature(c)
-				   or isGear(c)]
-		for c in targets:
-			c.target(False)  # remove the targets
-		if len(targets) == 0:
-			whisper("Cannot play card: You must target a creature to evolve first.")
-			whisper("Hint: Shift-click a card to target it.")
-			return
-		else:
-			targetList = [c._id for c in targets]
-			evolveDict = eval(
-				me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
-			for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
-				if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
-					if isCreature(evolveTarget):
-						targetList += evolveDict[evolveTarget._id]  ##add those cards to the new evolution creature
-					del evolveDict[evolveTarget._id]
-			evolveDict[card._id] = targetList
-			me.setGlobalVariable("evolution", str(evolveDict))
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+		if re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
+			cardList = [card for card in me.piles['Graveyard'] if re.search("Creature",card.Type)]
+			isSuperInfinite = False
+			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE):
+				isSuperInfinite = True
+			targets = []
+			while len(cardList)>0 and (isSuperInfinite or len(targets) == 1):
+				textBox = '"Select Creature to put under Evolution{}'
+				if(isSuperInfinite): textBox.format(' (1 at a time, close window to finish).')
+				choice = askCard2(cardList,textBox)
+				if type(choice) is not Card: break
+				targets.append(choice)
+				cardList.remove(choice)
+			for target in targets:
+				toPlay(target,notifymute=True,ignoreEffects=True)
+			processEvolution(card, targets)
+		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
+			cardList = [card for card in table if isMana(card) and re.search("Creature", card.Type)]
+			textBox = 'Select Creature to put under Evolution'
+			choice = askCard2(cardList,textBox)
+			if type(choice) is not Card: return
+			toPlay(choice,notifymute=True,ignoreEffects=True)
+			processEvolution(card, [choice])
+		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
+			cardList = [card for card in me.hand]
+			cardList = [card for card in cardList if re.search("Creature", card.Type)]
+			textBox = 'Select Creature to put under Evolution'
+			choice = askCard2(cardList,textBox)
+			if type(choice) is not Card: return
+			toPlay(choice,notifymute=True,ignoreEffects=True)
+			processEvolution(card, [choice])
+		else: #Default Evolution
+			targets = [c for c in table
+					   if c.controller == me
+					   and c.targetedBy == me]
+			targets = [c for c in targets
+					   if isCreature(c)
+					   or isGear(c)]
+			for c in targets:
+				c.target(False)  # remove the targets
+			if len(targets) == 0:
+				whisper("Cannot play card: You must target a creature to evolve first.")
+				whisper("Hint: Shift-click a card to target it.")
+				return
+			else:
+				processEvolution(card, targets)
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
 	card.moveToTable(0, 0)
