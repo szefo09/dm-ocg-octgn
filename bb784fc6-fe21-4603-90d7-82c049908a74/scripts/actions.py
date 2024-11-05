@@ -1861,7 +1861,11 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		# Untap Mana
 		if card.orientation == Rot270:
 			card.orientation = Rot180
-	evaluateWaitingFunctions()
+	global alreadyEvaluating
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 	notify("{} untaps all their cards.".format(me))
 
 #called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
@@ -2002,7 +2006,12 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
-		evaluateWaitingFunctions()
+		global alreadyEvaluating
+		if not alreadyEvaluating:
+			alreadyEvaluating = True
+			evaluateWaitingFunctions()
+			alreadyEvaluating = False
+		
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
