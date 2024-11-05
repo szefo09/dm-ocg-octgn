@@ -72,7 +72,7 @@ cardScripts = {
 	'Forbos, Sanctum Guardian Q': {'onPlay': [' search(me.Deck, 1, "Spell")']},
 	'Funky Wizard': {'onPlay': [' draw(me.Deck, True)']},
 	'Gajirabute, Vile Centurion': {'onPlay': ['burnShieldKill(1)']},
-	'Galek, the Shadow Warrior': {'onPlay': ['targetDiscard(True)']},
+	'Galek, the Shadow Warrior': {'onPlay': ['kill(count=1, rulesFilter="{BLOCKER}")', 'targetDiscard(True)']},
 	'Galklife Dragon': {'onPlay': ['destroyAll(table, True, 4000, "Light")']},
 	'Gardner, the Invoked': {'onPlay': ['gear("mana")']},
 	'Gigargon': {'onPlay': [' search(me.piles["Graveyard"], 2, "Creature")']},
@@ -107,7 +107,7 @@ cardScripts = {
 	'Magris, Vizier of Magnetism': {'onPlay': ['draw(me.Deck, True)']},
 	'Magmarex': {'onPlay': ['destroyAll(table, True, 1000,"ALL", False, True)']},
 	'Masked Horror, Shadow of Scorn': {'onPlay': ['targetDiscard(True)']},
-	'Mechadragon\'s Breath': {'onPlay':['mechaDragonsBreath()']},
+	'Mechadragon\'s Breath': {'onPlay':['mechadragonsBreath()']},
 	'Meteosaur': {'onPlay': ['kill(2000)']},
 	'Miele, Vizier of Lightning': {'onPlay': ['tapCreature()']},
 	'Moors, the Dirty Digger Puppet': {'onPlay': [' search(me.piles["Graveyard"])']},
@@ -160,9 +160,10 @@ cardScripts = {
 	'Viblo Blade, Hulcus Range': {'onPlay': ['draw(me.Deck, True)']},
 	'Walmiel, Electro-Sage': {'onPlay': ['tapCreature()']},
 	'Whispering Totem': {'onPlay': ['fromDeck()']},
-	'Wind Axe, the Warrior Savage': {'onPlay': [' mana(me.Deck)']},
+	'Wind Axe, the Warrior Savage': {'onPlay': ['kill(count=1, rulesFilter="{BLOCKER}")', 'mana(me.Deck)']},
 	'Zardia, Spirit of Bloody Winds': {'onPlay': [' shields(me.Deck)']},
 	'Zemechis, the Explorer': {'onPlay': [' gear("kill")']},
+	
 	# ON CAST EFFECTS
 
 	'Abduction Charger': {'onPlay': [' bounce(2)']},
@@ -369,18 +370,30 @@ cardScripts = {
 
 	#ON DISCARD FROM HAND 
 	
+	'Algo Bardiol, Devil Admiral':  {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Baiken, Blue Dragon of the Hidden Blade': {'onDiscard':['toPlayAfterDiscard(card)']},
 	'Bingole, the Explorer': {'onDiscard':['toPlayAfterDiscard(card)']},
 	'Dava Torey, Seeker of Clouds': {'onDiscard':['toPlayAfterDiscard(card)']},
-	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard':['toPlayAfterDiscard(card)'], 
-									'onPlay':['lookAtCards(3)']},
+	'Gauss Blazer, Flame Dragon Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Mecha Admiral Sound Shooter': {'onDiscard':['toPlayAfterDiscard(card)']},
 	'Sanfist, the Savage Vizier': {'onDiscard':['toPlayAfterDiscard(card)']},
-	'Sir Matthias, Ice Fang Admiral': {'onDiscard':['toPlayAfterDiscard(card)'], 
-									'onPlay':['lookAtCards(3)']},
+	'Sephia Parthenon, Spirit Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Sir Matthias, Ice Fang Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
 	'Terradragon Arque Delacerna': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Yu Wandafor, Phantom Beast Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Zack Pichi, Winged Dragon Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
 
 	# ON TAP EFFECTS
-
+	'Bliss Totem, Avatar of Luck': {'onTap': ['fromGrave()']},
 	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
+	'Cosmogold, Spectral Knight': {'onTap': ['fromMana(1, "Spell")']},
+	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
+	'Rikabu\'s Screwdriver': {'onTap': ['kill(count=1, rulesFilter="{BLOCKER}")']},
+	'Rondobil, the Explorer': {'onTap': ['sendToShields(1, False, True)']},
+	'Tanzanyte, the Awakener': {'onTap': ['tanzanyte()']},
+	'Techno Totem': {'onTap': ['tapCreature()']},
+	
 
 	#SILENT SKILL EFFECTS
 	
@@ -787,7 +800,8 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 		if randomDiscard:
 			remoteCall(targetPlayer, 'randomDiscard', targetPlayer.hand)
 			continue
-
+		
+		if me.isInverted: reverse_cardList(cardList)
 		cardChoice = askCard2(cardList, "Choose a Card to discard.")
 
 		if type(cardChoice) is not Card:
@@ -1341,7 +1355,7 @@ def handleTapUntapCreature(card):
 		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
 			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 			if choice != 1: return
-			
+
 			notify('{} uses Tap Effect of {}'.format(me, card))
 			functionList=[]
 			functionList = cardScripts.get(card.Name).get('onTap')
@@ -1358,10 +1372,13 @@ def handleTapUntapCreature(card):
 	else:
 		notify('{} untaps {}.'.format(me, card))
 
-def sendToShields(count=1, opponentOnly=True):
+def sendToShields(count=1, opponentOnly=True, selfOnly = False):
 	mute()
 	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) and (not opponentOnly or card.owner != me)]
+		cardList = [card for card in table if isCreature(card) and (
+			(opponentOnly and card["owner"] != me) or 
+        	(selfOnly and card["owner"] == me) or 
+        	(not opponentOnly and not selfOnly))]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Creature to send to Shields')
@@ -1498,6 +1515,16 @@ def carnivalTotem():
 		toMana(handCard)
 		handCard.orientation = Rot270
 
+def deklowazDiscard():
+	mute()
+	targetPlayer = getTargetPlayer()
+	cardList = [card for card in targetPlayer.hand]
+	if me.isInverted: reverse_cardList(cardList)
+	cardChoice = askCard2(cardList, "Look at opponent's hand. (Close popup or select any card to finish.)")
+	for card in cardList:
+		if re.search("Creature", card.Type) and int(card.Power.strip('+')) <= 3000:
+			remoteCall(targetPlayer, 'toDiscard', cardChoice)
+
 def dolmarks():
 	sacrifice()
 	fromMana(1,"ALL","ALL","ALL",True,True)
@@ -1581,6 +1608,14 @@ def soulSwap():
 	update()
 	remoteCall(me,"_fromManaToField", targetPlayer)
 
+def tanzanyte():
+	cardList = [card for card in me.piles['Graveyard'] if re.search('Creature', card.Type)]
+	choice = askCard2(sort_cardList(cardsInGroup), 'Select a Creature to return all copies of from Graveyard.')
+	if type(choice) is not Card: return
+	for card in cardList:
+		if card.Name == choice.Name:
+			toHand(choice, True)	
+
 def craniumClamp():
 	mute()
 
@@ -1588,7 +1623,7 @@ def craniumClamp():
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'selfDiscard', 2)
 
-def mechaDragonsBreath():
+def mechadragonsBreath():
 	power = askNumber()
 	
 	if(power>6000):

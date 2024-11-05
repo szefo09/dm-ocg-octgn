@@ -6,17 +6,6 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 ## Changelog
 
-### Fixes
-- **Card Fixes**
-  - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
-  - **Emperor Marco, Cyber Brain**: Fixed to prompt for stopping the draw when applicable.
-  - **Miraculous Snare**: Fixed issue preventing setting own card to shield.
-  - **Rothus the Traveller**: Now prompts enemy to destroy a monster on the field.
-  - **Skeleton Vice**: Correctly discards two cards at random.
-- **Mechanic Fixes**
-  - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
-  - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
-
 ### New Features
 - **New Cards Added**:
   - **Apocalypse Vise**: Destroy creatures up to a combined total power of 8000.
@@ -37,6 +26,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Death Cruzer, the Annihilator**: Destroys all other creatures of the player.
   - **Dorballom, Lord of Demons**: Destroys all non-darkness creatures and puts non-darkness mana into graveyard.
   - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
+  - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
+
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -55,10 +46,40 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Trombo, Fractured Doll,
     - Uncanny Turnip
 - **Survivor Automation**: Shared effects are now automated for Survivors.
+- **Tap Effects Added**: 
+  - **During Your Turn, if you tap an automated Creature with Tap Effect, you'll get a prompt if you want to use the Tap effect!** *You can bypass the prompt by declaring an attack by arrow targeting before tapping.*
+  - **New Cards Added**:
+    - Bliss Totem, Avatar of Luck,
+    - Charmilia, the Enticer,
+    - Cosmogold, Spectral Knight,
+    - Deklowaz, the Terminator,
+    - Rikabu's Screwdriver,
+    - Rondobil, the Explorer,
+    - Tanzanyte, the Awakener,
+    - Techno Totem (only Tap effect for now)
+- **Silent Skill Effects Added**: 
+  - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
+  - **New Cards Added**:
+    - Hustle Berry,
+    - Soderlight, the Cold Blade
+
 - **Other Improvements**
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
-  - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Lanerva Stratus, Poseidon's Admiral, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, and Terradragon Arque Delacerna to come into play from the opponent’s hand due to Lost Soul.
+  - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
+
+### Fixes
+- **Card Fixes**
+  - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
+  - **Emperor Marco, Cyber Brain**: Fixed to prompt for stopping the draw when applicable.
+  - **Miraculous Snare**: Fixed issue preventing setting own card to shield.
+  - **Rothus the Traveller**: Now prompts enemy to destroy a monster on the field.
+  - **Skeleton Vice**: Correctly discards two cards at random.
+  - **Galek, the Shadow Warrior**: Allows you to destroy enemy blocker.
+  - **Wind Axe, the Warrior Savage**: Allows you to destroy enemy blocker.
+- **Mechanics Fixes**
+  - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
+  - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
 
 #### Additional Notes
 - **XML Updates**: Minor changes for races, civilizations, and types; fixed typos and standardized spell power values.
