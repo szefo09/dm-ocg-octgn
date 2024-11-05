@@ -337,7 +337,7 @@ cardScripts = {
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Bone Piercer': {'onDestroy': ['fromMana(1, "Creature")']},
 	'Cetibols': {'onDestroy': [' draw(me.Deck, True)']},
-	'Chillias, the Oracle': {'onDestroy': [' toHand(card)']},
+	'Chilias, the Oracle': {'onDestroy': [' toHand(card)']},
 	'Coiling Vines': {'onDestroy': ['toMana(card)']},
 	'Crasher Burn': {'onDestroy': ['kill(3000)']},
 	'Crystal Jouster': {'onDestroy': ['toHand(card)']},
