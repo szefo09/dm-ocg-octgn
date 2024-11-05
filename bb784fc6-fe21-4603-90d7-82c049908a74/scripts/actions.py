@@ -13,6 +13,7 @@ waitingFunct = []  # Functions waiting for targets. Please replace this with FUN
 evaluateNextFunction = True #For conditional evaluation of one function after the other, currently only implemented for bounce() in IVT
 alreadyEvaluating = False
 wscount = 0
+arrow = {}
 # Start of Automation code
 
 cardScripts = {
@@ -426,6 +427,25 @@ def onTarget(args): #this is triggered by OCTGN events when any card is targeted
 	if waitingFunct:
 		evaluateWaitingFunctions()
 
+def onArrow(args):
+	player = args.player
+	fromCard = args.fromCard
+	toCard = args.toCard
+	targeted = args.targeted
+	scripted = args.scripted
+
+	if player != me: return
+	if isCreature(fromCard):
+		global arrow
+		if targeted:
+			if fromCard in arrow:
+				arrow[fromCard].append(toCard)
+			else:
+				arrow[fromCard] = [toCard]
+		else:
+			if fromCard in arrow:
+					del arrow[fromCard]
+				
 ############################################ Misc utility functions ####################################################################################
 
 def askCard2(list, title="Select a card", buttonText="Select",numberToTake=1):  # askCard function was changed. So using the same name but with the new functionality
@@ -1796,12 +1816,15 @@ def handleTapUntapCreature(card, x=0, y=0):
 	card.orientation ^= Rot90
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
-		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []):
+		global arrow
+		#Tap Effects can only activate during active Player's turn.
+		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
 			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 			if choice:
+				notify('{} uses Tap Effect of {}'.format(me, card))
 				functionList=[]
 				functionList = cardScripts.get(card.Name).get('onTap')
-				#There are currently no survivors that have Tap abilities.
+				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
 				# if re.search("Survivor", card.Race):
 				# 	survivors = getSurvivorsOnYourTable()
 				# 	for surv in survivors:

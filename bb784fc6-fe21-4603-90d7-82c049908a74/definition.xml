@@ -22,6 +22,7 @@
 		<event name="OnCardsMoved" action="moveCards" />
 		<event name="OverrideTurnPassed" action="endTurn" />
 		<event name="OnCardTargeted" action="onTarget" />
+		<event name="OnCardArrowTargeted" action="onArrow" />
 	</events>
 	
 	<proxygen definitionsrc="proxy/CardGenData.xml" />
