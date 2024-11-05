@@ -384,7 +384,8 @@ cardScripts = {
 	'Yu Wandafor, Phantom Beast Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
 	'Zack Pichi, Winged Dragon Admiral': {'onDiscard':['toPlayAfterDiscard(card)']},
 
-	# ON TAP EFFECTS
+	#ON TAP EFFECTS
+
 	'Bliss Totem, Avatar of Luck': {'onTap': ['fromGrave()']},
 	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
 	'Cosmogold, Spectral Knight': {'onTap': ['fromMana(1, "Spell")']},
@@ -394,6 +395,14 @@ cardScripts = {
 	'Tanzanyte, the Awakener': {'onTap': ['tanzanyte()']},
 	'Techno Totem': {'onTap': ['tapCreature()']},
 	
+	#ON YOUR TURN END EFFECTS
+
+	'Aqua Officer': {},
+	'Balesk Baj, the Timeburner': {},
+	'Ballus, Dogfight Enforcer Q': {},
+	'Bazagazeal Dragon': {},
+	'Cutthroat Skyterror': {},
+	'Pyrofighter Magnus': {},
 
 	#SILENT SKILL EFFECTS
 	
@@ -429,6 +438,7 @@ def endTurn(args, x=0, y=0):
 			whisper("It's not your turn")
 		else:
 			notify("{} ends their turn.".format(me))
+			processOnTurnEndEffects()
 			remoteCall(nextPlayer, 'untapAll', [table, True])
 			nextTurn(nextPlayer, True)
 	else:
@@ -1349,7 +1359,7 @@ def gear(str):
 			remoteCall(choice.owner, 'toMana', choice)
 
 #Called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
-def handleTapUntapCreature(card):
+def processTapUntapCreature(card):
 	mute()
 	clearWaitingFuncts()
 	card.orientation ^= Rot90
@@ -1380,6 +1390,25 @@ def handleTapUntapCreature(card):
 				
 	else:
 		notify('{} untaps {}.'.format(me, card))
+
+def processOnTurnEndEffects():
+	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
+	for card in cardList:
+		if cardScripts.get(card.name, {}).get('onTurnEnd', []):
+			notify('{} acitvates at the end of {}\'s turn'.format(card, me))
+			functionList = cardScripts.get(card.Name).get('onTurnEnd')
+			if re.search("Survivor", card.Race):
+				survivors = getSurvivorsOnYourTable()
+				for surv in survivors:
+					if cardScripts.get(surv.name, {}).get('onTurnEnd', []):
+						functionList.extend(cardScripts.get(surv.name).get('onTurnEnd'))
+			for function in functionList:
+				waitingFunct.append([card, function])
+			global alreadyEvaluating
+			if not alreadyEvaluating:
+				alreadyEvaluating = True
+				evaluateWaitingFunctions()
+				alreadyEvaluating = False
 
 def sendToShields(count=1, opponentOnly=True, selfOnly = False):
 	mute()
@@ -1990,7 +2019,7 @@ def tapMultiple(cards, x=0, y=0): #batchExecuted for multiple cards tapped at on
 	creatures = [card for card in cards if isCreature(card)]
 	tappedMana = 0
 	for card in creatures:
-		handleTapUntapCreature(card)
+		processTapUntapCreature(card)
 			
 	for card in mana:
 		card.orientation ^= Rot90
