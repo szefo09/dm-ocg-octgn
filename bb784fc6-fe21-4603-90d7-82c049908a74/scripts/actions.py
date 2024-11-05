@@ -2363,45 +2363,48 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		align()
 
 #Play Card menu option (both from hand and battlezone)
-def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False):
+def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False, isEvoMaterial = False):
 	mute()
 	global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
 	if card.group == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
-	if re.search("Evolution", card.Type):
+	if re.search("Evolution", card.Type) and not isEvoMaterial:
 		if re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
-			cardList = [card for card in me.piles['Graveyard'] if re.search("Creature",card.Type)]
+			materialList = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			isSuperInfinite = False
 			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE):
 				isSuperInfinite = True
 			targets = []
-			while len(cardList)>0 and (isSuperInfinite or len(targets) == 1):
-				textBox = '"Select Creature to put under Evolution{}'
-				if(isSuperInfinite): textBox.format(' (1 at a time, close window to finish).')
-				choice = askCard2(cardList,textBox)
+			while len(materialList)>0 and (isSuperInfinite or len(targets) < 1):
+				textBox = 'Select Creature to put under Evolution{}'
+				if(isSuperInfinite): 
+					textBox = textBox.format(' (1 at a time, close window to finish).')
+				choice = askCard2(materialList,textBox.format(''))
 				if type(choice) is not Card: break
 				targets.append(choice)
-				cardList.remove(choice)
+				materialList.remove(choice)
 			for target in targets:
-				toPlay(target,notifymute=True,ignoreEffects=True)
+				toPlay(target,0, 0,True,'',True, True)
 			processEvolution(card, targets)
+			
 		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
-			cardList = [card for card in table if isMana(card) and re.search("Creature", card.Type)]
+			materialList = [c for c in table if isMana(c) and re.search("Creature", c.Type)]
 			textBox = 'Select Creature to put under Evolution'
-			choice = askCard2(cardList,textBox)
+			choice = askCard2(materialList,textBox)
 			if type(choice) is not Card: return
-			toPlay(choice,notifymute=True,ignoreEffects=True)
+			toPlay(choice,0, 0,True,'',True, True)
 			processEvolution(card, [choice])
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
-			cardList = [card for card in me.hand]
-			cardList = [card for card in cardList if re.search("Creature", card.Type)]
+			materialList = [c for c in me.hand]
+			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
 			textBox = 'Select Creature to put under Evolution'
-			choice = askCard2(cardList,textBox)
+			choice = askCard2(materialList,textBox)
 			if type(choice) is not Card: return
-			toPlay(choice,notifymute=True,ignoreEffects=True)
+			toPlay(choice,0, 0,True,'',True, True)
 			processEvolution(card, [choice])
+			
 		else: #Default Evolution
 			targets = [c for c in table
 					   if c.controller == me
