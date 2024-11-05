@@ -558,26 +558,24 @@ def waitForTarget():
 	return
 
 def evaluateWaitingFunctions():
-	whisper("I was called!")
-	notify("{}".format(waitingFunct))
 	while len(waitingFunct)>0:
 			
+			
+			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			card = waitingFunct[0][0]
-			notify("{}, {}".format(card,waitingFunct[0][1]))
 			waitingForTarget = eval(waitingFunct[0][1]) #stored in the form [card, function]
 			if waitingForTarget:
-				notify("{}, {} WAITS FOR TARGET".format(card,waitingFunct[0][1]))
 				waitForTarget()
 				break #stop evaluating further functions, will start again when target is triggered
 			else:
-				notify("DEBUG: card, function deQueued: {}".format(waitingFunct[0]))
+				#notify("DEBUG: card, function deQueued: {}".format(waitingFunct[0]))
 				cardBeingPlayed = waitingFunct[0][0]
 				del waitingFunct[0] #deQueue
 				if len(waitingFunct)==0:
 					endOfFunctionality(cardBeingPlayed)
 				elif cardBeingPlayed != waitingFunct[0][0]: #the next card is a different one
 					endOfFunctionality(cardBeingPlayed)
-				notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
+				#notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
 
 def clearWaitingFuncts():  # clears any pending plays for a card that's waiting to choose targets etc
 	if waitingFunct:
