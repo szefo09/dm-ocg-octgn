@@ -20,7 +20,7 @@ cardScripts = {
 	# ON PLAY EFFECTS
 
 	'Alshia, Spirit of Novas': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
-	'Angila, Electro-Mask': {'onPlay':['waveStrikerOnPlay(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
+	'Angila, Electro-Mask': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
 	'Aures, Spirit Knight': {'onPlay': ['mana(me.Deck)']},
 	'Aqua Bouncer': {'onPlay': ['bounce()']},
 	'Aqua Deformer': {'onPlay': ['fromMana(2, "ALL", "ALL", "ALL", True, False, True)']},
@@ -28,7 +28,7 @@ cardScripts = {
 	'Aqua Hulk': {'onPlay': ['draw(me.Deck, True)']},
 	'Aqua Sniper': {'onPlay': ['bounce(2)']},
 	'Aqua Surfer': {'onPlay': ['bounce()']},
-	'Aqua Trickster': {'onPlay':['waveStrikerOnPlay("tapCreature()", card)']},
+	'Aqua Trickster': {'onPlay':['waveStriker("tapCreature()", card)']},
 	'Armored Decimator Valkaizer': {'onPlay': [' kill(4000)']},
 	'Artisan Picora': {'onPlay': ['fromMana(1,"ALL","ALL","ALL",False,True)']},
 	'Astral Warper': {'onPlay': ['draw(me.Deck, True, 3)']},
@@ -36,7 +36,7 @@ cardScripts = {
 	'Ballom, Master of Death': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)']},
 	'Bega, Vizier of Shadow': {'onPlay': ['shields(me.Deck)', 'targetDiscard(True)']},
 	'Belix, the Explorer': {'onPlay': ['fromMana(1,"Spell")']},
-	'Bonfire Lizard': {'onPlay':['waveStrikerOnPlay(\'kill(count=2, rulesFilter="{BLOCKER}")\', card)']},
+	'Bonfire Lizard': {'onPlay':['waveStriker(\'kill(count=2, rulesFilter="{BLOCKER}")\', card)']},
 	'Bronze-Arm Tribe': {'onPlay': ['mana(me.Deck)']},
 	'Bronze Chain Sickle': {'onPlay': ['mana(me.Deck)']},
 	'Bubble Lamp': {'onPlay': ['draw(me.Deck, True) if len([card for card in me.piles["Graveyard"] if re.search("Bubble Lamp", card.Name)]) > 0 else None']},
@@ -59,12 +59,12 @@ cardScripts = {
 	'Emperor Himiko': {'onPlay': ['draw(me.Deck, True)']},
 	'Emperor Marco': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Estol, Vizier of Aqua': {'onPlay': ['shields(me.Deck)']},
-	'Eviscerating Warrior Lumez': {'onPlay':['waveStrikerOnPlay("destroyAll(table, True, 2000)", card)']},
+	'Eviscerating Warrior Lumez': {'onPlay':['waveStriker("destroyAll(table, True, 2000)", card)']},
 	'Evolution Totem': {'onPlay': [' search(me.Deck, 1, "Evolution Creature")']},
 	'Factory Shell Q': {'onPlay': [' search(me.Deck, 1, "ALL", "ALL", "Survivor")']},
 	'Fighter Dual Fang': {'onPlay': [' mana(me.Deck,2)']},
 	'Fist Dragoon': {'onPlay': ['kill(2000)']},
-	'Flame Trooper Goliac': {'onPlay':['waveStrikerOnPlay("kill(5000)", card)']},
+	'Flame Trooper Goliac': {'onPlay':['waveStriker("kill(5000)", card)']},
 	'Flameburn Dragon': {'onPlay': ['kill(4000)']},
 	'Fonch, the Oracle': {'onPlay': [' tapCreature()']},
 	'Forest Sword, Great Hero': {'onPlay': ['mana(me.Deck)']},
@@ -82,7 +82,7 @@ cardScripts = {
 	'Gylus, Larval Lord': {'onPlay': ['targetDiscard(True)']},
 	'Gyulcas, Sage of the East Wind': {'onPlay': [' search(me.Deck, 1, "Cross Gear")']},
 	'Hawkeye Lunatron': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "ALL", False)']},
-	'Hazaria, Duke of Thorns': {'onPlay': ['waveStrikerOnPlay("opponentSacrifice()", card)']},
+	'Hazaria, Duke of Thorns': {'onPlay': ['waveStriker("opponentSacrifice()", card)']},
 	'Honenbe, Skeletal Guardian': {
 		'onPlay': ['mill(me.Deck, 3, True)', 'search(me.piles["Graveyard"], 1, "Creature")']},
 	'Hormone, Maxim Bronze': {'onPlay': ['mana(me.Deck)']},
@@ -91,7 +91,7 @@ cardScripts = {
 	'Hurlosaur': {'onPlay': [' kill(1000)']},
 	'Iron Arm Tribe': {'onPlay': ['mana(me.Deck)']},
 	'Izana Keeza': {'onPlay': [' kill(2000)']},
-	'Jagila, the Hidden Pillager': {'onPlay':['waveStrikerOnPlay(\'targetDiscard(True, "grave", 3)\', card)']},
+	'Jagila, the Hidden Pillager': {'onPlay':['waveStriker(\'targetDiscard(True, "grave", 3)\', card)']},
 	'Jasmine, Mist Faerie': {'onPlay': ['suicide("Jasmine, Mist Faerie", mana, me.Deck)']},
 	'Jelly, Dazzling Electro-Princess': {'onPlay': ['draw(me.Deck, True)']},
 	'Jenny, the Dismantling Puppet': {'onPlay': [' targetDiscard()']},
@@ -99,7 +99,7 @@ cardScripts = {
 	'Jet R.E, Brave Vizier': {'onPlay': ['shields(me.Deck)']},
 	'King Ripped-Hide': {'onPlay': ['draw(me.Deck, True, 2)']},
 	'King Muu Q': {'onPlay':['bounce()']},
-	'Klujadras': {'onPlay': ['waveStrikerOnPlay("klujadras()", card)']},
+	'Klujadras': {'onPlay': ['waveStriker("klujadras()", card)']},
 	'Kolon, the Oracle': {'onPlay': ['tapCreature()']},
 	'Lena, Vizier of Brilliance': {'onPlay': ['fromMana(1,"Spell")']},
 	'Lugias, The Explorer': {'onPlay': ['tapCreature()']},
@@ -140,12 +140,12 @@ cardScripts = {
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Scarlet Skyterror': {'onPlay': ['destroyAll([card for card in table if re.search("\{BLOCKER\}", card.Rules)], True)']},
-	'Skyscraper Shell': {'onPlay': ['waveStrikerOnPlay("sendToMana()", card)']},
+	'Skyscraper Shell': {'onPlay': ['waveStriker("sendToMana()", card)']},
 	'Skysword, the Savage Vizier': {'onPlay': ['mana(me.Deck)', 'shields(me.deck)']},
 	'Solidskin Fish': {'onPlay': ['fromMana()']},
 	'Spiritual Star Dragon': {'onPlay': ['fromDeck()']},
 	'Splash Zebrafish': {'onPlay': ['fromMana()']},
-	'Steamroller Mutant': {'onPlay': ['waveStrikerOnPlay("destroyAll(table, True)", card)']},
+	'Steamroller Mutant': {'onPlay': ['waveStriker("destroyAll(table, True)", card)']},
 	'Syforce, Aurora Elemental': {'onPlay': ['fromMana(1,"Spell")']},
 	'Terradragon Zalberg': {'onPlay': [' destroyMana(2)']},
 	'Thorny Mandra': {'onPlay': [' fromGrave()']},
@@ -153,8 +153,8 @@ cardScripts = {
 	'Titan Giant': {'onPlay': ['mana (me.Deck, 2, True)']},
 	'Torpedo Cluster': {'onPlay': [' fromMana()']},
 	'Triple Mouth, Decaying Savage': {'onPlay': ['mana(me.Deck)', 'targetDiscard(True)']},
-	'Trombo, Fractured Doll': {'onPlay':['waveStrikerOnPlay(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
-	'Uncanny Turnip': {'onPlay':['waveStrikerOnPlay(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
+	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
+	'Uncanny Turnip': {'onPlay':['waveStriker(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
 	'Unicorn Fish': {'onPlay': ['bounce()']},
 	'Velyrika Dragon': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")']},
 	'Viblo Blade, Hulcus Range': {'onPlay': ['draw(me.Deck, True)']},
@@ -349,6 +349,7 @@ cardScripts = {
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
 	'Hammerhead Cluster': {'onDestroy': ['bounce()']},
+	'Jewel Spider': {'onDestroy': ['bounceShield()']},
 	'Jil Warka, Time Guardian': {'onDestroy': [' tapCreature(2)']},
 	'Mighty Shouter': {'onDestroy': ['toMana(card)']},
 	'Ouks, Vizier of Restoration': {'onDestroy': [' toShields(card)']},
@@ -363,7 +364,7 @@ cardScripts = {
 	'Stallob the Lifequasher': {'onDestroy': ['destroyAll(table, True)']},
 	'Stubborn Jasper': {'onDestroy': ['toHand(card)']},
 	'Red-Eye Scorpion': {'onDestroy': ['toMana(card)']},
-	'Revival Soldier': {'onDestroy': ['waveStrikerOnDestroy("toHand(card)", card)']},
+	'Revival Soldier': {'onDestroy': ['waveStriker("toHand(card)", card)']},
 	'Worm Gowarski, Masked Insect': {'onDestroy': ['targetDiscard(True)']},
 
 	#ON DISCARD FROM HAND 
@@ -536,14 +537,14 @@ def evaluateWaitingFunctions():
 				waitForTarget()
 				break #stop evaluating further functions, will start again when target is triggered
 			else:
-				#notify("DEBUG: card, function deQueued: "+waitingFunct[0])
+				#notify("DEBUG: card, function deQueued: {}".format(waitingFunct[0]))
 				cardBeingPlayed = waitingFunct[0][0]
 				del waitingFunct[0] #deQueue
 				if len(waitingFunct)==0:
 					endOfFunctionality(cardBeingPlayed)
 				elif cardBeingPlayed != waitingFunct[0][0]: #the next card is a different one
 					endOfFunctionality(cardBeingPlayed)
-				#notify("DEBUG: Waiting list is now: "+str(waitingFunct))
+				#notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
 
 def clearWaitingFuncts():  # clears any pending plays for a card that's waiting to choose targets etc
 	global alreadyEvaluating
@@ -739,6 +740,7 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 	else:
 		notify("{} puts {} back on top of deck".format(me, card))
 		card.isFaceUp = False
+
 def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='bottom', reveal=True, specialaction='NONE', specialaction_civs = []):
 	mute()
 	notify("{} looks at the top {} Cards of their deck".format(me, num))
@@ -1048,6 +1050,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 
 def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False):
 	mute()
+	
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
 	cardlist = []
@@ -1112,7 +1115,12 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 				if cardScripts.get(surv.name, {}).get('onDestroy', []):
 					functionDict.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionDict:
-			eval(function)
+			waitingFunct.append(function)
+	global alreadyEvaluating
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 	if len(opponentList):
 		remoteCall(opponentList[0].owner, "destroyAll", [opponentList, False])
 
@@ -1256,6 +1264,34 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, condition='True', condi
 		else:
 			remoteCall(card.owner, "toHand", card)
 
+#for Effects that return shield and don't trigger shield triggers
+def bounceShield(count = 1, selfOnly=True):
+	mute()
+	cardList = []
+	if selfOnly:
+		cardList = [card for card in table if isShield(card) and card.controller == me]
+	else:
+		cardList = [card for card in table if isShield(card)]
+	if len(cardList) == 0: return
+	
+	count = min(count, len(cardList))
+	targets = [c for c in table if c.targetedBy == me]
+	if len(targets) != count:
+		return True #forcing octgn to go to targets function and wait
+
+	bounceList = []
+	for i in range(0, count):
+		if (targets[i] in cardList):
+			choice = targets[i]
+			bounceList.append(choice)
+			whisper("{}.".format(choice))
+		else:
+			whisper("Wrong target(s)!")
+			return True #true return forces wait. The same function is called again when targets change.
+		
+	for card in bounceList:
+		remoteCall(card.owner, "toHand", [card, False])
+
 def gear(str):
 	mute()
 	if str == 'kill':
@@ -1390,7 +1426,7 @@ def semiReset():
 
 # Special Card Group Automatization
 
-def waveStrikerOnPlay(functionArray, card):
+def waveStriker(functionArray, card):
 	if isinstance(functionArray, str):
 		functionArray=[functionArray]
 	global wscount
@@ -1398,14 +1434,6 @@ def waveStrikerOnPlay(functionArray, card):
 	if functionArray and wscount >= 3:
 		for funct in functionArray:
 				waitingFunct.append([card, funct.replace('wscount', repr(wscount))])
-
-def waveStrikerOnDestroy(functionArray, card):
-	if isinstance(functionArray, str):
-		functionArray=[functionArray]
-	global wscount
-	if functionArray and wscount >= 3:
-		for funct in functionArray:
-				eval(funct)
 
 #Special Card Automatization
 
@@ -1417,13 +1445,14 @@ def apocalypseVise():
 	while powerLeft>0 and len(creatureList)>0:
 		creatureChoice = askCard2(creatureList, 'Choose a Creature to destroy.')
 		if type(creatureChoice) is not Card: break
-		powerLeft=powerLeft-int(creatureChoice.Power.strip('+'))
+		powerLeft = powerLeft-int(creatureChoice.Power.strip('+'))
+		creatureChoice.target()
 		creaturesToDestroy.append(creatureChoice)
 		creatureList.remove(creatureChoice)
-		remoteCall(creatureChoice.owner, "destroy", creatureChoice)
-		update()
 		notify("Apocalypse Vise - Power Spent: {}".format(8000-powerLeft))
 		creatureList = [card for card in creatureList if int(card.Power.strip('+'))<=powerLeft]
+
+	destroyAll(creaturesToDestroy, False)
 
 def carnivalTotem():
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
@@ -1826,13 +1855,13 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 					# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
 					for function in functionList:
 						waitingFunct.append([card, function])
-					evaluateWaitingFunctions()
 				else:
 					card.orientation = Rot0
 
 		# Untap Mana
 		if card.orientation == Rot270:
 			card.orientation = Rot180
+	evaluateWaitingFunctions()
 	notify("{} untaps all their cards.".format(me))
 
 #called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
@@ -1972,7 +2001,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				if cardScripts.get(surv.name, {}).get('onDestroy', []):
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
-			eval(function)
+			waitingFunct.append([card, function])
+		evaluateWaitingFunctions()
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
