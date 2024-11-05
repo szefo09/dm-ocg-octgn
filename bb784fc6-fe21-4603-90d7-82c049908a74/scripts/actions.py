@@ -1367,7 +1367,12 @@ def handleTapUntapCreature(card):
 			# 			functionList.extend(cardScripts.get(surv.name).get('onTap'))
 			for function in functionList:
 				waitingFunct.append([card, function])
-			evaluateWaitingFunctions()
+			global alreadyEvaluating
+			if not alreadyEvaluating:
+				alreadyEvaluating = True
+				evaluateWaitingFunctions()
+				alreadyEvaluating = False
+
 				
 	else:
 		notify('{} untaps {}.'.format(me, card))
@@ -1410,8 +1415,8 @@ def selfDiscard(count=1):
 
 def toPlayAfterDiscard(card, onlyOnOpponentTurn = True):
 	if not onlyOnOpponentTurn or getActivePlayer() != me:
-		choice = askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.Name), ["Yes", "No"])
-		if choice != 1:
+		choice = askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+		if choice == 1:
 			toPlay(card) 
 
 def suicide(name, action, arg):
@@ -1610,11 +1615,11 @@ def soulSwap():
 
 def tanzanyte():
 	cardList = [card for card in me.piles['Graveyard'] if re.search('Creature', card.Type)]
-	choice = askCard2(sort_cardList(cardsInGroup), 'Select a Creature to return all copies of from Graveyard.')
+	choice = askCard2(sort_cardList(cardList), 'Select a Creature to return all copies of from Graveyard.')
 	if type(choice) is not Card: return
 	for card in cardList:
 		if card.Name == choice.Name:
-			toHand(choice, True)	
+			toHand(card, True)	
 
 def craniumClamp():
 	mute()
@@ -1913,7 +1918,9 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				card.orientation = Rot0
 			elif isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
 				choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-				if choice != 1: return
+				if choice != 1: 
+					card.orientation = Rot0
+					return
 
 				notify('{} uses Silent Skill of {}'.format(me, card))
 				functionList=[]
@@ -1926,8 +1933,6 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
 				for function in functionList:
 					waitingFunct.append([card, function])
-				else:
-					card.orientation = Rot0
 
 		# Untap Mana
 		if card.orientation == Rot270:
