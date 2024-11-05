@@ -259,7 +259,7 @@ cardScripts = {
 	'Magic Shot - Sword Launcher': {'onPlay': [' kill(3000)']},
 	'Mana Bonanza': {'onPlay': ['massMana(me.Deck, False)']},
 	'Miraculous Plague': {'onPlay':['miraculousPlague()']},
-	'Miraculous Rebirth': {'onPlay': ['kill(5000)', 'fromDeck()']},
+	'Miraculous Rebirth': {'onPlay': ['miraculousRebirth()']},
 	'Miraculous Snare': {'onPlay': ['sendToShields(1, False)']},
 	'Moonlight Flash': {'onPlay': ['tapCreature(2)']},
 	'Morbid Medicine': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
@@ -443,8 +443,11 @@ def onTarget(args): #this is triggered by OCTGN events when any card is targeted
 	numberOfTargets = len([c for c in table if c.targetedBy == me])
 	if numberOfTargets == 0:
 		return
-	if waitingFunct:
+	global alreadyEvaluating
+	if waitingFunct and not alreadyEvaluating:
+		alreadyEvaluating = True
 		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 
 def onArrow(args):
 	player = args.player
@@ -539,6 +542,8 @@ def antiDiscard(card, sourcePlayer):
 def waitForTarget():
 	whisper("Waiting for targets. Please (re)target...")
 	whisper("[Esc to cancel]")
+	global alreadyEvaluating 
+	alreadyEvaluating = False
 	#now wait for user to target - event trigger will run def onTarget
 	return
 
@@ -994,13 +999,13 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 			choice = askCard2(sort_cardList(cardsInGroup), dialogText)
 			if type(choice) is not Card:
 				group.shuffle()
-				notify("{} finishes searching his/her {}.".format(me, group.name))
+				notify("{} finishes searching their {}.".format(me, group.name))
 				return
 			if choice in cardsInGroup_CivTypeandRace_Filtered:
 				toHand(choice, show)
 				break
 	group.shuffle()
-	notify("{} finishes searching his/her {}.".format(me, group.name))
+	notify("{} finishes searching their {}.".format(me, group.name))
 
 def fromDeckToGrave(count=1):
 	mute()
@@ -1121,15 +1126,15 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		toDiscard(cardToBeSaved)
 		card = cardToBeSaved  # fix for onDestroy effect, as toDiscard somehow changes card
 		
-		functionDict=[]
+		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
-			functionDict = cardScripts.get(card.Name).get('onDestroy')
+			functionList = cardScripts.get(card.Name).get('onDestroy')
 		if re.search("Survivor", card.Race):
 			for surv in survivors:
 				if cardScripts.get(surv.name, {}).get('onDestroy', []):
-					functionDict.extend(cardScripts.get(surv.name).get('onDestroy'))
-		for function in functionDict:
-			waitingFunct.append(function)
+					functionList.append(cardScripts.get(surv.name).get('onDestroy'))
+		for function in functionList:
+			waitingFunct.append([card, function])
 	global alreadyEvaluating
 	if not alreadyEvaluating:
 		alreadyEvaluating = True
@@ -1357,7 +1362,6 @@ def handleTapUntapCreature(card):
 			if choice != 1: return
 
 			notify('{} uses Tap Effect of {}'.format(me, card))
-			functionList=[]
 			functionList = cardScripts.get(card.Name).get('onTap')
 			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
 			# if re.search("Survivor", card.Race):
@@ -1595,6 +1599,42 @@ def _miraculousPlagueChooseToHand(cardList):
 	cardList.remove(cardToHand)
 	toHand(cardToHand)
 	destroy(cardList[0])
+
+def miraculousRebirth():
+	mute()
+	cardList = [card for card in table if
+				isCreature(card) and 
+				not card.owner == me and
+				int(card.Power.strip('+')) <= 5000]
+	if len(cardList) == 0:
+		whisper("No valid targets on the table.")
+		return
+	targetCard = [c for c in table if c.targetedBy == me and c in cardList]
+	if len(targetCard) != 1:
+		whisper("Wrong number of targets!")
+		return True
+	remoteCall(targetCard[0].owner, "destroy", targetCard[0])
+	targetCost = int(targetCard[0].Cost)
+	notify('Miraculous Rebirth destroys a Creature that costs {} Mana.'.format(targetCost))
+
+	group = me.deck
+	if len(group) == 0: return
+	cardsInGroup = sort_cardList([card for card in group])
+	validChoice = None
+	while (True):
+		choice = askCard2(cardsInGroup, 'Search a Creature with {} Cost to put to Play'.format(targetCost))
+		if type(choice) is not Card:
+			group.shuffle()
+			notify("{} finishes searching their {}.".format(me, group.name))
+			return
+		if int(choice.Cost) == targetCost:
+			validChoice = choice
+			break
+	group.shuffle()
+	notify("{} finishes searching their {}.".format(me, group.name))
+	toPlay(validChoice)
+		
+	
 
 def rothus():
 	sacrifice()
@@ -1923,7 +1963,6 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 					return
 
 				notify('{} uses Silent Skill of {}'.format(me, card))
-				functionList=[]
 				functionList = cardScripts.get(card.Name).get('silentSkill')
 				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 				# if re.search("Survivor", card.Race):
