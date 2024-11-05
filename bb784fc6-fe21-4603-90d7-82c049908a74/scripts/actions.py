@@ -376,6 +376,10 @@ cardScripts = {
 									'onPlay':['lookAtCards(3)']},
 	'Terradragon Arque Delacerna': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
 
+	# ON TAP EFFECTS
+
+	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
+
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 	
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
@@ -1785,12 +1789,27 @@ def untapAll(group=table, x=0, y=0):
 			card.orientation = Rot180
 	notify("{} untaps all their cards.".format(me))
 
-def tap(card, x=0, y=0):
+#called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
+def handleTapUntapCreature(card, x=0, y=0):
 	mute()
 	clearWaitingFuncts()
 	card.orientation ^= Rot90
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
+		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []):
+			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+			if choice:
+				functionList=[]
+				functionList = cardScripts.get(card.Name).get('onTap')
+				#There are currently no survivors that have Tap abilities.
+				# if re.search("Survivor", card.Race):
+				# 	survivors = getSurvivorsOnYourTable()
+				# 	for surv in survivors:
+				# 		if cardScripts.get(surv.name, {}).get('onTap', []):
+				# 			functionList.extend(cardScripts.get(surv.name).get('onTap'))
+				for function in functionList:
+					waitingFunct.append([card, function])
+				evaluateWaitingFunctions()
 	else:
 		notify('{} untaps {}.'.format(me, card))
 
@@ -1801,8 +1820,7 @@ def tapMultiple(cards, x=0, y=0): #batchExecuted for multiple cards tapped at on
 	creatures = [card for card in cards if isCreature(card)]
 	tappedMana = 0
 	for card in creatures:
-		card.orientation ^= Rot90
-		notify('{} taps {}.'.format(me, card)) if card.orientation & Rot90 == Rot90 else notify('{} untaps {}.'.format(me, card))
+		handleTapUntapCreature(card)
 			
 	for card in mana:
 		card.orientation ^= Rot90
