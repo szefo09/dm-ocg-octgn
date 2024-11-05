@@ -369,14 +369,14 @@ cardScripts = {
 
 	#ON DISCARD FROM HAND 
 	
-	'Bingole, the Explorer': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
-	'Dava Torey, Seeker of Clouds': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
-	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None'], 
+	'Bingole, the Explorer': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Dava Torey, Seeker of Clouds': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard':['toPlayAfterDiscard(card)'], 
 									'onPlay':['lookAtCards(3)']},
-	'Sanfist, the Savage Vizier': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
-	'Sir Matthias, Ice Fang Admiral': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None'], 
+	'Sanfist, the Savage Vizier': {'onDiscard':['toPlayAfterDiscard(card)']},
+	'Sir Matthias, Ice Fang Admiral': {'onDiscard':['toPlayAfterDiscard(card)'], 
 									'onPlay':['lookAtCards(3)']},
-	'Terradragon Arque Delacerna': {'onDiscard':['toPlay(card) if getActivePlayer() != me else None']},
+	'Terradragon Arque Delacerna': {'onDiscard':['toPlayAfterDiscard(card)']},
 
 	# ON TAP EFFECTS
 
@@ -1329,6 +1329,35 @@ def gear(str):
 		else:
 			remoteCall(choice.owner, 'toMana', choice)
 
+#Called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
+def handleTapUntapCreature(card):
+	mute()
+	clearWaitingFuncts()
+	card.orientation ^= Rot90
+	if card.orientation & Rot90 == Rot90:
+		notify('{} taps {}.'.format(me, card))
+		global arrow
+		#Tap Effects can only activate during active Player's turn.
+		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
+			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+			if choice != 1: return
+			
+			notify('{} uses Tap Effect of {}'.format(me, card))
+			functionList=[]
+			functionList = cardScripts.get(card.Name).get('onTap')
+			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
+			# if re.search("Survivor", card.Race):
+			# 	survivors = getSurvivorsOnYourTable()
+			# 	for surv in survivors:
+			# 		if cardScripts.get(surv.name, {}).get('onTap', []):
+			# 			functionList.extend(cardScripts.get(surv.name).get('onTap'))
+			for function in functionList:
+				waitingFunct.append([card, function])
+			evaluateWaitingFunctions()
+				
+	else:
+		notify('{} untaps {}.'.format(me, card))
+
 def sendToShields(count=1, opponentOnly=True):
 	mute()
 	for i in range(0, count):
@@ -1361,6 +1390,12 @@ def selfDiscard(count=1):
 			# do anti-discard check here
 		toDiscard(cardChoice)
 		update()
+
+def toPlayAfterDiscard(card, onlyOnOpponentTurn = True):
+	if not onlyOnOpponentTurn or getActivePlayer() != me:
+		choice = askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.Name), ["Yes", "No"])
+		if choice != 1:
+			toPlay(card) 
 
 def suicide(name, action, arg):
 	mute()
@@ -1843,18 +1878,19 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				card.orientation = Rot0
 			elif isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
 				choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-				if choice == 1:
-					notify('{} uses Silent Skill of {}'.format(me, card))
-					functionList=[]
-					functionList = cardScripts.get(card.Name).get('silentSkill')
-					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
-					# if re.search("Survivor", card.Race):
-					# 	survivors = getSurvivorsOnYourTable()
-					# 	for surv in survivors:
-					# 		if cardScripts.get(surv.name, {}).get('silentSkill', []):
-					# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
-					for function in functionList:
-						waitingFunct.append([card, function])
+				if choice != 1: return
+
+				notify('{} uses Silent Skill of {}'.format(me, card))
+				functionList=[]
+				functionList = cardScripts.get(card.Name).get('silentSkill')
+				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
+				# if re.search("Survivor", card.Race):
+				# 	survivors = getSurvivorsOnYourTable()
+				# 	for surv in survivors:
+				# 		if cardScripts.get(surv.name, {}).get('silentSkill', []):
+				# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
+				for function in functionList:
+					waitingFunct.append([card, function])
 				else:
 					card.orientation = Rot0
 
@@ -1867,34 +1903,6 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		evaluateWaitingFunctions()
 		alreadyEvaluating = False
 	notify("{} untaps all their cards.".format(me))
-
-#called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
-def handleTapUntapCreature(card, x=0, y=0):
-	mute()
-	clearWaitingFuncts()
-	card.orientation ^= Rot90
-	if card.orientation & Rot90 == Rot90:
-		notify('{} taps {}.'.format(me, card))
-		global arrow
-		#Tap Effects can only activate during active Player's turn.
-		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
-			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-			if choice == 1:
-				notify('{} uses Tap Effect of {}'.format(me, card))
-				functionList=[]
-				functionList = cardScripts.get(card.Name).get('onTap')
-				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
-				# if re.search("Survivor", card.Race):
-				# 	survivors = getSurvivorsOnYourTable()
-				# 	for surv in survivors:
-				# 		if cardScripts.get(surv.name, {}).get('onTap', []):
-				# 			functionList.extend(cardScripts.get(surv.name).get('onTap'))
-				for function in functionList:
-					waitingFunct.append([card, function])
-				evaluateWaitingFunctions()
-				
-	else:
-		notify('{} untaps {}.'.format(me, card))
 
 def tapMultiple(cards, x=0, y=0): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
