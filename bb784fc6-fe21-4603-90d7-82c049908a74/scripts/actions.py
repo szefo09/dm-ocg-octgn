@@ -1810,7 +1810,9 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 			continue
 		# Untap Creatures
 		if card.orientation == Rot90:
-			if isNewTurn and isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
+			if not isNewTurn:
+				card.orientation = Rot0
+			elif isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
 				choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 				if choice == 1:
 					notify('{} uses Silent Skill of {}'.format(me, card))
@@ -1827,8 +1829,6 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 					evaluateWaitingFunctions()
 				else:
 					card.orientation = Rot0
-			else: 
-				card.orientation = Rot0
 
 		# Untap Mana
 		if card.orientation == Rot270:
