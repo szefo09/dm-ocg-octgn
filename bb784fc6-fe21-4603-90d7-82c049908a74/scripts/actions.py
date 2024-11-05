@@ -381,6 +381,11 @@ cardScripts = {
 
 	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
 
+	#SILENT SKILL EFFECTS
+	
+	'Hustle Berry': {'silentSkill':['mana(me.Deck)']},
+	'Soderlight, the Cold Blade': {'silentSkill':['opponentSacrifice()']},
+
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 	
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
@@ -410,7 +415,7 @@ def endTurn(args, x=0, y=0):
 			whisper("It's not your turn")
 		else:
 			notify("{} ends their turn.".format(me))
-			remoteCall(nextPlayer, 'untapAll', table)
+			remoteCall(nextPlayer, 'untapAll', [table, True])
 			nextTurn(nextPlayer, True)
 	else:
 		# The first turn. Can be passed to anyone.
@@ -1797,14 +1802,35 @@ def rollDie(group, x=0, y=0):
 	n = rnd(1, diesides)
 	notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
-def untapAll(group=table, x=0, y=0):
+def untapAll(group=table, isNewTurn=False, x=0, y=0):
 	mute()
 	clearWaitingFuncts()
 	for card in group:
 		if not card.owner == me:
 			continue
+		# Untap Creatures
 		if card.orientation == Rot90:
-			card.orientation = Rot0
+			if isNewTurn and isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
+				choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+				if choice == 1:
+					notify('{} uses Silent Skill of {}'.format(me, card))
+					functionList=[]
+					functionList = cardScripts.get(card.Name).get('silentSkill')
+					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
+					# if re.search("Survivor", card.Race):
+					# 	survivors = getSurvivorsOnYourTable()
+					# 	for surv in survivors:
+					# 		if cardScripts.get(surv.name, {}).get('silentSkill', []):
+					# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
+					for function in functionList:
+						waitingFunct.append([card, function])
+					evaluateWaitingFunctions()
+				else:
+					card.orientation = Rot0
+			else: 
+				card.orientation = Rot0
+
+		# Untap Mana
 		if card.orientation == Rot270:
 			card.orientation = Rot180
 	notify("{} untaps all their cards.".format(me))
@@ -1820,7 +1846,7 @@ def handleTapUntapCreature(card, x=0, y=0):
 		#Tap Effects can only activate during active Player's turn.
 		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
 			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-			if choice:
+			if choice == 1:
 				notify('{} uses Tap Effect of {}'.format(me, card))
 				functionList=[]
 				functionList = cardScripts.get(card.Name).get('onTap')
@@ -1833,6 +1859,7 @@ def handleTapUntapCreature(card, x=0, y=0):
 				for function in functionList:
 					waitingFunct.append([card, function])
 				evaluateWaitingFunctions()
+				
 	else:
 		notify('{} untaps {}.'.format(me, card))
 
