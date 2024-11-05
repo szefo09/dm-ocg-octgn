@@ -60,7 +60,7 @@
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clear" />
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" batchExecute="tapMultiple" />
 		<cardaction menu="Play Card" execute="toPlay" />
-		<cardaction menu="Destroy Card / Break Shield" shortcut="del" execute="destroy" />
+		<cardaction menu="Destroy Card / Break Shield" shortcut="del" batchExecute="destroyMultiple" />
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />

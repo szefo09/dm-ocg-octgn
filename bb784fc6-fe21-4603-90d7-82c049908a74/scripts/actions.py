@@ -397,12 +397,12 @@ cardScripts = {
 	
 	#ON YOUR TURN END EFFECTS
 
-	'Aqua Officer': {},
-	'Balesk Baj, the Timeburner': {},
-	'Ballus, Dogfight Enforcer Q': {},
-	'Bazagazeal Dragon': {},
-	'Cutthroat Skyterror': {},
-	'Pyrofighter Magnus': {},
+	'Aqua Officer': {'onTurnEnd': ['tapCreature(2, onlyOwn=True)']},
+	'Balesk Baj, the Timeburner': {'onTurnEnd': ['toHand(card)']},
+	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': ['untap(card, False)']},
+	'Bazagazeal Dragon': {'onTurnEnd': ['toHand(card)']},
+	'Cutthroat Skyterror': {'onTurnEnd': ['toHand(card)']},
+	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
 
 	#SILENT SKILL EFFECTS
 	
@@ -437,8 +437,8 @@ def endTurn(args, x=0, y=0):
 		elif getActivePlayer() != me:
 			whisper("It's not your turn")
 		else:
-			notify("{} ends their turn.".format(me))
 			processOnTurnEndEffects()
+			notify("{} ends their turn.".format(me))
 			remoteCall(nextPlayer, 'untapAll', [table, True])
 			nextTurn(nextPlayer, True)
 	else:
@@ -558,24 +558,28 @@ def waitForTarget():
 	return
 
 def evaluateWaitingFunctions():
+	whisper("I was called!")
+	notify("{}".format(waitingFunct))
 	while len(waitingFunct)>0:
+			
 			card = waitingFunct[0][0]
+			notify("{}, {}".format(card,waitingFunct[0][1]))
 			waitingForTarget = eval(waitingFunct[0][1]) #stored in the form [card, function]
 			if waitingForTarget:
+				notify("{}, {} WAITS FOR TARGET".format(card,waitingFunct[0][1]))
 				waitForTarget()
 				break #stop evaluating further functions, will start again when target is triggered
 			else:
-				#notify("DEBUG: card, function deQueued: {}".format(waitingFunct[0]))
+				notify("DEBUG: card, function deQueued: {}".format(waitingFunct[0]))
 				cardBeingPlayed = waitingFunct[0][0]
 				del waitingFunct[0] #deQueue
 				if len(waitingFunct)==0:
 					endOfFunctionality(cardBeingPlayed)
 				elif cardBeingPlayed != waitingFunct[0][0]: #the next card is a different one
 					endOfFunctionality(cardBeingPlayed)
-				#notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
+				notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
 
 def clearWaitingFuncts():  # clears any pending plays for a card that's waiting to choose targets etc
-	global alreadyEvaluating
 	if waitingFunct:
 		for funct in waitingFunct:
 			cardBeingPlayed = waitingFunct[0][0]
@@ -917,7 +921,7 @@ def loopThroughDeck(card, play=False):
 	newCard = group[0]
 	newCard.isFaceUp = True
 	notify("{} reveals {}".format(card.owner, newCard.Name))
-	rnd(1, 1000)
+
 	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
 		if play == True:
 			remoteCall(newCard.owner, 'toPlay', newCard)
@@ -947,7 +951,7 @@ def eurekaProgram(ask=True):
 		card.isFaceUp = True
 		cost = int(card.Cost)
 		notify("{} reveals {}".format(me, card))
-		rnd(1, 10)
+
 		if (int(card.Cost) - originalCost) == 1:
 			if re.search("Creature", card.Type):
 				if not re.search("Evo", card.Type):
@@ -1077,30 +1081,30 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 	for card in killList:
 		remoteCall(card.owner, "destroy", card)
 
-def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False):
+def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, dontAsk=False):
 	mute()
-	
+
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
 	cardlist = []
 	if condition == True:
 		if civFilter == "ALL":
-			cardList = [card for card in group if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter)]
+			cardList = [card for card in cards if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter)]
 		else:
 			if AllExceptFiltered:
-				cardList = [card for card in group if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
+				cardList = [card for card in cards if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 				and not re.search(civFilter, card.properties['Civilization'])]
 			else:
-				cardList = [card for card in group if
+				cardList = [card for card in cards if
 						isCreature(card) (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 						and re.search(civFilter, card.properties['Civilization'])]
 	else:
-		cardList=group
+		cardList = group
 	
 	if len(cardList) == 0:
 		return
 	
-	if condition:
+	if not dontAsk and condition:
 		if askYN('Destroy automatically?') != 1: return
 	global wscount
 	if not wscount:
@@ -1138,11 +1142,13 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
+			notify('Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
 			functionList = cardScripts.get(card.Name).get('onDestroy')
 		if re.search("Survivor", card.Race):
 			for surv in survivors:
-				if cardScripts.get(surv.name, {}).get('onDestroy', []):
-					functionList.append(cardScripts.get(surv.name).get('onDestroy'))
+				if surv != card and cardScripts.get(surv.name, {}).get('onDestroy', []):
+					notify('Added {} to {}'.format(cardScripts.get(surv.name).get('onDestroy'), card.Name))
+					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
 	global alreadyEvaluating
@@ -1361,7 +1367,6 @@ def gear(str):
 #Called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
 def processTapUntapCreature(card):
 	mute()
-	clearWaitingFuncts()
 	card.orientation ^= Rot90
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
@@ -1393,22 +1398,27 @@ def processTapUntapCreature(card):
 
 def processOnTurnEndEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
+	survivors = getSurvivorsOnYourTable(False)
 	for card in cardList:
-		if cardScripts.get(card.name, {}).get('onTurnEnd', []):
-			notify('{} acitvates at the end of {}\'s turn'.format(card, me))
-			functionList = cardScripts.get(card.Name).get('onTurnEnd')
+		functions = cardScripts.get(card.name, {}).get('onTurnEnd', [])
+		if functions:
+			functionList = []
+			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
+			for function in functions:
+				functionList.append([card, function])
+			#Share your onTurnEnd effect with other survivors.
 			if re.search("Survivor", card.Race):
-				survivors = getSurvivorsOnYourTable()
 				for surv in survivors:
-					if cardScripts.get(surv.name, {}).get('onTurnEnd', []):
-						functionList.extend(cardScripts.get(surv.name).get('onTurnEnd'))
+					if surv != card:
+						for function in functions:
+							functionList.append([surv, function])
 			for function in functionList:
-				waitingFunct.append([card, function])
-			global alreadyEvaluating
-			if not alreadyEvaluating:
-				alreadyEvaluating = True
-				evaluateWaitingFunctions()
-				alreadyEvaluating = False
+				waitingFunct.append(function)	
+	global alreadyEvaluating
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 
 def sendToShields(count=1, opponentOnly=True, selfOnly = False):
 	mute()
@@ -1468,10 +1478,13 @@ def opponentSacrifice(sacrificeArgs=[]):
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
 
-def tapCreature(count=1, targetALL=False, includeOwn=False):
+def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 	mute()
 	if targetALL:
-		if includeOwn == True:
+		if onlyOwn:
+			cardList = [card for card in table if
+						isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
+		elif includeOwn == True:
 			cardList = [card for card in table if
 						isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
 		else:
@@ -1484,7 +1497,10 @@ def tapCreature(count=1, targetALL=False, includeOwn=False):
 			remoteCall(card.owner, "tap", card)
 	else:
 		for i in range(0, count):
-			if includeOwn == True:
+			if onlyOwn:
+				cardList = [card for card in table if
+							isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
+			elif includeOwn == True:
 				cardList = [card for card in table if
 							isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
 			else:
@@ -1662,8 +1678,6 @@ def miraculousRebirth():
 	group.shuffle()
 	notify("{} finishes searching their {}.".format(me, group.name))
 	toPlay(validChoice)
-		
-	
 
 def rothus():
 	sacrifice()
@@ -1963,7 +1977,7 @@ def setup(group, x=0, y=0):
 	me.setGlobalVariable("shieldCount", "0")
 	me.setGlobalVariable("evolution", "{}")
 	me.Deck.shuffle()
-	rnd(1, 10)
+
 	for card in me.Deck.top(5): toShields(card, notifymute=True)
 	for card in me.Deck.top(5): card.moveTo(card.owner.hand)
 	align()
@@ -1997,6 +2011,7 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				# if re.search("Survivor", card.Race):
 				# 	survivors = getSurvivorsOnYourTable()
 				# 	for surv in survivors:
+				#		if surv == card: continue
 				# 		if cardScripts.get(surv.name, {}).get('silentSkill', []):
 				# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
 				for function in functionList:
@@ -2012,9 +2027,15 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		alreadyEvaluating = False
 	notify("{} untaps all their cards.".format(me))
 
-def tapMultiple(cards, x=0, y=0): #batchExecuted for multiple cards tapped at once(manually)
+def destroyMultiple(cards, x=0, y=0):
+	if len(cards) == 1:
+		destroy(cards[0])
+	else: destroyAll(cards, dontAsk=True)
+
+def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
-	clearWaitingFuncts()
+	if clearFunctions:
+		clearWaitingFuncts()
 	mana = [card for card in cards if isMana(card)]
 	creatures = [card for card in cards if isCreature(card)]
 	tappedMana = 0
@@ -2045,7 +2066,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			toDiscard(card)
 			return
 		card.peek()
-		rnd(1, 10)
+
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
@@ -2056,7 +2077,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
-				rnd(1, 10)
+
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
 				card.isFaceUp = True
 				toPlay(card, notifymute=True)
@@ -2084,7 +2105,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					choice = askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
 						shieldCard.isFaceUp = True
-						rnd(1, 100)
+
 						toPlay(choice, notifymute=True)
 						toDiscard(shieldCard)
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
@@ -2127,7 +2148,15 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			alreadyEvaluating = True
 			evaluateWaitingFunctions()
 			alreadyEvaluating = False
-		
+
+def untap(card, ask = True):
+	if card.orientation == Rot90:
+		if ask:
+			card.target()
+			choice = askYN("Would you like to Untap {}?".format(card.name))
+			card.target(False)
+			if choice != 1: return
+		tapMultiple([card], clearFunctions=False)
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
