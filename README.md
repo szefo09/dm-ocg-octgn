@@ -1,9 +1,9 @@
 ## This is the Duel Masters OCG Definition for OCTGN 
 #### based on https://github.com/PranjalBishtNX/dm-ocg-octgn with new automations and fixes for existing cards.
-
-#### *I'm a freelance developer doing this in my free time. If you feel that what I'm doing it worthwhile for the community and deserves a coffee, consider donating to [my Paypal](<https://www.paypal.com/paypalme/szefo09>)*
-
 All automations are based on python. OCTGN plugin dev refernce: https://github.com/octgn/OCTGN/wiki https://github.com/octgn/OCTGN/wiki/OCTGN-Python-3.1.0.2-API-Reference
+
+
+### *I'm a freelance developer doing this in my free time. If you feel that what I'm doing it worthwhile for the community and deserves a coffee, consider donating to [my Paypal](<https://www.paypal.com/paypalme/szefo09>)*
 
 ## Changelog
 
