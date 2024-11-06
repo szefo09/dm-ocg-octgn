@@ -28,6 +28,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Dorballom, Lord of Demons**: Destroys all non-darkness creatures and puts non-darkness mana into graveyard.
   - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
   - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
+  - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -62,19 +63,26 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **New Cards Added**:
     - Hustle Berry,
     - Soderlight, the Cold Blade
-
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
-    - Aqua Officer
-    - Balesk Baj, the Timeburner
-    - Ballus, Dogfight Enforcer Q
-    - Bazagazeal Dragon
-    - Cutthroat Skyterror
+    - Aqua Officer,
+    - Balesk Baj, the Timeburner,
+    - Ballus, Dogfight Enforcer Q,
+    - Bazagazeal Dragon,
+    - Cutthroat Skyterror,
     - Pyrofighter Magnus
+- **"At the start of your turn" Effects Added**:
+  - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
+  - **New Cards Added**:
+    - Aloro, Ward God,
+    - Cosmic Nebula,
+    - Cosmoview Lunatron,
+    - Wingeye Moth
 
 - **Other Improvements**
-  - **Added Implementation for Graveyard, Super Infinite Graveyard, Hand and Mana Evolution**: Just play them and you'll see.
+  - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
+  - **Added Implementation for Evolutions: Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
@@ -88,6 +96,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Skeleton Vice**: Correctly discards two cards at random.
   - **Galek, the Shadow Warrior**: Allows you to destroy enemy blocker.
   - **Wind Axe, the Warrior Savage**: Allows you to destroy enemy blocker.
+  - **Pakurio**: Now will properly set the card as a shield.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).

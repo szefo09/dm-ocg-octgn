@@ -116,7 +116,7 @@ cardScripts = {
 	'Nam=Daeddo, Bronze Style': {'onPlay': ['mana(me.Deck, preCondition=manaArmsCheck("Nature",3))']},
 	'Niofa, Horned Protector': {'onPlay': ['search(me.Deck, 1, "ALL", "Nature")']},
 	'Ochappi, Pure Hearted Faerie': {'onPlay': ['fromGrave()']},
-	'Pakurio': {'onPlay': [' targetDiscard(False,"shields")']},
+	'Pakurio': {'onPlay': [' targetDiscard(False,"shield")']},
 	'Phal Eega, Dawn Guardian': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Phal Pierro, Apocalyptic Guardian': {'onPlay': ['suicide("Phal Pierro, Apocalyptic Guardian", fromGrave, )']},
 	'Phal Reeze, Apocalyptic Sage': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
@@ -201,6 +201,7 @@ cardScripts = {
 	'Slash Charger': {'onPlay': ['fromDeckToGrave()']},
 	'Dracobarrier': {'onPlay': ['tapCreature()']},
 	'Drill Bowgun': {'onPlay': ['gear("kill")']},
+	'Emeral': {'onPlay': ['emeral()']},
 	'Emergency Typhoon':{'onPlay':['draw(me.Deck, True, 2)','selfDiscard()'],},
 	'Enchanted Soil': {'onPlay': ['fromGrave()']},
 	'Energy Stream': {'onPlay': ['draw(me.Deck, False, 2)']},
@@ -397,12 +398,18 @@ cardScripts = {
 	
 	#ON YOUR TURN END EFFECTS
 
-	'Aqua Officer': {'onTurnEnd': ['tapCreature(2, onlyOwn=True)']},
+	'Aqua Officer': {'onTurnEnd': ['tapCreature(2, onlyOwn=True)'], 'onTurnStart': ['draw(me.Deck, True, 2)']},
 	'Balesk Baj, the Timeburner': {'onTurnEnd': ['toHand(card)']},
 	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': ['untap(card, False)']},
 	'Bazagazeal Dragon': {'onTurnEnd': ['toHand(card)']},
 	'Cutthroat Skyterror': {'onTurnEnd': ['toHand(card)']},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
+
+	#ON YOUR TURN START EFFECTS
+	'Aloro, War God': {'onTurnStart': ['fromMana(1,"ALL","ALL","ALL",True,True)']},
+	'Cosmic Nebula': {'onTurnStart': ['draw(me.Deck, True)']},
+	'Cosmoview Lunatron': {'onTurnStart': ['draw(me.Deck, True)']},
+	'Wingeye Moth': {'onTurnStart': ['draw(me.Deck, True)']},
 
 	#SILENT SKILL EFFECTS
 	
@@ -877,7 +884,7 @@ def clonedDiscard():
 
 # do some anti-discard inside dat randomdisc function
 
-def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False,ApplyToAllPlayers=False):
+def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, ApplyToAllPlayers=False):
 	mute()
 	if ApplyToAllPlayers == True:
 		playerList = players
@@ -1429,6 +1436,30 @@ def processOnTurnEndEffects():
 		evaluateWaitingFunctions()
 		alreadyEvaluating = False
 
+def processOnTurnStartEffects():
+	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
+	survivors = getSurvivorsOnYourTable(False)
+	for card in cardList:
+		functions = cardScripts.get(card.name, {}).get('onTurnStart', [])
+		if functions:
+			functionList = []
+			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
+			for function in functions:
+				functionList.append([card, function])
+			#Share your onTurnStart effect with other survivors.
+			if re.search("Survivor", card.Race):
+				for surv in survivors:
+					if surv != card:
+						for function in functions:
+							functionList.append([surv, function])
+			for function in functionList:
+				waitingFunct.append(function)	
+	global alreadyEvaluating
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
+
 def sendToShields(count=1, opponentOnly=True, selfOnly = False):
 	mute()
 	for i in range(0, count):
@@ -1595,6 +1626,18 @@ def dolmarks():
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sacrifice',[])
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
+
+def emeral():
+	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
+	choice = askYN("Use Emeral's effect?")
+	if choice != 1: return
+	handList = [card for card in me.hand]
+	if me.isInverted: reverse_cardList(handList)
+	cardFromHand = askCard2(handList)
+	if type(cardFromHand) is not Card: return
+	toShields(cardFromHand)
+	bounceShield()
+
 
 def klujadras():
 	for player in players:
@@ -2008,32 +2051,29 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		if card.orientation == Rot90:
 			if not isNewTurn:
 				card.orientation = Rot0
-			elif isCreature(card) and not isBait(card) and cardScripts.get(card.name, {}).get('silentSkill', []):
-				choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-				if choice != 1: 
-					card.orientation = Rot0
-					return
-
-				notify('{} uses Silent Skill of {}'.format(me, card))
-				functionList = cardScripts.get(card.Name).get('silentSkill')
-				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
-				# if re.search("Survivor", card.Race):
-				# 	survivors = getSurvivorsOnYourTable()
-				# 	for surv in survivors:
-				#		if surv == card: continue
-				# 		if cardScripts.get(surv.name, {}).get('silentSkill', []):
-				# 			functionList.extend(cardScripts.get(surv.name).get('silentSkill'))
-				for function in functionList:
-					waitingFunct.append([card, function])
+			elif isCreature(card) and not isBait(card):
+				if cardScripts.get(card.name, {}).get('silentSkill', []):
+					choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+					if choice != 1: 
+						card.orientation = Rot0
+						return
+					notify('{} uses Silent Skill of {}'.format(me, card))
+					functionList = cardScripts.get(card.Name).get('silentSkill')
+					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
+					for function in functionList:
+						waitingFunct.append([card, function])
+					global alreadyEvaluating
+					if not alreadyEvaluating:
+						alreadyEvaluating = True
+						evaluateWaitingFunctions()
+						alreadyEvaluating = False
 
 		# Untap Mana
 		if card.orientation == Rot270:
 			card.orientation = Rot180
-	global alreadyEvaluating
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+
+	if isNewTurn:
+		processOnTurnStartEffects()
 	notify("{} untaps all their cards.".format(me))
 
 def destroyMultiple(cards, x=0, y=0):
@@ -2371,31 +2411,84 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
 		textBox = 'Select Creature to put under Evolution{}'
-		if re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
+
+		if re.search("Deck Evolution", card.Rules, re.IGNORECASE):
+			if len(me.Deck) == 0: return
+			if re.search("Mad Deck Evolution", card.Rules, re.IGNORECASE):
+				notify("{} uses Deck Evolution of {}".format(me, card))
+				topCards = []
+				cardCount = min(3,len(me.Deck))
+				for i in range(0, cardCount):
+					c = me.Deck[i]
+					topCards.append(c)
+					c.isFaceUp = True
+					notify("{} reveals {} from the top of the Deck".format(me, c))
+				topCreatures = [c for c in topCards if re.search("Creature", c.Type)]
+				if len(topCreatures) == 0:
+					notify("No Creatures revealed.")
+					for c in topCards:
+						toDiscard(c)
+					return
+				choice = askCard2(topCreatures,textBox.format(''))
+				if type(choice) is not Card:
+					return
+				topCards.remove(choice)
+				for c in topCards:
+					toDiscard(c)
+				toPlay(choice, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
+				processEvolution(card,[choice])			
+			else:
+				topC = me.Deck[0]
+				topC.isFaceUp = True
+				notify("{} uses Deck Evolution of {}".format(me, card))
+				notify("{} reveals {} from the top of the Deck".format(me, topC.Name))
+				if re.search("Creature", topC.Type):
+					choice = askYN()
+					if choice != 1: 
+						return
+					toPlay(topC, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
+					processEvolution(card,[topC])
+				else:
+					notify("{} is not a Creature".format(topC.Name))
+					topC.isFaceUp = False
+					return
+		elif re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			isSuperInfinite = False
-			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE):
+			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE) or re.search("Graveyard Vortex Evolution", card.Rules, re.IGNORECASE):
 				isSuperInfinite = True
 			targets = []
+			if(isSuperInfinite): textBox = textBox.format(' (1 at a time, close this window to finish).')
 			while len(materialList)>0 and (isSuperInfinite or len(targets) < 1):
-				
-				if(isSuperInfinite): 
-					textBox = textBox.format(' (1 at a time, close this window to finish).')
 				choice = askCard2(materialList,textBox.format(''))
 				if type(choice) is not Card: break
 				targets.append(choice)
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
-			processEvolution(card, targets)
-			
+			processEvolution(card, targets)	
 		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
-			materialList = [c for c in table if isMana(c) and re.search("Creature", c.Type)]
+			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
 			if me.isInverted: reverse_cardList(materialList)
 			choice = askCard2(materialList,textBox.format(''))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Mana Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
+		elif re.search(r"Mana(?:\s+Galaxy)?\s+Vortex Evolution", card.Rules, re.IGNORECASE) :
+			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
+			if len(materialList)<2: 
+				whisper('Not enough Creatures in Mana for Vortex Evolution!')
+				return
+			if me.isInverted: reverse_cardList(materialList)
+			targets = []
+			while len(materialList)>0:
+				textBox = textBox.format(' (1 at a time, close this window to finish).')
+				choice = askCard2(materialList,textBox.format(''))
+				if type(choice) is not Card: break
+				targets.append(choice)
+				materialList.remove(choice)
+			for target in targets:
+				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand]
 			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
@@ -2404,8 +2497,44 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
-			
+		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE):
+			materialListGY = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
+			materialListMana = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
+			materialListBZ = [c for c in table if isCreature(c) and c.owner == me]
+			if me.isInverted:
+				reverse_cardList(materialListMana)
+				reverse_cardList(materialListBZ)
+			targetsGY = []
+			targetsMana = []
+			targetsBZ = []
+			textBox = textBox.format(' (1 at a time, close this window to finish).')
+			whisper("Pick cards from Graveyard, Mana and Battle Zone in that order. Close the Pop-Up to proceed to the next selection.")
+			while len(materialListGY)>0:
+				choice = askCard2(materialListGY,textBox.format(''))
+				if type(choice) is not Card: break
+				targetsGY.append(choice)
+				materialListGY.remove(choice)
+			while len(materialListMana)>0:
+				choice = askCard2(materialListMana,textBox.format(''))
+				if type(choice) is not Card: break
+				targetsMana.append(choice)
+				materialListMana.remove(choice)
+			while len(materialListBZ)>0:
+				choice = askCard2(materialListBZ,textBox.format(''))
+				if type(choice) is not Card: break
+				targetsBZ.append(choice)
+				materialListBZ.remove(choice)
+			targets = targetsGY + targetsMana + targetsBZ
+			if len(targets) < 1:
+				whisper('No targets selected!')
+				return
+			for target in targetsGY:
+				toPlay(target,0, 0,True,' for Super Infinite evolution Omega of {}'.format(card),True, True)
+			for target in targetsMana:
+				toPlay(target,0, 0,True,' for Super Infinite evolution Omega of {}'.format(card),True, True)
+			processEvolution(card,targets)
 		else: #Default Evolution
+			whisper('{}, {}'.format(card, isEvoMaterial))
 			targets = [c for c in table
 					   if c.controller == me
 					   and c.targetedBy == me]
