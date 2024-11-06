@@ -843,7 +843,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 			notify("Discard cancelled.")
 			return
 		cardList.remove(cardChoice)
-		if targetZone == 'shields':
+		if targetZone == 'shield':
 			whisper("Setting {} as shield.".format(cardChoice))
 			remoteCall(targetPlayer, 'toShields', cardChoice)
 		elif targetZone == 'grave':
@@ -1637,8 +1637,6 @@ def emeral(card):
 	if type(cardFromHand) is not Card: return
 	toShields(cardFromHand)
 	waitingFunct.append([card,'bounceShield()'])
-	
-
 
 def klujadras():
 	for player in players:
@@ -2054,6 +2052,7 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				card.orientation = Rot0
 			elif not isCreature(card) or isBait(card):
 				card.orientation = Rot0
+			#Silent Skill Check
 			elif cardScripts.get(card.name, {}).get('silentSkill', []):
 					choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 					if choice != 1: 
@@ -2078,6 +2077,7 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		processOnTurnStartEffects()
 	notify("{} untaps all their cards.".format(me))
 
+#Default call for Destroy (del key), handles mass creature destruction effects
 def destroyMultiple(cards, x=0, y=0):
 	if len(cards) == 1:
 		destroy(cards[0])
@@ -2087,8 +2087,6 @@ def destroyMultiple(cards, x=0, y=0):
 		for c in otherList:
 			destroy(c)
 		destroyAll(creatureList, dontAsk=True)
-
-
 		
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
