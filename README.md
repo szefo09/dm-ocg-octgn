@@ -28,6 +28,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Dorballom, Lord of Demons**: Destroys all non-darkness creatures and puts non-darkness mana into graveyard.
   - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
   - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
+  - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
+  - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -60,21 +62,32 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
-    - Hustle Berry,
-    - Soderlight, the Cold Blade
-
+    - Brad, Super Kickin' Dynamo
+	  - Flohdani, the Spydroid
+	  - Gazer Eyes, Shadow of Secrets
+	  - Hustle Berry
+	  - Soderlight, the Cold Blade
+	  - Vorg's Engine
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
-    - Aqua Officer
-    - Balesk Baj, the Timeburner
-    - Ballus, Dogfight Enforcer Q
-    - Bazagazeal Dragon
-    - Cutthroat Skyterror
+    - Aqua Officer,
+    - Balesk Baj, the Timeburner,
+    - Ballus, Dogfight Enforcer Q,
+    - Bazagazeal Dragon,
+    - Cutthroat Skyterror,
     - Pyrofighter Magnus
+- **"At the start of your turn" Effects Added**:
+  - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
+  - **New Cards Added**:
+    - Aloro, Ward God,
+    - Cosmic Nebula,
+    - Cosmoview Lunatron,
+    - Wingeye Moth
 
 - **Other Improvements**
-  - **Added Implementation for Graveyard, Super Infinite Graveyard, Hand and Mana Evolution**: Just play them and you'll see.
+  - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
+  - **Added Implementation for Evolutions: Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
