@@ -39,7 +39,7 @@ cardScripts = {
 	'Bonfire Lizard': {'onPlay':['waveStriker(\'kill(count=2, rulesFilter="{BLOCKER}")\', card)']},
 	'Bronze-Arm Tribe': {'onPlay': ['mana(me.Deck)']},
 	'Bronze Chain Sickle': {'onPlay': ['mana(me.Deck)']},
-	'Bubble Lamp': {'onPlay': ['draw(me.Deck, True) if len([card for card in me.piles["Graveyard"] if re.search("Bubble Lamp", card.Name)]) > 0 else None']},
+	'Bubble Lamp': {'onPlay': ['draw(me.Deck, True) if len([c for c in me.piles["Graveyard"] if re.search("Bubble Lamp", c.Name)]) > 0 else None']},
 	'Buinbe, Airspace Guardian': {'onPlay': ['draw(me.Deck, True)']},
 	'Carnival Totem': {'onPlay': ['carnivalTotem()']},
 	'Chaos Worm': {'onPlay': [' kill()']},
@@ -133,13 +133,13 @@ cardScripts = {
 	'Rumbling Terahorn': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Ryokudou, the Principle Defender': {'onPlay': ['mana(me.Deck,2)', 'fromMana()']},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
-	'Saucer-Head Shark':{'onPlay':['bounce(len([card for card in table if int(card.Power.strip("+"))<=2000))]']},
+	'Saucer-Head Shark':{'onPlay':['bounce(len([c for c in table if int(c.Power.strip("+"))<=2000))]']},
 	'Scissor Scarab': {'onPlay': ['search(1,"ALL","ALL","Giant Insect")']},
 	'Shtra': {'onPlay': [' fromMana(1, "ALL", "ALL", "ALL", True, False, True)']},
 	'Self-Destructing Gil Poser': {'onPlay': ['suicide("Self-Destructing Gil Poser", kill, 2000)']},
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
-	'Scarlet Skyterror': {'onPlay': ['destroyAll([card for card in table if re.search("\{BLOCKER\}", card.Rules)], True)']},
+	'Scarlet Skyterror': {'onPlay': ['destroyAll([c for c in table if re.search("\{BLOCKER\}", c.Rules)], True)']},
 	'Skyscraper Shell': {'onPlay': ['waveStriker("sendToMana()", card)']},
 	'Skysword, the Savage Vizier': {'onPlay': ['mana(me.Deck)', 'shields(me.deck)']},
 	'Solidskin Fish': {'onPlay': ['fromMana()']},
@@ -167,7 +167,7 @@ cardScripts = {
 	# ON CAST EFFECTS
 
 	'Abduction Charger': {'onPlay': [' bounce(2)']},
-	'Apocalypse Day': {'onPlay': [' destroyAll(table, len([card for card in table if isCreature(card)])>5)']},
+	'Apocalypse Day': {'onPlay': [' destroyAll(table, len([c for c in table if isCreature(c)])>5)']},
 	'Apocalypse Vise': {'onPlay':['apocalypseVise()']},
 	'Big Beast Cannon': {'onPlay': ['kill(7000)']},
 	'Blizzard of Spears': {'onPlay': [' destroyAll(table, True, 4000)']},
@@ -235,10 +235,10 @@ cardScripts = {
 	'Hyperspatial Energy Hole': {'onPlay': ['draw(me.Deck, False, 1)']},
 	'Hyperspatial Faerie Hole': {'onPlay': ['mana(me.Deck)']},
 	'Hyperspatial Revive Hole': {'onPlay': ['search(me.piles["Graveyard"], 1, "Creature")']},
-	'Illusionary Merfolk': {'onPlay': ['draw(me.Deck, True, 3) if len([card for card in table if card.owner == me and re.search("Cyber Lord", card.Race)]) > 0 else None']},
+	'Illusionary Merfolk': {'onPlay': ['draw(me.Deck, True, 3) if len([c for c in table if c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None']},
 	'Infernal Smash': {'onPlay': ['kill()']},
 	'Intense Vacuuming Twist': {'onPlay': ['lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"])', 'bounce(conditionalFromLastFunction=True)']},
-	'Invincible Abyss': {'onPlay': ['destroyAll([card for card in table if card.owner != me], True)']},
+	'Invincible Abyss': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True)']},
 	'Invincible Aura': {'onPlay': ['shields(me.Deck, 3, True)']},
 	'Invincible Technology': {'onPlay': ['search(me.Deck, len(me.Deck))']},
 	'Lifeplan Charger': {'onPlay': ['lookAtTopCards(5, "Creature")']},
@@ -297,7 +297,7 @@ cardScripts = {
 	'Spiral Gate': {'onPlay': ['bounce()']},
 	'Spiral Lance': {'onPlay': ['gear("bounce")']},
 	'Stronghold of Lightning and Flame': {'onPlay': ['kill(3000)', 'tapCreature()']},
-	'Super Burst Shot': {'onPlay': [' destroyAll([card for card in table if card.owner != me], True, 2000)']},
+	'Super Burst Shot': {'onPlay': [' destroyAll([c for c in table if c.owner != me], True, 2000)']},
 	'Super Infernal Gate Smash': {'onPlay': ['kill()']},
 	'Super Spark': {'onPlay': ['tapCreature(1,True)']},
 	'Teleportation': {'onPlay': ['bounce(2)']},
@@ -345,7 +345,7 @@ cardScripts = {
 	'Crystal Jouster': {'onDestroy': ['toHand(card)']},
 	'Cubela, the Oracle': {'onDestroy': ['tapCreature()']},
 	'Death Monarch, Lord of Demons': {'onDestroy': [
-		'SummonFromGrave(len([card for card in me.piles["Graveyard"] if not re.search("Evolution",card.type)]),"Creature", "ALL", "Demon Command")']},
+		'SummonFromGrave(len([c for c in me.piles["Graveyard"] if not re.search("Evolution",c.type)]),"Creature", "ALL", "Demon Command")']},
 	'Dracodance Totem': {'onDestroy': ['fromMana(1,"ALL","ALL","Dragon")', 'toMana(card)']},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
@@ -646,7 +646,6 @@ def processEvolution(card, targets):
 			del evolveDict[evolveTarget._id]
 	evolveDict[card._id] = targetList
 	me.setGlobalVariable("evolution", str(evolveDict))
-	evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -913,7 +912,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
-	cardList = [card for card in table if isCreature(card) and not isBait(card)] #wtfffffffffff is this why 2 redundant conditions
+	cardList = [card for card in table if isCreature(card) and not isBait(card)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverse_cardList(cardList)
 	choice = askCard2(cardList, 'Choose a Creature to destroy')
@@ -2097,18 +2096,18 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				return
 
 		shieldCard = card
-		cardsInHandWithStrikeBackAbility = [card for card in me.hand if re.search("Strike Back", card.rules)]
+		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
 			cardsInHandWithStrikeBackAbilityThatCanBeUsed = []
-			for card in cardsInHandWithStrikeBackAbility:
-				if re.search("Super Strike Back", card.rules):  # special case for Deadbrachio
+			for cardInHandWithStrikeBackAbility in cardsInHandWithStrikeBackAbility:
+				if re.search("Super Strike Back", cardInHandWithStrikeBackAbility.rules):  # special case for Deadbrachio
 					if manaArmsCheck():
-						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(card)
-				elif re.search("Strike Back.*Hunter", card.rules):
+						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
+				elif re.search("Strike Back.*Hunter", cardInHandWithStrikeBackAbility.rules):
 					if re.search("Hunter", shieldCard.Race):  # special case for Aqua Advisor
-						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(card)
-				elif re.search("Strike Back", card.rules) and re.search(card.Civilization, shieldCard.Civilization):
-					cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(card)
+						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
+				elif re.search("Strike Back", cardInHandWithStrikeBackAbility.rules) and re.search(cardInHandWithStrikeBackAbility.Civilization, shieldCard.Civilization):
+					cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name,
 																							   shieldCard.Rules)):
@@ -2126,9 +2125,9 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		toDiscard(card)
 	else:
 		cardToBeSaved = card
-		possibleSavers = [card for card in table if
-						  cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) 
-						  and (re.search(cardToBeSaved.properties['Race'], card.rules) or re.search("Saver: All Races", card.rules))]
+		possibleSavers = [c for c in table if
+						  cardToBeSaved != c and isCreature(c) and c.owner == me and re.search("Saver",c.rules) 
+						  and (re.search(cardToBeSaved.properties['Race'], c.rules) or re.search("Saver: All Races", c.rules))]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
 					cardToBeSaved.Name)):
@@ -2140,9 +2139,9 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					return
 		global wscount
 		wscount = getWaveStrikerCount()
-		toDiscard(cardToBeSaved)  # this function is CHANGING card for some reason, hence the on destroy bug.
-		card = cardToBeSaved  # fixed?
-		################# ON  DESTROY BUG HERE  PLS FIX ##############
+		toDiscard(cardToBeSaved)
+		card = cardToBeSaved 
+
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
 			functionList = cardScripts.get(card.Name).get('onDestroy')
@@ -2371,6 +2370,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
+		textBox = 'Select Creature to put under Evolution{}'
 		if re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			isSuperInfinite = False
@@ -2378,31 +2378,31 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				isSuperInfinite = True
 			targets = []
 			while len(materialList)>0 and (isSuperInfinite or len(targets) < 1):
-				textBox = 'Select Creature to put under Evolution{}'
+				
 				if(isSuperInfinite): 
-					textBox = textBox.format(' (1 at a time, close window to finish).')
+					textBox = textBox.format(' (1 at a time, close this window to finish).')
 				choice = askCard2(materialList,textBox.format(''))
 				if type(choice) is not Card: break
 				targets.append(choice)
 				materialList.remove(choice)
 			for target in targets:
-				toPlay(target,0, 0,True,'',True, True)
+				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
 			processEvolution(card, targets)
 			
 		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and re.search("Creature", c.Type)]
-			textBox = 'Select Creature to put under Evolution'
-			choice = askCard2(materialList,textBox)
+			if me.isInverted: reverse_cardList(materialList)
+			choice = askCard2(materialList,textBox.format(''))
 			if type(choice) is not Card: return
-			toPlay(choice,0, 0,True,'',True, True)
+			toPlay(choice,0, 0,True,' for Mana Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand]
 			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
-			textBox = 'Select Creature to put under Evolution'
-			choice = askCard2(materialList,textBox)
+			if me.isInverted: reverse_cardList(materialList)
+			choice = askCard2(materialList,textBox.format(''))
 			if type(choice) is not Card: return
-			toPlay(choice,0, 0,True,'',True, True)
+			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
 			
 		else: #Default Evolution
@@ -2419,6 +2419,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				whisper("Hint: Shift-click a card to target it.")
 				return
 			else:
+				evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 				processEvolution(card, targets)
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
