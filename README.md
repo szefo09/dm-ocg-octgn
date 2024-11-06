@@ -29,7 +29,6 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
   - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
 
-
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
   - **New Cards Added**:
@@ -75,6 +74,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Pyrofighter Magnus
 
 - **Other Improvements**
+  - **Added Implementation for Graveyard, Super Infinite Graveyard, Hand and Mana Evolution**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
