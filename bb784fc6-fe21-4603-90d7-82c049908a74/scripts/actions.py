@@ -201,7 +201,7 @@ cardScripts = {
 	'Slash Charger': {'onPlay': ['fromDeckToGrave()']},
 	'Dracobarrier': {'onPlay': ['tapCreature()']},
 	'Drill Bowgun': {'onPlay': ['gear("kill")']},
-	'Emeral': {'onPlay': ['emeral()']},
+	'Emeral': {'onPlay': ['emeral(card)']},
 	'Emergency Typhoon':{'onPlay':['draw(me.Deck, True, 2)','selfDiscard()'],},
 	'Enchanted Soil': {'onPlay': ['fromGrave()']},
 	'Energy Stream': {'onPlay': ['draw(me.Deck, False, 2)']},
@@ -1627,7 +1627,7 @@ def dolmarks():
 	remoteCall(targetPlayer,'sacrifice',[])
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
 
-def emeral():
+def emeral(card):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
 	choice = askYN("Use Emeral's effect?")
 	if choice != 1: return
@@ -1636,7 +1636,8 @@ def emeral():
 	cardFromHand = askCard2(handList)
 	if type(cardFromHand) is not Card: return
 	toShields(cardFromHand)
-	bounceShield()
+	waitingFunct.append([card,'bounceShield()'])
+	
 
 
 def klujadras():
@@ -2079,7 +2080,12 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 def destroyMultiple(cards, x=0, y=0):
 	if len(cards) == 1:
 		destroy(cards[0])
-	else: destroyAll(cards, dontAsk=True)
+	else: 
+		shieldList = [c for c in cards if isShield(c)]
+		for shield in shieldList:
+			destroy(shield)
+			cards.remove(shield)
+		destroyAll(cards, dontAsk=True)
 
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
