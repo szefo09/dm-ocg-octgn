@@ -29,6 +29,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
   - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
   - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
+  - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -61,8 +62,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
-    - Hustle Berry,
-    - Soderlight, the Cold Blade
+    - Brad, Super Kickin' Dynamo
+	  - Flohdani, the Spydroid
+	  - Gazer Eyes, Shadow of Secrets
+	  - Hustle Berry
+	  - Soderlight, the Cold Blade
+	  - Vorg's Engine
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
@@ -96,7 +101,6 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Skeleton Vice**: Correctly discards two cards at random.
   - **Galek, the Shadow Warrior**: Allows you to destroy enemy blocker.
   - **Wind Axe, the Warrior Savage**: Allows you to destroy enemy blocker.
-  - **Pakurio**: Now will properly set the card as a shield.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).

@@ -176,7 +176,7 @@ cardScripts = {
 	'Boomerang Comet': {'onPlay': ['fromMana()', 'toMana(card)']},
 	'Brain Cyclone': {'onPlay': ['draw(me.Deck, False, 1)']},
 	'Brain Serum': {'onPlay': [' draw(me.Deck, False, 2)']},
-	'Burst Shot': {'onPlay': [' destroyAll(table, True, 2000)']},
+	'Burst Shot': {'onPlay': ['destroyAll(table, True, 2000)']},
 	'Cannonball Sling': {'onPlay': ['kill(2000)'],
 						 'onMetaMorph': ['kill(6000)']},
 	'Chains of Sacrifice': {'onPlay': ['kill("ALL","ALL","ALL",2)', 'sacrifice()']},
@@ -283,6 +283,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
+	'Scheming Hands': {'onPlay':['lookAtHandAndDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
 	'Screw Rocket': {'onPlay': ['gear("kill")']},
@@ -412,9 +413,12 @@ cardScripts = {
 	'Wingeye Moth': {'onTurnStart': ['draw(me.Deck, True)']},
 
 	#SILENT SKILL EFFECTS
-	
+	'Brad, Super Kickin\' Dynamo': {'silentSkill':['kill(count=1, rulesFilter="{BLOCKER}")']},
+	'Flohdani, the Spydroid': {'silentSkill':['tapCreature(2)']},
+	'Gazer Eyes, Shadow of Secrets': {'silentSkill':['lookAtHandAndDiscard()']},
 	'Hustle Berry': {'silentSkill':['mana(me.Deck)']},
 	'Soderlight, the Cold Blade': {'silentSkill':['opponentSacrifice()']},
+	'Vorg\'s Engine': {'silentSkill':['destroyAll(table, True, 2000)']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 	
@@ -831,14 +835,12 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	for i in range(count):
-		cardList = [card for card in targetPlayer.hand]
 		if randomDiscard:
 			remoteCall(targetPlayer, 'randomDiscard', targetPlayer.hand)
 			continue
-		
+		cardList = [card for card in targetPlayer.hand]
 		if me.isInverted: reverse_cardList(cardList)
 		cardChoice = askCard2(cardList, "Choose a Card to discard.")
-
 		if type(cardChoice) is not Card:
 			notify("Discard cancelled.")
 			return
@@ -853,6 +855,24 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 				# Maybe change it to normal call later, and remoteCall from only inside anti-disc.
 				# still WIP
 				remoteCall(targetPlayer, 'toDiscard', cardChoice)
+
+def lookAtHandAndDiscard(count=1):
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	choices=[]
+	cardList = [card for card in targetPlayer.hand]
+	if me.isInverted: reverse_cardList(cardList)
+	for i in range(count):
+		cardChoice = askCard2(cardList, "Choose a Card to discard.")
+		if type(cardChoice) is not Card: 
+			notify("Discard cancelled.")
+			return
+		choices.append(cardChoice)
+		cardList.remove(cardChoice)
+	for choice in choices:
+		remoteCall(choice.owner, 'toDiscard', choice)
+	
+		
 
 def discardAll():
 	mute()
@@ -1105,13 +1125,13 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	cardlist = []
 	if condition == True:
 		if civFilter == "ALL":
-			cardList = [card for card in cards if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter)]
+			cardList = [card for card in group if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter)]
 		else:
 			if AllExceptFiltered:
-				cardList = [card for card in cards if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
+				cardList = [card for card in group if isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 				and not re.search(civFilter, card.properties['Civilization'])]
 			else:
-				cardList = [card for card in cards if
+				cardList = [card for card in group if
 						isCreature(card) (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 						and re.search(civFilter, card.properties['Civilization'])]
 	else:
@@ -1534,7 +1554,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 		if len(cardList) == 0:
 			return
 		for card in cardList:
-			remoteCall(card.owner, "tap", card)
+			remoteCall(card.owner, "processTapUntapCreature", card)
 	else:
 		for i in range(0, count):
 			if onlyOwn:
@@ -1553,7 +1573,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 			choice = askCard2(cardList, 'Choose a Creature to tap')
 			if type(choice) is not Card:
 				return
-			remoteCall(choice.owner, "tap", choice)
+			remoteCall(choice.owner, "processTapUntapCreature", choice)
 
 def semiReset():
 	mute()
@@ -2054,11 +2074,14 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 				card.orientation = Rot0
 			#Silent Skill Check
 			elif cardScripts.get(card.name, {}).get('silentSkill', []):
+					card.target()
 					choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 					if choice != 1: 
 						card.orientation = Rot0
+						card.target(False)
 						return
 					notify('{} uses Silent Skill of {}'.format(me, card))
+					card.target(False)
 					functionList = cardScripts.get(card.Name).get('silentSkill')
 					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 					for function in functionList:
