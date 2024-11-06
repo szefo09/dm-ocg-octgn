@@ -2168,7 +2168,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
-		shieldCard.resetProperties()
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
