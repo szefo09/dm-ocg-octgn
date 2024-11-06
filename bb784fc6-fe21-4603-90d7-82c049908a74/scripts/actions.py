@@ -2081,12 +2081,14 @@ def destroyMultiple(cards, x=0, y=0):
 	if len(cards) == 1:
 		destroy(cards[0])
 	else: 
-		shieldList = [c for c in cards if isShield(c)]
-		for shield in shieldList:
-			destroy(shield)
-			cards.remove(shield)
-		destroyAll(cards, dontAsk=True)
+		creatureList = [c for c in cards if isCreature(c)]
+		otherList = [c for c in cards if c not in creatureList]
+		for c in otherList:
+			destroy(c)
+		destroyAll(creatureList, dontAsk=True)
 
+
+		
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
 	if clearFunctions:
@@ -2166,6 +2168,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
+		shieldCard.resetProperties()
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
