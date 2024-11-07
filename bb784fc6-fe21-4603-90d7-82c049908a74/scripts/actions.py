@@ -174,6 +174,7 @@ cardScripts = {
 	'Big Beast Cannon': {'onPlay': ['kill(7000)']},
 	'Blizzard of Spears': {'onPlay': [' destroyAll(table, True, 4000)']},
 	'Bomber Doll': {'onPlay': ['kill(2000)']},
+	'Bonds of Justice': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Bone Dance Charger': {'onPlay': ['mill(me.Deck, 2)']},
 	'Boomerang Comet': {'onPlay': ['fromMana()', 'toMana(card)']},
 	'Brain Cyclone': {'onPlay': ['draw(me.Deck, False, 1)']},
@@ -280,6 +281,7 @@ cardScripts = {
 	'Proclamation of Death': {'onPlay': ['opponentSacrifice()'] },
 	'Punish Hold': {'onPlay': ['tapCreature(2)']},
 	'Purgatory Force': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
+	'Rain of Arrows': {'onPlay': ['lookAtHandAndDiscardAll(filterFunction="re.search(r\\"Darkness\\",c.Civilization) and re.search(r\\"Spell\\",c.Type)")']},
 	'Reap and Sow': {'onPlay': ['destroyMana()', 'mana(me.Deck)']},
 	'Reaper Hand': {'onPlay': ['kill()']},
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
@@ -288,6 +290,7 @@ cardScripts = {
 	'Scheming Hands': {'onPlay':['lookAtHandAndDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
+	'Screaming Sunburst': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"Light\\", c.Civilization)")']},
 	'Screw Rocket': {'onPlay': ['gear("kill")']},
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
@@ -871,8 +874,17 @@ def lookAtHandAndDiscard(count=1):
 		cardList.remove(cardChoice)
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', choice)
-	
-		
+
+def lookAtHandAndDiscardAll(filterFunction):
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	cardList = [card for card in targetPlayer.hand]
+	if me.isInverted: reverse_cardList(cardList)
+	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
+	choices = [c for c in cardList if eval(filterFunction)]
+	for choice in choices:
+		remoteCall(choice.owner, 'toDiscard', choice)
+
 
 def discardAll():
 	mute()
@@ -1532,9 +1544,10 @@ def opponentSacrifice(sacrificeArgs=[]):
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
 
-def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
+def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
 	if targetALL:
+		cardList = []
 		if onlyOwn:
 			cardList = [card for card in table if
 						isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
@@ -1545,12 +1558,14 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 			cardList = [card for card in table if
 						isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search("Creature",
 																											 card.Type)]
+		cardList = [c for c in cardList if eval(filterFunction)]
 		if len(cardList) == 0:
 			return
 		for card in cardList:
 			remoteCall(card.owner, "processTapUntapCreature", [card, False])
 	else:
 		for i in range(0, count):
+			cardList=[]
 			if onlyOwn:
 				cardList = [card for card in table if
 							isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
@@ -1561,6 +1576,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 				cardList = [card for card in table if
 							isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search(
 								"Creature", card.Type)]
+			cardList = [c for c in cardList if eval(filterFunction)]
 			if len(cardList) == 0:
 				return
 			if me.isInverted: reverse_cardList(cardList)
@@ -2754,3 +2770,4 @@ def toDeck(card, bottom=False):
 				notify("{} moves {} to top of Deck.".format(me, c))
 				c.moveTo(c.owner.Deck)
 	align()
+
