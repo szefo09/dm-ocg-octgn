@@ -1637,7 +1637,7 @@ def deklowazDiscard():
 	targetPlayer = getTargetPlayer()
 	cardList = [card for card in targetPlayer.hand]
 	if me.isInverted: reverse_cardList(cardList)
-	cardChoice = askCard2(cardList, "Look at opponent's hand. (Close popup or select any card to finish.)")
+	cardChoice = askCard2(cardList, "Look at opponent's hand. (close pop-up or select any card to finish.)")
 	for card in cardList:
 		if re.search("Creature", card.Type) and int(card.Power.strip('+')) <= 3000:
 			remoteCall(targetPlayer, 'toDiscard', cardChoice)
@@ -2454,7 +2454,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
 		textBox = 'Select Creature to put under Evolution{}'
-
+		#Deck Evolutions
 		if re.search("Deck Evolution", card.Rules, re.IGNORECASE):
 			if len(me.Deck) == 0: return
 			if re.search("Mad Deck Evolution", card.Rules, re.IGNORECASE):
@@ -2495,14 +2495,15 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					notify("{} is not a Creature".format(topC.Name))
 					topC.isFaceUp = False
 					return
-		elif re.search("Graveyard evolution", card.Rules, re.IGNORECASE):
+		#Graveyard Evolutions
+		elif re.search(r"Graveyard(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
-			isSuperInfinite = False
-			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE) or re.search("Graveyard Vortex Evolution", card.Rules, re.IGNORECASE):
-				isSuperInfinite = True
+			isMultiMaterial = False
+			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE) or re.search(r"Graveyard(?:\s+Galaxy)?(?:\s+Vortex)\s+evolution", card.Rules, re.IGNORECASE):
+				isMultiMaterial = True
 			targets = []
-			if(isSuperInfinite): textBox = textBox.format(' from Graveyard(1 at a time, close this window to finish).')
-			while len(materialList)>0 and (isSuperInfinite or len(targets) < 1):
+			if(isMultiMaterial): textBox = textBox.format(' from Graveyard(1 at a time, close pop-up to finish).')
+			while len(materialList)>0 and (isMultiMaterial or len(targets) < 1):
 				choice = askCard2(materialList,textBox.format(' from Graveyard'))
 				if type(choice) is not Card: break
 				targets.append(choice)
@@ -2510,28 +2511,23 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
 			processEvolution(card, targets)	
-		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
+		#Mana Evolutions
+		elif re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
 			if me.isInverted: reverse_cardList(materialList)
-			choice = askCard2(materialList,textBox.format(' from Mana'))
-			if type(choice) is not Card: return
-			toPlay(choice,0, 0,True,' for Mana Evolution of {}'.format(card),True, True)
-			processEvolution(card, [choice])
-		elif re.search(r"Mana(?:\s+Galaxy)?\s+Vortex Evolution", card.Rules, re.IGNORECASE) :
-			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
-			if len(materialList)<2: 
-				whisper('Not enough Creatures in Mana for Vortex Evolution!')
-				return
-			if me.isInverted: reverse_cardList(materialList)
+			isMultiMaterial = False
+			if re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)\s+evolution", card.Rules, re.IGNORECASE):
+				isMultiMaterial = True
 			targets = []
-			while len(materialList)>0:
-				textBox = textBox.format(' from Mana(1 at a time, close this window to finish).')
+			while len(materialList)>0 and (isMultiMaterial or len(targets)<1):
+				textBox = textBox.format(' from Mana(1 at a time, close pop-up to finish).')
 				choice = askCard2(materialList,textBox.format(''))
 				if type(choice) is not Card: break
 				targets.append(choice)
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
+			processEvolution(card, targets)
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand]
 			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
@@ -2555,7 +2551,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			targetsGY = []
 			targetsMana = []
 			targetsBZ = []
-			textBox = textBox.format(' (1 at a time, close this window to finish).')
+			textBox = textBox.format(' (1 at a time, close pop-up to finish).')
 			whisper("Pick cards from Graveyard, Mana and Battle Zone in that order. Close the Pop-Up to proceed to the next selection.")
 			while len(materialListGY)>0 and (not isGalaxy or len(targetsGY) < 1):
 				choice = askCard2(materialListGY,textBox.format(' from Graveyard'))
@@ -2597,10 +2593,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					whisper("Hint: Play a Creature or Gear first to evolve this card onto.")
 					return
 				targets = []
-				isVortex=False
-				if not re.search(r"(?:Galaxy\s+)?Vortex Evolution",card.Rules, re.IGNORECASE):
-					isVortex = True
-				while len(materialList)>0 and (isVortex or len(targets)<1):
+				isMultiMaterial = False
+				if re.search(r"(?:Galaxy\s+)?Vortex Evolution",card.Rules, re.IGNORECASE) or re.search('Super Infinite Evolution', card.Rules, re.IGNORECASE):
+					isMultiMaterial = True
+				while len(materialList)>0 and (isMultiMaterial or len(targets)<1):
 					choice = askCard2(materialList,'Select Card(s) to use as Material for Evolution.')
 					if type(choice) is not Card: break
 					targets.append(choice)
