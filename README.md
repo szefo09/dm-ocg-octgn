@@ -34,6 +34,9 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Lucky Ball**: Checks Opponent's Shield Count, then decides if you can draw.
   - **Virtual tripwire**: Taps one of the opponent's creatures.
   - **Vampire Silphy**: Destroys all cards with 3000 Power or less 
+  - **Bonds of Justice**: Taps all creatures that don't have {BLOCKER}
+  - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
+  - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
