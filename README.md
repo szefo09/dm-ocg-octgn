@@ -32,6 +32,9 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
   - **Punch Trooper Bronks**: Shows you the card(s) with lowest Power and asks you to confirm.
   - **Lucky Ball**: Checks Opponent's Shield Count, then decides if you can draw.
+  - **Bonds of Justice**: Taps all creatures that don't have {BLOCKER}
+  - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
+  - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.

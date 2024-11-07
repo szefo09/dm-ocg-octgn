@@ -174,6 +174,7 @@ cardScripts = {
 	'Big Beast Cannon': {'onPlay': ['kill(7000)']},
 	'Blizzard of Spears': {'onPlay': [' destroyAll(table, True, 4000)']},
 	'Bomber Doll': {'onPlay': ['kill(2000)']},
+	'Bonds of Justice': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Bone Dance Charger': {'onPlay': ['mill(me.Deck, 2)']},
 	'Boomerang Comet': {'onPlay': ['fromMana()', 'toMana(card)']},
 	'Brain Cyclone': {'onPlay': ['draw(me.Deck, False, 1)']},
@@ -280,6 +281,7 @@ cardScripts = {
 	'Proclamation of Death': {'onPlay': ['opponentSacrifice()'] },
 	'Punish Hold': {'onPlay': ['tapCreature(2)']},
 	'Purgatory Force': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
+	'Rain of Arrows': {'onPlay': ['lookAtHandAndDiscardAll(filterFunction="re.search(r\\"Darkness\\",c.Civilization) and re.search(r\\"Spell\\",c.Type)")']},
 	'Reap and Sow': {'onPlay': ['destroyMana()', 'mana(me.Deck)']},
 	'Reaper Hand': {'onPlay': ['kill()']},
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
@@ -288,6 +290,7 @@ cardScripts = {
 	'Scheming Hands': {'onPlay':['lookAtHandAndDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
+	'Screaming Sunburst': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"Light\\", c.Civilization)")']},
 	'Screw Rocket': {'onPlay': ['gear("kill")']},
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
@@ -871,8 +874,17 @@ def lookAtHandAndDiscard(count=1):
 		cardList.remove(cardChoice)
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', choice)
-	
-		
+
+def lookAtHandAndDiscardAll(filterFunction):
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	cardList = [card for card in targetPlayer.hand]
+	if me.isInverted: reverse_cardList(cardList)
+	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
+	choices = [c for c in cardList if eval(filterFunction)]
+	for choice in choices:
+		remoteCall(choice.owner, 'toDiscard', choice)
+
 
 def discardAll():
 	mute()
@@ -1532,9 +1544,10 @@ def opponentSacrifice(sacrificeArgs=[]):
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
 
-def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
+def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
 	if targetALL:
+		cardList = []
 		if onlyOwn:
 			cardList = [card for card in table if
 						isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
@@ -1545,12 +1558,14 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 			cardList = [card for card in table if
 						isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search("Creature",
 																											 card.Type)]
+		cardList = [c for c in cardList if eval(filterFunction)]
 		if len(cardList) == 0:
 			return
 		for card in cardList:
 			remoteCall(card.owner, "processTapUntapCreature", [card, False])
 	else:
 		for i in range(0, count):
+			cardList=[]
 			if onlyOwn:
 				cardList = [card for card in table if
 							isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
@@ -1561,6 +1576,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 				cardList = [card for card in table if
 							isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search(
 								"Creature", card.Type)]
+			cardList = [c for c in cardList if eval(filterFunction)]
 			if len(cardList) == 0:
 				return
 			if me.isInverted: reverse_cardList(cardList)
@@ -2159,6 +2175,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			return
 		card.peek()
 
+		#Magical bugfix to remove Peek symbol in hand
+		rnd(1,1)
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
@@ -2453,6 +2471,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
+		targets= []
 		textBox = 'Select Creature to put under Evolution{}'
 		#Deck Evolutions
 		if re.search("Deck Evolution", card.Rules, re.IGNORECASE):
@@ -2479,8 +2498,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				for c in topCards:
 					toDiscard(c)
 				toPlay(choice, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
-				evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
-				processEvolution(card,[choice])			
+				targets = [choice]		
 			else:
 				topC = me.Deck[0]
 				topC.isFaceUp = True
@@ -2491,8 +2509,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if choice != 1: 
 						return
 					toPlay(topC, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
-					evolveText = ", evolving {}".format(", ".join([c.name for c in [topC]]))
-					processEvolution(card,[topC])
+					targets=[topC]
 				else:
 					notify("{} is not a Creature".format(topC.Name))
 					topC.isFaceUp = False
@@ -2512,8 +2529,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)	
 		#Mana Evolutions
 		elif re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
@@ -2533,8 +2548,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)
 		#Hand Evolutions
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
@@ -2545,8 +2558,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			choice = askCard2(materialList,textBox.format(' from Hand'))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
-			processEvolution(card, [choice])
+			targets=[choice]
 		#Omega Evolutions
 		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
 			evoTypeText = 'Super Infinite evolution Omega'
@@ -2588,9 +2600,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText, card),True, True)
 			for target in targetsMana:
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText,card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card,targets)
-		else: #Default or Vortex Evolution
+		#Default or Vortex Evolution
+		else: 
 			targets = [c for c in table
 					   if c.controller == me
 					   and c.targetedBy == me 
@@ -2614,8 +2625,12 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if type(choice) is not Card: break
 					targets.append(choice)
 					materialList.remove(choice)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)
+		
+		if len(targets) == 0:
+			whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
+			return
+		evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+		processEvolution(card, targets)	
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
 	card.moveToTable(0, 0)
@@ -2752,3 +2767,4 @@ def toDeck(card, bottom=False):
 				notify("{} moves {} to top of Deck.".format(me, c))
 				c.moveTo(c.owner.Deck)
 	align()
+
