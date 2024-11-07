@@ -70,7 +70,7 @@ cardScripts = {
 	'Forest Sword, Great Hero': {'onPlay': ['mana(me.Deck)']},
 	'Fortress Shell': {'onPlay': [' destroyMana(2)']},
 	'Forbos, Sanctum Guardian Q': {'onPlay': [' search(me.Deck, 1, "Spell")']},
-	'Funky Wizard': {'onPlay': [' draw(me.Deck, True)']},
+	'Funky Wizard': {'onPlay': ['funkyWizard()']},
 	'Gajirabute, Vile Centurion': {'onPlay': ['burnShieldKill(1)']},
 	'Galek, the Shadow Warrior': {'onPlay': ['kill(count=1, rulesFilter="{BLOCKER}")', 'targetDiscard(True)']},
 	'Galklife Dragon': {'onPlay': ['destroyAll(table, True, 4000, "Light")']},
@@ -1662,6 +1662,10 @@ def emeral(card):
 	if type(cardFromHand) is not Card: return
 	toShields(cardFromHand)
 	waitingFunct.append([card,'bounceShield()'])
+
+def funkyWizard():
+	for player in players:
+		remoteCall(player, "draw", [player.Deck, True]) 
 
 def klujadras():
 	for player in players:
