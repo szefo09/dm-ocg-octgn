@@ -233,7 +233,7 @@ cardScripts = {
 	'Hell Chariot': {'onPlay': ['kill("ALL","Untap")']},
 	'Hide and Seek': {'onPlay': ['bounce(1, True, condition = \'not re.search("Evolution", card.Type)\')', 'targetDiscard(True)']},
 	'Hogan Blaster': {'onPlay': ['drama(True, "creature or spell", "battlezone", "top")']},
-	'Holy Awe': {'onPlay': ['tapCreature(1,True)']},
+	'Holy Awe': {'onPlay': ['tapCreature(1, True)']},
 	'Hopeless Vortex': {'onPlay': ['kill()']},
 	'Hyperspatial Storm Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Bolshack Hole': {'onPlay': ['kill(5000)']},
@@ -418,8 +418,8 @@ cardScripts = {
 	'Frei, Vizier of Air': {'onTurnEnd':['untapCreature(card)']},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
 	'Ruby Grass': {'onTurnEnd':['untapCreature(card)']},
-	'Toel, Vizier of Hope': {'untapCreatureAll()'},
-	'Urth, Purifying Elemental':{'onTurnEnd':['untapCreature(card)']},
+	'Toel, Vizier of Hope': {'onTurnEnd': ['untapCreatureAll()']},
+	'Urth, Purifying Elemental': {'onTurnEnd':['untapCreature(card)']},
 
 	#ON YOUR TURN START EFFECTS
 	'Aloro, War God': {'onTurnStart': ['fromMana(1,"ALL","ALL","ALL",True,True)']},
@@ -1572,49 +1572,44 @@ def opponentSendToMana(count = 1):
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sendToMana',[count, False, True])
 
-def bothPlayersFromMana(count = 1):
+def bothPlayersFromMana(count = 1, toGrave=False):
 	for player in players:
-		remoteCall(player, "fromMana", count)
+		remoteCall(player, "fromMana", [count, "ALL","ALL","ALL",True, toGrave])
 
+#Generic function to Tap Creature(s). targetAll flag means it won't ask and tap every opp creature
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
 	if targetALL:
 		cardList = []
 		if onlyOwn:
-			cardList = [card for card in table if
-						isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner == me]
 		elif includeOwn == True:
-			cardList = [card for card in table if
-						isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
-			cardList = [card for card in table if
-						isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search("Creature",
-																											 card.Type)]
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
 		cardList = [c for c in cardList if eval(filterFunction)]
 		if len(cardList) == 0:
 			return
 		for card in cardList:
 			remoteCall(card.owner, "processTapUntapCreature", [card, False])
 	else:
+		cardList=[]
+		if onlyOwn:
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner == me]
+		elif includeOwn:
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
+		else:
+			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
+		cardList = [c for c in cardList if eval(filterFunction)]
+		if len(cardList) == 0:
+			return
+		if me.isInverted: reverse_cardList(cardList)
+		count = min(count, len(cardList))
 		for i in range(0, count):
-			cardList=[]
-			if onlyOwn:
-				cardList = [card for card in table if
-							isCreature(card) and card.orientation == Rot0 and card.owner == me and re.search("Creature", card.Type)]
-			elif includeOwn == True:
-				cardList = [card for card in table if
-							isCreature(card) and card.orientation == Rot0 and re.search("Creature", card.Type)]
-			else:
-				cardList = [card for card in table if
-							isCreature(card) and card.orientation == Rot0 and not card.owner == me and re.search(
-								"Creature", card.Type)]
-			cardList = [c for c in cardList if eval(filterFunction)]
-			if len(cardList) == 0:
-				return
-			if me.isInverted: reverse_cardList(cardList)
 			choice = askCard2(cardList, 'Choose a Creature to tap')
 			if type(choice) is not Card:
 				return
+			cardList.remove(choice)
 			remoteCall(choice.owner, "processTapUntapCreature", [choice, False])
 
 def semiReset():
@@ -1830,7 +1825,7 @@ def soulSwap():
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	#list of creatures in battlezone
-	creatureList = [card for card in table if isCreature(card) and card.controller == targetPlayer]
+	creatureList = [card for card in table if isCreature(card) and not isBait(card) and card.controller == targetPlayer]
 	if me.isInverted: reverse_cardList(creatureList)
 	creatureChoice = askCard2(creatureList, 'Choose a Creature to send to Mana')
 	if type(creatureChoice) is not Card: return
@@ -2717,6 +2712,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		endOfFunctionality(card)
 
 def endOfFunctionality(card):
+	#Magical bugfix to remove Peek symbol
+	rnd(1,1)
 	if card.Type == "Spell" and not isMana(card):
 		if re.search("Charger", card.name) and re.search("Charger", card.rules):
 			toMana(card)
