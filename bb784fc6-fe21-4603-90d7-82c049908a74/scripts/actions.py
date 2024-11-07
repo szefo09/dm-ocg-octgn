@@ -123,6 +123,7 @@ cardScripts = {
 	'Piara Heart': {'onPlay': [' kill(1000)']},
 	'Pointa, the Aqua Shadow': {'onPlay': ['targetDiscard(True)']},
 	'Prometheus, Splash Axe': {'onPlay': ['mana(me.Deck, 2, False, True)']},
+	'Punch Trooper Bronks': {'onPlay': ['bronks()']},
 	'Qurian': {'onPlay': ['draw(me.Deck, True)']},
 	'Raiden, Lightfang Ninja': {'onPlay': ['tapCreature()']},
 	'Rayla, Truth Enforcer': {'onPlay': ['search(me.Deck, 1, "Spell")']},
@@ -1401,25 +1402,20 @@ def gear(str):
 			remoteCall(choice.owner, 'toMana', choice)
 
 #Called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
-def processTapUntapCreature(card):
+def processTapUntapCreature(card, processTapEffects = True):
 	mute()
 	card.orientation ^= Rot90
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
 		global arrow
 		#Tap Effects can only activate during active Player's turn.
-		if getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
+		if processTapEffects and getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
 			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 			if choice != 1: return
 
 			notify('{} uses Tap Effect of {}'.format(me, card))
 			functionList = cardScripts.get(card.Name).get('onTap')
 			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
-			# if re.search("Survivor", card.Race):
-			# 	survivors = getSurvivorsOnYourTable()
-			# 	for surv in survivors:
-			# 		if cardScripts.get(surv.name, {}).get('onTap', []):
-			# 			functionList.extend(cardScripts.get(surv.name).get('onTap'))
 			for function in functionList:
 				waitingFunct.append([card, function])
 			global alreadyEvaluating
@@ -1554,7 +1550,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 		if len(cardList) == 0:
 			return
 		for card in cardList:
-			remoteCall(card.owner, "processTapUntapCreature", card)
+			remoteCall(card.owner, "processTapUntapCreature", [card, False])
 	else:
 		for i in range(0, count):
 			if onlyOwn:
@@ -1573,7 +1569,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False):
 			choice = askCard2(cardList, 'Choose a Creature to tap')
 			if type(choice) is not Card:
 				return
-			remoteCall(choice.owner, "processTapUntapCreature", choice)
+			remoteCall(choice.owner, "processTapUntapCreature", [choice, False])
 
 def semiReset():
 	mute()
@@ -1619,6 +1615,15 @@ def apocalypseVise():
 		creatureList = [card for card in creatureList if int(card.Power.strip('+'))<=powerLeft]
 
 	destroyAll(creaturesToDestroy, False)
+
+def bronks():
+	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
+	minPower = min(int(c.Power.strip('+')) for c in creatureList)
+	notify("Lowest Power found: {}".format(minPower))
+	leastPowerCreatureList = [c for c in creatureList if int(c.Power.strip('+')) == minPower]
+	choice = askCard2(leastPowerCreatureList, "Select a card to destroy.")
+	if type(choice) is not Card: return
+	destroy(choice)
 
 def carnivalTotem():
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
@@ -2070,10 +2075,10 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 		if card.orientation == Rot90:
 			if not isNewTurn:
 				card.orientation = Rot0
-			elif not isCreature(card) or isBait(card):
+			elif not isCreature(card) or isBait(card) or not cardScripts.get(card.name, {}).get('silentSkill', []):
 				card.orientation = Rot0
 			#Silent Skill Check
-			elif cardScripts.get(card.name, {}).get('silentSkill', []):
+			else:
 					card.target()
 					choice = askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 					if choice != 1: 
