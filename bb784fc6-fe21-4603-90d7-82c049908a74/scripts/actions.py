@@ -571,8 +571,6 @@ def waitForTarget():
 
 def evaluateWaitingFunctions():
 	while len(waitingFunct)>0:
-			
-			
 			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			card = waitingFunct[0][0]
 			waitingForTarget = eval(waitingFunct[0][1]) #stored in the form [card, function]
@@ -1656,7 +1654,7 @@ def emeral(card):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
 	choice = askYN("Use Emeral's effect?")
 	if choice != 1: return
-	handList = [card for card in me.hand]
+	handList = [c for c in me.hand]
 	if me.isInverted: reverse_cardList(handList)
 	cardFromHand = askCard2(handList)
 	if type(cardFromHand) is not Card: return
@@ -2573,7 +2571,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				toPlay(target,0, 0,True,' for Super Infinite evolution Omega of {}'.format(card),True, True)
 			processEvolution(card,targets)
 		else: #Default Evolution
-			whisper('{}, {}'.format(card, isEvoMaterial))
 			targets = [c for c in table
 					   if c.controller == me
 					   and c.targetedBy == me]
