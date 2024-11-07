@@ -942,6 +942,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 			if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
 			choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone', 'Mana Zone')
 			if type(choice) is not Card: break
+			cardsInGroup_CivTypeandRace_Filtered.remove(choice)
 			if toGrave == True:
 				remoteCall(player, "destroy", choice)
 			else:
