@@ -2471,6 +2471,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
+		targets= []
 		textBox = 'Select Creature to put under Evolution{}'
 		#Deck Evolutions
 		if re.search("Deck Evolution", card.Rules, re.IGNORECASE):
@@ -2497,8 +2498,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				for c in topCards:
 					toDiscard(c)
 				toPlay(choice, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
-				evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
-				processEvolution(card,[choice])			
+				targets = [choice]		
 			else:
 				topC = me.Deck[0]
 				topC.isFaceUp = True
@@ -2509,8 +2509,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if choice != 1: 
 						return
 					toPlay(topC, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
-					evolveText = ", evolving {}".format(", ".join([c.name for c in [topC]]))
-					processEvolution(card,[topC])
+					targets=[topC]
 				else:
 					notify("{} is not a Creature".format(topC.Name))
 					topC.isFaceUp = False
@@ -2530,8 +2529,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)	
 		#Mana Evolutions
 		elif re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
@@ -2551,8 +2548,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)
 		#Hand Evolutions
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
@@ -2563,8 +2558,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			choice = askCard2(materialList,textBox.format(' from Hand'))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
-			processEvolution(card, [choice])
+			targets=[choice]
 		#Omega Evolutions
 		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
 			evoTypeText = 'Super Infinite evolution Omega'
@@ -2606,9 +2600,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText, card),True, True)
 			for target in targetsMana:
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText,card),True, True)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card,targets)
-		else: #Default or Vortex Evolution
+		#Default or Vortex Evolution
+		else: 
 			targets = [c for c in table
 					   if c.controller == me
 					   and c.targetedBy == me 
@@ -2632,8 +2625,12 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if type(choice) is not Card: break
 					targets.append(choice)
 					materialList.remove(choice)
-			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)
+		
+		if len(targets) == 0:
+			whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
+			return
+		evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+		processEvolution(card, targets)	
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
 	card.moveToTable(0, 0)
