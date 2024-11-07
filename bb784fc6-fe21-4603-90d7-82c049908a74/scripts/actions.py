@@ -2159,6 +2159,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			return
 		card.peek()
 
+		#Magical bugfix to remove Peek symbol in hand
+		rnd(1,1)
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
