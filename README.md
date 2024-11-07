@@ -121,3 +121,4 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 #### Additional Notes
 - **XML Updates**: Minor changes for races, civilizations, and types; fixed typos and standardized spell power values.
 - **Mass-Destruction Effects Rewritten**: Improved order of operations for mass-destruction effects to support Survivors and Wave Strikers, enhancing interactions with cards like Balloonshroom Q and Revival Soldier.
+- **Many code changes under the hood.**
