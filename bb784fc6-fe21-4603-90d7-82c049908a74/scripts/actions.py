@@ -102,6 +102,7 @@ cardScripts = {
 	'Klujadras': {'onPlay': ['waveStriker("klujadras()", card)']},
 	'Kolon, the Oracle': {'onPlay': ['tapCreature()']},
 	'Lena, Vizier of Brilliance': {'onPlay': ['fromMana(1,"Spell")']},
+	'Lucky Ball': {'onPlay': ['luckyBall()']},
 	'Lugias, The Explorer': {'onPlay': ['tapCreature()']},
 	'Locomotiver': {'onPlay': ['targetDiscard(True)']},
 	'Magris, Vizier of Magnetism': {'onPlay': ['draw(me.Deck, True)']},
@@ -237,7 +238,7 @@ cardScripts = {
 	'Hyperspatial Energy Hole': {'onPlay': ['draw(me.Deck, False, 1)']},
 	'Hyperspatial Faerie Hole': {'onPlay': ['mana(me.Deck)']},
 	'Hyperspatial Revive Hole': {'onPlay': ['search(me.piles["Graveyard"], 1, "Creature")']},
-	'Illusionary Merfolk': {'onPlay': ['draw(me.Deck, True, 3) if len([c for c in table if c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None']},
+	'Illusionary Merfolk': {'onPlay': ['draw(me.Deck, True, 3) if len([c for c in table if isCreature(c) and not isBait(c) and c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None']},
 	'Infernal Smash': {'onPlay': ['kill()']},
 	'Intense Vacuuming Twist': {'onPlay': ['lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"])', 'bounce(conditionalFromLastFunction=True)']},
 	'Invincible Abyss': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True)']},
@@ -1082,10 +1083,9 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 	mute()
 	if powerFilter == 'ALL':	powerFilter = float('inf')
 	if targetOwn:
-		cardList = [card for card in table if isCreature(card) and int(card.Power.strip('+')) <= powerFilter]
+		cardList = [card for card in table if isCreature(card) and not isBait(card) and int(card.Power.strip('+')) <= powerFilter]
 	else:
-		cardList = [card for card in table if
-					isCreature(card) and not card.owner == me and int(card.Power.strip('+')) <= powerFilter]
+		cardList = [card for card in table if isCreature(card) and not isBait(card) and not card.owner == me and int(card.Power.strip('+')) <= powerFilter]
 	if tapFilter != 'ALL':
 		if tapFilter == 'Untap':
 			cardList = [card for card in cardList if card.orientation == Rot0]
@@ -1231,7 +1231,7 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0,
 
 	if killCount == "ALL" or killCount > 0:
 		if powerFilter == 'ALL': powerFilter = float('inf')
-		validKillTargets = [c for c in table if isCreature(c) and int(c.Power.strip(' +')) <= powerFilter]
+		validKillTargets = [c for c in table if isCreature(c) and not isBait(card) and int(c.Power.strip(' +')) <= powerFilter]
 		if not targetOwnCr:
 			validKillTargets = [c for c in validKillTargets if not c.owner == me]
 			targetCr = [c for c in targetCr if not c.owner == me]
@@ -1671,6 +1671,11 @@ def klujadras():
 		if count:
 			remoteCall(player, "draw", [player.Deck, False, count]) 
 
+def luckyBall():
+	shieldList = [c for c in table if isShield(c) and c.controller != me]
+	if len(shieldList)<=3:
+		draw(me.Deck,True,2)
+
 def miraculousPlague():
 	mute()
 	creatureList = [card for card in table if isCreature(card) and card.owner != me]
@@ -1726,9 +1731,10 @@ def _miraculousPlagueChooseToHand(cardList):
 def miraculousRebirth():
 	mute()
 	cardList = [card for card in table if
-				isCreature(card) and 
-				not card.owner == me and
-				int(card.Power.strip('+')) <= 5000]
+				isCreature(card) 
+				and not isBait(card)
+				and not card.owner == me 
+				and int(card.Power.strip('+')) <= 5000]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
 		return
@@ -2495,9 +2501,9 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE) or re.search("Graveyard Vortex Evolution", card.Rules, re.IGNORECASE):
 				isSuperInfinite = True
 			targets = []
-			if(isSuperInfinite): textBox = textBox.format(' (1 at a time, close this window to finish).')
+			if(isSuperInfinite): textBox = textBox.format(' from Graveyard(1 at a time, close this window to finish).')
 			while len(materialList)>0 and (isSuperInfinite or len(targets) < 1):
-				choice = askCard2(materialList,textBox.format(''))
+				choice = askCard2(materialList,textBox.format(' from Graveyard'))
 				if type(choice) is not Card: break
 				targets.append(choice)
 				materialList.remove(choice)
@@ -2507,7 +2513,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		elif re.search("Mana Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
 			if me.isInverted: reverse_cardList(materialList)
-			choice = askCard2(materialList,textBox.format(''))
+			choice = askCard2(materialList,textBox.format(' from Mana'))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Mana Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
@@ -2519,7 +2525,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if me.isInverted: reverse_cardList(materialList)
 			targets = []
 			while len(materialList)>0:
-				textBox = textBox.format(' (1 at a time, close this window to finish).')
+				textBox = textBox.format(' from Mana(1 at a time, close this window to finish).')
 				choice = askCard2(materialList,textBox.format(''))
 				if type(choice) is not Card: break
 				targets.append(choice)
@@ -2530,14 +2536,19 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			materialList = [c for c in me.hand]
 			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
 			if me.isInverted: reverse_cardList(materialList)
-			choice = askCard2(materialList,textBox.format(''))
+			choice = askCard2(materialList,textBox.format(' from Hand'))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
 			processEvolution(card, [choice])
-		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE):
+		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
+			evoTypeText = 'Super Infinite evolution Omega'
+			isGalaxy = False
+			if re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
+				isGalaxy = True
+				evoTypeText = 'Galaxy Vortex Evolution Omega'
 			materialListGY = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			materialListMana = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
-			materialListBZ = [c for c in table if isCreature(c) and c.owner == me]
+			materialListBZ = [c for c in table if (isCreature(c) or isGear(c)) and c.owner == me and not isBait(c)]
 			if me.isInverted:
 				reverse_cardList(materialListMana)
 				reverse_cardList(materialListBZ)
@@ -2546,18 +2557,18 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			targetsBZ = []
 			textBox = textBox.format(' (1 at a time, close this window to finish).')
 			whisper("Pick cards from Graveyard, Mana and Battle Zone in that order. Close the Pop-Up to proceed to the next selection.")
-			while len(materialListGY)>0:
-				choice = askCard2(materialListGY,textBox.format(''))
+			while len(materialListGY)>0 and (not isGalaxy or len(targetsGY) < 1):
+				choice = askCard2(materialListGY,textBox.format(' from Graveyard'))
 				if type(choice) is not Card: break
 				targetsGY.append(choice)
 				materialListGY.remove(choice)
-			while len(materialListMana)>0:
-				choice = askCard2(materialListMana,textBox.format(''))
+			while len(materialListMana)>0 and (not isGalaxy or len(targetsMana) < 1):
+				choice = askCard2(materialListMana,textBox.format(' from Mana'))
 				if type(choice) is not Card: break
 				targetsMana.append(choice)
 				materialListMana.remove(choice)
-			while len(materialListBZ)>0:
-				choice = askCard2(materialListBZ,textBox.format(''))
+			while len(materialListBZ)>0 and (not isGalaxy or len(targetsBZ) < 1):
+				choice = askCard2(materialListBZ,textBox.format(' from Battle Zone'))
 				if type(choice) is not Card: break
 				targetsBZ.append(choice)
 				materialListBZ.remove(choice)
@@ -2566,26 +2577,37 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				whisper('No targets selected!')
 				return
 			for target in targetsGY:
-				toPlay(target,0, 0,True,' for Super Infinite evolution Omega of {}'.format(card),True, True)
+				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText, card),True, True)
 			for target in targetsMana:
-				toPlay(target,0, 0,True,' for Super Infinite evolution Omega of {}'.format(card),True, True)
+				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText,card),True, True)
 			processEvolution(card,targets)
-		else: #Default Evolution
+		else: #Default or Vortex Evolution
 			targets = [c for c in table
 					   if c.controller == me
-					   and c.targetedBy == me]
-			targets = [c for c in targets
-					   if isCreature(c)
-					   or isGear(c)]
+					   and c.targetedBy == me 
+					   and (isCreature(c) or isGear(c))
+					   and not isBait(c)]
 			for c in targets:
-				c.target(False)  # remove the targets
+				c.target(False)
 			if len(targets) == 0:
-				whisper("Cannot play card: You must target a creature to evolve first.")
-				whisper("Hint: Shift-click a card to target it.")
-				return
-			else:
-				evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-				processEvolution(card, targets)
+				materialList = [c for c in table if (isCreature(c) or isGear(c)) and c.controller == me and not isBait(c)]
+				if me.isInverted: reverse_cardList(materialList)
+				if len(materialList) == 0:
+					whisper("Cannot play {}, you don't have any Cards in Battle Zone for it.".format(card))
+					whisper("Hint: Play a Creature or Gear first to evolve this card onto.")
+					return
+				targets = []
+				isVortex=False
+				if not re.search(r"(?:Galaxy\s+)?Vortex Evolution",card.Rules, re.IGNORECASE):
+					isVortex = True
+				while len(materialList)>0 and (isVortex or len(targets)<1):
+					choice = askCard2(materialList,'Select Card(s) to use as Material for Evolution.')
+					if type(choice) is not Card: break
+					targets.append(choice)
+					materialList.remove(choice)
+
+			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+			processEvolution(card, targets)
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
 	card.moveToTable(0, 0)
