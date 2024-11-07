@@ -885,7 +885,6 @@ def lookAtHandAndDiscardAll(filterFunction):
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', choice)
 
-
 def discardAll():
 	mute()
 	cardList = []
@@ -1635,6 +1634,7 @@ def bronks():
 	minPower = min(int(c.Power.strip('+')) for c in creatureList)
 	notify("Lowest Power found: {}".format(minPower))
 	leastPowerCreatureList = [c for c in creatureList if int(c.Power.strip('+')) == minPower]
+	if me.isInverted: reverse_cardList(leastPowerCreatureList)
 	choice = askCard2(leastPowerCreatureList, "Select a card to destroy.")
 	if type(choice) is not Card: return
 	destroy(choice)
@@ -2212,6 +2212,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name,
 																							   shieldCard.Rules)):
+					if me.isInverted: reverse_cardList(cardsInHandWithStrikeBackAbilityThatCanBeUsed)
 					choice = askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
 						shieldCard.isFaceUp = True
