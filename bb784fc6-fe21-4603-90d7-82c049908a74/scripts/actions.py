@@ -1143,7 +1143,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 				and not re.search(civFilter, card.properties['Civilization'])]
 			else:
 				cardList = [card for card in group if
-						isCreature(card) (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
+						isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 						and re.search(civFilter, card.properties['Civilization'])]
 	else:
 		cardList = group
@@ -1189,12 +1189,12 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
-			notify('Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
+			#notify('DEBUG: Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
 			functionList = cardScripts.get(card.Name).get('onDestroy')
 		if re.search("Survivor", card.Race):
 			for surv in survivors:
 				if surv != card and cardScripts.get(surv.name, {}).get('onDestroy', []):
-					notify('Added {} to {}'.format(cardScripts.get(surv.name).get('onDestroy'), card.Name))
+					#notify('DEBUG: Added {} to {}'.format(cardScripts.get(surv.name).get('onDestroy'), card.Name))
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
