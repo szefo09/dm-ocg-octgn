@@ -2479,6 +2479,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				for c in topCards:
 					toDiscard(c)
 				toPlay(choice, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
+				evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
 				processEvolution(card,[choice])			
 			else:
 				topC = me.Deck[0]
@@ -2490,6 +2491,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if choice != 1: 
 						return
 					toPlay(topC, 0, 0, True, ' for Deck Evolution of {}'.format(card),True, True)
+					evolveText = ", evolving {}".format(", ".join([c.name for c in [topC]]))
 					processEvolution(card,[topC])
 				else:
 					notify("{} is not a Creature".format(topC.Name))
@@ -2510,6 +2512,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
+			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card, targets)	
 		#Mana Evolutions
 		elif re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
@@ -2519,6 +2522,9 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)\s+evolution", card.Rules, re.IGNORECASE):
 				isMultiMaterial = True
 			targets = []
+			if len(materialList)==0: 
+					whisper("Cannot play {}, you don't have any Creatures in Mana Zone for it.".format(card))
+					return
 			while len(materialList)>0 and (isMultiMaterial or len(targets)<1):
 				textBox = textBox.format(' from Mana(1 at a time, close pop-up to finish).')
 				choice = askCard2(materialList,textBox.format(''))
@@ -2527,15 +2533,21 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				materialList.remove(choice)
 			for target in targets:
 				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
+			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card, targets)
+		#Hand Evolutions
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
-			materialList = [c for c in me.hand]
-			materialList = [c for c in materialList if re.search("Creature", c.Type) and c != card]
+			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
 			if me.isInverted: reverse_cardList(materialList)
+			if len(materialList)==0:
+					whisper("Cannot play {}, you don't have any Other Creatures in Hand for it.".format(card))
+					return
 			choice = askCard2(materialList,textBox.format(' from Hand'))
 			if type(choice) is not Card: return
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
+			evolveText = ", evolving {}".format(", ".join([c.name for c in [choice]]))
 			processEvolution(card, [choice])
+		#Omega Evolutions
 		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
 			evoTypeText = 'Super Infinite evolution Omega'
 			isGalaxy = False
@@ -2576,6 +2588,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText, card),True, True)
 			for target in targetsMana:
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText,card),True, True)
+			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card,targets)
 		else: #Default or Vortex Evolution
 			targets = [c for c in table
@@ -2586,7 +2599,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			for c in targets:
 				c.target(False)
 			if len(targets) == 0:
-				materialList = [c for c in table if (isCreature(c) or isGear(c)) and c.controller == me and not isBait(c)]
+				materialList = [c for c in table if ((re.search("Evolution Creature",card.Type) and isCreature(c)) or (re.search("Evolution Cross Gear", card.Type) and isGear(c))) and c.controller == me and not isBait(c)]
 				if me.isInverted: reverse_cardList(materialList)
 				if len(materialList) == 0:
 					whisper("Cannot play {}, you don't have any Cards in Battle Zone for it.".format(card))
@@ -2601,7 +2614,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					if type(choice) is not Card: break
 					targets.append(choice)
 					materialList.remove(choice)
-
 			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card, targets)
 	if isMana(card) or isShield(card):
@@ -2610,7 +2622,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if shieldMarker in card.markers:
 		card.markers[shieldMarker] = 0
 	align()
-	if notifymute == False or not alreadyEvaluating:
+	if notifymute == False:
 		notify("{} plays {}{}.".format(me, card, evolveText))
 	
 	if not ignoreEffects:
