@@ -30,6 +30,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
   - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
   - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
+  - **Punch Trooper Bronks**: Shows you the card(s) with lowest Power and asks you to confirm.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
