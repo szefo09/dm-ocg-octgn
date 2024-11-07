@@ -32,6 +32,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
   - **Punch Trooper Bronks**: Shows you the card(s) with lowest Power and asks you to confirm.
   - **Lucky Ball**: Checks Opponent's Shield Count, then decides if you can draw.
+  - **Virtual tripwire**: Taps one of the opponent's creatures.
+  - **Vampire Silphy**: Destroys all cards with 3000 Power or less 
   - **Bonds of Justice**: Taps all creatures that don't have {BLOCKER}
   - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
   - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
@@ -81,7 +83,11 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Ballus, Dogfight Enforcer Q,
     - Bazagazeal Dragon,
     - Cutthroat Skyterror,
-    - Pyrofighter Magnus
+    - Frei, Vizier of Air,
+    - Pyrofighter Magnus,
+    - Ruby Grass,
+    - Toel, Vizier of Hope,
+    - Urth, Purifying Elemental
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
   - **New Cards Added**:

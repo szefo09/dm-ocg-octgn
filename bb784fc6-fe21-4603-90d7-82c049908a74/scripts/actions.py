@@ -46,7 +46,7 @@ cardScripts = {
 	'Chief De Baula, Machine King of Mystic Light': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Cobalt Hulcus, Aqua Savage': {'onPlay': ['draw(me.Deck, True)']},
 	'Corile': {'onPlay': ['bounce(1, True, True)']},
-	'Cranium Clamp': {'onPlay': ['craniumClamp()']},
+	'Cranium Clamp': {'onPlay': ['opponentToDiscard(2)']},
 	'Craze Valkyrie, the Drastic': {'onPlay': ['tapCreature(2)']},
 	'Crimson Maru, the Untamed Flame': {'onPlay': [' kill(4000)']},
 	'Cyber N World': {'onPlay': [' semiReset()']},
@@ -57,10 +57,12 @@ cardScripts = {
 	'Dolmarks, the Shadow Warrior': {'onPlay': ['dolmarks()']},
 	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness", True)']},
 	'Emperor Himiko': {'onPlay': ['draw(me.Deck, True)']},
+	'Emeral': {'onPlay': ['emeral(card)']},
 	'Emperor Marco': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Estol, Vizier of Aqua': {'onPlay': ['shields(me.Deck)']},
 	'Eviscerating Warrior Lumez': {'onPlay':['waveStriker("destroyAll(table, True, 2000)", card)']},
 	'Evolution Totem': {'onPlay': [' search(me.Deck, 1, "Evolution Creature")']},
+	'Explosive Fighter Ucarn':{'onPlay': ['fromMana(count=2, toGrave=True)']},
 	'Factory Shell Q': {'onPlay': [' search(me.Deck, 1, "ALL", "ALL", "Survivor")']},
 	'Fighter Dual Fang': {'onPlay': [' mana(me.Deck,2)']},
 	'Fist Dragoon': {'onPlay': ['kill(2000)']},
@@ -117,6 +119,7 @@ cardScripts = {
 	'Nam=Daeddo, Bronze Style': {'onPlay': ['mana(me.Deck, preCondition=manaArmsCheck("Nature",3))']},
 	'Niofa, Horned Protector': {'onPlay': ['search(me.Deck, 1, "ALL", "Nature")']},
 	'Ochappi, Pure Hearted Faerie': {'onPlay': ['fromGrave()']},
+	'Onslaughter Triceps':{'onPlay': ['fromMana(toGrave=True)']},
 	'Pakurio': {'onPlay': [' targetDiscard(False,"shield")']},
 	'Phal Eega, Dawn Guardian': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Phal Pierro, Apocalyptic Guardian': {'onPlay': ['suicide("Phal Pierro, Apocalyptic Guardian", fromGrave, )']},
@@ -142,11 +145,12 @@ cardScripts = {
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Scarlet Skyterror': {'onPlay': ['destroyAll([c for c in table if re.search("\{BLOCKER\}", c.Rules)], True)']},
-	'Skyscraper Shell': {'onPlay': ['waveStriker("sendToMana()", card)']},
+	'Skyscraper Shell': {'onPlay': ['waveStriker("opponentSendToMana()", card)']},
 	'Skysword, the Savage Vizier': {'onPlay': ['mana(me.Deck)', 'shields(me.deck)']},
 	'Solidskin Fish': {'onPlay': ['fromMana()']},
 	'Spiritual Star Dragon': {'onPlay': ['fromDeck()']},
 	'Splash Zebrafish': {'onPlay': ['fromMana()']},
+	'Storm Shell':{'onPlay':['opponentSendToMana()']},
 	'Steamroller Mutant': {'onPlay': ['waveStriker("destroyAll(table, True)", card)']},
 	'Syforce, Aurora Elemental': {'onPlay': ['fromMana(1,"Spell")']},
 	'Terradragon Zalberg': {'onPlay': [' destroyMana(2)']},
@@ -158,6 +162,7 @@ cardScripts = {
 	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
 	'Uncanny Turnip': {'onPlay':['waveStriker(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
 	'Unicorn Fish': {'onPlay': ['bounce()']},
+	'Vampire Silphy':{'onPlay': ['destroyAll(table, True, 3000)']},
 	'Velyrika Dragon': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "Armored Dragon")']},
 	'Viblo Blade, Hulcus Range': {'onPlay': ['draw(me.Deck, True)']},
 	'Walmiel, Electro-Sage': {'onPlay': ['tapCreature()']},
@@ -204,7 +209,6 @@ cardScripts = {
 	'Slash Charger': {'onPlay': ['fromDeckToGrave()']},
 	'Dracobarrier': {'onPlay': ['tapCreature()']},
 	'Drill Bowgun': {'onPlay': ['gear("kill")']},
-	'Emeral': {'onPlay': ['emeral(card)']},
 	'Emergency Typhoon':{'onPlay':['draw(me.Deck, True, 2)','selfDiscard()'],},
 	'Enchanted Soil': {'onPlay': ['fromGrave()']},
 	'Energy Stream': {'onPlay': ['draw(me.Deck, False, 2)']},
@@ -321,6 +325,7 @@ cardScripts = {
 	'Vacuum Ray': {'onPlay': ['tapCreature()']},
 	'Valiant Spark': {'onPlay': [' tapCreature()'],
 					  'onMetamorph': ['tapCreature(1,True)']},
+	'Virtual Tripwire': {'onPlay': ['tapCreature()']},
 	'Volcanic Arrows': {'onPlay': ['burnShieldKill(1, True, 6000, 1, False)']},
 	'Volcano Charger': {'onPlay': ['kill(2000)']},
 	'Wave Rifle': {'onPlay': ['gear("bounce")']},
@@ -409,7 +414,11 @@ cardScripts = {
 	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': ['untapCreature(card, False)']},
 	'Bazagazeal Dragon': {'onTurnEnd': ['toHand(card)']},
 	'Cutthroat Skyterror': {'onTurnEnd': ['toHand(card)']},
+	'Frei, Vizier of Air': {'onTurnEnd':['untapCreature(card)']},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
+	'Ruby Grass': {'onTurnEnd':['untapCreature(card)']},
+	'Toel, Vizier of Hope': {'untapCreatureAll()'},
+	'Urth, Purifying Elemental':{'onTurnEnd':['untapCreature(card)']},
 
 	#ON YOUR TURN START EFFECTS
 	'Aloro, War God': {'onTurnStart': ['fromMana(1,"ALL","ALL","ALL",True,True)']},
@@ -1143,7 +1152,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 				and not re.search(civFilter, card.properties['Civilization'])]
 			else:
 				cardList = [card for card in group if
-						isCreature(card) (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
+						isCreature(card) and (int(card.Power.strip('+')) == powerFilter if exactPower else int(card.Power.strip('+')) <= powerFilter) 
 						and re.search(civFilter, card.properties['Civilization'])]
 	else:
 		cardList = group
@@ -1189,12 +1198,12 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
-			notify('Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
+			#notify('DEBUG: Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
 			functionList = cardScripts.get(card.Name).get('onDestroy')
 		if re.search("Survivor", card.Race):
 			for surv in survivors:
 				if surv != card and cardScripts.get(surv.name, {}).get('onDestroy', []):
-					notify('Added {} to {}'.format(cardScripts.get(surv.name).get('onDestroy'), card.Name))
+					#notify('DEBUG: Added {} to {}'.format(cardScripts.get(surv.name).get('onDestroy'), card.Name))
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
@@ -1499,15 +1508,17 @@ def sendToShields(count=1, opponentOnly=True, selfOnly = False):
 		if type(choice) is not Card: return
 		remoteCall(choice.owner, "toShields", choice)
 
-def sendToMana(count=1):
+def sendToMana(count=1, opponentOnly = True, selfOnly = False):
 	mute()
 	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) and card.owner != me]
+		cardList = [card for card in table if isCreature(card) 
+			  and not isBait(card) 
+			  and ((opponentOnly and card.owner != me) or (selfOnly and card.owner == me))]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Creature to send to Mana Zone')
 		if type(choice) is not Card: return
-		remoteCall(choice.owner, "toMana", choice)
+		remoteCall(choice.owner,"toMana", choice)
 
 def selfDiscard(count=1):
 	mute()
@@ -1543,6 +1554,18 @@ def opponentSacrifice(sacrificeArgs=[]):
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
+
+def opponentToDiscard(count = 1):
+	mute()
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	remoteCall(targetPlayer,'selfDiscard', count)
+
+def opponentSendToMana(count = 1):
+	mute()
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	remoteCall(targetPlayer,'sendToMana',[count, False, True])
 
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
@@ -1813,13 +1836,6 @@ def tanzanyte():
 	for card in cardList:
 		if card.Name == choice.Name:
 			toHand(card, True)	
-
-def craniumClamp():
-	mute()
-
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
-	remoteCall(targetPlayer,'selfDiscard', 2)
 
 def mechadragonsBreath():
 	power = askNumber()
@@ -2280,6 +2296,15 @@ def untapCreature(card, ask = True):
 			card.target(False)
 			if choice != 1: return
 		tapMultiple([card], clearFunctions=False)
+
+def untapCreatureAll(ask = True):
+	cardList = [c for c in table if isCreature(c)]
+	if ask:
+		choice = askYN("Would you like to Untap All Your Creatures?")
+		if choice != 1: return
+	tapMultiple(cardList, clearFunctions=False)
+
+
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
