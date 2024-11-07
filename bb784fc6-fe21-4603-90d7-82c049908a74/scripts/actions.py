@@ -1555,6 +1555,18 @@ def opponentSacrifice(sacrificeArgs=[]):
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
 
+def opponentToDiscard(count = 1):
+	mute()
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	remoteCall(targetPlayer,'selfDiscard', count)
+
+def opponentSendToMana(count = 1):
+	mute()
+	targetPlayer = getTargetPlayer()
+	if not targetPlayer: return
+	remoteCall(targetPlayer,'sendToMana',[count, False, True])
+
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
 	if targetALL:
@@ -1824,18 +1836,6 @@ def tanzanyte():
 	for card in cardList:
 		if card.Name == choice.Name:
 			toHand(card, True)	
-
-def opponentToDiscard(count = 1):
-	mute()
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
-	remoteCall(targetPlayer,'selfDiscard', count)
-
-def opponentSendToMana(count = 1):
-	mute()
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
-	remoteCall(targetPlayer,'sendToMana',[count, False, True])
 
 def mechadragonsBreath():
 	power = askNumber()
