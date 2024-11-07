@@ -418,7 +418,7 @@ cardScripts = {
 	'Frei, Vizier of Air': {'onTurnEnd':['untapCreature(card)']},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
 	'Ruby Grass': {'onTurnEnd':['untapCreature(card)']},
-	'Toel, Vizier of Hope': {'untapCreatureAll()'},
+	'Toel, Vizier of Hope': {'onTurnEnd': ['untapCreatureAll()']},
 	'Urth, Purifying Elemental':{'onTurnEnd':['untapCreature(card)']},
 
 	#ON YOUR TURN START EFFECTS
