@@ -37,6 +37,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Bonds of Justice**: Taps all creatures that don't have {BLOCKER}
   - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
   - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
+  - **Crystal Paladin**: Bounces every blocker to hand.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -112,6 +113,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Skeleton Vice**: Correctly discards two cards at random.
   - **Galek, the Shadow Warrior**: Allows you to destroy enemy blocker.
   - **Wind Axe, the Warrior Savage**: Allows you to destroy enemy blocker.
+  - **Shtra** and **Aqua Deformer**: Both Players return Mana to Hand.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
