@@ -31,6 +31,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
   - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
   - **Punch Trooper Bronks**: Shows you the card(s) with lowest Power and asks you to confirm.
+  - **Lucky Ball**: Checks Opponent's Shield Count, then decides if you can draw.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -88,7 +89,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 - **Other Improvements**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
-  - **Added Implementation for Evolutions: Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
+  - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
