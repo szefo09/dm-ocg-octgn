@@ -114,6 +114,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Galek, the Shadow Warrior**: Allows you to destroy enemy blocker.
   - **Wind Axe, the Warrior Savage**: Allows you to destroy enemy blocker.
   - **Shtra** and **Aqua Deformer**: Both Players return Mana to Hand.
+  - **Phal Pierro, Apocalyptic Guardian**: Works like Phal Eega when it destroys itself.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
