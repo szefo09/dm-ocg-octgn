@@ -2099,6 +2099,7 @@ def rollDie(group, x=0, y=0):
 	n = rnd(1, diesides)
 	notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
+#untaps everything, creatures and mana
 def untapAll(group=table, isNewTurn=False, x=0, y=0):
 	mute()
 	clearWaitingFuncts()
