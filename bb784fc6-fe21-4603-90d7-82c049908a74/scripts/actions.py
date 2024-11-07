@@ -406,7 +406,7 @@ cardScripts = {
 
 	'Aqua Officer': {'onTurnEnd': ['tapCreature(2, onlyOwn=True)'], 'onTurnStart': ['draw(me.Deck, True, 2)']},
 	'Balesk Baj, the Timeburner': {'onTurnEnd': ['toHand(card)']},
-	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': ['untap(card, False)']},
+	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': ['untapCreature(card, False)']},
 	'Bazagazeal Dragon': {'onTurnEnd': ['toHand(card)']},
 	'Cutthroat Skyterror': {'onTurnEnd': ['toHand(card)']},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
@@ -2271,7 +2271,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			evaluateWaitingFunctions()
 			alreadyEvaluating = False
 
-def untap(card, ask = True):
+#untaps creature
+def untapCreature(card, ask = True):
 	if card.orientation == Rot90:
 		if ask:
 			card.target()
