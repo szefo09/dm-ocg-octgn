@@ -23,7 +23,7 @@ cardScripts = {
 	'Angila, Electro-Mask': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
 	'Aures, Spirit Knight': {'onPlay': ['mana(me.Deck)']},
 	'Aqua Bouncer': {'onPlay': ['bounce()']},
-	'Aqua Deformer': {'onPlay': ['fromMana(2, "ALL", "ALL", "ALL", True, False, True)']},
+	'Aqua Deformer': {'onPlay': ['bothPlayersFromMana(2)']},
 	'Aqua Hulcus': {'onPlay': ['draw(me.Deck, True)']},
 	'Aqua Hulk': {'onPlay': ['draw(me.Deck, True)']},
 	'Aqua Sniper': {'onPlay': ['bounce(2)']},
@@ -49,6 +49,7 @@ cardScripts = {
 	'Cranium Clamp': {'onPlay': ['opponentToDiscard(2)']},
 	'Craze Valkyrie, the Drastic': {'onPlay': ['tapCreature(2)']},
 	'Crimson Maru, the Untamed Flame': {'onPlay': [' kill(4000)']},
+	'Crystal Paladin': {'onPlay': ['bounceAll(True,True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Cyber N World': {'onPlay': [' semiReset()']},
 	'Dacity Dragoon, Explosive Beast': {'onPlay': ['kill(3000)']},
 	'Dandy Eggplant': {'onPlay': ['fromDeck()']},
@@ -140,7 +141,7 @@ cardScripts = {
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Saucer-Head Shark':{'onPlay':['bounce(len([c for c in table if int(c.Power.strip("+"))<=2000))]']},
 	'Scissor Scarab': {'onPlay': ['search(1,"ALL","ALL","Giant Insect")']},
-	'Shtra': {'onPlay': [' fromMana(1, "ALL", "ALL", "ALL", True, False, True)']},
+	'Shtra': {'onPlay': ['bothPlayersFromMana()']},
 	'Self-Destructing Gil Poser': {'onPlay': ['suicide("Self-Destructing Gil Poser", kill, 2000)']},
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
@@ -924,38 +925,34 @@ def clonedDiscard():
 
 # do some anti-discard inside dat randomdisc function
 
-def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, ApplyToAllPlayers=False):
+def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False):
 	mute()
-	if ApplyToAllPlayers == True:
-		playerList = players
+	if TypeFilter != "ALL":
+		cardsInGroup_Type_Filtered = [card for card in table if
+									  isMana(card) and card.owner == me and re.search(TypeFilter, card.Type)]
 	else:
-		playerList = [players[0]]  # players[0] is the player calling this function, me
-	for player in playerList:
-		if TypeFilter != "ALL":
-			cardsInGroup_Type_Filtered = [card for card in table if
-										  isMana(card) and card.owner == me and re.search(TypeFilter, card.Type)]
+		cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner == me]
+	if CivFilter != "ALL":
+		cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
+											re.search(CivFilter, card.properties['Civilization'])]
+	else:
+		cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+	if RaceFilter != "ALL":
+		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
+												re.search(RaceFilter, card.properties['Race'])]
+	else:
+		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+	if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
+	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
+	count = min(count, len(cardsInGroup_CivTypeandRace_Filtered))
+	for i in range(0, count):
+		choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone')
+		if type(choice) is not Card: break
+		cardsInGroup_CivTypeandRace_Filtered.remove(choice)
+		if toGrave == True:
+			destroy(choice)
 		else:
-			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner == me]
-		if CivFilter != "ALL":
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
-												re.search(CivFilter, card.properties['Civilization'])]
-		else:
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-		if RaceFilter != "ALL":
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
-													re.search(RaceFilter, card.properties['Race'])]
-		else:
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-		if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
-		for i in range(0, count):
-			choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone', 'Mana Zone')
-			if type(choice) is not Card: break
-			cardsInGroup_CivTypeandRace_Filtered.remove(choice)
-			if toGrave == True:
-				remoteCall(player, "destroy", choice)
-			else:
-				remoteCall(player, "toHand", [choice, show])
+			toHand(choice,show)
 
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
@@ -1355,6 +1352,16 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, condition='True', condi
 		else:
 			remoteCall(card.owner, "toHand", card)
 
+def bounceAll(opponentCards=True, myCards=True, filterFunction = "True"):
+	mute()
+	cardList = [c for c in table if isCreature(c) 
+										and not isBait(c)
+										and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
+										and eval(filterFunction)]
+	if len(cardList) == 0: return
+	for card in cardList:
+		remoteCall(card.owner, "toHand", card)
+
 #for Effects that return shield and don't trigger shield triggers
 def bounceShield(count = 1, selfOnly=True):
 	mute()
@@ -1495,25 +1502,23 @@ def processOnTurnStartEffects():
 		evaluateWaitingFunctions()
 		alreadyEvaluating = False
 
-def sendToShields(count=1, opponentOnly=True, selfOnly = False):
+def sendToShields(count=1, opponentCards=True, myCards = False):
 	mute()
 	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) and (
-			(opponentOnly and card["owner"] != me) or 
-        	(selfOnly and card["owner"] == me) or 
-        	(not opponentOnly and not selfOnly))]
+		cardList = [card for card in table if isCreature(card) 
+			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Creature to send to Shields')
 		if type(choice) is not Card: return
 		remoteCall(choice.owner, "toShields", choice)
 
-def sendToMana(count=1, opponentOnly = True, selfOnly = False):
+def sendToMana(count=1, opponentCards = True, myCards = False):
 	mute()
 	for i in range(0, count):
 		cardList = [card for card in table if isCreature(card) 
 			  and not isBait(card) 
-			  and ((opponentOnly and card.owner != me) or (selfOnly and card.owner == me))]
+			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Creature to send to Mana Zone')
@@ -1566,6 +1571,10 @@ def opponentSendToMana(count = 1):
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sendToMana',[count, False, True])
+
+def bothPlayersFromMana(count = 1):
+	for player in players:
+		remoteCall(player, "fromMana", count)
 
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
 	mute()
@@ -2805,4 +2814,3 @@ def toDeck(card, bottom=False):
 				notify("{} moves {} to top of Deck.".format(me, c))
 				c.moveTo(c.owner.Deck)
 	align()
-
