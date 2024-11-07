@@ -922,24 +922,24 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 	else:
 		playerList = [players[0]]  # players[0] is the player calling this function, me
 	for player in playerList:
+		if TypeFilter != "ALL":
+			cardsInGroup_Type_Filtered = [card for card in table if
+										  isMana(card) and card.owner == me and re.search(TypeFilter, card.Type)]
+		else:
+			cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner == me]
+		if CivFilter != "ALL":
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
+												re.search(CivFilter, card.properties['Civilization'])]
+		else:
+			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+		if RaceFilter != "ALL":
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
+													re.search(RaceFilter, card.properties['Race'])]
+		else:
+			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+		if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
+		if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
 		for i in range(0, count):
-			if TypeFilter != "ALL":
-				cardsInGroup_Type_Filtered = [card for card in table if
-											  isMana(card) and card.owner == me and re.search(TypeFilter, card.Type)]
-			else:
-				cardsInGroup_Type_Filtered = [card for card in table if isMana(card) and card.owner == me]
-			if CivFilter != "ALL":
-				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
-													re.search(CivFilter, card.properties['Civilization'])]
-			else:
-				cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-			if RaceFilter != "ALL":
-				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
-														re.search(RaceFilter, card.properties['Race'])]
-			else:
-				cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-			if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-			if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
 			choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone', 'Mana Zone')
 			if type(choice) is not Card: break
 			cardsInGroup_CivTypeandRace_Filtered.remove(choice)
