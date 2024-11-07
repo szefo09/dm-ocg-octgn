@@ -1634,10 +1634,19 @@ def bronks():
 	minPower = min(int(c.Power.strip('+')) for c in creatureList)
 	notify("Lowest Power found: {}".format(minPower))
 	leastPowerCreatureList = [c for c in creatureList if int(c.Power.strip('+')) == minPower]
+	opponentCreatures = [card for card in creatureList if card.owner != me]
+	myCreatures = [card for card in creatureList if card.owner == me]
+	leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
+       	int(me.isInverted) if x in opponentCreatures else int(not me.isInverted),
+        (opponentCreatures + myCreatures).index(x)))
 	if me.isInverted: reverse_cardList(leastPowerCreatureList)
-	choice = askCard2(leastPowerCreatureList, "Select a card to destroy.")
+	else: 
+		leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
+       	 	0 if x in opponentCreatures else 1,
+        	(opponentCreatures + myCreatures).index(x)))
+	choice = askCard2(leastPowerCreatureList, "Select a card to destroy (Opponent's are shown first).")
 	if type(choice) is not Card: return
-	destroy(choice)
+	remoteCall(choice.owner,'destroy',choice)
 
 def carnivalTotem():
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
@@ -1711,7 +1720,7 @@ def miraculousPlague():
 			creatureChoice2.target()
 			creatureChoices.append(creatureChoice2)
 			#sort the choices to reflect the table state.
-			sorted(creatureChoices, key= lambda x: [card for card in table if isCreature(card) and card.owner != me].index(x))
+			creatureChoices = sorted(creatureChoices, key= lambda x: [card for card in table if isCreature(card) and card.owner != me].index(x))
 
 			remoteCall(creatureChoice.owner,"_miraculousPlagueChooseToHand", [creatureChoices])
 
