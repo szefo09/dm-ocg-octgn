@@ -356,7 +356,7 @@ cardScripts = {
 	'Asylum, the Dragon Paladin': {'onDestroy': [' toShields(card)']},
 	'Balloonshroom Q': {'onDestroy': ['toMana(card)']},
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': [' search(me.piles["Graveyard"], 1, "Creature")']},
-	'Bombersaur':{'onDestroy':['bothPlayersFromMana(2)']},
+	'Bombersaur':{'onDestroy':['bothPlayersFromMana(2,True)']},
 	'Bone Piercer': {'onDestroy': ['fromMana(1, "Creature")']},
 	'Cetibols': {'onDestroy': [' draw(me.Deck, True)']},
 	'Chilias, the Oracle': {'onDestroy': [' toHand(card)']},
@@ -367,6 +367,7 @@ cardScripts = {
 	'Death Monarch, Lord of Demons': {'onDestroy': [
 		'SummonFromGrave(len([c for c in me.piles["Graveyard"] if not re.search("Evolution",c.type)]),"Creature", "ALL", "Demon Command")']},
 	'Dracodance Totem': {'onDestroy': ['fromMana(1,"ALL","ALL","Dragon")', 'toMana(card)']},
+	'Engineer Kipo':{'onDestroy':['bothPlayersFromMana(1,True)']},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
 	'Hammerhead Cluster': {'onDestroy': ['bounce()']},
