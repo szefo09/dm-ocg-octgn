@@ -36,6 +36,7 @@ cardScripts = {
 	'Ballom, Master of Death': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)']},
 	'Bega, Vizier of Shadow': {'onPlay': ['shields(me.Deck)', 'targetDiscard(True)']},
 	'Belix, the Explorer': {'onPlay': ['fromMana(1,"Spell")']},
+	'Bombazar, Dragon of Destiny': {'onPlay': ['destroyAll([c for c in table if c != card], True, 6000, "ALL", False, True)']},
 	'Bonfire Lizard': {'onPlay':['waveStriker(\'kill(count=2, rulesFilter="{BLOCKER}")\', card)']},
 	'Bronze-Arm Tribe': {'onPlay': ['mana(me.Deck)']},
 	'Bronze Chain Sickle': {'onPlay': ['mana(me.Deck)']},
@@ -299,7 +300,7 @@ cardScripts = {
 	'Screw Rocket': {'onPlay': ['gear("kill")']},
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
-	'Searing Wave': {'onPlay': ['burnShieldKill(1, True, 3000, "ALL", False)']},
+	'Searing Wave': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True, 3000)','burnShieldKill(1)']},
 	'Solar Grace': {'onPlay': ['tapCreature()']},
 	'Solar Ray': {'onPlay': ['tapCreature()']},
 	'Solar Trap': {'onPlay': ['tapCreature()']},
@@ -374,12 +375,16 @@ cardScripts = {
 	'Proxion, the Oracle': {'onDestroy': ['toHand(card)']},
 	'Shaman Broccoli': {'onDestroy': ['toMana(card)']},
 	'Shout Corn': {'onDestroy': ['toMana(card)']},
+	'Sinister General Damudo': {'onDestroy': ['destroyAll(table, True, 3000)']},
 	'Solid Horn': {'onDestroy': ['toMana(card)']},
 	'Stallob the Lifequasher': {'onDestroy': ['destroyAll(table, True)']},
 	'Stubborn Jasper': {'onDestroy': ['toHand(card)']},
 	'Red-Eye Scorpion': {'onDestroy': ['toMana(card)']},
 	'Revival Soldier': {'onDestroy': ['waveStriker("toHand(card)", card)']},
 	'Worm Gowarski, Masked Insect': {'onDestroy': ['targetDiscard(True)']},
+
+	#ON REMOVE FROM BATTLE ZONE
+	'Cruel Naga, Avatar of Fate': {'onLeaveBZ':{'destroyAll(table, True)'}},
 
 	#ON DISCARD FROM HAND 
 	
@@ -432,6 +437,7 @@ cardScripts = {
 	'Flohdani, the Spydroid': {'silentSkill':['tapCreature(2)']},
 	'Gazer Eyes, Shadow of Secrets': {'silentSkill':['lookAtHandAndDiscard()']},
 	'Hustle Berry': {'silentSkill':['mana(me.Deck)']},
+	'Minelord Skyterror': {'silentSkill':['destroyAll(table, True, 3000)']},
 	'Soderlight, the Cold Blade': {'silentSkill':['opponentSacrifice()']},
 	'Vorg\'s Engine': {'silentSkill':['destroyAll(table, True, 2000)']},
 
@@ -2484,6 +2490,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
+	cardWasCreature = isCreature(card) and checkEvo
 	##notify("Removing from tracked evos if its bait or an evolved creature")
 	if checkEvo:
 		baitList = removeIfEvo(card)
@@ -2500,6 +2507,20 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		align()
 	if notifymute == False:
 		notify("{} charges {} as mana.".format(me, card))
+	
+	#Handle on Remove From Battle Zone effects:
+	if cardWasCreature:
+		functionList=[]
+		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
+			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
+			for function in functionList:
+				waitingFunct.append([card, function])
+		
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
+
 
 #Set as shield menu option / Ctrl+H (both from hand and battlezone)
 def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
@@ -2510,6 +2531,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
+	cardWasCreature = isCreature(card) and checkEvo
 	count = int(me.getGlobalVariable("shieldCount")) + 1
 	me.setGlobalVariable("shieldCount", convertToString(count))
 	if notifymute == False:
@@ -2531,6 +2553,14 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			toShields(baitCard, checkEvo=False, alignCheck=False)
 	if alignCheck:
 		align()
+	
+	#Handle on Remove From Battle Zone effects:
+	if cardWasCreature:
+		functionList=[]
+		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
+			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
+			for function in functionList:
+				eval(function)
 
 #Play Card menu option (both from hand and battlezone)
 def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False, isEvoMaterial = False):
@@ -2754,6 +2784,7 @@ def endOfFunctionality(card):
 def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	mute()
 	src = card.group
+	cardWasCreature = isCreature(card) and checkEvo
 	if src == table and checkEvo:
 		baitList = removeIfEvo(card)
 		for baitCard in baitList:
@@ -2782,7 +2813,19 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		if cardScripts.get(card.Name, {}).get('onDiscard', {}):
 			functionList = cardScripts.get(card.Name).get('onDiscard')
 			for function in functionList:
-				eval(function)
+				waitingFunct.append([card,function])
+	#Handle on Remove From Battle Zone effects:
+	if cardWasCreature:
+		functionList=[]
+		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
+			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
+			for function in functionList:
+				waitingFunct.append([card,function])
+	
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 
 #Move To Hand (from battlezone)
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
@@ -2791,6 +2834,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
+	cardWasCreature = isCreature(card) and checkEvo
 	if show:
 		card.isFaceUp = True
 		# need to use just card instead of card.Name for link to card
@@ -2811,6 +2855,19 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 
 	if alignCheck:
 		align()
+	
+	#Handle on Remove From Battle Zone effects:
+	if cardWasCreature:
+		functionList=[]
+		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
+			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
+			for function in functionList:
+				waitingFunct.append[card,function]
+		
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False
 
 #Move to Bottom (from battlezone)
 def toDeckBottom(card, x=0, y=0):
@@ -2820,9 +2877,11 @@ def toDeckBottom(card, x=0, y=0):
 #Move to Topdeck (from battlezone)
 def toDeck(card, bottom=False):
 	mute()
+	
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
+	cardWasCreature = isCreature(card)
 	cardList = removeIfEvo(card)  # baits
 	cardList.append(card)  # top card as well
 	while len(cardList) > 0:
@@ -2839,3 +2898,15 @@ def toDeck(card, bottom=False):
 				notify("{} moves {} to top of Deck.".format(me, c))
 				c.moveTo(c.owner.Deck)
 	align()
+	#Handle on Remove From Battle Zone effects:
+	if cardWasCreature:
+		functionList=[]
+		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
+			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
+			for function in functionList:
+				waitingFunct.append([card, function])
+		
+	if not alreadyEvaluating:
+		alreadyEvaluating = True
+		evaluateWaitingFunctions()
+		alreadyEvaluating = False

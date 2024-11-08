@@ -38,6 +38,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
   - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
   - **Crystal Paladin**: Bounces every blocker to hand.
+  - **Bombazar, Dragon of Destiny**: Destroys other 6000 Power Creatures on Board when played.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -96,6 +97,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cosmic Nebula,
     - Cosmoview Lunatron,
     - Wingeye Moth
+- **"When this creature leaves the battle zone" Effects Added**
+  - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
+  - **New Cards Added**:
+    - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
@@ -116,6 +121,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Shtra** and **Aqua Deformer**: Both Players return Mana to Hand.
   - **Phal Pierro, Apocalyptic Guardian**: Works like Phal Eega when it destroys itself.
   - **Apocalypse Day**: No longer counts Baits into the 6 card count.
+  - **Volcanic Arrows**: Allows you to destroy your own creature too.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
