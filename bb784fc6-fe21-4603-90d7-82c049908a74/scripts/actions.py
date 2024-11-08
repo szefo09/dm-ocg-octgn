@@ -327,7 +327,7 @@ cardScripts = {
 	'Valiant Spark': {'onPlay': [' tapCreature()'],
 					  'onMetamorph': ['tapCreature(1,True)']},
 	'Virtual Tripwire': {'onPlay': ['tapCreature()']},
-	'Volcanic Arrows': {'onPlay': ['burnShieldKill(1, True, 6000, 1, False)']},
+	'Volcanic Arrows': {'onPlay': ['burnShieldKill(1, True, 6000, 1, True)']},
 	'Volcano Charger': {'onPlay': ['kill(2000)']},
 	'Wave Rifle': {'onPlay': ['gear("bounce")']},
 	'White Knight Spark': {'onPlay': ['tapCreature(1,True)']},
@@ -1277,7 +1277,7 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0,
 
 	if killCount == "ALL" or killCount > 0:
 		if powerFilter == 'ALL': powerFilter = float('inf')
-		validKillTargets = [c for c in table if isCreature(c) and not isBait(card) and int(c.Power.strip(' +')) <= powerFilter]
+		validKillTargets = [c for c in table if isCreature(c) and not isBait(c) and int(c.Power.strip(' +')) <= powerFilter]
 		if not targetOwnCr:
 			validKillTargets = [c for c in validKillTargets if not c.owner == me]
 			targetCr = [c for c in targetCr if not c.owner == me]
