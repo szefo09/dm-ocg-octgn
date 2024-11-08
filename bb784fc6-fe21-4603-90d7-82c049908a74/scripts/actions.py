@@ -42,7 +42,7 @@ cardScripts = {
 	'Bronze Chain Sickle': {'onPlay': ['mana(me.Deck)']},
 	'Bubble Lamp': {'onPlay': ['draw(me.Deck, True) if len([c for c in me.piles["Graveyard"] if re.search("Bubble Lamp", c.Name)]) > 0 else None']},
 	'Buinbe, Airspace Guardian': {'onPlay': ['draw(me.Deck, True)']},
-	'Carnival Totem': {'onPlay': ['carnivalTotem()']},
+	'Carnival Totem': {'onPlay': ['swapManaAndHand()']},
 	'Chaos Worm': {'onPlay': [' kill()']},
 	'Chief De Baula, Machine King of Mystic Light': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Cobalt Hulcus, Aqua Savage': {'onPlay': ['draw(me.Deck, True)']},
@@ -130,6 +130,7 @@ cardScripts = {
 	'Pointa, the Aqua Shadow': {'onPlay': ['targetDiscard(True)']},
 	'Prometheus, Splash Axe': {'onPlay': ['mana(me.Deck, 2, False, True)']},
 	'Punch Trooper Bronks': {'onPlay': ['bronks()']},
+	'Q-tronic Hypermind': {'onPlay':['draw(me.Deck, True, len(getSurvivorsOnYourTable(False)))']},
 	'Qurian': {'onPlay': ['draw(me.Deck, True)']},
 	'Raiden, Lightfang Ninja': {'onPlay': ['tapCreature()']},
 	'Rayla, Truth Enforcer': {'onPlay': ['search(me.Deck, 1, "Spell")']},
@@ -322,8 +323,8 @@ cardScripts = {
 	'Tornado Flame': {'onPlay': [' kill(4000)']},
 	'Transmogrify': {'onPlay': ['killAndSearch(True)']},
 	'Triple Brain': {'onPlay': ['draw(me.Deck, False, 3)']},
-	'Q-tronic Hypermind': {'onPlay':['draw(me.Deck, True, len(getSurvivorsOnYourTable(False)))']},
 	'Ultimate Force': {'onPlay': [' mana(me.Deck, 2)']},
+	'Upheaval': {'onPlay': ['upheaval()']},
 	'Vacuum Ray': {'onPlay': ['tapCreature()']},
 	'Valiant Spark': {'onPlay': [' tapCreature()'],
 					  'onMetamorph': ['tapCreature(1,True)']},
@@ -1703,14 +1704,15 @@ def bronks():
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy',choice)
 
-def carnivalTotem():
+def swapManaAndHand(tapped = True):
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
 	handList = [card for card in me.hand]
 	for manaCard in manaZoneList:
 		toHand(manaCard)
 	for handCard in handList:
 		toMana(handCard)
-		handCard.orientation = Rot270
+		if tapped:
+			handCard.orientation = Rot270
 
 def deklowazDiscard():
 	mute()
@@ -1751,6 +1753,14 @@ def klujadras():
 		if count:
 			remoteCall(player, "draw", [player.Deck, False, count]) 
 
+def mechadragonsBreath():
+	power = askNumber()
+	
+	if(power>6000):
+		notify("{} chose incorrect Power ({}).".format(me, power))
+		return
+	notify("{} chose {} Power.".format(me, power))
+	destroyAll(table,True,power,"ALL",False,True)
 
 def miraculousPlague():
 	mute()
@@ -1864,14 +1874,9 @@ def tanzanyte():
 		if card.Name == choice.Name:
 			toHand(card, True)	
 
-def mechadragonsBreath():
-	power = askNumber()
-	
-	if(power>6000):
-		notify("{} chose incorrect Power ({}).".format(me, power))
-		return
-	notify("{} chose {} Power.".format(me, power))
-	destroyAll(table,True,power,"ALL",False,True)
+def upheaval():
+	for player in players:
+		remoteCall(player, 'swapManaAndHand', []) 
 
 def _fromManaToField(targetPlayer):
 	mute()
