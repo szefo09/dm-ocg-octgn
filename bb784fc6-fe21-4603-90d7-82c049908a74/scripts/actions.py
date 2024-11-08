@@ -34,6 +34,7 @@ cardScripts = {
 	'Astral Warper': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Baban Ban Ban, Earth\'s Blessing': {'onPlay': ['massMana(me.Deck, True)']},
 	'Ballom, Master of Death': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)']},
+	'Baraga, Blade of Gloom': {'onPlay':['bounceShield()']},
 	'Bega, Vizier of Shadow': {'onPlay': ['shields(me.Deck)', 'targetDiscard(True)']},
 	'Belix, the Explorer': {'onPlay': ['fromMana(1,"Spell")']},
 	'Bonfire Lizard': {'onPlay':['waveStriker(\'kill(count=2, rulesFilter="{BLOCKER}")\', card)']},
@@ -294,6 +295,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
+	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="int(c.Cost)>=6")']},
 	'Scheming Hands': {'onPlay':['lookAtHandAndDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
@@ -302,6 +304,7 @@ cardScripts = {
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
 	'Searing Wave': {'onPlay': ['burnShieldKill(1, True, 3000, "ALL", False)']},
+	'Snake Attack':{'onPlay':['burnShieldKill(1,True)']},
 	'Solar Grace': {'onPlay': ['tapCreature()']},
 	'Solar Ray': {'onPlay': ['tapCreature()']},
 	'Solar Trap': {'onPlay': ['tapCreature()']},
@@ -343,6 +346,7 @@ cardScripts = {
 	'Akashic First, Electro-Dragon': {'onDestroy': ['toHand(card)']},
 	'Akashic Second, Electro-Spirit': {'onPlay': ['draw(me.Deck, True)'],
 										'onDestroy': ['toMana(card)']},
+	'Aless, the Oracle':{'onDestroy':['toShields(card)']},
 	'Aqua Agent': {'onDestroy': ['toHand(card)']},
 	'Aqua Knight': {'onDestroy': ['toHand(card)']},
 	'Aqua Ranger': {'onDestroy': ['toHand(card)']},
@@ -375,6 +379,7 @@ cardScripts = {
 	'Pharzi, the Oracle': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Propeller Mutant': {'onDestroy': ['targetDiscard(True)']},
 	'Proxion, the Oracle': {'onDestroy': ['toHand(card)']},
+	'Raza Vega, Thunder Guardian':{'onDestroy':['toShields(card)']},
 	'Shaman Broccoli': {'onDestroy': ['toMana(card)']},
 	'Shout Corn': {'onDestroy': ['toMana(card)']},
 	'Solid Horn': {'onDestroy': ['toMana(card)']},
@@ -928,7 +933,7 @@ def clonedDiscard():
 
 # do some anti-discard inside dat randomdisc function
 
-def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False):
+def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, filterFunction='True'):
 	mute()
 	if TypeFilter != "ALL":
 		cardsInGroup_Type_Filtered = [card for card in table if
@@ -945,13 +950,16 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 												re.search(RaceFilter, card.properties['Race'])]
 	else:
 		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-	if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
-	count = min(count, len(cardsInGroup_CivTypeandRace_Filtered))
+
+	cardsInGroup_CivTypeRaceandFunction_Filtered = [c for c in cardsInGroup_CivTypeandRace_Filtered if eval(filterFunction)]
+	
+	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
+	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
+	count = min(count, len(cardsInGroup_CivTypeRaceandFunction_Filtered))
 	for i in range(0, count):
-		choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone')
+		choice = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose a Card from the Mana Zone')
 		if type(choice) is not Card: break
-		cardsInGroup_CivTypeandRace_Filtered.remove(choice)
+		cardsInGroup_CivTypeRaceandFunction_Filtered.remove(choice)
 		if toGrave == True:
 			destroy(choice)
 		else:
