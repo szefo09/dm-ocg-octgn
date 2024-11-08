@@ -485,11 +485,8 @@ def onTarget(args): #this is triggered by OCTGN events when any card is targeted
 	numberOfTargets = len([c for c in table if c.targetedBy == me])
 	if numberOfTargets == 0:
 		return
-	global alreadyEvaluating
-	if waitingFunct and not alreadyEvaluating:
-		alreadyEvaluating = True
+	if waitingFunct:
 		evaluateWaitingFunctions()
-		alreadyEvaluating = False
 
 def onArrow(args):
 	player = args.player
@@ -584,12 +581,14 @@ def antiDiscard(card, sourcePlayer):
 def waitForTarget():
 	whisper("Waiting for targets. Please (re)target...")
 	whisper("[Esc to cancel]")
-	global alreadyEvaluating 
-	alreadyEvaluating = False
 	#now wait for user to target - event trigger will run def onTarget
 	return
 
 def evaluateWaitingFunctions():
+	global alreadyEvaluating
+	if alreadyEvaluating:
+		return
+	alreadyEvaluating = True
 	while len(waitingFunct)>0:
 			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			card = waitingFunct[0][0]
@@ -606,6 +605,7 @@ def evaluateWaitingFunctions():
 				elif cardBeingPlayed != waitingFunct[0][0]: #the next card is a different one
 					endOfFunctionality(cardBeingPlayed)
 				#notify("DEBUG: Waiting list is now: {}".format(str(waitingFunct)))
+	alreadyEvaluating = False
 
 def clearWaitingFuncts():  # clears any pending plays for a card that's waiting to choose targets etc
 	if waitingFunct:
@@ -615,6 +615,7 @@ def clearWaitingFuncts():  # clears any pending plays for a card that's waiting 
 			notify("Waiting for target/effect for {} cancelled.".format(cardBeingPlayed))
 			if isSpellInBZ(cardBeingPlayed):
 				endOfFunctionality(cardBeingPlayed)		
+	global alreadyEvaluating, evaluateNextFunction
 	alreadyEvaluating = False
 	evaluateNextFunction = True #this should always be True, unless you're waiting for the next function to evaluate
 
@@ -1238,11 +1239,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
-	global alreadyEvaluating
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
 		evaluateWaitingFunctions()
-		alreadyEvaluating = False
 	if len(opponentList):
 		remoteCall(opponentList[0].owner, "destroyAll", [opponentList, False])
 
@@ -1483,11 +1480,8 @@ def processTapUntapCreature(card, processTapEffects = True):
 			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
 			for function in functionList:
 				waitingFunct.append([card, function])
-			global alreadyEvaluating
-			if not alreadyEvaluating:
-				alreadyEvaluating = True
-				evaluateWaitingFunctions()
-				alreadyEvaluating = False
+			evaluateWaitingFunctions()
+
 
 				
 	else:
@@ -1511,11 +1505,7 @@ def processOnTurnEndEffects():
 							functionList.append([surv, function])
 			for function in functionList:
 				waitingFunct.append(function)	
-	global alreadyEvaluating
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
 
 def processOnTurnStartEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
@@ -1535,11 +1525,8 @@ def processOnTurnStartEffects():
 							functionList.append([surv, function])
 			for function in functionList:
 				waitingFunct.append(function)	
-	global alreadyEvaluating
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
+		
 
 #Send Creature/Mana to shields
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False):
@@ -2182,11 +2169,8 @@ def untapAll(group=table, isNewTurn=False, x=0, y=0):
 					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 					for function in functionList:
 						waitingFunct.append([card, function])
-					global alreadyEvaluating
-					if not alreadyEvaluating:
-						alreadyEvaluating = True
-						evaluateWaitingFunctions()
-						alreadyEvaluating = False
+					evaluateWaitingFunctions()
+						
 
 		# Untap Mana
 		if card.orientation == Rot270:
@@ -2321,11 +2305,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
 		for function in functionList:
 			waitingFunct.append([card, function])
-		global alreadyEvaluating
-		if not alreadyEvaluating:
-			alreadyEvaluating = True
-			evaluateWaitingFunctions()
-			alreadyEvaluating = False
+		evaluateWaitingFunctions()
+			
 
 #untaps creature
 def untapCreature(card, ask = True):
@@ -2515,11 +2496,8 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
 				waitingFunct.append([card, function])
-		
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
+
 
 
 #Set as shield menu option / Ctrl+H (both from hand and battlezone)
@@ -2560,12 +2538,14 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
-				eval(function)
+				waitingFunct.append([card,function])
+			evaluateWaitingFunctions()
+	
 
 #Play Card menu option (both from hand and battlezone)
 def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False, isEvoMaterial = False):
 	mute()
-	global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
+	#global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
 	if card.group == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
@@ -2760,10 +2740,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		for function in functionList:
 			waitingFunct.append([card, function])  # This fuction will be queued(along with the card that called it). RN it's waiting.
 			#notify("DEBUG: Function added to waiting list: "+str(function))
-		if not alreadyEvaluating: #this check is needed when a card is played with another card, for example Hogan Blaster
-			alreadyEvaluating = True
 			evaluateWaitingFunctions() #evaluate all the waiting functions. This thing stop evaluation if a function returns true(ie. its waiting for target)
-			alreadyEvaluating = False #evaluation is done (or waiting, but the card has finished).
 	if not waitingFunct: #Don't put card in grave if it's waiting for some effect.
 		#BUG: This check will always be reached first by a spell without any automation being played with Hogan Blaster. And since HB is still in waitingFunct...the spell never goes to grave automatically
 		#Soulution: Instead of this simple chcek make an intermediate function that checks if this card is in waitingFunct. If not, then do endOfFunctionality.
@@ -2814,6 +2791,8 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			functionList = cardScripts.get(card.Name).get('onDiscard')
 			for function in functionList:
 				waitingFunct.append([card,function])
+			evaluateWaitingFunctions()
+
 	#Handle on Remove From Battle Zone effects:
 	if cardWasCreature:
 		functionList=[]
@@ -2821,11 +2800,8 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
 				waitingFunct.append([card,function])
-	
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
+
 
 #Move To Hand (from battlezone)
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
@@ -2863,11 +2839,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
 				waitingFunct.append[card,function]
-		
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
 
 #Move to Bottom (from battlezone)
 def toDeckBottom(card, x=0, y=0):
@@ -2905,8 +2877,4 @@ def toDeck(card, bottom=False):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
 				waitingFunct.append([card, function])
-		
-	if not alreadyEvaluating:
-		alreadyEvaluating = True
-		evaluateWaitingFunctions()
-		alreadyEvaluating = False
+			evaluateWaitingFunctions()
