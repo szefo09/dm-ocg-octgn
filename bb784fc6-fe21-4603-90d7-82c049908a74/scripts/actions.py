@@ -107,7 +107,7 @@ cardScripts = {
 	'Kolon, the Oracle': {'onPlay': ['tapCreature()']},
 	'Larba Geer, the Immaculate':{'onPlay': ['tapCreature(1, True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Lena, Vizier of Brilliance': {'onPlay': ['fromMana(1,"Spell")']},
-	'Lucky Ball': {'onPlay': ['luckyBall()']},
+	'Lucky Ball': {'onPlay': ['draw(me.Deck,True, 2) if len([c for c in table if isShield(c) and c.controller != me])<=3 else None']},
 	'Lugias, The Explorer': {'onPlay': ['tapCreature()']},
 	'Locomotiver': {'onPlay': ['targetDiscard(True)']},
 	'Magris, Vizier of Magnetism': {'onPlay': ['draw(me.Deck, True)']},
@@ -178,7 +178,7 @@ cardScripts = {
 	# ON CAST EFFECTS
 
 	'Abduction Charger': {'onPlay': [' bounce(2)']},
-	'Apocalypse Day': {'onPlay': [' destroyAll(table, len([c for c in table if isCreature(c)])>5)']},
+	'Apocalypse Day': {'onPlay': [' destroyAll(table, len([c for c in table if isCreature(c) and not isBait(c)])>5)']},
 	'Apocalypse Vise': {'onPlay':['apocalypseVise()']},
 	'Big Beast Cannon': {'onPlay': ['kill(7000)']},
 	'Blizzard of Spears': {'onPlay': [' destroyAll(table, True, 4000)']},
@@ -1546,15 +1546,15 @@ def processOnTurnStartEffects():
 		evaluateWaitingFunctions()
 		alreadyEvaluating = False
 
-#Send creature to shields
-def sendToShields(count=1, opponentCards=True, myCards = False):
+#Send Creature/Mana to shields
+def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False):
 	mute()
 	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card) 
+		cardList = [card for card in table if ((creaturesFilter and isCreature(card) and not isBait(card)) or (manaFilter and isMana(card)))
 			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
-		choice = askCard2(cardList, 'Choose a Creature to send to Shields')
+		choice = askCard2(cardList, 'Choose a Card to send to Shields')
 		if type(choice) is not Card: return
 		remoteCall(choice.owner, "toShields", choice)
 
@@ -1769,10 +1769,6 @@ def klujadras():
 		if count:
 			remoteCall(player, "draw", [player.Deck, False, count]) 
 
-def luckyBall():
-	shieldList = [c for c in table if isShield(c) and c.controller != me]
-	if len(shieldList)<=3:
-		draw(me.Deck,True,2)
 
 def miraculousPlague():
 	mute()
