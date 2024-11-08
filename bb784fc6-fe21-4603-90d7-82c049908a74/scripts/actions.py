@@ -242,6 +242,7 @@ cardScripts = {
 	'Hogan Blaster': {'onPlay': ['drama(True, "creature or spell", "battlezone", "top")']},
 	'Holy Awe': {'onPlay': ['tapCreature(1, True)']},
 	'Hopeless Vortex': {'onPlay': ['kill()']},
+	'Hydro Hurricane':{'onPlay': ['hydroHurricane(card)']},
 	'Hyperspatial Storm Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Bolshack Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Kutt Hole': {'onPlay': ['kill(5000)']},
@@ -2915,3 +2916,30 @@ def darkpact(card):
 		manaList.remove(choice)
 	destroyAll(targetsMana)
 	draw(me.Deck, count=len(targetsMana))
+
+def hydroHurricane(card):
+	targetPlayer=getTargetPlayer()
+	if not targetPlayer: return
+	lightCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Light", c.Civilization)]
+	darknessCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)]
+	oppMana=[c for c in table if c.owner == targetPlayer and isMana(c)]
+	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c)]
+	if len(oppMana)>0:
+		if me.isInverted: reverse_cardList(oppMana)
+		for lc in lightCards:
+			if len(oppMana)==0:
+				break
+			choice = askCard2(oppMana,"Select cards from Mana(1 at a time, close to finish)")
+			if type(choice) is not Card: break
+			oppMana.remove(choice)
+			remoteCall(targetPlayer, "toHand", choice)
+	if len(oppCreatures)>0:	
+		if me.isInverted: reverse_cardList(oppCreatures)	
+		for dc in darknessCards:
+			if len(oppCreatures)==0:
+				break
+			choice = askCard2(oppCreatures, "Select Creatures from Battle Zone(1 at a time, close to finish)")
+			if type(choice) is not Card: break
+			oppCreatures.remove(choice)
+			remoteCall(targetPlayer, "toHand", choice)
+
