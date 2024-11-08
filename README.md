@@ -39,6 +39,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
   - **Crystal Paladin**: Bounces every blocker to hand.
   - **Bombazar, Dragon of Destiny**: Destroys other 6000 Power Creatures on Board when played.
+  - **Upheaval**: Switches Mana with Hand for both players, newly placed mana is tapped. 
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
