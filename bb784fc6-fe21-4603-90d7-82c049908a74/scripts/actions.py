@@ -301,7 +301,7 @@ cardScripts = {
 	'Screw Rocket': {'onPlay': ['gear("kill")']},
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
-	'Searing Wave': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True, 3000)','burnShieldKill(1)']},
+	'Searing Wave': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True, 3000)', 'burnShieldKill(1, True)']},
 	'Solar Grace': {'onPlay': ['tapCreature()']},
 	'Solar Ray': {'onPlay': ['tapCreature()']},
 	'Solar Trap': {'onPlay': ['tapCreature()']},
@@ -1267,8 +1267,7 @@ def destroyAllMana(group, civFilter="ALL", AllExceptFiltered=False):
 	for card in cardList:
 		remoteCall(card.owner, "destroy", card)
 
-def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0,
-				   targetOwnCr=False):  # Mainly for destroying shields. Kill is optional.
+def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0, targetOwnCr=False):  # Mainly for destroying shields. Kill is optional.
 	mute()
 	targets = [c for c in table if c.targetedBy == me]
 	targetSh = []
