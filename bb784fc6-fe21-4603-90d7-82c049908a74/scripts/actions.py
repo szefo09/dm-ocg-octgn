@@ -1493,18 +1493,18 @@ def processOnTurnEndEffects():
 	for card in cardList:
 		functions = cardScripts.get(card.name, {}).get('onTurnEnd', [])
 		if functions:
-			functionList = []
+			cardfunctionList = []
 			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
 			for function in functions:
-				functionList.append([card, function])
+				cardfunctionList.append([card, function])
 			#Share your onTurnEnd effect with other survivors.
 			if re.search("Survivor", card.Race):
 				for surv in survivors:
 					if surv != card:
 						for function in functions:
-							functionList.append([surv, function])
-			for function in functionList:
-				waitingFunct.append(function)	
+							cardfunctionList.append([surv, function])
+			for cardfunction in cardfunctionList:
+				waitingFunct.append(cardfunction)	
 			evaluateWaitingFunctions()
 
 def processOnTurnStartEffects():
@@ -1513,18 +1513,18 @@ def processOnTurnStartEffects():
 	for card in cardList:
 		functions = cardScripts.get(card.name, {}).get('onTurnStart', [])
 		if functions:
-			functionList = []
+			cardfunctionList = []
 			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
 			for function in functions:
-				functionList.append([card, function])
+				cardfunctionList.append([card, function])
 			#Share your onTurnStart effect with other survivors.
 			if re.search("Survivor", card.Race):
 				for surv in survivors:
 					if surv != card:
 						for function in functions:
-							functionList.append([surv, function])
-			for function in functionList:
-				waitingFunct.append(function)	
+							cardfunctionList.append([surv, function])
+			for cardfunction in cardfunctionList:
+				waitingFunct.append(cardfunction)	
 			evaluateWaitingFunctions()
 		
 
@@ -2838,7 +2838,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
 			for function in functionList:
-				waitingFunct.append[card,function]
+				waitingFunct.append([card,function])
 			evaluateWaitingFunctions()
 
 #Move to Bottom (from battlezone)
