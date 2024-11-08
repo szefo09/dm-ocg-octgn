@@ -229,6 +229,7 @@ cardScripts = {
 	'Gardening Drive': {'onPlay': ['mana(me.Deck)']},
 	'Gatling Cyclone': {'onPlay': [' kill(2000)']},
 	'Geo Bronze Magic': {'onPlay': ['mana(me.Deck, postAction="DrawIfCiv", postArgs=["Fire", "Light"])']},
+	'Ghastly Drain':{'onPlay':['ghastlyDrain(card)']},
 	'Ghost Clutch': {'onPlay': ['targetDiscard(True)']},
 	'Ghost Touch': {'onPlay': ['targetDiscard(True)']},
 	'Goren Cannon': {'onPlay': ['kill(3000)']},
@@ -369,6 +370,7 @@ cardScripts = {
 	'Dracodance Totem': {'onDestroy': ['fromMana(1,"ALL","ALL","Dragon")', 'toMana(card)']},
 	'Engineer Kipo':{'onDestroy':['bothPlayersFromMana(1,True)']},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
+	'Gigastand':{'onDestroy':['gigastand(card)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
 	'Hammerhead Cluster': {'onDestroy': ['bounce()']},
 	'Jewel Spider': {'onDestroy': ['bounceShield()']},
@@ -2851,3 +2853,14 @@ def toDeck(card, bottom=False):
 				notify("{} moves {} to top of Deck.".format(me, c))
 				c.moveTo(c.owner.Deck)
 	align()
+
+def gigastand(card):
+	choice = askYN("Return {} to hand?".format(card.name))
+	if choice ==1: 
+		toHand(card)
+		selfDiscard()
+
+def ghastlyDrain(card):
+	number=askNumber("How many shields to return?",1)
+	notify("{} chose {} shields".format(me,number))
+	waitingFunct.append([card, 'bounceShield({})'.format(number)]) 
