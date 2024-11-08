@@ -119,6 +119,7 @@ cardScripts = {
 	'Muramasa\'s Socket': {'onPlay': [' kill(1000)']},
 	'Murian': {'onPlay': ['suicide(card, draw, [me.Deck])']},
 	'Nam=Daeddo, Bronze Style': {'onPlay': ['mana(me.Deck, preCondition=manaArmsCheck("Nature",3))']},
+	'Necrodragon Bryzenaga' : {'onPlay': ['peekShields([c for c in table if isShield(c) and c.owner == me])']},
 	'Niofa, Horned Protector': {'onPlay': ['search(me.Deck, 1, "ALL", "Nature")']},
 	'Ochappi, Pure Hearted Faerie': {'onPlay': ['fromGrave()']},
 	'Onslaughter Triceps':{'onPlay': ['fromMana(toGrave=True)']},
@@ -269,6 +270,7 @@ cardScripts = {
 	'Magic Shot - Soul Catcher': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Magic Shot - Sword Launcher': {'onPlay': [' kill(3000)']},
 	'Mana Bonanza': {'onPlay': ['massMana(me.Deck, False)']},
+	'Miraculous Meltdown': {'onPlay':['miraculousMeltdown(card)']},
 	'Miraculous Plague': {'onPlay':['miraculousPlague()']},
 	'Miraculous Rebirth': {'onPlay': ['miraculousRebirth()']},
 	'Miraculous Snare': {'onPlay': ['sendToShields(1, False)']},
@@ -1398,6 +1400,12 @@ def bounceAll(opponentCards=True, myCards=True, filterFunction = "True"):
 	for card in cardList:
 		remoteCall(card.owner, "toHand", card)
 
+def peekShields(shields):
+	for shield in shields:
+		if shield.owner == me:
+			shield.peek()
+			notify("{} peeks at shield#{}".format(me, shield.markers[shieldMarker]))
+
 #for Effects that return shield and don't trigger shield triggers
 def bounceShield(count = 1, selfOnly=True):
 	mute()
@@ -1759,6 +1767,34 @@ def mechadragonsBreath():
 		return
 	notify("{} chose {} Power.".format(me, power))
 	destroyAll(table,True,power,"ALL",False,True)
+
+def miraculousMeltdown(card):
+	mute()
+	targetPlayer = 	getTargetPlayer()
+	if not targetPlayer: return
+	myShields = [c for c in table if c.owner == me and isShield(c)]
+	opponentShields = [c for c in table if c.owner == targetPlayer and isShield(c)]
+	if len(opponentShields)<=len(myShields):
+		whisper("You cannot cast this spell!")
+		return
+	remoteCall(targetPlayer,'_enemyMiraculousMeltdownHelper', len(myShields))
+
+#We use this function to queue the real function, to allow targetting of shields to work
+def _enemyMiraculousMeltdownHelper(count):
+	waitingFunct.append([None,'_enemyMiraculousMeltdown({})'.format(count)])
+	evaluateWaitingFunctions()
+
+def _enemyMiraculousMeltdown(count):
+	whisper("Choose {} Shields for the effect of Miraculous Meltdown".format(count))
+	targets = [c for c in table if c.targetedBy == me and isShield(c) and c.owner == me]
+	if len(targets) != count:
+		whisper("Wrong number of targets!")
+		return True
+	notSelectedShields = [c for c in table if c.owner == me and isShield(c) and c not in targets]
+	peekShields(notSelectedShields)
+
+	
+
 
 def miraculousPlague():
 	mute()
@@ -2748,7 +2784,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 def endOfFunctionality(card):
 	#Magical bugfix to remove Peek symbol
 	rnd(1,1)
-	if card.Type == "Spell" and not isMana(card):
+	if card and card.Type == "Spell" and not isMana(card):
 		if re.search("Charger", card.name) and re.search("Charger", card.rules):
 			toMana(card)
 			align()

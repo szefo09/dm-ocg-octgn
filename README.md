@@ -40,6 +40,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Crystal Paladin**: Bounces every blocker to hand.
   - **Bombazar, Dragon of Destiny**: Destroys other 6000 Power Creatures on Board when played.
   - **Upheaval**: Switches Mana with Hand for both players, newly placed mana is tapped. 
+  - **Necrodragon Bryzenaga**: On play reveals all of your shields on the board to You.
+  - **Miraculous Meltdown**: On play the opponent has to select cards for every shield you have. All the other ones are revealed to them on the board.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
