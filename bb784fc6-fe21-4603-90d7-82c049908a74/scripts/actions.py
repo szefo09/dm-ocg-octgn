@@ -962,8 +962,7 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
 	choices = [c for c in cardList if eval(filterFunction)]
 	for choice in choices:
-		choice = convertCardListIntoCardIDsList(choice)
-		remoteCall(choice.owner, 'toDiscard', choice)
+		remoteCall(choice.owner, 'toDiscard', convertCardListIntoCardIDsList(choice))
 
 def discardAll(onlyOpponent=True):
 	mute()
@@ -972,8 +971,7 @@ def discardAll(onlyOpponent=True):
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
 	for card in cardList:
-		card = convertCardListIntoCardIDsList(card)
-		remoteCall(targetPlayer, 'toDiscard', card)
+		remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(card))
 
 #Cloned Nightmares
 def clonedDiscard():
@@ -992,8 +990,7 @@ def clonedDiscard():
 	#if remoteCall(targetPlayer, 'antiDiscard', ['GENERALCHECK', me]): return
 
 	for i in range(0, count):
-		oppHand = convertGroupIntoGroupNameList(targetPlayer.hand)
-		remoteCall(targetPlayer, 'randomDiscard', oppHand)
+		remoteCall(targetPlayer, 'randomDiscard', convertGroupIntoGroupNameList(targetPlayer.hand))
 
 # do some anti-discard inside dat randomdisc function
 
@@ -1234,7 +1231,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 #Mass Destruction handling, call this instead of destroy() if you are destroying more than 1 Creature at once.
 def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, dontAsk=False):
 	mute()
-	group=ensureGroupObject(group)
+	group = ensureGroupObject(group)
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
 	cardlist = []
@@ -2457,7 +2454,7 @@ def draw(group, conditional=False, count=1, x=0, y=0):
 		notify("{} draws a card.".format(me))
 
 def drawX(group, x=0, y=0):
-	group(ensureGroupObject(group))
+	group = (ensureGroupObject(group))
 	if len(group) == 0: return
 	mute()
 	count = askInteger("Draw how many cards?", 7)
