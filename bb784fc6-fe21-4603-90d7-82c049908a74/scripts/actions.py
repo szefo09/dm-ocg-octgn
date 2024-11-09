@@ -978,8 +978,7 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
 	choices = [c for c in cardList if eval(filterFunction)]
 	for choice in choices:
-		choice = convertCardListIntoCardIDsList(choice)
-		remoteCall(choice.owner, 'toDiscard', choice)
+		remoteCall(choice.owner, 'toDiscard', convertCardListIntoCardIDsList(choice))
 
 def discardAll(onlyOpponent=True):
 	mute()
@@ -988,8 +987,7 @@ def discardAll(onlyOpponent=True):
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
 	for card in cardList:
-		card = convertCardListIntoCardIDsList(card)
-		remoteCall(targetPlayer, 'toDiscard', card)
+		remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(card))
 
 #Cloned Nightmares
 def clonedDiscard():
@@ -1008,8 +1006,7 @@ def clonedDiscard():
 	#if remoteCall(targetPlayer, 'antiDiscard', ['GENERALCHECK', me]): return
 
 	for i in range(0, count):
-		oppHand = convertGroupIntoGroupNameList(targetPlayer.hand)
-		remoteCall(targetPlayer, 'randomDiscard', oppHand)
+		remoteCall(targetPlayer, 'randomDiscard', convertGroupIntoGroupNameList(targetPlayer.hand))
 
 # do some anti-discard inside dat randomdisc function
 
@@ -1253,7 +1250,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 #Mass Destruction handling, call this instead of destroy() if you are destroying more than 1 Creature at once.
 def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, dontAsk=False):
 	mute()
-	group=ensureGroupObject(group)
+	group = ensureGroupObject(group)
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
 	cardlist = []
@@ -1746,6 +1743,16 @@ def semiReset():
 			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
 			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, 5])
 
+def swapManaAndHand(tapped = True):
+	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
+	handList = [card for card in me.hand]
+	for manaCard in manaZoneList:
+		toHand(manaCard)
+	for handCard in handList:
+		toMana(handCard)
+		if tapped:
+			handCard.orientation = Rot270
+
 # Special Card Group Automatization
 
 def waveStriker(functionArray, card):
@@ -1794,16 +1801,6 @@ def bronks():
 	choice = askCard2(leastPowerCreatureList, "Select a card to destroy (Opponent's are shown first).")
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
-
-def swapManaAndHand(tapped = True):
-	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
-	handList = [card for card in me.hand]
-	for manaCard in manaZoneList:
-		toHand(manaCard)
-	for handCard in handList:
-		toMana(handCard)
-		if tapped:
-			handCard.orientation = Rot270
 
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
@@ -1919,10 +1916,10 @@ def miraculousMeltdown(card):
 	if len(opponentShields)<=len(myShields):
 		whisper("You cannot cast this spell!")
 		return
-	remoteCall(targetPlayer,'_enemyMiraculousMeltdownHelper', len(myShields))
+	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
 
 #We use this function to queue the real function, to allow targetting of shields to work
-def _enemyMiraculousMeltdownHelper(count):
+def _eMMHelper(count):
 	waitingFunct.append([None,'_enemyMiraculousMeltdown({})'.format(count)])
 	evaluateWaitingFunctions()
 
@@ -2533,7 +2530,7 @@ def draw(group, conditional=False, count=1, x=0, y=0):
 		notify("{} draws a card.".format(me))
 
 def drawX(group, x=0, y=0):
-	group(ensureGroupObject(group))
+	group = (ensureGroupObject(group))
 	if len(group) == 0: return
 	mute()
 	count = askInteger("Draw how many cards?", 7)
