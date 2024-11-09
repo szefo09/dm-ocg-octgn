@@ -42,6 +42,26 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Upheaval**: Switches Mana with Hand for both players, newly placed mana is tapped. 
   - **Necrodragon Bryzenaga**: On play reveals all of your shields on the board to You.
   - **Miraculous Meltdown**: On play the opponent has to select cards for every shield you have. All the other ones are revealed to them on the board.
+  - **Baraga, Blade of Gloom** Returns one shield to hand.
+  - **Doboulgyser, Giant Rock Beast** Destroys one of opponent's creatures with power 3000 or lower.
+  - **King Aquakamui** Returns all Angel Commands and Demon Commands from graveyard to hand.
+  - **Larba Geer, the Immaculate** Taps all opponent's blockers.
+  - **Poison Worm** Dstroys one of your creatures with 3000 power or less
+  - **Rimuel, Cloudbreak Elemental** Taps opponent creatures for each of your untapped mana.
+  - **Skeleton Thief, the Revealer** Returns one Living Dead from graveyard to hand.
+  - **Trox, General of Destruction** Discards random card from opponent's hand  for each other Darkness creature you have.
+  - **Darkpact** Let's you put any number of cards from mana to graveyard and then draws that many cards.
+  - **Ghastly Drain** Let's you put any number of shields into your hand.
+  - **Hydro Hurricane** For each of yours Light creatures let's you return opponent mana to their hand and for each Darkness creatures returns one of opponent's creatures to hand.
+  - **Roar of the Earth** Returns a creature that costs 6 or more from mana to hand.
+  - **Snake Attack** Puts one of your shields to graveyard.
+  - **Soul Gulp** Opponent discards a card for each of his Light creatures.
+  - **Aless, the Oracle** Adds itself to shield instead of being destroyed.
+  - **Bombersaur** When it is destroyed each player puts 2 mana into graveyard.
+  - **Engineer Kipo** When it is destroyed each player puts one mana into graveyard.
+  - **Gigastand** When it is destroyed you can put it into your hand and discard a card.
+  - **Raza Vega, Thunder Guardian** Adds itself to shield instead of being destroyed.
+
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.

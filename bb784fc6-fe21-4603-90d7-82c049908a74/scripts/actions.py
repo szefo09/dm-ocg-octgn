@@ -34,6 +34,7 @@ cardScripts = {
 	'Astral Warper': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Baban Ban Ban, Earth\'s Blessing': {'onPlay': ['massMana(me.Deck, True)']},
 	'Ballom, Master of Death': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)']},
+	'Baraga, Blade of Gloom': {'onPlay':['bounceShield()']},
 	'Bega, Vizier of Shadow': {'onPlay': ['shields(me.Deck)', 'targetDiscard(True)']},
 	'Belix, the Explorer': {'onPlay': ['fromMana(1,"Spell")']},
 	'Bombazar, Dragon of Destiny': {'onPlay': ['destroyAll([c for c in table if c != card], True, 6000, "ALL", False, True)']},
@@ -56,6 +57,7 @@ cardScripts = {
 	'Dandy Eggplant': {'onPlay': ['fromDeck()']},
 	'Dark Hydra, Evil Planet Lord': {'onPlay': ['fromGrave()']},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': ['kill("ALL","Untap")']},
+	'Doboulgyser, Giant Rock Beast':{'onPlay': ['kill(3000)']},
 	'Dolmarks, the Shadow Warrior': {'onPlay': ['dolmarks()']},
 	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness", True)']},
 	'Emperor Himiko': {'onPlay': ['draw(me.Deck, True)']},
@@ -101,10 +103,12 @@ cardScripts = {
 	'Jenny, the Dismantling Puppet': {'onPlay': [' targetDiscard()']},
 	'Jenny, the Suicide Doll': {'onPlay': ['suicide(card, targetDiscard, [True])']},
 	'Jet R.E, Brave Vizier': {'onPlay': ['shields(me.Deck)']},
+	'King Aquakamui': {'onPlay':['kingAquakamui(card)']},
 	'King Ripped-Hide': {'onPlay': ['draw(me.Deck, True, 2)']},
 	'King Muu Q': {'onPlay':['bounce()']},
 	'Klujadras': {'onPlay': ['waveStriker("klujadras()", card)']},
 	'Kolon, the Oracle': {'onPlay': ['tapCreature()']},
+	'Larba Geer, the Immaculate':{'onPlay': ['tapCreature(1, True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Lena, Vizier of Brilliance': {'onPlay': ['fromMana(1,"Spell")']},
 	'Lucky Ball': {'onPlay': ['draw(me.Deck,True, 2) if len([c for c in table if isShield(c) and c.controller != me])<=3 else None']},
 	'Lugias, The Explorer': {'onPlay': ['tapCreature()']},
@@ -129,12 +133,14 @@ cardScripts = {
 	'Phal Reeze, Apocalyptic Sage': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Piara Heart': {'onPlay': [' kill(1000)']},
 	'Pointa, the Aqua Shadow': {'onPlay': ['targetDiscard(True)']},
+	'Poison Worm':{'onPlay':['kill(3000, 1, targetOwn=True)']},
 	'Prometheus, Splash Axe': {'onPlay': ['mana(me.Deck, 2, False, True)']},
 	'Punch Trooper Bronks': {'onPlay': ['bronks()']},
 	'Q-tronic Hypermind': {'onPlay':['draw(me.Deck, True, len(getSurvivorsOnYourTable(False)))']},
 	'Qurian': {'onPlay': ['draw(me.Deck, True)']},
 	'Raiden, Lightfang Ninja': {'onPlay': ['tapCreature()']},
 	'Rayla, Truth Enforcer': {'onPlay': ['search(me.Deck, 1, "Spell")']},
+	'Rimuel, Cloudbreak Elemental':{'onPlay':['tapCreature(len([c for c in table if isMana(c) and c.owner==me and re.search("Light", c.Civilization) and c.orientation == Rot180]))']},
 	'Ripple Lotus Q': {'onPlay': ['tapCreature()']},
 	'Rom, Vizier of Tendrils': {'onPlay': ['tapCreature()']},
 	'Rothus, the Traveler': {'onPlay': ['rothus()']},
@@ -149,6 +155,7 @@ cardScripts = {
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Scarlet Skyterror': {'onPlay': ['destroyAll([c for c in table if re.search("\{BLOCKER\}", c.Rules)], True)']},
+	'Skeleton Thief, the Revealer':{'onPlay':['search(me.piles["Graveyard"], RaceFilter="Living Dead")']},
 	'Skyscraper Shell': {'onPlay': ['waveStriker("opponentSendToMana()", card)']},
 	'Skysword, the Savage Vizier': {'onPlay': ['mana(me.Deck)', 'shields(me.deck)']},
 	'Solidskin Fish': {'onPlay': ['fromMana()']},
@@ -164,6 +171,7 @@ cardScripts = {
 	'Torpedo Cluster': {'onPlay': [' fromMana()']},
 	'Triple Mouth, Decaying Savage': {'onPlay': ['mana(me.Deck)', 'targetDiscard(True)']},
 	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
+	'Trox, General of Destruction':{'onPlay':['targetDiscard(randomDiscard=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization) and c._id!=card._id]))']},
 	'Uncanny Turnip': {'onPlay':['waveStriker(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
 	'Unicorn Fish': {'onPlay': ['bounce()']},
 	'Vampire Silphy':{'onPlay': ['destroyAll(table, True, 3000)']},
@@ -201,6 +209,7 @@ cardScripts = {
 	'Cyber Brain': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Crystal Memory': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "ALL", False)']},
 	'Darkflame Drive': {'onPlay': ['kill("ALL","Untap")']},
+	'Darkpact': {'onPlay':['darkpact(card)']},
 	'Dark Reversal': {'onPlay': ['search(me.piles["Graveyard"], 1, "Creature")']},
 	'Death Chaser': {'onPlay': ['kill("ALL","Untap")']},
 	'Death Cruzer, the Annihilator': {'onPlay': ['destroyAll([c for c in table if c.controller == me and c != card], True)']},
@@ -229,6 +238,7 @@ cardScripts = {
 	'Gardening Drive': {'onPlay': ['mana(me.Deck)']},
 	'Gatling Cyclone': {'onPlay': [' kill(2000)']},
 	'Geo Bronze Magic': {'onPlay': ['mana(me.Deck, postAction="DrawIfCiv", postArgs=["Fire", "Light"])']},
+	'Ghastly Drain':{'onPlay':['ghastlyDrain(card)']},
 	'Ghost Clutch': {'onPlay': ['targetDiscard(True)']},
 	'Ghost Touch': {'onPlay': ['targetDiscard(True)']},
 	'Goren Cannon': {'onPlay': ['kill(3000)']},
@@ -238,6 +248,7 @@ cardScripts = {
 	'Hogan Blaster': {'onPlay': ['drama(True, "creature or spell", "battlezone", "top")']},
 	'Holy Awe': {'onPlay': ['tapCreature(1, True)']},
 	'Hopeless Vortex': {'onPlay': ['kill()']},
+	'Hydro Hurricane':{'onPlay': ['hydroHurricane(card)']},
 	'Hyperspatial Storm Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Bolshack Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Kutt Hole': {'onPlay': ['kill(5000)']},
@@ -296,6 +307,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
+	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="int(c.Cost)>=6")']},
 	'Scheming Hands': {'onPlay':['targetDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
@@ -304,10 +316,12 @@ cardScripts = {
 	'Seventh Tower': {'onPlay': ['mana(me.Deck)'],
 					  'onMetamorph': ['mana(me.Deck,3)']},
 	'Searing Wave': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True, 3000)', 'burnShieldKill(1, True)']},
+	'Snake Attack':{'onPlay':['burnShieldKill(1,True)']},
 	'Solar Grace': {'onPlay': ['tapCreature()']},
 	'Solar Ray': {'onPlay': ['tapCreature()']},
 	'Solar Trap': {'onPlay': ['tapCreature()']},
 	'Soulswap': {'onPlay': ['soulSwap()']},
+	'Soul Gulp':{'onPlay':['opponentToDiscard(len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me and re.search("Light", c.Civilization)]))']},
 	'Spastic Missile': {'onPlay': [' kill(3000)']},
 	'Spiral Drive': {'onPlay': ['bounce()']},
 	'Spiral Gate': {'onPlay': ['bounce()']},
@@ -345,6 +359,7 @@ cardScripts = {
 	'Akashic First, Electro-Dragon': {'onDestroy': ['toHand(card)']},
 	'Akashic Second, Electro-Spirit': {'onPlay': ['draw(me.Deck, True)'],
 										'onDestroy': ['toMana(card)']},
+	'Aless, the Oracle':{'onDestroy':['toShields(card)']},
 	'Aqua Agent': {'onDestroy': ['toHand(card)']},
 	'Aqua Knight': {'onDestroy': ['toHand(card)']},
 	'Aqua Ranger': {'onDestroy': ['toHand(card)']},
@@ -354,6 +369,7 @@ cardScripts = {
 	'Asylum, the Dragon Paladin': {'onDestroy': [' toShields(card)']},
 	'Balloonshroom Q': {'onDestroy': ['toMana(card)']},
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Creature")']},
+	'Bombersaur':{'onDestroy':['bothPlayersFromMana(2,True)']},
 	'Bone Piercer': {'onDestroy': ['fromMana(1, "Creature")']},
 	'Cetibols': {'onDestroy': [' draw(me.Deck, True)']},
 	'Chilias, the Oracle': {'onDestroy': [' toHand(card)']},
@@ -364,7 +380,9 @@ cardScripts = {
 	'Death Monarch, Lord of Demons': {'onDestroy': [
 		'SummonFromGrave(len([c for c in me.piles["Graveyard"] if not re.search("Evolution",c.type)]),"Creature", "ALL", "Demon Command")']},
 	'Dracodance Totem': {'onDestroy': ['fromMana(1,"ALL","ALL","Dragon")', 'toMana(card)']},
+	'Engineer Kipo':{'onDestroy':['bothPlayersFromMana(1,True)']},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
+	'Gigastand':{'onDestroy':['gigastand(card)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
 	'Hammerhead Cluster': {'onDestroy': ['bounce()']},
 	'Jewel Spider': {'onDestroy': ['bounceShield()']},
@@ -376,6 +394,7 @@ cardScripts = {
 	'Pharzi, the Oracle': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Spell")']},
 	'Propeller Mutant': {'onDestroy': ['targetDiscard(True)']},
 	'Proxion, the Oracle': {'onDestroy': ['toHand(card)']},
+	'Raza Vega, Thunder Guardian':{'onDestroy':['toShields(card)']},
 	'Shaman Broccoli': {'onDestroy': ['toMana(card)']},
 	'Shout Corn': {'onDestroy': ['toMana(card)']},
 	'Sinister General Damudo': {'onDestroy': ['destroyAll(table, True, 3000)']},
@@ -1011,7 +1030,7 @@ def clonedDiscard():
 # do some anti-discard inside dat randomdisc function
 
 #Move a card from Mana to hand/graveyard
-def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False):
+def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, filterFunction='True'):
 	mute()
 	if TypeFilter != "ALL":
 		cardsInGroup_Type_Filtered = [card for card in table if
@@ -1028,13 +1047,16 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 												re.search(RaceFilter, card.properties['Race'])]
 	else:
 		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-	if len(cardsInGroup_CivTypeandRace_Filtered) == 0: return
-	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeandRace_Filtered)
-	count = min(count, len(cardsInGroup_CivTypeandRace_Filtered))
+
+	cardsInGroup_CivTypeRaceandFunction_Filtered = [c for c in cardsInGroup_CivTypeandRace_Filtered if eval(filterFunction)]
+	
+	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
+	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
+	count = min(count, len(cardsInGroup_CivTypeRaceandFunction_Filtered))
 	for i in range(0, count):
-		choice = askCard2(cardsInGroup_CivTypeandRace_Filtered, 'Choose a Card from the Mana Zone')
+		choice = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose a Card from the Mana Zone')
 		if type(choice) is not Card: break
-		cardsInGroup_CivTypeandRace_Filtered.remove(choice)
+		cardsInGroup_CivTypeRaceandFunction_Filtered.remove(choice)
 		if toGrave == True:
 			destroy(choice)
 		else:
@@ -1834,6 +1856,18 @@ def bronks():
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
 
+def darkpact(card):
+	manaList=[c for c in table if isMana(c) and c.owner == me]
+	if me.isInverted: reverse_cardList(manaList)
+	targetsMana=[]
+	while len(manaList)>0:
+		choice = askCard2(manaList, "Select cards from Mana(1 at a time, close to finish)")
+		if type(choice) is not Card: break
+		targetsMana.append(choice)
+		manaList.remove(choice)
+	destroyAll(targetsMana)
+	draw(me.Deck, count=len(targetsMana))
+			
 def deklowazDiscard():
 	mute()
 	targetPlayer = getTargetPlayer(onlyOpponent=True)
@@ -1866,6 +1900,48 @@ def emeral(card):
 def funkyWizard():
 	for player in players:
 		remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), True])
+
+def ghastlyDrain(card):
+	number=askNumber("How many shields to return?",1)
+	notify("{} chose {} shields".format(me,number))
+	waitingFunct.append([card, 'bounceShield({})'.format(number)]) 
+
+def gigastand(card):
+	choice = askYN("Return {} to hand?".format(card.name))
+	if choice != 1: return
+	toHand(card)
+	selfDiscard()
+
+def hydroHurricane(card):
+	targetPlayer=getTargetPlayer(onlyOpponent=True)
+	if not targetPlayer: return
+	lightCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Light", c.Civilization)]
+	darknessCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)]
+	oppMana=[c for c in table if c.owner == targetPlayer and isMana(c)]
+	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c)]
+	if len(oppMana)>0:
+		if me.isInverted: reverse_cardList(oppMana)
+		for lc in lightCards:
+			if len(oppMana)==0: break
+			choice = askCard2(oppMana,"Select cards from Mana(1 at a time, close to finish)")
+			if type(choice) is not Card: break
+			oppMana.remove(choice)
+			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
+	if len(oppCreatures)>0:	
+		if me.isInverted: reverse_cardList(oppCreatures)	
+		for dc in darknessCards:
+			if len(oppCreatures)==0: break
+			choice = askCard2(oppCreatures, "Select Creatures from Battle Zone(1 at a time, close to finish)")
+			if type(choice) is not Card: break
+			oppCreatures.remove(choice)
+			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
+
+def kingAquakamui(card):
+	choice = askYN("Return all Angel Commands and Demon Commands from Graveyard to Hand?")
+	if choice != 1: return
+	cardsInGrave=[c for c in me.piles['Graveyard'] if re.search("Angel Command", c.Race) or re.search("Demon Command", c.Race)]
+	for c in cardsInGrave:
+		toHand(c)
 
 def klujadras():
 	for player in players:
