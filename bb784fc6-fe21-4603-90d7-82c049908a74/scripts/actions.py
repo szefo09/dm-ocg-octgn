@@ -753,6 +753,8 @@ def reverse_cardList(list):
 	list.reverse()
 
 def processEvolution(card, targets):
+	if any(c.orientation == Rot90 for c in targets):
+		card.orientation = Rot90
 	targetList = [c._id for c in targets]
 	evolveDict = eval(
 		me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
