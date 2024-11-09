@@ -478,14 +478,14 @@ cardScripts = {
 	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
 	'Hypersquid Walter':{'onAttack':['draw(me.Deck)']},
-	'Plasma Chaser':{'onAttack':['plasmaChaser()']},
+	'Plasma Chaser':{'onAttack':['draw(me.Deck, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
 	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, condition="re.search(r\'Fire\',card.Civilization) or re.search(r\'Nature\',card.Civilization)")']},
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
 	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
 	'Bolzard Dragon':{'onAttack':['destroyMana()']},
 	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
-	'Silver Axe':{'onAttack':['silverAxe()']},
+	'Silver Axe':{'onAttack':['mana(me.Deck)']},
 	'':{'onAttack':['']},
 	'':{'onAttack':['']},
 
@@ -2083,19 +2083,9 @@ def miraculousRebirth():
 	notify("{} finishes searching their {}.".format(me, group.name))
 	toPlay(validChoice)
 
-def plasmaChaser():
-	choice = askYN("Draw Cards?")
-	if choice ==1:
-		draw(me.Deck, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))
-
 def rothus():
 	sacrifice()
 	opponentSacrifice()
-
-def silverAxe():
-	choice = askYN("Put Top Card from Deck to Mana?")
-	if choice ==1:
-		mana(me.Deck)
 
 def soulSwap():
 	mute()
