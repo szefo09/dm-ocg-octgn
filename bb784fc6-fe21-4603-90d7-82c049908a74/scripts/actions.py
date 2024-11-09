@@ -155,6 +155,7 @@ cardScripts = {
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': ['fromMana(1,"Spell")']},
 	'Sir Virginia, Mystic Light Insect': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Scarlet Skyterror': {'onPlay': ['destroyAll([c for c in table if re.search("\{BLOCKER\}", c.Rules)], True)']},
+	'Skeleton Thief, the Revealer':{'onPlay':['search(me.piles["Graveyard"], RaceFilter="Living Dead")']},
 	'Skyscraper Shell': {'onPlay': ['waveStriker("opponentSendToMana()", card)']},
 	'Skysword, the Savage Vizier': {'onPlay': ['mana(me.Deck)', 'shields(me.deck)']},
 	'Solidskin Fish': {'onPlay': ['fromMana()']},
@@ -170,6 +171,7 @@ cardScripts = {
 	'Torpedo Cluster': {'onPlay': [' fromMana()']},
 	'Triple Mouth, Decaying Savage': {'onPlay': ['mana(me.Deck)', 'targetDiscard(True)']},
 	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
+	'Trox, General of Destruction':{'onPlay':['opponentToDiscard(len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)])-1)']},
 	'Uncanny Turnip': {'onPlay':['waveStriker(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
 	'Unicorn Fish': {'onPlay': ['bounce()']},
 	'Vampire Silphy':{'onPlay': ['destroyAll(table, True, 3000)']},
@@ -319,6 +321,7 @@ cardScripts = {
 	'Solar Ray': {'onPlay': ['tapCreature()']},
 	'Solar Trap': {'onPlay': ['tapCreature()']},
 	'Soulswap': {'onPlay': ['soulSwap()']},
+	'Soul Gulp':{'onPlay':['opponentToDiscard(len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me and re.search("Light", c.Civilization)]))']},
 	'Spastic Missile': {'onPlay': [' kill(3000)']},
 	'Spiral Drive': {'onPlay': ['bounce()']},
 	'Spiral Gate': {'onPlay': ['bounce()']},
@@ -3061,3 +3064,4 @@ def toDeck(card, bottom=False):
 			for function in functionList:
 				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
+
