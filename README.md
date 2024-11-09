@@ -40,6 +40,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Crystal Paladin**: Bounces every blocker to hand.
   - **Bombazar, Dragon of Destiny**: Destroys other 6000 Power Creatures on Board when played.
   - **Upheaval**: Switches Mana with Hand for both players, newly placed mana is tapped. 
+  - **Necrodragon Bryzenaga**: On play reveals all of your shields on the board to You.
+  - **Miraculous Meltdown**: On play the opponent has to select cards for every shield you have. All the other ones are revealed to them on the board.
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -105,6 +107,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
+  = **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
+  - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
@@ -124,6 +128,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Phal Pierro, Apocalyptic Guardian**: Works like Phal Eega when it destroys itself.
   - **Apocalypse Day**: No longer counts Baits into the 6 card count.
   - **Volcanic Arrows**: Allows you to destroy your own creature too.
+  - **Gylus, Larval Lord**: When it leaves the field, opponent can recover a card from their graveyard.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
