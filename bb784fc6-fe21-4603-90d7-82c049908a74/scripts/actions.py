@@ -148,7 +148,7 @@ cardScripts = {
 	'Rumbling Terahorn': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Ryokudou, the Principle Defender': {'onPlay': ['mana(me.Deck,2)', 'fromMana()']},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
-	'Saucer-Head Shark':{'onPlay':['bounce(len([c for c in table if int(c.Power.strip("+"))<=2000))]']},
+	'Saucer-Head Shark':{'onPlay':['bounceAll(filterFunction="int(c.Power.strip("+"))<=2000)")']},
 	'Scissor Scarab': {'onPlay': ['search(1,"ALL","ALL","Giant Insect")']},
 	'Shtra': {'onPlay': ['bothPlayersFromMana()']},
 	'Self-Destructing Gil Poser': {'onPlay': ['suicide(card, kill, [2000])']},
@@ -273,6 +273,7 @@ cardScripts = {
 	'Logic Sphere': {'onPlay': ['fromMana(1, "Spell")']},
 	'Lost Soul': {'onPlay': ['discardAll()']},
 	'Mana Crisis': {'onPlay': ['destroyMana()']},
+	'Mana Nexus': {'onPlay': ['fromManaToShields()']},
 	'Martial Law': {'onPlay': ['gear("kill")']},
 	'Magic Shot - Arcadia Egg': {'onPlay': ['kill("ALL","Untap")']},
 	'Magic Shot - Chain Spark': {'onPlay': ['tapCreature()']},
@@ -1061,6 +1062,16 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 			destroy(choice)
 		else:
 			toHand(choice,show)
+
+def fromManaToShields(count=1, filterFunction='True'):
+	manaList = [card for card in table if isMana(card) and card.owner == me and eval(filterFunction)]
+	if me.isInverted: reverse_cardList(manaList)
+	count = min(count, len(manaList))
+	for i in range(0, count):
+		choice = askCard2(manaList, 'Choose a Card from the Mana Zone to add to Shields')
+		if type(choice) is not Card: break
+		manaList.remove(choice)
+		toShields(choice, checkEvo=False)
 
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
