@@ -171,7 +171,7 @@ cardScripts = {
 	'Torpedo Cluster': {'onPlay': [' fromMana()']},
 	'Triple Mouth, Decaying Savage': {'onPlay': ['mana(me.Deck)', 'targetDiscard(True)']},
 	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
-	'Trox, General of Destruction':{'onPlay':['opponentToDiscard(len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)])-1)']},
+	'Trox, General of Destruction':{'onPlay':['targetDiscard(randomDiscard=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization) and c._id!=card._id]))']},
 	'Uncanny Turnip': {'onPlay':['waveStriker(["mana(me.Deck)", "fromMana(1,\'Creature\')"], card)']},
 	'Unicorn Fish': {'onPlay': ['bounce()']},
 	'Vampire Silphy':{'onPlay': ['destroyAll(table, True, 3000)']},
