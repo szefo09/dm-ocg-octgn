@@ -1540,59 +1540,63 @@ def processTapUntapCreature(card, processTapEffects = True):
 		#Tap Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
 			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-			if choice != 1: return
-
-			notify('{} uses Tap Effect of {}'.format(me, card))
-			functionList = cardScripts.get(card.Name).get('onTap')
-			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
-			for function in functionList:
-				waitingFunct.append([card, function])
-			evaluateWaitingFunctions()
-
-
-
+			if choice == 1:
+				notify('{} uses Tap Effect of {}'.format(me, card))
+				functionList = cardScripts.get(card.Name).get('onTap')
+				# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
+				for function in functionList:
+					waitingFunct.append([card, function])
+				evaluateWaitingFunctions()
+		
+		if processTapEffects and getActivePlayer() == me and not isBait(card):
+			functionList = cardScripts.get(card.Name, {}).get('onAttack', [])
+			if re.search("Survivor",card.Race):
+				survivors = getSurvivorsOnYourTable()
+				for surv in survivors:
+					if surv._id != card._id and cardScripts.get(surv.name, {}).get('onAttack', []):
+						functionList.extend(cardScripts.get(card.Name).get('onAttack'))
+			if len(functionList)>0:
+				choice = 1
+				if(card not in arrow):
+					choice = askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+				if choice == 1:
+					notify('{} uses on Attack Effect of {}'.format(me, card))
+					for function in functionList:
+						waitingFunct.append([card, function])
+					evaluateWaitingFunctions()
 	else:
 		notify('{} untaps {}.'.format(me, card))
 
 def processOnTurnEndEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
-	survivors = getSurvivorsOnYourTable(False)
 	for card in cardList:
-		functions = cardScripts.get(card.name, {}).get('onTurnEnd', [])
-		if functions:
-			cardfunctionList = []
+		functionList = cardScripts.get(card.name, {}).get('onTurnEnd', [])
+		if re.search("Survivor", card.Race):
+			survivors = getSurvivorsOnYourTable()
+			for surv in survivors:
+				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnEnd', []):
+					functionList.extend(cardScripts.get(card.Name).get('onTurnEnd'))
+		if len(functionList)>0:
 			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
-			for function in functions:
-				cardfunctionList.append([card, function])
-			#Share your onTurnEnd effect with other survivors.
-			if re.search("Survivor", card.Race):
-				for surv in survivors:
-					if surv != card:
-						for function in functions:
-							cardfunctionList.append([surv, function])
-			for cardfunction in cardfunctionList:
-				waitingFunct.append(cardfunction)
+			for function in functionList:
+				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
 
 def processOnTurnStartEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
-	survivors = getSurvivorsOnYourTable(False)
 	for card in cardList:
-		functions = cardScripts.get(card.name, {}).get('onTurnStart', [])
-		if functions:
-			cardfunctionList = []
+		functionList = cardScripts.get(card.name, {}).get('onTurnStart', [])
+		if re.search("Survivor", card.Race):
+			survivors = getSurvivorsOnYourTable()
+			for surv in survivors:
+				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnStart', []):
+					functionList.extend(cardScripts.get(card.Name).get('onTurnStart'))
+		if len(functionList)>0:
 			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
-			for function in functions:
-				cardfunctionList.append([card, function])
-			#Share your onTurnStart effect with other survivors.
-			if re.search("Survivor", card.Race):
-				for surv in survivors:
-					if surv != card:
-						for function in functions:
-							cardfunctionList.append([surv, function])
-			for cardfunction in cardfunctionList:
-				waitingFunct.append(cardfunction)
+			for function in functionList:
+				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
+
 
 #Send Creature/Mana to shields
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False):
@@ -2837,6 +2841,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			#for non-sharing survivors
 			if card not in survivors:
 				survivors.insert(0, card)
+			
 			for surv in survivors:
 				if cardScripts.get(surv.name, {}).get('onPlay', []):
 					functionList.extend(cardScripts.get(surv.name).get('onPlay'))
