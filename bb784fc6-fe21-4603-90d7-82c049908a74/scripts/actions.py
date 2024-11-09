@@ -416,6 +416,17 @@ cardScripts = {
 	'Tanzanyte, the Awakener': {'onTap': ['tanzanyte()']},
 	'Techno Totem': {'onTap': ['tapCreature()']},
 
+	#ON ALLY TAP EFFECTS (Effects that give their on Tap Effect to other creatures)
+	#########IMPORTANT DIFFERENCE vvvvvvvvvvvv ################
+	# Pass an array like this one: [['Condition Function to filter who gets the effect',['ACTUAL EFFECT]]] 
+	# 'c' is the variable of card to check with condition before allowing the Tap Effect.
+	#########IMPORTANT DIFFERENCE ^^^^^^^^^^^^ ################
+	
+	'Arc Bine, the Astounding': {'onAllyTap':[['re.search("Light", c.Civilization)', ['tapCreature()']]]},
+	'Fort Megacluster': {'onAllyTap':[['re.search("Water", c.Civilization)', ['draw(me.Deck)']]]},
+	'Living Citadel Vosh': {'onAllyTap':[['re.search("Nature", c.Civilization)', ['mana(me.Deck)']]]},
+	'Phantasmal Horror Gigazald': {'onAllyTap':[['re.search("Darkness", c.Civilization)', ['targetDiscard(True)']]]},
+
 	#ON YOUR TURN END EFFECTS
 
 	'Aqua Officer': {'onTurnEnd': ['tapCreature(2, onlyOwn=True)'], 'onTurnStart': ['draw(me.Deck, True, 2)']},
@@ -443,6 +454,9 @@ cardScripts = {
 	'Minelord Skyterror': {'silentSkill':['destroyAll(table, True, 3000)']},
 	'Soderlight, the Cold Blade': {'silentSkill':['opponentSacrifice()']},
 	'Vorg\'s Engine': {'silentSkill':['destroyAll(table, True, 2000)']},
+
+	#ON ATTACK EFFECTS
+	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
@@ -622,7 +636,7 @@ def removeIfEvo(card):
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
 
-	evolveDict = eval(me.getGlobalVariable('evolution'))
+	evolveDict = eval(getGlobalVariable("evolution"))
 	resultList = []
 	for evo in evolveDict.keys():
 		if evo == card._id:
@@ -637,7 +651,7 @@ def removeIfEvo(card):
 			evolveDict[evo] = baitList
 			# notify("Bait removed from evo in dict")
 			break
-	me.setGlobalVariable('evolution', str(evolveDict))
+	setGlobalVariable("evolution", str(evolveDict))
 	return resultList
 
 def antiDiscard(card, sourcePlayer):
@@ -741,14 +755,14 @@ def reverse_cardList(list):
 def processEvolution(card, targets):
 	targetList = [c._id for c in targets]
 	evolveDict = eval(
-		me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
+		getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
 	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
 		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
 			if isCreature(evolveTarget):
 				targetList += evolveDict[evolveTarget._id]  ##add those cards to the new evolution creature
 			del evolveDict[evolveTarget._id]
 	evolveDict[card._id] = targetList
-	me.setGlobalVariable("evolution", str(evolveDict))
+	setGlobalVariable("evolution", str(evolveDict))
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -795,7 +809,7 @@ def isPsychic(card):
 		return True
 
 def isBait(card):  # check if card is under and evo(needs to be ignored by most things) This is (probably)inefficient, maybe make a func to get all baits once
-	evolveDict = eval(me.getGlobalVariable('evolution'))
+	evolveDict = eval(getGlobalVariable("evolution"))
 	for evo in evolveDict.keys():
 		baitList = evolveDict[evo]
 		if card._id in baitList:
@@ -1537,62 +1551,97 @@ def processTapUntapCreature(card, processTapEffects = True):
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
 		global arrow
+		activatedTapEffect = False
+		#Helper inner function for onAllyTap
+		def handleonAllyTapEffects(card):	
+			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isBait(c) and c.controller == me and cardScripts.get(c.Name, {}).get('onAllyTap', [])]
+			#remove duplicates from list, only one Tap Effect can be activated at a time.
+			if len(creaturesonAllyTapList) == 0: return
+			creaturesonAllyTapList = {c.name: c for c in creaturesonAllyTapList}.values()
+			for creature in creaturesonAllyTapList:
+				functionList=[]
+				functionsonAllyTapList = cardScripts.get(creature.name).get('onAllyTap')
+				for functiononAllyTap in functionsonAllyTapList:
+					condition = functiononAllyTap[0]
+					c = card
+					if eval(condition):
+						functionList.extend(functiononAllyTap[1])
+				if len(functionList)>0:
+					choice = askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.Name, card.Name, creature.Rules), ["Yes", "No"])
+					if choice == 1:
+						notify('{} uses Tap Effect of {} by tapping {}'.format(me, creature, card))
+						activatedTapEffect = True
+						for function in functionList:
+							waitingFunct.append([card, function])
+						evaluateWaitingFunctions()
+						break
 		#Tap Effects can only activate during active Player's turn.
-		if processTapEffects and getActivePlayer() == me and not isBait(card) and cardScripts.get(card.name, {}).get('onTap', []) and not card in arrow:
-			choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
-			if choice != 1: return
+		if processTapEffects and getActivePlayer() == me and not isBait(card) and not card in arrow:
+			functionList = cardScripts.get(card.name, {}).get('onTap', [])
+			if len(functionList)>0:
+				choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+				if choice == 1:
+					notify('{} uses Tap Effect of {}'.format(me, card))
+					activatedTapEffect = True
+					for function in functionList:
+						waitingFunct.append([card, function])
+					evaluateWaitingFunctions()
+				else: 
+					handleonAllyTapEffects(card)
+			else:
+				handleonAllyTapEffects(card)
 
-			notify('{} uses Tap Effect of {}'.format(me, card))
-			functionList = cardScripts.get(card.Name).get('onTap')
-			# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE TAP ABILITIES.
-			for function in functionList:
-				waitingFunct.append([card, function])
-			evaluateWaitingFunctions()
 
-
-
+		#OnAttack Effects can only activate during active Player's turn.
+		if processTapEffects and getActivePlayer() == me and not isBait(card) and activatedTapEffect:
+			functionList = cardScripts.get(card.Name, {}).get('onAttack', [])
+			if re.search("Survivor",card.Race):
+				survivors = getSurvivorsOnYourTable()
+				for surv in survivors:
+					if surv._id != card._id and cardScripts.get(surv.name, {}).get('onAttack', []):
+						functionList.extend(cardScripts.get(card.Name).get('onAttack'))
+			if len(functionList)>0:
+				choice = 1
+				if(card not in arrow):
+					choice = askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+				if choice == 1:
+					notify('{} uses on Attack Effect of {}'.format(me, card))
+					for function in functionList:
+						waitingFunct.append([card, function])
+					evaluateWaitingFunctions()
 	else:
 		notify('{} untaps {}.'.format(me, card))
 
 def processOnTurnEndEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
-	survivors = getSurvivorsOnYourTable(False)
 	for card in cardList:
-		functions = cardScripts.get(card.name, {}).get('onTurnEnd', [])
-		if functions:
-			cardfunctionList = []
+		functionList = cardScripts.get(card.name, {}).get('onTurnEnd', [])
+		if re.search("Survivor", card.Race):
+			survivors = getSurvivorsOnYourTable()
+			for surv in survivors:
+				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnEnd', []):
+					functionList.extend(cardScripts.get(card.Name).get('onTurnEnd'))
+		if len(functionList)>0:
 			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
-			for function in functions:
-				cardfunctionList.append([card, function])
-			#Share your onTurnEnd effect with other survivors.
-			if re.search("Survivor", card.Race):
-				for surv in survivors:
-					if surv != card:
-						for function in functions:
-							cardfunctionList.append([surv, function])
-			for cardfunction in cardfunctionList:
-				waitingFunct.append(cardfunction)
+			for function in functionList:
+				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
 
 def processOnTurnStartEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
-	survivors = getSurvivorsOnYourTable(False)
 	for card in cardList:
-		functions = cardScripts.get(card.name, {}).get('onTurnStart', [])
-		if functions:
-			cardfunctionList = []
+		functionList = cardScripts.get(card.name, {}).get('onTurnStart', [])
+		if re.search("Survivor", card.Race):
+			survivors = getSurvivorsOnYourTable()
+			for surv in survivors:
+				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnStart', []):
+					functionList.extend(cardScripts.get(card.Name).get('onTurnStart'))
+		if len(functionList)>0:
 			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
-			for function in functions:
-				cardfunctionList.append([card, function])
-			#Share your onTurnStart effect with other survivors.
-			if re.search("Survivor", card.Race):
-				for surv in survivors:
-					if surv != card:
-						for function in functions:
-							cardfunctionList.append([surv, function])
-			for cardfunction in cardfunctionList:
-				waitingFunct.append(cardfunction)
+			for function in functionList:
+				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
+
 
 #Send Creature/Mana to shields
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False):
@@ -2076,7 +2125,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
-		evolveDict = eval(me.getGlobalVariable("evolution"))
+		evolveDict = eval(getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
 				del evolveDict[evo]
@@ -2089,8 +2138,8 @@ def moveCards(args): #this is triggered every time a card is moved
 					del evolveDict[evo]
 				else:
 					evolveDict[evo] = evolvedList
-		if evolveDict != eval(me.getGlobalVariable("evolution")):
-			me.setGlobalVariable("evolution", str(evolveDict))
+		if evolveDict != eval(getGlobalVariable("evolution")):
+			setGlobalVariable("evolution", str(evolveDict))
 
 def align():
 	mute()
@@ -2123,7 +2172,7 @@ def align():
 		return "BREAK"
 
 	cardorder = [[], [], []]
-	evolveDict = eval(me.getGlobalVariable("evolution"))
+	evolveDict = eval(getGlobalVariable("evolution"))
 
 	for card in table:
 		if card.controller == me and not isFortress(card) and not card.anchor and not card._id in list(
@@ -2230,7 +2279,7 @@ def setup(group, x=0, y=0):
 			return
 
 	me.setGlobalVariable("shieldCount", "0")
-	me.setGlobalVariable("evolution", "{}")
+	setGlobalVariable("evolution", "{}")
 	me.Deck.shuffle()
 
 	for card in me.Deck.top(5): toShields(card, notifymute=True)
@@ -2837,6 +2886,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			#for non-sharing survivors
 			if card not in survivors:
 				survivors.insert(0, card)
+			
 			for surv in survivors:
 				if cardScripts.get(surv.name, {}).get('onPlay', []):
 					functionList.extend(cardScripts.get(surv.name).get('onPlay'))
