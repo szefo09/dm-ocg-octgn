@@ -1724,6 +1724,16 @@ def semiReset():
 			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
 			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, 5])
 
+def swapManaAndHand(tapped = True):
+	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
+	handList = [card for card in me.hand]
+	for manaCard in manaZoneList:
+		toHand(manaCard)
+	for handCard in handList:
+		toMana(handCard)
+		if tapped:
+			handCard.orientation = Rot270
+
 # Special Card Group Automatization
 
 def waveStriker(functionArray, card):
@@ -1772,16 +1782,6 @@ def bronks():
 	choice = askCard2(leastPowerCreatureList, "Select a card to destroy (Opponent's are shown first).")
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
-
-def swapManaAndHand(tapped = True):
-	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
-	handList = [card for card in me.hand]
-	for manaCard in manaZoneList:
-		toHand(manaCard)
-	for handCard in handList:
-		toMana(handCard)
-		if tapped:
-			handCard.orientation = Rot270
 
 def deklowazDiscard():
 	mute()
@@ -1840,10 +1840,10 @@ def miraculousMeltdown(card):
 	if len(opponentShields)<=len(myShields):
 		whisper("You cannot cast this spell!")
 		return
-	remoteCall(targetPlayer,'_enemyMiraculousMeltdownHelper', len(myShields))
+	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
 
 #We use this function to queue the real function, to allow targetting of shields to work
-def _enemyMiraculousMeltdownHelper(count):
+def _eMMHelper(count):
 	waitingFunct.append([None,'_enemyMiraculousMeltdown({})'.format(count)])
 	evaluateWaitingFunctions()
 
