@@ -140,7 +140,7 @@ cardScripts = {
 	'Qurian': {'onPlay': ['draw(me.Deck, True)']},
 	'Raiden, Lightfang Ninja': {'onPlay': ['tapCreature()']},
 	'Rayla, Truth Enforcer': {'onPlay': ['search(me.Deck, 1, "Spell")']},
-	'Rimuel, Cloudbreak Elemental':{'onPlay':['tapCreature(len([c for c in table if isMana(card) and owner==me and re.search("Light", c.Civilization) and card.orientation == Rot180]))']},
+	'Rimuel, Cloudbreak Elemental':{'onPlay':['tapCreature(len([c for c in table if isMana(c)and c.owner==me and re.search("Light", c.Civilization) and c.orientation == Rot180]))']},
 	'Ripple Lotus Q': {'onPlay': ['tapCreature()']},
 	'Rom, Vizier of Tendrils': {'onPlay': ['tapCreature()']},
 	'Rothus, the Traveler': {'onPlay': ['rothus()']},
@@ -3060,4 +3060,3 @@ def toDeck(card, bottom=False):
 			for function in functionList:
 				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
-
