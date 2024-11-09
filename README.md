@@ -107,6 +107,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
+  - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
@@ -126,6 +127,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Phal Pierro, Apocalyptic Guardian**: Works like Phal Eega when it destroys itself.
   - **Apocalypse Day**: No longer counts Baits into the 6 card count.
   - **Volcanic Arrows**: Allows you to destroy your own creature too.
+  - **Gylus, Larval Lord**: When it leaves the field, opponent can recover a card from their graveyard.
 - **Mechanics Fixes**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
