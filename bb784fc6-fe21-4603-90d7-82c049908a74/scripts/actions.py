@@ -140,7 +140,7 @@ cardScripts = {
 	'Qurian': {'onPlay': ['draw(me.Deck, True)']},
 	'Raiden, Lightfang Ninja': {'onPlay': ['tapCreature()']},
 	'Rayla, Truth Enforcer': {'onPlay': ['search(me.Deck, 1, "Spell")']},
-	'Rimuel, Cloudbreak Elemental':{'onPlay':['tapCreature(len([c for c in table if isMana(c)and c.owner==me and re.search("Light", c.Civilization) and c.orientation == Rot180]))']},
+	'Rimuel, Cloudbreak Elemental':{'onPlay':['tapCreature(len([c for c in table if isMana(c) and c.owner==me and re.search("Light", c.Civilization) and c.orientation == Rot180]))']},
 	'Ripple Lotus Q': {'onPlay': ['tapCreature()']},
 	'Rom, Vizier of Tendrils': {'onPlay': ['tapCreature()']},
 	'Rothus, the Traveler': {'onPlay': ['rothus()']},
@@ -1858,8 +1858,7 @@ def bronks():
 
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
-	if me.isInverted:
-				reverse_cardList(manaList)
+	if me.isInverted: reverse_cardList(manaList)
 	targetsMana=[]
 	while len(manaList)>0:
 		choice = askCard2(manaList, "Select cards from Mana(1 at a time, close to finish)")
@@ -1909,9 +1908,9 @@ def ghastlyDrain(card):
 
 def gigastand(card):
 	choice = askYN("Return {} to hand?".format(card.name))
-	if choice ==1: 
-		toHand(card)
-		selfDiscard()
+	if choice != 1: return
+	toHand(card)
+	selfDiscard()
 
 def hydroHurricane(card):
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
@@ -1923,8 +1922,7 @@ def hydroHurricane(card):
 	if len(oppMana)>0:
 		if me.isInverted: reverse_cardList(oppMana)
 		for lc in lightCards:
-			if len(oppMana)==0:
-				break
+			if len(oppMana)==0: break
 			choice = askCard2(oppMana,"Select cards from Mana(1 at a time, close to finish)")
 			if type(choice) is not Card: break
 			oppMana.remove(choice)
@@ -1932,8 +1930,7 @@ def hydroHurricane(card):
 	if len(oppCreatures)>0:	
 		if me.isInverted: reverse_cardList(oppCreatures)	
 		for dc in darknessCards:
-			if len(oppCreatures)==0:
-				break
+			if len(oppCreatures)==0: break
 			choice = askCard2(oppCreatures, "Select Creatures from Battle Zone(1 at a time, close to finish)")
 			if type(choice) is not Card: break
 			oppCreatures.remove(choice)
@@ -1941,10 +1938,10 @@ def hydroHurricane(card):
 
 def kingAquakamui(card):
 	choice = askYN("Return all Angel Commands and Demon Commands from Graveyard to Hand?")
-	if choice ==1: 
-		cardsInGrave=[c for c in me.piles['Graveyard'] if re.search("Angel Command", c.Race) or re.search("Demon Command", c.Race)]
-		for c in cardsInGrave:
-			toHand(c)
+	if choice != 1: return
+	cardsInGrave=[c for c in me.piles['Graveyard'] if re.search("Angel Command", c.Race) or re.search("Demon Command", c.Race)]
+	for c in cardsInGrave:
+		toHand(c)
 
 def klujadras():
 	for player in players:
