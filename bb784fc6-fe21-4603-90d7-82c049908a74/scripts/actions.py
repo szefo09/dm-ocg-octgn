@@ -636,7 +636,7 @@ def removeIfEvo(card):
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
 
-	evolveDict = eval(getGlobalVariable("evolution"))
+	evolveDict = eval(me.getGlobalVariable("evolution"))
 	resultList = []
 	for evo in evolveDict.keys():
 		if evo == card._id:
@@ -651,7 +651,7 @@ def removeIfEvo(card):
 			evolveDict[evo] = baitList
 			# notify("Bait removed from evo in dict")
 			break
-	setGlobalVariable("evolution", str(evolveDict))
+	me.setGlobalVariable("evolution", str(evolveDict))
 	return resultList
 
 def antiDiscard(card, sourcePlayer):
@@ -755,14 +755,14 @@ def reverse_cardList(list):
 def processEvolution(card, targets):
 	targetList = [c._id for c in targets]
 	evolveDict = eval(
-		getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
+		me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
 	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
 		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
 			if isCreature(evolveTarget):
 				targetList += evolveDict[evolveTarget._id]  ##add those cards to the new evolution creature
 			del evolveDict[evolveTarget._id]
 	evolveDict[card._id] = targetList
-	setGlobalVariable("evolution", str(evolveDict))
+	me.setGlobalVariable("evolution", str(evolveDict))
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -809,7 +809,7 @@ def isPsychic(card):
 		return True
 
 def isBait(card):  # check if card is under and evo(needs to be ignored by most things) This is (probably)inefficient, maybe make a func to get all baits once
-	evolveDict = eval(getGlobalVariable("evolution"))
+	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
 	for evo in evolveDict.keys():
 		baitList = evolveDict[evo]
 		if card._id in baitList:
@@ -2125,7 +2125,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
-		evolveDict = eval(getGlobalVariable("evolution"))
+		evolveDict = eval(me.getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
 				del evolveDict[evo]
@@ -2138,8 +2138,8 @@ def moveCards(args): #this is triggered every time a card is moved
 					del evolveDict[evo]
 				else:
 					evolveDict[evo] = evolvedList
-		if evolveDict != eval(getGlobalVariable("evolution")):
-			setGlobalVariable("evolution", str(evolveDict))
+		if evolveDict != eval(me.getGlobalVariable("evolution")):
+			me.setGlobalVariable("evolution", str(evolveDict))
 
 def align():
 	mute()
@@ -2172,7 +2172,7 @@ def align():
 		return "BREAK"
 
 	cardorder = [[], [], []]
-	evolveDict = eval(getGlobalVariable("evolution"))
+	evolveDict = eval(me.getGlobalVariable("evolution"))
 
 	for card in table:
 		if card.controller == me and not isFortress(card) and not card.anchor and not card._id in list(
@@ -2279,7 +2279,7 @@ def setup(group, x=0, y=0):
 			return
 
 	me.setGlobalVariable("shieldCount", "0")
-	setGlobalVariable("evolution", "{}")
+	me.setGlobalVariable("evolution", "{}")
 	me.Deck.shuffle()
 
 	for card in me.Deck.top(5): toShields(card, notifymute=True)
