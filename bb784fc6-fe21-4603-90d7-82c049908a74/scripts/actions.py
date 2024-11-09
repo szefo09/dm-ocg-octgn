@@ -1591,9 +1591,8 @@ def processTapUntapCreature(card, processTapEffects = True):
 			else:
 				handleonAllyTapEffects(card)
 
-
 		#OnAttack Effects can only activate during active Player's turn.
-		if processTapEffects and getActivePlayer() == me and not isBait(card) and activatedTapEffect:
+		if processTapEffects and getActivePlayer() == me and not isBait(card) and not activatedTapEffect:
 			functionList = cardScripts.get(card.Name, {}).get('onAttack', [])
 			if re.search("Survivor",card.Race):
 				survivors = getSurvivorsOnYourTable()
@@ -1747,7 +1746,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
-		cardList = [c for c in cardList if eval(filterFunction)]
+		cardList = [c for c in cardList if not isBait(c) and eval(filterFunction)]
 		if len(cardList) == 0:
 			return
 		if me.isInverted: reverse_cardList(cardList)
