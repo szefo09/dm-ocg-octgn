@@ -83,7 +83,7 @@ cardScripts = {
 	'Gigabalza': {'onPlay': ['targetDiscard(True)']},
 	'Grave Worm Q': {'onPlay': ['search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")']},
 	'Gunes Valkyrie, Holy Vizier': {'onPlay': ['tapCreature()']},
-	'Gylus, Larval Lord': {'onPlay': ['targetDiscard(True)']},
+	'Gylus, Larval Lord': {'onPlay': ['targetDiscard(True)'], 'onLeaveBZ':['opponentSearch([targetPlayer.piles["Graveyard"]])']},
 	'Gyulcas, Sage of the East Wind': {'onPlay': [' search(me.Deck, 1, "Cross Gear")']},
 	'Hawkeye Lunatron': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "ALL", False)']},
 	'Hazaria, Duke of Thorns': {'onPlay': ['waveStriker("opponentSacrifice()", card)']},
@@ -296,7 +296,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
-	'Scheming Hands': {'onPlay':['lookAtHandAndDiscard()']},
+	'Scheming Hands': {'onPlay':['targetDiscard()']},
 	'Skeleton Vice': {'onPlay': ['targetDiscard(True, "grave", 2)']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
 	'Screaming Sunburst': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"Light\\", c.Civilization)")']},
@@ -353,7 +353,7 @@ cardScripts = {
 	'Aqua Warrior': {'onDestroy': [' draw(me.Deck, True, 2)']},
 	'Asylum, the Dragon Paladin': {'onDestroy': [' toShields(card)']},
 	'Balloonshroom Q': {'onDestroy': ['toMana(card)']},
-	'Bat Doctor, Shadow of Undeath': {'onDestroy': [' search(me.piles["Graveyard"], 1, "Creature")']},
+	'Bat Doctor, Shadow of Undeath': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Creature")']},
 	'Bone Piercer': {'onDestroy': ['fromMana(1, "Creature")']},
 	'Cetibols': {'onDestroy': [' draw(me.Deck, True)']},
 	'Chilias, the Oracle': {'onDestroy': [' toHand(card)']},
@@ -438,7 +438,7 @@ cardScripts = {
 	#SILENT SKILL EFFECTS
 	'Brad, Super Kickin\' Dynamo': {'silentSkill':['kill(count=1, rulesFilter="{BLOCKER}")']},
 	'Flohdani, the Spydroid': {'silentSkill':['tapCreature(2)']},
-	'Gazer Eyes, Shadow of Secrets': {'silentSkill':['lookAtHandAndDiscard()']},
+	'Gazer Eyes, Shadow of Secrets': {'silentSkill':['targetDiscard()']},
 	'Hustle Berry': {'silentSkill':['mana(me.Deck)']},
 	'Minelord Skyterror': {'silentSkill':['destroyAll(table, True, 3000)']},
 	'Soderlight, the Cold Blade': {'silentSkill':['opponentSacrifice()']},
@@ -539,11 +539,13 @@ def askNumber(text="Enter a Number", defaultAnswer=1000):
 	choice = askInteger(text, defaultAnswer)
 	return choice
 
-def getTargetPlayer(text="Pick a player:"):
+def getTargetPlayer(text="Pick a player:", onlyOpponent = False):
 		playerList = []
 		currentPlayers = getPlayers()
 		for player in currentPlayers:
 			playerList.append(player.name)
+		if onlyOpponent and len(playerList) == 2:
+			return currentPlayers[1]
 		choicePlayer = askChoice(text, playerList)
 		if choicePlayer < 1: return
 		return currentPlayers[choicePlayer - 1]
@@ -852,19 +854,20 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 			if not re.search(civs, card_for_special_action.properties['Civilization']):
 				evaluateNextFunction = False
 
-#Random and selected discard, also setting cards as shield from hand for some reason?!
+#Random discard or look at hand and select discard FOR OPPONENT, also setting cards as shield from hand for some reason?!
 #TODO:Split discarding and setting shield
 def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	mute()
-	cardList = []
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
-	for i in range(count):
-		if randomDiscard:
+	if randomDiscard:
+		for i in range(count):
 			remoteCall(targetPlayer, 'randomDiscard', targetPlayer.hand)
-			continue
-		cardList = [card for card in targetPlayer.hand]
-		if me.isInverted: reverse_cardList(cardList)
+		return
+	cardList = [card for card in targetPlayer.hand]
+	if me.isInverted: reverse_cardList(cardList)
+	count = min(count, len(cardList))
+	for i in range(count):
 		cardChoice = askCard2(cardList, "Choose a Card to discard.")
 		if type(cardChoice) is not Card:
 			notify("Discard cancelled.")
@@ -875,32 +878,15 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 			remoteCall(targetPlayer, 'toShields', cardChoice)
 		elif targetZone == 'grave':
 			# do anti-discard check here
-			if not remoteCall(targetPlayer, 'antiDiscard', [cardChoice, me]):
+			#if not remoteCall(targetPlayer, 'antiDiscard', [cardChoice, me]):
 				# anti discard will return false if no antiDiscard is available. Remotecalling because...idk might do some things in antiDiscard later.
 				# Maybe change it to normal call later, and remoteCall from only inside anti-disc.
 				# still WIP
-				remoteCall(targetPlayer, 'toDiscard', cardChoice)
-
-#Look at selected player's hand and pick card(s) to discard
-def lookAtHandAndDiscard(count=1):
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
-	choices=[]
-	cardList = [card for card in targetPlayer.hand]
-	if me.isInverted: reverse_cardList(cardList)
-	for i in range(count):
-		cardChoice = askCard2(cardList, "Choose a Card to discard.")
-		if type(cardChoice) is not Card:
-			notify("Discard cancelled.")
-			return
-		choices.append(cardChoice)
-		cardList.remove(cardChoice)
-	for choice in choices:
-		remoteCall(choice.owner, 'toDiscard', choice)
+			remoteCall(targetPlayer, 'toDiscard', cardChoice)
 
 #Look at selected player's hand and discard all cards matching filterFunction
 def lookAtHandAndDiscardAll(filterFunction="True"):
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
 	if me.isInverted: reverse_cardList(cardList)
@@ -909,10 +895,10 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', choice)
 
-def discardAll():
+def discardAll(onlyOpponent=True):
 	mute()
 	cardList = []
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=onlyOpponent)
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
 	for card in cardList:
@@ -921,7 +907,7 @@ def discardAll():
 #Cloned Nightmares
 def clonedDiscard():
 	mute()
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
 
@@ -1590,21 +1576,26 @@ def suicide(card, action, args):
 	action(*args)
 
 def opponentSacrifice(sacrificeArgs=[]):
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	remoteCall(targetPlayer, 'sacrifice', sacrificeArgs)
 
 def opponentToDiscard(count = 1):
 	mute()
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'selfDiscard', count)
 
 def opponentSendToMana(count = 1):
 	mute()
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sendToMana',[count, False, True])
+
+def opponentSearch(args):
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
+	if not targetPlayer: return
+	remoteCall(targetPlayer,'search',args)
 
 def bothPlayersFromMana(count = 1, toGrave=False):
 	for player in players:
@@ -1722,18 +1713,18 @@ def swapManaAndHand(tapped = True):
 
 def deklowazDiscard():
 	mute()
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	cardList = [card for card in targetPlayer.hand]
 	if me.isInverted: reverse_cardList(cardList)
 	cardChoice = askCard2(cardList, "Look at opponent's hand. (close pop-up or select any card to finish.)")
 	for card in cardList:
 		if re.search("Creature", card.Type) and int(card.Power.strip('+')) <= 3000:
-			remoteCall(targetPlayer, 'toDiscard', cardChoice)
+			remoteCall(targetPlayer, 'toDiscard', card)
 
 def dolmarks():
 	sacrifice()
 	fromMana(1,"ALL","ALL","ALL",True,True)
-	targetPlayer = getTargetPlayer()
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'sacrifice',[])
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
@@ -1770,7 +1761,7 @@ def mechadragonsBreath():
 
 def miraculousMeltdown(card):
 	mute()
-	targetPlayer = 	getTargetPlayer()
+	targetPlayer = 	getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	myShields = [c for c in table if c.owner == me and isShield(c)]
 	opponentShields = [c for c in table if c.owner == targetPlayer and isShield(c)]
@@ -1792,9 +1783,6 @@ def _enemyMiraculousMeltdown(count):
 		return True
 	notSelectedShields = [c for c in table if c.owner == me and isShield(c) and c not in targets]
 	peekShields(notSelectedShields)
-
-	
-
 
 def miraculousPlague():
 	mute()
