@@ -71,6 +71,16 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Rondobil, the Explorer
     - Tanzanyte, the Awakener
     - Techno Totem (only Tap effect for now)
+- **Ally Tap Card Effects Added**:
+  - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
+  - **New Cards Added**:
+    - Arc Bine, the Astounding
+    - Fort Megacluster
+    - Living Citadel Vosh
+    - Phantasmal Horror Gigazald
+- **"When this creature attacks" Effects Added**:
+  - **New Cards Added**:
+    - Horrid Worm
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
