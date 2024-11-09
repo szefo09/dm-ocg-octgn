@@ -1531,6 +1531,7 @@ def gear(str):
 
 #Called for Creatures by tapMultiple, which is the same as Ctrl+G or "Tap / Untap"
 def processTapUntapCreature(card, processTapEffects = True):
+	card = ensureCardObjects(card)
 	mute()
 	card.orientation ^= Rot90
 	if card.orientation & Rot90 == Rot90:
