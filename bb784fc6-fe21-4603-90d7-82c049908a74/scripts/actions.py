@@ -437,10 +437,10 @@ cardScripts = {
 
 	#ON ALLY TAP EFFECTS (Effects that give their on Tap Effect to other creatures)
 	#########IMPORTANT DIFFERENCE vvvvvvvvvvvv ################
-	# Pass an array like this one: [['Condition Function to filter who gets the effect',['ACTUAL EFFECT]]] 
+	# Pass an array like this one: [['Condition Function to filter who gets the effect',['ACTUAL EFFECT]]]
 	# 'c' is the variable of card to check with condition before allowing the Tap Effect.
 	#########IMPORTANT DIFFERENCE ^^^^^^^^^^^^ ################
-	
+
 	'Arc Bine, the Astounding': {'onAllyTap':[['re.search("Light", c.Civilization)', ['tapCreature()']]]},
 	'Fort Megacluster': {'onAllyTap':[['re.search("Water", c.Civilization)', ['draw(me.Deck)']]]},
 	'Living Citadel Vosh': {'onAllyTap':[['re.search("Nature", c.Civilization)', ['mana(me.Deck)']]]},
@@ -1049,7 +1049,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
 
 	cardsInGroup_CivTypeRaceandFunction_Filtered = [c for c in cardsInGroup_CivTypeandRace_Filtered if eval(filterFunction)]
-	
+
 	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
 	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
 	count = min(count, len(cardsInGroup_CivTypeRaceandFunction_Filtered))
@@ -1577,7 +1577,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		global arrow
 		activatedTapEffect = False
 		#Helper inner function for onAllyTap
-		def handleonAllyTapEffects(card):	
+		def handleOnAllyTapEffects(card):
 			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isBait(c) and c.controller == me and cardScripts.get(c.Name, {}).get('onAllyTap', [])]
 			#remove duplicates from list, only one Tap Effect can be activated at a time.
 			if len(creaturesonAllyTapList) == 0: return
@@ -1610,10 +1610,10 @@ def processTapUntapCreature(card, processTapEffects = True):
 					for function in functionList:
 						waitingFunct.append([card, function])
 					evaluateWaitingFunctions()
-				else: 
-					handleonAllyTapEffects(card)
+				else:
+					handleOnAllyTapEffects(card)
 			else:
-				handleonAllyTapEffects(card)
+				handleOnAllyTapEffects(card)
 
 		#OnAttack Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer() == me and not isBait(card) and not activatedTapEffect:
@@ -1867,7 +1867,7 @@ def darkpact(card):
 		manaList.remove(choice)
 	destroyAll(targetsMana)
 	draw(me.Deck, count=len(targetsMana))
-			
+
 def deklowazDiscard():
 	mute()
 	targetPlayer = getTargetPlayer(onlyOpponent=True)
@@ -1904,7 +1904,7 @@ def funkyWizard():
 def ghastlyDrain(card):
 	number=askNumber("How many shields to return?",1)
 	notify("{} chose {} shields".format(me,number))
-	waitingFunct.append([card, 'bounceShield({})'.format(number)]) 
+	waitingFunct.append([card, 'bounceShield({})'.format(number)])
 
 def gigastand(card):
 	choice = askYN("Return {} to hand?".format(card.name))
@@ -1927,8 +1927,8 @@ def hydroHurricane(card):
 			if type(choice) is not Card: break
 			oppMana.remove(choice)
 			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
-	if len(oppCreatures)>0:	
-		if me.isInverted: reverse_cardList(oppCreatures)	
+	if len(oppCreatures)>0:
+		if me.isInverted: reverse_cardList(oppCreatures)
 		for dc in darknessCards:
 			if len(oppCreatures)==0: break
 			choice = askCard2(oppCreatures, "Select Creatures from Battle Zone(1 at a time, close to finish)")
@@ -2547,7 +2547,7 @@ def untapCreature(card, ask = True):
 		tapMultiple([card], clearFunctions=False)
 
 def untapCreatureAll(ask = True):
-	cardList = [c for c in table if isCreature(c) and c.controller == me and c.orientation == 90]
+	cardList = [c for c in table if isCreature(c) and c.controller == me and c.orientation == Rot90]
 	if ask:
 		choice = askYN("Would you like to Untap All Your Creatures?")
 		if choice != 1: return
@@ -2963,7 +2963,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			#for non-sharing survivors
 			if card not in survivors:
 				survivors.insert(0, card)
-			
+
 			for surv in survivors:
 				if cardScripts.get(surv.name, {}).get('onPlay', []):
 					functionList.extend(cardScripts.get(surv.name).get('onPlay'))
