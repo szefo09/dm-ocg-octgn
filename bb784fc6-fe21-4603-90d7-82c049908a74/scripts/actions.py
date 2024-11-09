@@ -2547,7 +2547,7 @@ def untapCreature(card, ask = True):
 		tapMultiple([card], clearFunctions=False)
 
 def untapCreatureAll(ask = True):
-	cardList = [c for c in table if isCreature(c) and c.controller == me and c.orientation == 90]
+	cardList = [c for c in table if isCreature(c) and c.controller == me and c.orientation == Rot90]
 	if ask:
 		choice = askYN("Would you like to Untap All Your Creatures?")
 		if choice != 1: return
