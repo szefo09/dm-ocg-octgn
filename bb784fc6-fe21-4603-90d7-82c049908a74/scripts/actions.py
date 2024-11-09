@@ -865,7 +865,8 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 			remoteCall(targetPlayer, 'randomDiscard', targetPlayer.hand)
 		return
 	cardList = [card for card in targetPlayer.hand]
-	if me.isInverted: reverse_cardList(cardList)
+	#Both players see the opponent's hand reversed
+	reverse_cardList(cardList)
 	count = min(count, len(cardList))
 	for i in range(count):
 		cardChoice = askCard2(cardList, "Choose a Card to discard.")
@@ -889,7 +890,8 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	cardList = [card for card in targetPlayer.hand]
-	if me.isInverted: reverse_cardList(cardList)
+	#Both players see their opponent's hand reversed
+	reverse_cardList(cardList)
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
 	choices = [c for c in cardList if eval(filterFunction)]
 	for choice in choices:
@@ -918,8 +920,7 @@ def clonedDiscard():
 				count += 1
 	notify("Cloned Nightmares in graves:{}".format(count - 1))
 
-	if remoteCall(targetPlayer, 'antiDiscard', ['GENERALCHECK', me]):
-		return
+	#if remoteCall(targetPlayer, 'antiDiscard', ['GENERALCHECK', me]): return
 
 	for i in range(0, count):
 		remoteCall(targetPlayer, 'randomDiscard', targetPlayer.hand)
@@ -1550,7 +1551,7 @@ def selfDiscard(count=1):
 	mute()
 	for i in range(count):
 		cardList = [card for card in me.hand]
-		if me.isInverted: reverse_cardList(cardList)
+		reverse_cardList(cardList)
 		cardChoice = askCard2(cardList, "Choose a Card to discard")
 		if type(cardChoice) is not Card:
 			notify("Discard cancelled.")
@@ -1715,7 +1716,7 @@ def deklowazDiscard():
 	mute()
 	targetPlayer = getTargetPlayer(onlyOpponent=True)
 	cardList = [card for card in targetPlayer.hand]
-	if me.isInverted: reverse_cardList(cardList)
+	reverse_cardList(cardList)
 	cardChoice = askCard2(cardList, "Look at opponent's hand. (close pop-up or select any card to finish.)")
 	for card in cardList:
 		if re.search("Creature", card.Type) and int(card.Power.strip('+')) <= 3000:
@@ -1734,7 +1735,7 @@ def emeral(card):
 	choice = askYN("Use Emeral's effect?")
 	if choice != 1: return
 	handList = [c for c in me.hand]
-	if me.isInverted: reverse_cardList(handList)
+	reverse_cardList(handList)
 	cardFromHand = askCard2(handList)
 	if type(cardFromHand) is not Card: return
 	toShields(cardFromHand)
@@ -2654,7 +2655,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		#Hand Evolutions
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
-			if me.isInverted: reverse_cardList(materialList)
+			reverse_cardList(materialList)
 			if len(materialList)==0:
 					whisper("Cannot play {}, you don't have any Other Creatures in Hand for it.".format(card))
 					return
