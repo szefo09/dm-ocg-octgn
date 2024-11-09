@@ -519,7 +519,6 @@ def getPlayerById(playerId):
 
 def findCardByIdAndGroup(cardId, playerId, groupName):
 	# Check if we need to search in the global table
-	whisper('{}, {}, {}'.format(cardId, playerId, groupName))
 	if groupName == "Table":
 		# Search in the shared table pile
 		for card in table:
