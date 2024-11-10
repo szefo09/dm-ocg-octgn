@@ -252,7 +252,7 @@ cardScripts = {
 	'Hyperspatial Storm Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Bolshack Hole': {'onPlay': ['kill(5000)']},
 	'Hyperspatial Kutt Hole': {'onPlay': ['kill(5000)']},
-	'Hyperspatial Guard Hole': {'onPlay': ['sendToShields()']},
+	'Hyperspatial Guard Hole': {'onPlay': ['sendToShields(1, True, True, True, False, "not re.search(r\\"Evolution\\", c.Type)")']},
 	'Hyperspatial Vice Hole': {'onPlay': [' targetDiscard()']},
 	'Hyperspatial Shiny Hole': {'onPlay': ['tapCreature()']},
 	'Hyperspatial Energy Hole': {'onPlay': ['draw(me.Deck, False, 1)']},
@@ -273,7 +273,7 @@ cardScripts = {
 	'Logic Sphere': {'onPlay': ['fromMana(1, "Spell")']},
 	'Lost Soul': {'onPlay': ['discardAll()']},
 	'Mana Crisis': {'onPlay': ['destroyMana()']},
-	'Mana Nexus': {'onPlay': ['fromManaToShields()']},
+	'Mana Nexus': {'onPlay': ['sendToShields(1, False, True, False, True)']},
 	'Martial Law': {'onPlay': ['gear("kill")']},
 	'Magic Shot - Arcadia Egg': {'onPlay': ['kill("ALL","Untap")']},
 	'Magic Shot - Chain Spark': {'onPlay': ['tapCreature()']},
@@ -285,7 +285,7 @@ cardScripts = {
 	'Miraculous Meltdown': {'onPlay':['miraculousMeltdown(card)']},
 	'Miraculous Plague': {'onPlay':['miraculousPlague()']},
 	'Miraculous Rebirth': {'onPlay': ['miraculousRebirth()']},
-	'Miraculous Snare': {'onPlay': ['sendToShields(1, False)']},
+	'Miraculous Snare': {'onPlay': ['sendToShields(1, True, True, True, False, "not re.search(r\\"Evolution\\", c.Type)")']},
 	'Moonlight Flash': {'onPlay': ['tapCreature(2)']},
 	'Morbid Medicine': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
 	'Mystery Cube': {'onPlay': ['drama()']},
@@ -1063,16 +1063,6 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 		else:
 			toHand(choice,show)
 
-def fromManaToShields(count=1, filterFunction='True'):
-	manaList = [card for card in table if isMana(card) and card.owner == me and eval(filterFunction)]
-	if me.isInverted: reverse_cardList(manaList)
-	count = min(count, len(manaList))
-	for i in range(0, count):
-		choice = askCard2(manaList, 'Choose a Card from the Mana Zone to add to Shields')
-		if type(choice) is not Card: break
-		manaList.remove(choice)
-		toShields(choice, checkEvo=False)
-
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
@@ -1676,18 +1666,21 @@ def processOnTurnStartEffects():
 				waitingFunct.append([card, function])
 			evaluateWaitingFunctions()
 
-
 #Send Creature/Mana to shields
-def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False):
+def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False, filterFunction='True'):
 	mute()
-	for i in range(0, count):
-		cardList = [card for card in table if ((creaturesFilter and isCreature(card) and not isBait(card)) or (manaFilter and isMana(card)))
-			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))]
-		if len(cardList) == 0: return
-		if me.isInverted: reverse_cardList(cardList)
-		choice = askCard2(cardList, 'Choose a Card to send to Shields')
-		if type(choice) is not Card: return
-		remoteCall(choice.owner, "toShields", convertCardListIntoCardIDsList(choice))
+	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isBait(c)) or (manaFilter and isMana(c)))
+			  and ((myCards and c.owner == me) or (opponentCards and c.owner != me)) and eval(filterFunction)]
+	if len(cardList) == 0: return
+	count = min(count, len(cardList))
+	if count == 0: return
+	targets = [c for c in table if c.targetedBy == me and c in cardList]
+	if len(targets) != count:
+		whisper("Wrong number of targets!")
+		return True
+	for target in targets:
+		target.target(False)
+		remoteCall(target.owner, "toShields", convertCardListIntoCardIDsList(target))
 
 #Send creature to Mana
 def sendToMana(count=1, opponentCards = True, myCards = False):
