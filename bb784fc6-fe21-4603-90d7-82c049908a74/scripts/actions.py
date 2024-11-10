@@ -148,7 +148,7 @@ cardScripts = {
 	'Rumbling Terahorn': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Ryokudou, the Principle Defender': {'onPlay': ['mana(me.Deck,2)', 'fromMana()']},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': ['search(me.piles["Graveyard"], 1, "Spell")']},
-	'Saucer-Head Shark':{'onPlay':['bounceAll(filterFunction="int(c.Power.strip("+"))<=2000)")']},
+	'Saucer-Head Shark':{'onPlay':['bounceAll(filterFunction="int(c.Power.strip("+"))<=2000")']},
 	'Scissor Scarab': {'onPlay': ['search(1,"ALL","ALL","Giant Insect")']},
 	'Shtra': {'onPlay': ['bothPlayersFromMana()']},
 	'Self-Destructing Gil Poser': {'onPlay': ['suicide(card, kill, [2000])']},
