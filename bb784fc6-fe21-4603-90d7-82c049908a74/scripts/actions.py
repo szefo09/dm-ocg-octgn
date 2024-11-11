@@ -829,6 +829,12 @@ def isPsychic(card):
 	mute()
 	if re.search("Psychic", card.Type) or re.search("Dragheart", card.Type):
 		return True
+	
+def isGacharange(card):
+	mute()
+	if re.search("Gacharange", card.Type):
+		return True
+
 
 def isBait(card):  # check if card is under and evo(needs to be ignored by most things) This is (probably)inefficient, maybe make a func to get all baits once
 	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
@@ -1799,7 +1805,7 @@ def semiReset():
 				for card in cardsInGrave:
 					remoteCall(player, 'toDeck', card)
 			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
-			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, 5])
+			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, 5])
 
 def swapManaAndHand(tapped = True):
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
@@ -2331,6 +2337,8 @@ def setup(group, x=0, y=0):
 	psychicsInHand = [c for c in me.hand if isPsychic(c)]
 	psychicsInGrave = [c for c in me.piles['Graveyard'] if isPsychic(c)]
 
+	gacharangeInTable = [c for c in table if c.controller == me and c.owner == me and isGacharange(c)]
+
 	if cardsInTable or cardsInHand or cardsInGrave or psychicsInTable or psychicsInGrave or psychicsInHand:
 		if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
 
@@ -2347,6 +2355,8 @@ def setup(group, x=0, y=0):
 				card.moveTo(me.Hyperspatial)
 			for card in psychicsInGrave:
 				card.moveTo(me.Hyperspatial)
+			for card in gacharangeInTable:
+				card.moveTo(me.Gacharange)
 		else:
 			return
 	if len(me.Deck) < 10:  # We need at least 10 cards to properly setup the game
@@ -2358,9 +2368,13 @@ def setup(group, x=0, y=0):
 		if isPsychic(card):
 			whisper("You cannot have Psychic creatures in your main deck")
 			return
+		if isGacharange(card):
+			whisper("You cannot have Gacharange creatures in your main deck")
+			return
 
 	me.setGlobalVariable("shieldCount", "0")
 	me.setGlobalVariable("evolution", "{}")
+	me.Gacharange.shuffle()
 	me.Deck.shuffle()
 
 	for card in me.Deck.top(5): toShields(card, notifymute=True)

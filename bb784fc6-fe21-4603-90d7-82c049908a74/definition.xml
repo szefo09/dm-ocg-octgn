@@ -91,11 +91,13 @@
 
 		<group name="Graveyard" visibility="all" ordered="False" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
 		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="False" /> 
+		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="False" />
 
 	</player>
 
 	<deck>
 		<section name="Main" group="Deck" />
 		<section name="Hyperspatial Deck" group="Hyperspatial" />
+		<section name="Super Gacharange Zone" group="Gacharange" />
 	</deck>
 </game>

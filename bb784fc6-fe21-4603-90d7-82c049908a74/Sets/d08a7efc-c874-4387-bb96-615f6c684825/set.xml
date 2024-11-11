@@ -26,7 +26,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;When one of your shields would be broken, you may destroy this creature instead."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When one of your shields would be broken, you may destroy this creature instead."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S1"/>
@@ -38,7 +38,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Evolution-Put on one of your Cyber Lords. &#xD;&#xA;Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, draw up to 2 cards."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, draw up to 2 cards."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
@@ -50,8 +50,8 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="Evolution-Put on one of your creatures that has Dragon in its race.  &#xD;&#xA;This creature gets +2000 power for each creature in your graveyard. &#xD;&#xA;Triple breaker (This creature breaks 3 shields.)"/>
-      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ This creature gets +2000 power for each creature in your graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Power" value="11000+"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -62,7 +62,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Evolution-Put on one of your creatures that has Dragon in its race.  &#xD;&#xA;Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard. &#xD;&#xA;Triple breaker (This creature breaks 3 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race. &#xA;■ Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard. &#xA;{TRIPLE BREAKER}"/>
       <property name="Power" value="13000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S4"/>
@@ -74,7 +74,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="Evolution-Put on one of your creatures that has Dragon in its race.  &#xD;&#xA;After you cast a spell by using its &quot;shield trigger&quot; ability, put it into your hand instead of your graveyard. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ After you cast a spell by using its &quot;shield trigger&quot; ability, put it into your hand instead of your graveyard.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>
@@ -86,7 +86,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Evolution-Put on one of your Mecha Thunders. &#xD;&#xA;Whenever this creature blocks, untap it after it battles. &#xD;&#xA;This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) &#xA;■ Evolution—Put on one of your Mecha Thunders.&#xA;■ Whenever this creature blocks, untap it after it battles.&#xA;■ This creature can't attack players."/>
       <property name="Power" value="10500"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -98,7 +98,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="This creature can't be blocked. &#xD;&#xA;When this creature would be destroyed, put it into your hand instead."/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ When this creature would be destroyed, put it into your hand instead."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="2"/>
@@ -110,7 +110,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="Each creature in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Rules" value="■ Each creature in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="3"/>
@@ -122,7 +122,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Volcano Dragon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Each of your creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Each of your creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="4"/>
@@ -134,7 +134,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xD;&#xA;{TAP} Search your deck. You may take a creature that has Dragon in its race from your deck and put it into the battle zone. Then shuffle your deck. That creature has &quot;speed attacker.&quot; At the end of the turn, destroy it."/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a creature that has Dragon in its race from your deck and put it into the battle zone. Then shuffle your deck. That creature has &quot;speed attacker.&quot; At the end of the turn, destroy it."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -146,7 +146,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Choose one of your opponent's creatures in the battle zone and tap it. If it has Dragon in its race, add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ Choose one of your opponent's creatures in the battle zone and tap it. If it has Dragon in its race, add the top card of your deck to your shields face down."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="6"/>
@@ -158,7 +158,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Choose one of your opponent's creatures in the battle zone and tap it. Then you may choose one of your creatures in the battle zone. If you do, it can't be blocked this turn."/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures in the battle zone and tap it. Then you may choose one of your creatures in the battle zone. If you do, it can't be blocked this turn."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="7"/>
@@ -170,7 +170,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Choose up to 2 of your creatures in the battle zone. At the end of the turn, you may untap them. &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Choose up to 2 of your creatures in the battle zone. At the end of the turn, you may untap them.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="8"/>
@@ -182,7 +182,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature attacks, you may look at 2 of your opponent's shields. Then put them back where they were."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may look at 2 of your opponent's shields. Then put them back where they were."/>
       <property name="Power" value="1500"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="9"/>
@@ -194,7 +194,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="This creature can't be attacked by any creature that has Dragon in its race."/>
+      <property name="Rules" value="■ This creature can't be attacked by any creature that has Dragon in its race."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="10"/>
@@ -206,7 +206,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="Creatures that have power 3000 or more can't attack. (Creatures that have power less than 3000 and get extra power while attacking can still attack.)"/>
+      <property name="Rules" value="■ Creatures that have power 3000 or more can't attack. (Creatures that have power less than 3000 and get extra power while attacking can still attack.)"/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="11"/>
@@ -218,7 +218,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="Blocker Dragon blocker (Whenever an opponent's creature that has Dragon in its race attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;While battling a creature that has Dragon in its race, this creature gets +6000 power. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ While battling a creature that has Dragon in its race, this creature gets +6000 power.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9500+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="12"/>
@@ -230,8 +230,8 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Whenever a player casts a spell, this creature gets +3000 power until the end of the turn. (Do what the spell says before this creature gets the extra power.)"/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever a player casts a spell, this creature gets +3000 power until the end of the turn. (Do what the spell says before this creature gets the extra power.)"/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="13"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -242,7 +242,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Starlight Tree"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature is attacking your opponent and isn't blocked, untap all your creatures in the battle zone except Solar Grasses."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, untap all your creatures in the battle zone except 'Solar Grasses'."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="14"/>
@@ -254,7 +254,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="Whenever any of your creatures attacks, you may choose one of your opponent's creatures in the battle zone and tap it. (First choose what your creature is attacking. Then choose a creature to tap.)"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, you may choose one of your opponent's creatures in the battle zone and tap it. (First choose what your creature is attacking. Then choose a creature to tap.)"/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="15"/>
@@ -266,7 +266,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="Whenever this creature attacks, you may draw a card for each other tapped creature you have in the battle zone."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may draw a card for each other tapped creature you have in the battle zone."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -278,7 +278,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="This creature can't be blocked."/>
+      <property name="Rules" value="■ This creature can't be blocked."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="17"/>
@@ -290,7 +290,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Draw a card.  &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Draw a card.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="18"/>
@@ -302,7 +302,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="When you put this creature into the battle zone, look at your opponent's hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="19"/>
@@ -314,7 +314,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} This creature can't be blocked."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can't be blocked."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="20"/>
@@ -326,7 +326,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker"/>
-      <property name="Rules" value="Whenever this creature attacks, you may look at your opponent's hand and at the top card of his deck."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may look at your opponent's hand and at the top card of his deck."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="21"/>
@@ -338,7 +338,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Your creatures in the battle zone can't be blocked this turn."/>
+      <property name="Rules" value="■ Your creatures in the battle zone can't be blocked this turn."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="22"/>
@@ -350,7 +350,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="23"/>
@@ -362,7 +362,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} When this creature attacks, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;When this creature attacks, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="24"/>
@@ -374,7 +374,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Choose a creature in the battle zone and return it to its owner's hand. If it has Dragon in its race, you may draw a card."/>
+      <property name="Rules" value="■ Choose a creature in the battle zone and return it to its owner's hand. If it has Dragon in its race, you may draw a card."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="25"/>
@@ -386,7 +386,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Put a creature from your graveyard into your hand. &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Put a creature from your graveyard into your hand.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="26"/>
@@ -398,7 +398,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Your opponent chooses and discards 2 cards from their hand."/>
+      <property name="Rules" value="■ Your opponent chooses and discards 2 cards from his hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -410,7 +410,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may return all creatures that have Dragon in their race from your graveyard to your hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return all creatures that have Dragon in their race from your graveyard to your hand."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="28"/>
@@ -422,7 +422,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature is attacking your opponent and isn't blocked, you may destroy a creature."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, you may destroy a creature."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="29"/>
@@ -434,7 +434,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature attacks, your opponent discards his hand."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, your opponent discards his hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="30"/>
@@ -446,7 +446,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature can't attack. &#xD;&#xA;When you put another creature into the battle zone, destroy this creature."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="31"/>
@@ -458,7 +458,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="Whenever this creature attacks, choose one of your shields and put it into your graveyard. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="32"/>
@@ -470,7 +470,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;When this creature battles, destroy it after the battle."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature battles, destroy it after the battle."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="33"/>
@@ -482,7 +482,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, destroy the creature that has the least power in the battle zone. If there's a tie, you choose from among the tied creatures."/>
+      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, destroy the creature that has the least power in the battle zone. If there's a tie, you choose from among the tied creatures."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="34"/>
@@ -494,7 +494,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="When you put another creature into the battle zone, destroy this creature."/>
+      <property name="Rules" value="■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="35"/>
@@ -506,7 +506,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="When this creature is destroyed, choose one of your shields and put it into your graveyard."/>
+      <property name="Rules" value="■ When this creature is destroyed, choose one of your shields and put it into your graveyard."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36"/>
@@ -518,7 +518,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Until the end of the turn, each of your Dragonoids in the battle zone is an Armored Dragon in addition to its other races, gets +4000 power, and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Rules" value="■ Until the end of the turn, each of your Dragonoids in the battle zone is an Armored Dragon in addition to its other races, gets +4000 power, and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="37"/>
@@ -530,7 +530,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="When this creature is destroyed, you may put a creature that has Dragon in its race from your hand into the battle zone."/>
+      <property name="Rules" value="■ When this creature is destroyed, you may put a creature that has Dragon in its race from your hand into the battle zone."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="38"/>
@@ -554,8 +554,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} This creature can attack untapped creatures and has &quot;Power attacker +4000 (While attacking, this creature gets +4000 power).&quot;"/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can attack untapped creatures and has &quot;Power attacker +4000 (While attacking, this creature gets +4000 power).&quot;"/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="40"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -566,8 +566,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="This creature can't be attacked. &#xD;&#xA;This creature can't attack players. &#xD;&#xA;Power attacker +1000 (While attacking, this creature gets +1000 power.)"/>
-      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't be attacked.&#xA;■ This creature can't attack players.&#xA;{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Power" value="5000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -578,7 +578,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 4000 or less."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="42"/>
@@ -590,8 +590,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
-      <property name="Power" value="4000"/>
+      <property name="Rules" value="■While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
+      <property name="Power" value="4000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="43"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -602,7 +602,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="Each creature in the battle zone that has Dragon in its race has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ Each creature in the battle zone that has Dragon in its race has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="44"/>
@@ -614,7 +614,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Destroy one of your opponent's creatures that has power 2000 or less. &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 2000 or less.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="45"/>
@@ -626,7 +626,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, put the top card of your deck into your mana zone."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="46"/>
@@ -638,7 +638,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields."/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="47"/>
@@ -650,7 +650,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="Whenever this creature becomes blocked, you may put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ Whenever this creature becomes blocked, you may put the top card of your deck into your mana zone."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="48"/>
@@ -662,7 +662,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="When this creature would be destroyed, if you have a creature that has Dragon in its race in your mana zone, put this creature into your mana zone instead of destroying it. Then return a creature that has Dragon in its race from your mana zone to your hand."/>
+      <property name="Rules" value="■ When this creature would be destroyed, if you have a creature that has Dragon in its race in your mana zone, put this creature into your mana zone instead of destroying it. Then return a creature that has Dragon in its race from your mana zone to your hand."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="49"/>
@@ -674,7 +674,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Each of your creatures in the battle zone gets +3000 power until the end of the turn. &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +3000 power until the end of the turn.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="50"/>
@@ -686,8 +686,8 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="Whenever another creature is put into the battle zone, this creature gets +3000 power until the end of the turn."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever another creature is put into the battle zone, this creature gets +3000 power until the end of the turn."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="51"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -698,7 +698,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead. &#xD;&#xA;Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead.&#xA;{CHARGER (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="52"/>
@@ -710,8 +710,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its {TURBO RUSH} ability until the end of the turn.) &#xD;&#xA;{TURBO RUSH} This creature gets +5000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
-      <property name="Power" value="3000"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature gets +5000 power and has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Power" value="3000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="53"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
@@ -722,7 +722,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When you put this creature into the battle zone, your opponent may choose a creature in his hand and put it into the battle zone. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent may choose a creature in his hand and put it into the battle zone.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="54"/>
@@ -734,8 +734,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
-      <property name="Power" value="4000"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Power" value="4000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="55"/>
       <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
