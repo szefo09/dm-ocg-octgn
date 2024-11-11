@@ -61,6 +61,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Engineer Kipo** When it is destroyed each player puts one mana into graveyard.
   - **Gigastand** When it is destroyed you can put it into your hand and discard a card.
   - **Raza Vega, Thunder Guardian** Adds itself to shield instead of being destroyed.
+  - **Mana Nexus**: Shows pop-up to pick Mana to place to Shields.
 
 
 - **Wavestrikers Added**:
