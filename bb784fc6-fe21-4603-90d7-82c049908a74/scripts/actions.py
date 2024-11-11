@@ -199,6 +199,7 @@ cardScripts = {
 	'Burst Shot': {'onPlay': ['destroyAll(table, True, 2000)']},
 	'Cannonball Sling': {'onPlay': ['kill(2000)'],
 						 'onMetaMorph': ['kill(6000)']},
+	'Cataclysmic Eruption':{'onPlay':['destroyMana(len([c for c in table if isCreature and not isBait and c.owner==me and c.Civilization == "Nature"]))']},
 	'Chains of Sacrifice': {'onPlay': ['kill("ALL","ALL","ALL",2)', 'sacrifice()']},
 	'Clone Factory': {'onPlay': [' fromMana(2)']},
 	'Cloned Nightmare': {'onPlay': [' clonedDiscard()']},
@@ -206,8 +207,9 @@ cardScripts = {
 	'Corpse Charger': {'onPlay': [' search(me.piles["Graveyard"], 1, "Creature")']},
 	'Crimson Hammer': {'onPlay': ['kill(2000)']},
 	'Critical Blade': {'onPlay':['kill(count=1, rulesFilter="{BLOCKER}")']},
-	'Cyber Brain': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Crystal Memory': {'onPlay': ['search(me.Deck, 1, "ALL", "ALL", "ALL", False)']},
+	'Cyber Brain': {'onPlay': ['draw(me.Deck, True, 3)']},
+	'Cyclone Panic': {'onPlay':['cyclonePanic()']},
 	'Darkflame Drive': {'onPlay': ['kill("ALL","Untap")']},
 	'Darkpact': {'onPlay':['darkpact(card)']},
 	'Dark Reversal': {'onPlay': ['search(me.piles["Graveyard"], 1, "Creature")']},
@@ -476,30 +478,31 @@ cardScripts = {
 	'Vorg\'s Engine': {'silentSkill':['destroyAll(table, True, 2000)']},
 
 	#ON ATTACK EFFECTS
-	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
-	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
-	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
-	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
-	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
-	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
-	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
-	'Bolzard Dragon':{'onAttack':['destroyMana()']},
-	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
-	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
 	'Armored Warrior Quelos':{'onAttack':['bothPlayersFromMana(1,True,"not re.search(r\'Fire\',c.Civilization)")']},
+	'Bloodwing Mantis':{'onAttack':['fromMana(2,"Creatures")']},
+	'Bolzard Dragon':{'onAttack':['destroyMana()']},
 	'Chaos Fish':{'onAttack':['draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)']},
+	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
 	'Earthstomp Giant':{'onAttack':['fromManaAll("re.search(r\'Creature\',c.Type)")']},
 	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
-	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
+	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},	
+	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
+	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
+	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
 	'King Neptas':{'onAttack': ['bounce(1,filterFunction="int(c.Power.strip(\'+\'))<=2000")']},
 	'King Ponitas':{'onAttack':['search(me.Deck, CivFilter="Water")']},
+	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
+	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
 	'Muramasa, Duke of Blades':{'onAttack':['kill(2000)']},
-	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},
-	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},
-	'Sniper Mosquito':{'onAttack':['fromMana()']},
+	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
+	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},	
+	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},	
+	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
 	'Smile Angler':{'onAttack':['opponentManaToHand()']},
-
+	'Sniper Mosquito':{'onAttack':['fromMana()']},
+	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
+		
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
@@ -1904,6 +1907,15 @@ def bronks():
 	choice = askCard2(leastPowerCreatureList, "Select a card to destroy (Opponent's are shown first).")
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
+
+def cyclonePanic():
+	currentPlayers = getPlayers()
+	for player in getPlayers():
+		cardInHand = [c for c in player.hand]
+		for c in cardInHand:
+			remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(c))
+			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
+			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, len(cardInHand)])
 
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
