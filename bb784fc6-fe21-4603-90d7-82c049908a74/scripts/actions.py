@@ -199,7 +199,7 @@ cardScripts = {
 	'Burst Shot': {'onPlay': ['destroyAll(table, True, 2000)']},
 	'Cannonball Sling': {'onPlay': ['kill(2000)'],
 						 'onMetaMorph': ['kill(6000)']},
-	'Cataclysmic Eruption':{'onPlay':['destroyMana(len([c for c in table if isCreature and not isBait and c.owner==me and c.Civilization == "Nature"]))']},
+	'Cataclysmic Eruption':{'onPlay':['destroyMana(len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r\'Nature\',c.Civilization)]))']},
 	'Chains of Sacrifice': {'onPlay': ['kill("ALL","ALL","ALL",2)', 'sacrifice()']},
 	'Clone Factory': {'onPlay': [' fromMana(2)']},
 	'Cloned Nightmare': {'onPlay': [' clonedDiscard()']},
@@ -480,7 +480,7 @@ cardScripts = {
 	#ON ATTACK EFFECTS
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
 	'Armored Warrior Quelos':{'onAttack':['bothPlayersFromMana(1,True,"not re.search(r\'Fire\',c.Civilization)")']},
-	'Bloodwing Mantis':{'onAttack':['fromMana(2,"Creatures")']},
+	'Bloodwing Mantis':{'onAttack':['fromMana(2,"Creature")']},
 	'Bolzard Dragon':{'onAttack':['destroyMana()']},
 	'Chaos Fish':{'onAttack':['draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)']},
 	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
@@ -506,11 +506,11 @@ cardScripts = {
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
-	'Soul Garde, Storage Dragon Elemental': {'onTrigger': ['manaArmsCheck("Light", 5)']},
-	'Sg Spagelia, Dragment Symbol': {'onTrigger': ['manaArmsCheck("Water", 5)']},
-	'Zanjides, Tragedy Demon Dragon': {'onTrigger': ['manaArmsCheck("Darkness", 5)']},
 	'Mettagils, Passion Dragon': {'onTrigger': ['manaArmsCheck("Fire", 5)']},
+	'Sg Spagelia, Dragment Symbol': {'onTrigger': ['manaArmsCheck("Water", 5)']},
+	'Soul Garde, Storage Dragon Elemental': {'onTrigger': ['manaArmsCheck("Light", 5)']},
 	'Traptops, Green Trap Toxickind': {'onTrigger': ['manaArmsCheck("Nature", 5)']},
+	'Zanjides, Tragedy Demon Dragon': {'onTrigger': ['manaArmsCheck("Darkness", 5)']},
 }
 
 ######### Events ##################
@@ -1380,14 +1380,15 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 
 def destroyMana(count=1):
 	mute()
+	
 	for i in range(0, count):
-		cardList = [card for card in table if isMana(card) and not card.owner == me]
 		if len(cardList) == 0:
 			return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Mana Card to destroy')
 		if type(choice) is not Card:
 			return
+		cardList.remove(choice)
 		remoteCall(choice.owner, "destroy", convertCardListIntoCardIDsList(choice))
 
 def destroyAllMana(group, civFilter="ALL", AllExceptFiltered=False):
@@ -1909,13 +1910,14 @@ def bronks():
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
 
 def cyclonePanic():
-	currentPlayers = getPlayers()
-	for player in getPlayers():
-		cardInHand = [c for c in player.hand]
-		for c in cardInHand:
-			remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(c))
+	if confirm("Are you sure you want to continue?"):
+		currentPlayers = getPlayers()
+		for player in getPlayers():
+			cardInHand = [c for c in player.hand]
+			for c in cardInHand:
+				remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(c))
 			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
-			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, len(cardInHand)])
+			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, len(cardInHand)])
 
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
