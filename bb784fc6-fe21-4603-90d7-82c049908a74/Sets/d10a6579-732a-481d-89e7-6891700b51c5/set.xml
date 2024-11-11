@@ -26,7 +26,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xD;&#xA;{TAP} Destroy all creatures that have power 3000 or less. Then look at your opponent's hand. He discards all creatures from it that have power 3000 or less."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy all creatures that have power 3000 or less. Then look at your opponent's hand. He discards all creatures from it that have power 3000 or less."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10"/>
@@ -38,7 +38,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;Whenever this creature would break one of your opponent's shields, your opponent shows that shield to you instead of putting it into his hand. If it's a spell that has &quot;shield trigger,&quot; you cast it for no cost, then put it into your opponent's graveyard. If it's not, your opponent puts it into his hand. &#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ Whenever this creature would break one of your opponent's shields, your opponent shows that shield to you instead of putting it into his hand. If it's a spell that has &quot;shield trigger,&quot; you cast it for no cost, then put it into your opponent's graveyard. If it's not, your opponent puts it into his hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="8500"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>
@@ -50,7 +50,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;When you put this creature into the battle zone, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
@@ -62,7 +62,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;While this creature is tapped during your opponent's turn, if it hasn't been attacked that turn, your opponent's creatures must attack it if able."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While this creature is tapped during your opponent's turn, if it hasn't been attacked that turn, your opponent's creatures must attack it if able."/>
       <property name="Power" value="12000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>
@@ -74,8 +74,8 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="This creature gets +2000 power for each shield you and your opponent have. &#xD;&#xA;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot; &#xD;&#xA;While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shields)"/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each shield you and your opponent have.&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;&#xA;■ While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shields.)"/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S8"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -86,8 +86,8 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="This creature gets +3000 power for each civilization in your mana zone. &#xD;&#xA;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot; &#xD;&#xA;While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shield)"/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +3000 power for each civilization in your mana zone.&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature break 2 shields).&quot;&#xA;■ While this creature has power 15000 or more, it has &quot;triple breaker&quot; instead of &quot;double breaker.&quot; (It breaks 3 shields.)"/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S1"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -98,8 +98,8 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="This creature gets +5000 power for each of your other creatures in the battle zone that has Dragon in its race. &#xD;&#xA;Crew breaker-Dragon (This creature breaks one more shield for each of your other creatures in the battle zone that has Dragon in its race.)"/>
-      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature gets +5000 power for each of your other creatures in the battle zone that has Dragon in its race.&#xA;■ Crew breaker—Dragon (This creature breaks one more shield for each of your other creatures in the battle zone that has Dragon in its race.)"/>
+      <property name="Power" value="5000+"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S6"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -110,7 +110,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Melt Warrior"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>
@@ -122,7 +122,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put all the cards from your hand into your mana zone. Then put that many cards from your mana zone into your hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put all the cards from your hand into your mana zone. Then put that many cards from your mana zone into your hand."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -134,7 +134,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put all your shields into your hand. (You can use the &quot;shield trigger&quot; abilities of those shields.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put all your shields into your hand. (You can use the &quot;shield trigger&quot; abilities of those shields.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S4"/>
@@ -146,7 +146,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xD;&#xA;{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -158,8 +158,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="This creature gets +2000 power for each of your other untapped creatures in the battle zone. &#xD;&#xA;When this creature would be destroyed, shuffle it into your deck instead."/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each of your other untapped creatures in the battle zone.&#xA;■ When this creature would be destroyed, shuffle it into your deck instead."/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="2"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -170,8 +170,8 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="This creature gets +2000 power for each tapped card in your opponent's mana zone. &#xD;&#xA;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each tapped card in your opponent's mana zone.&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="3"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -182,7 +182,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="4"/>
@@ -194,7 +194,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}This creature breaks 2 of your opponent's shields."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: This creature breaks 2 of your opponent's shields."/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -206,7 +206,7 @@
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="6"/>
@@ -218,7 +218,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;When you put this creature into the battle zone, put all the cards from your mana zone into your hand and, at the same time, put all the cards from your hand into your mana zone tapped."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put all the cards from your mana zone into your hand and, at the same time, put all the cards from your hand into your mana zone tapped."/>
       <property name="Power" value="7000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="7"/>
@@ -230,7 +230,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.) &#xD;&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xD;&#xA;{TAP} Choose a creature in your graveyard. Return all creatures that have that name from your graveyard to your hand."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;{DOUBLE BREAKER}&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a creature in your graveyard. Return all creatures that have that name from your graveyard to your hand."/>
       <property name="Power" value="9000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="8"/>
@@ -242,7 +242,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Earth Dragon"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, destroy all other creatures that have 6000 power. Take an extra turn after this one. You lose the game at the end of that turn. &#xD;&#xA;Speed attacker (This creature doesn't get summoning sickness.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, destroy all other creatures that have 6000 power. Take an extra turn after this one. You lose the game at the end of that turn.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="9"/>
@@ -254,7 +254,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;While this creature is tapped, each of your other creatures has &quot;power attacker +1500.&quot; (While attacking, a creature that has &quot;power attacker +1500&quot; gets +1500 power.) &#xD;&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xD;&#xA;{TAP} Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ While this creature is tapped, each of your other creatures has &quot;power attacker +1500.&quot; (While attacking, a creature that has &quot;power attacker +1500&quot; gets +1500 power.)&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -266,7 +266,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if you have 5 or more shields, add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have 5 or more shields, add the top card of your deck to your shields face down."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="11"/>
@@ -278,7 +278,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Add the top card of your deck to your shields face down."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="12"/>
@@ -290,8 +290,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker"/>
-      <property name="Rules" value="This creature gets +1000 power for each of your other untapped creatures in the battle zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each of your other untapped creatures in the battle zone."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="13"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -302,7 +302,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rainbow Phantom"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="14"/>
@@ -314,7 +314,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Choose up to 2 of your opponent's creatures in the battle zone and tap them."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Choose up to 2 of your opponent's creatures in the battle zone and tap them."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="15"/>
@@ -326,7 +326,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="Evolution-Put on one of your Initiates. &#xD;&#xA;Whenever one of your shields would be broken, you may discard 2 cards from your hand instead."/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ Whenever one of your shields would be broken, you may discard 2 cards from your hand instead."/>
       <property name="Power" value="5500"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -338,7 +338,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Whenever this creature blocks, choose one of your creatures in the battle zone. Untap it after the battle. &#xD;&#xA;This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, choose one of your creatures in the battle zone. Untap it after the battle.&#xA;■ This creature can't attack players."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="17"/>
@@ -350,7 +350,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Add the top card of your deck to your shields face down."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="18"/>
@@ -362,7 +362,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="Each of your water creatures and nature creatures in the battle zone has &quot;blocker.&quot; (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="■ Each of your water creatures and nature creatures in the battle zone has &quot;blocker.&quot; (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="19"/>
@@ -374,7 +374,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="20"/>
@@ -386,7 +386,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Whenever an opponent's creature attacks, this creature blocks if able. &#xD;&#xA;This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever an opponent's creature attacks, this creature blocks if able.&#xA;■ This creature can't attack players."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="21"/>
@@ -398,7 +398,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;During your opponent's turn, each of your other creatures gets +2000 power. &#xD;&#xA;This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ During your opponent's turn, each of your other creatures gets +2000 power.&#xA;■ This creature can't attack players."/>
       <property name="Power" value="2500"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="22"/>
@@ -410,7 +410,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xD;&#xA;{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="23"/>
@@ -422,7 +422,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;You may destroy one of your creatures. If you do, choose a creature in your hand that costs the same as or less than the number of cards in your mana zone and put it into the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ You may destroy one of your creatures. If you do, choose a creature in your hand that costs the same as or less than the number of cards in your mana zone and put it into the battle zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="24"/>
@@ -434,7 +434,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="25"/>
@@ -446,7 +446,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Each player chooses one of his creatures in the battle zone. Tap the rest of the creatures in the battle zone."/>
+      <property name="Rules" value="■ Each player chooses one of his creatures in the battle zone. Tap the rest of the creatures in the battle zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="26"/>
@@ -470,7 +470,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="When you put this creature into the battle zone, look at up to 5 cards from the top of your deck and put them back in any order."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at up to 5 cards from the top of your deck and put them back in any order."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="28"/>
@@ -482,7 +482,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Whenever an opponent's creature attacks, this creature blocks if able. &#xD;&#xA;This creature can't attack."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever an opponent's creature attacks, this creature blocks if able.&#xA;■ This creature can't attack."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="29"/>
@@ -494,7 +494,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature can't attack."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="30"/>
@@ -506,8 +506,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="This creature gets +1000 power for each tapped card in your opponent's mana zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each tapped card in your opponent's mana zone."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="31"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -518,7 +518,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="32"/>
@@ -530,7 +530,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;Evolution-Put on one of your Liquid People."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Liquid People."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="33"/>
@@ -542,7 +542,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="Your light creatures and darkness creatures can't be blocked."/>
+      <property name="Rules" value="■ Your light creatures and darkness creatures can't be blocked."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="34"/>
@@ -554,7 +554,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Draw a card."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Draw a card."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="35"/>
@@ -566,7 +566,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk"/>
-      <property name="Rules" value="Your creatures that have &quot;silent skill&quot; are put into the battle zone tapped. &#xD;&#xA;Whenever one of your creatures that has &quot;silent skill&quot; would be destroyed, put it into your hand instead."/>
+      <property name="Rules" value="■ Your creatures that have &quot;silent skill&quot; are put into the battle zone tapped.&#xA;■ Whenever one of your creatures that has &quot;silent skill&quot; would be destroyed, put it into your hand instead."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="36"/>
@@ -578,7 +578,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Choose a creature in the battle zone or a card in either player's mana zone and return it to its owner's hand."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Choose a creature in the battle zone or a card in either player's mana zone and return it to its owner's hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="37"/>
@@ -590,7 +590,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Look at up to 3 of your opponent's shields."/>
+      <property name="Rules" value="■ Look at up to 3 of your opponent's shields. Then put them back where they were."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="38"/>
@@ -602,7 +602,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Put a card from your mana zone into your hand. Then put a card from your hand into your mana zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Put a card from your mana zone into your hand. Then put a card from your hand into your mana zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="39"/>
@@ -614,7 +614,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="40"/>
@@ -626,7 +626,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="41"/>
@@ -638,7 +638,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return a card from your mana zone to your hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="42"/>
@@ -650,7 +650,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;You may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ You may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="43"/>
@@ -662,7 +662,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Whenever you put a Cyber Virus into the battle zone, you may discard up to 2 cards from your hand. For each card you discard, choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Rules" value="■ Whenever you put a Cyber Virus into the battle zone, you may discard up to 2 cards from your hand. For each card you discard, choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="44"/>
@@ -674,7 +674,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="45"/>
@@ -686,7 +686,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Destroy one of your opponent's untapped creatures."/>
+      <property name="Rules" value="■ Destroy one of your opponent's untapped creatures."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="46"/>
@@ -698,7 +698,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if your opponent has 3 or fewer shields, he discards a card at random from his hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if your opponent has 3 or fewer shields, he discards a card at random from his hand."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="47"/>
@@ -710,7 +710,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Return a creature from your graveyard to your hand."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Return a creature from your graveyard to your hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="48"/>
@@ -722,7 +722,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="When you put this creature into the battle zone, look at your opponent's hand. You may choose a card in it and put it into his mana zone. If you do, choose a card in his mana zone and put it into his hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand. You may choose a card in it and put it into his mana zone. If you do, choose a card in his mana zone and put it into his hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="49"/>
@@ -734,7 +734,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="Each of your water creatures and fire creatures in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Rules" value="■ Each of your water creatures and fire creatures in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="50"/>
@@ -746,7 +746,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Choose one of your opponent's creatures in the battle zone. It gets &quot;this creature attacks if able&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Choose one of your opponent's creatures in the battle zone. It gets &quot;this creature attacks if able&quot; until the start of your next turn."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="51"/>
@@ -758,7 +758,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature can't attack."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="52"/>
@@ -770,7 +770,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability. &#xD;&#xA;{TAP} Each player discards a card at random from his hand."/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Each player discards a card at random from his hand."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="53"/>
@@ -794,7 +794,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="{BLOCKER} &#xD;&#xA;Whenever an opponent's creature attacks, this creature blocks if able. &#xD;&#xA;This creature can't attack. &#xD;&#xA;Slayer (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever an opponent's creature attacks, this creature blocks if able.&#xA;■ This creature can't attack.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="55"/>
@@ -806,7 +806,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return all the cards from your mana zone to your hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return all the cards from your mana zone to your hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="56"/>
@@ -818,7 +818,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="At the start of each of your opponent's turns, he chooses one of his creatures in the battle zone that can attack. That creature attacks that turn if able."/>
+      <property name="Rules" value="■ At the start of each of your opponent's turns, he chooses one of his creatures in the battle zone that can attack. That creature attacks that turn if able."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="57"/>
@@ -830,7 +830,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the &quot;shield trigger&quot; ability of that shield.)"/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="58"/>
@@ -842,7 +842,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Each player puts all the cards from his mana zone into his hand and, at the same time, puts all the cards from his hand into his mana zone tapped."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Each player puts all the cards from his mana zone into his hand and, at the same time, puts all the cards from his hand into his mana zone tapped."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="59"/>
@@ -854,7 +854,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}This creature breaks one of your opponent's shields."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: This creature breaks one of your opponent's shields."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="60"/>
@@ -866,7 +866,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="Evolution-Put on one of your Ghosts. &#xD;&#xA;Whenever one of your creatures attacks, your opponent discards a card at random from his hand. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever one of your creatures attacks, your opponent discards a card at random from their hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="61"/>
@@ -878,8 +878,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Evolution-Put on one of your Humans. &#xD;&#xA;While attacking, this creature gets +2000 power for each of your other tapped creatures in the battle zone. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
-      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ While attacking, this creature gets +2000 power for each of your other tapped creatures in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Power" value="6000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="62"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -890,7 +890,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Destroy one of your opponent's creatures that has &quot;blocker.&quot;"/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Destroy one of your opponent's creatures that has &quot;blocker.&quot;"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="63"/>
@@ -902,7 +902,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Melt Warrior"/>
-      <property name="Rules" value="Each of your creatures in the battle zone that has &quot;silent skill&quot; has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone that has &quot;silent skill&quot; has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="64"/>
@@ -914,7 +914,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="One of your creatures gets +4000 power until the end of the turn."/>
+      <property name="Rules" value="■ One of your creatures in the battle zone gets +4000 power until the end of the turn."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="65"/>
@@ -938,7 +938,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if your opponent has 2 or fewer shields, you may destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if your opponent has 2 or fewer shields, you may destroy one of your opponent's creatures that has power 3000 or less."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="67"/>
@@ -950,7 +950,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Each of your opponent's creatures gets &quot;This creature attacks if able&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Each of your opponent's creatures gets &quot;This creature attacks if able&quot; until the start of your next turn."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="68"/>
@@ -962,7 +962,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xD;&#xA;When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 1000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 1000 or less."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="69"/>
@@ -974,7 +974,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Speed attacker (This creature doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="70"/>
@@ -986,7 +986,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Destroy all creatures that have power 3000 or less."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Destroy all creatures that have power 3000 or less."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="71"/>
@@ -998,7 +998,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts"/>
-      <property name="Rules" value="Each of your darkness creatures and nature creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ Each of your darkness creatures and nature creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="72"/>
@@ -1010,7 +1010,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Destroy one of your opponent's creatures that has power 2000 or less."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="73"/>
@@ -1022,8 +1022,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="While attacking, this creature gets +1000 power for each of your other tapped creatures in the battle zone."/>
-      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each of your other tapped creatures in the battle zone."/>
+      <property name="Power" value="3000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="74"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1034,8 +1034,8 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="This creature can attack untapped creatures. &#xD;&#xA;Whenever this creature attacks a creature that has power 6000 or more, this creature gets +9000 power until the end of the turn."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature can attack untapped creatures.&#xA;■ Whenever this creature attacks a creature that has power 6000 or more, this creature gets +9000 power until the end of the turn."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="75"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1046,7 +1046,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="One of your creatures in the battle zone gets &quot;speed attacker&quot; until the end of the turn. (It doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ One of your creatures in the battle zone gets &quot;speed attacker&quot; until the end of the turn. (It doesn't get summoning sickness.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="76"/>
@@ -1058,7 +1058,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="While this creature is tapped during your opponent's turn, each of his creatures attacks if able."/>
+      <property name="Rules" value="■ While this creature is tapped during your opponent's turn, each of his creatures attacks if able."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="77"/>
@@ -1070,7 +1070,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Destroy all creatures that have power 2000 or less."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Destroy all creatures that have power 2000 or less."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="78"/>
@@ -1082,8 +1082,8 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="Power attacker +2000 (While attacking, this creature gets +2000 power.)"/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000"/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="79"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1094,7 +1094,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if you have 5 or more shields, untap all the cards in your mana zone."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have 5 or more shields, untap all the cards in your mana zone."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="80"/>
@@ -1106,7 +1106,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Whenever one of your creatures is attacked, you may discard a card from your hand. If you do, that creature gets +3000 power until the end of the turn."/>
+      <property name="Rules" value="■ Whenever one of your creatures is attacked, you may discard a card from your hand. If you do, that creature gets +3000 power until the end of the turn."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="81"/>
@@ -1118,7 +1118,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="Evolution-Put on one of your Beast Folk. &#xD;&#xA;When you put this creature into the battle zone, return all tapped cards from your mana zone to your hand. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ When you put this creature into the battle zone, return all tapped cards from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="82"/>
@@ -1130,7 +1130,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;Put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ Put the top card of your deck into your mana zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="83"/>
@@ -1142,7 +1142,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Put the top card of your deck into your mana zone."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="84"/>
@@ -1154,8 +1154,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="While attacking, this creature gets +1000 power for each tapped card in your mana zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each tapped card in your mana zone."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="85"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1166,7 +1166,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xD;&#xA;When you put this creature into the battle zone, you may put up to 2 cards from your hand into your mana zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■  When you put this creature into the battle zone, you may put up to 2 cards from your hand into your mana zone."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="86"/>
@@ -1178,7 +1178,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="Each of your light creatures and fire creatures has &quot;power attacker +3000.&quot; (While attacking, a creature that has &quot;power attacker +3000&quot; gets +3000 power.)"/>
+      <property name="Rules" value="■ Each of your light creatures and fire creatures has &quot;power attacker +3000.&quot; (While attacking, a creature that has &quot;power attacker +3000&quot; gets +3000 power.)"/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="87"/>
@@ -1190,7 +1190,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Whenever this creature attacks, return a card from your mana zone to your hand."/>
+      <property name="Rules" value="■ Whenever this creature attacks, return a card from your mana zone to your hand."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="88"/>
@@ -1214,7 +1214,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Rules" value="■ When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="90"/>
@@ -1226,7 +1226,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it for no cost.) &#xD;&#xA;You may choose a creature in the battle zone and put it into its owner's mana zone. If you do, choose a non-evolution creature in that player's mana zone that costs the same as or less than the number of cards in that mana zone. That player puts that creature into the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA;■ You may choose a creature in the battle zone and put it into its owner's mana zone. If you do, choose a non-evolution creature in that player's mana zone that costs the same as or less than the number of cards in that mana zone. That player puts that creature into the battle zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="91"/>
@@ -1238,7 +1238,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Balloon Mushroom"/>
-      <property name="Rules" value="Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand."/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="92"/>
@@ -1250,8 +1250,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="Power attacker +4000 (While attacking, this creature gets +4000 power.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.) &#xD;&#xA;You can't untap the cards in your mana zone at the start of each of your turns."/>
-      <property name="Power" value="7000"/>
+      <property name="Rules" value="{POWER ATTACKER} +4000 &#xA;{DOUBLE BREAKER}&#xA;■ You can't untap the cards in your mana zone at the start of each of your turns."/>
+      <property name="Power" value="7000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="93"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1262,7 +1262,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Each of your creatures gets &quot;power attacker +1000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +1000&quot; gets +1000 power.)"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;power attacker +1000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +1000&quot; gets +1000 power.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="94"/>
@@ -1274,8 +1274,8 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="While attacking, this creature gets +2000 power for each tapped card in your mana zone."/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ While attacking, this creature gets +2000 power for each tapped card in your mana zone."/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="95"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1286,7 +1286,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it for no cost.) &#xD;&#xA;{BLOCKER} (This creature is put into your mana zone tapped.) &#xD;&#xA;When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) &#xA; {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.) &#xA;■ When this creature would be destroyed, return it to your hand instead."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="96"/>
@@ -1298,7 +1298,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Liquid People"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then look at one of your opponent's shields."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■  When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then look at one of your opponent's shields."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="97"/>
@@ -1310,8 +1310,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Liquid People"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;(This creature is put into your mana zone tapped.) &#xD;&#xA;This creature can't attack players. &#xD;&#xA;While battling a fire creature, this creature gets +4000 power."/>
-      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.) &#xA;■ This creature can't attack players.&#xA;■ While battling a fire creature, this creature gets +4000 power."/>
+      <property name="Power" value="4000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="98"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1322,7 +1322,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Ghost"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;This creature can't be blocked. &#xD;&#xA;Slayer (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ This creature can't be blocked.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="99"/>
@@ -1334,7 +1334,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Ghost"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, look at one of your opponent's shields. Then your opponent discards a card at random from his hand."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, look at one of your opponent's shields. Then your opponent discards a card at random from his hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="100"/>
@@ -1346,7 +1346,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;This creature can't be blocked. &#xD;&#xA;Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its {SILENT} ability.) &#xD;&#xA;{SILENT}Your opponent chooses one of his creatures and destroys it."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ This creature can't be blocked.&#xA;{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its ​Silent Skill ability.)&#xA;{SILENT SKILL}: Your opponent chooses one of his creatures and destroys it."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="101"/>
@@ -1358,7 +1358,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost/Human"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, destroy one of your creatures and put a card from your mana zone into your graveyard. Then your opponent chooses and destroys one of his creatures and chooses a card in his mana zone and puts it into his graveyard."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, destroy one of your creatures and put a card from your mana zone into your graveyard. Then your opponent chooses and destroys one of his creatures and chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="102"/>
@@ -1370,7 +1370,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost/Human"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then your opponent discards a card at random from his hand."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then your opponent discards a card at random from his hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="103"/>
@@ -1382,7 +1382,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;Your opponent can't tap this creature."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ Your opponent can't tap this creature."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="104"/>
@@ -1394,7 +1394,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human/Beast Folk"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.)"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="105"/>
@@ -1406,8 +1406,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;This creature gets +1000 power for each water card in your opponent's mana zone. &#xD;&#xA;While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
-      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ This creature gets +1000 power for each water card in your opponent's mana zone.&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Power" value="3000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="106"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1418,7 +1418,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human/Beast Folk"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker.&quot; Then put the top card of your deck into your mana zone."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="107"/>
@@ -1430,8 +1430,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;Power attacker +3000 (While attacking, this creature gets +3000 power.) &#xD;&#xA;At the end of each of your turns, you may untap this creature."/>
-      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;{POWER ATTACKER} +3000 &#xA;■ At the end of each of your turns, you may untap this creature."/>
+      <property name="Power" value="2500+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="108"/>
       <property name="Set" value="DM-10 Shockwaves of the Shattered Rainbow"/>
@@ -1442,7 +1442,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Initiate"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;(This creature is put into your mana zone tapped.) &#xD;&#xA;When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.) &#xA;■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="109"/>
@@ -1454,7 +1454,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Initiate"/>
-      <property name="Rules" value="(This creature is put into your mana zone tapped.) &#xD;&#xA;When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.) &#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then add the top card of your deck to your shields face down."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="110"/>
