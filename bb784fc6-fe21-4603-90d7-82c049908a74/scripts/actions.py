@@ -244,7 +244,7 @@ cardScripts = {
 	'Goren Cannon': {'onPlay': ['kill(3000)']},
 	'Goromaru Communication': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Hell Chariot': {'onPlay': ['kill("ALL","Untap")']},
-	'Hide and Seek': {'onPlay': ['bounce(1, True, condition = \'not re.search("Evolution", card.Type)\')', 'targetDiscard(True)']},
+	'Hide and Seek': {'onPlay': ['bounce(1, True, filterFunction = \'not re.search("Evolution", c.Type)\')', 'targetDiscard(True)']},
 	'Hogan Blaster': {'onPlay': ['drama(True, "creature or spell", "battlezone", "top")']},
 	'Holy Awe': {'onPlay': ['tapCreature(1, True)']},
 	'Hopeless Vortex': {'onPlay': ['kill()']},
@@ -292,7 +292,7 @@ cardScripts = {
 	'Mystic Inscription': {'onPlay': ['shields(me.Deck)']},
 	'Natural Snare': {'onPlay': ['sendToMana()']},
 	'Persistent Prison of Gaia': {
-		'onPlay': ['bounce(1, True, condition = \'not re.search("Evolution", card.Type)\')', 'targetDiscard(True)']},
+		'onPlay': ['bounce(1, True, filterFunction = \'not re.search("Evolution", c.Type)\')', 'targetDiscard(True)']},
 	'Phantom Dragon\'s Flame': {'onPlay': [' kill(2000)']},
 	'Phantasm Clutch': {'onPlay': ['kill("ALL","Tap")']},
 	'Pixie Cocoon': {'onPlay': ['fromMana(1, "Creature")','toMana(card)']},
@@ -477,17 +477,26 @@ cardScripts = {
 	#ON ATTACK EFFECTS
 	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
-	'Hypersquid Walter':{'onAttack':['draw(me.Deck)']},
-	'Plasma Chaser':{'onAttack':['draw(me.Deck, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
-	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, condition="re.search(r\'Fire\',card.Civilization) or re.search(r\'Nature\',card.Civilization)")']},
+	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
+	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
+	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',card.Civilization) or re.search(r\'Nature\',card.Civilization)")']},
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
 	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
 	'Bolzard Dragon':{'onAttack':['destroyMana()']},
 	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
-	'Silver Axe':{'onAttack':['mana(me.Deck)']},
-	'':{'onAttack':['']},
-	'':{'onAttack':['']},
+	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
+	'Armored Warrior Quelos':{'onAttack':['bothPlayersFromMana(1,True,"not re.search(r\'Fire\',c.Civilization)")']},
+	'Chaos Fish':{'onAttack':['draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)']},
+	'Earthstomp Giant':{'onAttack':['fromMana(len([card for card in table if isMana(card) and card.owner == me]),"Creature")']},
+	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
+	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
+	'King Neptas':{'onAttack':['bounce(1, True,filterFunction="filterFunction=\'int(c.Power.strip(\"+\"))<=2000\'")']},
+	'King Ponitas':{'onAttack':['search(me.Deck, CivFilter="Water")']},
+	'Muramasa, Duke of Blades':{'onAttack':['kill(2000)']},
+	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},
+	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},
+	'Sniper Mosquito':{'onAttack':['fromMana()']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
@@ -1042,8 +1051,11 @@ def clonedDiscard():
 # do some anti-discard inside dat randomdisc function
 
 #Move a card from Mana to hand/graveyard
-def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, filterFunction='True'):
+def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, toGrave=False, filterFunction='True', ask=False):
 	mute()
+	if ask:
+			choice = askYN("Would you like to remove {} Card(s) from Mana?".format(count))
+			if choice != 1: return
 	if TypeFilter != "ALL":
 		cardsInGroup_Type_Filtered = [card for card in table if
 									  isMana(card) and card.owner == me and re.search(TypeFilter, card.Type)]
@@ -1458,7 +1470,7 @@ def sacrifice(power=float('inf'), count=1):
 		destroy(choice)
 
 #Return targeted creatures to hand
-def bounce(count=1, opponentOnly=False, toDeckTop=False, condition='True', conditionalFromLastFunction=False):
+def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', conditionalFromLastFunction=False):
 	mute()
 	if count == 0: return
 	global evaluateNextFunction
@@ -1468,10 +1480,10 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, condition='True', condi
 			return
 	if opponentOnly:
 		cardList = [card for card in table if
-					isCreature(card) and card.owner != me and not isBait(card) and eval(condition)]
+					isCreature(card) and card.owner != me and not isBait(card) and eval(filterFunction)]
 	else:
 		cardList = [card for card in table if
-					isCreature(card) and not isBait(card) and eval(condition)]
+					isCreature(card) and not isBait(card) and eval(filterFunction)]
 	if len(cardList) < 1:
 		whisper("No valid targets on the table.")
 		return
@@ -1754,9 +1766,9 @@ def opponentSearch(args):
 	if not targetPlayer: return
 	remoteCall(targetPlayer,'search', args)
 
-def bothPlayersFromMana(count = 1, toGrave=False):
+def bothPlayersFromMana(count = 1, toGrave=False, filterFunction='True'):
 	for player in players:
-		remoteCall(player, "fromMana", [count, "ALL","ALL","ALL",True, toGrave])
+		remoteCall(player, "fromMana", [count, "ALL","ALL","ALL",True, toGrave, filterFunction])
 
 #Generic function to Tap Creature(s). targetAll flag means it won't ask and tap every opp creature
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
@@ -2128,21 +2140,24 @@ def _fromManaToField(targetPlayerId):
 	update()
 	remoteCall(targetPlayer, "toPlay", convertCardListIntoCardIDsList(manaChoice))
 
-def fromGraveyardToMana(count=1,filterFunction="True"):
+def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 	mute()
 	group=me.piles['Graveyard']
 	if len(group) == 0: return
+	if ask:
+		choice = askYN("Would you like to put {} Card(s) from Graveyard to Mana?".format(count))
+		if choice != 1: return
 	count = min(count,len(group))
 	for i in range(count):
 		cardsInGroup = sort_cardList([card for card in group])
 		validChoices = [c for c in cardsInGroup if eval(filterFunction)]
 		while (True):
-			c = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
+			choice = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
 			if type(choice) is not Card:
 				notify("{} finishes searching their {}.".format(me, group.name))
 				return
-			if c in validChoices:
-				toMana(c)
+			if choice in validChoices:
+				toMana(choice)
 				break
 
 
@@ -2594,9 +2609,12 @@ def shuffle(group, x=0, y=0):
 	group.shuffle()
 	notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group, conditional=False, count=1, x=0, y=0):
+def draw(group, conditional=False, count=1, x=0, y=0, ask=False):
 	mute()
 	group = ensureGroupObject(group)
+	if ask:
+		choice = askYN("Would you like to Draw {} Card(s)?".format(count))
+		if choice != 1: return
 	for i in range(0, count):
 		if len(group) == 0:
 			return
@@ -2660,9 +2678,8 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 	if not preCondition:
 		return
 	if ask:
-		choice = askYN("Charge top {} cards as mana?".format(count))
-		if choice == 0 or choice == 2:
-			return
+		choice = askYN("Charge top {} Card(s) as Mana?".format(count))
+		if choice != 1: return
 	for i in range(0, count):
 		if len(group) == 0: return
 		card = group[0]
