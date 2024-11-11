@@ -498,6 +498,7 @@ cardScripts = {
 	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},
 	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},
 	'Sniper Mosquito':{'onAttack':['fromMana()']},
+	'Smile Angler':{'onAttack':['opponentManaToHand()']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
@@ -1781,6 +1782,18 @@ def opponentSearch(args):
 def bothPlayersFromMana(count = 1, toGrave=False, filterFunction='True'):
 	for player in players:
 		remoteCall(player, "fromMana", [count, "ALL","ALL","ALL",True, toGrave, filterFunction])
+
+def opponentManaToHand(count=1):
+	manaList = [card for card in table if isMana(card) and card.owner != me]
+	if len(manaList)==0:return
+	if me.isInverted: reverse_cardList(manaList)
+	count = min(count,len(manaList))
+	for i in range(0, count):
+		choice = askCard2(manaList, "Choose a Card from the opponent's Mana Zone")
+		if type(choice) is not Card: break
+		manaList.remove(choice)
+		remoteCall(choice.owner,"toHand",convertCardListIntoCardIDsList(choice))
+
 
 #Generic function to Tap Creature(s). targetAll flag means it won't ask and tap every opp creature
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
