@@ -480,7 +480,7 @@ cardScripts = {
 	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
 	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
 	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
-	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',card.Civilization) or re.search(r\'Nature\',card.Civilization)")']},
+	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
 	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
@@ -489,10 +489,10 @@ cardScripts = {
 	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
 	'Armored Warrior Quelos':{'onAttack':['bothPlayersFromMana(1,True,"not re.search(r\'Fire\',c.Civilization)")']},
 	'Chaos Fish':{'onAttack':['draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)']},
-	'Earthstomp Giant':{'onAttack':['fromMana(len([card for card in table if isMana(card) and card.owner == me]),"Creature")']},
+	'Earthstomp Giant':{'onAttack':['fromManaAll("re.search(r\'Creature\',c.Type)")']},
 	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
 	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
-	'King Neptas':{'onAttack':['bounce(1, True,filterFunction="filterFunction=\'int(c.Power.strip(\"+\"))<=2000\'")']},
+	'King Neptas':{'onAttack': ['bounce(1,filterFunction="int(c.Power.strip(\'+\'))<=2000")']},
 	'King Ponitas':{'onAttack':['search(me.Deck, CivFilter="Water")']},
 	'Muramasa, Duke of Blades':{'onAttack':['kill(2000)']},
 	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},
@@ -1087,6 +1087,14 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 		else:
 			toHand(choice,show)
 
+#move all cards fulfilling the condition from Mana to hand
+def fromManaAll(filterFunction='True'):
+	manaCards = [c for c in table if isMana(c) and c.owner == me if eval(filterFunction)]
+	if len(manaCards)== 0: return
+	for c in manaCards:
+		toHand(c)
+
+
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
@@ -1480,11 +1488,11 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			evaluateNextFunction = True
 			return
 	if opponentOnly:
-		cardList = [card for card in table if
-					isCreature(card) and card.owner != me and not isBait(card) and eval(filterFunction)]
+		cardList = [c for c in table if
+					isCreature(c) and c.owner != me and not isBait(c) and eval(filterFunction)]
 	else:
-		cardList = [card for card in table if
-					isCreature(card) and not isBait(card) and eval(filterFunction)]
+		cardList = [c for c in table if
+					isCreature(c) and not isBait(c) and eval(filterFunction)]
 	if len(cardList) < 1:
 		whisper("No valid targets on the table.")
 		return
