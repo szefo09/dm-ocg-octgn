@@ -1805,7 +1805,7 @@ def semiReset():
 				for card in cardsInGrave:
 					remoteCall(player, 'toDeck', card)
 			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
-			remoteCall(player, 'draw', [convertCardListIntoCardIDsList(player.deck), False, 5])
+			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, 5])
 
 def swapManaAndHand(tapped = True):
 	manaZoneList = [card for card in table if isMana(card) and card.controller == me]
