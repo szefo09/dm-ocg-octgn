@@ -1395,7 +1395,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 
 def destroyMana(count=1):
 	mute()
-	
+	cardList = [card for card in table if isMana(card) and card.owner != me]
 	for i in range(0, count):
 		if len(cardList) == 0:
 			return
