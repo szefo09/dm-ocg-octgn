@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.0.8.10"
+		version="1.0.9.0"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -46,6 +46,7 @@
 		<property name="Power" type="String" textKind="Enum" ignoreText="False" />
 		<property name="Number" type="String" ignoreText="False" />
 		<property name="Set" type="String" textKind="Enum" ignoreText="False" />
+		<property name="Watermark" type="String" ignoreText="False" />
 		<size name = "normal" back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3"/>
 		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3"/>
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>
@@ -90,8 +91,8 @@
 		</group>
 
 		<group name="Graveyard" visibility="all" ordered="False" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
-		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="False" /> 
-		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="False" />
+		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="True" /> 
+		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="True" />
 
 	</player>
 
