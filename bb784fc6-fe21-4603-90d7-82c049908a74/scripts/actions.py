@@ -492,7 +492,7 @@ cardScripts = {
 	'Dark Titan Maginn':{'onAttack':['targetDiscard(True)']},
 	'Earthstomp Giant':{'onAttack':['fromManaAll("re.search(r\'Creature\',c.Type)")']},
 	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
-	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},	
+	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
 	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
@@ -503,8 +503,8 @@ cardScripts = {
 	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
 	'Muramasa, Duke of Blades':{'onAttack':['kill(2000)']},
 	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
-	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},	
-	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},	
+	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},
+	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},
 	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
 	'Skullsweeper Q':{'onAttack':['opponentToDiscard()']},
 	'Smile Angler':{'onAttack':['opponentManaToHand()']},
@@ -863,7 +863,7 @@ def isPsychic(card):
 	mute()
 	if re.search("Psychic", card.Type) or re.search("Dragheart", card.Type):
 		return True
-	
+
 def isGacharange(card):
 	mute()
 	if re.search("Gacharange", card.Type):
@@ -2061,8 +2061,6 @@ def divineRiptide():
 	fromManaAll()
 	remoteCall(opponent,"fromManaAll",'True')
 
-
-
 #We use this function to queue the real function, to allow targetting of shields to work
 def _eMMHelper(count):
 	waitingFunct.append([None,'_enemyMiraculousMeltdown({})'.format(count)])
@@ -2218,17 +2216,14 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 		choice = askYN("Would you like to put {} Card(s) from Graveyard to Mana?".format(count))
 		if choice != 1: return
 	count = min(count,len(group))
+	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
 	for i in range(count):
-		cardsInGroup = sort_cardList([card for card in group])
-		validChoices = [c for c in cardsInGroup if eval(filterFunction)]
-		while (True):
-			choice = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
-			if type(choice) is not Card:
-				notify("{} finishes searching their {}.".format(me, group.name))
-				return
-			if choice in validChoices:
-				toMana(choice)
-				break
+		choice = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
+		if type(choice) is not Card:
+			notify("{} finishes searching their {}.".format(me, group.name))
+			return
+		cardsInGroup.remove(choice)
+		toMana(choice)
 
 
 # End of Automation Code
@@ -2700,8 +2695,7 @@ def draw(group, conditional=False, count=1, x=0, y=0, ask=False):
 			choiceList = ['Yes', 'No']
 			colorsList = ['#FF0000', '#FF0000']
 			choice = askChoice("Draw a card?", choiceList, colorsList)
-			if choice == 0 or choice == 2:
-				return
+			if choice != 1:return
 		card = group[0]
 		card.moveTo(card.owner.hand)
 		notify("{} draws a card.".format(me))
@@ -2725,8 +2719,7 @@ def mill(group, count=1, conditional=False, x=0, y=0):
 		choiceList = ['Yes', 'No']
 		colorsList = ['#FF0000', '#FF0000']
 		choice = askChoice("Discard top {} cards?".format(count), choiceList, colorsList)
-		if choice == 0 or choice == 2:
-			return
+		if choice != 1:return
 	if len(group) < count: count = len(group)
 	for card in group.top(count):
 		toDiscard(card, notifymute=True)
@@ -2797,7 +2790,7 @@ def massMana(group, conditional=False, x=0, y=0):
 		choiceList = ['Yes', 'No']
 		colorsList = ['#FF0000', '#FF0000']
 		choice = askChoice("Charge top {} cards to mana?".format(count), choiceList, colorsList)
-		if choice == 0 or choice == 2: return
+		if choice != 1: return
 	for i in range(0, count):
 		if len(group) == 0: return
 		card = group[0]
@@ -3108,7 +3101,7 @@ def endOfFunctionality(card):
 	#Magical bugfix to remove Peek symbol
 	rnd(1,1)
 	if card and card.Type == "Spell" and not isMana(card):
-		if re.search("Charger", card.name) and re.search("Charger", card.rules):
+		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
 			toMana(card)
 			align()
 		else:
