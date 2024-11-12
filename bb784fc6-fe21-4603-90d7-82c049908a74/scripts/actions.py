@@ -3091,7 +3091,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		for function in functionList:
 			waitingFunct.append([card, function])  # This fuction will be queued(along with the card that called it). RN it's waiting.
 			#notify("DEBUG: Function added to waiting list: "+str(function))
-			evaluateWaitingFunctions() #evaluate all the waiting functions. This thing stop evaluation if a function returns true(ie. its waiting for target)
+		evaluateWaitingFunctions() #evaluate all the waiting functions. This thing stop evaluation if a function returns true(ie. its waiting for target)
 	if not waitingFunct: #Don't put card in grave if it's waiting for some effect.
 		#BUG: This check will always be reached first by a spell without any automation being played with Hogan Blaster. And since HB is still in waitingFunct...the spell never goes to grave automatically
 		#Soulution: Instead of this simple chcek make an intermediate function that checks if this card is in waitingFunct. If not, then do endOfFunctionality.
