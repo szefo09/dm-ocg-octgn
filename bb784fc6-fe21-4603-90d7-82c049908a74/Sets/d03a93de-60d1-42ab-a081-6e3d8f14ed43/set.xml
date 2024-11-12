@@ -26,7 +26,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Power" value="11500"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S1"/>
@@ -38,8 +38,8 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="This creature gets +1000 power for each other water creature you have in the battle zone. &#xD;&#xA;Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each other water creature you have in the battle zone.&#xA;■ Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -50,7 +50,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -74,7 +74,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;Whenever this creature attacks, return all creatures from your mana zone to your hand."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, return all creatures from your mana zone to your hand."/>
       <property name="Power" value="8000"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>
@@ -86,8 +86,8 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature gets +1000 power for each other light creature you have in the battle zone."/>
-      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature gets +1000 power for each other light creature you have in the battle zone."/>
+      <property name="Power" value="4000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="1"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -98,7 +98,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
+      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="2"/>
@@ -110,7 +110,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Return a card from your mana zone to your hand. &#xD;&#xA;After you cast this spell, put it into your mana zone instead of your graveyard."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand.&#xA;■ After you cast this spell, put it into your mana zone instead of your graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="3"/>
@@ -122,7 +122,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="4"/>
@@ -134,7 +134,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Return a spell from your mana zone to your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ Return a spell from your mana zone to your hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="5"/>
@@ -146,7 +146,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="Whenever this creature attacks, you may return a light spell from your graveyard to your hand."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a light spell from your graveyard to your hand."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="6"/>
@@ -158,7 +158,7 @@
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="7"/>
@@ -170,7 +170,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="Evolution-Put on one of your Initiates. &#xD;&#xA;Each of your other light creatures in the battle zone has &quot;blocker.&quot; (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ Each of your other light creatures in the battle zone has &quot;blocker&quot;. (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="8"/>
@@ -182,7 +182,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Starlight Tree"/>
-      <property name="Rules" value="While all the cards in your mana zone are light cards, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="9"/>
@@ -194,7 +194,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Add a card from your hand to your shields face down."/>
+      <property name="Rules" value="■ Add a card from your hand to your shields face down."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="10"/>
@@ -206,7 +206,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="While all the cards in your mana zone are light cards, this creature gets +2000 power."/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature gets +2000 power."/>
       <property name="Power" value="2500+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="11"/>
@@ -218,8 +218,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="{BLOCKER} (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.) &#xD;&#xA;This creature can't attack. &#xD;&#xA;While all the cards in your mana zone are water cards, this creature gets +3000 power."/>
-      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ While all the cards in your mana zone are water cards, this creature gets +3000 power."/>
+      <property name="Power" value="3000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="12"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -230,7 +230,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return 2 cards from your mana zone to your hand. Then your opponent chooses 2 cards in his mana zone and returns them to his hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return 2 cards from your mana zone to your hand. Then your opponent chooses 2 cards in his mana zone and returns them to his hand."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="13"/>
@@ -242,7 +242,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="14"/>
@@ -254,7 +254,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Return a card from your mana zone to your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="15"/>
@@ -266,7 +266,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="Whenever this creature attacks, you may choose a creature in the battle zone that has power 2000 or less and return it to its owner's hand. (Return the creature to its owner's hand before your opponent can block with it.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has power 2000 or less and return it to its owner's hand. (Return the creature to its owner's hand before your opponent can block with it.)"/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -278,7 +278,7 @@
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="Whenever this creature attacks, search your deck. You may take a water card from your deck, show that card to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a water card from your deck, show that card to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="17"/>
@@ -290,7 +290,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="Evolution-Put on one of your Leviathans. &#xD;&#xA;Your other water creatures in the battle zone can't be blocked. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Leviathans.&#xA;■ Your other water creatures in the battle zone can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="8000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="18"/>
@@ -302,7 +302,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Look at your opponent's hand and shields. Then put the shields back where they were."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ Look at your opponent's hand and shields. Then put the shields back where they were."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="19"/>
@@ -314,7 +314,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard."/>
+      <property name="Rules" value="■ Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="20"/>
@@ -326,7 +326,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return a card from your mana zone to your hand. Then your opponent chooses a card in his mana zone and returns it to his hand."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand. Then your opponent chooses a card from his mana zone and returns it to his hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="21"/>
@@ -338,7 +338,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
+      <property name="Rules" value="■Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="22"/>
@@ -350,7 +350,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and return it to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="23"/>
@@ -362,7 +362,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="When this creature is put into your graveyard from the battle zone, you may return a creature from your mana zone to your hand."/>
+      <property name="Rules" value="■ When this creature is put into your graveyard from the battle zone, you may return a creature from your mana zone to your hand."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="24"/>
@@ -374,7 +374,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;You may destroy one of your darkness creatures. If you do, return a creature from your mana zone to your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ You may destroy one of your darkness creatures. If you do, return a creature from your mana zone to your hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="25"/>
@@ -386,7 +386,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="Whenever this creature attacks, you may return a darkness creature from your graveyard to your hand."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a darkness creature from your graveyard to your hand."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="26"/>
@@ -398,7 +398,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Choose any number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; abilities of those shields."/>
+      <property name="Rules" value="■ Choose any number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; abilities of those shields."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -422,7 +422,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="Evolution-Put on one of your Ghosts. &#xD;&#xA;Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
       <property name="Power" value="4000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="29"/>
@@ -434,8 +434,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="While all the cards in your mana zone are darkness cards, this creature gets +2000 power."/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are darkness cards, this creature gets +2000 power."/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="30"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -446,8 +446,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="Slayer (When this creature loses a battle, destroy the other creature.) &#xD;&#xA;This creature gets +1000 power for each other darkness creature you have in the battle zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature gets +1000 power for each other darkness creature you have in the battle zone."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="31"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -458,7 +458,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Each of your creatures in the battle zone gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.) &#xD;&#xA;Choose one of your shields and put it into your graveyard."/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)&#xA;■ Choose one of your shields and put it into your graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="32"/>
@@ -470,7 +470,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="Slayer (When this creature loses a battle, destroy the other creature.)"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="33"/>
@@ -494,8 +494,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="While all the cards in your mana zone are fire cards, this creature gets +2000 power."/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are fire cards, this creature gets +2000 power."/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="35"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -506,7 +506,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="You can cast this spell only if all the cards in your mana zone are fire cards. &#xD;&#xA;Each of your creatures in the battle zone gets &quot;power attacker +4000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
+      <property name="Rules" value="■ You can cast this spell only if all the cards in your mana zone are fire cards.&#xA;■ Each of your creatures in the battle zone gets &quot;power attacker +4000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="36"/>
@@ -518,7 +518,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="37"/>
@@ -542,8 +542,8 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
-      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
+      <property name="Power" value="3000+"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="39"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -554,7 +554,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 2000 or less."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="40"/>
@@ -566,7 +566,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Destroy all your opponent's creatures that have power 3000 or less. &#xD;&#xA;Choose one of your shields and put it into your graveyard."/>
+      <property name="Rules" value="■ Destroy all your opponent's creatures that have power 3000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
@@ -578,19 +578,19 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="This creature can't attack while your opponent has more creatures in the battle zone than you do."/>
+      <property name="Rules" value="■ This creature can't attack while your opponent has more creatures in the battle zone than you do."/>
       <property name="Power" value="3000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="42"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Uberdragon Jabaha" id="5646364b-4018-4556-9b20-265ef3fb372d">
+    <card name="Überdragon Jabaha" id="5646364b-4018-4556-9b20-265ef3fb372d">
       <property name="Format" value="TCG, Set17, Set35, OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Evolution-Put on one of your Armored Dragons. &#xD;&#xA;Each of your other fire creatures in the battle zone has &quot;power attacker +2000.&quot; (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.) &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ Each of your other fire creatures has &quot;power attacker +2000&quot;. (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="43"/>
@@ -602,7 +602,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Destroy a creature that has power 6000 or less. &#xD;&#xA;Choose one of your shields and put it into your graveyard."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ Destroy a creature that has power 6000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="44"/>
@@ -614,7 +614,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="Choose any number of your shields and put them into your mana zone."/>
+      <property name="Rules" value="■ Choose any number of your shields and put them into your mana zone."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="45"/>
@@ -626,7 +626,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="This creature can't attack creatures. &#xD;&#xA;Double breaker (This creature breaks 2 shields.)"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="46"/>
@@ -638,7 +638,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Evolution-Put on one of your Giant Insects. &#xD;&#xA;Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead."/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead."/>
       <property name="Power" value="5000"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="47"/>
@@ -650,7 +650,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Add a card from your mana zone to your shields face down."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Add a card from your mana zone to your shields face down."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="48"/>
@@ -662,8 +662,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="This creature gets +1000 power for each of your other nature creatures in the battle zone. &#xD;&#xA;This creature can't be blocked by any creature that has power 4000 or less."/>
-      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each of your other nature creatures in the battle zone.&#xA;■ This creature can't be blocked by any creature that has power 4000 or less."/>
+      <property name="Power" value="1000+"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="49"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -674,7 +674,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard."/>
       <property name="Power" value="1000"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="50"/>
@@ -686,7 +686,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Balloon Mushroom"/>
-      <property name="Rules" value="Whenever this creature attacks, you may put a nature card from your graveyard into your mana zone."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a nature card from your graveyard into your mana zone."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="51"/>
@@ -698,8 +698,8 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
-      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Power" value="4000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="52"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
@@ -710,7 +710,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xD;&#xA;Return a creature that costs 6 or more from your mana zone to your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.) &#xA;■ Return a creature that costs 6 or more from your mana zone to your hand."/>
       <property name="Power" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="53"/>
@@ -722,7 +722,7 @@
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Whenever this creature attacks, return a card from your mana zone to your hand."/>
+      <property name="Rules" value="■ Whenever this creature attacks, return a card from your mana zone to your hand."/>
       <property name="Power" value="2000"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="54"/>
@@ -734,8 +734,8 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Power attacker +3000 (While attacking, this creature gets +3000 power.)"/>
-      <property name="Power" value="2000"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Power" value="2000+"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="55"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
