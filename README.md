@@ -172,7 +172,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
-  = **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
+  - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
   - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
