@@ -140,12 +140,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
     - Brad, Super Kickin' Dynamo
-	  - Flohdani, the Spydroid
-	  - Gazer Eyes, Shadow of Secrets
-	  - Hustle Berry
+    - Flohdani, the Spydroid
+    - Gazer Eyes, Shadow of Secrets
+    - Hustle Berry
     - Minelord Skyterror
-	  - Soderlight, the Cold Blade
-	  - Vorg's Engine
+    - Soderlight, the Cold Blade
+    - Vorg's Engine
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
