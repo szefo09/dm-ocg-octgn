@@ -62,6 +62,14 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Gigastand** When it is destroyed you can put it into your hand and discard a card.
   - **Raza Vega, Thunder Guardian** Adds itself to shield instead of being destroyed.
   - **Mana Nexus**: Shows pop-up to pick Mana to place to Shields.
+  - **King Mazelan**
+  - **King Tsunami**
+  - **Kulus, Soulshine Enforcer**
+  - **Cataclysmic Eruption**
+  - **Cyclone Panic**
+  - **Divine Riptide**
+  - **Glory Snow**
+  - **Thunder Net**
 
 
 - **Wavestrikers Added**:
@@ -102,6 +110,32 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **"When this creature attacks" Effects Added**:
   - **New Cards Added**:
     - Horrid Worm
+    - Amber Piercer
+    - Armored Warrior Quelos
+    - Bloodwing Mantis
+    - Bolzard Dragon
+    - Chaos Fish
+    - Dark Titan Maginn
+    - Earthstomp Giant
+    - Flametropus
+    - Gamil, Knight of Hatred
+    - General Dark Fiend
+    - Hypersquid Walter
+    - King Neptas
+    - King Ponitas
+    - Laguna, Lightning Enforcer
+    - Le Quist, the Oracle
+    - Metalwing Skyterror
+    - Muramasa, Duke of Blades
+    - Plasma Chaser
+    - Psyshroom
+    - Silver Axe
+    - Skullsweeper Q
+    - Smile Angler
+    - Sniper Mosquito
+    - Stained Glass
+    - Split-Head Hydroturtle Q
+
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
