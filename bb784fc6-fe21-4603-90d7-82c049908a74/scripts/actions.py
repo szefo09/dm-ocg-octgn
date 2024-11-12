@@ -51,7 +51,7 @@ cardScripts = {
 	'Cranium Clamp': {'onPlay': ['opponentToDiscard(2)']},
 	'Craze Valkyrie, the Drastic': {'onPlay': ['tapCreature(2)']},
 	'Crimson Maru, the Untamed Flame': {'onPlay': [' kill(4000)']},
-	'Crystal Paladin': {'onPlay': ['bounceAll(True,True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
+	'Crystal Paladin': {'onPlay': ['bounceAll(table,True,True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Cyber N World': {'onPlay': [' semiReset()']},
 	'Dacity Dragoon, Explosive Beast': {'onPlay': ['kill(3000)']},
 	'Dandy Eggplant': {'onPlay': ['fromDeck()']},
@@ -104,10 +104,13 @@ cardScripts = {
 	'Jenny, the Suicide Doll': {'onPlay': ['suicide(card, targetDiscard, [True])']},
 	'Jet R.E, Brave Vizier': {'onPlay': ['shields(me.Deck)']},
 	'King Aquakamui': {'onPlay':['kingAquakamui(card)']},
+	'King Mazelan': {'onPlay':['bounce()']},
 	'King Ripped-Hide': {'onPlay': ['draw(me.Deck, True, 2)']},
 	'King Muu Q': {'onPlay':['bounce()']},
+	'King Tsunami':{'onPlay':['bounceAll(group = [c for c in table if c!=card])']},
 	'Klujadras': {'onPlay': ['waveStriker("klujadras()", card)']},
 	'Kolon, the Oracle': {'onPlay': ['tapCreature()']},
+	'Kulus, Soulshine Enforcer':{'onPlay':['manaCompare(1,True)']},
 	'Larba Geer, the Immaculate':{'onPlay': ['tapCreature(1, True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Lena, Vizier of Brilliance': {'onPlay': ['fromMana(1,"Spell")']},
 	'Lucky Ball': {'onPlay': ['draw(me.Deck,True, 2) if len([c for c in table if isShield(c) and c.controller != me])<=3 else None']},
@@ -221,6 +224,7 @@ cardScripts = {
 	'Devil Hand': {'onPlay': ['kill()', 'mill(me.Deck, 3, True)']},
 	'Devil Smoke': {'onPlay': ['kill("ALL","Untap")']},
 	'Dimension Gate': {'onPlay': ['search(me.Deck, 1, "Creature")']},
+	'Divine Riptide':{'onPlay':['divineRiptide()']},
 	'Slash Charger': {'onPlay': ['fromDeckToGrave()']},
 	'Dracobarrier': {'onPlay': ['tapCreature()']},
 	'Drill Bowgun': {'onPlay': ['gear("kill")']},
@@ -243,6 +247,7 @@ cardScripts = {
 	'Ghastly Drain':{'onPlay':['ghastlyDrain(card)']},
 	'Ghost Clutch': {'onPlay': ['targetDiscard(True)']},
 	'Ghost Touch': {'onPlay': ['targetDiscard(True)']},
+	'Glory Snow':{'onPlay':['manaCompare(2,True)']},
 	'Goren Cannon': {'onPlay': ['kill(3000)']},
 	'Goromaru Communication': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Hell Chariot': {'onPlay': ['kill("ALL","Untap")']},
@@ -336,6 +341,7 @@ cardScripts = {
 	'Teleportation': {'onPlay': ['bounce(2)']},
 	'Ten-Ton Crunch': {'onPlay': ['kill(3000)']},
 	'Terror Pit': {'onPlay': ['kill("All")']},
+	'Thunder Net': {'onPlay':['tapCreature(count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r\'Water\',c.Civilization)]))']},
 	'The Strong Spiral': {'onPlay': ['bounce()']},
 	'The Strong Breath': {'onPlay': ['kill("ALL","Untap")']},
 	'Timeless Garden': {'onPlay': ['mana(me.Deck)']},
@@ -493,16 +499,19 @@ cardScripts = {
 	'King Neptas':{'onAttack': ['bounce(1,filterFunction="int(c.Power.strip(\'+\'))<=2000")']},
 	'King Ponitas':{'onAttack':['search(me.Deck, CivFilter="Water")']},
 	'Laguna, Lightning Enforcer':{'onAttack':['search(me.Deck, TypeFilter="Spell")']},
+	'Le Quist, the Oracle':{'onAttack':['tapCreature(1,filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Darkness\',c.Civilization)")']},
 	'Metalwing Skyterror':{'onAttack':['kill(rulesFilter="{BLOCKER}")']},
 	'Muramasa, Duke of Blades':{'onAttack':['kill(2000)']},
 	'Plasma Chaser':{'onAttack':['draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))']},
 	'Psyshroom':{'onAttack':['fromGraveyardToMana(filterFunction="re.search(r\'Nature\',c.Civilization)",ask=True)']},	
 	'Ra Vu, Seeker of Lightning':{'onAttack':['search(me.piles["Graveyard"], 1, "Spell","Light")']},	
 	'Silver Axe':{'onAttack':['mana(me.Deck,ask=True)']},
+	'Skullsweeper Q':{'onAttack':['opponentToDiscard()']},
 	'Smile Angler':{'onAttack':['opponentManaToHand()']},
 	'Sniper Mosquito':{'onAttack':['fromMana()']},
 	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
-		
+	'Split-Head Hydroturtle Q':{'onAttack':['draw(me.Deck,True)']},
+
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
 	'Awesome! Hot Spring Gallows' : {'onTrigger': ['manaArmsCheck("Water", 3)']},
@@ -1524,9 +1533,9 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			remoteCall(card.owner, "toHand", convertCardListIntoCardIDsList(card))
 
 #Return every creature that matches filters
-def bounceAll(opponentCards=True, myCards=True, filterFunction = "True"):
+def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction = "True"):
 	mute()
-	cardList = [c for c in table if isCreature(c)
+	cardList = [c for c in group if isCreature(c)
 										and not isBait(c)
 										and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
 										and eval(filterFunction)]
@@ -1660,7 +1669,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 				survivors = getSurvivorsOnYourTable()
 				for surv in survivors:
 					if surv._id != card._id and cardScripts.get(surv.name, {}).get('onAttack', []):
-						functionList.extend(cardScripts.get(card.Name).get('onAttack'))
+						functionList.extend(cardScripts.get(surv.Name).get('onAttack'))
 			if len(functionList)>0:
 				choice = 1
 				if(card not in arrow):
@@ -1798,6 +1807,15 @@ def opponentManaToHand(count=1):
 		manaList.remove(choice)
 		remoteCall(choice.owner,"toHand",convertCardListIntoCardIDsList(choice))
 
+#If opponent has more mana that you charge/draw
+def manaCompare(count=1, charge=False, draw=False):
+	manaCards = [c for c in table if isMana(c) and c.owner == me]
+	oppMana = [c for c in table if isMana(c) and c.owner != me]
+	if len(oppMana)>len(manaCards):
+		if charge:
+			mana(me.Deck,count)
+		if draw:
+			draw(me.Deck, False, count)
 
 #Generic function to Tap Creature(s). targetAll flag means it won't ask and tap every opp creature
 def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filterFunction="True"):
@@ -2031,6 +2049,13 @@ def miraculousMeltdown(card):
 		whisper("You cannot cast this spell!")
 		return
 	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
+
+def divineRiptide():
+	opponent=getTargetPlayer(onlyOpponent=True)
+	fromManaAll()
+	remoteCall(opponent,"fromManaAll",'True')
+
+
 
 #We use this function to queue the real function, to allow targetting of shields to work
 def _eMMHelper(count):
