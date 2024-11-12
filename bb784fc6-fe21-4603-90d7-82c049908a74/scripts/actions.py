@@ -1629,7 +1629,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 				survivors = getSurvivorsOnYourTable()
 				for surv in survivors:
 					if surv._id != card._id and cardScripts.get(surv.name, {}).get('onAttack', []):
-						functionList.extend(cardScripts.get(card.Name).get('onAttack'))
+						functionList.extend(cardScripts.get(surv.Name).get('onAttack'))
 			if len(functionList)>0:
 				choice = 1
 				if(card not in arrow):
@@ -1650,7 +1650,7 @@ def processOnTurnEndEffects():
 			survivors = getSurvivorsOnYourTable()
 			for surv in survivors:
 				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnEnd', []):
-					functionList.extend(cardScripts.get(card.Name).get('onTurnEnd'))
+					functionList.extend(cardScripts.get(surv.Name).get('onTurnEnd'))
 		if len(functionList)>0:
 			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
 			for function in functionList:
@@ -1665,7 +1665,7 @@ def processOnTurnStartEffects():
 			survivors = getSurvivorsOnYourTable()
 			for surv in survivors:
 				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnStart', []):
-					functionList.extend(cardScripts.get(card.Name).get('onTurnStart'))
+					functionList.extend(cardScripts.get(surv.Name).get('onTurnStart'))
 		if len(functionList)>0:
 			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
 			for function in functionList:
