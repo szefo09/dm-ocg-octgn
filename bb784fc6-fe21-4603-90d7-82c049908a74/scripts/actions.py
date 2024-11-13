@@ -54,7 +54,7 @@ cardScripts = {
 	'Crystal Paladin': {'onPlay': ['bounceAll(table,True,True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Cyber N World': {'onPlay': [' semiReset()']},
 	'Dacity Dragoon, Explosive Beast': {'onPlay': ['kill(3000)']},
-	'Dandy Eggplant': {'onPlay': ['fromDeck()']},
+	'Dandy Eggplant': {'onPlay': ['fromDeckToMana()','fromMana(count=1, toGrave=True)']},
 	'Dark Hydra, Evil Planet Lord': {'onPlay': ['fromGrave()']},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': ['kill("ALL","Untap")']},
 	'Doboulgyser, Giant Rock Beast':{'onPlay': ['kill(3000)']},
@@ -1302,6 +1302,7 @@ def fromDeckToMana(count=1, filterFunction="True"):
 				cardsInGroup.remove(c)
 				toMana(c)
 				break
+	shuffle(group)
 
 #Target creatures, if they match the filter, they get destroyed.
 def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL'):

@@ -199,6 +199,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 ### Fixes
 - **Card Fixes**
+  - **Dandy Eggplant**: Now let's you pick a card from Deck to put to Mana, and then a card from Mana to Graveyard.
   - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
   - **Emperor Marco, Cyber Brain**: Fixed to prompt for stopping the draw when applicable.
   - **Miraculous Snare**: Fixed issue preventing setting own card to shield.
