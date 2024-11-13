@@ -83,6 +83,7 @@ cardScripts = {
 	'Gardner, the Invoked': {'onPlay': ['gear("mana")']},
 	'Gigargon': {'onPlay': [' search(me.piles["Graveyard"], 2, "Creature")']},
 	'Gigabalza': {'onPlay': ['targetDiscard(True)']},
+	'Gigabuster':{'onPlay':['bounceShield()']},
 	'Grave Worm Q': {'onPlay': ['search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")']},
 	'Gunes Valkyrie, Holy Vizier': {'onPlay': ['tapCreature()']},
 	'Gylus, Larval Lord': {'onPlay': ['targetDiscard(True)'], 'onLeaveBZ':['opponentSearch([targetPlayer.piles["Graveyard"]])']},
@@ -244,6 +245,7 @@ cardScripts = {
 	'Fire Crystal Bomb': {'onPlay': ['kill(5000)']},
 	'Flame Lance Trap': {'onPlay': ['kill(5000)']},
 	'Flood Valve': {'onPlay': ['fromMana()']},
+	'Freezing Icehammer':{'onPlay':['sendToMana(filterFunction = "re.search(r\'Nature\', c.Civilization) or re.search(r\'Darkness\', c.Civilization)")']},
 	'Future Slash':{'onPlay':['fromDeckToGrave(2,True)']},
 	'Gardening Drive': {'onPlay': ['mana(me.Deck)']},
 	'Gatling Cyclone': {'onPlay': [' kill(2000)']},
@@ -400,7 +402,7 @@ cardScripts = {
 	'Dracodance Totem': {'onDestroy': ['fromMana(1,"ALL","ALL","Dragon")', 'toMana(card)']},
 	'Engineer Kipo':{'onDestroy':['bothPlayersFromMana(1,True)']},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': ['targetDiscard(True)']},
-	'Gigastand':{'onDestroy':['gigastand(card)']},
+	'Gigastand':{'onDestroy':['returnAndDiscard(card)']},
 	'Glider Man': {'onDestroy': ['targetDiscard()']},
 	'Hammerhead Cluster': {'onDestroy': ['bounce()']},
 	'Jewel Spider': {'onDestroy': ['bounceShield()']},
@@ -410,6 +412,7 @@ cardScripts = {
 	'Peace Lupia': {'onDestroy': ['tapCreature()']},
 	'Peru Pere, Viral Guardian': {'onDestroy': ['toHand(card)']},
 	'Pharzi, the Oracle': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Spell")']},
+	'Dream Pirate, Shadow of Theft':{'onDestroy':['returnAndDiscard(card)']},
 	'Propeller Mutant': {'onDestroy': ['targetDiscard(True)']},
 	'Proxion, the Oracle': {'onDestroy': ['toHand(card)']},
 	'Raza Vega, Thunder Guardian':{'onDestroy':['toShields(card)']},
@@ -445,10 +448,13 @@ cardScripts = {
 
 	#ON TAP EFFECTS
 	'Aeropica':{'onTap':['bounce()']},
+	'Aqua Fencer':{'onTap':['opponentManaToHand()']},
 	'Bliss Totem, Avatar of Luck': {'onTap': ['fromGrave()']},
+	'Brood Shell':{'fromMana(TypeFilter="Creature")'},
 	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
 	'Chen Treg, Vizier of Blades':{'onTap':['tapCreature()']},
 	'Cosmogold, Spectral Knight': {'onTap': ['fromMana(1, "Spell")']},
+	'Crath Lade, Merciless King':{'ontap':['targetDiscard(randomDiscard=True, count=2)']},
 	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
 	'Grim Soul, Shadow of Reversal': {'onTap':['search(me.piles["Graveyard"],1,"Creature","Darkness")']},
 	'Neon Cluster': {'onTap':['draw(me.Deck,False,2)']},
@@ -513,6 +519,8 @@ cardScripts = {
 	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
 	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
+	'Geoshine, Spectral Knight': {'onAttack':['tapCreature(includeOwn=True, filterFunction="re.search(r\'Fire\',c.Civilization or re.search(r\'Darkness\',c.Civilization)")']},
+	'Headlong Giant':{'onAttack':['selfDiscard()']},
 	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
 	'King Neptas':{'onAttack': ['bounce(1,filterFunction="int(c.Power.strip(\'+\'))<=2000")']},
@@ -1758,12 +1766,13 @@ def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter 
 		remoteCall(target.owner, "toShields", convertCardListIntoCardIDsList(target))
 
 #Send creature to Mana
-def sendToMana(count=1, opponentCards = True, myCards = False):
+def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = "True"):
 	mute()
 	for i in range(0, count):
 		cardList = [card for card in table if isCreature(card)
 			  and not isBait(card)
-			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))]
+			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))
+			  if eval(filterFunction)]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
 		choice = askCard2(cardList, 'Choose a Creature to send to Mana Zone')
@@ -2032,7 +2041,7 @@ def ghastlyDrain(card):
 	notify("{} chose {} shields".format(me,number))
 	waitingFunct.append([card, 'bounceShield({})'.format(number)])
 
-def gigastand(card):
+def returnAndDiscard(card):
 	choice = askYN("Return {} to hand?".format(card.name))
 	if choice != 1: return
 	toHand(card)
