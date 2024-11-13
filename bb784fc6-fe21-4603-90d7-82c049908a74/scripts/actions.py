@@ -2129,7 +2129,7 @@ def _eCrisisBoulderHelper():
 
 def _enemyCrisisBoulder():
 	choiceList = ['Creature', 'Mana']
-	colorsList = ['#FF0000', '#FF0000']
+	colorsList = ['#FF0000', '#11FF11']
 	choice = askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
 	if choice == 1:
 		cardsToChooseFrom = [c for c in table if isCreature(c) and not isBait(c) and c.owner == me]
