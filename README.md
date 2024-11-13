@@ -70,7 +70,14 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Divine Riptide**
   - **Glory Snow**
   - **Thunder Net**
-
+  - **Crisis Boulder**
+  - **Future Slash**
+  - **Intense Evil**
+  - **Midnight Crawler**
+  - **Mystic Treasure Chest**
+  - **Shock Hurricane**
+  - **Raptor Fish**
+  - **Schuka, Duke of Amnesia**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -92,6 +99,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Tap Effects Added**: 
   - **During Your Turn, if you tap an automated Creature with Tap Effect, you'll get a prompt if you want to use the Tap effect!** *You can bypass the prompt by declaring an attack by arrow targeting before tapping.*
   - **New Cards Added**:
+    - Aeropica
     - Bliss Totem, Avatar of Luck
     - Charmilia, the Enticer
     - Cosmogold, Spectral Knight
@@ -100,6 +108,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Rondobil, the Explorer
     - Tanzanyte, the Awakener
     - Techno Totem (only Tap effect for now)
+    - Chen Treg, Vizier of Blades
+    - Neon Cluster
+    - Tank Mutant
+    - Grim Soul, Shadow of Reversal
 - **Ally Tap Card Effects Added**:
   - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
   - **New Cards Added**:
@@ -135,17 +147,18 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Sniper Mosquito
     - Stained Glass
     - Split-Head Hydroturtle Q
+    - Daidalos, General of Fury
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
     - Brad, Super Kickin' Dynamo
-	  - Flohdani, the Spydroid
-	  - Gazer Eyes, Shadow of Secrets
-	  - Hustle Berry
+    - Flohdani, the Spydroid
+    - Gazer Eyes, Shadow of Secrets
+    - Hustle Berry
     - Minelord Skyterror
-	  - Soderlight, the Cold Blade
-	  - Vorg's Engine
+    - Soderlight, the Cold Blade
+    - Vorg's Engine
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
@@ -159,6 +172,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Ruby Grass
     - Toel, Vizier of Hope
     - Urth, Purifying Elemental
+    - Gnarvash, Merchant of Blood
+    - Lone Tear, Shadow of Solitude
+    - Skullcutter, Swarm Leader
+    - Laveil, Seeker of Catastrophe
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
   - **New Cards Added**:
@@ -172,7 +189,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
-  = **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
+  - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
   - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
