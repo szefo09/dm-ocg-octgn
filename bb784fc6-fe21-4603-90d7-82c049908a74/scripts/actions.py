@@ -1283,7 +1283,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	notify("{} finishes searching opponent's {}.".format(me, group.name))
 
 #Pick a card from your deck and place it into Mana.
-def fromDeckToMana(count=1, filterFunction=True):
+def fromDeckToMana(count=1, filterFunction="True"):
 	mute()
 	group = me.deck
 	if len(group) == 0: return
@@ -1911,7 +1911,7 @@ def swapManaAndHand(tapped = True):
 
 def lonely(card):
 	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1: destroy(card)
-	notify("{} got destroyed because it was alone on board!".format(card.name))
+	notify("{} got destroyed because it was alone on board!".format(card))
 
 # Special Card Group Automatization
 
@@ -2112,13 +2112,11 @@ def shockHurricane(card):
 		chosenCreatures.append(choice)
 		myCreatures.remove(choice)
 	bounceAll(chosenCreatures)
-
 	for i in range(0,len(chosenCreatures)):
 		choice = askCard2(enemyCreatures, 'Choose an opponent\'s Creature to return to Hand')
 		enemyChosen.append(choice)
 		enemyCreatures.remove(choice)
-	
-	waitingFunct.append([card,'bounceAll({})'.format(convertCardListIntoCardIDsList(enemyChosen))])
+	bounceAll(enemyChosen)
 
 def crisisBoulder():
 	targetPlayer = getTargetPlayer(onlyOpponent = True)
@@ -2130,7 +2128,6 @@ def _eCrisisBoulderHelper():
 	evaluateWaitingFunctions()
 
 def _enemyCrisisBoulder():
-	cardsToChooseFrom=[]
 	choiceList = ['Creature', 'Mana']
 	colorsList = ['#FF0000', '#FF0000']
 	choice = askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
