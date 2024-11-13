@@ -70,7 +70,14 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Divine Riptide**
   - **Glory Snow**
   - **Thunder Net**
-
+  - **Crisis Boulder**
+  - **Future Slash**
+  - **Intense Evil**
+  - **Midnight Crawler**
+  - **Mystic Treasure Chest**
+  - **Shock Hurricane**
+  - **Raptor Fish**
+  - **Schuka, Duke of Amnesia**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -92,6 +99,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Tap Effects Added**: 
   - **During Your Turn, if you tap an automated Creature with Tap Effect, you'll get a prompt if you want to use the Tap effect!** *You can bypass the prompt by declaring an attack by arrow targeting before tapping.*
   - **New Cards Added**:
+    - Aeropica
     - Bliss Totem, Avatar of Luck
     - Charmilia, the Enticer
     - Cosmogold, Spectral Knight
@@ -100,6 +108,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Rondobil, the Explorer
     - Tanzanyte, the Awakener
     - Techno Totem (only Tap effect for now)
+    - Chen Treg, Vizier of Blades
+    - Neon Cluster
+    - Tank Mutant
+    - Grim Soul, Shadow of Reversal
 - **Ally Tap Card Effects Added**:
   - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
   - **New Cards Added**:
@@ -135,6 +147,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Sniper Mosquito
     - Stained Glass
     - Split-Head Hydroturtle Q
+    - Daidalos, General of Fury
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
@@ -159,6 +172,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Ruby Grass
     - Toel, Vizier of Hope
     - Urth, Purifying Elemental
+    - Gnarvash, Merchant of Blood
+    - Lone Tear, Shadow of Solitude
+    - Skullcutter, Swarm Leader
+    - Laveil, Seeker of Catastrophe
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
   - **New Cards Added**:
