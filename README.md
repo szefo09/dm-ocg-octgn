@@ -153,12 +153,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
   - **New Cards Added**:
     - Brad, Super Kickin' Dynamo
-	  - Flohdani, the Spydroid
-	  - Gazer Eyes, Shadow of Secrets
-	  - Hustle Berry
+    - Flohdani, the Spydroid
+    - Gazer Eyes, Shadow of Secrets
+    - Hustle Berry
     - Minelord Skyterror
-	  - Soderlight, the Cold Blade
-	  - Vorg's Engine
+    - Soderlight, the Cold Blade
+    - Vorg's Engine
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
@@ -189,7 +189,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
-  = **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
+  - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
   - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
