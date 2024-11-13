@@ -3218,7 +3218,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 def endOfFunctionality(card):
 	#Magical bugfix to remove Peek symbol
-	rnd(1,1000)
+	rnd(1,1)
 	if card and card.Type == "Spell" and not isMana(card):
 		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
 			toMana(card)
