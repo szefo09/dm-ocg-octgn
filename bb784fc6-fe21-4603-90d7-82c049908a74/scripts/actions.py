@@ -61,7 +61,7 @@ cardScripts = {
 	'Dolmarks, the Shadow Warrior': {'onPlay': ['dolmarks()']},
 	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness", True)']},
 	'Emperor Himiko': {'onPlay': ['draw(me.Deck, True)']},
-	'Emeral': {'onPlay': ['emeral(card)']},
+	'Emeral': {'onPlay': ['shieldswap(card)']},
 	'Emperor Marco': {'onPlay': ['draw(me.Deck, True, 3)']},
 	'Estol, Vizier of Aqua': {'onPlay': ['shields(me.Deck)']},
 	'Eviscerating Warrior Lumez': {'onPlay':['waveStriker("destroyAll(table, True, 2000)", card)']},
@@ -173,8 +173,10 @@ cardScripts = {
 	'Terradragon Zalberg': {'onPlay': ['destroyMana(2)']},
 	'Thorny Mandra': {'onPlay': ['fromGrave()']},
 	'Thrash Crawler': {'onPlay': ['fromMana()']},
+	'Three-Faced Ashura Fang':{'onPlay':['bounceShield()']},
 	'Titan Giant': {'onPlay': ['mana (me.Deck, 2, True)']},
 	'Torpedo Cluster': {'onPlay': ['fromMana()']},
+	'Trenchdive Shark': {'onPlay': ['shieldswap(card,2)']},
 	'Triple Mouth, Decaying Savage': {'onPlay': ['mana(me.Deck)', 'targetDiscard(True)']},
 	'Trombo, Fractured Doll': {'onPlay':['waveStriker(`search(me.piles["Graveyard"], 1, "Creature")`, card)']},
 	'Trox, General of Destruction':{'onPlay':['targetDiscard(randomDiscard=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization) and c._id!=card._id]))']},
@@ -303,6 +305,7 @@ cardScripts = {
 	'Miraculous Snare': {'onPlay': ['sendToShields(1, True, True, True, False, "not re.search(r\\"Evolution\\", c.Type)")']},
 	'Moonlight Flash': {'onPlay': ['tapCreature(2)']},
 	'Morbid Medicine': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
+	'Mulch Charger' : {'onPlay':['sendToMana(myCards = True)']},
 	'Mystery Cube': {'onPlay': ['drama()']},
 	'Mystic Dreamscape': {'onPlay': ['fromMana(3)']},
 	'Mystic Inscription': {'onPlay': ['shields(me.Deck)']},
@@ -361,6 +364,7 @@ cardScripts = {
 	'Triple Brain': {'onPlay': ['draw(me.Deck, False, 3)']},
 	'Ultimate Force': {'onPlay': [' mana(me.Deck, 2)']},
 	'Upheaval': {'onPlay': ['upheaval()']},
+	'Vacuum Gel': {'onPlay':['kill(filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Vacuum Ray': {'onPlay': ['tapCreature()']},
 	'Valiant Spark': {'onPlay': [' tapCreature()'],
 					  'onMetamorph': ['tapCreature(1,True)']},
@@ -457,9 +461,12 @@ cardScripts = {
 	'Crath Lade, Merciless King':{'ontap':['targetDiscard(randomDiscard=True, count=2)']},
 	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
 	'Grim Soul, Shadow of Reversal': {'onTap':['search(me.piles["Graveyard"],1,"Creature","Darkness")']},
+	'Kipo\'s Contraption': {'onTap':['kill(2000)']},
 	'Neon Cluster': {'onTap':['draw(me.Deck,False,2)']},
+	'Popple, Flowepetal Dancer':{'onTap':['mana(me.Deck)']},
 	'Rikabu\'s Screwdriver': {'onTap': ['kill(count=1, rulesFilter="{BLOCKER}")']},
 	'Rondobil, the Explorer': {'onTap': ['sendToShields(1, False, True)']},
+	'Sky Crusher, the Agitator': {'onTap': ['bothPlayersFromMana(toGrave=True)']},
 	'Tanzanyte, the Awakener': {'onTap': ['tanzanyte()']},
 	'Tank Mutant':{'onTap':['opponentSacrifice()']},
 	'Techno Totem': {'onTap': ['tapCreature()']},
@@ -1311,22 +1318,23 @@ def fromDeckToMana(count=1, filterFunction="True"):
 				break
 
 #Target creatures, if they match the filter, they get destroyed.
-def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL'):
+def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL', filterFunction="True"):
 	mute()
 	if powerFilter == 'ALL':	powerFilter = float('inf')
 	if targetOwn:
-		cardList = [card for card in table if isCreature(card) and not isBait(card) and int(card.Power.strip('+')) <= powerFilter]
+		cardList = [c for c in table if isCreature(c) and not isBait(c) and int(c.Power.strip('+')) <= powerFilter]
 	else:
-		cardList = [card for card in table if isCreature(card) and not isBait(card) and not card.owner == me and int(card.Power.strip('+')) <= powerFilter]
+		cardList = [c for c in table if isCreature(c) and not isBait(c) and not c.owner == me and int(c.Power.strip('+')) <= powerFilter]
 	if tapFilter != 'ALL':
 		if tapFilter == 'Untap':
-			cardList = [card for card in cardList if card.orientation == Rot0]
+			cardList = [c for c in cardList if c.orientation == Rot0]
 		if tapFilter == 'Tap':
-			cardList = [card for card in cardList if card.orientation == Rot90]
+			cardList = [c for c in cardList if c.orientation == Rot90]
 	if civFilter != "ALL":
-		cardList = [card for card in cardList if re.search(civFilter, card.Civilization)]
+		cardList = [c for c in cardList if re.search(civFilter, c.Civilization)]
 	if rulesFilter != 'ALL':
-		cardList = [card for card in cardList if re.search(rulesFilter, card.Rules)]
+		cardList = [c for c in cardList if re.search(rulesFilter, c.Rules)]
+	cardList = [c for c in cardList if eval(filterFunction)]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
 		return
@@ -2021,16 +2029,18 @@ def dolmarks():
 	remoteCall(targetPlayer,'sacrifice',[])
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
 
-def emeral(card):
+def shieldswap(card, count = 1):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
-	choice = askYN("Use Emeral's effect?")
+	choice = askYN("Use {}'s effect?").format(card)
 	if choice != 1: return
 	handList = [c for c in me.hand]
 	reverse_cardList(handList)
-	cardFromHand = askCard2(handList)
-	if type(cardFromHand) is not Card: return
-	toShields(cardFromHand)
-	waitingFunct.append([card,'bounceShield()'])
+	for i in range(0, count):
+		cardFromHand = askCard2(handList)
+		if type(cardFromHand) is not Card: return
+		handList.remove(cardFromHand)
+		toShields(cardFromHand)
+	waitingFunct.append([card,'bounceShield()'.format(count)])
 
 def funkyWizard():
 	for player in players:
