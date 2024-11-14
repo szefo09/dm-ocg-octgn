@@ -247,7 +247,7 @@ cardScripts = {
 	'Fire Crystal Bomb': {'onPlay': ['kill(5000)']},
 	'Flame Lance Trap': {'onPlay': ['kill(5000)']},
 	'Flood Valve': {'onPlay': ['fromMana()']},
-	'Freezing Icehammer':{'onPlay':['sendToMana(filterFunction = "re.search(r\'Nature\', c.Civilization) or re.search(r\'Darkness\', c.Civilization)")']},
+	'Freezing Icehammer':{'onPlay':['sendToMana(filterFunction = "re.search(r\'Water\', c.Civilization) or re.search(r\'Darkness\', c.Civilization)")']},
 	'Future Slash':{'onPlay':['fromDeckToGrave(2,True)']},
 	'Gardening Drive': {'onPlay': ['mana(me.Deck)']},
 	'Gatling Cyclone': {'onPlay': [' kill(2000)']},
@@ -305,7 +305,7 @@ cardScripts = {
 	'Miraculous Snare': {'onPlay': ['sendToShields(1, True, True, True, False, "not re.search(r\\"Evolution\\", c.Type)")']},
 	'Moonlight Flash': {'onPlay': ['tapCreature(2)']},
 	'Morbid Medicine': {'onPlay': ['search(me.piles["Graveyard"], 2, "Creature")']},
-	'Mulch Charger' : {'onPlay':['sendToMana(myCards = True)']},
+	'Mulch Charger' : {'onPlay':['sendToMana(opponentCards = False,myCards = True)']},
 	'Mystery Cube': {'onPlay': ['drama()']},
 	'Mystic Dreamscape': {'onPlay': ['fromMana(3)']},
 	'Mystic Inscription': {'onPlay': ['shields(me.Deck)']},
@@ -454,16 +454,16 @@ cardScripts = {
 	'Aeropica':{'onTap':['bounce()']},
 	'Aqua Fencer':{'onTap':['opponentManaToHand()']},
 	'Bliss Totem, Avatar of Luck': {'onTap': ['fromGrave()']},
-	'Brood Shell':{'fromMana(TypeFilter="Creature")'},
+	'Brood Shell':{'onTap':['fromMana(TypeFilter="Creature")']},
 	'Charmilia, the Enticer': {'onTap': ['search(me.Deck, TypeFilter="Creature")']},
 	'Chen Treg, Vizier of Blades':{'onTap':['tapCreature()']},
 	'Cosmogold, Spectral Knight': {'onTap': ['fromMana(1, "Spell")']},
-	'Crath Lade, Merciless King':{'ontap':['targetDiscard(randomDiscard=True, count=2)']},
+	'Crath Lade, Merciless King':{'onTap':['targetDiscard(randomDiscard=True, count=2)']},
 	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
 	'Grim Soul, Shadow of Reversal': {'onTap':['search(me.piles["Graveyard"],1,"Creature","Darkness")']},
 	'Kipo\'s Contraption': {'onTap':['kill(2000)']},
 	'Neon Cluster': {'onTap':['draw(me.Deck,False,2)']},
-	'Popple, Flowepetal Dancer':{'onTap':['mana(me.Deck)']},
+	'Popple, Flowerpetal Dancer':{'onTap':['mana(me.Deck)']},
 	'Rikabu\'s Screwdriver': {'onTap': ['kill(count=1, rulesFilter="{BLOCKER}")']},
 	'Rondobil, the Explorer': {'onTap': ['sendToShields(1, False, True)']},
 	'Sky Crusher, the Agitator': {'onTap': ['bothPlayersFromMana(toGrave=True)']},
@@ -526,7 +526,7 @@ cardScripts = {
 	'Flametropus':{'onAttack':['fromMana(toGrave=True,ask=True)']},
 	'Gamil, Knight of Hatred':{'onAttack':['search(me.piles["Graveyard"], CivFilter="Darkness")']},
 	'General Dark Fiend':{'onAttack':['burnShieldKill(1,True)']},
-	'Geoshine, Spectral Knight': {'onAttack':['tapCreature(includeOwn=True, filterFunction="re.search(r\'Fire\',c.Civilization or re.search(r\'Darkness\',c.Civilization)")']},
+	'Geoshine, Spectral Knight': {'onAttack':['tapCreature(includeOwn=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Darkness\',c.Civilization)")']},
 	'Headlong Giant':{'onAttack':['selfDiscard()']},
 	'Horrid Worm': {'onAttack':['targetDiscard(True)']},
 	'Hypersquid Walter':{'onAttack':['draw(me.Deck, True)']},
@@ -1777,9 +1777,9 @@ def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter 
 def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = "True"):
 	mute()
 	for i in range(0, count):
-		cardList = [card for card in table if isCreature(card)
-			  and not isBait(card)
-			  and ((opponentCards and card.owner != me) or (myCards and card.owner == me))
+		cardList = [c for c in table if isCreature(c)
+			  and not isBait(c)
+			  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
 			  if eval(filterFunction)]
 		if len(cardList) == 0: return
 		if me.isInverted: reverse_cardList(cardList)
@@ -2031,7 +2031,7 @@ def dolmarks():
 
 def shieldswap(card, count = 1):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
-	choice = askYN("Use {}'s effect?").format(card)
+	choice = askYN("Use {}'s effect?".format(card.Name))
 	if choice != 1: return
 	handList = [c for c in me.hand]
 	reverse_cardList(handList)
