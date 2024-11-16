@@ -54,7 +54,7 @@ cardScripts = {
 	'Crystal Paladin': {'onPlay': ['bounceAll(table,True,True, filterFunction="re.search(r\\"{BLOCKER}\\", c.Rules)")']},
 	'Cyber N World': {'onPlay': [' semiReset()']},
 	'Dacity Dragoon, Explosive Beast': {'onPlay': ['kill(3000)']},
-	'Dandy Eggplant': {'onPlay': ['fromDeck()']},
+	'Dandy Eggplant': {'onPlay': ['fromDeckToMana()','fromMana(count=1, toGrave=True)']},
 	'Dark Hydra, Evil Planet Lord': {'onPlay': ['fromGrave()']},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': ['kill("ALL","Untap")']},
 	'Doboulgyser, Giant Rock Beast':{'onPlay': ['kill(3000)']},
@@ -101,7 +101,7 @@ cardScripts = {
 	'Jagila, the Hidden Pillager': {'onPlay':['waveStriker(\'targetDiscard(True, "grave", 3)\', card)']},
 	'Jasmine, Mist Faerie': {'onPlay': ['suicide(card, mana, [me.Deck])']},
 	'Jelly, Dazzling Electro-Princess': {'onPlay': ['draw(me.Deck, True)']},
-	'Jenny, the Dismantling Puppet': {'onPlay': [' targetDiscard()']},
+	'Jenny, the Dismantling Puppet': {'onPlay': ['targetDiscard()']},
 	'Jenny, the Suicide Doll': {'onPlay': ['suicide(card, targetDiscard, [True])']},
 	'Jet R.E, Brave Vizier': {'onPlay': ['shields(me.Deck)']},
 	'King Aquakamui': {'onPlay':['kingAquakamui(card)']},
@@ -576,7 +576,7 @@ def endTurn(args, x=0, y=0):
 		else:
 			processOnTurnEndEffects()
 			notify("{} ends their turn.".format(me))
-			remoteCall(nextPlayer, 'untapAll', True)
+			remoteCall(nextPlayer, 'untapAll', [convertGroupIntoGroupNameList(table),0,0,True])
 			nextTurn(nextPlayer, True)
 	else:
 		# The first turn. Can be passed to anyone.
@@ -599,9 +599,8 @@ def onArrow(args):
 	toCard = args.toCard
 	targeted = args.targeted
 	scripted = args.scripted
-
 	if player != me: return
-	if isCreature(fromCard):
+	if not isMana(fromCard) and not isShield(fromCard):
 		global arrow
 		if targeted:
 			if fromCard in arrow:
@@ -611,6 +610,20 @@ def onArrow(args):
 		else:
 			if fromCard in arrow:
 					del arrow[fromCard]
+
+def clearArrowOnMove(args):
+	cardsMoved = args.cards
+	global arrow
+	keys_to_delete = []
+
+	for key, cards in list(arrow.items()):
+		arrow[key] = [card for card in cards if card not in cardsMoved]
+		if not arrow[key]:
+			keys_to_delete.append(key)
+	
+	for key in keys_to_delete:
+		del arrow[key]
+		
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
@@ -678,7 +691,7 @@ def convertCardListIntoCardIDsList(cardList):
 	return [{"id": card._id,"playerId": card.controller._id,"groupName": card.group.name} for card in cardList]
 ### IMPORTANT: Send this object instead of Group for remoteCall!
 def convertGroupIntoGroupNameList(group):
-	return {"name":group.name, "playerId":group.player._id}
+	return {"name":group.name, "playerId":group.player._id if group.player else None}
 ############################################ Misc utility functions ####################################################################################
 
 def askCard2(list, title="Select a card", buttonText="Select",numberToTake=1):  # askCard function was changed. So using the same name but with the new functionality
@@ -903,7 +916,6 @@ def isGacharange(card):
 	if re.search("Gacharange", card.Type):
 		return True
 
-
 def isBait(card):  # check if card is under and evo(needs to be ignored by most things) This is (probably)inefficient, maybe make a func to get all baits once
 	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
 	for evo in evolveDict.keys():
@@ -1024,6 +1036,7 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 		if remainingZone == 'mana':
 			toMana(card)
 		else:
+			card.resetProperties()
 			card.moveToBottom(me.Deck)
 			notify("{} moved a card to the bottom of their deck.".format(me))
 	if specialaction == "BOUNCE":
@@ -1060,7 +1073,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 				# anti discard will return false if no antiDiscard is available. Remotecalling because...idk might do some things in antiDiscard later.
 				# Maybe change it to normal call later, and remoteCall from only inside anti-disc.
 				# still WIP
-			remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(card))
+			remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(cardChoice))
 
 #Look at selected player's hand and discard all cards matching filterFunction
 def lookAtHandAndDiscardAll(filterFunction="True"):
@@ -1225,6 +1238,7 @@ def eurekaProgram(ask=True):
 							card.moveToTable(0, 0)
 							align()
 					break
+		card.resetProperties()
 		card.moveToBottom(me.Deck)
 	for card in me.Deck:
 		if card.isFaceUp:
@@ -1316,6 +1330,7 @@ def fromDeckToMana(count=1, filterFunction="True"):
 				cardsInGroup.remove(c)
 				toMana(c)
 				break
+	shuffle(group)
 
 #Target creatures, if they match the filter, they get destroyed.
 def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL', filterFunction="True"):
@@ -2394,6 +2409,7 @@ def toHyperspatial(card, x=0, y=0, notifymute=False):
 		flip(card)
 		return
 	else:
+		card.resetProperties()
 		card.moveTo(me.Hyperspatial)
 		align()
 		if notifymute == False:
@@ -2424,6 +2440,8 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
+		clearArrowOnMove(args)
+		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
@@ -2555,19 +2573,27 @@ def setup(group, x=0, y=0):
 		if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
 
 			for card in cardsInTable:
+				card.resetProperties()
 				card.moveTo(me.Deck)
 			for card in cardsInHand:
+				card.resetProperties()
 				card.moveTo(me.Deck)
 			for card in cardsInGrave:
+				card.resetProperties()
 				card.moveTo(me.Deck)
 
 			for card in psychicsInTable:
+				card.resetProperties()
 				card.moveTo(me.Hyperspatial)
 			for card in psychicsInHand:
+				card.resetProperties()
 				card.moveTo(me.Hyperspatial)
 			for card in psychicsInGrave:
+				card.resetProperties()
+				card.resetProperties()
 				card.moveTo(me.Hyperspatial)
 			for card in gacharangeInTable:
+				card.resetProperties()
 				card.moveTo(me.Gacharange)
 		else:
 			return
@@ -2601,8 +2627,9 @@ def rollDie(group, x=0, y=0):
 	notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
 #untaps everything, creatures and mana
-def untapAll(isNewTurn=False, group=table, x=0, y=0):
+def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	mute()
+	group = ensureGroupObject(group)
 	clearWaitingFuncts()
 	for card in group:
 		if not card.owner == me:
@@ -2934,6 +2961,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
+	card.resetProperties()
 	cardWasCreature = isCreature(card) and checkEvo
 	##notify("Removing from tracked evos if its bait or an evolved creature")
 	if checkEvo:
@@ -2941,6 +2969,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		for baitCard in baitList:
 			toMana(baitCard, checkEvo=False, alignCheck=False)
 	if isShield(card):
+		card.resetProperties()
 		card.moveTo(me.hand)  # in case it is charged from shields
 	card.moveToTable(0, 0)
 	card.orientation = Rot180
@@ -2980,7 +3009,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			notify("{} sets {} as shield #{}.".format(me, card, count))
 		else:
 			notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
-
+	card.resetProperties()
 	card.moveToTable(0, 0, True)
 	if card.isFaceUp:
 		card.isFaceUp = False
@@ -3179,10 +3208,24 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if shieldMarker in card.markers:
 		card.markers[shieldMarker] = 0
 	align()
-	if notifymute == False:
+	if notifymute == False and not card.hasProperty('Name1'):
 		notify("{} plays {}{}.".format(me, card, evolveText))
 
 	if not ignoreEffects:
+		#Twin Pact Handling
+		if card.hasProperty('Name1'):
+			card.resetProperties()
+			choice = askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
+			if choice == 0: return
+			card.properties["Name"]=card.properties['Name{}'.format(choice)]
+			card.Civilization=card.properties['Civilization{}'.format(choice)]
+			card.Cost=card.properties['Cost{}'.format(choice)]
+			card.Type=card.properties['Type{}'.format(choice)]
+			card.Race=card.properties['Race{}'.format(choice)]
+			card.Rules=card.properties['Rules{}'.format(choice)]
+			card.Power=card.properties['Power{}'.format(choice)]
+				
+			notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
 		functionList = []
 		if metamorph() and cardScripts.get(card.name, {}).get('onMetamorph', []):
 			functionList = cardScripts.get(card.name).get('onMetamorph')
@@ -3217,6 +3260,7 @@ def endOfFunctionality(card):
 			toMana(card)
 			align()
 		else:
+			card.resetProperties()
 			card.moveTo(card.owner.piles['Graveyard'])
 			align()
 
@@ -3236,6 +3280,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		return
 
 	cardWasMana = isMana(card)
+	card.resetProperties()
 	card.moveTo(card.owner.piles['Graveyard'])
 	if notifymute == False:
 		if src == table:
@@ -3281,11 +3326,13 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		# but it won't show as card name if card is not visible to a player, so turning it face up first
 		notify("{} moved {} to hand from {}.".format(me, card, src.name))
 		# card.isFaceUp = False
+		card.resetProperties()
 		card.moveTo(card.owner.hand)
 	else:
 		# here, move the card to hand first so it will only show card link to only the player who can see the hand
 		# if you show first then move to hand 'card' won't show card name to the owner in the notify message
 		card.moveTo(card.owner.hand)
+		card.resetProperties()
 		notify("{} moved {} to hand from {}.".format(me, card, src.name))
 
 	if checkEvo:
@@ -3329,9 +3376,11 @@ def toDeck(card, bottom=False):
 			c = cardList.pop(choice - 1)
 			if bottom == True:
 				notify("{} moves {} to bottom of Deck.".format(me, c))
+				card.resetProperties()
 				c.moveToBottom(c.owner.Deck)
 			else:
 				notify("{} moves {} to top of Deck.".format(me, c))
+				card.resetProperties()
 				c.moveTo(c.owner.Deck)
 	align()
 	#Handle on Remove From Battle Zone effects:
