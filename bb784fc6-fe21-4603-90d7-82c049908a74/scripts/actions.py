@@ -608,7 +608,9 @@ def clearArrowOnMove(args):
 	
 	for key in keys_to_delete:
 		del arrow[key]
-		
+	
+	for card in cardsMoved:
+		card.target(False)
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
