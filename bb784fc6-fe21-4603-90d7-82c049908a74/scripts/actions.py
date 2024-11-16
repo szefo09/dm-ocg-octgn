@@ -561,7 +561,7 @@ def endTurn(args, x=0, y=0):
 		else:
 			processOnTurnEndEffects()
 			notify("{} ends their turn.".format(me))
-			remoteCall(nextPlayer, 'untapAll', True)
+			remoteCall(nextPlayer, 'untapAll', [convertGroupIntoGroupNameList(table),0,0,True])
 			nextTurn(nextPlayer, True)
 	else:
 		# The first turn. Can be passed to anyone.
@@ -584,9 +584,8 @@ def onArrow(args):
 	toCard = args.toCard
 	targeted = args.targeted
 	scripted = args.scripted
-
 	if player != me: return
-	if isCreature(fromCard):
+	if not isMana(fromCard) and not isShield(fromCard):
 		global arrow
 		if targeted:
 			if fromCard in arrow:
@@ -596,6 +595,20 @@ def onArrow(args):
 		else:
 			if fromCard in arrow:
 					del arrow[fromCard]
+
+def clearArrowOnMove(args):
+	cardsMoved = args.cards
+	global arrow
+	keys_to_delete = []
+
+	for key, cards in list(arrow.items()):
+		arrow[key] = [card for card in cards if card not in cardsMoved]
+		if not arrow[key]:
+			keys_to_delete.append(key)
+	
+	for key in keys_to_delete:
+		del arrow[key]
+		
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
@@ -663,7 +676,7 @@ def convertCardListIntoCardIDsList(cardList):
 	return [{"id": card._id,"playerId": card.controller._id,"groupName": card.group.name} for card in cardList]
 ### IMPORTANT: Send this object instead of Group for remoteCall!
 def convertGroupIntoGroupNameList(group):
-	return {"name":group.name, "playerId":group.player._id}
+	return {"name":group.name, "playerId":group.player._id if group.player else None}
 ############################################ Misc utility functions ####################################################################################
 
 def askCard2(list, title="Select a card", buttonText="Select",numberToTake=1):  # askCard function was changed. So using the same name but with the new functionality
@@ -2408,6 +2421,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
+		clearArrowOnMove(args)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
@@ -2594,8 +2608,9 @@ def rollDie(group, x=0, y=0):
 	notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
 #untaps everything, creatures and mana
-def untapAll(isNewTurn=False, group=table, x=0, y=0):
+def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	mute()
+	group = ensureGroupObject(group)
 	clearWaitingFuncts()
 	for card in group:
 		if not card.owner == me:
@@ -3178,6 +3193,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		notify("{} plays {}{}.".format(me, card, evolveText))
 
 	if not ignoreEffects:
+		#Twin Pact Handling
 		if card.hasProperty('Name1'):
 			card.resetProperties()
 			choice = askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
