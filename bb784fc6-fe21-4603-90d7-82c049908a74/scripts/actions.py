@@ -281,6 +281,7 @@ cardScripts = {
 	'Invincible Aura': {'onPlay': ['shields(me.Deck, 3, True)']},
 	'Invincible Cataclysm':{'onPlay':['burnShieldKill(3)']},
 	'Invincible Technology': {'onPlay': ['search(me.Deck, len(me.Deck))']},
+	'Justice Jamming':{'onPlay':['mode(["tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Darkness\\",c.Civilization) and isCreature(c) and not isBait(c)\')", "tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Fire\\",c.Civilization) and isCreature(c) and not isBait(c)\')"],card,["Tap all Darkness Creatures","Tap all Fire Creatures"])']},
 	'Lifeplan Charger': {'onPlay': ['lookAtTopCards(5, "Creature")']},
 	'Lightning Charger': {'onPlay': ['tapCreature()']},
 	'Like a Rolling Storm': {'onPlay': ['mill(me.Deck, 3, True)', 'search(me.piles["Graveyard"], 1, "Creature")']},
@@ -1956,6 +1957,29 @@ def waveStriker(functionArray, card):
 		for funct in functionArray:
 				waitingFunct.append([card, funct.replace('wscount', repr(wscount))])
 
+
+def mode(functionArray,card, choiceText=[], deb=False, count=1):				
+	if isinstance(functionArray, str):
+		functionArray=[functionArray]
+	if len(choiceText)==0:
+		for f in range(0,len(functionArray)):
+			choiceText.append(str(f+1)) 
+	if deb and len([c for c in table if re.search("Evolution", c.Type) and not isBait(c)]) != 0:
+		choice = askYN("Do you want to use both effects of {}?".format(card))
+		if choice == 1:
+			#add choices to waiting list. Usually 2 but maybe there will be exceptions
+			for i in range (0,len(functionArray)):
+				waitingFunct.append([card,functionArray[i]])
+			return
+	for i in range (0, count):
+		choice = askChoice("Which effect do you want to activate?",choiceText,[])
+		if choice == 0: return
+		waitingFunct.append([card,functionArray[choice-1]])
+		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
+
+
+
+
 #Special Card Automatization
 
 def apocalypseVise():
@@ -2045,17 +2069,19 @@ def dolmarks():
 	remoteCall(targetPlayer,'fromMana',[1,"ALL","ALL","ALL",True,True])
 
 def shieldswap(card, count = 1):
-	if len([c for c in table if isShield(c) and c.owner == me]) == 0: return
+	if len([c for c in table if isShield(c) and c.owner == me]) == 0 or len([me.hand])==0: return
 	choice = askYN("Use {}'s effect?".format(card.Name))
 	if choice != 1: return
 	handList = [c for c in me.hand]
+	counter=0
 	reverse_cardList(handList)
 	for i in range(0, count):
 		cardFromHand = askCard2(handList)
-		if type(cardFromHand) is not Card: return
+		if type(cardFromHand) is not Card: break
 		handList.remove(cardFromHand)
 		toShields(cardFromHand)
-	waitingFunct.append([card,'bounceShield()'.format(count)])
+		counter+=1
+	waitingFunct.append([card,'bounceShield({})'.format(counter)])
 
 def funkyWizard():
 	for player in players:
