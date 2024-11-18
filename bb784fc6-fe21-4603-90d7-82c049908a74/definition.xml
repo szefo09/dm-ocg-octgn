@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.0.9.2"
+		version="1.0.9.3"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -55,14 +55,12 @@
 		<property name="Type1" type="String" textKind="Enum" ignoreText="False" hidden="True"/>
 		<property name="Race1" type="String" textKind="Enum" ignoreText="False" hidden="True" />
 		<property name="Rules1" type="String" ignoreText="False" hidden="True"/>
-		<property name="Power1" type="String" textKind="Enum" ignoreText="False" hidden="True"/>
 		<property name="Name2" type="String" ignoreText="False" hidden="True" />
 		<property name="Cost2" type="Integer" hidden="True"/>
 		<property name="Civilization2" type="String" textKind="Enum" ignoreText="False" hidden="True"/>
 		<property name="Type2" type="String" textKind="Enum" ignoreText="False" hidden="True"/>
 		<property name="Race2" type="String" textKind="Enum" ignoreText="False" hidden="True" />
 		<property name="Rules2" type="String" ignoreText="False" hidden="True"/>
-		<property name="Power2" type="String" textKind="Enum" ignoreText="False" hidden="True"/>
 		<size name = "normal" back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3"/>
 		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3"/>
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>

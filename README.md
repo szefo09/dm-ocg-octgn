@@ -172,7 +172,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Vorg's Engine
 
 - **Modal Ability Effect Added**
-  - **Cards that have multiple effects to choose from are now aoutomated**
+  - **Cards that have multiple effects to choose from are now automated**
     - **New Cards Added**:
       - Jamming Justice
 
@@ -206,6 +206,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Cruel Naga, Avatar of Fate
 
 - **Other Improvements**
+  - **Added basic support for Twinpacts cards on Play**: (Some effects may still be buggy with them.)
   - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
   - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**
   - **Mass destruction effects prompt if you want to use the automation**: Useful for/against cards that boost attack like Petrova and Survivors.

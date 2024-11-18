@@ -281,7 +281,7 @@ cardScripts = {
 	'Invincible Aura': {'onPlay': ['shields(me.Deck, 3, True)']},
 	'Invincible Cataclysm':{'onPlay':['burnShieldKill(3)']},
 	'Invincible Technology': {'onPlay': ['search(me.Deck, len(me.Deck))']},
-	'Justice Jamming':{'onPlay':['mode(["tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Darkness\\",c.Civilization) and isCreature(c) and not isBait(c)\')", "tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Fire\\",c.Civilization) and isCreature(c) and not isBait(c)\')"],card,["Tap all Darkness Creatures","Tap all Fire Creatures"])']},
+	'Justice Jamming':{'onPlay':['mode(["tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Darkness\\",c.Civilization)\')", "tapCreature(targetALL=True, includeOwn=True, filterFunction=\'re.search(r\\"Fire\\",c.Civilization)\')"],card,["Tap all Darkness Creatures","Tap all Fire Creatures"])']},
 	'Lifeplan Charger': {'onPlay': ['lookAtTopCards(5, "Creature")']},
 	'Lightning Charger': {'onPlay': ['tapCreature()']},
 	'Like a Rolling Storm': {'onPlay': ['mill(me.Deck, 3, True)', 'search(me.piles["Graveyard"], 1, "Creature")']},
@@ -365,7 +365,7 @@ cardScripts = {
 	'Triple Brain': {'onPlay': ['draw(me.Deck, False, 3)']},
 	'Ultimate Force': {'onPlay': [' mana(me.Deck, 2)']},
 	'Upheaval': {'onPlay': ['upheaval()']},
-	'Vacuum Gel': {'onPlay':['kill(filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
+	'Vacuum Gel': {'onPlay':['kill(filterFunction="re.search(r\'Light\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Vacuum Ray': {'onPlay': ['tapCreature()']},
 	'Valiant Spark': {'onPlay': [' tapCreature()'],
 					  'onMetamorph': ['tapCreature(1,True)']},
@@ -492,7 +492,7 @@ cardScripts = {
 	'Cutthroat Skyterror': {'onTurnEnd': ['toHand(card)']},
 	'Frei, Vizier of Air': {'onTurnEnd':['untapCreature(card)']},
 	'Gnarvash, Merchant of Blood':{'onTurnEnd':['lonely(card)']},
-	'Laveil, Seeker of Catastrophe': {'onTurnEnd':['untapCreature(card)']},	
+	'Laveil, Seeker of Catastrophe': {'onTurnEnd':['untapCreature(card)']},
 	'Lone Tear, Shadow of Solitude': {'onTurnEnd': {'lonely(card)'}},
 	'Pyrofighter Magnus': {'onTurnEnd': ['toHand(card)']},
 	'Ruby Grass': {'onTurnEnd':['untapCreature(card)']},
@@ -621,10 +621,10 @@ def clearArrowOnMove(args):
 		arrow[key] = [card for card in cards if card not in cardsMoved]
 		if not arrow[key]:
 			keys_to_delete.append(key)
-	
+
 	for key in keys_to_delete:
 		del arrow[key]
-	
+
 	for card in cardsMoved:
 		card.target(False)
 
@@ -1960,12 +1960,12 @@ def waveStriker(functionArray, card):
 				waitingFunct.append([card, funct.replace('wscount', repr(wscount))])
 
 
-def mode(functionArray,card, choiceText=[], deb=False, count=1):				
+def mode(functionArray,card, choiceText=[], deb=False, count=1):
 	if isinstance(functionArray, str):
 		functionArray=[functionArray]
 	if len(choiceText)==0:
 		for f in range(0,len(functionArray)):
-			choiceText.append(str(f+1)) 
+			choiceText.append(str(f+1))
 	if deb and len([c for c in table if re.search("Evolution", c.Type) and not isBait(c)]) != 0:
 		choice = askYN("Do you want to use both effects of {}?".format(card))
 		if choice == 1:
@@ -2197,11 +2197,11 @@ def _enemyCrisisBoulder():
 		cardsToChooseFrom = [c for c in table if isCreature(c) and not isBait(c) and c.owner == me]
 		if me.isInverted: reverse_cardList(cardsToChooseFrom)
 		selected = askCard2(cardsToChooseFrom, "Select a Creature to put to Graveyard")
-	elif choice == 2:	
+	elif choice == 2:
 		cardsToChooseFrom = [c for c in table if isMana(c) and c.owner == me]
 		if me.isInverted: reverse_cardList(cardsToChooseFrom)
 		selected = askCard2(cardsToChooseFrom, "Select Mana to put to Graveyard")
-	else: return	
+	else: return
 	toDiscard(selected)
 
 #We use this function to queue the real function, to allow targetting of shields to work
@@ -2345,7 +2345,7 @@ def intenseEvil():
 		chosenCreatures.append(choice)
 		myCreatures.remove(choice)
 	destroyAll(chosenCreatures)
-	draw(me.Deck,False,len(chosenCreatures))	
+	draw(me.Deck,False,len(chosenCreatures))
 
 def _fromManaToField(targetPlayerId):
 	mute()
@@ -3251,8 +3251,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			card.Type=card.properties['Type{}'.format(choice)]
 			card.Race=card.properties['Race{}'.format(choice)]
 			card.Rules=card.properties['Rules{}'.format(choice)]
-			card.Power=card.properties['Power{}'.format(choice)]
-				
+
 			notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
 		functionList = []
 		if metamorph() and cardScripts.get(card.name, {}).get('onMetamorph', []):
