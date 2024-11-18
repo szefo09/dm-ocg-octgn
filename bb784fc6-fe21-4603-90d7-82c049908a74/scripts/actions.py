@@ -2468,7 +2468,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
-		clearArrowOnMove(args)
+		# clearArrowOnMove(args)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
