@@ -1152,25 +1152,25 @@ def fromManaAll(filterFunction='True'):
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
-	cardList = [card for card in table if isCreature(card) and not isBait(card)]
+	cardList = [c for c in table if isCreature(c) and not isBait(c)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverse_cardList(cardList)
 	choice = askCard2(cardList, 'Choose a Creature to destroy')
 	if type(choice) is not Card: return
-	card = choice
 	remoteCall(choice.owner, 'destroy', convertCardListIntoCardIDsList(choice))
 	if singleSearch:
 		return
 	else:
-		remoteCall(choice.owner, 'loopThroughDeck', [convertCardListIntoCardIDsList(card), play])
+		remoteCall(choice.owner, 'loopThroughDeck', [choice.owner._id, play])
 
-def loopThroughDeck(card, play=False):
-	card = ensureCardObjects(card)
-	group = card.owner.Deck
+def loopThroughDeck(playerId, play=False):
+	mute()
+	player = getPlayerById(playerId)
+	group = player.Deck
 	if len(group) == 0: return
 	newCard = group[0]
 	newCard.isFaceUp = True
-	notify("{} reveals {}".format(card.owner, newCard.Name))
+	notify("{} reveals {}".format(player, newCard.Name))
 
 	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
 		if play == True:
@@ -1182,7 +1182,7 @@ def loopThroughDeck(card, play=False):
 			return
 	else:
 		remoteCall(newCard.owner, 'toDiscard', convertCardListIntoCardIDsList(newCard))
-		remoteCall(newCard.owner, 'loopThroughDeck', [convertCardListIntoCardIDsList(card), play])
+		remoteCall(newCard.owner, 'loopThroughDeck', [playerId, play])
 
 def eurekaProgram(ask=True):
 	mute()
