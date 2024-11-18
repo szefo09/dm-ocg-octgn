@@ -615,18 +615,17 @@ def onArrow(args):
 def clearArrowOnMove(args):
 	cardsMoved = args.cards
 	global arrow
+	if not arrow:
+		return
 	keys_to_delete = []
 
-	for key, cards in list(arrow.items()):
-		arrow[key] = [card for card in cards if card not in cardsMoved]
+	for key in list(arrow.keys()):
+		arrow[key] = [card for card in arrow[key] if card not in cardsMoved]
 		if not arrow[key]:
 			keys_to_delete.append(key)
 
 	for key in keys_to_delete:
 		del arrow[key]
-
-	for card in cardsMoved:
-		card.target(False)
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
