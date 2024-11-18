@@ -78,6 +78,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Shock Hurricane**
   - **Raptor Fish**
   - **Schuka, Duke of Amnesia**
+  - **Freezing Icehammer**
+  - **Gigabuster**
+  - **Mulch Charger**
+  - **Trenchdive Shark**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -100,7 +104,9 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **During Your Turn, if you tap an automated Creature with Tap Effect, you'll get a prompt if you want to use the Tap effect!** *You can bypass the prompt by declaring an attack by arrow targeting before tapping.*
   - **New Cards Added**:
     - Aeropica
+    - Aqua Fencer
     - Bliss Totem, Avatar of Luck
+    - Brood Shell
     - Charmilia, the Enticer
     - Cosmogold, Spectral Knight
     - Deklowaz, the Terminator
@@ -112,6 +118,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Neon Cluster
     - Tank Mutant
     - Grim Soul, Shadow of Reversal
+    - Crath Lade, Merciless King
+    - Kipo's Contraption
+    - Popple, Flowerpetal Dancer
+
 - **Ally Tap Card Effects Added**:
   - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
   - **New Cards Added**:
@@ -148,6 +158,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Stained Glass
     - Split-Head Hydroturtle Q
     - Daidalos, General of Fury
+    - Geoshine, Spectral Knight
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
@@ -159,6 +170,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Minelord Skyterror
     - Soderlight, the Cold Blade
     - Vorg's Engine
+
+- **Modal Ability Effect Added**
+  - **Cards that have multiple effects to choose from are now aoutomated**
+    - **New Cards Added**:
+      - Jamming Justice
+
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
   - **New Cards Added**:
