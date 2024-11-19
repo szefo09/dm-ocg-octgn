@@ -2697,11 +2697,14 @@ def destroyMultiple(cards, x=0, y=0):
 	if len(cards) == 1:
 		destroy(cards[0])
 	else:
-		creatureList = [c for c in cards if isCreature(c)]
-		otherList = [c for c in cards if c not in creatureList]
-		for c in otherList:
-			destroy(c)
-		destroyAll(creatureList, dontAsk=True)
+		creatureList = []
+		for card in cards:
+			if isCreature(card):
+				creatureList.append(card)
+			else:
+				destroy(card)
+		if creatureList:
+			destroyAll(creatureList, dontAsk=True)
 
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
 	mute()
@@ -2745,7 +2748,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
 			trigFunctions = cardScripts.get(card.Name).get('onTrigger')
-			notify("On trig list is".format(trigFunctions[0]))
+			#notify("On trig list is".format(trigFunctions[0]))
 			for function in trigFunctions:
 				conditionalTrigger = conditionalTrigger and eval(trigFunctions[0])
 		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules):
