@@ -586,6 +586,8 @@ def endTurn(args, x=0, y=0):
 def resetGame():
 	mute()
 	me.setGlobalVariable("shieldCount", "0")
+	global arrow
+	arrow = {}
 
 def onTarget(args): #this is triggered by OCTGN events when any card is targeted or untargeted. Used to continue evaluating functions that are waiting for target
 	numberOfTargets = len([c for c in table if c.targetedBy == me])
@@ -604,27 +606,28 @@ def onArrow(args):
 	if not isMana(fromCard) and not isShield(fromCard):
 		global arrow
 		if targeted:
-			if fromCard in arrow:
-				arrow[fromCard].append(toCard)
+			if fromCard._id in arrow:
+				arrow[fromCard._id].append(toCard._id)
 			else:
-				arrow[fromCard] = [toCard]
+				arrow[fromCard._id] = [toCard._id]
 		else:
 			if fromCard in arrow:
-					del arrow[fromCard]
+					del arrow[fromCard._id]
 
 def clearArrowOnMove(args):
 	cardsMoved = args.cards
+	cardsIdMoved = [card._id for card in cardsMoved]
 	global arrow
-	if not arrow:
+	if not arrow or table not in args.fromGroups:
 		return
-	keys_to_delete = []
 
-	for key in list(arrow.keys()):
-		arrow[key] = [card for card in arrow[key] if card not in cardsMoved]
+	keys_to_remove = []
+	for key, array in arrow.items():
+		arrow[key] = [card for card in array if not card or card not in cardsIdMoved]
 		if not arrow[key]:
-			keys_to_delete.append(key)
+			keys_to_remove.append(key)
 
-	for key in keys_to_delete:
+	for key in keys_to_remove:
 		del arrow[key]
 
 ######### Network Related functions #########
@@ -2578,6 +2581,8 @@ def align():
 def clear(group, x=0, y=0):
 	mute()
 	clearWaitingFuncts()
+	global arrow
+	arrow = {}
 	for card in group:
 		card.target(False)
 
@@ -2585,7 +2590,8 @@ def clear(group, x=0, y=0):
 def setup(group, x=0, y=0):
 	mute()
 	clearWaitingFuncts()
-
+	global arrow
+	arrow = {}
 	cardsInTable = [c for c in table if c.controller == me and c.owner == me and not isPsychic(c)]
 	cardsInHand = [c for c in me.hand if not isPsychic(c)]
 	cardsInGrave = [c for c in me.piles['Graveyard'] if not isPsychic(c)]
@@ -3208,8 +3214,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					   and c.targetedBy == me
 					   and (isCreature(c) or isGear(c))
 					   and not isBait(c)]
-			for c in targets:
-				c.target(False)
+			clear(targets)
 			if len(targets) == 0:
 				materialList = [c for c in table if ((re.search("Evolution Creature",card.Type) and isCreature(c)) or (re.search("Evolution Cross Gear", card.Type) and isGear(c))) and c.controller == me and not isBait(c)]
 				if me.isInverted: reverse_cardList(materialList)
