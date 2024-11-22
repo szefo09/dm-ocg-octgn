@@ -2171,7 +2171,7 @@ def miraculousMeltdown(card):
 	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
 
 def declareRace(excludedRace=None):
-	all_zones = itertools.chain(me.deck, table, me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
+	all_zones = itertools.chain(me.deck, [c for c in table if c.owner == me], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
 	all_races = itertools.chain.from_iterable(re.split(r'/+', card.race) for card in all_zones if card.race!='')
 
 	race_counts = {}
