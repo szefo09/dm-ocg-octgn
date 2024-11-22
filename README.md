@@ -204,6 +204,11 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
   - **New Cards Added**:
     - Cruel Naga, Avatar of Fate
+- **"Cannot be chosen by your opponent's card Effects Added**
+  - **New Cards Added**:
+    - Petrova, Channeler of Suns (Petrova also recieved a race selector, so you can more easly declare the creature race.)
+    - Warlord Ailzonius
+    - Yuliana, Channeler of Suns
 
 - **Other Improvements**
   - **Added basic support for Twinpacts cards on Play**: (Some effects may still be buggy with them.)

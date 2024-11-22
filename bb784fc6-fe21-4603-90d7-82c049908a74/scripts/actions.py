@@ -555,6 +555,11 @@ cardScripts = {
 	'Soul Garde, Storage Dragon Elemental': {'onTrigger': ['manaArmsCheck("Light", 5)']},
 	'Traptops, Green Trap Toxickind': {'onTrigger': ['manaArmsCheck("Nature", 5)']},
 	'Zanjides, Tragedy Demon Dragon': {'onTrigger': ['manaArmsCheck("Darkness", 5)']},
+
+	# Untargettable Cards
+	'Petrova, Channeler of Suns':{'untargettable':True, 'onPlay':['declareRace("Mecha Del Sol")']},
+	'Warlord Ailzonius':{'untargettable':True},
+	'Yuliana, Channeler of Suns':{'untargettable':True},
 }
 
 ######### Events ##################
@@ -928,6 +933,11 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		if card._id in baitList:
 			return True
 
+def isUntargettable(card):
+	mute()
+	if card in table and card.owner != me and cardScripts.get(card.name, {}).get('untargettable', False):
+		return True
+
 def metamorph():
 	mute()
 	cardList = [card for card in table if isMana(card) and card.owner == me]
@@ -1166,11 +1176,10 @@ def fromManaAll(filterFunction='True'):
 	for c in manaCards:
 		toHand(c)
 
-
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
-	cardList = [c for c in table if isCreature(c) and not isBait(c)]
+	cardList = [c for c in table if isCreature(c) and not isBait(c) and not isUntargettable(c)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverse_cardList(cardList)
 	choice = askCard2(cardList, 'Choose a Creature to destroy')
@@ -1354,13 +1363,13 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 		cardList = [c for c in cardList if re.search(civFilter, c.Civilization)]
 	if rulesFilter != 'ALL':
 		cardList = [c for c in cardList if re.search(rulesFilter, c.Rules)]
-	cardList = [c for c in cardList if eval(filterFunction)]
+	cardList = [c for c in cardList if eval(filterFunction) and not isUntargettable(c)]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
 		return
 
 	count = min(count, len(cardList))
-	targets = [c for c in table if c.targetedBy == me and isCreature(c)]
+	targets = [c for c in table if c.targetedBy == me and isCreature(c) and not isUntargettable(c)]
 	if len(targets) != count:
 		whisper("Wrong number of targets!")
 		return True  # return true activates the cardStack/waiting for targets mechanism
@@ -1489,7 +1498,7 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0, t
 
 	if killCount == "ALL" or killCount > 0:
 		if powerFilter == 'ALL': powerFilter = float('inf')
-		validKillTargets = [c for c in table if isCreature(c) and not isBait(c) and int(c.Power.strip(' +')) <= powerFilter]
+		validKillTargets = [c for c in table if isCreature(c) and not isBait(c) and not isUntargettable(c) and int(c.Power.strip(' +')) <= powerFilter]
 		if not targetOwnCr:
 			validKillTargets = [c for c in validKillTargets if not c.owner == me]
 			targetCr = [c for c in targetCr if not c.owner == me]
@@ -1567,10 +1576,10 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			return
 	if opponentOnly:
 		cardList = [c for c in table if
-					isCreature(c) and c.owner != me and not isBait(c) and eval(filterFunction)]
+					isCreature(c) and c.owner != me and not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
 	else:
 		cardList = [c for c in table if
-					isCreature(c) and not isBait(c) and eval(filterFunction)]
+					isCreature(c) and not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
 	if len(cardList) < 1:
 		whisper("No valid targets on the table.")
 		return
@@ -1780,7 +1789,7 @@ def processOnTurnStartEffects():
 #Send Creature/Mana to shields
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False, filterFunction='True'):
 	mute()
-	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isBait(c)) or (manaFilter and isMana(c)))
+	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isBait(c) and not isUntargettable(c)) or (manaFilter and isMana(c)))
 			  and ((myCards and c.owner == me) or (opponentCards and c.owner != me)) and eval(filterFunction)]
 	if len(cardList) == 0: return
 	count = min(count, len(cardList))
@@ -1799,6 +1808,7 @@ def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = 
 	for i in range(0, count):
 		cardList = [c for c in table if isCreature(c)
 			  and not isBait(c)
+			  and not isUntargettable(c)
 			  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
 			  if eval(filterFunction)]
 		if len(cardList) == 0: return
@@ -1909,7 +1919,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
-		cardList = [c for c in cardList if not isBait(c) and eval(filterFunction)]
+		cardList = [c for c in cardList if not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
 		if len(cardList) == 0:
 			return
 		if me.isInverted: reverse_cardList(cardList)
@@ -1961,7 +1971,6 @@ def waveStriker(functionArray, card):
 		for funct in functionArray:
 				waitingFunct.append([card, funct.replace('wscount', repr(wscount))])
 
-
 def mode(functionArray,card, choiceText=[], deb=False, count=1):
 	if isinstance(functionArray, str):
 		functionArray=[functionArray]
@@ -1981,15 +1990,12 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		waitingFunct.append([card,functionArray[choice-1]])
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
 
-
-
-
 #Special Card Automatization
 
 def apocalypseVise():
 	powerLeft=8000
 	creaturesToDestroy=[]
-	creatureList = [card for card in table if isCreature(card) and card.owner!=me and int(card.Power.strip('+'))<=powerLeft]
+	creatureList = [card for card in table if isCreature(card) and card.owner!=me and not isUntargettable(card) and int(card.Power.strip('+'))<=powerLeft]
 	if me.isInverted: reverse_cardList(creatureList)
 	while powerLeft>0 and len(creatureList)>0:
 		creatureChoice = askCard2(creatureList, 'Choose a Creature to destroy.')
@@ -2008,12 +2014,18 @@ def bronks():
 	minPower = min(int(c.Power.strip('+')) for c in creatureList)
 	notify("Lowest Power found: {}".format(minPower))
 	leastPowerCreatureList = [c for c in creatureList if int(c.Power.strip('+')) == minPower]
-	opponentCreatures = [card for card in creatureList if card.owner != me]
+	if len(leastPowerCreatureList == 1):
+		remoteCall(leastPowerCreatureList[0].owner,'destroy', convertCardListIntoCardIDsList(leastPowerCreatureList[0]))
+		return
+	
+	opponentCreatures = [card for card in creatureList if card.owner != me and not isUntargettable(card)]
 	myCreatures = [card for card in creatureList if card.owner == me]
 	leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
 	   	int(me.isInverted) if x in opponentCreatures else int(not me.isInverted),
 		(opponentCreatures + myCreatures).index(x)))
-	if me.isInverted: reverse_cardList(leastPowerCreatureList)
+	
+	if me.isInverted: 
+		reverse_cardList(leastPowerCreatureList)
 	else:
 		leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
 	   	 	0 if x in opponentCreatures else 1,
@@ -2040,7 +2052,6 @@ def raptorFish():
 			toDeck(c)
 		shuffle(me.Deck)
 		draw(me.Deck,False,len(cardInHand))
-
 
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
@@ -2108,7 +2119,7 @@ def hydroHurricane(card):
 	lightCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Light", c.Civilization)]
 	darknessCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)]
 	oppMana=[c for c in table if c.owner == targetPlayer and isMana(c)]
-	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c)]
+	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c) and not isUntargettable(c)]
 	if len(oppMana)>0:
 		if me.isInverted: reverse_cardList(oppMana)
 		for lc in lightCards:
@@ -2159,6 +2170,27 @@ def miraculousMeltdown(card):
 		return
 	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
 
+def declareRace(excludedRace=None):
+	all_zones = itertools.chain(me.deck, table, me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
+	all_races = itertools.chain.from_iterable(re.split(r'/+', card.race) for card in all_zones if card.race!='')
+
+	race_counts = {}
+	for race in all_races:
+		if race in race_counts:
+			race_counts[race] += 1
+		else:
+			race_counts[race] = 1
+
+	# Sort races by count in descending order
+	sorted_races = sorted(race_counts.items(), key=lambda x: x[1], reverse=True)
+	race_names = [race for race, count in sorted_races if race !=excludedRace]
+	choice = askChoice("Select a race:", race_names, customButtons=["Custom Race"])
+	if choice > 0:
+		notify('{} declares {} Race'.format(me, race_names[choice-1]))
+	if choice < 0:
+		choice = askString("Type a custom race to declare:",'')
+		notify('{} declares {} Race'.format(me, choice))
+
 def divineRiptide():
 	opponent=getTargetPlayer(onlyOpponent=True)
 	fromManaAll()
@@ -2167,7 +2199,7 @@ def divineRiptide():
 def shockHurricane(card):
 	myCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me]
 	chosenCreatures=[]
-	enemyCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]
+	enemyCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner!=me and not isUntargettable(c)]
 	enemyChosen=[]
 	if me.isInverted: reverse_cardList(myCreatures)
 	while(len(myCreatures)>0):
@@ -2176,7 +2208,8 @@ def shockHurricane(card):
 		chosenCreatures.append(choice)
 		myCreatures.remove(choice)
 	bounceAll(chosenCreatures)
-	for i in range(0,len(chosenCreatures)):
+	count = min(len(chosenCreatures), len(enemyCreatures))
+	for i in range(0, count):
 		choice = askCard2(enemyCreatures, 'Choose an opponent\'s Creature to return to Hand')
 		enemyChosen.append(choice)
 		enemyCreatures.remove(choice)
@@ -2222,7 +2255,7 @@ def _enemyMiraculousMeltdown(count):
 
 def miraculousPlague():
 	mute()
-	creatureList = [card for card in table if isCreature(card) and card.owner != me]
+	creatureList = [card for card in table if isCreature(card) and not isBait(card) and card.owner != me and not isUntargettable(card)]
 	if len(creatureList) != 0:
 		if len(creatureList) == 1:
 			remoteCall(creatureList[0].owner, "toHand", convertCardListIntoCardIDsList(creatureList[0]))
@@ -2278,7 +2311,8 @@ def miraculousRebirth():
 	cardList = [card for card in table if
 				isCreature(card)
 				and not isBait(card)
-				and not card.owner == me
+				and card.owner != me
+				and not isUntargettable(card)
 				and int(card.Power.strip('+')) <= 5000]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
@@ -2317,7 +2351,7 @@ def soulSwap():
 	targetPlayer = getTargetPlayer()
 	if not targetPlayer: return
 	#list of creatures in battlezone
-	creatureList = [card for card in table if isCreature(card) and not isBait(card) and card.controller == targetPlayer]
+	creatureList = [card for card in table if isCreature(card) and not isBait(card) and not isUntargettable(card) and card.controller == targetPlayer]
 	if me.isInverted: reverse_cardList(creatureList)
 	creatureChoice = askCard2(creatureList, 'Choose a Creature to send to Mana')
 	if type(creatureChoice) is not Card: return
