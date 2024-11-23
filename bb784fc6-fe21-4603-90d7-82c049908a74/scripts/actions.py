@@ -1427,7 +1427,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	for card in myCardList:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if
-		cardToBeSaved != card and isCreature(card) and card.owner == me and re.search("Saver",card.rules) and (
+		cardToBeSaved != card and isCreature(card) and card.owner == me and not isBait(card) and re.search("Saver",card.rules) and (
 			re.search(cardToBeSaved.properties['Race'], card.rules) or re.search(
 			"Saver: All Races", card.rules))]
 		if len(possibleSavers) > 0:
@@ -1556,7 +1556,7 @@ def sacrifice(power=float('inf'), count=1):
 	mute()
 	for i in range(0, count):
 		cardList = [card for card in table if
-					isCreature(card) and card.owner == me and re.search("Creature", card.Type)]
+					isCreature(card) and not isBait(card) and card.owner == me and re.search("Creature", card.Type)]
 		cardList = [card for card in cardList if int(card.Power.strip('+')) <= power]
 		if len(cardList) == 0:
 			return
@@ -1996,7 +1996,7 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 def apocalypseVise():
 	powerLeft=8000
 	creaturesToDestroy=[]
-	creatureList = [card for card in table if isCreature(card) and card.owner!=me and not isUntargettable(card) and int(card.Power.strip('+'))<=powerLeft]
+	creatureList = [card for card in table if isCreature(card) and card.owner!=me and not isBait(card) and not isUntargettable(card) and int(card.Power.strip('+'))<=powerLeft]
 	if me.isInverted: reverse_cardList(creatureList)
 	while powerLeft>0 and len(creatureList)>0:
 		creatureChoice = askCard2(creatureList, 'Choose a Creature to destroy.')
@@ -2007,8 +2007,8 @@ def apocalypseVise():
 		creatureList.remove(creatureChoice)
 		notify("Apocalypse Vise - Power Spent: {}".format(8000-powerLeft))
 		creatureList = [card for card in creatureList if int(card.Power.strip('+'))<=powerLeft]
-
-	destroyAll(creaturesToDestroy, False)
+	if len(creaturesToDestroy)>0:
+		destroyAll(creaturesToDestroy, False)
 
 def bronks():
 	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
@@ -2018,14 +2018,14 @@ def bronks():
 	if len(leastPowerCreatureList == 1):
 		remoteCall(leastPowerCreatureList[0].owner,'destroy', convertCardListIntoCardIDsList(leastPowerCreatureList[0]))
 		return
-	
+
 	opponentCreatures = [card for card in creatureList if card.owner != me and not isUntargettable(card)]
 	myCreatures = [card for card in creatureList if card.owner == me]
 	leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
 	   	int(me.isInverted) if x in opponentCreatures else int(not me.isInverted),
 		(opponentCreatures + myCreatures).index(x)))
-	
-	if me.isInverted: 
+
+	if me.isInverted:
 		reverse_cardList(leastPowerCreatureList)
 	else:
 		leastPowerCreatureList = sorted(leastPowerCreatureList, key=lambda x: (
@@ -2866,7 +2866,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	else:
 		cardToBeSaved = card
 		possibleSavers = [c for c in table if
-						  cardToBeSaved != c and isCreature(c) and c.owner == me and re.search("Saver",c.rules)
+						  cardToBeSaved != c and isCreature(c) and c.owner == me and not isBait(c) and re.search("Saver",c.rules)
 						  and (re.search(cardToBeSaved.properties['Race'], c.rules) or re.search("Saver: All Races", c.rules))]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
