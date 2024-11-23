@@ -1389,6 +1389,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, dontAsk=False):
 	mute()
 	group = ensureGroupObject(group)
+	clear(group)
 	if powerFilter == 'ALL':
 		powerfilter = float('inf')
 	cardlist = []
@@ -2474,6 +2475,7 @@ def toHyperspatial(card, x=0, y=0, notifymute=False):
 		return
 	else:
 		card.resetProperties()
+		card.target(False)
 		card.moveTo(me.Hyperspatial)
 		align()
 		if notifymute == False:
@@ -2641,6 +2643,7 @@ def setup(group, x=0, y=0):
 
 			for card in cardsInTable:
 				card.resetProperties()
+				card.target(False)
 				card.moveTo(me.Deck)
 			for card in cardsInHand:
 				card.resetProperties()
@@ -2651,6 +2654,7 @@ def setup(group, x=0, y=0):
 
 			for card in psychicsInTable:
 				card.resetProperties()
+				card.target(False)
 				card.moveTo(me.Hyperspatial)
 			for card in psychicsInHand:
 				card.resetProperties()
@@ -2661,6 +2665,7 @@ def setup(group, x=0, y=0):
 				card.moveTo(me.Hyperspatial)
 			for card in gacharangeInTable:
 				card.resetProperties()
+				card.target(False)
 				card.moveTo(me.Gacharange)
 		else:
 			return
@@ -2821,6 +2826,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
 				card.isFaceUp = True
+				card.target(False)
 				toPlay(card, notifymute=True)
 				return
 			elif choice==3 or choice==0:
@@ -2853,6 +2859,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
+		shieldCard.target(False)
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
@@ -3056,6 +3063,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		toHyperspatial(card)
 		return
 	card.resetProperties()
+	card.target(False)
 	cardWasCreature = isCreature(card) and checkEvo
 	##notify("Removing from tracked evos if its bait or an evolved creature")
 	if checkEvo:
@@ -3104,6 +3112,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		else:
 			notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
 	card.resetProperties()
+	card.target(False)
 	card.moveToTable(0, 0, True)
 	if card.isFaceUp:
 		card.isFaceUp = False
@@ -3353,6 +3362,7 @@ def endOfFunctionality(card):
 			align()
 		else:
 			card.resetProperties()
+			card.target(False)
 			card.moveTo(card.owner.piles['Graveyard'])
 			align()
 
@@ -3373,6 +3383,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 
 	cardWasMana = isMana(card)
 	card.resetProperties()
+	card.target(False)
 	card.moveTo(card.owner.piles['Graveyard'])
 	if notifymute == False:
 		if src == table:
@@ -3407,6 +3418,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	mute()
 	card = ensureCardObjects(card)
+	card.target(False)
 	src = card.group
 	if isPsychic(card):
 		toHyperspatial(card)
@@ -3419,10 +3431,12 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		notify("{} moved {} to hand from {}.".format(me, card, src.name))
 		# card.isFaceUp = False
 		card.resetProperties()
+		card.target(False)
 		card.moveTo(card.owner.hand)
 	else:
 		# here, move the card to hand first so it will only show card link to only the player who can see the hand
 		# if you show first then move to hand 'card' won't show card name to the owner in the notify message
+		card.target(False)
 		card.moveTo(card.owner.hand)
 		card.resetProperties()
 		notify("{} moved {} to hand from {}.".format(me, card, src.name))
@@ -3453,6 +3467,7 @@ def toDeckBottom(card, x=0, y=0):
 def toDeck(card, bottom=False):
 	mute()
 	card = ensureCardObjects(card)
+	card.target(False)
 	if isPsychic(card):
 		toHyperspatial(card)
 		return
