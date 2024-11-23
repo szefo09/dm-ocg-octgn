@@ -70,6 +70,7 @@
 	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
 		<groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
+		<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
 		<groupaction menu="Set Up Battlezone" execute="setup" />
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clear" />

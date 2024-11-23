@@ -211,6 +211,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Yuliana, Channeler of Suns
 
 - **Other Improvements**
+  - **Added Rock Paper Scissors mini-game!**
   - **Added basic support for Twinpacts cards on Play**: (Some effects may still be buggy with them.)
   - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!
   - **Cards asking you to pick an opponent no longer do that if there are only 2 Players!**

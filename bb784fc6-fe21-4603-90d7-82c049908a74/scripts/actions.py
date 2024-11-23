@@ -2693,6 +2693,30 @@ def rollDie(group, x=0, y=0):
 	n = rnd(1, diesides)
 	notify("{} rolls {} on a {}-sided die.".format(me, n, diesides))
 
+def initiateRPS(group, x=0, y=0):
+	mute()
+	opponent = getTargetPlayer(onlyOpponent=True)
+	choice = askChoice('Pick Rock/Paper/Scissors:',['Rock','Paper','Scissors'])
+	if choice==0: return
+	remoteCall(opponent,'finishRPS',[me,choice])
+
+def finishRPS(opponent,oppChoice):
+	mute()
+	choice = askChoice('Pick Rock/Paper/Scissors:',['Rock','Paper','Scissors'])
+	if choice == 0: notify("{} didn't make a choice!".format(me))
+	choices = {1: "Rock", 2: "Paper", 3: "Scissors"}
+	rules = {
+        1: 3,  # Rock beats Scissors
+        2: 1,  # Paper beats Rock
+        3: 2   # Scissors beats Paper
+    }
+	if(choice == oppChoice):
+		notify("It's a draw! - Both picked {}".format(choices[choice]))
+	elif rules[choice] == oppChoice:
+		notify("{} Wins! - {} beats {}".format(me, choices[choice], choices[oppChoice]))
+	else:
+		notify("{} Wins! - {} beats {}".format(opponent, choices[oppChoice], choices[choice]))
+
 #untaps everything, creatures and mana
 def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	mute()
