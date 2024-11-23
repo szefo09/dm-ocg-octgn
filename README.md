@@ -159,6 +159,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Split-Head Hydroturtle Q
     - Daidalos, General of Fury
     - Geoshine, Spectral Knight
+    - Windmill Mutant
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**

@@ -546,6 +546,7 @@ cardScripts = {
 	'Sniper Mosquito':{'onAttack':['fromMana()']},
 	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Split-Head Hydroturtle Q':{'onAttack':['draw(me.Deck,True)']},
+	'Windmill Mutant': {'onAttack':['targetDiscard(True)']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
