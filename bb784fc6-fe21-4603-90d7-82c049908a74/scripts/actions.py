@@ -3069,9 +3069,10 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	mute()
 	card = ensureCardObjects(card)
 	if isMana(card):
-		totalMana = len([c for c in table if isMana(c) and c.owner == me])
-		totalUntappedMana = len([c for c in table if isMana(c) and c.owner == me and c.orientation == Rot180])
-		notify("{} has {} Mana in total. ({} Untapped)".format(me, totalMana, totalUntappedMana))
+		for player in players:
+			totalMana = [c for c in table if isMana(c) and c.owner == player]
+			totalUntappedMana = [c for c in totalMana if c.orientation == Rot180]
+			notify("{} has {} Mana in total. ({} Untapped)".format(player, len(totalMana), len(totalUntappedMana)))
 		return
 	if isPsychic(card):
 		toHyperspatial(card)
