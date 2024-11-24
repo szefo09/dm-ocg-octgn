@@ -212,6 +212,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Yuliana, Channeler of Suns
 
 - **Other Improvements**
+  - **Added Mana Calculation when you press Ctrl+C/Charge as Mana on Card already in Mana Zone**
   - **Added Debouncing to fix Card Orientation issue**: When tapping/untapping cards too quickly, Players could desync the board, making the opponent see the cards in wrong position (tapped/untapped)
   - **Added Rock Paper Scissors mini-game!**
   - **Added basic support for Twinpacts cards on Play**: (Some effects may still be buggy with them.)
