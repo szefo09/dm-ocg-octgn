@@ -212,6 +212,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Yuliana, Channeler of Suns
 
 - **Other Improvements**
+  - **Added Debouncing to fix Card Orientation issue**: When tapping/untapping cards too quickly, Players could desync the board, making the opponent see the cards in wrong position (tapped/untapped)
   - **Added Rock Paper Scissors mini-game!**
   - **Added basic support for Twinpacts cards on Play**: (Some effects may still be buggy with them.)
   - **Huge Network Communication Improvement!**: I've added helpful functions and optimizations to drastically reduce the latency between actions that are sent between players!

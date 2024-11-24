@@ -3,6 +3,7 @@
 # ------------------------------------------------------------------------------
 import re
 import itertools
+from time import time
 
 shields = []
 playerside = None
@@ -14,6 +15,8 @@ evaluateNextFunction = True #For conditional evaluation of one function after th
 alreadyEvaluating = False
 wscount = 0
 arrow = {}
+lastExecutionTime = 0
+DEBOUNCE_DELAY = 0.5
 # Start of Automation code
 
 cardScripts = {
@@ -1695,6 +1698,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 	card = ensureCardObjects(card)
 	mute()
 	card.orientation ^= Rot90
+	update()
 	if card.orientation & Rot90 == Rot90:
 		notify('{} taps {}.'.format(me, card))
 		global arrow
@@ -2777,6 +2781,13 @@ def destroyMultiple(cards, x=0, y=0):
 			destroyAll(creatureList, dontAsk=True)
 
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
+	global lastExecutionTime
+	currentTime = time()
+	if currentTime - lastExecutionTime < DEBOUNCE_DELAY:
+		whisper('You are giving inputs too quickly! Try again soon.')
+		return
+	lastExecutionTime = currentTime
+
 	mute()
 	if clearFunctions:
 		clearWaitingFuncts()
