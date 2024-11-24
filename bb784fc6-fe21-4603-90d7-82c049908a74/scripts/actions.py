@@ -1703,7 +1703,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		def handleOnAllyTapEffects(card):
 			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isBait(c) and c.controller == me and cardScripts.get(c.Name, {}).get('onAllyTap', [])]
 			#remove duplicates from list, only one Tap Effect can be activated at a time.
-			if len(creaturesonAllyTapList) == 0: return
+			if len(creaturesonAllyTapList) == 0: return False
 			creaturesonAllyTapList = {c.name: c for c in creaturesonAllyTapList}.values()
 			for creature in creaturesonAllyTapList:
 				functionList=[]
@@ -1715,15 +1715,15 @@ def processTapUntapCreature(card, processTapEffects = True):
 						functionList.extend(functiononAllyTap[1])
 				if len(functionList)>0:
 					choice = askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.Name, card.Name, creature.Rules), ["Yes", "No"])
-					if choice == 1:
-						notify('{} uses Tap Effect of {} by tapping {}'.format(me, creature, card))
-						activatedTapEffect = True
-						for function in functionList:
-							waitingFunct.append([card, function])
-						evaluateWaitingFunctions()
-						break
+					if choice != 1: return False
+					notify('{} uses Tap Effect of {} by tapping {}'.format(me, creature, card))
+					for function in functionList:
+						waitingFunct.append([card, function])
+					evaluateWaitingFunctions()
+					return True
+			return False
 		#Tap Effects can only activate during active Player's turn.
-		if processTapEffects and getActivePlayer() == me and not isBait(card) and not card in arrow:
+		if processTapEffects and getActivePlayer() == me and not isBait(card) and not card._id in arrow:
 			functionList = cardScripts.get(card.name, {}).get('onTap', [])
 			if len(functionList)>0:
 				choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
@@ -1734,9 +1734,9 @@ def processTapUntapCreature(card, processTapEffects = True):
 						waitingFunct.append([card, function])
 					evaluateWaitingFunctions()
 				else:
-					handleOnAllyTapEffects(card)
+					activatedTapEffect = handleOnAllyTapEffects(card)
 			else:
-				handleOnAllyTapEffects(card)
+				activatedTapEffect = handleOnAllyTapEffects(card)
 
 		#OnAttack Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer() == me and not isBait(card) and not activatedTapEffect:
@@ -1748,7 +1748,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 						functionList.extend(cardScripts.get(surv.Name).get('onAttack'))
 			if len(functionList)>0:
 				choice = 1
-				if(card not in arrow):
+				if(card._id not in arrow):
 					choice = askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 				if choice == 1:
 					notify('{} uses on Attack Effect of {}'.format(me, card))
@@ -2507,7 +2507,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		if table not in args.fromGroups:  ## we only want cases where a card is being moved from table to another group
 			##notify("Ignored")
 			return
-		# clearArrowOnMove(args)
+		clearArrowOnMove(args)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"))
 		for evo in evolveDict.keys():
