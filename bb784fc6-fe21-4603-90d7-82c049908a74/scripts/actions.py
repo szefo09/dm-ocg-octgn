@@ -90,6 +90,7 @@ cardScripts = {
 	'Gigargon': {'onPlay': [' search(me.piles["Graveyard"], 2, "Creature")']},
 	'Gigabalza': {'onPlay': ['targetDiscard(True)']},
 	'Gigabuster':{'onPlay':['bounceShield()']},
+	'Grape Globbo':{'onPlay':['lookAtOppHand()']},
 	'Grave Worm Q': {'onPlay': ['search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")']},
 	'Gunes Valkyrie, Holy Vizier': {'onPlay': ['tapCreature()']},
 	'Gylus, Larval Lord': {'onPlay': ['targetDiscard(True)'], 'onLeaveBZ':['opponentSearch([targetPlayer.piles["Graveyard"]])']},
@@ -238,7 +239,7 @@ cardScripts = {
 	'Dimension Gate': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Divine Riptide':{'onPlay':['divineRiptide()']},
 	'Slash Charger': {'onPlay': ['fromDeckToGrave()']},
-	'Dracobarrier': {'onPlay': ['tapCreature()']},
+	'Dracobarrier': {'onPlay': ['dracobarrier()']},
 	'Drill Bowgun': {'onPlay': ['gear("kill")']},
 	'Emergency Typhoon':{'onPlay':['draw(me.Deck, True, 2)','selfDiscard()'],},
 	'Enchanted Soil': {'onPlay': ['fromGrave()']},
@@ -402,6 +403,7 @@ cardScripts = {
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': ['search(me.piles["Graveyard"], 1, "Creature")']},
 	'Bombersaur':{'onDestroy':['bothPlayersFromMana(2,True)']},
 	'Bone Piercer': {'onDestroy': ['fromMana(1, "Creature")']},
+	'Bruiser Dragon':{'onDestroy':['burnShieldKill(1,True)']},
 	'Cetibols': {'onDestroy': [' draw(me.Deck, True)']},
 	'Chilias, the Oracle': {'onDestroy': [' toHand(card)']},
 	'Coiling Vines': {'onDestroy': ['toMana(card)']},
@@ -468,6 +470,7 @@ cardScripts = {
 	'Crath Lade, Merciless King':{'onTap':['targetDiscard(randomDiscard=True, count=2)']},
 	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
 	'Grim Soul, Shadow of Reversal': {'onTap':['search(me.piles["Graveyard"],1,"Creature","Darkness")']},
+	'Kachua, Keeper of the Icegate': {'onTap':['search(me.Deck,1,"Creature","ALL","Dragon")']},
 	'Kipo\'s Contraption': {'onTap':['kill(2000)']},
 	'Neon Cluster': {'onTap':['draw(me.Deck,False,2)']},
 	'Popple, Flowerpetal Dancer':{'onTap':['mana(me.Deck)']},
@@ -524,6 +527,7 @@ cardScripts = {
 	#ON ATTACK EFFECTS
 	'Amber Piercer':{'onAttack':['search(me.piles["Graveyard"], TypeFilter="Creature")']},
 	'Armored Warrior Quelos':{'onAttack':['bothPlayersFromMana(1,True,"not re.search(r\'Fire\',c.Civilization)")']},
+	'Aqua Grappler': {'onAttack': ['draw(me.Deck,True,len([c for c in table if c!=card and isCreature(c) and not isBait(c) and c.owner==me and c.orientation==Rot90]))']},
 	'Bloodwing Mantis':{'onAttack':['fromMana(2,"Creature")']},
 	'Bolzard Dragon':{'onAttack':['destroyMana()']},
 	'Chaos Fish':{'onAttack':['draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)']},
@@ -1556,12 +1560,22 @@ def fromGrave():
 	notify("{} looks at their Graveyard.".format(me))
 	me.piles['Graveyard'].lookAt(-1)
 
+def lookAtOppHand():
+	targetPlayer = getTargetPlayer(onlyOpponent=True)
+	if not targetPlayer: return
+	notify("{} looks at {} Hand.".format(me,targetPlayer))
+	targetPlayer.hand.lookAt(-1)
+
 #Shows X cards from top or bottom of the deck
-def lookAtCards(count=1, isTop=True):
+def lookAtCards(count=1, isTop=True, opponent=False):
 	mute()
+	if opponent:
+		targetPlayer =getTargetPlayer(onlyOpponent=opponent)
+	else:
+		targetPlayer = me
 	if isTop == False:
-		notify("{} looks at {} cards from bottom of their deck.".format(me, count))
-	notify("{} looks at {} cards from top of their deck.".format(me, count))
+		notify("{} looks at {} cards from bottom of their deck.".format(targetPlayer, count))
+	notify("{} looks at {} cards from top of their deck.".format(targetPlayer, count))
 	me.Deck.lookAt(count, isTop)
 
 #Destroy your own creature
@@ -2160,6 +2174,16 @@ def klujadras():
 		count = getWaveStrikerCount(player)
 		if count:
 			remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), False, count])
+
+def dracobarrier():
+	cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
+	if len(cardList) == 0:
+			return
+	choice = askCard2(cardList, 'Choose a Creature to tap')
+	if type(choice) is not Card: return
+	remoteCall(choice.owner, "processTapUntapCreature", [convertCardListIntoCardIDsList(choice), False])
+	if re.search(r'Dragon\b', choice.Race, re.I):
+		shields(me.deck)
 
 def mechadragonsBreath():
 	power = askNumber()
