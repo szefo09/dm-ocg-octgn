@@ -62,6 +62,7 @@ cardScripts = {
 	'Dandy Eggplant': {'onPlay': ['fromDeckToMana()','fromMana(count=1, toGrave=True)']},
 	'Dark Hydra, Evil Planet Lord': {'onPlay': ['fromGrave()']},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': ['kill("ALL","Untap")']},
+	'Dimension Splitter':{'onPlay':['fromGraveyardAll("re.search(r\'Dragon\\\\b\', c.Race, re.I)", False, True, True)']},
 	'Doboulgyser, Giant Rock Beast':{'onPlay': ['kill(3000)']},
 	'Dolmarks, the Shadow Warrior': {'onPlay': ['dolmarks()']},
 	'Dorballom, Lord of Demons': {'onPlay': ['destroyAll(table, True, "ALL", "Darkness", True)', 'destroyAllMana(table, "Darkness", True)']},
@@ -2410,6 +2411,35 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 	for c in choices:
 		toMana(c)
 
+def fromGraveyard(count=1,filterFunction="True", ask=False, moveToMana=True, moveToHand=False):
+    mute()
+    group=me.piles['Graveyard']
+    if len(group) == 0: return
+    if ask:
+        choice = askYN("Would you like to move {} Card(s) from Graveyard?".format(count))
+        if choice != 1: return
+    count = min(count,len(group))
+    cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
+    for i in range(count):
+        choice = askCard2(cardsInGroup, 'Pick a Card to put to Mana (1 at a time)')
+        if type(choice) is not Card:
+            notify("{} finishes searching their {}.".format(me, group.name))
+            return
+        cardsInGroup.remove(choice)
+        if moveToMana: toMana(choice)
+        elif moveToHand: toHand(choice)
+
+def fromGraveyardAll(filterFunction="True",moveToMana=True, moveToHand=False, ask=False):
+    group=me.piles['Graveyard']
+    if len(group) == 0: return
+    if ask:
+        choice = askYN("Would you like to move Cards from Graveyard?")
+        if choice != 1: return
+    cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
+    if len(cardsInGroup) == 0: notify("No cards to move!") 
+    for c in cardsInGroup:
+        if moveToMana: toMana(c)
+        elif moveToHand: toHand(c)
 
 # End of Automation Code
 
