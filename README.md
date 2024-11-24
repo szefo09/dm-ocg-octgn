@@ -160,6 +160,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Daidalos, General of Fury
     - Geoshine, Spectral Knight
     - Windmill Mutant
+    - Überdragon Bajula
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
@@ -212,6 +213,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Yuliana, Channeler of Suns
 
 - **Other Improvements**
+  - **Some choices are now multi-choices, allowing you to pick many cards at the same time!**
   - **Added Mana Calculation when you press Ctrl+C/Charge as Mana on Card already in Mana Zone**
   - **Added Debouncing to fix Card Orientation issue**: When tapping/untapping cards too quickly, Players could desync the board, making the opponent see the cards in wrong position (tapped/untapped)
   - **Added Rock Paper Scissors mini-game!**

@@ -16,6 +16,7 @@ alreadyEvaluating = False
 wscount = 0
 arrow = {}
 lastExecutionTime = 0
+lastTappedCards = []
 DEBOUNCE_DELAY = 0.5
 # Start of Automation code
 
@@ -550,6 +551,7 @@ cardScripts = {
 	'Stained Glass':{'onAttack':['bounce(opponentOnly=True, filterFunction="re.search(r\'Fire\',c.Civilization) or re.search(r\'Nature\',c.Civilization)")']},
 	'Split-Head Hydroturtle Q':{'onAttack':['draw(me.Deck,True)']},
 	'Windmill Mutant': {'onAttack':['targetDiscard(True)']},
+	'Überdragon Bajula':{'onAttack':['destroyMana(2)']},
 
 	# ON SHIELD TRIGGER CHECKS - condtion for a card to be shield trigger(functions used here should ALWAYS return a boolean)
 
@@ -708,22 +710,27 @@ def convertGroupIntoGroupNameList(group):
 	return {"name":group.name, "playerId":group.player._id if group.player else None}
 ############################################ Misc utility functions ####################################################################################
 
-def askCard2(list, title="Select a card", buttonText="Select",numberToTake=1):  # askCard function was changed. So using the same name but with the new functionality
+def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, maximumToTake=1, returnAsArray=False):  # askCard function was changed. So using the same name but with the new functionality
 #this is for showing a dialog box with the cards in the incoming list. Careful, all cards will be visible, even if they're facedown.
 	dlg = cardDlg(list)
 	dlg.title = title
 
-	if numberToTake == 0:
+	if minimumToTake == 0:
 		# if this dialog is opened without any card to take, that means it's for rearranging cards.
 		dlg.min, dlg.max = 0, 0
 		dlg.text = "Card Order(drag to rearrange):"
 		dlg.show()
 		return dlg.list
-	result = dlg.show()
+	else:
+		dlg.min, dlg.max = minimumToTake, maximumToTake
+		result = dlg.show()
 
 	if result is None:
 		return None
-	return result[0]
+	if len(result)==1 and not returnAsArray:
+		return result[0]
+	else:
+		return result
 
 def askYN(text="Proceed?", choices=["Yes", "No"], colorsList = ['#FF0000', '#FF0000', '#FF0000']):
 	# this asks a simple Y N question, but Yes or No can be replaced by other words. Returns 1 if yes, 2 for No and 0 if the box is closed
@@ -1101,7 +1108,7 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	cardList = [card for card in targetPlayer.hand]
 	#Both players see their opponent's hand reversed
 	reverse_cardList(cardList)
-	askCard2(cardList, "Opponent's Hand. (Close to continue)", numberToTake=0)
+	askCard2(cardList, "Opponent's Hand. (Close to continue)", minimumToTake=0)
 	choices = [c for c in cardList if eval(filterFunction)]
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', convertCardListIntoCardIDsList(choice))
@@ -1273,35 +1280,36 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 	mute()
 	group = ensureGroupObject(group)
 	if len(group) == 0: return
-	dialogText = 'Search a {} to take to hand (1 at a time)'
-	for i in range(0, count):
-		cardsInGroup = [card for card in group]
-		if TypeFilter != "ALL":
-			cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter, card.Type)]
-			dialogText = dialogText.format(TypeFilter)
-		else:
-			cardsInGroup_Type_Filtered = [card for card in group]
-		if CivFilter != "ALL":
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
-												re.search(CivFilter, card.properties['Civilization'])]
-		else:
-			cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
-		if RaceFilter != "ALL":
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
-													re.search(RaceFilter, card.properties['Race'])]
-			dialogText = dialogText.format(RaceFilter)
-		else:
-			cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
-		dialogText = dialogText.format('Card')
-		while (True):
-			choice = askCard2(sort_cardList(cardsInGroup), dialogText)
-			if type(choice) is not Card:
-				group.shuffle()
-				notify("{} finishes searching their {}.".format(me, group.name))
-				return
-			if choice in cardsInGroup_CivTypeandRace_Filtered:
+	dialogText = 'Search {}(s) to take to hand'
+	maximumToTake = min(count,len(group))
+	cardsInGroup = [card for card in group]
+	if TypeFilter != "ALL":
+		cardsInGroup_Type_Filtered = [card for card in group if re.search(TypeFilter, card.Type)]
+		dialogText = dialogText.format(TypeFilter)
+	else:
+		cardsInGroup_Type_Filtered = [card for card in group]
+	if CivFilter != "ALL":
+		cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered if
+											re.search(CivFilter, card.properties['Civilization'])]
+	else:
+		cardsInGroup_CivandType_Filtered = [card for card in cardsInGroup_Type_Filtered]
+	if RaceFilter != "ALL":
+		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered if
+												re.search(RaceFilter, card.properties['Race'])]
+		dialogText = dialogText.format(RaceFilter)
+	else:
+		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
+	dialogText = dialogText.format('Card')
+	while(True):
+		choices = askCard2(sort_cardList(cardsInGroup), dialogText,maximumToTake=maximumToTake,returnAsArray=True)
+		if not isinstance(choices,list):
+			group.shuffle()
+			notify("{} finishes searching their {}.".format(me, group.name))
+			return
+		if all(c in cardsInGroup_CivTypeandRace_Filtered for c in choices):
+			for choice in choices:
 				toHand(choice, show)
-				break
+			break
 	group.shuffle()
 	notify("{} finishes searching their {}.".format(me, group.name))
 
@@ -1468,14 +1476,13 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 def destroyMana(count=1):
 	mute()
 	cardList = [card for card in table if isMana(card) and card.owner != me]
-	for i in range(0, count):
-		if len(cardList) == 0:
-			return
-		if me.isInverted: reverse_cardList(cardList)
-		choice = askCard2(cardList, 'Choose a Mana Card to destroy')
-		if type(choice) is not Card:
-			return
-		cardList.remove(choice)
+	count = min(count,len(cardList))
+	if count == 0:
+		return
+	if me.isInverted: reverse_cardList(cardList)
+	choices = askCard2(cardList, 'Choose Mana Card(s) to destroy', maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list): return
+	for choice in choices:
 		remoteCall(choice.owner, "destroy", convertCardListIntoCardIDsList(choice))
 
 def destroyAllMana(group, civFilter="ALL", AllExceptFiltered=False):
@@ -2062,12 +2069,8 @@ def raptorFish():
 def darkpact(card):
 	manaList=[c for c in table if isMana(c) and c.owner == me]
 	if me.isInverted: reverse_cardList(manaList)
-	targetsMana=[]
-	while len(manaList)>0:
-		choice = askCard2(manaList, "Select cards from Mana(1 at a time, close to finish)")
-		if type(choice) is not Card: break
-		targetsMana.append(choice)
-		manaList.remove(choice)
+	targetsMana = askCard2(manaList, "Select cards from Mana", maximumToTake=len(manaList),returnAsArray=True)
+	if not isinstance(targetsMana,list): return
 	destroyAll(targetsMana)
 	draw(me.Deck, count=len(targetsMana))
 
@@ -2159,7 +2162,7 @@ def klujadras():
 def mechadragonsBreath():
 	power = askNumber()
 
-	if(power>6000):
+	if(power>6000 or power<0):
 		notify("{} chose incorrect Power ({}).".format(me, power))
 		return
 	notify("{} chose {} Power.".format(me, power))
@@ -2267,16 +2270,10 @@ def miraculousPlague():
 			remoteCall(creatureList[0].owner, "toHand", convertCardListIntoCardIDsList(creatureList[0]))
 		else:
 			if me.isInverted: reverse_cardList(creatureList)
-			creatureChoices = []
-			creatureChoice = askCard2(creatureList, 'Choose Creatures for your opponent (one at a time).')
-			if type(creatureChoice) is not Card: return
-			creatureChoices.append(creatureChoice)
-			creatureChoice.target()
-			creatureList.remove(creatureChoice)
-			creatureChoice2 = askCard2(creatureList, 'Choose Creatures for your opponent (one at a time).')
-			if type(creatureChoice2) is not Card: return
-			creatureChoice2.target()
-			creatureChoices.append(creatureChoice2)
+			creatureChoices = askCard2(creatureList, 'Choose Creatures for your opponent.',minimumToTake=2, maximumToTake=2)
+			if not isinstance(creatureChoices,list): return
+			for cchoice in creatureChoices:
+				cchoice.target()
 			#sort the choices to reflect the table state.
 			creatureChoices = sorted(creatureChoices, key= lambda x: [card for card in table if isCreature(card) and card.owner != me].index(x))
 
@@ -2288,16 +2285,10 @@ def miraculousPlague():
 			remoteCall(manaList[0].owner, "toHand", convertCardListIntoCardIDsList(manaList[0]))
 		else:
 			if me.isInverted: reverse_cardList(manaList)
-			manaChoices = []
-			manaChoice = askCard2(manaList, 'Choose Mana Cards for your opponent (one at a time).')
-			if type(manaChoice) is not Card: return
-			manaChoice.target()
-			manaChoices.append(manaChoice)
-			manaList.remove(manaChoice)
-			manaChoice2 = askCard2(manaList, 'Choose Mana Cards for your opponent (one at a time).')
-			if type(manaChoice2) is not Card: return
-			manaChoice2.target()
-			manaChoices.append(manaChoice2)
+			manaChoices = askCard2(manaList, 'Choose Mana Cards for your opponent',minimumToTake=2, maximumToTake=2)
+			if not isinstance(manaChoices,list): return
+			for mchoice in manaChoices:
+				mchoice.target()
 			#sort the choices to reflect the table state.
 			sorted(manaChoices, key=lambda x: [card for card in table if isMana(card) and card.owner != me].index(x))
 
@@ -2380,12 +2371,9 @@ def upheaval():
 def intenseEvil():
 	myCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me]
 	if me.isInverted: reverse_cardList(myCreatures)
-	chosenCreatures=[]
-	while(len(myCreatures)>0):
-		choice = askCard2(myCreatures, 'Choose a Creature to destroy')
-		if type(choice) is not Card: break
-		chosenCreatures.append(choice)
-		myCreatures.remove(choice)
+	chosenCreatures = askCard2(myCreatures, 'Choose Creatures to destroy', maximumToTake=len(myCreatures),returnAsArray=True)
+	if not isinstance(chosenCreatures,list):return
+
 	destroyAll(chosenCreatures)
 	draw(me.Deck,False,len(chosenCreatures))
 
@@ -2414,13 +2402,12 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 		if choice != 1: return
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
-	for i in range(count):
-		choice = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
-		if type(choice) is not Card:
+	choices = askCard2(cardsInGroup, 'Search Card(s) to put to Mana',minimumToTake=1,maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list):
 			notify("{} finishes searching their {}.".format(me, group.name))
 			return
-		cardsInGroup.remove(choice)
-		toMana(choice)
+	for c in choices:
+		toMana(c)
 
 
 # End of Automation Code
@@ -2781,12 +2768,13 @@ def destroyMultiple(cards, x=0, y=0):
 			destroyAll(creatureList, dontAsk=True)
 
 def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for multiple cards tapped at once(manually)
-	global lastExecutionTime
+	global lastExecutionTime, DEBOUNCE_DELAY, lastTappedCards
 	currentTime = time()
-	if currentTime - lastExecutionTime < DEBOUNCE_DELAY:
-		whisper('You are giving inputs too quickly! Try again soon.')
+	if currentTime - lastExecutionTime < DEBOUNCE_DELAY and any(c in lastTappedCards for c in cards):
+		whisper('You are tapping and untapping the same cards too quickly! Slow down!')
 		return
 	lastExecutionTime = currentTime
+	lastTappedCards = cards
 
 	mute()
 	if clearFunctions:
@@ -3161,7 +3149,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 	if re.search("Evolution", card.Type) and not isEvoMaterial:
 		targets= []
-		textBox = 'Select Creature to put under Evolution{}'
+		textBox = 'Select Creature(s) to put under Evolution{}'
 		#Deck Evolutions
 		if re.search("Deck Evolution", card.Rules, re.IGNORECASE):
 			if len(me.Deck) == 0: return
@@ -3209,13 +3197,11 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			isMultiMaterial = False
 			if re.search("Super Infinite Graveyard evolution", card.Rules, re.IGNORECASE) or re.search(r"Graveyard(?:\s+Galaxy)?(?:\s+Vortex)\s+evolution", card.Rules, re.IGNORECASE):
 				isMultiMaterial = True
-			targets = []
-			if(isMultiMaterial): textBox = textBox.format(' from Graveyard(1 at a time, close pop-up to finish).')
-			while len(materialList)>0 and (isMultiMaterial or len(targets) < 1):
-				choice = askCard2(materialList,textBox.format(' from Graveyard'))
-				if type(choice) is not Card: break
-				targets.append(choice)
-				materialList.remove(choice)
+			maximumToTake = 1
+			if(isMultiMaterial):
+				maximumToTake = len(materialList)
+			targets = askCard2(materialList,textBox.format(' from Graveyard'),maximumToTake=maximumToTake, returnAsArray=True)
+			if not isinstance(targets,list): return
 			for target in targets:
 				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
 		#Mana Evolutions
@@ -3223,20 +3209,18 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
 			if me.isInverted: reverse_cardList(materialList)
 			isMultiMaterial = False
+			maximumToTake = 1
 			if re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)\s+evolution", card.Rules, re.IGNORECASE):
 				isMultiMaterial = True
-			targets = []
+				maximumToTake=len(materialList)
 			if len(materialList)==0:
 					whisper("Cannot play {}, you don't have any Creatures in Mana Zone for it.".format(card))
 					return
-			while len(materialList)>0 and (isMultiMaterial or len(targets)<1):
-				textBox = textBox.format(' from Mana(1 at a time, close pop-up to finish).')
-				choice = askCard2(materialList,textBox.format(''))
-				if type(choice) is not Card: break
-				targets.append(choice)
-				materialList.remove(choice)
+			textBox = textBox.format(' from Mana')
+			targets = askCard2(materialList,textBox, maximumToTake=maximumToTake,returnAsArray=True)
+			if not isinstance(targets,list): return
 			for target in targets:
-				toPlay(target,0, 0,True,' for Vortex Mana Evolution of {}'.format(card),True, True)
+				toPlay(target,0, 0,True,' for Mana Evolution of {}'.format(card),True, True)
 		#Hand Evolutions
 		elif re.search("Hand Evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
@@ -3252,35 +3236,41 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
 			evoTypeText = 'Super Infinite evolution Omega'
 			isGalaxy = False
-			if re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
-				isGalaxy = True
-				evoTypeText = 'Galaxy Vortex Evolution Omega'
 			materialListGY = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			materialListMana = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
 			materialListBZ = [c for c in table if (isCreature(c) or isGear(c)) and c.owner == me and not isBait(c)]
 			if me.isInverted:
 				reverse_cardList(materialListMana)
 				reverse_cardList(materialListBZ)
+			if re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
+				isGalaxy = True
+				evoTypeText = 'Galaxy Vortex Evolution Omega'
 			targetsGY = []
 			targetsMana = []
 			targetsBZ = []
-			textBox = textBox.format(' (1 at a time, close pop-up to finish).')
 			whisper("Pick cards from Graveyard, Mana and Battle Zone in that order. Close the Pop-Up to proceed to the next selection.")
-			while len(materialListGY)>0 and (not isGalaxy or len(targetsGY) < 1):
-				choice = askCard2(materialListGY,textBox.format(' from Graveyard'))
-				if type(choice) is not Card: break
-				targetsGY.append(choice)
-				materialListGY.remove(choice)
-			while len(materialListMana)>0 and (not isGalaxy or len(targetsMana) < 1):
-				choice = askCard2(materialListMana,textBox.format(' from Mana'))
-				if type(choice) is not Card: break
-				targetsMana.append(choice)
-				materialListMana.remove(choice)
-			while len(materialListBZ)>0 and (not isGalaxy or len(targetsBZ) < 1):
-				choice = askCard2(materialListBZ,textBox.format(' from Battle Zone'))
-				if type(choice) is not Card: break
-				targetsBZ.append(choice)
-				materialListBZ.remove(choice)
+
+			maximumToTake=len(materialListGY)
+			if maximumToTake>0:
+				if isGalaxy:
+					maximumToTake = 1
+				targetsGY = askCard2(materialListGY,textBox.format(' from Graveyard'), maximumToTake=maximumToTake, returnAsArray=True)
+				if not isinstance(targetsGY, list): targetsGY = []
+
+			maximumToTake=len(materialListMana)
+			if maximumToTake>0:
+				if isGalaxy:
+					maximumToTake = 1
+				targetsMana = askCard2(materialListMana,textBox.format(' from Mana'), maximumToTake=maximumToTake,returnAsArray=True)
+				if not isinstance(targetsMana, list): targetsMana = []
+
+			maximumToTake=len(materialListBZ)
+			if maximumToTake>0:
+				if isGalaxy:
+					maximumToTake = 1
+			targetsBZ = askCard2(materialListBZ,textBox.format(' from Battle Zone'), maximumToTake=maximumToTake, returnAsArray=True)
+			if not isinstance(targetsBZ, list): targetsBZ = []
+
 			targets = targetsGY + targetsMana + targetsBZ
 			if len(targets) < 1:
 				whisper('No targets selected!')
@@ -3304,15 +3294,14 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					whisper("Cannot play {}, you don't have any Cards in Battle Zone for it.".format(card))
 					whisper("Hint: Play a Creature or Gear first to evolve this card onto.")
 					return
-				targets = []
 				isMultiMaterial = False
+				maximumToTake = 1
 				if re.search(r"(?:Galaxy\s+)?Vortex Evolution",card.Rules, re.IGNORECASE) or re.search('Super Infinite Evolution', card.Rules, re.IGNORECASE):
+					maximumToTake = len(materialList)
 					isMultiMaterial = True
-				while len(materialList)>0 and (isMultiMaterial or len(targets)<1):
-					choice = askCard2(materialList,'Select Card(s) to use as Material for Evolution.')
-					if type(choice) is not Card: break
-					targets.append(choice)
-					materialList.remove(choice)
+
+				targets = askCard2(materialList,'Select Card(s) to use as Material for Evolution.', maximumToTake=maximumToTake, returnAsArray=True)
+				if not isinstance(targets, list): targets = []
 
 		if len(targets) == 0:
 			whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
