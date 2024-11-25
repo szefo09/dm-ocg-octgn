@@ -799,8 +799,8 @@ def evaluateWaitingFunctions():
 		return
 	alreadyEvaluating = True
 	while len(waitingFunct)>0:
-			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			card = waitingFunct[0][0]
+			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			waitingForTarget = eval(waitingFunct[0][1]) #stored in the form [card, function]
 			if waitingForTarget:
 				waitForTarget()
@@ -2278,7 +2278,7 @@ def miraculousPlague():
 			#sort the choices to reflect the table state.
 			creatureChoices = sorted(creatureChoices, key= lambda x: [card for card in table if isCreature(card) and card.owner != me].index(x))
 
-			remoteCall(creatureChoice.owner,"_miraculousPlagueChooseToHand", [convertCardListIntoCardIDsList(creatureChoices)])
+			remoteCall(creatureChoices[0].owner,"_miraculousPlagueChooseToHand", [convertCardListIntoCardIDsList(creatureChoices)])
 
 	manaList = [card for card in table if isMana(card) and card.owner != me]
 	if len(manaList) != 0:
@@ -2293,7 +2293,7 @@ def miraculousPlague():
 			#sort the choices to reflect the table state.
 			sorted(manaChoices, key=lambda x: [card for card in table if isMana(card) and card.owner != me].index(x))
 
-			remoteCall(manaChoice.owner,"_miraculousPlagueChooseToHand", [convertCardListIntoCardIDsList(manaChoices)])
+			remoteCall(manaChoices[0].owner,"_miraculousPlagueChooseToHand", [convertCardListIntoCardIDsList(manaChoices)])
 
 def _miraculousPlagueChooseToHand(cardList):
 	cardList = ensureCardObjects(cardList)
@@ -2346,16 +2346,15 @@ def rothus():
 
 def soulSwap():
 	mute()
-	targetPlayer = getTargetPlayer()
-	if not targetPlayer: return
+	# targetPlayer = getTargetPlayer()
+	# if not targetPlayer: return
 	#list of creatures in battlezone
-	creatureList = [card for card in table if isCreature(card) and not isBait(card) and not isUntargettable(card) and card.controller == targetPlayer]
-	if me.isInverted: reverse_cardList(creatureList)
-	creatureChoice = askCard2(creatureList, 'Choose a Creature to send to Mana')
-	if type(creatureChoice) is not Card: return
-	remoteCall(creatureChoice.owner, "toMana", convertCardListIntoCardIDsList(creatureChoice))
+	targets = [c for c in table if c.targetedBy == me and isCreature(c) and not isUntargettable(c)]
+	if len(targets) != 1:
+		return True
+	remoteCall(targets[0].owner, "toMana", convertCardListIntoCardIDsList(targets[0]))
 	update()
-	remoteCall(me,"_fromManaToField", targetPlayer._id)
+	remoteCall(me,"_fromManaToField", targets[0].owner._id)
 
 def tanzanyte():
 	cardList = [card for card in me.piles['Graveyard'] if re.search('Creature', card.Type)]
@@ -2609,7 +2608,6 @@ def align():
 #Clear Targets/Arrows
 def clear(group, x=0, y=0):
 	mute()
-	clearWaitingFuncts()
 	global arrow
 	arrow = {}
 	for card in group:
