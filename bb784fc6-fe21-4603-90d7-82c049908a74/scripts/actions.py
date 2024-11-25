@@ -470,7 +470,7 @@ cardScripts = {
 	'Crath Lade, Merciless King':{'onTap':['targetDiscard(randomDiscard=True, count=2)']},
 	'Deklowaz, the Terminator': {'onTap': ['destroyAll(table, True, 3000)', 'deklowazDiscard()' ]},
 	'Grim Soul, Shadow of Reversal': {'onTap':['search(me.piles["Graveyard"],1,"Creature","Darkness")']},
-	'Kachua, Keeper of the Icegate': {'onTap':['search(me.Deck,1,"Creature","ALL","Dragon")']},
+	'Kachua, Keeper of the Icegate': {'onTap':['fromDeckToField("re.search(r\'Dragon\\\\b\', c.Race, re.I)")']},
 	'Kipo\'s Contraption': {'onTap':['kill(2000)']},
 	'Neon Cluster': {'onTap':['draw(me.Deck,False,2)']},
 	'Popple, Flowerpetal Dancer':{'onTap':['mana(me.Deck)']},
@@ -2463,6 +2463,26 @@ def fromGraveyardAll(filterFunction="True",moveToMana=True, moveToHand=False, as
     for c in cardsInGroup:
         if moveToMana: toMana(c)
         elif moveToHand: toHand(c)
+
+def fromDeckToField(filterFunction="True", count = 1):
+	mute()
+	group = me.deck
+	if len(group) == 0: return
+	cardsInGroup = sort_cardList([card for card in group])
+	validChoices = [c for c in cardsInGroup if eval(filterFunction)]	
+	for i in range(count):
+		while (True):
+			c = askCard2(cardsInGroup, 'Search a Card to put to the Battle Zone (1 at a time)')
+			if type(c) is not Card:
+				shuffle(group)
+				notify("{} finishes searching their {}.".format(me, group.name))
+				return
+			if c in validChoices:
+				cardsInGroup.remove(c)
+				toPlay(c)
+				break
+	shuffle(group)
+
 
 # End of Automation Code
 
