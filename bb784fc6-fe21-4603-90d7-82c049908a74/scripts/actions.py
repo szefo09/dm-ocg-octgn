@@ -2132,19 +2132,15 @@ def hydroHurricane(card):
 	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c) and not isUntargettable(c)]
 	if len(oppMana)>0:
 		if me.isInverted: reverse_cardList(oppMana)
-		for lc in lightCards:
-			if len(oppMana)==0: break
-			choice = askCard2(oppMana,"Select cards from Mana(1 at a time, close to finish)")
-			if type(choice) is not Card: break
-			oppMana.remove(choice)
+		choices = askCard2(oppMana,"Select up to {} Cards from Mana".format(len(lightCards)), maximumToTake=len(lightCards), returnAsArray=True)
+		if not isinstance(choices,list):choices=[]
+		for choice in choices:
 			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
 	if len(oppCreatures)>0:
 		if me.isInverted: reverse_cardList(oppCreatures)
-		for dc in darknessCards:
-			if len(oppCreatures)==0: break
-			choice = askCard2(oppCreatures, "Select Creatures from Battle Zone(1 at a time, close to finish)")
-			if type(choice) is not Card: break
-			oppCreatures.remove(choice)
+		choices = askCard2(oppCreatures, "Select up to {} Creatures from Battle Zone".format(len(darknessCards)),maximumToTake=len(darknessCards),returnAsArray=True)
+		if not isinstance(choices,list):choices=[]
+		for choice in choices:
 			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
 
 def kingAquakamui(card):
