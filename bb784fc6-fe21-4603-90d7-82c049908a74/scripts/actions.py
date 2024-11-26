@@ -1491,7 +1491,7 @@ def destroyAllMana(group, civFilter="ALL", AllExceptFiltered=False):
 	group = ensureGroupObject(group)
 	cardList = []
 	if(civFilter != "ALL"):
-			cardList = [card for card in group if isMana(card) and (re.search(civFilter, card.Civilization) != AllExceptFiltered)]
+			cardList = [card for card in group if isMana(card) and (bool(re.search(civFilter, card.Civilization)) != AllExceptFiltered)]
 	else:
 		cardList = [card for card in group if isMana(card)]
 	if len(cardList) == 0: return
