@@ -5,6 +5,7 @@
 import re
 import itertools
 from time import time
+import operator
 
 shields = []
 playerside = None
@@ -333,7 +334,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
-	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="int(c.Cost)>=6")']},
+	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="cardCostComparator(c,6,\'>=\')")']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
 	'Scheming Hands': {'onPlay':['targetDiscard()']},
 	'Screaming Sunburst': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"Light\\", c.Civilization)")']},
@@ -888,6 +889,45 @@ def processEvolution(card, targets):
 			del evolveDict[evolveTarget._id]
 	evolveDict[card._id] = targetList
 	me.setGlobalVariable("evolution", str(evolveDict))
+
+#Useful to handle Twinpacts
+def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
+	comparisons = {
+		'==': operator.eq,
+		'!=': operator.ne,
+		'<': operator.lt,
+		'<=': operator.le,
+		'>': operator.gt,
+		'>=': operator.ge
+	}
+
+	# If the card is a Twinpact (has both Cost1 and Cost2)
+	if card.hasProperty("Cost1") and card.hasProperty("Cost2"):
+		cost1 = int(card.Cost1)
+		cost2 = int(card.Cost2)
+
+		if typeFilter == "ALL":
+			if comparisons[comparisonOperator](cost1, value) or comparisons[comparisonOperator](cost2, value):
+				return True
+
+		else: 
+			if re.search(typeFilter,card.Type1) and comparisons[comparisonOperator](cost1, value):
+				return True
+			if re.search(typeFilter,card.Type2) and comparisons[comparisonOperator](cost2, value):
+				return True
+
+	# If it's not a Twinpact card, just compare the single cost
+	elif card.hasProperty("Cost"):
+		cost = int(card.Cost)
+		if typeFilter == "ALL":
+			return comparisons[comparisonOperator](cost, value)
+
+		if re.search(typeFilter,card.Type) and comparisons[comparisonOperator](cost, value):
+			return True
+		
+	return False
+		
+
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -1242,7 +1282,7 @@ def eurekaProgram(ask=True):
 		cost = int(card.Cost)
 		notify("{} reveals {}".format(me, card))
 
-		if (int(card.Cost) - originalCost) == 1:
+		if cardCostComparator(card,originalCost+1,"==","Creature"):
 			if re.search("Creature", card.Type):
 				if not re.search("Evo", card.Type):
 					if ask:
@@ -2329,7 +2369,7 @@ def miraculousRebirth():
 			group.shuffle()
 			notify("{} finishes searching their {}.".format(me, group.name))
 			return
-		if int(choice.Cost) == targetCost:
+		if cardCostComparator(choice,targetCost,'==', 'Creature'):
 			validChoice = choice
 			break
 	group.shuffle()
@@ -2380,7 +2420,7 @@ def _fromManaToField(targetPlayerId):
 	#Count the number of cards in mana zone for the one that will be added.
 	count = len([card for card in table if isMana(card) and card.controller == targetPlayer])
 	#get valid targets from mana
-	manaList = [card for card in table if isMana(card) and card.controller == targetPlayer and re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type) and int(card.Cost)<=count]
+	manaList = [card for card in table if isMana(card) and card.controller == targetPlayer and re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type) and cardCostComparator(card,count,'<=',"Creature")]
 	if me.isInverted: reverse_cardList(manaList)
 	manaChoice = askCard2(manaList, 'Choose a Creature to play from Mana')
 
@@ -2698,10 +2738,10 @@ def finishRPS(opponent,oppChoice):
 	if choice == 0: notify("{} didn't make a choice!".format(me))
 	choices = {1: "Rock", 2: "Paper", 3: "Scissors"}
 	rules = {
-        1: 3,  # Rock beats Scissors
-        2: 1,  # Paper beats Rock
-        3: 2   # Scissors beats Paper
-    }
+		1: 3,  # Rock beats Scissors
+		2: 1,  # Paper beats Rock
+		3: 2   # Scissors beats Paper
+	}
 	if(choice == oppChoice):
 		notify("It's a draw! - Both picked {}".format(choices[choice]))
 	elif rules[choice] == oppChoice:
