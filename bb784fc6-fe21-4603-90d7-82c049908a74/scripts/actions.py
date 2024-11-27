@@ -267,7 +267,7 @@ cardScripts = {
 	'Goromaru Communication': {'onPlay': ['search(me.Deck, 1, "Creature")']},
 	'Hell Chariot': {'onPlay': ['kill("ALL","Untap")']},
 	'Hide and Seek': {'onPlay': ['bounce(1, True, filterFunction = \'not re.search("Evolution", c.Type)\')', 'targetDiscard(True)']},
-	'Himaraki Program': {'onPlay': ['eurekaProgram(True)']},
+	'Hirameki Program': {'onPlay': ['eurekaProgram(True)']},
 	'Hogan Blaster': {'onPlay': ['drama(True, "creature or spell", "battlezone", "top")']},
 	'Holy Awe': {'onPlay': ['tapCreature(1, True)']},
 	'Hopeless Vortex': {'onPlay': ['kill()']},
