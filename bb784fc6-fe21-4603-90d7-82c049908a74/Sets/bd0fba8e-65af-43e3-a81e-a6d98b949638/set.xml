@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM24-RP1 Demon of Hypermoon" id="bd0fba8e-65af-43e3-a81e-a6d98b949638" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="7ee68077-39cb-42fe-88b6-a4069a0ca0bf">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="4ff5ebfb-4dd2-4845-98f1-cf144710d7ed" name="Tatef Elle, Regression Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, shieldify the top card of your deck instead.&#xA;■ When this creature leaves, shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="ec035efd-9e28-477a-aea7-c05f71dde801" name="Garden = Garchy, Abyss True Garden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, return up to 5 creatures from your graveyard to your hand.&#xA;■ Whenever this creature attacks, discard any number of cards from your hand. For each card discarded this way, each of your opponent's creatures gets -3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="98bef619-7dbb-48f3-9126-4971a92fa145" name="Explosive God Bobobrock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="10000-"/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets -2000 power for each of your shields.&#xA;■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="0c5d47ee-7bf2-4f1d-bca1-885a364f1e8f" name="Olympia Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="21000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ When you put this creature, you may use the following effect once for each of your creatures:&#xA;► Choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Whenever this creature wins a battle, you may break one of your opponent's shields.&#xA;■ This creature can't leave by the ability of one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="0d4fd6ce-8e84-475f-b480-c7be98f73201" name="Jonas, Joyful Light Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Brain Jacker/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA;■ When you put this creature, choose one of your opponent's untapped creatures and destroy it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ Whenever this creature attacks, you may put up to one creature that costs 3 or less from your hand or graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="dc915533-02eb-47f6-911e-a31e04ea3d61" name="Angelos, Flaming Anger Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Gargoyle/Hyper Beast"/>
+      <property name="Power" value="5500"/>
+      <property name="Hyper Power" value="11000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ At the end of your turn, untap all your creatures.&#xA;■ Whenever one of your creatures wins a battle, that creature breaks one of your opponent's shields. Then shieldify the top card of your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="229fc1fc-2f38-4576-9b8b-84f5d51b867a" name="Perfect Freestyle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If your opponent has a creature in the battle zone that costs more than the number of cards in your opponent's mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="cecf1e51-2921-4d0e-b70b-91414f314d44" name="Plaisir, Enjoyable Knowledge Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Parasite Worm/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, draw 2 cards and discard a card from your hand.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast a water or fire spell that costs 5 or less from your hand or graveyard for no cost. If you do, after you cast that spell, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="78768669-df49-4a87-805f-6e064efa7f74" name="Griffa, Sorrowful Tree Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Devil Mask/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="12000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures. Those creatures can't attack or block until the start of your next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may put a creature from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="244c85f8-0c6e-45b7-a7d2-291ce80d2f01" name="Fock = Nps = Alife, Three Musketeers">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="9000"/>
+      <property name="Hyper Power" value="14000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your opponent's creatures attacks, they attack creatures if able.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Once per turn, when one of your creatures is destroyed, you may put a creature that costs less than that from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="367300fd-4aac-4ad2-b0b7-134e0b7f5c4e" name="Miele, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever one of your shields leave, choose one of your opponent's creatures and tap it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ True Escape (When this creature would leave, you may add 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot; abilities of those shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a3630c14-2449-4992-a65c-e40f915a0cde" name="Syphogate, Enlightenment Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put a non-evolution Light creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="9e889689-c06d-493f-b331-d21aeabf26d2" name="Mao, Seeker of Void">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever a card is put into or leaves your shield zone, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="05aa3c1b-35ab-4739-9650-323e7a69b671" name="Chaosmantra, Memento">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Once per turn, when one of your creatures taps, you may draw a card.&#xA;■ During your opponent's turn, when this creature leaves, you may put a creature that costs 4 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a4b596c7-63e6-4ccd-92ef-c2e2156a7951" name="Sniper, Elegant Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Hyper Beast"/>
+      <property name="Power" value="2000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose a number. Until the start of your next turn, your opponent can't cast spells that cost the same as that number and your opponent's creatures that cost the same can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c43e53b0-7efd-425e-952b-b0f9b6bdfa43" name="Daiquiri">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Splash Queen"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Once per turn, when you put an element or cast a spell, you may draw a card.&#xA;■ Whenever one of your tapped creatures would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="4086ee3a-e8a2-4ae7-9105-7a97aad3e52b" name="What I don't know yet is what I enjoy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw a card. Then put up to 2 non-evolution creatures that cost 3 or less from your hand. At the end of the turn, return those creatures to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="286039ef-0563-401f-812b-1030e98601f6" name="Gostunma = Dhamma, Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="■ Your opponent's cards are put into their mana zone tapped.&#xA;&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent discards 2 cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="09583c1d-906e-4e7a-9e89-9b1d6b0f6c18" name="Gachack 2, Mechanical Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's untapped creatures and destroy it. Then put a creature from your graveyard that costs the same as or less than the chosen creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="782539cf-dacd-48ee-b228-d42ab3421d7e" name="Jooro = Suiro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each of your tapped creatures gets &quot;slayer&quot;. (When a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)&#xA;■ Whenever one of your creatures is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="011944f6-ef7b-4a0d-b40e-3f28c97262ce" name="Volcanodon, Uplifting Crimson Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its an element that costs 4 or less, put it. Otherwise, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="fc7c05fe-9fb8-4161-ac9c-173e65bf290a" name="Kensuke, Armor Working Soldier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each of your tapped creatures gets +2000 power and &quot;powered breaker&quot;. (A creature that has &quot;powered breaker breaks an additional shield for each 6000 power.)&#xA;■ During your opponent's turn, when this creature leaves, you may break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="92494959-57d5-4d28-8f71-2823a1651aef" name="Ignite the Oil of Anger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 6 or less from your hand and choose one of your opponent's creatures. Those creatures battle. Then if your creature costs more than the number of cards in your mana zone, destroy that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="32a38215-65be-49ed-9154-d3b1f6c06e64" name="Mosquito, Forest Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="7000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="9f025a24-f415-4f2f-9814-cb9693739eba" name="Colliding Screw Horn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ During your opponent's turn, this creature gets +5000 power.&#xA;■ Whenever this creature wins a battle, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="8c758041-dca6-4133-8333-997b6a1aede4" name="Beigoma Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may put this creature tapped.&#xA;■ Whenever one of your opponent's creatures attacks, they attack this creature if able.&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="25a21c9d-3bae-4d71-bee0-9671425dc5af" name="La Ura Giga, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="144c600a-ffd3-445f-90b9-003792ea15ce" name="Sun Armor, Vizier of Law">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="92acd068-f604-45e5-a837-26df54733775" name="Ottoma, the Spydroid">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Soltrooper"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ Whenever this creature taps, you may choose one of your opponent's creatures and tap it.&#xA;■ You may untap this creature to change your opponent's creatures attack to this creature or one of your tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="471e5643-85aa-400b-a62f-d5d868ea5732" name="Arian, Spectral Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ Whenever this creature untaps, this turn, your next creature costs 2 less to summon. It can't cost 0 or less.&#xA;■ During your opponent's turn, when this creature leaves, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="57c3e6d1-022b-49ed-8cfd-f527ab489355" name="Venerack-F5">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent's puts a creature without tapping a card in your opponent's mana zone, you may shieldify it.&#xA;■ During your opponent's turn, when this creature leaves, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="82a2ce6f-a277-4900-b0df-b6c5006c89e6" name="Skullhunter, Elegant Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Hyper Beast"/>
+      <property name="Power" value="2000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't choose this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="709d8249-52c7-4f0a-bf3c-a6541004c973" name="Bicorn Fish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature or it leaves, choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a903514b-9e64-496c-9dda-bcf4ae4bba5c" name="Occult Tuner">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, draw 3 cards and discard 2 cards from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="de8d34a7-08c6-4552-929d-0f5a07a89214" name="Caclarico">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature in a way except by summoning, your opponent puts it on the top or bottom of their deck.&#xA;■ During your opponent's turn, when this creature leaves, you may draw a card. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="152253df-7a23-4cf4-8a26-43d038248a67" name="Tanoshikichishiki, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and return it to it's owner's hand.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="0345f06d-4178-4619-b8d2-59127c2626d7" name="Sugochi = Totorot, Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="1000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, when this creature is destroyed, put it from your graveyard tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="4dd3539f-bfe9-4244-881d-297d0c8c65d2" name="Arch = Garchy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="231b3568-9fa4-4c69-870b-0e5840f5134f" name="Gaslan = Ryukasurain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard.&#xA;■ You may summon Hyper Beast creatures from your graveyard. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="add8c5c6-fada-4f6d-b830-a12c629763c7" name="Karikki = Rikki">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 3 cards of your deck into your graveyard.&#xA;■ Whenever this creature taps, you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b5955a99-9c31-4d1a-841a-9ad1a754a36e" name="Abyss Assault, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Put the top 3 cards of your deck into your graveyard. Then put a creature that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="698f99a7-fc77-4df6-ac23-7eaab00fe3c2" name="Flameburn, Uplifing Crimson Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a5f5bb5d-52e4-4e98-b7db-8fc333aa37c2" name="Exetwins, Double Striker">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Each turn, when this creature is tapped for the first time, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="dc11c43d-ef3b-473a-a16c-974eb4006022" name="Brand's Gear">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature untaps, you may return one of your shields to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="def018dd-0bf5-4dfa-85ce-d0728096550c" name="Funnunofunka, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="387a1ebf-1bbc-4bac-9b21-36d9c1b5185a" name="Bronze-Arm, Forest Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="f06d7a36-0549-4f3e-9a0b-9c108e2f9d96" name="Voracious Haetorigusa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature taps, one of your creatures gets +4000 power and &quot;powered breaker&quot; until the end of the turn. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="cc317d72-cb03-49ee-bb9b-6193c9ff3ae9" name="Bunker Antlion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature from anywhere except their hand, put it into it's owner's mana zone.&#xA;■ During your opponent's turn, when this creature leaves, put the top 2 cards of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="258e4d8c-c167-45de-8911-9933a2637cef" name="Banitas, Devotee Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature or when it leaves, put the top card of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="3c696d90-e2ad-4f08-b85c-7315ee1f3719" name="Morinokanashimi, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures that has power 6000 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="9de5eb59-763d-4c67-b0f7-4c313718c459" name="Flavnagnir, Darkness Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master's Legacy"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Once per turn, your Hyper Beast creatures may cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="6d6a2e6e-9d84-4c8a-a15c-08c0552f3d38" name="Kuunta, Furious Gate Enforcer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Berserker"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="806abf4d-0805-4e4e-9051-fcc9ea9eb137" name="Ma More, the Explorer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature taps, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d85327e5-2e8f-4d0f-aa1e-4cd09779dfe2" name="Case, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature or when it leaves, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d6ed5e58-086d-40b0-ab72-15103610a9ed" name="Reiga, Hyper Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Ultra Saver: Hyper Beast (When one of your Hyper Beasts would leave, you may destroy this creature instead.)&#xA;■ When this creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a97e0305-3c40-4f61-af00-52756c91be0f" name="Garnet Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of your turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="56/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="332cc4fe-f194-47a0-a137-e8cbd54dcfa5" name="Yorokobinouta, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="57/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="92e93b5b-ad7e-494b-9f5c-056300c63a40" name="Bashou Shichigomaster">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Merfolk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Gravity Zero: If you have a Hyper Beast, you may summon this creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="9f3ae97a-e9d7-4b90-9efc-04c53490cf99" name="Aqua Handgun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b4f50e78-4661-4a98-bf74-70bbab6cec7f" name="Luna Bluebird">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Moon"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="4ee9a157-3ccc-4205-a60f-4803e9cabfb8" name="Sotohane, Tea Beautiful Music Love">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Mermaid"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature taps, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="20b126a3-36d7-468c-aee7-507146c47c96" name="Biribiri Jelly">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="46cd83bd-7d99-4579-8efb-dfc961633c16" name="Balloon Man">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature or when it leaves, your opponent chooses and discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="316f975c-d83c-4a08-ac20-817a624cb618" name="Tub = Taraupu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="1d0ea580-b1bb-43d7-8ad4-38a24144de1f" name="Sickle = Sick">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ Whenever this creature taps, you may put the top 3 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="2b3ed5be-1d56-4b36-a133-8dc98d744300" name="Ichimatsu, Ten Feet Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When an opponent's creature attacks, destroy this creature and that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="e8df00ea-f756-4032-bbda-7c7539261163" name="Pupin, Dismantling Thief">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Machine Eater"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ You may put one of your shields into your hand and pay Fire 3: to summon this creature. You can't use the &quot;shield trigger&quot;.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="f69b78a0-211a-4753-b6cd-04521ffed323" name="Mett, Little Blacksmith">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature taps, discard a card from your hand and draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="1ee69471-adbc-4970-a7ed-5a2472d3d8d9" name="Oortsaurus">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature or when it leaves, choose one of your opponent's creatures that has power 3000 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c31e50fe-2213-4b93-a70d-1a314a2f8774" name="Bolshack Totto Pipicchi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature taps, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="7b3e4b5b-da74-4d43-bc31-c86e4d264577" name="Lyla Samba Latta">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature taps, you may choose one of your opponent's elements that costs 2 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="43285b70-6a89-4528-b21d-77dbb314adff" name="Shell Unrack">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, you may choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="dba8c1b4-fd45-47b7-99ad-6dbeee66e5a0" name="Saberkiller Axe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature taps, look at the top 2 cards of your deck. You may reveal a creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b682e96b-d689-41e9-b386-12155efed64b" name="Seishunmattadake">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Balloon Mushroom"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature taps, put the top card of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="eb05186c-3783-432c-bfb0-bf7e12c38e04" name="Pollikichi, Adventure Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, choose a creature in your mana zone. You may summon that creature from your mana zone this turn. (Pay the cost)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/75"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="e4933e2f-0ed5-41ed-b149-ec56e946d9c8" name="Dogiragon Hyper, Blue Royal Road">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Mega Command Dragon/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="13000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever one of your multicolored creatures attacks, you may put a creature from your mana zone that costs less than that multicolored creature.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM1/DM1"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="7b4158c1-4b05-4fb9-866c-b874f7133632" name="Dogiragon Hyper, Blue Royal Road">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Mega Command Dragon/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="13000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever one of your multicolored creatures attacks, you may put a creature from your mana zone that costs less than that multicolored creature.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM1㊙/DM1"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="29868730-6bc2-4064-8d86-c240a6e6e3ff" name="Elbollom, Night of Joyful Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="6500"/>
+      <property name="Hyper Power" value="12500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1/OR2"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="21e9affb-810c-4642-9666-c268e1202518" name="Jashin Emperor, Abyss King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="13000"/>
+      <property name="Rules" value="■ You may summon Abyss creatures from your graveyard. (Pay the cost.)&#xA;{HYPERIFY}: Tap 2 of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your graveyard. Then choose up to 2 of your opponent's creatures that have total cost the same as or less than the number of cards in your graveyard and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1/OR2"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d332a108-a7fd-463c-ab18-9e7d19f44ac3" name="Petrova, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol/Hyper Beast"/>
+      <property name="Power" value="3500"/>
+      <property name="Hyper Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, it can't leave until the start of your next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may shieldify the top card of your deck. Then you may put a creature from your hand that costs the same as or less than the number of your shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="5fd2074f-9852-4056-b8a8-29b62c30adb8" name="Viride Gor Gels">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Mecha Angel Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ If your opponent has 3 or more creatures, this creature in your shield zone gets &quot;shield trigger&quot;.&#xA;■ If you have more shields than your opponent, you may pay Light 2: to summon this creature.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, when your opponent puts an element for the first time or when your opponent casts a spell, you may draw a card. Then you may put a creature from your hand that costs the same as or less than that element or spell."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d45481de-acc1-4818-adfe-334282bf4f8b" name="Fumibillom, Night of Enjoyable Knowledge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="■ During your turn, each of your other creatures get &quot;powered breaker&quot; and +1000 power for each card in your hand.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, if you have 5 or less cards in your hand, you may draw cards until you have 5 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="be004d18-51f7-48c6-87d1-57a0b6d5b17e" name="seiWond'Ramar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ At the end of your opponent's turn, if this creature is tapped, you may draw 2 cards. Then you may use a water card from your hand that costs the same as or less than the number of cards in your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="fdb4192d-f1f3-459f-88b3-536749cd078b" name="Yabadan = Low, Hyper Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures and destroy it. Then you may put the same number of cards as the chosen creature's cost from the top of your deck into your graveyard.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 8 or less from your graveyard. That creature can attack your opponent this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="46418251-77b5-4a13-b380-4bd4b1cb1fb2" name="Foun = Tain, Abyssal Wrath">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ If you have 6 or more creatures in your graveyard, you may pay Darkness 2: to summon this creature.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 2 darkness creatures that cost 3 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="4f5a97ad-33a3-49ac-b43a-5ea334ce6a9d" name="Agebullom, Night of Flaming Anger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="11000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When this creature attacks for the first time in a turn, untap it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ When you would lose the game, destroy this creature instead.&#xA;■ When this creature is destroyed, you don't lose the game this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="22697e8e-2b76-4577-82d7-764037d0328a" name="Gradian Bullet Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card from your hand then draw a card.&#xA;■ Once per turn, when you would discard one or more creatures that cost 3 or less from your hand, you may put them instead. They get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="69d02d4f-e40b-4ae7-a62b-9b1941d87023" name="Shinbellom, Night of Sorrowful Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="12000"/>
+      <property name="Hyper Power" value="18000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;mach fighter&quot;.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, put a creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="ade34c65-91eb-4756-87cd-1f25e33e34e8" name="Jinaburi Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone tapped. Then you may return a card from your mana zone to your hand.&#xA;■ Once per turn, when you summon another creature, you may put a creature that has the same name from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S10"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="60a8d82b-6297-4ef6-a278-b470bdb4b3c0" name="Dragon Head Nebula Man / Zero Birthday">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Dragon Head Nebula Man"/>
+      <property name="Name2" value="Zero Birthday"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="10/4"/>
+      <property name="Cost1" value="10"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command/Zerolist"/>
+      <property name="Race1" value="Demon Command/Zerolist"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each of your water or darkness cards in your graveyard. It can't cost 0 or less.&#xA;■ When you put this creature or whenever it attacks, your opponent chooses 2 cards from their hand and discards them.&#xA;{TRIPLE BREAKER}&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your creatures. Then choose one of your opponent's creatures and destroy it."/>
+      <property name="Rules1" value="■ This creature costs 1 less to summon for each of your water or darkness cards in your graveyard. It can't cost 0 or less.&#xA;■ When you put this creature or whenever it attacks, your opponent chooses 2 cards from their hand and discards them.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your creatures. Then choose one of your opponent's creatures and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP1/SP5"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="df6b9045-084b-486b-ac11-c8ec03279a18" name="The=Killer Kinari, Doomsday Sutured King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Jurassic Command Dragon/Zombie Dragon"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures. You may return that chosen creature to your opponent's hand. Then put a creature that costs the same as or less than that creature from your graveyard.&#xA;■ Whenever your opponent puts a creature and their ability would trigger, that ability doesn't trigger instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP2/SP5"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="e9f51510-6208-4c48-bb05-18cb12bfe14d" name="Perfect Jokers">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ Gravity Zero: If you have 7 or more Jokers in your mana zone and/or battle zone, you may cast this spell for no cost.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose a card that costs 3 or less and put it on the bottom of it’s owner’s deck.&#xA;► One of your creatures can attack your opponent until the end of the turn.&#xA;► Choose one of your opponent’s creatures. Ignore that creature’s effects until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="SP3/SP5"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="772fe29a-d974-4363-98e9-f4f5b8c50b3c" name="Sonkun, Blazing Fire Great Saint">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks or whenever one of your creatures is destroyed, choose one of the following:&#xA;▶ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it:&#xA;▶ Choose one of your opponent's creatures that costs 3 or less and destroy it:&#xA;▶ Choose one of your opponent's tamaseeds that costs 3 or less and destroy it:&#xA;▶ Break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="SP4/SP5"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="e4a78238-8fa8-4b33-a762-e92c22f23c64" name="Original Finale, Secret Doomsday King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Water, Darkness and Nature dispector (When one of your water, darkness and nature dispectors attacks, you may cast this spell for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put 2 of them into your mana zone and the rest into your hand.&#xA;■ Choose one of your opponent's creatures. That creature gets -1000 power for each card in your mana zone until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="SP5/SP5"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="9244925f-370f-4154-95dd-dbbd978fafc5" name="Keshikas = Kas, Abyssal Stationary">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Kas/Corocoroyale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;■ When you put this creature, choose one of the following.&#xA;▼ Your opponent shuffles their graveyard and puts it on the bottom of their deck.&#xA;▼ Put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T1/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="a5fdb7d4-78af-4740-b1ff-91ebbbe368a5" name="Bonsoir, Dragon Elemental Admiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be discarded by the effect of one of your opponent's spells or ability of a creature, you may put it instead.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all creatures that have &quot;blocker&quot; from the revealed cards into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T2/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="01bd99f7-586e-4c90-a5ea-f31080564d44" name="Dorokio Gai, Climb">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Team Zero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MUGEN CLIMB} Water 2(You may summon this creature from your hand or graveyard by tapping 2 of your creatures and paying Water 2.)&#xA;{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T3/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d2c0e4a4-f59b-4e64-a4a1-8423b17e8386" name="Pittdel, Death Devil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ You may summon this creature by discarding 2 water cards instead of paying its cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T4/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="88fea7be-1173-468f-8090-690fcdc5d5dd" name="Disnomenon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature wins a battle, look at the top card of your deck and add it to your hand or put it into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T5/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c1a0fbad-5c66-4097-9d1b-e1df43b794de" name="Magatsukaze, Toberutsubasa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Adamunit/Demonio/Oni RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever your opponent would look at or reveal one or more cards from their deck, your opponent reveals the top card of their deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T6/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="50e603cd-65ac-4d72-a2eb-725060381c5f" name="Disturbing Chuusa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;■ While this creature is tapped, players can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T7/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="5c9fe546-1ebb-42ae-95a3-ff151272daa8" name="Kangoku Nyudo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio/Onifuda Kingdom"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ At the end of your turn, add one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T8/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="0ed7c381-ce58-41ea-8e69-cdf62d5b69a2" name="The Verde, Rainbow Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature has all civilizations while in the battle zone or in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T9/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c4e54830-7db6-44f0-ac9e-c8065af90180" name="Retweegyo #Cherry #Full Bloom">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Team Wave"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ Whenever your opponent would put a creature, if your opponent had put 2 or more other creatures this turn, they put it into their mana zone instead.&#xA;■ During your opponents turn, this creature gets +4000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T10/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="f317581e-b1a4-4d0c-9884-a9634fc329be" name="Mad Guitar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gargoyle"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If there is a Demon Command in the battle zone, you may summon this creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T11/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c781674e-673b-41c1-9cf6-f22445101bbc" name="Kiyuri, Coral Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Team Wave"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each turn, the first creature you summon may cost 1 less to summon. It can't cost 0 or less.&#xA;■ Whenever your opponent would choose a creature, they can't choose this one. (It can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T12/T12"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="5d6c767f-1c62-45c7-a5b2-a65ee0d7074f" name="Onimaru &quot;Head&quot;, Victory Rush">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Red Command Dragon/Hunter/Alien"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, you and your opponent play {GACHINKO JUDGE}. If you win,take an extra turn after this one&#xA;({GACHINKO JUDGE}: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TD1/TD3"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="97ae4f59-3486-451d-a357-d00b9cc1c5a7" size="wide" name="Dragon World ~The Land Where Dragons Descend~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Dragonic Field"/>
+      <property name="Race" value="Dragon World"/>
+      <property name="Rules" value="■ At the start of your turn, put the top card of your deck into your graveyard. If that card is a non-evolution Dragon, you may destroy this field. If you do, put that Dragon."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TD2/TD3"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="cf41e09c-4531-4fc7-bfd1-e75cde765ada" name="Call for Dragons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone tapped. If it's a Dragon, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TD3/TD3"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="26637e72-40f9-4070-a46b-8e82700007f6" name="Mikadoleo, Doomsday Sutured King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/God/Zenith"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, reveal the top 4 cards of your deck. Put any number of creatures from among them and the rest into your mana zone.&#xA;■ At the start of your turn, if you have 4 or more creatures that cost 8 or more, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="TR1/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="5fb057d9-ea5f-4346-836c-58cb8b2ca175" name="Emotional Hardcore, Sacred Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Dragon/Oraclion"/>
+      <property name="Power" value="9500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , choose a creature card name except 'Emotional Hardcore, Sacred Dragon'.&#xA;■ Ignore any abilities of creatures that have the chosen name.&#xA;■ Whenever your opponent would choose a creature, if you have another Oracle, they can't choose this one. (It can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR2/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="cee51bbc-4c3c-485a-9eee-35dbe1e821ad" name="Shakedown Domeciale">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures. Your opponent shieldifies it.&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR3/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c0abe72b-6c04-4601-abb7-cefe9762e1dc" name="Jashin Emperor, Abyssal Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Abyss Royale/ACE"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this tamaseed, put the top card of your deck into your graveyard. Then choose one of your opponent's creatures or tamaseeds that costs the same as or less than the number of cards in your graveyard and destroy it.&#xA;■ If you don't have a total of 4 or more darkness creatures and/or darkness tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;■ Whenever this creature attacks, you may put a non-evolution creature that costs 6 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR4/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="d1e81c64-ec88-4182-a2c4-97e0426c5eec" name="Balga Raiser, Dragonic Meteor Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SYMPATHY}: Beat Jockey (This creature costs 1 less to summon for each of your Beat Jockey in play. It can't cost less than 1.)}&#xA;{DOUBLE BREAKER}&#xA;■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever any of your creatures attacks, reveal the top card of your deck. If that card is a Beat Jockey or Dragon that costs the same or less than the attacking creature, put it. Otherwise, put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR5/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="3034cfa9-8668-44a4-9069-80389e6e9205" name="Gradian Bullet Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card from your hand then draw a card.&#xA;■ Once per turn, when you would discard one or more creatures that cost 3 or less from your hand, you may put them instead. They get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR6/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="0ed09880-0047-4305-83d6-3abc5613bd1b" name="Kabutorial Kuga / Mystery Disaster">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kabutorial Kuga"/>
+      <property name="Name2" value="Mystery Disaster"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="8/5"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature wins a battle, reveal the top 3 cards of your deck. You may put a creature from among them into your hand. Put the rest into your mana zone.&#xA;TWINPACT&#xA;■ Shuffle your deck, then reveal the top card of your deck. If it's a creature, put it. Otherwise, put it into your mana zone."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature wins a battle, reveal the top 3 cards of your deck. You may put a creature from among them into your hand. Put the rest into your mana zone."/>
+      <property name="Rules2" value="■ Shuffle your deck, then reveal the top card of your deck. If it's a creature, put it. Otherwise, put it into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR7/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="02f9f15d-9697-41b7-bfbe-f0bdc37cf598" name="Jinaburi Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone tapped. Then you may return a card from your mana zone to your hand.&#xA;■ Once per turn, when you summon another creature, you may put a creature that has the same name from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR8/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="61145de7-da9f-4136-9696-adc574b724ba" name="Katenkowol, Theater Battleship">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/Bikkuri Kingdom"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{VIVIDDRAW} {WF8} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 8 to summon this creature this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature with its &quot;Vividdraw&quot; ability, draw 3 cards.&#xA;■ When you put this creature, you may choose a water or fire card from your hand that costs less than or the same as the number of cards in your hand. If you do, use that card for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR9/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="3eeccb76-05f6-481d-bf26-b37ad71ea53a" name="Kiyuri's ASMRadio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at the top 5 cards of your deck. From among them, put up to 2 creatures that cost 3 or less. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TR10/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="abe91765-23b7-43cb-abb5-4648f14661aa" name="Perfect Freestyle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If your opponent has a creature in the battle zone that costs more than the number of cards in your opponent's mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TR11/TR11"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="6504ff37-2369-4902-91a7-59cc960bf1ad" name="Elbollom, Night of Joyful Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="6500"/>
+      <property name="Hyper Power" value="12500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="㊙1/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="c01b1584-5611-4d7f-bde3-78d3935090af" name="Jashin Emperor, Abyss King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="13000"/>
+      <property name="Rules" value="■ You may summon Abyss creatures from your graveyard. (Pay the cost.)&#xA;{HYPERIFY}: Tap 2 of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your graveyard. Then choose up to 2 of your opponent's creatures that have total cost the same as or less than the number of cards in your graveyard and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="㊙2/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="4b14f694-8f38-4e2a-b914-bc01fc3e5da6" name="Petrova, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol/Hyper Beast"/>
+      <property name="Power" value="3500"/>
+      <property name="Hyper Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, it can't leave until the start of your next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may shieldify the top card of your deck. Then you may put a creature from your hand that costs the same as or less than the number of your shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="㊙3/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="02611754-1417-427d-b961-892a0102cb7e" name="Fumibillom, Night of Enjoyable Knowledge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="■ During your turn, each of your other creatures get &quot;powered breaker&quot; and +1000 power for each card in your hand.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, if you have 5 or less cards in your hand, you may draw cards until you have 5 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="㊙4/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="dac151fe-5626-49a3-a6db-1ede5db0d03c" name="Yabadan = Low, Hyper Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures and destroy it. Then you may put the same number of cards as the chosen creature's cost from the top of your deck into your graveyard.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 8 or less from your graveyard. That creature can attack your opponent this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="㊙5/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="7107220e-3109-4c43-b145-253008ca6d94" name="Agebullom, Night of Flaming Anger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="11000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When this creature attacks for the first time in a turn, untap it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ When you would lose the game, destroy this creature instead.&#xA;■ When this creature is destroyed, you don't lose the game this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="㊙6/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="38c705f8-edeb-40f8-92c0-a54ad2856c47" name="Shinbellom, Night of Sorrowful Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="12000"/>
+      <property name="Hyper Power" value="18000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;mach fighter&quot;.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, put a creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="㊙7/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="798dbd64-9ff9-4ab9-a7b1-dba9edf55a83" name="Jonas, Joyful Light Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Brain Jacker/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA;■ When you put this creature, choose one of your opponent's untapped creatures and destroy it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ Whenever this creature attacks, you may put up to one creature that costs 3 or less from your hand or graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="㊙8/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="bbb77388-5949-4bda-9d9b-142174b64021" name="Angelos, Flaming Anger Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Gargoyle/Hyper Beast"/>
+      <property name="Power" value="5500"/>
+      <property name="Hyper Power" value="11000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;■ At the end of your turn, untap all your creatures.&#xA;■ Whenever one of your creatures wins a battle, that creature breaks one of your opponent's shields. Then shieldify the top card of your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="㊙9/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="10a98078-93c2-4142-bf1b-2a21fd0ce9ab" name="Plaisir, Enjoyable Knowledge Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Parasite Worm/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, draw 2 cards and discard a card from your hand.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast a water or fire spell that costs 5 or less from your hand or graveyard for no cost. If you do, after you cast that spell, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="㊙10/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="5c1ff979-a39c-4624-903f-e0bbe1f68fbd" name="Griffa, Sorrowful Tree Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Devil Mask/Hyper Beast"/>
+      <property name="Power" value="6000"/>
+      <property name="Hyper Power" value="12000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures. Those creatures can't attack or block until the start of your next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may put a creature from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="㊙11/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="1f390ab0-be67-4575-9514-b054b1f6f590" name="Fock = Nps = Alife, Three Musketeers">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="9000"/>
+      <property name="Hyper Power" value="14000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your opponent's creatures attacks, they attack creatures if able.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Once per turn, when one of your creatures is destroyed, you may put a creature that costs less than that from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="㊙12/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="52cf8b3f-625e-4549-ba50-d025a5c99ed2" name="Miele, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever one of your shields leave, choose one of your opponent's creatures and tap it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ True Escape (When this creature would leave, you may add 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot; abilities of those shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="㊙13/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b2ea4960-583c-43d0-a872-14c626625088" name="Sniper, Elegant Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Hyper Beast"/>
+      <property name="Power" value="2000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose a number. Until the start of your next turn, your opponent can't cast spells that cost the same as that number and your opponent's creatures that cost the same can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="㊙14/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b5a875a5-7faf-4eb6-a683-8e9e3e893366" name="Gostunma = Dhamma, Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="■ Your opponent's cards are put into their mana zone tapped.&#xA;&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent discards 2 cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="㊙15/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="bd302762-9ba7-4d0a-907a-f5c0f8f8084b" name="Volcanodon, Uplifting Crimson Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its an element that costs 4 or less, put it. Otherwise, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="㊙16/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="e3c553ec-d24a-40f2-8d91-aa02cfe6973b" name="Mosquito, Forest Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="7000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="㊙17/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="83cb5430-5df7-4f24-aebc-2dc5c2775a55" name="La Ura Giga, Capturing Silver Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙18/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="8fd7b0cb-9029-4459-b525-48373c18550b" name="Skullhunter, Elegant Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Hyper Beast"/>
+      <property name="Power" value="2000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't choose this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙19/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="6239146c-a901-432d-8485-71b70c55f553" name="Sugochi = Totorot, Soul Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="1000"/>
+      <property name="Hyper Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, when this creature is destroyed, put it from your graveyard tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙20/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="b1d4629e-af9c-4934-b03b-6b548c72a6ce" name="Flameburn, Uplifing Crimson Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙21/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+    <card id="7ffaab7a-5f24-4c1f-8e86-b4ae0930ee52" name="Bronze-Arm, Forest Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk/Hyper Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Hyper Power" value="8000"/>
+      <property name="Rules" value="{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙22/㊙22"/>
+      <property name="Set" value="DM24-RP1 Demon of Hypermoon"/>
+    </card>
+  </cards>
+</set>

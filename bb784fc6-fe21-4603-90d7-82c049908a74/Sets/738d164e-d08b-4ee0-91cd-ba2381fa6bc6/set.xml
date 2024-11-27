@@ -1,0 +1,2098 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-19 Eternal Premiums" id="738d164e-d08b-4ee0-91cd-ba2381fa6bc6" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="3e5d4c55-98f9-4ad1-a842-236d3c4c98ec">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="15a8714b-aecd-42f5-a8e0-29cb4fb9c994" name="Zett, Hiramekuseisen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, for each of your creatures in the battle zone, you may choose one of your opponent's creatures and tap it.&#xA;■ 'Shinkapower': When this creature evolves, draw a card. Then if you have more shields than your opponent, draw another card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="e4ff5c54-5dd4-4ab5-b548-99edb42f64b2" name="Momokingdam X, Forbidden Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Forbidden/RexStars"/>
+      <property name="Power" value="99999"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="c713cac8-fc46-4a8f-9d7c-ea48907bcbae" name="Momokingdam X, Forbidden Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Forbidden/RexStars"/>
+      <property name="Power" value="99999"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1S/3S"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="5524b2f4-55c7-4efa-8b4a-291f4bf10755" name="Alcadeia Glory, Heavenly King Ceremony">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ When you cast this spell, choose one of your opponent's creatures. Reduce the cost of casting this spell by the number of that creature's cost. It can't cost 0 or less.&#xA;■ Shieldify one of your opponent's creatures.&#xA;■ Each of your creatures win all battles until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="0cb40975-7f84-4eb7-afdf-c8b1c14cc3af" name="Vol-Val-8, Forbidden Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Earth Dragon/Forbidden"/>
+      <property name="Power" value="54321"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER} {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature attacks, look at the top 5 cards of your deck. Add up to 2 cards from among them to your hand and put the rest on the bottom of your deck in any order. Then you may destroy all creatures that have power 6000 or less.&#xA;■ At the end of your turn, if 4 or more creatures were destroyed this turn, take an extra turn after this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d20bac08-5e8e-4ba5-acd5-57feb40d9c58" name="Vol-Val-8, Forbidden Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Earth Dragon/Forbidden"/>
+      <property name="Power" value="54321"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER} {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature attacks, look at the top 5 cards of your deck. Add up to 2 cards from among them to your hand and put the rest on the bottom of your deck in any order. Then you may destroy all creatures that have power 6000 or less.&#xA;■ At the end of your turn, if 4 or more creatures were destroyed this turn, take an extra turn after this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2S/3S"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="03c2fc77-41a7-423e-8dc2-0e80540ec7f0" name="Code:Ikouze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Code/Tricks/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, draw a card.&#xA;■ Shinkapower':' When this creature evolves, you may shieldify a card from your hand. If you do, put one of your shields to your hand. You can't use &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="8c768309-fa7b-4d77-bcc2-20c62bf79a75" name="Romanogri-La the 0th, Zero Prison Connected King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Dark Lord/Guardian/Knight"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ When you put this creature, you may look at the top 3 cards of your deck. If you do, put one into your graveyard and put the rest into your mana zone.&#xA;■ Whenever this creature attacks, put up to one creature from your mana zone and/or graveyard that have total cost the same as or less than the number of cards in your mana zone.&#xA;■ While this creature is tapped, you can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="08b14845-1a74-42b0-9413-495751cfc4aa" name="Romanogri-La the 0th, Zero Prison Connected King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Dark Lord/Guardian/Knight"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ When you put this creature, you may look at the top 3 cards of your deck. If you do, put one into your graveyard and put the rest into your mana zone.&#xA;■ Whenever this creature attacks, put up to one creature from your mana zone and/or graveyard that have total cost the same as or less than the number of cards in your mana zone.&#xA;■ While this creature is tapped, you can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3S/3S"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="c2191dd8-916e-4e01-a9ec-7fbca33d2ff7" name="Voiron">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master Dragon Z/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;■ If you have 2 or more cards in your graveyard, reduce this creature's summon cost by 3.&#xA;■ 'Shinkapower': When this creature evolves, you may put the top 5 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="71271483-cbc6-4f64-a24c-3270923d8b71" name="Tulk GS, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="4A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="6ca14e5b-79ce-439a-bd40-ebf91ef1c0e3" name="Tulk GS, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="4B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="490dca48-2a0e-46a9-9348-54cd8341f02d" name="Momostar Canbello">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature or when you reveal this creature to your opponent with the &quot;Guard Strike&quot; ability, destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;■ 'Shinkapower': When this creature evolves, you may discard your hand. If you do, draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="18ba5924-ffc4-4220-b487-d19cb1051c63" name="Code:Ikouze &lt;Adam Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Magic Command/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Water|rex4 (When one of your Water|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then choose one of your opponent's creatures and return it to its owner's hand. Until the start of your next turn, your opponent can't put creatures that have the same name as the card you returned to your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="3b368772-f053-42d9-bf51-4918b19334a5" name="Code:Ikouze &lt;Adam Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Magic Command/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Water|rex4 (When one of your Water|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then choose one of your opponent's creatures and return it to its owner's hand. Until the start of your next turn, your opponent can't put creatures that have the same name as the card you returned to your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cb437b09-b1a4-4c3d-80bd-81e5e4b3d96f" name="Stardom Ohkabuto">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone. If it's a RexStars, you may add it to your hand.&#xA;■ 'Shinkapower': When this creature evolves, until the start of your next turn, whenever one of your opponent's creatures' attacks, they attack this creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="51eb94a4-b9a5-456c-8bcd-ef1d92b8d7c2" name="Topgear, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first fire creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="6A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="10db981e-9bda-4215-8a6a-477fdeffc5bd" name="Topgear, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first fire creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="6B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f61a0476-175e-42a1-b5f0-4cfdb72c128d" name="Satan and Angel &lt;Abzo Dolba Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Angel Command/Zombie Dragon/RexStars"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Light or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put one of your shields into your graveyard. If you do, choose one of your opponent's creatures. That creature gets -9000 power until the end of the turn.&#xA;■ Whenever this creature attacks, draw a card and shieldify a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="10bccf06-2c1a-4983-aa91-4898b98d4d49" name="Canbello &lt;Rezo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Sonic Command/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="0425ab27-9443-4894-b5ae-96ac74ba9405" name="Canbello &lt;Rezo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Sonic Command/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="1e6c1d5f-68cf-485a-8336-c599f36ad289" name="Gorio Bugori &lt;Bailas Gale Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beast Folk/Earth Dragon/RexStars"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Light or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your creatures battle, double that creature's power during the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="6e5ce99d-eff0-4181-a3d3-8ea8babf9bc2" name="Ohkabuto &lt;Sanma Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Guerrilla Command/RexStars"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Nature|rex4 (When one of your Nature|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your mana zone.&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="517290d4-8655-4a10-b2aa-ac02d1ace933" name="Ohkabuto &lt;Sanma Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Guerrilla Command/RexStars"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Nature|rex4 (When one of your Nature|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your mana zone.&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="399a6612-757d-4678-b165-99bfdda32338" name="Meteorshower &lt;Bajula Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Phoenix/Armored Dragon/RexStars"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Water or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, draw 3 cards.&#xA;■ Whenever this creature attacks, choose up to 2 of your opponent's creatures that have total cost the same as or less than the number of cards in your hand and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="7b5e381f-56e2-4267-969a-5f25c774db1b" name="Aquan-2, Electro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, reveal the top 4 cards of your deck. Add a water card, fire card and nature card from among them to your hand. Put the rest on the bottom of your deck in any order.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="6fbce805-1a58-4ba4-af16-39ee787d7e76" name="Aquan-2, Electro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, reveal the top 4 cards of your deck. Add a water card, fire card and nature card from among them to your hand. Put the rest on the bottom of your deck in any order.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="4c409ae4-886b-41b6-928c-9217d75c52b6" name="ZERO and STRIKE, Secret Zero Prison King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Light, Darkness and Nature dispector (When one of your light, darkness and nature dispectors attacks, you may cast this spell for no cost.)&#xA;■ Choose one of the following:&#xA;► Shieldify the top card of your deck, put the top card of your deck into your mana zone and put the top card of your deck into your graveyard:&#xA;► Choose one of your Distas or Dispectors. Put any number of creatures that have the same name from your hand, mana zone or graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ea399d32-d8b1-4a4b-a049-a6c49df670d7" name="Gyukautsu Maguru, Victory Disaster Electrofused King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage MAX/The Answer"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck. Put any number of multicolored creatures that have total cost 9 or less. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="309473ae-9854-4ea0-a4d2-a867a7bd4d3c" name="Gyukautsu Maguru, Victory Disaster Electrofused King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage MAX/The Answer"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck. Put any number of multicolored creatures that have total cost 9 or less. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="dd3be86e-7195-44ad-b806-5dc25bbe653f" name="Eternal Premiums, Secret Forbidden Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Water, Fire and Nature dispector (When one of your water, fire and nature dispectors attacks, you may cast this spell for no cost.)&#xA;■ Choose a creature that costs 5 or less in a player's mana zone. That player puts that creature, then puts the top card of their deck into their mana zone.&#xA;■ You may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Each of your creatures can't be blocked until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="24321536-e329-41ca-b72d-0f91c450b94d" name="Heaven's Rosia, True Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Justice Wing/Draguner"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put a dragheart that costs 3 or less or a light dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;{MANA ARMS} 5: if you have 5 or more light cards in your mana zone, each of your Light creatures in the battle zone gets &quot;shield saver&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2456c2cf-89f3-4d42-805c-1967943ce445" name="Heaven's Rosia, True Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Justice Wing/Draguner"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put a dragheart that costs 3 or less or a light dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;{MANA ARMS} 5: if you have 5 or more light cards in your mana zone, each of your Light creatures in the battle zone gets &quot;shield saver&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="e3f4fd04-1344-4a7a-b1c8-2550375ca8ad" name="Uisu &lt;Majestic Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Cyber Lord/RexStars"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light|rex4 (When one of your Light|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2b69f813-1d41-4b98-8597-104241b77df4" name="Medicalar Cobalt Kaiser / Eyed Wise Shutter">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Medicalar Cobalt Kaiser"/>
+      <property name="Name2" value="Eyed Wise Shutter"/>
+      <property name="Civilization" value="Water/Light"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/4"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Blue Command Dragon/Hunter"/>
+      <property name="Race1" value="Blue Command Dragon/Hunter"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="12A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="72747ea5-0685-4da1-a8f3-9af1c745dcf7" name="Medicalar Cobalt Kaiser / Eyed Wise Shutter">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Medicalar Cobalt Kaiser"/>
+      <property name="Name2" value="Eyed Wise Shutter"/>
+      <property name="Civilization" value="Water/Light"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/4"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Blue Command Dragon/Hunter"/>
+      <property name="Race1" value="Blue Command Dragon/Hunter"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="12B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="c16cd899-0c27-42ed-a773-416bddd5fcf5" name="Heisan, Blue Defense Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't leave the turn you put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="69c6add2-c701-4b17-97d2-6a2c090a77f6" name="Romanov the 2nd, Demonic Eye Hierophant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top 5 cards of your deck into your graveyard. From among them, you may cast a spell that costs 6 or less for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="c7b2fb1f-8e6e-49fd-9573-b7632f0d8bb3" name="Romanov the 2nd, Demonic Eye Hierophant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top 5 cards of your deck into your graveyard. From among them, you may cast a spell that costs 6 or less for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="545af394-bb17-478a-8088-a7491ce2b9ca" name="Octopa &lt;Kernel Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mutopia/Angel Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Water|rex4 (When one of your Water|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures. Those creatures can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="8e9f66d9-52d4-4315-a8dd-9552a820e165" name="Perfect Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard..&#xA;■Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="14A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="29bef9d7-4335-41c8-9380-16ead14f95ed" name="Perfect Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard..&#xA;■Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="14B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="8f1eb642-386a-4515-841f-4010cb2657be" name="Zuttomo Moment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw a card.&#xA;■ Return all your opponent's creatures that cost the same as or less than the number of cards in your hand to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f457aa07-c580-40ef-8118-15ce45ddae63" name="Stegoro Kaiser, Struggling Battlekind / Purification Sharrup">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Stegoro Kaiser, Struggling Battlekind"/>
+      <property name="Name2" value="Purification Sharrup"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Race1" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="15A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="9453360e-ef51-46d1-aeb3-6f0948987202" name="Stegoro Kaiser, Struggling Battlekind / Purification Sharrup">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Stegoro Kaiser, Struggling Battlekind"/>
+      <property name="Name2" value="Purification Sharrup"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Race1" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="15B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="b48b7914-4999-490b-bb66-6a44de3133d0" name="George &lt;Jelly Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Parasite Worm/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Darkness|rex4 (When one of your Darkness|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="1fce2b36-ed2e-408b-9663-bc0a548e0770" name="Gigandydanos, Big Tree King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
+      <property name="Power" value="50000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When you put this creature, your opponent puts their hand into their mana zone.&#xA;■ You can't be attacked by creatures that have less power than this creature.&#xA;{FUSHIGIVERSE} Darkness/Nature 1 4 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 1 4 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="16A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="40cea6fe-8369-4fce-9369-9b40c3eaaac7" name="Gigandydanos, Big Tree King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
+      <property name="Power" value="50000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When you put this creature, your opponent puts their hand into their mana zone.&#xA;■ You can't be attacked by creatures that have less power than this creature.&#xA;{FUSHIGIVERSE} Darkness/Nature 1 4 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 1 4 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="16B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="87bb9107-1221-4d52-80ed-9d7adcdd51cc" name="Stored Hand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures, then destroy another of your opponent's creatures for each 'Stored Hand' in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="5b5962c8-57bd-434a-937b-911c3a419fca" name="Evo Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card. Then you may put a creature from your hand that costs 5 or less that can evolve from this creature on top of it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="17A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="43e01af2-2f25-4552-a8d6-53ff05b3a42a" name="Evo Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card. Then you may put a creature from your hand that costs 5 or less that can evolve from this creature on top of it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="17B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="7cd2b24e-13c3-4e18-89aa-fa68fc87095c" name="Fujiyaman &lt;Jack Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Lost Crusader/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's cards that costs 4 or less in the battle zone and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="b5ced56c-f25c-4dc1-ac36-80af26fab402" name="Jogiragon and Johnny ~J's Journey~">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers Dragon"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="■ Revolution Change: Jokers that costs 5 or more (When one of your Jokers that costs 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card, then, discard a card from your hand. If you discarded a Jokers, you may use one of its abilities that start with &quot;When you put this creature&quot;.&#xA;■ Your opponent can only cast 1 spell during their turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f37f92b7-51d4-4570-a237-3f3530ae3d45" name="Jogiragon and Johnny ~J's Journey~">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers Dragon"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="■ Revolution Change: Jokers that costs 5 or more (When one of your Jokers that costs 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card, then, discard a card from your hand. If you discarded a Jokers, you may use one of its abilities that start with &quot;When you put this creature&quot;.&#xA;■ Your opponent can only cast 1 spell during their turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="1a85dab3-b66e-46f9-b5c6-4be39b5d7529" name="Gett the Future">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Discard a card from your hand, then draw a card. Destroy one of your opponent's creatures that costs the same as or less than the discarded card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="b76868f5-6588-4c62-bbb7-52362f058a2d" name="Dondon Shower Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 2 cards of your deck into your mana zone tapped.&#xA;■ Return a creature from your mana zone to your hand. Then you may choose one of your opponent's creatures that costs the same as or less than that creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="19A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="0fc62808-98a3-40f5-9e44-60ac5deefc17" name="Dondon Shower Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 2 cards of your deck into your mana zone tapped.&#xA;■ Return a creature from your mana zone to your hand. Then you may choose one of your opponent's creatures that costs the same as or less than that creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="19B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="20b8331a-ebed-4946-a45b-534373c933e8" name="Dangerdeon &lt;Ragma Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Arc Seraphim/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Nature|rex4 (When one of your Nature|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cd7eccc0-7a9a-496f-b0a5-84af43a0f190" name="Glenmalt, Final Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="20A/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d5e4fe0a-1de6-48e2-8f77-54f0e7ab8ded" name="Glenmalt, Final Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="20B/20"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="57896bba-3e38-4208-bccc-5292b15f1b0c" name="Momostar Triple Battle!!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and put it into its owner's mana zone. Then if your opponent has more cards in their mana zone than you have in yours, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cb4a0238-dda2-47ea-9d7b-6247561e775b" name="Milzabi Mira, Concatenated Miracle Prayer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Angel Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, put all your Distas from your graveyard that were destroyed this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="4c96edfb-f0a1-40ed-977e-fd4c2b84a372" name="Optimus Blizzard, Connected Invincible Ice">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Great Mecha King/Snow Faerie"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, if a card was put into your shield zone this turn, put the top card of your deck into your mana zone, then return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="0d6b0078-6455-4919-9501-26d316462cc7" name="Jaga A Lzor, Hybrid Indignant Sea">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Cyber Command/Volcano Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, each of your creatures can't be blocked until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2185122c-870c-459b-b743-0e13cd687396" name="Fatal Elegance, Electrofused Infinite Hunger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Poseidia Dragon/Giant"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures and return them to their owner's hand.&#xA;■ Whenever your opponent puts a creature, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="08228376-7a8c-481d-bd82-755068d68294" name="Galamucid, Connected Execution Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Dark Lord/Oraclion"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;■ Whenever you put this creature or it attacks, you may destroy one of your Distas. If you do, you may put a Distas from your graveyard or mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ca54f73d-61da-43fe-a7f0-8ae68e77bc72" name="Kiryuin Bato, Electrofused Blast Crimson">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Gaial Command Dragon/Beast Folk"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ While battling, this creature gets +8000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f9a362d5-ae06-498d-9001-c1530be06753" name="Hyakume-4, Spirit Treasure">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Pandora's Box/Arc Seraphim/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature or is chosen by your opponent, put the top card of your deck into your mana zone. Then your opponent discards a card at random from their hand.&#xA;{SASAGALE} 4 (While summoning a Dispector, you may reduce its cost by 4. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="e05af72b-c4fc-43fc-b048-9237c152a489" name="Aquan-2, Electro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, reveal the top 4 cards of your deck. Add a water card, fire card and nature card from among them to your hand. Put the rest on the bottom of your deck in any order.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d968ad95-b36b-4d5e-8430-63e94a14cbcd" name="Gausslvis, Hybrid Force Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Tyranno Drake"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ At the start of your opponent's turn, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="5f37436c-17ad-4184-a49f-4e2c5f078ff5" name="Critive-1, Heaven Wings">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Justice Wing/Distas"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature that costs more than the number of cards in their mana zone, your opponent puts that creature on the bottom of their deck.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="968149b0-2575-4d56-adb1-20873345250e" name="You Are Judgment I Am Justice">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ During your opponent's next turn, your creatures won't leave."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a0ab20e5-f0e5-4b4e-b0ba-f934ddd6603c" name="Walsurafor, Sutured Crossing Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Magic Command/Dreammate"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="4fc45cd7-5e54-4136-bb68-1498754f234a" name="Sardine, Canned Captain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose a player. That player shuffles all cards in their graveyard into their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="232e64bf-ec1d-4753-bb5e-115fc5a9a13b" name="Medicre-1, Cyber">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Each of your Distas gets &quot;Justdiver&quot;. (When you put a creature that has &quot;Justdiver&quot;, that creature can't be chosen or attacked until the start of your next turn.)&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="9c46809a-d36a-4b1a-824e-1018bea50670" name="Jigoku Parthenon, Concatenated Sentenced Spirit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Arc Seraphim"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a07bc7bd-805d-457c-ad65-ef028b3aad7e" name="Vogisha, Gig">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ede36bf2-987a-4f6f-a936-58c912d7cdec" name="Cut-1, Soul Puppet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Xenoparts/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Each of your Distas gets &quot;Slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the opponent's creatures after the battle.)&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ebced27c-fb30-464e-8a2d-3e4979bb3fc1" name="Sir Bernhard Ophon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="211d0189-34fc-4895-b5ee-5397ffa71625" name="Soundfather, Electrofused Mecha Man">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Flame Command/Great Mecha King"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top card of your deck. If it's a Distas, you may put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="dcc87f37-6512-49bf-8af9-ab4bb045123d" name="Frogger-1, Moon Sand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dune Gecko/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent's non-evolution creatures can't attack on the turn they are put.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="21e44b20-1668-4204-ace1-d369a15f1068" name="Yaw Bardi, Connected Distorted Evil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Mystery Totem/Grand Devil"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put a Distas from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2d2b7fe9-7d04-4ebd-89de-45418bbccd08" name="Elfi-1, Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk/Distas"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack.&#xA;■ Your Distas cost 1 less to summon. They can't cost 0 or less.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="30eeaa7a-cca2-4ec1-9797-18392602afdd" name="Segare, Bei B">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Milkboy"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ When your opponent would put a creature that costs more than the number of cards in their mana zone, your opponent puts it into its owner's mana zone instead, then put this creature into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="955275f4-24f5-4c58-9284-866751c0db08" name="Ratta and Armstrong, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Tricks/RexStars"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Shieldify the top card of your deck:&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a90caa86-7559-479f-9bae-53de7f876199" name="Ashli-2, Holy Dark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Shine Monster/Dark Monster/Distas"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="■ At the end of your turn, put the top card of your deck into your graveyard.&#xA;■ When this creature is destroyed, you may return another creature from your graveyard to your hand.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cc59111d-081f-40cc-aade-c107cee07989" name="Icaros-2, Gaia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Lost Crusader/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's creatures and tap it:&#xA;► Destroy one of your opponent's creatures that costs 3 or less.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="689a330a-a7d2-475f-a45c-d09ef022797d" name="Bontobo and Amber, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Gransect/RexStars"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap:&#xA;► Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="47d6af8a-fedb-4e0b-9e9f-c4a4b85af2d5" name="Spiner and Uni, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/Mafi Gang/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Draw 2 cards, then discard a card:&#xA;► Choose one of your opponent's creatures. That creature gets -5000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="e24ec285-102e-4301-b83d-1cf74b0400b6" name="Doscorpi-2, Mecha">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid/Merfolk/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature is destroyed, draw a card. Then destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="63043b54-c506-450a-87cc-150e5d7183c5" name="Ajisai-2, Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="0f5520d3-f5db-4e8c-9aa5-30aff5b86a32" name="Hemoglo and Hanako, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Mafi Gang/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Put one of your creatures that cost 2 or less from your graveyard into the battle zone:&#xA;► Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="4e8c5b18-85b5-49a4-8644-532924d17f2f" name="Deismagi-2, Unusual Armor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Lost Crusader/Alien/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard or your mana zone.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="168bf79c-51da-43c5-992c-fa40f648bd1c" name="Starbu-2, Hero Mech">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Beast Folk/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)&#xA;■ When you use this creature's &quot;Sasagale&quot; ability, the Dispector with its cost reduced gets &quot;Speed Attacker&quot; and &quot;Mach Fighter&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness. A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="97d0a5dc-30f6-486c-bfd1-e932e5efc22b" name="Pump and Bakugetto, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Gransect/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Discard a card, then draw 2 cards:&#xA;► Choose one of your opponent's creatures that costs 6 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2e6bc9b1-c97e-496e-8e26-51cad42bea4e" name="Spirigaria, Connected Dark Spirit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Dark Lord/Mystery Totem"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="4d1359ce-7c2c-49ce-9787-271b6845ac0c" name="Baronbrick, Electrofused Noble Rage">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage/Wild Veggies"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ While battling, this creature gets +8000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d3250a83-0bd7-40f5-9e98-91e65e671510" name="Bernine &lt;La Veil Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Mecha Thunder/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ At the end of the turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="37854eb7-c89d-46c7-a52e-522b755327fc" name="Rolan-2, Apocalyptic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="3e98da8d-d28a-4e91-86c9-4dc515038eaa" name="Luckyda, Fortunate Enforcer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Berserker"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2daa9f84-61b5-4236-a332-b2ad75ab2b0c" name="Ikaga, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may put a creature that costs 2 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="33d54284-f557-4da8-be2e-607dbf391040" name="Acroite, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first light creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="9c440c39-6550-4f49-8057-fe806d070d47" name="Tulk GS, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="8a528882-cd23-474a-8f22-c991d134d995" name="Ultimate Transcendental Command Code 999">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Untap one of your creatures. That creature gets &quot;blocker&quot; until the start of your next turn. (You may tap a creature that has &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="bc482256-d491-4c60-a410-28bda903eaa3" name="Manomi &lt;Poseidon Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mutopia/Leviathan/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ When you put this creature, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d45882b9-252c-49f5-bbfd-456bb6cf1e42" name="Soldier-2, Cyber">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature is destroyed, return it from your graveyard to your hand.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d8436726-21c0-4a4e-8269-0b1f183f502e" name="Unicorn Fish GS">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="57bbf5d7-15d8-4403-9e03-edeba94b1cfe" name="Shinmada, Deepsea Referee">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ While blocking, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="b7516f36-4912-46be-8222-97f0c44a56b7" name="Mypad, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first water creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="c95d82a0-af3a-48b4-9308-af7baa4633c3" name="Dragment Loading 314%! Dragment Cannon, Fire!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Until the start of your next turn, your opponent can't attack with creatures that have power 5000 or less.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="92e34b15-7afa-45a0-807a-481bcb92a8d2" name="Forbidden Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="5a81ae44-fa66-45ea-b8d3-45b221b0f5f9" name="Georges &lt;Guljene Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Zombie Dragon/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ You may summon this creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cf9fc242-af9b-49a8-b7ea-0a3fa5064d01" name="Rnando-2, Mystic Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Knight/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ If you have 2 or more cards in your graveyard, this creature costs 2 less to summon.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="94e0243a-333f-48f7-ba2a-13047a83676b" name="Sabirabirin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ After this creature attacks, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="37e322db-cee3-4943-9189-0d327c2ee669" name="Honenbe GS, Skeletal Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature, put the top 3 cards of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a46666cf-e5fa-461e-a521-90fffedffd7c" name="Pienpaon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="12377ba4-4a19-4640-ba83-c6a0744b9fe3" name="BloodRayne, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first darkness creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="7469c958-4692-4830-9bcd-aa5e36dd6afc" name="Zeroside Game">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. If you have a creature that has 6000 or more power in the battle zone, the chosen creature gets -6000 power instead. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="02feb80a-b63c-48fe-af2c-7b48eb52b4da" name="Damdam Jokers">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ Put the top 2 cards of your deck into your graveyard.&#xA;■ Return a Jokers creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="3d9e16af-a870-487a-be37-7d9ea6d55492" name="Hop &lt;Volcano Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Dragonoid/RexStars"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="3eb76afa-9775-413d-9c75-190d89eb16ac" name="Onimoel-2, Warrior">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, destroy one of your opponent's creatures that has power 2000 or less.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="5c3e6638-8c92-4069-aeb1-c37e40548e39" name="U・S・A・NDARU">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cc148599-1b12-4200-a382-49946f126866" name="Topgear, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first fire creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="e7362ab4-7aab-49ab-bbd2-e12ad79439e5" name="Kodamanma GS, Gil Gil Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Alien"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ba2c6f6c-8f79-4f43-9ce9-46769db60b13" name="Gosen! Bakusen!! Showdown!!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose 2 creatures, they battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a4a91124-450a-4253-92be-2f051950e85a" name="Boil Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's cards in the battle zone that costs 2 or less and put it into its owner's graveyard.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ecd088d6-e4b5-4a44-a9ac-f5d2c46df13d" name="QX. &lt;Goemonkey! Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Dreammate/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ You may summon this creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a84f11cb-1d9a-43e7-9d34-3ceebf18e008" name="Momijaguar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="9cee5840-855a-415e-bb05-7d89accc4373" name="Chucky Zenler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d072c315-df25-48b9-a440-6c489f911fab" name="Antoma Tan Gendo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Orb/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 5 cards of your deck. Put one of them into your mana zone and the rest on the bottom of your deck in any order.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="24015a2d-be5b-44a5-b604-44116ac6464b" name="Ikinokorinokinoko">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ You may put this creature tapped.&#xA;■ Whenever an opponent's creature attacks, they attack this creature if able.&#xA;■ When this creature is destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="dd5031f8-7e35-440b-97da-d4e96955086c" name="Kerasas, Restart Dash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Each turn, you may have the first nature creature you summon cost 1 less. It can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="6e06db88-965d-404c-904c-d864b0dca133" name="Yattar Wan GS, Adventuring Fox">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, you may put a card from your hand into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f0ed52a9-1955-44c1-8ad6-60087eacfdcc" name="Pollico, Adventure Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ At the end of each of your turns, if this creature broke any shields that turn, return it to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="cbd96648-d62e-44bc-be35-1aad796e5d76" name="Ushiokomaru">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put one of your shields into your graveyard. Then draw a card.&#xA;■ After this creature attacks, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/95"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="a676293a-688b-44cf-855b-7518d3dc1426" name="George &lt;Jelly Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Parasite Worm/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Darkness|rex4 (When one of your Darkness|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro1/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="9153800c-b738-4c12-a773-94cdcec577ef" name="Vogisha, Gig">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro2/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="32fc1315-e274-4794-8492-6c7d6d7c82b3" name="Pienpaon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro3/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="f655edae-0f1e-47a9-9517-724ce307b4b3" name="Sabirabirin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ After this creature attacks, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro4/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="98508950-c4a4-47e2-99b2-4e846e40eaea" name="Georges &lt;Guljene Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Zombie Dragon/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ You may summon this creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro5/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="47f94d2e-d7b9-4686-9375-ffcdc6cf71d0" name="Fujiyaman &lt;Jack Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Lost Crusader/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's cards that costs 4 or less in the battle zone and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro6/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="eb0d485a-631b-459d-96f0-2da50123df72" name="Dangerdeon &lt;Ragma Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Arc Seraphim/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Nature|rex4 (When one of your Nature|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro7/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="8ca8243b-c18f-4081-bfd7-a52330624a67" name="Sir Bernhard Ophon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro8/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="744b1c81-4e3a-4148-b239-cc2806f8a290" name="Pump and Bakugetto, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Gransect/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Discard a card, then draw 2 cards:&#xA;► Choose one of your opponent's creatures that costs 6 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro9/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d02bd7f3-6800-4e40-97ef-3dff3d766be6" name="Chucky Zenler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro10/Coro10"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d4947f06-4135-4460-b54b-ed6353cd27f7" name="Momokingdam X, Forbidden Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Forbidden/RexStars"/>
+      <property name="Power" value="99999"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM1/KM3"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="7ebc92d9-af5f-4e1d-a86b-cbab84539f45" name="Vol-Val-8, Forbidden Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Earth Dragon/Forbidden"/>
+      <property name="Power" value="54321"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER} {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature attacks, look at the top 5 cards of your deck. Add up to 2 cards from among them to your hand and put the rest on the bottom of your deck in any order. Then you may destroy all creatures that have power 6000 or less.&#xA;■ At the end of your turn, if 4 or more creatures were destroyed this turn, take an extra turn after this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM2/KM3"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="64e48d8d-59e7-4394-9e2b-9f7f9078bf0f" name="Romanogri-La the 0th, Zero Prison Connected King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Dark Lord/Guardian/Knight"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ When you put this creature, you may look at the top 3 cards of your deck. If you do, put one into your graveyard and put the rest into your mana zone.&#xA;■ Whenever this creature attacks, put up to one creature from your mana zone and/or graveyard that have total cost the same as or less than the number of cards in your mana zone.&#xA;■ While this creature is tapped, you can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM3/KM3"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="ae64f8e1-9b4c-41c4-bbbd-c2ac4a6a90d5" name="Zett &lt;Nine Extremes Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Angel Command/RexStars"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light|rex4 (When one of your Light|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only put cards from their hand.&#xA;■ Your opponent can only cast spells from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2cce32d0-3bc5-43f2-b57b-8c66d8607b9f" name="Code:Ikouze &lt;Adam Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Magic Command/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Water|rex4 (When one of your Water|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then choose one of your opponent's creatures and return it to its owner's hand. Until the start of your next turn, your opponent can't put creatures that have the same name as the card you returned to your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="60112bb2-e188-496c-8c39-06d5ac8bcc8f" name="Voiron &lt;Deazo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Master Dragon Z/Sonic Command/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ 'Star Evolution'—Put on one of your RexStars or Darkness creatures.&#xA;{INVASION}-Darkness|rex4 (When one of your Darkness|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, return any number of creatures that have different costs from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="fe98ad9b-eef1-46b3-b5ec-2ec2ed565217" name="BAKUOOON &lt;5000GT Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Outrage/RexStars"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ If you have 3 or more Beat Jockeys or RexStars in the battle zone, this creature costs 5 less to summon.&#xA;■ 'Star Evolution'—Put on one of your RexStars or Fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Whenever this creature wins a battle, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="bd822938-e270-40a1-810d-0cc93b88385f" name="Canbello &lt;Rezo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Sonic Command/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="36232dd2-4d0e-478b-8ea5-7a14a294704c" name="Ohkabuto &lt;Sanma Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Guerrilla Command/RexStars"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Nature|rex4 (When one of your Nature|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your mana zone.&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="b753c91a-2846-456c-9fa0-e0cfd64bd078" name="Ulvolans, Hybrid Striking Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Earth Eater"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard up to 2 cards from your hand. Then draw one more card than the number of cards you discarded this way.&#xA;■ Whenever you summon your first creature each turn, you may cast a spell that costs the same as or less than that creature's cost from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="2829b567-07d9-460e-b9d4-17248f3486af" name="Valhalzark, Concatenated Destruction Seal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command Dragon/Armored Dragon/Zombie Dragon"/>
+      <property name="Power" value="7500+"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever you put a creature, choose one of your opponent's creatures and tap it.&#xA;■ Whenever one of your opponent's creatures is destroyed, shieldify the top card of your deck and this creature gets +6000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="d302c297-c20f-4fa7-b012-2c2ad74bd6cb" name="Nero Gurpio, Connected Terror Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Jurassic Command Dragon/Knight"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, each of your opponent's creatures gets -5000 power until the end of the turn.&#xA;■ Whenever one of your opponent's creatures attacks or blocks, your opponent chooses and taps one of their untapped creatures.&#xA;■ You may summon this creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="7365a322-3e2c-42a0-b4b2-01750b0c2f80" name="Amodegoras, Sutured Devil Element">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Grand Devil/Crystal Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would draw a card, if it’s not the first card they drew this turn, your opponent puts it into their mana zone instead.&#xA;■ Whenever you would discard a card, you may put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+    <card id="1fb93063-073e-4959-916c-7bb1fe7bf4f1" name="Gyukautsu Maguru, Victory Disaster Electrofused King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage MAX/The Answer"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck. Put any number of multicolored creatures that have total cost 9 or less. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11/S11"/>
+      <property name="Set" value="DMRP-19 Eternal Premiums"/>
+    </card>
+  </cards>
+</set>

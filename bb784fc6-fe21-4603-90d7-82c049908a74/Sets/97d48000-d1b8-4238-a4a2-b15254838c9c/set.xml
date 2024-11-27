@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye" id="97d48000-d1b8-4238-a4a2-b15254838c9c" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <cards>
+    <card id="b96c8ca0-9e54-4191-8c3e-4d00a748c678" name="Dark Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons are destroyed, you may destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Dark Lupia"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="42516759-6e6e-4407-a3a0-c49cc5e5cd9e" name="Gaial Kaiser Play's">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your shields break, look at that shield. You may put it into your graveyard instead of your hand. If you do, you may put a Hunter psychic creature from your hyperspatial zone that costs the same as the card that you put into your graveyard this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激1a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Gaial King Dragon Play's, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="激1b+激2b+激3b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="edfaa348-9aac-47c0-ac73-97dff8abbf96" size="tall" name="Gaial King Dragon Play's, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激1b+激2b+激3b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="52825e01-a311-4a1b-b2d2-f6c0aa3fec58" name="Gaial King Dragon Play's, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激1b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="4044e1f6-a9bf-4d49-861e-06779038d6bd" name="Dragonic Pippi Play's">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Fire Bird/Hunter"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;■ PLAY'S Psychic Link: At the start of your turn, or whenever you put Gaial Kaiser Play's, if you have Gaial Kaiser Play's, Boost Play's, Crimson Lord and this creature, link them and flip this creature.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激2a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Gaial King Dragon Play's, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="激1b+激2b+激3b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="f29c8e8e-69ee-469b-b655-5aa56a21c2fb" name="Gaial King Dragon Play's, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激2b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="ace0ab74-8714-402b-90ab-777cfeba2709" name="Boost Play's, Crimson Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Flame Monster/Hunter"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, destroy one of your opponent's creatures that has less power than it.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激3a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Gaial King Dragon Play's, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="激1b+激2b+激3b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="4c70b2d3-9b36-49ca-86c7-60c91ab2165b" name="Gaial King Dragon Play's, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="激3b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="012ed7f9-259b-4946-a36c-2b3a6d3d1063" name="Bolshack Dragon, the Temporal Blaze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;{DOUBLE BREAKER}&#xA;■ Awaken—When this creature wins a battle, flip this creature to its higher cost side."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="激4a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Bolshack Möbius, Victory Awakened" type="awakening" size="normal">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="14"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Armored Dragon"/>
+        <property name="Power" value="12000+"/>
+        <property name="Rules" value="■ Whenever this creature attacks, you may put one of your shields into your graveyard. If you do, you may destroy one of your opponent's creatures that has power 6000 or less.&#xA;■ Each turn, you may untap this creature the first time it is tapped.&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;{TRIPLE BREAKER}&#xA;{RELEASE} - Bolshack Dragon, the Temporal Blaze (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Super Rare"/>
+        <property name="Number" value="激4b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="bfc769a3-6568-4fd3-824f-30116a72f6d2" name="Bolshack Möbius, Victory Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="14"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put one of your shields into your graveyard. If you do, you may destroy one of your opponent's creatures that has power 6000 or less.&#xA;■ Each turn, you may untap this creature the first time it is tapped.&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;{TRIPLE BREAKER}&#xA;{RELEASE} - Bolshack Dragon, the Temporal Blaze (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="激4b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="acd0a25c-783f-4124-b1b8-8d1cbdf76605" name="Untouchable, Temporal Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Machine Hero"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Awaken—At the end of each turn, if another of your psychic creatures awakened that turn, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激5a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Untouchable Powered, the Awakened Protean" type="awakening" size="normal">
+        <property name="Civilization" value="Water"/>
+        <property name="Cost" value="7"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Cyber Command"/>
+        <property name="Power" value="5000"/>
+        <property name="Rules" value="■ This creature can't be blocked.&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Uncommon"/>
+        <property name="Number" value="激5b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="59e872a4-129f-45e0-8d38-54424eaec7d2" name="Untouchable Powered, the Awakened Protean">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激5b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="6993edad-5861-43fe-b263-753da6dc6b89" name="Kill, Temporal Brawler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead.&#xA;■ Awaken—At the start of your turn, if you have a creature in the battle zone that has power 6000 or more, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激6a/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      <alternate name="Setsudan, Awakened Giant" type="awakening" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="7"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Giant"/>
+        <property name="Power" value="5000+"/>
+        <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Uncommon"/>
+        <property name="Number" value="激6b/激17"/>
+        <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+      </alternate>
+    </card>
+    <card id="a971c635-b8ed-42e9-a2fa-e23aee381e1d" name="Setsudan, Awakened Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激6b/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="fb033434-1281-45d1-b9a1-ce41129e8714" name="DNA Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ If you have 2 shields or less, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="激7/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="ace1eb9d-2f8f-4e49-8e20-dd7ea0ff1976" name="Hyperspatial Gaial Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put up to 2 Fire psychic creatures that have total cost 8 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="激8/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="64dc3cfc-8c3f-4514-9bf6-c8060b744649" name="Natural Snare">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and put it into his mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="激9/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="33970700-bb55-4bab-9952-15f413aeb3b5" name="Jack Alcadeias, Holy Gaia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Lost Crusader"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="激10/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="2e663f30-a265-49db-9834-fe651fdb46b6" name="Hyperspatial Shooting Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;■ Put a Fire psychic creature that costs 9 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激11/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="d12e7aba-22a0-4bb4-bc3b-c180c2cfd2f7" name="Hyperspatial O'Flame Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put a fire psychic creature that costs 5 or less from your hyperspatial zone. (At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="激12/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="9f48739a-1d30-4da9-8420-5853aff277e3" name="Hyperspatial Bolshack Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent’s creatures that has 3000 power or less.&#xA;■ Choose one of the following:&#xA;► Put any number of psychic creatures that have total cost 5 or less from your hyperspatial zone into the battle zone:&#xA;► Put a fire psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="激13/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="e136078d-cc50-4cf6-93c9-737af61523c4" name="Hyperspatial Kill Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot; and power 4000 or less.&#xA;■ Choose one of the following:&#xA;► Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone:&#xA;► Put a Fire or Nature psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="激14/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="bcb2226a-ac11-4a1b-a1fd-79f8a40969b0" name="Jasmine, Mist Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may destroy this creature. If you do, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="激15/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="89977bd5-a0ad-4262-b940-4f750c34681c" name="Faerie Life">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="激16/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="63c43e42-3379-46b3-bf05-f3f8017e89ca" name="Ulcos, Spirit Knight Phantom Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Arc Seraphim/Dreammate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="激17/激17"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="e2c56d4b-7579-4885-b425-dd3177a4c444" name="Mad Rock Chester Romanov, Purgatory Wicked God">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="God/Dark Lord/Knight"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for the number of cards in each graveyard. It can't cost less than 2.&#xA;■ Graveyard Galaxy Vortex evolution: Choose 3 darkness or fire creatures in your graveyard and put this creature on top of those creatures.&#xA;■ Meteorburn: Whenever this creature attacks, you may put up to 3 cards under this creature into your graveyard. For each card put into your graveyard in this way, cast a darkness or fire spell that costs 6 or less from your graveyard for no cost and put it on the bottom of your deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="邪1/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="c40a2aa0-2774-4706-8c52-0fd47f1e2b8b" name="Beginning Romanov, Lord of the Demonic Eye">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Graveyard Galaxy Vortex evolution—Choose 3 darkness creatures in your graveyard and put this creature into the battle zone on top of those creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may choose any number of cards under this creature and put them into your graveyard. For each card put into your graveyard in this way, choose a card in your opponent's hand at random. Then your opponent reveals that card and puts that card on the bottom of their deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="邪2/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="6e0c2f27-7e32-450c-87de-16d1077b349d" name="Romanov the 1st, Lord of the Demonic Eye">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, search your deck. You may take a darkness card from your deck and put it into your graveyard. Then shuffle your deck.&#xA;■ Whenever this creature attacks, you may cast a darkness spell that costs 6 or less from your graveyard for no cost. Then put that spell on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="邪3/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="6722bbb5-2fd4-4a1c-a8e7-e2100748a46d" name="Miraculous Meltdown">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ You can cast this spell only if your opponent has more shields than you do.&#xA;■ Your opponent chooses one of his shields for each shield you have. He puts the rest of his shields into his hand. (He can use the &quot;shield trigger&quot; abilities of those shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="邪4/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="aaf4404c-739e-49f2-85a1-099b44f2ab67" name="Eternal Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Knight"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Put a non-evolution darkness or fire creature that costs 7 or less from your graveyard into the battle zone. That creature gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="邪5/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="b3320b9d-910f-4a29-bb98-e91f4dff6a65" name="Yamino Order, Demonic Eye Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Monster/Ghost/Knight"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ If you have a card that has &quot;Romanov&quot; in its name in your graveyard, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then destroy one of your opponent's creatures that costs the same as or less than the number of darkness and fire cards in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="邪6/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="0f125be2-e5d9-4214-a580-61fe367869d7" name="Death Gate, Gate of Hell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's untapped creatures. You may put a non-evolution creature that costs less than the destroyed creature from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="邪7/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="0bc31d24-8770-4350-908d-80a241a6882a" name="Inferno Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution creature that costs 7 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="邪8/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="511dcfdb-a349-4572-bbd6-85aa7ccd20bb" name="Primal Scream">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top 4 cards of your deck into your graveyard. Then you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="邪9/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="b6ac160e-c036-443a-acd7-98776d16b38d" name="Sir Virginia, Mystic Light Insect">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm/Knight"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, return a creature from your graveyard to your hand. If that creature is an evolution creature that has the same race as this creature, you may put that creature into the battle zone for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="邪10/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="a75e8753-fe2b-4a24-a31b-903d883b58e5" name="Sir Dimitri, Demonic Eye Gunknight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Knight"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature wins a battle, destroy it.&#xA;■ At the end of each of your turns, if you have a card that has &quot;Romanov&quot; in its name in your graveyard, put the top card of your deck into your graveyard. If you don't have a card that has &quot;Romanov&quot; in its name in your graveyard, you may search your deck. If you do, you may take a card that has &quot;Romanov&quot; in its name from among it, put it into your graveyard and shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="邪11/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="5a634998-2570-47fa-b34c-dbfbd45fd085" name="Yamino Caesar, Dark Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Monster/Knight"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Each turn, whenever you cast a spell for the first time, put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="邪12/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+    <card id="6a933d83-7797-44fb-a981-2f538f0ef7a0" name="Bone Dance Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put the top 2 cards of your deck into your graveyard.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="邪13/邪13"/>
+      <property name="Set" value="DMPCD-03 DueMaPlay's Collaboration Deck: The Fierce Dragon Hero and the Original Wicked Eye"/>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Conquering All Challenges Pack: Volume 4" id="d8239d49-1a82-4cbd-94c6-83839c9af12d" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <cards>
+    <card id="d0f445b1-3e0e-480b-95c3-6b605ac756ce" name="Hyperspatial Guard Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="68P/Y9"/>
+    </card>
+    <card id="b11e1f46-5ff4-491b-af9f-38e86c14861c" name="Black Ganveet, Temporal Wicked Soldier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your opponent's tapped creatures.&#xA;■ Awaken—At the end of your opponent's turn, if your opponent has no cards in their hand, flip this creature to its higher cost side."/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P66a/Y9"/>
+      <alternate name="Darkness Ganveet, the Assassin Awakened" type="awakening" size="normal">
+        <property name="Civilization" value="Darkness"/>
+        <property name="Cost" value="13"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Demon Command"/>
+        <property name="Power" value="9000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, your opponent chooses a card in their hand and discards it, then chooses one of their creatures and destroys it.&#xA;{DOUBLE BREAKER}"/>
+        <property name="Watermark" value="{Bloody} {Soul}"/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+        <property name="Number" value="P66b/Y9"/>
+      </alternate>
+    </card>
+    <card id="ae45639e-8df7-4288-969c-4d5b354cd692" name="Darkness Ganveet, the Assassin Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, your opponent chooses a card in their hand and discards it, then chooses one of their creatures and destroys it.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P66b/Y9"/>
+    </card>
+    <card id="da16da52-1cf0-45da-8659-252fff42f1b9" name="Tulk SP">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Instead of having this creature attack, you may tap this creature and 4 untapped cards in your mana zone to use its {TAP} ability:&#xA;{TAP} If you don't have a psychic creature that has &quot;Five Star&quot; in its name in the battle zone, put a &quot;Five Star, Temporal Luck&quot; from your hyperspatial zone into the battle zone."/>
+      <property name="Watermark" value="{Holy} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P67/Y9"/>
+    </card>
+    <card id="7cc06fa8-4f53-4d7d-ac10-af61815bb95e" name="Huckle Kirin Sawyer, Jungle Governor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P69/Y9"/>
+    </card>
+    <card id="78290d2d-1e66-49ca-b8c6-8b67811140d4" name="Hide and Seek">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Choose one of your opponent's non-evolution creatures in the battle zone and return it to his hand. Then he discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P70/Y9"/>
+    </card>
+    <card id="5b326421-4190-44d7-be5f-5202331cc8c2" name="Pildol, Bird of Fire">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Fire Bird/Origin"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Fire Birds or Origins."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P71/Y9"/>
+    </card>
+    <card id="16b1e806-1cb2-4d1a-94a3-52dd7b76363e" name="Jet R.E, Brave Vizier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then, destroy one of your opponent's creatures that has &quot;blocker&quot;,"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P72/Y9"/>
+    </card>
+    <card id="f156bee1-2114-43dd-a094-93615e10c1c5" name="Heaven's Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="P73/Y9"/>
+    </card>
+  </cards>
+</set>

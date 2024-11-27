@@ -1,0 +1,1858 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-05 Gokai!! Joragon Go Fight!!" id="fedc51ee-cdc4-45e8-901d-5cf1f4e03ac7" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="f9f8f0e0-a431-4195-b569-55aad3657d4d">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="1d94e068-1b91-48e6-983b-9143b037b099" name="Charmeijin, Hundred Delivery">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may put any number of creatures that have &quot;Men&quot; in their name from your deck and hand into the battle zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="82c68e58-fc43-4f3b-995b-81bb63715abd" name="Achernar, Star Gate Elemental / Stargaze Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Achernar, Star Gate Elemental"/>
+      <property name="Name2" value="Stargaze Gate"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="9/5"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Race1" value="Angel Command"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, you may put a non-evolution light creature that has &quot;blocker&quot; from your hand.&#xA;TWINPACT&#xA;■ Put a non-evolution light creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, you may put a non-evolution light creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Rules2" value="■ Put a non-evolution light creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="c3bb74e9-5eab-487a-8507-a86d65980848" name="Deal, Mechanic / 「Today's Lucky Number!」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Deal, Mechanic"/>
+      <property name="Name2" value="「Today's Lucky Number!」"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Magic Command"/>
+      <property name="Race1" value="Magic Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose a number. Return all your opponent's creatures that cost the same as that number to their owner's hand.&#xA;TWINPACT&#xA;■ Choose a number. Until the start of your next turn, your opponent can't summon creatures that have the same cost or cast spells that have the same cost."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose a number. Return all your opponent's creatures that cost the same as that number to their owner's hand."/>
+      <property name="Rules2" value="■ Choose a number. Until the start of your next turn, your opponent can't summon creatures that have the same cost or cast spells that have the same cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="509cba84-1c82-4299-a860-27b5335a9cc8" name="Diveao, Chanting Bearer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your spells costs up to 2 less to cast. However, it can't cost 0 or less.&#xA;■ Whenever you cast a spell, choose one of your opponent's creatures and return to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="8015da4c-0b66-4f7f-9861-b4b9788c2e32" name="Luginus, Dragon Armored Doctor / God Hand of Hell">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Luginus, Dragon Armored Doctor"/>
+      <property name="Name2" value="God Hand of Hell"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="8/5"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Dragon Guild/Mafi Gang"/>
+      <property name="Race1" value="Dragon Guild/Mafi Gang"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, put a non-evolution creature that costs 7 or less from your graveyard into the battle zone.&#xA;TWINPACT&#xA;■ Destroy one of your opponent's creatures."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, put a non-evolution creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Rules2" value="■ Destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="cd6dec9d-731a-4480-a51c-be9298bd052b" name="Vomirror, Darma">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Magic Tool"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put the top 3 cards of your deck into your graveyard.&#xA;■ Once during your turn, you may summon a Magic Tool from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="14895758-5a68-4cf1-8f8e-cc33d5f84d91" name="Katsuraderansu / 「I'm going to Afro!!」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Katsuraderansu"/>
+      <property name="Name2" value="「I'm going to Afro!!」"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="7/2"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Race1" value="Jokers"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, put the card on the bottom of your deck into your graveyard. If it's a Jokers creature that costs 6 or less, put it into the battle zone.&#xA;TWINPACT&#xA;■ Discard a card from your hand. Then draw 2 cards."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, put the card on the bottom of your deck into your graveyard. If it's a Jokers creature that costs 6 or less, put it into the battle zone."/>
+      <property name="Rules2" value="■ Discard a card from your hand. Then draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="cd1785e5-81c7-4f17-96dc-38194f3ffb05" name="Twin Les Paul / 「Music Staaart!!!」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Twin Les Paul"/>
+      <property name="Name2" value="「Music Staaart!!!」"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Race1" value="Beat Jockey"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, break one of your opponent's shields and untap one of your other creatures.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures and one of your creatures. Those 2 creatures battle."/>
+      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, break one of your opponent's shields and untap one of your other creatures."/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures and one of your creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="ff5a9e80-2f1d-4a94-bffd-f33196fd26a0" name="Kuromame Danshaku / Hakumai Danshaku">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kuromame Danshaku"/>
+      <property name="Name2" value="Hakumai Danshaku"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="8/3"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Specials"/>
+      <property name="Race1" value="Gransect/Specials"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature with an ability that starts with &quot;When you put this creature&quot;, put that creature into its owner's mana zone.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Rules1" value="{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature with an ability that starts with &quot;When you put this creature&quot;, put that creature into its owner's mana zone."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="99c5fb4b-b69a-471a-a7d7-a27d613363f8" name="Totentontan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your creatures wins a battle, look at the top card of your deck. You may put it into your hand or your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="ac39a31c-1be2-45e8-9e68-5967d033eecc" name="Mixel, Strange Stone / Jamming Chaff">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Mixel, Strange Stone"/>
+      <property name="Name2" value="Jamming Chaff"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="2/5"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature that costs more than the number of cards in your opponent's mana zone, your opponent puts it on the bottom of their deck.&#xA;TWINPACT&#xA;■ Until the start of your next turn, your opponent can't cast spells.&#xA;■ Draw a card."/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature that costs more than the number of cards in your opponent's mana zone, your opponent puts it on the bottom of their deck."/>
+      <property name="Rules2" value="■ Until the start of your next turn, your opponent can't cast spells.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="8c21f2d2-6bd0-4a73-ab42-665c73c59311" name="Shuura, Dawn's Visit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="6002ab8b-7470-4353-ac82-42d2ce60b147" name="Novalty Entrio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose 2 of your opponent's creatures and tap them.&#xA;{SUPER}Reveal the top 4 cards of your deck. From among them, put any number of Metallica that cost 6 or less into the battle zone. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="78164f34-527e-4694-81e5-be6c44399ea9" name="The Bike, Runaway / Bunbun Burst">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="The Bike, Runaway"/>
+      <property name="Name2" value="Bunbun Burst"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Sonic Command"/>
+      <property name="Race1" value="Sonic Command"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;TWINPACT&#xA;■ Destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Rules2" value="■ Destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="1b46bb4f-c43d-4666-bb9e-8925fdffd094" name="Macragen, Lawless Zone / PSY, Illegal Warning">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Macragen, Lawless Zone"/>
+      <property name="Name2" value="PSY, Illegal Warning"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="8/3"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Race1" value="Mutopia"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would choose a creature by the effect of a spell or the ability of a creature, they can't choose this one.&#xA;TWINPACT&#xA;■ Draw a card, then add a card from your hand to your shields face down. Then put a card from your shields into your graveyard."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would choose a creature by the effect of a spell or the ability of a creature, they can't choose this one."/>
+      <property name="Rules2" value="■ Draw a card, then add a card from your hand to your shields face down. Then put a card from your shields into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="5336bcf6-69ea-4e70-89ad-ed756322c277" name="Harinsen, Magical Frontline">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever this creature attacks, you may cast a spell that costs the same as to or less than the number of creatures you have in the battle zone from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="e8bf0529-34be-42b3-a258-4c97e75493bb" name="Uni, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may draw 2 cards. If you do, discard 2 cards from your hand.&#xA;{SUPER}When you put this creature into the battle zone, choose up to 2 spells that cost 4 or less from your graveyard and cast them for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="bd4f4972-0890-424d-9cea-e1d2c652c665" name="Brain's Coral Saint Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 3 cards. Then you may choose a water card in your hand that costs the same as or less than the number of cards in your hand. If you do, use that card from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="10d4089f-fe90-46b3-b97e-0c2b9c019cd7" name="Rousseau Montes / Monte Scale Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Rousseau Montes"/>
+      <property name="Name2" value="Monte Scale Sign"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/5"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Rules1" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
+      <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="5f72463a-70d9-40c0-bbdb-f67bce707757" name="Debit Cutter">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution creature that costs the same as or less than the number of cards in your mana zone from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="64bbcb16-2213-4b5e-9a6b-75b26a22e91b" name="Wand, Botanist">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your opponent's creatures is destroyed, put a creature that costs 1 less than it from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="bfe4fe4d-7ed6-4e5d-a7c1-c48ca7ddb9a9" name="Zessir Saga">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Your opponent chooses one of their untapped creatures and destroys it.&#xA;{SUPER}Put the top 2 cards of your deck into your graveyard. Then return any number of creatures from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="12c8fb65-3d9b-41a8-bfae-4366f2b28aa1" name="Ori, Sneak Tank / Togeball Cannonball">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ori, Sneak Tank"/>
+      <property name="Name2" value="Togeball Cannonball"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="2/6"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Race1" value="Beat Jockey"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone or whenever it attacks, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;TWINPACT&#xA;■ Destroy all your opponent's creatures that have &quot;blocker&quot;."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone or whenever it attacks, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules2" value="■ Destroy all your opponent's creatures that have &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0c4e7c4f-82cf-465c-820f-08735bb65c4b" name="Kinchora">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;{SUPER}When you put this creature into the battle zone, until the start of your next turn, your Jokers get +10000 power while battling."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="dd6c28e3-6037-4056-ad06-229abf716be3" name="Mabudachicco Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 3 (You may reduce this creature's summon cost by 3. If you do, destroy this creature at the end of the turn.)&#xA;■ Each of your Beat Jockeys cost up to 2 less to summon. It can't cost 0 or less.&#xA;■ When you put another creature into the battle zone, you may give that creature &quot;speed attacker&quot;. If you do, destroy that creature at the end of the turn. (A creature that gets &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="9a39f74e-8de2-4e06-997f-8dca26693864" name="Zerono Stagger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever an opponent's creature attacks, they attack this creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="d15a05b9-d2f8-4be2-b323-5ffef14bc4bf" name="Tomeiteo, Dragon Car">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="b5700488-b83a-41e9-95e4-160b1e24cdef" name="Aurora Pikanchi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's untapped creatures in the battle zone and put it into its owner's mana zone.&#xA;{SUPER}Put the top 5 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="194f57be-2355-4f52-8c28-4481546d2bf5" name="Futtonda / Nerune Nerunerune">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Futtonda"/>
+      <property name="Name2" value="Nerune Nerunerune"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Civilization2" value="Colorless"/>
+      <property name="Cost" value="4/6"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Race1" value="Jokers"/>
+      <property name="Power" value="2222"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, tap this creature. Then choose one of your opponent's creatures and tap it.&#xA;■ While this creature is tapped, the chosen creature doesn't untap.&#xA;TWINPACT&#xA;■ Choose one of your opponent's tapped creatures and put it on the bottom of its owner's deck. Then draw a card."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, tap this creature. Then choose one of your opponent's creatures and tap it.&#xA;■ While this creature is tapped, the chosen creature doesn't untap."/>
+      <property name="Rules2" value="■ Choose one of your opponent's tapped creatures and put it on the bottom of its owner's deck. Then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="4aaad381-eb5a-4833-981b-6b0616f8369e" name="Seminar, Perfect Score">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ During your turn, whenever one of your other creatures leaves the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="e2aae6dd-1335-4d8f-8b42-2d4b592445a4" name="Illusion, Iron Fist Stance / Teckenia Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Illusion, Iron Fist Stance"/>
+      <property name="Name2" value="Teckenia Spark"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/4"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature doesn't leave the battle zone.&#xA;TWINPACT&#xA;■ Tap up to 2 of your opponent's creatures. Those creatures doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature doesn't leave the battle zone."/>
+      <property name="Rules2" value="■ Tap up to 2 of your opponent's creatures. Those creatures doesn't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="c8c804a8-e779-406d-b466-9a1a38148c41" name="Washen, Blue Defense Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature gets &quot;blocker&quot; and untaps at the end of your turn. (Whenever an opponent's creature attacks, you may tap the creature that has &quot;blocker&quot; to change the attack to that creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="12c68fbd-a3bb-41dd-869f-77d97c0953ed" name="Icarino Sabato">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Sabakist"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Whenever a card is put into your shield zone, choose one of your opponent's creature and tap it. That creature doesn't untap at the start of your opponent's turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="84602247-6e38-4590-9627-3c4dce88ee6f" name="Jill Haiku, Space Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures and tap it.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, tap all your opponent's creatures. At the start of your opponent's turn, those creatures don't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="cdddfd03-fd09-4c8d-9129-9aa6c7584912" name="Guringul Bindol">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's shield zone face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="f1175665-eb41-4ce2-ab50-f27f6c3f7fab" name="Kachikatchin, Shell Understander / Thanks Hotatte">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kachikatchin, Shell Understander"/>
+      <property name="Name2" value="Thanks Hotatte"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="6/4"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Race1" value="Mutopia"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Draw up to 3 cards. Then discard a card from your hand."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="■ Draw up to 3 cards. Then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="08bfcbb2-97c2-4014-a300-4267186e81c6" name="Azaran, Tyrant / Kozaran's Great Disturbance">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Azaran, Tyrant"/>
+      <property name="Name2" value="Kozaran's Great Disturbance"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/1"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Race1" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, draw 2 cards. Then discard a card from your hand.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, draw 2 cards. Then discard a card from your hand."/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="c4b81ee2-32df-4660-99c2-c92232606009" name="Hoshikara, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, return a spell from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="9d87fd86-46f4-4014-a606-18f5843b6342" name="Soelbo Crawler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, choose one of your opponent's creatures and return it to its owner's hand. Then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a860d1d4-56f2-47cc-bc35-9dd9a98eabef" name="Gyuho, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="4b4b175f-aa1c-49dc-a67f-f546d09b7772" name="Mitama, Continuous Magic Technology">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)s&#xA;■ Choose one of your opponent's creatures. Then for each other spell you cast this turn, choose one of your opponent's creatures. Until the start of your next turn, those creatures can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="132c0f32-aaaf-4786-a2c6-0c7df9041ccb" name="Borgies, Puppet Warrior / Jennyco's Unknown World">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Borgies, Puppet Warrior"/>
+      <property name="Name2" value="Jennyco's Unknown World"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="5/2"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Race1" value="Demon Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures. That creature gets -4000 until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;TWINPACT&#xA;■ Discard a card from your opponent's hand at random."/>
+      <property name="Rules1" value="■ When you put this creature, choose one of your opponent's creatures. That creature gets -4000 until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Rules2" value="■ Discard a card from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="65447a1d-b5bf-4393-a7be-631992ffb051" name="Matador Marcuze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent puts a creature into the battle zone in any way except by summoning, destroy that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="75aec6de-1e82-41a0-a882-1bc17436a8dd" name="Dent, Break Doctor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature battles, destroy it after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="4f5244fd-a848-413e-8e91-d00ef3d98950" name="Weissing, Darma">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Magic Tool"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a creature in your graveyard. If it's a Magic Tool that costs 4 or less, put it into the battle zone, Otherwise, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a00fd57b-a654-43a4-b938-8534ebbffdf7" name="Rabiripit, Remembrance Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, discard one of your opponent's cards at random.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, your opponent discards their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="5fda2f46-ed83-4326-8742-d2de46c9694f" name="Patrol Destiny's Judgment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Judgment Emblem"/>
+      <property name="Rules" value="■ Tap one of your opponent's creatures.&#xA;■ At the start of your next turn, you may add a card from your shields to your hand. (You may use &quot;shield trigger&quot; ability of a shield added put into your hand in this way.)&#xA;■ After you cast this spell from your hand, put it on top of one of your shields face up instead of your graveyard. (The stack is still considered one shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="18143bc5-8b5a-4137-ac56-29b73b9b5947" name="Shinpanman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Jokers creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ If this creature is tapped, your other Jokers can't be destroyed while battling."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="941202be-9b07-43e4-8a60-a1fe5d4b6617" name="Valchuris, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, if this creature is in your hand, and that attack is the second attack by a creature this turn, after the attack, unless you put a 'Valchuris, Dragon Armored' this turn, you may put this creature.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="02afd59d-7e79-4dd5-9d95-50a6963210ee" name="Liliy Peloru">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, this creature gets +6000 power and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="592c72e6-e8af-482f-a9c1-763fc30ec4d6" name="Baddog Scrapper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose 2 of your opponent's creatures. Those creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="93da2ea5-dcb8-45c3-b945-998804fb73a9" name="Chaunics, Blizzard Faerie / Snowbo Patrol">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Chaunics, Blizzard Faerie"/>
+      <property name="Name2" value="Snowbo Patrol"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="2/4"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Race1" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may return a creature from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Put 2 cards from your graveyard into your mana zone tapped."/>
+      <property name="Rules1" value="■ When this creature is destroyed, you may return a creature from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Put 2 cards from your graveyard into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a79f308d-f3de-4edf-ba3e-338c5fe3faff" name="Ka Lacchi Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ When one of your creatures wins a battle for the first time this turn, this creature gets +8000 power and &quot;triple breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="510ffac0-32d6-43c3-9516-fa23fbd517d0" name="Aun Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top card of your deck into your mana zone.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, choose one of your opponent's creatures and put it into its owners mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="aff96603-8b0e-4b4e-84ff-48d35010c52e" name="Wa Tanpopo Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="963eae7d-0fbf-4bac-834e-2256594effa6" name="Spitz Cherish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put one of your untapped creatures into your mana zone. Then your opponent chooses one of their untapped creatures and puts it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="aa9dc36f-7265-4aed-bd53-1e6084fe8462" name="The Shio Ramen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="57/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="66030a75-049c-4357-a6d3-33448853e474" name="Okke Brothers">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a creature and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="1499f0ce-6e52-4f04-bf4b-48dcf5a2c217" name="Niproha, Blue Defense Silver / Niproha Arrow">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Niproha, Blue Defense Silver"/>
+      <property name="Name2" value="Niproha Arrow"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="3/1"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;TWINPACT&#xA;■ Tap one of your opponent's creatures."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Rules2" value="■ Tap one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="72573f6c-7faf-49bd-b8ad-0b3fd7b61085" name="Keijimeno Sabato">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Sabakist"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ Whenever a card is added to your shields, this creature gets +3000 power and has &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="39e35dd4-5b16-41e5-843a-fb125a8eea2a" name="Shukuran, Red Attack Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, if you have more creatures in the battle zone than your opponent, tap one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="80e1ce1f-756f-4b5f-8d93-598697f9c076" name="Baruasatte, Vizier of Electronics">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2500"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="085b35d7-f82d-415c-840e-7b070fc10515" name="Malbol, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="cb06e8b2-2b93-4656-ab37-d5d910099e3b" name="Fezin Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="afab260e-2d2a-483a-a159-c6bf0788ef5a" name="Immortality's Judgment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Judgment Emblem"/>
+      <property name="Rules" value="■ Choose one of your creatures. Until the start of your next turn, when that creature is destroyed, it stays in the battle zone instead.&#xA;■ After you cast this spell from your hand, put it on one of your shields face up instead of your graveyard. (The stack is still considered one shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="65425f7d-a73e-4ffc-8a62-8470f1657890" name="Gomaki, Shell Beast / Strike Gotchin Head">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Gomaki, Shell Beast"/>
+      <property name="Name2" value="Strike Gotchin Head"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Race1" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;TWINPACT&#xA;■ Return a creature to its owner's hand."/>
+      <property name="Rules1" value="■ This creature can't be blocked."/>
+      <property name="Rules2" value="■ Return a creature to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="d8709d64-192d-493d-b599-c9652b8334b7" name="Batafu, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="e14876ec-82aa-4cb3-8e40-1e79d541dfc6" name="Kaguttsu, Walking Seafloor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, until the start of your next turn, this creature can't be attacked or blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="766ec5af-afea-443d-b02a-18c7e8c5138a" name="Dionefish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="1000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a3a41b50-c010-4df4-bd10-f0b2200db245" name="Minomi, Greedy Young Magician">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at the top 3 cards of your deck. You may reveal a spell from among them and put it into your hand. Then put the rest of the cards on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="86e81f8f-0595-4506-9632-06e35919a898" name="Medaka, Cheeky Guard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="37ae6725-d45b-446c-bff9-afe4abfd789e" name="One of the Six Bizarre ~Returning Soldier~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses one of their untapped creatures and return it to its owner's hand.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0f8ce8ee-6029-450e-a983-673b5df30e46" name="Gas, Misfortune Demon 96 / Gredead Gas">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Gas, Misfortune Demon 96"/>
+      <property name="Name2" value="Gredead Gas"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="3/1"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Rules1" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="710029fd-7413-45fe-b331-70c9bf1285f3" name="Howacha, Misfortune Demon 69">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ After this creature attacks, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="41e250fd-af96-4173-8de7-10db63f93f3c" name="Oute, Misfortune Demon 81">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="30df41d9-7936-4b84-a85c-a468e57e1ffb" name="Gridina, Darma">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Magic Tool"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature is destroyed, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="144b730b-7e19-4a15-8f7a-185e56da6c60" name="Tentaic Worm, Plague Worm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="47640a5c-9989-40e7-8f4f-fda8318a701a" name="Zanbari, Darma">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Magic Tool"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a388e229-54d6-4259-a4db-6529344af9ca" name="Dazhall Vagan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="fb01a8be-d32c-43ea-85b4-6cc5189df95d" name="Kirimomi Churis / Kirimomi Rising Chu Fist">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kirimomi Churis"/>
+      <property name="Name2" value="Kirimomi Rising Chu Fist"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/1"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Race1" value="Beat Jockey"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ One of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="■ One of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="41f0d206-c72c-4944-8b0a-7e08656645f8" name="Mantov Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="4b68a0ed-26b7-47bc-8e73-10f98bcb06ae" name="Trio, Ojamakin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When one of your other creatures attack, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="dd569ff4-af74-4915-8185-98ad038308f9" name="Captain Shiri">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="c106481a-205d-45f4-946f-2be22a5384c4" name="Chiza, Anarchy Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="c2cf1c98-7c48-4490-a516-f3640a650f4c" name="Les's Wrench">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0dfae6fc-b1ab-4fe9-a9f5-4f3d508967d6" name="Tsurinbo Fire">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="d37368a4-41ef-43c9-a85a-18bde243d168" name="Ketanoko Tank / Ketanobir Lancer">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ketanoko Tank"/>
+      <property name="Name2" value="Ketanobir Lancer"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="8/1"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;TWINPACT&#xA;■ One of your creatures gets +4000 until the end of the turn."/>
+      <property name="Rules1" value="{TRIPLE BREAKER}"/>
+      <property name="Rules2" value="■ One of your creatures gets +4000 until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="73d8cc5c-2607-44a6-ba18-47efefc469d8" name="Shell Fate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="5000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="a5cadf93-7888-480e-8766-3a4490e62a6b" name="Inoshishito">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="88212ca0-3903-4986-a6ec-77b74bbcf322" name="Tsukushipu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="577cf959-3814-469f-be20-4386ae65117e" name="Moskimoto">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ You may put this creature into the battle zone tapped.&#xA;■ Whenever an opponent's creature attacks, they attack this creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="54122675-79d4-420b-b8d5-57eb03dd3c23" name="Kakannabu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ Whenever one of your other creatures win a battle, this creature gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="b896e4d7-807f-464e-8f84-a11e97c4b534" name="Fleur Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 2 cards of your deck. Put one of them into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/93"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="8edaf27a-0696-435b-b606-8a6fa73189a2" name="Sr Spellcyclica, Dragment Symbol">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Crystal Command Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a spell that costs 7 or less from your graveyard for no cost. If you do, put the spell you cast into your hand instead of your graveyard.&#xA;■ When this creature would be destroyed, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G1/G5"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="fb4cad08-8e65-4e42-8039-b39bb681ea45" name="Batocross Battle, Passion Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ When you put this creature during your opponent's turn, put this creature on the bottom of your deck at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="G2/G5"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="5bfc27f9-a14d-4c30-89f2-6d088b803104" name="Kernel, Blue Stagnation Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Dragon/Revolutionary"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, choose one of your opponent’s creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="G3/G5"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="03192e1d-0e61-4212-b3ce-1cea08517abc" name="Puchohenza, Mia Moja">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jurassic Command Dragon/Revolutionary/Team Damama"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ Revolution Change: Light or Nature Dragon that costs 5 or more&#xA;{TRIPLE BREAKER}&#xA;■ Your opponent's creatures that cost less than the number of cards in your mana zone are put tapped.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, put all creatures that have power less than this creature into their owner's mana zones."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="G4/G5"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="e8b7c148-1f35-4fe2-9352-75acc4d77f2e" name="Nicol Bolas">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Elder Dragon/Planeswalker"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent discards 7 cards from their hand.&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="G5/G5"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="be85fb63-6c39-4651-99cc-0e3216a3f67f" name="Kingdom Ohkabuto / Gouhaten Tsukumogatari">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kingdom Ohkabuto"/>
+      <property name="Name2" value="Gouhaten Tsukumogatari"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="9/10"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="10"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields.&#xA;TWINPACT&#xA;■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields."/>
+      <property name="Rules2" value="■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1/M1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="720200b7-3e43-4b29-b34a-3926c88b1c47" name="Kingdom Ohkabuto / Gouhaten Tsukumogatari">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kingdom Ohkabuto"/>
+      <property name="Name2" value="Gouhaten Tsukumogatari"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="9/10"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="10"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields.&#xA;TWINPACT&#xA;■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields."/>
+      <property name="Rules2" value="■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙1/M1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="299caece-f027-4b96-b06f-fbb0360ca336" name="Kingdom Ohkabuto / Gouhaten Tsukumogatari">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kingdom Ohkabuto"/>
+      <property name="Name2" value="Gouhaten Tsukumogatari"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="9/10"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="10"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields.&#xA;TWINPACT&#xA;■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields."/>
+      <property name="Rules2" value="■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙2/M1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="fe37309b-6966-4801-9693-bcb162bfb758" name="Kingdom Ohkabuto / Gouhaten Tsukumogatari">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kingdom Ohkabuto"/>
+      <property name="Name2" value="Gouhaten Tsukumogatari"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="9/10"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="10"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields.&#xA;TWINPACT&#xA;■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ Hatenkokonotsugatari: Whenever this creature wins a battle, break 9 of your opponent's shields."/>
+      <property name="Rules2" value="■ Each player puts all creatures from their mana zone into the battle zone. Ignore any effects that are triggered when those creatures are put into the battle zone. (Abilities that trigger during the turn such as Mach Fighter aren't ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙3/M1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="abf41532-5e02-405e-b4c5-b0e556ca965d" name="Jhot Gun Joragon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master Dragon/Jokers"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Dragon Card"/>
+      <property name="Number" value="MD1/MD1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="30b5a42f-d2bb-455e-98bb-76113718e0aa" name="Jhot Gun Joragon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master Dragon/Jokers"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Dragon Card"/>
+      <property name="Number" value="MD1㊙1/MD1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0b4a15be-494e-4ad7-a1df-9f356acf14b0" name="Jhot Gun Joragon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master Dragon/Jokers"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Dragon Card"/>
+      <property name="Number" value="MD1㊙2/MD1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="9326d285-d063-4e3b-bf0e-1354d808213a" name="Jhot Gun Joragon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Master Dragon/Jokers"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Dragon Card"/>
+      <property name="Number" value="MD1㊙3/MD1"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="fd6a8f34-58cb-4823-b49e-14db50ae5532" name="Gayoushin">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Specials"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, if you have 5 or more Jokers in the battle zone or your mana zone, draw 2 cards. Then you may discard a Jokers from your hand. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="9a2eaba8-0a72-4d12-9890-b5f3bf82073f" name="Destiny, Dragon Armored's Enlightenment / Heaven De Endlessa">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Destiny, Dragon Armored's Enlightenment"/>
+      <property name="Name2" value="Heaven De Endlessa"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/4"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Dragon Guild/Metallica"/>
+      <property name="Race1" value="Dragon Guild/Metallica"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent's non-light creatures and spells cost 1 more to summon or cast.&#xA;■ Your light creatures and spells cost 1 less to summon or cast. They can't cost 0 or less.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures and put it into its owner's shields face down."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent's non-light creatures and spells cost 1 more to summon or cast.&#xA;■ Your light creatures and spells cost 1 less to summon or cast. They can't cost 0 or less."/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures and put it into its owner's shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="31dff202-8ddf-44da-95dd-6febacdec429" name="Amidanazca, Super Destiny">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Specials"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, add the top card of your deck to your shields face down.&#xA;■ Whenever a card is added to your shields, look at the top card of your deck. If it's a light spell or Metallica that costs the same as or less than the number of your shields, you may use it for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0884b6f1-d665-4e3e-8662-cfb6828bb572" name="Gokuga Roiza, Dragon Armored Ship">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mutopia"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, draw 2 cards.&#xA;■ Whenever your opponent would choose a creature in the battle zone by a spell effect, they can't choose this one.&#xA;■ Whenever you cast a spell from your hand, after you do, you may cast that spell from your graveyard for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="53fb1b4f-9fd6-4a17-9da7-46ff960b2730" name="Gokuga Roiza, Dragon Armored Ship">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mutopia"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, draw 2 cards.&#xA;■ Whenever your opponent would choose a creature in the battle zone by a spell effect, they can't choose this one.&#xA;■ Whenever you cast a spell from your hand, after you do, you may cast that spell from your graveyard for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4㊙/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="d2c2ef15-2587-4968-9528-e4cf5c6d74ee" name="Bishamons Deken / 「Come from the Abyss, The Soul」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bishamons Deken"/>
+      <property name="Name2" value="「Come from the Abyss, The Soul」"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="4/9"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="9"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses one of their creatures and destroys it.&#xA;TWINPACT&#xA;■ Put all non-evolution creatures from your graveyard into the battle zone."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses one of their creatures and destroys it."/>
+      <property name="Rules2" value="■ Put all non-evolution creatures from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="0cf134a6-04d3-4bff-b5e2-472ba2daa307" name="Bishamons Deken / 「Come from the Abyss, The Soul」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bishamons Deken"/>
+      <property name="Name2" value="「Come from the Abyss, The Soul」"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="4/9"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="9"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses one of their creatures and destroys it.&#xA;TWINPACT&#xA;■ Put all non-evolution creatures from your graveyard into the battle zone."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses one of their creatures and destroys it."/>
+      <property name="Rules2" value="■ Put all non-evolution creatures from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5㊙/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="b100cb94-c010-4cc2-ba93-884a403b6478" name="Mukade, Lightless Yaksha">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GATE OF MOONLESS NIGHT}: When you put a Magic Tool, you may choose 2 of your Magic Tools in the battle zone and your graveyard and summon this creature from your hand or graveyard onto those 4 cards for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures. That creature gets -9000 power until the end of the turn.&#xA;■ Whenever any of your creatures attacks, if there are 4 or more cards under this creature, your opponent chooses and discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="361151cc-d25c-411c-b974-6404feb37e44" name="Crash Head, Victorious Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Dragon Guild"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="59c5c751-8d58-4f06-b756-4151c0a038cb" name="Crash Head, Victorious Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Dragon Guild"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7㊙/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="f8e3e0a0-ab3e-4bc9-a7d0-947d513efad5" name="Iron Manhattan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's shields and this creature breaks the rest. Then you may discard a card from your hand. If you do, next turn, your opponent can't put 2 or more creatures into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="9e0115cb-c84c-460e-97a1-d24030b17f5f" name="Hyper Gigatack / Gigatack Hyper Trap">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Hyper Gigatack"/>
+      <property name="Name2" value="Gigatack Hyper Trap"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="6/8"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="8"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ You may summon this creature from your mana zone.&#xA;■ When you put this creature into the battle zone, put a creature from your graveyard into your mana zone.&#xA;TWINPACT&#xA;■ Each player puts all cards in the battle zone into their mana zone."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ You may summon this creature from your mana zone.&#xA;■ When you put this creature into the battle zone, put a creature from your graveyard into your mana zone."/>
+      <property name="Rules2" value="■ Each player puts all cards in the battle zone into their mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+    <card id="147cc990-0ad9-4458-b592-4e5647bcc436" name="Bontobolt">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each creature in the battle zone. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ During your turn, whenever this creature wins a battle, you can't be attacked next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S10"/>
+      <property name="Set" value="DMRP-05 Gokai!! Joragon Go Fight!!"/>
+    </card>
+  </cards>
+</set>

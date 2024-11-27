@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM22-SP1 Legendary Jashin: Invitation from the Depths" id="8478a923-b949-4b63-b7d0-e590a7aec1c6" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="d019708e-fd65-4379-8b64-cba2f990d7cd">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="f22e8407-164e-497e-96c1-ed6620abd1d9" name="Knife = Alife">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, each of your opponent's creatures gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;■ Each turn, the first time a creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="1/4"/>
+      <property name="Set" value="DM22-SP1 Legendary Jashin: Invitation from the Depths"/>
+    </card>
+    <card id="112cfbda-ef60-4ea8-9870-76dc81148930" name="Fork = Fock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. If you do, you may return an Abyss from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="2/4"/>
+      <property name="Set" value="DM22-SP1 Legendary Jashin: Invitation from the Depths"/>
+    </card>
+    <card id="aef6fa61-3d56-4280-b133-67d788136ed8" name="Keylock = Debok">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="3/4"/>
+      <property name="Set" value="DM22-SP1 Legendary Jashin: Invitation from the Depths"/>
+    </card>
+    <card id="01afa79a-b888-41d8-a0d6-a4129f57c6f2" name="Spoon = Nps">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;■ When you put this creature, return a card from your shield zone to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="4/4"/>
+      <property name="Set" value="DM22-SP1 Legendary Jashin: Invitation from the Depths"/>
+    </card>
+  </cards>
+</set>

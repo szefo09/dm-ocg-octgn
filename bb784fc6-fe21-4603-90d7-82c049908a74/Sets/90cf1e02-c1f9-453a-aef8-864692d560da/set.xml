@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-32+1D Evolution Saga Plus One Dream" id="90cf1e02-c1f9-453a-aef8-864692d560da" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="72c0c234-ad42-41e4-98f8-979f37d64ddd">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="61537349-e344-45cf-b46a-577e6eff6eba" name="Divine Machine Armor Valborg">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1D/3D"/>
+      <property name="Set" value="DM-32+1D Evolution Saga Plus One Dream"/>
+    </card>
+    <card id="d63bfd6f-9a36-446f-93a3-a49abce7dd63" name="Saint Bolshack, Elemental Dragon Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature costs 1 less to summon for each Angel Command and Armored Dragon in your graveyard. It can't cost less than 2.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2D/3D"/>
+      <property name="Set" value="DM-32+1D Evolution Saga Plus One Dream"/>
+    </card>
+    <card id="0249dafb-f26a-4db8-b0c2-d86021ec32ed" name="Geo Goctra, Armed Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Earth Dragon/Samurai"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SAMURAI GENERATION} (When you put this creature, you may generate a cross gear from your hand for no cost.)&#xA;■ Your other creatures in the battle zone that cost 4 or more get +2000 power and become Armored Dragon, Earth Dragon and Samurai in addition to their current race(s).&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3D/3D"/>
+      <property name="Set" value="DM-32+1D Evolution Saga Plus One Dream"/>
+    </card>
+  </cards>
+</set>

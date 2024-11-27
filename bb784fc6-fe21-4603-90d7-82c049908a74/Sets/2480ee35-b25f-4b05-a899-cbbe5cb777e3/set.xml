@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMR-07 Golden Dragon: CoroCoro Edition" id="2480ee35-b25f-4b05-a899-cbbe5cb777e3" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="471050f5-85d0-43ac-b0a1-a91eed704a7f">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="5a855323-7802-415e-917b-d2b3116893c5" name="Battle the Climax, Zenith of &quot;Victory&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Zenith/Hunter/Alien"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ When you summon this creature into the battle zone, this creature gets &quot;speed attacker&quot; and wins all battles until the end of the turn.&#xA;■ Whenever this creature wins a battle, untap this creature.&#xA;{TRIPLE BREAKER}&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P55/Y11"/>
+    </card>
+    <card id="31c5cf95-6272-49c1-a337-a3461755c2e2" name="Golden Key, Messenger of &quot;Zenith&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Hunter/Alien"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Your Zenith creatures may each cost 3 less to summon.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P59/Y11"/>
+    </card>
+    <card id="60d25912-640f-4a2c-abb5-d19c69dca16e" name="Prelude of Horror">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P60/Y11"/>
+    </card>
+    <card id="01fd1dd4-f66d-4fa5-a080-4c964908cbe0" name="Truename Orekoso Foxstar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Unknown"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may cast a spell that has Heaven's in its name from your hand for no cost.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P61/Y11"/>
+    </card>
+    <card id="0a672bb3-3cbb-4f2d-8631-a2937df03e29" name="Nanmo Nai, Holy Heaven Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}&#xA;■ Each of your other Guardians in the battle zone gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P62/Y11"/>
+    </card>
+    <card id="23dad9e6-2e9d-4de6-9e0b-bf166002f3ee" name="Necrodragon Dadan Danda Dance">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature or one of your other Zombie Dragons are destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="DMR-07 Golden Dragon: CoroCoro Edition"/>
+      <property name="Number" value="P63/Y11"/>
+    </card>
+  </cards>
+</set>

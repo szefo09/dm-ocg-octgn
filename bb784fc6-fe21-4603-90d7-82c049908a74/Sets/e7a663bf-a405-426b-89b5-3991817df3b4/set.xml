@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-04 Challenge of Black Shadow" id="e7a663bf-a405-426b-89b5-3991817df3b4" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="00724a1c-b8e9-45ee-9a58-e50d09f20b93">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="b580dae0-f9ae-4192-9698-eb6e480869d4" name="Alcadeias, Lord of Spirits">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{DOUBLE BREAKER}&#xA;■ Players can't cast spells other than light spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="6e8bedfd-f9e7-4afb-ab12-85c87e502be8" name="Astral Reef">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Viruses.&#xA;■ When you put this creature, you may draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="b0c09a12-0e5a-4e9a-b862-b9fca2033edb" name="Trox, General of Destruction">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent discards a card at random from his hand for each other darkness creature you have in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="251b1c18-3581-44f0-bce6-945e10193d43" name="Doboulgyser, Giant Rock Beast">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Rock Beasts.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 3000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="d69c4a74-98c8-4e2b-9cfd-3d3d5fbf13f7" name="Supporting Tulip">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each Angel Command in the battle zone gets &quot;power attacker +4000.&quot; (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="215dc449-df8e-4bd3-8706-b4c133c540a3" name="Aeris, Flight Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;■This creature can attack untapped darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="9abe0d21-fac4-4a00-b366-e9b362523d06" name="Ouks, Vizier of Restoration">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, add it to your shields face down instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="7525d6c1-356a-474e-b684-45fbae4cfed1" name="Full Defensor">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Until the start of your next turn, each of your creatures in the battle zone gets &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="e54c88d0-2447-4e68-99f6-df85672fc842" name="Smile Angler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a card in your opponent's mana zone and return it to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="f995559a-9254-45f2-90d4-8bd8afd421ae" name="Aquan">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, you may reveal the top 5 cards of your deck. Put all light and darkness cards from among them into your hand, and put the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="64a64c80-3b71-42c2-ae8b-70b43d9e122e" name="Hydro Hurricane">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ For each light creature you have in the battle zone, you may choose a card in your opponent's mana zone and return it to his hand.&#xA;■ For each darkness creature you have in the battle zone, you may choose one of your opponent's creatures and return it to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="59032812-e8b2-4ae7-88bd-3689f514dddd" name="Gregoria, Princess of War">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Each Demon Command in the battle zone gets +2000 power and has &quot;blocker&quot;. (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="b405ceae-eb42-4b2e-834c-5e815f1a0ddf" name="Photocide, Lord of the Wastes">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;■ This creature can attack untapped light creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="0149ea0a-c86d-4430-affe-f9e65f415c25" name="Chains of Sacrifice">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy up to 2 of your opponent's creatures.&#xA;■ Destroy one of your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="ae45710a-b257-4914-9d78-9cd6f822aadf" name="Chaotic Skyterror">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each Demon Command in the battle zone has &quot;power attacker +4000&quot; and &quot;double breaker.&quot; (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="04567bd5-0c2e-4d6b-9990-8325e3615d3b" name="Magmarex">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, destroy all creatures that have power 1000."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="fda5cb73-794e-4788-91b6-fced2f83d789" name="Mega Detonator">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Discard any number of cards from your hand. Then choose the same number of your creatures in the battle zone. Each of those creatures gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="c5282688-57f0-46ab-9af7-77f12229c6fa" name="Ancient Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ This creature can't be blocked by darkness creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18 /55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="8e1d97e9-95dc-4aeb-9ea3-19db5f56ab9b" name="Mystic Inscription">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="11da38d8-bad2-4532-88e5-d77f97dc7eb6" name="Sword of Benevolent Life">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +1000 power until the end of the turn for each light creature you have in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="94a12643-8ef7-4999-be79-c9ee6412693b" name="Re Bil, Seeker of Archery">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Each other light creature in the battle zone gets +2000 power.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="64d3c55e-9a6a-4065-8790-5300b2625187" name="Fu Reil, Seeker of Storms">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Players can't use the &quot;shield trigger&quot; abilities of darkness cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="18319c23-3fe4-4912-8ce9-b54b24e3a374" name="Milieus, the Daystretcher">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Berserker"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■Each darkness creature costs 2 more to summon, and each darkness spell costs 2 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="efe2bc72-2f82-4b6c-9802-f9dd67b6d278" name="Mist Rias, Sonic Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever another creature is put into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="f93d938d-7249-427a-87f9-d698353df42d" name="Screaming Sunburst">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Tap all creatures in the battle zone except light creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="35c9fb20-216b-49e3-9ae6-7c27467f1b0b" name="Hunter Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="d22db04d-298d-46c6-85ae-e8e5fa3671ad" name="Volcano Smog, Deceptive Shade">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Each light creature costs 2 more to summon and each light spell costs 2 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="fb295dcb-210b-427b-9d65-cfd6bd78c9e5" name="Mongrel Man">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever another creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="d30b94ee-1901-4c31-9c15-1846c7fe9d57" name="Locomotiver">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="8f072239-7997-4792-bc48-ef5076a355d1" name="Gigabolver">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Players can't use the &quot;shield trigger&quot; abilities of light cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="9540a7e3-0b9f-4739-9fd6-d3f577247c45" name="Soul Gulp">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Your opponent chooses and discards a card from his hand for each light creature he has in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="195f152b-4f7d-42b3-af89-17db823c6ba4" name="Missile Boy">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Each light creature costs 1 more to summon and each light spell costs 1 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="f7c4f9b5-e44c-487f-98df-dea097acf6f9" name="Sword of Malevolent Death">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Until the end of the turn, each of your creatures in the battle zone gets &quot;While attacking, this creature gets +1000 power for each darkness card in your mana zone.&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="a7457444-201f-40dd-bd98-4d5079ee6769" name="Three-Eyed Dragonfly">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your other creatures. If you do this creature gets +2000 power and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="85aa32c2-8000-4882-82dc-035c991c96f4" name="Dew Mushroom">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Balloon Mushroom"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■Each darkness creature costs 1 more to summon and each darkness spell costs 1 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="9cbb9535-0f61-4f09-b700-61ede5344c1a" name="Amber Grass">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="09bf889f-10fe-41d4-acfd-9df844bfc0a0" name="Kolon, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="82e99f61-4e07-4c5e-adec-174713f01413" name="Gulan Rias, Speed Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature can't be attacked by darkness creatures.&#xA;■ This creature can't be blocked by darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="fbdcde55-f5d2-49ed-a7bd-ee26db1f14c4" name="Sarius, Vizier of Suppression">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="11e94734-e1f0-4496-a5d5-095eb45ae175" name="Whisking Whirlwind">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ At the end of the turn, untap all your creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="f5e8b0f9-b69f-4425-9307-514a9add7824" name="Keeper of the Sunlit Abyss">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Light and darkness creatures in the battle zone each get +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="67ff6df9-c6c4-462a-956b-c7fa30ee5043" name="Aqua Jolter">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="f7f3de02-3c13-46e3-8dd0-f48c6e99d79b" name="Marine Flower">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="816d81a7-ebeb-4ae6-989b-946f848480c6" name="Clone Factory">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Return up to 2 cards from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="3e05999f-7469-4103-8a14-6cc80eebb8bd" name="Gregorian Worm">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="075ecb94-4437-4f77-bbc9-730e8b26d4db" name="Shadow Moon, Cursed Shade">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each other darkness creature in the battle zone gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="eae694f3-a155-461c-99bc-03fcdec2a09b" name="Skeleton Thief, the Revealer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Living Dead"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a Living Dead from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="917469b7-29b9-41be-be79-d0451850eb13" name="Purple Piercer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Brain Jacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature can't be attacked by light creatures.&#xA;■ This creature can't be blocked by light creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="bb702700-63ff-4a1b-9137-cdc44d0e2d98" name="Darkpact">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put any number of cards from your mana zone into your graveyard. Then draw that many cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="4ba8465a-90d0-483f-b425-83386e94e5d8" name="Pippie Kuppie">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Each Armored Dragon in the battle zone gets +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="2aad174c-2981-4e04-8a76-7ab02e5431ae" name="Blasto, Explosive Soldier">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While you have a darkness creature in the battle zone, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="984cb93b-dbdd-410b-b9b2-2cc2e3796752" name="Kamikaze, Chainsaw Warrior">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="6f50c03e-aa3e-417f-83d6-4c8d6b6262c6" name="Cannon Shell">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ This creature gets +1000 power for each shield you have."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="c9b012d0-4240-4429-b229-f8baa90674ad" name="Exploding Cactus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While you have a light creature in the battle zone, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="e78c27cb-0493-4533-ad89-bcbfd342be76" name="Torcon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="002373dd-372b-4237-969b-68eae614e2fa" name="Rimuel, Cloudbreak Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, tap one of your opponent's creatures in the battle zone for each untapped light card in your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="a1dfec58-a5c5-4601-8078-1f298fb61fb4" name="King Aquakamui">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return all Angel Commands and all Demon Commands from your graveyard to your hand.&#xA;■ Angel Commands and Demon Commands in the battle zone each get +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="6428a5a9-dede-472b-b1c3-b5507bf183b7" name="Ballom, Master of Death">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;■ When you put this creature into the battle zone, destroy all creatures except darkness creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="36875e10-5008-4b1b-86b7-62200adab05e" name="Galklife Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy all light creatures that have power 4000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+    <card id="9cdc6012-ffbd-4197-96e7-5b88fcd171a9" name="Niofa, Horned Protector">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Horned Beasts.&#xA;■ When you put this creature into the battle zone, search your deck. You may take a nature creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-04 Challenge of Black Shadow"/>
+    </card>
+  </cards>
+</set>

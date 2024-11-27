@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-29+1D Rock-on Heroes Plus One Dream" id="b563e5b8-cd24-448e-9a47-5ad5175e58e1" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="d47befd1-7ddd-4a8d-8759-0192a3249a46">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="c52c8e94-cb5e-41f3-bf26-d430a98f3579" name="Black Lucifer, Sorcerer of Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ When you put this creature, put the top 5 cards of your deck into your graveyard.&#xA;■ This creature gets +1000 power for each Demon Command in your graveyard.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would be destroyed, you may return a Demon Command evolution creature from your graveyard to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1D/3D"/>
+      <property name="Set" value="DM-29+1D Rock-on Heroes Plus One Dream"/>
+    </card>
+    <card id="89dc5e88-a2f0-4963-9673-ae6ad3ea27fa" name="Heavy, Dragon God">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="God/Zombie Dragon"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ When you put this creature, you may destroy one of your creatures. If you do, draw a card and your opponent chooses one of their creatures and destroys it.&#xA;■ God Link (Metal, Dragon God) or (Death, Destruction God) Left Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, your opponent's creatures must attack this creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2D/3D"/>
+      <property name="Set" value="DM-29+1D Rock-on Heroes Plus One Dream"/>
+    </card>
+    <card id="1e6cd3e4-6f6f-43f0-b064-ebc6614275fa" name="Metal, Dragon God">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="God/Armored Dragon"/>
+      <property name="Power" value="7000+"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's cross gear or a card in your opponent's mana zone and put in its owner's graveyard.&#xA;■ God Link (Heavy, Dragon God) or (Death, Destruction God) Right Side&#xA;■ While this creature is linked, it has &quot;triple breaker&quot;.&#xA;■ If this creature is linked with Death, Destruction God, and Heavy, Dragon God, when Death, Destruction God leaves the battle zone you may link this creature to Heavy, Dragon God."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3D/3D"/>
+      <property name="Set" value="DM-29+1D Rock-on Heroes Plus One Dream"/>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-06 Invincible Soul" id="bca0adef-0b8e-4fa8-9878-cc1ac7abf61a" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="625569fd-1905-42de-bf12-393832cf670c">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="d569a216-6c84-44fa-9a0e-1f4764a0dd87" name="Lu Gila, Silver Rift Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution creatures are put into the battle zone tapped.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3e01c6d9-2c4b-4cbf-8b68-73b0045f6d67" name="Invincible Aura">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Add up to 3 cards from the top of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7d7cf00e-938c-42f8-a213-ebc0e7cb1959" name="Aeropica">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="38c21a40-1576-4a9d-b6db-6615071c8354" name="Invincible Technology">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Search your deck. You may take any number of cards from your deck, show those cards to your opponent, and put them into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e816e39f-a916-4a91-9419-f2c3fcd38aa1" name="Tank Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Your opponent chooses one of his creatures in the battle zone and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f38810b6-6fc3-4f8f-9ae1-e1a1e3cc608c" name="Invincible Abyss">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="b5db2f3e-e86c-4aa4-a09b-47c22956d4e3" name="Valiant Warrior Exorious">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature can attack untapped creatures.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="6e4bdc34-e0f1-4011-b7c3-980357d51287" name="Invincible Cataclysm">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose up to 3 of your opponent's shields and put them into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e4b92533-8f73-4995-8827-4f4cb629b5b9" name="Splinterclaw Wasp">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature becomes blocked, it breaks one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="8ec9045c-917b-485d-bd37-c35b25f3752e" name="Invincible Unity">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +8000 power and &quot;triple breaker&quot; until the end of the turn. (A creature that has &quot;triple breaker&quot; breaks 3 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="6e0f0c03-eb30-464b-b751-5493b7a9e23a" name="Arc Bine, the Astounding">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;■ Each of your light creatures may tap instead of attacking to use this creature's {TAP} ability:&#xA;{TAP} Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f00dcae4-df1e-4bad-a863-d85d21ed95e7" name="Forbos, Sanctum Guardian Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Guardian"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When you put this creature into the battle zone, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="aa295937-838b-4290-93e5-b98851a4ed13" name="Gariel, Elemental of Sunbeams">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="■ You can summon this creature only if you have cast a spell this turn.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a1fdcf7b-98df-40d4-876a-eb1f87cec1e5" name="Cosmogold, Spectral Knight">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Return a spell from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="8491768a-63fd-4ba3-9c54-739f8dc5efcb" name="Telitol, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may look at your shields. Then put them back where they were.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="96effc11-d8c8-45ab-bcef-9d639bf23a54" name="Bonds of Justice">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all creatures in the battle zone that don't have &quot;blocker.&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f361802c-93bc-40e0-ac9a-e301fcd0358c" name="Fort Megacluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Clusters.&#xA;■ Each of your water creatures may tap instead of attacking to use this creature's {TAP} ability:&#xA;{TAP} Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="47e68721-b904-47fe-9300-810eaad601fa" name="King Triumphant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Whenever your opponent summons a creature or casts a spell, this creature gets &quot;blocker&quot; until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="9601255f-5259-4ee9-8f6d-5b33dcc79f16" name="Midnight Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a card in your opponent's mana zone and return it to his hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="08ea08a5-a160-4326-9aad-79f1818d2e45" name="Raptor Fish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, count the cards in your hand, shuffle those cards into your deck, then draw that many cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3c02113a-94e6-4ab1-a253-4d4bf9c6f0ca" name="Kyuroro">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever an opponent's creature would break a shield, you choose the shield instead of your opponent."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="6e3db0a7-4196-4bb1-a2c5-4233b865bcda" name="Ripple Lotus Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Cyber Virus"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="8a8204ef-398c-4e70-9a7d-87eab78f8cc3" name="Frost Specter, Shadow of Age">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Each of your Ghosts in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ceb380a1-9323-46f4-8368-7d39dfe6c55b" name="Gnarvash, Merchant of Blood">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="b0b28ecc-9b94-4a4a-b4c5-c0cf462472a7" name="Schuka, Duke of Amnesia">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature is destroyed, each player discards his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e7efbcbe-d17e-42c0-8bf8-cdb4c9f8003d" name="Grave Worm Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Parasite Worm"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When you put this creature into the battle zone, you may return a Survivor from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="472349b1-dc30-425f-a2de-79563865c0a5" name="Vile Mulder, Wing of the Void">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature battles, destroy it after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="bc6bec11-b0ad-455e-8197-ec34c520e43f" name="Wicked Soul Reincarnation">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy any number of your creatures. Then draw 2 cards for each creature destroyed this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ec49da5f-b7d0-4f32-8930-56b2102b8951" name="Q-tronic Gargantua">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Survivor"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Survivors.&#xA;{CREW BREAKER}-Survivor(This creature breaks one more shield for each of your other creatures in the battle zone that has Survivor in its race.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="204dc2e0-24a2-4ed2-8abf-2525f5f1cfcb" name="Armored Decimator Valkaizer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="30/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="4e2cb86a-36b4-4c9c-a296-c414fbde4437" name="Bazagazeal Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can attack untapped creatures.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="31/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="60e8d217-799d-42eb-921d-192f8e835970" name="Badlands Lizard">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dune Gecko"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;■ Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="d4eed700-f1f3-46fd-84d5-aacb1b986787" name="Rikabu's Screwdriver">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy one of your opponent’s creatures that has “blocker.”"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="33/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="5a35cce2-dcab-4755-8305-1dc12fb04eb6" name="Crisis Boulder">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses one of his creatures in the battle zone or a card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="34/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="14e51de3-6854-4ed0-8f59-baeff19ed34c" name="Living Citadel Vosh">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Colony Beetles.&#xA;■ Each of your nature creatures may tap instead of attacking to use this creature's {TAP} ability:&#xA;{TAP} Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="35/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="1b7287a8-02eb-4080-a639-921abce5bbb3" name="Clobber Totem">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;■ This creature can't be blocked by any creature that has power 5000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="36/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="d2459dcd-9d38-45d1-ad23-362ac456211c" name="Factory Shell Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Colony Beetle"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When you put this creature into the battle zone, search your deck. You may take a Survivor from your deck, show that Survivor to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7578dd6e-46d2-43b6-9907-ea4addde1e58" name="Forbidding Totem">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Your opponent's attacking creatures attack Mystery Totems if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="38/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="6cb4e350-35c6-4afc-8c46-3d3de1cc234f" name="Charmilia, the Enticer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="39/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7f1f8264-e138-490a-85f1-dd2aa9e67f27" name="Mystic Treasure Chest">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Search your deck. You may take a non-nature card from your deck and put it into your mana zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="40/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="6fb43ad6-7f0f-4a56-bbd8-d65a79de25dd" name="Dava Torey, Seeker of Clouds">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ During your opponent's turn, if this creature would be discarded from your hand, put it into the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a8930d3e-1390-445e-a3e6-dcaf09752b2a" name="Razorpine Tree">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each shield you have."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="b9634907-d559-4bda-bc6a-329ebc5046ff" name="Adomis, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a shield and look at it. Then put it back where it was."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="893309ad-d5b2-4450-b537-cd209853d04e" name="Moontear, Spectral Knight">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ You can summon this creature only if you have cast a spell this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="82e54549-c2e4-42c4-b164-0507690d4850" name="Rain of Arrows">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at your opponent's hand. He discards all darkness spells from it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="0f2a89cf-b7f8-494c-80fe-ad499ea71e17" name="Protective Force">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ One of your creatures in the battle zone that has &quot;blocker&quot; gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="86571b5c-cffd-400c-9888-dc0a7f060de3" name="Neon Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7c9dcee0-d391-4d1c-87e0-90e7f18ff9ac" name="Hazard Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ca0f9205-38a8-4cfa-a3a6-b2de46a38adf" name="Overload Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent summons a creature or casts a spell, this creature gets &quot;blocker&quot; until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a103820b-bc78-4b98-b204-37630ba43269" name="Thrash Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, return a card from your mana zone to your hand.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="37da5337-6679-4564-ba64-cda13629c55e" name="Shock Hurricane">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Return any number of your creatures from the battle zone to your hand. Then you may choose that many of your opponent's creatures in the battle zone and return them to your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="52243631-5eb0-46eb-8486-915d7253fa5d" name="Mystic Dreamscape">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return up to 3 cards from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f34bc15b-a4ba-402b-b160-596ca115b525" name="Gigagriff">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="683e5704-ea6d-4ab7-8d65-f7b97ae7ce7e" name="Bazooka Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ This creature can attack only creatures that have &quot;blocker.&quot;&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="2b40bf93-ec55-4a99-ab1a-386c1d379f9d" name="Skullcutter, Swarm Leader">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Devil Mask"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a8ca2d90-9c0b-4f35-986a-e63f3daf8e21" name="Lupa, Poison-Tipped Doll">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} One of your creatures in the battle zone gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="5628056e-fa01-4b25-8081-9a7879a5257c" name="Hell Slash">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Search your opponent's deck. Take up to 3 cards from their deck and put them into their graveyard. Then your opponent shuffles their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="37f10d36-6ee9-4e0b-90c7-6f3ff82754c7" name="Proclamation of Death">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses one of his creatures in the battle zone and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="58/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e78e99ae-ae2c-4ae1-9a47-1eb8e5bc4d0b" name="Rumblesaur Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Rock Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SURVIVOR} {SPEED ATTACKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="59/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e4f3b2e2-57dc-4d4f-8415-1b4a035801e2" name="Cutthroat Skyterror">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can't attack players.&#xA;■ At the end of your turn, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="60/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="c6831ed0-a3dd-40fb-8972-98c7761593bf" name="Migasa, Adept of Chaos">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} One of your fire creatures in the battle zone gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="5c209ccb-b69c-47e6-ab57-2640a7a368e4" name="Cocco Lupia">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Your creatures that have Dragon in their race each cost 2 less to summon. (Dragonoids don't count.) They can't cost less than 2."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="62/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="b4c63772-9093-48db-9714-04737a3618cb" name="Spastic Missile">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="63/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="b5028e9c-2230-4944-9392-89f10b12b3c8" name="Comet Missile">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has &quot;blocker&quot; and power 6000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="64/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="d180fd7f-9ebb-4e87-a4b1-02fdf8605d90" name="Cantankerous Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="65/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f049d520-1961-45ab-8319-56ddcdbbe92e" name="Bliss Totem, Avatar of Luck">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Put up to 3 cards from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="66/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e3ff286e-5a48-45af-b7d5-39b42368bf25" name="Feather Horn, the Tracker">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="67/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="1fefa7a0-80f8-419c-ba35-f49a5110dfbb" name="Paradise Horn">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="68/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="0f71de9d-9427-4326-b4b8-21660102dab2" name="Innocent Hunter, Blade of All">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ You can put an evolution creature of any race on this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="69/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="47cd80d7-f7cb-4882-8fa6-236f554f94b7" name="Pangaea's Will">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent’s evolution creatures in the battle zone and put the top card of that creature into your opponent’s mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="70/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="c7e05d50-8847-49ed-a806-27787bb9d038" name="Chen Treg, Vizier of Blades">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="476e2f19-70fc-4387-b78d-a9daaa8be343" name="Chekicul, Vizier of Endurance">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, no battle happens. (Both creatures stay tapped.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3e094ecb-196f-4684-87e4-dfed8f60d022" name="Kanesill, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="c6b1c139-ecc2-45c3-a571-76ca1201ed04" name="Lightning Grass">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3029f089-ee28-4c0f-8601-d706ed5955fb" name="Ballas, Vizier of Electrons">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="977774cb-db99-4018-a84d-5a7144424cfe" name="Yuluk, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ You can summon this creature only if you have cast a spell this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="12527718-8de8-423c-84b8-2ed593bfb101" name="Vess, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ac8e88fe-e0e5-402e-8485-b0af8de070d4" name="Sphere of Wonder">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If your opponent has more shields than you do, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="0b3e8874-919d-4a73-8d25-2f35478cc71e" name="Sopian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose one of your creatures in the battle zone. It can't be blocked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="39843cfa-75ba-4d34-9c02-244c4a193822" name="Aqua Rider">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent summons a creature or casts a spell, this creature gets &quot;blocker&quot; until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="385a0152-ae99-4055-ac0b-eb71b913dd1e" name="Promephius Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Sea Hacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7a9cac94-a3d8-4d4e-91b7-a894569d39d5" name="Madrillon Fish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e732d054-0a8a-498f-9297-eea6b03bc3f4" name="Steam Star">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ef648918-4494-45ed-acb2-d79b14fcd728" name="Zepimeteus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ebbddde4-e1c7-4a03-a36a-f8f55c056e39" name="Energy Stream">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e6f14af6-d32f-41ce-a567-13f16db1388e" name="Spiral Gate">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="648935c0-3a42-4b5b-8712-9688336857e4" name="Zorvaz, the Bonecrusher">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature battles, destroy it after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7205488c-4a02-4f32-a21f-e8a516d73e19" name="Grim Soul, Shadow of Reversal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Return a darkness creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="4f70ab99-0b32-460c-87fb-c27e0430cabf" name="Tentacle Worm">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="0fb05a2e-d19d-47d4-b114-7c61637a2edf" name="Cursed Pincher">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Brain Jacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="813329ea-bcc2-412d-be7f-5a743e4c03b3" name="Grinning Axe, the Monstrosity">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Devil Mask"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="5732d64b-c14f-481f-8395-6c623e4f6daf" name="Junkatz, Rabid Doll">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a5ae7344-0402-45c4-8363-8ad5bcab7c7a" name="Lone Tear, Shadow of Solitude">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="8548ed42-41d8-4d05-8f4f-d162293c0313" name="Death Smoke">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent's untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3d430be2-5d39-48fe-8069-4902d1aa64a2" name="Legionnaire Lizard">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dune Gecko"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} One of your creatures in the battle zone gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="3ea4b66e-112a-410c-9cf3-bc25c067452e" name="Armored Scout Gestuchar">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While you have no other fire creatures in the battle zone, this creature has &quot;power attacker +3000&quot; and &quot;double breaker.&quot; (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="96/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a233ea42-462b-49c2-bed1-a7ab3d7593a3" name="Automated Weaponmaster Machai">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="97/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="1d716093-62a7-41ee-9966-b79d555fe9c6" name="Pyrofighter Magnus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ At the end of your turn, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="98/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="72cf9ed1-9a42-42c9-a7c9-42ef38e4f980" name="Torchclencher">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While you have at least one other fire creature in the battle zone, this creature has &quot;Power attacker +3000 (While attacking, this creature gets +3000 power).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="99/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="a308fd33-c1b9-401f-8400-c0a7f7de3294" name="Picora's Wrench">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="100/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="54db3765-d9de-4fd6-a24b-8acc8438d07c" name="Choya, the Unheeding">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)&#xA;■ Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="101/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="c4b16f2b-e80f-4064-858d-2218ddba3e3b" name="Phantom Dragon's Flame">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="102/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="fe6411e8-be89-4333-b70d-b61c66e72ae2" name="Trench Scarab">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="103/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="480ce007-63d8-49f3-ab2e-6913bd368261" name="Illusory Berry">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="104/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="0ec0fb28-8571-4036-9fcb-a9e10ceb3f7d" name="Carrier Shell">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="105/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="58073fb2-80dc-4e10-a851-f24b59e28003" name="Mighty Bandit, Ace of Thieves">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} One of your creatures in the battle zone gets +5000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="106/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7078e60d-467f-47cd-a01c-566c26df54b1" name="Slumber Shell">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="107/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="d2cdb577-2c86-4ac6-8b1e-c52147f56db5" name="Garabon, the Glider">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="108/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="ddcc1ff6-3cbb-4e3b-86c7-fa2a40d605f0" name="Dimension Gate">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="109/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="1cd7a046-824f-41db-9c40-5163021d7fe3" name="Faerie Life">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="110/110"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="c88c2c99-c8a6-47e9-86cf-d1198361a945" name="Craze Valkyrie, the Drastic">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ When you put this creature into the battle zone, choose up to 2 of your opponent's creatures in the battle zone and tap them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="abcf96ab-c1cc-4ff4-8083-0c96f64ade6f" name="Laveil, Seeker of Catastrophe">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the end of each of your turns, you may untap this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="cda68b73-1382-4023-9904-893795aaf31f" name="Q-tronic Hypermind">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Survivor"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Survivors.&#xA;■ When you put this creature into the battle zone, you may draw a card for each Survivor in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="f81a5cbf-4177-4f14-a3fc-8234474ac18a" name="Crystal Jouster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="639370d8-3361-4bcd-8a39-f03699c1f96a" name="Phantasmal Horror Gigazald">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Chimeras.&#xA;■ Each of your darkness creatures may tap instead of attacking to use this creature's {TAP} ability:&#xA;{TAP} Your opponent discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="d312d285-215a-4b56-864c-f9ba23bf0cf7" name="Daidalos, General of Fury">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy one of your creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="7a3eac16-2d38-4bb4-a64a-14b3ba403d4c" name="Lava Walker Executo">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragonoids.&#xA;■ Each of your fire creatures may tap instead of attacking to use this creature's {TAP} ability:&#xA;{TAP} One of your fire creatures in the battle zone gets +3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="e03cae55-fef5-4b12-9ab6-101762cc9b80" name="Bolmeteus Steel Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="37fb9704-aa61-4ec0-8474-f33476c1c3a8" name="Ultra Mantis, Scourge of Fate">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ This creature can't be blocked by any creature that has power 8000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+    <card id="59b8da29-7f39-4c6c-b6bb-1fd628c7e01d" name="Cliffcrush Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ While you have any other untapped creatures in the battle zone, this creature can't attack.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S10"/>
+      <property name="Set" value="DM-06 Invincible Soul"/>
+    </card>
+  </cards>
+</set>

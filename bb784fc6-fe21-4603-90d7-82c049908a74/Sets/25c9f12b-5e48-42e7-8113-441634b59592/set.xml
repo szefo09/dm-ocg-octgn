@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM23-EX3 Deathbell Crystal" id="25c9f12b-5e48-42e7-8113-441634b59592" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="03c7d037-a9b0-4f56-953d-cf5ee5063a37">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="5745964d-a2e2-4b9f-95c1-08c6e67e291f" name="Shoegazer, Code of Qilin">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown Celes"/>
+      <property name="Power" value="7777"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent reveals their hand, then you choose a number. Then your opponent chooses one of the following and you use that ability:&#xA;▶ Your opponent discards all cards in their hand that cost the same as that chosen number. Then destroy all your opponent's creatures that cost the same as that chosen number:&#xA;▶ Your opponent discards all cards in their hand that don't have the same cost as the chosen number. Then destroy all your opponent's creatures that don't have the same cost as the chosen number."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="e54c0b3e-bcac-4677-b5a8-9a48e0200277" name="Crys = Ragna = Calypse">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are casting this spell, the mana number of face down cards in your mana zone becomes 3.)&#xA;■ Your opponent puts all their non-colorless elements that cost 5 or less on the bottom of their deck in any order.&#xA;■ Draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="0a177b85-9d05-422f-aeab-de3dba4a5ec5" name="Codename Papilonia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Apollonia Dragon/Unknown"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ While battling, your creatures can't be destroyed.&#xA;■ Crystal Arms 4: Whenever this creature taps, if you have 4 or more face down cards in your mana zone, break up to 2 of your shields, then shieldify up to 2 cards from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="f058981f-5682-48bc-bdd9-0b20267ae668" name="Crystal Tune / Crystal Doom">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Crystal Tune"/>
+      <property name="Name2" value="Crystal Doom"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/11"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="11"/>
+      <property name="Type" value="Spell/Spell"/>
+      <property name="Type1" value="Spell"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="/Zenith"/>
+      <property name="Race2" value="Zenith"/>
+      <property name="Rules" value="■ Choose a player. That player draws 3 cards, then discards 2 cards from their hand.&#xA;■ You may turn a card in your mana zone face down.&#xA;TWINPACT&#xA;■ Draw 3 cards.&#xA;■ Summon any number of Unknown creatures or Zenith creatures from your hand for no cost."/>
+      <property name="Rules1" value="■ Choose a player. That player draws 3 cards, then discards 2 cards from their hand.&#xA;■ You may turn a card in your mana zone face down."/>
+      <property name="Rules2" value="■ Draw 3 cards.&#xA;■ Summon any number of Unknown creatures or Zenith creatures from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="5d6ba262-2602-4a46-a5da-e8553d71667b" name="Codename Libelula">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Poseidia Dragon/Unknown"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Your opponent can't choose this creature with the effect of their first card they use each turn.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, whenever you cast a spell, each of your colorless cards in your mana zone are considered to be cards of every civilization, and your spells cost 4 less to cast. They can't cost less than 0."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="6a1dc8dc-aa22-4244-94ee-3d8e2fa459ae" name="Codename Scorpio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon/Unknown"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, your opponent's cards are put into the battle zone and their mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c9abb1b9-3dc9-416f-981d-256dbc5cc87d" name="Codename Scarabeo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Unknown"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Your Unknown and Zenith cost 3 less to summon. They can't cost 0 or less.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, your creature's can't leave except by losing a battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="78c6d8b7-55cc-431e-8c98-f58d32900ded" name="Codename Waspmelisa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon/Unknown"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Each of your other Oracles, Unknown and Zenith get +4000 power and &quot;mach fighter&quot;.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, whenever an ability of one of your opponents creatures that starts with &quot;When you put this creature&quot; would trigger, it doesn't trigger instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a43e4dd4-1b19-4bc2-b75f-7c1ecdbd8a73" name="Crys = Ze = Bub, Heavenly Zenith of &quot;Deformity&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13579"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. Those 2 battle.&#xA;■ Creatures battle based on cost instead of comparing power.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="519263e4-e627-44cc-9ed3-7337ecfb8ffd" name="Ajari, Crys's Guidance">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each face down card in your mana zone.&#xA;■ Whenever this creature would break a shield or win a battle, put the top 2 cards of your opponent's deck into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="635a6bb4-08dc-4fb7-be4e-07b82c0ca600" name="Crys = Rizare = Rinne">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose an element. Its owner puts it into their deck, shuffles it, then reveals the top card of their deck. If its an element, put it. If its not, put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a7defeb5-e65b-4ddf-bf66-639bf4f501a5" name="Cotton, Karma's Judgment / Judge Crystal Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Cotton, Karma's Judgment"/>
+      <property name="Name2" value="Judge Crystal Charger"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Race1" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature, that creature can't attack this turn.&#xA;TWINPACT&#xA;■ Choose one of your opponent's elements that costs more than the number of cards in your opponent's mana zone. Your opponent puts it on the bottom of their deck.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature, that creature can't attack this turn."/>
+      <property name="Rules2" value="■ Choose one of your opponent's elements that costs more than the number of cards in your opponent's mana zone. Your opponent puts it on the bottom of their deck.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="3e0c9f64-aba3-4dc9-b928-01aa965f1b8a" name="Lionel Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Tap all your opponent's creatures.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, you may put a light or colorless creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="35d0d0c0-aa22-4a4d-9382-0d95d2c7cab6" size="wide" name="Nirvana Zenicia, Pinnacle of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ When you put this D2 Field, choose one of your opponent's creatures and tap it. That creature doesn't untap while you have this D2 Field.&#xA;(Whenever another D2 Field is put, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: At the start of your opponent's turn, you may turn this D2 Field upside down for the rest of the game. If you do, untap all your creatures and they get &quot;blocker&quot; until the end of the turn.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="725527ba-6306-4f68-8f03-0fcb28c351c3" name="Milk, Karma's Salvation / Relief Crystal Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Milk, Karma's Salvation"/>
+      <property name="Name2" value="Relief Crystal Charger"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Race1" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature, if it costs more than the number of cards in your opponent's mana zone, you may return it to its owner's hand.&#xA;TWINPACT&#xA;■ Choose one of your opponent's elements that costs 2 or less and return it to its owner's hand.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature, if it costs more than the number of cards in your opponent's mana zone, you may return it to its owner's hand."/>
+      <property name="Rules2" value="■ Choose one of your opponent's elements that costs 2 or less and return it to its owner's hand.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="4693b54f-0120-4a57-a302-ae8ac9738cb2" name="Roses Innovation">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and return them to their owner's hand.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, discard up to 3 spells that cost 5 or less from your hand. You may cast those spells from your graveyard for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="26a04f08-50b0-4999-812f-8eac0c512afd" size="wide" name="Alchemist Hills, Archive Room of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ Whenever a player summons a creature or casts a spell, that player may draw a card. (Whenever another D2 Field is put, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: At the start of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, put your graveyard and hand into your deck, shuffle it, and draw 5 cards.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="9c1328d4-bd5f-4661-a6eb-a081bf727dba" name="Kareile, Karma's Banned Technique / Forbid Crystal Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kareile, Karma's Banned Technique"/>
+      <property name="Name2" value="Forbid Crystal Charger"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Race1" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand."/>
+      <property name="Rules2" value="■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="5d91bf84-7af4-479f-a481-4236688d3e55" name="Mint, Satori's Holy Evil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, your opponent discards a card at random from their hand.&#xA;■ Each turn, the first time your opponent discards from their hand, you may draw a card.&#xA;■ Crystal Arms 2: Whenever this creature attacks, if you have 2 or more face down cards in your mana zone, your opponent chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="1ec5e632-7801-4017-8e94-500cc7fb1778" name="Suspense Zain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -15000 power until the end of the turn.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, each of your opponent's creatures not chosen by this spell's effect get -6000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="815e3ac3-68c8-4a58-90db-7c6ecbe6f3e3" name="Yukime, Karma's Rapid Fire / Shot Crystal Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Yukime, Karma's Rapid Fire"/>
+      <property name="Name2" value="Shot Crystal Charger"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Race1" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature except by summoning, destroy that creature.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature except by summoning, destroy that creature."/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7c314a55-64ef-4d9d-9ded-d1ca150dabb7" name="Codename Lucanid">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Volcano Dragon/Unknown"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that has &quot;blocker&quot; and power 11000 or less and destroy it.&#xA;■ Crystal Arms 4: Whenever this creature would break a shield, if you have 4 or more face down cards in your mana zone, your opponent puts those shields into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="fb6467c2-855e-41bf-b2b0-8e66fead5534" name="Great Meteor Bullet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Discard a card from your hand, then draw 2 cards. Choose up to 2 of your opponent's elements that have total cost the same as or less than then the cost of the discarded cards and destroy them.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, choose any number of fire creatures put into your graveyard this turn and put them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="f443dad7-bc90-432c-821d-1dc9d80ceb03" name="Inka, Karma's Purity / Okiyome Crystal Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Inka, Karma's Purity"/>
+      <property name="Name2" value="Okiyome Crystal Charger"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Race1" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent can only put creatures from their hand.&#xA;TWINPACT&#xA;■ Choose a player. That player shuffles their graveyard into their deck.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Your opponent can only put creatures from their hand."/>
+      <property name="Rules2" value="■ Choose a player. That player shuffles their graveyard into their deck.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="8d86d76b-1c31-4c9d-bc2c-cdcb8ab4d372" name="Kanazar, Satori's Cursed Flower">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 4 cards of your deck. You may reveal up to one Oracle, Unknown or Zenith from among them and put it into your hand. Put the rest on the bottom of your deck in any order. Then you may turn a card in your mana zone face down.&#xA;■ Crystal Arms 2: Whenever this creature attacks, if you have 2 or more face down cards in your mana zone, put a creature from your hand that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="6a6947f2-bfd7-4397-8568-b05c81684a70" name="Beethoven Cube">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 2 cards of your deck into your mana zone.&#xA;■ Until the start of your next turn, whenever one of your opponent's creature attacks, they attack creatures if able.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, look at the top 3 cards of your deck. You may put an Unknown or Zenith from among them. You may tap it. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="62c0b7a0-9621-4498-ac48-18e8f7757c30" name="Crys = Beelze, Heavenly Zenith of &quot;Uncanny&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="10001"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack players that have an even number of shields or creatures that have an even cost on the turn it is put. (Zero is treated as an even number.)&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="bcabaf3e-439b-4fef-9d9f-d458eaeed21b" name="Acid, Code of Sacred Execution">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown Celes"/>
+      <property name="Power" value="3333"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, choose one of your opponent's elements and put it on the bottom of its owner's deck. Then your opponent draws a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="8fa10b69-05a9-4e56-89a4-75e7902f2cc6" name="Shangri-La Crystal">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck face down into your mana zone tapped. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, put the top card of your deck into your mana zone face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="bcb7aec7-48b6-455c-b0d3-8d1cf2ae0daf" size="wide" name="Taburasa Chantaram, Temple of D">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ Once per turn, when you put a card into your mana zone, you may turn it face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;(Whenever another D2 Field is put, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: Whenever you put a Zenith creature, you may turn this D2 Field upside down for the rest of the game. If you do, untap all face down cards in your mana zone.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="622a22e2-4c5c-490a-a454-4b66f99fa8a3" name="Codename Dleshi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol/Unknown"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, draw a card and shieldify a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="dd6b2ce6-df2d-4343-a383-d59eb390e60c" name="Alexandrite, Amazing Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Angel Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, shieldify the top card of your deck, then draw a card.&#xA;■ At the end of each turn, if a card was put into your shield zone this turn, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="13c515cf-0a99-47dd-b206-17baa17d1ec7" name="Basil, Satori's Holy Evil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put another Oracle, Unknown or Zenith, you may draw a card.&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, this creature gets &quot;escape&quot;. (When a creature that has &quot;escape&quot; would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a7efeb91-a406-45ae-b845-c5da93a51784" name="Adore Setate, Satori's Crystalware">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Mecha Del Sol"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, this creature costs 2 less to summon.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="861ec295-3761-4dfa-91b8-e7593d4c4a64" name="Akadashi, Sidan's Battle Attack / &quot;Looks like it will make a good broth&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Akadashi, Sidan's Battle Attack"/>
+      <property name="Name2" value="&quot;Looks like it will make a good broth&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="1/2"/>
+      <property name="Cost1" value="1"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Earth Eater"/>
+      <property name="Race1" value="Oracle Celes/Earth Eater"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;TWINPACT&#xA;■ Draw 2 cards and discard a card from your hand.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Rules2" value="■ Draw 2 cards and discard a card from your hand.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="136db50f-8809-4ec4-838f-6582d0243a2f" name="Codename Sistais">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Command/Unknown"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, choose up to 3 of your opponent's creatures. Those creatures can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="92f2e6a9-58f0-4436-b254-92e37308cacb" name="Matrix, Periodteras">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Magic Command"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may cast a spell that costs 3 or less from your hand or graveyard for no cost.&#xA;■ At the end of each turn, if you cast a spell this turn, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="83f22595-985d-48a9-b6e1-f594c77cd006" name="&quot;Look! This beautiful crystal flower!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, this costs 2 less to cast.&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a61a8fe9-b9e8-4066-b902-4f9634cafbc3" name="Codename Ihaka">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Unknown"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="895c6702-1884-4539-b948-2d17f609532b" name="Paranormal, Period Produce">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, your opponent discards a card from their hand at random.&#xA;■ At the end of each turn, if your opponent has discarded from their hand, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="3476e47b-c730-44d9-b3aa-191e83966fc4" name="&quot;My name is Tsathrustra!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put a creature that costs 3 or less from your graveyard.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, put a creature that costs 8 or less instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="48bf4361-6afd-4183-8949-585cdfa9138f" size="wide" name="British Pavilion, Magic Castle of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;slayer&quot;. (When a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)&#xA;(Whenever another D2 Field is put, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: At the end of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, put all your creatures that were destroyed this turn from your graveyard to your hand.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="ee48024f-492c-4c5c-aa19-d247358d2620" name="Codename Tobal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern/Unknown"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, you may choose 2 creatures. Those 2 battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="106e1ec3-50dc-4ad9-855b-5a7c1f452f65" name="Cromwell, Period Cannon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Armorloid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, you may put one of your shields into your hand. You can't use the &quot;shield trigger.&#xA;■ At the end of each turn, if a shield left your shield zone this turn, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="1f87f9a3-1a1f-4f5d-9d32-4ff70fc9587f" name="Clap, Guard of Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, one of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, each of your creatures gets &quot;speed attacker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="cfe9bb61-6fa4-4cc5-b4af-10639de080ff" name="&quot;I am the true ZERO!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Zenith, Unknown or Oracle (When one of your Zenith, Unknown or Oracles attacks, you may cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures that has power 6000 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="40f4fbb2-4051-4b5f-b7ff-9a67322573f8" name="Codename Prat">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Unknown"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;■ When you put this creature, you may choose a creature and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c555db9e-9939-447d-839a-9d2c3885495e" name="Oshamanbe, Sidan's Pompom">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Snow Faerie"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="9a8b44dd-95d1-45a4-93b6-7732115d07fb" name="Berserk, Sanctuary Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Gaia Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't attack if you don't have 2 or more face down cards in your mana zone.&#xA;■ At the end of each turn, if you have a creature that has the most power among all creatures, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="dca9f259-2d00-4354-a704-1c774d888f83" name="Yell, Sidan's Cheering">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="9f33d87d-baab-4ebe-a5d3-5c2c6eaea38c" name="Arakan, Crys's Capture">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;■ Your Zenith and Unknown creatures cost 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7c38b863-a71c-4711-8e7f-b8affaf9aa4c" name="Hara and Mitta, Crys's Indoctrination">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ While paying this creature's cost, you can only tap colorless cards in your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="2350352b-64e4-429b-8c1e-1400800fcd4b" name="Kengyo, Crys's Missionary">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="53b26816-a184-4362-b6fb-41fac64c86d5" name="Rhapsody, Guard of Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, this creature gets +9000 while blocking."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="be9934b3-a313-4b80-804e-f7029a84e89f" name="Rasha, Sidan's Wanderer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap. Then you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="50d6ff87-837d-4154-8e7a-331620a2a411" name="Celestial Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature and shieldify it.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="56/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d7c80d69-ca0d-4abc-9b4c-0a46abfd4283" name="&quot;I am the one chosen by the power of the crystal!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Shieldify the top card of your deck.&#xA;■ Draw a card.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="57/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="3433b3e3-9e83-40d1-b274-e80c84a30e22" name="Olive Oil, Sidan's Burial / Abracatabra, Amnesia Magic">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Olive Oil, Sidan's Burial"/>
+      <property name="Name2" value="Abracatabra, Amnesia Magic"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/1"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle Celes/Great Mecha King"/>
+      <property name="Race1" value="Oracle Celes/Great Mecha King"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may draw a card for each colorless card in your mana zone. Then discard a card from your hand.&#xA;TWINPACT&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Rules1" value="■ When you put this creature, you may draw a card for each colorless card in your mana zone. Then discard a card from your hand."/>
+      <property name="Rules2" value="■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="95cab9c0-8dec-4a9d-8ca5-b0efca855941" name="Pepper, Guard of Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Cyber Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Crystal Arms 2: When you cast a spell, if you have 2 or more face down cards in your mana zone, you may summon this creature for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="968134e3-ac1a-49f7-9d67-c268492472d2" name="Reloaded, Periodteras">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 4 cards of your deck. Put one of them into your hand and put the rest on the bottom of your deck in any order. Then you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d1e22c8e-9bc9-4a83-b479-ef0d531751b5" name="Celestial Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and return it to its owner's hand.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c4b12501-6b88-4604-af4e-f1fe9f687bad" name="Chile, Bloody Circle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. Then you may turn a card in your mana zone face down. (A creature that has 0 power or less is destroyed. A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="40991498-0892-42e7-a6a4-827a664bc8bc" name="Funk, Guard of Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Dark Lord"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, you may summon this creature from your graveyard. (Pay the cost.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="4f2eac05-42a4-4e3f-9852-c36834cd2ba5" name="Kinako, Sidan's Defenseless">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7a59fe7b-c628-4e6e-8fb8-4f4666f9a8ca" name="Celestial Hand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and destroy it.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="427dafbd-4992-4cac-90cc-c24fab9e3554" name="Abura-bō, Satori's Scorching">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Crystal Arms 2: When this creature attacks for the first time in a turn, if you have 2 or more face down cards in your mana zone, after the attack, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d49a7ec9-43c8-421e-8413-02af54e84e64" name="Falcon Bomber, Rocket Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Feathernoid"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, put one of your shields to your hand. You can't use the &quot;shield trigger&quot;. Then you may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="800013db-dd0a-4386-bf3c-88cee73a0cf6" name="Kerora, Period Cider">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Dreammate"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can't attack if you don't have 2 or more face down cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c3a0a4d4-0cd6-4dc0-b81c-4572b72aadfb" name="Celestial Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's elements that costs 4 or less and destroy it.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b47d1fec-b530-4649-b7c2-879e450d3a42" name="Magnolia, Sidan's Fertility">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When this creature would be destroyed, put it into your mana zone face down instead. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a05cf1a4-84cf-4667-8a0c-c5c9f05f1f96" name="Silva, Guard of Period">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/Beast Folk"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, this creature gets +6000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="27dc83f4-71b1-4180-81ec-2f5e2e858138" name="Celestial Trap">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Chose a creature and put it into its owners mana zone.&#xA;■ You may turn a card in your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="09ed2da4-a585-47da-8389-22f416927832" name="&quot;Let these flowers bloom for me!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone face down. {CRYSTAL MANA}&#xA;■ You may turn a card in your mana zone face down. ​(A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="939c2e26-86a2-4067-966b-f10e4020cf9b" name="De = Amudo, Wicked Armor / &quot;Become my strength!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="De = Amudo, Wicked Armor"/>
+      <property name="Name2" value="&quot;Become my strength!!&quot;"/>
+      <property name="Civilization" value="Nature/Darkness"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Abyss Royale/Invitation to the Abyss"/>
+      <property name="Race1" value="Abyss Royale"/>
+      <property name="Race2" value="Invitation to the Abyss"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Put the top 3 cards of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="■ Put the top 3 cards of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/74"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b823908f-f857-4c7b-92b2-7caceef61bf1" name="Crys = Tabula = Rasa">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="18"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="28482"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {WORLD BREAKER}&#xA;■ When you summon this creature, choose any number of your opponent's creatures in the battle zone and graveyard. Use all abilities of the chosen creatures that start with &quot;When you put this creature&quot;.&#xA;■ Crysternal Kappa (When this creature would leave or you would lose the game, turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1/OR2"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="4fcaa497-eaa0-4ebf-a6cf-993188206441" name="Crys = Tabula = Rasa">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="18"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="28482"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {WORLD BREAKER}&#xA;■ When you summon this creature, choose any number of your opponent's creatures in the battle zone and graveyard. Use all abilities of the chosen creatures that start with &quot;When you put this creature&quot;.&#xA;■ Crysternal Kappa (When this creature would leave or you would lose the game, turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1㊙/OR2"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7870129f-e6a6-48d5-8ac4-f32a755c7a21" name="Abyssbell = Deathbell = Jashin Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Revolution Change: Abyss that costs 7 or more&#xA;{TRIPLE BREAKER}&#xA;■ If your opponent has a creature that costs 10 or more, this creature can't leave.&#xA;■ Whenever one of your shields is broken, choose one of your opponent's creatures and destroy it.&#xA;■ Final End: At the start of your turn, you may summon any number of Abyss creatures from your graveyard or mana zone for no cost. However, abilities that would trigger when they are put won't trigger. Those creatures can attack your opponent this turn. (&quot;Final End&quot; can only be used once per game.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR2/OR2"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="4d580269-7e92-4f7d-839a-50be6b4dff2e" name="Abyssbell = Deathbell = Jashin Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Revolution Change: Abyss that costs 7 or more&#xA;{TRIPLE BREAKER}&#xA;■ If your opponent has a creature that costs 10 or more, this creature can't leave.&#xA;■ Whenever one of your shields is broken, choose one of your opponent's creatures and destroy it.&#xA;■ Final End: At the start of your turn, you may summon any number of Abyss creatures from your graveyard or mana zone for no cost. However, abilities that would trigger when they are put won't trigger. Those creatures can attack your opponent this turn. (&quot;Final End&quot; can only be used once per game.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR2㊙/OR2"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c2e61c00-a17f-4a9d-b558-540e13b7a6f8" name="Shangri-La Fantasia, Heavenly Zenith of &quot;Excellence&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="12321"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are casting this spell, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Your creatures can attack your opponent on the turn they are put.&#xA;■ Each turn, the first time one of your creatures attack, you may destroy that creature. If you do, reveal cards from the top of your deck until you reveal an Unknown creature or a Zenith creature. Put that creature, then shuffle your deck.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b8b9e49b-2224-4bfd-9c01-573b0bfcea83" name="Perfect Zenith">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ Attack Chance: Zenith or Unknown (When one of your Zenith or Unknowns attacks, you may cast this spell for no cost.)&#xA;■ Choose 2 of the following. (You may choose the same one twice.)&#xA;► Put the top 2 cards of your deck into your mana zone face down:&#xA;► Choose one of your opponent's non-Zenith elements and put it on the bottom of its owner's deck:&#xA;► Reveal the top 4 cards of your deck. Put all Zenith, Unknown and colorless cards from among them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="21853eec-8d8a-4e15-8e37-50bf5980e457" name="Lionel, Heavenly Zenith of &quot;Onore&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. You may then choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="71691e12-57dc-4deb-a675-96f82e9047e4" name="Radio Roses, Heavenly Zenith of &quot;Cunning Wisdom&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, choose up to 3 of your opponent's creatures and return them to their owner's hand.&#xA;■ Whenever your opponent puts a creature, you may draw a card.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d503b54c-e0c3-4d7b-98a1-361d9067bcb8" name="Suspense, Heavenly Zenith of &quot;Curse Resentment&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, your opponent discards their hand.&#xA;■ Whenever this creature attacks, you may cast up to 3 spells from your opponent's graveyard for no cost. After you cast these spells, your opponent puts them on the bottom of their deck in any order.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="dc10b553-6aa4-48df-9344-abb71013e55f" name="Greatest Great, Heavenly Zenith of &quot;Mission&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ When you summon this creature, look at the top 3 cards of your deck. Put any number of creatures that cost 7 or less from among them and put the rest into your hand.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="e29db412-8439-4555-abcb-c5cfa3776e2f" name="Codemiracle Onimaru &quot;Period&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Unknown"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ If your opponent has a multicolored card in their mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During your turn, this creature gets +4000 power.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■Whenever one of your creatures win a battle, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="fe9afcc8-e58a-4ede-9384-614b299e1692" name="Beethoven, Heavenly Zenith of &quot;Senki&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, look at the top 3 cards of your deck. You may reveal any number of creatures from among them and put them into your hand. Put the rest into your mana zone face down.&#xA;■ While this creature is tapped, your opponent's creature's can't attack you.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="23b0383e-8990-45a1-9ecd-beacdb33e47c" name="Codecrystal Gospel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle Celes/King Command Dragon/Unknown"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each spell in your graveyard. It can't cost 0 or less.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, return any number of spells from your graveyard to your hand.&#xA;■ Whenever this creature attacks, you may cast a spell from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="dafef51c-624f-49cf-a308-10617cbf8e78" name="Svernir, Wicked Horse / &quot;My Beloved Horse!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Svernir, Wicked Horse"/>
+      <property name="Name2" value="&quot;My Beloved Horse!!&quot;"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/4"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Abyss Royale/Invitation to the Abyss"/>
+      <property name="Race1" value="Abyss Royale"/>
+      <property name="Race2" value="Invitation to the Abyss"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ If the number of cards in your mana zone is the same as or less than your opponent's, this creature costs 2 less to summon.&#xA;{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn. {DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 5 cards from the top of your deck into your graveyard. Then return a creature from your graveyard to your hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose an element and put it into its owner's mana zone."/>
+      <property name="Rules1" value="■ If the number of cards in your mana zone is the same as or less than your opponent's, this creature costs 2 less to summon.&#xA;{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn. {DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 5 cards from the top of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose an element and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a960746e-e213-497e-8be4-bd001c06bcea" name="Lionel, Heavenly Zenith of &quot;Onore&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. You may then choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP1/SP5"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="8fa2bb37-181d-4a1b-9a1e-32f1902fda10" name="Radio Roses, Heavenly Zenith of &quot;Cunning Wisdom&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, choose up to 3 of your opponent's creatures and return them to their owner's hand.&#xA;■ Whenever your opponent puts a creature, you may draw a card.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP2/SP5"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="55af7e07-5e27-4a66-8c9d-950587e0eb32" name="Suspense, Heavenly Zenith of &quot;Curse Resentment&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, your opponent discards their hand.&#xA;■ Whenever this creature attacks, you may cast up to 3 spells from your opponent's graveyard for no cost. After you cast these spells, your opponent puts them on the bottom of their deck in any order.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP3/SP5"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="bc2f8460-1692-44c8-9205-a8061d4c2d7b" name="Greatest Great, Heavenly Zenith of &quot;Mission&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ When you summon this creature, look at the top 3 cards of your deck. Put any number of creatures that cost 7 or less from among them and put the rest into your hand.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP4/SP5"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="0546aaa0-6f88-4b49-ab2a-ab94593450da" name="Beethoven, Heavenly Zenith of &quot;Senki&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, look at the top 3 cards of your deck. You may reveal any number of creatures from among them and put them into your hand. Put the rest into your mana zone face down.&#xA;■ While this creature is tapped, your opponent's creature's can't attack you.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP5/SP5"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="cbf75121-5ad2-4256-b86b-8b039b43c7ca" name="Kaiser &quot;Baki&quot;, Zenith of &quot;Certain Victory&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter/Zenith"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature into the battle zone, count the number of your opponent's shields and play that number of Gachinko Judge games. For each time you win Gachinko Judge in this way, put a Hunter from your graveyard, mana zone or hand into the battle zone. (Gachinko Judge: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="SSP1/SSP3"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="acec2a56-0f8e-469b-9d9c-f32593c9df43" name="Shangri-La Fantasia, Heavenly Zenith of &quot;Excellence&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="12321"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are casting this spell, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Your creatures can attack your opponent on the turn they are put.&#xA;■ Each turn, the first time one of your creatures attack, you may destroy that creature. If you do, reveal cards from the top of your deck until you reveal an Unknown creature or a Zenith creature. Put that creature, then shuffle your deck.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SSP2/SSP3"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="ef931edc-8072-43a5-8ab5-c06d3f276228" name="Wedding, Zenith of &quot;Celebration&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, your opponent chooses a total of 4 cards from their hand and/or creatures in the battle zone and shieldifies them.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SSP3/SSP3"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c2e5fdf1-259c-430c-9c71-fa8c1e157779" name="Zenith Symphony, Secret Zenith">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{ATTACK CHANCE}: Unknown (When one of your Unknowns attacks, you may cast this spell for no cost.)&#xA;■ You may summon a creature that has both Zenith and Unknown races from your hand for no cost. At the end of the turn, return that creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T1/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d4c80ac0-eac1-4488-b75c-497053691590" name="Triple ZERO, Secret Hell">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Colorless creature (When one of your colorless creatures attacks, you may cast this spell for no cost.)&#xA;■ Shieldify the top card of your deck.&#xA;■ If you have a colorless creature that costs 6 or more, draw a card, then put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T2/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="796188f0-be79-4a65-be0f-f0191966e271" name="Miller's Hollow, Suspicious Tiger Wolf / Art Thou an Unknown?">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Miller's Hollow, Suspicious Tiger Wolf"/>
+      <property name="Name2" value="Art Thou an Unknown?"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command/Unknown"/>
+      <property name="Race1" value="Demon Command/Unknown"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 4 cards of your deck. Put an Unknown and a spell from among them into your hand. Then put the rest on the bottom of your deck in any order.&#xA;TWINPACT&#xA;■ Reveal the top 2 cards of your deck. Put an Unknown and a spell from among them to your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 4 cards of your deck. Put an Unknown and a spell from among them into your hand. Then put the rest on the bottom of your deck in any order."/>
+      <property name="Rules2" value="■ Reveal the top 2 cards of your deck. Put an Unknown and a spell from among them to your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T3/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="1a1a740c-7de3-41e2-8aeb-ecedbe2a80c8" name="Genesis and End's Zenith Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw a card. Then reveal a card in your hand. Tap all your opponent's creatures that costs the same as or less than that card. If the revealed card is a Zenith, the tapped creatures doesn't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T4/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="3c5edda0-ab96-4c33-9142-da47b710bfc9" name="Fate">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{ATTACK CHANCE}: Beethoven, Zenith of &quot;Horror&quot; (When one of your Beethoven, Zenith of &quot;Horror&quot;s attacks, you may cast this spell for no cost.)&#xA;■ Draw up to 5 cards. Then your opponent chooses 3 cards in your hand at random and you reveal them to your opponent. You may put any number of Dragons from among them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T5/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="2093498c-23c1-493d-bfc4-a6c99838f2fe" name="LOVE x HATE, Secret Cruelty">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{ATTACK CHANCE}: Shangri-La, Climax of &quot;Cruelty&quot; (When one of your Shangri-La, Climax of &quot;Cruelty&quot;s attacks, you may cast this spell for no cost.)&#xA;■ Put a creature from your graveyard.&#xA;■ If you have a Zenith, choose one of your opponent's creatures. Your opponent puts that creature into their deck and shuffles it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T6/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c26940bc-fef5-4c3f-bb7d-4a2e7f60da9e" name="Zenith Clutch Destiny">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Shuffle your deck, then reveal the top card of your deck. If that card is a Zenith creature, you may summon it for no cost. If it's not a Zenith creature, add it to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T7/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7ea58832-747b-4bb1-9c40-19aea8c549d4" name="World War Zenith">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ This spell cost 2 less to cast for each of your creatures that have both Unknown and Zenith races. They can't cost 0 or less.&#xA;■ Destroy all creatures except for Unknown."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T8/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c31c33df-d1b9-450d-a386-53ffd2a88874" name="Hungry Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Unnoise"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon colorless creatures from your mana zone. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T9/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="56dba4ae-4f18-4f39-a92b-d3d1af8e50d7" name="Pepper Silva of Betrayal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may put a non-evolution Unknown from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T10/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="1490a788-2b2d-481b-ae62-80f74196f224" name="Lilin, Transparent Faerie / Prelude to Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Lilin, Transparent Faerie"/>
+      <property name="Name2" value="Prelude to Faerie"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Civilization2" value="Colorless"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Oracle/Snow Faerie"/>
+      <property name="Race1" value="Oracle/Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your colorless creatures cost 1 less to summon. They can't cost less than 0.&#xA;■ Snow Faeries in your mana zone get all civilizations.&#xA;TWINPACT&#xA;■ This turn, the next colorless creature you summon may cost up to 5 less."/>
+      <property name="Rules1" value="■ Your colorless creatures cost 1 less to summon. They can't cost less than 0.&#xA;■ Snow Faeries in your mana zone get all civilizations."/>
+      <property name="Rules2" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T11/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="30364f72-35e7-415f-b44e-84539f45be5e" name="Prelude of Horror">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T12/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c2972421-241b-4970-8f86-4da2b7e0cb2f" name="Necrodragon Onbashi Raon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon/Unnoise"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Your Unknowns cost 1 less to summon and your Zenith creatures cost 2 less to summon. They can't cost 0 or less.&#xA;■ When you put a creature that has both Unknown and Zenith races, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T13/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="7b3c1977-bbf5-43f5-aa58-82f4a5c87765" name="Messa Danjiri Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Unnoise"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Your Unknown creatures cost 1 less to summon and your Zenith creatures cost 1 less to summon. They can't cost 0 or less.&#xA;■ Each of your Unknown gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T14/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="af08e73d-cc8a-47ac-aa43-a216a7ffeb4b" name="Dontaku Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Unnoise"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ Your Unknown creatures cost 1 less to summon and your Zenith creatures cost 1 less to summon. They can't cost 0 or less.&#xA;■ While you have an Unknown, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T15/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="991ff33f-c409-47e8-b857-116c418e0ed7" name="Niyare">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tristone"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 3 cards of your deck. You may reveal any number of colorless cards from among them and put them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T16/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="4bce7a0a-e0ed-4761-9225-9e4e6650d7ad" name="Niyare Get, Zero Trick">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have a colorless creature you may cast this spell for no cost.&#xA;■ Reveal the top 3 cards of your deck. Put all colorless cards from among them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T17/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="c96ff35d-4a01-41c5-97da-9d5376d2d04b" name="Zero Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Unnoise"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Your colorless creatures cost up to 2 less to summon."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T18/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="2e835afb-1629-4603-927d-6071c6bafa03" name="Faerie Crystal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone. If it's a colorless card, put another card from the top of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T19/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a1313e64-5e65-49b0-8fc1-770bfbaf3ea5" name="Pixie Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone. Then you may return a colorless card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T20/T20"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="a27d2be6-1dc7-48d3-81cf-e15af0d94c05" name="Destiny Ryusei of Fate">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, search your deck. You may reveal a colorless card from among them and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TF1/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="3a674574-1760-47f9-b7aa-ce08f548c10c" name="Truename Shuramaru">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Unknown"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If that card is a non-evolution colorless creature, you may put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF2/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="e79ca336-1416-440a-aa30-e96b18f6101e" name="Owen the Road, Zenith of &quot;The End&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Unknown/Zenith"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you summon this creature, shuffle all cards in your graveyard into your deck. Then you may shieldify the top 3 cards of your deck.&#xA;■ When one of your creatures would leave, you may return 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TF3/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="72648bda-7c43-4fbb-934a-a94efc356944" name="Save the Date, Zenith of &quot;Genesis&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Unknown/Zenith"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you summon this creature, put any number of non-evolution creatures that have &quot;blocker&quot; from your hand.&#xA;■ Whenever you put a creature that has &quot;blocker&quot;, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TF4/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="61f66043-7740-4fdd-973a-600f17d0411e" name="The Lionel, Zenith of &quot;Leo&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, you may draw 3 cards. Then shieldify up to 3 cards from your hand.&#xA;■ Whenever one of your opponent's creatures breaks one or more of your shields for the first time in a turn, each of your Light cards in those shields gets &quot;shield trigger&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TF5/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="25b4748b-4b12-42c3-9d36-ff794e54ec91" name="Codename Hungry Elegance">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Unknown"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent draws a card, you may put the top card of your deck into your mana zone.&#xA;■ You may summon Unknown creatures from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TF6/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="78119e57-d18e-4fe8-bb56-8b7c45561aa5" name="Beethoven Solemnis, Zenith of &quot;Requiem&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all your opponent's Dragon elements. For each element destroyed this way, put one of your opponent's shields into their owner's graveyard.&#xA;■ Whenever your opponent would put a Dragon element, your opponent puts it into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TF7/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="0dc96b37-2997-4f60-8a34-3b925323bd8c" name="Shura Beethoven, Zenith of &quot;Hadou&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever you summon a dragon, you may put the top 2 cards of your deck into your mana zone.&#xA;■ Each of your dragon creatures gets &quot;speed attacker&quot; and &quot;slayer&quot;.&#xA;■ You may summon dragon creatures from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TF8/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="dd7f8dea-5abc-4e2a-9700-b6a950893af5" name="Detroit Techno, Sacred Demon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oraclion"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever you tap a colorless card in your mana zone, you may change the mana number of those cards to 2."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TF9/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="119a511d-dfc3-4ce9-9849-b6add9aa7277" name="Doyagaou">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tristone"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your colorless creatures leaves, you may put a colorless creature that costs the same from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TF10/TF10"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="379a3a42-6d61-438e-bd43-0c21610c93fb" name="Egoist, Climax of &quot;Me&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="44444"/>
+      <property name="Rules" value="■ Ore evolution: Put your handYour own hand attached to your arm, not your gaming hand of cards down on the game table and put this creature on top of it. When that hand leaves the game table or when this card touches the game table directly, return this card to your hand.&#xA;■ Each turn, you may untap this creature the first time it's tapped.&#xA;■ Age Breaker (This creature breaks a number of shields equal to the number in the tenths position in your age.)&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR1/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="56cc6954-8fca-4fa8-a034-8960385b8217" name="Shangri-La, Climax of &quot;Cruelty&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Super Infinite evolution Omega: Put this creature on one or more of your Guardian creatures from the battle zone, your graveyard and/or mana zone.&#xA;{TRIPLE BREAKER}&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose one of your opponent's creatures. Your opponent puts that creature into their deck and shuffles it.&#xA;■ While this creature is tapped, your opponent's creatures can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TR2/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="d069b7fb-2e8f-49f7-9a86-c65a03f607b3" name="Onimaru &quot;Ogre&quot;, Golden Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Zenith/Hunter"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, destroy all your opponent's non-colorless creatures that have less power than this creature.&#xA;■ Each of your Hunter and Alien gets &quot;Eternal Omega&quot;. (When a creature that has &quot;Eternal Omega&quot; would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TR3/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="746ef82b-30a4-40fc-89f7-87746698c0cf" name="Kiramaru, Great Miracle">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Hunter/Alien/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)&#xA;■ When you summon this creature, you and your opponent play Gachinko Judge 3 times. Each time you win and reveal a creature, put that creature instead of putting it on the bottom of your deck. Each time you win and reveal a spell, cast it for no cost instead of putting it on the bottom of your deck.&#xA;■ Each of your creatures gets &quot;speed attacker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TR4/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="9ea91bb1-013f-4717-b78a-cf08d04579b3" name="Beethoven, Zenith of &quot;Horror&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return a total of 3 Dragons and/or colorless spells from your graveyard or mana zone into your hand. You may put the top 3 cards of your deck into your mana zone. Then you may tap this creature.&#xA;■ If your opponent's creatures attack, they attack this creature if able.&#xA;■ Each of your Dragons and Commands gets &quot;Eternal Omega&quot;. (When a creature that has &quot;Eternal Omega&quot; would leave, it returns to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TR5/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="f6440082-4054-421b-96f7-14b30c11d978" name="Lionel, Zenith of &quot;Ore&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top card of your deck. Then your opponent chooses one of your shields. You may break that shield.&#xA;■ Each of your cards in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="TR6/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b37b9ee1-6a88-4ad7-9556-97e977d323d1" name="Shangri-La Eden, Climax of &quot;Ideals&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution Omega: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures and your opponent shuffle it into their deck.&#xA;■ While this creature is tapped, your opponent's creatures can't attack or block.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR7/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b358e670-52c4-4891-9119-248988e26691" name="Emrakul, the Aeons Torn">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="15"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Eldrazi/Zenith"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, take an extra turn after this one.&#xA;■ Whenever this creature attacks, your opponent chooses a total of 6 of their face up cards in the battle zone, shield zone, and mana zone and puts them into their graveyard.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR8/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="1b1390ff-9868-48bb-8b37-fe2e6677fce5" name="Utopia Ever, Zenith of &quot;Destruction&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian/Unknown/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)&#xA;■ When you summon this creature, during your opponent's next turn, each of your opponent's creatures attacks if able.&#xA;■ Whenever one of your other creatures would battle one of your opponent's creatures, this creature battles instead.&#xA;■ Your opponent can't choose this creature. (It can still be attacked and blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR9/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="14cfc36d-f88e-4df4-ad94-5ef529e5beee" name="Suspense, Zenith of &quot;Curse&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, choose 2 cards from your opponent's hand or shield zone at random. Your opponent reveals those cards. You may cast any spells from among them for no cost and put them into their owner's graveyard. Then your opponent puts the rest of the revealed cards into their graveyard.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR10/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="b68155ce-b9e5-4274-a6d3-df2518fc7cd5" name="VAN Beethoven, Zenith of &quot;Shura&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR11/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="f418fb58-bdb5-4ab9-84f8-318d3c9eda9d" name="Greatest Great, Zenith of &quot;Life&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="21000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ When you summon this creature, choose any number of creatures that have total cost 7 or less from your mana zone or graveyard and put them.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR12/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="6bfb3308-7adf-4199-9ae1-362166429814" name="Radio Roses, Zenith of &quot;Wisdom&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, draw up to 5 cards, then your opponent discards 5 cards from their hand.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR13/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="e4e10865-68c6-4c16-930f-229605d1ada7" name="Zeta-File, Zenith of &quot;Mystery&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, you may destroy all your other creatures. If you do, put all Demon Commands from your graveyard.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR14/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+    <card id="739c1518-3496-4fdb-98df-1dba9ccd6c73" name="Back to the Ore, Zenith of &quot;Ten Tail&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Zenith"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you summon this creature, search your deck. You may reveal up to 2 spells that cost 6 or less from among them. Then shuffle your deck. Your opponent chooses one of the revealed spells and puts it into your graveyard. Cast the other card for no cost.&#xA;■ Whenever this creature attacks, you may cast a spell that costs 6 or less from your graveyard for no cost. Then put that spell on the bottom of your deck.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR15/TR15"/>
+      <property name="Set" value="DM23-EX3 Deathbell Crystal"/>
+    </card>
+  </cards>
+</set>

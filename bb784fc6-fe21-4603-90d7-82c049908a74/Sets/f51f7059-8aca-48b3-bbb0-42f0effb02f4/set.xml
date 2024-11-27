@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-09 Invincible Blood" id="f51f7059-8aca-48b3-bbb0-42f0effb02f4" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="d61d13c1-9b8c-4c7e-a8f6-521dfee2509f">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="3be4d46e-de7d-443b-a0f4-80770f9ce716" name="Glena Vuele, the Hypnotic">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, you may add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="c95aeaf0-d0a2-4bf1-9299-d1790837db4b" name="Marching Motherboard">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you put another creature that has Cyber in its race into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="4337d3d7-15f6-44a9-bba9-7be8b8e83ae8" name="Azaghast, Tyrant of Shadows">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dark Lords.&#xA;■ Whenever you put a Ghost into the battle zone, you may destroy one of your opponent's untapped creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="f0c92e18-17de-4a5d-b02d-48a68fb1c6c2" name="Balesk Baj, the Timeburner">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Wyverns.&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, take an extra turn after this one.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="a882b1df-f047-45db-bfc0-a8276b45c0ca" name="Vreemah, Freaky Mojo Totem">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever you put another creature into the battle zone, each Beast Folk in the battle zone gets +2000 power and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="40bb07bb-3e20-464f-b56e-0aa3f910f6cd" name="Mihail, Celestial Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever another creature would be destroyed, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="170b2b60-00bc-48e2-ad46-10e20d458ce7" name="Micute, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever you put a Guardian into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="d574dd08-f8a8-42b8-bec0-8affb2964059" name="Nexus Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Add a card from your hand to your shields face down.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="07059df6-ca37-48e9-876d-5b4acd044671" name="Emperor Maroll">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever you put another creature into the battle zone, return this creature to your hand.&#xA;■ Whenever this creature becomes blocked, return the blocking creature to its owner's hand. (This creature stays tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="32dc3093-4dfe-427a-bd25-f364e4febb7b" name="Zeppelin Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="206fb3a2-5848-42ad-91ef-7e0784eb7427" name="Abduction Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose up to 2 creatures in the battle zone and return them to their owners' hands.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="0f23a8b2-45a1-4f0a-9820-1309306499c5" name="Gabzagul, Warlord of Pain">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Each creature attacks each turn if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="cafd89c2-9f77-49cc-ada8-1cd008e63c8c" name="Ice Vapor, Shadow of Anguish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever your opponent casts a spell, he chooses and discards a card from his hand, then chooses a card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="d7604066-8d8d-4d3d-8db3-c981e52a3ffa" name="Slash Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Search a player's deck. You may take a card from that deck and put it into that player's graveyard. Then the player shuffles his deck.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="95ab9494-d34b-4a05-97c2-14965421afa8" name="Shock Trooper Mykee">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, you may destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="ce5608d3-7771-4c7b-b25f-b18cb94ab2b4" name="Simian Warrior Grash">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever one of your Armorloids is destroyed, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="0ae53aef-5740-4331-8d0c-3961a76c98ca" name="Blizzard of Spears">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy all creatures that have power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="a535f263-bbb7-4515-a27c-d729a569e6a8" name="Storm Wrangler, the Furious">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's untapped creatures that has &quot;blocker.&quot; This turn, that creature blocks this creature if able and this creature can't be blocked by other creatures.&#xA;■ Whenever this creature becomes blocked, it gets +3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="c0be6e86-7dac-4dfc-b05e-b4e9eeaaa0f6" name="Terradragon Anrist Vhal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each of your other nature creatures in the battle zone. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="0246c7a1-ede8-473e-af8c-b61cfd5a8423" name="Mana Bonanza">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ For each card in your mana zone, put a card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="ba9894b3-1bae-405f-a0b0-5d943352c1b5" name="Tra Rion, Penumbra Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. At the end of this turn, untap all creatures of that race in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="fe57e46c-18ec-4bb1-ac55-735c731e4764" name="Betrale, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of each of your turns, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="8f3d82d9-02fd-428d-901f-c173ded9f4c5" name="Unified Resistance">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Until the start of your next turn, each of your creatures in the battle zone of that race gets &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="f098dc39-e9cd-4099-b3fd-a54adf4581ae" name="Tekorax">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's shields. Then put them back where they were."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="ac6cd342-28f1-4c55-a653-aa0863016472" name="Hokira">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Whenever one of your creatures of that race would be destroyed this turn, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="cca7a107-f65d-4ccc-bcd5-1c1a86b3a2ff" name="Submarine Project">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="b7dc938d-ea0e-4a02-a526-7b5a9a099baa" name="Necrodragon Izorist Vhal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each darkness creature in your graveyard. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="2b8fa570-ab40-4ace-9fde-a473871b3503" name="Venom Worm">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="6981350b-5708-47ab-867c-391e783e29e8" name="Grinning Hunger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Your opponent chooses one of his creatures in the battle zone or one of his shields and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="575f07fc-bac3-4a04-97f2-434c0002ddd3" name="Snaptongue Lizard">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dune Gecko"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="e10e024f-3edc-4565-9294-7606a35dde97" name="Gigio's Hammer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race attacks this turn if able and gets &quot;power attacker +4000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="287a32a9-6eda-42b9-a675-56bae206ce44" name="Fists of Forever">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. Whenever that creature wins a battle this turn, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="a2e3dfd7-e6fa-438b-a590-d2f23e7325d9" name="Silvermoon Trailblazer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Creatures of that race can't be blocked by creatures that have power 3000 or less this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="935a6ef3-c77c-471a-938f-e5fcb6cfd37a" name="Whispering Totem">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a 'Whispering Totem' from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="0a8bd74a-6052-4807-ad73-f03ef1582539" name="Vine Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Your opponent chooses one of his creatures in the battle zone and puts it into his mana zone.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="c69da949-dda4-490c-976f-720ff78f3f0b" name="Cyclolink, Spectral Knight">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="9deba3f0-afd3-4bea-aeec-73da798f1775" name="Jil Warka, Time Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, choose up to 2 of your opponent's creatures in the battle zone and tap them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="01f1d659-dc20-41d4-922f-6583740500c3" name="Kalute, Vizier of Eternity">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, if another 'Kalute, Vizier of Eternity' is in the battle zone, return this creature to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="9df1bde6-e900-422f-8245-e1d74cd5408b" name="Cosmic Wing">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. It can't be blocked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="f60f38a2-c9a4-4689-9d72-5b7669a4a7d6" name="Tentacle Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, you may choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="d6eb7d76-c2d0-4ad2-b288-f0a403952938" name="Scout Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put another creature into the battle zone, return this creature from the battle zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="d682aa0d-ac71-482a-abdd-c4df5ffcbcac" name="Kelp Candle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="3c763a2d-136c-4b3d-ac54-9242b784a095" name="Impossible Tunnel">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a race. Creatures of that race can't be blocked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="41931b98-4485-44fc-9cf5-17236e3f8700" name="Acid Reflux, the Fleshboiler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Devil Mask"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="dc1b5a13-5ae6-4d3f-971d-06d9d7218eda" name="Trixo, Wicked Doll">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses one of his creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="158e8656-6e7a-4d50-b3da-ea53c7868365" name="Bat Doctor, Shadow of Undeath">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may return another creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="cea36473-dbf5-4db2-845a-3343b6dbbc48" name="Zombie Carnival">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Return up to 3 creatures of that race from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="74c63c0d-612b-41c0-aaad-13297bf20b49" name="Quakesaur">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="3d63be28-c4fb-421d-86b2-98c219ab2fbe" name="Steam Rumbler Kain">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="1cec8dd8-3ae3-4b3f-8268-9f45d086847a" name="Aerodactyl Kooza">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="d1ecce4e-aa03-4784-b8c7-e4db057ea6d2" name="Relentless Blitz">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a race. This turn, each creature of that race can attack untapped creatures and can't be blocked while attacking a creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="bb2ac754-20b6-43a6-b377-6923c0a287c3" name="Solid Horn">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="1043bd53-c615-44f0-9bf3-976d7eda2dc4" name="Whip Scorpion">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="11eacfc9-e6c4-4d0a-9b76-f7a31922789c" name="Cavern Raider">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="cbcd6987-d02b-49d9-a9ba-7c2a21afccb5" name="Dance of the Sproutlings">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a race. You may put any number of creatures of that race from your hand into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="eea34561-29fd-42ed-9f59-878591fb3a80" name="Petrova, Channeler of Suns">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a race other than Mecha Del Sol. Each creature of that race gets +4000 power.&#xA;■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="dc6c9146-5e7c-4465-9e28-85a0a9c8ed3c" name="Aqua Master">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, choose one of your opponent's shields and turn it face up. (It stays face up while it's in the shield zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="627d40d1-2953-416b-b1e5-a2daf8ab1aea" name="Stallob, the Lifequasher">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, destroy all creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="92c81fbe-fcc5-404a-9057-eac02bf8303d" name="Magmadragon Ogrist Vhal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Volcano Dragon"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="■ This creature gets +3000 power for each card in your hand. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;&#xA;■ While this creature has power 15000 or more, it has &quot;Triple breaker (This creature breaks 3 shields)&quot; instead of &quot;double breaker.&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+    <card id="a6917745-3750-4670-9c3a-003f4b97a444" name="Stratosphere Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses up to 2 creatures in his hand and puts them into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-09 Invincible Blood"/>
+    </card>
+  </cards>
+</set>

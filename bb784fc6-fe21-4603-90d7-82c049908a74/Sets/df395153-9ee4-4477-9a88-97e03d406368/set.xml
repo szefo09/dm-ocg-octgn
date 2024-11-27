@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-17 RexStars and Dispector" id="df395153-9ee4-4477-9a88-97e03d406368" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="e1d36a06-0d3c-4071-af0c-37227a9eaed9">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="f618676c-c265-4486-8b87-17b75a96f078" name="Still Justice Till The End">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Your evolution creatures cost 1 less to summon. They can't cost 0 or less.&#xA;■ When you put this creature, it can't leave until the start of your next turn.&#xA;■ 'Shinkapower': When this creature evolves, your opponent can't cast spells that cost 4 or less until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="7ae4652b-dd38-42fc-81ac-9b7dd3ffa0d6" name="Bolshack Momoking NEX">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3d3f707c-6a37-4815-85ed-23cdab546a05" name="Bolshack Momoking NEX">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1S/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="4e77f728-2aac-405b-b351-5724ff218ab2" name="Charisma Manifest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, draw 3 cards then discard 2 cards from your hand.&#xA;■ 'Shinkapower': When this creature evolves, it can't be blocked until the start of your next turn and whenever your opponent would choose a creature, they can't choose this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="831e6882-c537-4e49-87bc-af7fc24ec7ce" name="Dorphadillom, Holy Demon Concatenated King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Demon Command"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or when this creature's &quot;EX Life&quot; shield leaves your shield zone, destroy all your opponent's non-multicolored creatures.&#xA;■ Your opponent can't cast non-multicolored spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6352c47e-c714-48b4-b846-bca6d15bbf6e" name="Dorphadillom, Holy Demon Concatenated King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Demon Command"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or when this creature's &quot;EX Life&quot; shield leaves your shield zone, destroy all your opponent's non-multicolored creatures.&#xA;■ Your opponent can't cast non-multicolored spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2S/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="36e2a78d-c1bf-48c8-8882-1a088df10214" name="Baphoromea, Destroyed World Demonic General">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you reveal this creature to your opponent with the &quot;Guard Strike&quot; ability, choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, each of your opponent's creatures gets -3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="48ca01eb-2f45-4b63-8b12-a0ead7c3305a" name="Momoking Rex, Orai Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="21cd61b2-ab98-4a77-9443-64a31a07ed55" name="Momoking Rex, Orai Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3S/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="bdd57651-35d6-4d20-bbf1-9da4ac70fddc" name="Genmu Emperor, Void Infinite Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Infinite Dragon/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, reveal the top 4 cards of your deck. You may add an evolution creature from among them into your hand. Put the rest into your graveyard.&#xA;■ 'Shinkapower': When this creature evolves, choose one of your opponent's creatures. That creature gets -1000 power for each card in your graveyard until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="06970ea4-f706-4277-9c0e-7a347637d7a0" name="Still Justice Till The End &lt;Kira Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Human/RexStars"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, draw a card. Then you may put a creature from your hand that costs 4 or less.&#xA;■ Each of your creatures that cost 4 or less gets &quot;blocker&quot; and untaps at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="1bde6613-e807-4a3b-b9c0-415da0a4a616" name="Still Justice Till The End &lt;Kira Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Human/RexStars"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, draw a card. Then you may put a creature from your hand that costs 4 or less.&#xA;■ Each of your creatures that cost 4 or less gets &quot;blocker&quot; and untaps at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="1bed37db-a8f6-4103-9cd8-26df1c803e04" name="Dynabolt, Great Explosive Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dynamite Dragon/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Each turn, you may untap this creature the first time it's tapped.&#xA;■ 'Shinkapower': When this creature evolves, you may choose one of your opponent's creatures. After it evolves, this creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3d660359-9cc7-4dab-94a1-ea6479c7e64b" name="Energy Re:Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="5A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3a25ea8d-9d9a-412d-a210-a2eaabd3bbf0" name="Energy Re:Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="5B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="81d74647-eb61-48d2-bad9-402f7bee2710" name="Momostar Kentnark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Cards in your mana zone are considered to be cards of every civilization.&#xA;■ 'Shinkapower': When this creature evolves, this creature can attack tapped or untapped creatures until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8db951be-652e-4472-b77a-7d6f2146a4c1" name="Genmu Emperor &lt;Death the Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Infinite Dragon/Demon Command Dragon/RexStars"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ If you have 4 or more cards in your graveyard, this creature costs 3 less to summon.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="b5b3664e-8ee8-45bc-8ad8-ee6dca4647ae" name="Genmu Emperor &lt;Death the Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Infinite Dragon/Demon Command Dragon/RexStars"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ If you have 4 or more cards in your graveyard, this creature costs 3 less to summon.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="fb302ad6-55c2-4d60-9c88-c93e96671979" name="Hydrasamaru, Concatenated Evil Ninja">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Guardian/Dark Lord"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your other creatures gets &quot;blocker&quot;.&#xA;■ When you put this creature, return up to 2 creatures from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3aaae391-5bc2-4f9f-b4ba-5930da691a8b" name="Faerie Re:Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="7A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="b1d47e83-be91-454d-b3d2-c07f94be10f7" name="Faerie Re:Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="7B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="f191ebbb-ddd3-4864-a932-e3659c00215c" name="Doublesword Red Auzesu, Concatenated Evil Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Armored Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put this creature or it attacks, discard 2 cards from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="12a1963c-2e23-4089-b473-93c721893eb4" name="Dondon Volcanic Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put one in your mana zone, add one to your hand and put one into your graveyard. Destroy one of your opponent's creatures that costs the same as or less than the card put into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6ec487cd-644b-4933-b6f4-a31d06955654" name="Dondon Volcanic Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put one in your mana zone, add one to your hand and put one into your graveyard. Destroy one of your opponent's creatures that costs the same as or less than the card put into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="ed8bd5c3-1084-4647-874f-67b42cdeb5e2" name="Gaizekial, Concatenated Demon Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Red Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever a card is put from your shield zone into your graveyard, choose one of the following:&#xA;► Draw a card:&#xA;► Your opponent chooses a card from their hand and discards it:&#xA;► Choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="242ae243-3faa-405a-981f-443971b35247" name="Scrapper Spiral Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent chooses one of their creatures that has the lowest power and destroys it.&#xA;■ Your opponent chooses one of their creatures that has the highest power and return it to it's owner's hand.&#xA;■ Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9156622d-cbe3-4c67-8432-9412bb23cf6e" name="Scrapper Spiral Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent chooses one of their creatures that has the lowest power and destroys it.&#xA;■ Your opponent chooses one of their creatures that has the highest power and return it to it's owner's hand.&#xA;■ Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="37bd31d4-ae88-4f77-9755-26d90648dd59" name="Heavenash Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 8 or less from your graveyard. That creature gets &quot;blocker&quot; until the start of your next turn. Then you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cad359d4-5ad6-4bbc-be9e-488d512679aa" name="Zardiclica, Hybrid Winds Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Crystal Command Dragon/Angel Command/Melt Warrior"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a spell that costs 7 or less from your hand or graveyard for no cost. After you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ At the end of each of your turns, if you cast a spell that turn, you may choose one of your opponent's creatures that has power 5500 or less, destroy it, then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0b1b83f3-189d-47f0-8c58-750ab1026640" name="Zardiclica, Hybrid Winds Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Crystal Command Dragon/Angel Command/Melt Warrior"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a spell that costs 7 or less from your hand or graveyard for no cost. After you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ At the end of each of your turns, if you cast a spell that turn, you may choose one of your opponent's creatures that has power 5500 or less, destroy it, then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="11fa1c1a-d02e-4a27-89f8-68cf3b8b62e8" name="Dischalce Dony">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature gets &quot;slayer&quot; while attacking a creature that costs 5 or less.&#xA;■ When you put this creature, you may put a creature from your hand that costs 5 or less ."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="4ef30bd8-c94f-4132-b13b-80e8fa51d503" name="Team Tech's Wave Go!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Return all your opponent's cards that cost 5 or less in the battle zone to their owner's hand:&#xA;► Destroy one of your opponent's creatures that costs 6 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c65a543e-33b8-4f83-a987-00162a0476c0" name="Team Tech's Wave Go!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Return all your opponent's cards that cost 5 or less in the battle zone to their owner's hand:&#xA;► Destroy one of your opponent's creatures that costs 6 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c245708b-706b-4297-8cbc-7ae3641932ae" name="Ov Sidia &lt;Southern Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Angel Command Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card for each of your creatures that cost 4 or less in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="be880fe8-808a-476e-9750-2d824f592544" name="Ragnarok, the Clock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="2a1d0c6e-0d7c-4f42-900e-80985adacdff" name="Ragnarok, the Clock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3e258c7d-887c-4373-bf72-2d720b0f4242" name="Syridian, Concatenated Heaven Crimson">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Armored Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="a4b4db67-5b00-4c24-9458-1cc427ba8e1e" name="Dorballom, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creature.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness creatures. Then each player puts all non-darkness cards in their mana zone into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6cbf3093-e113-4b84-ba33-7e3eb7939829" name="Dorballom, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creature.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness creatures. Then each player puts all non-darkness cards in their mana zone into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="49443ee2-1a2e-4795-aa92-ff0e1eb57b4d" name="Fireball Channeler &amp; Legendary Taleteller">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, you may put a creature that costs 4 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="fc0bea82-5a87-4766-8fd1-c9c9757e502c" name="Perfect Galaxy, Immortality Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="14A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="61d689fb-7335-41d7-9418-91cdbe54cf6e" name="Perfect Galaxy, Immortality Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="14B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="a4084335-336c-49f2-8b03-2b8a30d3e66c" name="Onikamas &lt;Shuff Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mutopia/Magic Command/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose a number. Until the start of your next turn, your opponent's creatures that cost the same as that chosen number can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8d19bca7-b96a-4932-a295-138861d6aa22" name="Pokchinchin">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, choose a player. That player shuffles all cards in their graveyard into their deck.&#xA;■ During your opponent's turn, whenever your opponent puts a creature for no cost, put it on the bottom of its owner's deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6f5719a1-564a-433c-8c95-d8848fea7bcc" name="Pokchinchin">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, choose a player. That player shuffles all cards in their graveyard into their deck.&#xA;■ During your opponent's turn, whenever your opponent puts a creature for no cost, put it on the bottom of its owner's deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cca8e22b-73ec-452e-81f2-4c4f909ef69d" name="Leoboltelne, Hybrid Ice Cannon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Cyber Virus/Armored Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't be attacked or blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c7123c49-34a3-47c2-a7e8-ca08c7b3f2e7" name="MaltNEXT, Super Battle Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{MANA ARMS} 5: When you put this creature, if you have 5 or more fire cards in your mana zone, put a fire dragheart that costs 5 or less from your hyperspatial zone. (If it's a weapon, equip it to this creature.)&#xA;■ Dragon Mana Arms 5: When this creature attacks for the first time in a turn, if you have 5 or more fire Dragons in your mana zone, untap this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="16A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5cafc53f-dc01-46eb-a994-fe30f8f7f8d7" name="MaltNEXT, Super Battle Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{MANA ARMS} 5: When you put this creature, if you have 5 or more fire cards in your mana zone, put a fire dragheart that costs 5 or less from your hyperspatial zone. (If it's a weapon, equip it to this creature.)&#xA;■ Dragon Mana Arms 5: When this creature attacks for the first time in a turn, if you have 5 or more fire Dragons in your mana zone, untap this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="16B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0cf6d089-fc93-4260-9537-0a532c7dc754" name="Tanra Tula">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Whenever your opponent casts a spell during their turn, you may choose one of your opponent's creatures and return it to it's owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="7ed6a42e-e506-4494-a792-1ea9c0ddf09c" name="Bad Brand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Master Bad Action Dynamite (This creature may cost 2 less to summon and an additional 2 less for each of your other fire creatures you summoned this turn. If you do, destroy one of your creatures at the end of the turn. This creature can't cost 0 or less.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your fire creatures gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="17A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c4ed9f01-65f4-44fb-bc7b-56ca413001b4" name="Bad Brand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Master Bad Action Dynamite (This creature may cost 2 less to summon and an additional 2 less for each of your other fire creatures you summoned this turn. If you do, destroy one of your creatures at the end of the turn. This creature can't cost 0 or less.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your fire creatures gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="17B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6916c653-8417-4ccc-8150-e16d4a6e48d0" name="Mukade, Asura &lt;Deathshiraz Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Demon Command Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="a1b140de-ebee-469a-b8ce-8b6de2908ce1" name="Codeking Wilhelm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Unknown"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy. Then choose a card from your opponent's mana zone and put it into its owner's graveyard.&#xA;■ Whenever your opponent puts a card into their graveyard from anywhere, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c274dd90-f211-4d56-a8fb-8b75d00f9dbe" name="Codeking Wilhelm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Unknown"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy. Then choose a card from your opponent's mana zone and put it into its owner's graveyard.&#xA;■ Whenever your opponent puts a card into their graveyard from anywhere, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="169b2179-3322-497d-8f53-97ecd925d6f5" name="Zamarova, Concatenated Darkness Channeler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Pandora's Box/Mecha Del Sol"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="a62d3484-c710-49a4-95fb-e51380ea0afe" name="Jasmine, Mist Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may destroy this creature. If you do, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="82f2d036-3069-4950-bb82-40160ab6b2ea" name="Jasmine, Mist Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may destroy this creature. If you do, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5516a2de-d54c-498f-80e3-163dbafa00e5" name="Pose, Misfortune Demon 31">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ During your turn, you may summon an evolution creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c8dde417-0b9a-496c-9199-77035beb00cf" name="Holy, Flash Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20A/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="305cfe7a-dd5b-412b-a3a7-a9483a3ab408" name="Holy, Flash Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20B/20"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="246f0222-39a3-4164-aa63-57522fd85a51" name="Dope &lt;Flameburn Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Armored Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9cb7b530-b3a5-45f4-89ac-6307e4a8ef1f" name="Bolsren Buster, Hybrid Flame Machine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Machine Hero"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3d05897d-feb0-4fce-99dd-32dc46ef6f61" name="Aibo Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, reveal the top 4 cards from your deck. You may put a creature that costs 6 or less from among them that can evolve from this creature on top of it. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8acbd7bc-d417-4497-b57b-d21f4eb9b412" name="Xenogent, Electrofused Spy Bug">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Giant Insect/Liquid People"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="54b22618-d2b3-4776-ba66-4bfdae6bf378" name="Primal Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent would put a card from anywhere other than their hand, put it into its owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0e84b787-aef3-424b-8b2c-00ecd669dc04" name="Yattareari">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ During your turn, you may summon an evolution creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0dde2eaa-547a-44db-89ee-ed103caecc0b" name="Scrapper Spiral Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent chooses one of their creatures that has the lowest power and destroys it.&#xA;■ Your opponent chooses one of their creatures that has the highest power and return it to it's owner's hand.&#xA;■ Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="84414de9-7eff-4786-bc05-56269cd286f2" name="Diszircon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ You may summon this creature from your mana zone or your graveyard.&#xA;■ When you put this creature, draw 2 cards and discard a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0e4ef43d-e09b-4485-af09-2947764fdfcc" name="Dondon Volcanic Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put one in your mana zone, add one to your hand and put one into your graveyard. Destroy one of your opponent's creatures that costs the same as or less than the card put into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0c8f23b3-4c82-4976-9e0f-14acfd217675" name="Urgaan, Connected Pure Dark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Demon Command"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Untap this creature at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="15066665-33b1-479f-be2b-ff293fd156a7" name="Distalu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Justice Orb/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card.&#xA;{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="356420f1-b6ed-4150-b871-8f8ebdbca94c" name="Schre-1, Vizier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may tap this creature at the end of your turn. If you do, untap one of your other creatures.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9d6d4cec-fd28-4e6d-bdce-dd2066aed1f1" name="Tekara, Inspection Guard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Neither player can put cards other than from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="67eaea74-c92e-459d-814d-5a9075c35c7e" name="Absolute Guard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your creatures and shieldify it face up. Then choose one of your opponent's creatures and shieldify it face up."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8326c5ef-1cb8-487a-ac74-f77840042e79" name="Deathblade Orion, Sutured Forest Seaking">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Leviathan/Giant Insect"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="84ff1076-4ff0-4bbc-b231-51d50b01b998" name="Dispenter">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature is destroyed, if you have a creature in the battle zone that has power 6000 or more, return this creature to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="1df9a9ed-0ae7-48bc-b07e-18cc64641cff" name="Pacifio-1, Seatribe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="94237044-b3ea-4625-b36c-8f747ef6d806" name="Surfing Surfer Bigwave">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="dcf27e00-ab00-4b9c-8e79-5827982feb57" name="Shauliger, Connected Light Lion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent chooses and discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="41b27a30-d2fd-4178-8d0e-1d69cd65e53d" name="Dorbro-1, Taboo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initials X/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ After this creature attacks, destroy this creature.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="aeaf1244-0bfd-424f-afd2-a8c35284f062" name="Dismorse">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)&#xA;■ When you put a creature that has power 6000 or more, return this creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5ae50a7b-fdff-42f0-bbf6-b801db66b171" name="Omedeo Tasis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, destroy one of your other creatures and draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="2ab1eca5-ec3b-4bc8-b74b-bb1e914883be" name="Dorphadillom Cannon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -7000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cce3e901-e87f-4123-8309-cf4a7617b9a6" name="Appo &lt;Valbo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Human/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c7233749-db26-4824-992a-5dadbc1dff58" name="Meteorsniper, Electrofused Falling Attack">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Liquid People"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, discard a card from your hand then draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cb17cc79-0930-4d30-8e0a-c68a91012892" name="Batocross-1, Passion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures in the battle zone. This creature and that creature battle.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="defb4eed-ffd7-4447-879b-0e8def351a33" name="Dislighter">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, put one of your shields into your hand. You can't use the &quot;shield trigger&quot;.&#xA;{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="e964b4c0-5c0e-4b3c-98be-b88268d527ed" name="Burst Oneshot">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy all creatures that have power 3000 or less.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5854668d-c4d6-489e-b962-d0d917dd2f0b" name="Batten &lt;Fang Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Beast Folk/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cd536b17-003f-467d-ab5d-dd6098912f51" name="Grelphy, Sutured Evil Horn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Horned Beast/Dark Lord"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="829b423e-3359-455f-8521-747492328980" name="Donguri-1, Brave">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies/Distas"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose a creature. This turn, that creature gets +2000 power and can't attack players.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="fb784cfd-2c45-4af3-8abe-97eaffe43e92" name="Ochame Trap">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c6d515f4-e0de-4467-8040-98988cdc117b" name="Bloodow-2, Rotten Saint">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Ghost/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, draw a card.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3fd7b58c-70ff-4c40-ae06-f671c73f0223" name="Funno-2, Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Soltrooper/Melt Warrior/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ At the end of your turn, untap this creature.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="574af8db-dc9a-40d9-aa2a-cd619d23e30a" name="Antoi-2, Beautiful Princess">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Splash Queen/Tyranno Drake/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may discard your hand. If you do, draw 3 cards.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="7f6cbec3-bed4-44ca-a649-a4cd95d54b35" name="Analith-2, Armor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect/Cyber Lord/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever an opponent's creature attacks, you may draw a card.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9925eaca-bc9e-4195-86f4-df643d246156" name="Rigel-2, Soul Crystal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When you put this creature, you may return a card from your mana zone or graveyard to your hand.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="a8d3101c-5900-41b0-b0d3-939758dfd934" name="Mixel &lt;Tajimal Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Initiate/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c61f3ceb-da62-4124-8592-a195811e28a7" name="Baula-1, King Mecha">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Distas"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, return a spell from your graveyard to your hand.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="51d63c9e-9f8d-4c6b-997b-3a67f15c93c7" name="Masaru, Disciplined Training">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="49db5615-adf9-40d2-bacf-30f144d6b8bf" name="Jade-1, Star Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5c2b0cc9-17c6-41b6-9822-4fbdaa9c7e3e" name="Piacere, Blue Defense Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="62/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="d1535589-022e-4be9-9dd4-59cc97935bfd" name="Disbilpun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Origin/Distas"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="■ If you have a creature in the battle zone that has power 6000 or more, this creature gets &quot;blocker&quot;. (You may tap a creature that has &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9433a6ce-8e4a-44cb-b1c7-227cfa945ac5" name="Still Flash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9f08eee9-be70-49fc-abef-3ce4d10e7299" name="Logic Re:Cube">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 4 cards of your deck. You may reveal a spell from among them to your opponent, and put it into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="78634da7-e3f2-4138-a51f-62460ce7b1fb" name="Wave &lt;Crylan Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Liquid People/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c5e5719d-27bb-48ac-a178-74ae01eef7f4" name="Guguppy, Future Overlord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="ee4ba86d-7523-4dea-9628-3d6b304a8519" name="Hulcus-1, Cyber">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="01f51e06-6c47-4398-9565-203abcf2b326" name="Mariflo-1, Viral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="091abb7d-d0a1-41a8-98f4-6fb825b0a00b" name="Manmasa, Sharpscaled Swordsman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="4f180815-1346-4240-b274-986cfe9b94b9" name="Zeev Raze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="d5ee2a12-cb29-466e-a667-76347f22e4b6" name="World Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9e619ae8-af2a-4f6b-943c-c15460a77fec" name="Energy Re:Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="fac189bb-8d82-4569-9e96-c3ddfb41781d" name="Bash &lt;Melnia Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/Ghost/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="52b9dcdb-3274-4ae6-817f-aadd5e5a346f" name="Jenni-1, Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, discard a card from your opponent's hand at random.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="95b68853-2355-46fe-9550-9e524a20aabe" name="Ldbat-1, Nightmare">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Knightmare/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your graveyard. Then return a creature from your graveyard to your hand.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="b57208ba-935d-4ccf-837c-e17bd9a00688" name="Padabada, Misfortune Demon 49">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="89b94e9e-0bb9-4898-85c0-51ef988bb97e" name="Omedet, Misfortune Demon 20">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="afa5af90-b9bd-4870-b4f2-4091108501ee" name="Death's Last Ultimatum">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses one of their untapped creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8c64f6b2-7cb7-42f6-9161-643e0dec96e1" name="Ghost Re:Touch">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="8021f170-f522-45f6-a43c-391b174ca9e2" name="Gelacho &lt;Chitchi Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Fire Bird/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="631260b8-664e-4ea0-be3f-c60759f47a8a" name="Piriver-1, Soultool">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="ac8eb114-b87b-4347-acaa-7de118c5da02" name="Moel Mohitch">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/RexStars"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ While battling, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3b98ff72-8875-4b63-a32d-fced1a33f888" name="U・S・A・BOX">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, while battling, this creature gets +2000 power this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="7d46e919-9873-4567-abbf-b96ff9a98672" name="Bakuislay-1, Warrior">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human Baku/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may discard a card from your hand. If you do, draw a card.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c750a6e7-f716-4e6e-8f96-8d92cffe6c8f" name="Firing Dome">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ One of your creatures gets +4000 power until the end of the turn. Then you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="c2cd87fb-5306-4806-b997-d3bab16c2c28" name="Dual Wield Re:Training">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Choose one of your creatures in the battle zone. When that creature is tapped for the first time this turn, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5b8bb93e-40c9-4994-bc96-6229e379b2ac" name="Chotto Q">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ This creature attacks your opponent each turn if able.&#xA;■ While you have 2 or more Jokers in the battle zone or your mana zone, this creature gets +3000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+      <property name="Number" value="88/95"/>
+    </card>
+    <card id="22b23999-c441-4e07-9706-3dba5c447d01" name="Diserika">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="cb2e7c27-6a2f-46b0-b209-2937ac0f4f83" name="Gigahorn-1, Daring">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 5 cards of your deck. You may reveal a creature from among them to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="4a724327-09dd-43d1-ba41-1cfb3ea951ea" name="Kaguyaba Princess">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="4fb2fe48-b42e-421d-8390-dfcc5aaa47ac" name="Bronze-1, Savage">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="93c28748-bbd0-4e0e-ace8-263dbfc85013" name="Disganba">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature can't attack players unless you have a creature in the battle zone that has power 6000 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="39407011-d1ff-4afb-b066-0dff076bb372" name="Paligiris">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="e3b1666e-572f-4341-857a-dc853392cd3f" name="Faerie Re:Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/95"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0d0d42e5-1952-4be4-b9f9-4558e9ed8431" name="Dope &lt;Flameburn Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Armored Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro1/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="89c7b914-5ec1-469b-8fc7-4da101f0233a" name="Aibo Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, reveal the top 4 cards from your deck. You may put a creature that costs 6 or less from among them that can evolve from this creature on top of it. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro2/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="d306e33c-2776-48b2-b5a0-fa733b06bf15" name="Appo &lt;Valbo Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Human/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro3/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="e99a35f3-4835-42c8-aa55-f891007bdb3c" name="Burst Oneshot">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy all creatures that have power 3000 or less.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro4/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="dcc0cf2e-f6bf-4a14-a535-ccb1f5972cc0" name="U・S・A・BOX">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, while battling, this creature gets +2000 power this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro5/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="02fe68e8-5288-405e-80f5-0c3494258dc4" name="Ov Sidia &lt;Southern Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Angel Command Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card for each of your creatures that cost 4 or less in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro6/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="22a714a6-46a0-4c8a-937e-1c5d6d5a9327" name="Fireball Channeler &amp; Legendary Taleteller">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, you may put a creature that costs 4 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro7/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6add918e-06a6-493a-b9cd-d91b38399838" name="Mixel &lt;Tajimal Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Initiate/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro8/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="57c04a2e-f1a9-48df-9a05-be56c27a80bd" name="Manmasa, Sharpscaled Swordsman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Shinkapower': When this creature evolves, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro9/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="decdb70f-27e7-4699-8b45-091852d1c65b" name="Seedrun, Hidden Lurker">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature attacks, draw 2 cards then put a card from your hand on top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro10/Coro10"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="3ca5fa2f-7378-48bc-be9d-9327c974fcdd" name="Bolshack Momoking NEX">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM1/KM3"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9ed3e8cc-439c-4df0-af59-17352f21b3a8" name="Dorphadillom, Holy Demon Concatenated King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Demon Command"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or when this creature's &quot;EX Life&quot; shield leaves your shield zone, destroy all your opponent's non-multicolored creatures.&#xA;■ Your opponent can't cast non-multicolored spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM2/KM3"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="9632567b-b28f-4a16-b069-3f1f6df046f2" name="Momoking Rex, Orai Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM3/KM3"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="09ddf973-596a-405a-bb68-2153de4c1597" name="Still Justice Till The End &lt;Kira Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/Human/RexStars"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, draw a card. Then you may put a creature from your hand that costs 4 or less.&#xA;■ Each of your creatures that cost 4 or less gets &quot;blocker&quot; and untaps at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="500646e9-cff9-44ad-9f4c-daf73e8379c0" name="Manifest &lt;Marco Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Cyber Lord/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose another creature and return it to its owner's hand.&#xA;■ Whenever this creature attacks, draw 3 cards, then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="b55d072b-218c-41c0-bf34-5b203ce696f0" name="Genmu Emperor &lt;Death the Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Infinite Dragon/Demon Command Dragon/RexStars"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ If you have 4 or more cards in your graveyard, this creature costs 3 less to summon.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="f357fcf5-6dad-4059-8e4b-74791c487b01" name="Dynabolt &lt;Eterphoeni Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Dynamite Dragon/Phoenix/RexStars"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever this creature attacks players, choose one of the following:&#xA;►︎ Choose a non-creature card in the battle zone and put it into its owners graveyard:&#xA;►︎ Destroy one of your opponent's creatures that costs 4 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="6390540f-28ec-4d6f-83b0-08dded2e5372" name="Kentnark &lt;Dirga Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Earth Dragon/RexStars"/>
+      <property name="Power" value="23000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature or jp creatures. (When this creature would leave, the top card leaves instead.)&#xA;{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, return a card from your mana zone to your hand.&#xA;■ Whenever one of your creatures wins a battle, you may break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="0ee5d781-adee-434a-b739-0d2260421982" name="Nevershidend, Concatenated Purple Sky">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Angel Command Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, you may untap this creature the first time it's tapped.&#xA;■ When this creature's &quot;EX Life&quot; shield leaves your shield zone, this creature can't leave the battle zone this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="fd9852f0-610b-4d06-adfe-051f5d628e5d" name="Zardiclica, Hybrid Winds Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Crystal Command Dragon/Angel Command/Melt Warrior"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a spell that costs 7 or less from your hand or graveyard for no cost. After you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ At the end of each of your turns, if you cast a spell that turn, you may choose one of your opponent's creatures that has power 5500 or less, destroy it, then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="d542942a-5515-4ca2-a7c6-be3512eed849" name="Baradeathmetal, Concatenated God Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command Dragon/God"/>
+      <property name="Power" value="24000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ When you put this creature or when this creature's &quot;EX Life&quot; shield leaves your shield zone, tap all your opponent's creatures. Those creatures don't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="5f9f6749-f1b4-4b1b-97bd-28cd7f8582e3" name="G.O.D.Z.A., Connected Extreme World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/God"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, you may put a creature that costs 6 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="eb13356a-737d-4af6-b66e-7568dbefa127" name="Wiljavelin, Sutured Fakespear">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/King Command Dragon/Liquid People"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's cards in the battle zone, one in their mana zone and one from your opponent's hand at random. Your opponent puts them into their graveyard.&#xA;■ At the end of your turn, choose a player. That player draws 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+    <card id="f2428d99-53e3-4f42-be97-94feee11ff4e" name="Orochiryusei, Electrofused Blade Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Cyber Lord/Red Command Dragon"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ During your turn, you may look at the top card of your deck. If it's a creature, you may summon it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11/S11"/>
+      <property name="Set" value="DMRP-17 RexStars and Dispector"/>
+    </card>
+  </cards>
+</set>

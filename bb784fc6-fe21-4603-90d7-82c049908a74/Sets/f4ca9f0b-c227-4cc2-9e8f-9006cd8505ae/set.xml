@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-34+1S Cross Generation Plus One Super" id="f4ca9f0b-c227-4cc2-9e8f-9006cd8505ae" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="9b548a5b-325a-47bf-86a8-64f23df1b9e7">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="915f9e23-114a-4fc2-88d9-83bd0099c45e" name="Bolbalzak &quot;Sword Flash&quot; Dragon, Blue Divine Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Poseidia Dragon/Samurai"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each turn, you may untap this creature the first time it is tapped.&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1S/3S"/>
+      <property name="Set" value="DM-34+1S Cross Generation Plus One Super"/>
+    </card>
+    <card id="96a2d4de-ef36-4d16-b292-0481b41db3ff" name="Dark Lucifer, Demonic Eyed Gunman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Knight"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top 3 cards of your deck into your graveyard.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may return any number of evolution Dark Lords from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2S/3S"/>
+      <property name="Set" value="DM-34+1S Cross Generation Plus One Super"/>
+    </card>
+    <card id="53f151cb-b00a-419e-8486-36c4f20233d2" name="Saga, God of Destruction">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Creator"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may un-link one of your linked Gods in the battle zone that have the names Zen and Aku. If you do, each player puts all cards in their hand and mana zone into their deck and shuffles it.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would leave the battle zone, if you have at least one God in the battle zone, this creature stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3S/3S"/>
+      <property name="Set" value="DM-34+1S Cross Generation Plus One Super"/>
+    </card>
+  </cards>
+</set>

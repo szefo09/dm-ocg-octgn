@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-01 Here Come the Jokers!!" id="568ba11d-2a2e-4fc6-b4f5-6da283ac63a2" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="b2b4eae5-00a5-4e11-9a59-e2637b5e40d3">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="d5147d76-b041-4b77-a669-b30aaf68c352" name="Dotsuking, Three Crown King">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your other Jokers would battle your opponent's creatures, you may have this creature battle instead.&#xA;■ Whenever this creature wins a battle, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c918d77d-5939-4f29-a9d8-34eb336c9923" name="Shouten, Stellar Guidance">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ You may untap this creature to change your opponent's creatures attack to this creature or one of your tapped creatures.&#xA;■ If this creature is tapped at the start of your opponent's turn, you may put a non-evolution light creature that costs 8 or less from your hand into the battle zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="30709890-8025-4428-9bb6-8b5b8f09e165" name="Samohan, Green Knowledge Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature, your other creatures can't be chosen. (They can still be attacked and blocked.)&#xA;■ Whenever your opponent chooses this creature, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="4f7378a0-4ebf-4c09-b28c-2b986ec7ed3f" name="Octopa, Sublime Knowledge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{NEO EVOLUTION}: You may put it on one of your water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever you put this creature into the battle zone or attacks, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="5569fbeb-c0f8-4c80-9281-618afc2a6a4a" name="Hoseters 5">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/Specials"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of cards in your hand. You may draw the same number of cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="5ce8147a-633a-44b5-8807-364ac3cbbb25" name="Stomak, Electric Killer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, each of your opponent's creatures gets -2000 power until the end of the turn.&#xA;■ Whenever this creature attacks, return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a9f0e58a-8cc4-4f5f-8928-3a77e3531e7f" name="Geekogils, Misfortune Demon 06">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ At the start of your opponent's turn, if this is your only creature in the battle zone, you lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c145abc8-44a9-4769-8247-d5cb3b217ce5" name="Block King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Specials"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If this creature is untapped, your opponent's creatures are put into the battle zone tapped.&#xA;■ If this creature is tapped, your other creatures get +7000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0b724aae-929e-45ba-a4ca-c3d90e63f2b6" name="Goringoli, Bower Steamship">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ After this creature attacks, you may discard your hand. If you do, draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="fba98643-729b-4fea-8a11-cc70f9873cec" name="Shizenseijin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/Specials"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of cards in your mana zone. You may put the same number of cards from the top of your deck into your mana zone tapped.&#xA;■ At the end of each of your turns, you may return a nature creature that has power 12000 or more from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="96e844cd-ad4f-45b3-92fa-d39afd34a606" name="Bainaradoor">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, if you have a total of 3 or more Jokers in the battle zone or your mana zone, choose one of your opponent's creatures and put it on the bottom of their deck. Then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="22352383-1184-4573-802d-9bfb2343d8e4" name="Senno, Brainwash">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ During your opponent's turn, they can't put creatures into the battle zone in any way except by summoning."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="8307066c-6561-45ba-a4fd-79e63d0b542a" name="Time Stopon">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and put it on the bottom of their deck.&#xA;{SUPER}Creatures can't attack this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="8e04796b-3e3f-425a-b6d3-26813f3e7df6" name="Bernine, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Metallica"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ When you put this creature or another Metallica into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="7c49e6c2-f0a9-450c-8a33-2d5aaa9efe2a" name="Novalty Amaze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Tap all your opponent's creatures.&#xA;■ Draw a card.&#xA;{SUPER}You may put a non-evolution light creature that costs 8 or less from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0b611ad2-e0b5-4e96-99a6-b0fb0d77e1ae" name="Just Labyrinth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may tap any number of your creatures.&#xA;■ Draw a card for each of your tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="db96cdb5-be2e-4b58-881b-6a05b882c829" name="Sprate, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mutopia"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may draw 3 cards. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="903b4517-b794-4bc7-9c84-6de8f0b75fd1" name="Pittdel, Death Devil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ You may summon this creature by discarding 2 water cards instead of paying its cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="ac8492d6-deb0-4b2f-b522-c12d98246f2e" name="Grimoire, Super Magic Book ~Chapter 1~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand.&#xA;{SUPER}Choose one of your opponent's cards in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="67a8c468-0cb5-43df-8ae1-452ea24d00b1" name="Rudolf Carnac">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, you may destroy one of your creatures. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="166c187f-02e6-4b0d-af8b-f1db81fd4f2b" name="Bash, Misfortune Demon 34">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When this creature is destroyed, put a creature that has power 1000 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0de7d662-5525-4a67-9832-077beb360362" name="Babylon Gelg">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's creatures.&#xA;{SUPER}Put the top 3 cards of your deck into your graveyard. Then put a non-evolution darkness creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="091b6ccb-4aff-4b4e-bf25-3a01777298c1" name="Loud Noise Noisy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put 2 of your shields into your hand. You can't use the shield trigger abilities of those shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="42761e98-7c06-4066-b9c2-ec9edf668aac" name="Dachicco Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, this turn, the next Beat Jockey you summon may cost up to 3 less. It can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="7f212e4b-3242-42e5-832e-5d57b7bc2e32" name="Dodonga Roar Cannon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a card in the battle zone that costs 5 or less and put it into that owners graveyard.&#xA;{SUPER}Destroy all your opponent's creatures that cost 7 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="9037c9b5-a863-4078-a02d-70794305480d" name="Babalga, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ This creature may cost 1 less to summon for each creature in your mana zone. It can't cost 0 or less.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="884c5961-9e12-4e14-8caa-5af81b013e8a" name="Deathmatch Beetle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack.&#xA;■ During your opponent's turn, whenever your opponent puts a creature into the battle zone for no cost, you may have that creature battle this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="f13ea501-3972-40ee-879f-7ea4fdcba577" name="Cocoon Maneuver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;{SUPER}You may put a non-evolution nature creature that has power 15000 or less from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="247b3697-b635-4afb-a9ca-2c6b4ca371b0" name="Chotto Q">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ This creature attacks your opponent each turn if able.&#xA;■ While you have 2 or more Jokers in the battle zone or your mana zone, this creature gets +3000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="72389160-8c1d-48b1-a6a4-bc29968dba30" name="Batten Oyaji">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever a creature attacks you, you may tap this creature to stop the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2449c911-bb51-4db3-a904-41f8aa7aecd6" name="Jojojo Jokers">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ Look at the top 4 cards of your deck. You may reveal a Jokers creature from among them and put it into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="9c8d5e78-63fa-4eb3-a43a-c05aa61e0a18" name="Tatoise, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever you put this creature into the battle zone or attacks, you may choose a creature and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="fcdaf65e-f92c-42a2-9265-c6d801635bf3" name="Rockcrusher, Earth's Wrath">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ Whenever this creature wins a battle, add the top card of your deck to your shields face down.&#xA;■ Labyrinth: If you have more shields than your opponent, this creature gets +3000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="bf8e6e15-af69-402e-bbec-6c2ab1f80ce1" name="Rau La Terra, Pale Light Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures that have power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="d23e70fe-ec49-4f94-8836-a2a998b21544" name="Heaven Castle's Barrier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0250dcc7-5719-4453-bf89-9bde5cc0b1bd" name="Crystal Cave">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 3 cards of your deck. You may take a spell from among them, show that spell to your opponent, and put it into your hand. Then put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="d0063ad2-f387-4781-95da-a1d466428ad8" name="Fujittsu, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever this creature attacks, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="209ba36f-6389-4801-8eb8-4249f829582e" name="Cyber Turn A Rusty">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures that has power 4000 or less and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="4ff494cf-a0b9-4374-97f3-b6959407c42b" name="Ilkiru, Loved One">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ At the end of each of your turns, you may return one of your creatures to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="68ba6671-c43c-4c44-abf7-bae35b7b7fac" name="Jimisi, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ At the end of your turn, if you have a Mutopia in the battle zone, you may return this creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="7e9c25ae-bc02-4c8c-8531-2e8efd10bed0" name="Onikamas, Strange Flow">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent can't choose this creature. (It can still be attacked and blocked).&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c4ed1373-5435-4cd5-9f27-6863f8bef3ba" name="Gurudo 54, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mafi Gang"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy one of your creatures. If you do, destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="f00a51d2-dafe-4cfc-8a73-1a8f104d10b2" name="Gazaan, Ancient Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c71f6589-d7bb-48b7-9814-ea37475d6224" name="Boost, Misfortune Demon 33">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone from your hand, you may destroy another creature. If you do, that creature's owner puts a creature that has the same name from their graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c3e72b50-1ab9-4afb-892c-4526318f3c13" name="Dawn, Misfortune Demon 71">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA; {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, one of your creatures gets &quot;slayer&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="5a23a27f-d928-41c9-be6a-326658b75910" name="Hemoglo, Demonic Doctor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, your opponent chooses a card from their hand and discards it.&#xA;■ When this creature is destroyed during your turn, put it into the battle zone from your graveyard at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="94cf4f2f-8302-4d4d-a942-e374c9626b6c" name="Borsche, Dragon Car">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ While battling, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="7790ee8f-1c72-4347-ae7e-914cb3ef7849" name="Diedy, Tune Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="56f584fe-53fd-48fa-bf40-746b913d4090" name="Nagnag Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="e293b258-a09b-4d8f-827d-59372759269a" name="Batch Hit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ This creature can only be summoned if you have 2 or less cards in your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="aeddb81a-533a-4d8b-b3a5-87b6d2f39bef" name="Frypan Mountain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="db0eb997-7dab-4312-96ff-0421831c8002" name="Kumakumawari">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then if it's not a creature, put this creature into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c8edd306-8d88-479f-b3cf-57c2444b8151" name="Bontobo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put the top card of your deck into your mana zone. If it's a creature that has power 12000 or more, put another card from the top of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="946bd262-f0f6-4e3a-bafe-5fa8ff1ac217" name="Mafariich Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ This creature can't attack if you don't have other creatures in the battle zone that have power 12000 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="b0a696e3-c2d5-4fc1-96af-ba129aae0786" name="Stepple, Cherry Blossom Wind Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone.&#xA;■ When this creature is destroyed, put a card from your mana zone into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="ed6018eb-9d5b-40db-85d8-c0832fd7894d" name="Splasuika">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ You may return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="e95a9128-4f13-425b-875e-77290c3c6f07" name="Yattareman">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Jokers creatures cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="57/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="1376061e-af82-42c2-bd1b-e4b75ec79b3c" name="The Ramen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="dfa1f1ed-55f8-43ff-97b0-49eb7e6350d4" name="Nostal, Vizier of Nostalgia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of each of your turns, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a9d343b5-28ba-4d75-bf18-8ce150badaee" name="Glass Wood">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="5500"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="30594d67-3d37-4353-aec3-39a3299efa3f" name="Morgen, Blue Defense Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ You may untap this creature to change your opponent's creatures attack to this creature or one of your tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="5ec7ed0a-55e3-4e94-a4e7-dd76fc306837" name="Amber, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="28a82fd8-0040-4b4e-a5b5-8a0f2b549727" name="Crysta, First Squad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Metallica cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0583e7e1-c8e0-4355-8f7a-67015bf3aa3b" name="Limestay, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="70e1929b-9f7e-4c44-a4cc-d6e9f7786962" name="Shine Arrow">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature and tap it.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="3d770585-d13a-40d4-949e-0da223e7c961" name="Aqua Hills">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA; {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="b6ac9374-c290-4a22-88b8-5fd4ce6ee3b5" name="Calm Crawler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="9699830e-057a-42cb-a904-baeede92c823" name="Strikefish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="4000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="15c9e6d1-9046-4bf5-ab03-1256067bcbd8" name="Horan, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="9e5887d0-8b16-426e-98d5-f00a566cad6f" name="Zaessa, First Squad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Mutopia cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="40675b2b-ceec-404e-b0ce-dd91ff50791a" name="Hiraga, Shell Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may discard a water card from your hand. If you do, choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a749f85c-8db6-454f-b0b5-cbe4289f247b" name="Royal Academy Hoele">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a32a0593-4bed-4ec7-8b62-d0cb9c5163d1" name="Raven, Brain Excavator">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever this creature attacks, discard a card from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="52cd38db-8437-4f19-b291-bf71798b4234" name="Crash Worm, Rock Worm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="5000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="f9e5b3ee-6c99-4666-b213-5eee855f2ba1" name="Taku, Comedy Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ After this creature attacks, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="d5f14330-30e9-441e-afe8-f91cf6c427f6" name="Jari, Misfortune Demon 27">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top 2 cards of your deck into your graveyard. Then return a Mafi Gang from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="e329da8a-ee0b-4e5c-b21c-9b84d4741c56" name="Bagin 16, First Squad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Mafi Gang cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="6876441f-b441-42de-bce6-a5a863628fd3" name="Goron, Misfortune Demon 56">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, destroy one of your opponent's untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="3b375bf3-f9c3-4683-957c-26469107ecb6" name="Dark Sun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="8893e1bd-7751-4d8b-a5dc-c2b9f534df4f" name="Explosive Maunaloa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Flame Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="15606009-487b-4a85-a569-8fbdc1f9a7ae" name="Diedy's Driver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="4000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="e9e341df-6ac9-4936-bbb6-473ae641465a" name="Gorosaurus">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose one of the following:&#xA;► Destroy one of your opponent's creatures that has &quot;blocker&quot;:&#xA;► Destroy one of your opponent's creatures that has power 1000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="ca573b52-8e9c-4a53-815a-ba8fb10f9868" name="Vulcanodon, Sharp Gunner">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, one of your other creatures gets &quot;power attacker +3000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +3000&quot; gets +3000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="d854a120-0c42-4647-b41d-a379b15ed4e3" name="ChuChuris, First Squad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Beat Jockey cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="c30c757c-ce66-415c-a2b1-8245fe215f35" name="Appo Churis">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="05f3fa6f-9e87-4d1c-a8d7-0d29a8a28c2f" name="Revolver Cannon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="822b6ae1-d95a-4906-9093-fa320ca564a9" name="Momoncook">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="428a302c-21d3-44d2-9fa6-34be00a399ef" name="Butokaka">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, this creature gets +8000 power and has &quot;triple breaker&quot; until the end of the turn. Otherwise, put the revealed card on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="1eee83ea-8cfe-4c8f-b7e1-c4b1f700d610" name="Channel Totem">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures that has power 4000 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="511cd2db-8f75-4c4e-a19e-552284b139ac" name="Totenton">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you put a creature that has power 12000 or more into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2daaef46-58c3-472c-8af9-507fce090a03" name="Roaring Grind Horn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose another creature. This turn, that creature gets +2000 power and can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="b1af40fc-5eb4-47bc-906c-4e18d8ff5b87" name="Lugundodo, First Squad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Gransects cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="abe5a476-0d74-4080-9667-48180ff2f64a" name="Faerie Life">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/93"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="54393790-0462-4c18-ad46-c197c194346c" name="Jolly the Johnny">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1/MAS1"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="6761d6f5-a36a-4249-868a-64e11c5b9bd2" name="Jolly the Johnny">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙1/M1 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2013e8fc-ad63-45fd-bea2-0cfb6f5bdaaa" name="Jolly the Johnny">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙2/M1 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="16f62461-7b12-41e7-b38a-ef2c94cb3d6d" name="Jolly the Johnny">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙3/M1 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="d9a5fed9-451c-4234-92cf-ee94ab4cbb6f" name="Burning Dead Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Specials"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, if you have a total of 4 or more Jokers in the battle zone or your mana zone, your opponent chooses one of their cards in the battle zone, mana zone and hand and puts them on the bottom of their deck. Then draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2406cc15-09ee-406e-ac4a-8dae995baa00" name="Burning Dead Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Specials"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, if you have a total of 4 or more Jokers in the battle zone or your mana zone, your opponent chooses one of their cards in the battle zone, mana zone and hand and puts them on the bottom of their deck. Then draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2ebdefa5-115b-4852-97b2-53b3e2b5dae5" name="Wonder Turtle, Great Labyrinth Turtle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Specials"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Labyrinth: When you put this creature into the battle zone, if you have more shields than your opponent, until the start of your next turn, your creatures don't leave the battle zone.&#xA;■ Whenever this creature wins a battle, look at the top 4 cards of your deck. From among them, put a non-evolution light creature that costs 6 or less into the battle zone. Then put the rest on the bottom of your deck in any order.&#xA;■ At the end of your opponent's turn, if no creatures attacked this turn, tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a7021987-1185-419f-b8f5-6ccb9e26990b" name="Wonder Turtle, Great Labyrinth Turtle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Specials"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Labyrinth: When you put this creature into the battle zone, if you have more shields than your opponent, until the start of your next turn, your creatures don't leave the battle zone.&#xA;■ Whenever this creature wins a battle, look at the top 4 cards of your deck. From among them, put a non-evolution light creature that costs 6 or less into the battle zone. Then put the rest on the bottom of your deck in any order.&#xA;■ At the end of your opponent's turn, if no creatures attacked this turn, tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="66b602ed-b926-457e-b5c2-62444bdcb450" name="Asaraam, Red Attack Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of your shields. Add the same number of cards from the top of your deck to your shields face down.&#xA;■ You can't use &quot;shield trigger&quot; abilities of non-light cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="bc68a801-042e-42a7-8499-e7817fbbef3b" name="Asaraam, Red Attack Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of your shields. Add the same number of cards from the top of your deck to your shields face down.&#xA;■ You can't use &quot;shield trigger&quot; abilities of non-light cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="34a455f2-f2af-481e-bc74-119ff5c2386a" name="Sharkuga, King of the Sea">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature into the battle zone, draw 2 cards. Then you may discard any number of cards. For each card you discarded in this way, choose one of your opponent's creatures that costs 7 or less and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="993da6d5-1310-43d8-b3e0-901cb14beaad" name="Sharkuga, King of the Sea">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature into the battle zone, draw 2 cards. Then you may discard any number of cards. For each card you discarded in this way, choose one of your opponent's creatures that costs 7 or less and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="16158a62-e351-4255-8537-d9a7c98aff73" name="Georges Bataille">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ You may destroy 4 of your creatures instead of paying this creature's cost.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of cards in your graveyard. You may put the same number of cards from the top of your deck into your graveyard.&#xA;■ When this creature would leave, you may put 6 cards from your graveyard on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="189d32ce-731b-4a5a-be0a-0fce312e39bc" name="Georges Bataille">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ You may destroy 4 of your creatures instead of paying this creature's cost.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, count the number of cards in your graveyard. You may put the same number of cards from the top of your deck into your graveyard.&#xA;■ When this creature would leave, you may put 6 cards from your graveyard on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2fb3b414-a49d-40df-a0d8-886694268b3b" name="Mukade, Asura">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Specials"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures. That creature gets -9000 power until the end of the turn.&#xA;■ When this creature is destroyed, you may put it from your graveyard into the battle zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="6fae3aa6-4be1-4640-8c4e-2bce58a6e5e6" name="Mukade, Asura">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Specials"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures. That creature gets -9000 power until the end of the turn.&#xA;■ When this creature is destroyed, you may put it from your graveyard into the battle zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="023932af-600a-4484-9702-e7c9b6b808bb" name="Spike 7K, Ganzan Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, each of your creatures in the battle zone gets one of the following abilities::&#xA;► This creature gets +5000 power and breaks an additional shield until the end of the turn:&#xA;► This creature gets +2000 power and can attack untapped creatures that have power 2000 or less until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="de60c8ee-a039-41a0-811d-4282756d8809" name="Spike 7K, Ganzan Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, each of your creatures in the battle zone gets one of the following abilities::&#xA;► This creature gets +5000 power and breaks an additional shield until the end of the turn:&#xA;► This creature gets +2000 power and can attack untapped creatures that have power 2000 or less until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="a2d8b435-42d7-498e-8f98-05745696ccdb" name="Dope Double Boarder">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature wins a battle, untap it and double the power of this creature until the end of the turn. Then you may break one of your opponent's shields.&#xA;■ When this creature would be destroyed, you may destroy one of your other creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="2ea35c79-de0b-48d3-9bbf-3c2634fc14e6" name="Dope Double Boarder">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature wins a battle, untap it and double the power of this creature until the end of the turn. Then you may break one of your opponent's shields.&#xA;■ When this creature would be destroyed, you may destroy one of your other creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="0736863a-5b4a-482d-84e0-cd9166284a1c" name="Hyper Mustin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, look at the top 3 cards of your deck. From among them, put any number of non-evolution creatures that have power 12000 or more into the battle zone. Then add the rest to your hand.&#xA;■ Your opponent's creatures that have power 3000 or less can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="12de0391-3fd2-47e0-bc58-46bef9d6e25a" name="Hyper Mustin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, look at the top 3 cards of your deck. From among them, put any number of non-evolution creatures that have power 12000 or more into the battle zone. Then add the rest to your hand.&#xA;■ Your opponent's creatures that have power 3000 or less can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="12747f99-551b-47b4-b24d-f86578f7a2bc" name="Pumppump Panzer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then put all creatures that costs the same as or less than that card into their owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S10"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+    <card id="ce09677d-0a7c-44de-a3d6-d86ab2fab00f" name="Pumppump Panzer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then put all creatures that costs the same as or less than that card into their owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10㊙/S10 (Secret Card)"/>
+      <property name="Set" value="DMRP-01 Here Come the Jokers!!"/>
+    </card>
+  </cards>
+</set>

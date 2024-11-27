@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Jumbo Collection" id="f2c7bdfa-c350-4b71-8cb2-b3a62d5dc39c" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <cards>
+    <card id="1ece2bb4-9a32-4ec4-a7f6-e97ca79e0845" name="Urth, Purifying Elemental">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="1"/>
+    </card>
+    <card id="3e8d8b12-8fec-417b-afe0-adf2f6fa3044" name="Roaring Great-Horn">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="2"/>
+    </card>
+    <card id="21f1e3a7-148e-4cbe-83e8-8b6d7c8167c0" name="Ethel, Star Sea Elemental">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="3"/>
+    </card>
+    <card id="2ec8a6d7-b9c0-444f-a300-890c17a93831" name="Crystal Paladin">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;■ When you put this creature into the battle zone, return all creatures in the battle zone that have &quot;blocker&quot; to their owners' hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="4"/>
+    </card>
+    <card id="115db040-d96b-42f9-8a6a-fbab77884069" name="Armored Blaster Valdios">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ Each of your other Humans in the battle zone gets +1000 power.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="5"/>
+    </card>
+    <card id="6247c008-e7fe-446b-a635-be5c60da8854" name="Legendary Bynor">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Leviathans.&#xA;■ Your other water creatures in the battle zone can't be blocked.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="6"/>
+    </card>
+    <card id="e9a28df9-71ad-437e-b070-8fc5db20370b" name="Jack Viper, Shadow of Doom">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="7"/>
+    </card>
+    <card id="c64ee8b7-f08c-44f1-9174-15ec515bd25c" name="Überdragon Jabaha">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ Each of your other fire creatures has &quot;power attacker +2000&quot;. (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="8"/>
+    </card>
+    <card id="6d95a783-8bfc-4b85-8366-34a9360f90ce" name="Alcadeias, Lord of Spirits">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{DOUBLE BREAKER}&#xA;■ Players can't cast spells other than light spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="9"/>
+    </card>
+    <card id="f598f8f3-73a4-4cdb-886f-b41624f4f510" name="Doboulgyser, Giant Rock Beast">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Rock Beasts.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 3000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="10"/>
+    </card>
+    <card id="dfc6da6e-43da-48ab-a8a8-854f19f25085" name="Aeris, Flight Elemental">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;■This creature can attack untapped darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="11"/>
+    </card>
+    <card id="a37f7f4a-bcee-49da-8c23-6c8d600761e9" name="Ancient Giant">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ This creature can't be blocked by darkness creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="12"/>
+    </card>
+    <card id="1a01ba2f-3409-45db-bc5e-0d054b2822c2" name="King Aquakamui">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return all Angel Commands and all Demon Commands from your graveyard to your hand.&#xA;■ Angel Commands and Demon Commands in the battle zone each get +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="13"/>
+    </card>
+    <card id="f91a92ec-060a-4740-8cf9-a669044148c2" name="Galklife Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy all light creatures that have power 4000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="14"/>
+    </card>
+    <card id="efec6301-1191-4bce-88a4-6ad910d392b2" name="Niofa, Horned Protector">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Horned Beasts.&#xA;■ When you put this creature into the battle zone, search your deck. You may take a nature creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="15"/>
+    </card>
+    <card id="3e9269f3-2adb-48a9-a338-05023a5dab47" name="Bladerush Skyterror Q">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Armored Wyvern"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SURVIVOR} {DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="16"/>
+    </card>
+    <card id="b6bdeeee-37e5-4a27-90c1-4e9622e333dc" name="Syforce, Aurora Elemental">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="17"/>
+    </card>
+    <card id="23a095b9-96cf-4d49-8990-bdb47e49cd7d" name="Vashuna, Sword Dancer">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ While your opponent has no shields, this creature can't attack.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="18"/>
+    </card>
+    <card id="107f1f3e-f8e9-4266-a294-be346762a770" name="Twin-Cannon Skyterror">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="19"/>
+    </card>
+    <card id="a8f26d6c-5e57-4c08-9ae7-5c698d28c60a" name="Nocturnal Giant">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{POWER ATTACKER} +7000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="20"/>
+    </card>
+    <card id="18cd5aeb-1cd3-46fc-be75-4ed1662f1e69" name="Aqua Surfer">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="21"/>
+    </card>
+    <card id="11b58d5f-0d04-4790-bdd1-189633db0f34" name="King Tsunami">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return all other creatures from the battle zone to their owners' hands.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="22"/>
+    </card>
+    <card id="7fd4c81a-1508-4804-be6d-edc178efb857" name="Death Cruzer, the Annihilator">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy all your other creatures.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="23"/>
+    </card>
+    <card id="45f9e3b9-cfcb-41a6-b093-8e755023567d" name="Billion-Degree Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="24"/>
+    </card>
+    <card id="44a315ba-9af9-433f-bdde-6e98d45011f5" name="Avalanche Giant">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;■ Whenever this creature becomes blocked, it breaks one of your opponent's shields.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="25"/>
+    </card>
+    <card id="3841911f-fb46-4a2d-878e-a26f937f189f" name="Gnarvash, Merchant of Blood">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="26"/>
+    </card>
+    <card id="8cdb10c3-b0af-43cd-8bcb-e38823891cde" name="Schuka, Duke of Amnesia">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature is destroyed, each player discards his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="27"/>
+    </card>
+    <card id="c20bb8db-c778-4ddd-88f4-41798ea44fb4" name="Q-tronic Gargantua">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Survivor"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Survivors.&#xA;{CREW BREAKER}-Survivor(This creature breaks one more shield for each of your other creatures in the battle zone that has Survivor in its race.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="28"/>
+    </card>
+    <card id="07f57bfe-3784-491d-be2c-7460dfe2eba8" name="Armored Decimator Valkaizer">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="29"/>
+    </card>
+    <card id="39dc087d-ab31-4490-8baa-4170cb3d83e5" name="Laveil, Seeker of Catastrophe">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the end of each of your turns, you may untap this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="30"/>
+    </card>
+    <card id="c806da07-d6da-42b3-9b74-58370d51a605" name="Q-tronic Hypermind">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Survivor"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Survivors.&#xA;■ When you put this creature into the battle zone, you may draw a card for each Survivor in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="31"/>
+    </card>
+    <card id="17a366ba-7f35-469b-b5bd-d237b3cc364e" name="Cliffcrush Giant">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ While you have any other untapped creatures in the battle zone, this creature can't attack.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="32"/>
+    </card>
+    <card id="c2da3948-5a85-463d-9ebb-20f7fd49813e" name="Bolshack Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H01"/>
+    </card>
+    <card id="eb91728d-217e-4f51-ba4f-605d6402da4e" name="Ballom, Master of Death">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;■ When you put this creature into the battle zone, destroy all creatures except darkness creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H02"/>
+    </card>
+    <card id="25148434-c5dc-4454-9044-65ab28f931b8" name="La Byle, Seeker of the Winds">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, untap it after it battles."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H03"/>
+    </card>
+    <card id="b9404a6e-e17c-4bb0-90cf-552183c28446" name="Bazagazeal Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can attack untapped creatures.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H04"/>
+    </card>
+    <card id="0e6d306b-ca5a-4ab9-9c7b-c3c3313c96fe" name="Craze Valkyrie, the Drastic">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ When you put this creature into the battle zone, choose up to 2 of your opponent's creatures in the battle zone and tap them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H05"/>
+    </card>
+    <card id="29975ada-6220-4641-9e29-8307cf4b8bad" name="Crystal Jouster">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H06"/>
+    </card>
+    <card id="66771420-11d3-4225-bbcc-737ccf0c3363" name="Daidalos, General of Fury">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy one of your creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H07"/>
+    </card>
+    <card id="4ac216ad-637a-4e79-a647-27d98ea2a5b0" name="Bolmeteus Steel Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H08"/>
+    </card>
+    <card id="403cb5a2-8e16-4a7a-92c6-540a17754b77" name="Ultra Mantis, Scourge of Fate">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ This creature can't be blocked by any creature that has power 8000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Jumbo Collection"/>
+      <property name="Number" value="H09"/>
+    </card>
+  </cards>
+</set>

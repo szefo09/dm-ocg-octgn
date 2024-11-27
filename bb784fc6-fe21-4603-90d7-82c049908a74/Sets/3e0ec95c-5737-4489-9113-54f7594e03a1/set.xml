@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-05 Return of the Survivor" id="3e0ec95c-5737-4489-9113-54f7594e03a1" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="83ca464a-470a-40b4-8b88-9e7fca585c7f">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="d85bfc1f-496a-48e1-82f8-7c9a679b9b10" name="La Byle, Seeker of the Winds">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, untap it after it battles."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="b9c1f34c-98ca-4275-8a37-dca989331eca" name="King Mazelan">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="e9009cde-b027-42f5-85a5-37b9a97471a8" name="Sinister General Damudo">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature is destroyed, destroy all creatures that have power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="7bcadc86-c1d5-41b4-9ace-674ff347be9f" name="Bladerush Skyterror Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Armored Wyvern"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SURVIVOR} {DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="369f137e-7584-491e-a5f9-fbec3650c928" name="Obsidian Scarab">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may put an 'Obsidian Scarab' from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="023daf9e-299e-45ea-8d02-a665815f8167" name="Syforce, Aurora Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="78c530de-a448-4100-a84f-b62b172158c6" name="Snork La, Shrine Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent causes a card to be put into your graveyard from your mana zone, you may return that card to your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="8b77c38a-1c64-4b17-82ca-3d27374035aa" name="Glory Snow">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ If your opponent has more cards in his mana zone than you have in yours, put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="52aa8ba2-8840-4c4e-80d0-259d913682bf" name="Sea Slug">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="95162404-f5ed-4f47-8ae1-b8730b4139d0" name="Pokolul">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent uses the &quot;shield trigger&quot; ability of a shield broken by this creature, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="d772b16a-10f9-4877-b5b8-a5947797cb1f" name="Divine Riptide">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each player returns all cards from his mana zone to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="40abfcaf-fe72-4055-bf84-d1c8ce8b266f" name="Vashuna, Sword Dancer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ While your opponent has no shields, this creature can't attack.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="13afc9a7-9435-4d74-ba01-fb42ea3fac9a" name="Skullsweeper Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Brain Jacker"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) Whenever this creature attacks, your opponent chooses and discards a card from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="6678f0ad-2f66-46f3-a875-7602040cbd3d" name="Slime Veil">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ During your opponent's next turn, each of his creatures attacks if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="6a63507d-ea71-4c9d-9f20-2030cd2f70f1" name="Twin-Cannon Skyterror">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="6348968e-73fd-484c-8ee4-d4378649b41d" name="Cannoneer Bargon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="543a8a97-2c58-4aa9-81e3-9ca54591beb2" name="Cataclysmic Eruption">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ For each nature creature you have in the battle zone, you may choose a card in your opponent's mana zone and put it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="6e5a8e2c-c525-4451-8a8f-8d02e20636b3" name="Nocturnal Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{POWER ATTACKER} +7000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="eb74066b-88cc-4822-9dd0-9d87ff34a814" name="Bloodwing Mantis">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, return 2 creatures from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="01f29ae8-aaf9-4fdc-9e17-0a41e532529e" name="Brutal Charge">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ At the end of this turn, search your deck. For each of your opponent's shields your creatures broke this turn, you may take a creature from your deck, show it to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="1ab671c1-5b79-40bd-8dd2-e4402b76c9c4" name="La Guile, Seeker of Skyfire">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="dc4506a9-838f-401c-8f5a-aa0b83fcede5" name="Ballus, Dogfight Enforcer Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Berserker"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) At the end of each of your turns, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="36635f6e-e10b-4c6a-a291-4b7322717eab" name="Thunder Net">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ For each water creature you have in the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="a72b33a7-40a3-4b70-9239-f785e18ce7ea" name="Aqua Surfer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="da055c9b-f911-40f6-9717-79c7bbf19e3d" name="Split-Head Hydroturtle Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Gel Fish"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) Whenever this creature attacks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="e026e686-0dc6-4a25-9782-9c63f79c005c" name="Miracle Quest">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Whenever any of your creatures finishes attacking this turn, you may draw 2 cards for each shield it broke."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="48c15579-d5ea-4a2e-8e4e-ae133acf3dc8" name="Gigakail">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Nature and light slayer (Whenever this creature battles a nature or light creature, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="e6ffb3f2-9209-45cd-9d59-2f5127dec0a7" name="Horned Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each nature creature costs 1 more to summon, and each nature spell costs 1 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="8c3cd00e-16cf-4b33-9293-20c78323884a" name="Scheming Hands">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at your opponent's hand and choose a card from it. Your opponent discards that card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="4d01340f-97df-46a6-b13f-63d64251f919" name="Bolgash Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +8000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="271d7793-d8b4-4fd9-a2e6-0346b647c7dd" name="Bombat, General of Speed">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="e3785258-7892-4b57-8359-1e9897b48c78" name="Cyclone Panic">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Each player counts the cards in his hand, shuffles those cards into his deck, then draws that many cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="d9f1f399-9e05-4366-8513-337505e82cf4" name="Moon Horn">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each water creature and darkness creature your opponent has in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="44784146-1cec-4291-891b-2acb5e57427c" name="Balloonshroom Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Balloon Mushroom"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="9dbff978-7cd0-44d2-9f8f-4d0a3e281f63" name="Enchanted Soil">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put up to 2 creatures from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="997f70bc-727a-42e4-be75-843278f1eddc" name="Gallia Zohl, Iron Guardian Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Guardian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="d5eb7945-0e5a-460d-b92e-6eba3de688b2" name="Kulus, Soulshine Enforcer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Berserker"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if your opponent has more cards in his mana zone than you have in yours, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="22279c43-38b5-40af-a78c-fd6f8426cf25" name="Calgo, Vizier of Rainclouds">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature can't be blocked by creatures that have power 4000 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="920d6552-e835-47e7-85f0-9d265ca6279e" name="Le Quist, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a darkness or fire creature in the battle zone and tap it. (First choose what this creature is attacking. Then choose a creature to tap.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="3d903e49-75f2-4b5c-9c6f-3e2b06426d00" name="Lurking Eel">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) Fire and nature blocker (Whenever an opponent's fire or nature creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="3e9ff9a2-e9fd-42a4-9538-600ffc7c76bb" name="Spikestrike Ichthys Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="4f257b4b-58cc-431e-a0d5-b5abd90f3afd" name="Steel-Turret Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ This creature can't be attacked by fire or nature creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="a4fa6740-56ef-4201-86ff-4698c8bc5c7d" name="Solidskin Fish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="443e0b25-2d84-4790-a753-d031aca24f48" name="Gigaling Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Chimera"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} {SLAYER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="c398b7b5-2a11-4635-b3d4-322db99e9c43" name="Gigazoul">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ While your opponent has no shields, this creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="ff3f6c97-375b-483d-8b69-433beb89d041" name="Wisp Howler, Shadow of Tears">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Nature and light slayer (Whenever this creature battles a nature or light creature, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="32e7dff9-dcab-434e-83ea-9fd5ce583b59" name="Jewel Spider">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Brain Jacker"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="58ebc37b-ca62-49d8-815e-1ce4db38c6fd" name="Storm Javelin Wyvern">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;■ This creature can attack untapped light or water creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="ab36a698-6281-4589-8fda-e7794962c818" name="Rikabu, the Dismantler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Machine Eater"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="9c43d33c-af19-4fc9-91a3-e0f2ebd3e53a" name="Kip Chippotto">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When one of your Armored Dragons would be destroyed, you may destroy this creature instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="22047c36-ac84-4e76-90f2-f6604e699919" name="Blazosaur Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Rock Beast"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) Power attacker +1000 (While attacking, this creature gets +1000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="2acf815c-ff43-43ff-b5a1-cc483d1426a2" name="Scissor Scarab">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a Giant Insect from your deck, show that Giant Insect to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="f3eede19-6caf-4936-9aa3-558f8ccae440" name="Ambush Scorpion">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;■ When this creature is destroyed, you may choose an 'Ambush Scorpion' in your mana zone and put it into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="04f1fde5-3967-4b4c-96d8-90b97c6d40ab" name="Smash Horn Q">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Horned Beast"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) This creature gets +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="48939bbd-5c8e-469e-bba9-293f9d432016" name="Crow Winger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each water creature and darkness creature your opponent has in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="f46a86d2-ae99-4162-91ee-38f37b3aea9b" name="Syrius, Firmament Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="c0b83316-e47f-43ff-84a6-057431e2ecd2" name="King Tsunami">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return all other creatures from the battle zone to their owners' hands.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="0d9de05f-0463-4d54-b47c-7fe46b3c79c3" name="Death Cruzer, the Annihilator">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy all your other creatures.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="cb182fbc-a0b8-41b6-9b53-632037bc54ec" name="Billion-Degree Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+    <card id="79b5fe50-e7d1-447a-98ba-242a5dd231bc" name="Avalanche Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;■ Whenever this creature becomes blocked, it breaks one of your opponent's shields.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-05 Return of the Survivor"/>
+    </card>
+  </cards>
+</set>
