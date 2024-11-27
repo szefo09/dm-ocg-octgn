@@ -37,7 +37,7 @@
 	</globalvariables>
 
 	<card back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3">
-		<property name="Cost" type="Integer" hidden="False" />
+		<property name="Cost" type="String" textKind="Enum" hidden="False" />
 		<property name="Format" type="String" textKind="Enum" hidden="False" />
 		<property name="Civilization" type="String" textKind="Enum" ignoreText="False" />
 		<property name="Type" type="String" textKind="Enum" ignoreText="False" />

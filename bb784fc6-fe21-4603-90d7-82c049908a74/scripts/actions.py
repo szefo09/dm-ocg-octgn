@@ -717,10 +717,10 @@ def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, 
 	dlg = cardDlg(list)
 	dlg.title = title
 
-	if minimumToTake == 0:
+	if minimumToTake == 0 and not returnAsArray:
 		# if this dialog is opened without any card to take, that means it's for rearranging cards.
 		dlg.min, dlg.max = 0, 0
-		dlg.text = "Card Order(drag to rearrange):"
+		dlg.text = "Card Order (drag to rearrange):"
 		dlg.show()
 		return dlg.list
 	else:
@@ -951,9 +951,9 @@ def isGear(card):
 	if card in table and not isShield(card) and not isMana(card) and re.search("Cross Gear", card.Type):
 		return True
 
-def isFortress(card):
+def isCastle(card):
 	mute()
-	if card in table and not isShield(card) and not isMana(card) and re.search("Fortress", card.Type) and not re.search("Dragheart", card.Type):
+	if card in table and not isShield(card) and not isMana(card) and re.search("Castle", card.Type) and not re.search("Dragheart", card.Type):
 		return True
 
 def isMana(card):
@@ -2586,7 +2586,7 @@ def align():
 	evolveDict = eval(me.getGlobalVariable("evolution"))
 
 	for card in table:
-		if card.controller == me and not isFortress(card) and not card.anchor and not card._id in list(
+		if card.controller == me and not isCastle(card) and not card.anchor and not card._id in list(
 				itertools.chain.from_iterable(evolveDict.values())):
 			if isShield(card):
 				cardorder[1].append(card)
@@ -3325,7 +3325,12 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if len(targets) == 0:
 				materialList = [c for c in table if ((re.search("Evolution Creature",card.Type) and isCreature(c)) or (re.search("Evolution Cross Gear", card.Type) and isGear(c))) and c.controller == me and not isBait(c)]
 				if me.isInverted: reverse_cardList(materialList)
-				if len(materialList) == 0:
+				minimumToTake = 1
+				isNeoEvolution = False
+				if re.search('{NEO EVOLUTION}', card.Rules):
+					minimumToTake = 0
+					isNeoEvolution = True
+				elif len(materialList) == 0:
 					whisper("Cannot play {}, you don't have any Cards in Battle Zone for it.".format(card))
 					whisper("Hint: Play a Creature or Gear first to evolve this card onto.")
 					return
@@ -3335,14 +3340,16 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					maximumToTake = len(materialList)
 					isMultiMaterial = True
 
-				targets = askCard2(materialList,'Select Card(s) to use as Material for Evolution.', maximumToTake=maximumToTake, returnAsArray=True)
+				targets = askCard2(materialList,'Select Card(s) to use as Material for Evolution.', minimumToTake=minimumToTake, maximumToTake=maximumToTake, returnAsArray=True)
 				if not isinstance(targets, list): targets = []
-
+			
 		if len(targets) == 0:
-			whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
-			return
-		evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-		processEvolution(card, targets)
+			if not isNeoEvolution:
+				whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
+				return
+		else:
+			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
+			processEvolution(card, targets)
 	if isMana(card) or isShield(card):
 		card.moveTo(me.hand)
 	card.moveToTable(0, 0)
