@@ -336,7 +336,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': ['tapCreature()']},
 	'Reverse Cyclone': {'onPlay': ['tapCreature()']},
 	'Riptide Charger': {'onPlay': [' bounce()']},
-	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="cardCostComparator(c,6,\'>=\')")']},
+	'Roar of the Earth': {'onPlay':['fromMana(1,"Creature",filterFunction="cardCostComparator(c,6,\'>=\', typeFilter=\'Creature\')")']},
 	'Samurai Decapitation Sword': {'onPlay': [' kill(5000)']},
 	'Scheming Hands': {'onPlay':['targetDiscard()']},
 	'Screaming Sunburst': {'onPlay': ['tapCreature(1, True, True, filterFunction="not re.search(r\\"Light\\", c.Civilization)")']},
