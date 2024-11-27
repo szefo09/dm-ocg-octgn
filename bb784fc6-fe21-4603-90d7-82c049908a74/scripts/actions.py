@@ -3327,7 +3327,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					   and not isBait(c)]
 			clear(targets)
 			if len(targets) == 0:
-				materialList = [c for c in table if not isShield(c) and not isMana(c) and c.controller == me and not isBait(c) and c != card]
+				materialList = [c for c in table if not isShield(c) and not isMana(c) and c.controller == me and not isBait(c) and c._id != card._id]
 				if me.isInverted: reverse_cardList(materialList)
 				minimumToTake = 1
 				isNeoEvolution = False
