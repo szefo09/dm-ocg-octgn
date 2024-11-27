@@ -20,724 +20,816 @@
     </pack>
   </packaging>
   <cards>
-    <card name="El Levain, Lord of Spirits" id="43365e82-b79b-4d9f-8e91-c97b68ba576e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="Evolution: Put on one of your Angel Command&#xD;&#xA;Shield Force (When you put this creature into the battle zone, you may choose one of your shields. While the chosen shield remains in the shield zone, this creature gains the following [Sheild Force]  abilities): &#xD;&#xA;[Sheild Force] : Non-light creatures cost 4 more to summon.&#xD;&#xA;For each Fortress in your shield zone you may have your creatures cost 1 less to summon. They can't cost less than 1.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="9500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-31 Greatest Champion"/>
-    </card>
-    <card name="Galaxy Blade - The Final" id="df99d6ea-5d63-4e53-82e4-0ad579dda7be">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Cross Gear"/>
-      <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +12000 power.&#xD;&#xA;When the crossed creature attacks you may give it &quot;Galaxy Breaker&quot; until the end of that attack. (A creature with Galaxy Breaker breaks all of the opponent's shields. Then after that attack break all of your shields.)"/>
-      <property name="Power" value="0"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-31 Greatest Champion"/>
-    </card>
-    <card name="Saigou Giant" id="f449ce8c-05a9-4b21-9256-2a04510fa408">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="9"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="Your Giants must be blocked if possible.&#xD;&#xA;Whenever your Giants win a battle during your turn, break 1 of your opponent's shields.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-31 Greatest Champion"/>
-    </card>
-    <card name="Shiden Galaxy, Super Champ" id="725f3145-2be0-41e8-9657-474d791a29c2">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light/Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Angel Command/Armored Dragon/Samurai"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Vortex Evolution: Put on 2 of any combination of Angel Command and/or Dragon.&#xD;&#xA;Meteor Burn: When this creature attacks for the first time this turn, you may put up to 2 cards under this creature into your graveyard. If you put a Dragon into your graveyard in this way, untap this card. If you put an Angel Command into your graveyard in this way, whenever this creature would be destroyed this turn, it stays in the battle zone instead.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="15000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-31 Greatest Champion"/>
-    </card>
-    <card name="Greatest Caesar, the Dark Kaiser" id="7d10fe86-5563-41c9-821e-004b20260f4f">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Armored Dragon/Zombie Dragon/Knight"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Vortex Evolution: Put on 2 of any combination of Dragon and/or Knight.&#xD;&#xA;When this creature attacks, you may cast any number of fire or darkness spells from your graveyard with a total cost of 7 or less. Then, put those spells on the bottom of your deck in any order.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-31 Greatest Champion"/>
-    </card>
-    <card name="Spell Gear Phantom, Blue Wolf" id="37022124-a08d-4559-b164-eb2719846ea9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="37022124-a08d-4559-b164-eb2719846ea9" name="Spell Gear Phantom, Blue Wolf">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon/Knight/Samurai"/>
-      <property name="Rules" value="When this creature attacks, reveal the top 3 cards of your deck. If there is a spell among the revealed cards you may return 1 of your opponent's creatures in the battle zone to its owner's hand. Then, you may add 1 of the revealed spells to your hand. If there is a cross gear among the revealed cards you may return 1 card in your opponent's mana zone to its owner's hand. Then, you may add 1 of the revealed cross gears to your hand. Afterwards, put the rest of the revealed cards on the top of your deck in any order."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. If there is a spell from among them, you may return one of your opponent's creatures in the battle zone to its owner's hand, then you may add one of the revealed spells to your hand. If there is a cross gear among them, you may return a card in your opponent's mana zone to its owner's hand, then you may add one of the revealed cross gear to your hand. Then put the rest of on the top of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Galaxy Shot - HELL" id="ba962223-be22-4a77-9ffa-72fe1e60b39f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ba962223-be22-4a77-9ffa-72fe1e60b39f" name="Galaxy Shot - HELL">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="Choose any number of your opponent's creatures with a total power of 9000 or less and destroy them. Then, for each creature destroyed in this way choose 1 of your opponent's shields and put it in its owner's graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose any number of your opponent's creatures that have total power 9000 or less and destroy them. Then for each creature destroyed in this way, choose one of your opponent's shields and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="King Surprise, Heavenly Sea Elemental" id="3ebb654e-8306-4b11-b03a-393c66740aeb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3ebb654e-8306-4b11-b03a-393c66740aeb" name="King Surprise, Heavenly Sea Elemental">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Leviathan/Knight"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Knightly Generation (When this creature is put into the battle zone, you may cast a spell in your hand with &quot;Knight Magic&quot; without cost.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Knightly Generation (When you put this creature into the battle zone, you may cast a spell in your hand that has &quot;Knight Magic&quot; for no cost.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Flowing Gear - Shishimai Dosfang" id="a785cc22-ff2e-48b1-984f-35a827449bbb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a785cc22-ff2e-48b1-984f-35a827449bbb" name="Flowing Fang - Shishimai Dosfang">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +6000 power and breaks an additional shield.&#xD;&#xA;When the crossed creature would be destroyed, you may return it to your hand.&#xD;&#xA;Samurai Magic (When you generate this card and you have a Samurai creature in your battle zone, search your deck. You may put a [Flowing Gear - Dancing Twin Lion Fangs] from it into the battle zone without cost. Then, shuffle your deck.)"/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ (This cross gear is put into your mana zone tapped)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +6000 power and breaks an additional shield.&#xA;■ When the crossed creature would be destroyed, you may return it to your hand instead.&#xA;■ Samurai Magic (When you generate this card and you have a Samurai creature in the battle zone, search your deck. You may put a 'Flowing Gear - Dancing Twin Lion Fangs' from it into the battle zone for no cost. Then shuffle your deck.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Master of Destiny, the Spirit Wolf Phoenix" id="262196d9-e481-4371-a188-79f10c3b974a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="262196d9-e481-4371-a188-79f10c3b974a" name="Master of Destiny, the Spirit Wolf Phoenix">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix/Knight/Samurai"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Vortex Evolution: Put on 1 of your Samurai creatures and 1 of your Knight creatures.&#xD;&#xA;When this creature attacks, you may cast 1 spell with &quot;Shield Trigger&quot; from your mana zone without cost. Then, you may put 1 cross gear into your battle zone from your mana zone.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="12000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Samurai creatures and one of your Knight creatures.&#xA;■ Whenever this creature attacks, you may cast a spell that has &quot;Shield trigger&quot; from your mana zone for no cost. Then you may put a cross gear from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Pure Zaru" id="71c1b441-bbe0-4772-9b33-89d23f30a429">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="71c1b441-bbe0-4772-9b33-89d23f30a429" name="Pure Zaru">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shine Monster/Samurai"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When you put this creature into the battle zone, you may cross 1 cross gear in your battle zone to this creature without cost.&#xD;&#xA;When this creature is added to your hand from the shield zone, if you have a cross gear in your battle zone this creature gains &quot;Shield Trigger&quot;."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, you may cross one of your cross gear in the battle zone to this creature for no cost.&#xA;■ When this creature is added to your hand from the shield zone, if you have a cross gear in the battle zone this creature gets &quot;Shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Seimei, Yin Yang Enforcer" id="6ff0d9b8-8767-442b-a1b8-249dc6f4ad52">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6ff0d9b8-8767-442b-a1b8-249dc6f4ad52" name="Seimei, Yin-Yang Enforcer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker/Samurai"/>
-      <property name="Rules" value="Whenever your opponent would choose a creature, this creature can't be chosen. (However, this creature may be attacked or blocked.)&#xD;&#xA;Your opponent can't return spells from their graveyard to their hand."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked or blocked.)&#xA;■ Your opponent can't return spells from their graveyard to their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Heavenly Fan - Fanatic Fanwaver" id="61a42e4b-4ef2-44c3-abdc-f08732165675">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="61a42e4b-4ef2-44c3-abdc-f08732165675" name="Heavenly Fan - Fanatic Fanwaver">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gains &quot;Blocker&quot;.&#xD;&#xA;The crossed creature untaps at the end of your turns."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets &quot;blocker&quot;.&#xA;■ The crossed creature untaps at the end of each of your turns."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Legendary Vanguard, the Ice Fang" id="fbc38617-1618-46cd-9037-bba2909db129">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="fbc38617-1618-46cd-9037-bba2909db129" name="Legendary Vanguard, the Ice Fang">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Leviathan/Knight"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Knight creatures&#xD;&#xA;When this creature attacks, if you have 3 or more spells in your graveyard, draw 1 card.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Knight creatures.&#xA;■ Whenever this creature attacks, if you have 3 or more spells in your graveyard, you may draw a card.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Amaterasu, Founder of the Blue Wolves" id="214c5ab4-9f4b-4c4e-be5e-2c4f773d3c7a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="214c5ab4-9f4b-4c4e-be5e-2c4f773d3c7a" name="Amaterasu, Founder of the Blue Wolves">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Origin/Knight/Samurai"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may either cast a spell with a cost of 4 or less from your deck without cost OR you may generate a cross gear with a cost of 4 or less from your deck without cost. Then, shuffle your deck."/>
+      <property name="Race" value="Knight/Samurai/Origin"/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of the following:&#xA;► Search your deck. Choose a spell that costs 4 or less from it and shuffle your deck. Then cast that spell for no cost:&#xA;► Search your deck. Choose a cross gear that costs 4 or less from it and shuffle your deck. Then generate that cross gear for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Mystic Sea Castle - T2" id="f4556387-9f9a-467b-a052-7efeab6ca2e1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f4556387-9f9a-467b-a052-7efeab6ca2e1" name="Mystic Sea Castle - T2">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All cards returned from the fortified shield gain &quot;Shield Trigger&quot;"/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Each card put into your hand from the shield fortified with this castle gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="King Balcry, Demonic Eye Lord" id="5c117d1a-cb60-4064-84db-f82089086105">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5c117d1a-cb60-4064-84db-f82089086105" name="King Balcry, Demonic Eye Lord">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dark Lord/Knight"/>
-      <property name="Rules" value="Evolution: Put on one of your Dark Lord&#xD;&#xA;When this creature attacks, you may put 1 non-evolution Dark Lord into the battle zone from your graveyard.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dark Lords.&#xA;■ Whenever this creature attacks, you may put a non-evolution Dark Lord from your graveyard into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magic Shot - God Genocider" id="7cc6fc33-e8b4-4f9d-88f6-561612d70fa6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7cc6fc33-e8b4-4f9d-88f6-561612d70fa6" name="Magic Shot - God Genocider">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="Destroy 1 of your opponent's creatures. If that creature is a God, destroy 1 more of your opponent's creatures."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures. If that creature is a God, destroy another of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Mysterious Castle - Potemkin" id="3f2b4c36-f3d8-4dcc-97e9-89d69df7d720">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3f2b4c36-f3d8-4dcc-97e9-89d69df7d720" name="Mysterious Castle - Potemkin">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Whenever your opponent's creatures attack and are not blocked, after the attack destroy that creature."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever your opponent's creatures attack and aren't blocked, after the attack destroy that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Val Arthur, Explosive Armor" id="db7664e5-87f2-46cf-a1ef-a47e5ee412bc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="db7664e5-87f2-46cf-a1ef-a47e5ee412bc" name="Val Arthur, Explosive Armor">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Human/Knight"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Knight creatures&#xD;&#xA;Double Breaker&#xD;&#xA;Whenever you cast a spell, until the end of that turn this creature gets +6000 power and &quot;Triple Breaker&quot;."/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Knight creatures&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you cast a spell, this creature gets +6000 power and &quot;Triple breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Dacity Dragoon, Explosive Beast" id="053cc380-92c4-4590-b8ea-46306868ffc6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="053cc380-92c4-4590-b8ea-46306868ffc6" name="Dacity Dragoon, Explosive Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake/Knight"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When you put this creature into the battle zone, destroy 1 of your opponent's creatures with 3000 power or less."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Jiraiya, Hidden Earth Dragon" id="534a5ecf-38fd-4c06-8e5c-2541b4ad40a1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="534a5ecf-38fd-4c06-8e5c-2541b4ad40a1" name="Jiraiya, Hidden Earth Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 4 (Whenever your opponent attacks or blocks, if you have 4 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, all of your other creatures in the battle zone get +3000 power until the end of the turn."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{NINJA STRIKE} 4 (Whenever one of your opponent's creatures attacks or blocks, if you have 4 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature into the battle zone, each of your other Shinobis in the battle zone gets +3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Wild Beast Bracky, the Invoked" id="9b262758-2458-47b5-9ac7-ee0c5adc3678">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9b262758-2458-47b5-9ac7-ee0c5adc3678" name="Wild Beast Bracky, the Invoked">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wonder Trick/Knight"/>
-      <property name="Rules" value="When this creature battles, your opponent chooses 1 card in your hand at random. If that card is a creature, that creature's power is added to this creature's power until the end of the turn."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ Whenever this creature battles, your opponent chooses a card in your hand at random. If that card is a creature, that creature's power is added to this creature's power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Master Weapon - All Yes" id="a94ac457-fe32-4421-8870-35505f533635">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a94ac457-fe32-4421-8870-35505f533635" name="Master Weapon - All Yes">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Cross Gear&#xD;&#xA;The crossed creature gets +4000 power and &quot;Blocker&quot;.&#xD;&#xA;When the crossed creature attacks, discard 1 card in your opponent's hand at random."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +4000 power and has &quot;blocker&quot;.&#xA;■ Whenever the crossed creature attacks, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magic Shot - Better Tomorrow" id="b2d8318d-22cd-4995-b3f9-44ae95272be6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b2d8318d-22cd-4995-b3f9-44ae95272be6" name="Magic Shot - Better Tomorrow">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Knight Magic] : Until the end of this turn, all of your creatures get &quot;Power Attacker +3000&quot; and break an additional shield.&#xD;&#xA;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Each of your creatures in the battle zone has &quot;power attacker +3000&quot; and breaks an additional shield until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="White Heaven, Thunderclap Elemental" id="8d5e10a1-7e5b-4400-a0e0-0c565a894239">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8d5e10a1-7e5b-4400-a0e0-0c565a894239" name="White Heaven, Thunderclap Elemental">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Samurai"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if your have at least 1 other Angel Command in your battle zone you may choose 1 of your opponent's non-evolution creatures and put it in your opponent's shield zone face down.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have at least one other Angel Command in the battle zone, you may choose one of your opponent's non-evolution creatures in the battle zone and add it to its owner's shields face down.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Sonic, Lightfang Ninja" id="bad5c9b5-1243-4946-a405-00c2696c6794">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bad5c9b5-1243-4946-a405-00c2696c6794" name="Sonic, Lightfang Ninja">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 4 (Whenever your opponent attacks or blocks, if you have 4 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, untap 1 of your creatures in the battle zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{NINJA STRIKE} 4 (Whenever one of your opponent's creatures attacks or blocks, if you have 4 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature into the battle zone, untap one of your creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Holy Gear - Nebula Wing" id="ecce24ff-a505-48dd-8172-d3de39588f50">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ecce24ff-a505-48dd-8172-d3de39588f50" name="Holy Gear - Nebula Wing">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +1500 power.&#xD;&#xA;Cross gears may be crossed with the crossed creature without cost."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +1500 power.&#xA;■ Cross gear may be crossed with the crossed creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="T2 Ogapu" id="23709f94-9190-4737-ad7c-93f4b37117a8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="23709f94-9190-4737-ad7c-93f4b37117a8" name="T2 Ogapu">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Whenever you fortify 1 of your shields with a Fortress, you may either draw a card OR choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you put a castle into your shields, you may draw a card or choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Force Again" id="eadb18af-c44d-4791-b630-e2a99c20ecdb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="eadb18af-c44d-4791-b630-e2a99c20ecdb" name="Force Again">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy 1 of your creatures. Then, put that creature into the battle zone from your graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your creatures. Then put that creature from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Researching Bow - Tri-Snake" id="4b064128-c1a1-469b-8c45-39dd2b5ec053">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4b064128-c1a1-469b-8c45-39dd2b5ec053" name="Researching Bow - Tri-Snake">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +2000 power.&#xD;&#xA;When the crossed creature attacks, draw 3 cards. Then, put 3 cards from your hand on the bottom of your deck in any order."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +2000 power.&#xA;■ Whenever the crossed creature attacks, draw 3 cards. Then put 3 cards from your hand on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Mister Mustache, the Wicked General" id="dcf825fc-5e52-4046-aa1c-7810f0d860a8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="dcf825fc-5e52-4046-aa1c-7810f0d860a8" name="Mister Mustache, the Wicked General">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord/Samurai"/>
-      <property name="Rules" value="Samurai Generation (When you put this creature into the battle zone, you may generate a cross gear from your hand without paying its cost.)&#xD;&#xA;All of your crossed creatures gain &quot;Slayer&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SAMURAI GENERATION} (When you put this creature, you may generate a cross gear from your hand for no cost.)&#xA;■ Each of your crossed creatures gets &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Dark Camster" id="84a3d2e3-8e95-41a3-bc4a-445f1ec31141">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="84a3d2e3-8e95-41a3-bc4a-445f1ec31141" name="Dark Camster">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Monster"/>
-      <property name="Rules" value="When you put this creature into the battle zone, look at your opponent's hand and discard 1 non-creature card from it."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand and discard a non-creature card from it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Wicked Gear - Coumaric Chain" id="5dcf8804-712c-4c76-8415-aa583adc27a5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5dcf8804-712c-4c76-8415-aa583adc27a5" name="Wicked Gear - Coumaric Chain">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;When the crossed creature attacks, until the end of this turn all of your creatures in the battle zone get +2000 power and all of your opponent's creatures in the battle zone get -1000 power."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ Whenever the crossed creature attacks, each of your creatures in the battle zone gets +2000 power and all your opponent's creatures in the battle zone get -1000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Violence &quot;Bolt&quot; Dragon" id="844ea9a4-d508-4df9-910a-a7aad12a7e58">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="844ea9a4-d508-4df9-910a-a7aad12a7e58" name="Violence &quot;Bolt&quot; Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Samurai"/>
-      <property name="Rules" value="Samurai Generation (When you put this creature into the battle zone, you may generate a cross gear from your hand without paying its cost.)&#xD;&#xA;Double Breaker&#xD;&#xA;Whenever you put a cross gear into your battle zone, destroy 1 of your opponent's creatures with 4000 power or less."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{SAMURAI GENERATION} (When you put this creature, you may generate a cross gear from your hand for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put a cross gear into the battle zone, destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Papra Poorapra, the Explosive" id="6bcd7814-0f70-420a-80e1-0f4b67ab41ab">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6bcd7814-0f70-420a-80e1-0f4b67ab41ab" name="Papra Poorapra, the Explosive">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Knight"/>
-      <property name="Rules" value="Whenever you cast a spell, choose 1 of your opponent's creatures with &quot;Blocker&quot;. That creature can't block this turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, choose one of your opponent's creatures in the battle zone that has &quot;blocker&quot;. That creature can't block this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magic Shot - Critical Destroyer" id="ac415962-eb61-4826-8bcc-11c55c9193d4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ac415962-eb61-4826-8bcc-11c55c9193d4" name="Magic Shot - Critical Destroyer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="[Knight Magic] : Destroy 1 of your opponent's creatures with &quot;Blocker&quot;.&#xD;&#xA;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Panda Boleyn, Wild Beast" id="2f49b972-0bbe-4e7b-a186-b6c173958978">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2f49b972-0bbe-4e7b-a186-b6c173958978" name="Panda Boleyn, Wild Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Knight"/>
-      <property name="Rules" value="You may reduce the summoning cost of this creature by 1 for each spell in your mana zone. It can't cost less than 1.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ You may reduce the summoning cost of this creature by 1 for each spell in your mana zone. It can't cost less than 1.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Kirino Giant" id="bc201e9d-bb29-4754-9757-f988b80c1918">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bc201e9d-bb29-4754-9757-f988b80c1918" name="Kirino Giant">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="You may have your Giant cost up to 2 less to summon. They can't cost less than 1.&#xD;&#xA;Saver: Giant (Whenever one of your Giant would be destroyed, you may destroy this creature instead.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Your Giants may each cost up to 2 less to summon. They can't cost less than 1.&#xA;{SAVER}: Giant (When one of your Giant(s) would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Great Veggie Fortress - Dandy Paradise" id="3c2c0e09-ff89-42e8-992e-f79c50b57cb2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3c2c0e09-ff89-42e8-992e-f79c50b57cb2" name="Great Veggie Fortress - Dandy Paradise">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All of your creatures in the battle zone gain &quot;Power Attacker +3000&quot;."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Each of your creatures in the battle zone gets &quot;power attacker +3000&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Oracion, Mysterious Samurai" id="56b2cbd3-7883-41cf-a962-1b305c65d6a5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="56b2cbd3-7883-41cf-a962-1b305c65d6a5" name="Oracion, Mysterious Samurai">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Rainbow Phantom/Samurai"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Samurai creatures&#xD;&#xA;When you put this creature into the battle zone, for each Fortress in your shield zone you may add the top card of your deck to your shields face-down and tap 1 of your opponent's creatures.&#xD;&#xA;When this creature is added to your hand from your shields and there is a Fortress in your shield zone, this creature gains &quot;Shield Trigger&quot;.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Samurai creatures.&#xA;■ When you put this creature into the battle zone, for each castle in your shields you may add the top card of your deck to your shields face down and choose one of your opponent's creatures in the battle zone and tap it.&#xA;■ When this creature is added to your hand from your shields and you have a castle in your shields, this creature gets &quot;shield trigger&quot;.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Wacon, Vizier of Arms" id="b04874aa-d099-430d-8787-90cdb4c19c39">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b04874aa-d099-430d-8787-90cdb4c19c39" name="Wacon, Vizier of Arms">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Samurai"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players unless crossed with at least 1 cross gear."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players unless crossed with a cross gear."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Kibidan Bowler, the Oracle" id="eb47f96d-3041-47b2-a2bc-c8e88d803207">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="eb47f96d-3041-47b2-a2bc-c8e88d803207" name="Kibidan Bowler, the Oracle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer/Samurai"/>
-      <property name="Rules" value="When you put this creature into the battle zone, reveal 1 Samurai or Cross Gear in your hand. If you don't, destroy this creature."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, reveal a Samurai or Cross Gear in your hand. If you don't, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Heavenly Gear - Daylight Deity" id="5e9d0879-94c9-43d8-9ea5-2626f488f199">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5e9d0879-94c9-43d8-9ea5-2626f488f199" name="Heavenly Gear - Daylight Deity">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +1000 power for each cross gear crossed with the crossed creature."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +1000 power for each cross gear crossed with the crossed creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Aqua Blade, Blue Wolf" id="34b747d1-3539-405e-a29a-8547cc3600de">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="34b747d1-3539-405e-a29a-8547cc3600de" name="Aqua Blade, Blue Wolf">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Knight/Samurai"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Chanting Clineko" id="58e46212-89d6-4993-8086-685f0e3c3e56">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="58e46212-89d6-4993-8086-685f0e3c3e56" name="Chanting Clineko">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus/Samurai"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose 1 card in your opponent's graveyard and put it on the bottom of their deck.&#xD;&#xA;When this creature would be destroyed, return it to your hand instead."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a card in your opponent's graveyard and put it on the bottom of their deck.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Cosmo Politan" id="2b77fcc4-f94b-4ac9-ae98-077eccd75374">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2b77fcc4-f94b-4ac9-ae98-077eccd75374" name="Cosmo Politan">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Splash Queen"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;When this creature blocks, you may draw a card.&#xD;&#xA;This creature can't attack."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, you may draw a card.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Fortune Slot" id="a4e38fab-f80f-4eab-a378-4619580b0078">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a4e38fab-f80f-4eab-a378-4619580b0078" name="Fortune Slot">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Reveal the top 4 cards of your deck. From the revealed cards you may add 1 creature, 1 spell, 1 cross gear, and 1 Fortress to your hand. Put the rest of the cards on the bottom of your deck in any order."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 4 cards of your deck. From among them, you may put a creature, a spell, cross gear, and castle into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Dark Hayate, Parasitic Worm" id="a1f65458-c9d3-4f49-bd15-8fe238ef39b5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a1f65458-c9d3-4f49-bd15-8fe238ef39b5" name="Dark Hayate, Parasitic Worm">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm/Origin/Samurai"/>
-      <property name="Rules" value="Whenever your Samurai creatures are destroyed, your opponent chooses 1 card in your shield zone and turns it face-up. If the revealed card is a non-evolution Samurai card you may put it into the battle zone. If it isn't you may put it into your graveyard. If you do, put the top card of your deck into your shields face-down."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your Samurai creatures are destroyed, your opponent chooses a card in your shields and reveals it. If it's a non-evolution Samurai, you may put it into the battle zone. If it's not, you may put that card into your graveyard. If you do, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Crescent Worm, Fullmetal Insect" id="4b63aab1-729a-48dc-862b-e2f2e2e9c4ed">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4b63aab1-729a-48dc-862b-e2f2e2e9c4ed" name="Crescent Worm, Fullmetal Insect">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm/Samurai"/>
-      <property name="Rules" value="When this creature attacks, you may put 1 cross gear into your graveyard from your battle zone. If you do, you may draw 2 cards."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put one of your cross gear in the battle zone into your graveyard. If you do, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Proclamation of Weakness" id="0201ea15-fd25-4e3e-9af5-508e7a6b33b4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0201ea15-fd25-4e3e-9af5-508e7a6b33b4" name="Proclamation of Weakness">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy the creature in your opponent's battle zone with the lowest power. If there are 2 or more creatures that share the lowest power, choose 1 of them and destroy it."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures in the battle zone that has the lowest power. If there are 2 or more creatures that have the lowest power, choose one of them and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Wicked Fan - Night Breeze" id="c4a00c75-94ed-4776-a2a9-792638933307">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c4a00c75-94ed-4776-a2a9-792638933307" name="Wicked Fan - Night Breeze">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +1000 power.&#xD;&#xA;When the crossed creature attacks, if your opponent has 3 or more cards in their hand they choose a card in their hand and discard it."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +1000 power.&#xA;■ Whenever the crossed creature attacks, if your opponent has 3 or more cards in their hand, your opponent discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Inaba Geeze, the Explosive" id="b032649a-4891-4d0d-8085-4e588471a94a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b032649a-4891-4d0d-8085-4e588471a94a" name="Inaba Geeze, the Explosive">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid/Origin/Knight"/>
-      <property name="Rules" value="All of your other Knights in the battle zone get &quot;Speed Attacker&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each of your other Knights in the battle zone gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magnus, Explosive Crimson Lord" id="9b715840-b6a8-486c-af09-3f42feb89011">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9b715840-b6a8-486c-af09-3f42feb89011" name="Magnus, Explosive Crimson Lord">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster/Knight"/>
-      <property name="Rules" value="If you have at least 1 spell in your graveyard, this creature gains &quot;Speed Attacker&quot;."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ If you have a spell in your graveyard, this creature gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Rikabu Flipper, Explosive Artisan" id="d430ef24-f35a-4600-8601-334cf8b9d8db">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d430ef24-f35a-4600-8601-334cf8b9d8db" name="Rikabu Flipper, Explosive Artisan">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Eater/Knight"/>
-      <property name="Rules" value="Whenever you cast a spell, this creature gets +2000 power until the end of the turn."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ Whenever you cast a spell, this creature gets +2000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magic Shot - Sword Launcher" id="3718c548-4a5c-414c-be30-2699f596bad2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3718c548-4a5c-414c-be30-2699f596bad2" name="Magic Shot - Sword Launcher">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="[Knight Magic] : Destroy 1 of your opponent's creatures with 3000 power or less OR put 1 cross gear in your opponent's battle zone into its owner's graveyard.&#xD;&#xA;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Destroy one of your opponent's creatures that has power 3000 or less or put one of your opponent's cross gear in the battle zone into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Windsor Giant" id="c326a000-22d9-4782-bc8b-af03819aa068">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c326a000-22d9-4782-bc8b-af03819aa068" name="Windsor Giant">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Knight"/>
-      <property name="Rules" value="{SHIELD TRIGGER}"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Matthew Stewart, Wild Beast" id="682527d4-7b0b-4b4c-90ce-9c74ffbc68c7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="682527d4-7b0b-4b4c-90ce-9c74ffbc68c7" name="Matthew Stewart, Wild Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Knight"/>
-      <property name="Rules" value="Whenever you cast a spell, you may put the top card of your deck into your mana zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Windy Nature, the Whirlwind" id="410bd523-7eeb-4fc0-9d9f-88167fa86d0e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="410bd523-7eeb-4fc0-9d9f-88167fa86d0e" name="Windy Nature, the Whirlwind">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Emerald Monster/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 2 (Whenever your opponent attacks or blocks, if you have 2 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, 1 of your creatures in the battle zone gets +2000 power until the end of the turn."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{NINJA STRIKE} 2 (Whenever one of your opponent's creatures attacks or blocks, if you have 2 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature into the battle zone, one of your creatures in the battle zone gets +2000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
-    <card name="Magic Shot - Pandaful Life" id="d6a3434a-404c-4864-9665-c4181b556ed5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d6a3434a-404c-4864-9665-c4181b556ed5" name="Magic Shot - Pandaful Life">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="[Knight Magic] : Put the top card of your deck into your mana zone.&#xD;&#xA;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-31 Greatest Champion"/>
+    </card>
+    <card id="43365e82-b79b-4d9f-8e91-c97b68ba576e" name="El Levain, Lord of Spirits">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="9500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;■ For each castle in your shield zone, your creatures may each cost 1 less to summon. They can't cost less than 1.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-31 Greatest Champion"/>
+    </card>
+    <card id="df99d6ea-5d63-4e53-82e4-0ad579dda7be" name="Galaxy Blade - THE FINAL">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Cross Gear"/>
+      <property name="Race" value="Samurai"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +12000 power.&#xA;■ Whenever the crossed creature attacks, until the end of the attack, that creature may get &quot;Galaxy breaker&quot; (A creature that has Galaxy breaker breaks all your opponent's shields. After the attack, break all your shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-31 Greatest Champion"/>
+    </card>
+    <card id="f449ce8c-05a9-4b21-9256-2a04510fa408" name="Saigou Giant">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Samurai"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Your Giants must be blocked if able.&#xA;■ Whenever one of your Giants wins a battle during your turn, break one of your opponent's shields.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-31 Greatest Champion"/>
+    </card>
+    <card id="725f3145-2be0-41e8-9657-474d791a29c2" name="Shiden Galaxy, Super Champ">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon/Samurai"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution: Put on top of 2 of your Angel Commands and/or Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn—Whenever this creature attacks for the first time this turn, you may put up to 2 cards under this creature into your graveyard. If you put a Dragon into your graveyard this way, untap this creature. If you put an Angel Command into your graveyard this way, when this creature would be destroyed this turn, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-31 Greatest Champion"/>
+    </card>
+    <card id="7d10fe86-5563-41c9-821e-004b20260f4f" name="Greatest Caesar, the Dark Kaiser">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon/Zombie Dragon/Knight"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on 2 of your Dragons and/or Knights.&#xA;■ Whenever this creature attacks, you may cast any number of fire or darkness spells from your graveyard that have total cost 7 or less. Then put those spells on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-31 Greatest Champion"/>
     </card>
   </cards>

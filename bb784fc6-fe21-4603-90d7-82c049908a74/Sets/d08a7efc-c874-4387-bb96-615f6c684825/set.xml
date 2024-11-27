@@ -20,843 +20,818 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Nastasha, Channeler of Suns" id="8d0a4919-3d84-423e-982c-0920755a6eed">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When one of your shields would be broken, you may destroy this creature instead."/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Emperor Quazla" id="ffdf164b-7abe-4a33-b8c6-e584e731b740">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, draw up to 2 cards."/>
-      <property name="Power" value="5000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Super Necrodragon Abzo Dolba" id="0abb1391-a69f-4839-aafa-222628d5dde8">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ This creature gets +2000 power for each creature in your graveyard.&#xA;{TRIPLE BREAKER}"/>
-      <property name="Power" value="11000+"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Überdragon Bajula" id="85e9d177-69b3-4239-8b2b-ec97f74d5577">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard.&#xA;{TRIPLE BREAKER}"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Super Terradragon Bailas Gale" id="44cbf9fd-3906-4032-939c-f702ffda7415">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ After you cast a spell by using its &quot;shield trigger&quot; ability, put it into your hand instead of your graveyard.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Kuukai, Finder of Karma" id="2161ef41-da4a-456f-89a6-9aa77ebe896b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2161ef41-da4a-456f-89a6-9aa77ebe896b" name="Kuukai, Finder of Karma">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Mecha Thunders.&#xA;■ Whenever this creature blocks, untap it after it battles.&#xA;■ This creature can't attack players."/>
       <property name="Power" value="10500"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Mecha Thunders.&#xA;■ Whenever this creature blocks, untap it after it battles.&#xA;■ This creature can't attack players."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Aqua Ranger" id="8853aa0a-be83-4643-83dd-8be6c5d58be8">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="8853aa0a-be83-4643-83dd-8be6c5d58be8" name="Aqua Ranger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ When this creature would be destroyed, put it into your hand instead."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ When this creature would be destroyed, put it into your hand instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Megaria, Empress of Dread" id="7cb87086-debc-4108-8ada-2e3053211b16">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7cb87086-debc-4108-8ada-2e3053211b16" name="Megaria, Empress of Dread">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="■ Each creature in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Each creature in the battle zone has &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Magmadragon Jagalzor" id="cf000f38-660c-4ce0-aa24-2ecbb1e4dee2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cf000f38-660c-4ce0-aa24-2ecbb1e4dee2" name="Magmadragon Jagalzor">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Volcano Dragon"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Each of your creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Each of your creatures in the battle zone has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Kachua, Keeper of the Icegate" id="a156ed1e-b2b4-4ed3-b6a9-539ff04c98dd">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a156ed1e-b2b4-4ed3-b6a9-539ff04c98dd" name="Kachua, Keeper of the Icegate">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a creature that has Dragon in its race from your deck and put it into the battle zone. Then shuffle your deck. That creature has &quot;speed attacker.&quot; At the end of the turn, destroy it."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a creature that has Dragon in its race from your deck and put it into the battle zone. Then shuffle your deck. That creature has &quot;speed attacker.&quot; At the end of the turn, destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Dracobarrier" id="f254f124-71d4-4fa5-b533-b7f07cb98544">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f254f124-71d4-4fa5-b533-b7f07cb98544" name="Dracobarrier">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it. If it has Dragon in its race, add the top card of your deck to your shields face down."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="6"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Laser Whip" id="8a9fc455-d8da-4ad2-bb29-117b5a2d412c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="8a9fc455-d8da-4ad2-bb29-117b5a2d412c" name="Laser Whip">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose one of your opponent's creatures in the battle zone and tap it. Then you may choose one of your creatures in the battle zone. If you do, it can't be blocked this turn."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="7"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Lunar Charger" id="b2254bd0-fc89-49ab-8a65-16a95f785753">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b2254bd0-fc89-49ab-8a65-16a95f785753" name="Lunar Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose up to 2 of your creatures in the battle zone. At the end of the turn, you may untap them.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="8"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Migalo, Vizier of Spycraft" id="080a33aa-ef5a-4b42-beb3-898c9a71a219">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="080a33aa-ef5a-4b42-beb3-898c9a71a219" name="Migalo, Vizier of Spycraft">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may look at 2 of your opponent's shields. Then put them back where they were."/>
       <property name="Power" value="1500"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="9"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may look at 2 of your opponent's shields. Then put them back where they were."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Misha, Channeler of Suns" id="09243e57-0456-44d4-abca-8b9bbe045b4b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="09243e57-0456-44d4-abca-8b9bbe045b4b" name="Misha, Channeler of Suns">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="■ This creature can't be attacked by any creature that has Dragon in its race."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="10"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ This creature can't be attacked by any creature that has Dragon in its race."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Nariel, the Oracle" id="b28b82be-4901-49c7-b8a6-0894302fcd41">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b28b82be-4901-49c7-b8a6-0894302fcd41" name="Nariel, the Oracle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="■ Creatures that have power 3000 or more can't attack. (Creatures that have power less than 3000 and get extra power while attacking can still attack.)"/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Creatures that have power 3000 or more can't attack. (Creatures that have power less than 3000 and get extra power while attacking can still attack.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Sasha, Channeler of Suns" id="89e8ff15-344c-4126-ada7-8ee2966b8a71">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="89e8ff15-344c-4126-ada7-8ee2966b8a71" name="Sasha, Channeler of Suns">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ While battling a creature that has Dragon in its race, this creature gets +6000 power.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9500+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ While battling a creature that has Dragon in its race, this creature gets +6000 power.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Sol Galla, Halo Guardian" id="03001a9c-19f4-48e3-8812-4f5eb34c39cb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="03001a9c-19f4-48e3-8812-4f5eb34c39cb" name="Sol Galla, Halo Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever a player casts a spell, this creature gets +3000 power until the end of the turn. (Do what the spell says before this creature gets the extra power.)"/>
       <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="13"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever a player casts a spell, this creature gets +3000 power until the end of the turn. (Do what the spell says before this creature gets the extra power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Solar Grass" id="ed49889d-f2da-4589-8402-f97b1c09cfb3">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ed49889d-f2da-4589-8402-f97b1c09cfb3" name="Solar Grass">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Starlight Tree"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, untap all your creatures in the battle zone except 'Solar Grasses'."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="14"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, untap all your creatures in the battle zone except 'Solar Grasses'."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Thrumiss, Zephyr Guardian" id="a8fd4083-4cae-46d1-9e02-0880a1f3c014">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a8fd4083-4cae-46d1-9e02-0880a1f3c014" name="Thrumiss, Zephyr Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="■ Whenever any of your creatures attacks, you may choose one of your opponent's creatures in the battle zone and tap it. (First choose what your creature is attacking. Then choose a creature to tap.)"/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, you may choose one of your opponent's creatures in the battle zone and tap it. (First choose what your creature is attacking. Then choose a creature to tap.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Aqua Grappler" id="38220cfa-531c-4aa1-9b4f-e3c1cc85b1fd">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="38220cfa-531c-4aa1-9b4f-e3c1cc85b1fd" name="Aqua Grappler">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may draw a card for each other tapped creature you have in the battle zone."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may draw a card for each other tapped creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Candy Cluster" id="5d4da0a8-3c88-4975-abb6-f3f14c16f512">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5d4da0a8-3c88-4975-abb6-f3f14c16f512" name="Candy Cluster">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="■ This creature can't be blocked."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="17"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ This creature can't be blocked."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Eureka Charger" id="7d87dcf1-468f-49cc-a5ee-dbdc533a96cc">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7d87dcf1-468f-49cc-a5ee-dbdc533a96cc" name="Eureka Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Draw a card.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="18"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Grape Globbo" id="d03a8283-6c9b-4a0c-aec7-41d44a6f2fcf">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d03a8283-6c9b-4a0c-aec7-41d44a6f2fcf" name="Grape Globbo">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="19"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Illusion Fish" id="4ea04daa-fe50-486e-a14f-07bfcb16c8ee">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4ea04daa-fe50-486e-a14f-07bfcb16c8ee" name="Illusion Fish">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can't be blocked."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="20"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can't be blocked."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Lalicious" id="fd02460a-f9d8-456c-85da-5f37bb5ab84d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fd02460a-f9d8-456c-85da-5f37bb5ab84d" name="Lalicious">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may look at your opponent's hand and at the top card of his deck."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may look at your opponent's hand and at the top card of his deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Marine Scramble" id="aea2d65b-f0c4-45ed-97ee-9d430cb64400">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="aea2d65b-f0c4-45ed-97ee-9d430cb64400" name="Marine Scramble">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Your creatures in the battle zone can't be blocked this turn."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="22"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Prowling Elephish" id="6edd4023-afe2-4b53-a8b7-d29d851a63c4">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6edd4023-afe2-4b53-a8b7-d29d851a63c4" name="Prowling Elephish">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Vikorakys" id="df92f858-a2e9-4f7e-a9fb-c909eeaeb482">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="df92f858-a2e9-4f7e-a9fb-c909eeaeb482" name="Vikorakys">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;When this creature attacks, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="24"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;When this creature attacks, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Wave Lance" id="560eb5b5-9fdf-45f8-aecc-62048b269b23">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="560eb5b5-9fdf-45f8-aecc-62048b269b23" name="Wave Lance">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose a creature in the battle zone and return it to its owner's hand. If it has Dragon in its race, you may draw a card."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Corpse Charger" id="02b4fa1f-763e-40e5-8512-bb7d2ffa322a">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="02b4fa1f-763e-40e5-8512-bb7d2ffa322a" name="Corpse Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Put a creature from your graveyard into your hand.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="26"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Cranium Clamp" id="f9810ff9-ae5e-41c5-a88d-4bf6324e1c7e">
+    <card id="f9810ff9-ae5e-41c5-a88d-4bf6324e1c7e" name="Cranium Clamp">
       <property name="Format" value="TCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Your opponent chooses and discards 2 cards from his hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="27"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Dimension Splitter" id="e74f8316-eb76-41e0-aa44-f716c2e9ce8c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e74f8316-eb76-41e0-aa44-f716c2e9ce8c" name="Dimension Splitter">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may return all creatures that have Dragon in their race from your graveyard to your hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return all creatures that have Dragon in their race from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Gachack, Mechanical Doll" id="d17d0e8a-e3ef-4a94-9b7d-95455abb50cf">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d17d0e8a-e3ef-4a94-9b7d-95455abb50cf" name="Gachack, Mechanical Doll">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, you may destroy a creature."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and isn't blocked, you may destroy a creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Gigaclaws" id="75457906-539f-4c89-b24a-a7e794595ecb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="75457906-539f-4c89-b24a-a7e794595ecb" name="Gigaclaws">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, your opponent discards his hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="30"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, your opponent discards his hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Motorcycle Mutant" id="30298abb-4882-47ca-bf47-82af1df5f868">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="30298abb-4882-47ca-bf47-82af1df5f868" name="Motorcycle Mutant">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Necrodragon Galbazeek" id="afca9d71-6486-4bdc-b089-159553cfb6f3">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="afca9d71-6486-4bdc-b089-159553cfb6f3" name="Necrodragon Galbazeek">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="32"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Necrodragon Giland" id="d2f91d1a-5e8d-43ce-8512-ec6be9c3f424">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d2f91d1a-5e8d-43ce-8512-ec6be9c3f424" name="Necrodragon Giland">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature battles, destroy it after the battle."/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="33"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature battles, destroy it after the battle."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Scream Slicer, Shadow of Fear" id="d766e9bf-bada-4e22-9d82-6e2f8e25132f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d766e9bf-bada-4e22-9d82-6e2f8e25132f" name="Scream Slicer, Shadow of Fear">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, destroy the creature that has the least power in the battle zone. If there's a tie, you choose from among the tied creatures."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="34"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, destroy the creature that has the least power in the battle zone. If there's a tie, you choose from among the tied creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Tyrant Worm" id="12fa044c-770e-4944-8fc3-e5c407812e35">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="12fa044c-770e-4944-8fc3-e5c407812e35" name="Tyrant Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="35"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When you put another creature into the battle zone, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Bruiser Dragon" id="6ed6f9e5-65b8-45b6-9792-b6b5428dac42">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6ed6f9e5-65b8-45b6-9792-b6b5428dac42" name="Bruiser Dragon">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="■ When this creature is destroyed, choose one of your shields and put it into your graveyard."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="36"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When this creature is destroyed, choose one of your shields and put it into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Furious Onslaught" id="006d63ab-f038-455d-ae0b-254778f51813">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="006d63ab-f038-455d-ae0b-254778f51813" name="Furious Onslaught">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Until the end of the turn, each of your Dragonoids in the battle zone is an Armored Dragon in addition to its other races, gets +4000 power, and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="37"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Kyrstron, Lair Delver" id="d8ac2ab1-2d02-4877-9d79-35e0e003e8fa">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d8ac2ab1-2d02-4877-9d79-35e0e003e8fa" name="Kyrstron, Lair Delver">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="■ When this creature is destroyed, you may put a creature that has Dragon in its race from your hand into the battle zone."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="38"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may put a creature that has Dragon in its race from your hand into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Magmadragon Melgars" id="8112be9d-50a9-4489-b3f8-257aeed62205">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="8112be9d-50a9-4489-b3f8-257aeed62205" name="Magmadragon Melgars">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Volcano Dragon"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Missile Soldier Ultimo" id="cfbaa44c-b949-45fc-8fe6-99bbab5dab93">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cfbaa44c-b949-45fc-8fe6-99bbab5dab93" name="Missile Soldier Ultimo">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can attack untapped creatures and has &quot;Power attacker +4000 (While attacking, this creature gets +4000 power).&quot;"/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature can attack untapped creatures and has &quot;Power attacker +4000 (While attacking, this creature gets +4000 power).&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Rocketdive Skyterror" id="b469fd84-1fa5-42fa-b4e1-f1d186400e9d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b469fd84-1fa5-42fa-b4e1-f1d186400e9d" name="Rocketdive Skyterror">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="■ This creature can't be attacked.&#xA;■ This creature can't attack players.&#xA;{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="5000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="41"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ This creature can't be attacked.&#xA;■ This creature can't attack players.&#xA;{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Slaphappy Soldier Galback" id="b955dd9b-2774-42a6-a3d7-97b23116ff0f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b955dd9b-2774-42a6-a3d7-97b23116ff0f" name="Slaphappy Soldier Galback">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 4000 or less."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="42"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 4000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Torpedo Skyterror" id="224723b5-a3d5-4f8f-81f3-1a19a04b5e3d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="224723b5-a3d5-4f8f-81f3-1a19a04b5e3d" name="Torpedo Skyterror">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="■While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
       <property name="Power" value="4000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Totto Pipicchi" id="2cf1ccb5-50d8-4a50-902e-85a8ee0a5a04">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2cf1ccb5-50d8-4a50-902e-85a8ee0a5a04" name="Totto Pipicchi">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="■ Each creature in the battle zone that has Dragon in its race has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Each creature in the battle zone that has Dragon in its race has &quot;speed attacker.&quot; (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Volcano Charger" id="d031c833-da73-42a0-af4a-cd2a8ce9af6d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d031c833-da73-42a0-af4a-cd2a8ce9af6d" name="Volcano Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 2000 or less.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="45"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Bakkra Horn, the Silent" id="2651ac84-cbbe-4e07-b5f7-0085675254cd">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2651ac84-cbbe-4e07-b5f7-0085675254cd" name="Bakkra Horn, the Silent">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, put the top card of your deck into your mana zone."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Carbonite Scarab" id="e69438a4-57fa-4028-8450-d855ab013f63">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e69438a4-57fa-4028-8450-d855ab013f63" name="Carbonite Scarab">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="47"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Coliseum Shell" id="fb8f0d54-97ee-430e-a1aa-b23296be8345">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fb8f0d54-97ee-430e-a1aa-b23296be8345" name="Coliseum Shell">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="■ Whenever this creature becomes blocked, you may put the top card of your deck into your mana zone."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="48"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever this creature becomes blocked, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Dracodance Totem" id="a4018d92-aef5-4332-b274-016881d6871e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a4018d92-aef5-4332-b274-016881d6871e" name="Dracodance Totem">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="■ When this creature would be destroyed, if you have a creature that has Dragon in its race in your mana zone, put this creature into your mana zone instead of destroying it. Then return a creature that has Dragon in its race from your mana zone to your hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="49"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When this creature would be destroyed, if you have a creature that has Dragon in its race in your mana zone, put this creature into your mana zone instead of destroying it. Then return a creature that has Dragon in its race from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Muscle Charger" id="1fbf62d7-aca7-4f0e-bf22-9170e36aad57">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="1fbf62d7-aca7-4f0e-bf22-9170e36aad57" name="Muscle Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Each of your creatures in the battle zone gets +3000 power until the end of the turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="50"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Quixotic Hero Swine Snout" id="701500bb-7ade-4d3d-9938-8367fa3a71bd">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="701500bb-7ade-4d3d-9938-8367fa3a71bd" name="Quixotic Hero Swine Snout">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Whenever another creature is put into the battle zone, this creature gets +3000 power until the end of the turn."/>
       <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ Whenever another creature is put into the battle zone, this creature gets +3000 power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Root Charger" id="a759c6e0-6846-4a4c-aa75-0b8c77b73435">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a759c6e0-6846-4a4c-aa75-0b8c77b73435" name="Root Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="52"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Senia, Orchard Avenger" id="3b7f7a73-3f12-46a6-a36c-509fed6177ee">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="3b7f7a73-3f12-46a6-a36c-509fed6177ee" name="Senia, Orchard Avenger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature gets +5000 power and has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{TURBO RUSH} (If any of your other creatures broke any shields this turn, this creature gets its Turbo Rush ability until the end of the turn.)&#xA;This creature gets +5000 power and has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Terradragon Gamiratar" id="f4750fe9-35ce-4bca-b074-a939d18a971d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f4750fe9-35ce-4bca-b074-a939d18a971d" name="Terradragon Gamiratar">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent may choose a creature in his hand and put it into the battle zone.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="54"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent may choose a creature in his hand and put it into the battle zone.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
-    <card name="Terradragon Regarion" id="ea9dbf9c-d049-4213-a658-e47ab25867e6">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ea9dbf9c-d049-4213-a658-e47ab25867e6" name="Terradragon Regarion">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="4000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
-      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+    </card>
+    <card id="8d0a4919-3d84-423e-982c-0920755a6eed" name="Nastasha, Channeler of Suns">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When one of your shields would be broken, you may destroy this creature instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+    </card>
+    <card id="ffdf164b-7abe-4a33-b8c6-e584e731b740" name="Emperor Quazla">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, draw up to 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+    </card>
+    <card id="0abb1391-a69f-4839-aafa-222628d5dde8" name="Super Necrodragon Abzo Dolba">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="11000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ This creature gets +2000 power for each creature in your graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+    </card>
+    <card id="85e9d177-69b3-4239-8b2b-ec97f74d5577" name="Überdragon Bajula">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
+    </card>
+    <card id="44cbf9fd-3906-4032-939c-f702ffda7415" name="Super Terradragon Bailas Gale">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Earth Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Dragon in its race.&#xA;■ After you cast a spell by using its &quot;shield trigger&quot; ability, put it into your hand instead of your graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-08 Epic Dragons of Hyperchaos"/>
     </card>
   </cards>
 </set>

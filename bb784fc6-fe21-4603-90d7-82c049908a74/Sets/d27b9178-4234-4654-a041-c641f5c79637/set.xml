@@ -20,724 +20,811 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Emperor Marco" id="95ec6a25-f5aa-4682-9ec5-c2c2b06a4960">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Evolution: Put on one of your Cyber Lord.&#xD;&#xA;When you put this creature into the battle zone, you may draw 3 cards.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Bolpheus Heaven, Super Holy Dragon" id="02355554-4154-4e90-b5f4-439a73ea2616">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light/Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Angel Command/Armored Dragon"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Vortex Evolution: Put on 2 of any combination of Angel Command and/or Armored Dragon.&#xD;&#xA;When this creature is put into the battle zone, you may cast one light or fire spell from your hand without paying its mana cost.&#xD;&#xA;When this creature attacks, you may put one of your shields into your graveyard. If you do, choose any number of your opponent's creatures with a total power of 6000 or less and destroy them.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Zero Phoenix, Phoenix of Darkness" id="cebd7488-cd36-40d7-8edf-8991a1faa04f">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Vortex Evolution: Put on 1 of your darkness creatures and 1 of your fire creatures.&#xD;&#xA;Double Breaker&#xD;&#xA;Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead.&#xD;&#xA;When this creature leaves the battle zone, your opponent chooses 2 cards from their hand and discards them. Then, you may choose 2 cards in your opponent's mana zone and put them in its owner's graveyard."/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Miracle Rumba" id="6e7e2192-22d1-46dc-b9e1-2ff0e22bfcb8">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="World Bird"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Double Breaker&#xD;&#xA;When one of your opponent's creatures attacks you, your opponent may tap a number of cards equal to the number of civilizations NOT in their mana zone. If they don't, the attack is stopped. (The attacking creature remains tapped.)"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Perfect Earth, Planetary Dragon" id="c2a212ff-22ee-4d17-b7fc-cf8c90c2afe9">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="World Dragon"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;All of your shields that are returned to your hand gain &quot;Shield Trigger&quot;.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Violence Heaven" id="c2b88eb1-4b7e-4b33-98cd-4ccbee64a3d2">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="For each linked god in your battle zone, you may reduce this spell's casting cost by as much as 3. It can't cost less than 1.&#xD;&#xA;Destroy all creatures except God creatures."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
-      <property name="Set" value="DM-27 Perfect Heaven"/>
-    </card>
-    <card name="Infinity Phoenix, Dragonflame Phoenix" id="e9eaf103-6492-4015-8c3f-667ccbc9ed41">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e9eaf103-6492-4015-8c3f-667ccbc9ed41" name="Infinity Phoenix, Dragonflame Phoenix">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Vortex Evolution: Put on 2 of your fire creatures.&#xD;&#xA;All of your Dragon and Phoenix may attack untapped creatures.&#xD;&#xA;When this creature leaves the battle zone, you may return any number of fire creatures from your graveyard and/or mana zone. Then, return this creature to your deck and shuffle it.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your fire creatures.&#xA;■ Each of your Dragons and Phoenix in the battle zone can attack untapped creatures.&#xA;■ When this creature would leave the battle zone, you may return any number of fire creatures from your graveyard and/or mana zone to your hand instead. Then return this creature to your deck and shuffle it.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Emerald Pharaoh, Earth God" id="eb8d3c08-a6e3-4694-8d2a-b1bd05da2065">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="eb8d3c08-a6e3-4694-8d2a-b1bd05da2065" name="Emerald Pharaoh, Earth God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, this creature can't be chosen. (It can still be attacked and blocked.)&#xD;&#xA;This creature breaks an additional shield for each card linked with this one.&#xD;&#xA;God Link - Flame Agon, God of Flames (Right Side) or Shine Valkyrie, Heavenly God (Left Side)"/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ This creature breaks an additional shield for each card linked to this one.&#xA;■ God Link (Flame Agon, God of Flames) Right Side or (Shine Valkyrie, Heavenly God) Left Side"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Baron Gouyama" id="a5bc25ce-89fd-4a9e-ad0c-b5ea8eb53138">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a5bc25ce-89fd-4a9e-ad0c-b5ea8eb53138" name="Baron Gouyama">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="When this creature is put into the battle zone, search your deck. You may choose one card from it and put it in your mana zone. If you do, put one card from your mana zone into your graveyard and put 1 non-evolution Wild Veggies not named Baron Gouyama into the battle zone from your mana zone. Then, shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a card from it and put it into your mana zone. If you do, put a card from your mana zone into your graveyard and put a non-evolution Wild Veggies not named 'Baron Gouyama' from your mana zone into the battle zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Queen Alcadeias, Holy Gaia" id="bcd9c7eb-403d-46e0-ad14-4ce8f96d4f88">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bcd9c7eb-403d-46e0-ad14-4ce8f96d4f88" name="Queen Alcadeias, Holy Gaia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Lost Crusader/Angel Command"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Evolution: Put on one of your multicolored creatures.&#xD;&#xA;Your opponent can't cast spells other than multicolored spells.&#xD;&#xA;Double Breaker"/>
+      <property name="Race" value="Angel Command/Lost Crusader"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ Your opponent can't cast spells other than multicolored spells.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Lagnashia, Revelation Elemental" id="5cbf79da-9d59-4908-9ee3-63cc1dca0e35">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5cbf79da-9d59-4908-9ee3-63cc1dca0e35" name="Lagnashia, Revelation Elemental">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Light Bringer"/>
-      <property name="Rules" value="This creature gets +4000 power each civilization in your mana zone.&#xD;&#xA;When this creature has 6000 or more power it gains &quot;Double Breaker&quot;.&#xD;&#xA;When this creature has 15000 or more power it gains &quot;Triple Breaker&quot;.&#xD;&#xA;When this creature has 20000 or more power it gains &quot;Quadruple Breaker&quot;."/>
-      <property name="Power" value="0"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="■ This creature gets +4000 power for each civilization in your mana zone.&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker&quot;.&#xA;■ While this creature has power 15000 or more, it has &quot;triple breaker&quot;.&#xA;■ While this creature has power 20000 or more, it has &quot;quattro breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Zaum Poseidam, Blue Divine Dragon" id="953f5eb1-c870-4bad-a6f3-bd8a509921eb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="953f5eb1-c870-4bad-a6f3-bd8a509921eb" name="Zaum Poseidam, Blue Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="Evolution: Put on one of your Dragons.&#xD;&#xA;This creature can't be blocked.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;■ This creature can't be blocked.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Necrodragon Heavy Kerberos" id="07c00ddf-bd9e-4d12-b186-080f253e9806">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="07c00ddf-bd9e-4d12-b186-080f253e9806" name="Necrodragon Heavy Kerberos">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="Double Breaker&#xD;&#xA;Whenever one of your Dragon creatures is destroyed, you may draw 2 cards."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your creatures with Dragon in its race is destroyed, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Dark Indora, God of Darkness" id="57bee026-fae0-4bdf-b55a-be70d7a6dc9d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="57bee026-fae0-4bdf-b55a-be70d7a6dc9d" name="Dark Indora, God of Darkness">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="When this creature attacks, for each card linked with this one your opponent destroys one of their creatures and puts one card from their mana zone into their graveyard.&#xD;&#xA;When this creature is destroyed, return 1 other God from graveyard to your hand.&#xD;&#xA;God Link - Blue Poseidon, Sea God (Right Side) or Flame Agon, God of Flames (Left Side)"/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, for each card linked to this one, your opponent destroys one of their creatures and puts a card from their mana zone into their graveyard.&#xA;■ When this creature is destroyed, return one of your other Gods from your graveyard to your hand.&#xA;■ God Link (Blue Poseidon, Sea God) Right Side or (Flame Agon, God of Flames) Left Side"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55 (C.G.C)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Spectrum Giant" id="c299063d-e593-4d1e-812e-e2e304d07d15">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c299063d-e593-4d1e-812e-e2e304d07d15" name="Spectrum Giant">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="Civilization Breaker (This creature breaks 1 shield for each civilization in your mana zone.)"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Civilization breaker (This creature breaks a shield for each civilization in your mana zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Terradragon Balgazarmas" id="f21b30a4-7ee9-4db3-b048-21986d402e94">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f21b30a4-7ee9-4db3-b048-21986d402e94" name="Terradragon Balgazarmas">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When one of your Dragon attacks, you may reveal the top card of your deck. If that card is a Dragon add it to your hand. If it isn't a Dragon, put it into your mana zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons attacks, you may reveal the top card of your deck. If it's a Dragon, put it into your hand. Oherwise, put it into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Savage Earth" id="1503dccc-acd0-4d1a-abfa-28dece241227">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1503dccc-acd0-4d1a-abfa-28dece241227" name="Savage Earth">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put 1 non-evolution creature from your mana zone into the battle zone. Then, choose 1 non-evolution from your opponent's mana zone and put it into their battle zone. Then, choose 1 of your creatures and 1 of your opponent's creatures and put them in their respective owner's mana zones."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put a non-evolution creature from your mana zone. Choose a non-evolution creature from your opponent's mana zone and your opponent puts it. Then choose one of your creatures and one of your opponent's creatures from the battle zone and put them into their owner's mana zones."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Dellinder, Machine Admiral" id="0ca4f1a6-3e88-4dbd-a8dc-769b257b2b3b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0ca4f1a6-3e88-4dbd-a8dc-769b257b2b3b" name="Dellinder, Machine Admiral">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Machine Hero"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;Overdrive Darkness x1 + Fire x1 + Nature x1 (When this creature is summoned, you may tap an additional 1 Darkness, 1 Fire, and 1 Nature card in your mana zone. If you do, this creature gains the following [OD] ability).&#xD;&#xA;[OD]: When this creature is put into the battle zone, if the opponent has more cards in their hand than you have in yours, you may draw until you have the same number of cards they do."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Over Drive—Darkness x1 + Fire x1 + Nature x1 (When you summon this creature, you may tap another 1 darkness, 1 fire and 1 nature card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creature into the battle zone, if your opponent has more cards in their hand than you have in yours, you may draw until you have the same number of cards as them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Musha Lupia" id="42f2a6e6-6384-4d67-a19c-0518816346bc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="42f2a6e6-6384-4d67-a19c-0518816346bc" name="Musha Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;You may have your Dragon creatures cost 1 less. They can't cost less than 1.&#xD;&#xA;When your Bolmeteus Musha Dragon attacks, you may put the top card of your deck into your shields."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your creatures that have Dragon in their race each cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever your &quot;Bolmeteus Musha Dragon&quot; attacks, you may add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Skell Eye, Savage Mecha King" id="a2b6cbcc-f504-49a9-96de-da589075af3d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a2b6cbcc-f504-49a9-96de-da589075af3d" name="Skell Eye, Savage Mecha King">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;This creature can't attack creatures.&#xD;&#xA;This creature can't be blocked.&#xD;&#xA;This creature can't be attacked.&#xD;&#xA;When this creature attacks, search your deck. You may choose a creature from it, show it to your opponent, and add it to your hand. Then, shuffle your deck."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't attack creatures.&#xA;■ This creature can't be blocked.&#xA;■ This creature can't be attacked.&#xA;■ Whenever this creature attacks, search your deck. You may take a creature from it, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Pyron, the Battle Dragonic Firespirit" id="01756142-6e43-4586-9ea9-c2297d189c77">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="01756142-6e43-4586-9ea9-c2297d189c77" name="Pyron, the Battle Dragonic Firespirit">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake/Brave Spirit"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Power Attacker +2000&#xD;&#xA;Overdrive Light x1 + Water x1 + Nature x1 (When this creature is summoned, you may tap an additional 1 Light, 1 Water, and 1 Nature card in your mana zone. If you do, this creature gains the following [OD] ability).&#xD;&#xA;[OD]: When you put this creature into the battle zone, you may destroy one of your opponent's tapped creatures or break 1 of your opponent's shields with this creature."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;■ Over Drive—Light x1 + Water x1 + Nature x1 (When you summon this creature, you may tap another 1 light, 1 water and 1 nature card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creature into the battle zone, you may destroy one of your opponent's tapped creatures or this creature breaks one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Drag Innocent, Savage Swordsman" id="058c0441-4dfd-4d9e-aa32-f9c0437c0011">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="058c0441-4dfd-4d9e-aa32-f9c0437c0011" name="Drag Innocent, Savage Swordsman">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;You can put an evolution creature of any race on this creature.&#xD;&#xA;When this creature is destroyed, you may put a Dragon from your hand into the battle zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ You can put an evolution creature of any race on this creature.&#xA;■ When this creature is destroyed, you may put a Dragon from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Spectryte, Crystal Gaia" id="45c28b31-5ec7-46b1-8000-25c5eee621a0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="45c28b31-5ec7-46b1-8000-25c5eee621a0" name="Spectryte, Crystal Gaia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz/Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature attacks, you may tap one card each of light, water, darkness, fire, and nature in your mana zone. If you do, tap all your opponent's creatures and put one of your opponent's shields into its owner's graveyard. (Choose what to attack before tapping.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■Whenever this creature attacks, you may tap a light, water, darkness, fire, and nature card in your mana zone. If you do, tap all your opponent's creatures and put one of your opponent's shields into its owner's graveyard. (Choose what to attack before tapping.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Zephys, Gaia's Godly General" id="7859dec5-0fcb-449f-82f3-87098af2d42f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7859dec5-0fcb-449f-82f3-87098af2d42f" name="Zephys, Gaia's Godly General">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xD;&#xA;[Tap]: Search your deck. You may choose one God from it that can link with a God in your battle zone, put it into the battle zone, and link it with that God. Then, shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a God that can link with one of your Gods in the battle zone, put it into the battle zone, and link it with that God. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Last Violence" id="818e63d0-96ba-4059-b1a6-4543b7b58d8c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="818e63d0-96ba-4059-b1a6-4543b7b58d8c" name="Last Violence">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Add the top card of your deck to your shields.&#xD;&#xA;Destroy 1 of your opponent's non-multicolored creatures.&#xD;&#xA;Your opponent chooses 2 non-multicolored cards in their mana zone and puts them in the graveyard.&#xD;&#xA;Search your deck. You may choose 1 multicolored creature from it, show it to your opponent, and add it to your hand. Then, shuffle your deck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Add the top card of your deck to your shields face down.&#xA;■ Destroy one of your opponent's non-multicolored creatures.&#xA;■ Your opponent chooses 2 non-multicolored cards in their mana zone and puts them into their graveyard.&#xA;■ Search your deck. You may take a multicolored creature from it, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Shine Valkyrie, Heavenly God" id="7c1b1695-35a9-4efa-a465-cddefe98ea80">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7c1b1695-35a9-4efa-a465-cddefe98ea80" name="Shine Valkyrie, Heavenly God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;God Link - Emerald Pharaoh, Earth God (Right Side) or Blue Poseidon, Sea God (Left Side)&#xD;&#xA;When this creature is linked with a God, you may choose one of your opponent's creatures and tap it."/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ God Link (Emerald Pharaoh, Earth God) Right Side or (Blue Poseidon, Sea God) Left Side&#xA;■ Whenever this creature is linked with a God, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55 (C.G.C)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="La Francis, Electric Shield Guardian" id="4a7f9f9a-202a-4ac4-b574-f1e3ff09c76a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4a7f9f9a-202a-4ac4-b574-f1e3ff09c76a" name="La Francis, Electric Shield Guardian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="When a creature with a cost less than or equal to the number of civilizations in your mana zone is destroyed, you may destroy this creature instead."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When a creature that costs the same as or less than the number of civilizations in your mana zone would be destroyed, you may destroy this creature instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Blue Poseidon, Sea God" id="34d1c730-62a8-465e-ab91-5e9726f3825a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="34d1c730-62a8-465e-ab91-5e9726f3825a" name="Blue Poseidon, Sea God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This creature can't be blocked.&#xD;&#xA;When you draw at the beginning of your turn, you may draw an additional card for each card linked to this one.&#xD;&#xA;God Link - Shine Valkyrie, Heavenly God (Right Side) or Dark Indora, God of Darkness (Left Side)"/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ Whenever you draw a card at the start of your turn, for each card linked to this one, you may draw an additional card.&#xA;■ God Link (Shine Valkyrie, Heavenly God) Right Side or (Dark Indora, God of Darkness) Left Side"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55 (C.G.C)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Space Crawler" id="b11bd791-18b3-4927-a45c-3c52e3a568a0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b11bd791-18b3-4927-a45c-3c52e3a568a0" name="Space Crawler">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;When this creature is put into the battle zone, for each civilization your have in your mana zone you may look at 1 card from the top of your deck. Add 1 of these to your hand and put the rest on the bottom of your deck in any order."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, for each civilization in your mana zone, you may look at a card from the top of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Blade Worm, Decapitating Insect" id="016c31fa-02d1-408b-bfd6-02f4f4f76778">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="016c31fa-02d1-408b-bfd6-02f4f4f76778" name="Blade Worm, Decapitating Insect">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="When this creature is put into the battle zone, choose one of your opponent's creatures. For each civilization you have in your mana zone, that creature gets -1000 power during this turn. (A creature with 0 or less power is destroyed.)"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. That creature gets -1000 power for each civilization you have in your mana zone until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Darkness Spiral" id="fe4cc1f7-982e-4d5a-8435-a8c4c6f4d1ea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="fe4cc1f7-982e-4d5a-8435-a8c4c6f4d1ea" name="Darkness Spiral">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Your opponent chooses 1 card from their hand and discards it. If the discarded card shares a civilization with a card in your mana zone, your opponent chooses 1 card from his mana zone and puts it in their graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent chooses a card from their hand and discards it. If the discarded card has the same civilization as a card in your mana zone, your opponent chooses a card in their mana zone and puts it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Flame Agon, God of Flames" id="88e06310-e6d6-459e-bd42-d3f521bc7bed">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="88e06310-e6d6-459e-bd42-d3f521bc7bed" name="Flame Agon, God of Flames">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This creature can attack untapped creatures.&#xD;&#xA;This creature gets &quot;Power Attacker +2000&quot; for each card linked to this one.&#xD;&#xA;God Link - Dark Indora, God of Darkness (Right Side) or Emerald Pharaoh, Earth God (Left Side)"/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature can attack untapped creatures.&#xA;■ This creature gets &quot;power attacker +2000&quot; for each card linked to this one.&#xA;■ God Link (Dark Indora, God of Darkness) Right Side or (Emerald Pharaoh, Earth God) Left Side"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55 (C.G.C)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Musha Decapitation Sword" id="45e1a5a4-a8c7-4057-9d27-34ad8e7979da">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="45e1a5a4-a8c7-4057-9d27-34ad8e7979da" name="Musha Decapitation Sword">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy one of your opponent's creatures with 5000 power or less. If you have at least one Bolmeteus Musha Dragon in your battle zone, destroy 1 more of your opponent's creatures with 5000 power or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less. If you have at least one Bolmeteus Musha Dragon in the battle zone, destroy one more of your opponent's creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Momonga Jirou, Flying Ninja of the Forest" id="f2d38b31-acee-42aa-9103-ac8514468ec0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f2d38b31-acee-42aa-9103-ac8514468ec0" name="Momonga Jirou, Flying Ninja of the Forest">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the battle zone, search your deck. You may choose a creature from it with a cost less than or equal to the number of civilizations in your mana zone, show it to your opponent, and add it to your hand. Then, shuffle your deck."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, search your deck. You may take a creature from your deck that costs the same as or less than the number of civilizations in your mana zone, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Colorful Dance" id="2821d3b6-4eaa-4fe0-8498-8b6b16df43da">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2821d3b6-4eaa-4fe0-8498-8b6b16df43da" name="Colorful Dance">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put the top 5 cards from your deck into your mana zone. Then, put 5 cards from your mana zone into your graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put the top 5 cards of your deck into your mana zone. Then put 5 cards from your mana zone into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Walmiel, Electro-Sage" id="0d760b3b-f0a1-41f1-b574-533ca0d95a70">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0d760b3b-f0a1-41f1-b574-533ca0d95a70" name="Walmiel, Electro-Sage">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Cyber Lord"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, you may tap 1 of your opponent's creatures.&#xD;&#xA;When this creature attacks, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may tap one of your opponent's creatures in the battle zone.&#xA;■ Whenever this creature attacks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Gold Buckler" id="d9fa33b3-936f-4368-a616-9e34bd2a4261">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d9fa33b3-936f-4368-a616-9e34bd2a4261" name="Gold Buckler">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, choose 1 of your creatures. That creature gets +1000 power for each civilization you have in your mana zone during this turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, choose one of your creatures. That creature gets +1000 power for each civilization you have in your mana zone during this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Gelneus, Fuuma of the Depths" id="4d893790-4499-432b-8158-21526673184b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4d893790-4499-432b-8158-21526673184b" name="Gelneus, Fuuma of the Depths">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil/Deep Marine"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Overdrive Light x1 + Fire x1 + Nature x1 (When this creature is summoned, you may tap an additional 1 Light, 1 Fire, and 1 Nature card in your mana zone. If you do, this creature gains the following [OD] ability).&#xD;&#xA;[OD]: When this creature is put into the battle zone, return 1 creature in the battle zone to its owner's hand. Then, return one creature from your graveyard to your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Over Drive—Light x1 + Fire x1 + Nature x1 (When you summon this creature, you may tap another 1 light, 1 fire and 1 nature card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creatureinto the battle zone, return a creature in the battle zone to its owner's hand. Then return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Fly Lab, Crafty Demonic Tree" id="422bc1c3-2674-43a5-9fad-d8417847f8e6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="422bc1c3-2674-43a5-9fad-d8417847f8e6" name="Fly Love, Crafty Demonic Tree">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk/Hedrian"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When you cast spells, you may have them cost 1 less. They can't cost less than 1.&#xD;&#xA;When this creature is destroyed, discard 1 card from your opponent's hand at random."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your spells each cost 1 less to cast. They can't cost less than 1.&#xA;■ When this creature is destroyed, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Kabuto 1, Armored Insectobeast" id="50f5ae66-f38d-445a-b5f7-5a52127c258e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="50f5ae66-f38d-445a-b5f7-5a52127c258e" name="Kabuto 1, Armored Insectobeast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Vehicle Bee"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Overdrive Light x1 + Water x1 + Darkness x1 (When this creature is summoned, you may tap an additional 1 Light, 1 Water, and 1 Darkness card in your mana zone. If you do, this creature gains the following [OD] ability).&#xD;&#xA;[OD]: When this creature is put into the battle zone, all of your other creatures gain &quot;Power Attacker +3000&quot; until the end of turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Over Drive—Light x1 Water x1 and Darkness x1 (When you summon this creature, you may tap another 1 light, 1 water and 1 darkness card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creature into the battle zone, each of your other creatures in the battle zone gets &quot;power attacker +3000&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Sphere, the Oracle" id="f350a2b1-7577-4e43-a7df-3510ebf47845">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f350a2b1-7577-4e43-a7df-3510ebf47845" name="Sphere, the Oracle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;When this creature is put into the battle zone, tap all of your opponent's creatures with &quot;Blocker&quot;.&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures in the battle zone that have &quot;Blocker&quot;.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Saiyas Tron, Spirit Knight" id="481b2b87-2958-4ed8-9288-014d2677f4df">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="481b2b87-2958-4ed8-9288-014d2677f4df" name="Saiyas Tron, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Mi Amore, the Patroller" id="f2db1ac4-0a10-4199-a6ac-02e556b3acac">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f2db1ac4-0a10-4199-a6ac-02e556b3acac" name="Mi Amore, the Patroller">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cosmo Walker"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When this creature is destroyed, no other creatures may attack this turn."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, no other creatures may attack this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Reflecting Ray" id="831444e1-b1dd-486c-a96b-fc6d779112bb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="831444e1-b1dd-486c-a96b-fc6d779112bb" name="Reflecting Ray">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose one of your opponent's creature's in the battle zone and tap it.&#xD;&#xA;If you have more civilizations in your mana zone than your opponent, you may return 1 spell from your graveyard to your hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures in the battle zone and tap it.&#xA;■ If you have more civilizations in your mana zone than your opponent, you may return a spell from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Jelly, Dazzling Electro-Princess" id="52d8153d-360c-4df7-9c77-034c0d3d9bf6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="52d8153d-360c-4df7-9c77-034c0d3d9bf6" name="Jelly, Dazzling Electro-Princess">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Splash Queen/Cyber Lord"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the battle zone, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Qurian" id="b8d4fe22-66c2-46d3-b9c5-8a18da71967f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b8d4fe22-66c2-46d3-b9c5-8a18da71967f" name="Qurian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="When this creature is put in the battle zone, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Panaon" id="def23914-12d1-4bf8-bf48-e5b14d63489e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="def23914-12d1-4bf8-bf48-e5b14d63489e" name="Panaon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;When this creature blocks, after the battle return the blocked creature to its owner's hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, after the battle, return the blocked creature to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Oboro Kagerou, Moonlight Mecha" id="a5808f78-87eb-4de1-9577-de750ef79eec">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a5808f78-87eb-4de1-9577-de750ef79eec" name="Oboro Kagerou, Moonlight Mecha">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the battle zone, you may draw 1 card for each civilization you have in your mana zone. Then, put the same number of cards you drew on the bottom of the deck, in any order, from your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may draw a card for each civilization in your mana zone. Then put the same number of cards you drew from your hand on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Death Mendosa, Dragonic Baron of Death" id="fbca9037-520b-442c-91df-ad4be323a5c0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="fbca9037-520b-442c-91df-ad4be323a5c0" name="Death Mendosa, Dragonic Baron of Death">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord/Tyranno Drake"/>
-      <property name="Rules" value="When this creature is put into the battle zone, you may destroy 1 of your opponent's untapped creatures."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy one of your opponent's untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Pinokill, Cursed Wooden Doll" id="d14dfc07-38d0-4ac1-9886-2f39b09170ea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d14dfc07-38d0-4ac1-9886-2f39b09170ea" name="Pinokill, Cursed Wooden Doll">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;All of your multicolored creatures gain &quot;Slayer&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Each of your multicolored creatures in the battle zone gets &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Dark Lupia" id="41c7b6f8-ed4b-4865-bc25-ba0d6db77fbc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="41c7b6f8-ed4b-4865-bc25-ba0d6db77fbc" name="Dark Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="When your Dragon creatures are destroyed, you may destroy 1 of your opponent's creatures."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons are destroyed, you may destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Devil Smoke" id="f62150e5-b55e-472a-bc59-8c9995ebc412">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f62150e5-b55e-472a-bc59-8c9995ebc412" name="Devil Smoke">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy 1 of your opponent's untapped creatures. If you have at least 1 card in your mana zone that shares a civilization with the destroyed creature, you may draw 1 card."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's untapped creatures. If you have at least one card in your mana zone that has the same civilization as the destroyed creature, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Fist Dragoon" id="baa9b4d2-e396-4422-8ade-2b3274ebf67c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="baa9b4d2-e396-4422-8ade-2b3274ebf67c" name="Fist Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature is put into the battle zone, you may destroy 1 of your opponent's creatures with 2000 power or less."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Ahni, Assault Hero" id="066bd5ea-b263-4d32-a0b1-f6cf0fa7c2f7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="066bd5ea-b263-4d32-a0b1-f6cf0fa7c2f7" name="Ahni, Assault Hero">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Power Attacker +2000&#xD;&#xA;This creature must attack each turn, if possible."/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;■ This creature attacks each turn if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Goren Cannon" id="cffe7a58-78f7-4940-9504-a9ea1e566de3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cffe7a58-78f7-4940-9504-a9ea1e566de3" name="Goren Cannon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy 1 of your opponent's creatures with 3000 power or less.&#xD;&#xA;If you have all of the civilizations in your mana zone, destroy 1 more creature with 3000 power or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 3000 or less.&#xA;■ If you have all civilizations in your mana zone, destroy another creature that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Mesai Daguras, Matchless Totem" id="2b5c9f47-6b0f-420d-bb5e-7b40efe5ca9a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2b5c9f47-6b0f-420d-bb5e-7b40efe5ca9a" name="Mesai Daguras, Matchless Totem">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem/Earth Dragon"/>
-      <property name="Rules" value="Your opponent can't use the &quot;Shield Trigger&quot; of shields this creature breaks."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Your opponent can't use the &quot;shield trigger&quot; of shields this creature breaks."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Peach Princess, Fearless Faerie" id="03460d4f-a9b1-4d75-b2b0-b87806bb941d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="03460d4f-a9b1-4d75-b2b0-b87806bb941d" name="Peach Princess, Fearless Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies/Snow Faerie"/>
-      <property name="Rules" value="You may reduce the summoning cost of the 2nd creature summoned during your turn by as much as 2. It can't cost less than 1."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ During your turn, the second creature you summon may cost up to 2 less to summon. It can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Faerie Miracle" id="f61b6eaa-003a-446d-ba7a-112cf65be6ca">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f61b6eaa-003a-446d-ba7a-112cf65be6ca" name="Faerie Miracle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put the top card of your deck into your mana zone.&#xD;&#xA;If you have all of the civilizations in your mana zone, put 1 more card from the top of your deck into your mana zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone.&#xA;■ If you have all civilizations in your mana zone, put another card from the top of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55 (Catino Card)"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Valcha, the Guardian Spirit Knight" id="35af9f49-e3cd-437d-b779-b51cd5d3129a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="35af9f49-e3cd-437d-b779-b51cd5d3129a" name="Valcha, the Guardian Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Saint Head"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Overdrive Water x1 + Darkness x1 + Fire x1 (When this creature is summoned, you may tap an additional 1 Water, 1 Darkness, and 1 Fire card in your mana zone. If you do, this creature gains the following [OD] ability).&#xD;&#xA;[OD]: When this creature is put into the battle zone, put the top card of your deck into your mana zone, and you may return 1 card from your mana zone to your hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Over Drive—Water x1 Darkness x1 Fire x1 (When you summon this creature, you may tap another 1 water, 1 darkness and 1 fire card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creature into the battle zone, put the top card of your deck into your mana zone and you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
-    <card name="Five Dimensional Rhodolite" id="8d7579db-28c3-4f01-8ddd-25a0702a7ab2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8d7579db-28c3-4f01-8ddd-25a0702a7ab2" name="Five Dimensional Rhodolite">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="12000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-27 Perfect Heaven"/>
+    </card>
+    <card id="95ec6a25-f5aa-4682-9ec5-c2c2b06a4960" name="Emperor Marco">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Lords.&#xA;■ When you put this creature into the battle zone, you may draw 3 cards.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-27 Perfect Heaven"/>
+    </card>
+    <card id="02355554-4154-4e90-b5f4-439a73ea2616" name="Bolpheus Heaven, Super Holy Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on 2 of your Angel Commands and/or Armored Dragons.&#xA;■ When you put this creature into the battle zone, you may cast a light or fire spell in your hand for no cost.&#xA;■ Whenever this creature attacks, you may put one of your shields into your graveyard. If you do, destroy any number of your opponent's creatures that have total power 6000 or less.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-27 Perfect Heaven"/>
+    </card>
+    <card id="cebd7488-cd36-40d7-8edf-8991a1faa04f" name="Zero Phoenix, Phoenix of Darkness">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves the battle zone, your opponent discards 2 cards from their hand. Then you may choose 2 cards in your opponent's mana zone and put them into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-27 Perfect Heaven"/>
+    </card>
+    <card id="6e7e2192-22d1-46dc-b9e1-2ff0e22bfcb8" name="Miracle Rumba">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="World Bird"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your opponent's creatures attacks you, your opponent may tap a number of cards in their mana zone equal to the number of civilizations not in their mana zone. If he doesn't, stop the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-27 Perfect Heaven"/>
+    </card>
+    <card id="c2a212ff-22ee-4d17-b7fc-cf8c90c2afe9" name="Perfect Earth, Planetary Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="World Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each card put into your hand from your shield zone gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-27 Perfect Heaven"/>
     </card>
   </cards>

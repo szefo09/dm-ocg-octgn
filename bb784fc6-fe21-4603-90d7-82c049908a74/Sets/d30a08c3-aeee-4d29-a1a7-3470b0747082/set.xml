@@ -20,724 +20,812 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Gabriella, Holy Princess" id="6860cb52-14a1-47ac-90b9-b58f5e800253">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/Mecha Del Sol"/>
-      <property name="Rules" value="Gravity Zero: If you have no shields and no other [Gabriella, HolyPrincess] in your battle zone you may summon this creature withoutcost.&#xD;&#xA;Double Breaker&#xD;&#xA;When your opponent would win the game by attacking with one of theircreatures, you may destroy this creature.  If you do, your opponentdoesn't win the game, and your opponent's creatures can't attack thisturn.  At the end of your next turn you lose the game."/>
-      <property name="Power" value="7000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-30 Ultra Duel"/>
-    </card>
-    <card name="Change the World, Blue Divine Dragon" id="2de7278e-3f93-460d-83c9-1c1126a1842e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="When you put this creature into the battle zone, discard your hand.Then put all of your shields into your hand.  (You can't use ShieldTrigger.)  Then for each card you discarded, put the top card of yourdeck into your shield zone face down.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-30 Ultra Duel"/>
-    </card>
-    <card name="Supernova DEATH Dragerion" id="510460f8-cfdc-49ea-a642-80797b312b2f">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Zombie Dragon/Phoenix"/>
-      <property name="Rules" value="Mana Galaxy Vortex Evolution: Choose 3 darkness creatures in your mana zone andput this creature into the battle zone on top of those creatures.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put up to 3 cards under this creature into your graveyard. If you do, until the end of this turn all creatures in the battle zone, get -3000 power for each card you put in the graveyard in this way.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-30 Ultra Duel"/>
-    </card>
-    <card name="Balzark, Sword Flash Fortress" id="61db1ba8-0d54-4e41-9cb0-60fd6a41bd1c">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard.  (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All of your creatures break twice as many shields.&#xD;&#xA;If the fortified shield isn't fortified by any other fortresses,whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead."/>
-      <property name="Power" value="0"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-30 Ultra Duel"/>
-    </card>
-    <card name="Halsa, the Great Enigma" id="036c8805-71d5-4903-8f44-3c9b41be2cfa">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="Evolution: Put on one of your Samurai creatures.&#xD;&#xA;Samurai Generation (When you put this creature into the battle zone, you may generate a cross gear from your hand without paying its cost.)&#xD;&#xA;Accelerator (While this creature is crossed with a cross gear, this creature gains the following [Accelerator]  ability.)&#xD;&#xA;[Accelerator] : When this creature attacks, you may choose 1 of your opponent's creatures and put it in their mana zone.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-30 Ultra Duel"/>
-    </card>
-    <card name="Silver Glory, Invincible Fortress" id="c0dc6243-934b-4812-a16e-062fa4a1d432">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c0dc6243-934b-4812-a16e-062fa4a1d432" name="Silver Glory, Invincible Fortress">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Your creatures win all battles.&#xD;&#xA;If the fortified shield isn't fortified by any other Fortresses, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Your creatures win all battles.&#xA;■ If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your opponent's creatures, you may return one of your other shields to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Ice Lance - Paladin Spear" id="154fb46f-e705-4778-97d7-640012a996a2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="154fb46f-e705-4778-97d7-640012a996a2" name="Ice Lance - Paladin Spear">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;When the crossed creature attacks, return all creatures in the battle zone that have &quot;blocker&quot; to their owners' hands."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ Whenever the crossed creature attacks, return all creatures in the battle zone that have &quot;blocker&quot; to their owners' hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Zarfeld the 2nd, Dark Knight" id="04eb9157-906d-4c41-8244-f121c4bf4807">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="04eb9157-906d-4c41-8244-f121c4bf4807" name="Zarfeld the 2nd, Dark Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Parasite Worm/Knight"/>
-      <property name="Rules" value="Evolution: Put on one of your Knight creatures.&#xD;&#xA;Whenever you cast a spell during your turn, you may cast a spell with a lower cost than that spell without cost.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Knight creatures.&#xA;■ Whenever you cast a spell during your turn, choose a spell in your hand that costs less than that spell and you may cast the chosen spell for no cost.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Valkyrias Musashi, Ultimate Battle Dragon" id="76165e10-eb80-45e5-a2ea-aa6526384aa8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="76165e10-eb80-45e5-a2ea-aa6526384aa8" name="Valkyrias Musashi, Ultimate Battle Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon/Human/Samurai"/>
-      <property name="Rules" value="Vortex Evolution - Put on 2 of your Samurai creatures.&#xD;&#xA;When you put this creature into the battle zone, you may put up to 2 non-evolution Samurai creatures into the battle zone from your hand.  Those creatures get &quot;Speed Attacker&quot;.  At the end of the turn, destroy those creatures.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Samurai.&#xA;■ When you put this creature into the battle zone, you may put up to 2 non-evolution Samurai creatures from your hand into the battle zone. Those creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Terradragon Bagnaborne" id="439b402f-25f0-4776-b60b-e864aa68e821">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="439b402f-25f0-4776-b60b-e864aa68e821" name="Terradragon Bagnaborne">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When this creature attacks, you may put a creature with a power of 3000 or less from your mana zone into the battle zone.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a creature that has power 3000 or less from your mana zone into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Shabada Badou, JK Holy Nova" id="5514e33b-d5cf-49c7-acd0-36ed5f42557b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5514e33b-d5cf-49c7-acd0-36ed5f42557b" name="Shabada Badou, JK Holy Nova">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Galaxy Vortex Evolution: Put on 3 of your creatures.&#xD;&#xA;At the start of your turn, play rock-paper-scissors with youropponent until you lose. If you win 5 or more straight times, search your deck. You may put any number of non-evolution creatures from your deck into your battle zone. Then, you may put any number of cards into your hand from your deck. Then, shuffle your deck.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your creatures.&#xA;■ At the start of your turn, play Rock-Paper-Scissors with your opponent until you lose. If you win 5 or more times consecutively, search your deck. You may take any number of non-evolution creatures from your deck and put them into the battle zone. Then you may put any number of cards from your deck into your hand. Then shuffle your deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Elizabeth, Thunder Dragon Princess" id="aa533105-81cd-4450-9157-e793788e1e29">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="aa533105-81cd-4450-9157-e793788e1e29" name="Elizabeth, Thunder Dragon Princess">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon/Mecha Del Sol/Knight"/>
-      <property name="Rules" value="All spells returned from the shield zone to your hand gain &quot;Shield Trigger&quot;."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ All spells put into your hand from your shield zone get &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Pure Thunder, Spirit Beast" id="f1ceae61-a609-470e-971d-fda2a043d1ba">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f1ceae61-a609-470e-971d-fda2a043d1ba" name="Pure Thunder, Spirit Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shine Monster/Samurai"/>
-      <property name="Rules" value="When you put this creature into your battle zone, reveal the top 5 cards of your deck. Put 1 cross gear from the revealed cards into the battle zone, and put the rest on the bottom of your deck in any order."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, reveal the top 5 cards of your deck. Put a cross gear from among them into the battle zone, and the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Emperor Kinta, Battle Artiste" id="1ff6cab7-4586-4645-abf0-2031b9d14fff">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1ff6cab7-4586-4645-abf0-2031b9d14fff" name="Emperor Kinta, Battle Artiste">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Lord/Samurai"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Samurai creatures.&#xD;&#xA;Whenever your opponent casts a spell you may untap this creature.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Samurai.&#xA;■ Whenever your opponent casts a spell you may untap this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Cherenko" id="134944ee-a764-4c21-80d5-f47c047ad6ce">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="134944ee-a764-4c21-80d5-f47c047ad6ce" name="Cherenko">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Shield Plus: When you put this creature into the battle zone, you may put the top card of your deck face down under 1 of your shields. (Each card stack is still considered to be 1 shield.)&#xD;&#xA;When you use this creature's &quot;Shield Plus&quot; ability look at that shield and put 1 card from that stack on top of your deck."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD PLUS} When you put this creature into the battle zone, you may add the top card of your deck under one of your shields face down. (Each card stack is still considered to be one shield.))&#xA;■ When you use this creature's &quot;Shield Plus&quot; ability, look at that shield and put a card from that stack on the top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Xanatic X" id="ffaf5a71-03da-4e18-b182-8e877be0011a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ffaf5a71-03da-4e18-b182-8e877be0011a" name="Xanatic X">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose 2 creatures in the battle zone and tap them. Those creatures battle."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose 2 creatures in the battle zone and tap them. Those creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Black Shadow, Darkfang Ninja" id="39660056-c1f3-44b1-9097-f525b88fdac3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="39660056-c1f3-44b1-9097-f525b88fdac3" name="Black Shadow, Darkfang Ninja">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 4 (Whenever your opponent attacks or blocks, if you have 4 or more cards in your mana zone and you haven't used a Ninja Strikeability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, your opponent must choose 1 card from their hand and discard it."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{NINJA STRIKE} 4 (Whenever one of your opponent's creatures attacks or blocks, if you have 4 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, your opponent chooses a card in their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Chain of Grief" id="f23b943f-66a6-442d-9dec-6003e16b4e3c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f23b943f-66a6-442d-9dec-6003e16b4e3c" name="Chain of Grief">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy 1 of your opponent's creatures that has the same name as a card in their graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has the same name as a card in their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Shadow Warrior - Soul Bringer" id="40e1b1ba-b349-4a2d-bde4-3ba8dff5d1ee">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="40e1b1ba-b349-4a2d-bde4-3ba8dff5d1ee" name="Shadow Warrior - Soul Bringer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +2000 power.&#xD;&#xA;Whenever the crossed creature would be destroyed, you may destroy 1 of your other creatures instead."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +2000 power.&#xA;■ Whenever the crossed creature would be destroyed, you may destroy one of your other creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Balzark &quot;Fire Blast&quot; Dragon" id="17b331a1-de0f-4d85-bd83-ef1142139b9d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="17b331a1-de0f-4d85-bd83-ef1142139b9d" name="Balzark &quot;Fire Blast&quot; Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Samurai"/>
-      <property name="Rules" value="Shield Saver (Whenever one of your shields would be broken, you maydestroy this creature instead.)&#xD;&#xA;Power Attacker +2000&#xD;&#xA;When this creature is destroyed, choose any number of your opponent's creatures with a total power of 4000 power or less and destroy them."/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)&#xA;■ Power attacker +2000&#xA;■ When this creature is destroyed, choose any number of your opponent's creatures that have total power 4000 power or less and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Balrun Shizou" id="79ce6dc0-3751-47a8-9ef4-c985c05547d3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="79ce6dc0-3751-47a8-9ef4-c985c05547d3" name="Balrun Shizou">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Samurai"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {Tap} ability.)&#xD;&#xA;{Tap}: Destroy this creature.  Then, search your deck for 1[Bolbalzak &quot;Sword Flash&quot; Dragon] and put it into the battle zone.  Then, shuffle your deck."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy this creature. Then search your deck for a Bolbalzak &quot;Sword Flash&quot; Dragon and put it into the battle zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Softknuckle Dragoon" id="f0988e1d-485b-4e1f-aca7-b09e446e289b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f0988e1d-485b-4e1f-aca7-b09e446e289b" name="Softknuckle Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature is attacked by your opponent's creatures, destroy this creature."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature is attacked by your opponent's creatures, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Pony Nature, Forest Beast Fairy" id="15025e26-a342-45aa-beaf-b14e095f1636">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="15025e26-a342-45aa-beaf-b14e095f1636" name="Pony Nature, Forest Beast Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie/Emerald Monster"/>
-      <property name="Rules" value="When you put this creature into the battle zone, your opponent chooses 1 non-Fortress card in your shield zone. Look at that card and if it is a non-evolution creature you may put it into the battle zone.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses a non-castle card in your shield zone. Look at that card and if it's a non-evolution creature, you may put it into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="No Dandy Leekio" id="0bcd971e-831a-44e9-9a74-3c0958bbe340">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0bcd971e-831a-44e9-9a74-3c0958bbe340" name="No Dandy Leekio">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may put 1 card from your mana zone on top of your deck. If you do, you may put 1 card in your graveyard into your mana zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put a card from your mana zone on top of your deck. If you do, you may put a card from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Hustle Castle" id="c0855591-72f3-440c-b450-7516654a54ce">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c0855591-72f3-440c-b450-7516654a54ce" name="Hustle Castle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Whenever you put a creature into the battle zone, you may draw a card.&#xD;&#xA;If the fortified shield isn't fortified by any other Fortresses, whenever the fortified shield would be broken by your  opponent's creatures, you may return 1 of your other shields to your hand instead."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever you put a creature into the battle zone, you may draw a card.&#xA;■ If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your opponent's creatures, you may return one of your other shields to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Sir Navaal, Thunder Mecha Knight" id="355e3a7e-98c2-4405-b834-ecb2edfdbb08">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="355e3a7e-98c2-4405-b834-ecb2edfdbb08" name="Sir Navaal, Thunder Mecha Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero/Knight"/>
-      <property name="Rules" value="When you put this creature into the battle zone, you may return 1 spell from your mana zone to your hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Raiden, Lightfang Ninja" id="3a319bdb-a2b4-4e50-91af-98234d96ff22">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3a319bdb-a2b4-4e50-91af-98234d96ff22" name="Raiden, Lightfang Ninja">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 1 (Whenever your opponent attacks or blocks, if you have 1 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, choose 1 of your opponent's creatures and tap it."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Saint Castle" id="f58e3e65-9845-4e18-94eb-d986465b6de5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f58e3e65-9845-4e18-94eb-d986465b6de5" name="Saint Castle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All of your creatures get +1000 power and&quot;Blocker&quot;."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Each of your creatures in the battle zone gets +1000 power and&quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Deepsea Mammoth" id="b12e76b9-3cc1-45b3-bdb1-22e80eb1256b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b12e76b9-3cc1-45b3-bdb1-22e80eb1256b" name="Deepsea Mammoth">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Blue Monster"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Force Reloaded" id="6db2d3f4-e83c-4ae7-bc79-cd6fcc0b4e8b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6db2d3f4-e83c-4ae7-bc79-cd6fcc0b4e8b" name="Force Reloaded">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Return 1 of your creatures with &quot;Shield Force&quot; in the battle zone to your hand.  Then, you may put that creature into the battle zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Return one of your creatures in the battle zone that has &quot;Shield Force&quot; to your hand. Then you may put that creature into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Submarine Fortress Lair" id="805efad8-dbc2-425a-96a1-11fa5be76719">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="805efad8-dbc2-425a-96a1-11fa5be76719" name="Submarine Fortress Lair">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortifythat shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Your opponent may draw a card at the start of your turn.  Then, you may draw a card.  Also, if you have a Cyber Lord in your battle zone you may draw a card, then put a card from your hand on the bottom of your deck."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ At the start of your turn, your opponent may draw a card. Then you may draw a card. Then if you have a Cyber Lord, you may draw a card and put a card from your hand on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Death Romanov the 5th, Demonic Eye General" id="32224edf-510e-41e2-9e4d-46655ab4f7aa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="32224edf-510e-41e2-9e4d-46655ab4f7aa" name="Death Romanov the 5th, Demonic Eye General">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon/Dark Lord/Knight"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put any number of darkness creatures from your hand into your mana zone. Then, return a spell from your mana zone to your hand for each creature you put in your mana zone. You may cast 1 of the returned spells that has &quot;Knight Magic&quot; without cost.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put any number of darkness creatures from your hand into your mana zone. Then return a spell from your mana zone to your hand for each creature you put in your mana zone. You may cast one of the returned spells that has &quot;Knight Magic&quot; for no cost.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Dark Sanji, Darkfang Ninja" id="c647f91f-33f3-4d23-bd38-589521db887f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c647f91f-33f3-4d23-bd38-589521db887f" name="Dark Sanji, Darkfang Ninja">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Monster/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 4 (Whenever your opponent attacks or blocks, if you have 4 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When you put this creature into the battle zone, choose 1 of your opponent's creatures.  That creature gets -2000 power until the end of the turn."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{NINJA STRIKE} 4 (Whenever one of your opponent's creatures attacks or blocks, if you have 4 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Rose Castle" id="1f2d0943-4cc8-493f-95b4-effc7f5cb801">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1f2d0943-4cc8-493f-95b4-effc7f5cb801" name="Rose Castle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All of your opponent's creatures get -1000 power."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Each of your opponent's creatures in the battle zone gets -1000 power. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Crow Todoroki, Relentless Swordsman" id="956f8656-48eb-4423-90e3-eeb3305f627b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="956f8656-48eb-4423-90e3-eeb3305f627b" name="Crow Todoroki, Relentless Swordsman">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Human/Samurai"/>
-      <property name="Rules" value="Evolution: Put on one of your Samurai creatures.&#xD;&#xA;While this creature is tapped, all of your crossed creatures break an additional shield."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Samurai creatures.&#xA;■ While this creature is tapped, all your crossed creatures break an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Jack Raidou, Battle Dragon" id="28c84de7-5a48-4fb8-bb72-c5623a23a563">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="28c84de7-5a48-4fb8-bb72-c5623a23a563" name="Jack Raidou, Battle Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Tyranno Drake/Samurai"/>
-      <property name="Rules" value="When you put this creature into the battle zone, search your deck.  You may choose an evolution creature that shares a race with this creature and put it into your hand.  Then, shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take an evolution creature that has the same race as this creature from your deck, show that evolution creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Super Shachihoko Castle" id="6db9e164-8b86-4466-9c54-88535b7f8c96">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6db9e164-8b86-4466-9c54-88535b7f8c96" name="Super Shachihoko Castle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Whenever one of your opponent's creatures attacks, destroy all creatures with 2000 power or less."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever an opponent's creature attacks, destroy all creatures that have power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Ganbarat, Martial Artist of the Forest" id="38860409-e98f-447e-b89a-8f356d0dffba">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="38860409-e98f-447e-b89a-8f356d0dffba" name="Ganbarat, Martial Artist of the Forest">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="This creature can't attack unless you have won a battle this turn."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can only attack after one of your creatures has won a battle this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Flash Gear - Lightning Helmet" id="2768df74-224e-4a16-ab85-ac56cafafa99">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2768df74-224e-4a16-ab85-ac56cafafa99" name="Flash Gear - Lightning Helmet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Samurai"/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;The crossed creature gets +3000 power.&#xD;&#xA;When a cross gear is crossed with a Samurai creature you may put this card into the battle zone from your mana zone.  If you do, you may cross this card with a Samurai creature without cost."/>
-      <property name="Power" value="0"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +3000 power.&#xA;■ When a cross gear is crossed with a Samurai creature you may put this card from your mana zone into the battle zone. If you do, you may cross this card with a Samurai creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Dalmandy, Snow Fortress" id="20f153f7-7ad5-45f9-9928-8bd657df3178">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="20f153f7-7ad5-45f9-9928-8bd657df3178" name="Dalmandy, Snow Fortress">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;All of your creatures get +3000 power."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Each of your creatures in the battle zone gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Brunhilde, Ghost Knight" id="930811dc-f2e2-4c66-94dd-86e905add31d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="930811dc-f2e2-4c66-94dd-86e905add31d" name="Brunhilde, Ghost Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Rainbow Phantom/Knight"/>
-      <property name="Rules" value="Evolution: Put on one of your Knight creatures.&#xD;&#xA;Whenever you cast a spell, you may choose 1 of your opponent's creatures and tap it."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Knight creatures.&#xA;■ Whenever you cast a spell, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Reesa, Infinity Elemental" id="673d45f8-3409-4435-92fa-087d17174008">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="673d45f8-3409-4435-92fa-087d17174008" name="Reesa, Infinity Elemental">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;Whenever this creature wins a battle, untap it."/>
       <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature wins a battle, you may untap this creature after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Lord Silver, Thunder Mecha King" id="e578c108-6d8e-4ded-80b8-7ef662853414">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e578c108-6d8e-4ded-80b8-7ef662853414" name="Lord Silver, Thunder Mecha King">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Knight"/>
-      <property name="Rules" value="Shield Saver (Whenever one of your shields would be broken, you may destroy this creature instead.)"/>
       <property name="Power" value="1500"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Spark Sunshine" id="bee640ba-5d2f-4cb1-bcdb-0316ad43db49">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bee640ba-5d2f-4cb1-bcdb-0316ad43db49" name="Spark Sunshine">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Tap all creatures in the battle zone with a cost of 3 or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Tap all creatures in the battle zone that cost 3 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Lord Fuuma Guliermo, Ice Fang" id="8dcdfb97-1624-4994-b09c-b5700b5f7148">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8dcdfb97-1624-4994-b09c-b5700b5f7148" name="Lord Fuuma Guliermo, Ice Fang">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil/Knight"/>
-      <property name="Rules" value="When this creature would be destroyed, you may discard a spell from your hand instead."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, you may discard a spell from your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Aqua Anchor" id="6df8fd75-d3b6-4f17-95d7-478969c2c4b2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6df8fd75-d3b6-4f17-95d7-478969c2c4b2" name="Aqua Anchor">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="Whenever one of your opponent's creatures attacks you may draw a card.  If you do, discard a card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may draw a card. If you do, discard a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Kaidou Crawler of the Hidden Blade" id="f93778f5-5387-45d0-9bd2-60f2ce452fbb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f93778f5-5387-45d0-9bd2-60f2ce452fbb" name="Kaidou Crawler of the Hidden Blade">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;Shield Saver (Whenever one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Race" value="Earth Eater/Shinobi"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Medetine, New Year Electro-knight" id="3125f921-6547-41a0-87bb-8c43d786eaea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3125f921-6547-41a0-87bb-8c43d786eaea" name="Medetine, New Year Electro-knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Sir Virginia, Mystic Light Insect" id="5ca4b891-723b-40e9-8783-eafdf8a6b94b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5ca4b891-723b-40e9-8783-eafdf8a6b94b" name="Sir Virginia, Mystic Light Insect">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm/Knight"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return 1 creature from your graveyard to your hand.  If that creature is an evolution creature that shares a race with this creature you may put it into the battle zone without cost."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, return a creature from your graveyard to your hand. If that creature is an evolution creature that has the same race as this creature, you may put that creature into the battle zone for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Rose Avacoom, Prince of the Demonic Eye" id="ddde86bb-c536-4f2a-b868-f829b5136c74">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ddde86bb-c536-4f2a-b868-f829b5136c74" name="Rose Avacoom, Prince of the Demonic Eye">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord/Knight"/>
-      <property name="Rules" value="Shield Saver (Whenever one of your shields would be broken, you may destroy this creature instead.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Kodamanma, All-Devouring Doll" id="0da804ea-69ea-4531-bef0-e4de5c96e1d8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0da804ea-69ea-4531-bef0-e4de5c96e1d8" name="Kodamanma, All-Devouring Doll">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="When you put this creature into the battle zone, return 1 of your shields to your hand. You can't use the &quot;Shield Trigger&quot; of that shield."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Drum Treble, of the Mystic Light" id="c4235746-ac96-404e-b4c0-d50cc2d50fa7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c4235746-ac96-404e-b4c0-d50cc2d50fa7" name="Drum Treble, of the Mystic Light">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gargoyle/Knight"/>
-      <property name="Rules" value="You may reduce the cost of &quot;Knight Magic&quot; spells you cast by 1. They can't cost less than 1."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Your &quot;Knight Magic&quot; spells cost 1 less to cast. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Magma Chopster" id="c6174e74-dd91-44d9-a4a7-037f024c9a26">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c6174e74-dd91-44d9-a4a7-037f024c9a26" name="Magma Chopster">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Big Muscle"/>
-      <property name="Rules" value="When you put this creature into the battle zone, 1 of your creatures gets &quot;Power Attacker +3000&quot; until the end of the turn."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, this turn, one of your creatures in the battle zone gets &quot;Power attacker +3000&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Izayoi, Raging Crimson Lord" id="a9f5af3d-c5db-4e22-ad60-f06f1b6e0dea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a9f5af3d-c5db-4e22-ad60-f06f1b6e0dea" name="Izayoi, Raging Crimson Lord">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster/Samurai"/>
-      <property name="Rules" value="When this creature is destroyed, search your deck. Choose 1 cross gear from it and put it into the battle zone. Then, shuffle your deck."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature is destroyed, search your deck. You may take a cross gear from it and put it into the battle zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Phantom Beast Flame Dance" id="65bbab67-eea3-4b3f-b7d6-8fbcee8c2e86">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="65bbab67-eea3-4b3f-b7d6-8fbcee8c2e86" name="Phantom Beast Flame Dance">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Whenever your creatures are blocked this turn, that creature gets +4000 power until the end of the turn."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Whenever your creatures are blocked this turn, that creature gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Magic Shot - Explosive Strike" id="56786621-3b55-4338-a55e-885e01d110f1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="56786621-3b55-4338-a55e-885e01d110f1" name="Magic Shot - Explosive Strike">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="[Knight Magic] : One of your creatures in the battle zone gets +3000 power and &quot;Double Breaker&quot; until the end of the turn.&#xD;&#xA;Knight Magic (If there is a Knight in your battle zone, you may use this spell's [Knight Magic]  ability once more.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;One of your creatures in the battle zone gets +3000 power and &quot;double breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Senpoon, Invoked by the Hidden Earth" id="9a1f7b57-0006-47c0-9176-541630c1e9b9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9a1f7b57-0006-47c0-9176-541630c1e9b9" name="Senpoon, Invoked by the Hidden Earth">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wonder Trick/Shinobi"/>
-      <property name="Rules" value="Ninja Strike 5 (Whenever your opponent attacks or blocks, if you have 5 or more cards in your mana zone and you haven't used a Ninja Strike ability this attack, you may summon this Shinobi without cost. At the end of the turn you used this ability put this Shinobi on the bottom of your deck.)&#xD;&#xA;When this creature is put into the battle zone, 1 of your creatures in the battle zone gets +5000 power until the end of the turn."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{NINJA STRIKE} 5 (Whenever one of your opponent's creatures attacks or blocks, if you have 5 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature into the battle zone, one of your creatures in the battle zone gets +5000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Bucket Bucket, Chopping Snow Faerie" id="5ce0cb1c-771f-4afc-b0cc-03057cc605bb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5ce0cb1c-771f-4afc-b0cc-03057cc605bb" name="Bucket Bucket, Chopping Snow Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie/Samurai"/>
-      <property name="Rules" value="Shield Saver (Whenever one of your shields would be broken, you may destroy this creature instead.)&#xD;&#xA;When this creature is destroyed, choose 1 of your opponent's creatures and put it into their mana zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)&#xA;■ When this creature is destroyed, choose one of your opponent's creatures in the battle zone and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Hijikata Giant" id="e84a9bce-515d-47a8-a4cc-a12ec8f8fc85">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e84a9bce-515d-47a8-a4cc-a12ec8f8fc85" name="Hijikata Giant">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="If this creature isn't crossed with a cross gear, it can't attack players."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't attack players unless it's crossed with a cross gear."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
-    <card name="Rondo of the Beasts" id="2f1698fb-3bac-4ae1-a9b4-cc25adef7c31">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2f1698fb-3bac-4ae1-a9b4-cc25adef7c31" name="Rondo of the Beasts">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="One of your creatures gets +2000 power until the end of the turn.  When that creature wins its first battle this turn, you may untap it."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ One of your creatures in the battle zone gets +2000 power until the end of the turn. When that creature wins its first battle this turn, you may untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-30 Ultra Duel"/>
+    </card>
+    <card id="6860cb52-14a1-47ac-90b9-b58f5e800253" name="Gabriella, Holy Princess">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Mecha Del Sol"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have no shields and no other 'Gabriella, Holy Princess' in the battle zone, you may summon this creature for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When your opponent would win the game by attacking with one of their creatures, you may destroy this creature instead. If you do, your opponent doesn't win the game, and your opponent's creatures can't attack this turn. At the end of your next turn, you lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-30 Ultra Duel"/>
+    </card>
+    <card id="2de7278e-3f93-460d-83c9-1c1126a1842e" name="Change the World, Blue Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Poseidia Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, discard your hand, then put all your shields into your hand. (You can't use the &quot;shield trigger&quot; abilities of those shields.) Then for each card you discarded, put the top card of your deck to your shields face down.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-30 Ultra Duel"/>
+    </card>
+    <card id="510460f8-cfdc-49ea-a642-80797b312b2f" name="Supernova DEATH Dragerion">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Zombie Dragon/Phoenix"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Mana Galaxy Vortex evolution—Choose 3 darkness creatures in your mana zone and put this creature into the battle zone on top of those creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may put up to 3 cards under this creature into your graveyard. If you do, all creatures in the battle zone get -3000 power for each card put into your graveyard in this way until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-30 Ultra Duel"/>
+    </card>
+    <card id="61db1ba8-0d54-4e41-9cb0-60fd6a41bd1c" name="Balzark, Sword Flash Fortress">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ All your creatures in the battle zone break twice as many shields.&#xA;■ If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your opponent's creatures, you may return one of your other shields to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-30 Ultra Duel"/>
+    </card>
+    <card id="036c8805-71d5-4903-8f44-3c9b41be2cfa" name="Halsa, the Great Enigma">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant/Samurai"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Samurai.&#xA;{SAMURAI GENERATION} (When you put this creature, you may generate a cross gear from your hand for no cost.)&#xA;{ACCELERATOR} (While this creature is crossed with a cross gear, this creature gets the following Accelerator ability.)&#xA;Whenever this creature attacks, you may choose one of your opponent's creatures in the battle zone and put it into its owner's mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-30 Ultra Duel"/>
     </card>
   </cards>

@@ -20,724 +20,820 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Elsar Baltis, Holy Emperor" id="b7e9a70c-023c-4f82-9781-18a2ae14596f">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;Evolution - Arc Seraphim.&#xD;&#xA;Double Breaker&#xD;&#xA;When your opponent uses the &quot;Shield Trigger&quot; ability, search your deck for a Spell card with &quot;Shield Trigger&quot;.  Shuffle your deck.  Then, you may cast that spell without paying its cost."/>
-      <property name="Power" value="7000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Omegablack Z, Invincible Giant" id="171881ed-89cc-438e-a5fb-370bfb24a028">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Evolution - Put on one of your Great Mecha King.&#xD;&#xA;When this creature attacks, you may reveal the top 4 cards from your deck.  You may add a Great Mecha King or a Machine Hero to your hand, and put the rest on the bottom of the deck in any order.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="7000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Dolzabard, Superior Dragonic Phoenix" id="aa265030-3f6f-4ecf-beeb-a689aea0ad8d">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Evolution - Tyranno Drake.&#xD;&#xA;[Fort Energy: Brave Spirit] During this turn, your opponent can't use the &quot;Shield Trigger&quot; ability on Shields broken by this creature.&#xD;&#xA;[Fort Energy: Tyranno Drake] This creature breaks an opponent's shield.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Supernova Lyra Bolstorm" id="79061bc1-aaec-4073-9e54-ab0801175e4d">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution GV - Zombie Dragon, Armored Dragon, and/or Earth Dragon.&#xD;&#xA;Meteorburn - When this creature attacks, you may send a creature under this card to the Graveyard. If so, put a non-Evolution 'Dragon' from your hand into play, destroy an opponent's creature with power 5000 or less, and send a card from your opponent's Mana Zone into the Graveyard.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="18000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Draghurricane Energy" id="bec51e93-0cca-4dd5-ae78-d9d13dc0679e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Dragon] Search your deck, for each 'Dragon' creature in the battlezone tapped when this spell is cast, choose a creature with the same name and put it into the Battle Zone. Shuffle your deck."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Strongarm Mecha Kunckle Fist" id="c2d243e7-3ad2-4c41-b380-d46241d12112">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c2d243e7-3ad2-4c41-b380-d46241d12112" name="Strongarm Mecha Knuckle Fist">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When a Machine Hero or Great Mecha King you control is destroyed, untap all of your creatures in the Battle Zone.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Whenever one of your Machine Hero or Great Mecha King is destroyed, untap all your creatures in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Commander Technobuster" id="4e0995a1-c21d-4cf0-b03c-6ce6f4be233f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4e0995a1-c21d-4cf0-b03c-6ce6f4be233f" name="Commander Technobuster">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero"/>
-      <property name="Rules" value="When an opponent draws a card, you may draw the same amount of cards.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever your opponent would draw a card, you may draw the same number of cards.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Rabiol, Forgetting Doll" id="e82e5102-658d-4392-9600-7b8919b9a36b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e82e5102-658d-4392-9600-7b8919b9a36b" name="Rabiol, Forgetting Doll">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="Fort Energy: Death Puppet (When this creature is put into the Battle Zone, if a Death Puppet is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xD;&#xA;[Fort Energy] : Each player discards their hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Fort Energy: Death Puppet (When you put this creature, if you tapped a Death Puppet in your mana zone to summon this creature, use this creature's {FORT ENERGY}ability.):&#xA;{FORT ENERGY}Each player discards their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Comet Musashi" id="5d3a83c8-fc24-4f58-a84c-391d8893a8d8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5d3a83c8-fc24-4f58-a84c-391d8893a8d8" name="Comet Musashi">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="When this creature is tapped, your opponent's creature must attack if able.&#xD;&#xA;When your opponent's creature attacks, destroy any creature with power of 3000 or less."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ While this creature is tapped, each of your opponent's creatures attack if able.&#xA;■ Whenever an opponent's creature attacks, destroy that creature if it has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Victory Apple" id="1393f896-44c3-4a8e-b9b6-5e5f6a1c1b93">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1393f896-44c3-4a8e-b9b6-5e5f6a1c1b93" name="Victory Apple">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="[Fort Energy: Wild Veggies] You may choose a creature from your Graveyard and put it into your Mana Zone.&#xD;&#xA;[Fort Energy: Dragon] You can return a creature from your Mana Zone to your hand."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{FORT ENERGY}(Wild Veggies) (When you put this creature into the battle zone, if a Wild Veggies in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;You may choose a creature from your graveyard and put it into your mana zone.&#xA;■ Fort Energy—Dragon:&#xA;{FORT ENERGY}You may return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Invincible Mecha Gomach V" id="ca582078-465a-46ec-bf5d-e6466f30e310">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ca582078-465a-46ec-bf5d-e6466f30e310" name="Invincible Mecha Gomach V">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Evolution - Great Mecha King.&#xD;&#xA;[Fort Energy: Machine Hero] Tap an opponent's creature in the Battle Zone with power 3000 or less.&#xD;&#xA;[Fort Energy: Great Mecha King] Tap an opponent's creature in the Battle Zone with power 4000 or more."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Great Mecha King.&#xA;{FORT ENERGY}(Machine Hero) (When you put this creature into the battle zone, if a Machine Hero in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Choose one of your opponent's creatures that has power 3000 or less and tap it.&#xA;■ Fort Energy—Great Mecha King:&#xA;{FORT ENERGY}Choose one of your opponent's creatures that has power 4000 or more and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Balmagan, Machine Gun Shooter" id="96af2371-4739-47a2-a868-f6cbf43ffec3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="96af2371-4739-47a2-a868-f6cbf43ffec3" name="Balmagan, Machine Gun Shooter">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Dynamo"/>
-      <property name="Rules" value="[Dynamo]&#xD;&#xA;When this creature attacks, choose an opponent's creature in the Battle Zone and tap it. (First you choose which creature to attack, and then you choose which creature to tap.)"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{DYNAMO} (At the beginning of a battle, or whenever this creature can attack, you may tap this creature. If you do, add this creature's power and abilities to one of your other Dynamos in the battle zone until the end of the turn.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures in the battle zone and tap it. (First you choose which creature to attack, and then you choose which creature to tap.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Slowly Chain" id="a583f10c-5cd0-437d-a2e5-46450b335650">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a583f10c-5cd0-437d-a2e5-46450b335650" name="Slowly Chain">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;During this turn, creatures cannot attack.&#xD;&#xA;Add this spell face-down to your Shields.  Choose one of your Shields and send it to the Graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;&#x9;&#xA;■ Creatures can't attack this turn.&#xA;■ Shieldify this spell. Then put one of your shields into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Astimart, Lord of Devils" id="1bbf8052-a548-4d4a-9b05-132f4d82573d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1bbf8052-a548-4d4a-9b05-132f4d82573d" name="Astimart, Lord of Devils">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Evolution - Grand Devil.&#xD;&#xA;[Fort Energy: Deep Marine] Choose a creature in the Battle Zone and return it to owner's hand.&#xD;&#xA;[Fort Energy: Grand Devil] Choose a player.  That player shuffles his/her hand into their deck, and draws the same number of cards."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Grand Devil.&#xA;{FORT ENERGY}(Deep Marine) (When you put this creature into the battle zone, if a Deep Marine in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Choose a creature in the battle zone and return it to owner's hand.&#xA;■ Fort Energy: Grand Devil:&#xA;{FORT ENERGY}Choose a player. That player shuffles their hand into their deck, then draws the same number of cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Osmosis Bullet Soul Skull Hunter" id="32b94d00-c8db-471a-a9b3-bf2edf12a0eb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="32b94d00-c8db-471a-a9b3-bf2edf12a0eb" name="Osmosis Bullet Soul Skull Hunter">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="This creature cannot be attacked.&#xD;&#xA;This creature cannot be blocked.&#xD;&#xA;This creature cannot attack creatures."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature can't be attacked or blocked.&#xA;■ This creature can't attack creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Greatmarch Energy" id="be1715d7-d07a-4052-8b6d-9c6df15477fe">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="be1715d7-d07a-4052-8b6d-9c6df15477fe" name="Greatmarch Energy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Great Mecha King] Reveal double the amount of tapped Great Mecha King cards from your deck when casting this spell.  From there add all Great Mecha King to your hand, and put the rest on the bottom of your deck in any order."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{LAUNCHER ENERGY}: Great Mecha King (When you cast this spell, you may tap any number of your non-evolution Great Mecha King in the battle zone.)&#xA;Reveal a number of cards from the top of your deck equal to double the number of Great Mecha Kings you tapped when you cast this spell. Put all Great Mecha Kings into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Necrodragon Vaisas" id="f1c6462b-31d7-48c9-8fd7-bb972cae407e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f1c6462b-31d7-48c9-8fd7-bb972cae407e" name="Necrodragon Vaisas">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="When this creature attacks, choose one of your Shields and add it to your hand. However, any &quot;Shield Trigger&quot; abilities on that card cannot be used.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Magnum, Allshot Puppet" id="a2432731-ea82-429d-940b-7eb045a613d0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a2432731-ea82-429d-940b-7eb045a613d0" name="Magnum, Allshot Puppet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="When any creature or Cross Gear is put into the Battle Zone, or Spell is played, and cards in the Mana Zone are not tapped, the controller of that card chooses and destroys a creature in his/her Battle Zone."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever a player puts a creature or cross gear or casts a spell without tapping cards in their mana zone, that player chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Devilcast Energy" id="114c19a7-94e6-4c76-95fd-eabbe8bfecd8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="114c19a7-94e6-4c76-95fd-eabbe8bfecd8" name="Devilcast Energy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Grand Devil] For each Grand Devil tapped when this spell is played, choose an opponent's Shield and add it to his/her hand.  (Your opponent may use &quot;Shield Trigger&quot; abilities from the returned cards)."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{LAUNCHER ENERGY}: Grand Devil (When you cast this spell, you may tap any number of your non-evolution Grand Devil in the battle zone.)&#xA;For each Grand Devil tapped when you cast this spell, choose one of your opponent's shields and add it to its owners hand. (Your opponent may use &quot;Shield trigger&quot;.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Dragon Fighting Hero Naoya" id="c7b56327-a721-4f88-b38a-86dfe4ca4ff1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c7b56327-a721-4f88-b38a-86dfe4ca4ff1" name="Dragon Fighting Hero Naoya">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="[Fort Energy: Dragon] Until the end of turn, all creatures in your Battle Zone gain power +3000.&#xD;&#xA;[Fort Energy: Human] Destroy a creature with power 2000 or less."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{FORT ENERGY}(Dragon) (When you put this creature into the battle zone, if a Dragon in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Each of your creatures in the battle zone gets +3000 power until the end of the turn.&#xA;■ Fort Energy: Human&#xA;{FORT ENERGY}Destroy all creatures that have power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Wind User Cheyenne" id="3f29e561-b394-4f5d-835c-f3894937316e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3f29e561-b394-4f5d-835c-f3894937316e" name="Wind User Cheyenne">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Dynamo"/>
-      <property name="Rules" value="Dynamo (When another Dynamo attacks or is attacked, you may tap this creature. If you do, add this creature's power and abilities to that creature until the end of turn).&#xD;&#xA;When this creature attacks a player and is not blocked, destroy an opponent's creature with power 3000 or less."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{DYNAMO} (At the beginning of a battle, or whenever this creature can attack, you may tap this creature. If you do, add this creature's power and abilities to one of your other Dynamos in the battle zone until the end of the turn.)&#xA;■ Whenever this creature attacks a player and isn't blocked, destroy one of your opponent's creature that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Roubanrei of Impact" id="82e0a177-0558-47c7-a545-d576309ba6d3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="82e0a177-0558-47c7-a545-d576309ba6d3" name="Roubanrei of Impact">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brave Spirit"/>
-      <property name="Rules" value="Speed Attacker (This creature doesn't get summoning sickness.)&#xD;&#xA;This creature must attack each turn if able.&#xD;&#xA;When a Tyranno Drake or Brave Spirit you control attacks, destroy an opponent's creature with &quot;Blocker&quot;."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature attacks each turn if able.&#xA;■ Whenever one of your Tyranno Drake or Brave Spirits attack, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Chudersen, Amazing Artiste" id="b75cb177-710b-40cd-ad8e-5628f14f8ffd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b75cb177-710b-40cd-ad8e-5628f14f8ffd" name="Chudersen, Amazing Artiste">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Evolution - Dreammate.&#xD;&#xA;When an opponent casts a Spell, look at your deck.  Select a Dreammate, reveal it and put it in your hand.  Shuffle the deck.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dreammate.&#xA;■ Whenever your opponent casts a spell, search your deck. You may take a Dreammate from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Terradragon Mildgarmus" id="4ce5e6b2-6c39-4f97-afe8-4d0f23e2d9a4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4ce5e6b2-6c39-4f97-afe8-4d0f23e2d9a4" name="Terradragon Mildgarmus">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When this creatures is put into the Battle Zone, choose a card in an opponent's Mana Zone, and put it in its owner's Graveyard.  Afterward, put the top card from your deck into your Mana Zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a card in your opponent's mana zone and put it into their graveyard. Then put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Great Blessing" id="88045682-7503-4c03-b833-aea79effcfb9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="88045682-7503-4c03-b833-aea79effcfb9" name="Great Blessing">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Put up to three creatures from your Graveyard into your Mana Zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 3 creatures from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Search Armor Garongar" id="5953223c-77f8-41be-95a7-93bb6b72604e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5953223c-77f8-41be-95a7-93bb6b72604e" name="Search Armor Garongar">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Blocker] &#xD;&#xA;[Fort Energy: Great Mecha King] Choose two Shields and reveal them. (The chosen shields  stay revealed in the Shield Zone.)&#xD;&#xA;This creature cannot attack players."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{FORT ENERGY}(Great Mecha King) (When you put this creature into the battle zone, if a Great Mecha King in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Choose 2 shields and reveal them. (The chosen shields stay revealed in the shield zone.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Captain Gyro" id="17f12146-0b32-4f10-a9f5-4b2ed1700a70">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="17f12146-0b32-4f10-a9f5-4b2ed1700a70" name="Captain Gyro">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero"/>
-      <property name="Rules" value="When a Great Mecha King you control wins a battle, you may tap this creature.  If so, untap the winning Great Mecha King."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Great Mecha King wins a battle, you may tap this creature. If you do, untap that Great Mecha King."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Arclogic Energy" id="5e1bd7e0-11ba-44e8-aec7-e295b8f0c0c3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5e1bd7e0-11ba-44e8-aec7-e295b8f0c0c3" name="Arclogic Energy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Arc Seraphim] Search your deck for the same number of Spells as Arc Seraphim you tapped when this Spell was cast.  Reveal them to your opponent, and put them in your hand.  Shuffle your deck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{LAUNCHER ENERGY}: Arc Seraphim (When you cast this spell, you may tap any number of your non-evolution Arc Seraphim in the battle zone.)&#xA;Search your deck for the same number of spells as the Arc Seraphim you tapped when you cast this spell. Show them to your opponent, and put them into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Aqua Farecollector" id="f4358285-c74d-4316-8081-71dd62d87128">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f4358285-c74d-4316-8081-71dd62d87128" name="Aqua Farecollector">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="Fort Energy: Liquid People (When this creature is put into the Battle Zone, if a Liquid People is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xD;&#xA;[Fort Energy] : Each player draw cards equal to the number of creatures in their Battle Zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{FORT ENERGY}(Liquid People) (When you put this creature into the battle zone, if a Liquid People in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Each player draws cards equal to the number of their creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Fuuma Boltis" id="2a5bbb84-2dee-4a8f-a5ae-78d341e6218d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2a5bbb84-2dee-4a8f-a5ae-78d341e6218d" name="Fuuma Boltis">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack.&#xD;&#xA;All creatures that would destroyed by this creature in battle are not destroyed."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When a creature loses a battle with this creature and would be destroyed, that creature isn't destroyed and stays in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Deepsea Mecha, Ocean" id="780c9185-178f-4a51-b2cc-23582cf3661b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="780c9185-178f-4a51-b2cc-23582cf3661b" name="Deepsea Mecha Ocean">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack.&#xD;&#xA;When an opponent's creature blocks your attack, you may untap this creature."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever one of your opponent's creatures attacks you and isn't blocked, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Fuuma Foras" id="a051baa2-90d9-44f3-851f-040cf81f7e66">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a051baa2-90d9-44f3-851f-040cf81f7e66" name="Fuuma Foras">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="When another creature is put into your Battle Zone, destroy this creature.&#xD;&#xA;When a card is put into a Mana Zone, send it to the Graveyard instead.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Whenever you put another creature into the battle zone, destroy that creature.&#xA;■ Whenever you put a card into your mana zone, put that card into your graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Endbringer Dragoon" id="7795b265-2ab5-416c-8811-33a150b1a517">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7795b265-2ab5-416c-8811-33a150b1a517" name="Endbringer Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature attacks a creature, destroy that creature.&#xD;&#xA;When this creature is attacked, destroy this creature."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks a creature, destroy that creature. (No battle happens.)&#xA;■ When this creature is attacked, destroy this creature. (No battle happens.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Grudge Gathering" id="94780750-9ef0-40e8-b2a5-eb9aed5f60eb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="94780750-9ef0-40e8-b2a5-eb9aed5f60eb" name="Grudge Gathering">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy an opponent's creature with cost equal to or less than the number of cards in your Graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that costs the same as or less than the number of cards in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Skychief Hatin" id="7b046e27-3223-430b-8f64-18b8847f3abc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7b046e27-3223-430b-8f64-18b8847f3abc" name="Skychief Hatin">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Vehicle Bee"/>
-      <property name="Rules" value="When your Dreammate wins a battle, one of your creatures in the Battle Zone gains &quot;Speed Attacker&quot; and &quot;Double Breaker&quot; until the end of turn."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever one of your Dreammates wins a battle, one of your creatures in the battle zone gets &quot;speed attacker&quot; and &quot;double breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Disturbing Chuusa" id="3fdce6a1-2d89-4819-998e-9dc2c1cea4d1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3fdce6a1-2d89-4819-998e-9dc2c1cea4d1" name="Disturbing Chuusa">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="This creature must attack each turn if able.&#xD;&#xA;When this creature is tapped, Spells cannot be played."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;■ While this creature is tapped, players can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Tyranno-Drive Energy" id="57a1a3c1-a714-4556-b2a6-5fd627266026">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="57a1a3c1-a714-4556-b2a6-5fd627266026" name="Tyranno-Drive Energy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Tyranno Drake] Destroy a creature with power equal to or less than the total power of the Tyranno Drakes tapped while casting this Spell."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{LAUNCHER ENERGY}: Tyranno Drake (When you cast this spell, you may tap any number of your non-evolution Tyranno Drake in the battle zone.)&#xA;Destroy one of your opponent's creatures that has power equal to or less than the total power of the Tyranno Drakes tapped when you cast this spell."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Zapping Beans" id="87a38eaf-30f2-41f8-aebb-a5af679ca750">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="87a38eaf-30f2-41f8-aebb-a5af679ca750" name="Zapping Beans">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, your opponent chooses one of their creatures in the Battle Zone and moves it to their Mana Zone.&#xD;&#xA;When this creature is destroyed, your opponent chooses one of their non-Evolution creatures in their Mana Zone and moves it to their Battle Zone."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses one of their creatures in the battle zone and puts it into their mana zone.&#xA;■ When this creature is destroyed, your opponent chooses one of their non-evolution creatures in their mana zone and puts it into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Surprise Illusion" id="ddc1afdf-1dd3-46ad-be54-40666ef40a74">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Choose a creature Type.  Until the end of this turn, all creatures in the Battle Zone you control have that creature Type."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
-      <property name="Set" value="DM-20 The Ultimate Nova"/>
-    </card>
-    <card name="Hopstep Grasshopper" id="efb43177-3b38-4cd4-ad63-c02c07a3701b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="efb43177-3b38-4cd4-ad63-c02c07a3701b" name="Hopstep Battan">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Vehicle Bee"/>
-      <property name="Rules" value="When a Great Mecha King or Vehicle Bee is put into your Battle Zone, destroy this creature at the end of that turn.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="7000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="34"/>
+      <property name="Rules" value="■ At the end of each of your turns, if you didn't put a Dreammate or Vehicle Bee into the battle zone this turn, destroy this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Punishion, Spirit Knight" id="f8633e93-5e2c-453b-9df6-9fe74131da0b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ddc1afdf-1dd3-46ad-be54-40666ef40a74" name="Surprise Illusion">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Each of your creatures in the battle zone have that race until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="f8633e93-5e2c-453b-9df6-9fe74131da0b" name="Punishion, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, tap an opponent's creature in the Battle Zone."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Rebellious Steelfist Barnian" id="76eb5909-629f-4a3c-a9c8-8cbeeae3476e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="76eb5909-629f-4a3c-a9c8-8cbeeae3476e" name="Rebellious Steelfist Barnian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="This creature gains Power +2000 for each creature Type an opponent controls."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ This creature get +2000 power for each of your opponent's races of creature in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Captain Super-Rescue" id="d92e4e09-5f1e-4ef0-adf1-37fb9b87ba29">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d92e4e09-5f1e-4ef0-adf1-37fb9b87ba29" name="Captain Super-Rescue">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero"/>
-      <property name="Rules" value="Saver: Great Mecha King (When one of your Great Mecha King is destroyed, this creature is destroyed instead.)"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SAVER}: Great Mecha King (When one of your Great Mecha King(s) would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Ra Bool, Guardian of White Gold" id="f4145928-7128-405c-83e9-2e2b95127dec">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f4145928-7128-405c-83e9-2e2b95127dec" name="Ra Bool, Guardian of White Gold">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="[Blocker] (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xD;&#xA;This creature cannot block creatures with power 2000 or less.&#xD;&#xA;This creature cannot attack players."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't block creatures that have power 2000 or less.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Aqua Hulk" id="4c2c1808-b5e8-42f8-88cc-64223be41095">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4c2c1808-b5e8-42f8-88cc-64223be41095" name="Aqua Hulk">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, you may draw a card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Waving Argors" id="08c4fb7c-f05b-4152-a2a2-b135aa8de0bf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="08c4fb7c-f05b-4152-a2a2-b135aa8de0bf" name="Waving Argors">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Deep Marine"/>
-      <property name="Rules" value="Whenever a Grand Devil you control wins a battle, you may draw a card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Grand Devils wins a battle, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Aqua Escort" id="d4cfa13f-b9da-4b0d-a580-9dbb7c7e7797">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d4cfa13f-b9da-4b0d-a580-9dbb7c7e7797" name="Aqua Escort">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack.&#xD;&#xA;When this creature is put into the Battle Zone, choose one of your creatures in the Battle Zone and return it to your hand."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, choose one of your creatures in the battle zone and return it to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Secret Clocktower" id="d6a209b3-cc5c-4575-ad36-e15680527721">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d6a209b3-cc5c-4575-ad36-e15680527721" name="Secret Clocktower">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Look at the top 3 cards of your deck.  Add one card to your hand, put one on the bottom of your deck, and put the last one on the top of your deck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put a card into your hand, put one on the bottom of your deck, and the other on top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Silent Dragoon" id="47ed35f1-ca03-4e2c-9a4f-3b9e300bd26f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="47ed35f1-ca03-4e2c-9a4f-3b9e300bd26f" name="Silent Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="{SHIELD TRIGGER}"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Fuuma Valfork" id="482a0105-de7b-4337-be11-f60145769994">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="482a0105-de7b-4337-be11-f60145769994" name="Fuuma Valfork">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="[Blocker] (When an opponent's creature attacks, you may tap this creature to stop the attack. Then the two creatures battle.)&#xD;&#xA;This creature can't attack.&#xD;&#xA;When this creature blocks, your opponent chooses a card in his/her hand and discards it."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, your opponent chooses a card in their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Kemprar of Poisoned Fog" id="d7f3dc10-6135-4c03-ad1e-39bdd1a08865">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d7f3dc10-6135-4c03-ad1e-39bdd1a08865" name="Kemprar of Poisoned Fog">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brave Spirit"/>
-      <property name="Rules" value="When a Tyranno Drake you control wins a battle, you may return a creature from your Graveyard to your hand."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Tyranno Drake wins a battle, you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Fuuma Jaws Jacks" id="610c9980-d179-494f-a4af-3e6ff2a9a2d7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="610c9980-d179-494f-a4af-3e6ff2a9a2d7" name="Fuuma Jaws Jacks">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Slayer (When this creature loses a battle, destroy the other creature.)&#xD;&#xA;When this creature is destroyed, discard a card from your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When this creature is destroyed, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Iron Command Dragoon" id="7a04c1b7-43e7-4808-9bba-5bb27861b188">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7a04c1b7-43e7-4808-9bba-5bb27861b188" name="Iron Command Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="[Fort Energy: Brave Spirit] Until the end of this turn, all Tyranno Drake you control in the Battle Zone gain &quot;Speed Attacker&quot; and &quot;This creature must attack if able&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{FORT ENERGY}(Brave Spirit) (When you put this creature into the battle zone, if a Brave Spirit in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Each of your Tyranno Drakes in the battle zone gets &quot;speed attacker&quot; and &quot;this creature attacks if able&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Smashblow Dragoon" id="9931a93e-c0ac-402a-b749-048ee24bd201">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9931a93e-c0ac-402a-b749-048ee24bd201" name="Smashblow Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature battles a creature with &quot;Blocker&quot;, this creature gains Power +4000."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While battling a creature that has &quot;blocker&quot;, this creature gets +4000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Pursuiting Raizen" id="faf8fcbc-de15-4b6d-974f-ddde8b6e9dae">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="faf8fcbc-de15-4b6d-974f-ddde8b6e9dae" name="Pursuiting Raizen">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brave Spirit"/>
-      <property name="Rules" value="This creature may only attack if a Tyranno Drake you control has attacked this turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ This creature can only attack if one of your Tyranno Drakes attacked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Flame-Absorbing Palm" id="61bf2e1f-00d1-4379-9fa9-ce917784f92e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="61bf2e1f-00d1-4379-9fa9-ce917784f92e" name="Flame-Absorbing Palm">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy an opponent's creature with power 2000 or less.&#xD;&#xA;One of your creatures in the Battle Zone gains &quot;Power Attacker +2000&quot; until the end of turn."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 2000 or less.&#xA;■ One of your creatures in the battle zone gets &quot;power attacker +2000&quot; until the end of the turn. (A creature that has &quot;power attacker +2000&quot; gets +2000 power while attacking)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Zafal Banikis, Spirit Knight" id="838e8821-d6cb-4e04-a53a-22b68a5a678b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="838e8821-d6cb-4e04-a53a-22b68a5a678b" name="Zafal Banikis, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="Fort Energy: Arc Seraphim (When this creature is put into the Battle Zone, if a Arc Seraphim is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xD;&#xA;[Fort Energy] : Put a &quot;Spirit Rider Zafal Banikis&quot; from your Mana Zone into the Battle Zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{FORT ENERGY}(Arc Seraphim) (When you put this creature into the battle zone, if a Arc Seraphim in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Put a 'Zafal Banikis, Spirit Knight' from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Manitus, Protection Spirit" id="7f52a4c7-67a7-4aaa-85c3-7c62672aee47">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7f52a4c7-67a7-4aaa-85c3-7c62672aee47" name="Manitus, Protection Spirit">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Saint Head"/>
-      <property name="Rules" value="When a Arc Seraphim you control wins a Battle, put up to 2 cards from the top of your deck into your Mana Zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Arc Seraphim wins a battle, put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Vandam Orange" id="8009adcf-075f-48ae-807a-0d4e1b4c3e40">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8009adcf-075f-48ae-807a-0d4e1b4c3e40" name="Vandam Orange">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="When a Wild Veggies you control is put into the Mana Zone, this creature gains Power +2000 until end of turn."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ Whenever one of your Wild Veggies is put into your mana zone, this creature gets +2000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
-    <card name="Dreamfest Energy" id="4ee9a965-41b3-46b2-9d7f-267a4fe0f48c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4ee9a965-41b3-46b2-9d7f-267a4fe0f48c" name="Dreamfest Energy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Launcher E: Dreammate] For each Dreammate tapped when this Spell is cast, put the top card from your deck into your Mana Zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{LAUNCHER ENERGY}: Dreammate (When you cast this spell, you may tap any number of your non-evolution Dreammate in the battle zone.)&#xA;For each Dreammate tapped when you cast this spell, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="b7e9a70c-023c-4f82-9781-18a2ae14596f" name="Elsar Baltis, Holy Emperor">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Arc Seraphim"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Arc Seraphim.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent uses a &quot;Shield trigger&quot; ability from their shields, search your deck. You may take a spell that has &quot;Shield trigger&quot; among them from your deck, then shuffle your deck. You may cast the chosen spell for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="171881ed-89cc-438e-a5fb-370bfb24a028" name="Omegablack Z, Invincible Giant">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Great Mecha King"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Great Mecha King.&#xA;■ Whenever this creature attacks, you may reveal the top 4 cards of your deck. From among them, add a Great Mecha King and a Machine Hero to your hand, then put the rest on the bottom of your deck in any order.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="aa265030-3f6f-4ecf-beeb-a689aea0ad8d" name="Dolzabard, Superior Dragonic Phoenix">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Tyranno Drake"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Tyranno Drake.&#xA;{FORT ENERGY}(Brave Spirit) (When you put this creature into the battle zone, if a Brave Spirit in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Your opponent can't use the &quot;shield trigger&quot; ability of shields broken by this creature until the end of the turn.&#xA;■ Fort Energy: Tyranno Drake&#xA;{FORT ENERGY}This creature breaks one of your opponent's shields.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="79061bc1-aaec-4073-9e54-ab0801175e4d" name="Supernova Lyra Bolstorm">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Zombie Dragons, Armored Dragons, and/or Earth Dragons.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a creature under this card into your graveyard. If you do, put a non-evolution Dragon from your hand into the battle zone, destroy one of your opponent's creatures that has power 5000 or less, and choose a card from your opponent's mana zone and put it into its owner's graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-20 The Ultimate Nova"/>
+    </card>
+    <card id="bec51e93-0cca-4dd5-ae78-d9d13dc0679e" name="Draghurricane Energy">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Launcher Energy: Dragon (Tap any number of your untapped non-evolution Dragon creatures.)&#xA;■ Search your deck. For each Dragon you tapped by this spell's effect, you may put a creature that has the same name from your deck. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-20 The Ultimate Nova"/>
     </card>
   </cards>

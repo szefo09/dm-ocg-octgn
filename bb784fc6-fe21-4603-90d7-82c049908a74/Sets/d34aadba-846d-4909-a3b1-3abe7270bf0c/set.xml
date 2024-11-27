@@ -20,724 +20,824 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Eternal Moon, the Enlightened White Knight" id="cdacee1b-5749-42f1-888f-da5ed6e9e0db">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Lunatic Emperor/Angel Command"/>
-      <property name="Rules" value="Ultimate Evolution: Put on 1 of your light evolution creatures.&#xD;&#xA;Double Breaker&#xD;&#xA;While this creature is tapped and you have no shields, you can't be attacked. (Your creatures may still be attacked.)"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-34 Cross Generation"/>
-    </card>
-    <card name="Twilight Sigma, the Super-Electric" id="bfaa11a5-e042-498a-8217-d3dd0b8034a1">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Cyber Command"/>
-      <property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Cyber&quot; in its race.&#xD;&#xA;When you put this creature into the battle zone, choose any number of non-evolution creatures that have &quot;Cyber&quot; in their race and return them to your hand from the battle zone.&#xD;&#xA;&#xD;&#xA;For each returned creature, you may put a non-evolution creature that has &quot;Cyber&quot; in its race into the battle zone.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="8000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-34 Cross Generation"/>
-    </card>
-    <card name="Beginning Romanov, Lord of the Demonic Eye" id="3d4f9a79-1d75-4834-ac20-857a7c273f87">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
-      <property name="Rules" value="Graveyard Galaxy Vortex Evolution: Choose 3 darkness creatures in your graveyard and put this card into your battle zone on top of the chosen creatures.&#xD;&#xA;Meteor Burn: When this creature attacks, you may choose any number of cards under this creature and put them into your graveyard. For each card put into the graveyard in&#xD;&#xA;&#xD;&#xA;this way, choose 1 card in your opponent's hand at random. Then, your opponent shows you that card and puts that card on the bottom of their deck.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-34 Cross Generation"/>
-    </card>
-    <card name="Bolshack Cross NEX" id="b67a1028-26c1-4dae-be91-94c8e64ae302">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="9"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Speed Attacker&#xD;&#xA;Power Attacker +5000&#xD;&#xA;Triple Breaker&#xD;&#xA;No one may summon creatures with a cost of 4 or less."/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-34 Cross Generation"/>
-    </card>
-    <card name="Heracles, Birther of Gods" id="514ddc56-84c4-43c6-8d77-beb073306462">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="12"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Gaia Command"/>
-      <property name="Rules" value="When you tap mana to summon this creature, the mana number of Gods in your mana zone becomes 2 instead of 1. (Tapping a God to summon this creature&#xD;&#xA;&#xD;&#xA;generates 2 mana instead of 1.)&#xD;&#xA;When you put this creature into the battle zone, you may return any number of Gods from your mana zone to your hand.&#xD;&#xA;Your Gods cost up to 3 less to summon. They can't cost less than 1.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-34 Cross Generation"/>
-    </card>
-    <card name="Ulferios, White Knight Infinity Dragon" id="2b659a50-5ac1-4591-91a6-20d2bd716cd2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2b659a50-5ac1-4591-91a6-20d2bd716cd2" name="Ulferios, White Knight Infinity Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command/Apollonia Dragon"/>
-      <property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your light creatures.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, reveal the top 2 cards of your deck. You may put any creatures&#xD;&#xA;&#xD;&#xA;with &quot;White Knight&quot; in their names into the battle zone. Put the rest on the bottom of your deck in any order.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9500"/>
+      <property name="Rules" value="■ Super Infinite evolution—Put on one or more of your light creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, reveal the top 2 cards of your deck. You may put any number of creatures that have &quot;White Knight&quot; in their name into the battle zone. Put the rest on the bottom of your deck in any order.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Crystal Phalanx, the Super-Electric Nova" id="03fe47ed-3292-41fb-9f7c-9b66c084edf4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="03fe47ed-3292-41fb-9f7c-9b66c084edf4" name="Crystal Phalanx, the Super-Electric Nova">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Liquid People/Phoenix"/>
-      <property name="Rules" value="Hand Vortex Evolution: Choose 2 water creatures in your hand and put this creature into your battle zone on top of the chosen creatures.&#xD;&#xA;Meteor Burn: When one of your opponent's creatures attacks you, you may put 1 card under this creature into your graveyard. If you do, that attack is stopped. (The attacking&#xD;&#xA;&#xD;&#xA;creature remains tapped and no shields are broken.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Hand Vortex evolution—Choose 2 water creatures in your hand and put this creature into the battle zone on top of those creatures.&#xA;■ Meteorburn—Whenever one of your opponent's creatures attacks you, you may put a card on the bottom of this creature into your graveyard. If you do, stop the attack.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Byaha, Dragonic Worm Reaper" id="d5a042a5-d72e-4af4-8162-a1fcc1fd89d5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d5a042a5-d72e-4af4-8162-a1fcc1fd89d5" name="Byaha, Dragonic Worm Reaper">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Parasite Worm/Zombie Dragon"/>
-      <property name="Rules" value="Vortex Evolution: Put on 2 of your darkness creatures.&#xD;&#xA;When one of your other creatures is destroyed, you may put that creature under this creature instead of the graveyard.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 4 cards under this creature into your graveyard. If you do, your opponent chooses 4 creatures in their battle zone and&#xD;&#xA;&#xD;&#xA;destroys them, then chooses 4 cards in their hands and discards them.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your darkness creatures.&#xA;■ Whenever one of your other creatures would be destroyed, you may put that creature under this creature instead.&#xA;■ Meteorburn—Whenever this creature attacks, you may put 4 cards under this creature into your graveyard. If you do, your opponent chooses 4 of their creatures in the battle zone and destroys them, then chooses 4 cards in their hand and discards them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Überdragon Galactica 'Sword Flash' Dragon" id="adafe9f5-599d-4f37-9310-7997f29ceb8d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="adafe9f5-599d-4f37-9310-7997f29ceb8d" name="Überdragon Galactica &quot;Sword Flash&quot; Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon/Samurai"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Fire Birds.&#xD;&#xA;When 1 of your Dragons attack, reveal the top card of your deck. If that card is a creature you may put it under this creature. (If you don't, return the card to the top of your deck&#xD;&#xA;&#xD;&#xA;face down.)&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 3 cards under this card into your graveyard. If you do, choose any number of your opponent's creatures with a total&#xD;&#xA;&#xD;&#xA;power of 9000 or less and destroy them. If you put a Dragon with &quot;Sword Flash&quot; in its name into your graveyard because of this effect, you may untap this creature.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Fire Birds.&#xA;■ Whenever one of your Dragons attacks, reveal the top card of your deck. If that card is a creature you may put it under this creature.&#xA;■ Meteorburn—Whenever this creature attacks, you may put choose cards under this card and put them into your graveyard. If you do, choose any number of your opponent's creatures that have total power 9000 or less and destroy them. If you put a Dragon that has Sword Flash in its name into your graveyard in this way, untap this creature.&#xA;■ Double breaker"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Balga Raizou, the Super-Heavenly Nova" id="b192e22e-01ac-4240-b1ec-ca6b312e138c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b192e22e-01ac-4240-b1ec-ca6b312e138c" name="Balga Raizou, the Super-Heavenly Nova">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Earth Dragon/Phoenix/Samurai"/>
-      <property name="Rules" value="Mana Galaxy Vortex Evolution: Choose 3 Dragons in your mana zone and put this creature into the battle zone on top of those creatures.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 3 cards under this creature into your graveyard If you do, reveal the top 3 cards of your deck. You may put any non-evolution Dragons you reveal into the battle zone. Put the rest into your graveyard.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Mana Galaxy Vortex evolution: Choose 3 Dragons in your mana zone and put this creature on top of those creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn—Whenever this creature attacks, you may put 3 cards under this creature into your graveyard. If you do, reveal the top 3 cards of your deck. You may put any non-evolution Dragons from among them. Put the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Alkaizam, Infinite Lord of Spirits" id="62e3df36-b42a-426c-b63e-ddf343e1443e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="62e3df36-b42a-426c-b63e-ddf343e1443e" name="Alkaizam, Infinite Lord of Spirits">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;Super Infinite Evolution: Put on 1 or more of your creatures with &quot;Blocker&quot;.&#xD;&#xA;Meteor Burn-Shield Plus: When this creature attacks, you may put a card under this creature into your graveyard. If you do, put a number of cards under one of your shields&#xD;&#xA;&#xD;&#xA;face down from the top of your deck equal to that card's cost. (Each bundle is still 1 shield.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Super Infinite evolution—Put on one or more of your creatures that have &quot;Blocker&quot;.&#xA;■ Meteorburn—Shield Plus: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, put a number of cards equal to that card's cost from the top of your deck under one of your shields face down. (Each card stack is still considered to be one shield.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="EVE, God of Spiritual Creation" id="14554b38-2579-4d1f-863c-7acf5f7db5dc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="14554b38-2579-4d1f-863c-7acf5f7db5dc" name="EVE, God of Spiritual Creation">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;Evolution: Origins.&#xD;&#xA;Meteor Burn: Whenever this creature would leave the battle zone, you may put a card under this creature into your graveyard. If you do, this creature stays in the battle zone.&#xD;&#xA;God Link - ADAM, God of Wordly Creation (Left Side)&#xD;&#xA;While this creature is linked, it gains &quot;Triple Breaker&quot;."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Origins.&#xA;■ Meteorburn—When this creature would leave the battle zone, you may put a card under this creature into your graveyard. If you do, this creature stays in the battle zone instead.&#xA;■ God Link (ADAM, God of Worldly Creation) Left Side&#xA;■ While this creature is linked, it has &quot;triple breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55 EVE, God of Spiritual Creation (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="White Knight Spark" id="8c98a94a-22d9-4efc-bdf7-6e927ed5e8fa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8c98a94a-22d9-4efc-bdf7-6e927ed5e8fa" name="White Knight Spark">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Tap all of your opponent's creatures in the battle zone.&#xD;&#xA;At the end of this turn, untap all of your creatures with &quot;White Knight&quot; in their names."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ At the end of the turn, untap all your creatures in the battle zone that have &quot;White Knight&quot; in their name."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="ADAM, God of Wordly Creation" id="18cf2fdf-0a64-4d22-9ff1-e79f8453fab8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="18cf2fdf-0a64-4d22-9ff1-e79f8453fab8" name="ADAM, God of Worldly Creation">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Origins.&#xD;&#xA;When you put this creature into the battle zone, choose 1 of your opponent's creatures. Your opponent puts that creatures on the bottom of their deck.&#xD;&#xA;Double Breaker&#xD;&#xA;God Link - EVE, God of Spiritual Creation (Right Side)&#xD;&#xA;Meteor Burn: When this creature attacks while linked, you may put 5 cards under this creature into your graveyard. If you do, put all cards in your opponent's mana zone into&#xD;&#xA;&#xD;&#xA;their shield zone face down as new shields."/>
-      <property name="Power" value="8000"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Origins.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. Your opponent puts that creature on the bottom of their deck.&#xA;{DOUBLE BREAKER}&#xA;■ God Link (EVE, God of Spiritual Creation) Right Side&#xA;■ Meteorburn—Whenever this creature attacks while linked, you may put 5 cards under this creature into your graveyard. If you do, put all cards in your opponent's mana zone into their shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55 ADAM, God of Worldly Creation (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Wan Ken, Crimson Lord ~Full Speed Ahead~" id="1a9a4265-ba35-42fe-ac05-98f10a1f808a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1a9a4265-ba35-42fe-ac05-98f10a1f808a" name="Wan Ken, Crimson Lord ~Full Speed Ahead~">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Blue Monster/Flame Monster"/>
-      <property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Ken, Crimson Lord&quot; in its name. &#xD;&#xA;When you put this creature into the battle zone, look at the top 2 cards of your deck. Then, put 1 of these on the bottom of your deck, and return the other to the top of your&#xD;&#xA;&#xD;&#xA;deck.&#xD;&#xA;Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xD;&#xA;[Tap]: Search your deck. You may choose a card with &quot;Ken Gou, Crimson Lord&quot; in its name and put it on top of this creature. Then, shuffle your deck."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has &quot;Ken, Crimson Lord&quot; in its name.&#xA;■ When you put this creature into the battle zone, look at the top 2 cards of your deck and put one of these on the bottom of your deck.&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Search your deck. You may take a card that has &quot;Ken Gou, Crimson Lord&quot; in its name from among it and put it on top of this creature. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Emperor Maribel" id="a92bff9e-b0ed-4648-9c02-afa6e12986ab">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a92bff9e-b0ed-4648-9c02-afa6e12986ab" name="Emperor Maribel">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Lord/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Cyber&quot; in its race or Origins.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, return 1 creature in the battle zone to its owner's&#xD;&#xA;&#xD;&#xA;hand."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Cyber in its race or one of your Origins.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Gigajadou" id="e0dc9bc4-7425-4ad6-bf5b-04ddbb224638">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e0dc9bc4-7425-4ad6-bf5b-04ddbb224638" name="Gigajadou">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;When you put this creature into the battle zone, put all of your shields into your graveyard. For each shield you put into the graveyard your opponent chooses 1 of their&#xD;&#xA;&#xD;&#xA;creatures and destroys it. If they can't destroy a creature this creature breaks 1 of your opponent's shields.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="14000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, put all your shields into your graveyard. For each shield put into your graveyard, your opponent chooses one of their creatures and destroys it. If they can't destroy a creature, this creature breaks one of your opponent's shields.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Bell Hell De Jackson, Monstrous Reaper" id="bd2ac3d4-41ac-40c3-9396-74e91ee637a9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bd2ac3d4-41ac-40c3-9396-74e91ee637a9" name="Bell Hell De Jackson, Monstrous Reaper">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="When this creature attacks, you may destroy 1 of your creatures. If you do, search your deck. You may take an evolution Demon Command from it, show it to your&#xD;&#xA;&#xD;&#xA;opponent, and put it into your hand. Then, shuffle your deck.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your creatures. If you do, search your deck. You may take an evolution Demon Command from it, show it to your opponent, and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Waya, Cursing Puppet" id="81c01698-964f-4c39-8a0d-6f6ca9bdca8f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="81c01698-964f-4c39-8a0d-6f6ca9bdca8f" name="Waya, Cursing Puppet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="Whenever one of your other creatures is destroyed, or 1 of the cards under your evolution creatures is put in the graveyard, choose 1 of your opponent's creatures.&#xD;&#xA;&#xD;&#xA;That creature gets -1000 power until the end of the turn. (A creature with 0 or less power is destroyed.)"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your other creatures is destroyed, or one of the cards under your evolution creatures is put in your graveyard, choose one of your opponent's creatures in the battle zone. That creature gets -1000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Lord Gou Ken ~Symphony of Swords~" id="071b908e-1265-4b26-ba33-858c727ea0fa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="071b908e-1265-4b26-ba33-858c727ea0fa" name="Lord Gou Ken ~Symphony of Swords~">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="17"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Flame Monster"/>
-      <property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Ken Gou, Crimson Lord&quot; in its name.&#xD;&#xA;Soulshift&#xD;&#xA;Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xD;&#xA;[Tap]: Destroy all of your opponent's creatures with &quot;Blocker&quot;. Search your deck. You may choose a card with &quot;Ken Geki, Absolute Ruler&quot; in its name and put it on top of this&#xD;&#xA;&#xD;&#xA;creature. Then, shuffle your deck.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="16000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has &quot;Ken Gou, Crimson Lord&quot; in its name.&#xA;■ Soulshift&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy all your opponent's creatures that have &quot;blocker&quot;. Search your deck. You may choose a card that has &quot;Ken Geki, Absolute Ruler&quot; in its name and put it on top of this creature. Then shuffle your deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Kagekiri, Bird of Fire" id="db336afb-bf75-42f4-bb7e-70d09eb3b2f7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="db336afb-bf75-42f4-bb7e-70d09eb3b2f7" name="Kagekiri, Bird of Fire">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Fire Bird/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Fire Birds or Origins.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, untap this creature."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Fire Birds or Origins.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Othello, King of the Gods" id="d52beac8-d6dd-4af6-a69c-d9d7d8695bba">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d52beac8-d6dd-4af6-a69c-d9d7d8695bba" name="Othello, King of the Gods">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="God Link - Lia, King of the Gods (Left Side) or Macbeth, King of the Gods (Bottom Side)&#xD;&#xA;Whenever this creature links with another God, this creature gets +2000 power and breaks an additional shield until the end of the turn."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ God Link (Lear, King of the Gods) Left Side or (Macbeth, King of the Gods) Bottom Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ Whenever this creature links with another God, this creature gets +2000 power and breaks an additional shield until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Gou Daigo, Amazing Artiste" id="f75520f8-df6b-4b7c-b059-d7d2d05fb95e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f75520f8-df6b-4b7c-b059-d7d2d05fb95e" name="Gou Daigo, Amazing Artiste">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Dreammates or Origins.&#xD;&#xA;At the end of your turn, you may put a creature from your mana zone under this creature.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 3 cards under this creatue into your graveyard. If you do, all of your creatures get +12000 power and gain &quot;Triple&#xD;&#xA;&#xD;&#xA;Breaker&quot; until the end of the turn."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dreammates or Origins.&#xA;■ At the end of each of your turns, you may put a creature from your mana zone under this creature.&#xA;■ Meteorburn—Whenever this creature attacks, you may put 3 cards under this creature into your graveyard. If you do, each of your creatures gets +12000 power and &quot;triple breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Macbeth, King of the Gods" id="b37befe6-9d36-4d49-b52b-79c9fc5b18da">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b37befe6-9d36-4d49-b52b-79c9fc5b18da" name="Macbeth, King of the Gods">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="Double Breaker&#xD;&#xA;God Link - Titus, King of the Gods (Left Side) or Othello, King of the Gods (Top Side)&#xD;&#xA;When this creature becomes a 4-part God, you may put a God into your battle zone from your mana zone. (A 4-part God has 4 Gods linked together to form 1 creature.)&#xD;&#xA;&#xD;&#xA;"/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ God Link (Titus, King of the Gods) Left Side or (Othello, King of the Gods) Top Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ When this creature becomes a 4-part God, you may put a God from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Timeless Garden" id="9cffc7f9-92d7-4eb1-ad17-331cfb5b6eed">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9cffc7f9-92d7-4eb1-ad17-331cfb5b6eed" name="Timeless Garden">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put the top card of your deck into your mana zone. Then, you may put 1 creature from your mana zone under one of your evolution creatures."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone. Then you may put a creature from your mana zone under one of your evolution creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Mephister, the Wise" id="1836ced1-da7c-487d-9c73-024aa22cb64b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1836ced1-da7c-487d-9c73-024aa22cb64b" name="Mephister, the Wise">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Light Bringer/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Light Bringers or Origins.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, until the start of your next turn, all of your creatures gain&#xD;&#xA;&#xD;&#xA;&quot;Blocker&quot; and all of your creatures untap at the end of your turn."/>
       <property name="Power" value="5500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Light Bringers or Origins.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, each of your creatures gets &quot;blocker&quot; until the start of your next turn and untaps at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Alto Coronis, Holy Nova Guardian" id="8ba18864-1050-447b-9768-3a0d39ab8580">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8ba18864-1050-447b-9768-3a0d39ab8580" name="Alto Coronis, Holy Nova Guardian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Origin"/>
-      <property name="Rules" value="Whenever one of your other creatures is destroyed, or 1 of the cards under your evolution creatures is put in the graveyard, look at the top card of your deck. If that&#xD;&#xA;&#xD;&#xA;card is a spell, you may show it to your opponent and put it into your hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever one of your other creatures is destroyed, or one of the cards under your evolution creatures is put in your graveyard, look at the top card of your deck. If that card is a spell, you may show that spell to your opponent, and put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Pillar of Feather, White Knight Fortress" id="76fb3216-4986-4589-a65a-5dbc4824c1d7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="76fb3216-4986-4589-a65a-5dbc4824c1d7" name="Pillar of Feather, White Knight Fortress">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress&#xD;&#xA;You may have all of your creatures with &quot;White Knight&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xD;&#xA;All of your creatures with &quot;White Knight&quot; in their names get +3000 power and gain &quot;Blocker&quot;."/>
-      <property name="Power" value=""/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Your creatures that have &quot;White Knight&quot; in their names may each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your creatures in the battle zone that have &quot;White Knight&quot; in their name gets +3000 power and &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55 Pillar of Feather, White Knight Fortress (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Parlock" id="f2856ed6-fd70-4410-b27c-a810fd2241c1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f2856ed6-fd70-4410-b27c-a810fd2241c1" name="Parlock">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Origin"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="4000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Poseidia Fish" id="ef742646-e0b2-45f6-9e9d-a50269980164">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ef742646-e0b2-45f6-9e9d-a50269980164" name="Poseidia Fish">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fish/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;When this creature blocks a non-evolution creature, it gets +2000 power."/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks a non-evolution creature, it gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Time Changer, Space-Time Engineer" id="7d2f21f7-8562-4b43-9efd-a4078b112ddd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7d2f21f7-8562-4b43-9efd-a4078b112ddd" name="Time Changer, Space-Time Engineer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, choose an Evolution Creature in your Battle Zone.  Search your deck for 2 creatures, reveal them, and put them&#xD;&#xA;&#xD;&#xA;under the chosen Evolution Creature.  Shuffle your deck."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your evolution creatures in the battle zone. If you do, search your deck and you may take up to 2 creatures from your deck, show them to your opponent, and put them under the chosen evolution creature. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Ordion, the Parasite" id="4fe023f3-a926-4d4b-8520-fb246c294888">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4fe023f3-a926-4d4b-8520-fb246c294888" name="Ordion, the Parasite">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Parasite Worm/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Parasite Worms or Origins&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, destroy 1 of your opponent's creatures with &quot;Blocker&quot;."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Parasite Worms or Origins.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Spacetime Man" id="51e1e38e-d6cc-409f-b5a3-1340498cf1cd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="51e1e38e-d6cc-409f-b5a3-1340498cf1cd" name="Spacetime Man">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;When this card is destroyed, instead of the graveyard, you may put this card under one of your evolution creatures."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this card would be destroyed, you may put this card under one of your evolution creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="XENOM, the Reaper Fortress" id="34b5526b-e4eb-47fb-9b52-b0c7b8f6b30c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="34b5526b-e4eb-47fb-9b52-b0c7b8f6b30c" name="XENOM, the Reaper Fortress">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress&#xD;&#xA;When this Fortress is put into the shield zone to fortify a shield, discard 1 card from your opponent's hand at random.&#xD;&#xA;You may have all of your creatures with &quot;Reaper&quot; in their names cost 1 less to summon. They can't cost less than 1.&#xD;&#xA;All of your creatures with &quot;Reaper&quot; in their names get +2000 power."/>
-      <property name="Power" value=""/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ When this castle is put into the shield zone to fortify a shield, your opponent discards a card at random from their hand.&#xA;■ Your creatures that have &quot;Reaper&quot; in their name may cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your creatures that have &quot;Reaper&quot; in their name gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55 XENOM, the Reaper Fortress (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Bolzard, Super Infinite Dragon" id="77ed07be-36e7-4657-b489-606b6b05c4e8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="77ed07be-36e7-4657-b489-606b6b05c4e8" name="Bolzard, Super Infinite Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your creatures.&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard.If you do, choose 1 of the following abilities and activate it:&#xD;&#xA;-Your opponent chooses 1 card in their mana zone and puts it in their graveyard.&#xD;&#xA;-Choose 1 of your opponent's cross gears and put it into its owner's graveyard.&#xD;&#xA;-Choose 1 Fortress that is fortifying your opponent's shields and put it into its owner's graveyard.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Super Infinite evolution—Put on one or more of your creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose one of the following:&#xA;► Your opponent chooses a card in their mana zone and puts it into their graveyard:&#xA;► Choose one of your opponent's cross gear and put it into its owner's graveyard:&#xA;► Choose a castle that is fortifying your opponent's shields and put it into its owner's graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55 Bolzard, Super Infinite Dragon (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Luluke &quot;Shigen&quot; Lupia" id="2cf567fe-34dc-4fb6-a613-facafb656d17">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2cf567fe-34dc-4fb6-a613-facafb656d17" name="Luluke &quot;Shigen&quot; Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Samurai"/>
-      <property name="Rules" value="Whenever one of your Dragons with &quot;Sword Flash&quot; in their name attacks, destroy 1 of your opponent's creatures with less power than that Dragon.&#xD;&#xA;Saver: Dragons with &quot;Sword Flash&quot; in their name. (If one of your Dragons with &quot;Sword Flash&quot; in their name is destroyed, you may destroy this creature instead.)&#xD;&#xA;&#xD;&#xA;"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons that has &quot;Sword Flash&quot; in its name attacks, destroy one of your opponent's creatures that has less power than it.&#xA;■ Saver: Dragons that have &quot;Sword Flash&quot; in their name. (If one of your Dragons that has &quot;Sword Flash&quot; in its name would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Drilly, Planetary Hero" id="be671462-3f45-4cd8-b06a-c56471f9bb0a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="be671462-3f45-4cd8-b06a-c56471f9bb0a" name="Drilly, Planetary Hero">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Eater/Origin"/>
-      <property name="Rules" value="Whenever one of your other creatures is destroyed, or 1 of the cards under your evolution creatures is put in the graveyard, you may choose a number. If you do,&#xD;&#xA;&#xD;&#xA;reveal the top card of your deck. If that card has a cost equal to your chosen number, destroy 1 of your opponent's creatures with 5000 power or less. (Afterwards, return the revealed card to the&#xD;&#xA;&#xD;&#xA;top of your deck face down.)"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your other creatures is destroyed, or one of the cards under your evolution creatures is put in your graveyard, you may choose a number. If you do, reveal the top card of your deck. If that card costs the same as your chosen number, destroy one of your opponent's creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Edgar King Lion, Amazing Artiste" id="e86ad792-c6fd-4bf4-a567-ed16ea4ec56a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e86ad792-c6fd-4bf4-a567-ed16ea4ec56a" name="Edgar King Lion, Amazing Artiste">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Dreammates or Origins&#xD;&#xA;Meteor Burn: When this creature attacks, you may put 1 card under this creature into your graveyard. If you do, put the top card of your deck into your mana zone."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dreammates or Origins.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Original Nature" id="5273426a-420b-4db8-ab7a-b0d48bb09ee3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5273426a-420b-4db8-ab7a-b0d48bb09ee3" name="Original Nature">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Emerald Monster/Origin"/>
-      <property name="Rules" value="When you tap mana to summon this creature, the mana number of Origins in your mana zone becomes 2 instead of 1. (Tapping an Origin to summon this creature&#xD;&#xA;&#xD;&#xA;generates 2 mana instead of 1.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ While you are summoning this creature, the mana number of Origins in your mana zone becomes 2 instead of 1.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Burst Totem" id="ab6d77c5-a057-4e1c-9d50-b84129d9471b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ab6d77c5-a057-4e1c-9d50-b84129d9471b" name="Burst Totem">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem/Origin"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When you put this creature into the battle zone, you may destroy this creature. If you do, you may put 1 of your opponent's untapped creatures with 3000 power or less into its&#xD;&#xA;&#xD;&#xA;owner's mana zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may destroy this creature. If you do, you may choose one of your opponent's untapped creatures in the battle zone that has power 3000 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Celeste, Explosive Enforcer" id="a37db3d8-3d45-442b-904c-c57edb15e812">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a37db3d8-3d45-442b-904c-c57edb15e812" name="Celeste, Explosive Enforcer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When you put this creature into the battle zone, you may destroy it. If you do, tap up to 2 of your opponent's creatures in the battle zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may destroy this creature. If you do, tap up to 2 of your opponent's creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Pure Original" id="2b6b3be9-42a7-406b-a817-2ddd3c6f1cb6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2b6b3be9-42a7-406b-a817-2ddd3c6f1cb6" name="Pure Original">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shine Monster/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When you tap mana to summon this creature, the mana number of Origins in your mana zone becomes 2 instead of 1. (Tapping an Origin to summon this creature generates&#xD;&#xA;&#xD;&#xA;2 mana instead of 1.)"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ While you are summoning this creature, the mana number of Origins in your mana zone becomes 2 instead of 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Effex, Mecha Monk" id="c7ae4fad-57a1-48fa-93a4-e5fe883a5f5b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c7ae4fad-57a1-48fa-93a4-e5fe883a5f5b" name="Effex, Mecha Monk">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer/Great Mecha King/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When this card is put into a graveyard, if just before it was put in the graveyard it was under an evolution creature, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this card is put into your graveyard, if just before it was put in your graveyard it was under one of your evolution creatures, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Light Gate" id="ba93866d-1a84-4598-a399-f78c01e28799">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ba93866d-1a84-4598-a399-f78c01e28799" name="Light Gate">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Put 1 creature with &quot;Blocker&quot; that costs 3 or less into the battle zone from your graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a creature that has &quot;blocker&quot; that costs 3 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Aqua Burster" id="43d23689-3ecd-4341-8090-22fdc1e30dbb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="43d23689-3ecd-4341-8090-22fdc1e30dbb" name="Aqua Burster">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Origin"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When you put this creature into the battle zone, you may destroy this creature. If you do, choose 1 creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may destroy this creature. If you do, choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Cutie Lupia" id="774994a1-6fb2-4b93-9a03-cca236fb4a6e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="774994a1-6fb2-4b93-9a03-cca236fb4a6e" name="Cutie Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="Whenever one of your creatures with &quot;NEX&quot; in its name would be destroyed, you may return it to your hand instead."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your creatures that has NEX in its name would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55 Cutie Lupia (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Luciano, Electro-Fuuma" id="8d9d7070-6421-4c33-b8e3-d7875407679f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8d9d7070-6421-4c33-b8e3-d7875407679f" name="Luciano, Electro-Fuuma">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Grand Devil/Origin"/>
-      <property name="Rules" value="When this card is put into a graveyard, if just before it was put in the graveyard it was under an evolution creature, you may draw 1 card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this card is put into your graveyard, if just before it was put in your graveyard it was under one of your evolution creatures, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Original Brain" id="2cb3f650-8bc1-4f84-8142-e5987aaa9754">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2cb3f650-8bc1-4f84-8142-e5987aaa9754" name="Original Brain">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="When you tap mana to cast this spell, the mana number of Origins in your mana zone becomes 2 instead of 1. (Tapping an Origin to cast this spell generates 2&#xD;&#xA;&#xD;&#xA;mana instead of 1.)&#xD;&#xA;Look at the top 4 cards of your deck. Put up to 2 of these into your hand and the rest on the bottom of your deck in any order."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ While you are casting this spell, the mana number of Origins in your mana zone becomes 2 instead of 1.&#xA;■ Look at the top 4 cards of your deck. Put up to 2 of them into your hand and the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Original Darkness" id="101833f1-14cb-45d8-9741-d83e872a0a3e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="101833f1-14cb-45d8-9741-d83e872a0a3e" name="Original Darkness">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Monster/Origin"/>
-      <property name="Rules" value="When you tap mana to summon this creature, the mana number of Origins in your mana zone becomes 2 instead of 1. (Tapping an Origin to summon this creature&#xD;&#xA;&#xD;&#xA;generates 2 mana instead of 1.)&#xD;&#xA;Slayer"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ While you are summoning this creature, the mana number of Origins in your mana zone becomes 2 instead of 1.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Death Circle, the Explosive Shadow" id="a5feba11-ce85-4283-893a-1cd2bec0afcc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a5feba11-ce85-4283-893a-1cd2bec0afcc" name="Death Circle, the Explosive Shadow">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When you put this creature into the battle zone, you may destroy it. If you do, choose 1 of your opponent's untapped creatures and destroy it."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may destroy this creature. If you do, your opponent chooses one of their untapped creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Samohan, Parasitic Battle Dragon" id="f7e4152c-8303-4ec2-9949-3b7825a0e143">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f7e4152c-8303-4ec2-9949-3b7825a0e143" name="Samohan, Parasitic Battle Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm/Tyranno Drake/Origin"/>
-      <property name="Rules" value="When this card is put into a graveyard, if just before it was put in the graveyard it was under an evolution creature, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this card is put into your graveyard, if just before it was put in your graveyard it was under one of your evolution creatures, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Reaper Hand" id="7db9554d-24c0-4ff3-85ac-945a74826f0a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7db9554d-24c0-4ff3-85ac-945a74826f0a" name="Reaper Hand">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy 1 of your opponent's creatures. &#xD;&#xA;If you have a creature with &quot;Reaper&quot; in its name in your battle zone, your opponent chooses 1 card in their hand and discards it."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures.&#xA;■ If you have a creature that has &quot;Reaper&quot; in its name in the battle zone, your opponent discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Original Crimson Lord" id="5263a80c-2c4c-45b2-821d-ec4dd6915f94">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5263a80c-2c4c-45b2-821d-ec4dd6915f94" name="Original Crimson Lord">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster/Origin"/>
-      <property name="Rules" value="When you tap mana to summon this creature, the mana number of Origins in your mana zone becomes 2 instead of 1. (Tapping an Origin to summon this creature&#xD;&#xA;&#xD;&#xA;generates 2 mana instead of 1.)&#xD;&#xA;When you put this creature into the battle zone, destroy 1 of your opponent's creatures with &quot;Blocker&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ While you are summoning this creature, the mana number of Origins in your mana zone becomes 2 instead of 1.&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Mach Lupia" id="57dd23c0-c4d1-4450-86d0-f0be6407fcbe">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="57dd23c0-c4d1-4450-86d0-f0be6407fcbe" name="Mach Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="You may reduce the summoning cost of creatures with &quot;NEX&quot; in their name by 1. They can't cost less than 1.&#xD;&#xA;All of your Armored Dragons gain &quot;Speed Attacker&quot;.&#xD;&#xA;At the end of your turn, return all non-evolution Armored Dragons you put in the battle zone this turn to your hand."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your creatures that have NEX in their name each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your Armored Dragons in the battle zone has &quot;speed attacker&quot;.&#xA;■ At the end of each of your turns, return all non-evolution Armored Dragons you put into the battle zone this turn to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55 Mach Lupia (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Raven, Flying Mythical Beast" id="d7719cec-41b5-4365-b77f-14423064cf7a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d7719cec-41b5-4365-b77f-14423064cf7a" name="Raven, Flying Mythical Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Dreammate/Origin"/>
-      <property name="Rules" value="When this card is put into a graveyard, if just before it was put in the graveyard it was under an evolution creature, you may draw 1 card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this card is put into your graveyard, if just before it was put in your graveyard it was under one of your evolution creatures, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Phantom Lion's Flame" id="83c95d54-767e-427b-909d-c1e11e4bfa4c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="83c95d54-767e-427b-909d-c1e11e4bfa4c" name="Phantom Lion's Flame">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy 1 of your opponent\'s creatures with 2000 power or less OR choose 1 of your opponent\'s cross gears and put it in its owner\'s graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Destroy one of your opponent's creatures that has power 2000 or less.&#xA;► Choose one of your opponent's cross gear in the battle zone and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Nyanjiro, Treasure Cat" id="4e392cbd-f625-49a8-907b-a40fb5dfe49d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4e392cbd-f625-49a8-907b-a40fb5dfe49d" name="Nyanjiro, Treasure Cat">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Massu Lupia" id="cc036ce7-395c-4394-a896-631167c06680">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cc036ce7-395c-4394-a896-631167c06680" name="Massu Lupia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="All of your other creatures with &quot;NEX&quot; or &quot;Lupia&quot; in their name get +1000 power."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each of your other creatures in the battle zone that have NEX or Lupia in its name gets +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55 Massu Lupia (Heroes Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Lion-kid, Spirit Beast" id="d64f59a3-7d8c-46c0-916b-df6ffe8230aa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d64f59a3-7d8c-46c0-916b-df6ffe8230aa" name="Lion-kid, Spirit Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Arc Seraphim/Origin"/>
-      <property name="Rules" value="When this card is put into a graveyard, if just before it was put in the graveyard it was under an evolution creature, you may draw 1 card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this card is put into your graveyard, if just before it was put in your graveyard it was under one of your evolution creatures, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
-    <card name="Hustle Hustle" id="74c6e568-0112-44a1-928b-9027546f11ec">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="74c6e568-0112-44a1-928b-9027546f11ec" name="Hustle Hustle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This turn, all of your non-evolution creatures get +1000 power.&#xD;&#xA;This turn, all of your evolution creatures get +4000 power."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each of your non-evolution creatures in the battle zone gets +1000 power until the end of the turn.&#xA;■ Each of your evolution creatures in the battle zone get +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="cdacee1b-5749-42f1-888f-da5ed6e9e0db" name="Eternal Moon, the Enlightened White Knight">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Lunatic Emperor/Angel Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Ultimate evolution—Put on one of your light evolution creatures.&#xA;{DOUBLE BREAKER}&#xA;■ While this creature is tapped and you have no shields, your opponent's creatures can't attack you. (Your creatures can still be attacked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="bfaa11a5-e042-498a-8217-d3dd0b8034a1" name="Twilight Sigma, the Super-Electric">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Cyber in its race.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may return any number of your non-evolution creatures that have &quot;Cyber&quot; in their race from the battle zone to your hand. For each returned creature, you may put a non-evolution creature that has &quot;Cyber&quot; in its race from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="3d4f9a79-1d75-4834-ac20-857a7c273f87" name="Beginning Romanov, Lord of the Demonic Eye">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Dark Lord/Zombie Dragon/Knight"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Graveyard Galaxy Vortex evolution—Choose 3 darkness creatures in your graveyard and put this creature into the battle zone on top of those creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may choose any number of cards under this creature and put them into your graveyard. For each card put into your graveyard in this way, choose a card in your opponent's hand at random. Then your opponent reveals that card and puts that card on the bottom of their deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="b67a1028-26c1-4dae-be91-94c8e64ae302" name="Bolshack Cross NEX">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Players can't summon creatures that cost 4 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="514ddc56-84c4-43c6-8d77-beb073306462" name="Heracles, Birther of Gods">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaia Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ While you are summoning this creature, the mana number of Gods in your mana zone becomes 2 instead of 1. (Tapping a God to summon this creature creates 2 mana instead of 1.)&#xA;■ When you put this creature into the battle zone, you may return any number of Gods from your mana zone to your hand.&#xA;■ Your Gods each cost 3 less to summon. They can't cost less than 1.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
   </cards>

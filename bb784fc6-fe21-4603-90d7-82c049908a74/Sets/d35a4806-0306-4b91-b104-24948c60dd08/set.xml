@@ -20,724 +20,811 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Cobalt Ulpherion, the White Knight Lord of Spirits" id="a26e0cb7-fe54-40b9-879a-a97cd7d3ae3e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;Evolution: Put on 1 of your creatures with &quot;White Knight&quot; in its name.&#xD;&#xA;Your creatures with &quot;White Knight&quot; in their names untap the first time they are tapped each turn.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="8000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-35 Neverending Saga"/>
-    </card>
-    <card name="Fatal Spiral, Infinite Dragon" id="dec55958-486a-4ae1-b8d5-efff8480492c">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Poseidia Dragon/Origin"/>
-      <property name="Rules" value="Super Infinite Evolution: Put on 1 or more of your Origins or Dragons.&#xD;&#xA;When you put this creature into the battle zone, for each card under this creature you may choose 1 creature in the battle zone and return it to its owner's hand.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-35 Neverending Saga"/>
-    </card>
-    <card name="Ballom Monarch, Lord of Dark Reapers" id="2fc35b98-bab3-4711-b944-a911a93dab29">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Demon Commands or creatures with &quot;Reaper&quot; in its name.&#xD;&#xA;When your Demon Commands or creatures with &quot;Reaper&quot; in their name win a battle, you may put a creature into the battle zone from your graveyard.&#xD;&#xA;Triple Breaker"/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-35 Neverending Saga"/>
-    </card>
-    <card name="Romanov Kaiser NEX, the Super Enlightened" id="ed2e2c6a-2163-40e4-b965-63111ec629d5">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Armored Dragon/Luna's Sun Kaiser"/>
-      <property name="Rules" value="Ultimate Evolution MAX: Put on 1 of your Ultimate Evolution creatures.&#xD;&#xA;When you put this creature into the battle zone, destroy 2 of your opponent's creatures. Then, choose 2 cards in your opponent's mana zone and put them in their owner's graveyard.&#xD;&#xA;World Breaker&#xD;&#xA;When this creature leaves the battle zone, search your deck. Choose 1 Armored Dragon or creature with &quot;Romanov&quot; in its name and put it into the battle zone. Then, shuffle your deck."/>
-      <property name="Power" value="25000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-35 Neverending Saga"/>
-    </card>
-    <card name="Bishamon, the Great Enigma" id="bd170a42-f35f-4f4f-9098-29318e9a25ec">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="Mana Evolution: Choose a nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xD;&#xA;You may have your nature creatures cost up to 2 less to summon. They can't cost less than 1."/>
-      <property name="Power" value="5000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-35 Neverending Saga"/>
-    </card>
-    <card name="Ekaterina, Channeler of Suns" id="d3cb4b8c-7ab0-4d43-b9b6-9f26327cd375">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d3cb4b8c-7ab0-4d43-b9b6-9f26327cd375" name="Ekaterina, Channeler of Suns">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Sol/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;When this creature is destroyed, instead of your graveyard you may put this creature on the top of your deck."/>
       <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be destroyed, you may put it on the top of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Galaxy Operation Theta, the Super Enlightened" id="8a243fe5-868c-4245-b47e-5fdbe8dc1394">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8a243fe5-868c-4245-b47e-5fdbe8dc1394" name="Galaxy Operation Theta, the Super Enlightened">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Cyber Command/Luna's Sun Kaiser"/>
-      <property name="Rules" value="Ultimate Evolution MAX: Put on 1 of your Ultimate Evolution creatures.&#xD;&#xA;When this creature attacks, search your deck. You may choose a spell from it, and cast it without cost after you shuffle your deck.&#xD;&#xA;Triple Breaker&#xD;&#xA;When this creature leaves the battle zone, return all spells in your graveyard to your hand."/>
+      <property name="Race" value="Cyber Command/Luna's Sun Geyser"/>
       <property name="Power" value="14000"/>
+      <property name="Rules" value="■ Ultimate evolution MAX—Put on one of your Ultimate Evolution creatures.&#xA;■ Whenever this creature attacks, search your deck. You may choose a spell from it, then shuffle your deck, and cast it for no cost.&#xA;{TRIPLE BREAKER}&#xA;■ When this creature leaves the battle zone, return all spells in your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Atom, the Divine Core" id="3af4f019-b567-4aa8-8dd8-6f590a2402c6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3af4f019-b567-4aa8-8dd8-6f590a2402c6" name="Atom, the Divine Core">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="Gravity Zero: If there is a 5-part God this creature can link to in your battle zone, you may summon this creature without cost.&#xD;&#xA;When this creature attacks, destroy all of your opponent's creature that cost less than number of cards that make up this God. Afterwards, put all of your creatures into the battle zone from your graveyard that cost less than the number of cards that make up this God.&#xD;&#xA;Double Breaker&#xD;&#xA;God Link - Proton, the Original God (Left Side), Electron, the Original God (Right Side), or Neutron, the Original God (Top Side)"/>
-      <property name="Power" value="9000"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have a 5-part God this creature can link to in the battle zone, you may summon this creature for no cost.&#xA;■ Whenever this creature attacks, destroy all your opponent's creatures that cost less than the number of cards this creature consists of. Then put all your creatures that cost less than the number of cards that this creature consists of from your graveyard into the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ God Link (Proton, the Original God) Left Side, (Electron, the Original God) Right Side, or (Neutron, the Original God) Top Side"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Ken Geki, Absolute Ruler ~Final Flare~" id="f14a0f09-8a8e-476a-985b-a600054dcffa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f14a0f09-8a8e-476a-985b-a600054dcffa" name="Ken Geki, Absolute Ruler ~Final Flare~">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="25"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Flame Monster"/>
-      <property name="Rules" value="Evolution: Put on 1 of your creatures with &quot;Lord Gou Ken&quot; in its name.&#xD;&#xA;Soulshift (When you summon this creature, this creature's cost is reduced by the base creature's cost. However, it can't cost less than 1.)&#xD;&#xA;Quatro Breaker (This creature breaks 4 shields.)&#xD;&#xA;When this creature leaves play due to your opponent's spells or creature effects, you win the game."/>
       <property name="Power" value="23000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your creatures that has &quot;Lord Gou Ken&quot; in its name.&#xA;{SOULSHIFT} (When you summon this creature, this creature's cost is reduced by the base creature's cost. However, it can't cost less than 1.)&#xA;{QUATTRO BREAKER}&#xA;■ When this creature leaves the battle zone by the ability of one of your opponent's spells or creatures in the battle zone, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Galaxy Destiny, the Super Enlightened" id="da4b2b76-8ef7-4d3f-ac86-6a674abb53be">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="da4b2b76-8ef7-4d3f-ac86-6a674abb53be" name="Galaxy Destiny, the Super Enlightened">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Gaia Command/Luna's Sun Kaiser"/>
-      <property name="Rules" value="Ultimate Evolution MAX: Put on 1 of your Ultimate Evolution creatures.&#xD;&#xA;When this creature attacks, search your deck. You may choose up to 2 creatures from it and put them into the battle zone. Then, shuffle your deck.&#xD;&#xA;Triple Breaker"/>
+      <property name="Race" value="Gaia Command/Luna's Sun Geyser"/>
       <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Ultimate evolution MAX: Put on one of your Ultimate Evolution creatures.&#xA;■ Whenever this creature attacks, search your deck. You may put up to 2 creatures from among them. Then shuffle your deck.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Victory Meteor Moon, the Enlightened" id="7a23f057-cd99-41c7-84c1-c5aa2162f0d2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7a23f057-cd99-41c7-84c1-c5aa2162f0d2" name="Victory Meteor Moon, the Enlightened">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command/Lunatic Emperor"/>
-      <property name="Rules" value="Ultimate Evolution: Put on 1 of your Evolution creatures.&#xD;&#xA;Whenever your opponent's creatures attack, reveal the top card of your deck. If that card has &quot;Blocker&quot; you may put it into the battle zone. (If not, return it to the top of your deck face down.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11500"/>
+      <property name="Rules" value="■ Ultimate evolution—Put on one of your evolution creatures.&#xA;■ Whenever an opponent's creature attacks, reveal the top card of your deck. If that card is a creature that has &quot;blocker&quot;, you may put it into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="White Knight - Atomic Gainer" id="ecb51ab9-31fa-47f3-983e-03dfe7fc85c7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ecb51ab9-31fa-47f3-983e-03dfe7fc85c7" name="White Knight - Atomic Gainer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose 1 of your creatures in the battle zone. For each card that creature consists of, put the top card of your deck into your shields face down."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. For each card that creature consists of, put the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Bind EVO Charger" id="02b83686-3f18-41e1-8394-6059eb873f43">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="02b83686-3f18-41e1-8394-6059eb873f43" name="Bind EVO Charger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose 1 of your creatures. Then, your opponent chooses 1 of their creatures. This turn or next turn, all creatures except the chosen creatures can't attack.&#xD;&#xA;Evo Charger (When you cast this spell, put it in your mana zone instead of your graveyard. Then, you may put a creature from your mana zone under 1 of your evolution creatures.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. Then your opponent chooses one of their creatures in the battle zone. Creatures other than the chosen creatures can't attack this turn and next turn.&#xA;■ Evo Charger (After you cast this spell, put it into your mana zone instead of your graveyard. Then you may put a creature from your mana zone under one of your evolution creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Sinwind, Viral Fuuma" id="0ca15089-43c0-4864-9538-225603f8f49b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0ca15089-43c0-4864-9538-225603f8f49b" name="Sinwind, Viral Fuuma">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus/Grand Devil/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;When this creature battles, you may put the top 2 cards of your deck into your shields face down. If you do, shuffle all of your other cards in your shield zone (except for Fortresses) and put them on the bottom of your deck. (You may not look at the shuffled shield cards.)"/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature battles, you may add the top 2 cards of your deck to your shields face down. If you do, shuffle all of your other cards in your shield zone and put them on the bottom of your deck. (You can't look at the shuffled shield cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Svengali Crawler" id="5c193640-51c5-4fa6-8a12-1b8039d4197d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5c193640-51c5-4fa6-8a12-1b8039d4197d" name="Svengali Crawler">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater/Origin"/>
-      <property name="Rules" value="Your creatures can't attack creatures.&#xD;&#xA;Your opponent's creatures are put into the battle zone tapped."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Your creatures can't attack creatures.&#xA;■ Your opponent's creatures are put into the battle zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Catacrosin, Heat Absorbing Gunmech" id="5d464969-6f22-4cee-81a5-a31f5aa4c027">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5d464969-6f22-4cee-81a5-a31f5aa4c027" name="Catacrosin, Heat Absorbing Gunmech">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Origin"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose 1 of your creatures. For each card that creature consists of, you may draw 1 card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your creatures in the battle zone. For each card that creature consists of, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Darkness Romanov, the Enlightened" id="c07b89d5-e113-40bf-ab92-c797652825a7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c07b89d5-e113-40bf-ab92-c797652825a7" name="Darkness Romanov, the Enlightened">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dark Lord/Lunatic Emperor/Knight"/>
-      <property name="Rules" value="Ultimate Evolution: Put on 1 of your Evolution creatures.&#xD;&#xA;When you put this creature into the battle zone, look at your opponent's hand and discard up to 2 cards of your choice from it.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Ultimate evolution: Put on one of your evolution creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at your opponent's hand, choose up to 2 cards and your opponent discards them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Necrodragon Gizabakkar" id="cc622aa6-20d2-423d-afd6-cb834e4099b5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cc622aa6-20d2-423d-afd6-cb834e4099b5" name="Necrodragon Gizabakkar">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;When this creature wins a battle, if this creature had 4000 or more power than the losing creature break 1 of your opponent's shields.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature wins a battle, if this creature had 4000 or more power than the losing creature, break one of your opponent's shields.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Reaper - Atomic Destroyer" id="81e5f84b-9c96-4be8-9ab1-f7eca39e3124">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="81e5f84b-9c96-4be8-9ab1-f7eca39e3124" name="Reaper - Atomic Destroyer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose 1 of your creatures in the battle zone. For each card that creature consists of, your opponent chooses 1 of their creatures and destroys it."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. For each card that creature consists of, your opponent chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Soul Burn Dragon" id="708aaf49-cd61-49ca-93df-36bdd6f24c06">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="708aaf49-cd61-49ca-93df-36bdd6f24c06" name="Soul Burn Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="When this creature attacks, reveal the top card of your deck. If that card is a Fire Bird, you may put it into the battle zone. If that card is a Dragon, destroy 1 of your opponent's creatures with 4000 power or less. If that card is &quot;Überdragon Sunburst NEX&quot; you may put it on top of this card. (If you don't put the revealed card into the battle zone, return it to top of your deck face down.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top card of your deck. If that card is a Fire Bird you may put it into the battle zone. If that card is a Dragon, destroy one of your opponent's creatures that has power 4000 or less. If that card is &quot;Überdragon Sunburst NEX&quot; you may put it on top of this card.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Peacock Breath" id="0669d251-915e-4b30-aee0-fb0eedb7a331">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0669d251-915e-4b30-aee0-fb0eedb7a331" name="Peacock Breath">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This turn, all of your creatures get &quot;Power Attacker +3000&quot;. If you have an evolution creature or a linked god in your battle zone, all of your creatures get &quot;Power Attacker +6000&quot; instead.&#xD;&#xA;This turn, when your creatures attack, if they have 6000 or more power they gain &quot;Double Breaker&quot;.&#xD;&#xA;This turn, when your creature attack, if they have 12000 or more power they gain &quot;Triple Breaker&quot;."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;power attacker +3000&quot; until the end of the turn. If you have an evolution creature or a linked god in the battle zone, each of your creatures gets &quot;power attacker +6000&quot; instead.&#xA;■ This turn, whenever any of your creatures attacks, if they have power 6000 or more, they get &quot;double breaker&quot;.&#xA;■ This turn, whenever any of your creatures attacks, if they have power 12000 or more, they get &quot;triple breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Legend Lupia Wing" id="83bc425d-8cfd-400b-bd82-311915fa0e32">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="83bc425d-8cfd-400b-bd82-311915fa0e32" name="Legend Lupia Wing">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;This card may be crossed to a creature with &quot;Lupia&quot; in its name without cost.&#xD;&#xA;When the crossed creature attacks, search your deck. You may choose an Armored Dragon from it, show it your opponent, and put it into your hand. Then, shuffle your deck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ This card may be crossed to a creature that has Lupia in its name for no cost.&#xA;■ Whenever the crossed creature attacks, search your deck. You may take an Armored Dragon from it, show it your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Sarutahiko, the Great Hero" id="f49257fc-9dd1-43a8-aa5b-70cfffb94a83">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f49257fc-9dd1-43a8-aa5b-70cfffb94a83" name="Sarutahiko, the Great Hero">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Beast Folk/Origin"/>
-      <property name="Rules" value="Evolution: Put on 1 of your Beast Folk or Origins&#xD;&#xA;When you put this creature into the battle zone, search your deck. You may take up to 2 creatures from it that are Ultimate Evolution or Ultimate Evolution MAX creatures, show them to your opponent, and put them into your hand. Then, shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk or Origins.&#xA;■ When you put this creature into the battle zone, search your deck. You may take up to 2 creatures that have &quot;Ultimate evolution&quot; or &quot;Ultimate evolution MAX&quot; from your deck, show those creatures to your opponent, and put them into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Face Blow - Giga Smash" id="a29a9395-b937-416c-9dde-2993ed4976ee">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a29a9395-b937-416c-9dde-2993ed4976ee" name="Face Blow - Giga Smash">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This turn, all of your creatures get +2000 power.&#xD;&#xA;This turn, whenever one of your creatures wins a battle, if your creature had 4000 or more power than the losing creature, that creature breaks 1 of your opponent's shields."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +2000 power until the end of the turn.&#xA;■ This turn, whenever one of your creatures wins a battle, if your creature had 4000 or more power than the losing creature, that creature breaks one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Saga - Leo Shelter" id="86258954-b9aa-4e58-92be-22e9edcd42f0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="86258954-b9aa-4e58-92be-22e9edcd42f0" name="Saga - Leo Shelter">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Cross Gear&#xD;&#xA;This card may be crossed to an evolution creature or a linked god without cost.&#xD;&#xA;When the crossed creature would be destroyed, you may put this card into your mana zone instead. Then, you may return 1 creature from your mana zone to your hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ This card may be crossed to an evolution creature or a linked god for no cost.&#xA;■ Whenever the crossed creature would be destroyed, you may put this card into your mana zone instead. Then you may return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Proton, the Original God" id="bdf00610-d097-4a98-af64-160fde74066d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bdf00610-d097-4a98-af64-160fde74066d" name="Proton, the Original God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put the top card of your deck into your shields face down.&#xD;&#xA;God Link - Atom, the Divine Core (Right Side) or Lepton, the Original God (Top Side)&#xD;&#xA;While this creature is linked, it breaks an additional shield."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, add the top card of your deck to your shields face down.&#xA;■ God Link (Atom, the Divine Core) Right Side or (Lepton, the Original God) Top Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, it breaks an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Pasha, the Oracle" id="9bc1c033-7708-4518-9cb0-6d67456dda51">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9bc1c033-7708-4518-9cb0-6d67456dda51" name="Pasha, the Oracle">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer/Origin"/>
-      <property name="Rules" value="Saver: Evolution creatures or Gods"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Saver: Evolution creatures or Gods (When one of your evolution creatures or Gods would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="White Knight Gate" id="f444d7c2-4e04-4937-a7b9-81c2346f1811">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f444d7c2-4e04-4937-a7b9-81c2346f1811" name="White Knight Gate">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;You may put a creature with &quot;White Knight&quot; in its name into the battle zone from your hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may put a creature that has &quot;White Knight&quot; in its name from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Electron, the Original God" id="ea3db485-60c6-428d-96dd-cf9aa2d55895">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ea3db485-60c6-428d-96dd-cf9aa2d55895" name="Electron, the Original God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;Whenever you would draw a card, you may draw 2 cards instead. If you do, discard a card.&#xD;&#xA;God Link - Atom, the Divine Core (Left Side) or Quark, the Original God (Top Side)"/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you would draw a card, you may draw 2 cards instead. If you do, discard a card.&#xA;■ God Link (Atom, the Divine Core) Left Side and (Quark, the Original God) Top Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Fuuma Hagendi" id="ec115e27-a63c-4b6c-b5df-7db4075cf900">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ec115e27-a63c-4b6c-b5df-7db4075cf900" name="Fuuma Hagendi">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Whenever you put a God or Evolution creature into the battle zone, you may draw 1 card."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you put a God or evolution creature into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Surging Panya" id="674519d7-cf8b-4aa3-bea5-d16cfbd87bdd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="674519d7-cf8b-4aa3-bea5-d16cfbd87bdd" name="Surging Panya">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="When this creature is destroyed, you may choose 1 non-evolution creature or unlinked God and return it to its owner's hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may choose a non-evolution creature or unlinked God in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Balmantis Worm, Parasite of Death" id="44062f65-aeec-4bc1-bc16-1828ce9671f9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="44062f65-aeec-4bc1-bc16-1828ce9671f9" name="Balmantis Worm, Parasite of Death">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm/Origin"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose 1 of your creatures and 1 of your opponent's creatures. This turn, for each card your chosen creaure consists of, your opponent's creature gets -2000 power. (A creature with 0 or less power is destroyed.)"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your creatures and one of your opponent's creatures. For each card that creature consists of, the chosen opponent's creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Soul Stealing Vacuum" id="3967c997-a0b2-47f9-b37b-ed0ada6bc2f6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3967c997-a0b2-47f9-b37b-ed0ada6bc2f6" name="Soul Stealing Vacuum">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Choose 1 of your opponent's creatures. This turn, that creature gets -4000 power. (A creature with 0 or less power is destroyed.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone. That creature gets -4000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Original Heart, Ancient Blackmoon Fortress" id="f7119ef0-9298-452f-be3d-eb9649be2436">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f7119ef0-9298-452f-be3d-eb9649be2436" name="Original Heart, Ancient Blackmoon Fortress">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
-      <property name="Type" value="Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Fortress: Choose one of your shields and attach this card to fortify that shield. When the fortified shield leaves the shield zone, put this card into the graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into the graveyard.)&#xD;&#xA;Whenever your creatures attack, reveal the top card of your deck. If that card isn't a God, put it on the bottom of your deck. If that card is a God, you may put it into the battle zone. (If you don't wish to put it in the battle zone, return it to the top of your deck face down.)&#xD;&#xA;If the fortified shield isn't fortified by any other Fortresses, whenever the fortified shield would be broken by your opponent's creatures, you may return 1 of your other shields to your hand instead."/>
-      <property name="Power" value="0"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever any of your creatures attacks, reveal the top card of your deck. If that card isn't a God, put it on the bottom of your deck. If that card is a God, you may put it into the battle zone.&#xA;■ If the fortified shield isn't fortified by any other castles, whenever the fortified shield would be broken by your opponent's creatures, you may return one of your other shields to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Sunshine NEX, the Enlightened" id="c26ef661-138a-45b4-a883-17f6eca432c6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c26ef661-138a-45b4-a883-17f6eca432c6" name="Sunshine NEX, the Enlightened">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon/Lunatic Emperor/Samurai"/>
-      <property name="Rules" value="Ultimate Evolution: Put on 1 of your Evolution creatures.&#xD;&#xA;Double Breaker&#xD;&#xA;Whenever this creature would leave the battle zone, you may discard a non-creature card from your hand instead."/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Ultimate evolution—Put on one of your Evolution creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would leave the battle zone, you may discard a non-creature card from your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Borkov Shion" id="3ffb4719-15f9-45f0-80dd-71ff31e56f7b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3ffb4719-15f9-45f0-80dd-71ff31e56f7b" name="Borkov Shion">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Samurai"/>
-      <property name="Rules" value="All of your other fire creatures in the battle zone gain &quot;Speed Attacker&quot;.&#xD;&#xA;If any of your creatures with &quot;Sword Flash Dragon&quot; in their names are destroyed, you may shuffle them into your deck instead of putting them in your graveyard."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each of your other fire creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Whenever any of your creatures that have &quot;Sword Flash&quot; Dragon in their names would be destroyed, you may shuffle them into your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Super Burst Shot" id="6e44a03e-672e-4959-8f1b-f0e59174e5a2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6e44a03e-672e-4959-8f1b-f0e59174e5a2" name="Super Burst Shot">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy all of your opponent's creatures with 2000 power or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy all your opponent's creatures that have power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Ida, the Great Enigma" id="777d2f2d-a3a1-4b9e-beaf-021e86787343">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="777d2f2d-a3a1-4b9e-beaf-021e86787343" name="Ida, the Great Enigma">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Giant/Samurai"/>
-      <property name="Rules" value="Mana Evolution: Choose a nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Samba Totem" id="35a53ce4-f1a5-4108-959d-b38c5b6f5523">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="35a53ce4-f1a5-4108-959d-b38c5b6f5523" name="Samba Totem">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem/Origin"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;This creature is put into the battle zone tapped.&#xD;&#xA;When you put this creature into the battle zone, until the start of your next turn your opponent's creatures must attack this creature if possible."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ This creature is put into the battle zone tapped.&#xA;■ When you put this creature into the battle zone, until the start of your next turn, whenever your opponent's creatures attack, they attack this creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Pedona Nature" id="7c7f6fe7-4598-430e-8cbd-a49464ecd421">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7c7f6fe7-4598-430e-8cbd-a49464ecd421" name="Pedona Nature">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Emerald Monster"/>
-      <property name="Rules" value="When you put this creature into the battle zone, if you don't have an evolution creature or linked God in your battle zone destroy this creature."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you don't have an evolution creature or linked God in the battle zone, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Gunes Valkyrie, Holy Vizier" id="df220180-671e-4b0c-ad24-e6a9e74b43fe">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="df220180-671e-4b0c-ad24-e6a9e74b43fe" name="Gunes Valkyrie, Holy Vizier">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;Evolution: Put on 1 of your creatures with &quot;Blocker&quot;.&#xD;&#xA;When you put this creature into the battle zone, you may tap 1 of your opponent's creatures in the battle zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Lepton, the Original God" id="d8c72b5f-77e1-49ff-abe7-08868db80b39">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d8c72b5f-77e1-49ff-abe7-08868db80b39" name="Lepton, the Original God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="God Link - Neutron, the Original God (Right Side) or Proton, the Original God (Bottom Side)&#xD;&#xA;While this creature is linked, all cards returned to your hand with &quot;Original God&quot; in their names from your shield zone gain &quot;Shield Trigger&quot;."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ God Link (Neutron, the Original God) Right Side or (Proton, the Original God) Bottom Side&#xA;■ While this creature is linked, each of your cards added to your hand from yourshields that have &quot;Original God&quot; in their names gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Makkor, Impregnable White Knight" id="04c6ad49-06ad-4c7e-8bb0-6122fc541bad">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="04c6ad49-06ad-4c7e-8bb0-6122fc541bad" name="Makkor, Impregnable White Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;[Blocker]  Blocker&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="1500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Solar Grace" id="32d8ca33-6d14-4854-8844-2d3e46cd6d73">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="32d8ca33-6d14-4854-8844-2d3e46cd6d73" name="Solar Grace">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Tap 1 of your opponent's creatures in the battle zone. If you have an evolution creature or linked God in your battle zone, you may tap another creature in your opponent's battle zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it. If you have an evolution creature or linked God in the battle zone, you may tap another of your opponent's creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Andorage, Lord of Devils" id="02f8cd04-5714-4860-842a-99bf48ed9812">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="02f8cd04-5714-4860-842a-99bf48ed9812" name="Andorage, Lord of Devils">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Hand Evolution: Choose 1 water creature in your hand and put this creature into your battle zone on top of the chosen card.&#xD;&#xA;When you put this creature into the battle zone, you may draw 2 cards. If you do, discard 2 cards."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Hand evolution—Choose a water creature in your hand and put this creature into the battle zone on top of that creature.&#xA;■ When you put this creature into the battle zone, you may draw 2 cards. If you do, discard 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Aqua Sparta" id="30f5611f-0fa1-44dd-83c1-6b9aad147143">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="30f5611f-0fa1-44dd-83c1-6b9aad147143" name="Aqua Sparta">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Origin"/>
-      <property name="Rules" value="[Blocker]  Blocker"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Quark, the Original God" id="98974641-f9f0-41b6-94f7-80ebb7882c67">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="98974641-f9f0-41b6-94f7-80ebb7882c67" name="Quark, the Original God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="God Link - Neutron, the Original God (Left Side) or Electron, the Original God (Bottom Side)&#xD;&#xA;While this creature is linked, at the end of your turn you may draw 1 card for each card in your shield zone you returned to your hand."/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ God Link (Neutron, the Original God) Left Side or (Electron, the Original God) Bottom Side&#xA;■ While this creature is linked, at the end of each of your turns, you may draw a card for each shield put into your hand that turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Invincible EVO Charger" id="1c88283e-68e6-40cc-bfea-67037aa0862d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1c88283e-68e6-40cc-bfea-67037aa0862d" name="Invincible EVO Charger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose 1 of your creatures in the battle zone. This turn, that creature can't be blocked.&#xD;&#xA;Evo Charger (When you cast this spell, put it in your mana zone instead of your graveyard. Then, you may put a creature from your mana zone under 1 of your evolution creatures.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. It can't be blocked this turn.&#xA;■ Evo Charger (After you cast this spell, put it into your mana zone instead of your graveyard. Then you may put a creature from your mana zone under one of your evolution creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Dorgedos, the Reaper Drake" id="67c0ddd9-2087-4890-aee1-3ac56484fea5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="67c0ddd9-2087-4890-aee1-3ac56484fea5" name="Dorgedos, the Reaper Drake">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Graveyard Evolution: Choose 1 darkness creature in your graveyard and put this card into your battle zone on top of the chosen card.&#xD;&#xA;When you put this creature into the battle zone, choose 1 of your opponent's creatures. This turn, that creature can't block."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Graveyard evolution—Choose a darkness creature in your graveyard and put this creature into the battle zone on top of that creature.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. This turn, that creature can't block."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Neutron, the Original God" id="b13a5843-02ed-489d-9f8d-f4a4b2915688">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b13a5843-02ed-489d-9f8d-f4a4b2915688" name="Neutron, the Original God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God/Origin"/>
-      <property name="Rules" value="God Link - Proton, the Original God (Left Side) or Quark, the Original God (Right Side) or Atom, the Divine Core (Bottom Side)&#xD;&#xA;While this creature is linked, it breaks an additional shield.&#xD;&#xA;While this creature is linked, at the end of your turn you may return 1 of your shields to your hand. (You may use this card's Shield Trigger.)"/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ God Link (Lepton, the Original God) Left Side or (Quark, the Original God) Right Side or (Atom, the Divine Core) Bottom Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, it breaks an additional shield.&#xA;■ While this creature is linked, at the end of your turn you may return one of your shields to your hand. (You may use that card's &quot;shield trigger&quot;.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Killer Noise Maracas" id="5545754d-e380-4d69-b091-959a4bbcfe5a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5545754d-e380-4d69-b091-959a4bbcfe5a" name="Killer Noise Maracas">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gargoyle"/>
-      <property name="Rules" value="[Blocker]  Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;If you have an evolution creature or a linked God in the battle zone, this creature gains &quot;Slayer&quot;."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ While you have an evolution creature or linked God in the battle zone, this creature has &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Reborn EVO Charger" id="e9a46aac-2f8a-4f00-86d4-2f8383427d03">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e9a46aac-2f8a-4f00-86d4-2f8383427d03" name="Reborn EVO Charger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put up to 2 creatures from your graveyard on top of your deck in any order.&#xD;&#xA;Evo Charger (When you cast this spell, put it in your mana zone instead of your graveyard. Then, you may put a creature from your mana zone under 1 of your evolution creatures.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put up to 2 creatures from your graveyard on top of your deck in any order.&#xA;■ Evo Charger (After you cast this spell, put it into your mana zone instead of your graveyard. Then you may put a creature from your mana zone under one of your evolution creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Mach Phoenix, Super-Alloy" id="1a1a4b15-6460-47fb-bf2b-d0548477bc0b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1a1a4b15-6460-47fb-bf2b-d0548477bc0b" name="Mach Phoenix, Super-Alloy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armorloid/Origin"/>
-      <property name="Rules" value="Deck Evolution: Reveal the top card of your deck. If that card is a creature, put this creature into the battle zone on top of the revealed creature. If the revealed card isn't a creature return this creature to your hand."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{DECK EVOLUTION} —Reveal the top card of your deck. If that card's a creature, put this creature into the battle zone on top of the revealed creature. If the revealed card isn't a creature, return this creature to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Yashichi, Crimson Lord" id="ff9b241b-1088-4d25-b7ee-91d2406d31a2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ff9b241b-1088-4d25-b7ee-91d2406d31a2" name="Yashichi, Crimson Lord">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster"/>
-      <property name="Rules" value="If you have an evolution creature or linked God in your battle zone, this creature gains &quot;Speed Attacker&quot;."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ If you have an evolution creature or linked God in the battle zone, this creature gets &quot;Speed Attacker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Vorg, Earl of Engagement" id="c5397590-f209-458b-a804-97bc543762ea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c5397590-f209-458b-a804-97bc543762ea" name="Vorg, Earl of Engagement">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="This creature attacks creatures each turn, if possible.&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ This creature attacks creatures each turn if able.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Critical EVO Charger" id="888ee50c-84cb-4b52-9a01-cd50d10a6fd5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="888ee50c-84cb-4b52-9a01-cd50d10a6fd5" name="Critical EVO Charger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy 1 of your opponent's creatures with &quot;Blocker&quot;.&#xD;&#xA;Evo Charger (When you cast this spell, put it in your mana zone instead of your graveyard. Then, you may put a creature from your mana zone under 1 of your evolution creatures.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;■ Evo Charger (After you cast this spell, put it into your mana zone instead of your graveyard. Then you may put a creature from your mana zone under one of your evolution creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Zetsu Gowan, Savage Fairy" id="3bd4a2b0-513e-49e0-a554-acc6264ebdb9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3bd4a2b0-513e-49e0-a554-acc6264ebdb9" name="Zetsu Gowan, Savage Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie/Beast Folk/Origin"/>
-      <property name="Rules" value="If you have an evolution creature or linked God in the battle zone, this creature gets &quot;Power Attacker +4000&quot; and &quot;Double Breaker&quot;."/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ If you have an evolution creature or linked God in the battle zone, this creature gets &quot;Power attacker +4000&quot; and &quot;Double breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Manaan, Priest of Harvests" id="e47f1474-bcdc-4165-92b9-239bbfe02840">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e47f1474-bcdc-4165-92b9-239bbfe02840" name="Manaan, Priest of Harvests">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="When you put this creature into the battle zone, choose 1 of your creatures. For each card that creature consists of, put the top card of your deck into your mana zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your creatures in the battle zone. For each card that creature consists of, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Snow Shunfist, Savage Fairy" id="02faf69f-6747-4151-9570-bf56f9a88089">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="02faf69f-6747-4151-9570-bf56f9a88089" name="Snow Shunfist, Savage Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie/Beast Folk/Origin"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="2000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
-    <card name="Crest EVO Charger" id="ceb6d5ed-f0b7-4067-bd94-4e75c69c0ac1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ceb6d5ed-f0b7-4067-bd94-4e75c69c0ac1" name="Crest EVO Charger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Search your deck. You may choose an evolution creature from it, show it to your opponent, and put it into your hand. Then, shuffle your deck.&#xD;&#xA;Evo Charger (When you cast this spell, put it in your mana zone instead of your graveyard. Then, you may put a creature from your mana zone under 1 of your evolution creatures.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Search your deck. You may take an evolution creature from your deck, show that evolution creature to your opponent, and put it into your hand. Then shuffle your deck.&#xA;■ Evo Charger (After you cast this spell, put it into your mana zone instead of your graveyard. Then you may put a creature from your mana zone under one of your evolution creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-35 Neverending Saga"/>
+    </card>
+    <card id="a26e0cb7-fe54-40b9-879a-a97cd7d3ae3e" name="Cobalt Ulpherion, the White Knight Lord of Spirits">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;White Knight&quot; in their name.&#xA;■ Your creatures that have &quot;White Knight&quot; in their names untap the first time they are tapped each turn.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-35 Neverending Saga"/>
+    </card>
+    <card id="dec55958-486a-4ae1-b8d5-efff8480492c" name="Fatal Spiral, Infinite Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Poseidia Dragon/Origin"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Super Infinite evolution—Put on one or more of your Origins or Dragons.&#xA;■ When you put this creature into the battle zone, for each card under this creature you may choose a creature in the battle zone and return it to its owner's hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-35 Neverending Saga"/>
+    </card>
+    <card id="2fc35b98-bab3-4711-b944-a911a93dab29" name="Ballom Monarch, Lord of Dark Reapers">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands or creatures that has &quot;Reaper&quot; in its name.&#xA;■ Whenever one of your Demon Commands or creatures that have &quot;Reaper&quot; in its name wins a battle, you may put a creature from your graveyard into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-35 Neverending Saga"/>
+    </card>
+    <card id="ed2e2c6a-2163-40e4-b965-63111ec629d5" name="Romanov Kaiser NEX, the Super Enlightened">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon/Luna's Sun Geyser"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Ultimate evolution MAX—Put on one of your Ultimate Evolution creatures.&#xA;■ When you put this creature into the battle zone, destroy 2 of your opponent's creatures. Then choose 2 cards in your opponent's mana zone and put them into their owners' graveyard.&#xA;{WORLD BREAKER}&#xA;■ When this creature leaves the battle zone, search your deck. You may take an Armored Dragon or creature that has Romanov in its name from your deck and put it into the battle zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-35 Neverending Saga"/>
+    </card>
+    <card id="bd170a42-f35f-4f4f-9098-29318e9a25ec" name="Bishamon, the Great Enigma">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant/Samurai"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;■ Your nature creatures may each cost up to 2 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-35 Neverending Saga"/>
     </card>
   </cards>

@@ -20,724 +20,843 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Flare Fusion Dragoon" id="d390a821-afbd-49de-a633-22503c4000f1">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Bio Kick - When a Tyranno Drake you control attacks a player and is not blocked, you may discard this card fromyour hand. If so, choose any number of opponent's creatures with total power of 3000, and destroy them.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-23 The End of the Universe"/>
-    </card>
-    <card name="Supernova Bigbang Anastathis" id="081ff758-b30b-4acb-9aee-1ef5082f7b76">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution GV - Arc Seraphim, Dreammate, and/or Great Mecha King&#xD;&#xA;[Triple Breaker] [Blocker]&#xD;&#xA;When this creature is put into the Battle Zone, reveal the top 5 cards of your deck.  You may summon any number of creatures from these. Then put the rest of the cards into your Graveyard."/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-23 The End of the Universe"/>
-    </card>
-    <card name="Supernova Black Hole Thanatos" id="f7064afb-c267-4eac-b661-665ab860e2d2">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution GV - Grand Devil, Tyranno Drake, and/or Deep Marine&#xD;&#xA;[Triple Breaker] When this creature is put into the Battle Zone, put all cards under Evolution creatures into their owner's Graveyard.&#xD;&#xA;[Great Life Gate: Grand Devil, Tyranno Drake, Deep Marine, Brave Spirit] (When this creature is destroyed, you may return all Grand Devil, Tyranno Drake, Deep Marine, and Brave Spirit from your Graveyard to your hand. If so, put this creature on the bottom of your deck.)"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-23 The End of the Universe"/>
-    </card>
-    <card name="Batal Neptaras, Super Divine Dragon" id="361df41e-5613-4f12-a8d4-4d2a16681f41">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="Evolution - Dragon&#xD;&#xA;[Thrilling Three: Dragon] Search your deck for a card and add it to your hand. Shuffle your deck.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-23 The End of the Universe"/>
-    </card>
-    <card name="Algros Crusos, Super Divine Dragon" id="56d09d5c-b667-4294-9419-0d41f09eeea0">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Apollonia Dragon"/>
-      <property name="Rules" value="Evolution - Dragon&#xD;&#xA;[Double Breaker] When this creature is put into the Battle Zone, you may choose up to 2 opponent's creature in the Battle Zone and tap them.&#xD;&#xA;Meteorburn - When this creature attacks, put a card under this creature into your Graveyard. If you do, you may choose up to 2 opponent's creatures in the Battle Zone and tap them."/>
-      <property name="Power" value="9500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-23 The End of the Universe"/>
-    </card>
-    <card name="Invincible Giant Mecha Spartan J" id="0d5a09f9-df02-4f3c-ae37-ab2865de642c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0d5a09f9-df02-4f3c-ae37-ab2865de642c" name="Invincible Giant Mecha Spartan J">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Evolution - Great Mecha King&#xD;&#xA;[Double Breaker] [Blocker]&#xD;&#xA;When this creature blocks, after the battle, untap this creature.&#xD;&#xA;Meteorburn - When this creature would leave the Battle Zone, you may choose a card under this creature and put it into the Graveyard. If so, this creature remains in the Battle Zone."/>
       <property name="Power" value="6500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Great Mecha King.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, after the battle, untap this creature.&#xA;■ Meteorburn—When this creature would leave the battle zone, you may choose a card under this creature and put it into your graveyard instead. If you do, this creature stays in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Salvaged Mecha Soldier Kaizuke" id="59e5b3fa-742a-4524-87e5-5ff5aa366e69">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="59e5b3fa-742a-4524-87e5-5ff5aa366e69" name="Salvaged Mecha Soldier Kaizuke">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, look at your Shields. You may put one of them into your Graveyard.If so, put the top card of your deck into your Shields face-down.&#xD;&#xA;[Life Gate: Great Mecha King]&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your shields. You may put one of them into your graveyard. If you do, add the top card of your deck to your shields face down.&#xA;{LIFE GATE}: Great Mecha King (When this creature would be destroyed, you may return a Great Mecha King from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Dran Gileos, Nine Divine Dragoons" id="f869e159-d1b5-45ed-8654-c80712cceb28">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f869e159-d1b5-45ed-8654-c80712cceb28" name="Dran Gileos, Nine Divine Dragoons">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Zombie Dragon/Tyranno Drake"/>
-      <property name="Rules" value="Evolution - Zombie Dragon or Tyranno Drake&#xD;&#xA;[Double Breaker] When this creature is put into the Battle Zone, if you put it on top of a Tyranno Drake, choose a card from your opponent's hand and discard it.&#xD;&#xA;When this creature attacks, if the card under this creature is a Dragon, destroy an opponent's untapped creature."/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Zombie Dragons or Tyranno Drakes.&#xA;■ When you put this creature into the battle zone, if you put it on top of a Tyranno Drake, look at your opponent's hand and discard a card from it.&#xA;■ Whenever this creature attacks, if the card under it is a Dragon, you may destroy one of your opponent's untapped creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Luga Raiza, Battle Dragoon" id="53c0124c-60eb-4a8d-81da-0ec3552eefe9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="53c0124c-60eb-4a8d-81da-0ec3552eefe9" name="Luga Raiza, Battle Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Tyranno Drake"/>
-      <property name="Rules" value="When opponent plays a Spell, return this card from the Battle Zone to your hand.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When your opponent casts a spell, return this creature from the battle zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Pointy-Head Bremo" id="e93d7293-052c-43a6-b595-68773ee50690">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e93d7293-052c-43a6-b595-68773ee50690" name="Pointy-Head Bremo">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Bio Kick - When a Dreammate you control attacks and is not blocked, you may discard this card from your hand. If so, search your deck for a creature with the same name as the attacking creature, reveal it and put it into your hand. Shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BIO KICK} - Whenever one of your Dreammate attacks your opponent and isn't blocked, you may discard this card from your hand. If you do, search your deck. Take a creature from your deck that has the same name as the attacking creature, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Sald, Protection Spirit" id="4f4d3a30-fb77-4d32-8123-43f5a2ee89a4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4f4d3a30-fb77-4d32-8123-43f5a2ee89a4" name="Sald, Protection Spirit">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Saint Head"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, you may tap an opponent's creature for each Arc Seraphim you control in the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures for each of your Arc Seraphim in the battle zone. Then tap all chosen creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Evekis, Light Divine Dragon" id="04b560ee-8f52-4c2e-81d9-d769d4d1ce57">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="04b560ee-8f52-4c2e-81d9-d769d4d1ce57" name="Evekis, Light Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon"/>
-      <property name="Rules" value="When this creature wins a battle, you may search your deck for a Dragon, reveal it, and put it into your hand. Shuffle your deck."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever this creature wins a battle, search your deck. You may take a Dragon from it, show it to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Armored Interceptor Bright" id="622d7177-b9fc-40a8-a87e-13d5f0827b9d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="622d7177-b9fc-40a8-a87e-13d5f0827b9d" name="Armored Interceptor Bright">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Life Gate: Great Mecha King or Machine Hero] (When this creature is destroyed, you may return a Great Mecha King or Machine Hero, or one of each, from your Graveyard to your hand. If you do, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="■ {LIFE GATE}: Great Mecha King or Machine Hero (When this creature is destroyed, you may return a Great Mecha King or Machine Hero, or one of each, from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Commander Bubbleguy" id="ddd53481-2aab-4a09-b4ef-22b838382514">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ddd53481-2aab-4a09-b4ef-22b838382514" name="Commander Bubbleguy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, look at a number of cards from the top of your deck equal to the number of Great Mecha King you control in the Battle Zone. From there put a card into your hand, and return the rest to the bottom of your deck in any order."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, look at the top card of your deck for each of your Great Mecha Kings in the battle zone. Put one of those cards into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Gariev Eirsole" id="15d1b3df-832c-4ee9-9689-c31299484381">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="15d1b3df-832c-4ee9-9689-c31299484381" name="Fuuma Gariev Eirsole">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="When an opponent uses a &quot;Shield Trigger&quot; ability, you may draw up to 2 cards."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever your opponent uses &quot;shield trigger&quot;, you may draw up to 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Aqua Switch" id="74826d08-0165-4346-b5c6-2255a11cda2c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="74826d08-0165-4346-b5c6-2255a11cda2c" name="Aqua Switch">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="Bio Tackle - When a Liquid People you control attacks, at the beginning of the Battle, you may discard this card from your hand. If so, until the end the turn, all attacking creatures you control gain Power +1000 for each card in your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Liquid People attacks, you may discard this card from your hand at the start of the battle. If you do, each of your attacking creatures gets +1000 power for each card in your hand until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Mystic Gastol" id="2f12703c-098a-41c6-a657-b5b2972a97c7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2f12703c-098a-41c6-a657-b5b2972a97c7" name="Mystic Gastol">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Deep Marine"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, until end of turn, all of your opponent's tapped creatures gain Power -1000 for each Grand Devil you control in the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, each of your opponent's tapped creatures gets -1000 power for each of your Grand Devils in the battle zone until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Necrodragon Gilgazames" id="1c4b2578-5421-4aec-a527-434769a842ea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1c4b2578-5421-4aec-a527-434769a842ea" name="Necrodragon Gilgazames">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, discard a card from your hand.&#xD;&#xA;[Life Gate: Dragon]&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, discard a card from your hand.&#xA;{LIFE GATE}: Dragon (When this creature would be destroyed, you may return a Dragon from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Nightmare Dragoon" id="a7ebb97a-b804-4697-910b-a314ac4f6e4d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a7ebb97a-b804-4697-910b-a314ac4f6e4d" name="Nightmare Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Whenever your opponent uses the 'Shield Trigger' ability of one of their shields, your opponent discards a card from his hand."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of their shields, your opponent discards a card from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Dragforce, Battle Phoenix Dragon" id="bfd00f84-ad61-42ca-bb37-7ca4826c37a9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bfd00f84-ad61-42ca-bb37-7ca4826c37a9" name="Dragforce, Battle Phoenix Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Evolution - Tyranno Drake&#xD;&#xA;All creatures you control in the Battle Zone gain &quot;Speed Attacker&quot;.&#xD;&#xA;During the end of your turn, return all other creatures you control in the Battle Zone to your hand.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Tyranno Drake.&#xA;■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ At the end of each of your turns, return all your other creatures in the battle zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Bilifen the Explosion" id="5dac7106-86f2-4f90-adcd-1e8ce29f1a2d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5dac7106-86f2-4f90-adcd-1e8ce29f1a2d" name="Bilifen the Explosion">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brave Spirit"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, you may destroy an opponent's creature with power 2000 or less for each Tyranno Drake you control in the Battle Zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creature that has power 2000 or less for each of your Tyranno Drake in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Yulin, Ferry of the River Styx" id="36a638c4-8c13-4a28-a51d-a96c6dfc7d84">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="36a638c4-8c13-4a28-a51d-a96c6dfc7d84" name="Yulin, Ferry of the River Styx">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="[Life Gate: Dreammate or Vehicle Bee] (When this creature is destroyed, you may return a Dreammate or Vehicle Bee, or one of each, from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ {LIFE GATE}: Dreammate or Vehicle Bee (When this creature is destroyed, you may return a Dreammate or Vehicle Bee, or one of each, from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Grimm Grime, Amazing Artiste" id="9d905b9d-45d3-4e10-a376-3dfcaf551c2f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9d905b9d-45d3-4e10-a376-3dfcaf551c2f" name="Grimm Grime, Amazing Artiste">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Evolution - Put on one of your Dreammate&#xD;&#xA;When this creature is put into the Battle Zone, you may choose an opponent's Evolution Creature and put it into its owner's Mana Zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dreammates.&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Out-of-the-Blue Snail" id="0183cfd0-f257-45be-bd1f-c8dc1c3a3919">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0183cfd0-f257-45be-bd1f-c8dc1c3a3919" name="Out-of-the-Blue Snail">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Vehicle Bee"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the Battle Zone, you may put a card from the top of your deck into your Mana Zone for each Dreammate you control in the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may put the top card of your deck into your mana zone for each of your Dreammate in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Dual Carion, Spirit Knight" id="b7455cea-5169-4509-8657-ef79ab6ab3da">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b7455cea-5169-4509-8657-ef79ab6ab3da" name="Dual Carion, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="When your opponent uses a &quot;Shield Trigger&quot; ability, you may put the top card from your deck into your Mana Zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent uses &quot;shield trigger&quot;, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Force Rude, Holy Heaven Guardian" id="63f17d44-ae4a-4a3a-8939-aa7fbb956786">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="63f17d44-ae4a-4a3a-8939-aa7fbb956786" name="Force Rude, Holy Heaven Guardian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="Evolution - Put on one of your Guardian&#xD;&#xA;When this creature is put into the Battle Zone, your opponent chooses a Race. When battling with creature outside of the chosen Race, your creatures gain Power +6000."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;■ When you put this creature into the battle zone, your opponent chooses a race. Whenever one of your creatures battles a creature with a race other than the chosen, your creatures gets +6000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Mobile Stronghold Pyramilion" id="617bf17d-4424-4991-9a92-ae9142ca25cb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="617bf17d-4424-4991-9a92-ae9142ca25cb" name="Mobile Stronghold Pyramillion">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, look at 3 of your Shields.  You may choose a Machine Hero with cost 3 or less and put it into your Battle Zone.  If so, put the top card from your deck into Shields face-down."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at 3 of your shields. You may take a Machine Hero that costs 3 or less from among them and put it into the battle zone. If you do, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Terse Ruth, Lightboom Guardian" id="3c205368-217c-4b7e-80a8-6714c4131b53">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3c205368-217c-4b7e-80a8-6714c4131b53" name="Terse Ruth, Lightboom Guardian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack players.&#xD;&#xA;Whenever a card in your mana zone is put into the graveyard by an opponent, you may return that card to your mana zone."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent puts a card in your mana zone into your graveyard, you may return that card to your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Refrain Abyss, Blue Divine Dragon" id="4ac5d6b6-f786-4728-8441-12fab49dded5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4ac5d6b6-f786-4728-8441-12fab49dded5" name="Refrain Abyss, Blue Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="When this creature is destroyed, return it to your hand instead of putting it into the Graveyard.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, return it to your hand instead.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Chivalrous Robo Gentleman" id="d4fb9bca-1f87-4c4f-9dd4-55bf91444834">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d4fb9bca-1f87-4c4f-9dd4-55bf91444834" name="Chivalrous Robo Gentleman">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Bio Kick - When a Great Mecha King you control attacks and is not blocked, you may discard this card from your hand. If so, you may draw up to 2 cards."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BIO KICK} - Whenever one of your Great Mecha King attacks your opponent and isn't blocked, you may discard this card from your hand. If you do, draw up to 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Algors Vaison" id="91285256-810d-4708-b829-9a2d9e4a721c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="91285256-810d-4708-b829-9a2d9e4a721c" name="Fuuma Algors Vaison">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, look at the top 3 cards of your deck.  From there, you may put a Deep Marine that costs 3 or less into the Battle Zone, and return the rest to the top of your deck in any order."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at the top 3 cards of your deck. From among them, you may put a Deep Marine that costs 3 or less into the battle zone, and put the rest on the top of your deck in any order."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Revenge Alast" id="1cd14ba1-fc36-45eb-ada0-6a516463b046">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1cd14ba1-fc36-45eb-ada0-6a516463b046" name="Fuuma Revenge Alast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="During your opponent's turn, when a Grand Devil you control is destroyed, choose an   opponent's Shield and put it into its owner's Graveyard."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever one of your other Grand Devils is destroyed, choose one of your opponent's shields and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Salvador" id="487689af-c255-4d75-90a1-983f3eb55110">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="487689af-c255-4d75-90a1-983f3eb55110" name="Fuuma Salvador">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Bio Kick - When a Grand Devil you control attacks and is not blocked, you may discard this card from your hand. If so, your attacking creatures gain &quot;Double Breaker&quot; until end of turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BIO KICK} - Whenever one of your Grand Devil attacks your opponent and isn't blocked, you may discard this card from your hand. If you do, your attacking creatures get &quot;double breaker&quot; until the end of your turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Boneblade Dragoon" id="82427215-ada4-42fc-8bbc-27e0e7fadcfc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="82427215-ada4-42fc-8bbc-27e0e7fadcfc" name="Boneblade Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, you may return a Brave Spirit with a cost of 3 or less from your Graveyard to your Battle Zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put a Brave Spirit that costs 3 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Ambitious Dragon" id="c8e63ddd-c66c-41a8-8a73-5c320fa7fae4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c8e63ddd-c66c-41a8-8a73-5c320fa7fae4" name="Ambitious Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="This creature gains Power +2000 for each Fire Bird you control in the Battle Zone.&#xD;&#xA;When you control a Fire Bird in the Battle Zone, this creature gains &quot;Double Breaker&quot;."/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each of your Fire Birds in the battle zone.&#xA;■ While you have a Fire Bird in the battle zone, this creature has &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Sniped Shadow's Don Bat" id="988d9e93-4d9a-403f-a526-ccaf91cb0754">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="988d9e93-4d9a-403f-a526-ccaf91cb0754" name="Sniped Shadow's Don Bat">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, you may destroy a Saint Head, Deep Marine, Brave Spirit, or Machine Hero with a cost of 3 or less."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy a Saint Head, Deep Marine, Brave Spirit, or Machine Hero that costs 3 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Skyrab, the Reckless Brat" id="3787e39c-e12f-463f-9012-77991dccea7c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3787e39c-e12f-463f-9012-77991dccea7c" name="Skyrab, the Reckless Brat">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="[Speed Attacker]&#xD;&#xA;At the end of your turn, destroy this creature.&#xD;&#xA;Life Gate: Human (When this creature is destroyed, you may return a Human from your Graveyard to your hand instead.  If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ At the end of your turn, destroy this creature.&#xA;{LIFE GATE}: Human (When this creature would be destroyed, you may return a Human from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Rabbirionix, Spirit Knight" id="ae02c548-f44f-47d9-82b6-aa0b5d90f777">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ae02c548-f44f-47d9-82b6-aa0b5d90f777" name="Rabbirionix, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, you may move a Saint Head with a cost of 3 or less from your Mana Zone to the Battle Zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put a Saint Head that costs 3 or less from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Byakko, the Innocent Blade" id="466d5546-c389-48c8-86f7-e35ca40924a9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="466d5546-c389-48c8-86f7-e35ca40924a9" name="Byakko, the Innocent Blade">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Evolution creatures of any type can be put on the top of this creature."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ You can put an evolution creature of any race on this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Singing Maid Lin Lullaby" id="a592aaf1-3f64-46aa-8635-4a064741a1cb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a592aaf1-3f64-46aa-8635-4a064741a1cb" name="Singing Maid Lin Lullaby">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, each player puts the top card from their deck into their ManaZone.&#xD;&#xA;[Life Gate: Dreammate]"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, each player puts the top card of their deck into their mana zone.&#xA;{LIFE GATE}: Dreammate (When this creature would be destroyed, you may return a Dreammate from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Core Pulsar, Guardian of Reincarnation" id="d06c68e9-35d9-4c08-b26c-9ecfbff6568f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d06c68e9-35d9-4c08-b26c-9ecfbff6568f" name="Core Pulsar, Guardian of Reincarnation">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack players.&#xD;&#xA;Life Gate: Guardian (When this creature is destroyed, you may return a Guardian from your Graveyard to your hand. If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{LIFE GATE}: Guardian (When this creature would be destroyed, you may return a Guardian from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Zebles Shaman, Spirit Knight" id="898ecd60-03e5-4286-b102-a9dfcc22a0b6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="898ecd60-03e5-4286-b102-a9dfcc22a0b6" name="Zebles Shaman, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="Bio Kick - When a Grand Devil you control attacks and is not blocked, you may discard this card from your hand. If so, return 2 Light Spells from your Graveyard to your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BIO KICK} - Whenever one of your Arc Seraphim attacks your opponent and isn't blocked, you may discard this card from your hand. If you do, return up to 2 Light spells from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Crescent Ironman Restcatcher" id="61355abc-edc2-4591-bc3f-4ca5fad544ea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="61355abc-edc2-4591-bc3f-4ca5fad544ea" name="Crescent Ironman Restcatcher">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Life Gate: Great Mecha King (When this creature is destroyed, you may return a Great Mecha King from your Graveyard to your hand. If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{LIFE GATE}: Great Mecha King (When this creature would be destroyed, you may return a Great Mecha King from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Cloud Fighter Mecha Master Finger" id="0079d50b-1b68-4d57-bf74-18e0a2d6fa92">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0079d50b-1b68-4d57-bf74-18e0a2d6fa92" name="Cloud Fighter Mecha Master Finger">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Bio Tackle - When a Great Mecha King you control attacks, at the beginning of the Battle, you may discard this card from your hand. If so, until the end of  turn, all attacking creatures you control gain Power +1500. Untap all of the attacking creatures at the end of the turn."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Great Mecha King attacks, you may discard this card from your hand at the start of the battle. If you do, each of your attacking creatures gets +1500 power until the end of the turn and untaps at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Glemy" id="6fc37ae3-37b1-4c1e-8144-54be706b55da">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6fc37ae3-37b1-4c1e-8144-54be706b55da" name="Fuuma Glemy">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Bio Tackle - When a Grand Devil you control attacks, at the beginning of the Battle, you may discard this card from your hand. If so, return the creature that the Grand Devil is attacking to its owner's hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Grand Devil attacks, you may discard this card from your hand at the start of the battle. If you do, return the creature that the Grand Devil is attacking to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Sudden Thunder Drocaja" id="02232e3d-464c-49ce-a48e-c2838bc6188e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="02232e3d-464c-49ce-a48e-c2838bc6188e" name="Sudden Thunder Drocaja">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Fuuma Galsha" id="28675468-d7bc-476f-8a6b-56597ac3404b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="28675468-d7bc-476f-8a6b-56597ac3404b" name="Fuuma Galsha">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Life Gate: Grand Devil (When this creature is destroyed, you may return a Grand Devil from your Graveyard to yourhand. If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{LIFE GATE}: Grand Devil (When this creature would be destroyed, you may return a Grand Devil from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Filler Robo Concurion" id="cc10e478-849b-4680-a263-7f5d7883f6f4">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cc10e478-849b-4680-a263-7f5d7883f6f4" name="Filler Robo Concurion">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, choose any number of cards in your  opponent's Graveyard and put them on the bottom of their deck in any order."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose any number of cards in your opponent's graveyard and put them on the bottom of their deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Undertaker Dragoon" id="bd2ecacb-93b2-46cf-8009-29792421f714">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bd2ecacb-93b2-46cf-8009-29792421f714" name="Undertaker Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Life Gate: Tyranno Drake (When this creature is destroyed, you may return a Tyranno Drake from your Graveyard to your hand.  If so, put this creature on the  bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{LIFE GATE}: Tyranno Drake (When this creature would be destroyed, you may return a Tyranno Drake from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Gallypay, the Demonic Blade" id="c63f07bc-ac79-4c6f-b5a5-126adf17bb3e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c63f07bc-ac79-4c6f-b5a5-126adf17bb3e" name="Gallypay the Demonic Blade">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brave Spirit"/>
-      <property name="Rules" value="When a Tyranno Drake or Brave Spirit you control attacks and is not blocked, your opponent chooses a card from his/her handand discards it."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Tyranno Drake or Brave Spirit attacks and isn't blocked, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Death Hunter Dragoon" id="34bd3d13-bc4d-495f-843e-8e3065441b55">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="34bd3d13-bc4d-495f-843e-8e3065441b55" name="Death Hunter Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Bio Tackle - When a Tyranno Drake you control attacks, at the beginning of the Battle, you may discard this card from your hand.  If so, until the end of turn, your attacking creatures gain &quot;Slayer&quot;."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Tyranno Drake attacks, you may discard this card from your hand at the start of the battle. If you do, each of your attacking creatures gets &quot;slayer&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Yapp, Nuisance Doll" id="c0d271a2-cec4-43a6-90a9-0ee4a90355a6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c0d271a2-cec4-43a6-90a9-0ee4a90355a6" name="Yapp, Nuisance Doll">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, destroy a creature you control.&#xD;&#xA;Life Gate: Death Puppet (When this creature is destroyed, you may return a Death Puppet from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures.&#xA;{LIFE GATE}: Death Puppet (When this creature would be destroyed, you may return a Death Puppet from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Amazoness Dragoon" id="e64e27eb-4061-475c-a541-86c758e5cdaf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e64e27eb-4061-475c-a541-86c758e5cdaf" name="Amazoness Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Life Gate: Tyranno Drake (When this creature is destroyed, you may return a Tyranno Drake from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{LIFE GATE}: Tyranno Drake (When this creature would be destroyed, you may return a Tyranno Drake from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Goriyankee, Festival Boss" id="f462b633-04c5-4a26-a303-0e675098c198">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f462b633-04c5-4a26-a303-0e675098c198" name="Goriyankee, Festival Boss">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Bio Tackle - When a Tyranno Drake you control attacks, at the beginning of Battle, you may discard this card from your hand.  If so, until the end of turn, your attacking creatures gain &quot;Power Attacker +4000&quot;."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Dreammate attacks, you may discard this card from your hand at the start of the battle. If you do, each of your attacking creatures gets &quot;power attacker +4000&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Megamusashi Dragonflyer" id="33f6ddbe-600a-4486-bf02-a4777dc4a9e9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="33f6ddbe-600a-4486-bf02-a4777dc4a9e9" name="Megamusashi Dragonflyer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Vehicle Bee"/>
-      <property name="Rules" value="All Dreammate and Vehicle Bee you control   in the Battle Zone gain &quot;Power Attacker +3000&quot;."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ Each of your Dreammates and Vehicle Bees in the battle zone gets &quot;power attacker +3000&quot;. (While attacking, a creature that has &quot;power attacker +3000&quot; gets +3000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Express Dragoon" id="af044995-e3cf-4f3d-9e99-a835c9e2b5eb">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="af044995-e3cf-4f3d-9e99-a835c9e2b5eb" name="Express Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Cuckoo Clock Coco-Cala" id="d9a1ee75-3a8c-48a6-a28f-270ccdf63a61">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d9a1ee75-3a8c-48a6-a28f-270ccdf63a61" name="Cuckoo Clock Coco-Cala">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Algel, Spirit Knight" id="8508b80b-500a-4189-9740-f763235d14f0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8508b80b-500a-4189-9740-f763235d14f0" name="Algel, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="Life Gate: Arc Seraphim (When this creature is destroyed, you may return an Arc Seraphim from your Graveyard to your hand.  If so, put this creature on the bottom of your deck instead of the Graveyard.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{LIFE GATE}: Arc Seraphim (When this creature would be destroyed, you may return a Arc Seraphim from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Zebles Arms, Spirit Knight" id="20f5ec2b-1602-479a-ad77-cba46dda9449">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="20f5ec2b-1602-479a-ad77-cba46dda9449" name="Zebles Arms, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="Bio Tackle - When an Arc Seraphim you control attacks, at the beginning of the Battle, you may discard this card from your hand.  If so, until the end of turn, your attacking creatures gain Power +2000."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BIO TACKLE} Whenever one of your Arc Seraphim attacks, you may discard this card from your hand at the start of the battle. If you do, each of your attacking creatures gets +2000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
-    <card name="Maximum Cobra, Protection Spirit" id="f830f20a-309d-4ba8-bf68-5446d4d12a90">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f830f20a-309d-4ba8-bf68-5446d4d12a90" name="Maximum Cobra, Protection Spirit">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Saint Head"/>
-      <property name="Rules" value="When an Arc Seraphim or Saint Head you control is destroyed, you may put them into your Mana Zone instead of the Graveyard."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your Arc Seraphim or Saint Head would be destroyed, you may put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-23 The End of the Universe"/>
+    </card>
+    <card id="d390a821-afbd-49de-a633-22503c4000f1" name="Flare Fusion Dragoon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tyranno Drake"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BIO KICK} - Whenever one of your Tyranno Drake attacks your opponent and isn't blocked, you may discard this card from your hand. If you do, choose any number of opponent's creatures that have total power 3000 or less and destroy them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-23 The End of the Universe"/>
+    </card>
+    <card id="081ff758-b30b-4acb-9aee-1ef5082f7b76" name="Supernova Bigbang Anastasis">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Arc Seraphims, Dreammates, and/or Great Mecha Kings.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, reveal the top 5 cards of your deck. You may summon any number of creatures from among them for no cost. Then put the rest of the cards into your graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-23 The End of the Universe"/>
+    </card>
+    <card id="f7064afb-c267-4eac-b661-665ab860e2d2" name="Supernova Black Hole Thanatos">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Grand Devils, Tyranno Drakes, Deep Marines and/or Brave Spirits.&#xA;■ When you put this creature into the battle zone, put all cards under all evolution creatures into their owners' graveyards.&#xA;■ Goal Life Gate: Grand Devil, Tyranno Drake, Deep Marine, Brave Spirit (When this creature would be destroyed, you may return any number of Grand Devils, Tyranno Drakes, Deep Marines, and Brave Spirits from your graveyard to your hand. If you do, put this creature on the bottom of your deck instead.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-23 The End of the Universe"/>
+    </card>
+    <card id="361df41e-5613-4f12-a8d4-4d2a16681f41" name="Batal Neptaras, Super Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Poseidia Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}Search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-23 The End of the Universe"/>
+    </card>
+    <card id="56d09d5c-b667-4294-9419-0d41f09eeea0" name="Algros Crusos, Super Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Apollonia Dragon"/>
+      <property name="Power" value="9500"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;■ When you put this creature into the battle zone, you may choose up to 2 of your opponent's creatures in the battle zone and tap them.&#xA;■ Meteorburn—Whenever this creature can attack, you may put a card under this creature into your graveyard. If you do, you may choose up to 2 of your opponent's creatures in the battle zone and tap them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-23 The End of the Universe"/>
     </card>
   </cards>

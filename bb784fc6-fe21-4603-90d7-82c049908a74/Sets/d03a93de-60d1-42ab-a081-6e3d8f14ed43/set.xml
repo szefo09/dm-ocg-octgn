@@ -20,840 +20,812 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Miar, Comet Elemental" id="70270aa3-ff24-476c-be22-5b9f48fc682a">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="{DOUBLE BREAKER}"/>
-      <property name="Power" value="11500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Chaos Fish" id="9c7e3304-3aff-4362-a687-b5ca5333fe98">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="■ This creature gets +1000 power for each other water creature you have in the battle zone.&#xA;■ Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone."/>
-      <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Giriel, Ghastly Warrior" id="9df4d8ac-3c86-4c1f-b916-c9a384b0340f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="{DOUBLE BREAKER}"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Garkago Dragon" id="41c2e4dc-460f-459a-b7cf-ef17b5c9a4eb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Double breaker (This creature breaks 2 shields.) &#xD;&#xA;This creature gets +1000 power for each other fire creature you have in the battle zone. &#xD;&#xA;This creature can attack untapped creatures."/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-    </card>
-    <card name="Earthstomp Giant" id="54652ec5-3bc3-4124-9c67-b05ba56def5f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Giant"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, return all creatures from your mana zone to your hand."/>
-      <property name="Power" value="8000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Alek, Solidity Enforcer" id="4459f97b-8927-4231-a11d-f4f88175b71c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4459f97b-8927-4231-a11d-f4f88175b71c" name="Alek, Solidity Enforcer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature gets +1000 power for each other light creature you have in the battle zone."/>
       <property name="Power" value="4000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="1"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature gets +1000 power for each other light creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Aless, the Oracle" id="9d9468f8-3eb3-448c-8638-5d77c77f936b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="9d9468f8-3eb3-448c-8638-5d77c77f936b" name="Aless, the Oracle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="2"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Boomerang Comet" id="b275fbf0-5355-45ec-b3a8-a956cf898ae6">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b275fbf0-5355-45ec-b3a8-a956cf898ae6" name="Boomerang Comet">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand.&#xA;■ After you cast this spell, put it into your mana zone instead of your graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="3"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Lena, Vizier of Brilliance" id="6b6ff714-0602-48da-9ee0-2578aa8ea32e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6b6ff714-0602-48da-9ee0-2578aa8ea32e" name="Lena, Vizier of Brilliance">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="4"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Logic Sphere" id="96370266-e077-47c1-968f-0184bcb94227">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="96370266-e077-47c1-968f-0184bcb94227" name="Logic Sphere">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a spell from your mana zone to your hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="5"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Ra Vu, Seeker of Lightning" id="b052351d-dd6c-4c40-a6d7-840e23398ff1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b052351d-dd6c-4c40-a6d7-840e23398ff1" name="Ra Vu, Seeker of Lightning">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may return a light spell from your graveyard to your hand."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="6"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a light spell from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Raza Vega, Thunder Guardian" id="eb46cc3f-75b9-4b50-851f-bf1fd3e76c06">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="eb46cc3f-75b9-4b50-851f-bf1fd3e76c06" name="Raza Vega, Thunder Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Sieg Balicula, the Intense" id="c49be3ab-da9b-4af8-8377-0595ca3160ce">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c49be3ab-da9b-4af8-8377-0595ca3160ce" name="Sieg Balicula, the Intense">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ Each of your other light creatures in the battle zone has &quot;blocker&quot;. (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="8"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ Each of your other light creatures in the battle zone has &quot;blocker&quot;. (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Sparkle Flower" id="b9b1a83a-626c-471a-82ff-3e2372c9d838">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b9b1a83a-626c-471a-82ff-3e2372c9d838" name="Sparkle Flower">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Starlight Tree"/>
-      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="9"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Sundrop Armor" id="a097478c-af87-4316-b42d-888418d07919">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a097478c-af87-4316-b42d-888418d07919" name="Sundrop Armor">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Add a card from your hand to your shields face down."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="10"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Ur Pale, Seeker of Sunlight" id="7fdf0d01-a999-4f31-8a37-945396796998">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7fdf0d01-a999-4f31-8a37-945396796998" name="Ur Pale, Seeker of Sunlight">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
-      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature gets +2000 power."/>
       <property name="Power" value="2500+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="11"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature gets +2000 power."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Angler Cluster" id="f76fd433-24ba-41e3-81eb-622cad7247e2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f76fd433-24ba-41e3-81eb-622cad7247e2" name="Angler Cluster">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ While all the cards in your mana zone are water cards, this creature gets +3000 power."/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="12"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ While all the cards in your mana zone are water cards, this creature gets +3000 power."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Aqua Deformer" id="23a97f92-d53d-4b9f-8e33-ca090bd30c1e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="23a97f92-d53d-4b9f-8e33-ca090bd30c1e" name="Aqua Deformer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, return 2 cards from your mana zone to your hand. Then your opponent chooses 2 cards in his mana zone and returns them to his hand."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return 2 cards from your mana zone to your hand. Then your opponent chooses 2 cards in his mana zone and returns them to his hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Emeral" id="d96cdbba-0e60-4d8e-9394-4830b11f559d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d96cdbba-0e60-4d8e-9394-4830b11f559d" name="Emeral">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="14"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Flood Valve" id="4852b823-7b96-4669-809b-edc14c042567">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4852b823-7b96-4669-809b-edc14c042567" name="Flood Valve">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="15"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="King Neptas" id="39e0b4b6-eaa5-4673-9538-aa9d2c7fc5d8">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="39e0b4b6-eaa5-4673-9538-aa9d2c7fc5d8" name="King Neptas">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has power 2000 or less and return it to its owner's hand. (Return the creature to its owner's hand before your opponent can block with it.)"/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has power 2000 or less and return it to its owner's hand. (Return the creature to its owner's hand before your opponent can block with it.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="King Ponitas" id="2f2dae63-bb68-4d89-b7b1-48dd14eab40e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2f2dae63-bb68-4d89-b7b1-48dd14eab40e" name="King Ponitas">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a water card from your deck, show that card to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="17"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a water card from your deck, show that card to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Legendary Bynor" id="232a9fdd-e289-454f-9593-5b766c969a1e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="232a9fdd-e289-454f-9593-5b766c969a1e" name="Legendary Bynor">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Leviathans.&#xA;■ Your other water creatures in the battle zone can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="8000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="18"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Leviathans.&#xA;■ Your other water creatures in the battle zone can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Liquid Scope" id="e14514a5-592b-40ed-b693-7cb8f649d93a">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e14514a5-592b-40ed-b693-7cb8f649d93a" name="Liquid Scope">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at your opponent's hand and shields. Then put the shields back where they were."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="19"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Psychic Shaper" id="14609828-6c61-441a-aa76-c436bf2c6b00">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="14609828-6c61-441a-aa76-c436bf2c6b00" name="Psychic Shaper">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Shtra" id="0f9a0c09-1d5b-4162-94ca-5399f8f37d63">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0f9a0c09-1d5b-4162-94ca-5399f8f37d63" name="Shtra">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand. Then your opponent chooses a card from his mana zone and returns it to his hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="21"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand. Then your opponent chooses a card from his mana zone and returns it to his hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Stinger Ball" id="fb3a5abd-c16a-4365-98c0-79753fdcd91d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fb3a5abd-c16a-4365-98c0-79753fdcd91d" name="Stinger Ball">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="■Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Baraga, Blade of Gloom" id="e4ad6b63-5c97-4002-9b0a-b38ba8b5312b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e4ad6b63-5c97-4002-9b0a-b38ba8b5312b" name="Baraga, Blade of Gloom">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and return it to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and return it to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Bone Piercer" id="dae59bf4-cb23-40d0-aed2-bdbf953f73f5">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="dae59bf4-cb23-40d0-aed2-bdbf953f73f5" name="Bone Piercer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="■ When this creature is put into your graveyard from the battle zone, you may return a creature from your mana zone to your hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="24"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When this creature is put into your graveyard from the battle zone, you may return a creature from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Eldritch Poison" id="826de4ef-a10d-410a-aed1-066783babbdc">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="826de4ef-a10d-410a-aed1-066783babbdc" name="Eldritch Poison">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may destroy one of your darkness creatures. If you do, return a creature from your mana zone to your hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Gamil, Knight of Hatred" id="b3975c0b-2978-4b1a-8225-78d420ff941d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b3975c0b-2978-4b1a-8225-78d420ff941d" name="Gamil, Knight of Hatred">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may return a darkness creature from your graveyard to your hand."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="26"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a darkness creature from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Ghastly Drain" id="21a9e35f-4219-490c-8963-3e1fee66c71b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="21a9e35f-4219-490c-8963-3e1fee66c71b" name="Ghastly Drain">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose any number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; abilities of those shields."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="27"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Hang Worm, Fetid Larva" id="03b16fba-71e7-4328-a605-4643bb5cfbf8">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="03b16fba-71e7-4328-a605-4643bb5cfbf8" name="Hang Worm, Fetid Larva">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Jack Viper, Shadow of Doom" id="12d21399-f499-432b-bbb0-8ca1088b33c7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="12d21399-f499-432b-bbb0-8ca1088b33c7" name="Jack Viper, Shadow of Doom">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
     </card>
-    <card name="Mudman" id="ec9ebf80-3060-48cf-888a-bd00b61b3746">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ec9ebf80-3060-48cf-888a-bd00b61b3746" name="Mudman">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="■ While all the cards in your mana zone are darkness cards, this creature gets +2000 power."/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="30"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are darkness cards, this creature gets +2000 power."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Scratchclaw" id="c08d8e5a-9f4b-4fe4-bf20-d5c7fca9ea15">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c08d8e5a-9f4b-4fe4-bf20-d5c7fca9ea15" name="Scratchclaw">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature gets +1000 power for each other darkness creature you have in the battle zone."/>
       <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="31"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature gets +1000 power for each other darkness creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Snake Attack" id="f773e1f2-37d0-45c2-a34f-63e91094aab1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f773e1f2-37d0-45c2-a34f-63e91094aab1" name="Snake Attack">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)&#xA;■ Choose one of your shields and put it into your graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="32"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Wailing Shadow Belbetphlo" id="bfef8796-4214-4cfe-af86-4a8608a6fd7f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="bfef8796-4214-4cfe-af86-4a8608a6fd7f" name="Wailing Shadow Belbetphlo">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="33"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Armored Warrior Quelos" id="b6109c08-3d01-486d-b544-5dfc11d341a0">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b6109c08-3d01-486d-b544-5dfc11d341a0" name="Armored Warrior Quelos">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="Whenever this creature attacks, put a non-fire card from your mana zone into your graveyard. Then your opponent chooses a non-fire card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, put a non-fire card from your mana zone into your graveyard. Then your opponent chooses a non-fire card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Baby Zoppe" id="479b477f-f535-4564-ac0c-5f0aeaafe914">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="479b477f-f535-4564-ac0c-5f0aeaafe914" name="Baby Zoppe">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="■ While all the cards in your mana zone are fire cards, this creature gets +2000 power."/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="35"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are fire cards, this creature gets +2000 power."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Blaze Cannon" id="d74a5d6f-a24e-4ecb-a163-7c696be8c06c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d74a5d6f-a24e-4ecb-a163-7c696be8c06c" name="Blaze Cannon">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ You can cast this spell only if all the cards in your mana zone are fire cards.&#xA;■ Each of your creatures in the battle zone gets &quot;power attacker +4000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="36"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Boltail Dragon" id="e27ac147-3d7d-42d7-a3a4-2e3a1eccdb2c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e27ac147-3d7d-42d7-a3a4-2e3a1eccdb2c" name="Boltail Dragon">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="37"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Explosive Dude Joe" id="0f5a2f7e-74df-4ae5-ab0e-300b1761b417">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0f5a2f7e-74df-4ae5-ab0e-300b1761b417" name="Explosive Dude Joe">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Flametropus" id="caca44fe-8e47-4863-b1e9-7c7c09eb7ddc">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="caca44fe-8e47-4863-b1e9-7c7c09eb7ddc" name="Flametropus">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="39"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Muramasa, Duke of Blades" id="89bf69b3-25a7-4f9f-884a-fb9e7dd93efd">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="89bf69b3-25a7-4f9f-884a-fb9e7dd93efd" name="Muramasa, Duke of Blades">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 2000 or less."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="40"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 2000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Searing Wave" id="d2cc5ca6-c0a3-4a83-935f-08d0e0878983">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d2cc5ca6-c0a3-4a83-935f-08d0e0878983" name="Searing Wave">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Destroy all your opponent's creatures that have power 3000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="41"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Snip Striker Bullraizer" id="cf6673ec-4bae-4891-9c80-e3e3a8269914">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cf6673ec-4bae-4891-9c80-e3e3a8269914" name="Snip Striker Bullraizer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="■ This creature can't attack while your opponent has more creatures in the battle zone than you do."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ This creature can't attack while your opponent has more creatures in the battle zone than you do."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Überdragon Jabaha" id="5646364b-4018-4556-9b20-265ef3fb372d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5646364b-4018-4556-9b20-265ef3fb372d" name="Überdragon Jabaha">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ Each of your other fire creatures has &quot;power attacker +2000&quot;. (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="43"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ Each of your other fire creatures has &quot;power attacker +2000&quot;. (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Volcanic Arrows" id="0a5600c5-65a0-439d-b19c-4bf5ee036e32">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0a5600c5-65a0-439d-b19c-4bf5ee036e32" name="Volcanic Arrows">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy a creature that has power 6000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Aurora of Reversal" id="9cff685f-3491-400b-b9d4-43c383193dc7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="9cff685f-3491-400b-b9d4-43c383193dc7" name="Aurora of Reversal">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose any number of your shields and put them into your mana zone."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="45"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Dawn Giant" id="22dae49f-f802-46d1-ad1e-400b980b80ab">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="22dae49f-f802-46d1-ad1e-400b980b80ab" name="Dawn Giant">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="11000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="46"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Gigamantis" id="e202fcb0-08a1-46ee-8654-66406ea436ce">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e202fcb0-08a1-46ee-8654-66406ea436ce" name="Gigamantis">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="47"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Mana Nexus" id="5170634d-1574-4a06-b3bd-3c546fb9191e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5170634d-1574-4a06-b3bd-3c546fb9191e" name="Mana Nexus">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Add a card from your mana zone to your shields face down."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="48"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Masked Pomegranate" id="f200f25c-479b-4381-967e-590bedd9dc90">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f200f25c-479b-4381-967e-590bedd9dc90" name="Masked Pomegranate">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="■ This creature gets +1000 power for each of your other nature creatures in the battle zone.&#xA;■ This creature can't be blocked by any creature that has power 4000 or less."/>
       <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="49"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each of your other nature creatures in the battle zone.&#xA;■ This creature can't be blocked by any creature that has power 4000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Pouch Shell" id="c3c09eac-d9b9-4eb6-8056-94afa4ba3927">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c3c09eac-d9b9-4eb6-8056-94afa4ba3927" name="Pouch Shell">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="50"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Psyshroom" id="64371ab9-a8bc-4ec9-9b9b-f190c8ac1001">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="64371ab9-a8bc-4ec9-9b9b-f190c8ac1001" name="Psyshroom">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Balloon Mushroom"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may put a nature card from your graveyard into your mana zone."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="51"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a nature card from your graveyard into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Raging Dash-Horn" id="e8910059-0471-44ac-a573-a3fe8ed207d9">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e8910059-0471-44ac-a573-a3fe8ed207d9" name="Raging Dash-Horn">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="■ While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Power" value="4000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Roar of the Earth" id="fc25a99c-7ef9-44bc-9204-ca84f6248116">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fc25a99c-7ef9-44bc-9204-ca84f6248116" name="Roar of the Earth">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a creature that costs 6 or more from your mana zone to your hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Sniper Mosquito" id="8dab06d5-93c3-4ac7-abfb-3ce2e63d77e5">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="8dab06d5-93c3-4ac7-abfb-3ce2e63d77e5" name="Sniper Mosquito">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="■ Whenever this creature attacks, return a card from your mana zone to your hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="■ Whenever this creature attacks, return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
-    <card name="Sword Butterfly" id="84595f9f-c9c1-4d50-8e8f-29e5ef63bfbf">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="84595f9f-c9c1-4d50-8e8f-29e5ef63bfbf" name="Sword Butterfly">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
-      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+    </card>
+    <card id="70270aa3-ff24-476c-be22-5b9f48fc682a" name="Miar, Comet Elemental">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+    </card>
+    <card id="9c7e3304-3aff-4362-a687-b5ca5333fe98" name="Chaos Fish">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each other water creature you have in the battle zone.&#xA;■ Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+    </card>
+    <card id="9df4d8ac-3c86-4c1f-b916-c9a384b0340f" name="Giriel, Ghastly Warrior">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+    </card>
+    <card id="41c2e4dc-460f-459a-b7cf-ef17b5c9a4eb" name="Garkago Dragon">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature gets +1000 power for each other fire creature you have in the battle zone.&#xA;■ This creature can attack untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
+    </card>
+    <card id="54652ec5-3bc3-4124-9c67-b05ba56def5f" name="Earthstomp Giant">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, return all creatures from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-03 Rampage of the Super Warriors"/>
     </card>
   </cards>
 </set>
