@@ -912,7 +912,7 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 			if comparisons[comparisonOperator](cost1, value) or comparisons[comparisonOperator](cost2, value):
 				return True
 
-		else: 
+		else:
 			if re.search(typeFilter,card.Type1) and comparisons[comparisonOperator](cost1, value):
 				return True
 			if re.search(typeFilter,card.Type2) and comparisons[comparisonOperator](cost2, value):
@@ -926,9 +926,9 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 
 		if re.search(typeFilter,card.Type) and comparisons[comparisonOperator](cost, value):
 			return True
-		
+
 	return False
-		
+
 
 ################ Quick card attribute checks ####################
 
@@ -986,6 +986,16 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		baitList = evolveDict[evo]
 		if card._id in baitList:
 			return True
+
+#Get a list of bait materials under Evo
+def getEvoBaits(card):
+	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
+	if card._id in evolveDict:
+		baitList = []
+		for cardId in evolveDict[card._id]:
+			baitList.append(Card(cardId))
+		return baitList
+	return []
 
 def isUntargettable(card):
 	mute()
@@ -1127,12 +1137,11 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	#Both players see the opponent's hand reversed
 	reverse_cardList(cardList)
 	count = min(count, len(cardList))
-	for i in range(count):
-		cardChoice = askCard2(cardList, "Choose a Card to discard.")
-		if type(cardChoice) is not Card:
-			notify("Discard cancelled.")
-			return
-		cardList.remove(cardChoice)
+	cardChoices = askCard2(cardList, "Choose Card(s) to discard.", maximumToTake=count, returnAsArray=True)
+	if not isinstance(cardChoices,list):
+		notify("Discard cancelled.")
+		return
+	for cardChoice in cardChoices:
 		if targetZone == 'shield':
 			whisper("Setting {} as shield.".format(cardChoice))
 			remoteCall(targetPlayer, 'toShields', convertCardListIntoCardIDsList(cardChoice))
@@ -1214,10 +1223,9 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
 	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
 	count = min(count, len(cardsInGroup_CivTypeRaceandFunction_Filtered))
-	for i in range(0, count):
-		choice = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose a Card from the Mana Zone')
-		if type(choice) is not Card: break
-		cardsInGroup_CivTypeRaceandFunction_Filtered.remove(choice)
+	choices = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose Card(s) from the Mana Zone', maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list): return
+	for choice in choices:
 		if toGrave == True:
 			destroy(choice)
 		else:
@@ -1366,15 +1374,14 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	if len(group) == 0: return
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([card for card in group])
-	for i in range(count):
-		choice = askCard2(cardsInGroup, 'Search a Card to put to Graveyard (1 at a time)')
-		if type(choice) is not Card:
-			remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
-			notify("{} finishes searching opponent's {}.".format(me, group.name))
-			return
-		cardsInGroup.remove(choice)
+	choices = askCard2(cardsInGroup, 'Search Card(s) to put to Graveyard', maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list):
+		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
+		notify("{} finishes searching opponent's {}.".format(me, group.name))
+		return
+	for choice in choices:
 		remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choice))
-		update()
+	update()
 
 	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
 	update()
@@ -1608,16 +1615,15 @@ def lookAtCards(count=1, isTop=True):
 #Destroy your own creature
 def sacrifice(power=float('inf'), count=1):
 	mute()
-	for i in range(0, count):
-		cardList = [card for card in table if
-					isCreature(card) and not isBait(card) and card.owner == me and re.search("Creature", card.Type)]
-		cardList = [card for card in cardList if int(card.Power.strip('+')) <= power]
-		if len(cardList) == 0:
-			return
-		if me.isInverted: reverse_cardList(cardList)
-		choice = askCard2(cardList, 'Choose a Creature to destroy')
-		if type(choice) is not Card:
-			return
+	cardList = [card for card in table if
+				isCreature(card) and not isBait(card) and card.owner == me and re.search("Creature", card.Type)]
+	cardList = [card for card in cardList if int(card.Power.strip('+')) <= power]
+	if len(cardList) == 0:
+		return
+	if me.isInverted: reverse_cardList(cardList)
+	choices = askCard2(cardList, 'Choose Creature(s) to destroy', maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list): return
+	for choice in choices:
 		destroy(choice)
 
 #Return targeted creatures to hand
@@ -1861,28 +1867,29 @@ def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter 
 #Send creature to Mana
 def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = "True"):
 	mute()
-	for i in range(0, count):
-		cardList = [c for c in table if isCreature(c)
-			  and not isBait(c)
-			  and not isUntargettable(c)
-			  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
-			  if eval(filterFunction)]
-		if len(cardList) == 0: return
-		if me.isInverted: reverse_cardList(cardList)
-		choice = askCard2(cardList, 'Choose a Creature to send to Mana Zone')
-		if type(choice) is not Card: return
+	cardList = [c for c in table if isCreature(c)
+		  and not isBait(c)
+		  and not isUntargettable(c)
+		  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
+		  if eval(filterFunction)]
+	if len(cardList) == 0: return
+	if me.isInverted: reverse_cardList(cardList)
+	choices = askCard2(cardList, 'Choose Creature(s) to send to Mana Zone', maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices,list):return
+	for choice in choices:
 		remoteCall(choice.owner,"toMana", convertCardListIntoCardIDsList(choice))
 
 def selfDiscard(count=1):
 	mute()
-	for i in range(count):
-		cardList = [card for card in me.hand]
-		reverse_cardList(cardList)
-		cardChoice = askCard2(cardList, "Choose a Card to discard")
-		if type(cardChoice) is not Card:
-			notify("Discard cancelled.")
-			return
-			# do anti-discard check here
+	cardList = [card for card in me.hand]
+	if len(cardList)==0: return
+	reverse_cardList(cardList)
+	cardChoices = askCard2(cardList, "Choose Card(s) to discard", maximumToTake=count, returnAsArray=True)
+	if not isinstance(cardChoices, list):
+		notify("Discard cancelled.")
+		return
+		# do anti-discard check here
+	for cardChoice in cardChoices:
 		toDiscard(cardChoice)
 		update()
 
@@ -1933,10 +1940,9 @@ def opponentManaToHand(count=1):
 	if len(manaList)==0:return
 	if me.isInverted: reverse_cardList(manaList)
 	count = min(count,len(manaList))
-	for i in range(0, count):
-		choice = askCard2(manaList, "Choose a Card from the opponent's Mana Zone")
-		if type(choice) is not Card: break
-		manaList.remove(choice)
+	choices = askCard2(manaList, "Choose Card(s) from the opponent's Mana Zone", maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices, list):return
+	for choice in choices:
 		remoteCall(choice.owner,"toHand",convertCardListIntoCardIDsList(choice))
 
 #If opponent has more mana that you charge/draw
@@ -1980,11 +1986,9 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			return
 		if me.isInverted: reverse_cardList(cardList)
 		count = min(count, len(cardList))
-		for i in range(0, count):
-			choice = askCard2(cardList, 'Choose a Creature to tap')
-			if type(choice) is not Card:
-				return
-			cardList.remove(choice)
+		choices = askCard2(cardList, 'Choose Creature(s) to tap', maximumToTake=count,returnAsArray=True)
+		if not isinstance(choices, list): return
+		for choice in choices:
 			remoteCall(choice.owner, "processTapUntapCreature", [convertCardListIntoCardIDsList(choice), False])
 
 def semiReset():
@@ -2390,9 +2394,10 @@ def soulSwap():
 	targets = [c for c in table if c.targetedBy == me and isCreature(c) and not isUntargettable(c)]
 	if len(targets) != 1:
 		return True
+	cardsToMana = getEvoBaits(targets[0])
+	cardsToMana.append(targets[0])
 	remoteCall(targets[0].owner, "toMana", convertCardListIntoCardIDsList(targets[0]))
-	update()
-	remoteCall(me,"_fromManaToField", targets[0].owner._id)
+	_fromManaToField(targets[0].owner._id, cardsToMana)
 
 def tanzanyte():
 	cardList = [card for card in me.piles['Graveyard'] if re.search('Creature', card.Type)]
@@ -2414,15 +2419,15 @@ def intenseEvil():
 
 	destroyAll(chosenCreatures)
 	draw(me.Deck,False,len(chosenCreatures))
-
-def _fromManaToField(targetPlayerId):
+#The additional targets list is used to handle evo creatures moving their baits with them to mana too late to catch this in this function.
+def _fromManaToField(targetPlayerId, additionalTargetsList=[]):
 	mute()
-	update()
 	targetPlayer = getPlayerById(targetPlayerId)
 	#Count the number of cards in mana zone for the one that will be added.
-	count = len([card for card in table if isMana(card) and card.controller == targetPlayer])
+	fullManaList = [card for card in table if isMana(card) and card.controller == targetPlayer]+additionalTargetsList
+	count = len(fullManaList)
 	#get valid targets from mana
-	manaList = [card for card in table if isMana(card) and card.controller == targetPlayer and re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type) and cardCostComparator(card,count,'<=',"Creature")]
+	manaList = [card for card in fullManaList if re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type) and cardCostComparator(card,count,'<=',"Creature")]
 	if me.isInverted: reverse_cardList(manaList)
 	manaChoice = askCard2(manaList, 'Choose a Creature to play from Mana')
 
@@ -2669,10 +2674,9 @@ def setup(group, x=0, y=0):
 
 	if cardsInTable or cardsInHand or cardsInGrave or psychicsInTable or psychicsInGrave or psychicsInHand:
 		if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
-
+			clear(table)
 			for card in cardsInTable:
 				card.resetProperties()
-				card.target(False)
 				card.moveTo(me.Deck)
 			for card in cardsInHand:
 				card.resetProperties()
@@ -2683,7 +2687,6 @@ def setup(group, x=0, y=0):
 
 			for card in psychicsInTable:
 				card.resetProperties()
-				card.target(False)
 				card.moveTo(me.Hyperspatial)
 			for card in psychicsInHand:
 				card.resetProperties()
@@ -2694,7 +2697,6 @@ def setup(group, x=0, y=0):
 				card.moveTo(me.Hyperspatial)
 			for card in gacharangeInTable:
 				card.resetProperties()
-				card.target(False)
 				card.moveTo(me.Gacharange)
 		else:
 			return
@@ -3184,7 +3186,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if card.group == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
-	if re.search("Evolution", card.Type) and not isEvoMaterial:
+	if (re.search("Evolution", card.Type) or re.search('{NEO EVOLUTION}', card.Rules))and not isEvoMaterial:
 		targets= []
 		textBox = 'Select Creature(s) to put under Evolution{}'
 		#Deck Evolutions
@@ -3325,7 +3327,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					   and not isBait(c)]
 			clear(targets)
 			if len(targets) == 0:
-				materialList = [c for c in table if ((re.search("Evolution Creature",card.Type) and isCreature(c)) or (re.search("Evolution Cross Gear", card.Type) and isGear(c))) and c.controller == me and not isBait(c)]
+				materialList = [c for c in table if not isShield(c) and not isMana(c) and c.controller == me and not isBait(c) and c not card]
 				if me.isInverted: reverse_cardList(materialList)
 				minimumToTake = 1
 				isNeoEvolution = False
@@ -3341,10 +3343,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				if re.search(r"(?:Galaxy\s+)?Vortex Evolution",card.Rules, re.IGNORECASE) or re.search('Super Infinite Evolution', card.Rules, re.IGNORECASE):
 					maximumToTake = len(materialList)
 					isMultiMaterial = True
+				if len(materialList)>0:
+					targets = askCard2(materialList,'Select Card(s) to use as Material for Evolution.', minimumToTake=minimumToTake, maximumToTake=maximumToTake, returnAsArray=True)
+					if not isinstance(targets, list): targets = []
 
-				targets = askCard2(materialList,'Select Card(s) to use as Material for Evolution.', minimumToTake=minimumToTake, maximumToTake=maximumToTake, returnAsArray=True)
-				if not isinstance(targets, list): targets = []
-			
 		if len(targets) == 0:
 			if not isNeoEvolution:
 				whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
