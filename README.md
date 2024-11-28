@@ -83,6 +83,16 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Mulch Charger**
   - **Trenchdive Shark**
   - **Katta Kirifuda & Katsuking -Story of Passion-**
+  - **Gigandura**
+  - **Pointa, the Aqua Shadow** (Automated Peek at opponent's shield)
+  - **Estol, Vizier of Aqua**
+  - **Telitol, the Explorer**
+  - **Tekorax**
+  - **Recon Operation**
+  - **Adomis, the Oracle**
+  - **Curious Eye**
+  - **Stinger Ball**
+  - **Wyn, the Oracle**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
