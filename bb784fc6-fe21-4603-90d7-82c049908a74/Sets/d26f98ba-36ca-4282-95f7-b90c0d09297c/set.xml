@@ -20,724 +20,994 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Ballom Emperor, Lord of Demons" id="836e40e5-9b07-49c5-b3e1-c986c31ac1d7">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="Evolution - Put on one of your Demon Command&#xD;&#xA;When you put this creature into the battle zone, destroy all creatures except darkness creatures.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-26 Dragonic Wars"/>
-    </card>
-    <card name="Bolshack Yamato Dragon" id="8c374db2-7b97-4205-a669-cda740d21176">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Speed Attacker&#xD;&#xA;When this creature attacks, it gets +1000 power for each fire card in your graveyard.&#xD;&#xA;Double Breaker&#xD;&#xA;When you would destroy 1 of your opponent's creatures with 6000 power or less by the effect of &quot;Bolmeteus Samurai Dragon&quot;, instead destroy one of your opponent's&#xD;&#xA;&#xD;&#xA;creatures with 12000 power or less."/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-26 Dragonic Wars"/>
-    </card>
-    <card name="King Alcadeias, Holy Gaia" id="7dbe96e2-2ca6-4eff-baaa-546580db7c42">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light/Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Angel Command/Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Evolution - Put on one of your multicolored creatures.&#xD;&#xA;Double Breaker&#xD;&#xA;When your opponent would put a non-multicolored creature into the battle zone, instead of the battle zone it is put into the graveyard."/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-26 Dragonic Wars"/>
-    </card>
-    <card name="Aku, Ultimate God" id="66187890-a25d-4cc7-8801-0894d230f57e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water/Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Double Breaker&#xD;&#xA;When a God in your battle zone is destroyed, you may return it to your hand.&#xD;&#xA;God Link - Zen, Transcendent God (Left Side)&#xD;&#xA;When this creature attacks while linked, you may destroy one of your opponent's creatures."/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-26 Dragonic Wars"/>
-    </card>
-    <card name="Kirin Legacy, the Twin Meteor" id="95532e89-7b06-49fd-96c1-9bb71e74413e">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water/Fire/Nature"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Vortex Evolution - Put on two of your multi-colored creatures.&#xD;&#xA;This card is put into the mana zone tapped.&#xD;&#xA;Meteor Burn - When you summon a non-evolution multicolored creature you may put one of the cards under this creature into your graveyard. If you do, you may search your&#xD;&#xA;&#xD;&#xA;deck and put a creature of the same name as the creature you put into your graveyard from your deck into the battle zone.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-26 Dragonic Wars"/>
-    </card>
-    <card name="Aqua Wavester" id="75901696-2807-4167-bcae-ac11a0938daf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="75901696-2807-4167-bcae-ac11a0938daf" name="Aqua Wavester">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="When this creature is put into the battle zone, return all other creatures to their owner's hands except for multicolored creatures."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return all other creatures to their owner's hands except for multicolored creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Variable Amon Dragon" id="7721269a-69b4-4e0c-bb84-f862fd1f2418">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7721269a-69b4-4e0c-bb84-f862fd1f2418" name="Variable Amon Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Double Breaker&#xD;&#xA;Your multicolored creatures break an additional shield."/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your multicolored creatures break an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Zen, Transcendent God" id="566ac39d-d9a0-49cb-96c4-8998662c34b6">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="566ac39d-d9a0-49cb-96c4-8998662c34b6" name="Zen, Transcendent God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;Double Breaker&#xD;&#xA;God Link - Aku, Ultimate God (Right Side) (If the specified god is in the battle zone, you may link this to it. The linked god gains each god's characteristics (power and&#xD;&#xA;&#xD;&#xA;abilities) and becomes one creature. When the linked creature leaves the battle zone, select 1 side instead.)&#xD;&#xA;While this creature is linked it gets &quot;Quad Breaker&quot; and untaps at the end of your turn."/>
-      <property name="Power" value="8000"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ God Link (Aku, Ultimate God) Right Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, it has &quot;quattro breaker&quot; and untaps at the end of each of your turns. (A creature that has &quot;quattro breaker&quot; breaks 4 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Crimson Mega Dragoon" id="44daa31d-4585-4ad8-8e0b-98864063461c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="44daa31d-4585-4ad8-8e0b-98864063461c" name="Crimson Mega Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, destroy all creatures with &quot;Blocker&quot;."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, destroy all creatures that have &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Paradox, Gaia's Abyss" id="b65d9c25-8be2-4049-8568-d64347a1e3f9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b65d9c25-8be2-4049-8568-d64347a1e3f9" name="Paradox, Gaia's Abyss">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness/Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone you may discard 2 cards from your hand. If you don't, return this creature to your hand.&#xD;&#xA;When this creature is destroyed, draw 4 cards.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may discard 2 cards from your hand. If you don't, return this creature to your hand.&#xA;■ When this creature is destroyed, draw 4 cards.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Diamond Sword" id="8c0dcb65-62e4-4ec5-9320-a23f8dd040bc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8c0dcb65-62e4-4ec5-9320-a23f8dd040bc" name="Diamond Sword">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This turn, ignore any effects that would prevent your creatures from attacking your opponent. (For example, ignore summoning sickness and card effects that say&#xD;&#xA;&#xD;&#xA;&quot;This creature can't attack&quot; or &quot;This creature can't attack players.&quot; Your creatures can't attack creatures this way.)"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ This turn, ignore any of your creature’s effects that would prevent them from attacking your opponent. (For example, ignore summoning sickness and card effects that say &quot;This creature can't attack&quot; or &quot;This creature can't attack players&quot;. Your creatures can't attack creatures this way.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Surf Totem" id="42182fea-9955-4145-812b-a77de94f6412">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="42182fea-9955-4145-812b-a77de94f6412" name="Surf Totem">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="Your nature creatures can't be blocked by creatures with less power.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Your nature creatures can't be blocked by creatures that have less power than them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Prodigy, the Finest God" id="14afb413-2cc7-450e-861e-492bfc439a05">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="14afb413-2cc7-450e-861e-492bfc439a05" name="Prodigy, the Finest God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;At the end of your turn, you may untap all of your creatures with &quot;Blocker&quot;.&#xD;&#xA;God Link - Orbital, the Supreme God or Chemical, God of Sublimity (Right Side)&#xD;&#xA;While this creature is linked, when your creatures with &quot;Blocker&quot; are destroyed, instead of putting them in your graveyard you may return them to your hand."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the end of each of your turns, you may untap all your creatures in the battle zone that have &quot;blocker&quot;.&#xA;■ God Link (Orbital, the Supreme God) or (Chemical, God of Sublimity) Right Side&#xA;■ While this creature is linked, whenever one of your creatures that has &quot;blocker&quot; would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Icaros, Holy Gaia" id="ba063c42-8923-46c4-9a8d-32e9a21e115b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3712de2a-d883-4b1b-ac2b-8c64f4208528" name="Icaros, Holy Gaia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mecha Del Sol/Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Evolution - Put on one of your multicolored creatures.&#xD;&#xA;Crew Breaker - Multicolored creatures (This creature breaks 1 shield for each of your multicolored creatures.)&#xD;&#xA;This creature gets &quot;Power Attacker +5000&quot; for each of your multicolored creatures."/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ Crew breaker—Multicolored creature (This creature breaks one more shield for each of your multicolored creatures in the battle zone.)&#xA;■ This creature gets &quot;power attacker +5000&quot; for each of your multicolored creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Chemical, God of Sublimity" id="e5b3742a-12f0-475f-aec4-5e07c930945c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ba063c42-8923-46c4-9a8d-32e9a21e115b" name="Icaros, Holy Gaia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Mecha Del Sol/Lost Crusader"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ Crew breaker—Multicolored creature (This creature breaks one more shield for each of your multicolored creatures in the battle zone.)&#xA;■ This creature gets &quot;power attacker +5000&quot; for each of your multicolored creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="e5b3742a-12f0-475f-aec4-5e07c930945c" name="Chemical, God of Sublimity">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone you may draw 2 cards. If you do, discard 1 card.&#xD;&#xA;God Link - Underworld, the Greatest God or Prodigy, The Finest God (Left Side) (If the specified god is in the battle zone, you may link this to it. The linked god gains each&#xD;&#xA;&#xD;&#xA;god's characteristics (power and abilities) and becomes one creature. When the linked creature leaves the battle zone, select 1 side instead.)&#xD;&#xA;While this creature is linked, it gains &quot;Double Breaker&quot;."/>
-      <property name="Power" value="5000"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may draw 2 cards. If you do, discard a card.&#xA;■ God Link (Underworld, the Greatest God) or (Prodigy, the Finest God) Left Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, it has &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Great Reversal of Reality and Death" id="56e36e72-b682-4411-bd76-8c99d80bdd5c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="56e36e72-b682-4411-bd76-8c99d80bdd5c" name="Great Reversal of Reality and Death">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;Destroy 1 of your opponent's creatures. Then, choose 1 creature in your opponent's graveyard. Your opponent puts that creature into the battle zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures in the battle zone. Then choose one of your opponent's creatures in their graveyard. Your opponent puts that creature into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Reward of Punching and Slapping" id="d3ac1b5e-621f-44e3-9ce5-18285ee2d869">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d3ac1b5e-621f-44e3-9ce5-18285ee2d869" name="Reward of Punching and Slapping">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;At the end of this turn, draw 1 card for each tapped creature in the battle zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ At the end of the turn, draw a card for each tapped creature in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Jack Valdy, the Everlasting" id="a9db3b00-780c-4420-8944-a4cec0a6145c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5f2241e6-28c6-4ff1-88b8-86e0f2846639" name="Jack Valdy, the Everlasting">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Evolution - Put on one of your multicolored creatures.&#xD;&#xA;When this creature is put into the battle zone, destroy one of your opponent's creatures with a cost of 5 or less, or put one of your opponent's cross gears of cost 5 or less into&#xD;&#xA;&#xD;&#xA;your opponent's graveyard. However, a multi-colored card may not be chosen by this effect.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's non-multicolored creatures that costs 5 or less, or put one of your opponent's non-multicolored cross gear that costs 5 or less into your opponent's graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Orbital, the Supreme God" id="c3de1041-7c7b-4e92-9b73-94365fc289fc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a9db3b00-780c-4420-8944-a4cec0a6145c" name="Jack Valdy, the Everlasting">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Spirit Quartz"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's non-multicolored creatures that costs 5 or less, or put one of your opponent's non-multicolored cross gear that costs 5 or less into your opponent's graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="c3de1041-7c7b-4e92-9b73-94365fc289fc" name="Orbital, the Supreme God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Double Breaker&#xD;&#xA;When this creature attacks, your opponent chooses one card in his hand and discards it.&#xD;&#xA;God Link - Underworld, the Greatest God or Protege, the Finest God (Left Side) (If the specified god is in the battle zone, you may link this to it. The linked god gains each&#xD;&#xA;&#xD;&#xA;god's characteristics (power and abilities) and becomes one creature. When the linked creature leaves the battle zone, select 1 side instead.)&#xD;&#xA;While this creature is linked, it gains &quot;Triple Breaker&quot;."/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent chooses a card from their hand and discards it.&#xA;■ God Link (Underworld, the Greatest God) or (Prodigy, the Finest God) Left Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ While this creature is linked, it has &quot;triple breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Underworld, the Greatest God" id="7a40adc6-bd67-44a5-843f-1d55c5a86d20">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7a40adc6-bd67-44a5-843f-1d55c5a86d20" name="Underworld, the Greatest God">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, you may return 1 God from your mana zone to your hand.&#xD;&#xA;God Link - Orbital, the Supreme God or Chemical, God of Sublimity (Right Side)&#xD;&#xA;When this creature is linked and wins a battle, you may untap it."/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may return a God from your mana zone to your hand.&#xA;■ God Link (Orbital, the Supreme God) or (Chemical, God of Sublimity) Right Side&#xA;■ Whenever this creature wins a battle while linked, you may untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Mist Gias, Gaia's Swordcerer" id="6a47d2c0-847d-45bb-8315-b3a3bde19677">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4cd74792-1627-46d9-9b14-c918e2e56b97" name="Mist Gias, Gaia's Swordcerer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When a multicolored spell is cast or a multicolored creature is summoned, you may draw 1 card."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever a multicolored spell is cast or another multicolored creature is put into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Hundred Eyes, Secret Spirit Treasure" id="25bcaccd-f584-4d88-8275-16ce1bd7ede7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6a47d2c0-847d-45bb-8315-b3a3bde19677" name="Mist Gias, Gaia's Swordcerer">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Lost Crusader"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever a multicolored spell is cast or another multicolored creature is put into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="25bcaccd-f584-4d88-8275-16ce1bd7ede7" name="Hundred Eyes, Secret Spirit Treasure">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Pandora's Box"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;When this creature is put into the battle zone, discard your hand. If you didn't discard at least 1 card in this way destroy this creature.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, discard your hand. If you didn't discard at least one card in this way, destroy this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Daikazan, Brave King Totem" id="4ada02da-c8fc-4c4d-8b88-a7aafdee5e08">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4ada02da-c8fc-4c4d-8b88-a7aafdee5e08" name="Daikazan, Brave King Totem">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Human/Mystery Totem"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;At the start of your turn you may tap 3 cards in your mana zone. If all the cards tapped are light cards, untap this creature at the end of your turn. If all the cards tapped are fire cards, this creature can attack untapped creatures this turn. If all the cards tapped are nature cards, this creature gets +4000 power this turn."/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped)&#xA;■ At the start of your turn, you may tap 3 cards in your mana zone. If all the tapped cards are light cards, untap this creature at the end of your turn. If all tapped cards are fire cards, this creature can attack untapped creatures until the end of turn. If all tapped&#xA;cards are nature cards, this creature gets +4000 power this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Rocaperissors, Gaia's Magician" id="41b4e17f-5a51-4e68-8078-ba6cf0f975dc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="41b4e17f-5a51-4e68-8078-ba6cf0f975dc" name="Rocaperissors, Gaia's Magician">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Lost Crusader"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When you put this creature into the battle zone, play rock-paper-scissors with your opponent. If you win, you may draw 3 cards. If you lose, discard 1 card from your&#xD;&#xA;&#xD;&#xA;hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, play Rock-Paper-Scissors with your opponent. If you win, you may draw 3 cards. If you lose, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Albatross, Spirit Wing Treasure" id="c432a5a0-63d9-4f11-bf60-6f1c6ca26cf5">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c432a5a0-63d9-4f11-bf60-6f1c6ca26cf5" name="Albatross, Spirit Wing Treasure">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box/Xenoparts/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed, you may select up to 2 creatures with a combined cost of 5 or less from your graveyard at put them in the battle zone. Those creatures gain&#xD;&#xA;&#xD;&#xA;&quot;Speed Attacker&quot; during this turn."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, you may choose up to 2 creatures that have total cost 5 or less from your graveyard and put them into the battle zone. Those creatures get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Murmur, Vizier of Formation" id="71747845-55ec-4f5e-bef7-df3a9f56bbcf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="71747845-55ec-4f5e-bef7-df3a9f56bbcf" name="Murmur, Vizier of Formation">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;All of your other creatures with &quot;Blocker&quot; get +3000 power."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Each of your other creatures in the battle zone that have &quot;blocker&quot; gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Concentric Battler, the Great Conductor" id="b411cae2-2f02-4456-9604-1c917f207c09">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b411cae2-2f02-4456-9604-1c917f207c09" name="Concentric Battler, the Great Conductor">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Overdrive Light x1 and Water x1 (When this creature is summoned, you may tap an additional 1 Light and 1 Water card in your mana zone. If you do, this creature gains the&#xD;&#xA;&#xD;&#xA;following [OD] ability).&#xD;&#xA;[OD]: All of your light and water creatures get +1000 power for each tapped card in your opponent's mana zone."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Over Drive—Light x1 and Water x1 (When you summon this creature, you may tap another 1 light and 1 water card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}Each of your light creatures and water creatures in the battle zone get +1000 power for each tapped card in your opponent's mana zone until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Kelbirem, the Deathknight Puppet" id="1eabd9ca-69b9-48f8-8ad7-97b942463ab2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1eabd9ca-69b9-48f8-8ad7-97b942463ab2" name="Kelbirem, the Deathknight Puppet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Death Puppet"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, all tapped creatures get -3000 power during this turn. (A creature with 0 or less power is destroyed.)&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, each tapped creature in the battle zone gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Drill Rex, Soul Weapon Knight" id="27dffaa3-fcee-4ccc-9631-eaf7cc14faf8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="27dffaa3-fcee-4ccc-9631-eaf7cc14faf8" name="Drill Rex, Soul Weapon Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts/Arc Seraphim"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Speed Attacker&#xD;&#xA;Power Attacker +3000&#xD;&#xA;At the end of your turn, you may untap this creature."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;■ At the end of each of your turns, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Toby Gongon, the Guardian Spirit Fairy" id="bf6d8fe3-dd9d-46f3-8ec4-80ab2c9f2025">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0211753f-fba6-4f71-90ea-596364f2c420" name="Toby Gongon, Guardian Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Snow Faerie"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;Whenever a card is put in your mana zone, you may choose 1 of your opponent's creatures and tap it."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card is put in your mana zone, you may choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Shallot, Knight of Valor" id="5f8a1ea1-f6e2-4f9f-a58c-94b155b6bf3e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bf6d8fe3-dd9d-46f3-8ec4-80ab2c9f2025" name="Toby Gongon, Guardian Faerie">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian/Snow Faerie"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card is put in your mana zone, you may choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="5f8a1ea1-f6e2-4f9f-a58c-94b155b6bf3e" name="Shallot, Knight of Valor">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Wild Veggies"/>
-      <property name="Rules" value="This card is put into the battle zone tapped.&#xD;&#xA;Overdrive Light x1 and Nature x1 (When this creature is summoned, you may tap an additional 1 Light and 1 Nature card in your mana zone. If you do, this creature gains the&#xD;&#xA;&#xD;&#xA;following [OD] ability).&#xD;&#xA;[OD]: When cards are put into your graveyard from your hand or battle zone this turn, you may put them into your mana zone instead."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Over Drive—Light x1 and Nature x1 (When you summon this creature, you may tap another 1 light and 1 nature card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When cards are put into your graveyard from your hand or battle zone this turn, you may put them into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Beautician, Viral Lord of Fear" id="f8edfbcb-32ec-401f-afa7-81e254a3aa21">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6627f539-7e3d-4c16-8d50-4500990cbd00" name="Beautician, Viral Lord of Fear">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus/Dark Lord"/>
-      <property name="Rules" value="This card is put into the battle zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack.&#xD;&#xA;Overdrive Water x1 and Darkness x1 (When this creature is summoned, you may tap an additional 1 Water and 1 Darkness card in your mana zone. If you do, this creature&#xD;&#xA;&#xD;&#xA;gains the following [OD] ability).&#xD;&#xA;[OD]: Your opponent discards 1 card and you may draw 1 card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Over Drive—Water x1 and Darkness x1 (When you summon this creature, you may tap another 1 water and 1 darkness card in your mana zone. If you do, get the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}Your opponent discards a card from their hand and you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Soul Dorji, Supreme Lord of the Sea" id="9a8c6283-3f67-4cea-b2f3-0f03650f505d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f8edfbcb-32ec-401f-afa7-81e254a3aa21" name="Beautician, Viral Lord of Fear">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Dark Lord"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Over Drive—Water x1 and Darkness x1 (When you summon this creature, you may tap another 1 water and 1 darkness card in your mana zone. If you do, get the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}Your opponent discards a card from their hand and you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="9a8c6283-3f67-4cea-b2f3-0f03650f505d" name="Soul Dorji, Supreme Lord of the Sea">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="9"/>
-      <property name="Type" value="Creature"/>
+      <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Poseidia Dragon/Earth Dragon"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Evolution - Put on one of your multicolored creatures.&#xD;&#xA;You may summon this creature from your mana zone. (This card may not be used in paying its own summon cost.)&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="12000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;■ You may summon this creature from your mana zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="The Provoking Elder's Flaming Earthquakes" id="a83509c1-6834-44f2-8453-99b8bee466ff">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a83509c1-6834-44f2-8453-99b8bee466ff" name="The Provoking Elder's Flaming Earthquakes">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Your opponent may put 2 cards from his mana zone into his graveyard.  If they don't, choose 1 of your opponent's creatures in the battle zone and destroy it.&#xD;&#xA;Overdrive Fire x1 and Darkness x1 (When this spell is cast, you may tap an additional 1 Fire and 1 Darkness card in your mana zone. If you do, this spell gains the following&#xD;&#xA;&#xD;&#xA;[OD] ability).&#xD;&#xA;[OD]: Your opponent chooses 1 of his shields for each card put into the graveyard by this spell's effect and puts them in their graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Your opponent may put 2 cards from their mana zone into their graveyard. If they don't, choose one of your opponent's creatures in the battle zone and destroy it.&#xA;■ Over Drive—Darkness x1 Fire x1 (When you cast this spell, you may tap another 1 darkness and 1 fire card in your mana zone. If you do, this spell gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}Your opponent chooses one of their shields for each card put into their graveyard by this spell's ability and puts them into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Amdul, the Powerful Lightning Flame" id="0be4b91a-a122-48e0-b364-7dec5a59d614">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0be4b91a-a122-48e0-b364-7dec5a59d614" name="Amdul, the Powerful Lightning Flame">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern/Giant"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Triple Breaker"/>
       <property name="Power" value="13000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Lion Arms, Mobile Cyber-Beast" id="514e367e-6066-44b0-93f1-8976e4f60826">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="514e367e-6066-44b0-93f1-8976e4f60826" name="Lion Arms, Mobile Cyber-Beast">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid/Horned Beast"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Double Breaker&#xD;&#xA;Overdrive Fire x1 and Nature x1 (When this creature is summoned, you may tap an additional 1 Fire and 1 Nature card in your mana zone. If you do, this creature gains the&#xD;&#xA;&#xD;&#xA;following [OD] ability).&#xD;&#xA;[OD]: When this creature is put into the battle zone, all your creatures gain +2000 power and &quot;Double Breaker&quot; during this turn."/>
-      <property name="Power" value="8000"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;■ Over Drive—Fire x1 Nature x1 (When you summon this creature, you may tap another 1 fire and 1 nature card in your mana zone. If you do, this creature gets the following {OVER DRIVE}ability.):&#xA;{OVER DRIVE}When you put this creature into the battle zone, each of your creatures in the battle zone gets +2000 power and &quot;double breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Turquoise Kraken, Holy Machine" id="5434afb8-90ce-40fe-b6be-c7837c178286">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5434afb8-90ce-40fe-b6be-c7837c178286" name="Turquoise Kraken, Holy Machine">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Merfolk/Tyranno Drake"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;At the end of your turn you may untap this creature."/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of each of your turns, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Nyokitaris, Viral Tree Spirit" id="e77a6cb5-f3f0-43bc-b1b4-ea2208153562">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e77a6cb5-f3f0-43bc-b1b4-ea2208153562" name="Nyokitaris, Viral Tree Spirit">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Cyber Virus/Mystery Totem"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed you may choose and activate one of the following effects: Choose up to two of your opponents creatures and tap them OR return two of your opponent's creatures to their owner's hand OR search your deck for up to two creatures with a cost of 3 or less, show them to your opponent, and add them to your hand. Then, shuffle your&#xD;&#xA;&#xD;&#xA;deck."/>
       <property name="Power" value="5500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, you may choose one of the following. Tap up to 2 of your opponent's creatures or return up to 2 of your opponent's creatures to their owner's hand. Otherwise, search your deck for up to 2 creatures that cost 3 or less, show them to your opponent, and put them into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Persistent Prison of Gaia" id="f7c1dc2b-45bd-4283-b3ea-dbb2614c4374">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="efb8913d-9c6c-4b4b-a894-649c41047104" name="Persistent Prison of Gaia">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Choose one of your opponent's creatures and return it to their hand. Then, discard 1 card from your opponent's hand at random. If the discarded creature has the same name as the returned creature, choose one of your opponent's shields and put it in its owner's graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Choose one of your opponent's creatures in the battle zone and return it to its owner's hand. Then your opponent discards a card at random from their hand. If the discarded creature has the same name as the returned creature, choose one of your opponent's shields and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Torierre, Armament Fairy" id="a2272baa-3ad6-418a-9743-f80184fd07d7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f7c1dc2b-45bd-4283-b3ea-dbb2614c4374" name="Persistent Prison of Gaia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Choose one of your opponent's creatures in the battle zone and return it to its owner's hand. Then your opponent discards a card at random from their hand. If the discarded creature has the same name as the returned creature, choose one of your opponent's shields and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="a2272baa-3ad6-418a-9743-f80184fd07d7" name="Torierre, Armament Faerie">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake/Xenoparts/Snow Faerie"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature attacks, you may tap 1 darkness, 1 fire, and 1 nature civilization card in your mana zone. If you do, both players choose one of their shields and put it in their mana zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, you may tap a darkness, a fire and a nature civilization card in your mana zone. If you do, each player chooses one of their shields and puts it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Remember, Evil Fortress Treasure" id="56f5511a-601d-4305-81f2-6910d92ccb69">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="56f5511a-601d-4305-81f2-6910d92ccb69" name="Remember, Evil Fortress Treasure">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
-      <property name="Rules" value="All of your darkness creatures gain &quot;Slayer&quot;."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each of your darkness creatures gets &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Peru Pere, Viral Guardian" id="d03798af-ba74-42ff-bab0-729a4f93e5ae">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d03798af-ba74-42ff-bab0-729a4f93e5ae" name="Peru Pere, Viral Guardian">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Cyber Virus"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When this creature is destroyed, you may return it to your hand instead."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA; {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="El Kaiou, Spirit Mecha King" id="dde9d2a1-5b89-4046-b65b-e463d258e7ca">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="dde9d2a1-5b89-4046-b65b-e463d258e7ca" name="El Kaiou, Spirit Mecha King">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Great Mecha King"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;[Blocker] Blocker&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="4500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Happy-go-lucky Strike" id="2ff6fb91-c388-4b0d-8b6d-b0298c745008">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2ff6fb91-c388-4b0d-8b6d-b0298c745008" name="Happy-go-lucky Strike">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Look at one of your shields. You may add it your hand. If you do, add the top card of your deck to your shields face down. (The &quot;Shield Trigger&quot; ability of this shield isn't used.)&#xD;&#xA;&#xD;&#xA;If you don't add the shield to your hand, draw a card."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Look at one of your shields. You may add that card to your hand. You can't use &quot;shield trigger&quot; ability of that shield. If you do, add the top card of your deck to your shields face down. If you don't add that shield to your hand, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Bega, Vizier of Shadow" id="2419df7e-24c2-49b3-95b1-97c5ea197241">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="21e0ebfb-12a7-43dd-ac50-195d33e8a80e" name="Bega, Vizier of Shadow">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Ghost"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, add the top card of your deck to your shields face down. Then, discard 1 card from your opponent's hand at random."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then discard a card at random from your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Eagle Cargo, Guardian Treasure" id="edcc4f02-1fbf-45fe-9909-f3f3dc46221a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2419df7e-24c2-49b3-95b1-97c5ea197241" name="Bega, Vizier of Shadow">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Ghost"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then discard a card at random from your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="edcc4f02-1fbf-45fe-9909-f3f3dc46221a" name="Eagle Cargo, Guardian Treasure">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Pandora's Box"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed, choose 1 of your opponent's creatures and tap it, or return 1 of your other creatures from your graveyard to your hand."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, choose one of your opponent's creatures in the battle zone and tap it, or return one of your other creatures from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Jet R.E, Brave Vizier" id="3b5191fb-572b-4f9b-951b-cc2785cc8886">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3b5191fb-572b-4f9b-951b-cc2785cc8886" name="Jet R.E, Brave Vizier">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Human"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, add the top card for your deck to your shields face down. Then, choose on of your opponent's creatures with &quot;Blocker' and destroy it."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then, destroy one of your opponent's creatures that has &quot;blocker&quot;,"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Beetleda, Armored Insect Mecha King" id="ec7c0a34-c9c6-4033-8824-02ace716c3b1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ec7c0a34-c9c6-4033-8824-02ace716c3b1" name="Beetleda, Armored Insect Mecha King">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King/Vehicle Bee"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed, you may choose 1 of your opponent's creatures and tap it, or discard your hand and draw the same number of cards you discarded."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, you may choose one of your opponent's creatures in the battle zone and tap it, or discard your hand and draw the same number of cards you discarded."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Fuuma Harisenmon" id="46035462-c952-4044-9e3d-456f18931bd7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="46035462-c952-4044-9e3d-456f18931bd7" name="Fuuma Harisenmon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;This creature can't be blocked."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Magnas, Electro-Knight" id="bcada611-eb13-4d6d-833f-8094e83dee0b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bcada611-eb13-4d6d-833f-8094e83dee0b" name="Magnas, Electro-Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Human"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, look at 1 of your opponent's shields. Then, choose 1 of your opponent's creatures with &quot;Blocker&quot; and destroy it."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, look at one of your opponent's shields. Then, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Antoinette, Beautiful Battle Dragon Princess" id="b1fa464d-04fb-413f-ab2e-de1d4414e1d7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b1fa464d-04fb-413f-ab2e-de1d4414e1d7" name="Antoinette, Beautiful Battle Dragon Princess">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Splash Queen/Tyranno Drake"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed, return 1 of your opponent's creatures to their hand, or discard your hand and draw the same number of cards your discarded."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, choose one of the following:&#xA;► Choose one of your opponent's creatures in the battle zone and return it to its owner's hand.&#xA;► Discard your hand and then draw the same number of cards that you discarded in this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Splash Axe, the Aqua Savage" id="cac388c9-dbda-4ca5-8b6e-48793eb15e9c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cac388c9-dbda-4ca5-8b6e-48793eb15e9c" name="Splash Axe, the Aqua Savage">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When is creature is put into the battle zone, look at 1 of your opponent's shields. Then, add the top card of your deck to your mana zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, look at one of your opponent's shields. Then put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Fuuma Bariel, Armored Insect" id="1bf6aec2-a673-44cf-9222-945504883f99">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="59ab0dc8-736a-4bae-88dc-14475620e2ec" name="Fuuma Bariel, Armored Insect">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil/Giant Insect"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When is creature is destroyed, return 1 of your opponent's creatures to their hand, or search your deck for a creature with a cost of 3 or less, show it your opponent, and add it&#xD;&#xA;&#xD;&#xA;to your hand. Then, shuffle your deck."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, return one of your opponent's creatures to its owner's hand, or search your deck for a creature that costs 3 or less, show it your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="The Door of Miracle and Mystery" id="e1bd908a-e2d8-4979-a3d1-2ed39007028d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1bf6aec2-a673-44cf-9222-945504883f99" name="Fuuma Bariel, Armored Insect">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Grand Devil/Giant Insect"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, return one of your opponent's creatures to its owner's hand, or search your deck for a creature that costs 3 or less, show it your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="e1bd908a-e2d8-4979-a3d1-2ed39007028d" name="The Door of Miracle and Mystery">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;Reveal the top 4 cards of your deck. Your opponent chooses a non-evolution creature from these and puts it in your battle zone. Put the remaining cards on the bottom of your&#xD;&#xA;&#xD;&#xA;deck in any order."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 4 cards of your deck. Your opponent chooses a non-evolution creature from among them and you put it into the battle zone. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Present of Curses and Horror" id="18b6497f-ada3-4661-98a1-d69a64b1f44d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="18b6497f-ada3-4661-98a1-d69a64b1f44d" name="Present of Curses and Horror">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;{SHIELD TRIGGER}&#xD;&#xA;Destroy 1 of your creatures with 5000 power or less. If you do, destroy 1 of your opponent's creatures with 5000 power or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your creatures that has power 5000 or less. If you do, destroy one of your opponent's creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Triple Mouth, Decaying Savage" id="e6ba07cc-4127-4537-b66d-64b614e14efd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e6ba07cc-4127-4537-b66d-64b614e14efd" name="Triple Mouth, Decaying Savage">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, put the top card of your deck into your mana zone. Then, discard 1 card from your opponent's hand at random."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Angler Grape, Brave of the Deep Currant" id="a68c8f9b-f800-456b-ae34-d908bc7aa888">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a68c8f9b-f800-456b-ae34-d908bc7aa888" name="Angler Grape, Brave of the Deep Currant">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Deep Marine/Wild Veggies"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is destroyed, return 1 other creature from your graveyard to your hand, or search your deck for a creature with a cost of 3 or less, show it your opponent, and add it to your hand. Then, shuffle your deck."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature is destroyed, return one of your other creatures from your graveyard to your hand, or search your deck for a creature that costs 3 or less, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Bisecting Skullcedony" id="8650c4c4-e032-403c-986e-84e659529cbe">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4d9ae27b-5810-44b9-9f47-96a8762eb693" name="Bisecting Skullcedony">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Slayer&#xD;&#xA;When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Animabelgis, Fuuma Savage" id="530e8382-8093-421e-84a0-ff40a1c1b9fd">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8650c4c4-e032-403c-986e-84e659529cbe" name="Bisecting Skullcedony">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55 (Catino Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="530e8382-8093-421e-84a0-ff40a1c1b9fd" name="Animabelgis, Fuuma Savage">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, choose one of your creatures. That creature breaks an additional shield this turn."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, choose one of your creatures in the battle zone. This turn, that creature breaks an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
-    <card name="Last Momotaro, Mobile Brave" id="680a570d-9214-4cb6-bf85-aff5fc54cd49">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="680a570d-9214-4cb6-bf85-aff5fc54cd49" name="Last Momotaro, Mobile Brave">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid/Wild Veggies"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature attacks, it may gain &quot;Double Breaker&quot; until the end of the attack. If it does, destroy this creature after the attack."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature attacks, until the end of the attack, it may get &quot;double breaker&quot;. If it does, destroy this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="cab56838-c072-469f-a767-01de9a0a3a92" name="Ballom Emperor, Lord of Demons">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="836e40e5-9b07-49c5-b3e1-c986c31ac1d7" name="Ballom Emperor, Lord of Demons">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5 (Secret Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="66f46acc-c519-44eb-b599-a099df75b2c2" name="Bolshack Yamato Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Samurai"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;■ When you would destroy one of your opponent's creatures that has power 6000 or less by the effect of Bolmeteus Musha Dragon, destroy one of your opponent's creatures that has power 12000 or less instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="8c374db2-7b97-4205-a669-cda740d21176" name="Bolshack Yamato Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Samurai"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;■ When you would destroy one of your opponent's creatures that has power 6000 or less by the effect of Bolmeteus Musha Dragon, destroy one of your opponent's creatures that has power 12000 or less instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5 (Secret Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="35816229-7627-4b73-a5b5-ec8a17fdbf60" name="King Alcadeias, Holy Gaia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command/Lost Crusader"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would put a non-multicolored creature into the battle zone, put it into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="7dbe96e2-2ca6-4eff-baaa-546580db7c42" name="King Alcadeias, Holy Gaia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command/Lost Crusader"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your multicolored creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would put a non-multicolored creature into the battle zone, put it into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5 (Secret Card)"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="66187890-a25d-4cc7-8801-0894d230f57e" name="Aku, Ultimate God">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="God"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your Gods in the battle zone would be destroyed, you may return it to your hand instead.&#xA;■ God Link (Zen, Transcendent God) Left Side&#xA;■ Whenever this creature attacks while linked, you may destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-26 Dragonic Wars"/>
+    </card>
+    <card id="95532e89-7b06-49fd-96c1-9bb71e74413e" name="Kirin Legacy, the Twin Meteor">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on 2 of your multicolored creatures.&#xA;■ Meteorburn—Whenever you summon a non-evolution multicolored creature, you may put one of the cards under this creature into your graveyard. If you do, you may search your deck and put a creature that has the same name as the creature you put into your graveyard from your deck into the battle zone. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-26 Dragonic Wars"/>
     </card>
   </cards>

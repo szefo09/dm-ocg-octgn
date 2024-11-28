@@ -20,790 +20,1128 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Dravita, Temporal Pressure Spirit" id="0461c8e8-b546-431a-ae2e-f4e4bbbca0b5">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="Whenever your opponent casts a spell, you may choose one of your opponent&quot;s creatures in the battle zone and tap it.&#xD;&#xA; Whenever this creature wins a battle, you may untap it.&#xD;&#xA; Awaken - At the start of your turn, if you have 2 or more Flame Commands or creatures that have NEX in their name in the battle zone, flip this creature."/>
-      <property name="Power" value="5500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1a"/>
-      <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Vermillion Dravita, the Awakened Pressure Dragon" type="awakening">
-        <property name="Format" value="OCG"/>
-        <property name="Civilization" value="Light/Fire"/>
-        <property name="Cost" value="14"/>
-        <property name="Type" value="Psychic Creature"/>
-        <property name="Race" value="Angel Command/Armored Dragon"/>
-        <property name="Rules" value="Your opponent can&quot;t cast spells.&#xD;&#xA; This creature can attack untapped creatures.&#xD;&#xA;Triple breaker&#xD;&#xA;{RELEASE}"/>
-        <property name="Power" value="12000"/>
-        <property name="Rarity" value="Super Rare"/>
-        <property name="Number" value=""/>
-      </alternate>
-    </card>
-    <card name="Dias Zeta, the Temporal Suppressor" id="e313fd1a-0b83-45c8-903c-7fc0de292d62">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Demon Command/Zombie Dragon"/>
-      <property name="Rules" value="Annihilating Soul Recall 4  (Whenever this creature attacks, you may choose 4 cards from either your opponent&quot;s graveyard, your graveyard, or 4 cards from both graveyards. Put the chosen cards on the bottom of their owner&quot;s deck. For every 4 cards chosen, you may use the following  ability.) : Your opponent chooses a card in his hand or battle zone and puts it on the bottom of his deck.&#xD;&#xA; Double breaker&#xD;&#xA; Awaken - At the end of your turn, if 3 or more of your opponent&quot;s creatures left the battle zone this turn, flip this creature.:Evil Soul"/>
-      <property name="Power" value="7000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2a"/>
-      <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Diabolos Zeta, Annihilation Awakened" type="awakening">
-        <property name="Format" value="OCG"/>
-        <property name="Civilization" value="Darkness"/>
-        <property name="Cost" value="16"/>
-        <property name="Type" value="Psychic Creature"/>
-        <property name="Race" value="Demon Command"/>
-        <property name="Rules" value="Each of your opponent&quot;s creatures in the battle zone gets -5000 power.  (A creature that has power 0 or less is destroyed.) &#xD;&#xA; Each of your other creatures in the battle zone gets +5000 power.&#xD;&#xA;Quattro breaker&#xD;&#xA;{RELEASE}&#xD;&#xA;:Evil Soul"/>
-        <property name="Power" value="18000"/>
-        <property name="Rarity" value="Super Rare"/>
-        <property name="Number" value=""/>
-      </alternate>
-    </card>
-    <card name="El Dorado, Spirit of Taiga" id="45cb13ab-fec9-4b3c-815d-b902ad061858">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water"/>
-      <property name="Cost" value="9"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/Cyber Command"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; Your opponent must attack with at least one creature on each of their turns, if able.&#xD;&#xA; Whenever a creature is attacking you and isn&quot;t blocked, draw a card. Then, you may cast a spell that has &quot;Shield Trigger&quot; for no cost or summon a creature that has &quot;Shield Trigger&quot; for no cost.&#xD;&#xA;Triple breaker"/>
-      <property name="Power" value="15000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-37 Dark Emperor"/>
-    </card>
-    <card name="El Destorade, Dragonic Meteor of Taiga" id="dfc9c0d2-3cc2-4e10-9f6f-573e593d212c">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Cyber Command/Apollonia Dragon"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; During your turn, when you put this creature or the first creature of the turn into the battle zone, choose one of the following: &#xD;&#xA;If you have more than or an equal number of shields as your opponent, look at the top card of your deck. If that card is a creature that costs less than the creature you just put into the battle zone, you may put that creature into the battle zone.&#xD;&#xA; If you have fewer shields than your opponent, you may add the top card of your deck to your shields face down.&#xD;&#xA; Double breaker:Holy Soul:Magic Soul"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-37 Dark Emperor"/>
-    </card>
-    <card name="Whitemane Juukai, Earthen Dragonmech" id="cf0d0cec-aefe-4da5-972e-3729d92bb98d">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire/Nature"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon/Gaia Command"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; When you summon this creature or another creature and put that creature into the battle zone, look at the top 3 cards of your deck. You may put a creature that has &quot;Mana Reburst&quot; from among them into your mana zone tapped, and put a creature that has &quot;Marshall Touch&quot; into the battle zone. Then put the rest on the bottom of your deck in any order.&#xD;&#xA; Double breaker&#xD;&#xA;Mana Reburst:Kung Fu Soul:Wild Soul"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-37 Dark Emperor"/>
-    </card>
-    <card name="Butterfly Brandy, Electro-Taiga" id="0c5dbcf5-f5f7-4726-a41c-89ad6db6a791">
+    <card id="0c5dbcf5-f5f7-4726-a41c-89ad6db6a791" name="Butterfly Brandy, Electro-Taiga">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Command/Liquid People"/>
-      <property name="Rules" value="Rebirth Chain  (When you put this creature into the battle zone or when this creature is destroyed, look at the top card of your deck. If that card is a creature that costs less than this creature, you may put it into the battle zone.) &#xD;&#xA; Each of your other creatures in the battle zone that has a &quot;Chain&quot; ability gets +1000 power.&#xD;&#xA;:Magic Soul"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Rebirth Chain (When you put this creature into the battle zone or when this creature is destroyed, look at the top card of your deck. If that card is a creature that costs less than this creature, you may put it into the battle zone.)&#xA;■ Each of your other creatures in the battle zone that has a &quot;Chain&quot; ability gets +1000 power."/>
+      <property name="Watermark" value="{Magic} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Gravitz Zeta, Lord of Extinction" id="a943f2d3-b40d-4aad-9570-28acf2345c0f">
+    <card id="a943f2d3-b40d-4aad-9570-28acf2345c0f" name="Gravitz Zeta, Lord of Extinction">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord/Zombie Dragon"/>
-      <property name="Rules" value="When your opponent puts a creature into the battle zone for the first time in a turn, your opponent chooses one of his creatures and destroys it.&#xD;&#xA;Double breaker&#xD;&#xA;:Evil Soul"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When your opponent puts a creature into the battle zone for the first time in a turn, your opponent chooses one of their creatures and destroys it.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hurricane Tops Double Cross, Blastdragon" id="82f9f9dc-d6c9-4d8d-8d22-5d10b36216f9">
+    <card id="82f9f9dc-d6c9-4d8d-8d22-5d10b36216f9" name="Hurricane Tops Double Cross, Blastdragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command"/>
-      <property name="Rules" value="Whenever this creature attacks and isn&quot;t blocked, you may put a fire psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Double breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Whenever this creature attacks and isn't blocked, you may put a fire psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Green Baltic, Peerless Brute" id="632b510b-a45e-4e2a-8ac3-3afdd4d2af5a">
+    <card id="632b510b-a45e-4e2a-8ac3-3afdd4d2af5a" name="Green Baltic, Peerless Brute">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="7 "/>
+      <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Earth Dragon"/>
-      <property name="Rules" value="Double breaker&#xD;&#xA; When this creature is destroyed, you may put a non-evolution nature creature from your hand into the battle zone."/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may put a non-evolution nature creature from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Vilem Arc, the Brute Dragon" id="5892e89b-8ed1-4149-8124-bddf802513b8">
+    <card id="5892e89b-8ed1-4149-8124-bddf802513b8" name="Vilem Arc, the Brute Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Giant/Samurai"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; When you put this creature into the battle zone, search your deck. You may take a Dragon, a Giant, and a Samurai creature from your deck, show that creature to your opponent, and put them into your hand. Then shuffle your deck.&#xD;&#xA;Double breaker"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, search your deck. You may take a Dragon, a Giant, and a Samurai creature from your deck, show those creatures to your opponent, and put them into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Silk Do Gyupel, Protection Elemental" id="e6e59eb6-32f3-47f8-839f-abf5ec7f3556">
+    <card id="e6e59eb6-32f3-47f8-839f-abf5ec7f3556" name="Silk Do Gyupel, Protection Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="Each of your other  (Holy Soul) or  (Magic Soul) creatures in the battle zone gets &quot;Blocker&quot;.&#xD;&#xA;Double breaker&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="6500"/>
+      <property name="Rules" value="■ Each of your other 20px (Holy Soul) or 20px (Magic Soul) creatures in the battle zone gets &quot;blocker&quot;.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Padma Romasa, Spirit Knight" id="2b8805c7-4de3-4b1b-99ed-6ecf16b574b2">
+    <card id="2b8805c7-4de3-4b1b-99ed-6ecf16b574b2" name="Padma Romasa, Spirit Knight">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA; At the end of each turn, if your opponent broke 2 or more of your shields that turn, add the top card of your deck to your shields face down.:Holy Soul"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ At the end of each turn, if your opponent broke 2 or more of your shields during that turn, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value="{Holy} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Kali Mirage H, the Super-Electric" id="622dc5fd-323e-448b-89b5-44ce7e4d0912">
+    <card id="622dc5fd-323e-448b-89b5-44ce7e4d0912" name="Kali Mirage H, the Super Electromagnetic">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Command"/>
-      <property name="Rules" value="Evolution - Put on one of your  (Holy Soul) creatures or one of your  (Magic Soul) creatures.&#xD;&#xA;Double breaker&#xD;&#xA; Whenever your opponent puts a creature into the battle zone, you may draw up to 2 cards.&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your 20px (Holy Soul) creatures or one of your 20px (Magic Soul) creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone, you may draw up to 2 cards."/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Saltinidom Crawler" id="c5c5fe1a-75e0-4e2c-9781-046dbd00bcf7">
+    <card id="c5c5fe1a-75e0-4e2c-9781-046dbd00bcf7" name="Saltinidom Crawler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Freeze:Holy Soul:Magic Soul"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{FREEZE} (Whenever this creature attacks your opponent and isn't blocked, you may choose one of your opponent's creatures in the battle zone and tap it. That creature doesn't untap at the start of your opponent's next turn.)"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Aqua Melge" id="a65bdd1b-edff-4ff4-a634-41940e2fe9d1">
+    <card id="21305a8b-7cc4-442a-9282-243d200ae525" name="Aqua Melge">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="Whenever you put a creature into the battle zone during your turn, you may discard a card. If you do, draw a card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever you put another creature into the battle zone during your turn, you may discard a card. If you do, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Steiner, the Resurrecting Reaper" id="fab4495f-0c22-4fb1-af79-4d177925f4b1">
+    <card id="a65bdd1b-edff-4ff4-a634-41940e2fe9d1" name="Aqua Melge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever you put another creature into the battle zone during your turn, you may discard a card. If you do, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="3c0e5883-ee73-4ce3-a2dc-49df0810a262" name="Steiner, the Resurrecting Reaper">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="When you summon this creature into the battle zone, you may put one of your creatures that has 7000 power or less from your graveyard into the battle zone.&#xD;&#xA;Double breaker"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ When you summon this creature into the battle zone, you may put one of your creatures that has 7000 power or less from your graveyard into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Black Ganveet, Legion of Demise" id="e1bf23ae-46ab-4274-8e0a-2af15d0d78db">
+    <card id="fab4495f-0c22-4fb1-af79-4d177925f4b1" name="Steiner, the Resurrecting Reaper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ When you summon this creature into the battle zone, you may put one of your creatures that has 7000 power or less from your graveyard into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="b2c1104e-5ae4-4816-ac55-920268547f73" name="Black Ganveet, Wicked Soldier of Demise">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="Whenever this creature attacks, each player discards his hand.&#xD;&#xA;No Choice This creature gets +5000 power.&#xD;&#xA;Triple breaker&#xD;&#xA;:Bloody Soul"/>
       <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, each player discards their hand.&#xA;{NO CHOICE} (If any player has no cards in their hand, this creature gets the following No Choice ability.)&#xA;This creature gets +5000 power.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Galatia Dragoon" id="090a2b87-84bb-4382-b974-7507c3f0bc32">
+    <card id="e1bf23ae-46ab-4274-8e0a-2af15d0d78db" name="Black Ganveet, Wicked Soldier of Demise">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, each player discards their hand.&#xA;{NO CHOICE} (If any player has no cards in their hand, this creature gets the following No Choice ability.)&#xA;This creature gets +5000 power.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="090a2b87-84bb-4382-b974-7507c3f0bc32" name="Galatia Dragoon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="Blocker&#xD;&#xA; This creature can&quot;t attack.&#xD;&#xA; Whenever this creature blocks, choose one of the following:&#xD;&#xA;One of your opponent&quot;s creatures in the battle zone gets -1000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.)&#xD;&#xA;The blocked creature gets -2000 power until the end of the turn.:Evil Soul"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, choose one of the following:&#xA;► One of your opponent's creatures in the battle zone gets -1000 power until the end of the turn. (A creature that has power 0 or less is destroyed.):&#xA;► The blocked creature gets -2000 power until the end of the turn."/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Abdullah Flame Dragon" id="30897de2-7626-489b-8760-3caa2a15ed95">
+    <card id="30897de2-7626-489b-8760-3caa2a15ed95" name="Abdullah Flame Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Marshall Touch Destroy all creatures that have power 4000 or less.&#xD;&#xA;Double breaker&#xD;&#xA;:Kung Fu Soul"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="{MARSHALL TOUCH} (When you put this creature into the battle zone, you may return one of your other creatures in the battle zone to your hand. If you do, use this creature's Marshall Touch ability)&#xA;Destroy all creatures that have power 4000 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Kung Fu} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Blazing Tiger, Crimson Lord" id="2c86e11d-7ee2-480c-9a1f-4fb092d7057e">
+    <card id="2c86e11d-7ee2-480c-9a1f-4fb092d7057e" name="Blazing Tiger, Crimson Lord">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster/Samurai"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA; When you put this creature into the battle zone, destroy all your opponent&quot;s creatures that have power 2000 or less. "/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, destroy all your opponent's creatures that have power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Galeras Shidoh, the Explosive" id="3fa62fb5-3cf6-4c92-8790-9e91ee7a0368">
+    <card id="3fa62fb5-3cf6-4c92-8790-9e91ee7a0368" name="Galeras Shidoh, the Explosive">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Command"/>
-      <property name="Rules" value="Each of your  (Kung Fu Soul) and  (Wild Soul) creatures in the battle zone have &quot;Double breaker&quot;.&#xD;&#xA;:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Each of your 20px (Kung Fu Soul) and 20px (Wild Soul) creatures in the battle zone have &quot;Double breaker&quot;."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Ouga, the Natural Disaster" id="262e49ae-275e-44d5-b2ae-8236da9aa74c">
+    <card id="262e49ae-275e-44d5-b2ae-8236da9aa74c" name="Ouga, the Natural Disaster">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Gaia Command"/>
-      <property name="Rules" value="Evolution - Put on one of your  (Kung Fu Soul) creatures or one of your  (Wild Soul) creatures.&#xD;&#xA;Double breaker&#xD;&#xA; When this creature would leave the battle zone, put this creature into your mana zone instead.&#xD;&#xA; Whenever your other  (Kung Fu Soul) or  (Wild Soul) creatures would leave the battle zone, put it into your mana zone instead.&#xD;&#xA;:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your 20px (Kung Fu Soul) creatures or one of your 20px (Wild Soul) creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would leave the battle zone, put this creature into your mana zone instead.&#xA;■ Whenever your other 20px (Kung Fu Soul) or 20px (Wild Soul) creatures would leave the battle zone, put it into your mana zone instead."/>
+      <property name="Watermark" value="{Kung Fu} {Soul}, {Wild} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Terradragon Garza Magdran" id="72090759-d038-45cc-b4f2-36913b98a04a">
+    <card id="72090759-d038-45cc-b4f2-36913b98a04a" name="Terradragon Garza Magdran">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="Double breaker&#xD;&#xA;  This creature can&quot;t be attacked."/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Una Arana, Neptune Spirit" id="171f1605-15f5-4d46-bc07-fea05260c1d5">
+    <card id="171f1605-15f5-4d46-bc07-fea05260c1d5" name="Una Arana, Neptune Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon/Angel Command"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; Double Freeze  (Whenever this creature attacks your opponent and isn&quot;t blocked, you may choose up to 2 of your opponent&quot;s creatures in the battle zone and tap them. Those creatures don&quot;t untap at the start of your opponent&quot;s next turn.) &#xD;&#xA;Double breaker&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="6500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Double Freeze (Whenever this creature attacks your opponent and isn't blocked, you may choose up to 2 of your opponent's creatures in the battle zone and tap them. Those creatures don't untap at the start of your opponent's next turn.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Volcano Fudou, the Twin Blast" id="41bc0890-3712-4c43-9fd6-270f21d8973f">
+    <card id="41bc0890-3712-4c43-9fd6-270f21d8973f" name="Volcano Fudou, the Twin Blast">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon/Flame Command"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; Double breaker&#xD;&#xA;Solemn Duty This turn, one of your creatures in the battle zone gets &quot;Power Attacker +5000&quot; and breaks an additional shield.&#xD;&#xA; Whenever one of your Fire Birds leaves the battle zone, one of your creatures in the battle zone can attack untapped creatures until the end of the turn.&#xD;&#xA;:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;{SOLEMN DUTY} Solemn Duty (Whenever one of your other creatures leaves the battle zone or your mana zone, you may use this creature's Solemn Duty ability.) This turn, one of your creatures in the battle zone gets &quot;Power attacker +5000&quot; and breaks an additional shield.&#xA;■ Whenever one of your Fire Birds leaves the battle zone, one of your creatures in the battle zone can attack untapped creatures until the end of the turn."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Untouchable, Temporal Hero" id="c76e0f55-901e-4a83-a61e-b1fb8c654b3b">
+    <card id="c76e0f55-901e-4a83-a61e-b1fb8c654b3b" name="Untouchable, Temporal Hero">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Machine Hero"/>
-      <property name="Rules" value="Whenever your opponent would choose a creature in the battle zone, he can&quot;t choose this one.  (It can still be attacked and blocked.) &#xD;&#xA; Awaken - At the end of each turn, if another of your Psychic Creatures awakened that turn, flip this creature.&#xD;&#xA;Hyperspatial Psychic"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Awaken—At the end of each turn, if another of your psychic creatures awakened that turn, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21a"/>
+      <property name="Number" value="21a/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Untouchable Powered, the Awakened Protean" type="awakening">
-        <property name="Format" value="OCG"/>
+      <alternate name="Untouchable Powered, the Awakened Protean" type="awakening" size="normal">
         <property name="Civilization" value="Water"/>
         <property name="Cost" value="7"/>
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Cyber Command"/>
-        <property name="Rules" value="This creature can&quot;t be blocked.&#xD;&#xA; Whenever your opponent would choose a creature in the battle zone, he can&quot;t choose this one.  (It can still be attacked.) "/>
         <property name="Power" value="5000"/>
+        <property name="Rules" value="■ This creature can't be blocked.&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value=""/>
+        <property name="Number" value="21b/55"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
       </alternate>
     </card>
-    <card name="Onbar Brazen, the Propagating Defense" id="07467d23-62bc-42ec-bed4-38ee6c411a43">
+    <card id="3ab8c289-9c8f-4cb0-9799-f42906c9d70a" name="Untouchable Powered, the Awakened Protean">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21b/55"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="07467d23-62bc-42ec-bed4-38ee6c411a43" name="Onbar Brazen, the Propagating Defense">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Chain&#xD;&#xA;Holy Field This creature gets &quot;Blocker&quot;.&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{CHAIN} (When you put this creature into the battle zone, look at the top card of your deck. If that card is a creature that costs less than this creature, you may put it into the battle zone. If you don't, return it to the top of your deck.)&#xA;{HOLY FIELD} (If your opponent doesn't have more shields than you, this creature gets its Holy Field ability.) This creature gets &quot;blocker&quot;."/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Dravita Hole" id="900b7e66-0f76-4c60-8b5e-521dcf7d0bca">
+    <card id="d30df48a-2414-4ee7-bc0b-601cfdeaac92" name="Hyperspatial Dravita Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Return a spell that costs 3 or less from your graveyard to your hand.&#xD;&#xA; Choose one of the following:&#xD;&#xA;Put any number of psychic creatures that have total cost 5 or less from your hyperspatial zone into the battle zone&#xD;&#xA;Put a Light psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Return a spell that costs 3 or less from your graveyard to your hand.&#xA;■ Choose one of the following:&#xA;► Put any number of psychic creatures that have total cost 5 or less from your hyperspatial zone into the battle zone:&#xA;► Put a light psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Martini, Temporal Dancer" id="0f3f8b55-67ff-4e3f-ac44-8c7803dc24ee">
+    <card id="900b7e66-0f76-4c60-8b5e-521dcf7d0bca" name="Hyperspatial Dravita Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Return a spell that costs 3 or less from your graveyard to your hand.&#xA;■ Choose one of the following:&#xA;► Put any number of psychic creatures that have total cost 5 or less from your hyperspatial zone into the battle zone:&#xA;► Put a light psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="0f3f8b55-67ff-4e3f-ac44-8c7803dc24ee" name="Martini, Temporal Dancer">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Splash Queen"/>
-      <property name="Rules" value="Blocker&#xD;&#xA; This creature can&quot;t attack.&#xD;&#xA; Awaken - When you put a creature that has &quot;Blocker&quot; that costs 4 or more into the battle zone, flip this creature.&#xD;&#xA;Hyperspatial Psychic"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Awaken—When you put a creature that has &quot;blocker&quot; that costs 4 or more into the battle zone, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24a"/>
+      <property name="Number" value="24a/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Julia Matina, the Awakened Diva" type="awakening">
-        <property name="Format" value="OCG"/>
+      <alternate name="Julia Matina, the Awakened Diva" type="awakening" size="normal">
         <property name="Civilization" value="Light"/>
         <property name="Cost" value="6"/>
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Mecha Del Sol"/>
-        <property name="Rules" value="Blocker&#xD;&#xA; Whenever this creature blocks, add the top card of your deck to your shields face down."/>
         <property name="Power" value="3000"/>
+        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, add the top card of your deck to your shields face down."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value="24b"/>
+        <property name="Number" value="24b/55"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
       </alternate>
     </card>
-    <card name="Octo Juranzo, the Electro-Mecha King" id="268781e4-e5b9-42d8-b085-67544f9bbe77">
+    <card id="062bf881-c415-48fd-a5d2-8228a0eca8cf" name="Julia Matina, the Awakened Diva">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24b/55"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="268781e4-e5b9-42d8-b085-67544f9bbe77" name="Octo Juranzo, the Electro-Mecha King">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Great Mecha King"/>
-      <property name="Rules" value="Chain&#xD;&#xA;Holy Field When this creature would be destroyed, return it to your hand instead.&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{CHAIN} (When you put this creature into the battle zone, look at the top card of your deck. If that card is a creature that costs less than this creature, you may put it into the battle zone. If you don't, return it to the top of your deck.)&#xA;{HOLY FIELD} (If your opponent doesn't have more shields than you, this creature gets its Holy Field ability.) When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Jester Brain" id="9981029c-8700-4e1d-bfa1-20b4e5af0bdd">
+    <card id="9981029c-8700-4e1d-bfa1-20b4e5af0bdd" name="Jester Brain">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Draw 3 cards. Then, your opponent chooses up to 3 of his shields and puts them into his hand. Put a card from your hand on the bottom of your deck for each shield your opponent puts into his hand this way."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Draw 3 cards. Then your opponent chooses up to 3 of their shields and puts them into their hand. Put a card from your hand on the bottom of your deck for each shield your opponent puts into their hand this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Provents, Duke of Deprivation" id="2b069686-5953-4b8e-b36d-a1728e871c8e">
+    <card id="2b069686-5953-4b8e-b36d-a1728e871c8e" name="Provents, Duke of Deprivation">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="No Choice Whenever this creature attacks, each of your opponent&quot;s creatures in the battle zone gets -2000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) &#xD;&#xA;:Bloody Soul"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{NO CHOICE} (If any player has no cards in their hand, this creature gets the following No Choice ability.)&#xA;Whenever this creature attacks, each of your opponent's creatures in the battle zone gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Ganveet Twist" id="89045c01-cadb-4f6a-b683-c85a513c2521">
+    <card id="89045c01-cadb-4f6a-b683-c85a513c2521" name="Ganveet Twist">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} &#xD;&#xA; Your opponent chooses a card from his hand and discards it.&#xD;&#xA; Choose one of your opponent&quot;s creatures in the battle zone. That creature gets -3000 power until the end of the turn.  (A creature that has power 0 or less is destroyed.) "/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses a card from their hand and discards it.&#xA;■ Choose one of your opponent's creatures in the battle zone. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Vice Hole" id="39695002-6593-48cb-aad6-ff078bfc7ed8">
+    <card id="39695002-6593-48cb-aad6-ff078bfc7ed8" name="Hyperspatial Vice Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Look at your opponent&quot;s hand and choose a spell from it. Your opponent discards that spell. &#xD;&#xA; Choose one of the following:&#xD;&#xA;Put up to 2 psychic creatures that have total cost 6 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Put a Darkness psychic creature that costs 10 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Look at your opponent's hand and discard a spell from it.&#xA;■ Choose one of the following:&#xA;► Put up to 2 psychic creatures that have total cost 6 or less from your hyperspatial zone into the battle zone:&#xA;► Put a darkness psychic creature that costs 10 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Kutt, Temporal Brawler" id="92551186-d04d-46b5-b29a-b0888e35b202">
+    <card id="92551186-d04d-46b5-b29a-b0888e35b202" name="Kill, Temporal Brawler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="During your opponent&quot;s turn, if any of your psychic creatures would be returned to your hand by one of your opponent&quot;s spells or the ability of one of your opponent&quot;s creatures in the battle zone, that creature stays in the battle zone instead.&#xD;&#xA; Awaken - At the start of your turn, if you have a creature in the battle zone that has power 6000 or more, flip this creature.&#xD;&#xA;Hyperspatial Psychic"/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead.&#xA;■ Awaken—At the start of your turn, if you have a creature in the battle zone that has power 6000 or more, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30a"/>
+      <property name="Number" value="30a/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Severance, the Awakened Giant" type="awakening">
-        <property name="Format" value="OCG"/>
+      <alternate name="Setsudan, Awakened Giant" type="awakening" size="normal">
         <property name="Civilization" value="Nature"/>
         <property name="Cost" value="7"/>
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Giant"/>
-        <property name="Rules" value="Power Attacker&#xD;&#xA;Double breaker&#xD;&#xA; If any of your psychic creatures would be returned to your hand by one of your opponent&quot;s spells or the ability of one of your opponent&quot;s creatures in the battle zone, that creature stays in the battle zone instead."/>
         <property name="Power" value="5000+"/>
+        <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value=""/>
+        <property name="Number" value="30b/55 (Visual Card)"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
       </alternate>
     </card>
-    <card name="Gennai, the Disassembler" id="fdc196fb-132e-4ac5-925b-508cabbdeb4b">
+    <card id="888728f6-c2eb-4188-9bba-0545bc2d75ed" name="Setsudan, Awakened Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30b/55"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="7a22016b-7102-4d1f-b428-76e8112c1a5b" name="Setsudan, Awakened Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever any of your psychic creatures would be returned to your hand by one of your opponent's spells or the ability of one of your opponent's creatures in the battle zone, that creature stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30b/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="fdc196fb-132e-4ac5-925b-508cabbdeb4b" name="Gennai, the Disassembler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Eater"/>
-      <property name="Rules" value="Marshall Touch Destroy one of your opponent&quot;s Light or Water creatures that has power 5000 or less.&#xD;&#xA;Mana Reburst:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{MARSHALL TOUCH} (When you put this creature into the battle zone, you may return one of your other creatures in the battle zone to your hand. If you do, use this creature's Marshall Touch ability)&#xA;Destroy one of your opponent's light or water creatures that has power 5000 or less.&#xA;{MANA REBURST} 7 (You may summon this creature from your mana zone by paying 7.)"/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Eagle Aini, the Explosive Wing" id="cbc95628-dd39-4de9-9b1b-705bfeccabc1">
+    <card id="055cec51-97d3-45c3-beca-041d5119313b" name="Eagle Aini, the Explosive Wing">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Flame Monster"/>
-      <property name="Rules" value="Your creatures that have Double Cross in their names may each cost 1 less to summon. They can&quot;t cost less than 1.&#xD;&#xA; Each of your Flame Commands in the battle zone gets &quot;Speed Attacker&quot;.&#xD;&#xA;:Kung Fu Soul"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Your creatures that have Double Cross in their names may each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your Flame Commands in the battle zone get &quot;speed attacker&quot;."/>
+      <property name="Watermark" value="{Kung Fu} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Jon, Temporal Explorer" id="42edfaad-109e-4234-8a9b-7dff23bbe2b7">
+    <card id="cbc95628-dd39-4de9-9b1b-705bfeccabc1" name="Eagle Aini, the Explosive Wing">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Flame Monster"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Your creatures that have Double Cross in their names may each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your Flame Commands in the battle zone get &quot;speed attacker&quot;."/>
+      <property name="Watermark" value="{Kung Fu} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="42edfaad-109e-4234-8a9b-7dff23bbe2b7" name="Jon, Temporal Explorer">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Awaken - At the end of your turn, if you put 2 or more other creatures into the battle zone this turn, flip this card.Hyperspatial Psychic"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Awaken—At the end of your turn, if you put 2 or more other creatures into the battle zone this turn, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33a"/>
+      <property name="Number" value="33a/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
-      <alternate name="Jonjo Jon, the Awakened Adventurer" type="awakening">
-        <property name="Format" value="OCG"/>
+      <alternate name="Jonjo Jon, the Awakened Adventurer" type="awakening" size="normal">
         <property name="Civilization" value="Fire"/>
         <property name="Cost" value="5"/>
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Dreammate/Vehicle Bee"/>
-        <property name="Rules" value="Whenever your creatures attack, if it&quot;s the third creature to attack this turn, untap this creature."/>
         <property name="Power" value="5000"/>
+        <property name="Rules" value="■ Whenever any of your creatures attacks, if it's the third creature to attack this turn, untap this creature."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value=""/>
+        <property name="Number" value="33b/55"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
       </alternate>
     </card>
-    <card name="Brute Mantis, Peerless Insect" id="3ad8bf54-fd15-492e-a4fa-5379954dd587">
+    <card id="2a000191-626e-4b3c-8715-f4bfbb52c7dc" name="Jonjo Jon, the Awakened Adventurer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Dreammate/Vehicle Bee"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, if it's the third creature to attack this turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33b/55"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="3ad8bf54-fd15-492e-a4fa-5379954dd587" name="Mantis Sword, Brute Insect">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Giant Insect"/>
-      <property name="Rules" value="If you haven&quot;t put at least 1 card into your mana zone during your turn, at the end of your turn return this creature to your hand. (This includes your initial mana charge at the start of your turn.)&#xD;&#xA;Double breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ If you didn't put any cards into your mana zone during your turn, return this creature to your hand at the end of that turn.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Liondance, the Invoked" id="27ab61c2-825d-42cb-ba7e-42813b845cbe">
+    <card id="27ab61c2-825d-42cb-ba7e-42813b845cbe" name="Shishimai, the Invoked">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wonder Trick"/>
-      <property name="Rules" value="While this creature is tapped, your opponent can&quot;t use the &quot;Shield Trigger&quot; ability of creatures.:Wild Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ While this creature is tapped, your opponent can't use their creatures &quot;shield trigger&quot; abilities."/>
+      <property name="Watermark" value="{Wild} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Pure Arial" id="443e509c-b46f-48bd-9f76-3c65da72babc">
+    <card id="443e509c-b46f-48bd-9f76-3c65da72babc" name="Pure Arial">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shine Monster"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA; When you put this creature into the battle zone, you may choose one of your opponent&quot;s creatures in the battle zone and tap it.&#xD;&#xA;:Holy Soul:Magic Soul"/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Mamo Mystail, Surprise Guardian" id="ed15b5b5-a24b-42ce-9892-660d6a298151">
+    <card id="ed15b5b5-a24b-42ce-9892-660d6a298151" name="Mamo Mystail, Surprise Guardian">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="Freeze:Holy Soul:Magic Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{FREEZE} (Whenever this creature attacks your opponent and isn't blocked, you may choose one of your opponent's creatures in the battle zone and tap it. That creature doesn't untap at the start of your opponent's next turn.)"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Rotund Robota" id="d8959597-af87-4771-86a6-1f4c73f30ee9">
+    <card id="d8959597-af87-4771-86a6-1f4c73f30ee9" name="Rotund Robota">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="Blocker This creature can&quot;t attack players.&#xD;&#xA; While blocking, this creature gets +2000 power."/>
       <property name="Power" value="500+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ While blocking, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Surprise Hole" id="16e1ec91-6f8a-4684-b250-c278862b3d0b">
+    <card id="16e1ec91-6f8a-4684-b250-c278862b3d0b" name="Hyperspatial Surprise Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} &#xD;&#xA; Choose one of the following:&#xD;&#xA;Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone&#xD;&#xA;Put a Light or Water psychic creature that costs 4 or less from your hyperspatial zone into the battle zone. &#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone:&#xA;► Put a light or water psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Feather Tower Lunatron" id="7521ae57-3719-4bbf-982f-e4f588a6f340">
+    <card id="7521ae57-3719-4bbf-982f-e4f588a6f340" name="Feather Tower Lunatron">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon"/>
-      <property name="Rules" value="This creature can&quot;t be blocked."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Jaws Pirate" id="b0261b73-75f4-4556-9dbe-ed3a88e9d302">
+    <card id="b0261b73-75f4-4556-9dbe-ed3a88e9d302" name="Jaws Pirate">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk"/>
-      <property name="Rules" value="Blocker&#xD;&#xA; This creature can&quot;t attack.&#xD;&#xA; When you put this creature into the battle zone, draw 2 cards. Then, put 2 cards from your hand on top of your deck in any order.:Holy Soul:Magic Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, draw 2 cards. Then put 2 cards from your hand on top of your deck in any order."/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Extra Hole" id="e4093611-0a43-4a37-8a5e-6b8015a23d6f">
+    <card id="e4093611-0a43-4a37-8a5e-6b8015a23d6f" name="Hyperspatial Extra Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose a player. That player puts up to 2 cards from his graveyard on top of his deck, then shuffles his deck.&#xD;&#xA; Choose one of the following:&#xD;&#xA;Put a creature from your hyperspatial zone that costs 2 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Put a Light or Water creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose a player and choose up to 2 cards from their graveyard. That player puts the chosen cards on top of their deck and shuffles it.&#xA;■ Choose one of the following:&#xA;► Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone:&#xA;► Put a light or water creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Lambor Man" id="45db0ac7-9473-4d2f-959d-76886130eead">
+    <card id="45db0ac7-9473-4d2f-959d-76886130eead" name="Lambor Man">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="While there are 3 or more cards in your opponent&quot;s graveyard, this creature gets +3000 power and has &quot;Double Breaker&quot;.&#xD;&#xA;:Bloody Soul"/>
       <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While there are 3 or more cards in your opponent's graveyard, this creature gets +3000 power and has &quot;double breaker&quot;."/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Skull Merdi, Shadow of Vice" id="c3b81880-7a9c-4489-b5c6-8683642a9dcc">
+    <card id="c3b81880-7a9c-4489-b5c6-8683642a9dcc" name="Skull Merdi, Shadow of Vice">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="No Choice This creature gets +4000 power and has &quot;Double Breaker&quot;.&#xD;&#xA;:Bloody Soul"/>
       <property name="Power" value="2000+"/>
+      <property name="Rules" value="{NO CHOICE} (If any player has no cards in their hand, this creature gets the following No Choice ability.)&#xA;This creature gets +4000 power and has &quot;double breaker&quot;."/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Darkness Dober" id="b19cbd76-5e42-4eeb-99de-705c13cbb877">
+    <card id="a9f7287a-7157-473e-b78b-72744a8d36f4" name="Darkness Dober">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Monster"/>
-      <property name="Rules" value="Blocker&#xD;&#xA; This creature can&quot;t attack.&#xD;&#xA; During your turn, whenever one of your opponent&quot;s creatures leaves the battle zone, reveal the top 3 cards of your deck. Then, put each creature that has &quot;Zeta&quot; in its name from among the revealed cards into your hand and put the rest of the revealed cards into your graveyard."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever one of your opponent's creatures leaves the battle zone during your turn, you may reveal the top 3 cards of your deck. If you do, put any number of creatures that have &quot;Zeta&quot; in its name from among the revealed cards into your hand and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="No Man" id="e9f6c70c-18e3-4919-aabd-926910e88d96">
+    <card id="b19cbd76-5e42-4eeb-99de-705c13cbb877" name="Darkness Dober">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Monster"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever one of your opponent's creatures leaves the battle zone during your turn, you may reveal the top 3 cards of your deck. If you do, put any number of creatures that have &quot;Zeta&quot; in its name from among the revealed cards into your hand and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="e9f6c70c-18e3-4919-aabd-926910e88d96" name="No Man">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="Whenever cards are put into a graveyard, each of your creatures in the battle zone that costs 2 or less gets &quot;Slayer&quot; until the end of that turn.&#xD;&#xA;:Bloody Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever cards are put into a graveyard, each of your creatures in the battle zone that costs 2 or less gets &quot;slayer&quot; until the end of the turn."/>
+      <property name="Watermark" value="{Bloody} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Pitch Aini" id="5ae36e78-b94d-4c40-b746-4dd8fcf9c5dd">
+    <card id="5ae36e78-b94d-4c40-b746-4dd8fcf9c5dd" name="Pitch Aini">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="Speed attacker&#xD;&#xA;Tap Ability Untap one of your Flame Commands in the battle zone.&#xD;&#xA;:Kung Fu Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Untap one of your Flame Commands in the battle zone."/>
+      <property name="Watermark" value="{Kung Fu} {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Kung Fu Pig" id="92aa9722-894d-48e7-9252-9e9b42220356">
+    <card id="92aa9722-894d-48e7-9252-9e9b42220356" name="Kung Fu Pig">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Solemn Duty This creature gets +3000 power until the end of the turn.:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SOLEMN DUTY} Solemn Duty (Whenever one of your other creatures leaves the battle zone or your mana zone, you may use this creature's Solemn Duty ability.) This creature gets +3000 power until the end of the turn."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Kutt Hole" id="8a121ea4-f0f3-47cf-9940-8b6b7808ee85">
+    <card id="8a121ea4-f0f3-47cf-9940-8b6b7808ee85" name="Hyperspatial Kill Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy one of your opponent&quot;s creatures that has &quot;Blocker&quot; and power 4000 or less.&#xD;&#xA; Choose one of the following:&#xD;&#xA;Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Put a Fire or Nature psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot; and power 4000 or less.&#xA;■ Choose one of the following:&#xA;► Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone:&#xA;► Put a Fire or Nature psychic creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Boxing Totem" id="77dbe7c9-5cc5-4ea9-9a8d-a7cbf026542f">
+    <card id="77dbe7c9-5cc5-4ea9-9a8d-a7cbf026542f" name="Boxing Totem">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="Solemn Duty This creature gets +3000 power and has &quot;Double breaker&quot; until the end of the turn.:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SOLEMN DUTY} Solemn Duty (Whenever one of your other creatures leaves the battle zone or your mana zone, you may use this creature's Solemn Duty ability.) This creature gets +3000 power and has &quot;Double breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Fighting Musubi" id="6d3df5d7-02d4-40da-b0cd-bff9cf7406b8">
+    <card id="6d3df5d7-02d4-40da-b0cd-bff9cf7406b8" name="Aragoto Musubi">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="Marshall Touch Put the top card of your deck into your mana zone.&#xD;&#xA;Mana Reburst:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{MARSHALL TOUCH} (When you put this creature into the battle zone, you may return one of your other creatures in the battle zone to your hand. If you do, use this creature's Marshall Touch ability)&#xA;Put the top card of your deck into your mana zone.&#xA;{MANA REBURST} 5 (You may summon this creature from your mana zone by paying 5.)"/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Puffball Mushroom" id="dcf6f270-f2c9-4652-8d35-c6a27873ac1a">
+    <card id="dcf6f270-f2c9-4652-8d35-c6a27873ac1a" name="Puffball Mushroom">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Balloon Mushroom"/>
-      <property name="Rules" value="When you put this creature into the battle zone, destroy it unless you have another creature in the battle zone that has power 6000 or more.&#xD;&#xA;Double breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy it unless you have another creature in the battle zone that has power 6000 or more.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Hyperspatial Powered Hole" id="76a2f012-c2c5-4cf4-abb0-e1d8bc191521">
+    <card id="76a2f012-c2c5-4cf4-abb0-e1d8bc191521" name="Hyperspatial Powered Hole">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Each of your creatures in the battle zone gets +1000 power and can&quot;t be blocked by any creature that has power 3000 or less until the end of the turn.&#xD;&#xA; Choose one of the following:&#xD;&#xA;Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Put a Fire or Nature creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Hyperspatial Psychic"/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +1000 power and can't be blocked by any creature that has power 3000 or less until the end of the turn.&#xA;■ Choose one of the following:&#xA;► Put a psychic creature that costs 2 or less from your hyperspatial zone into the battle zone:&#xA;► Put a fire or nature creature that costs 4 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Majestic Star, the Electro-Apocalyptic" id="6044bddb-16bc-468d-8215-0e78922eaf62">
+    <card id="7cdc1368-e7ee-430b-9c1a-71fdf8b7d094" name="Majestic Star, the Electro-Apocalyptic">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Light Bringer"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA; This creature can&quot;t be blocked.&#xD;&#xA;Freeze:Holy Soul:Magic Soul"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't be blocked.&#xA;{FREEZE} (Whenever this creature attacks your opponent and isn't blocked, you may choose one of your opponent's creatures in the battle zone and tap it. That creature doesn't untap at the start of your opponent's next turn.)"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
-    <card name="Zan Ebizou, the Savage Gale" id="011c10f6-6f6f-41be-9921-8fbb16f3f5ec">
+    <card id="6044bddb-16bc-468d-8215-0e78922eaf62" name="Majestic Star, the Electro-Apocalyptic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Light Bringer"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't be blocked.&#xA;{FREEZE} (Whenever this creature attacks your opponent and isn't blocked, you may choose one of your opponent's creatures in the battle zone and tap it. That creature doesn't untap at the start of your opponent's next turn.)"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="7fa4b1db-f0c4-4ca8-9658-e61a16fd6574" name="Zan Ebizou, the Savage Gale">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Feathernoid"/>
-      <property name="Rules" value=" (This creature is put into your mana zone tapped.) &#xD;&#xA;Speed attacker&#xD;&#xA;Solemn Duty Each of your creatures in the battle zone that costs 3 or less gets &quot;Speed Attacker&quot; until the end of the turn.&#xD;&#xA;:Kung Fu Soul:Wild Soul"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{SOLEMN DUTY} Solemn Duty (Whenever one of your other creatures leaves the battle zone or your mana zone, you may use this creature's Solemn Duty ability.) Each of your creatures in the battle zone that costs 3 or less gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="011c10f6-6f6f-41be-9921-8fbb16f3f5ec" name="Zan Ebizou, the Savage Gale">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk/Feathernoid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{SOLEMN DUTY} Solemn Duty (Whenever one of your other creatures leaves the battle zone or your mana zone, you may use this creature's Solemn Duty ability.) Each of your creatures in the battle zone that costs 3 or less gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55 (Visual Card)"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="0461c8e8-b546-431a-ae2e-f4e4bbbca0b5" name="Dravita, Temporal Pressure Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ Whenever your opponent casts a spell, you may choose one of your opponent's creatures in the battle zone and tap it.&#xA;■ Whenever this creature wins a battle, you may untap it.&#xA;■ Awaken—At the start of your turn, if you have 2 or more Flame Commands or creatures that have NEX in their name in the battle zone, flip this creature to its higher cost side."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1a/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+      <alternate name="Vermillion Dravita, the Awakened Pressure Dragon" type="awakening" size="normal">
+        <property name="Civilization" value="Light/Fire"/>
+        <property name="Cost" value="14"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Angel Command/Armored Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Your opponent can't cast spells.&#xA;■ This creature can attack untapped creatures.&#xA;{TRIPLE BREAKER}&#xA;{RELEASE} - Dravita, Temporal Pressure Elemental (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Super Rare"/>
+        <property name="Number" value="S1b/S5"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
+      </alternate>
+    </card>
+    <card id="7257f517-47f9-4663-86a6-026776d30f7b" name="Vermillion Dravita, the Awakened Pressure Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="14"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Your opponent can't cast spells.&#xA;■ This creature can attack untapped creatures.&#xA;{TRIPLE BREAKER}&#xA;{RELEASE} - Dravita, Temporal Pressure Elemental (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1b/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="e313fd1a-0b83-45c8-903c-7fc0de292d62" name="Dias Zeta, the Temporal Suppressor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Demon Command/Zombie Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Annihilating Soul Recall 4 (Whenever this creature attacks, you may choose 4 cards from your opponent's graveyard, your graveyard, or 4 cards from both graveyards. Put the chosen cards on the bottom of their owner's deck in any order. For each 4 cards chosen, you may use the following {SOUL RECALL}ability.):&#xA;{SOUL RECALL}Your opponent chooses a card in their hand or battle zone and puts it on the bottom of their deck.&#xA;{DOUBLE BREAKER}&#xA;■ Awaken—At the end of your turn, if 3 or more of your opponent's creatures left this turn, flip this creature to its higher cost side."/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2a/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+      <alternate name="Diabolos Zeta, Annihilation Awakened" type="awakening" size="normal">
+        <property name="Civilization" value="Darkness"/>
+        <property name="Cost" value="16"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Demon Command"/>
+        <property name="Power" value="18000"/>
+        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Each of your opponent's creatures gets -5000 power.&#xA;■ Each of your other creatures gets +5000 power.&#xA;{RELEASE} - Dias Zeta, the Temporal Suppressor (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+        <property name="Watermark" value="{Evil} {Soul}"/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Super Rare"/>
+        <property name="Number" value="秘S2b/S5 (Secret Card)"/>
+        <property name="Set" value="DM-37 Dark Emperor"/>
+      </alternate>
+    </card>
+    <card id="7fdf933d-c063-41e4-bbc2-3174c964556f" name="Diabolos Zeta, Annihilation Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="16"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Each of your opponent's creatures gets -5000 power.&#xA;■ Each of your other creatures gets +5000 power.&#xA;{RELEASE} - Dias Zeta, the Temporal Suppressor (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2b/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="45cb13ab-fec9-4b3c-815d-b902ad061858" name="El Dorado, Taiga Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Cyber Command"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your opponent must attack with at least one creature on each of their turns, if able.&#xA;■ Whenever a creature is attacking you and isn't blocked, draw a card. Then you may cast a spell that has &quot;shield trigger&quot; for no cost or summon a creature that has &quot;shield trigger&quot; for no cost.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="dfc9c0d2-3cc2-4e10-9f6f-573e593d212c" name="El Destorade, Dragonic Meteor of Taiga">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Command/Apollonia Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ During your turn, when you put this creature or another creature into the battle zone, if it was the first creature you put this turn, choose one of the following:&#xA;► If you have more than or an equal number of shields as your opponent, look at the top card of your deck. If that card is a creature that costs less than the creature you put into the battle zone, you may put that creature into the battle zone:&#xA;► If you have fewer shields than your opponent, you may add the top card of your deck to your shields face down.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value="{Holy}  {Soul}, {Magic}  {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="cf0d0cec-aefe-4da5-972e-3729d92bb98d" name="Whitemane Jukai, Earthen Dragonmech">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Gaia Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you summon this creature or another creature and put that creature into the battle zone, look at the top 3 cards of your deck. You may put a creature that has &quot;Mana Reburst&quot; from among them into your mana zone tapped, and put a creature that has &quot;Marshall Touch&quot; into the battle zone. Then put the rest on the bottom of your deck in any order.&#xA;{DOUBLE BREAKER}&#xA;{MANA REBURST} 9 (You may summon this creature from your mana zone by paying 9.)"/>
+      <property name="Watermark" value="{Kung Fu}}  {Soul}, {Wild}}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-37 Dark Emperor"/>
+    </card>
+    <card id="e52f9a31-ced3-42b3-908e-31cfec34b565" name="Diabolos Zeta, Annihilation Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="16"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Each of your opponent's creatures gets -5000 power.&#xA;■ Each of your other creatures gets +5000 power.&#xA;{RELEASE} - Dias Zeta, the Temporal Suppressor (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="秘S2b/S5 (Secret Card)"/>
       <property name="Set" value="DM-37 Dark Emperor"/>
     </card>
   </cards>

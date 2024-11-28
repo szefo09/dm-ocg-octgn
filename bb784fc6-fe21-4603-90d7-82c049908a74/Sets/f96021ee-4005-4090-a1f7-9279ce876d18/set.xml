@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-27+1D Perfect Heaven Plus One Dream" id="f96021ee-4005-4090-a1f7-9279ce876d18" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="81bdfad1-fe83-494d-a35a-6b8c150fcd65">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="15678b2b-d25e-4b65-96cf-a76fcb917982" name="Ultimate &quot;Shadow Tiger&quot; Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Samurai"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +6000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature breaks an additional shield for each of your cross gear in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1D/3D"/>
+      <property name="Set" value="DM-27+1D Perfect Heaven Plus One Dream"/>
+    </card>
+    <card id="d8914654-bccc-4643-9cf2-016d401ecc84" name="Ultra Miracluppi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="World Bird"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, play Rock-Paper-Scissors with your opponent. If you win, add the top card of your deck to your shields face down, draw a card, destroy one of your opponent's creatures, choose a card in your opponent's mana zone and put it into its owner's graveyard, and put the top card of your deck into your mana zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2D/3D"/>
+      <property name="Set" value="DM-27+1D Perfect Heaven Plus One Dream"/>
+    </card>
+    <card id="eb5df990-8010-467d-8162-dea97e787c08" name="Greatest Earth, Planetary Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="World Dragon"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature is put into the battle zone tapped.&#xA;■ Your opponent's creatures that have power 6000 or more must attack this creature if able.&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.) {TRIPLE BREAKER}&#xA;■ When this creature is destroyed, tap one of your opponent's creatures. Then you may return a creature in the battle zone to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3D/3D"/>
+      <property name="Set" value="DM-27+1D Perfect Heaven Plus One Dream"/>
+    </card>
+  </cards>
+</set>

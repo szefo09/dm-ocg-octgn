@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-07 Invincible Charge" id="84e7f124-4f42-4c7b-a6d7-905d6a1fdd58" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="2e4fec43-b9e7-49d0-a448-b16023988cb0">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="5653a945-6cb7-4344-a7cd-85345ef60214" name="Gandar, Seeker of Explosions">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} At the end of the turn, untap all your light creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="1545fde1-0a43-4743-900a-55ab0c9b9a60" name="King Benthos">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Each of your water creatures gets &quot;This creature can't be blocked&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="4d6ecd2c-53f0-4a33-8ad3-1f5aad953d06" name="Battleship Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Until the end of the turn, each of your darkness creatures in the battle zone gets +4000 power and &quot;double breaker.&quot; Whenever any of those creatures battles this turn, destroy it after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="2d61332f-9634-4273-baf1-be34cc139883" name="Armored Transport Galiacruse">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Each of your fire creatures gets &quot;This creature can attack untapped creatures&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="57cf01e7-2175-4779-b3b9-37a1a5fd9605" name="Spinning Totem">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} This turn, whenever any of your nature creatures is attacking your opponent and becomes blocked, it breaks one of his shields. (If a creature has &quot;double breaker&quot; or &quot;triple breaker,&quot; it still breaks only one shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="d2209906-2690-4722-8253-fb2ed8fe0955" name="Kizar Basiku, the Outrageous">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Initiates.&#xA;Fire Stealth (This creature can't be blocked while your opponent has any Fire cards in their mana zone.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="faec9b58-93ab-4e70-bf33-e5beab2939cc" name="Pulsar Tree">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When one of your shields would be broken, you may destroy this creature instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="743c204b-9cc1-47b3-bd6d-3fdb5b2ef9e0" name="Justice Jamming">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Tap all darkness creatures in the battle zone, or tap all fire creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="6228751c-b2c5-42ef-b6cd-4e7f7acc07f7" name="Trenchdive Shark">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may add up to 2 cards from your hand to your shields face down. If you do, choose the same number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; ability of those shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="8a5ba167-adfb-4da1-8bb4-51c1c39b01aa" name="Aqua Fencer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a card in your opponent's mana zone and return it to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="382a6c70-72ea-4bd0-9ba2-67d7f161ad43" name="Biancus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose one of your creatures in the battle zone. It can't be blocked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="9751b2e7-e9e0-41ed-85e9-9d4f34e1e0f7" name="Phantasmal Horror Gigazabal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Chimeras.&#xA;Light Stealth (This creature can't be blocked while your opponent has any Light cards in their mana zone.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="355fe5eb-76c2-4445-92ef-e94f7329d463" name="Gigabuster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="dc88e0cb-11e9-4a81-9107-542e26bb50db" name="Hopeless Vortex">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="d6b6028f-968a-4c12-9bb8-347fd59be91d" name="Valkrowzer, Ultra Rock Beast">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Rock Beasts.&#xA;Water Stealth (This creature can't be blocked while your opponent has any Water cards in their mana zone.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="5aeeb36c-a998-472f-8409-4ae7dca94e6e" name="Kipo's Contraption">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="2055ae12-22d4-476f-a72f-4d8bb1e3503c" name="Apocalypse Vise">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy any number of your opponent's creatures that have total power 8000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="ae636c94-4b3f-43dd-9ef8-83a000152b7e" name="World Tree, Root of Life">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="7000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Tree Folk.&#xA;{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;Darkness Stealth (This creature can't be blocked while your opponent has any Darkness cards in their mana zone.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="4e0ce367-baa7-4a45-a0a8-2a10828372af" name="Curse Totem">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your opponent can't use the &quot;shield trigger&quot; abilities of their shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="37fe52e6-5263-4ecd-8844-782f182fa6a1" name="Tangle Fist, the Weaver">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Put up to 3 cards from your hand into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="17027bbc-5d61-4f30-a46e-34af7856d137" name="Rondobil, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Add one of your creatures from the battle zone to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="37fce4c4-c695-4cc5-8943-db5137bb0688" name="Geoshine, Spectral Knight">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a darkness or fire creature in the battle zone and tap it. (First choose what this creature is attacking. Then choose a creature to tap.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="d6ae10fa-099b-42f8-b03e-3f0239ce0ef9" name="Lightning Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures in the battle zone and tap it.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="a2174630-6eed-4f5b-a707-d6f10cb149fc" name="Splash Zebrafish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand.&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="43024056-2926-4ed6-8060-a8f61adad29a" name="Curious Eye">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="132b0051-dcd0-46b2-a750-da12bd54a30f" name="Riptide Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a creature in the battle zone and return it to its owner's hand.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="14c4934f-060b-4607-8505-b9bfb1af2857" name="Three-Faced Ashura Fang">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Devil Mask"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="a6c3f231-4433-4ecf-a646-3f96105391bc" name="Scalpel Spider">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Brain Jacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, it gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="a9861a24-5e62-4bc3-a4f4-5209f1318b19" name="Venom Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ One of your creatures in the battle zone gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="e327e7fc-6efb-40b9-b9d1-e8b8043282b0" name="Otherworldly Warrior Naglu">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ This creature can't be attacked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="4f088495-1b27-41a7-bbc0-5384fb2c1159" name="Cratersaur">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While you have no shields, this creature can attack untapped creatures and has &quot;Power attacker +3000 (While attacking, this creature gets +3000 power).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="4a62ab85-bf82-41cd-b21c-1f2666e38aa6" name="Energy Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ One of your creatures gets +2000 power until the end of the turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="927c04c8-72e3-40c5-b91c-ffe3537687f5" name="Brood Shell">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="c7a44d5d-8d68-4680-9301-88733ae3447b" name="Fruit of Eternity">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="4b543444-e71d-4e85-bbbd-b19399cf3e00" name="Mulch Charger">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put one of your creatures from the battle zone into your mana zone.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="29b03db6-d3f1-4d06-80b2-04224f14eed9" name="Rodi Gale, Night Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="Darkness Stealth (This creature can't be blocked while your opponent has any Darkness cards in their mana zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="ac759951-c205-4390-b4cb-96a6527f1b81" name="Rom, Vizier of Tendrils">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="5fefe015-b7dc-42ad-9616-c3d8d219b961" name="Bex, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ While you have no shields, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="00785f01-4710-4cf6-ac63-bc7b221addfb" name="Miracle Portal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. This turn, it can't be blocked and you ignore any effects that would prevent that creature from attacking your opponent. (For example, ignore summoning sickness and card effects that say &quot;This creature can't attack&quot; or &quot;This creature can't attack players.&quot; Your creatures can't attack creatures this way.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="c6cc9ce3-ab7c-41c7-a1d5-0f41b1b9187b" name="Aqua Agent">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Water Stealth (This creature can't be blocked while your opponent has any Water cards in their mana zone.)&#xA;■ When this creature would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="8d82c5bd-3a70-466b-b2f0-9d1ba6b1b198" name="Titanium Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't be attacked.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="fc4e19e2-8a3e-4943-9a78-c6f095fca8b9" name="Garatyano">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Look at the top 3 cards of your deck. Then put them back in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="345e585a-2c21-4d5f-bfdd-0e8c2782f370" name="Cetibols">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sea Hacker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="2e9178e5-99c6-4d2b-a65c-dfe9b8f9b13c" name="Dream Pirate, Shadow of Theft">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, you may return it to your hand instead. If you do, put a card from your hand into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="c12b4430-58b2-4c60-afb1-a461f31acfd1" name="Gezary, Undercover Doll">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Nature Stealth (This creature can't be blocked while your opponent has any Nature cards in their mana zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="b1e76e8a-55dd-4f87-bffe-e9df4fe4d6aa" name="Propeller Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, your opponent discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="c474a905-8f12-44fb-9ed9-419fcd087f6e" name="Vacuum Gel">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's untapped light or untapped nature creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="e63d642c-85f7-42d1-ad05-2fe0f77f5df4" name="Gazarias Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While you have no shields, this creature gets +4000 power and has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="de4baeac-ace7-46df-8985-c913f1cd962c" name="Astronaut Skyterror">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While you have no other creatures in the battle zone, this creature has &quot;Power attacker +4000&quot; and &quot;Double breaker&quot;. (While attacking, this creature gets +4000 power)&quot; and &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="c56e8952-0fcd-4fef-83b6-f006fa3eef88" name="Wild Racer Chief Garan">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)&#xA;Light Stealth (This creature can't be blocked while your opponent has any Light cards in their mana zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="efaeb5de-faa3-4f13-951b-07a8ebcc4689" name="Kooc Pollon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="7e6d0fc7-237d-4440-a301-a778ca908ad3" name="Stinger Horn, the Delver">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)&#xA;Water Stealth (This creature can't be blocked while your opponent has any Water cards in their mana zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="1601315c-dfb8-433e-aa04-9bbf0eebf2b3" name="Popple, Flowerpetal Dancer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="af126efa-ecab-4620-b187-aecea4f4e6d7" name="Launch Locust">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each other creature you have in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="40adcb2b-0896-4e7f-a452-5547633415c0" name="Freezing Icehammer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's water or darkness creatures in the battle zone. Your opponent puts that creature into his mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="a02ec67a-87cf-48c1-a228-4982312bb5c9" name="Siri, Glory Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While you have no shields, this creature has &quot;blocker&quot; and &quot;At the end of each of your turns, you may untap this creature.&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="3345eab4-ad67-40c5-8be9-c561b99f631c" name="Cosmic Nebula">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Viruses.&#xA;■ Whenever you draw the card at the start of your turn, you may draw an extra card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="538bebd4-8441-474b-a84a-861cd4b9544d" name="Crath Lade, Merciless King">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Your opponent discards 2 cards at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="21752a36-d4b0-4f84-b2d0-3cb574806f3c" name="Sky Crusher, the Agitator">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Each player puts a card from his mana zone into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+    <card id="b8a7717c-b8fa-4b2a-84d8-00396bfa051a" name="Headlong Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ This creature can't attack if you have no cards in your hand.&#xA;■ Whenever this creature attacks, discard a card from your hand.&#xA;■ This creature can't be blocked by any creature that has power 4000 or less.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-07 Invincible Charge"/>
+    </card>
+  </cards>
+</set>

@@ -82,6 +82,17 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Gigabuster**
   - **Mulch Charger**
   - **Trenchdive Shark**
+  - **Katta Kirifuda & Katsuking -Story of Passion-**
+  - **Gigandura**
+  - **Pointa, the Aqua Shadow** (Automated Peek at opponent's shield)
+  - **Estol, Vizier of Aqua**
+  - **Telitol, the Explorer**
+  - **Tekorax**
+  - **Recon Operation**
+  - **Adomis, the Oracle**
+  - **Curious Eye**
+  - **Stinger Ball**
+  - **Wyn, the Oracle**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -213,6 +224,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Yuliana, Channeler of Suns
 
 - **Other Improvements**
+  - **Look at top X cards, pick some, put rest to the bottom in any order Button added to Deck options!**
   - **Some choices are now multi-choices, allowing you to pick many cards at the same time!**
   - **Added Mana Calculation when you press Ctrl+C/Charge as Mana on Card already in Mana Zone**
   - **Added Debouncing to fix Card Orientation issue**: When tapping/untapping cards too quickly, Players could desync the board, making the opponent see the cards in wrong position (tapped/untapped)
@@ -248,6 +260,6 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 #### Additional Notes
 - **Started preparing for Gacharange Zone**
-- **XML Updates**: Minor changes for races, civilizations, and types; fixed typos and standardized spell power values.
+- **XML Updates**: New Sets, up to year 2024 added!
 - **Mass-Destruction Effects Rewritten**: Improved order of operations for mass-destruction effects to support Survivors and Wave Strikers, enhancing interactions with cards like Balloonshroom Q and Revival Soldier.
 - **Many code changes under the hood.**

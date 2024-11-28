@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM24-EX2 Unparalleled!! Dueking DreaM 2024" id="82192b27-2380-4802-b782-d842ae144d0e" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="fedc2e8c-d069-41f8-841a-413c70fdd341">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="51763542-987a-4274-b680-7becc2b6e63c" name="MaltNEXT, Super Battle Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{MANA ARMS} 5: When you put this creature, if you have 5 or more fire cards in your mana zone, put a fire dragheart that costs 5 or less from your hyperspatial zone. (If it's a weapon, equip it to this creature.)&#xA;■ Dragon Mana Arms 5: When this creature attacks for the first time in a turn, if you have 5 or more fire Dragons in your mana zone, untap this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="1/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="11bd8d42-5e3e-426c-aa96-f5dccde4923e" name="Shobu Kirifuda &amp; Bolmeteus -Story of Duel-">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="16"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Human"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each of your Dragons in the battle zone and 1 less for each of your Dragons in your mana zone. It can't cost less than 1.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Each Dragon put into your hand from your shield zone gets &quot;shield trigger&quot;.&#xA;■ Whenever this creature attacks, shieldify the top card of your deck. Then this creature breaks one of your shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dai Sensei Rare"/>
+      <property name="Number" value="1/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d790de9c-23a8-411f-91ac-587d4243acec" name="Dorphadillom, Holy Demon Concatenated King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Angel Command/Demon Command"/>
+      <property name="Power" value="13500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or when this creature's &quot;EX Life&quot; shield leaves your shield zone, destroy all your opponent's non-multicolored creatures.&#xA;■ Your opponent can't cast non-multicolored spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="972ef9b5-12e4-44ac-b7a6-9c4b4ad83eca" name="Batogaiheart, Explosive King Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Weapon"/>
+      <property name="Rules" value="■ A creature equipped with this gets &quot;speed attacker&quot;.&#xA;■ Whenever a creature equipped with this attacks, reveal the top card of your deck. If it's a non-evolution Dragon, put it. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: Whenever you put a Dragon during your turn, if it's not the first Dragon you put this turn, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="2a/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+      <alternate name="Batogaiginga, Explosive King Deluxe" type="awakening" size="normal">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="2b/47"/>
+        <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+      </alternate>
+    </card>
+    <card id="0b20396e-ac88-46d7-98ca-d37f9d8bba8c" name="Batogaiginga, Explosive King Deluxe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="2b/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f20437f6-9766-4ccc-9c35-14b44f50e6f4" name="Jolly the Johnny Joe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{QUATTRO BREAKER}&#xA;■ When you summon this creature, if your opponent has no creatures, you win the game. If your opponent has creatures, destroy all other creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="3/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="62cfe6df-cabc-4f31-85df-4c2a71db2e7f" name="Dogiragon, Flaming Revolution">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your fire creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Revolution 2—When you put this creature, if you have 2 shields or less, you can't lose the game and your opponent can't win until the start of your next turn.&#xA;■ Revolution 0—Whenever this creature attacks, if you have no shields, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="3/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="151a011b-3cbb-4df7-a1ca-dcdfb77f1cd3" name="MAX-Gun Joragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Max Evolution Creature"/>
+      <property name="Race" value="Master Dragon/Jokers/RexStars"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Star Max Evolution: When you would lose the game, destroy this creature instead or discard a 'MAX-Gun Joragon' from your hand.&#xA;{DOUBLE BREAKER}&#xA;■ When you summon this creature or at the start of your turn, draw a card then put a card from your hand into your mana zone. If that card you put was a Jokers or RexStars creature or tamaseed, this creature gets all abilities of that card until the end of the opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="4/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e1f74769-3809-4a39-88ff-596488cc606f" name="Burning Dead Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Specials"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, if you have a total of 4 or more Jokers in the battle zone or your mana zone, your opponent chooses one of their cards in the battle zone, mana zone and hand and puts them on the bottom of their deck. Then draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d349cff9-4dd9-4d3b-822b-b7c12a807aa6" name="Momokingdam X, Forbidden Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Forbidden/RexStars"/>
+      <property name="Power" value="99999"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="5/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="cdb433fb-eb1b-4509-bfc0-3e1755de611c" name="Jolly the Johnny, Dream Bullet">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="■ Gravity Zero: If you have 5 or more creatures that have different costs, you may summon this creature for no cost.&#xA;■ Variety Breaker (This creature breaks the same number of shields as your creatures that have different costs.)&#xA;■ This creature can attack your opponent on the turn it is put.&#xA;■ While this creature is attacking, your opponent can't summon a creature that costs the same as one of your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="a9636b5f-5982-458d-b7c0-af28b85867d7" name="Gigandydanos, Big Tree King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
+      <property name="Power" value="50000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When you put this creature, your opponent puts their hand into their mana zone.&#xA;■ You can't be attacked by creatures that have less power than this creature.&#xA;{FUSHIGIVERSE} Darkness/Nature 1 4 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 1 4 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="6/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="71b082ca-4943-4888-909d-002490828733" name="Dream Alcadeias, Lord of Spirits">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ Evolution: Put one one of your Angel Command creatures.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA;■ While this creature is tapped, you can't lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d4ca26ff-bf3b-42fa-a44a-d12048d0aa87" name="Momoking, Jonetsu Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{Kirifudash} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="7/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4e9a7f52-69ce-4e4e-9fbf-55203dfe3f19" name="Ballomhades, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures.&#xA;■ Whenever this creature attacks, you may put a darkness creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="95fdfa46-3419-4391-aef2-837c5154b464" name="Vol-Val-8, Forbidden Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/Earth Dragon/Forbidden"/>
+      <property name="Power" value="54321"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER} {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature attacks, look at the top 5 cards of your deck. Add up to 2 cards from among them to your hand and put the rest on the bottom of your deck in any order. Then you may destroy all creatures that have power 6000 or less.&#xA;■ At the end of your turn, if 4 or more creatures were destroyed this turn, take an extra turn after this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="8/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="938630a8-a8f6-4201-a611-d8698dd558ce" name="MaltDREAM, Dream Twin Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="14"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Dragon Mana Arms 5: If you have 5 or more Dragon creatures in your mana zone, this creature costs 5 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {TRIPLE BREAKER}&#xA;■ You can't equip 2 or more weapons that have the same name to this creature.&#xA;■ When you put this creature, put any number of fire draghearts that have total cost 10 or less from your hyperspatial zone. (If they are weapons, equip them to this creature.)&#xA;■ Each turn, whenever this creature taps for the the first time, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="b33d0789-286e-4486-998d-74bf85ce5e9c" name="MaltSAGA, Explosive Flame Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{DOUBLE BREAKER} {SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ You can't equip 2 or more weapons that have the same name to this creature.&#xA;■ When you put this creature, put any number of fire draghearts that have total cost the same as or less than the number of dragons in your mana zone from your hyperspatial zone. (If it's a weapon, equip it to this creature.)&#xA;■ 'Mana Arms 7': Whenever this creature attacks, if you have 7 or more fire cards in your mana zone, after the attack, flip all your draghearts to their creature side and untap them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="73aa0db4-32e3-459f-bca2-78e57d22518b" name="Redzone Buster, Roaring Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Psychic Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your light creatures.&#xA;■ Parallel Invasion: When one of your non-psychic light commands attacks, you may put this creature from your hyperspatial zone onto it.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put a card from your hand into your hyperspatial zone, then tap all your opponent's creatures that have the highest power. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9a/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="8bff0962-27e1-4adc-9a2e-96bc5fd40596" name="Dogiragon X, Blue Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Parallel Revolution Change: When one of your non-psychic water or darkness dragons that cost 5 or more attacks, you may switch that creature with this creature in your hyperspatial zone.&#xA;{TRIPLE BREAKER}&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature, discard a card from your hand.&#xA;■ Whenever you discard from your hand, each of your other multicolored creatures gets &quot;slayer&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9b/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3749cd18-9023-42f6-831b-9b4d16f92306" name="Alphadios GS, Lord of Spirits">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="15500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Players can't summon creatures other than light creatures or cast spells other than light spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4deafd15-3e71-4dba-8556-e72ade22629c" name="Monkid &lt;Raizou Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Earth Dragon/RexStars"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put the top card of your deck into your mana zone. Then you may choose an evolution creature from your mana zone that costs the same as or less than the number of cards in your mana zone and put that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="881e7853-f89b-4070-ba0d-8c598bfc5ffd" name="Perfect, Domination Elemental / Galaxy Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Perfect, Domination Elemental"/>
+      <property name="Name2" value="Galaxy Charger"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Race1" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="11/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d12b74f5-fa42-4ad1-8702-d1abc5a0b11c" name="Imish Itzayana">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Mystery Totem/Tzolkin"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution: Put one one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, shuffle your deck. Then reveal the top card of your deck. If its a non-evolution creature, put it. If its not, put it into your mana zone.&#xA;■ Whenever this creature attacks, for each of your Mystery Totem creatures, you may use one of that creature's abilities that trigger when you put them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="11/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="2a95939d-bea7-40ce-b354-2ab5d678bf8c" name="Blue Impulse / &quot;Find the Truth, Johnny!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Blue Impulse"/>
+      <property name="Name2" value="&quot;Find the Truth, Johnny!&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="10/7"/>
+      <property name="Cost1" value="10"/>
+      <property name="Cost2" value="7"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Spriggan/Mutopia"/>
+      <property name="Race1" value="Spriggan/Mutopia"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if your opponent has at least 4 or more creatures than you do and you have no 'Blue Impulse', you may summon this creature for no cost.&#xA;{TRIPLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 3 creatures and return them to their owner's hand."/>
+      <property name="Rules1" value="■ At the end of your opponent's turn, if your opponent has at least 4 or more creatures than you do and you have no 'Blue Impulse', you may summon this creature for no cost.&#xA;{TRIPLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 3 creatures and return them to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="12/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="b0596e9f-1ce2-4278-a1b7-c622672a46c3" name="Rudolph Alcadeia, Mystic Light Shinkan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Dark Lord/Knight"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put the top 4 cards of your deck into your graveyard. Then you may put a creature that costs 8 or less from your graveyard that can evolve from this creature on top of this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="12/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4b44a9e3-b55c-4965-a9db-53db8bac7945" name="Lakepoacher Par Zero, Fifth Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e35c5b81-f2a4-4737-b4bb-a558269b5cfd" name="Dogiragon Dream, Blue Dream Twin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Revolution Change: Water or Fire dragon that costs 5 or more&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a multicolored creature, you may draw a card.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, choose one of your opponent's creatures and return it to its owner's hand. Then put up to 2 non-evolution multicolored creatures from your hand that have total cost the same as or less than the chosen creature's cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c1e06ae3-765c-416b-ae1b-8aa49efe8bf2" name="Dondon Shower Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 2 cards of your deck into your mana zone tapped.&#xA;■ Return a creature from your mana zone to your hand. Then you may choose one of your opponent's creatures that costs the same as or less than that creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="14/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="02659338-9b7e-4cb4-9555-d4d74fd3af06" name="Bolmeteus Black Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Demon Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy it.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="14/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="0841912e-f307-45c7-be32-7850461db665" name="Garyudeias Momomizu Twenty Two, Hybrid Summit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="99"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Jokers Dragon/Dolszak"/>
+      <property name="Power" value="99000"/>
+      <property name="Rules" value="■ If you have 4 or more non-creature cards in your graveyard, this creature costs 90 less to summon.&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.) {SPEED ATTACKER} (This creature doesn't get summoning sickness.) {TRIPLE BREAKER}&#xA;■ Your opponent can't cast non-light spells.&#xA;■ At the end of your turn, you may put a creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3c4863d8-2d9e-4b9d-839b-0e7752cb8e53" name="Bolshack Dorago the Great">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Red Command Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, look at the same number of cards from the top of your deck equal to the number of your opponents. From among them, put any number of your dragons, and put the rest into your mana zone tapped. Those dragons get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f5e92501-4f53-4c74-aec4-735db15ab1f3" name="Aqua Titaaans, Zenith of &quot;Combine&quot; / Deadly! Jet Cascade Attack!!">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Aqua Titaaans, Zenith of &quot;Combine&quot;"/>
+      <property name="Name2" value="Deadly! Jet Cascade Attack!!"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="10/3"/>
+      <property name="Cost1" value="10"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Liquid People/Giant Hunter/Zenith/Giant Skill"/>
+      <property name="Race1" value="Liquid People/Giant Hunter/Zenith"/>
+      <property name="Race2" value="Giant Skill"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature, you and your opponent play Gachinko Judge. If you win, draw a card and each of your opponent's creature's can't attack this turn.&#xA;TWINPACT&#xA;■ Draw a card for each player participating in the game."/>
+      <property name="Rules1" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature, you and your opponent play Gachinko Judge. If you win, draw a card and each of your opponent's creature's can't attack this turn."/>
+      <property name="Rules2" value="■ Draw a card for each player participating in the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="16/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="8926cc57-8407-4f96-bdc8-88eed2cfb4d0" name="Momoking, Jonetsu Dream">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;■ Each turn, when one of your creatures attacks for the first time, put the top 2 cards of your deck into your mana zone, return up to 2 cards from your mana zone to your hand, then untap all Jokers in your mana zone.&#xA;■ Once per turn, after one of your creature's attacks, if that creature broke a shield during that attack, you may summon a creature from your hand. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="16/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="7ad92e27-6cf5-4e80-82cc-ef1e4b91184a" name="Zagaan GR, Knight of Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="17/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6767f344-ef17-4224-83d3-5e64ebb96404" name="BAKUONSOOO 8th, Hybrid Summit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Metallica/Beat Jockey"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ As you summon this creature, you may destroy any number of your creatures. For each creature destroyed this way, this creature costs 2 less to summon. It can't cost 2 or less.&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your creatures get &quot;speed attacker&quot;.&#xA;■ This creature can't be blocked.&#xA;■ Whenever a card leaves your opponent's shields, gacharange summon."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="17/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d0035f87-9046-407b-b2a7-9faf50ed3481" name="ACE-Yamata, Eight-headed Dragon / Mystic Treasure Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="ACE-Yamata, Eight-headed Dragon"/>
+      <property name="Name2" value="Mystic Treasure Sword"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="10/3"/>
+      <property name="Cost1" value="10"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Earth Dragon/Origin"/>
+      <property name="Race1" value="Earth Dragon/Origin"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Whenever one of your creatures would leave, you may put them into your mana zone instead.&#xA;■ Whenever this creature wins a battle, you may put a creature that costs the same as or less than the number of cards in your mana zone from your mana zone.&#xA;TWINPACT&#xA;■ Search your deck. You may take a non-nature card from your deck and put it into your mana zone tapped. Then shuffle your deck."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Whenever one of your creatures would leave, you may put them into your mana zone instead.&#xA;■ Whenever this creature wins a battle, you may put a creature that costs the same as or less than the number of cards in your mana zone from your mana zone."/>
+      <property name="Rules2" value="■ Search your deck. You may take a non-nature card from your deck and put it into your mana zone tapped. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="18/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e30d143b-71ba-46af-a7e8-ad1253dba2f0" name="Glenmalt, Final Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="67bc7cc1-4b54-43f0-a49d-f216aa23302d" name="Kiyuri's ASMRadio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at the top 5 cards of your deck. From among them, put up to 2 creatures that cost 3 or less. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="19/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c2832cf5-b4f4-40c8-affe-fb2f324019a8" name="Bolshack Dream Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ If you have 4 or more Dragons in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="19/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="78ccf99a-333e-46da-88ed-2db332087f57" name="Esmer, Celestial Faerie / How about a cup of tea?">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Esmer, Celestial Faerie"/>
+      <property name="Name2" value="How about a cup of tea?"/>
+      <property name="Civilization" value="Nature/Light"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="2/4"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Race1" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, you may put one of your shields into your mana zone.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Shieldify the top card of your deck. At the start of your next turn, put one of your shields into your hand. (You can't use the 'shield trigger'.)"/>
+      <property name="Rules1" value="■ When you put this creature, you may put one of your shields into your mana zone."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Shieldify the top card of your deck. At the start of your next turn, put one of your shields into your hand. (You can't use the 'shield trigger'.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="20/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="88e1803b-0538-424e-844a-251deb33d669" name="Susano-O-Dragon, Violent Storm Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon/Origin"/>
+      <property name="Power" value="21000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever an opponent's creature attacks, they must attack creatures if able.&#xA;■ Your opponent can't choose this creature with spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="20/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="0466dda4-7713-4cf6-b9a8-64195239289a" name="Diamond Aven, Awakening Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, ignore any effects that prevent your other creatures from attacking your opponent this turn. (Effects such as summoning sickness and &quot;This creature can't attack&quot; or &quot;This creature can't attack players&quot; are ignored. However, this effect doesn't let you attack creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3be1a87b-72e3-40b3-8dee-3f06ea32af92" name="Criash Heaser Twenty Two, Electrofused Summit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Green Command Dragon/Beat Jockey"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 4|jp (You may reduce this creature's summon cost by 4|jp. If you do, destroy this creature at the end of the turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may draw 2 cards.&#xA;■ Whenever your opponent puts a creature without tapping a card in their mana zone, you may skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="21/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5ee347f4-c3d7-4ecb-80fa-d8b517301ac3" name="HEAVEN Kid, White Knight Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, you may choose another card in the battle zone that costs 3 or less and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="042493d3-f5c9-484a-b631-78ad116015e5" name="Ace-Curase, Curse Crow Dragon / Mirror of Prosperity">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ace-Curase, Curse Crow Dragon"/>
+      <property name="Name2" value="Mirror of Prosperity"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Civilization1" value="Water/Darkness"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="15/4"/>
+      <property name="Cost1" value="15"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="King Command Dragon/Origin"/>
+      <property name="Race1" value="King Command Dragon/Origin"/>
+      <property name="Power" value="30000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When you put this creature, each player puts all cards in their hand into their hyperspatial zone. Then each player returns all creatures in their mana zone to their hand.&#xA;TWINPACT&#xA;■ Put the top 2 cards of your deck into your mana zone tapped. Then return up to 2 cards from your mana zone to your hand."/>
+      <property name="Rules1" value="{WORLD BREAKER}&#xA;■ When you put this creature, each player puts all cards in their hand into their hyperspatial zone. Then each player returns all creatures in their mana zone to their hand."/>
+      <property name="Rules2" value="■ Put the top 2 cards of your deck into your mana zone tapped. Then return up to 2 cards from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="22/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e86ad20f-3e29-4106-a55d-4e5fed8884d7" name="Cosmic Darts">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Your opponent chooses one of your shields. Look at it. If it's a spell, you may cast it immediately for no cost. If it's not a spell or if you don't cast it, put it back where it was."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="b9fb3784-c2d9-4545-9ae7-67e69c97a082" name="Tabula = Rasa, Heavenly Zenith of &quot;Nothingness&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="14541"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put the top 2 cards of your deck face down into your mana zone. Then, until the the end of the turn, all non-colorless creatures get -2000 power for each face down card in your mana zone.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fc2a4314-7873-4640-914b-58eac73e9376" name="Bon Kigomime / ♪ A Thin Frog, Lucky Number is Here">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bon Kigomime"/>
+      <property name="Name2" value="♪ A Thin Frog, Lucky Number is Here"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Magic Merfolk/Magic Song"/>
+      <property name="Race1" value="Magic Merfolk"/>
+      <property name="Race2" value="Magic Song"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature, that creature can't attack that turn. If that creature was put without paying it's cost, you may draw a card.&#xA;TWINPACT&#xA;■ Choose a number. Until the start of your next turn, your opponent's creatures that have the same cost as that number can't attack or block."/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature, that creature can't attack that turn. If that creature was put without paying it's cost, you may draw a card."/>
+      <property name="Rules2" value="■ Choose a number. Until the start of your next turn, your opponent's creatures that have the same cost as that number can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="7ee93762-3364-4535-a592-176f751cb5b1" name="Jojojo Maximum">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 11 or more Jokers in the battle zone and/or your mana zone you may cast this spell for no cost.&#xA;■ Count your creatures in the battle zone. This turn, one of your creatures breaks that number of additional shields and while that creature's attacking, your opponent can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="24/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="030a027a-7535-4496-bc80-4d2eb02bd7db" name="Synchro Faerie / Dokidoki Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Synchro Faerie"/>
+      <property name="Name2" value="Dokidoki Spiral"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="2/4"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Giant Snow Faerie/Giant Skill"/>
+      <property name="Race1" value="Giant Snow Faerie"/>
+      <property name="Race2" value="Giant Skill"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature, they choose this creature if able.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ Draw a card."/>
+      <property name="Rules1" value="■ Whenever your opponent would choose a creature, they choose this creature if able.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)"/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="39d6c7d4-533c-4c55-815e-283d9596c6f5" name="Aleph HEAVEN, White Knight Lord of Spirits">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, shieldify all non-light creatures face up.&#xA;■ At the end of each turn, if there are 10 or more shields that have face up cards, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="25/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ff185b96-7384-4ab7-af50-70fddce36038" name="Streaming Shaper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ba9aae79-39c5-4d1e-925f-e162c35d8370" name="Miracle Holy Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Gravity Zero: If you have an Angel Command creature, you may cast this spell for no cost.&#xA;■ Your opponent can't cast spells until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="26/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="913f9c8a-0973-4b9a-8127-2e4de8db2084" name="Cobra, Snake Ninja Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="a4fd9312-2fa9-42c9-8af0-a9cbab17687a" name="Tsukuyomiterasu, Blue Wolves Shrine Maiden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Knight/Samurai/Origin"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Each turn, whenever you put your second creature, you may cast a spell that costs less from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="27/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="7c16cf5f-631c-4eb7-a315-6704a3653cf5" name="Vogenmu, Darmugenma">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Demon Command/Magic Tool"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ At the end of each of your turns, put the top 13 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="dfa3cfb4-84ef-4c5f-a2f7-8b8df4d6f260" name="Ballom Cobalt, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you use this creature's &quot;Guard Strike&quot;, choose one of your opponent's creatures. That creature loses -6000 power until the end of the turn.&#xA;■ Evolution: Put on one of your Demon Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="28/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c9d15392-73e0-4bbf-9bc7-34f751055ede" name="Magnum, Shortshot">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ During your turn, whenever your opponent would put a creature, put that creature into its owner's graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3e4d182b-28dc-4b15-9aac-6276467e9a4b" name="Ballomspawn, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Evolution: Put on one of your darkness command creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness cards in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="29/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="95503333-46c8-4541-9d43-8d0f61226533" name="Dreaming Moon Knife / Sanctuary of the Mother">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Dreaming Moon Knife"/>
+      <property name="Name2" value="Sanctuary of the Mother"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Race1" value="Beast Folk"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may put a card from your hand into your mana zone.&#xA;TWINPACT&#xA;■ Put one of your non-evolution creatures into your mana zone, then put one of your evolution creature in your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Rules1" value="■ When you put this creature, you may put a card from your hand into your mana zone."/>
+      <property name="Rules2" value="■ Put one of your non-evolution creatures into your mana zone, then put one of your evolution creature in your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="30/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="40f00c7d-f572-448c-a85a-4cde13eb695e" name="Magada = Maghana, Abyssal Calamity Jewel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;{DOUBLE BREAKER}&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Each turn, when you put a second creature, discard a card at random from your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="30/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="23ab37fc-9502-480e-aba3-8312e45eb5a3" name="Birds of Paradise">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mana Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Flying&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="31/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="46aa07a8-9c4d-44de-86a4-4996f2f98008" name="Bolshack Dragon GR">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="31/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="332345ab-a426-4cc7-adcd-6826eb8c8adf" name="Ghastly Drain">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose any number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; abilities of those shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f71a78e9-e3c2-4b3f-8f9a-3b7a881a643f" name="Glenmalt &quot;King&quot;, Dual Sword Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ You can't equip 2 or more weapons that have the same name to this creature.&#xA;■ When you put this creature, put a fire weapon that costs 5 or less from your hyperspatial zone. (Equip it to this creature.)&#xA;{MANA ARMS} 7: When you put this creature, if you have 7 or more fire cards in your mana zone, put a fire weapon that costs 6 or less from your hyperspatial zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="32/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c25939ff-133c-46cc-abff-323c95c1094b" name="Brain Slash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following. If you have a water creature or tamaseed and darkness creature or tamaseed, you may choose both instead:&#xA;► Draw 3 cards and discard a card from your hand:&#xA;► Put a creature that costs 8 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="33/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e748fe43-dd4d-44cb-98e8-2a05c17d038f" name="Bolmeteus Sapphire Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="11000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="33/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d4940536-e7fd-4de2-ae68-462562f25795" name="「Celebrate! The final curtain of this story!」">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Bikkuri Kingdom"/>
+      <property name="Rules" value="{VIVIDDRAW} {WF4|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 4 | s p e l l to summon this creature this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="34/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5c6c93b3-be1d-4960-9ee1-6972e164ffbb" name="Dimensional Bajula's Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Psychic Cross Gear"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +2000 power and breaks one more shield.&#xA;■ Whenever the crossed creature attacks, choose up to 2 cards in your opponent's mana zone and put them into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="34a/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1c1300a4-cd81-49f6-bb3f-3743f805e6f8" name="Magicdragon Bajula">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Evolution Psychic Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ You may summon this creature from your hyperspatial zone.&#xA;■ Whenever this creature attacks, choose up to 2 cards from your opponent's mana zone and put them into their owner's graveyard.&#xA;■ When this creature leaves, put all cards under this creature into your graveyard instead and flip this creature to the cross gear side."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="34b/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ddb0fe86-0753-40ec-a13b-81238f25d997" name="Magic Shot - Mad Gendo Chester">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Knight"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of the following. If you have a Dispector, you may choose both:&#xA;► Choose one of your opponent's creatures that costs 8 or less and put it into its owner's mana zone:&#xA;► Put a creature that costs 8 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="35/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4454531f-978a-4e81-877a-582e96a82bdd" name="Bolmeteus Cycle, Dragon Flame of Resurrection">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Million Flame Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, each player puts the top 2 cards of their deck into their graveyard.&#xA;■ Once per turn, whenever a spell is put into your opponent's graveyard from anywhere, you may cast that spell for no cost.&#xA;■ Once per turn, whenever a creature is put into your opponent's graveyard from anywhere, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="35/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="b9a4d44a-4f8c-4763-963c-2d154066c762" name="Kerora, Pop Cola / ♪ A Thin Frog, Don't Lose Kerora, Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kerora, Pop Cola"/>
+      <property name="Name2" value="♪ A Thin Frog, Don't Lose Kerora, Spiral"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Magic Outrage/Magic Song"/>
+      <property name="Race1" value="Magic Outrage"/>
+      <property name="Race2" value="Magic Song"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)&#xA;TWINPACT&#xA;■ Look at the top 4 cards of your deck. Put one of them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)"/>
+      <property name="Rules2" value="■ Look at the top 4 cards of your deck. Put one of them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1b550689-6767-4013-afdd-ccc3f875c9d6" name="Prin, Saiko Princess">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command/Hunter/Alien"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ At the start of your turn, you may put this creature into your hyperspatial zone. If you do, put an Alien creature (except 'Prin, Saiko Princess') from your hyperspatial zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="36/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f550da32-6245-4e18-b969-65a68fa47668" name="Cerulean Axe Dragon / Doubleaxe Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Cerulean Axe Dragon"/>
+      <property name="Name2" value="Doubleaxe Charger"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon/Armored Arts"/>
+      <property name="Race1" value="Armored Dragon"/>
+      <property name="Race2" value="Armored Arts"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;TWINPACT&#xA;■ Put up to 2 cards from your hand on the bottom of your deck in any order, then draw the same number of cards.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Rules2" value="■ Put up to 2 cards from your hand on the bottom of your deck in any order, then draw the same number of cards.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="312fec35-bc4a-4c55-8fc5-817b8abbd753" name="Momoking -Tabimaru-">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent would put a creature without tapping cards in their mana zone, your opponent puts that creature into it's owner's mana zone instead.&#xA;■ 'Shinkapower': When this creature evolves, during your opponent's next turn, they can't put a creature without tapping cards in their mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="37/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="a9281d4c-2c9c-4147-bc13-bec089bd7bb0" name="Zundoko Momoking, Harebu Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Star Evolution: Put on one of your RexStars or nature creatures.&#xA;■ When you put this creature, put the top card of your deck into your mana zone.&#xA;■ When this creature leaves, return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="bfa2579e-5ca6-4412-9df6-5a9dc65c25ea" name="Final Revolution, Secret Blue Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Dragon"/>
+      <property name="Rules" value="■ Attack Chance: Creature that has &quot;Dogiragon&quot; in its name (When one of your creatures that has &quot;Dogiragon&quot; in its name attacks, you may cast this spell for no cost.)&#xA;■ Put a multicolored creature that costs 6 or less from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="38/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="85529647-a241-4fe1-975a-0cd99a304026" name="Saepoyo and Yukipyon, Snow Faeries / Hammer Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Saepoyo and Yukipyon, Snow Faeries"/>
+      <property name="Name2" value="Hammer Charger"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="5/3"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Snow Faerie Kaze"/>
+      <property name="Race1" value="Snow Faerie Kaze"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;■ When you put this creature, you may return a twinpact card from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Look at the top 3 cards of your deck. You may choose a Twinpact card from among them, reveal it, and put it into your hand. Then put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="■ You may summon this creature from your mana zone.&#xA;■ When you put this creature, you may return a twinpact card from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Look at the top 3 cards of your deck. You may choose a Twinpact card from among them, reveal it, and put it into your hand. Then put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6d80946b-f1bd-441b-b4aa-61ef4d50f6fa" name="Muroku, Combat Genius">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starnoid/Draguner"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, choose one of your opponent's creatures that costs 3 or less and destroy it.&#xA;■ You may use cards from your hyperspatial zone. (Pay the cost. If you put a weapon in this way, equip it to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="39/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="b58ee5cb-24fe-4fa7-9b3f-5e44e6a641e1" name="Discotton &amp; Diskerasas">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle/Outrage/Distas"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a multicolored card, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5b4f3e8e-eab9-4e04-b306-75019f1c0486" size="wide" name="Fate's Boundary Line">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Rules" value="■ At the start of your turn, put any number of cards from your hand on the bottom of your deck in any order, then draw the same number of cards.&#xA;■ Each turn, whenever you cast a spell for the first time, reveal the top card of your deck until you reveal a spell that costs less than it, shuffle the rest of your deck, then you may cast that spell for no cost. If you don't cast it, put that spell on the bottom of your deck.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="40/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4cbcc420-089e-4ba2-9ba9-87635367d8e8" name="Lupia Than, Friendship Earth Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Green Command Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your mana zone tapped. Then put a card from your mana zone on top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fee77ea0-d362-4dca-8e0b-0cf237fa8aa0" name="Crys = Buth, Heavenly Zenith of &quot;Recklessness&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zenith Celes"/>
+      <property name="Power" value="12921"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, each player chooses up to 2 cards in their mana zone and turns them face down.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="41/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6e2b16d3-e8b3-4afa-a9c1-9ec930340217" name="Iconic Man">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Wonderforce/Tricks/Deletron/Hedrian/Fish/Guardian/Giant/Xenoparts"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="34439dda-eb40-48e3-a063-6eab9f8eec80" name="Alternative, Code of Cavalry">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Unknown Celes"/>
+      <property name="Power" value="6543"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 2 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 2.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures. That creature has 0 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;■ When this creature is destroyed, you may summon a colorless Zenith creature from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="aad4efa7-c825-42a8-9e4e-2d1b07b62707" name="Aqua Vibrato">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Liquid People"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="835da730-892b-4de1-b3fa-465fbc4980f8" name="Lionel Momoking, Lion Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers Dragon/Angel Command/RexStars"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Jokers in your shield zone get &quot;Guard Strike&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="43/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="eeb8c6ba-3c9f-4f31-8c8a-2b85a8216206" name="Niyare Get, Zero Trick">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have a colorless creature you may cast this spell for no cost.&#xA;■ Reveal the top 3 cards of your deck. Put all colorless cards from among them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c128ae01-ef4b-44f3-9bc3-6d674288ba68" name="Glenturret, New Generation Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ When this creature would be discarded from your hand by the effect of one of your opponent's spells or creature ability, you may put it instead.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, reveal the top 3 cards of your deck. If they are all Draguners, put one from among them, and put the rest into your hand. If they aren't, put all Draguners from among them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="44/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="087532be-6567-48c2-aeaf-6b1dd9e2936e" name="♪ Why are you leaving, where are you going now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="■ Choose a player. That player shuffles their graveyard and puts it on the bottom of their deck.&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3c53a246-0e16-42e8-ae34-33eead5a10fe" name="Corteo, Spirit Knight / Protection Circle">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Corteo, Spirit Knight"/>
+      <property name="Name2" value="Protection Circle"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Arc Seraphim/Origin"/>
+      <property name="Race1" value="Arc Seraphim/Origin"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, for each of your creatures, you may choose one of your opponent's creatures and tap it.&#xA;TWINPACT&#xA;■ Shieldify a card from your hand.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, for each of your creatures, you may choose one of your opponent's creatures and tap it."/>
+      <property name="Rules2" value="■ Shieldify a card from your hand.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="45/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="dba409fe-1e6a-4a90-9a26-a63dbd4647b9" name="Testa Rossa, Flaming Playing">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Outrage MAX"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, you may discard a Magic or Outrage from your hand. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="2297e101-59de-475c-af2b-624ef0a3565a" name="Izanagiterasu, Great King of Blue Wolves">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Knight/Origin/Poseidia Dragon"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, look at the top 5 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order. Then you may cast a spell that costs 3 or less from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="46/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1a260424-8c73-4a90-b9ed-35943c6a51c1" name="Neo Bolshack Dragon / Bolshackssohn">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Neo Bolshack Dragon"/>
+      <property name="Name2" value="Bolshackssohn"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="8/2"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Race1" value="Armored Dragon"/>
+      <property name="Power" value="11000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Rules1" value="{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/47"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ddb4a144-bd75-4624-ac4d-53f8845cc02f" name="Quakes, Fiendish General of Cursed Bones / Quakes Hand">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Quakes, Fiendish General of Cursed Bones"/>
+      <property name="Name2" value="Quakes Hand"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="7/6"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Race1" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature, discard a card at random from your opponent's hand for each of your other darkness creatures.&#xA;{DOUBLE BREAKER}&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's untapped creatures and destroy it.&#xA;■ Discard a card at random from your opponent's hand."/>
+      <property name="Rules1" value="■ When you put this creature, discard a card at random from your opponent's hand for each of your other darkness creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's untapped creatures and destroy it.&#xA;■ Discard a card at random from your opponent's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="47/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6c2ffb2c-2ab4-43a1-a2ab-8c1c78ab55d0" name="Inferno Portal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put a darkness creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="48/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="9126ae06-25e2-464a-bff6-15129c953fa1" name="Dimensional Galaxy Blade - THE FINAL">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Psychic Cross Gear"/>
+      <property name="Race" value="Samurai"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +12000 power.&#xA;■ Whenever the crossed creature attacks, until the end of the attack, that creature may get &quot;Galaxy breaker&quot; (A creature that has Galaxy breaker breaks all your opponent's shields. After the attack, break all your shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="49a/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="db48776e-3edc-4a4f-880a-1b6524cc4d3e" name="Dimensional Galaxy Bow - ANOTHER">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Psychic Cross Gear"/>
+      <property name="Race" value="Knight/Samurai"/>
+      <property name="Rules" value="■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ You may pay Fire 1: to cross this cross gear to a creature.&#xA;■ The crossed creature gets +20000 power and &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="49b/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="d47a7014-e6da-466b-9636-8e0487a9a073" name="Überdragon King Bolshack">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="13000+"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have a Dragon that has Bolshack in its name, you may summon this creature for no cost.&#xA;■ Evolution: Put on one of your fire Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;power attacker +1000&quot; for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="50/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="8035262f-9eff-43ba-92e9-fcea219ab885" name="Bolshack Superhero / Superhero Time">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Superhero"/>
+      <property name="Name2" value="Superhero Time"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/2"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon/Hunter"/>
+      <property name="Race1" value="Armored Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less.&#xA;TWINPACT&#xA;■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less."/>
+      <property name="Rules2" value="■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="51/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ab46ff4b-0f24-4d9a-a830-b260376a7cbf" name="Glenislay, Flame Dragon Ruler / &quot;Help me! Malt!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Glenislay, Flame Dragon Ruler"/>
+      <property name="Name2" value="&quot;Help me! Malt!!&quot;"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/5"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Race1" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Each turn, the first time this creature wins a battle, put a fire Dragheart Weapon that costs 4 or less from your hyperspatial zone. (Equip it to this creature.)&#xA;TWINPACT&#xA;■ Put a Draguner creature from your hand."/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Each turn, the first time this creature wins a battle, put a fire Dragheart Weapon that costs 4 or less from your hyperspatial zone. (Equip it to this creature.)"/>
+      <property name="Rules2" value="■ Put a Draguner creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="52/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="96bd9528-fcc9-441b-85ce-8dab1320ea68" name="Innocent's Rune">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Beast Folk/RexStars"/>
+      <property name="Rules" value="{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ Your creatures that evolve from this tamaseed cost 2 less to summon. They can't cost less than 1.&#xA;■ You may put an evolution creature of any race on this tamaseed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="53/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="85adc4fb-53f5-498f-8ad2-39cb8dbf60f2" name="Arcadia Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of the following. If you have an Angel Command, you may choose both:&#xA;► Choose one of your opponent's creatures. Your opponent put it into their deck, shuffles it, then draws a card:&#xA;► Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="54/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6214a28a-d262-48dc-9743-3622319d936d" name="Chiffon, Karma's Deification">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent's multicolored cards cost 2 more to use.&#xA;■ Your colorless cards cost 2 less to use."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="55/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6c93ce58-1189-4705-9733-c6bc3b750f92" name="Unholy Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following. If you have an Abyss, you may choose both:&#xA;▶ Choose one of your opponent's elements and put it on the bottom of its owner's deck:&#xA;▶ Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="56/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fc9cccdf-c8d5-4c50-9028-4d08e5ff3b3f" name="Izanamiterasu, Queen of Blue Wolves">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Samurai/Origin/Poseidia Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put all your opponent's creatures that have power 3000 or less into their owner's mana zone.&#xA;► Look at the top card of your deck and add it to your hand or put it into mana zone. Then choose a creature from your hand or mana zone that costs the same as or less the number of cards in your mana zone that can evolve from this creature and put it on this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="57/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e7b1c859-07dc-4df6-b1cd-9117faeb68ce" name="Bolshack Taiga Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following.&#xA;▶ Destroy all your opponent's creatures that has power 3000 or less:&#xA;▶ Choose one of your opponent's creatures and put it into its owners mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="58/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="bb6ad3b2-160f-4046-bcd7-500077875c83" name="Exceeding Meracchi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird En/Revolutionary"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ During your opponent's turn, whenever your opponent would put a creature in any way except by summoning, your opponent puts that creature into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="59/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="7a323691-41c1-46b4-9dd2-46fdc7440a08" name="Dragstrike, Blastdragon Soldier / The Wrath of Angels and Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Dragstrike, Blastdragon Soldier"/>
+      <property name="Name2" value="The Wrath of Angels and Demons"/>
+      <property name="Civilization" value="Fire/Light"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="5/3"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Race1" value="Dragonoid"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may put a dragon creature from your hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ If there are 2 or more creatures that have the same name in the battle zone, destroy all of them."/>
+      <property name="Rules1" value="■ When this creature is destroyed, you may put a dragon creature from your hand."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ If there are 2 or more creatures that have the same name in the battle zone, destroy all of them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="60/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4778d373-22b3-4c03-9861-5dd2cb2b8fa0" name="Great-Armed Promixer">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="0e2bf727-6eda-449d-af51-70d7c8f4f768" name="Crystal's Serenade">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ The next Zenith creature you summon this turn costs 4 less.&#xA;■ You may turn a card in your mana zone face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="62/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1cf395f4-9da5-4107-a896-b89cc7756076" name="Ailfreet, Holy Gates Elemental / Holy Spark Ichishiki">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ailfreet, Holy Gates Elemental"/>
+      <property name="Name2" value="Holy Spark Ichishiki"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="5/1"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Race1" value="Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Choose a spell from among them and put it into your hand, and put the rest into your graveyard.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Choose a spell from among them and put it into your hand, and put the rest into your graveyard."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="63/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="75abffd1-8d8f-4bf8-bf8e-91b1598dbef0" name="Alca Kid, Holy Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card.&#xA;■ Whenever you cast a spell that has &quot;Holy Spark&quot; in its name, you may summon an evolution creature that has &quot;Lord of Spirits&quot; in its name from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="64/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="bd42e72b-e9c4-4242-a8b2-833ba141119f" name="Barlowe, Devil Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, you may summon an evolution creature that has Ballom in its name from your graveyard for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="65/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c4b3b8ec-5c1f-48b4-ae95-d0cad4bf51c3" name="Deathliger, Lion of Chaos / Chaos Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Deathliger, Lion of Chaos"/>
+      <property name="Name2" value="Chaos Charger"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Race1" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Look at the top 4 cards of your deck. Reveal up to 2 Demon Command cards from among them and put them into your hand. Put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="■ Look at the top 4 cards of your deck. Reveal up to 2 Demon Command cards from among them and put them into your hand. Put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="66/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1739f820-9281-4646-8bb0-4a70a34f7308" name="School Man / Zombie Carnival">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="School Man"/>
+      <property name="Name2" value="Zombie Carnival"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/5"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Hedrian/Alien"/>
+      <property name="Race1" value="Hedrian/Alien"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy 2 of your creatures. Then your opponent chooses one of their creatures and destroys it.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Return up to 3 creatures of that race from your graveyard to your hand."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy 2 of your creatures. Then your opponent chooses one of their creatures and destroys it."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Return up to 3 creatures of that race from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="67/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="016a8a31-f77d-4d28-be37-7ddfe0160077" name="Bolshack Young Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="68/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="09fc6871-0832-4cf7-8bf7-ac7a5a39902e" name="Glenglassaugh, New Generation Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, put a Dragheart Weapon that that has the same civilization as a card in your mana zone that costs 4 or less from your hyperspatial zone. (Equip it to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="69/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="26b252a0-4c29-4c7b-82b9-40f8bc155835" name="Bolshack Dragon / Duelist Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Dragon"/>
+      <property name="Name2" value="Duelist Charger"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Race1" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="70/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="50fd17e1-9857-46d2-b355-f2238b271ac2" name="Timepyonchiki / Oraora Jokers">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Timepyonchiki"/>
+      <property name="Name2" value="Oraora Jokers"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/3"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers/RexStars/Jokers"/>
+      <property name="Race1" value="Jokers/RexStars"/>
+      <property name="Race2" value="Jokers"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature wins a battle, you may put the top 2 cards of your deck into your mana zone. If you do, return a card from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone. If that card is a Jokers, draw a card."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature wins a battle, you may put the top 2 cards of your deck into your mana zone. If you do, return a card from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone. If that card is a Jokers, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="71/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3c9febe1-0fe6-409f-a0dd-65d58a4091ac" name="Bolmeteus Energy, Flame of Memory / Bolmeteus Guard">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolmeteus Energy, Flame of Memory"/>
+      <property name="Name2" value="Bolmeteus Guard"/>
+      <property name="Civilization" value="Light/Water/Light"/>
+      <property name="Civilization1" value="Light/Water"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="3/4"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Million Flame"/>
+      <property name="Race1" value="Million Flame"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature or it leaves, draw a card.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature and shieldify it."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature or it leaves, draw a card."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="72/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e7656745-f1ef-45f7-a8f7-cab05afc9991" name="Alca Girl, Holy Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, draw a card.&#xA;■ Your Command creatures cost 2 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="73/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="40c3e94d-c768-46e9-b565-451c7b8dbea6" name="Lost World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 2 cards. Then you may put a creature that has &quot;Jashin&quot; in its name from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="74/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="9224953d-566f-4205-82ec-50ffb2550217" name="Legend of Hope and Victory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 2 cards. Then you may put a creature that has &quot;Bolmeteus Steel Dragon&quot; in its name from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="75/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="846c9374-0a09-4e1b-bce1-8352c263182f" name="Marauder Deis Drive / Pandora Time">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Marauder Deis Drive"/>
+      <property name="Name2" value="Pandora Time"/>
+      <property name="Civilization" value="Darkness/Fire/Fire"/>
+      <property name="Civilization1" value="Darkness/Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Living Dead/Dragonoid/Alien"/>
+      <property name="Race1" value="Living Dead/Dragonoid/Alien"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;TWINPACT&#xA;{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Choose one of your opponent's elements that costs 2 or less and destroy it."/>
+      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Rules2" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Choose one of your opponent's elements that costs 2 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="76/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="481a61c5-3854-4f60-ba18-accf5df96a14" name="Bell Hell De Skull, Moon Reaper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Beast Folk"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may return a card from your mana zone or graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="77/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f29a5976-f0f3-44b8-ba87-a7135b31809d" name="We are the Hamukatsu trio!!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Neo Evolution: You may put it one of your fire or nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature battles that chosen creature.&#xA;■ If this is a Neo Evolution Creature, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="78/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fc51e6fc-f24f-41d7-a5d1-caa27b4884f2" name="We are the Momodachi trio!!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone.&#xA;■ At the start of your turn, you may put one of your shields into your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="79/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fd281ded-4cc0-4b3d-b4c3-65312852fda3" name="Jogirasta Gunlance">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ Attack Chance: Creature that has &quot;Johnny&quot; in its name. (When one of your creatures that has &quot;Johnny&quot; in its name attacks, you may cast this spell for no cost.)&#xA;■ Choose a creature. That creature gets +7000 power until the end of the turn.&#xA;■ Choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="80/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="250b4310-42ed-4eb7-bc2e-0dbceebc571a" name="The Yeah Ramen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fb7ef18c-fc38-41ed-8530-23b0836821d7" name="Sol Habaki, Apocalyptic Sage">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Gladiator/Origin"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may return a card from your mana zone to your hand. If you do, put a card from your hand into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6b58f0e6-f8a7-4bef-9666-5b8a29600846" name="Rhapsody, Guard of Hope">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Hunter/Alien"/>
+      <property name="Power" value="500"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e1786fe3-1bee-46cc-8101-c37c9738c3b1" name="Khanen's Memory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Rules" value="{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, reveal the top 3 cards of your deck. You may take an evolution creature and a tamaseed from among them, and put them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="8265f7e8-10e0-43bf-acb5-09514674636f" name="Control Fire, Fire-Fighting Machine / Pandora Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Control Fire, Fire-Fighting Machine"/>
+      <property name="Name2" value="Pandora Charger"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Great Mecha King/Alien"/>
+      <property name="Race1" value="Great Mecha King/Alien"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;TWINPACT&#xA;■ Choose one of your creatures. That creature can't be blocked or chosen by your opponent this turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Rules2" value="■ Choose one of your creatures. That creature can't be blocked or chosen by your opponent this turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="90c20c85-d685-44b3-abf2-5538675e495c" name="Bolmeteus Dooon, Absorbing Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Million Flame"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature, look at the top 5 cards of your deck. Reveal one, put it into your hand and put the rest on the bottom of your deck in any order. If the card you revealed in this way is multicolored, you may choose a creature and return it to it's owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="989657fb-91e4-47f0-952e-6ab04e8dbb7d" name="Tron">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Alien"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="51c36a6b-7e7b-4f2f-b156-8f3dcbb12774" name="Tom's Jelly">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature leaves the battle zone, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f92bd06d-f987-43f5-94fc-61eeb4b60fe9" name="Pandora's Memory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 3 cards, then put a card in your hand into your hyperspatial zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="2cb7c023-61a0-4f34-b052-a767a3c32c0e" name="Katana = Taghana">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;■ When you put this creature, put the top 4 cards of your deck into your graveyard. You may return an Abyss card from among them into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e702fbe6-59b8-46c2-8fb1-908dfbdb9956" name="Bolshack Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, search your deck. You may take a creature that has &quot;Bolshack&quot; in its name from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5e16b8f1-9a0c-4636-9c34-77f56c72c0a3" name="Cocco Lupia GS">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your Dragons may each cost 2 less to summon. They can't cost 1 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="6449400c-5f26-415d-bf5f-4382718575e3" name="Wild Lily, Savage Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Beast Folk/Origin"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, search your deck. You may put an evolution creature from it into your mana zone. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="9509b0ff-58b6-46b8-8cab-89d5a1c7d0c6" name="Lamat Khan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem/Tzolkin"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c0253e64-075b-434a-bcf1-4f6e5a5aac62" name="Bolmeteus White Flare">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following. If you have a creature that has &quot;Bolmeteus&quot; in its name, you may choose both:&#xA;► Choose one of your opponent's creatures that has power 6000 or less and destroy it:&#xA;► Tap all your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="8fb111db-faf7-45a0-aeae-954a2ddcac89" name="Wakumuterasu, Blue Wolf of Abundance / Original Life">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Wakumuterasu, Blue Wolf of Abundance"/>
+      <property name="Name2" value="Original Life"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Knight/Samurai/Origin"/>
+      <property name="Race1" value="Knight/Samurai/Origin"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, draw 2 cards.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Rules1" value="■ When you put this creature, draw 2 cards."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="96/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="46b97a48-9ff7-4e45-be91-89c46cd7ed92" name="Jack Alcadeias, Dark Gaia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Lost Crusader"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, choose one of your opponent's cards that costs 4 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="97/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="e0aa5777-cfb7-4568-974d-c6ad0eb427a8" name="Dark Song">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at the top 4 cards of your deck. Put 2 of them into your mana zone tapped, then put the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="98/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="3febaf81-b257-435e-9fad-c6f2f4d0a7c8" name="Bolshack Glory Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a dragon, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="99/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="ecfc5e49-52df-4bd3-b1e8-8af88ea8a2bd" name="Kitakazeman Ace">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Team Kirifuda"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{Kirifudash} {C0} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay C 0 to summon this creature.)&#xA;■ This creature can't attack unless you have a fire and a nature card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="100/100"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="534517d6-e3ac-41a0-8245-90cccb913dfa" name="Nightmare Kiriko, Nightmare of the Divine Song">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Evolution Dream Creature"/>
+      <property name="Race" value="Cyber Lord/Origin"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ Evolution: Put one one of your water creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, shuffle all your non-evolution creatures, your hand and your graveyard into your deck. Then look at the top 6 cards of your deck. Put up to 3 creatures from among them and put the rest into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM1/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="0b11f360-7997-4f0d-bbdc-385dcb6c87d4" name="Nightmare Kiriko, Nightmare of the Divine Song">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="12"/>
+      <property name="Type" value="Evolution Dream Creature"/>
+      <property name="Race" value="Cyber Lord/Origin"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ Evolution: Put one one of your water creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, shuffle all your non-evolution creatures, your hand and your graveyard into your deck. Then look at the top 6 cards of your deck. Put up to 3 creatures from among them and put the rest into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM1㊙/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="0811c230-4775-4cec-b695-62a5e991ed60" name="Ballom Nightmare, Lord of Nightmares">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Dream Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Whenever a creature attacks you, if a player has no shields and you don't have a 'Ballom Nightmare, Lord of Nightmares', you may reveal this creature from your hand and put the card on the bottom of your deck into your graveyard. If it's a non-evolution Demon Command, put it, then put this on top of it.&#xA;■ Evolution: Put one of your Demon Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put all non-Demon Command creatures into their owner's hyperspatial zone.&#xA;■ While this creature is tapped, your opponent's creatures are put tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM2/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="07ead261-4956-443a-a93f-4c2afd8511f4" name="Ballom Nightmare, Lord of Nightmares">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Dream Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Whenever a creature attacks you, if a player has no shields and you don't have a 'Ballom Nightmare, Lord of Nightmares', you may reveal this creature from your hand and put the card on the bottom of your deck into your graveyard. If it's a non-evolution Demon Command, put it, then put this on top of it.&#xA;■ Evolution: Put one of your Demon Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put all non-Demon Command creatures into their owner's hyperspatial zone.&#xA;■ While this creature is tapped, your opponent's creatures are put tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM2㊙/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1d673dc2-56f5-4e0f-8033-594af6852d14" name="Momoking DM, Dream Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 2 evolution Jokers creatures that cost 8 or less from your mana zone. Then put the top 2 cards of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM3/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4d6c77ef-23ef-49fe-9a6a-014bd1379893" name="Momoking DM, Dream Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 2 evolution Jokers creatures that cost 8 or less from your mana zone. Then put the top 2 cards of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM3㊙/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="17f1e55b-8305-4f9c-a087-9c190d8a5e64" name="Dream Bolmeteus White Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, discard a card from your opponent's hand at random. Then draw a card.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures and shieldify it.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM4/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="fc0c0f61-37b7-4757-8a32-717dccac401d" name="Dream Bolmeteus White Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, discard a card from your opponent's hand at random. Then draw a card.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures and shieldify it.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM4㊙/DM4"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="c022ea14-7c84-4a79-9f67-5e383e91cabe" name="Jolly the Johnny, Dream Bullet">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="■ Gravity Zero: If you have 5 or more creatures that have different costs, you may summon this creature for no cost.&#xA;■ Variety Breaker (This creature breaks the same number of shields as your creatures that have different costs.)&#xA;■ This creature can attack your opponent on the turn it is put.&#xA;■ While this creature is attacking, your opponent can't summon a creature that costs the same as one of your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G1/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="4640a6a5-feaa-4b56-a5b8-c660dcec3ce9" name="Dream Alcadeias, Lord of Spirits">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ Evolution: Put one one of your Angel Command creatures.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA;■ While this creature is tapped, you can't lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G2/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="86c15fe6-bd1f-4c1c-bb4b-c0a2fb9fd14a" name="Emperor Kiriko">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Lord/Origin"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Cyber or Origin creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put all your other creatures on the bottom of your deck in any order. Then reveal cards from the top of your deck until you reveal 3 non-evolution creatures. Put those 3 and shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G3/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="649d0dd7-b6a6-4210-a650-1bc5ba6f0e1d" name="Dorballom, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creature.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all non-darkness creatures. Then each player puts all non-darkness cards in their mana zone into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G4/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="f7318d70-ed97-407c-a71c-52f52bee439d" name="MaltDREAM, Dream Twin Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="14"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Dragon Mana Arms 5: If you have 5 or more Dragon creatures in your mana zone, this creature costs 5 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {TRIPLE BREAKER}&#xA;■ You can't equip 2 or more weapons that have the same name to this creature.&#xA;■ When you put this creature, put any number of fire draghearts that have total cost 10 or less from your hyperspatial zone. (If they are weapons, equip them to this creature.)&#xA;■ Each turn, whenever this creature taps for the the first time, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G5/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5248ea90-fbe5-48d0-bce2-56b85355e38b" name="Bolmeteus Steel Dragon">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G6/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="1b9b0529-1012-4d5a-9e7e-e2524aa7b47a" name="Dogiragon Dream, Blue Dream Twin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Revolution Change: Water or Fire dragon that costs 5 or more&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a multicolored creature, you may draw a card.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, choose one of your opponent's creatures and return it to its owner's hand. Then put up to 2 non-evolution multicolored creatures from your hand that have total cost the same as or less than the chosen creature's cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G7/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="5c74b404-2ed0-4ce1-a2f3-e508f7313512" name="Momoking, Jonetsu Dream">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;■ Each turn, when one of your creatures attacks for the first time, put the top 2 cards of your deck into your mana zone, return up to 2 cards from your mana zone to your hand, then untap all Jokers in your mana zone.&#xA;■ Once per turn, after one of your creature's attacks, if that creature broke a shield during that attack, you may summon a creature from your hand. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G8/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+    <card id="559c806d-d3d2-4db3-b3d5-b8d40aeb5fc1" name="Bolshack Dream Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ If you have 4 or more Dragons in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G9/G9"/>
+      <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
+    </card>
+  </cards>
+</set>

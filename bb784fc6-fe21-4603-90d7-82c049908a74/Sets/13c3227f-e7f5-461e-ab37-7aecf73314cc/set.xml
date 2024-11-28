@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-03 Master of Destruction" id="13c3227f-e7f5-461e-ab37-7aecf73314cc" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="21358c88-3eec-4836-8652-ca40c914eb76">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="7df98513-9981-47da-a7c6-fa61ca6fd286" name="Sieg Balicula, the Intense">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Initiates.&#xA;■ Each of your other light creatures in the battle zone has &quot;blocker&quot;. (Whenever one of your opponent's creatures attacks, you may tap a creature that has &quot;blocker&quot; to stop the attack. Then the 2 creatures battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="7ed23a4b-4c7f-48f9-8df2-8fe1cd1714b1" name="Legendary Bynor">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Leviathans.&#xA;■ Your other water creatures in the battle zone can't be blocked.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="7c61a26e-bff9-4b7d-afb5-cc91fb944795" name="Jack Viper, Shadow of Doom">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Ghosts.&#xA;■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="0f6c0dc3-92ff-484f-8cd1-71476d0c967d" name="Überdragon Jabaha">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ Each of your other fire creatures has &quot;power attacker +2000&quot;. (While attacking, a creature that has &quot;power attacker +2000&quot; gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="e56c6ae9-2261-4482-91fc-5e6fee648292" name="Gigamantis">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giant Insects.&#xA;■ Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="6aa75e27-1fe7-4868-986a-6c041179783a" name="Raza Vega, Thunder Guardian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c21b3af8-6844-49c6-ba32-f609c03a7778" name="Alek, Solidity Enforcer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Berserker"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature gets +1000 power for each other light creature you have in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="b54ba234-a278-4a5a-a0ae-53d0574c98c0" name="Logic Sphere">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a spell from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="5f2baeab-e8d9-4890-a4fb-05918fd218e5" name="Aqua Deformer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return 2 cards from your mana zone to your hand. Then your opponent chooses 2 cards in his mana zone and returns them to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="02bf2d34-8e19-47a8-b88d-37f67f5c117a" name="King Neptas">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has power 2000 or less and return it to its owner's hand. (Return the creature to its owner's hand before your opponent can block with it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="75c7072f-52bd-4ee2-a7cd-4d2523a8adf4" name="Streaming Shaper">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="98d9cdee-974c-414c-a470-800cda2dfe52" name="Gamil, Knight of Hatred">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a darkness creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="1ff52962-b1c9-427e-9981-55a737a57bf5" name="Scratchclaw">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature gets +1000 power for each other darkness creature you have in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="3767f299-0807-4170-af8b-4c6f9b724a4c" name="Ghastly Drain">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose any number of your shields and put them into your hand. You can't use the &quot;shield trigger&quot; abilities of those shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="1499a8eb-b295-479b-9437-be7970a724a2" name="Boltail Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="446054d7-cbe0-4bb9-bd72-679d765b12cc" name="Flametropus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a card from your mana zone into your graveyard. If you do, this creature gets &quot;power attacker +3000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +3000&quot; and &quot;double breaker&quot; gets +3000 power while attacking and breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c2bbe01f-4b15-4cd6-a152-4e6354cb5bd4" name="Blaze Cannon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ You can cast this spell only if all the cards in your mana zone are fire cards.&#xA;■ Each of your creatures in the battle zone gets &quot;power attacker +4000&quot; and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="64b26bd6-9806-4981-9569-7c650d35a6cd" name="Dawn Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ This creature can't attack creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="07155426-fa87-48a7-80a1-b8123066eeee" name="Psyshroom">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Balloon Mushroom"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put a nature card from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="19180601-2c75-4a8e-bd39-e8d252a93b8a" name="Aurora of Reversal">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose any number of your shields and put them into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="4051a3d3-cbe0-4fab-90de-0e155a501fbb" name="Ra Vu, Seeker of Lightning">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a light spell from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="2859d269-d9ad-4790-9a5b-4d7b2f27b295" name="Sparkle Flower">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature has &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="3ec2132b-7469-4bda-96d7-9d677c0f94cf" name="Boomerang Comet">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand.&#xA;■ After you cast this spell, put it into your mana zone instead of your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="698b8958-ead5-44fd-921c-2274b758128a" name="King Ponitas">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a water card from your deck, show that card to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="a2f7ef30-5993-4cee-8594-7a534f76009a" name="Stinger Ball">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="82a7c57e-cc42-46b3-8cf4-dea76420af2d" name="Flood Valve">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="5382f1c6-c231-4b98-8f2d-4379a77a4b42" name="Hang Worm, Fetid Larva">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="4000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="0d13840f-58db-43bd-a112-fb57c747d778" name="Baraga, Blade of Gloom">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your shields and return it to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="3cf758da-2a39-447b-abc6-02ef3d3877e4" name="Eldritch Poison">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may destroy one of your darkness creatures. If you do, return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="1621af2d-cc4d-4ddf-89e7-cf7e5df824b4" name="Muramasa, Duke of Blades">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="4aa1fdc3-6a85-4886-9693-020ee564cc6e" name="Armored Warrior Quelos">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, put a non-fire card from your mana zone into your graveyard. Then your opponent chooses a non-fire card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="5b09a09b-72be-4ad8-a07a-26312e71c5d5" name="Searing Wave">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Destroy all your opponent's creatures that have power 3000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="541b3613-3cee-4fef-b6ea-e4cddb4061ff" name="Masked Pomegranate">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each of your other nature creatures in the battle zone.&#xA;■ This creature can't be blocked by any creature that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c1d7eb6e-a19a-4348-9bf6-98fa23183452" name="Pouch Shell">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Colony Beetle"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="4f014f57-3aa9-46a3-974b-a580eeea4ed0" name="Mana Nexus">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Add a card from your mana zone to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c82cf1a8-4d86-4c6b-86f1-d86bbef64212" name="Aless, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, add it to your shields face down instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="1cd8544e-e419-475f-b1a5-1ad8a7dd2403" name="Ur Pale, Seeker of Sunlight">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="2500+"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are light cards, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="6463827f-81d6-409b-9165-a507b4feb78d" name="Lena, Vizier of Brilliance">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="e4758a00-450f-4661-b331-0ef33c7d416a" name="Sundrop Armor">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Add a card from your hand to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="a3d4be8e-0591-4994-b682-6ee7c3b938ef" name="Shtra">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a card from your mana zone to your hand. Then your opponent chooses a card from his mana zone and returns it to his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="e299b0a9-45c8-4735-b89b-31402d689fc4" name="Angler Cluster">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ While all the cards in your mana zone are water cards, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="64d90928-c1a9-445f-80ce-6918b029bc8c" name="Emeral">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="bc2c6712-5bee-4bb8-a989-fa66f5293a65" name="Liquid Scope">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at your opponent's hand and shields. Then put the shields back where they were."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="539d8c07-efe9-406a-861a-a0192d16232a" name="Mudman">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are darkness cards, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="6b217b41-bae9-4a9f-b545-6f0919d82b89" name="Wailing Shadow Belbetphlo">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c76e8b59-c091-43a8-8f3f-07b1f5662c95" name="Bone Piercer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Brain Jacker"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is put into your graveyard from the battle zone, you may return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="c8b13643-a7fe-4941-b3db-c392c75389ef" name="Snake Attack">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)&#xA;■ Choose one of your shields and put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="56da309f-8e62-4a81-86fc-d10babd269ae" name="Explosive Dude Joe">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="d1d235ec-ed7c-4772-b97f-0312da46df8f" name="Baby Zoppe">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are fire cards, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="fec28042-8934-4708-907e-cfd59b8dec34" name="Snip Striker Bullraizer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ This creature can't attack while your opponent has more creatures in the battle zone than you do."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="cbd795a9-b3f2-4509-9f0a-a28ddab4e937" name="Volcanic Arrows">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy a creature that has power 6000 or less.&#xA;■ Choose one of your shields and put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="a5aa1c31-56be-4382-b3bc-ba969e9dce16" name="Raging Dash-Horn">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While all the cards in your mana zone are nature cards, this creature gets +3000 power and has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="6181a471-b485-4280-aca3-fb24e7601a30" name="Sword Butterfly">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="39549c33-fb6a-4a36-846e-29f4b2912c19" name="Sniper Mosquito">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="094d902d-91fb-4cdc-8f8f-6e673b13ccda" name="Roar of the Earth">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a creature that costs 6 or more from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="39cbb026-ab01-419f-8c59-688ada866848" name="Miar, Comet Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="07e424d9-72e5-460e-8584-01d2c3ed5bdb" name="Chaos Fish">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gel Fish"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each other water creature you have in the battle zone.&#xA;■ Whenever this creature attacks, you may draw a card for each of your other water creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="fdacf886-dbfb-4a34-8f09-450acab4a33e" name="Giriel, Ghastly Warrior">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="4ed1d645-a10e-4aae-956b-0ab641fb1e57" name="Garkago Dragon">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature gets +1000 power for each other fire creature you have in the battle zone.&#xA;■ This creature can attack untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+    <card id="a9079028-bca1-43f9-b37e-dc7454ba9cb1" name="Earthstomp Giant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, return all creatures from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-03 Master of Destruction"/>
+    </card>
+  </cards>
+</set>

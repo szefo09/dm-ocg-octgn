@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-10 Blue C.A.P and Black DaiBanZai" id="fef36f20-7113-42b0-8ba9-58f1512b12cc" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="c0b6ecaa-b4fd-48a8-a9e1-729bc28bae0c">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="4ddfcfba-ea81-405f-b065-0e697717c5ad" name="Beaskes, White Emperor's Will">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="■ Mana Drive 4 (Light): When this creature leaves the battle zone, if you have 4 or more cards in your mana zone and one or more of them is light civilization, add the top card of your deck to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="02720077-9542-4530-aa7e-ad6e78ae980c" name="Sabaran, Red Attack Silver / Red Magic">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Sabaran, Red Attack Silver"/>
+      <property name="Name2" value="Red Magic"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="3/1"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return a spell from your graveyard to your hand.&#xA;TWINPACT&#xA;■ Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, return a spell from your graveyard to your hand."/>
+      <property name="Rules2" value="■ Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="6c734955-97ca-438a-8510-31cbed2d23e1" name="Emperor Doguro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Wonderforce/Specials"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, gacharange summon once for each of your creatures in the battle zone that have &quot;blocker&quot;.&#xA;■ Each of your gacharange creatures gets &quot;shield saver&quot;. (When one of your shields would be broken, you may destroy one of your creatures that has &quot;shield saver&quot; instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="112573f9-fe6f-425e-98a3-0709644f22ef" name="Core Calibur, Mobile Base / Electro Shower">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Core Calibur, Mobile Base"/>
+      <property name="Name2" value="Electro Shower"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="3/4"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Race1" value="Tricks/Deletron"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you cast your spells or use an aura, you may draw a card.&#xA;TWINPACT&#xA;■ Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
+      <property name="Rules1" value="■ Whenever you cast your spells or use an aura, you may draw a card."/>
+      <property name="Rules2" value="■ Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ac45eb97-714f-4e91-b6b2-625a4e56acdd" name="Exhaust Two Four">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may cast a spell that costs 4 or less from your graveyard for no cost. After you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ Whenever you cast a spell, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="477ed743-b8eb-44d2-abf3-b11d33553d22" name="Szark Ban Winger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature would leave the battle zone, you may put 2 auras attached to it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2261a736-8c1a-4899-a76d-b24801de7a76" name="Sukima De Meer / Welcome to ~ here...!!">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Sukima De Meer"/>
+      <property name="Name2" value="Welcome to ~ here...!!"/>
+      <property name="Civilization" value="Darkness/Light"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="4/6"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang/Specials"/>
+      <property name="Race1" value="Mafi Gang/Specials"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ At the end of your opponent's turn, if no creature attacked that turn, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Gacharange summon 3 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules1" value="■ Each of your creatures gets &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ At the end of your opponent's turn, if no creature attacked that turn, your opponent discards a card from their hand."/>
+      <property name="Rules2" value="■ Gacharange summon 3 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="bbf09db3-5b93-46f3-984e-5f829a8ce227" name="Jogranma, Shimbatsushikou">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{GREAT SIN OF MOONLESS NIGHT} 3 (You may reduce the cost of using this aura by 3. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ When you attach this to a creature, destroy one of your opponent's creatures.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="50090ce9-5b9c-4b39-a5dc-bb634dfe8260" name="Ziggy Thunder Bolt / Round One">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ziggy Thunder Bolt"/>
+      <property name="Name2" value="Round One"/>
+      <property name="Civilization" value="Fire/Water"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/1"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Race1" value="Beat Jockey"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature would break a shield, choose a number instead. Your opponent puts that shield face-up and puts all cards that have the same cost as that chosen number into their graveyard. Then your opponent puts the rest into their hand.&#xA;TWINPACT&#xA;■ Look at a shield. You may have its owner put it on the bottom of their deck. If you do, that player puts the top card of their deck into their shields face down."/>
+      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature would break a shield, choose a number instead. Your opponent puts that shield face-up and puts all cards that have the same cost as that chosen number into their graveyard. Then your opponent puts the rest into their hand."/>
+      <property name="Rules2" value="■ Look at a shield. You may have its owner put it on the bottom of their deck. If you do, that player puts the top card of their deck into their shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="f8280a77-f66c-4c6c-8ec7-ce187cdbea83" name="MEGATOON Dokkandeiya">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, discard all cards in your hand.&#xA;■ Whenever you discard a card from your hand, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ca517667-5043-4b60-b2c5-0f21cb13844b" name="Greeji Fabnore / Vanish Death">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Greeji Fabnore"/>
+      <property name="Name2" value="Vanish Death"/>
+      <property name="Civilization" value="Nature/Darkness"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="5/3"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Race1" value="Gransect/Deletron"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Guardman&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, you may put a creature or aura that costs 5 or less from your mana zone into the battle zone.&#xA;TWINPACT&#xA;■ Destroy one of your opponent's untapped creatures."/>
+      <property name="Rules1" value="■ Guardman&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, you may put a creature or aura that costs 5 or less from your mana zone into the battle zone."/>
+      <property name="Rules2" value="■ Destroy one of your opponent's untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="c4cfd1a2-2936-45c2-9fc7-269bb1b275eb" name="Gappazeo, Kuderze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the creature attached with wins a battle, gacharange summon once for each aura attached to this creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="12/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="cc6ab043-8b5b-435f-8b06-ccec7a5aae83" name="Papparapali Nights">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 2 (Jokers): When you put this creature, if you have 2 or more cards in your mana zone and one or more of them is jokers, put a jokers from your graveyard into your mana zone.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="9a129a7e-6f6a-48e9-9786-c5c692df555a" name="Silt, Blue Defense Silver / Killer Tune">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Silt, Blue Defense Silver"/>
+      <property name="Name2" value="Killer Tune"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="3/4"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, each player may choose a card in their hand and put it into their shields face down.&#xA;TWINPACT&#xA;■ Look at your opponent's hand and discard a card."/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, each player may choose a card in their hand and put it into their shields face down."/>
+      <property name="Rules2" value="■ Look at your opponent's hand and discard a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="a05fe6aa-0243-413a-81a4-872c120c5427" name="Pia Ni, Play Music">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attack, tap one of your opponent's creatures. (First choose what to attack, then choose which creature to tap.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="d736b9d0-b5b0-468f-b13f-bbe34dd31669" name="♪ Play by Glory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon twice. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Until the start of your next turn, each of your gacharange creatures gets &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="7b66ef1e-8116-44b3-abe5-044f12dff321" name="Magu Kajiro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Mana Drive 4 (Water): Whenever this creature attacks, if you have 4 or more cards in your mana zone and one or more of them is water civilization, you may cast a spell that costs 4 or less from your hand for no cost.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="9025a3f9-6363-46d9-ad0d-0d115b1c0b39" name="Jenne Topy / GYORAI-CANNON!">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Jenne Topy"/>
+      <property name="Name2" value="GYORAI-CANNON!"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="1/3"/>
+      <property name="Cost1" value="1"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Race1" value="Tricks/Wonderforce"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack unless you cast a spell during your turn.&#xA;TWINPACT&#xA;■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack unless you cast a spell during your turn."/>
+      <property name="Rules2" value="■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="61168bef-5126-4fe4-bb18-47910e01cbb5" name="Healm Endion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return one of your other creatures to your hand. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="fe993809-23e8-45fa-8fef-5da1dcaaf56c" name="*/ Unavarez, Shigen /*">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Rules" value="■If you attach this to a creature already attached to an aura, this aura costs 2 less to use.&#xA;■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever your opponent would choose a creature, if the attached creature is tapped, it can't be chosen. (It can still be attacked and blocked.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ac9b34b1-e9c8-4b02-81d1-b609608ba570" name="Otsu-Isshiki, Moudoku">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Darkness): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is darkness civilization, choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="4afe542c-5f7e-42ee-87d9-e8fe93d4c086" name="Ugoka Saruko, Darkness's End / Glow of Rebirth">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ugoka Saruko, Darkness's End"/>
+      <property name="Name2" value="Glow of Rebirth"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="2/1"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Race1" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a card from your mana zone into your graveyard.&#xA;TWINPACT&#xA;■ Put a card from your graveyard into your mana zone tapped."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a card from your mana zone into your graveyard."/>
+      <property name="Rules2" value="■ Put a card from your graveyard into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e310faa0-e65a-477d-86fb-2fdb5b687df9" name="Daipasatsude, Ranshin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 2 (You may reduce the cost of using this aura by 2. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; break an additional shield for each 6000 power.)&#xA;■ When you attach this to a creature, your opponent chooses a card from their hand and discards it.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="bc24ba51-91af-423d-b9d1-326505d8ac63" name="Sin Koku Satsu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures and choose an aura from your graveyard. If that aura costs less than the destroyed creature, put it into the battle zone. If it doesn't, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="17d31b2c-9955-4531-be3c-6771892b2f3e" name="FASORASI Dokkan / ♪ Dowadokkannodo">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="FASORASI Dokkan"/>
+      <property name="Name2" value="♪ Dowadokkannodo"/>
+      <property name="Civilization" value="Fire/Light"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Race1" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;TWINPACT&#xA;■ Gacharange summon."/>
+      <property name="Rules1" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules2" value="■ Gacharange summon."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="00f9fd8c-1d6f-4c78-b2a2-7f6afc951b3d" name="Nidogyurion, Dragon Armored Car">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During your turn, whenever your opponent uses a card from their hand, untap this creature.&#xA;■ When your opponent chooses this creature, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="48fb3c32-eeb0-4103-9fcc-3e952b1e8a48" name="MANGANO-CASTLE!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2ed96180-a4e5-4cb5-9172-4f1a1f03865d" name="Rafusia Third">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ Mana Drive 4 (Nature): If you have 4 or more cards in your mana zone and one or more of them is nature civilization, this creature gets +3000 power while battling.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="03d6b1ca-7dc4-4439-a02a-c4d0e524d1f7" name="Pomirin, Rainbow Faerie / Rainy Atlas">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Pomirin, Rainbow Faerie"/>
+      <property name="Name2" value="Rainy Atlas"/>
+      <property name="Civilization" value="Nature/Water"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="2/1"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Race1" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ If all cards in your mana zone are multicolored, this creature costs 1 less to summon.&#xA;■ Whenever a multicolored card is put into your mana zone tapped, untap it.&#xA;TWINPACT&#xA;■ Look at the top 3 cards of your deck. From among them, show a multicolored card to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules1" value="■ If all cards in your mana zone are multicolored, this creature costs 1 less to summon.&#xA;■ Whenever a multicolored card is put into your mana zone tapped, untap it."/>
+      <property name="Rules2" value="■ Look at the top 3 cards of your deck. From among them, show a multicolored card to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="30/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="0aac5d1b-6a57-4f42-bae9-7acb5cea1fa5" name="Rinurijio, Dragon Armored Car">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Gransect"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may choose one of your opponent's non-creature cards in the battle zone and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="31/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e6f26077-64df-410b-955d-d79b270d9718" name="Kumana, Muny">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this aura is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you attach this to a creature, if the attached creature has 2 or more auras attached to it, choose one of your opponent's creatures and put it into it owner's mana zone.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="9f5b18f3-c561-4bcb-b403-d78902e8f5b1" name="Rokepan Manjiro">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature attacks your opponent's creatures each turn if able.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="87e2f64d-0def-42f0-a7db-0dbe2693eaf2" name="Felmel, Capturing Will">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 2 (Light): When you put this creature into the battle zone, if you have 2 or more cards in your mana zone and one or more of them is light civilization, choose one of your opponent's creatures and tap it.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="9f2e5485-3cb7-427f-b5bd-b472cf8d7846" name="Jarly, Strange Stone / Sentimental Jarly">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Jarly, Strange Stone"/>
+      <property name="Name2" value="Sentimental Jarly"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/2"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Race1" value="Metallica"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone, untap this creature.&#xA;TWINPACT&#xA;■ Destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone, untap this creature."/>
+      <property name="Rules2" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="b74aba1c-1369-4d53-839f-41678116a0d9" name="Trumpetora, Play Music">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon twice. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="da9f32d3-3788-451d-91b6-099bb520a6fd" name="Shantan, Play Music">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may tap one of your other light creatures. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="47cb3bf5-74dc-488f-8a3a-e0a2ccef102a" name="♪ If you pass the Judgment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Tap one of your opponent's creatures for each of your gacharange creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="185450b1-1faa-4165-a18e-70944de2cdc1" name="Dispene Yugrasil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures that have power 7000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="11772d7e-9786-4c80-96af-36deff4cee3b" name="Shake Shark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 2 (Water): When you put this creature into the battle zone, if you have 2 or more card in your mana zone and one or more of them is water civilization, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5f7e4b06-c047-4ba3-9264-1e0b538be4ec" name="Magi, Mechanic / 「Power of Hand Desu」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Magi, Mechanic"/>
+      <property name="Name2" value="「Power of Hand Desu」"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/5"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Magic Command"/>
+      <property name="Race1" value="Magic Command"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, draw a card.&#xA;■ When this creature would be destroyed, return it to your hand instead.&#xA;TWINPACT&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules1" value="■ When you put this creature into the battle zone, draw a card.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Rules2" value="■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="a7676136-b81b-48e2-8144-724622d92233" name="Dangou, Hidden Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ If there are 3 or more spells in your graveyard, this creature gets +4000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="3ef73ed0-6c03-417d-a15e-9cf65b05d119" name="*/ Nobiamil, Shigen /*">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creatures that has &quot;powered breaker&quot; break an additional shield for each 6000 power.)&#xA;■ When you attach this to a creature, look at the top card of your deck or super gacharange zone. You may put it on the bottom of your deck or super gacharange zone.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="d08dac78-0be1-42b9-a490-62a6d5a9cd8f" name="Deep a.k.a. Waterfall">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Draw a card for each of your gacharange creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="4cd7db1c-2892-4561-ac73-65572dfed5f7" name="Jager a.k.a. Jet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5e62917b-cc27-457c-a2d3-ebf00f4c8dd5" name="Hei-Nishiki, Daraku">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at the top card of your deck. You may put it into your graveyard.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="597b7574-0e78-4498-bcee-ae7368bf20ad" name="Khan, Misfortune Demon 30 / Okke Punch">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Khan, Misfortune Demon 30"/>
+      <property name="Name2" value="Okke Punch"/>
+      <property name="Civilization" value="Darkness/Light"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules1" value="■ You may summon this creature from your graveyard."/>
+      <property name="Rules2" value="■ Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="496ef627-6cd6-4146-9eda-8028242f0c57" name="Schro Dinger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may put an aura that costs 5 or less or a non-evolution creature that costs 5 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e450e350-07b5-448d-95e5-cc0f60b4a310" name="Gal Morgani">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, your opponent chooses and destroys one of their creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="0d5b2ece-dbce-401c-a2d0-cd834c7ae003" name="Hasil, Misfortune Demon 51">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed during your turn, put it into the battle zone from your graveyard at the start of your opponent's turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="57d3f2e7-0c39-4cb3-9381-12d6fad7b70a" name="Beasbout, Kyosin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 3 (You may reduce the cost of using this aura by 3. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5d5e59e6-74ec-43d0-92a8-b118e27f5ecd" name="Brunrumble">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 2 (Fire): When you put this creature, if you have 2 or more cards in your mana zone and one or more of them is fire civilization, you may choose one of your opponent's creatures. This creature battles that chosen creature.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e4d0e769-10cb-4ae4-be9b-61eb9d6272d5" name="Jet Reming, Dragon Armored / Lorentz Typhoon">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Jet Reming, Dragon Armored"/>
+      <property name="Name2" value="Lorentz Typhoon"/>
+      <property name="Civilization" value="Fire/Water"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
+      <property name="Race1" value="Dragon Guild/Beat Jockey"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Whenever you discard from your hand, this creature gets +4000 power and has &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)&#xA;TWINPACT&#xA;■ Draw 2 cards. Then discard a card from your hand."/>
+      <property name="Rules1" value="■ Whenever you discard from your hand, this creature gets +4000 power and has &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Rules2" value="■ Draw 2 cards. Then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5858b9d1-58c7-4084-8217-b6e030ea67ff" name="SHUWAWA Sosoda">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attacks, you may discard a card from your hand. If you do, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2aaba142-5c0a-4a07-bf9a-ec94278b5f3b" name="GIRIGIRI Chiktak">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, if your opponent has 4 or less shields, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2d252dd0-9520-4e7c-8754-98ed0bc43c64" name="Depp and Chil's Circus">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 4000 or less.&#xA;■ Destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="7024b716-c646-4912-ad4a-ce63adf708a6" name="Souprince">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Choose one of your opponent's cards in the battle zone that costs the same as or less than the number of your gacharange creatures in the battle zone and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ae0ef097-4bac-47e6-9c03-a82a84262115" name="Scup Third">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Nature): If you have 3 or more cards in your mana zone and one or more of them is nature civilization, this creature gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="58/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="dfc2486c-3fd7-4a6a-93c5-9a5b48e3be27" name="Spring Seeker / Double Fall">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Spring Seeker"/>
+      <property name="Name2" value="Double Fall"/>
+      <property name="Civilization" value="Nature/Darkness"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/1"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Race1" value="Beast Folk"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, put the top card of your deck into your mana zone.&#xA;TWINPACT&#xA;■ Destroy one of your creatures. If you do, draw 2 cards."/>
+      <property name="Rules1" value="■ When this creature is destroyed, put the top card of your deck into your mana zone."/>
+      <property name="Rules2" value="■ Destroy one of your creatures. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="59/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ebfa69bd-2b01-4784-a7d4-996d72d55720" name="Mortal Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may tap any number of your other creatures. For each creature tapped, this creature gets +3000 power until the end of the turn.&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="60/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2f0ea662-a4a0-41a4-91e2-cbfc4dfce9d3" name="Porndel, Megadel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creatures that has &quot;powered breaker&quot; break an additional shield for each 6000 power.)&#xA;■ You may use this aura from your mana zone.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2e4b5673-8dee-49cc-ae40-902cd25e4c75" name="Farie, Famik">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the attached creature attacks, if it has 2 or more auras attached to it, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="62/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="0dc1797b-d6d9-44dd-9179-601ba24b48f6" name="Tasukete Resukyun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Rules" value="■ Gacharange summon. (Gacharange Summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ For each of your gacharange creatures in the battle zone, put the top card of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="63/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="160bf0d8-0762-4130-a2aa-66b0d825c5bb" name="Chocolate Factory">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, put a card from your hand into your mana zone.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="f58412c0-69fa-4a20-a4b2-3d8337115530" name="Titsui, Evil Breaking Will">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Metallica/Wonderforce"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Light): If you have 3 or more cards in your mana zone and one or more of them is light civilization, this creature gets &quot;blocker&quot;. (You may tap a creature that has &quot;blocker&quot; to change the attack target of that creature to this creature.)&#xA;■ This creature can't attack players.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="86eb0c4c-52a4-4eb7-8c00-c43ef4cdef2d" name="Rokka, Judgment Bond's Stop">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="6fdd3ea5-8de2-4372-9171-babc7e11743d" name="Bals, Halfgod Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5d43eb6f-74c4-43aa-9e61-07a637843385" name="Pureen, Ancient Growth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="4500"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="046b4208-202b-4c4b-a8ae-75d115baf06e" name="Alnashi, Vizier of Sluggishness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When this creature would be destroyed, add it to your shields face down instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e2e73d98-bec3-47de-9018-bee9f2e8391f" name="Tsumodobil, the Explorer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="18020d01-1b27-41f8-8179-843b6a3ea8ea" name="Jockin Glass">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap one of your opponent's creatures.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="b08d8800-4afa-4e96-92f8-8529719370d7" name="TS-10, Shell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Water): If you have 3 or more cards in your mana zone and one or more of them is water civilization, this creature gets &quot;blocker&quot;. (You may tap a creature that has &quot;blocker&quot; to change the attack target of an opponent's creature to that creature.)&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="52f2d16b-82bf-4191-98bb-3ba0c3f17885" name="Clio Neck">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="a38814f4-3b13-47a4-864e-f6210bc4f02a" name="Giafan, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mutopia"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures that has power 3000 or less and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="502564e1-f88f-4dba-9d84-2ff3147dfb7b" name="Coanco, Big Pirate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="5000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="cb9ef1e3-e090-4d4b-9999-465800e5e3fd" name="*/ Kobitro, Nigen /*">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Rules" value="■ Whenever the attached creature taps, draw a card.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="4b22d708-fe50-4c8b-8010-02b00fa63529" name="Cyber a.k.a. Lion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 3 cards. Then discard 2 cards from your hand.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="551b0a4b-201d-42a9-a0e2-a590dfbca7cb" name="Spiral a.k.a. Tornado">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures that has power 7000 or less and return it to the owner's hand.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="2e8df396-c1aa-44d8-9697-2c4d939eb304" name="Aaru a.k.a. Heaven">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="87594190-d5a6-4ff9-a25b-2ab78fc122a4" name="Covert Peeping">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each of your water creatures can't be blocked this turn.&#xA;■ Choose a card from your opponent's hand without looking, your opponent shows it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="42f46c77-17cb-42ea-a7dd-912f427dbb8a" name="Hei-Isshiki, Sasui">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Darkness): If you have 3 or more cards in your mana zone and one or more of them is darkness civilization, this creature gets &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="cf399ebf-7ee7-44fe-8b1a-86a3aad2e7df" name="Hols, Halfdemon Nightmaster">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="735c7faf-3e30-4faa-9a70-a52f3ce393fe" name="Imerius, Light Ray Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="3000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="9e63b16a-1da9-43c5-b875-b4f91c7b594d" name="Duran Beltran">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="67ea8d8c-6227-4034-ae26-53cf155dd83d" name="Kabiwassan Man">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, your opponent chooses a card in their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="c9f9df53-82f4-4b0c-a214-344fdd86a77a" name="Mandadamu, Jushin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 1 (You may reduce the cost of using this aura by 1. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ When you attach this to a creature, you may return an aura that costs 8 or less from your graveyard to your hand.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="38ff2608-ab58-4e79-ab0b-275d0b77d5b5" name="Desatspider, Suisin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 1 (You may reduce the cost of using this aura by 1. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ When you attach this to a creature, choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="25ece0d2-bca6-477c-8b09-1be30e0b919d" name="Radio Head">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures. Those creatures gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ce9e0271-c80b-4077-ae43-3b57662b9bb5" name="Sonysonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Fire): If you have 3 or more cards in your mana zone and one or more of them is fire civilization, this creature gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="fd618a99-c198-47ca-968d-17420e510a38" name="The Tsukemen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Jokers creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="97941740-2aca-4227-9c03-1bc758060ab2" name="Vocal Megahit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="5000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="3ca3e567-e010-4faf-9819-758b17fde69f" name="Dobolzaurus">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rock Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="3c89db41-1aeb-4713-8079-86950fbe6505" name="Closet Beard Father">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +8000 (While attacking, this creature gets +2000 power.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="dce85ea6-be9f-4f5a-93f9-6b66c8c78ceb" name="Outottsu, Kenkaya">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ When this creature is destroyed, you may destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="cd0dc044-a088-43f6-bb62-5f7ce44ba7d3" name="Steamneon Street">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="79f5f205-3cc7-4c7f-af70-addbb3c0ce76" name="Pakiraki Second">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 3 (Nature): When this creature leaves the battle zone, if you have 3 or more cards in your mana zone and one or more of them is nature civilization, put the top card of your deck into your mana zone.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="96/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="997f622b-19a8-4a51-94f5-202b36a930f1" name="Tonbara">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="97/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="bf7337ff-5fb5-421b-89ed-bd332e09cbbe" name="Soisoimi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have a creature that has power 4000 or more in the battle zone, gacharange summon.{GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="98/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="302e9b03-d3ad-42fd-b651-f6ec8f907441" name="Gaddura, Gaji">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creatures that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="99/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ba8300fe-e9a0-40c1-b1d4-d0f578457239" name="Botegutta, Shiguta">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="100/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="d77ef2f0-4dcd-4478-9cac-646350fec7db" name="Mashmurian Rhapsody">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="101/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="042b7530-5b84-4b65-ab2e-7107649f171e" name="「Flying～!!」SENKKO">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Rules" value="■ Gacharange summon. That gacharange creature gets &quot;mach fighter&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;(A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="102/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="1dc251a1-8f99-41c3-97ac-e8b7f3404f1b" name="Campda Hohohoi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Until the start of your next turn, your opponent's creatures that have power 4000 or less can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="103/103"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="597f5ae0-80a7-4f00-9b86-b31d612bcde2" name="Gyuujinmaru, Legendary Identity">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="71"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="The Answer"/>
+      <property name="Power" value="71000"/>
+      <property name="Rules" value="■ Genius Sympathy—Water creatures (This creature costs 10 less to summon for each of your water creatures in the battle zone. It can't cost 0 or less.)&#xA;{WORLD BREAKER}&#xA;■ When you summon this creature, your opponent shuffles all of their creatures into their deck. If your opponent shuffled 6 or more creatures into their deck in this way, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="G1/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="356a7c0c-106d-4d68-aa26-76a1954e4224" name="Mega Magma Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each of your opponent's creatures. It can't cost 0 or less.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all creatures that have 5000 power or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G2/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="864b2c45-bf26-4eeb-acf8-cb4b0d2cde62" name="Bolbalzak Ex">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Earth Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, untap all cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="G3/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="44389e6e-2278-441d-bffb-563ceaaa7a3f" name="Miraculous Snare">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Choose a non-evolution creature in the battle zone and add it to its owner's shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="G4/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="d6418ee0-127e-40f2-ba4f-9492b5747d26" name="Miraculous Truce">
+      <property name="Format" value="OCG,TCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ (This spell is put into your mana zone tapped.)&#xA;■ Choose a civilization. Until the start of your next turn, creatures of that civilization can't attack you even if your opponent puts them into the battle zone after you cast this spell."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="G5/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="b002edcd-9d4a-4089-ad19-eb57f7d678e7" name="Ragnarok, the Clock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="G6/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="58b213b9-d484-475d-898a-09330d7beb6f" name="Demon's Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 2 cards.&#xA;■ Choose one of your opponent's creatures. That creature gets -1000 power for each card in your hand until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="G7/G7"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="607a7868-118b-4776-92c9-bbc4da36c698" name="Captain Aarukait">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ If you have 4 or more water gacharange creatures in the battle zone, this creature gets +7000 power and has &quot;double breaker&quot;.&#xA;■ Super Heaven Fever: Whenever an opponent's creature attacks, if you have 5 or more water gacharange creatures in the battle zone, you may put 4 other water gacharange creatures on the bottom of your super gacharange in any order. If you do, skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1/M2"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="324f2bbc-eb9e-4a8c-a026-e11a0f81d346" name="Captain Aarukait">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ If you have 4 or more water gacharange creatures in the battle zone, this creature gets +7000 power and has &quot;double breaker&quot;.&#xA;■ Super Heaven Fever: Whenever an opponent's creature attacks, if you have 5 or more water gacharange creatures in the battle zone, you may put 4 other water gacharange creatures on the bottom of your super gacharange in any order. If you do, skip the rest of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M1㊙/M2"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="fcf5c5c8-ecee-4087-bb9a-ce6a14432b1a" name="Wayball Wayball">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever you cast a spell for the first time each turn, gacharange summon.&#xA;■ Whenever your opponent would choose a creature by the ability of a creature, they can't choose this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M2/M3"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="194772dd-d61c-49cb-b233-3476b0785c09" name="Wayball Wayball">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Wonderforce"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever you cast a spell for the first time each turn, gacharange summon.&#xA;■ Whenever your opponent would choose a creature by the ability of a creature, they can't choose this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M2㊙/M3"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="4ec217ea-7171-47e0-8971-aed4c56d52e0" name="Do Raganzark 卍, Daibanzai">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Master Dolszak/Mafi Gang/Deletron"/>
+      <property name="Rules" value="■ Great Sin of Sin Moonless Night (You may reduce the cost of using this aura by 1 for each aura in your graveyard. If you do, at the end of turn, destroy one of your creatures. It can't cost less than 1.)&#xA;■ When you attach this to a creature or whenever the attached creature attacks, choose up to 2 auras that cost 8 or less from your graveyard and attach them to that creature.&#xA;■ When this would be put into your graveyard from the battle zone, put it on the bottom of your deck instead.&#xA;■ At the end of your opponent's turn, you may put this aura on top of your deck.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M3/M3"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="cf227325-ecde-4348-902b-9c18b957a9b0" name="Do Raganzark 卍, Daibanzai">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Master Dolszak/Mafi Gang/Deletron"/>
+      <property name="Rules" value="■ Great Sin of Sin Moonless Night (You may reduce the cost of using this aura by 1 for each aura in your graveyard. If you do, at the end of turn, destroy one of your creatures. It can't cost less than 1.)&#xA;■ When you attach this to a creature or whenever the attached creature attacks, choose up to 2 auras that cost 8 or less from your graveyard and attach them to that creature.&#xA;■ When this would be put into your graveyard from the battle zone, put it on the bottom of your deck instead.&#xA;■ At the end of your opponent's turn, you may put this aura on top of your deck.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Master Card"/>
+      <property name="Number" value="M3㊙/M3"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="6f8954e3-8c06-4854-a467-a5da63ed9443" name="God Gayondam">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 4 (Jokers): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is jokers, you may discard a jokers. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="dffa3d17-1120-468d-a5a6-3a02cd19e556" name="God Gayondam">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Mana Drive 4 (Jokers): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is jokers, you may discard a jokers. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1㊙/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="ad5f9948-eca9-439c-ba6f-bdba7cf7cd08" name="Imamugu, Senior Judgment Officer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{TRIPLE BREAKER}&#xA;■ You may untap one of your tapped creatures to change your opponent's creatures attack to that creature or one of your tapped creatures.&#xA;■ If you have 5 or more creatures in the battle zone, whenever one of your creatures in the battle zone would be put into a zone other than your graveyard, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="f1b2da94-0577-45e3-96ba-b23ee93922bb" name="Gimshou, Green Knowledge Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent shuffles their graveyard and puts it on the bottom of their deck.&#xA;■ At the end of your turn, if this creature is tapped, you may draw a card.&#xA;■ When this creature is put into your graveyard from anywhere, shuffle your graveyard and put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="27e7b540-0e12-4874-90ec-bfae6f0740fc" name="Jude Luka, Kyokugensei">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Tricks/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ At the end of the attached creature's attack, for each shield broke during the attack, reveal the top card of your deck. Put all auras that cost 6 or less from among into the battle zone. Put the rest on the bottom of your deck in any order.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="315cb417-b742-48be-b2ec-82155285855c" name="Perfect Water">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If you have 4 or more spells in your graveyard, and this spell is in your shield zone, it has &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw a card:&#xA;► Gacharange summon.&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="a34a5f9c-fc1b-4b94-93e4-5aa7603cd3b8" name="Perfect Water">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If you have 4 or more spells in your graveyard, and this spell is in your shield zone, it has &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw a card:&#xA;► Gacharange summon.&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5㊙/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="6170367a-1ec3-44b7-a63a-c32ab20c2a33" name="Daftphantoma, Necro Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Mafi Gang"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures.&#xA;■ Whenever another creature is destroyed, you may put the top card of your deck into your graveyard.&#xA;■ When this creature would be destroyed, you may put 4 cards from your graveyard on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5f5dd116-9743-4e3f-9d7f-175bf0251bc0" name="Jawal Pendora, Shinjura">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Mafi Gang/Deletron"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 2 (You may reduce the cost of using this aura by 2. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ The attached creature gets &quot;powered breaker&quot;.&#xA;■ After the attached creature attacks, for each shield you break during the attack, your opponent chooses a card from their hand and discards it and puts the top card of their deck into their graveyard.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="3bfd1647-bb84-4b91-8d6a-715713c79d4f" name="Goodlooking Bravo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Beat Jockey/Wonderforce"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Mana Drive 4 (Fire) Whenever this creature attacks, if you have 4 or more cards in your mana zone, and one or more of them is fire civilization, at the end of its first attack each turn, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="1cd2c32a-dc88-4425-b62e-17263650dac3" name="EmoG">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Wonderforce/Specials"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, or at the start of your turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;speed attacker&quot;.&#xA;■ Each of your non-gacharange creatures gets &quot;Guardman&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="5225b59a-7d94-4114-8fb6-e0da60447fde" name="Blanky, Runaway Jet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, choose one of your opponent's shields. Your opponent may have this creature break that shield. If your opponent doesn't, draw 2 cards.&#xA;■ While battling, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="671ff894-d271-4a62-aae5-3a60edccd4a5" name="Blanky, Runaway Jet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, choose one of your opponent's shields. Your opponent may have this creature break that shield. If your opponent doesn't, draw 2 cards.&#xA;■ While battling, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10㊙/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="e43e3189-5abf-40a2-a67c-d926e5b09871" name="Bangrid Cross Seven">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone.&#xA;■ You may summon a creature from your mana zone during your turn.&#xA;■ If you have a total of 6 or more Jokers in the battle zone and/or mana zone, you may summon this creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="c18c0b12-81ca-499b-945a-c9b0745014a4" name="Bangrid Cross Seven">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone.&#xA;■ You may summon a creature from your mana zone during your turn.&#xA;■ If you have a total of 6 or more Jokers in the battle zone and/or mana zone, you may summon this creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11㊙/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+    <card id="658f9388-3f79-4f58-817f-414a1e1b286e" name="Yamaion, Iokaio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Orega Aura"/>
+      <property name="Race" value="Gransect/Deletron"/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ When you attach this to a creature, for each of your gacharange creatures in the battle zone, put a card from the top of your deck into your mana zone tapped. Then for each of your gacharange creatures in the battle zone, you may put an aura that costs 7 or less from your mana zone into the battle zone and attach it to the attached creature.&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S12/S12"/>
+      <property name="Set" value="DMRP-10 Blue C.A.P and Black DaiBanZai"/>
+    </card>
+  </cards>
+</set>

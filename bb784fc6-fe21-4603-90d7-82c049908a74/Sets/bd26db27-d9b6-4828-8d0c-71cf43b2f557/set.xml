@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMRP-20 The King Of The End" id="bd26db27-d9b6-4828-8d0c-71cf43b2f557" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="44ea2ae7-eed2-43e4-b8fe-58558237d1ff">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="5fa6768b-fdb8-4ce9-aa3d-bc3d4fa47ead" name="Michaelatress, Hybrid End Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever you cast a spell, choose one of your opponent's creatures and tap it. That creature doesnt untap at the start of your opponent's next turn.&#xA;■ Your spells cost 3 less to cast. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="25aa97d6-7d4e-4a9c-a415-eb43533a49c8" name="Momoking JO, Future King Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put an evolution creature that has &quot;Momoking&quot; in its name from your hand that can evolve from this creature.&#xA;■ 'Shinkapower': When this creature evolves, you may put the top card of this creature into your graveyard after this creature attacks. If you do, untap this creature and draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b5540c17-897e-4679-91a2-7d61a21fc89d" name="Momoking JO, Future King Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put an evolution creature that has &quot;Momoking&quot; in its name from your hand that can evolve from this creature.&#xA;■ 'Shinkapower': When this creature evolves, you may put the top card of this creature into your graveyard after this creature attacks. If you do, untap this creature and draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1S/5S"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="92bcc3fb-34a2-4018-9cc9-6e283fdad9ed" name="Powerrobin, Electrofused End Termination">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put a creature or whenever you cast a spell, choose one of the following::&#xA;► Choose one of your opponent's creatures and return it to it's owner's hand:&#xA;► Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="1eeb4bdd-decb-4584-bec6-8caf127f85ee" name="Mikadoleo, Doomsday Sutured King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/God/Zenith"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, reveal the top 4 cards of your deck. Put any number of creatures from among them and the rest into your mana zone.&#xA;■ At the start of your turn, if you have 4 or more creatures that cost 8 or more, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c6237731-eb5f-4f47-be9a-d2656e776a75" name="Mikadoleo, Doomsday Sutured King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/God/Zenith"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, reveal the top 4 cards of your deck. Put any number of creatures from among them and the rest into your mana zone.&#xA;■ At the start of your turn, if you have 4 or more creatures that cost 8 or more, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="2S/5S"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="5059b18f-59fe-4f4c-bcff-91614bb87aa4" name="Britiaura, Connected End Spear">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your Distas is destroyed, each of your opponent's creatures gets -3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="e4409d53-9524-41a7-9fd4-8a38a3f99045" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0b77bd3e-27ba-4817-9bfd-c8f2d394508c" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="3S/5S"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="27cea748-90c6-4c32-a9d6-76a1453155ef" name="Abyss Hurricane, Concatenated End Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ All creatures gets &quot;speed attacker&quot; and can't block.&#xA;■ Each creature attacks if able.&#xA;■ After a creature attacks, destroy that creature.&#xA;■ If this creature doesn't have an &quot;EX Life&quot; shield, this creature gets +12000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="570ded8b-6e5c-47ce-b40d-e412315cce55" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="4B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3751ea90-aa6a-4b7a-86de-7bf6c65d6d34" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="4S/5S"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="1b2824f1-aa05-439b-a09e-342239490c49" name="Technolobal, Sutured End Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Outrage"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your other creatures would battle your opponent's creatures, you may have this creature battle instead.&#xA;■ Whenever this creature wins a battle, you may return a creature from your mana zone to your hand. If you do, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="da1cb6a4-84bc-423d-afe6-f334a5d61817" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="5B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="e2f2aec9-deef-4f54-92c3-cb87f507ab9d" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="5S/5S"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="91d0f96a-20ab-42e1-bfcf-5c63400b5f3d" name="Onsen Deis Kaiser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Dragon/Alien"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature, you may discard a card from your hand. If you do, draw the number of civilizations that card has."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="defe5b3d-96e1-46ff-b33e-14b0795c1cf0" name="Recodeking Number Nine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="491c11bb-b3f4-4656-a21f-360370fd81d6" name="Recodeking Number Nine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0c017724-30c8-403d-8bbb-cc6b15029aba" name="Dydanos &lt;Deathphoeni Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Giant Dragon/Phoenix/RexStars"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Darkness or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, whenever your opponent would put a card into their shield zone, put it into their mana zone instead.&#xA;■ When this card is put into the graveyard from the battle zone, your opponent discards their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="a280ec44-8fb6-49f8-b516-ded2cd29f9d2" name="Earth Dragon God's Magic Encampment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 3 cards of your deck. Put one of them into your hand or mana zone and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="7A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f3856705-fc85-4398-9206-09dde2496aac" name="Earth Dragon God's Magic Encampment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 3 cards of your deck. Put one of them into your hand or mana zone and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="7B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="45b9b3d0-5f2c-4a89-b71b-d3775907a460" name="Emperor Aqutasha, Hybrid Invincible">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Cyber Lord/Mecha Del Sol"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card and discard a card from your hand.&#xA;■ Whenever you discard a card from your hand for the first time each turn, choose one of the following.&#xA;► If it's a spell that costs 5 or less, cast it for no cost.&#xA;► If it's a creature that costs 5 or less, put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="fb3a3aa0-e1b5-4713-b4b0-204eac05e514" name="Onsen Deis Kaiser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Dragon/Alien"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature, you may discard a card from your hand. If you do, draw the number of civilizations that card has."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="2b85e5d7-f5de-410b-8141-65c26d4c8426" name="Onsen Deis Kaiser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Dragon/Alien"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature, you may discard a card from your hand. If you do, draw the number of civilizations that card has."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="40233e63-2be3-4481-90aa-04536eecdd47" name="Double Cross DD Zeta, Concatenated Awakened">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Armored Dragon/World Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot; and &quot;slayer&quot;.&#xA;■ Whenever this creature attacks, you may put this creature's &quot;EX Life&quot; shield into your graveyard. If you do, your opponent can't cast spells until the start of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="cbd91c23-2599-4aed-a1f3-dfec9008a79f" name="Minogami &lt;Saga Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Creator/RexStars"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you reveal this creature to your opponent with &quot;Guard Strike&quot;, reveal the top card of your deck. If it's a non-evolution RexStars, you may put it. If you do, put this creature on it.&#xA;{MULTI STAR EVOLUTION} Put on one of your RexStars or Water or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Whenever this creature wins a battle, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="09fad1db-9f79-4e7f-b9c5-77f8d6e4b312" name="Minogami &lt;Saga Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Creator/RexStars"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you reveal this creature to your opponent with &quot;Guard Strike&quot;, reveal the top card of your deck. If it's a non-evolution RexStars, you may put it. If you do, put this creature on it.&#xA;{MULTI STAR EVOLUTION} Put on one of your RexStars or Water or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Whenever this creature wins a battle, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="743532d8-c3f7-4e15-8afa-32f439f06e3d" name="Desnakenia, Sutured False Evil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Unknown/Crystal Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card then return a card from your mana zone or graveyard to your hand. Then your opponent chooses a card from your hand at random. You may use it for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="80657389-8952-4709-bdb9-a421012ee363" name="Lost Re:Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent discards all cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b5e55d81-9689-4e5c-bd6b-152a0496a622" name="Lost Re:Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent discards all cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f71bbad6-5f00-4512-ad57-7f48b8635381" name="Original Finale, Secret Doomsday King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Water, Darkness and Nature dispector (When one of your water, darkness and nature dispectors attacks, you may cast this spell for no cost.)&#xA;■ Look at the top 3 cards of your deck. Put 2 of them into your mana zone and the rest into your hand.&#xA;■ Choose one of your opponent's creatures. That creature gets -1000 power for each card in your mana zone until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3993b47d-f1fd-4dd7-abe5-77e393dc9118" name="All Delete">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each player puts all their cards in the battle zone, hand, shield zone and graveyard into their deck and shuffles it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="10de74bf-7f60-404d-a92c-318bb03b8151" name="All Delete">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Each player puts all their cards in the battle zone, hand, shield zone and graveyard into their deck and shuffles it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="1e6224f0-3571-4ece-816f-aa77bf92a03f" name="Recodeking Number Nine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="King Command Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="5c52cff6-0ba6-43f6-a0a0-650ac2020ee5" name="Burnmare the Silver / Oraora Slash">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Burnmare the Silver"/>
+      <property name="Name2" value="Oraora Slash"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Race1" value="Jokers/Wonderforce"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Until the start of your next turn, whenever an opponent's creature attacks, they must attack creatures if able."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Until the start of your next turn, whenever an opponent's creature attacks, they must attack creatures if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="12A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="222f560d-813e-486f-8644-9ee11c0a1eab" name="Burnmare the Silver / Oraora Slash">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Burnmare the Silver"/>
+      <property name="Name2" value="Oraora Slash"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Race1" value="Jokers/Wonderforce"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Until the start of your next turn, whenever an opponent's creature attacks, they must attack creatures if able."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Until the start of your next turn, whenever an opponent's creature attacks, they must attack creatures if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="12B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="274fdfa6-6f65-400f-b295-df9be9fd4f00" name="Ultrasonic Star Paladin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it.&#xA;■ Each of your light creatures that cost 4 or less in your shield zone get &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="2625afa1-c13b-45ef-afe0-48891fb0ae6e" name="Deddam, Disaster">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Trinity Command/Invader"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 3 cards of your deck. Put one of them into your hand, one into your mana zone and one into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="13A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="2fa687db-f3ab-4773-abbe-887fc2b16c03" name="Deddam, Disaster">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Trinity Command/Invader"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 3 cards of your deck. Put one of them into your hand, one into your mana zone and one into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="13B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="da511bb4-4bee-4cf2-af60-a557a78b3b4e" name="Disglercla">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Cluster/Distas"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ At the start of your turn, if you have a creature that has the most power in the battle zone, you may draw a card.&#xA;■ This creature can't attack unless you have more cards in your hand then your opponent."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="2d28ab20-f7db-47dc-85c0-b02f7cc3e04b" name="Almighty Zennou">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent's creatures can't attack on the turn they are put into the battle zone.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="14A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f872f9f8-e24b-41c4-bd59-2b1d03c6ffff" name="Almighty Zennou">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Jokers/Wonderforce"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent's creatures can't attack on the turn they are put into the battle zone.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="14B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="829a6486-2b44-450f-b656-cc1df6732c4d" name="Jester Lenser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw a card.&#xA;■ You may cast a spell that cost 3 or less from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6c179030-e31b-41c6-8ea2-01fd8ef90af9" name="Absolute Shield Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Team Ginga"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{GALAXYSHIELD} {L6} (You may pay Light 6 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature face up into your shield zone, or whenever you put this creature or whenever it attacks, look at the top 2 cards of your deck. Put one of them into your hand and the other face up into your shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="089ad521-46d2-4bc9-b81e-41b208f8bc10" name="Absolute Shield Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Team Ginga"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{GALAXYSHIELD} {L6} (You may pay Light 6 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature face up into your shield zone, or whenever you put this creature or whenever it attacks, look at the top 2 cards of your deck. Put one of them into your hand and the other face up into your shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3ebbb2ef-dee3-487a-b7cb-72a2dac2576a" name="Mukachakka">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When an opponent's creature attacks, destroy this creature and that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0a72bfc5-e04c-42db-bb29-a238fc223174" name="Genmu Emperor, Infinite Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Infinite Master Dragon/Team Zero"/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="16A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c67f8de3-cf05-448d-a842-6f4443c6268e" name="Genmu Emperor, Infinite Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Infinite Master Dragon/Team Zero"/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="16B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6955b6fb-3178-4028-962c-8d88b51f2e8a" name="Lost Re:Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent discards all cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="96fd425b-aff4-4b43-954d-336d85422b98" name="Mendelssohn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal the top 2 cards of your deck. Put all Dragons revealed this way into your mana zone tapped and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="17A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0d6af6bf-7eaa-4f2d-9c04-4b62e12b95d1" name="Mendelssohn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal the top 2 cards of your deck. Put all Dragons revealed this way into your mana zone tapped and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="17B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="d32522e7-a2cb-4dc1-a653-1e976cd30d0d" name="Goldoegg the Slotton">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, look at the top 4 cards of your deck. You may reveal a RexStars from among them to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="34e84604-43f4-443d-b458-b478451c6528" name="Umakin ☆ Project">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Cyber Command/Team Wave"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;file:Buzzrender2.png|15px|text-top Look at the top 2 cards of your deck. Put one of them into your hand, and put the other into your mana zone tapped.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3efd8ee3-d734-499a-a7ec-12879856bac0" name="Umakin ☆ Project">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Cyber Command/Team Wave"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;file:Buzzrender2.png|15px|text-top Look at the top 2 cards of your deck. Put one of them into your hand, and put the other into your mana zone tapped.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="18B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="45a59dba-9f3b-4ef5-950b-df7ea6f045c4" name="Road of No Future">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 3 cards. Then your opponent discards a card at random from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="57b2eabd-3e90-492a-8f80-311eaf7b6eed" name="Heaven's Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="a681976d-1a68-4268-a196-773cf6e28f6b" name="Heaven's Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="ebfe0aa7-f351-47ea-a3de-b6bec12a14ba" name="Kabochauchauchau">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Cards can't leave graveyards.&#xA;■ Spells can't be cast from graveyards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="518e849e-387c-410d-85f5-e743e76c744e" name="The Verde, Rainbow Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature has all civilizations while in the battle zone or in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="20A/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3ab604ff-8d17-4f80-a4bf-40818433270d" name="The Verde, Rainbow Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature has all civilizations while in the battle zone or in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="20B/20"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="84c82e18-31a9-47cd-bd85-c1e7bf2adaa9" name="Dondon Trap Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. You may show a creature from among them to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed creature has power 6000 or more, choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c7c435b8-f5cb-439e-9c8a-9261942d2609" name="Cebu Shuteron Lambda, Sutured Electro Funeral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your opponent's turn, your opponent discards their hand. Then you may draw the same number of cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="4a3a51c0-86ef-4810-a11c-626eba8a2602" name="Kirin Legaman, Electrofused Twin Donation">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Mystery Totem/Phoenix"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b7599093-4ea9-4342-a73a-da96f09da2dd" name="Dismaiden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, draw a card, then put a card from your hand into your mana zone.&#xA;■ Each turn, the first time you put a multicolored card in your mana zone, untap that card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="43eeb1ad-216b-4980-add6-cc7ad1f929da" name="Diabloshinoh, Sutured General God">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Demon Command/God"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, the first time you summon a creature that costs 8 or more, you may put a creature that costs 8 or less from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f5a5cd6f-855c-424a-aacf-365edc9f680f" name="Disktick">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Dragonoid/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;■ Whenever this creature attacks, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="25f36e40-07a6-4624-bf73-0f3ee5280000" name="Disasylum">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon/Distas"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever one of your creatures is destroyed, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="283d55f3-b7f4-429b-ac88-4417f3fae1f2" name="Dis Zorro Star">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle/Distas"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature, shieldify the top card of your deck. Then put the top card of your deck into your graveyard. Then put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="adc7d7b1-46ac-49ac-bcf7-35a9041a3a9e" name="Alive Aether Alternation">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and put it into its owner's hand, mana zone, or graveyard.&#xA;■ Look at the top card of your deck and put it into your hand, mana zone, or graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="4d0544be-9aba-4020-90ce-6aa88b290f72" name="Mirei &lt;Memento Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="e1c3fb2c-da63-4d43-8168-ced605db4918" name="Discatino">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Distas"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ If you don't have a Dispector in the battle zone, this creature can't attack players.&#xA;■ If you have a Dispector in the battle zone, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="70d6d242-064b-4166-a616-45b1cfa03b17" name="Shumari-1, Apocalyptic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer/Distas"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="54a05f48-546a-493d-a9d8-b2fc0d37d3f8" name="Guguppy &lt;Shark Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ You may reduce this creature's summon cost by 2. If you do, return this creature to your hand at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3d4f5453-20c7-4005-9a61-67a4218b822a" name="Melge-2, Cyber">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, draw 2 cards. Then if you don't have a Dispector in the battle zone, discard 2 cards from your hand.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="79d09be2-7bb7-4d27-9c80-d87645648d83" name="Streaming Re:Tutor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Reveal the top 5 cards of your deck. Put all fire and nature cards into your hand and put the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="91156efd-c64a-405f-a235-6795e786c0d9" name="Winter's Day Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ You may return one of your creatures to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="7bb2fdf0-ba6e-46a4-bc6f-d96003739876" name="Latelier &lt;Haridel Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may return a card from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f48234d3-86a4-4dff-bbe2-06ba3b554348" name="Disohgeno">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Distas"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks or blocks, if you don't have a Dispector in the battle zone, destroy this creature after that attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="ef7e7afa-2228-4f87-b07b-72077fa110ce" name="Maple-1, Divine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Oracle/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, look at your opponent's hand and discard a card from it.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="17276a7c-f9c2-48df-b7fe-69fe7777a85e" name="Babel Again">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ You may destroy one of your creatures. If you do, draw 3 cards. If the creature you destroyed was a Distas, you may put it from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="bd7623e2-faef-4c3f-ba7a-6ece2316c15c" name="Chikichiki Momoking, Jet Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever another creature is destroyed, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="9ebd0b4c-f009-41c4-8fd1-87ffa92a2f6c" name="Bakuen-2, Warrior">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human Baku/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="e50a0528-b35c-4ad1-80a7-708d2117b57f" name="Metalchaos Burst">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your graveyard. Destroy one of your opponent's creatures that costs less than that card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="099bcb34-3ad6-4204-8461-4dd267efd25b" name="Zundoko Momoking, Harebu Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Star Evolution: Put on one of your RexStars or nature creatures.&#xA;■ When you put this creature, put the top card of your deck into your mana zone.&#xA;■ When this creature leaves, return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="77d74949-ab9e-481e-bad3-9d9efb6ee1a0" name="Disdrapi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon/Distas"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't attack if you don't have a Dispector in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="813835a3-b00a-43cb-86cb-1b991cbd1868" name="Re:Courtney, Summer Breeze Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Cards in your mana zone are considered to be cards of every civilization."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3b4dfdd8-765e-43a9-91d7-aec25ff5ffdf" name="Dandy Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top 2 cards of your deck into your mana zone tapped. Then put a card from your mana zone into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="bfd42a31-f17c-46a5-b6fc-b88bfb11d56d" name="Dakkal and Yomiji, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Mafi Gang/RexStars"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Your opponent puts all their creatures that cost more than the number of cards in their mana zone on the bottom of their deck in any order:&#xA;► Return a card from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="900ba6bb-261e-437c-97ce-141099177535" name="Pilucky, Heavenly Dragon God's Skysoar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard.&#xA;■ Whenever this creature attacks, you may return a card from your graveyard to your hand.&#xA;■ At the end of your turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="2f9419f4-bcb8-432c-9f27-58c318e1ec84" name="Levoix and Bravo, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/Beat Jockey/RexStars"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap:&#xA;► After this creature attacks for the first time this turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b8058044-bd13-4613-bde3-22305b34de20" name="Colupia, Flame Dragon God's Skysoar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Distas"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, discard a card from your hand then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="21abdaf4-4cc6-4f93-be8b-1a306934279b" name="Shake and Sonic, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Beat Jockey/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Choose up to 2 of your opponent's creatures. Until the start of your next turn, those creatures can't attack or block:&#xA;► Choose up to 2 of your opponent's creatures. During your opponent's next turn, those creatures attack if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c1c26583-bdc3-40b5-9bea-79cee2d2997f" name="Sea Dragon God's Magic Wind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put all cards in your hand on the bottom of your deck in any order, then draw the same number of cards.&#xA;■ After you cast this spell, put it into your hand instead of your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="5010f8cf-79c8-4054-8e66-9de4749d5d27" name="Christma and Utsuvoid, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/Gransect/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Your creatures can't be blocked until the end of the turn:&#xA;► Put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="416c7271-409c-439b-90a8-3cc58958b611" name="Earth Dragon God's Magic Encampment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 3 cards of your deck. Put one of them into your hand or mana zone and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="23e6f2c6-244d-4cde-a7e5-43919c121812" name="Suteru and Taizai, Soulmate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Mafi Gang/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ 'Shinkapower': When this creature evolves, choose one of the following:&#xA;► Choose one of your opponent's creatures. That creature gets -6000 power until the end of the turn. (A creature that has 0 power or less is destroyed.):&#xA;► Choose a player. That player adds their graveyard to their deck and shuffles it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="9a37efb1-fd91-45ae-96ce-eb5a5cd36487" name="Kuroro, Darkness Dragon God's Skysoar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ At the end of your turn, you may put a card from your graveyard into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="1b36c2ad-3fdb-48a1-8cd4-ea27cfe1b589" name="Perfect Mariah, Channeler of Suns">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ This creature can't be destroyed while battling a creature that has power 5500 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="4a2c726a-02c9-41e3-a275-76d2cdbb4b85" name="Leonida-2, Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Distas"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="d028ce7a-929a-453f-8584-481c710185d5" name="Pungi, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, choose one of your opponent's creatures and tap it.&#xA;■ 'Shinkapower': When this creature evolves, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="cb6b14d8-2e29-411a-9762-ef7f8c65b89f" name="Rexcalibur, Glittering Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, choose a creature and tap or untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="ba85a5c7-d574-494a-ae11-a26ccc4a32eb" name="Disvalcha">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Arc Seraphim/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{MANA ARMS} 4: When you put this creature, if you have 4 or more multicolored cards in your mana zone, choose one of your opponent's creatures and tap it. At the start of your opponents next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="99cc9169-6fa6-4d67-9d97-3f8a0c048ea4" name="Return of the Twelves">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 4 cards of your deck. You may add any number of creatures that have &quot;blocker&quot; from among them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="697ffb69-944a-4718-ac04-0fe3a5f6ac5f" name="Corteo Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap any number of your creatures.&#xA;■ For each creature you tap in the battle zone, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="5e4ea5af-242e-4907-979d-f73c28f39b13" name="Hermit Yadone, Magic Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="217dd6b2-fda5-4933-9f00-1b2f240a5c7e" name="Monhata, the Restored One">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, draw a card.&#xA;■ 'Shinkapower': When this creature evolves, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="56efbb81-1636-4d28-8ef5-af15760e8fd0" name="Tagyasutsu of Entertainment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Whenever your opponent would choose a creature, your opponent chooses this creature if able. (Your other creatures can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="73ce95b7-f263-4929-b416-e023e292a27d" name="Disdellinder">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack creatures.&#xA;{MANA ARMS} 4: When you put this creature, if you have 4 or more multicolored cards in your mana zone, return one of your opponent's creatures to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b60e4c85-0276-4bae-a7ac-dc42c80115a4" name="Alice-1, Lawless">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, draw 3 cards then put 2 cards from your hand on top of your deck.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c1fc1834-c7c4-4f3e-ad1c-5b6831eaa6b0" name="Pulp Brain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="677fd6d9-392e-4fd0-8dbe-fa0b47a51c0a" name="Ganve-2, Demon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When this creature is destroyed, destroy one of your opponent's tapped creatures.&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="bed3865c-765b-451d-97fe-7eb5fd00a235" name="Kogozra, Misfortune Demon 95">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="15fbe4b5-e2da-4c51-9ae6-4c007d0af10d" name="Volgal, Misfortune Demon Hoshigou">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, your opponent chooses a card from their hand and discards it.&#xA;■ 'Shinkapower': When this creature evolves, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3a91bb94-1078-449e-96aa-b11df52846cf" name="Disgelne">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Grand Devil/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 2 cards of your deck into your graveyard.&#xA;{MANA ARMS} 4: When you put this creature, if you have 4 or more multicolored cards in your mana zone, you may return a card from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="59618b9f-6e6f-426a-929f-6e3282a15f6b" name="Magic Shot - Rnando Strike">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Knight"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your graveyard. Then choose one of your opponent's creatures. For each card in your graveyard, that creature gets -1000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="9385b78b-617c-4a14-94f2-4a14aa624366" name="Bloody Zweicross">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top 3 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="224d1e74-3bca-4354-b2b1-ffb6ce820f7b" name="Usageass, Geek Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="a2445c94-12e6-42bc-96ef-d8e66df387bd" name="The Re:d, Lightning Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/RexStars"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="ebffb347-5091-45ad-94be-df8efc63c9fe" name="G.W.D, Star Machine">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, destroy one of your opponent's creatures that has power 3000 or less.&#xA;■ 'Shinkapower': When this creature evolves, destroy one of your opponent's creatures that has power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="79/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="335dfdda-d1c4-414c-a398-060b88a283bd" name="Elgi-1, Mobile">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid/Distas"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0972e86b-a617-49d2-9f2e-e56a9882bf18" name="Peugeot, Theater Star">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage"/>
+      <property name="Power" value="2022"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6e799e16-1178-4bc6-972c-5874e85b4885" name="Dispyron">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tyranno Drake/Distas"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, discard a card from your hand.&#xA;{MANA ARMS} 4: When you put this creature, if you have 4 or more multicolored cards in your mana zone, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="82/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="1d945a28-7c74-47ac-abf9-c26106ad6fd7" name="Comet Shot Phantom Dragon's Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="83/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="7bebe08a-5bf0-4a59-976d-28b7177a674e" name="Bainaradouwa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. That creature and this creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="246e62db-daca-49c9-806c-e37cc27b6bb7" name="Shinpida-2, Strike">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Distas"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;{SASAGALE} 2 (While summoning a Dispector, you may reduce its cost by 2. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="488f93a1-4153-4302-b9b8-2f74e10bdc6a" name="Tetetotenton">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="56dc077a-5484-4780-b5b8-15b7b2838109" name="Hatchichi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, put the top card of your deck into your mana zone.&#xA;■ 'Shinkapower': When this creature evolves, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="87/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="4083e645-faa1-4456-ba38-b13f5cddc92e" name="Diskabutowa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate/Distas"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Mana Arms 4: If you have 4 or more multicolored cards in your mana zone, this creature gets +4000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="88/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="a15240d3-71d2-4138-a664-be6991c7dd0a" name="Mephisto-1, Gaia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Lost Crusader/Distas"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, reveal the top card of your deck. If it's a multicolored card, put it into your mana zone.&#xA;{SASAGALE} 1 (While summoning a Dispector, you may reduce its cost by 1. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6df643d4-26b3-4642-9b01-3f928ae53596" name="Bumpy Blueprint">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Reveal the top 4 cards of your deck. Add a creature that has power 6000 or more and a creature that has power 5000 or less from among them to your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="90/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="41333273-e594-4bc3-866b-17752ff39543" name="Tenpro-3, Electro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SASAGALE} 3 (While summoning a Dispector, you may reduce its cost by 3. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="91/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6fff0a96-d9f2-4301-9f01-60d79ac20fb9" name="Drisco-3, Soultool">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SASAGALE} 3 (While summoning a Dispector, you may reduce its cost by 3. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="ed38d3f1-7ac6-4f4a-aeb1-5e2e954f177f" name="Heafo-3, Heaven Wings">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Justice Wing/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SASAGALE} 3 (While summoning a Dispector, you may reduce its cost by 3. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="93/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3cdfafdb-cbbc-44b9-b8fc-f4f206ce13d2" name="Skevi-3, Shadow">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SASAGALE} 3 (While summoning a Dispector, you may reduce its cost by 3. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="94/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="22b5c784-1dc1-43d5-9fbb-c35813dde617" name="Daichi-3, Savage">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SASAGALE} 3 (While summoning a Dispector, you may reduce its cost by 3. If you do, destroy this creature. That Dispector can't cost less than 0.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="95/95"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="9514f133-23c3-4976-9e10-7c04ccaa5b4f" name="Ultrasonic Star Paladin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it.&#xA;■ Each of your light creatures that cost 4 or less in your shield zone get &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro1/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="65aa08fb-a02c-422a-b1c0-9ac4dcfdfe78" name="Mirei &lt;Memento Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro2/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="6fa32585-e0bd-477b-8d3c-fa7cf15ba2a0" name="Pungi, Strange Stone">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, choose one of your opponent's creatures and tap it.&#xA;■ 'Shinkapower': When this creature evolves, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro3/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="70fa98f8-d464-4210-8adc-af16bdf9ae76" name="Bainaradouwa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. That creature and this creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro4/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="37ef74cb-10c3-4e38-8af2-987b68784a8a" name="Hatchichi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, put the top card of your deck into your mana zone.&#xA;■ 'Shinkapower': When this creature evolves, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro5/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="0f71f5cf-7975-4f6b-8a8a-de9f2bb3dcdd" name="Mukachakka">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When an opponent's creature attacks, destroy this creature and that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Coro6/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f24d8b03-c723-4eef-b1ab-681f0c68340b" name="Guguppy &lt;Shark Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ You may reduce this creature's summon cost by 2. If you do, return this creature to your hand at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro7/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b99f4876-8fdb-486d-a3b2-d690f1fea2e7" name="Latelier &lt;Haridel Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may return a card from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Coro8/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c463d3e1-d11e-46f9-8dd4-441656449d3f" name="Monhata, the Restored One">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, draw a card.&#xA;■ 'Shinkapower': When this creature evolves, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro9/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c0c71676-8fce-4a42-a9fd-55bbba625466" name="Volgal, Misfortune Demon Hoshigou">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/RexStars"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked or chosen by your opponent, your opponent chooses a card from their hand and discards it.&#xA;■ 'Shinkapower': When this creature evolves, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Coro10/Coro10"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="f9e0b243-003c-4f1c-a5d3-5e16d5f99251" name="Momoking JO, Future King Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers/Hero Dragon/RexStars"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put an evolution creature that has &quot;Momoking&quot; in its name from your hand that can evolve from this creature.&#xA;■ 'Shinkapower': When this creature evolves, you may put the top card of this creature into your graveyard after this creature attacks. If you do, untap this creature and draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM1/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="89a5b38b-5756-4ef1-b183-01cfadc6af62" name="Mikadoleo, Doomsday Sutured King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/God/Zenith"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {QUATTRO BREAKER}&#xA;■ When you summon this creature, reveal the top 4 cards of your deck. Put any number of creatures from among them and the rest into your mana zone.&#xA;■ At the start of your turn, if you have 4 or more creatures that cost 8 or more, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM2/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="5ac821a9-8190-4f3e-b20b-3d134462947b" size="tall" name="Volzeos Balamord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="King Creature"/>
+      <property name="Race" value="Dispector/New World Dragon"/>
+      <property name="Power" value="555555"/>
+      <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM3+KM4+KM5/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c614fb1a-54eb-4822-ac18-201baefc9955" name="New World King's Authority">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="King Cell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM3/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="80cfe2bb-1a0d-4ae6-8cba-373e27713ff4" name="New World King's Thoughts">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="King Cell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM4/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c3e85cbc-6343-4536-a93a-4d2771d4691f" name="New World King's Fighting Spirit">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="King Cell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="KM5/KM5"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="8d321d8b-5461-4f34-94c7-f519653e4200" name="Still Justice Till The End &lt;Dante Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Angel Command Dragon/Metallica/RexStars"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever any of your creatures attack, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b792c1fb-385f-4fd4-805e-136e2321d9f0" name="Manifest &lt;Reef Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Tricks/Cyber Virus/RexStars"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ You may reduce this creature's summon cost by 2. If you do, return this creature to your hand at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, search your deck and add up to 2 cards from among it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="23faf309-88cf-427e-b0be-f98c2f07ee0c" name="Genmu Emperor &lt;Ballom Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Infinite Dragon/Demon Command/RexStars"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Your may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Darkness creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may discard any number of cards. Then for each card that you discarded this way plus one, your opponent chooses one of their creatures or cards in their hand and puts them into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="4222c51f-62d3-4b9f-923e-7250a408f43e" name="Tyrant Noir Monarch">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Dark Lord"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put any number of your shields into your graveyard. Then you may return any number of darkness creatures from your graveyard to your hand.&#xA;■ When you would lose the game or your opponent would win, if you don't have shields, destroy 2 of your non-evolution creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3547e1bc-5cd4-4f83-845b-0f23324ab6a0" name="Dynabolt &lt;Dogira Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Beat Jockey/Mega Command Dragon/RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, if it's the second or subsequent attack this turn, you may discard your hand. If you do, draw 3 cards.&#xA;■ Whenever this creature attacks, if it's the third or subsequent attack this turn, destroy all your opponent's creatures that have power 5000 or less.&#xA;■ Whenever this creature attacks, if it's the fourth or subsequent attack this turn, this creature's attack target can't be changed this turn, and after this attack, untap this creature"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="65a9290d-e58c-4240-84aa-4b0322292694" name="Baraghiara &lt;Verokiboaro Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Master Hazard/Jurassic Command Dragon/RexStars"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature, you may put a nature creature that costs the same as or less than it from your mana zone.&#xA;■ While this creature is tapped, you can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="b1b11077-ec85-4b81-beb0-ca399d53f9bf" name="Minogami &lt;Saga Star>">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Gransect/Creator/RexStars"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you reveal this creature to your opponent with &quot;Guard Strike&quot;, reveal the top card of your deck. If it's a non-evolution RexStars, you may put it. If you do, put this creature on it.&#xA;{MULTI STAR EVOLUTION} Put on one of your RexStars or Water or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Whenever this creature wins a battle, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="7bdb2ae6-b8a7-4cab-a407-0e1c445fca98" name="Bolbal Momoking, Matchless Dragon Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Star Evolution Creature"/>
+      <property name="Race" value="Jokers/Armored Dragon/Earth Dragon/RexStars"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Fire or Nature creatures. (When this creature would leave, the top card leaves instead.)&#xA;{QUATTRO BREAKER}&#xA;■ When you put this creature, break 2 of your shields. Then you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ At the end of your turn, you may destroy all creatures that have power 6000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="3febe2d5-84e2-4a13-94f3-0dda5acb7024" name="Galaxtest Shidencaesar, Connected Sengoku">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Knight/Samurai"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, return up to 3 cards from your mana zone or graveyard to your hand.&#xA;■ Your Dispectors and Distas cost up to 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c8138ea3-e240-4f32-8212-79922d6ce0e2" name="Black Bigbang, Sutured Phoenix">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, put the top 2 cards of your deck into your graveyard then draw 2 cards.&#xA;■ Even if you have 0 cards in your deck, you can't lose the game.&#xA;■ Whenever you would draw a card, if you have 0 cards in your deck, you may put a creature from your graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S10/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+    <card id="c65cdf53-a793-46d4-b853-71f38d98acb6" name="The=DeadNEXT, Electrofused DS">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/Human Baku/Jurassic Command Dragon/Draguner"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, each of your creatures can attack untapped creatures until the end of the turn.&#xA;■ Whenever you use a card, you may tap 2 water cards, 2 fire cards and 2 nature cards in your mana zone instead of paying the cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11/S11"/>
+      <property name="Set" value="DMRP-20 The King Of The End"/>
+    </card>
+  </cards>
+</set>

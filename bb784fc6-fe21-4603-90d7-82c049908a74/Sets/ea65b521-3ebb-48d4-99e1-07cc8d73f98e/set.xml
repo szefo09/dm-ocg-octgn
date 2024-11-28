@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-22+1D The Dragonic Nova Plus One Dream" id="ea65b521-3ebb-48d4-99e1-07cc8d73f98e" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="3ba4e2ee-a6fb-4982-8a51-49c60c9efbcf">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="37a0ae14-38b4-4785-aebe-19bc7aca63c9" name="Asteroid Luxus, Light Comet">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Dragons, Fire Birds, and/or Tyranno Drakes.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, search your deck. You may choose a Dragon or Phoenix creature from among it, show it to your opponent, then put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1D/3D"/>
+      <property name="Set" value="DM-22+1D The Dragonic Nova Plus One Dream"/>
+    </card>
+    <card id="e5720a84-37a4-4b21-aef3-dc178c32d7f6" name="Zaum Poseidam, Super Divine Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Poseidia Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;■ This creature can't be blocked.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2D/3D"/>
+      <property name="Set" value="DM-22+1D The Dragonic Nova Plus One Dream"/>
+    </card>
+    <card id="05936edd-75f2-48dc-bbf6-fa273358d402" name="Dark Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons are destroyed, you may destroy one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3D/3D"/>
+      <property name="Set" value="DM-22+1D The Dragonic Nova Plus One Dream"/>
+    </card>
+  </cards>
+</set>

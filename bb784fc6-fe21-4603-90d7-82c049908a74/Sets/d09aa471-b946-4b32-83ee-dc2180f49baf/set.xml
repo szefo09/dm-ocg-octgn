@@ -20,845 +20,815 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Petrova, Channeler of Suns" id="fc2021fa-453b-4774-8127-82bc94cdc6a1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Mecha Del Sol"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose a race other than Mecha Del Sol. Each creature of that race gets +4000 power.&#xA;■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)"/>
-      <property name="Power" value="3500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Aqua Master" id="2b33507e-0154-43f7-a190-e84178ea81c9">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, choose one of your opponent's shields and turn it face up. (It stays face up while it's in the shield zone.)"/>
-      <property name="Power" value="4000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Stallob, the Lifequasher" id="e8701278-6d71-4cd6-bc92-23690b8de9d2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, destroy all creatures."/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Magmadragon Ogrist Vhal" id="eea41196-819f-48a4-ad2d-300bedfec3b7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Volcano Dragon"/>
-      <property name="Rules" value="■ This creature gets +3000 power for each card in your hand. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;&#xA;■ While this creature has power 15000 or more, it has &quot;Triple breaker (This creature breaks 3 shields)&quot; instead of &quot;double breaker.&quot;"/>
-      <property name="Power" value="0000+"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Stratosphere Giant" id="0dc0f75b-403e-4171-ab65-b45e7e021f41">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Giant"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses up to 2 creatures in his hand and puts them into the battle zone.&#xA;{TRIPLE BREAKER}"/>
-      <property name="Power" value="13000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Glena Vuele, the Hypnotic" id="5fc46bb1-486a-4b00-833e-1b2075b1587f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5fc46bb1-486a-4b00-833e-1b2075b1587f" name="Glena Vuele, the Hypnotic">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, you may add the top card of your deck to your shields face down."/>
       <property name="Power" value="8500"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, you may add the top card of your deck to your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Marching Motherboard" id="c58d4c7e-2569-4c9b-a1b0-93c00187c788">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c58d4c7e-2569-4c9b-a1b0-93c00187c788" name="Marching Motherboard">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="■ Whenever you put another creature that has Cyber in its race into the battle zone, you may draw a card."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever you put another creature that has Cyber in its race into the battle zone, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Azaghast, Tyrant of Shadows" id="83ac5a3a-1b3d-43f9-a08e-4415e5f478ff">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="83ac5a3a-1b3d-43f9-a08e-4415e5f478ff" name="Azaghast, Tyrant of Shadows">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Dark Lords.&#xA;■ Whenever you put a Ghost into the battle zone, you may destroy one of your opponent's untapped creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="9000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dark Lords.&#xA;■ Whenever you put a Ghost into the battle zone, you may destroy one of your opponent's untapped creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Balesk Baj, the Timeburner" id="4dbc114f-b53e-45f5-baa5-5ca33a5a3337">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4dbc114f-b53e-45f5-baa5-5ca33a5a3337" name="Balesk Baj, the Timeburner">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Armored Wyverns.&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, take an extra turn after this one.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, return this creature to your hand."/>
       <property name="Power" value="8000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Wyverns.&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, take an extra turn after this one.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, return this creature to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Vreemah, Freaky Mojo Totem" id="313e725b-e8fc-4fc5-988c-f14cc45adff1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="313e725b-e8fc-4fc5-988c-f14cc45adff1" name="Vreemah, Freaky Mojo Totem">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="■ Whenever you put another creature into the battle zone, each Beast Folk in the battle zone gets +2000 power and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever you put another creature into the battle zone, each Beast Folk in the battle zone gets +2000 power and &quot;double breaker&quot; until the end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Betrale, the Explorer" id="77b12f4f-a063-40dd-8829-fb7c91ec4540">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="77b12f4f-a063-40dd-8829-fb7c91ec4540" name="Betrale, the Explorer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of each of your turns, you may untap this creature."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="6"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ At the end of each of your turns, you may untap this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Cosmic Wing" id="d2e9e450-11c3-430c-9e1a-364f3232110b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d2e9e450-11c3-430c-9e1a-364f3232110b" name="Cosmic Wing">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose one of your creatures in the battle zone. It can't be blocked this turn."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="7"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Cyclolink, Spectral Knight" id="6c075256-a127-4419-943d-400c9df1e9b7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6c075256-a127-4419-943d-400c9df1e9b7" name="Cyclolink, Spectral Knight">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rainbow Phantom"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="8"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Jil Warka, Time Guardian" id="6d7cf87d-21d6-4671-823a-32aa93de67ee">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6d7cf87d-21d6-4671-823a-32aa93de67ee" name="Jil Warka, Time Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, choose up to 2 of your opponent's creatures in the battle zone and tap them."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="9"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, choose up to 2 of your opponent's creatures in the battle zone and tap them."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Kalute, Vizier of Eternity" id="6e541459-a1de-4a65-be65-f363f38e7c3b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6e541459-a1de-4a65-be65-f363f38e7c3b" name="Kalute, Vizier of Eternity">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="■ When this creature would be destroyed, if another 'Kalute, Vizier of Eternity' is in the battle zone, return this creature to your hand instead."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="10"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ When this creature would be destroyed, if another 'Kalute, Vizier of Eternity' is in the battle zone, return this creature to your hand instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Micute, the Oracle" id="da37e2f2-95cf-48b0-a1a2-8e44aea6d884">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="da37e2f2-95cf-48b0-a1a2-8e44aea6d884" name="Micute, the Oracle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="■ Whenever you put a Guardian into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever you put a Guardian into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Mihail, Celestial Elemental" id="136670b4-7c19-49a0-bc89-c920c34be0cc">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="136670b4-7c19-49a0-bc89-c920c34be0cc" name="Mihail, Celestial Elemental">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="■ Whenever another creature would be destroyed, it stays in the battle zone instead."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever another creature would be destroyed, it stays in the battle zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Nexus Charger" id="70cac25c-bf54-4934-8180-cf18867e9d7d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="70cac25c-bf54-4934-8180-cf18867e9d7d" name="Nexus Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Add a card from your hand to your shields face down.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Tra Rion, Penumbra Guardian" id="0a75c035-d06b-4e10-9fa1-8d3ec6faa795">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0a75c035-d06b-4e10-9fa1-8d3ec6faa795" name="Tra Rion, Penumbra Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. At the end of this turn, untap all creatures of that race in the battle zone."/>
       <property name="Power" value="5500"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="14"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. At the end of this turn, untap all creatures of that race in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Unified Resistance" id="f9f3ae82-c98f-40ce-9187-c2e5a356c083">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f9f3ae82-c98f-40ce-9187-c2e5a356c083" name="Unified Resistance">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Until the start of your next turn, each of your creatures in the battle zone of that race gets &quot;Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle).&quot;"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="15"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Abduction Charger" id="2afbe361-644f-4c89-a9af-f18dd2c10825">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2afbe361-644f-4c89-a9af-f18dd2c10825" name="Abduction Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose up to 2 creatures in the battle zone and return them to their owners' hands.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Emperor Maroll" id="256dc280-5ba0-4b20-9544-b62552a5398c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="256dc280-5ba0-4b20-9544-b62552a5398c" name="Emperor Maroll">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever you put another creature into the battle zone, return this creature to your hand.&#xA;■ Whenever this creature becomes blocked, return the blocking creature to its owner's hand. (This creature stays tapped.)"/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Cyber Lords.&#xA;■ Whenever you put another creature into the battle zone, return this creature to your hand.&#xA;■ Whenever this creature becomes blocked, return the blocking creature to its owner's hand. (This creature stays tapped.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Hokira" id="62f0d41e-61c0-4050-9fde-97be0b573a59">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="62f0d41e-61c0-4050-9fde-97be0b573a59" name="Hokira">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Whenever one of your creatures of that race would be destroyed this turn, return it to your hand instead."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="18"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Whenever one of your creatures of that race would be destroyed this turn, return it to your hand instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Impossible Tunnel" id="c13a5315-dec4-47ee-85fd-4feefeafe385">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c13a5315-dec4-47ee-85fd-4feefeafe385" name="Impossible Tunnel">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose a race. Creatures of that race can't be blocked this turn."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="19"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Kelp Candle" id="cf96ecd5-481a-4a63-b8f1-61731525d956">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cf96ecd5-481a-4a63-b8f1-61731525d956" name="Kelp Candle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="20"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Scout Cluster" id="8733dbde-24a8-4015-863a-3684657c4dd6">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="8733dbde-24a8-4015-863a-3684657c4dd6" name="Scout Cluster">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put another creature into the battle zone, return this creature from the battle zone to your hand."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="21"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put another creature into the battle zone, return this creature from the battle zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Submarine Project" id="10e8af32-72f0-486c-abdc-dd1088735cb7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="10e8af32-72f0-486c-abdc-dd1088735cb7" name="Submarine Project">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Tekorax" id="e855fefa-623c-4558-b523-185f6c0bc4fe">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e855fefa-623c-4558-b523-185f6c0bc4fe" name="Tekorax">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's shields. Then put them back where they were."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's shields. Then put them back where they were."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Tentacle Cluster" id="6c7b55dc-065b-4d8b-8b17-0350e6157c48">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6c7b55dc-065b-4d8b-8b17-0350e6157c48" name="Tentacle Cluster">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, you may choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="24"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, you may choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Zeppelin Crawler" id="39eba063-d49c-4c65-af0f-4a410db6ad86">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="39eba063-d49c-4c65-af0f-4a410db6ad86" name="Zeppelin Crawler">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="25"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Acid Reflux, the Fleshboiler" id="ec6a2833-e4ef-401e-a025-28deef02a46d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ec6a2833-e4ef-401e-a025-28deef02a46d" name="Acid Reflux, the Fleshboiler">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Devil Mask"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="26"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Bat Doctor, Shadow of Undeath" id="da93d9d0-b569-408d-af93-b4a4286fc91f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="da93d9d0-b569-408d-af93-b4a4286fc91f" name="Bat Doctor, Shadow of Undeath">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="■ When this creature is destroyed, you may return another creature from your graveyard to your hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="27"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may return another creature from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Gabzagul, Warlord of Pain" id="d53bb7b9-5d3e-44ed-a8ab-ab262ec23cb8">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d53bb7b9-5d3e-44ed-a8ab-ab262ec23cb8" name="Gabzagul, Warlord of Pain">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="■ Each creature attacks each turn if able."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="28"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Each creature attacks each turn if able."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Grinning Hunger" id="5a81f94e-aff8-4c15-a0bb-a787eb7362f4">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5a81f94e-aff8-4c15-a0bb-a787eb7362f4" name="Grinning Hunger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Your opponent chooses one of his creatures in the battle zone or one of his shields and puts it into his graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Ice Vapor, Shadow of Anguish" id="ab6c7559-1714-4238-a063-393cfe8adc08">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ab6c7559-1714-4238-a063-393cfe8adc08" name="Ice Vapor, Shadow of Anguish">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="■ Whenever your opponent casts a spell, he chooses and discards a card from his hand, then chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="30"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever your opponent casts a spell, he chooses and discards a card from his hand, then chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Necrodragon Izorist Vhal" id="56486d95-811d-4a77-a21b-dd773eb67d97">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="56486d95-811d-4a77-a21b-dd773eb67d97" name="Necrodragon Izorist Vhal">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="■ This creature gets +2000 power for each darkness creature in your graveyard. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Power" value="0000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each darkness creature in your graveyard. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Slash Charger" id="7e9225cc-b7d8-4267-a8db-9ec0c7629216">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7e9225cc-b7d8-4267-a8db-9ec0c7629216" name="Slash Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Search a player's deck. You may take a card from that deck and put it into that player's graveyard. Then the player shuffles his deck.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="32"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Trixo, Wicked Doll" id="5703585a-5a92-41c8-b8fc-4775d71429c2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5703585a-5a92-41c8-b8fc-4775d71429c2" name="Trixo, Wicked Doll">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses one of his creatures and destroys it."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="33"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses one of his creatures and destroys it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Venom Worm" id="750f39b7-c3d3-4fd4-bf07-a45712195c42">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="750f39b7-c3d3-4fd4-bf07-a45712195c42" name="Venom Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Zombie Carnival" id="687ab68e-4c9e-4a1f-8b80-7ced8a7eff7f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="687ab68e-4c9e-4a1f-8b80-7ced8a7eff7f" name="Zombie Carnival">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a race. Return up to 3 creatures of that race from your graveyard to your hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="35"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Aerodactyl Kooza" id="c23b0bbb-6a76-4b92-a224-832ed12544ff">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c23b0bbb-6a76-4b92-a224-832ed12544ff" name="Aerodactyl Kooza">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="1000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Blizzard of Spears" id="0219aa19-f201-4e11-92c5-59f4f5aaa697">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0219aa19-f201-4e11-92c5-59f4f5aaa697" name="Blizzard of Spears">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Destroy all creatures that have power 4000 or less."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="37"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Fists of Forever" id="dc879044-c47b-4a05-b3fb-d305fb47370e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="dc879044-c47b-4a05-b3fb-d305fb47370e" name="Fists of Forever">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose one of your creatures in the battle zone. Whenever that creature wins a battle this turn, untap it."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="38"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Gigio's Hammer" id="ca9c45d2-d280-4a57-9558-eb39a880cd3d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ca9c45d2-d280-4a57-9558-eb39a880cd3d" name="Gigio's Hammer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race attacks this turn if able and gets &quot;power attacker +4000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="39"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Each creature of that race attacks this turn if able and gets &quot;power attacker +4000&quot; until the end of the turn. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Quakesaur" id="5680ad34-e725-45a3-a53a-9b3c7f24feae">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5680ad34-e725-45a3-a53a-9b3c7f24feae" name="Quakesaur">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Relentless Blitz" id="e3b5531f-1dca-4c3a-beda-ca09a7c5ab71">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e3b5531f-1dca-4c3a-beda-ca09a7c5ab71" name="Relentless Blitz">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose a race. This turn, each creature of that race can attack untapped creatures and can't be blocked while attacking a creature."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Shock Trooper Mykee" id="04dc2f45-6c44-486c-9bdf-9f99694792ff">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="04dc2f45-6c44-486c-9bdf-9f99694792ff" name="Shock Trooper Mykee">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, you may destroy one of your opponent's creatures that has power 3000 or less."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="42"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature is attacking your opponent and isn't blocked, you may destroy one of your opponent's creatures that has power 3000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Simian Warrior Grash" id="fb6614a6-644d-4fde-9958-225cf2295d47">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fb6614a6-644d-4fde-9958-225cf2295d47" name="Simian Warrior Grash">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="■ Whenever one of your Armorloids is destroyed, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="43"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever one of your Armorloids is destroyed, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Snaptongue Lizard" id="24ee2a43-3ec4-44d0-82a6-ba80e58e5255">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="24ee2a43-3ec4-44d0-82a6-ba80e58e5255" name="Snaptongue Lizard">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dune Gecko"/>
-      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="44"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ While attacking a creature, this creature can't be blocked.&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Steam Rumbler Kain" id="206b19fb-b389-44f3-9a45-06a7df6dc0f0">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="206b19fb-b389-44f3-9a45-06a7df6dc0f0" name="Steam Rumbler Kain">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields and put it into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Cavern Raider" id="ea7ebbe2-59ce-4257-a5b6-8b074c4ed75d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ea7ebbe2-59ce-4257-a5b6-8b074c4ed75d" name="Cavern Raider">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Dance of the Sproutlings" id="6f2b5764-ebb1-4f26-8dfa-32333b051df1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6f2b5764-ebb1-4f26-8dfa-32333b051df1" name="Dance of the Sproutlings">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Choose a race. You may put any number of creatures of that race from your hand into your mana zone."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Mana Bonanza" id="c6b9f290-208f-4c7f-9e1f-4d0742c785ce">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c6b9f290-208f-4c7f-9e1f-4d0742c785ce" name="Mana Bonanza">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ For each card in your mana zone, put a card from the top of your deck into your mana zone tapped."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="48"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Silvermoon Trailblazer" id="b8e18b9a-5ba1-40c1-bcee-78f5e3e194fe">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b8e18b9a-5ba1-40c1-bcee-78f5e3e194fe" name="Silvermoon Trailblazer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Creatures of that race can't be blocked by creatures that have power 3000 or less this turn."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="49"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Choose a race. Creatures of that race can't be blocked by creatures that have power 3000 or less this turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Solid Horn" id="3aa08e1b-b08d-4f53-b0ca-6f8917c2963d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="3aa08e1b-b08d-4f53-b0ca-6f8917c2963d" name="Solid Horn">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="■ When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Storm Wrangler, the Furious" id="1c877a61-6ec5-4c4c-87ee-8d4ab417b476">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="1c877a61-6ec5-4c4c-87ee-8d4ab417b476" name="Storm Wrangler, the Furious">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's untapped creatures that has &quot;blocker.&quot; This turn, that creature blocks this creature if able and this creature can't be blocked by other creatures.&#xA;■ Whenever this creature becomes blocked, it gets +3000 power until the end of the turn."/>
       <property name="Power" value="5000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="51"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's untapped creatures that has &quot;blocker.&quot; This turn, that creature blocks this creature if able and this creature can't be blocked by other creatures.&#xA;■ Whenever this creature becomes blocked, it gets +3000 power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Terradragon Anrist Vhal" id="228e33e9-662d-4fc2-8a7c-b6bc51731807">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="228e33e9-662d-4fc2-8a7c-b6bc51731807" name="Terradragon Anrist Vhal">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="■ This creature gets +2000 power for each of your other nature creatures in the battle zone. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Power" value="0000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="52"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each of your other nature creatures in the battle zone. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Vine Charger" id="4a31d053-5846-4229-a740-cc2fc8438fc7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4a31d053-5846-4229-a740-cc2fc8438fc7" name="Vine Charger">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Your opponent chooses one of his creatures in the battle zone and puts it into his mana zone.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="53"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Whip Scorpion" id="a5f9ba06-7db8-453b-9cc6-45ac9789d4fb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a5f9ba06-7db8-453b-9cc6-45ac9789d4fb" name="Whip Scorpion">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
-    <card name="Whispering Totem" id="7104edf5-edb3-4ce3-81f6-ef08b414d11b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7104edf5-edb3-4ce3-81f6-ef08b414d11b" name="Whispering Totem">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a 'Whispering Totem' from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="55"/>
-      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a 'Whispering Totem' from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+    </card>
+    <card id="fc2021fa-453b-4774-8127-82bc94cdc6a1" name="Petrova, Channeler of Suns">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a race other than Mecha Del Sol. Each creature of that race gets +4000 power.&#xA;■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+    </card>
+    <card id="2b33507e-0154-43f7-a190-e84178ea81c9" name="Aqua Master">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature is attacking your opponent and isn't blocked, choose one of your opponent's shields and turn it face up. (It stays face up while it's in the shield zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+    </card>
+    <card id="e8701278-6d71-4cd6-bc92-23690b8de9d2" name="Stallob, the Lifequasher">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, destroy all creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+    </card>
+    <card id="eea41196-819f-48a4-ad2d-300bedfec3b7" name="Magmadragon Ogrist Vhal">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Volcano Dragon"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="■ This creature gets +3000 power for each card in your hand. (A creature that has power 0 or less is destroyed.)&#xA;■ While this creature has power 6000 or more, it has &quot;Double breaker (This creature breaks 2 shields).&quot;&#xA;■ While this creature has power 15000 or more, it has &quot;Triple breaker (This creature breaks 3 shields)&quot; instead of &quot;double breaker.&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
+    </card>
+    <card id="0dc0f75b-403e-4171-ab65-b45e7e021f41" name="Stratosphere Giant">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses up to 2 creatures in his hand and puts them into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-09 Fatal Brood of Infinite Ruin"/>
     </card>
   </cards>
 </set>

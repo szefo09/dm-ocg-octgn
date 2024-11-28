@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-36+1D Psychic Shock Plus One Dream" id="ba15cc21-0a22-48f7-9f9a-907f194ffe57" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="6883d3c5-3b9b-4b84-9cce-549188a14edf">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="8d0b4cab-fb5a-44a5-a693-cfe4cd659dd8" name="Grave Deal, Shadow of Pure Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. If you have a God in your mana zone, that creature gets -4000 power until the end of the turn. If you don't have a God in your mana zone, that creature gets -2000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1D/3D"/>
+      <property name="Set" value="DM-36+1D Psychic Shock Plus One Dream"/>
+    </card>
+    <card id="39e03def-bd49-4fb2-aa13-5d6889a058fd" name="Überdragon Fighbird">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons.&#xA;■ When you put this creature into the battle zone, put all non-evolution Fire Birds from your mana zone into the battle zone. If you are playing at Duel Road, you may also put any number of evolution Fire Birds from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2D/3D"/>
+      <property name="Set" value="DM-36+1D Psychic Shock Plus One Dream"/>
+    </card>
+    <card id="601ab646-c5ed-429a-8178-6bd302a65e24" name="Manly Pepper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may put the top 4 cards of your deck into your mana zone tapped. If you do, put 4 cards from your mana zone on the bottom of your deck in any order."/>
+      <property name="Watermark" value="{Wild} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3D/3D"/>
+      <property name="Set" value="DM-36+1D Psychic Shock Plus One Dream"/>
+    </card>
+  </cards>
+</set>

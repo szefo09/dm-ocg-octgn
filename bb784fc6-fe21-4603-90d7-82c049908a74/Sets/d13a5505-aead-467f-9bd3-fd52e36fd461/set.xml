@@ -20,724 +20,824 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Eternal Phoenix, Dragonflame Phoenix" id="7dd88262-93d1-483f-8495-101100ab8042">
-      <property name="Format" value="Set17, Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Vortex Evolution: 'Fire bird' and 'Armored Dragon'&#xD;&#xA;[Double Breaker] Your 'Dragon' or 'Phoenix' creatures may attack untapped creatures.&#xD;&#xA;When this creature leaves the battle zone, return all non-evolution fire creatures from the graveyard to your hand."/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-13 Eternal Phoenix"/>
-    </card>
-    <card name="Auzesu, Demonic Elemental" id="340a6c09-d778-4c3c-881f-13b75960ae0d">
-      <property name="Format" value="Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light/Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/Demon Command"/>
-      <property name="Rules" value="Sympathy: Angel Command and Demon Command&#xD;&#xA;When one of your Angel Command or Demon Command attacks, you may destroy one of your opponent's tapped creatures.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="6500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-13 Eternal Phoenix"/>
-    </card>
-    <card name="Asylum, Elemental Dragon Knight" id="d734a3c2-9075-4e79-947b-34e8804220a3">
-      <property name="Format" value="Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light/Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/Armored Dragon"/>
-      <property name="Rules" value="Sympathy: Angel Command and Armored Dragon&#xD;&#xA;When this card is destroyed instead of placing it in the graveyard, place it face-down in your shield zone.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-13 Eternal Phoenix"/>
-    </card>
-    <card name="Dolgeza, Strong Striker" id="cbdaad81-a4e5-473d-a960-56f705af62a9">
-      <property name="Format" value="Set17, Set35, OCG"/>
-      <property name="Civilization" value="Water/Nature"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Earth Eater/Giant"/>
-      <property name="Rules" value="Sympathy: Earth Eater and Giant&#xD;&#xA;When this creature is put into the battle zone, you may draw 1 card for each Earth Eater or Giant in your battle zone.&#xD;&#xA;Double Breaker"/>
-      <property name="Power" value="9000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-13 Eternal Phoenix"/>
-    </card>
-    <card name="Galamuta, Matchless Fear Lord" id="35409895-cf04-4a84-9eaf-5e54532cb15a">
-      <property name="Format" value="Set17, Set35, OCG"/>
-      <property name="Civilization" value="Darkness/Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Dark Lord/Earth Dragon"/>
-      <property name="Rules" value="Sympathy: Death Puppet and Beastfolk&#xD;&#xA;When this creature attacks, no one may use &quot;Shield Trigger&quot; this turn."/>
-      <property name="Power" value="5000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-13 Eternal Phoenix"/>
-    </card>
-    <card name="Balhols, Demonic Elemental" id="8813d7a1-158b-42c3-b5df-8dc4edcdcd22">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="8813d7a1-158b-42c3-b5df-8dc4edcdcd22" name="Balhols, Demonic Elemental">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Demon Command"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;All of your opponent's creatures must attack each turn, if possible.&#xD;&#xA;This creature cannot attack a player.&#xD;&#xA;When this creature blocks, after the battle untap it."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each of your opponent's creatures must attack if able.&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature blocks, untap it after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Aegis, Sage of Fire and Lightning" id="f5b39a0f-8574-4f42-9278-7432f080cfe2">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="f5b39a0f-8574-4f42-9278-7432f080cfe2" name="Aegis, Sage of Fire and Lightning">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator/Armored Wyvern"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When this creature blocks and wins the battle, destroy all creatures with the same race as the destroyed creature."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature blocks and wins the battle, destroy all creatures that have the same race as the destroyed creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Akashic First, Electro-Dragon" id="9e229a25-a673-45fc-bed4-531f5350468e">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="9e229a25-a673-45fc-bed4-531f5350468e" name="Akashic First, Electro-Dragon">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Volcano Dragon"/>
-      <property name="Rules" value="Sympathy: This card's cost is reduced by 1 for each Cyber Virus and Dragonoid in your battle zone. You cannot reduce the cost below 2.&#xD;&#xA;This creature may attack untapped creatures.&#xD;&#xA;When this creature is destroyed, you may return it to your hand instead."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Cyber Virus and Dragonoid (This creature costs 1 less to summon for each of your Cyber Virus, Dragonoid in play. It can't cost less than 2.)}&#xA;■ This creature can attack untapped creatures.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Gaulzaganta, Spirit of the Woodland Ridges" id="bb5fb1d5-e252-4edc-891b-7e41e1a2c75f">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="bb5fb1d5-e252-4edc-891b-7e41e1a2c75f" name="Gaulzaganta, Spirit of the Woodland Ridges">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan/Mystery Totem"/>
-      <property name="Rules" value="Sympathy: This card's cost is reduced by 1 for each Gel Fish and Snow Fairy in your battle zone. You cannot reduce the cost below 2.&#xD;&#xA;Whenever a evolution creature is put into the battle zone, tap all evolution creatures in the battle zone."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Gel Fish and Snow Faerie (This creature costs 1 less to summon for each of your Gel Fish, Snow Faerie in play. It can't cost less than 2.)}&#xA;■ Whenever an evolution creature is put into the battle zone, tap all evolution creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Getchell, the Emitter" id="7fa444fc-de17-457d-b274-90b771271de0">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="7fa444fc-de17-457d-b274-90b771271de0" name="Getchell, the Emitter">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature attacks, you may put 1 card from your hand into your shield or mana zone.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, you may add a card from your hand to your shields or your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Dorothea, the Explorer" id="3c65b4a6-4126-47db-9695-812e63be86fc">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3c65b4a6-4126-47db-9695-812e63be86fc" name="Dorothea, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator"/>
-      <property name="Rules" value="During the opponent's turn, whenever you discard cards, draw the same amount you discarded."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you discard cards during your opponent's turn, draw the same number of cards you discarded."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Asteria, Heaven's Blessing Elemental" id="c8df4bed-3afc-47eb-8549-da5387dd51b0">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="c8df4bed-3afc-47eb-8549-da5387dd51b0" name="Asteria, Heaven's Blessing Elemental">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature cannot attack a player.&#xD;&#xA;Except during the start of the opponent's turn, whenever your opponent draws cards, draw the same amount they drew."/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent draws a card except when drawing a card at the start of their turn, draw the same number of cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Inspect Seed" id="982763d2-feaf-460d-97b6-273bc87a26ff">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="982763d2-feaf-460d-97b6-273bc87a26ff" name="Inspect Seed">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="Silent Skill (At the start of your turn, instead of untapping this creature you may use the following ability).&#xD;&#xA;[Silent skill] : During this turn, whenever your creatures attack draw 1 card."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its Silent Skill ability.)&#xA;{SILENT SKILL}: Whenever any of your creatures attacks this turn, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Pacific Champion" id="afc1c0ca-abb7-4215-b2ad-92120db761bd">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="afc1c0ca-abb7-4215-b2ad-92120db761bd" name="Pacific Champion">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Merfolk"/>
-      <property name="Rules" value="Evolution: Put on one of your Merfolk.&#xD;&#xA;This creature cannot be attacked by non-evolution creatures.&#xD;&#xA;This creature cannot be blocked by non-evolution creatures."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Merfolk.&#xA;■ This creature can't be attacked or blocked by non-evolution creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Belzeber, Emperor of Death" id="f49ca7ca-94d8-41ad-a2a6-4ec17e2cb19c">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="f49ca7ca-94d8-41ad-a2a6-4ec17e2cb19c" name="Belzeber, Emperor of Death">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="Evolution: Place on one of your Dark Lord.&#xD;&#xA;When other creatures are put into the battle zone, that creature's owner must choose 1 card from their mana zone and place in their graveyard.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dark Lords.&#xA;■ Whenever another creature is put into the battle zone, that creature's owner chooses a card from their mana zone and puts it into their graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Trombo, Fractured Doll" id="b2ae51b5-7212-4561-b1d2-d3c0a76310da">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="b2ae51b5-7212-4561-b1d2-d3c0a76310da" name="Trombo, Fractured Doll">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="Wave Striker (While 2 or more other creatures in the battle zone have &quot;wave striker,&quot; this creature has its {WAVE STRIKER}  ability.)&#xD;&#xA;{WAVE STRIKER} : When this creature is put into the battle zone, return 1 creature from your graveyard to your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Spiritual Star Dragon" id="3329896f-f122-4fa5-970b-d75ea9c0fa78">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3329896f-f122-4fa5-970b-d75ea9c0fa78" name="Spiritual Star Dragon">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="Double Breaker&#xD;&#xA;When this creature is put into the battle zone, search your deck for a creature that evolves from a dragon, show it to your opponent and add it to your hand. Afterwards, shuffle your deck."/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, search your deck. You may take a creature that evolves from a Dragon from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Mettza's Iron" id="a91f496d-f6f2-4a67-adff-f236ac021a73">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="a91f496d-f6f2-4a67-adff-f236ac021a73" name="Mettza's Iron">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts"/>
-      <property name="Rules" value="When this card breaks a shield, at the end of this turn destroy this creature and both players must chose a card from their mana zone and send it to their graveyard."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature breaks a shield, at the end of the turn, destroy this creature. Each player then chooses a card in their mana zone and puts it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Ground Giant" id="1bf51056-ac1b-4b81-a636-d25632bcc05e">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="1bf51056-ac1b-4b81-a636-d25632bcc05e" name="Ground Giant">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
-      <property name="Rules" value="This creature gets +2000 power for each civilization in the battle zone.&#xD;&#xA;If this creature has more than 6000 power, it gains Double Breaker."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each civilization in the battle zone.&#xA;■ Whenever this creature has power 6000 or more, it gets &quot;double breaker&quot;. (This creature breaks 2 shields.)&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Courtney, Summer Breeze Faerie" id="21380ea3-1a7a-4b53-8243-9afd584dc8b5">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="21380ea3-1a7a-4b53-8243-9afd584dc8b5" name="Courtney, Summer Breeze Faerie">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie"/>
-      <property name="Rules" value="Cards in your mana zone are considered to be cards of every civilization."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Cards in your mana zone are considered to be cards of every civilization."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="The Grave of Angels and Demons" id="1be98f3b-1109-4e7e-8d60-f31f4d6144ef">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="1be98f3b-1109-4e7e-8d60-f31f4d6144ef" name="The Grave of Angels and Demons">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;This card is put into the mana zone tapped.&#xD;&#xA;If there are 2 or more of a card with the same name in the battle zone, destroy all of them. Afterwards look at all mana zones, and if there are 2 or more copies of a card with the same name, destroy all of them."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ If there are 2 or more creatures that have the same name in the battle zone, destroy all of them.&#xA;■ Look at each player's mana zone. If there are 2 or more cards that have the same name, put all of them into their owner's graveyards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Meermax, Mobile Vizier" id="80e1454f-5eac-40ab-b58b-50233fc2577b">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="80e1454f-5eac-40ab-b58b-50233fc2577b" name="Meermax, Mobile Vizier">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate/Armorloid"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;This creature may attack untapped creatures.&#xD;&#xA;When this creature wins a battle, you may untap it.&#xD;&#xA;This creature can't attack players."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can attack untapped creatures.&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature wins a battle, you may untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Fortification Against Barrage and Ambush" id="158575e4-3d66-437f-b405-ea4456fb3812">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="158575e4-3d66-437f-b405-ea4456fb3812" name="Fortification Against Barrage and Ambush">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Reveal cards from the top of your deck until you reach a creature. Destroy all creatures with a power less than that of the revealed creature. Put all cards revealed in this way into the graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Reveal cards from the top of your deck until you reveal a creature. Destroy all creatures that have less power than that creature. Put all revealed cards into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Akashic Third, the Electro-Bandit" id="b0793be2-caf4-48f6-97a7-376bfc1f10cb">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="b0793be2-caf4-48f6-97a7-376bfc1f10cb" name="Akashic Third, the Electro-Bandit">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Beast Folk"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature battles, reveal cards from the top of your deck until you reach a creature. Until the end of the turn, this creature becomes the revealed creature. Put all cards revealed in this way into the graveyard."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature battles, reveal cards from the top of your deck until you reveal a creature. This creature becomes the revealed creature until the end of the turn. Put all cards revealed this way into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Sirigel, the Absorber" id="2c490ac3-2d86-4d17-8451-7e14f65560e0">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="2c490ac3-2d86-4d17-8451-7e14f65560e0" name="Sirigel, the Absorber">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;This creature attacks you may return one card from the mana zone or shield zone to your hand.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, you may return a card from your mana zone or your shield zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Polaris, the Oracle" id="eec126b1-5466-4372-85ff-55abd12cbb24">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="eec126b1-5466-4372-85ff-55abd12cbb24" name="Polaris, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="When your creatures are attacked, that creature gains +2000 power."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Whenever your creatures are attacked, that creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Zereem Crawler" id="263f9235-4666-47a5-bcd4-27b284ec641c">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="263f9235-4666-47a5-bcd4-27b284ec641c" name="Zereem Crawler">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater"/>
-      <property name="Rules" value="This creature may attack untapped fire creatures.&#xD;&#xA;This creature cannot attack a player."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ This creature can attack untapped fire creatures.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Drill Mutant" id="3c4ec8d1-56c0-46e8-adf4-c917613926e9">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3c4ec8d1-56c0-46e8-adf4-c917613926e9" name="Drill Mutant">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
-      <property name="Rules" value="When this creature is put into the battle zone, return one evolution creature from your graveyard to your hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return an evolution creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Lockon Dude Jiruba" id="0cb63949-a349-4290-8339-e7b8654045b4">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="0cb63949-a349-4290-8339-e7b8654045b4" name="Lockon Dude Jiruba">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="Silent Skill (At the start of your turn, instead of untapping this creature you may use the following ability).&#xD;&#xA;[Silent skill] : Until the end of the turn, all your other creatures can attack untapped creatures."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{SILENT SKILL} (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its Silent Skill ability.)&#xA;{SILENT SKILL}: Each of your other creatures in the battle zone can attack untapped creatures this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Funeral Song of the Beasts" id="9302d14a-dde0-41eb-a42c-ad184fac8a1a">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="9302d14a-dde0-41eb-a42c-ad184fac8a1a" name="Funeral Song of the Beasts">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Until the end of the turn, all your creatures gain +4000 and the text &quot;When this creature attacks and is blocked, break 1 of your opponent's shields&quot;."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +4000 power and &quot;Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Melcap, the Mutant Explorer" id="1ae06e1d-06b7-4425-ae8d-6ea37051fa38">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="1ae06e1d-06b7-4425-ae8d-6ea37051fa38" name="Melcap, the Mutant Explorer">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator/Hedrian"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature attacks and isn't blocked, tap all your opponent's creatures."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks your opponent and isn't blocked, tap all your opponent's creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Breiga, the Wicked Protector" id="a651f3d4-ca36-4f01-8c77-b5d91d86cdc1">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="a651f3d4-ca36-4f01-8c77-b5d91d86cdc1" name="Breiga, the Wicked Protector">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian/Brain Jacker"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Saver: All Races (While this creature is in the battle zone, when one of your creatures is destroyed, you may destroy this creature instead.)"/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Saver: All races (When one of your other creatures would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Funnoo, Bloody Winds Officer" id="52559c9c-bfe6-4360-87e2-4f107178ffc2">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="52559c9c-bfe6-4360-87e2-4f107178ffc2" name="Funnoo, Bloody Winds Officer">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper/Melt Warrior"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This card is put into the mana zone tapped.&#xD;&#xA;Speed Attacker&#xD;&#xA;When your shields are broken by your opponent's creatures, destroy this creature at the end of that turn."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever one of your opponent's creatures breaks one of your shields, destroy this creature at the end of that turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Stronghold of Lightning and Flame" id="3bc03913-3daa-495f-a5db-025bcfa95374">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3bc03913-3daa-495f-a5db-025bcfa95374" name="Stronghold of Lightning and Flame">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;This card is put into the mana zone tapped.&#xD;&#xA;Destroy one of your opponent's creatures of 3000 power or less. Afterwards, you may select and tap one of your opponent's creatures."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 3000 or less. Then you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Tick Tick, Swift Viral Swordfighter" id="cf9a2fe6-472e-49e9-9600-5cbee68d87df">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="cf9a2fe6-472e-49e9-9600-5cbee68d87df" name="Tick Tick, Swift Viral Swordfighter">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus/Dragonoid"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Speed Attacker&#xD;&#xA;When the creature attacks, you may draw 1 card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Judgement of the Flame's Spear and the Water's Blade" id="69ba671e-80f5-404d-bcc9-c828c53918d7">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="69ba671e-80f5-404d-bcc9-c828c53918d7" name="Judgement of the Flame's Spear and the Water's Blade">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;Destroy all creatures with 3000 power or less. Afterwards, you may draw 1 card for each creature destroyed."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Destroy all creatures that have power 3000 or less. Then you may draw a card for each creature destroyed."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Queen Maiden, the Eternal" id="3752dcad-6515-4346-bb08-91452cdfa14b">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3752dcad-6515-4346-bb08-91452cdfa14b" name="Queen Maiden, the Eternal">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="Evolution: Spirit Quartz.&#xD;&#xA;When this creature is put into the battle zone, name 1 card. Reveal the top card of your deck. If it's the named card add it to your hand. If it isn't, put it in your mana zone.&#xD;&#xA;Double Breaker"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Spirit Quartz.&#xA;■ When you put this creature into the battle zone, choose a card name. Reveal the top card of your deck. If it's the chosen card, put it into your hand. If it isn't, put it into your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Paradise of Sacred Birds and Crystal" id="d5e2bdf2-bb7e-44d3-a0b7-be3e777905a3">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="d5e2bdf2-bb7e-44d3-a0b7-be3e777905a3" name="Paradise of Sacred Birds and Crystal">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;During this turn, your multi-color creatures cannot be blocked."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;■ Your multicolored creatures can't be blocked this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Gashi Gashi, the Brave Puppet" id="c624f6d2-8c4d-49fb-b6f7-2f18151e1d29">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="c624f6d2-8c4d-49fb-b6f7-2f18151e1d29" name="Gashi Gashi, the Brave Puppet">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet/Wild Veggies"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature loses a battle, instead of placing this card in the graveyard place both cards that battled in their respective owner's mana zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When this creature would lose a battle, put this creature and the other creature into their owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Flesh-to-Spirit Conversion" id="9851db3e-c6cd-4541-b826-0299df47ae20">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="9851db3e-c6cd-4541-b826-0299df47ae20" name="Flesh-to-Spirit Conversion">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;This card is put into the mana zone tapped.&#xD;&#xA;During this turn, when your cards (other than this one) are placed in the graveyard, instead place them in your mana zone tapped."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ (This spell is put into your mana zone tapped.)&#xA;■ Whenever your other cards would be put into your graveyard this turn, put them into your mana zone tapped instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Rubels, the Explorer" id="ea474746-ad69-491a-a311-36f5113a7908">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="ea474746-ad69-491a-a311-36f5113a7908" name="Rubels, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator"/>
-      <property name="Rules" value="When your creatures break shields, the opponent must reveal them to you."/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="■ Your opponent reveals shields broken by your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Creis Dober, Barrier Guardian" id="75891b17-4302-4c57-9c17-665e04900f9c">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="75891b17-4302-4c57-9c17-665e04900f9c" name="Creis Dober, Barrier Guardian">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;When this creature blocks, if there is a evolution creature in the opponent's battle zone, this creature gets +4000."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, if your opponent has an evolution creature in the battle zone, this creature gets +4000 power.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Rieille, the Oracle" id="cb5850d5-b826-4ab7-aba7-c4fdc988cdd3">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="cb5850d5-b826-4ab7-aba7-c4fdc988cdd3" name="Rieille, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="When this creature is attacked, you may tap one of the opponent's creatures."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Pulpy Goobie" id="9af2cf5e-0937-4b5a-a098-4bb3d3eb3c20">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="9af2cf5e-0937-4b5a-a098-4bb3d3eb3c20" name="Pulpy Goobie">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature cannot attack.&#xD;&#xA;When this creature is put into the battle zone look at the top 5 cards of your deck.  Afterwards, put them back in any order."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, look at up to 5 cards from the top of your deck. Then put them back in any order.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Bye Bye Amoeba" id="88aa8cfa-c3b5-4ec5-9c39-43fda0a8e774">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="88aa8cfa-c3b5-4ec5-9c39-43fda0a8e774" name="Bye Bye Amoeba">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="When this creature is attacked, after the battle, return the attacking creature to the owner's hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, return the attacking creature to its owner's hand after the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Magical Pot" id="76743ed3-9ef5-4748-82d2-685277b2eb16">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="76743ed3-9ef5-4748-82d2-685277b2eb16" name="Magical Pot">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Return 1 evolution creature in the battle zone to the owner's hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Return an evolution creature in the battle zone to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Fallen Monk of the Bloodstained Soil, Zahaku" id="8cfefeb3-bcbc-47cd-93d4-c56e8113918b">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="8cfefeb3-bcbc-47cd-93d4-c56e8113918b" name="Fallen Monk of the Bloodstained Soil, Zahaku">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="This creature gains +3000 for each tapped creature in the opponent's battle zone."/>
-      <property name="Power" value="2000"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ This creature gets +3000 power for each of your opponent's tapped creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Niyaari, Exploding Doll" id="4c21d977-5f93-4f9b-a0b9-0c4fc1153172">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="4c21d977-5f93-4f9b-a0b9-0c4fc1153172" name="Niyaari, Exploding Doll">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
-      <property name="Rules" value="When this creature is attacked, it gains &quot;Slayer&quot; until the end of the turn."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, it gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Nightmare Machine" id="08b1ac8c-8b25-4d77-bc51-f3b0edba1225">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="08b1ac8c-8b25-4d77-bc51-f3b0edba1225" name="Nightmare Machine">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Destroy one of your untapped creatures. Afterwards, the opponent chooses and destroys one of his untapped creatures."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your untapped creatures. Then, your opponent chooses one of their untapped creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Langren, the Lone Wolf" id="612f01d6-49e3-448e-8c12-36ee12e6672c">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="612f01d6-49e3-448e-8c12-36ee12e6672c" name="Langren, the Lone Wolf">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="If there is another untapped creature in the battle zone, this creature cannot attack."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ This creature can't attack if there is another untapped creature in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Zack Ranba, the Sword Attacker" id="ab930903-a942-4961-b015-c07b5c704c7a">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="ab930903-a942-4961-b015-c07b5c704c7a" name="Zack Ranba, the Sword Attacker">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="If all the cards in your mana zone are tapped, this creature gets +2000."/>
-      <property name="Power" value="1000"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ While all cards in your mana zone are tapped, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Joe's Toolkit" id="8de796fe-4d84-4f87-bb10-6a5f69f0d01e">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="8de796fe-4d84-4f87-bb10-6a5f69f0d01e" name="Joe's Toolkit">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Xenoparts"/>
-      <property name="Rules" value="When this creature is attacked, you may destroy one of your opponent's creatures with 2000 power or less."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, you may destroy one of your opponent's creatures that has power 2000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Toxic Wasp" id="958e19e6-a225-4fd6-8ad1-3235df33e2ca">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="958e19e6-a225-4fd6-8ad1-3235df33e2ca" name="Toxic Wasp">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="Power Attacker +3000"/>
-      <property name="Power" value="3000"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Pocopen, Counterattacking Faerie" id="aab6f47c-c1f6-4734-bc52-bdd2778fa650">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="aab6f47c-c1f6-4734-bc52-bdd2778fa650" name="Pocopen, Counterattacking Faerie">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie"/>
-      <property name="Rules" value="When this creature is attacked, your opponent must select one card in their mana zone, and send it to the graveyard."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature is attacked, your opponent chooses a card in their mana zone and puts it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Pixie Cocoon" id="ec422f20-8d5a-4bdd-a5c9-14724e213095">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="ec422f20-8d5a-4bdd-a5c9-14724e213095" name="Pixie Cocoon">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Return 1 creature from your mana zone to your hand.&#xD;&#xA;After this spell is cast, instead of putting it in the graveyard, put it in the mana zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a creature from your mana zone to your hand.&#xA;■ After you cast this spell, put it into your mana zone tapped instead of your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Spectral Worm Giunair" id="80577f1e-adce-4f9b-a52d-3eb37894367d">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="80577f1e-adce-4f9b-a52d-3eb37894367d" name="Spectral Worm Giunair">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rainbow Phantom/Parasite Worm"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;Slayer"/>
       <property name="Power" value="2500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't attack players.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Keen, the Mobile Sage" id="d2a8dfb9-56e7-45e1-9a63-e1d6c5cc86d9">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="d2a8dfb9-56e7-45e1-9a63-e1d6c5cc86d9" name="Keen, the Mobile Sage">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator/Armorloid"/>
-      <property name="Rules" value="[Blocker] Blocker&#xD;&#xA;This creature can't attack players.&#xD;&#xA;Power Attacker +2500"/>
-      <property name="Power" value="4000"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't attack players.&#xA;{POWER ATTACKER} +2500 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Jasper, the Stubborn" id="3386b9ac-56f7-46b0-b107-c5245b00cc79">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="3386b9ac-56f7-46b0-b107-c5245b00cc79" name="Jasper, the Stubborn">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Spirit Quartz"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;This creature must attack every turn, if possible.&#xD;&#xA;When this creature is destroyed, instead of putting it in the graveyard you may return it to your hand."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature attacks each turn if able.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Akashic Second, Electro-Spirit" id="2433e975-2099-4215-b4e2-c08805b33411">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="2433e975-2099-4215-b4e2-c08805b33411" name="Akashic Second, Electro-Spirit">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Water/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Mystery Totem"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When this creature is put into the battle zone, you may draw 1 card.&#xD;&#xA;When this creature is destroyed, instead of putting it in the graveyard, put it in your mana zone."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ When you put this creature into the battle zone, you may draw a card.&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
-    <card name="Animatrain, the Daring Beast" id="de58a516-4268-4650-8b4a-e6f3999940a4">
-      <property name="Format" value="Set17, Set35, OCG"/>
+    <card id="de58a516-4268-4650-8b4a-e6f3999940a4" name="Animatrain, the Daring Beast">
+      <property name="Format" value="Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness/Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian/Horned Beast"/>
-      <property name="Rules" value="This card is put into the mana zone tapped.&#xD;&#xA;When you have more shields than your opponent, this creature cannot attack."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature can't attack if you have more shields than your opponent."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-13 Eternal Phoenix"/>
+    </card>
+    <card id="7dd88262-93d1-483f-8495-101100ab8042" name="Eternal Phoenix, Dragonflame Phoenix">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on one of your Fire Birds and one of your Armored Dragons.&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Phoenix or Dragons in the battle zone can attack untapped creatures.&#xA;■ When this creature leaves the battle zone, return all non-evolution fire creatures from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/55"/>
+      <property name="Set" value="DM-13 Eternal Phoenix"/>
+    </card>
+    <card id="340a6c09-d778-4c3c-881f-13b75960ae0d" name="Auzesu, Demonic Elemental">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Demon Command"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Angel Command and Demon Command (This creature costs 1 less to summon for each of your Angel Command, Demon Command in play. It can't cost less than 2.)}&#xA;■ Whenever one of your Angel Commands or Demon Commands attacks, destroy one of your opponent's tapped creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/55"/>
+      <property name="Set" value="DM-13 Eternal Phoenix"/>
+    </card>
+    <card id="d734a3c2-9075-4e79-947b-34e8804220a3" name="Asylum, Elemental Dragon Knight">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Angel Command and Armored Dragon (This creature costs 1 less to summon for each of your Angel Command, Armored Dragon in play. It can't cost less than 2.)}&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would be destroyed, add it to your shields face down instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/55"/>
+      <property name="Set" value="DM-13 Eternal Phoenix"/>
+    </card>
+    <card id="cbdaad81-a4e5-473d-a960-56f705af62a9" name="Dolgeza, Strong Striker">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater/Giant"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Earth Eater and Giant (This creature costs 1 less to summon for each of your Earth Eater, Giant in play. It can't cost less than 2.)}&#xA;■ When you put this creature into the battle zone, you may draw a card for each of your Earth Eaters in the battle zone. Then you may draw a card for each of your Giants in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/55"/>
+      <property name="Set" value="DM-13 Eternal Phoenix"/>
+    </card>
+    <card id="35409895-cf04-4a84-9eaf-5e54532cb15a" name="Galamuta, Matchless Fear Lord">
+      <property name="Format" value="Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord/Earth Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SYMPATHY}: Death Puppet and Beast Folk (This creature costs 1 less to summon for each of your Death Puppet, Beast Folk in play. It can't cost less than 2.)}&#xA;■ Whenever this creature attacks, neither player may use &quot;shield trigger&quot; abilities this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/55"/>
       <property name="Set" value="DM-13 Eternal Phoenix"/>
     </card>
   </cards>

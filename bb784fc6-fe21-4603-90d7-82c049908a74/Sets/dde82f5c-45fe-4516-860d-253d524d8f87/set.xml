@@ -20,635 +20,1023 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Heart Burn, Battle General Galaxy Fortress" id="627ca3a6-298c-4b78-900e-7b9a1785db83" size="wide">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value=" 5"/>
-      <property name="Type" value="Dragheart Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Each of your Dragons in the battle zone gets 'speed attacker'.&#xD;&#xA; Dragsolution—When one of your Dragons untaps, flip this to the Dragheart creature side and untap it."/>
-      <property name="Rarity" value="Double Victory"/>
-      <property name="Number" value="VV1a"/>
-      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
-      <alternate name="GuyNEXT, Super Battle Victory Dragon" type="awakening" size="normal">
-        <property name="Format" value="OCG"/>
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value=" 10"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Gaial Command Dragon"/>
-        <property name="Power" value="17000"/>
-        <property name="Rules" value="Each of your creatures in the battle zone gets 'speed attacker'.&#xD;&#xA;Triple breaker&#xD;&#xA;Dragon Evade"/>
-        <property name="Rarity" value="Double Victory"/>
-        <property name="Number" value="VV1b"/>
-      </alternate>
-    </card>
-    <card name="Endless Heaven, True Holy Church" id="a97bcfbe-274e-4f94-bfa3-3c54d533b179" size="wide">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value=" 5"/>
-      <property name="Type" value="Dragheart Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Whenever one of your creatures is destroyed, you may add the top card of your deck to your shields face down.&#xD;&#xA;Dragsolution: At the end of your turn, if your number of shields is greater than your opponent, flip this card to the dragheart creature side and untap it."/>
-      <property name="Rarity" value="Victory Rare"/>
-      <property name="Number" value="V1a"/>
-      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
-      <alternate name="Neverend, True Destiny King" type="awakening" size="normal">
-        <property name="Format" value="OCG"/>
-        <property name="Civilization" value="Light"/>
-        <property name="Cost" value=" 10"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Angel Command Dragon"/>
-        <property name="Power" value="14500"/>
-        <property name="Rules" value="Whenever your Dragons attack, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xD;&#xA;Triple breaker&#xD;&#xA; True Escape (When this creature would leave the battle zone, you may add 2 of your shields to your hand instead. You can't use the 'shield trigger' abilities of those shields.)"/>
-        <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="V1b"/>
-      </alternate>
-    </card>
-    <card name="Goal do Leiy, Holy Hero" id="8236586d-96d0-489e-a142-92ec4d5df4f4">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command Dragon"/>
-      <property name="Power" value="7500"/>
-      <property name="Rules" value="{BLOCKER}&#xD;&#xA;Double breaker&#xD;&#xA; Each of your light creatures gets 'Saver: Angel Command'.  (When one of your Angel Commands would be destroyed, you may destroy one of your creatures that has 'Saver: Angel Command' instead.) &#xD;&#xA; Mana Arms 7: If you have 7 or more light cards in your mana zone, each of your light creatures put into your hand from your shields gets 'shield trigger'."/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
-    </card>
-    <card name="Sb Ryuuisou, Dragment Symbol" id="f9d991e9-32fa-451d-8620-446b9d3d08d5">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Crystal Command Dragon"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="Double breaker&#xD;&#xA; Whenever you cast a spell, you may draw a card.&#xD;&#xA; Each of your spells gets 'Strike Back: Same Civilization'.  (Whenever a shield is put into your hand, you may discard it. If you do, cast a spell that has the same civilization as that shield from your hand for no cost.) "/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
-    </card>
-    <card name="Evelaurent, Mercy Dragon Elemental" id="000b34ef-aa02-444a-8260-b48237aa0c63">
+    <card id="000b34ef-aa02-444a-8260-b48237aa0c63" name="Evelaurent, Mercy Dragon Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{BLOCKER}&#xD;&#xA; Whenever this creature attacks, you may put a non-evolution Light creature that has 'blocker' from your graveyard into the battle zone.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks, you may put a non-evolution Light creature that has &quot;blocker&quot; from your graveyard into the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Valhalla Master, Spark Dragon Elemental" id="b082bbe0-5300-476e-b4df-63cfa85417af">
+    <card id="b082bbe0-5300-476e-b4df-63cfa85417af" name="Valhalla Master, Spark Dragon Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="5500+"/>
-      <property name="Rules" value="Whenever this creature attacks, you may cast a spell that has 'Spark' in its name from your hand for no cost.&#xD;&#xA; While your opponent has no untapped creatures, this creature gets +5500 power and 'double breaker'."/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may cast a spell that has &quot;Spark&quot; in its name from your hand for no cost.&#xA;■ While your opponent has no untapped creatures, this creature gets +5500 power and &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Gou Break Dragon" id="c2254686-f10c-49fa-9428-5b2163bc7c35">
+    <card id="c2254686-f10c-49fa-9428-5b2163bc7c35" name="Gou Break Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mega Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Evolution—Put on one of your fire creatures.&#xD;&#xA;Double breaker&#xD;&#xA; Whenever this creature attacks, after the attack, you may tap one of your other fire creatures. If you do, untap this creature."/>
+      <property name="Rules" value="■ Evolution—Put on one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, after the attack, you may tap one of your other fire creatures. If you do, untap this creature."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Judaiou, Jurassic Jungle" id="5c568b4b-b57b-4352-8c7d-69e6b7cf93c8" size="wide">
+    <card id="5c568b4b-b57b-4352-8c7d-69e6b7cf93c8" name="Judaiou, Jurassic Jungle">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
-      <property name="Cost" value=" 5"/>
+      <property name="Cost" value="5"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Your opponent's creatures that have power 4000 or less can't attack.&#xD;&#xA;Dragsolution: At the start of your turn, if the total cost of your creatures in the battle zone is 25 or more, flip this card to the dragheart creature side and untap it."/>
+      <property name="Rules" value="■ Your opponent's creatures that have power 4000 or less can't attack.&#xA;{DRAGSOLUTION}: At the start of your turn, if the total cost of your creatures in the battle zone is 25 or more, flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4a"/>
+      <property name="Number" value="4a/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       <alternate name="Sauzaurupio, Terror Ancient King" type="awakening" size="normal">
-        <property name="Format" value="OCG"/>
         <property name="Civilization" value="Nature"/>
-        <property name="Cost" value=" 8"/>
+        <property name="Cost" value="8"/>
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Jurassic Command Dragon"/>
         <property name="Power" value="18000"/>
-        <property name="Rules" value="Quattro breaker&#xD;&#xA; If you have no shields, your opponent's creatures that have less power than this creature can't attack.&#xD;&#xA;"/>
+        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ If you have no shields, your opponent's creatures that have less power than this creature can't attack."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Very Rare"/>
-        <property name="Number" value="4b"/>
+        <property name="Number" value="4b/54"/>
+        <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       </alternate>
     </card>
-    <card name="Ribulibarrier, Holy Ball" id="3882e0e0-f07d-48cb-be12-80b4d1d15e77">
+    <card id="3d5102e0-5e26-4b3e-a9b0-2aa65cf70767" name="Sauzaurupio, Terror Ancient King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Jurassic Command Dragon"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ If you have no shields, your opponent's creatures that have less power than this creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4b/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="3882e0e0-f07d-48cb-be12-80b4d1d15e77" name="Ribulibarrier, Holy Ball">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Justice Orb"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Evolution—Put on one of your light creatures.&#xD;&#xA;Double breaker&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="■ Evolution—Put on one of your light creatures.&#xA;{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Soul Garde, Storage Dragon Elemental" id="624051ae-4efb-4904-9a15-3fba7189ea1b">
+    <card id="32050a40-9c26-4909-b7d4-8f15e6cc0cca" name="Ribulibarrier, Holy Ball">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Justice Orb"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your light creatures.&#xA;{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="5d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="624051ae-4efb-4904-9a15-3fba7189ea1b" name="Soul Garde, Storage Dragon Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more light cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xD;&#xA; When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and add it to its owner's shields face down.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more light cards in your mana zone, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and add it to its owner's shields face down.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Heaven's Rosia, True Dragon Edge" id="e3ee81ed-f8c0-44c1-8c27-8f27187da951">
+    <card id="e3ee81ed-f8c0-44c1-8c27-8f27187da951" name="Heaven's Rosia, True Dragon Ruler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon/Justice Wing/Draguner"/>
       <property name="Power" value="5500"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put a dragheart that costs 3 or less or a light dragheart that costs 5 or less from your hyperspatial zone into the battle zone.  (If it's a weapon, equip it to this creature.) &#xD;&#xA;Mana Arms 5: If you have 5 or more light cards in your mana zone, each of your Light creatures in the battle zone gets 'shield saver'."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put a dragheart that costs 3 or less or a light dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;{MANA ARMS} 5: if you have 5 or more light cards in your mana zone, each of your Light creatures in the battle zone gets &quot;shield saver&quot;."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Sg Spagelia, Dragment Symbol" id="3b04275f-590c-4484-bd1c-5c2ccac78208">
+    <card id="3b04275f-590c-4484-bd1c-5c2ccac78208" name="Sg Spagelia, Dragment Symbol">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Crystal Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more water cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xD;&#xA; When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and return it to its owner's hand.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more water cards in your mana zone, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and return it to its owner's hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Bluenika, Dragon Soul Fortress" id="6eb8d8ba-8164-4e19-b351-9f34fadf9024" size="wide">
+    <card id="6eb8d8ba-8164-4e19-b351-9f34fadf9024" name="Bluenika, Dragon Soul Fortress">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
-      <property name="Cost" value=" 3"/>
+      <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="When you put this fortress into the battle zone, you may draw a card. Hyperspatial Dragheart Fortress"/>
+      <property name="Rules" value="■ When you put this fortress into the battle zone, you may draw a card. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9a"/>
+      <property name="Number" value="9a/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       <alternate name="All Over The World, Supreme True Dragon Soul" type="awakening" size="normal">
-        <property name="Format" value="OCG"/>
         <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-        <property name="Cost" value=" 50"/>
+        <property name="Cost" value="50"/>
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="World Command Dragon"/>
         <property name="Power" value="50000"/>
-        <property name="Rules" value="When this creature is dragsolutioned, each player puts all cards in his hand, battle zone and graveyard other than this creature into their owners decks and shuffles it.&#xD;&#xA;Speed attacker&#xD;&#xA;World breaker&#xD;&#xA; When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
-        <property name="Rarity" value="Rare"/>
-        <property name="Number" value="6b"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="12b/54"/>
+        <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       </alternate>
     </card>
-    <card name="Dragment Innovation" id="52d566c5-b39e-48a1-9aaa-1e5125e695e8">
+    <card id="04401a76-3e17-44ae-bed3-025d9a7e50af" name="All Over The World, Supreme True Dragon Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="50"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="World Command Dragon"/>
+      <property name="Power" value="50000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="9b/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="52d566c5-b39e-48a1-9aaa-1e5125e695e8" name="Dragment Innovation">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Cast a spell that costs 7 or less from your graveyard for no cost. After you cast that spell, put it on the bottom of your deck."/>
+      <property name="Rules" value="■ Cast a spell that costs 7 or less from your graveyard for no cost. After you cast that spell, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Zanjides, Tragedy Demon Dragon" id="01428578-4ba8-4d0d-a080-dca5485214cf">
+    <card id="01428578-4ba8-4d0d-a080-dca5485214cf" name="Zanjides, Tragedy Demon Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more darkness cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xD;&#xA; When you put this creature into the battle zone, each of your opponent's creatures gets -2000 power.  (A creature that has power 0 or less is destroyed.) &#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more darkness cards in your mana zone, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature into the battle zone, each of your opponent's creatures gets -2000 power. (A creature that has power 0 or less is destroyed.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Blacko, Dragon Soul Palace" id="658e5454-84b1-4c1e-b8a0-54446007340d" size="wide">
+    <card id="658e5454-84b1-4c1e-b8a0-54446007340d" name="Blacko, Dragon Soul Palace">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value=" 3"/>
+      <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="When you put this fortress into the battle zone, your opponent chooses and discards a card from his hand. Hyperspatial Dragheart Fortress"/>
+      <property name="Rules" value="■ When you put this fortress into the battle zone, your opponent chooses and discards a card from their hand. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12a"/>
+      <property name="Number" value="12a/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       <alternate name="All Over The World, Supreme True Dragon Soul" type="awakening" size="normal">
-        <property name="Format" value="OCG"/>
         <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-        <property name="Cost" value=" 50"/>
+        <property name="Cost" value="50"/>
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="World Command Dragon"/>
         <property name="Power" value="50000"/>
-        <property name="Rules" value="When this creature is dragsolutioned, each player puts all cards in his hand, battle zone and graveyard other than this creature into their owners decks and shuffles it.&#xD;&#xA;Speed attacker&#xD;&#xA;World breaker&#xD;&#xA; When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
-        <property name="Rarity" value="Rare"/>
-        <property name="Number" value="6b"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="12b/54"/>
+        <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
       </alternate>
     </card>
-    <card name="Glenmalt 'Blade', King Dragon Edge" id="1a0a2d3c-4008-4c1b-8138-878f99bcea81">
+    <card id="8374af36-6b1a-4586-a159-f3f4ffdbfff7" name="All Over The World, Supreme True Dragon Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="50"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="World Command Dragon"/>
+      <property name="Power" value="50000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="12b/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="1a0a2d3c-4008-4c1b-8138-878f99bcea81" name="Glenmalt &quot;Blade&quot;, King Dragon Ruler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put up to 2 fortresses that cost 3 or less or a Fire dragheart that costs 5 or less from your hyperspatial zone into the battle zone.&#xD;&#xA;Speed attacker&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put up to 2 fortresses that cost 3 or less or a Fire dragheart that costs 5 or less from your hyperspatial zone into the battle zone.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Mettagils, Passion Dragon" id="0cf6e1ee-662e-41b5-ad7c-d5bc359da1a9">
+    <card id="0cf6e1ee-662e-41b5-ad7c-d5bc359da1a9" name="Mettagils, Passion Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more fire cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xD;&#xA; When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and put it into its owner's graveyard.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more fire cards in your mana zone, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's non-evolution cards that costs 5 or less in the battle zone and put it into its owner's graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Linkwood's Soul Burning" id="74cfeccc-8195-42f3-be0e-e98165e90a1d">
+    <card id="74cfeccc-8195-42f3-be0e-e98165e90a1d" name="Linkwood's Soul Burning">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Gravity Zero-If you have 3 or more Dragons in the battle zone, you may cast this spell for no cost.&#xD;&#xA; Each of your creatures in the battle zone gets +3000 power and breaks an additional shield until the end of the turn.&#xD;&#xA; Whenever one of your creatures is blocked this turn, untap that creature."/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 3 or more Dragons in the battle zone you may cast this spell for no cost.&#xA;■ Each of your creatures in the battle zone gets +3000 power and breaks an additional shield until the end of the turn.&#xA;■ Whenever one of your creatures is blocked this turn, untap that creature."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Bell the Elemental" id="4fca99d2-cfde-48a0-8c17-2af72774975c">
+    <card id="4fca99d2-cfde-48a0-8c17-2af72774975c" name="Bell the Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Snow Faerie Kaze"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Evolution—Put on one of your nature creatures.&#xD;&#xA;Double breaker&#xD;&#xA; Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ Evolution: Put on one of your nature creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Traptops, Green Trap Toxickind" id="18e35634-b50b-4c84-9e3a-ef0feae71e8c">
+    <card id="ad15ff90-91ed-4c71-b323-ac9001ec5620" name="Bell the Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Snow Faerie Kaze"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your nature creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="18e35634-b50b-4c84-9e3a-ef0feae71e8c" name="Traptops, Green Trap Toxickind">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jurassic Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more nature cards in your mana zone, this creature gets {SHIELD TRIGGER}.&#xD;&#xA; When you put this creature into the battle zone, choose one of your opponent's non-evolution cards in the battle zone that costs 5 or less and put it into it's owner mana zone.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Mana Arms 5: When this creature is put into your hand from your shields, if you have 5 or more nature cards in your mana zone, this creature gets &quot;shield trigger&quot;.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's non-evolution cards in the battle zone that costs 5 or less and put it into its owner mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Miramekke, Barrier Style" id="885b8c81-cf03-4f82-9676-a357ad487a0b">
+    <card id="885b8c81-cf03-4f82-9676-a357ad487a0b" name="Miramekke, Barrier Style">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk Go"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Double breaker&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Sadoniaras, Instant Guard Dragon Elemental" id="3bb72d21-530d-4117-ac35-38b9da9a8af4">
+    <card id="3bb72d21-530d-4117-ac35-38b9da9a8af4" name="Sadoniaras, Instant Guard Dragon Elemental">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value=" Strike Back—Light (When a light card is put into your hand from your shield zone, you may discard that card. If you do, summon this creature for no cost.)&#xD;&#xA;{BLOCKER}&#xD;&#xA; This creature can't attack players."/>
+      <property name="Rules" value="{STRIKE BACK}-Light (When a Light card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Protection Circle" id="7845291e-1e61-4cd5-8606-e83a3badc262">
+    <card id="cf6167fb-d8da-4d34-a1a5-5f32a2440412" name="Master Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="20/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="2ae2175a-73a3-4d35-b00a-bdc163f4da21" name="Master Spark">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="20d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="7845291e-1e61-4cd5-8606-e83a3badc262" name="Protection Circle">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Add a card from your hand to your shields face down.&#xD;&#xA; If you have more shields than your opponent, you may draw a card."/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Rules" value="■ Add a card from your hand to your shields face down.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="21/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Octopuscal, Great Captain" id="c6104f8e-31f0-486b-bf47-77f5dd3aaa4a">
+    <card id="c6104f8e-31f0-486b-bf47-77f5dd3aaa4a" name="Octopuscal, Great Captain">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Virus Kai"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="Evolution—Put on one of your water creatures.&#xD;&#xA; This creature can't be blocked.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ Evolution—Put on one of your water creatures.&#xA;■ This creature can't be blocked.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="The Mister, Aqua Admiral" id="9a013d54-6a38-4606-ba9c-25416b4ef405">
+    <card id="828b355a-7f65-41c7-ad4b-1bf21132a4a8" name="Octopuscal, Great Captain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Virus Kai"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your water creatures.&#xA;■ This creature can't be blocked.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22d/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="9a013d54-6a38-4606-ba9c-25416b4ef405" name="The Mister, Aqua Admiral">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People Sen"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="When this creature would be discarded from your hand by the ability of one of your opponent's creatures or spells, you may put it into the battle zone instead.&#xD;&#xA; When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all creatures that have no abilities from the revealed cards into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="■ When this creature would be discarded from your hand by the effect of one of your opponent's spells or creature ability, you may put it into the battle zone instead.&#xA;■ When you put this creature into the battle zone, reveal the top 3 cards of your deck. Put all creatures that have no abilities from the revealed cards into your hand, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="T Pururun" id="a8e46530-767e-4f13-a40d-683349512a7d">
+    <card id="a8e46530-767e-4f13-a40d-683349512a7d" name="T Pururun">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus Kai"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA; When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the 'shield trigger' ability of that shield."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Diodester, Dark Armor" id="210b2424-2eac-4789-bf19-84995ddcda08">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Dark Knightmare"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="Strike Back — Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, summon this creature for no cost.)"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
-      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
-    </card>
-    <card name="Ittaneat, Eating Desire Demon Dragon" id="bce8a2e2-32c4-4a04-a898-085801479b7a">
+    <card id="210b2424-2eac-4789-bf19-84995ddcda08" name="Ittaneat, Eating Desire Demon Dragon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="When you put this creature into the battle zone, destroy one of your creatures.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="25/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Ira Hop, Explosive Assault" id="bd520902-14e4-4d97-bb27-aac1299bd8f1">
+    <card id="bce8a2e2-32c4-4a04-a898-085801479b7a" name="Diodester, Dark Armor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Knightmare"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="2df4c84c-20ed-4e6b-9f31-a41cfb08497d" name="Gatsunto Daipunch, Passion Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature or whenever it attacks, choose one of your opponent's creatures. This creature and that creature battle.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="bd520902-14e4-4d97-bb27-aac1299bd8f1" name="Islay Hop, Explosive Assault">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human Baku"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="Strike Back—Fire (When a fire card is put into your hand from your shield zone, you may discard that card. If you do, summon this creature for no cost.)"/>
+      <property name="Rules" value="{STRIKE BACK}-Fire (When a Fire card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Linkwood's Dragon Transformation" id="7c85701f-d606-4721-b0b0-b543f046d508">
+    <card id="7c85701f-d606-4721-b0b0-b543f046d508" name="Linkwood's Dragon Transformation">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Each of your creatures in the battle zone gets +3000 power and the Gaial Command Dragon race until the end of the turn."/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets +3000 power and the Gaial Command Dragon race until the end of the turn."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Sasoris Rage, Terror Dragon Edge" id="8ec84d43-6120-42d4-a232-57f4b40a7dd5">
+    <card id="8ec84d43-6120-42d4-a232-57f4b40a7dd5" name="Sasoris Rage, Terror Dragon Ruler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jurassic Command Dragon/Beast Folk Go/Draguner"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="Guardman&#xD;&#xA; When you put this creature into the battle zone, put a dragheart that costs 3 or less or a nature dragheart that costs 5 or less from your hyperspatial zone into the battle zone.  (If it's a weapon, equip it to this creature.) &#xD;&#xA; When you put this creature into the battle zone, you may put the top card of your deck into your mana zone.&#xD;&#xA;Double breaker"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put a dragheart that costs 3 or less or a nature dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;■ When you put this creature, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Live, Barrier Ball" id="660cde1f-0c78-433a-99d5-3e639e05aabe">
+    <card id="5bdeb7b2-fa28-4d49-a0a7-b583088db396" name="Fortrezaurus, Fortresskind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jurassic Command Dragon"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ For each of your Fortresses in the battle zone, this creature gets +4000 power and breaks an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="2a1085bc-0c59-4c3c-84bf-9d14b670c33a" name="Holy Land Rebirth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put all cards in your graveyard into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="660cde1f-0c78-433a-99d5-3e639e05aabe" name="Live, Barrier Ball">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Justice Orb"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{BLOCKER}&#xD;&#xA; This creature can't attack players.&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Andro Saver, Martyrdom Wings" id="7863b537-3793-4fa0-ba79-6db0e7a78505">
+    <card id="7863b537-3793-4fa0-ba79-6db0e7a78505" name="Andro Saver, Martyrdom Wings">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Justice Wing"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="Saver: Light creature (When one of your light creatures would be destroyed, you may destroy this creature instead.) &#xD;&#xA; Mana Arms 3: When this creature is destroyed, if you have 3 or more light cards in your mana zone, put the top card of your deck into your shield zone face down."/>
+      <property name="Rules" value="■ Saver: Light creature (When one of your light creatures would be destroyed, you may destroy this creature instead.)&#xA;■ Mana Arms 3: When this creature is destroyed, if you have 3 or more light cards in your mana zone, put the top card of your deck into your shield zone face down."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Newee, Guerrilla Division" id="9f70ceeb-246a-47cd-a4e2-ea753b149136">
+    <card id="33d98830-f04b-4278-8416-b4ff181647ca" name="Andro Saver, Martyrdom Wings">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Justice Wing"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Saver: Light creature (When one of your light creatures would be destroyed, you may destroy this creature instead.)&#xA;■ Mana Arms 3: When this creature is destroyed, if you have 3 or more light cards in your mana zone, put the top card of your deck into your shield zone face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="34d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="9f70ceeb-246a-47cd-a4e2-ea753b149136" name="Newee, Guerrilla Division">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Justice Wing"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="{BLOCKER}&#xD;&#xA; You may have 4 or more  'Newee, Guerrilla Division ' in your deck. &#xD;&#xA; If you don't have 5 or more creatures in the battle zone, this creature can't attack players.&#xD;&#xA; If you have 5 or more creatures that have 'Guerrilla Division' in their name in the battle zone, this creature gets +5000 power and 'double breaker'."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ You may have more than 4 'Newee, Guerrilla Division' in your deck.&#xA;■ If you don't have 5 or more creatures in the battle zone, this creature can't attack players.&#xA;■ If you have 5 or more creatures that have &quot;Guerrilla Division&quot; in their name in the battle zone, this creature gets +5000 power and &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Venileo, White Strike Wings" id="a82b14ac-820a-4cee-9bee-287852bd0faa">
+    <card id="a82b14ac-820a-4cee-9bee-287852bd0faa" name="Venileo, White Strike Wings">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Justice Wing"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value=""/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Barrierarmor, Aqua Defense Team" id="3d2a0a38-1440-40ec-a819-5f4f2ce845ab">
+    <card id="2d0c11b7-1f09-4b80-ac8b-6c58fe384601" name="Trois Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ You may put a light creature that costs 3 or less from your hand into the battle zone.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="324e862b-fbe2-42e7-b845-01aad33b9d70" name="Trigaroid, Aqua Spy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People Sen"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="3d2a0a38-1440-40ec-a819-5f4f2ce845ab" name="Barrierarmor, Aqua Defense Team">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People Sen"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="This creature can't be blocked.&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Aquaarmy, Guerrilla Division" id="a3257195-6156-48c8-a946-e71e62fd344b">
+    <card id="a3257195-6156-48c8-a946-e71e62fd344b" name="Aquaarmy, Guerrilla Division">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People Sen"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="You may have 4 or more  'Aquaarmy, Guerrilla Division ' in your deck.&#xD;&#xA; If you have 5 or more creatures that have 'Guerrilla Division' in their name in the battle zone, this creature gets +5000 power and 'double breaker'."/>
+      <property name="Rules" value="■ You may have more than 4 'Aquaarmy, Guerrilla Division' in your deck.&#xA;■ If you have 5 or more creatures that have &quot;Guerrilla Division&quot; in their name in the battle zone, this creature gets +5000 power and &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Screw Spiral" id="afe7d206-b691-40ad-bf2f-76a6e8fb290f">
+    <card id="afe7d206-b691-40ad-bf2f-76a6e8fb290f" name="Screw Spiral">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Choose a creature in the battle zone and return it to its owner's hand.&#xD;&#xA; If you have more shields than your opponent, you may draw a card."/>
+      <property name="Rules" value="■ Choose a creature in the battle zone and return it to its owner's hand.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Emergency Typhoon" id="ed6e8052-9e79-4fa1-97c2-c60fc49ea5da">
-      <property name="Format" value="OCG"/>
+    <card id="ed6e8052-9e79-4fa1-97c2-c60fc49ea5da" name="Emergency Typhoon">
+      <property name="Format" value="OCG,TCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} &#xD;&#xA; Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Barrierbara, Barrier Phantom" id="cbd20d14-9f6b-41c1-8aec-c1b22ddcb956">
+    <card id="cbd20d14-9f6b-41c1-8aec-c1b22ddcb956" name="Barrierbara, Barrier Phantom">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Funky Knightmare"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="Slayer&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Revival from Darkness" id="77b3ef66-b1c4-449e-80d9-2c1a03a75ac4">
+    <card id="8a3b34fb-0e22-40c5-bb25-c8080670a64e" name="Blade of Mutual Fall">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your creatures and one of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="77b3ef66-b1c4-449e-80d9-2c1a03a75ac4" name="Revival from Darkness">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Return a creature from your graveyard to your hand.&#xD;&#xA; If you have more shields than your opponent, you may draw a card."/>
+      <property name="Rules" value="■ Return a creature from your graveyard to your hand.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Hibiki 18y, Explosive Wall" id="49413924-9383-40a5-bae5-17576dfe7ea0">
+    <card id="49413924-9383-40a5-bae5-17576dfe7ea0" name="Hibiki 18y, Explosive Wall">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human Baku"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="Speed attacker&#xD;&#xA; Escape (When this creature would be destroyed, you may add a card from your shield zone to your hand instead. You can't use the 'shield trigger' ability of that shield.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Cocco Gett, Dragment Lore" id="2efa3aae-f28e-41a8-be18-1fa2ac05d624">
+    <card id="2237e679-46c6-4c93-bd54-dc04cb52f755" name="Hibiki 18y, Explosive Wall">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human Baku"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="2efa3aae-f28e-41a8-be18-1fa2ac05d624" name="Cocco Gett, Dragment Lore">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human Baku"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="Mana Arms 3: If you have 3 or more fire cards in your mana zone, your Command Dragons may each cost up to 2 less to summon. They can't cost less than 1."/>
+      <property name="Rules" value="■ Mana Arms 3: If you have 3 or more fire cards in your mana zone, your Command Dragons may each cost up to 2 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Godspeed Trick, Explosive Swordsmanship" id="96c6018e-072f-408a-bd0c-4b12b6258a9f">
+    <card id="a3d337f0-8e0f-4ffc-8078-a3ea4e064cca" name="Cocco Gett, Dragment Lore">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human Baku"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Mana Arms 3: If you have 3 or more fire cards in your mana zone, your Command Dragons may each cost up to 2 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47d/54 (Dramatic Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="aaa61e66-10aa-4e23-ab61-8c4e7177c9bd" name="Lore Ceremony, Explosive Swordplay">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Each player chooses one of their creatures that has power 5000 or less and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="96c6018e-072f-408a-bd0c-4b12b6258a9f" name="Godspeed Trick, Explosive Swordsmanship">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="One of your creatures in the battle zone gets 'speed attacker'.  (A creature that gets 'speed attacker' doesn't get summoning sickness.) &#xD;&#xA; If you have more shields than your opponent, you may draw a card."/>
+      <property name="Rules" value="■ One of your creatures in the battle zone gets &quot;speed attacker&quot;. (A creature that gets &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Bronzezaurus, Bronzekind" id="37b495e5-c4c7-4e71-af86-bf1119effeb3">
+    <card id="37b495e5-c4c7-4e71-af86-bf1119effeb3" name="Bronzezaurus, Bronzekind">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jurassic Command Dragon"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="When you put this creature into the battle zone, put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Bearkodash, Bears Style" id="9f2e723e-2f39-4010-91e4-4f5f73a20102">
+    <card id="798cc164-157e-48c1-948d-d8eccac25977" name="Large Gathering! Acorn Army">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose a creature in the battle zone. This turn, that creature gets +2000 power and can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="9f2e723e-2f39-4010-91e4-4f5f73a20102" name="Bearkodash, Bears Style">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk Go"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value=""/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/54"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
-    <card name="Berserker Trance" id="85f45ea5-de97-4f0f-97aa-bb7c1fd6f85c">
+    <card id="4c668b1c-256d-41f6-b768-d89bba990be9" name="Lifeplan Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at the top 5 cards of your deck. You may take a creature from among them, show that creature to your opponent, and put it into your hand. Then put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="85f45ea5-de97-4f0f-97aa-bb7c1fd6f85c" name="Berserker Trance">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Power" value=""/>
-      <property name="Rules" value="Choose one of your creatures in the battle zone. That creature gets +3000 power and breaks an additional shield until the end of the turn.&#xD;&#xA; If you have more shields than your opponent, you may draw a card."/>
+      <property name="Rules" value="■ Choose one of your creatures in the battle zone. That creature gets +3000 power and breaks an additional shield until the end of the turn.&#xA;■ If you have more shields than your opponent, you may draw a card."/>
+      <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/54"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="8236586d-96d0-489e-a142-92ec4d5df4f4" name="Goal do Leiy, Holy Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your light creatures gets &quot;Saver: Angel Command&quot;. (When one of your Angel Commands would be destroyed, you may destroy one of your creatures that has &quot;Saver: Angel Command&quot; instead.)&#xA;■ Mana Arms 7: If you have 7 or more light cards in your mana zone, each of your light creatures put into your hand from your shields gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S2"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="f9d991e9-32fa-451d-8620-446b9d3d08d5" name="Sb Ryuuisou, Dragment Symbol">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Crystal Command Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever you cast a spell, you may draw a card.&#xA;■ Each of your spells gets &quot;Strike Back: Same Civilization&quot;. (Whenever a shield is put into your hand, you may discard it. If you do, cast a spell that has the same civilization as that shield from your hand for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S2"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="a97bcfbe-274e-4f94-bfa3-3c54d533b179" name="Endless Heaven, True Holy Church">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever one of your creatures is destroyed, you may add the top card of your deck to your shields face down.&#xA;{DRAGSOLUTION}: At the end of your turn, if your number of shields is greater than your opponent, flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1a/V1b"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+      <alternate name="Neverend, True Destiny King" type="awakening" size="normal">
+        <property name="Civilization" value="Light"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Angel Command Dragon"/>
+        <property name="Power" value="14500"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever your Dragons attack, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;■ True Escape (When this creature would leave the battle zone, you may add 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot; abilities of those shields.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="V1b㊙/V1 (Secret Card)"/>
+        <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+      </alternate>
+    </card>
+    <card id="7488a1ce-a299-4c8b-8570-3244fc2027b9" name="Neverend, True Destiny King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="14500"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever your Dragons attack, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;■ True Escape (When this creature would leave the battle zone, you may add 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot; abilities of those shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1b/V1b"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="845bb5f1-0d83-4585-836f-2774cbab9b24" name="Neverend, True Destiny King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="14500"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever your Dragons attack, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;■ True Escape (When this creature would leave the battle zone, you may add 2 of your shields to your hand instead. You can't use the &quot;shield trigger&quot; abilities of those shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1b㊙/V1 (Secret Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="627ca3a6-298c-4b78-900e-7b9a1785db83" name="Heart Burn, Battle General Galaxy Fortress">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Each of your Dragons gets &quot;speed attacker&quot;.&#xA;■ Dragsolution: When one of your Dragons untaps, flip this to the Dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="VV1a/VV1b"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+      <alternate name="GuyNEXT, Super Battle Victory Dragon" type="awakening" size="normal">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="17000"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Double Victory"/>
+        <property name="Number" value="VV1b㊙1/VV1 (Secret Card)"/>
+        <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+      </alternate>
+    </card>
+    <card id="ec39456f-ee5d-4869-86d4-06da86eded0f" name="GuyNEXT, Super Battle Victory Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="VV1b/VV1b"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="bad68710-5152-41ae-a005-5e4230679fa7" name="GuyNEXT, Super Battle Victory Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="VV1b㊙1/VV1 (Secret Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="86389ddd-6377-40cf-9708-a8d9adb25b3e" name="GuyNEXT, Super Battle Victory Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Double Victory"/>
+      <property name="Number" value="VV1b㊙2/VV1 (Secret Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="43e756d6-bcc4-4d59-8d7e-5e0be4893fe8" name="Metal Avenger Revenge, Nu Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Crystal Command Dragon/Liquid People Sen/Draguner"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put a dragheart that costs 3 or less or a water dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;■ When you put this creature into the battle zone, you may draw a card.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="㊙1d/㊙2d (Dramatic Card) (Secret Card)"/>
+      <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
+    </card>
+    <card id="2f1eb0fa-b67f-4f94-a6bc-e5e514058d53" name="Hellborof, Supreme Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command Dragon/Funky Knightmare/Draguner"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a dragheart that costs 3 or less or a darkness dragheart that costs 5 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)&#xA;■ When you put this creature into the battle zone, you may put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙2d/㊙2d (Dramatic Card) (Secret Card)"/>
       <property name="Set" value="DMR-16真 Super Battle Guynext x Shin"/>
     </card>
   </cards>

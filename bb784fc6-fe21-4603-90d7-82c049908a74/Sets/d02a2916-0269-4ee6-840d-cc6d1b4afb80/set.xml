@@ -20,844 +20,822 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Ladia Bale, the Inspirational" id="5d095b28-262e-454d-96c7-9174ed83e3f6">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Guardian"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Power" value="9500"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Crystal Paladin" id="41e8d5c2-bfeb-48bb-ab9e-aaee79852c89">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;■ When you put this creature into the battle zone, return all creatures in the battle zone that have &quot;blocker&quot; to their owners' hands."/>
-      <property name="Power" value="5000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Ultracide Worm" id="215c4cfb-2a22-4ee1-b4ea-28ac24a1eeee">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Parasite Worms.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Power" value="11000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Armored Blaster Valdios" id="eac1bc57-bdf8-4629-86b3-9609d1bf2aba">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Human"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ Each of your other Humans in the battle zone gets +1000 power.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Fighter Dual Fang" id="0dca6f6c-c426-4c88-b283-043527f04bb3">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ When you put this creature into the battle zone, put the top 2 cards of your deck into your mana zone.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Power" value="8000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-    </card>
-    <card name="Diamond Cutter" id="a73bf1d3-b4a6-48cd-89d3-1983f160304d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a73bf1d3-b4a6-48cd-89d3-1983f160304d" name="Diamond Cutter">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ This turn, ignore any effects that would prevent your creatures from attacking your opponent. (For example, ignore summoning sickness and card effects that say &quot;This creature can't attack&quot; or &quot;This creature can't attack players&quot;. Your creatures can't attack creatures this way.)"/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="1"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Ethel, Star Sea Elemental" id="40439f79-8f48-4e62-9009-cb06798ef7ac">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="40439f79-8f48-4e62-9009-cb06798ef7ac" name="Ethel, Star Sea Elemental">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
-      <property name="Rules" value="■ This creature can't be blocked."/>
       <property name="Power" value="5500"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ This creature can't be blocked."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Fonch, the Oracle" id="96ecef8e-0485-418d-9d0d-a4169c3b70b7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="96ecef8e-0485-418d-9d0d-a4169c3b70b7" name="Fonch, the Oracle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="3"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Laguna, Lightning Enforcer" id="b85b0492-132c-46ac-85e6-c8b5b466598a">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b85b0492-132c-46ac-85e6-c8b5b466598a" name="Laguna, Lightning Enforcer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Berserker"/>
-      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="2500"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="4"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Larba Geer, the Immaculate" id="fd9f6d26-8fd8-43f2-84e5-b83493a1106e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fd9f6d26-8fd8-43f2-84e5-b83493a1106e" name="Larba Geer, the Immaculate">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures in the battle zone that have &quot;blocker&quot;."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="5"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Guardians.&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures in the battle zone that have &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Logic Cube" id="17ee5046-c3fd-4422-af14-c54a4be8d9a2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="17ee5046-c3fd-4422-af14-c54a4be8d9a2" name="Logic Cube">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="6"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Magris, Vizier of Magnetism" id="749d1209-4847-4401-8d70-8c95fd26c220">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="749d1209-4847-4401-8d70-8c95fd26c220" name="Magris, Vizier of Magnetism">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may draw a card."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="7"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Phal Eega, Dawn Guardian" id="1960f3c2-5321-4da1-be56-50a7e98cae0d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="1960f3c2-5321-4da1-be56-50a7e98cae0d" name="Phal Eega, Dawn Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your graveyard to your hand."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a spell from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Reso Pacos, Clear Sky Guardian" id="b691251e-8b9b-4436-8ca8-d9d3aba3ac72">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="b691251e-8b9b-4436-8ca8-d9d3aba3ac72" name="Reso Pacos, Clear Sky Guardian">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="9"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Spiral Grass" id="1eca6a24-9270-477f-a588-80859481ef94">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="1eca6a24-9270-477f-a588-80859481ef94" name="Spiral Grass">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Starlight Tree"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, untap it after it battles."/>
       <property name="Power" value="2500"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, untap it after it battles."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Wyn, the Oracle" id="206c53d6-8068-4fec-bc5b-287de58eed5f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="206c53d6-8068-4fec-bc5b-287de58eed5f" name="Wyn, the Oracle">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
       <property name="Power" value="1500"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="11"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Aqua Bouncer" id="ac636f90-215f-4934-bcd3-abfec69a5fda">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ac636f90-215f-4934-bcd3-abfec69a5fda" name="Aqua Bouncer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Aqua Shooter" id="f4a364f5-d0e9-4777-b51e-6dc6e39b803c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f4a364f5-d0e9-4777-b51e-6dc6e39b803c" name="Aqua Shooter">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="13"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Corile" id="ecd61b34-85ca-4a91-b993-7a8c9976a2b5">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ecd61b34-85ca-4a91-b993-7a8c9976a2b5" name="Corile">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and put it on top of his deck."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="14"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and put it on top of his deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Crystal Lancer" id="3f0fb8f6-d01e-4005-8340-b84584f50a2a">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="3f0fb8f6-d01e-4005-8340-b84584f50a2a" name="Crystal Lancer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Liquid People"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;■ This creature can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="8000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="15"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;■ This creature can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Hypersquid Walter" id="5781986a-4ca8-48e1-a5a1-95e820455bce">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5781986a-4ca8-48e1-a5a1-95e820455bce" name="Hypersquid Walter">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may draw a card."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="King Nautilus" id="5cf64846-0eb2-4e8d-bf15-4ca573f96e58">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="5cf64846-0eb2-4e8d-bf15-4ca573f96e58" name="King Nautilus">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan"/>
-      <property name="Rules" value="■ Liquid People can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Liquid People can't be blocked.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Plasma Chaser" id="f9b47778-c7d5-48da-aac3-1ddf8efbbbf1">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="f9b47778-c7d5-48da-aac3-1ddf8efbbbf1" name="Plasma Chaser">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may draw a number of cards equal to the number of creatures your opponent has in the battle zone."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="18"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may draw a number of cards equal to the number of creatures your opponent has in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Recon Operation" id="aa1cca8a-3140-4180-9c9f-3f126dd16a68">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="aa1cca8a-3140-4180-9c9f-3f126dd16a68" name="Recon Operation">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Look at up to 3 of your opponent's shields. Then put them back where they were."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="19"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Scissor Eye" id="7956b4f5-b910-403d-b388-b67c837b7e99">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="7956b4f5-b910-403d-b388-b67c837b7e99" name="Scissor Eye">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gel Fish"/>
-      <property name="Rules" value=""/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="20"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Stained Glass" id="6406411f-e9ae-4b55-8213-7e18c4cd9aee">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6406411f-e9ae-4b55-8213-7e18c4cd9aee" name="Stained Glass">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may choose one of your opponent's fire or nature creatures in the battle zone and return it to its owner's hand."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose one of your opponent's fire or nature creatures in the battle zone and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Thought Probe" id="98b1afbe-5a0a-461e-800c-34d02339f21f">
+    <card id="98b1afbe-5a0a-461e-800c-34d02339f21f" name="Thought Probe">
       <property name="Format" value="TCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you cast this spell, if your opponent has 3 or more creatures in the battle zone, draw 3 cards."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Amber Piercer" id="839f780b-067b-4b3c-9090-7cd614375da9">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="839f780b-067b-4b3c-9090-7cd614375da9" name="Amber Piercer">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Brain Jacker"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may return a creature from your graveyard to your hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="23"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may return a creature from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Chaos Worm" id="66ee3b9e-fdbf-41c2-9363-5327572706f2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="66ee3b9e-fdbf-41c2-9363-5327572706f2" name="Chaos Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Parasite Worms.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Parasite Worms.&#xA;■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Critical Blade" id="99791f19-21ee-4ee3-a6b0-e26702c2a380">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="99791f19-21ee-4ee3-a6b0-e26702c2a380" name="Critical Blade">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="25"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Dark Titan Maginn" id="39b8b1c0-bc1d-445b-b60d-91cabfe62fb5">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="39b8b1c0-bc1d-445b-b60d-91cabfe62fb5" name="Dark Titan Maginn">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
-      <property name="Rules" value="■ Whenever this creature attacks, your opponent discards a card at random from his hand."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="26"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, your opponent discards a card at random from his hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="General Dark Fiend" id="fcf2f484-c471-4a5d-bc41-1fcd56604d73">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fcf2f484-c471-4a5d-bc41-1fcd56604d73" name="General Dark Fiend">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
-      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields without looking and put it into your graveyard. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="27"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your shields without looking and put it into your graveyard. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Gigastand" id="66ac493f-b836-46c9-a28e-09e7bd040064">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="66ac493f-b836-46c9-a28e-09e7bd040064" name="Gigastand">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Chimera"/>
-      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, you may return it to your hand instead. If you do, discard a card from your hand."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="28"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When this creature would be put into your graveyard from the battle zone, you may return it to your hand instead. If you do, discard a card from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Gray Balloon, Shadow of Greed" id="84b7a5f2-cbfc-4d2d-a757-6685aa38c241">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="84b7a5f2-cbfc-4d2d-a757-6685aa38c241" name="Gray Balloon, Shadow of Greed">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Horrid Worm" id="733a4f35-7470-40e3-9cd7-479aa965bfbb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="733a4f35-7470-40e3-9cd7-479aa965bfbb" name="Horrid Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="■ Whenever this creature attacks, your opponent discards a card at random from his hand."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="30"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, your opponent discards a card at random from his hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Lost Soul" id="fae765a5-fa73-4627-94d1-f74f2ed00792">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="fae765a5-fa73-4627-94d1-f74f2ed00792" name="Lost Soul">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Your opponent discards all cards from his hand."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Marrow Ooze, the Twister" id="4916f651-6169-4e8b-be5d-6a3237dc0a70">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4916f651-6169-4e8b-be5d-6a3237dc0a70" name="Marrow Ooze, the Twister">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Living Dead"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature attacks a player, destroy it after the attack."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="32"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature attacks a player, destroy it after the attack."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Poison Worm" id="ec3213d2-6914-4091-bf86-869354a36b15">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ec3213d2-6914-4091-bf86-869354a36b15" name="Poison Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Parasite Worm"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures that has power 3000 or less."/>
       <property name="Power" value="4000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="33"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy one of your creatures that has power 3000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Armored Cannon Balbaro" id="24353d06-89ef-4867-9513-485750d01e10">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="24353d06-89ef-4867-9513-485750d01e10" name="Armored Cannon Balbaro">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ While attacking, this creature gets +2000 power for each other Human in the battle zone."/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ While attacking, this creature gets +2000 power for each other Human in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Bolzard Dragon" id="05d946f7-5977-4f51-8bca-ecb39845f1a2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="05d946f7-5977-4f51-8bca-ecb39845f1a2" name="Bolzard Dragon">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="■ Whenever this creature attacks, choose a card in your opponent's mana zone and put it into his graveyard."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="35"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose a card in your opponent's mana zone and put it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Bombersaur" id="e1e112d7-11e1-4f01-9c91-00a2b1626043">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="e1e112d7-11e1-4f01-9c91-00a2b1626043" name="Bombersaur">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="■ When this creature is destroyed, each player chooses 2 cards in his mana zone and puts them into his graveyard."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="36"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When this creature is destroyed, each player chooses 2 cards in his mana zone and puts them into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Burst Shot" id="4b715b5c-2e82-4686-9c9f-4ce1e5503621">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="4b715b5c-2e82-4686-9c9f-4ce1e5503621" name="Burst Shot">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy all creatures that have power 2000 or less."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="37"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Cavalry General Curatops" id="c125f786-e6d5-4477-8ab0-1e92d6eed348">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="c125f786-e6d5-4477-8ab0-1e92d6eed348" name="Cavalry General Curatops">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="■ This creature can attack untapped creatures."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="38"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ This creature can attack untapped creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Dogarn, the Marauder" id="9311b3ec-fe9e-45bd-a989-dc00aec3ca60">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="9311b3ec-fe9e-45bd-a989-dc00aec3ca60" name="Dogarn, the Marauder">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armorloid"/>
-      <property name="Rules" value="■ While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="39"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Engineer Kipo" id="0bea1262-311a-47b1-888d-dd065cfe3d7f">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="0bea1262-311a-47b1-888d-dd065cfe3d7f" name="Engineer Kipo">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Eater"/>
-      <property name="Rules" value="■ When this creature is destroyed, each player chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When this creature is destroyed, each player chooses a card in his mana zone and puts it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Galsaur" id="ba8c4d25-a352-4725-a3aa-6eb015f99d6c">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ba8c4d25-a352-4725-a3aa-6eb015f99d6c" name="Galsaur">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Rock Beast"/>
-      <property name="Rules" value="■ While you have no other creatures in the battle zone, this creature gets &quot;power attacker +4000&quot; and &quot;double breaker&quot;. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
       <property name="Power" value="4000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ While you have no other creatures in the battle zone, this creature gets &quot;power attacker +4000&quot; and &quot;double breaker&quot;. (A creature that has &quot;power attacker +4000&quot; and &quot;double breaker&quot; gets +4000 power while attacking and breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Metalwing Skyterror" id="cf536a4d-1512-44d8-b0e6-615d0725e3f0">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cf536a4d-1512-44d8-b0e6-615d0725e3f0" name="Metalwing Skyterror">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Wyvern"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has &quot;blocker&quot; and destroy it.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="42"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may choose a creature in the battle zone that has &quot;blocker&quot; and destroy it.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Mini Titan Gett" id="9fed2257-362f-43c7-b50e-5526ccf799aa">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="9fed2257-362f-43c7-b50e-5526ccf799aa" name="Mini Titan Gett">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human"/>
-      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;{POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Rumble Gate" id="cc5c643e-5120-421d-b26f-76be381dead7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="cc5c643e-5120-421d-b26f-76be381dead7" name="Rumble Gate">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Each of your creatures in the battle zone gets +1000 power until the end of the turn.&#xA;■ Each of your creatures in the battle zone that can attack creatures can attack untapped creatures this turn."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Barkwhip, the Smasher" id="48ab3f2b-4ae3-41a4-ae6f-61b49c958bdb">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="48ab3f2b-4ae3-41a4-ae6f-61b49c958bdb" name="Barkwhip, the Smasher">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ While this creature is tapped, each of your other Beast Folk in the battle zone gets +2000 power."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="45"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ While this creature is tapped, each of your other Beast Folk in the battle zone gets +2000 power."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Elf-X" id="60d8c6a6-20c1-425c-9ecc-b56981a70e21">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="60d8c6a6-20c1-425c-9ecc-b56981a70e21" name="Elf-X">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="■ Your creatures each cost 1 less to summon. They can't cost less than 1."/>
       <property name="Power" value="2000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="46"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Your creatures each cost 1 less to summon. They can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Essence Elf" id="ed3931f2-2b60-48d4-b82f-361d3a8c5bd7">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ed3931f2-2b60-48d4-b82f-361d3a8c5bd7" name="Essence Elf">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk"/>
-      <property name="Rules" value="■ Your spells each cost 1 less to cast. They can't cost less than 1."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Your spells each cost 1 less to cast. They can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Fortress Shell" id="2c7e38e1-0546-47ab-9388-383d093405b2">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="2c7e38e1-0546-47ab-9388-383d093405b2" name="Fortress Shell">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Colony Beetle"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose up to 2 cards in your opponent's mana zone and put it into his graveyard."/>
       <property name="Power" value="5000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="48"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose up to 2 cards in your opponent's mana zone and put it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Leaping Tornado Horn" id="a219c895-5822-458e-862f-6ade1529c42e">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="a219c895-5822-458e-862f-6ade1529c42e" name="Leaping Tornado Horn">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each other creature you have in the battle zone."/>
       <property name="Power" value="2000+"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ While attacking, this creature gets +1000 power for each other creature you have in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Mana Crisis" id="bf5ce598-f604-4c55-b0c9-9ed0e059aeec">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="bf5ce598-f604-4c55-b0c9-9ed0e059aeec" name="Mana Crisis">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a card in your opponent's mana zone and put it into his graveyard."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="50"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Rainbow Stone" id="ff33e31f-4f1c-4c07-b293-2e65a13e1077">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="ff33e31f-4f1c-4c07-b293-2e65a13e1077" name="Rainbow Stone">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
       <property name="Rules" value="■ Search your deck. You may take a card from your deck and put it into your mana zone. Then shuffle your deck."/>
-      <property name="Power" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Rumbling Terahorn" id="6e381955-231b-4e4e-a14b-82509a5e193b">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="6e381955-231b-4e4e-a14b-82509a5e193b" name="Rumbling Terahorn">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Horned Beast"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Power" value="3000"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="52"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Silver Axe" id="94e5d2a3-d8b2-4fce-9899-61adb063dc60">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="94e5d2a3-d8b2-4fce-9899-61adb063dc60" name="Silver Axe">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
       <property name="Power" value="1000"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Silver Fist" id="d7e4a7da-6131-42e9-adf1-de0178549bd5">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="d7e4a7da-6131-42e9-adf1-de0178549bd5" name="Silver Fist">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk"/>
-      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Power" value="3000+"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="54"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
-    <card name="Xeno Mantis" id="9275747d-f2bb-4298-9b70-7075b17d1e0d">
-      <property name="Format" value="TCG, Set17, Set35, OCG"/>
+    <card id="9275747d-f2bb-4298-9b70-7075b17d1e0d" name="Xeno Mantis">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect"/>
-      <property name="Rules" value="■ This creature can't be blocked by any creature that has power 5000 or less.&#xA;{DOUBLE BREAKER}"/>
       <property name="Power" value="6000"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="55"/>
-      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+      <property name="Rules" value="■ This creature can't be blocked by any creature that has power 5000 or less.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+    </card>
+    <card id="5d095b28-262e-454d-96c7-9174ed83e3f6" name="Ladia Bale, the Inspirational">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="9500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Guardians.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+    </card>
+    <card id="41e8d5c2-bfeb-48bb-ab9e-aaee79852c89" name="Crystal Paladin">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Liquid People.&#xA;■ When you put this creature into the battle zone, return all creatures in the battle zone that have &quot;blocker&quot; to their owners' hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+    </card>
+    <card id="215c4cfb-2a22-4ee1-b4ea-28ac24a1eeee" name="Ultracide Worm">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Parasite Worm"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Parasite Worms.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+    </card>
+    <card id="eac1bc57-bdf8-4629-86b3-9609d1bf2aba" name="Armored Blaster Valdios">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ Each of your other Humans in the battle zone gets +1000 power.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
+    </card>
+    <card id="0dca6f6c-c426-4c88-b283-043527f04bb3" name="Fighter Dual Fang">
+      <property name="Format" value="TCG,Set17,Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Beast Folk.&#xA;■ When you put this creature into the battle zone, put the top 2 cards of your deck into your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-02 Evo-Crushinators of Doom"/>
     </card>
   </cards>
 </set>

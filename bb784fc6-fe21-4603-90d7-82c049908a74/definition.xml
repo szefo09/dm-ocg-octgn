@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.0.9.10"
+		version="1.1.0.4"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
 		tags="Duel Masters, DM, TCG, OCG" 
-		description= "Duel Masters. Currently up to DMR-23: Revolution Final with common card effects automated. English format also supported." 
+		description= "Duel Masters. Currently up to Sets released in 2024 with common card effects automated. English format also supported." 
 		setsurl="https://dmoctgn.proboards.com/thread/378/image-packs" 
 		gameurl="https://dmoctgn.proboards.com/" 
 		authors= "naveed92(Light)&#xD;&#xA;zerovash&#xD;&#xA;vokes&#xD;&#xA;nitrox&#xD;&#xA;Raz&#xD;&#xA;Szefo09&#xD;&#xA;TheTiniestPumpkin" 
@@ -37,7 +37,7 @@
 	</globalvariables>
 
 	<card back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3">
-		<property name="Cost" type="Integer" hidden="False" />
+		<property name="Cost" type="String" textKind="Enum" hidden="False" />
 		<property name="Format" type="String" textKind="Enum" hidden="False" />
 		<property name="Civilization" type="String" textKind="Enum" ignoreText="False" />
 		<property name="Type" type="String" textKind="Enum" ignoreText="False" />
@@ -65,6 +65,7 @@
 		<size name = "normal" back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3"/>
 		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3"/>
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>
+		<size name = "square" back="cards/back.jpg" front="cards/front.jpg" width="88" height="88" cornerRadius="3"/>
 		
 	</card>
 
@@ -103,6 +104,7 @@
 			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
 			<groupaction menu="Discard Top Card" execute="mill" />
 			<groupaction menu="Discard Top X Cards" execute="millX" />
+			<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 		</group>
 

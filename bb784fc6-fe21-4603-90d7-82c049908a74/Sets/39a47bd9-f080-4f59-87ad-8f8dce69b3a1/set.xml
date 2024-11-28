@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMR-08S Great Miracle: Seven Heroes Version" id="39a47bd9-f080-4f59-87ad-8f8dce69b3a1" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="f86e240a-656c-489d-9fe7-043a58fdc244">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="8b280749-fd61-4a5d-b1bd-5447c2fc0891" name="Maitreya, Canon's Farewell">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at your opponent's hand and put a card from it on the bottom of their deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="1/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="3ef53ba2-bc72-40fd-94d0-1e478c339d3a" name="Idolmaster Leo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/Idol"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put another Angel Command into the battle zone, you may draw a card.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="2/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="4d154910-a95f-4fde-895e-95584d91572a" name="Katta Kirifuda, Curry Bread Boy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Curry Bread/Hunter"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may ask your opponent &quot;Do you love curry bread?&quot;. If your opponent says &quot;Love&quot;, you may draw 2 cards. Otherwise, this creature gets +10000 power and breaks 2 additional shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="3/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="3b344952-9c2c-48c8-94cd-7615a411e174" name="Violent Children">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Children"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone that cost 3 or less get &quot;speed attacker&quot;.&#xA;■ Your opponent's evolution creatures and creatures that have &quot;speed attacker&quot; are put into the battle zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="4/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="fe8d721e-cc16-45d4-a153-08b58b132ff9" name="Kubrick, Spiral Accelerator">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ If you have 3 or more fire cards in your mana zone, this creature gets &quot;Speed attacker&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is put into your graveyard from anywhere, if you have 3 or more water cards in your mana zone, you may choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="5/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="17095211-0f76-401f-9ef0-c8e13ac807f7" name="Karre Ganejar, Metal Lamp Djinn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Magical Monster"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your water or fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="6/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+    <card id="acabdb62-ce66-4b4e-9e8a-b3be2af6f209" name="Forever Princess, Eternal Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter/Alien"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone for no cost, put that creature into its owner's mana zone.&#xA;■ When this creature is put into your graveyard from anywhere, shuffle this card and your graveyard into your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="7/7"/>
+      <property name="Set" value="DMR-08S Great Miracle: Seven Heroes Version"/>
+    </card>
+  </cards>
+</set>

@@ -20,724 +20,811 @@
     </pack>
   </packaging>
   <cards>
-    <card name="Ultimate Galaxy Universe" id="b4a4fce4-cbbe-4047-b235-d15f7468d105">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution - Phoenix.&#xD;&#xA;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If the last card put into the Graveyard is a Phoenix, you win the game.&#xD;&#xA;[Triple Breaker]"/>
-      <property name="Power" value="17000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1"/>
-      <property name="Set" value="DM-22 The Dragonic Nova"/>
-    </card>
-    <card name="Supernova Betelgeuse Final Cannon" id="0e09b4a9-19d2-4c72-90e4-7ed0dcf26250">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution GV - Great Mecha King, Grand Devil, and/or Poseidia Dragon.&#xD;&#xA;[Triple Breaker] When a creature you control is destroyed, you may put that card under this creature instead of sending it to the Graveyard.&#xD;&#xA;Meteorburn 6 - When this creature attacks, you may put 6 cards under this creature into the Graveyard. If so, return all creatures in your opponent's Battle Zone and all cards in their Mana Zone to their hand."/>
-      <property name="Power" value="15000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
-      <property name="Set" value="DM-22 The Dragonic Nova"/>
-    </card>
-    <card name="Necrodragon Guljeneraid" id="f5276c8a-3ebf-4a12-861b-836b993d3f89">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="When one of your Dragons is destroyed other than &quot;Necrodragon Guljeneraid&quot;, if this creature is in your graveyard, you may return this creature to the battle zone.&#xD;&#xA;[Double Breaker]"/>
-      <property name="Power" value="6000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
-      <property name="Set" value="DM-22 The Dragonic Nova"/>
-    </card>
-    <card name="Supernova Apollonus Dragerion" id="a16028e0-c74c-410b-a01a-6784550aee99">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix/Tyranno Drake"/>
-      <property name="Rules" value="Evolution GV - Dragon.&#xD;&#xA;Meteorburn - When this creature attacks, you may send a card under this creature to the Graveyard. If so, this creature gains &quot;Power Attacker +15000&quot; and &quot;World Breaker&quot; &#xD;&#xA;When an opponent chooses this creature, they put all of their cards in the Mana Zone into the Graveyard.&#xD;&#xA;[Triple Breaker]"/>
-      <property name="Power" value="15000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DM-22 The Dragonic Nova"/>
-    </card>
-    <card name="Supernova Uranus Ninetails" id="a3fc8f61-9b75-469d-9e94-333d850482c0">
-      <property name="Format" value="Set35, OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Phoenix/Dynamo"/>
-      <property name="Rules" value="Evolution GV - Dynamo.&#xD;&#xA;[Triple Breaker] [Dynamo]&#xD;&#xA;Meteorburn - When this creature attacks, you may send a card under this creature to the  Graveyard. If so, choose an opponent's creature in the Battle Zone and put it into its owner's Mana Zone."/>
-      <property name="Power" value="12000"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
-      <property name="Set" value="DM-22 The Dragonic Nova"/>
-    </card>
-    <card name="Spell Del Fin, Light Divine Dragon" id="cfcd4201-ea9a-4b6b-9793-70ab4b4a48de">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cfcd4201-ea9a-4b6b-9793-70ab4b4a48de" name="Spell Del Fin, Light Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon"/>
-      <property name="Rules" value="Your opponent plays with their hand face-up.&#xD;&#xA;This creature gains Power +2000 for each Spell in your opponent's hand.&#xD;&#xA;Your opponent cannot play Spells.&#xD;&#xA;[Double Breaker]"/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ Your opponent plays with their hand face up.&#xA;■ This creature gets +2000 power for each spell in your opponent's hand.&#xA;■ Your opponent can't cast spells.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1"/>
+      <property name="Number" value="1/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Spell Great Blue, Blue Divine Dragon" id="4131f7aa-b303-484a-82a3-83692f1e00c9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4131f7aa-b303-484a-82a3-83692f1e00c9" name="Spell Great Blue, Blue Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="When this creature attacks, reveal the top card of your deck. If it's a Spell with cost of 7 or less, you may play it without paying its cost. Otherwise, put it into the Graveyard.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top card of your deck. If it's a spell that costs 7 or less, you may cast it for no cost. Otherwise, put it into your graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2"/>
+      <property name="Number" value="2/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Babelginus, Demonic Dragon" id="a003c319-0a68-4b5a-a1fb-b504f5d5d408">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="a003c319-0a68-4b5a-a1fb-b504f5d5d408" name="Babelginus, Demonic Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon/Grand Devil"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, choose a player. You may destroy one of their creatures. If so, choose a non-Evolution creature other than &quot;Magical Dragon Babelginus&quot; in that player's Graveyard, and put it into the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a player. You may destroy one of that player's creatures. If you do, choose a non-evolution creature except 'Babelginus, Demonic Dragon' from that player's graveyard and put it into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3"/>
+      <property name="Number" value="3/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Bolgalshack, Super Divine Dragoon" id="35d88c96-a36e-4dce-a3e1-a99ebfb2e5d1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="35d88c96-a36e-4dce-a3e1-a99ebfb2e5d1" name="Bolgalshack, Super Divine Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon/Tyranno Drake"/>
-      <property name="Rules" value="Evolution - Dragon or Tyranno Drake.&#xD;&#xA;[Double Breaker] When this creature is put into the Battle Zone, if put on top of a Tyranno Drake, destroy an opponent's creature with Power 4000 or less.&#xD;&#xA;When this creature attacks, if a card under this creature is a Dragon, you may destroy 1 of your opponent's creatures with less power than this creature that isn't an Armored Dragon or Tyranno Drake."/>
       <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons or Tyranno Drake.&#xA;■ When you put this creature into the battle zone, if it's put on top of a Tyranno Drake, destroy one of your opponent's creatures that has power 4000 or less.&#xA;■ Whenever this creature attacks, if the card under it is a Dragon, you may destroy one of your opponent's non-Armored Dragon or non-Tyranno Drake creatures that has less power than this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4"/>
+      <property name="Number" value="4/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Legendary Sante Gat De Paco" id="6746712e-24f7-4f85-bc91-d3f108c395df">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="6746712e-24f7-4f85-bc91-d3f108c395df" name="Legendary Sante Gat De Paco">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate/Arc Seraphim"/>
-      <property name="Rules" value="Evolution - Put on one of your Dreammate.&#xD;&#xA;The cost to summon Dreammate is reduced by 1, however the cost cannot be less than 1.&#xD;&#xA;When a Dreammate you control is put into the Battle Zone, draw a card.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dreammates.&#xA;■ Your Dreammates may each cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever you put another Dreammate into the battle zone, draw a card.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5"/>
+      <property name="Number" value="5/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Muse Rubul, Spirit Knight" id="7bbd5595-6a24-4409-8259-6eca3a05d5e7">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7bbd5595-6a24-4409-8259-6eca3a05d5e7" name="Muse Rubul, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="{SHIELD TRIGGER} &#xD;&#xA;When this creature is put into the Battle Zone, tap all creatures with Power 3000 or less."/>
       <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, tap all creatures that have power 3000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6"/>
+      <property name="Number" value="6/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Poppi Lucky" id="7a11dc87-394b-471f-ae86-7a67c36bbada">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="7a11dc87-394b-471f-ae86-7a67c36bbada" name="Poppi Lucky">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="When opponent chooses creatures in the Battle Zone, he/she can't choose any Dragons you control. (However, your Dragons can still be attacked or blocked.)"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose a creature in the battle zone, they can't choose your Dragons. (However, your Dragons can still be attacked and blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7"/>
+      <property name="Number" value="7/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Reverse Tone" id="4021d831-e4c0-41a9-9216-4fd6caed03cf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="4021d831-e4c0-41a9-9216-4fd6caed03cf" name="Reverse Tone">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Choose an Evolution Creature in the Battle Zone and return a card under that creature to its owner's hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose an evolution creature in the battle zone. Return all cards under that creature to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8"/>
+      <property name="Number" value="8/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Melrosgalb, Blue Divine Dragon" id="49e64c1b-3e34-4349-b877-d1bc6e2e315a">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="49e64c1b-3e34-4349-b877-d1bc6e2e315a" name="Melrosgalb, Blue Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;When this creature attacks or blocks, return a card from your Mana Zone to your hand.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks, you may return a card from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Time Changer, Space-Time Engineer" id="c51962d8-4f64-4a59-98da-7f120592096d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c51962d8-4f64-4a59-98da-7f120592096d" name="Time Changer, Space-Time Engineer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, choose an Evolution Creature in your Battle Zone. Search your deck for 2 creatures, reveal them, and put them under the chosen Evolution Creature. Shuffle your deck."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your evolution creatures in the battle zone. If you do, search your deck and you may take up to 2 creatures from your deck, show them to your opponent, and put them under the chosen evolution creature. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10"/>
+      <property name="Number" value="10/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Collapse Wave" id="dee0e8da-ca8e-43d4-8f27-24701ec706aa">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="dee0e8da-ca8e-43d4-8f27-24701ec706aa" name="Collapse Wave">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Choose a card from any Mana Zone, and put that card on top of its owner's deck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a card in a mana zone and put that card on top of its owner's deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11"/>
+      <property name="Number" value="11/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Necrodragon Daft Head" id="52afe073-d1ef-4489-86e8-268bf90769e1">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="52afe073-d1ef-4489-86e8-268bf90769e1" name="Necrodragon Daft Head">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="At the beginning of your opponent's turn, your opponent draws an extra card.&#xD;&#xA;When this creature attacks, you may look at your opponent's hand and choose a card from there and discard it.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ At the start of your opponent's turn, your opponent draws an additional card.&#xA;■ Whenever this creature attacks, you may look at your opponent's hand and discard a card from it.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12"/>
+      <property name="Number" value="12/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Purgatory Release" id="dffce2e5-5a89-4f66-ace9-189eb413e58e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="dffce2e5-5a89-4f66-ace9-189eb413e58e" name="Purgatory Release">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="All creatures in all Graveyards are returned to their owner's hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Each player returns all creatures in their graveyard to their owner's hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13"/>
+      <property name="Number" value="13/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Connected Dragonic Poison" id="671bfc15-6e2c-40bf-ba33-7cf724e4fc29">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="671bfc15-6e2c-40bf-ba33-7cf724e4fc29" name="Connected Dragonic Poison">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy an opponent's creature. For each Dragon and Phoenix you control, you may destroy an additional creature your opponent controls."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures. Then for each of your Dragons or Phoenix in the battle zone, you may destroy another of your opponent's creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14"/>
+      <property name="Number" value="14/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Infinity Dragon" id="e899449a-7969-4e48-bae2-067ae443427f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="e899449a-7969-4e48-bae2-067ae443427f" name="Infinity Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="When a Dragon you control would leave the Battle Zone, put the top card of your deck into your Graveyard. If that card is a Dragon or Fire Bird, your Dragon stays in the Battle Zone.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="7000"/>
+      <property name="Rules" value="■ When one of your Dragons would leave the battle zone, put the top card of your deck into your graveyard. If it's a Dragon or a Fire Bird, it stays in the battle zone instead.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15"/>
+      <property name="Number" value="15/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Hot-Head Brave, Maducas" id="102b5c32-2d0a-42d1-9071-db03cb1cd994">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="102b5c32-2d0a-42d1-9071-db03cb1cd994" name="Hot-Head Brave Maducas">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Dragonoid"/>
-      <property name="Rules" value="All creatures you control gain &quot;Power Attacker +4000&quot;.&#xD;&#xA;Creature you control must attack each turn if able."/>
-      <property name="Power" value="2000"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;Power attacker +4000&quot;. (While attacking, a creature that has&quot;power attacker +4000&quot; gets +4000 power.)&#xA;■ All of your creatures attack each turn if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16"/>
+      <property name="Number" value="16/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="The Universe Gate" id="39ea2161-ea49-4ff1-9575-fb09a07eedc9">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="39ea2161-ea49-4ff1-9575-fb09a07eedc9" name="The Universe Gate">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Reveal the top 3 cards from your deck. For each Phoenix revealed, you get an extra turn after this one."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Reveal the top 3 cards of your deck. For each Phoenix creature revealed, take an extra turn after this one. (Return the revealed cards to the top of your deck in the original order.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17"/>
+      <property name="Number" value="17/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Terradragon Geographanis" id="01e75687-1c24-415e-a9ad-3dd21637b281">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="01e75687-1c24-415e-a9ad-3dd21637b281" name="Terradragon Geographanis">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When attacking, this creature gains power equal to the total power of all other tapped creatures in your Battle Zone.&#xD;&#xA;[Double Breaker]"/>
-      <property name="Power" value="6000"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ While attacking, add the total power of all your other tapped creatures in the battle zone to this creature.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18"/>
+      <property name="Number" value="18/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Inos, Pure Grand Swordsman" id="261da84d-c3ca-4222-bd31-dca96b44c221">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="261da84d-c3ca-4222-bd31-dca96b44c221" name="Inos, Pure Grand Swordsman">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="You may put any type of Evolution Creature on top of this creature."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You can put an evolution creature of any race on this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19"/>
+      <property name="Number" value="19/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Blossom Shower" id="f007aaca-8102-456c-8e26-1b23546ff583">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f007aaca-8102-456c-8e26-1b23546ff583" name="Blossom Shower">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Put the top card of your deck into your Mana Zone. For each Dragon and Phoenix you control, you may return a card from your Mana Zone to your hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone. Then you may return a Dragon or Phoenix from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20"/>
+      <property name="Number" value="20/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Asteroid Mine, Light Comet" id="ae41e805-9d95-40f0-a81b-7b3e1b246475">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="ae41e805-9d95-40f0-a81b-7b3e1b246475" name="Asteroid Mine, Light Comet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution V - Put on top of 2 Arc Seraphim, Saint Head, and/or Apollonia Dragon you control.&#xD;&#xA;When an opponent chooses creatures in the Battle Zone, your opponent can't choose this creature.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Arc Seraphims, Saint Heads, and/or Apollonia Dragons.&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21"/>
+      <property name="Number" value="21/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Seventh, Light Divine Dragon" id="0f454bf9-e2fe-47ee-a894-9c7a14361541">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0f454bf9-e2fe-47ee-a894-9c7a14361541" name="Seventh, Light Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon"/>
-      <property name="Rules" value="All Dragons you control in the Battle Zone gain &quot;Blocker&quot;."/>
       <property name="Power" value="5500"/>
+      <property name="Rules" value="■ Each of your Dragons in the battle zone gets &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22"/>
+      <property name="Number" value="22/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Flash Armor" id="93a5c2b1-e23d-47b2-af3a-d7d1c8ffb8ab">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="93a5c2b1-e23d-47b2-af3a-d7d1c8ffb8ab" name="Flash Armor">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;During this turn, when a creature you control is destroyed, they creature stays in the Battle Zone instead of going to the Graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Whenever one of your creatures would be destroyed this turn, that creature stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23"/>
+      <property name="Number" value="23/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Asteroid Raiser, Ice Comet" id="9e3faa94-ded6-4747-b034-c97157221e7c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9e3faa94-ded6-4747-b034-c97157221e7c" name="Asteroid Raiser, Ice Comet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution V - Put on top of 2 Great Mecha King, Machine Hero, and/or Poseidia Dragon you control.&#xD;&#xA;When this creature is destroyed, return this card to your hand.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Great Mecha Kings, Machine Heroes, and/or Poseidia Dragons.&#xA;■ When this creature would be destroyed, return it to your hand instead.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24"/>
+      <property name="Number" value="24/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Fuuma Gorgonshack" id="21f0f2d8-8ec4-4c23-acfd-20ed8ab74c44">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="21f0f2d8-8ec4-4c23-acfd-20ed8ab74c44" name="Fuuma Gorgonshack">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="All Spells cost an additional 2 to cast."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ All spells cost 2 more to cast."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25"/>
+      <property name="Number" value="25/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Dragon Lab" id="81892092-ebb0-4f4f-900b-cf030150cb9b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="81892092-ebb0-4f4f-900b-cf030150cb9b" name="Dragon Lab">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Reveal the top 3 cards from your deck. From the revealed cards, choose a Dragon and put it into your hand.  Put the reston the bottom of your deck in any order. If all 3 revealed cards are Dragon, return this card to your hand instead of sending it to the Graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Reveal the top 3 cards of your deck. From among them, choose a Dragon and put it into your hand. Put the rest on the bottom of your deck in any order. If all 3 revealed cards aren't Dragons, return this card to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26"/>
+      <property name="Number" value="26/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Asteroid Gellum, Dark Comet" id="f0926ba9-b8df-4ae7-9569-adb09f4b9eff">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="f0926ba9-b8df-4ae7-9569-adb09f4b9eff" name="Asteroid Gellum, Dark Comet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution V - Put on top of 2 of your Grand Devil, Deep Marine, and/or Zombie Dragon.&#xD;&#xA;When this creature is put into the Battle Zone, destroy an opponent's creature.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Grand Devils, Deep Marines, and/or Zombie Dragons.&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27"/>
+      <property name="Number" value="27/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Fuuma Aogrun" id="2e19671d-08ce-4c6e-859d-cd431b7e59a3">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="2e19671d-08ce-4c6e-859d-cd431b7e59a3" name="Fuuma Aogrun">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;[Thrilling Three: Phoenix] Destroy an opponent's creature.&#xD;&#xA;This creature can't attack."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{THRILLING THREE}: Phoenix (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Phoenix revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}Destroy one of your opponent's creatures.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28"/>
+      <property name="Number" value="28/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Hell Hand" id="3c5068ac-ffb7-474e-8d8e-75748de0176f">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="3c5068ac-ffb7-474e-8d8e-75748de0176f" name="Hell Hand">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Turn all Shields you control face-down, and shuffle them."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Put all your shields face down and shuffle them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29"/>
+      <property name="Number" value="29/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Asteroid Gauss, Flame Comet" id="0626fa8d-7a1e-4d69-aa56-9ceb2cd47883">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="0626fa8d-7a1e-4d69-aa56-9ceb2cd47883" name="Asteroid Gauss, Flame Comet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Evolution V - Put on top of 2 of your Tyranno Drake, Brave Spirit, and/or Armored Dragon.&#xD;&#xA;[Double Breaker]"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Vortex evolution—Put on 2 of your Tyranno Drake, Brave Spirit, and/or Armored Dragons.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Meowpatta, Dragon's Steward" id="1501f91e-9a52-4924-86b8-d888a90ec009">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1501f91e-9a52-4924-86b8-d888a90ec009" name="Meowpatta, Dragon's Steward">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="Speed Attacker&#xD;&#xA;This creature must attack each turn if able.&#xD;&#xA;At the beginning of your turn, you may destroy this creature. If so, you may put a non-Evolution Dragon from your hand into the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ This creature attacks each turn if able.&#xA;■ At the start of your turn, you may destroy this creature. If you do, you may put a non-evolution Dragon from your hand into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31"/>
+      <property name="Number" value="31/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Bomber Doll" id="c788e651-c786-4634-9dcb-c8d01d35126c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="c788e651-c786-4634-9dcb-c8d01d35126c" name="Bomber Doll">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xD;&#xA;Destroy an opponent's creature with power 2000 or less, or, destroy a tapped opponent's creature with power 5000 or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 2000 or less or destroy one of your opponent's tapped creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32"/>
+      <property name="Number" value="32/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Asteroid Gaia, Ground Comet" id="b0f54ec4-8979-4476-8fd4-4c7b6785827c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b0f54ec4-8979-4476-8fd4-4c7b6785827c" name="Asteroid Gaia, Ground Comet">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
-      <property name="Rules" value="Evolution V - Put on top of 2 of your Dreammate, Vehicle Bee, and/or Earth Dragon.&#xD;&#xA;When this creature is blocked, this creature breaks an opponent's Shield.&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution—Put on 2 of your Dreammates, Vehicle Bees, and/or Earth Dragons.&#xA;■ Whenever this creature becomes blocked, it breaks one of your opponent's shields.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33"/>
+      <property name="Number" value="33/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Hamelun Dalia, Spirit Knight" id="83bcbbb3-995f-45be-9f60-90bad99a16c8">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="83bcbbb3-995f-45be-9f60-90bad99a16c8" name="Hamelun Dahlia, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, you may return a Dragon from your Mana Zone to your hand."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a Dragon from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34"/>
+      <property name="Number" value="34/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Evolution Egg" id="5e35c082-ab54-413f-9bca-26ccd9c1551c">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="5e35c082-ab54-413f-9bca-26ccd9c1551c" name="Evolution Egg">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xD;&#xA;Look at your deck. Choose an Evolution creature, reveal it, and add it to your hand. Shuffle yourdeck."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take an evolution creature from your deck, show that evolution creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35"/>
+      <property name="Number" value="35/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Soul Denan, Spirit Knight" id="247a7502-d1c0-435e-977a-26d28f5667ba">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="247a7502-d1c0-435e-977a-26d28f5667ba" name="Soul Denan, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="When you cast a Light Spell, you may draw a card."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever you cast a Light spell, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36"/>
+      <property name="Number" value="36/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Dumar, Spirit Knight" id="bc2c35bd-c9de-47ab-95a5-03f18b4f773b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bc2c35bd-c9de-47ab-95a5-03f18b4f773b" name="Dumar, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack players.&#xD;&#xA;When you control a Dragon in the Battle Zone, this creature gains Power +2000."/>
-      <property name="Power" value="3500"/>
+      <property name="Power" value="3500+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ While you have a Dragon in the battle zone, this creature gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37"/>
+      <property name="Number" value="37/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Revitalize Electric Soldier Energion" id="697699c6-c020-4c48-b808-0ff5921f8605">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="697699c6-c020-4c48-b808-0ff5921f8605" name="Revitalize Electric Soldier Energion">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack players.&#xD;&#xA;When this creature is destroyed, untap all creatures you control in the Battle Zone."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, untap one of your creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38"/>
+      <property name="Number" value="38/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Celestial Arc" id="129a2c79-dcb5-4434-b6fd-c0a26944969e">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="129a2c79-dcb5-4434-b6fd-c0a26944969e" name="Celestial Arc">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Choose a Dragon or Phoenix in the Battle Zone, and put it face-down into its owner's Shield Zone."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Choose a non-Dragon and non-Phoenix creature in the battle zone and add it to its owner's shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39"/>
+      <property name="Number" value="39/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Fuuma Demigorun" id="61dde1c1-c83c-489a-9841-33dce82557cf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="61dde1c1-c83c-489a-9841-33dce82557cf" name="Fuuma Demigorun">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="Fort Energy: Dragon (When this creature is put into the Battle Zone, if a Dragon is tapped to Summon this creature, this creature gain the following [Fort Energy]  ability.)&#xD;&#xA;[Fort Energy] : Search  your deck for any card, reveal it, and add it to your hand. Shuffle your deck."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="{FORT ENERGY}(Dragon) (When you put this creature into the battle zone, if a Dragon in your mana zone is tapped to summon this creature, this creature gets the following Fort Energy ability.)&#xA;Search your deck. You may take a card from your deck, show it to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40"/>
+      <property name="Number" value="40/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Lip Woppe" id="fdc1e695-aced-4b56-993a-b709410b15e0">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="fdc1e695-aced-4b56-993a-b709410b15e0" name="Lip Woppe">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="When a Dragon is put into the Battle Zone, you may draw a card."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you put a Dragon into the battle zone, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41"/>
+      <property name="Number" value="41/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Armored Machine Sarbolt" id="12846a96-28b6-4ce6-aef1-4fa9487e34bc">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="12846a96-28b6-4ce6-aef1-4fa9487e34bc" name="Armored Machine Sarbolt">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Great Mecha King"/>
-      <property name="Rules" value="[Blocker]&#xD;&#xA;This creature cannot attack.&#xD;&#xA;This creature cannot block Evolution Creatures or Dragons."/>
       <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ This creature can't block evolution creatures or Dragons."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42"/>
+      <property name="Number" value="42/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Future Capsule" id="cf15c5d9-be13-4c96-8b3c-a9729db22edf">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="cf15c5d9-be13-4c96-8b3c-a9729db22edf" name="Future Capsule">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Look at the top 5 cards of your deck. Put any number of those cards on top of your deck in any order on top of your deck, the rest on the bottom of your deck in any order."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. Put any number of those cards on top of your deck in any order, and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43"/>
+      <property name="Number" value="43/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Necrodragon Halberd" id="8d24825f-a9ae-4ff3-a5a1-4f7c51ab9e4d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="8d24825f-a9ae-4ff3-a5a1-4f7c51ab9e4d" name="Necrodragon Halberd">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
-      <property name="Rules" value="Slayer (When this creature loses a battle, destroy the other creature.)&#xD;&#xA;Double Breaker (This creature breaks 2 shields.)"/>
       <property name="Power" value="6000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44"/>
+      <property name="Number" value="44/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Sensing Dragoon" id="b56b2384-47ab-41c8-881f-e90722a859b2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="b56b2384-47ab-41c8-881f-e90722a859b2" name="Sensing Dragoon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tyranno Drake"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, reveal the top 2 cards from your deck. Put one card on top of your deck and the other into your Graveyard."/>
       <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, reveal the top 2 cards of your deck. Put a card on top of your deck and the other into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45"/>
+      <property name="Number" value="45/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Fuuma Vines" id="bad66e34-cb0c-4a55-9997-f565b17d6990">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="bad66e34-cb0c-4a55-9997-f565b17d6990" name="Fuuma Vines">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Grand Devil"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, your opponent chooses one of his/her own creature with &quot;Blocker&quot; and destroys it."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent chooses one of their creatures that has &quot;blocker&quot; and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46"/>
+      <property name="Number" value="46/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Serial Dragon Formation" id="179cec0c-b9f1-43b7-a946-a7c544365b2b">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="179cec0c-b9f1-43b7-a946-a7c544365b2b" name="Serial Dragon Formation">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="{SHIELD TRIGGER}&#xD;&#xA;Return a creature from your Graveyard to your hand. If that creature is a Dragon, you may return another creature from your Graveyard to your hand."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Return a creature from your graveyard to your hand. If that creature is a Dragon, you may return another creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47"/>
+      <property name="Number" value="47/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Flaming Jet Dragon" id="518370bc-fccb-40c8-abea-09114ae12497">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="518370bc-fccb-40c8-abea-09114ae12497" name="Flaming Jet Dragon">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
-      <property name="Rules" value="[Speed Attacker]&#xD;&#xA;[Thrilling Three: Dragon] During this turn, this creature breaks an additional Shield."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}This creature breaks an additional shield until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48"/>
+      <property name="Number" value="48/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Loppo Loppo" id="df679de7-251a-46b2-a96e-4f26fa5b7785">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="df679de7-251a-46b2-a96e-4f26fa5b7785" name="Loppo Loppo">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="Saver: Phoenix or Dragon (When one of your Phoenix or Dragon is destroyed, this creature is destroyed instead.)"/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Saver: Phoenix or Dragon (Whenever one of your Phoenixes or Dragons would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49"/>
+      <property name="Number" value="49/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Pop Rubin" id="32eb0249-9fd8-420c-bb6e-cfca3f416b6d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="32eb0249-9fd8-420c-bb6e-cfca3f416b6d" name="Pop Rubin">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its [Tap] ability.&#xD;&#xA;[Tap]: Untap a Dragon you control in the Battle Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Untap one of your creatures that has Dragon in its race."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50"/>
+      <property name="Number" value="50/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Decopin Crash" id="d94e2ed8-1a9e-4991-8164-6ed64f27612d">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="d94e2ed8-1a9e-4991-8164-6ed64f27612d" name="Decopin Crash">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Destroy a creature with power 4000 or less."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 4000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51"/>
+      <property name="Number" value="51/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Terradragon Geobreed" id="9b78739e-50ab-43c1-8a13-347fd2879e74">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="9b78739e-50ab-43c1-8a13-347fd2879e74" name="Terradragon Geobreed">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
-      <property name="Rules" value="When this creature is put into the Battle Zone, you may return the creature in the Battle Zone with the least power to its owner's hand."/>
       <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose a creature in the battle zone that has the lowest power and put into its owner's mana zone. If there's a tie, choose one of them."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52"/>
+      <property name="Number" value="52/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="One-Eye Lu Pine" id="1a6c658a-3e03-4f4c-95c7-439838ae3ce2">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="1a6c658a-3e03-4f4c-95c7-439838ae3ce2" name="One-Eye Lu Pine">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
-      <property name="Rules" value="The cost to summon Dragons is reduced by 1. However, the cost can't be less than 1.&#xD;&#xA;All Dragons you control gain Power +1000."/>
       <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your creatures that have Dragon in their race each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your Dragons gets +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Ribbidynanz, Forest Singer" id="406412fa-4291-4420-a68b-617954d33c67">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="406412fa-4291-4420-a68b-617954d33c67" name="Ribbidynanz, Forest Singer">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
-      <property name="Rules" value="When this card is put into the Battle Zone, untap all Phoenixes you control in the Mana Zone."/>
       <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, untap all your Phoenix in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54"/>
+      <property name="Number" value="54/55"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
-    <card name="Little Eyes Growth" id="84399a67-366a-4318-a788-1afb2588aeea">
-      <property name="Format" value="Set35, OCG"/>
+    <card id="84399a67-366a-4318-a788-1afb2588aeea" name="Little Eyes Growth">
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value=""/>
-      <property name="Rules" value="Reveal the top 2 cards from your deck. Put all creatures into your Mana Zone, and the rest into your Graveyard."/>
-      <property name="Power" value=""/>
+      <property name="Rules" value="■ Reveal the top 2 cards of your deck. Put all creatures into your mana zone, and the rest into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-22 The Dragonic Nova"/>
+    </card>
+    <card id="b4a4fce4-cbbe-4047-b235-d15f7468d105" name="Ultimate Galaxy Universe">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Phoenix.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-22 The Dragonic Nova"/>
+    </card>
+    <card id="0e09b4a9-19d2-4c72-90e4-7ed0dcf26250" name="Supernova Betelgeuse Final Cannon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Great Mecha Kings, Grand Devils, and/or Poseidia Dragons.&#xA;■ Whenever one of your other creatures would be destroyed, you may put it under this creature instead.&#xA;■ Mega Meteorburn 6: Whenever this creature attacks, you may put 6 cards under this creature into your graveyard. If you do, return all your opponent's creatures in the battle zone and all cards in your opponent's mana zone to their owners' hands.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-22 The Dragonic Nova"/>
+    </card>
+    <card id="f5276c8a-3ebf-4a12-861b-836b993d3f89" name="Necrodragon Guljeneraid">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons other than 'Necrodragon Guljeneraid' is destroyed, if this creature is in your graveyard, you may return this creature to the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-22 The Dragonic Nova"/>
+    </card>
+    <card id="a16028e0-c74c-410b-a01a-6784550aee99" name="Supernova Apollonus Dragerion">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix/Tyranno Drake"/>
+      <property name="Power" value="15000+"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, this creature gets &quot;power attacker +15000&quot; and &quot;World breaker&quot;.&#xA;■ Whenever your opponent chooses this creature, put all cards in their mana zone into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-22 The Dragonic Nova"/>
+    </card>
+    <card id="a3fc8f61-9b75-469d-9e94-333d850482c0" name="Supernova Uranus Ninetails">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix/Dynamo"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution—Put on top of 3 of your Dynamos.&#xA;{DYNAMO} (At the beginning of a battle, or whenever this creature can attack, you may tap this creature. If you do, add this creature's power and abilities to one of your other Dynamos in the battle zone until the end of the turn.)&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose one of your opponent's creatures in the battle zone and put it into their mana zone.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
       <property name="Set" value="DM-22 The Dragonic Nova"/>
     </card>
   </cards>

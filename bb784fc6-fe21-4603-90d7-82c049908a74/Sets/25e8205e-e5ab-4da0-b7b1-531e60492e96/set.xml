@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM22-SP2 Dragon Emperor of Booming Flame: Invitation from the Raging Dragon Count" id="25e8205e-e5ab-4da0-b7b1-531e60492e96" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="a7b5c599-7e58-4f42-94e8-83473f5e5756">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="f79b2b9b-fb64-429c-9a83-be9955bed739" name="&quot;Scrapper&quot;, Crushing Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ 'Civil Count 4': If you have a total of 4 or more fire creatures and/or fire tamaseeds, you may cast this spell for no cost.&#xA;■ Choose any number of your opponent's creatures that have total power 5000 or less and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="1/4"/>
+      <property name="Set" value="DM22-SP2 Dragon Emperor of Booming Flame: Invitation from the Raging Dragon Count"/>
+    </card>
+    <card id="a0ef9e3d-a56c-4087-9872-cf5981622b3f" name="Bolshack Mecha Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="2/4"/>
+      <property name="Set" value="DM22-SP2 Dragon Emperor of Booming Flame: Invitation from the Raging Dragon Count"/>
+    </card>
+    <card id="45d961ae-8766-4048-93e9-3d07e5e0856f" name="Totto Gun Pipicchi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ 'Civil Count' 3: If you have 3 or more fire creatures and/or fire tamaseeds, this creature gets &quot;speed attacker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="3/4"/>
+      <property name="Set" value="DM22-SP2 Dragon Emperor of Booming Flame: Invitation from the Raging Dragon Count"/>
+    </card>
+    <card id="65d9c492-23c7-4837-a3cd-1c37dbbe9197" name="Raging Dragon's Gift">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ When you put this tamaseed, destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;{SHIELD SAVER} (When this tamaseed is put into your hand from your shield zone, you may use it for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="4/4"/>
+      <property name="Set" value="DM22-SP2 Dragon Emperor of Booming Flame: Invitation from the Raging Dragon Count"/>
+    </card>
+  </cards>
+</set>

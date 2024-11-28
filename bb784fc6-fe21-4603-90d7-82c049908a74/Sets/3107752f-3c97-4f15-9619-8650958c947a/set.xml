@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMR-19 Forbidden Dokindam X: Forbidden Edition" id="3107752f-3c97-4f15-9619-8650958c947a" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="3c0f6a5b-a2d2-43c6-a3f7-06eec3ef4579">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="ff9e299b-e0dd-4a40-af7f-ad67d21746d8" name="Forbidden ~Moment of Awakening~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Forbidden Impulse"/>
+      <property name="Rules" value="■ At the start of the game, include this card into the 5 cards in your hand.&#xA;■ This impulse is put into the battle zone with 4 seals on it.&#xA;■ Forbidden Liberate—When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P37a/Y14"/>
+      <alternate name="Forbidden Dokindam" type="awakening" size="normal">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="9"/>
+        <property name="Type" value="Forbidden Creature"/>
+        <property name="Power" value="9999"/>
+        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature Forbidden Liberates, destroy one of your opponent's creatures that has power 6666 or less.&#xA;■ When this creature leaves the battle zone, your opponent chooses one of your shields. Put that shield into your graveyard.&#xA;■ If this creature is anywhere other than the hand or battle zone, put it into your graveyard."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+        <property name="Number" value="P37b/Y14"/>
+      </alternate>
+    </card>
+    <card id="865004d1-9aac-467e-b0b4-b7df70714234" name="Forbidden Dokindam">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Forbidden Creature"/>
+      <property name="Power" value="9999"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature Forbidden Liberates, destroy one of your opponent's creatures that has power 6666 or less.&#xA;■ When this creature leaves the battle zone, your opponent chooses one of your shields. Put that shield into your graveyard.&#xA;■ If this creature is anywhere other than the hand or battle zone, put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P37b/Y14"/>
+    </card>
+    <card id="c20b9393-7c28-4b2e-9a61-980834d6b99b" name="Red-End, Super Lightning Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your fire creatures.&#xA;{INVASION}-Fire command (When one of your Fire command attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed, you may put one of the cards that was under it from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P45/Y14"/>
+    </card>
+    <card id="17c526ef-4945-494e-a1ff-a5b6101fc247" name="Liberation of the End">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 9999 or less.&#xA;■ Put one of your seals into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P46/Y14"/>
+    </card>
+    <card id="a58fe2f8-f98a-4b7d-a8d7-335d2edaae54" name="Trooper, Forbidden U">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human Baku/Invader/Initials"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, put one of your seals from the battle zone into your graveyard."/>
+      <property name="Watermark" value="{Dokindam}"/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P47/Y14"/>
+    </card>
+    <card id="2e0fb749-26a0-4530-a240-b0057e75672e" name="Marmo, Forbidden C">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/Invader/Initials"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Ultra Saver—Creature that has &quot;Dokindam&quot; in its name (When one of your creatures that has &quot;Dokindam&quot; in its name would leave the battle zone, you may destroy this creature instead.)"/>
+      <property name="Watermark" value="{Dokindam}"/>
+      <property name="Set" value="DMR-19 Forbidden Dokindam X: Forbidden Edition"/>
+      <property name="Number" value="P48/Y14"/>
+    </card>
+  </cards>
+</set>

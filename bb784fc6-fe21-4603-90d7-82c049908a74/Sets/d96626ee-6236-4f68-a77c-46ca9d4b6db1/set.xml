@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM-12 Eternal Vortex" id="d96626ee-6236-4f68-a77c-46ca9d4b6db1" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="3488222b-6905-4bda-9f30-4fad77339673">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="005f2ec4-afda-47ad-b346-50d48f2598a8" name="Kilstine, Nebula Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="927652ea-eec7-4c31-9303-405e7bbb0e5d" name="Extreme Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return all your other creatures from the battle zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="0f2ee3af-44d9-4762-90f0-14d0c7a66e15" name="Necrodragon Jagraveen">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature blocks, destroy it after it battles.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="9e97d42e-d3af-4e77-abfd-a8e6cf414282" name="Punch Trooper Bronks">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, destroy the creature that has the lowest power in the battle zone. If there's a tie, you choose from among the tied creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="4d68de74-9831-4483-a048-3c5658f4086e" name="Soul Phoenix, Avatar of Unity">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Fire Birds and one of your Earth Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ When this creature would leave the battle zone, only the top card leaves the battle zone instead. (Separate the other cards into 2 creatures.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="55635ccd-b2b1-4d03-9d24-83e41499ca2b" name="Ularus, Punishment Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, for each creature you have in the battle zone, you may choose a shield and turn it face up. (Those shields stay face up while they're in the shield zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="78485350-9c14-44a8-a767-9171f6b1492e" name="Cosmic Darts">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Your opponent chooses one of your shields. Look at it. If it's a spell, you may cast it immediately for no cost. If it's not a spell or if you don't cast it, put it back where it was."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="2acd0cd9-fc3f-4e75-b007-4f1fd9e2951e" name="Typhoon Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature can't be attacked by fire or nature creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="d6dd9685-5850-4697-9f53-753e787232a7" name="Meloppe">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever your opponent would choose one of your shields, you choose instead.&#xA;■ Whenever you would choose one of your opponent's shields, your opponent chooses instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="143d470e-ad77-4e71-8380-19206490b12e" name="Gigavrand">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ At the end of each turn, if your opponent drew 2 or more cards that turn, he discards his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="666c9e3a-195c-4950-9d83-da0b9946adca" name="Steamroller Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="501a2f99-8588-4b2e-ab6e-03af5e066047" name="Whirling Warrior Malian">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever another creature is put into the battle zone, tap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="a5e0cba2-9aaa-447c-a3ab-415db7e55e8d" name="Mechadragon's Breath">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a number less than or equal to 6000. Destroy all creatures that have that power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="5e30d0e0-d78a-447d-8d7b-a8c03e6479e3" name="Pincer Scarab">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="■ This creature gets +2000 power for each card in your opponent's hand.&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="c727590d-20ba-43b4-aadc-d831cc39abe1" name="Radioactive Horn, the Strange">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="7bf9d9fa-a5d1-4f0c-9557-efadb43fbfb4" name="Agira, the Warlord Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Gladiator/Earth Eater"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Gladiators or Earth Eaters.&#xA;■ Each of your other Gladiators and Earth Eaters in the battle zone gets +2000 power.&#xA;■ Whenever one of your Gladiators or Earth Eaters blocks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="4e13c7d9-4717-4ff8-b05f-ac90d072f879" name="Hydrooze, the Mutant Emperor">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Lord/Hedrian"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Cyber Lords or Hedrians.&#xA;■ Each of your other Cyber Lords and Hedrians in the battle zone gets +2000 power.&#xA;■ Your Cyber Lords and Hedrians can't be blocked."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="fbb3a01e-e21b-41be-a14a-9f8fc8da7f2c" name="Phantomach, the Gigatrooper">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Chimera/Armorloid"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Chimeras or Armorloids.&#xA;■ Each of your other Chimeras and Armorloids in the battle zone gets +2000 power.&#xA;■ Each of your Chimeras and Armorloids in the battle zone has &quot;double breaker.&quot; (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="de072df1-4d32-45a8-b7e9-1659363d8927" name="Nemonex, Bajula's Robomantis">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Xenoparts/Giant Insect"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Xenoparts or Giant Insects.&#xA;■ Each of your other XenoParts and Giant Insects in the battle zone gets +2000 power.&#xA;■ Whenever any of your XenoParts or Giant Insects is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="9f20a2a2-2451-401b-b978-e6ea9044f151" name="Comet Eye, the Spectral Spud">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Wild Veggies/Rainbow Phantom"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Evolution—Put on one of your Wild Veggies or Rainbow Phantoms.&#xA;■ Each of your other Wild Veggies and Rainbow Phantoms in the battle zone gets +2000 power.&#xA;■ At the end of each of your turns, you may untap any number of your Wild Veggies and Rainbow Phantoms in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="b6476ded-3b25-4be4-a75c-84b08802267f" name="Valkyer, Starstorm Elemental">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="becabc3d-f90c-4cfc-b0a0-53bb9d8b9d77" name="Cloned Deflector">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone. Then, for each 'Cloned Deflector' in each graveyard, you may choose another of your opponent's creatures in the battle zone. Tap all those creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="59a4f255-5d2f-4bcd-ac86-a6949e8f8898" name="Cloned Spiral">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a creature in the battle zone. Then, for each 'Cloned Spiral' in each graveyard, you may choose another creature in the battle zone. Return all those creatures to their owners' hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="a2c6b738-3247-4f27-8ae3-e9fccc0d0223" name="Enigmatic Cascade">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Discard any number of cards from your hand. Then draw that many cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="e5fb4f3c-8623-40ed-8cb4-3d35d51b90e4" name="Gigabalza">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="25/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="2b44dc77-1d3f-4615-b28f-7e815742ebcd" name="Cloned Nightmare">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a card at random in your opponent's hand. Then, for each 'Cloned Nightmare' in each graveyard, you may choose another card at random in your opponent's hand. Your opponent discards all those cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="a5741194-05f0-423a-a7a4-860f6472b8c7" name="Muramasa's Knife">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature can attack untapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="42732bc7-834d-47e0-98b4-d12159ec073b" name="Cloned Blade">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures in the battle zone that has power 3000 or less. Then, for each 'Cloned Blade' in each graveyard, you may choose another of your opponent's creatures in the battle zone that has power 3000 or less. Destroy all those creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="28/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="53ec410a-2cd7-4248-8dc8-89bdaa0a3e15" name="Wingeye Moth">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever you draw the card at the start of your turn, if one of your creatures in the battle zone has higher power then each of your opponent's creatures in the battle zone, you may draw an extra card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="87cb32bf-f930-4cc6-a314-7e4f9c813937" name="Cloned Spike-Horn">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ This creature gets +3000 power for each 'Cloned Spike-Horn' in each graveyard.&#xA;■ While this creature has power 6000 or more, it has &quot;double breaker (This creature breaks 2 shields).&quot;"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="86ec51fc-a78c-4db4-b1e2-e848e3e9a0d1" name="Electro Explorer Syrion">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator/Cyber Lord"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="50a66ebe-36a7-4e29-9665-9cccbe4b16d0" name="Sea Mutant Dormel">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk/Hedrian"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="0ac54308-0e0b-4d5e-be22-405a7fb7c476" name="Gigappi Ponto">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="b337b1a6-4c21-416b-9a84-0b2dc6a677df" name="Buzz Betocchi">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Giant Insect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="1235899e-397d-4162-ad35-0f53c1ad2268" name="Spectral Horn Glitalis">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast/Rainbow Phantom"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="79d2753e-52d1-402c-a77f-5cbdbed533ac" name="Bingole, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="36/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="eed29137-f05f-4b06-8be0-e8162ccbf77b" name="Mizoy, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may choose a darkness or fire creature in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="37/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="961635bc-40cd-4fc9-b08b-e71a9511d33b" name="Belmol, the Explorer">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gladiator"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever an opponent's creature attacks, this creature blocks if able.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="38/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="b9ef4172-3d1f-4c93-a2e4-296abc73b05b" name="Pharzi, the Oracle">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When this creature is destroyed, you may return a spell from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="39/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="c2804aa8-fa54-49f1-8fab-97210bf85252" name="Tropic Crawler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature blocks, your opponent chooses one of his creatures in the battle zone and returns it to his hand.&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="40/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="ab2ba541-4390-40a9-8a97-8418820b6904" name="Funky Wizard">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, each player may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="386670d5-44ae-4ca1-af7f-950034ab4153" name="Wily Carpenter">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, draw up to 2 cards. Then discard 2 cards from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="42/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="5864316c-63f0-45ec-9dd9-37dc7968ef75" name="Frantic Chieftain">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return one of your creatures that costs 4 or less from the battle zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="43/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="43172797-b795-4bb7-b302-a306f7446a0e" name="Necrodragon Zalva">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent draws a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="44/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="063ac56b-4ed4-463e-8e8d-d542be1dd431" name="Gigarayze">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, your may return a water or fire creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common&#xA;|"/>
+      <property name="Number" value="45/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="3210c95b-d3fe-4014-876a-3984129101b7" name="Windmill Mutant">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, your opponent discards a card at random from his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="46/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="cc118fbf-7aee-4149-a97f-d432eead1c67" name="Gigaslug">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="47/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="d62b145e-f2a7-4b5a-806b-12b5bb27278d" name="Flame Trooper Goliac">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="48/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="5e476c8a-be12-4fd0-a3bd-e333b6c4cfb8" name="Hypersprint Warrior Uzesol">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="1000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="6e101fb0-c1d8-4b8e-824b-e27353880eef" name="Peppi Pepper">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +3000 (While attacking, this creature gets +2000 power.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="50/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="18fb2eb9-e7ad-4692-a9e1-a93f5619b6ff" name="Gandaval's Stapler">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever another creature is put into the battle zone, tap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="3d1782e4-ae7c-47ed-9c24-41930b719027" name="Copper Locust">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When a player evolves another creature, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="3408c30a-6014-4f8d-87c3-0a4f94f80100" name="Turtle Horn, the Imposing">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent uses the &quot;shield trigger&quot; ability of one of his shields, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="f466f90a-5c08-4953-afa9-0bee7c56ce61" name="Fever Nuts">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Your creatures and your opponent's creatures each cost up to 1 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="5e1be4be-3b48-43e2-aba2-9a15ad471f6b" name="Uncanny Turnip">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/55"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="663ff42e-4f38-49a9-a156-92ab84251251" name="Terradragon Arque Delacerna">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S5"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="3494033f-de0a-4ae4-83e3-0761a45857ce" name="Wise Starnoid, Avatar of Hope">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Starnoid"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Light Bringers and one of your Cyber Lords.&#xA;■ Whenever this creature attacks or leaves the battle zone, add the top card of your deck to your shields face down.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S5"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="3e1f04c6-5a10-4ca0-971f-c61e47fc7245" name="Cruel Naga, Avatar of Fate">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Naga"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Merfolk and one of your Chimeras.&#xA;■ This creature can't be blocked.&#xA;{DOUBLE BREAKER}&#xA;■ When this creature leaves the battle zone, destroy all creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S5"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="2842d4e5-9cca-4202-b479-5ccd256e39db" name="Death Phoenix, Avatar of Doom">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Zombie Dragons and one of your Fire Birds.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead.&#xA;■ When this creature leaves the battle zone, your opponent discards his hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S5"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+    <card id="07f9d331-efde-4ff1-9699-abdbf231f262" name="Aura Pegasus, Avatar of Life">
+      <property name="Format" value="Set17,Set35,OCG,TCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Pegasus"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Vortex evolution—Put on one of your Horned Beasts and one of your Angel Commands.&#xA;■ Whenever this creature attacks or leaves the battle zone, reveal the top card of your deck. If it's a non-evolution creature, put it into the battle zone. Otherwise, put it into your hand.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-12 Eternal Vortex"/>
+    </card>
+  </cards>
+</set>

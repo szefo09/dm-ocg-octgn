@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM22-RP1 Legendary Jashin" id="36f851e3-7297-4744-8874-44dc26e0a9f1" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="f4e94e76-7a31-469a-8beb-4609e8c8d278">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="91d197d2-f8b3-4e30-bc67-f9fda79df970" name="Ella Rouge, Red Wings Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="6500+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever a creature attacks for the first time, you may draw a card. If you do, tap one of your opponent’s creatures.&#xA;■ 'Civil Count 3': If you have 3 or more light creatures and/or light tamaseeds, ignore effects that prevent your creatures that have &quot;blocker&quot; from attacking your opponent. Those creatures gets +6000 power and &quot;powered breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="f2840212-8013-408b-8533-91a2659c6c79" name="Oilmane, Oil Lord Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each of your creatures gets &quot;Escape&quot;.&#xA;■ When you put this creature, shieldify the top card of your deck.&#xA;■ Each turn, when you put a card into your shield zone for the first time, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="1A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a8eaa199-447c-47bf-a629-90c4ac30b9ec" name="Abyssbell = Jashin Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your Abyss creatures in your graveyard get &quot;Abyss Rush&quot;. (You may summon a creature that has &quot;Abyss Rush&quot; from your graveyard. If you do, that creature can attack players this turn and is put on the bottom of your deck at the end of the turn.)&#xA;■ When this creature would leave, you may discard 2 cards from your hand instead.&#xA;■ Your creatures in your graveyard cost 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="1B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a3289223-f542-427b-a0a8-d40babbc1923" name="Abyssbell = Jashin Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your Abyss creatures in your graveyard get &quot;Abyss Rush&quot;. (You may summon a creature that has &quot;Abyss Rush&quot; from your graveyard. If you do, that creature can attack players this turn and is put on the bottom of your deck at the end of the turn.)&#xA;■ When this creature would leave, you may discard 2 cards from your hand instead.&#xA;■ Your creatures in your graveyard cost 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="1S/2"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1b76bb36-984a-4177-9794-fa5743fd744a" name="Lacryma Crawler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Earth Eater"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ At the end of each turn, if you used a spell that costs 5 or more, or a tamaseed that costs 5 or more, you may put this creature from your hand.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more water creatures and/or water tamaseeds, you may draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b1253068-ce39-4334-9cc6-4b7d07f212cd" name="Shakedown Domeciale">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures. Your opponent shieldifies it.&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="2A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e7a9ff40-c556-43bc-86ae-a65659b1fa21" name="Doran Gorghini">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Supercar Dragon/ACE"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="■ When you put this tamaseed, tap up to 2 of your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ If you don't have a total of 4 or more light creatures and/or light tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 5 or less from your hand. Then if you have more creatures than your opponent, your creatures can't be destroyed until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="2B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="41119b7b-9aa3-4c8a-8b43-8c483853d0d1" name="Doran Gorghini">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Supercar Dragon/ACE"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="■ When you put this tamaseed, tap up to 2 of your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ If you don't have a total of 4 or more light creatures and/or light tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 5 or less from your hand. Then if you have more creatures than your opponent, your creatures can't be destroyed until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="2S/2"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3a4e7b19-8d66-4b11-b8e5-672d568acb28" name="Dekabetta, Blue Heat Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, you may choose one of your opponent's cards in the battle zone that costs 4 or less and return it to its owner's hand.&#xA;■ 'Civil Count 3': If you have a total of 3 or more water creatures and/or water tamaseeds, this creature gets +6000 power, &quot;double breaker&quot;, and can't be chosen by your opponent. (It can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="ac693b89-ccef-40de-8836-effbcb6a67f7" name="Drache der'Zen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Magic Command Dragon/ACE"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may draw 3 cards. If you do, discard 2 cards from your hand.&#xA;■ If you don't have a total of 4 or more water creatures and/or water tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► You may use a tamaseed that costs 5 or less from your graveyard for no cost:&#xA;► You may cast a spell that costs 5 or less from your graveyard for no cost. If you do, after you cast that spell, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="3A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8aea02f4-8ea8-4733-8aba-dc308ab98ef4" name="Oilmane, Oil Lord Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each of your creatures gets &quot;Escape&quot;.&#xA;■ When you put this creature, shieldify the top card of your deck.&#xA;■ Each turn, when you put a card into your shield zone for the first time, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="3B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e6780779-3eb0-4a85-86b2-cc690c477ff0" name="Clock = Chronicle, Dark Moment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, discard 3 cards from your opponent's hand at random.&#xA;■ Your Abyss can't leave due to your opponent's spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="fc151f17-8ff1-4109-b055-3b4ad6079282" name="Bauwauja, Abyssal Three Roar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Abyss Royale/ACE"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may put the top 4 cards of your deck into your graveyard.&#xA;■ If you don't have a total of 4 or more darkness creatures and/or darkness tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures.&#xA;■ During your turn, this tamaseed can't leave except by being destroyed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="4e05794b-cfb0-4625-a75d-555a682fb721" name="Shakedown Domeciale">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures. Your opponent shieldifies it.&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="85c01350-5945-46ea-a8cd-5f9134c73341" name="Torch = Totorot, Evil Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, your opponent chooses one of their creatures that has the lowest power and destroys it.&#xA;■ 'Civil Count 3': When you put this creature, if you have a total of 3 or more darkness creatures and/or darkness tamaseeds, your opponent chooses one of their creatures that has the highest power and destroys it.&#xA;■ When this creature attacks, destroy this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d7a0acdc-452f-4d23-8630-986729b6b5c5" name="Bolshack Valkyrie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ If you have 6 or more cards in your mana zone, you may pay Fire 3: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more fire creatures and/or fire tamaseeds, you may discard your hand. If you do, draw 3 cards. For each card discarded this way, this creature gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="9b37ef44-97b4-4fde-866f-10e978ca7329" name="Drache der'Zen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Magic Command Dragon/ACE"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may draw 3 cards. If you do, discard 2 cards from your hand.&#xA;■ If you don't have a total of 4 or more water creatures and/or water tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► You may use a tamaseed that costs 5 or less from your graveyard for no cost:&#xA;► You may cast a spell that costs 5 or less from your graveyard for no cost. If you do, after you cast that spell, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="cdd2b7b2-da7e-4e40-b015-3d3e26ac93e0" name="Sonkun, Blazing Fire Great Saint">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks or whenever one of your creatures is destroyed, choose one of the following:&#xA;▶ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it:&#xA;▶ Choose one of your opponent's creatures that costs 3 or less and destroy it:&#xA;▶ Choose one of your opponent's tamaseeds that costs 3 or less and destroy it:&#xA;▶ Break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8ea00832-806e-414e-a262-56b8811e7ff0" name="Bolshack Force Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Armored Dragon/ACE"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ When you put this tamaseed, destroy one of your opponent's creatures that has power 4000 or less.&#xA;■ If you don't have a total of 4 or more fire creatures and/or fire tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, each of your other creatures gets &quot;power attacker +6000&quot;, &quot;speed attacker&quot; and &quot;powered breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="45e1d28f-9fc1-4a09-bbb8-f392e97a25eb" name="Bauwauja, Abyssal Three Roar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Abyss Royale/ACE"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may put the top 4 cards of your deck into your graveyard.&#xA;■ If you don't have a total of 4 or more darkness creatures and/or darkness tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures.&#xA;■ During your turn, this tamaseed can't leave except by being destroyed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8b35300a-3d9a-4a63-a08a-4d910826391a" name="Terradragon Liangjiao">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, put any number of your opponent's creatures that have total cost of 5 or less into their owner's mana zone.&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more nature creatures and/or nature tamaseeds, you may return 2 cards from your mana zone to your hand. If you do, put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="0a495bb4-c409-467d-bbe5-df982bc1a54d" name="Orbimaker Par 100, Tenth Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each nature creature and/or nature tamaseed you put this turn. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{QUATTRO BREAKER}&#xA;■ 'Civil Count 5': If you have a total of 5 or more nature creatures and/or nature tamaseeds, during your opponent's turn, whenever your opponent puts a creature or tamaseed into the battle zone and that ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature&quot;.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e7dd81e6-0cce-4695-9b46-23b1e2395f12" name="Bolshack Valkyrie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ If you have 6 or more cards in your mana zone, you may pay Fire 3: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more fire creatures and/or fire tamaseeds, you may discard your hand. If you do, draw 3 cards. For each card discarded this way, this creature gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b3b164d4-7aab-4d3a-99a7-1a01b29b17a3" name="Perfect Curse Mind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If a card was put into a players graveyard this turn, this spell costs 2 less to cast.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards. Then discard a card from your hand:&#xA;► Choose one of your opponent's creatures. That creature gets -1000 for each card in your graveyard until the end of the turn:&#xA;► Put a tamaseed that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="2e9acfa7-095e-49c5-ae7b-64479f1c6e72" name="Goukai! Grandslam Scorpion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Giant Insect/ACE"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ When you put this tamaseed, untap 4 cards in your mana zone.&#xA;■ If you don't have a total of 4 or more nature creatures and/or nature tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone, then put a creature or tamaseed from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1038a314-c65e-46c0-9a15-a044db14d1be" name="Bolshack Force Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Armored Dragon/ACE"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ When you put this tamaseed, destroy one of your opponent's creatures that has power 4000 or less.&#xA;■ If you don't have a total of 4 or more fire creatures and/or fire tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, each of your other creatures gets &quot;power attacker +6000&quot;, &quot;speed attacker&quot; and &quot;powered breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="397d9b5e-3c1c-4250-a58a-4f7f98579a72" name="Jamarillo-S8">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ 'Civil Count 3': Whenever this creature taps, if you have a total of 3 or more light creatures and/or light tamaseeds, shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="904cb2cd-4540-4ed3-b169-492d627f7f68" name="Torch = Totorot, Evil Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, your opponent chooses one of their creatures that has the lowest power and destroys it.&#xA;■ 'Civil Count 3': When you put this creature, if you have a total of 3 or more darkness creatures and/or darkness tamaseeds, your opponent chooses one of their creatures that has the highest power and destroys it.&#xA;■ When this creature attacks, destroy this creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a39c2737-462d-4138-94c5-1cf2869cef02" name="Orbimaker Par 100, Tenth Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each nature creature and/or nature tamaseed you put this turn. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{QUATTRO BREAKER}&#xA;■ 'Civil Count 5': If you have a total of 5 or more nature creatures and/or nature tamaseeds, during your opponent's turn, whenever your opponent puts a creature or tamaseed into the battle zone and that ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature&quot;.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3cae9a20-4f8f-4ba7-b5b0-723d0baa3001" name="Brutula-D1">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Your other creatures can't leave except by being destroyed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="12c378ac-25d9-4f06-9374-1efc1695f1b4" name="Sonkun, Blazing Fire Great Saint">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks or whenever one of your creatures is destroyed, choose one of the following:&#xA;▶ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it:&#xA;▶ Choose one of your opponent's creatures that costs 3 or less and destroy it:&#xA;▶ Choose one of your opponent's tamaseeds that costs 3 or less and destroy it:&#xA;▶ Break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="eba48576-b785-457c-9b4c-becaa36da4be" name="Goukai! Grandslam Scorpion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Giant Insect/ACE"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ When you put this tamaseed, untap 4 cards in your mana zone.&#xA;■ If you don't have a total of 4 or more nature creatures and/or nature tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone, then put a creature or tamaseed from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10B/10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="51d19312-7cf0-4291-a1a3-3f01feecd831" name="Manptulk, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature doesn't untap at the start of your turn.&#xA;■ This creature can't attack players if you don't have a tamaseed.&#xA;■ Untap this creature whenever you put a tamaseed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="ff819fab-9b68-41cb-acc1-bb16bc055c29" name="Perfect Curse Mind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If a card was put into a players graveyard this turn, this spell costs 2 less to cast.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards. Then discard a card from your hand:&#xA;► Choose one of your opponent's creatures. That creature gets -1000 for each card in your graveyard until the end of the turn:&#xA;► Put a tamaseed that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="11A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="940d7219-7bd8-4261-9bfc-45fd42098e3d" name="Aqua Network">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Liquid People"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may use a tamaseed that costs 5 or less or a spell that costs 5 or less from your hand for no cost.&#xA;■ 'Civil Count 3': If you have a total of 3 or more water creatures and/or water tamaseeds, this creature gets &quot;blocker&quot; and when this creature would be destroyed, return it to your hand instead. (You may tap a creature that &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="598a6a12-3817-472c-9185-31a4a2038078" name="Aqua Network">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Liquid People"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may use a tamaseed that costs 5 or less or a spell that costs 5 or less from your hand for no cost.&#xA;■ 'Civil Count 3': If you have a total of 3 or more water creatures and/or water tamaseeds, this creature gets &quot;blocker&quot; and when this creature would be destroyed, return it to your hand instead. (You may tap a creature that &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="ac57d036-9ed0-4219-98a1-3620276a3e2c" name="♪ Green Leaves for Eyes, Teleportation Hatsugatsuo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="■ Draw a card. Then choose one of your opponent's creatures or one of your opponent's tamaseeds and return it to its owner's hand.&#xA;■ 'Civil Count 2': If you have a total of 2 or more water creatures and/or water tamaseeds, draw a card. Then choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b7d7745c-d1b1-4778-9e63-268e159c29ef" name="Just In You">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more darkness creatures and/or darkness tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Put the top 4 cards of your deck into your graveyard. Then put an Abyss that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="4223c570-17a9-4bb1-923b-d856414369c7" name="♪ Making an Uninteresting Graveyard Interesting">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="■ Choose a spell or tamaseed from your graveyard. You may use that card during this turn. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d2df37e0-b73b-4682-bc3e-52d52b9d46f3" name="Bolshack Tail Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ 'Civil Count 3': If you have a total of 3 or more fire creatures and/or fire tamaseeds, this creature gets +2000 power and &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="2b25e09e-7fd5-494b-97bf-8f982d9d8eb9" name="Chandelier = Velia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or leaves, choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="4d6ab667-1716-4701-8b9b-f1660e832c56" name="Astmaple-T3">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may put a creature that costs 3 or less or a tamaseed that costs 3 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="017b8979-59f7-4d8d-bba3-d3159a45854a" name="Knife = Alife">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, each of your opponent's creatures gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;■ Each turn, the first time a creature is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="cdbcc391-35d6-45f3-8334-c2f1b3c29726" name="Abyss Diner">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Rules" value="■ Each turn, the first time one of your creatures attacks, you may put a creature or tamaseed that costs less than that creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="16A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="11b89be6-c936-43dd-af25-bc51db5e50a0" name="Just In You">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more darkness creatures and/or darkness tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Put the top 4 cards of your deck into your graveyard. Then put an Abyss that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d28f985f-1204-47e2-be1f-23e7d9a99f6a" name="Caddy Beetle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent would put a creature that costs more than the number of cards in their mana zone, put it into its owner's mana zone instead.&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="17A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e9d5844d-13b3-4e3b-b03b-361e51caa428" name="Doppeldecker Wyvern">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Wyvern"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ If you have 5 or more cards in your mana zone, you may pay Fire 2: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="cae6178c-1cf2-4d7f-aaaf-952ce7e2ae49" name="Al Hakob, Transport Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="500"/>
+      <property name="Rules" value="■ When you put this creature, you may tap one of your untapped light creatures or one of your untapped light tamaseeds. If you do, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="18A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b2c1e126-f6a9-4297-8892-b739ecdd1f8c" name="Bolshack Tail Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ 'Civil Count 3': If you have a total of 3 or more fire creatures and/or fire tamaseeds, this creature gets +2000 power and &quot;double breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="63c4c2be-940a-4a15-89aa-e37df33307c6" name="&quot;Darakuma&quot;, Spirit Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at your opponent's hand, choose a card and discard it.&#xA;■ 'Civil Count 2': If you have a total of 2 or more darkness creatures and/or darkness tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="19A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="74aa4f0b-e971-4b81-9821-d940f6aea77a" name="Annie Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Each turn, the first time one of your dragons attacks, untap it.&#xA;■ If you have a dragon, this creature gets +3000 power.&#xA;■ 'Civil Count 3': If you have a total of 3 or more fire creatures and/or fire tamaseeds, each of your other creatures gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="6961852c-ba50-47ac-9cb6-efedaf63485e" name="Wedge, Frozen Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more nature creatures and/or nature tamaseeds, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="20A/20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="29a0d361-d4ea-4328-bf0c-45ce6c319ec7" name="Raging Dragon's Claw">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, reveal the top card of your deck. If it's a creature or tamaseed that costs the same as the attacking creature, put it. Otherwise, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="88365c25-9967-427f-98f5-5da821d43354" name="Fullswing Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, put any number of cards from your graveyard into your mana zone tapped.&#xA;■ Once per turn, you may summon a creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="ed74cfff-46eb-4822-baad-299841696930" name="Koubashi Poruchinidake">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Balloon Mushroom"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ You may put this creature tapped.&#xA;■ Whenever your opponent's creatures attack, they attack this creature if able.&#xA;■ 'Civil Count 3': If you have a total of 3 or more nature creatures and/or nature tamaseeds, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1c3a60c5-7d13-467f-9d00-0112f071790b" name="No.2 Wood's Tiger-kun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature would be put into your mana zone from anywhere other than your hand, put it into the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="dbccfe0d-eab0-4f4d-84c0-ca6784d6e169" name="Boost Driver, Collision Type Acceleration 3-Speed">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ Each turn, the first time when you put a creature, you may draw a card.&#xA;■ Each turn, the first time when you put another tamaseed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b7f61be0-71d1-4f20-821a-00bbb7807036" name="Records of Forests and Waterfalls">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Whenever you use a spell or another tamaseed, you may draw a card. If you do, you may put a card from your hand into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a21b07d0-75fa-4f90-9995-cf6640ee46c1" name="Baria, Layered Guard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Each turn, the first time this creature blocks, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="27/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="fc85a005-121d-47f6-9f3b-bc76c4bad780" name="Astmaple-T3">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may put a creature that costs 3 or less or a tamaseed that costs 3 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="315f165d-272a-4f29-809d-806b0eda4dff" name="Venise, the Patroller">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cosmo Walker"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ 'Civil Count 3': When you put this creature, if you have a total of 3 or more light creatures and/or light tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e3ec5c3d-d594-4732-898a-d9ef75cf6b7d" name="&quot;Pikabim&quot;, Prison Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more light creatures and/or light tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Shieldify one of your opponent's creatures that costs 5 or less or one of your opponent's tamaseeds that costs 5 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="2ead6a5c-5c5e-4e68-8ca2-1d2204cb02a7" name="Hypersonic Goldentire">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ Whenever any of your creatures attacks, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="31/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="7c81ca8c-2043-46e2-ad15-42f13178af87" name="Yosano Elekihiker">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Merfolk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, return one of your opponent's creatures that costs 3 or less or one of your opponent's tamaseeds that costs 3 or less to their owner's hand. Then if you have a tamaseed, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="32/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8ed858bb-069e-4c71-8b0e-a5c8abda1059" name="Shinkaifox">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Blue Monster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ This creature can't be attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="33/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="913a0105-a538-4886-a7ee-1a77ebbaef9e" name="&quot;Frizzen&quot;, Freezing Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more water creatures and/or water tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Choose one of your opponent's creatures or tamaseeds. Your opponent puts it on the top or bottom of their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="f4a4260e-fb8b-40e8-a2c9-27812994b373" name="iZaq, Multiple Touch Tanzaku">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or whenever you cast a spell or use another tamaseed for the first time each turn, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="35/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3180516f-fb20-49f4-93bb-51f3aa16b3b8" name="Eleguitar, Wandering in the Cyber Sea">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ Whenever you use a spell or another tamaseed, you may draw a card. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="36/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="cf9ebcb7-8a88-4b77-aeb8-2fed638d78a9" name="Fork = Fock">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. If you do, you may return an Abyss from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="0c49e258-3698-4b13-9142-540600e97dc4" name="Letter = Jengegger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature attacks, destroy this creature after the attack.&#xA;■ At the end of your turn, put the top card of your deck into your graveyard. If its an Abyss, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="38/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="48d2ce67-84bd-43a2-8955-f4a58f2f4172" name="Falling Man">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hedrian"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ Whenever an opponent's creature attacks on the turn it was put, destroy that creature after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="39/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5569c932-2fcc-4a21-b1da-d0d81558fb12" name="Ivy, Darkness Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature would be destroyed, you may put 2 cards from your graveyard on the bottom of your deck in any order instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="40/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3e341fa9-f833-49d8-9d5c-b9b59698c706" name="Abyss Diner">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Rules" value="■ Each turn, the first time one of your creatures attacks, you may put a creature or tamaseed that costs less than that creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="bfc6f451-15df-4162-9d2e-6547980d39bd" name="Explosive Trooper Zweilad">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armorloid"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ If you have 5 or more cards in your mana zone, you may pay Fire 2: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="42/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e1949ab4-d818-4746-9db8-36117a557522" name="Gyro, Jack in Hijack">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="43/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5d85cd1b-e302-47ae-909c-3edf85729f7f" name="Matte Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Whenever your opponent puts a multicolored creature, you may have that creature battle this creature.&#xA;■ While battling, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="4dfb831e-7162-4e02-b4de-f1173a80531e" name="&quot;Boyan&quot;, Fireball Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more fire creatures and/or fire tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8e9eeaaa-a4a9-4947-a2eb-7f7a5982cfa3" name="Malulu's Flame Staff">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="■ When you put this tamaseed, draw a card.&#xA;{SAVER}: Dragon|tamaseed (When one of your Dragon|tamaseed(s) would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="da11100f-0f54-49ab-bfa4-1b3e8d0dcddb" name="Pu Pritsch Tank">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs 4 or less or one of your opponent's tamaseeds that costs 4 or less and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c5445c5e-b8c5-4975-88c3-b22efd66bd13" name="Daikon Leaguer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, you may put a card that has 'Daikon Leaguer' in its name from your mana zone.&#xA;■ 'Civil Count 3': Whenever this creature battles, if you have a total of 3 or more nature creatures and/or nature tamaseeds, put the 2 creatures into their owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="338bcdf5-5504-48e0-bddd-103e833b538f" name="Caddy Beetle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent would put a creature that costs more than the number of cards in their mana zone, put it into its owner's mana zone instead.&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b2279016-0ccc-4621-9509-7a146630c6bf" name="&quot;Dogoru&quot;, Ground Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ 'Civil Count 2': If this spell is in your shield zone and you have a total of 2 or more nature creatures and/or nature tamaseeds, this spell gets &quot;shield trigger&quot;.&#xA;■ Choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="74eb229a-19d0-45f6-a7c2-b96f4d0b163d" name="Maddy Mu Jean, Reception Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="51/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a58ff64e-483c-4ec2-89e2-a8c29de07bf7" name="Acrux, Saint Wings">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Justice Wing"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can’t attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="564e0d91-2f8f-43f9-b1e8-107f9afdec7c" name="Al Hakob, Transport Guardian">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="500"/>
+      <property name="Rules" value="■ When you put this creature, you may tap one of your untapped light creatures or one of your untapped light tamaseeds. If you do, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="18e87e55-853f-4168-a77f-8eeff82272ff" name="Coin of Power">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or another tamaseed that has &quot;Coin of Power&quot; in its name, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="54/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c85d14f6-fcfb-4a30-a694-67d7ed922624" name="Trois Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ 'Civil Count 2': If you have a total of 2 or more light creatures and/or light tamaseeds, draw a card.&#xA;■ Put a creature that costs 3 or less or a tamaseed that costs 3 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="55/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1be4ab60-21ba-43b1-b02a-9e164455f2a7" name="Gospeller Fish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Fish"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="56/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="28fb338a-77d2-49b5-a3f0-e8f20d153ba2" name="Kurogane, Roaring Cannon Ironman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more water creatures and/or water tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="57/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5d5c6bad-d015-40c0-9ee6-0f776a7fe5cc" name="Coin of Knowledge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or another tamaseed that has &quot;Coin of Knowledge&quot; in its name, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="803c2388-c480-44bf-94d3-9ab78c6e9b94" name="♪ Old Pond and Frog Jump, Spiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="■Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ 'Civil Count 2': If you have 2 or more water creatures or water tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="59/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c0c4f2cf-5ecf-4a1e-a71e-93680b0453f7" name="Keylock = Debok">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="60/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b496da3c-5d5a-4948-8d13-d55d5068a6db" name="Book = Ragirup">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more darkness creatures and/or darkness tamaseeds, discard a card from your opponent's hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="61/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e95098af-520e-4048-a015-ff6b3fc60a6a" name="Spoon = Nps">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;■ When you put this creature, return a card from your shield zone to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="62/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="bb3b3b91-4207-4f01-a9bd-d9441ac9d1d5" name="Coin of Bad Luck">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or another tamaseed that has &quot;Coin of Bad Luck&quot; in its name, choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="63/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d433f537-b0fc-4250-9b41-eec7dcbd9b2a" name="&quot;Darakuma&quot;, Spirit Spell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at your opponent's hand, choose a card and discard it.&#xA;■ 'Civil Count 2': If you have a total of 2 or more darkness creatures and/or darkness tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="64/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="b2b6565f-08fe-4d19-8d16-f32bee0e87ca" name="Eindecker, Vanguard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ If you have 3 or more cards in your mana zone, you may pay Fire 1: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="65/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5c868e7f-decd-43ad-87ef-18e93b4b47fa" name="Martha, Scouting Whirlwind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="66/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="165feee5-868d-46f5-8e5e-ef0be339ff38" name="U・S・A・HOKKEEN">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ 'Civil Count 3': If you have a total of 3 or more fire creatures and/or fire tamaseeds, this creature gets &quot;power attacker +6000&quot; and &quot;double breaker&quot;. (A creature that has &quot;power attacker +6000&quot; and &quot;double breaker&quot; gets +6000 power while attacking and breaks 2 shields.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="67/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="508fefb3-c925-4404-95de-8de62ece6cb1" name="Coin of Raging Fire">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or another tamaseed that has &quot;Coin of Raging Fire&quot; in its name, destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="68/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="754053ad-f162-4e92-9868-ecb51516a388" name="Flame Dragon Battledress">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ This turn, the next creature you put gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;■ 'Civil Count 2': If you have 2 or more fire creatures and/or fire tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="69/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="f5c895b6-1007-44ba-968c-7be547698daf" name="Lisman's Avershot">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, untap up to 3 cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="70/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="2dd4218f-204f-486a-af6a-c6ae9cdf22cc" name="Launching Persimmon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tree Folk"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="dd779c30-a807-43b3-a659-2879426b8735" name="Wedge, Frozen Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more nature creatures and/or nature tamaseeds, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5908959c-2e03-4ae9-b346-4ba2e17f6cac" name="Catapult Charge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ This turn, the next creature you put gets &quot;mach fighter&quot; until the end of the turn. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it.)&#xA;■ 'Civil Count 2': If you have a total of 2 or more nature creatures and/or nature tamaseeds, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c6516e06-2f98-4d80-a20a-42a8d23bbd7d" name="Coin of Prosperity">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ When you put this tamaseed or another tamaseed that has &quot;Coin of Prosperity&quot; in its name, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="74/74"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="076f8b21-f990-43a1-b174-2e665fb99a6d" name="Abyssbell = Jashin Emperor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your Abyss creatures in your graveyard get &quot;Abyss Rush&quot;. (You may summon a creature that has &quot;Abyss Rush&quot; from your graveyard. If you do, that creature can attack players this turn and is put on the bottom of your deck at the end of the turn.)&#xA;■ When this creature would leave, you may discard 2 cards from your hand instead.&#xA;■ Your creatures in your graveyard cost 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="O1/O2"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1416ab61-79e1-4761-99d0-4b85e95b81a9" name="Doran Gorghini">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Supercar Dragon/ACE"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="■ When you put this tamaseed, tap up to 2 of your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ If you don't have a total of 4 or more light creatures and/or light tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put a creature that costs 5 or less from your hand. Then if you have more creatures than your opponent, your creatures can't be destroyed until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="O2/O2"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="0e7886cf-a444-4b54-8743-8b1f9f5710af" name="Oilmane, Oil Lord Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each of your creatures gets &quot;Escape&quot;.&#xA;■ When you put this creature, shieldify the top card of your deck.&#xA;■ Each turn, when you put a card into your shield zone for the first time, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="05231e3e-5a94-4a25-8b60-d53387f933d6" name="Shakedown Domeciale">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures. Your opponent shieldifies it.&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="87cbf3f3-2fec-429e-800e-99cbeaf9c060" name="Drache der'Zen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Magic Command Dragon/ACE"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may draw 3 cards. If you do, discard 2 cards from your hand.&#xA;■ If you don't have a total of 4 or more water creatures and/or water tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► You may use a tamaseed that costs 5 or less from your graveyard for no cost:&#xA;► You may cast a spell that costs 5 or less from your graveyard for no cost. If you do, after you cast that spell, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8db4a2c0-3651-4372-9aff-8ff6b13b7a59" name="Bauwauja, Abyssal Three Roar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Abyss Royale/ACE"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ When you put this tamaseed, you may put the top 4 cards of your deck into your graveyard.&#xA;■ If you don't have a total of 4 or more darkness creatures and/or darkness tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures.&#xA;■ During your turn, this tamaseed can't leave except by being destroyed."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="714506db-472e-4d08-ab93-873d1655dfa4" name="Bolshack Valkyrie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ If you have 6 or more cards in your mana zone, you may pay Fire 3: to summon this creature. If you do, destroy this creature at the end of the turn, then draw a card.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more fire creatures and/or fire tamaseeds, you may discard your hand. If you do, draw 3 cards. For each card discarded this way, this creature gets +4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="66de5cc4-217b-428a-916f-e626ab0e3549" name="Bolshack Force Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Armored Dragon/ACE"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ When you put this tamaseed, destroy one of your opponent's creatures that has power 4000 or less.&#xA;■ If you don't have a total of 4 or more fire creatures and/or fire tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, each of your other creatures gets &quot;power attacker +6000&quot;, &quot;speed attacker&quot; and &quot;powered breaker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S6/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="bf859a10-1af1-4266-888a-e13859544b84" name="Orbimaker Par 100, Tenth Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Dragon"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each nature creature and/or nature tamaseed you put this turn. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{QUATTRO BREAKER}&#xA;■ 'Civil Count 5': If you have a total of 5 or more nature creatures and/or nature tamaseeds, during your opponent's turn, whenever your opponent puts a creature or tamaseed into the battle zone and that ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature&quot;.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="679de003-ce55-4cb0-b03f-b60db72e14ab" name="Goukai! Grandslam Scorpion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed / Creature"/>
+      <property name="Race" value="Giant Insect/ACE"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ When you put this tamaseed, untap 4 cards in your mana zone.&#xA;■ If you don't have a total of 4 or more nature creatures and/or nature tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone, then put a creature or tamaseed from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8/S8"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1807bbf1-eef3-4348-8543-e7a65498a2dd" name="Momoking Rex, Orai Hero">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="SP1/SP5"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8a2359ef-b3c8-4396-8b44-6f3839398e3d" name="Rafululu Love, Acoustic Dragon Elemental / 「It's coming from the future, so it's a Miracle」">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Rafululu Love, Acoustic Dragon Elemental"/>
+      <property name="Name2" value="「It's coming from the future, so it's a Miracle」"/>
+      <property name="Civilization" value="Light/Water/Light"/>
+      <property name="Civilization1" value="Light/Water"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/6"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command Dragon/Team Doremi/Revolutionary"/>
+      <property name="Race1" value="Angel Command Dragon/Team Doremi/Revolutionary"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Revolution Change: Light or Water Dragon&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn.&#xA;TWINPACT&#xA;■ Draw 3 cards. Then you may cast a spell that costs 5 or less from your hand for no cost."/>
+      <property name="Rules1" value="■ Revolution Change: Light or Water Dragon&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn."/>
+      <property name="Rules2" value="■ Draw 3 cards. Then you may cast a spell that costs 5 or less from your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP2/SP5"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="f6b511d0-2348-4ff9-8cbd-4957a923418d" name="Grateful Ven, Connected Breaker Horror">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dispector/King Command Dragon/Gaia Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you put this creature, you may put all cards in your graveyard into your mana zone tapped.&#xA;■ You may summon a creature from your mana zone once per turn. If it's a Distas, summon it for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP3/SP5"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="28744dad-1304-4f1c-9f17-c41e57263eab" name="Death March, Reaper Puppeteer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Graveyard evolution—Choose a darkness creature in your graveyard and put this card into the battle zone on top of that creature.&#xA;■ Whenever this creature battles, your opponent's creature gets -4000 power until the end of the battle. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="SP4/SP5"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d91f1fb1-1532-4edf-b4da-ee789dba2a4a" name="Segare, Bei B">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Milkboy"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ When your opponent would put a creature that costs more than the number of cards in their mana zone, your opponent puts it into its owner's mana zone instead, then put this creature into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="SP5/SP5"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c91e2b4c-3ebf-4e4c-9d00-510d6611c1da" name="Bruce, Clearly Drive / &quot;No hesitation. I have decided on what I must do.&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bruce, Clearly Drive"/>
+      <property name="Name2" value="&quot;No hesitation. I have decided on what I must do.&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Race1" value="Outrage MAX"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ If you have less than 13 cards in your graveyard, this creature can't attack.&#xA;■ At the end of your turn, you may put the top card of your deck into your graveyard.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 3 or less from your graveyard."/>
+      <property name="Rules1" value="{TRIPLE BREAKER}&#xA;■ If you have less than 13 cards in your graveyard, this creature can't attack.&#xA;■ At the end of your turn, you may put the top card of your deck into your graveyard."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 3 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T1/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="afdaf6e6-5ba4-4a80-9e43-06544e214e48" name="Bolshack Dragon / Duelist Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Dragon"/>
+      <property name="Name2" value="Duelist Charger"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Race1" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T2/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="5a3c28f8-8a29-4db7-bcc8-7cb959e65d19" name="Bolshack Superhero / Superhero Time">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Superhero"/>
+      <property name="Name2" value="Superhero Time"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/2"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon/Hunter"/>
+      <property name="Race1" value="Armored Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less.&#xA;TWINPACT&#xA;■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less."/>
+      <property name="Rules2" value="■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T3/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="05e93cb5-84b7-4e48-867a-7b4eda0f611a" name="Ra Zuneyoma Panzer / Aurora of Reversal">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ra Zuneyoma Panzer"/>
+      <property name="Name2" value="Aurora of Reversal"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/5"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card leaves your shield zone, put the top card of your deck into your mana zone.&#xA;TWINPACT&#xA;■ Choose any number of your shields and put them into your mana zone."/>
+      <property name="Rules1" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card leaves your shield zone, put the top card of your deck into your mana zone."/>
+      <property name="Rules2" value="■ Choose any number of your shields and put them into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T4/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="56d06ed0-0724-4100-8b3d-31c37d22251a" name="Testa Rossa, Burn the Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, draw up to 2 cards. Then discard the same number of cards you drew."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T5/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d329be21-ee33-4346-93dd-22b24a2c7263" name="Basara">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{ZERO}: At the end of your opponent's turn, if your opponent put a creature into the battle zone for no cost, you may put this Creature from your hand into the battle zone for no cost.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Revolution 0—When you put this creature if you have 0 shields, destroy all your opponent's creatures that have the highest power. For each creature destroyed, choose one of your opponent's shields and put it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T6/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="74881ca9-24c0-4e8b-add2-6899803eedf8" name="Himitsu no Finale!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent puts the top card of their deck into their graveyard. If that card's a creature, destroy one of your opponent's creatures. If that card's a spell, you may cast it for no cost and put it into its owner's graveyard. If it's not a creature or a spell, you may put a creature from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="T7/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="95969af5-896a-41ba-9b2e-b351085a9be3" name="Ra Familie, Sabakinoseido">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Judgment Emblem"/>
+      <property name="Rules" value="■ After you cast this spell from your hand, put it on one of your shields face up instead of your graveyard. (The stack is still considered one shield.)&#xA;■ Whenever any of your creatures attacks, if this card is in your shield zone face up, you may put a light creature that costs 5 or less from your hand into the battle zone. Otherwise, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T8/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d01a104c-def7-4bb5-bf41-43685dc62e80" name="Just Labyrinth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may tap any number of your creatures.&#xA;■ Draw a card for each of your tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T9/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c265e86f-431e-4076-a358-8ba02e9d8d13" name="Spiner, Shock Doctor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T10/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="bdb4e806-c0f7-4189-9066-527392aed25d" size="wide" name="Zundoko Sunny Stage, Flowery Way of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Rules" value="■ Whenever you put a creature, put the top card of your deck into your mana zone.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch—At the start of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, choose a creature that costs the same as or less than the number of cards in your mana zone and put it from your mana zone into the battle zone.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T11/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c185a964-dba0-4e0e-a6b9-4c80553362fc" name="Team Tech's Wave Go!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Return all your opponent's cards that cost 5 or less in the battle zone to their owner's hand:&#xA;► Destroy one of your opponent's creatures that costs 6 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T12/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3b130014-8568-43df-9456-1fea19d2e8fa" name="Diszircon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ You may summon this creature from your mana zone or your graveyard.&#xA;■ When you put this creature, draw 2 cards and discard a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="T13/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c9817148-51e9-4a2f-80f8-ef3c7aceaef4" name="Weimodel, Gig">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Team Zero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, put the top 3 cards of your deck into your graveyard. Then put a creature that costs 3 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T14/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e89b4779-d4cc-4e93-974d-2f14be4a81d2" name="Primal Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent would put a card from anywhere other than their hand, put it into its owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="T15/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="716adcc5-5d20-42da-a2c6-411bfefcfde9" name="Sir Leopol Deenay, the Ice Fang / Emergency Typhoon">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Sir Leopol Deenay, the Ice Fang"/>
+      <property name="Name2" value="Emergency Typhoon"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Cyber Virus/Knight"/>
+      <property name="Race1" value="Cyber Virus/Knight"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, you may draw a card.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Rules1" value="■ Whenever you cast a spell, you may draw a card."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T16/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e4c54430-3034-4eac-9c65-26dd7a42cd87" name="Gompadu, Daspell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Tool"/>
+      <property name="Rules" value="■ Look at the top 3 cards of your deck. Add one from among them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T17/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="a93ea260-982a-452b-88d5-dfcf492b1fc8" name="Worm Gowarski, Masked Insect">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Parasite Worm/Devil Mask"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Graveyard evolution—Choose a darkness creature in your graveyard and put this creature into the battle zone on top of that creature.&#xA;■ When this creature is destroyed, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T18/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="35a870af-9aa3-469d-98d3-fc6b394dfb43" name="Sannap, Tribe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk Go/Invader"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MANA ARMS} 3: When you put this creature, if you have 3 or more nature cards in your mana zone, untap 3 cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T19/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="93246b68-052a-4dd8-b1f3-3ecdf2ca855f" name="Bolshack Glory Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a dragon, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="T20/T20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="25de67fe-5809-4c30-bd48-2fad0957391e" name="Bruce, Clearly Drive / &quot;No hesitation. I have decided on what I must do.&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bruce, Clearly Drive"/>
+      <property name="Name2" value="&quot;No hesitation. I have decided on what I must do.&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/3"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Race1" value="Outrage MAX"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ If you have less than 13 cards in your graveyard, this creature can't attack.&#xA;■ At the end of your turn, you may put the top card of your deck into your graveyard.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 3 or less from your graveyard."/>
+      <property name="Rules1" value="{TRIPLE BREAKER}&#xA;■ If you have less than 13 cards in your graveyard, this creature can't attack.&#xA;■ At the end of your turn, you may put the top card of your deck into your graveyard."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 3 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF1/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3b2385d8-c67b-474e-b338-b5845c456bea" name="Bolshack Dragon / Duelist Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Dragon"/>
+      <property name="Name2" value="Duelist Charger"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Race1" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. From among them, add all cards that have &quot;Bolshack&quot; in their name into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF2/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="29eb080f-6481-47a9-b599-bffa7853f6a9" name="Bolshack Superhero / Superhero Time">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bolshack Superhero"/>
+      <property name="Name2" value="Superhero Time"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/2"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Armored Dragon/Hunter"/>
+      <property name="Race1" value="Armored Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less.&#xA;TWINPACT&#xA;■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all non-psychic creatures that have power 3000 or less. Then destroy all psychic creatures that have power 5000 or less."/>
+      <property name="Rules2" value="■ Choose one of your opponent's cards that costs 3 or less in the battle zone and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF3/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="7cfc47d6-088f-4af7-9088-9fa9fda90d53" name="Ra Zuneyoma Panzer / Aurora of Reversal">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ra Zuneyoma Panzer"/>
+      <property name="Name2" value="Aurora of Reversal"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/5"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card leaves your shield zone, put the top card of your deck into your mana zone.&#xA;TWINPACT&#xA;■ Choose any number of your shields and put them into your mana zone."/>
+      <property name="Rules1" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever a card leaves your shield zone, put the top card of your deck into your mana zone."/>
+      <property name="Rules2" value="■ Choose any number of your shields and put them into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF4/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c964be17-6058-481e-96b9-bf311423856a" name="Testa Rossa, Burn the Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, draw up to 2 cards. Then discard the same number of cards you drew."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF5/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="26c4e495-362e-4c3a-93f3-fa92dbec4436" name="Basara">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{ZERO}: At the end of your opponent's turn, if your opponent put a creature into the battle zone for no cost, you may put this Creature from your hand into the battle zone for no cost.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Revolution 0—When you put this creature if you have 0 shields, destroy all your opponent's creatures that have the highest power. For each creature destroyed, choose one of your opponent's shields and put it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF6/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3b61c98c-aad3-4634-8023-8b138bd35f15" name="Himitsu no Finale!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Your opponent puts the top card of their deck into their graveyard. If that card's a creature, destroy one of your opponent's creatures. If that card's a spell, you may cast it for no cost and put it into its owner's graveyard. If it's not a creature or a spell, you may put a creature from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TF7/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="20f77964-fec3-4caa-b3cd-4a4090255814" name="Ra Familie, Sabakinoseido">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Judgment Emblem"/>
+      <property name="Rules" value="■ After you cast this spell from your hand, put it on one of your shields face up instead of your graveyard. (The stack is still considered one shield.)&#xA;■ Whenever any of your creatures attacks, if this card is in your shield zone face up, you may put a light creature that costs 5 or less from your hand into the battle zone. Otherwise, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF8/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="2625ae0c-dd77-4993-a821-7d0832af229b" name="Just Labyrinth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may tap any number of your creatures.&#xA;■ Draw a card for each of your tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF9/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="7563a339-64b7-49a9-a2c6-6fd7d39578b6" name="Spiner, Shock Doctor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF10/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="081d1765-063d-4eb3-9c40-d7f0208633a1" size="wide" name="Zundoko Sunny Stage, Flowery Way of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Rules" value="■ Whenever you put a creature, put the top card of your deck into your mana zone.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch—At the start of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, choose a creature that costs the same as or less than the number of cards in your mana zone and put it from your mana zone into the battle zone.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF11/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c30b5910-1fff-4286-9388-4a5d4ddd0004" name="Team Tech's Wave Go!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Return all your opponent's cards that cost 5 or less in the battle zone to their owner's hand:&#xA;► Destroy one of your opponent's creatures that costs 6 or more."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF12/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="64453d59-6eed-444a-ac1b-a0b58f09bfd7" name="Diszircon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Spirit Quartz/Distas"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ You may summon this creature from your mana zone or your graveyard.&#xA;■ When you put this creature, draw 2 cards and discard a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF13/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c087c876-d2c1-4705-9efa-f34bf1e889ad" name="Weimodel, Gig">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Team Zero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, put the top 3 cards of your deck into your graveyard. Then put a creature that costs 3 or less from your graveyard into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF14/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="61359dd0-b839-4e7c-925f-af753af60dd6" name="Primal Giant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ This creature can't attack players.&#xA;■ Whenever your opponent would put a card from anywhere other than their hand, put it into its owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF15/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="9f69aca2-fabc-4cb9-a976-329738f423b1" name="Sir Leopol Deenay, the Ice Fang / Emergency Typhoon">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Sir Leopol Deenay, the Ice Fang"/>
+      <property name="Name2" value="Emergency Typhoon"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="4/2"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Cyber Virus/Knight"/>
+      <property name="Race1" value="Cyber Virus/Knight"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever you cast a spell, you may draw a card.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Rules1" value="■ Whenever you cast a spell, you may draw a card."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw up to 2 cards. Then discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF16/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3aab79aa-d20f-4ed7-bc3d-296878c1209e" name="Gompadu, Daspell">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Tool"/>
+      <property name="Rules" value="■ Look at the top 3 cards of your deck. Add one from among them into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF17/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="0f30a4f7-66bf-4e1b-8e08-411b3ce3763d" name="Worm Gowarski, Masked Insect">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Parasite Worm/Devil Mask"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Graveyard evolution—Choose a darkness creature in your graveyard and put this creature into the battle zone on top of that creature.&#xA;■ When this creature is destroyed, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF18/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c48459ae-d998-4b79-b3f8-9b955edca3e7" name="Sannap, Tribe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk Go/Invader"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MANA ARMS} 3: When you put this creature, if you have 3 or more nature cards in your mana zone, untap 3 cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF19/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="3f32e9de-d58c-492f-abe0-9fd6e16dfbc1" name="Bolshack Glory Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a dragon, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF20/TF20"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="aa6442f0-c05f-4e08-9c4f-b0481c511076" name="Bolshack Balga, Dragon Knight Wind Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="19"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Volcano Dragon/Armored Dragon"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 4 or more fire Dragon creatures, you may summon this creature for no cost.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all your opponent's creatures that have &quot;blocker&quot;.&#xA;■ Whenever this creature attacks, draw a card. Then you may put a Dragon creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TR1/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="c82823fe-d2e7-48a0-854c-0b5f06f2ee12" name="Miradante Super Future, Future Pope">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="{Revolution Change|Light|Water Dragon"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="TR2/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="8f2055ca-dd12-41c4-ab5d-c7653e9ddeea" name="Scora, Dimensional Storm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia/Specials"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you cast 5 or more spells this turn, you may summon this creature for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When you summon this creature into the battle zone, if it's the first 'Scora, Dimensional Storm' put into the battle zone during this game, take an extra turn after this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR3/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="1f7b838d-d2c2-4996-b09f-5a1497023a5f" name="Fernando Sesseur / Primal Scream">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Fernando Sesseur"/>
+      <property name="Name2" value="Primal Scream"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="6/4"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mafi Gang"/>
+      <property name="Race1" value="Mafi Gang"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, you may put the top 2 cards of your deck into your graveyard. Then you may put a darkness creature that costs 3 or less from your graveyard into the battle zone.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top 4 cards of your deck into your graveyard. Then you may return a creature from your graveyard to your hand."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, you may put the top 2 cards of your deck into your graveyard. Then you may put a darkness creature that costs 3 or less from your graveyard into the battle zone."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top 4 cards of your deck into your graveyard. Then you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR4/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="00c1c942-090f-49dc-811c-92069ba19d50" name="Great Grasper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR5/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="575771f4-efe6-46a1-8847-a33363768b5d" name="Gaiash Kaiser, the Meteor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Blue Command Dragon/Green Command Dragon/Hunter"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if your opponent put a creature or cast a spell without tapping a card in their mana zone that turn, and you don't have a 'Gaiash Kaiser, the Meteor', you may summon this creature for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw 2 cards.&#xA;■ Your creatures that cost 10 or more cost 4 less to summon. They can't cost 0 or less.&#xA;■ Your opponent's creatures can't attack you on the turn they are put."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR6/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="d91a19c2-7fcb-4054-96c5-139e49de20df" name="Gyou Kinari, The Wicked Evil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jurassic Command Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever your opponent puts a creature and its ability would trigger, you use that ability instead.&#xA;■ At the start of your opponent's turn, you may choose a creature in your opponent's graveyard. If you do, your opponent puts it tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TR7/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="e0ecf006-3ca4-4111-9a30-56f486a699ce" name="Trial of God">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal cards from the top of your deck until you show 2 cards that have the same cost.&#xA;■ If you reveal your entire deck in this way, take an extra turn after this one, and during the rest of this game, even if you don't have a card in your deck, you won't lose the game.&#xA;■ Add all face up cards to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TR8/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="59f1f28b-eb8a-41b6-8eab-cde412569d79" name="Galaxy Brand">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, this creature costs 6 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TR9/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+    <card id="7e4cd37d-16e6-4463-8085-7d5f4a15a0dd" name="Akashic Final">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Lord/Armored Dragon/Angel Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Multicolored|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Multicolored Dragon (When one of your Multicolored Dragon attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all multicolored cards into your hand. Then put the rest into your graveyard.&#xA;■ Your multicolored Dragons cost 2 less to summon. They can't cost 1 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TR10/TR10"/>
+      <property name="Set" value="DM22-RP1 Legendary Jashin"/>
+    </card>
+  </cards>
+</set>
