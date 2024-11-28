@@ -11,6 +11,7 @@ shields = []
 playerside = None
 sideflip = None
 diesides = 20
+civ_order = ['Light', 'Water', 'Darkness', 'Fire', 'Nature']
 shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 waitingFunct = []  # Functions waiting for targets. Please replace this with FUNCTIONS waiting for targets later. If a card calls 2 functions both will happen again otherwise
 evaluateNextFunction = True #For conditional evaluation of one function after the other, currently only implemented for bounce() in IVT
@@ -844,7 +845,7 @@ def clearWaitingFuncts():  # clears any pending plays for a card that's waiting 
 def manaArmsCheck(civ='ALL5', num=0):
 	if civ == 'ALL5':  # check if you have all 5 civs in mana zone
 		manaCards = [card for card in table if isMana(card) and card.owner == me]
-		civList = ["Fire", "Nature", "Water", "Light", "Darkness"]
+		civList = ['Light', 'Water', 'Darkness', 'Fire', 'Nature']
 		flags = [False] * 5  # one flag for each corresponding civ [False, False, False, False, False]
 		for card in manaCards:
 			for i in range(0, 5):
@@ -3169,10 +3170,12 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	mute()
 	card = ensureCardObjects(card)
 	if isMana(card):
+		global civ_order
 		for player in players:
 			totalMana = [c for c in table if isMana(c) and c.owner == player]
 			totalUntappedMana = [c for c in totalMana if c.orientation == Rot180]
-			notify("{} has {} Mana in total. ({} Untapped)".format(player, len(totalMana), len(totalUntappedMana)))
+			unique_civilizations = sorted({civ for card in totalMana if card.orientation == Rot180 for civ in card.Civilization.split('/')}, key=civ_order.index)
+			notify("{} has {} Mana in total.{} Untapped\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
 		return
 	if isPsychic(card):
 		toHyperspatial(card)
