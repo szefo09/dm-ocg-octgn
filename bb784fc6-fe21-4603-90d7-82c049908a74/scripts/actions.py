@@ -1930,7 +1930,11 @@ def selfDiscard(count=1):
 	cardList = [card for card in me.hand]
 	if len(cardList)==0: return
 	reverse_cardList(cardList)
-	cardChoices = askCard2(cardList, "Choose {} Card(s) to discard".format(count), maximumToTake=count, returnAsArray=True)
+	count = min(count, len(cardList))
+	if len(cardList) == count:
+		cardChoices = cardList
+	else:
+		cardChoices = askCard2(cardList, "Choose {} Card(s) to discard".format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices, list):
 		notify("Discard cancelled.")
 		return
