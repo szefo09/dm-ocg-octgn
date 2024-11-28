@@ -111,6 +111,7 @@ cardScripts = {
 	'Jenny, the Dismantling Puppet': {'onPlay': ['targetDiscard()']},
 	'Jenny, the Suicide Doll': {'onPlay': ['suicide(card, targetDiscard, [True])']},
 	'Jet R.E, Brave Vizier': {'onPlay': ['shields(me.Deck)']},
+	'Katta Kirifuda & Katsuking -Story of Passion-': {'onPlay': ['lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"])', 'bounce(conditionalFromLastFunction=True)']},
 	'King Aquakamui': {'onPlay':['kingAquakamui(card)']},
 	'King Mazelan': {'onPlay':['bounce()']},
 	'King Ripped-Hide': {'onPlay': ['draw(me.Deck, True, 2)']},
@@ -284,7 +285,7 @@ cardScripts = {
 	'Illusionary Merfolk': {'onPlay': ['draw(me.Deck, True, 3) if len([c for c in table if isCreature(c) and not isBait(c) and c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None']},
 	'Infernal Smash': {'onPlay': ['kill()']},
 	'Intense Evil':{'onPlay':['intenseEvil()']},
-	'Intense Vacuuming Twist': {'onPlay': ['lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"])', 'bounce(conditionalFromLastFunction=True)']},
+	'Dondon Vacuuming Now': {'onPlay': ['lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"])', 'bounce(conditionalFromLastFunction=True)']},
 	'Invincible Abyss': {'onPlay': ['destroyAll([c for c in table if c.owner != me], True)']},
 	'Invincible Aura': {'onPlay': ['shields(me.Deck, 3, True)']},
 	'Invincible Cataclysm':{'onPlay':['burnShieldKill(3)']},
@@ -1086,28 +1087,30 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 		notify("{} puts {} back on top of deck".format(me, card))
 		card.isFaceUp = False
 
-def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='bottom', reveal=True, specialaction='NONE', specialaction_civs = []):
+def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='bottom', reveal=True, specialaction='NONE', specialaction_civs = [], count = 1):
 	mute()
 	notify("{} looks at the top {} Cards of their deck".format(me, num))
 	cardList = [card for card in me.Deck.top(num)]
-	choice = askCard2(cardList, 'Choose a Card to put into {}'.format(targetZone))
-	if type(choice) is Card:
-		if not 'NONE' in specialaction:
-			card_for_special_action = choice
-		if cardType == 'card' or re.search(cardType, choice.Type):
-			# use switch instead, when more zones are added here
-			if targetZone == 'mana':
-				toMana(choice)
+	choices = askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone),maximumToTake=count, returnAsArray=True)
+	cards_for_special_action = []
+	if isinstance(choices, list):
+		for choice in choices:	
+			if not 'NONE' in specialaction:
+				cards_for_special_action.append(choice)
+			if cardType == 'card' or re.search(cardType, choice.Type):
+				# use switch instead, when more zones are added here
+				if targetZone == 'mana':
+					toMana(choice)
+				else:
+					# to hand is default rn
+					toHand(choice, show=reveal)
 			else:
-				# to hand is default rn
-				toHand(choice, show=reveal)
-		else:
-			notify("Please select a {}! Action cancelled.".format(cardType))
-			return
+				notify("Please select a {}! Action cancelled.".format(cardType))
+				return
 	else:
 		notify("Nothing selected! Action cancelled.")
 		return
-	cardList = [card for card in me.Deck.top(num - 1)]
+	cardList = [card for card in me.Deck.top(num-len(choices))]
 	# will it always be 1 card that goes into target zone? Account for more in later upgrades
 	if len(cardList) > 1 and remainingZone == 'bottom':
 		cardList = askCard2(cardList, 'Rearrange the remaining Cards to put to {}'.format(remainingZone), 'OK', 0)
@@ -1119,9 +1122,9 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 			card.moveToBottom(me.Deck)
 			notify("{} moved a card to the bottom of their deck.".format(me))
 	if specialaction == "BOUNCE":
-		for civs in specialaction_civs:
-			if not re.search(civs, card_for_special_action.properties['Civilization']):
-				evaluateNextFunction = False
+		if not any(re.search(civs, card.properties['Civilization']) for civs in specialaction_civs for card in cards_for_special_action):
+			global evaluateNextFunction
+			evaluateNextFunction = False
 
 #Random discard or look at hand and select discard FOR OPPONENT, also setting cards as shield from hand for some reason?!
 #TODO:Split discarding and setting shield
@@ -1137,7 +1140,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	#Both players see the opponent's hand reversed
 	reverse_cardList(cardList)
 	count = min(count, len(cardList))
-	cardChoices = askCard2(cardList, "Choose Card(s) to discard.", maximumToTake=count, returnAsArray=True)
+	cardChoices = askCard2(cardList, "Choose {} Card(s) to discard.".format(count),minimumToTake=count, maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices,list):
 		notify("Discard cancelled.")
 		return
@@ -1223,7 +1226,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
 	if me.isInverted: reverse_cardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
 	count = min(count, len(cardsInGroup_CivTypeRaceandFunction_Filtered))
-	choices = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose Card(s) from the Mana Zone', maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardsInGroup_CivTypeRaceandFunction_Filtered, 'Choose {} Card(s) from the Mana Zone'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list): return
 	for choice in choices:
 		if toGrave == True:
@@ -1355,14 +1358,14 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 		choices = askCard2(sort_cardList(cardsInGroup), dialogText,maximumToTake=maximumToTake,returnAsArray=True)
 		if not isinstance(choices,list):
 			group.shuffle()
-			notify("{} finishes searching their {}.".format(me, group.name))
+			notify("{} finishes searching their {} and shuffles their deck.".format(me, group.name))
 			return
 		if all(c in cardsInGroup_CivTypeandRace_Filtered for c in choices):
 			for choice in choices:
 				toHand(choice, show)
 			break
 	group.shuffle()
-	notify("{} finishes searching their {}.".format(me, group.name))
+	notify("{} finishes searching their {} and shuffles their deck.".format(me, group.name))
 
 #Pick a card from any Player's Deck and send it to Graveyard
 def fromDeckToGrave(count=1, onlyOpponent=False):
@@ -1374,10 +1377,10 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	if len(group) == 0: return
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([card for card in group])
-	choices = askCard2(cardsInGroup, 'Search Card(s) to put to Graveyard', maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
-		notify("{} finishes searching opponent's {}.".format(me, group.name))
+		notify("{} finishes searching {}'s {} and shuffles the deck.".format(me, targetPlayer, group.name))
 		return
 	for choice in choices:
 		remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choice))
@@ -1385,7 +1388,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 
 	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
 	update()
-	notify("{} finishes searching opponent's {}.".format(me, group.name))
+	notify("{} finishes searching {}'s {} and shuffles the deck.".format(me, targetPlayer, group.name))
 
 #Pick a card from your deck and place it into Mana.
 def fromDeckToMana(count=1, filterFunction="True"):
@@ -1395,18 +1398,18 @@ def fromDeckToMana(count=1, filterFunction="True"):
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([card for card in group])
 	validChoices = [c for c in cardsInGroup if eval(filterFunction)]
-	for i in range(count):
-		while (True):
-			c = askCard2(cardsInGroup, 'Search a Card to put to Mana (1 at a time)')
-			if type(c) is not Card:
-				shuffle(group)
-				notify("{} finishes searching their {}.".format(me, group.name))
-				return
-			if c in validChoices:
-				cardsInGroup.remove(c)
-				toMana(c)
-				break
+	while (True):
+		choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count), maximumToTake=count, returnAsArray=True)
+		if not isinstance(choices, list):
+			shuffle(group)
+			notify("{} finishes searching their {} and shuffles the deck.".format(me, group.name))
+			return
+		if all(elem in validChoices for elem in choices):
+			for choice in choices:
+				toMana(choice)
+			break
 	shuffle(group)
+	notify("{} finishes searching their {} and shuffles the deck.".format(me, group.name))
 
 #Target creatures, if they match the filter, they get destroyed.
 def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL', filterFunction="True"):
@@ -1530,7 +1533,7 @@ def destroyMana(count=1):
 	if count == 0:
 		return
 	if me.isInverted: reverse_cardList(cardList)
-	choices = askCard2(cardList, 'Choose Mana Card(s) to destroy', maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardList, 'Choose {} Mana Card(s) to destroy'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list): return
 	for choice in choices:
 		remoteCall(choice.owner, "destroy", convertCardListIntoCardIDsList(choice))
@@ -1621,7 +1624,7 @@ def sacrifice(power=float('inf'), count=1):
 	if len(cardList) == 0:
 		return
 	if me.isInverted: reverse_cardList(cardList)
-	choices = askCard2(cardList, 'Choose Creature(s) to destroy', maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardList, 'Choose {} Creature(s) to destroy'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list): return
 	for choice in choices:
 		destroy(choice)
@@ -1631,7 +1634,7 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 	mute()
 	if count == 0: return
 	global evaluateNextFunction
-	if conditionalFromLastFunction: #for example in case of Intense Vacuuming Twist
+	if conditionalFromLastFunction: #for example in case of Dondon Vacuuming Now
 		if not evaluateNextFunction:
 			evaluateNextFunction = True
 			return
@@ -1874,7 +1877,7 @@ def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = 
 		  if eval(filterFunction)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverse_cardList(cardList)
-	choices = askCard2(cardList, 'Choose Creature(s) to send to Mana Zone', maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardList, 'Choose {} Creature(s) to send to Mana Zone'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):return
 	for choice in choices:
 		remoteCall(choice.owner,"toMana", convertCardListIntoCardIDsList(choice))
@@ -1884,7 +1887,7 @@ def selfDiscard(count=1):
 	cardList = [card for card in me.hand]
 	if len(cardList)==0: return
 	reverse_cardList(cardList)
-	cardChoices = askCard2(cardList, "Choose Card(s) to discard", maximumToTake=count, returnAsArray=True)
+	cardChoices = askCard2(cardList, "Choose {} Card(s) to discard".format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices, list):
 		notify("Discard cancelled.")
 		return
@@ -1940,7 +1943,7 @@ def opponentManaToHand(count=1):
 	if len(manaList)==0:return
 	if me.isInverted: reverse_cardList(manaList)
 	count = min(count,len(manaList))
-	choices = askCard2(manaList, "Choose Card(s) from the opponent's Mana Zone", maximumToTake=count, returnAsArray=True)
+	choices = askCard2(manaList, "Choose {} Card(s) from the opponent's Mana Zone".format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices, list):return
 	for choice in choices:
 		remoteCall(choice.owner,"toHand",convertCardListIntoCardIDsList(choice))
@@ -1986,7 +1989,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			return
 		if me.isInverted: reverse_cardList(cardList)
 		count = min(count, len(cardList))
-		choices = askCard2(cardList, 'Choose Creature(s) to tap', maximumToTake=count,returnAsArray=True)
+		choices = askCard2(cardList, 'Choose {} Creature(s) to tap'.format(count), maximumToTake=count,returnAsArray=True)
 		if not isinstance(choices, list): return
 		for choice in choices:
 			remoteCall(choice.owner, "processTapUntapCreature", [convertCardListIntoCardIDsList(choice), False])
@@ -2313,7 +2316,7 @@ def miraculousPlague():
 			remoteCall(creatureList[0].owner, "toHand", convertCardListIntoCardIDsList(creatureList[0]))
 		else:
 			if me.isInverted: reverse_cardList(creatureList)
-			creatureChoices = askCard2(creatureList, 'Choose Creatures for your opponent.',minimumToTake=2, maximumToTake=2)
+			creatureChoices = askCard2(creatureList, 'Choose 2 Creatures for your opponent.',minimumToTake=2, maximumToTake=2)
 			if not isinstance(creatureChoices,list): return
 			for cchoice in creatureChoices:
 				cchoice.target()
@@ -2328,7 +2331,7 @@ def miraculousPlague():
 			remoteCall(manaList[0].owner, "toHand", convertCardListIntoCardIDsList(manaList[0]))
 		else:
 			if me.isInverted: reverse_cardList(manaList)
-			manaChoices = askCard2(manaList, 'Choose Mana Cards for your opponent',minimumToTake=2, maximumToTake=2)
+			manaChoices = askCard2(manaList, 'Choose 2 Mana Cards for your opponent',minimumToTake=2, maximumToTake=2)
 			if not isinstance(manaChoices,list): return
 			for mchoice in manaChoices:
 				mchoice.target()
@@ -2445,7 +2448,7 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 		if choice != 1: return
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
-	choices = askCard2(cardsInGroup, 'Search Card(s) to put to Mana',minimumToTake=1,maximumToTake=count, returnAsArray=True)
+	choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count),minimumToTake=1,maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 			notify("{} finishes searching their {}.".format(me, group.name))
 			return
@@ -3022,6 +3025,12 @@ def randomDiscard(group, x=0, y=0):
 	toDiscard(card, notifymute=True)
 	notify("{} randomly discards {}.".format(me, card))
 
+def fromTopPickX(group, x=0, y=0):
+	if len(group) == 0: return
+	count = askInteger("Look at how many cards?", 5)
+	if count == None: return
+	lookAtTopCards(num=count, count=count)
+
 #Charge Top Card as Mana
 def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[], postCondition='True', preCondition=True):
 	mute()
@@ -3041,7 +3050,7 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 
 def doPostAction(card, postAction, postArgs, postCondition):
 	# does something more in the effect, might be based on what the first card was; eg: Geo Bronze Magic or simple stuff like Skysword(shield comes after mana)
-	# implement BounceIfCiv for Intense Vacuuming Twist? Maybe make a whole different function for ifCiv or ifRace just to evaluate the conditon based on args
+	# implement BounceIfCiv for Dondon Vacuuming Now? Maybe make a whole different function for ifCiv or ifRace just to evaluate the conditon based on args
 	# For example, if there is "IfCiv" in postAction, check args for the civ, if there's "ifRace"(eg Eco Aini) etc. -> This can be done in a separate function instead of here
 	if postAction == "NONE":
 		return
@@ -3406,7 +3415,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 def endOfFunctionality(card):
 	#Magical bugfix to remove Peek symbol
 	rnd(1,1)
-	if card and card.Type == "Spell" and not isMana(card):
+	if card and isSpellInBZ(card):
 		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
 			toMana(card)
 			align()
