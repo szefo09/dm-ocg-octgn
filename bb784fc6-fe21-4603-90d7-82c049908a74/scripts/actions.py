@@ -1149,7 +1149,10 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	#Both players see the opponent's hand reversed
 	reverse_cardList(cardList)
 	count = min(count, len(cardList))
-	cardChoices = askCard2(cardList, "Choose {} Card(s) to discard.".format(count),minimumToTake=count, maximumToTake=count, returnAsArray=True)
+	if len(cardList) == count:
+		cardChoices = cardList
+	else:
+		cardChoices = askCard2(cardList, "Choose {} Card(s) to discard.".format(count),minimumToTake=count, maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices,list):
 		notify("Discard cancelled.")
 		return
