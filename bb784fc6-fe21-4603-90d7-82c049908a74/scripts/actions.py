@@ -94,7 +94,7 @@ cardScripts = {
 	'Gigabuster':{'onPlay':[lambda card: bounceShield()]},
 	'Gigandura':{'onPlay': [lambda card: gigandura(card)]},
 	'Gigargon': {'onPlay': [lambda card: search(me.piles["Graveyard"], 2, "Creature")]},
-	'Grape Globbo':{'onPlay':[lambda card: lookAtOppHand()]},
+	'Grape Globbo':{'onPlay':[lambda card: lookAtOpponentHand()]},
 	'Grave Worm Q': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")]},
 	'Gunes Valkyrie, Holy Vizier': {'onPlay': [lambda card: tapCreature()]},
 	'Gylus, Larval Lord': {'onPlay': [lambda card: targetDiscard(True)], 'onLeaveBZ':[lambda card: opponentSearch([targetPlayer.piles["Graveyard"]])]},
@@ -1179,6 +1179,7 @@ def lookAtOpponentHand():
 	cardList = [card for card in targetPlayer.hand]
 	#Both players see their opponent's hand reversed
 	reverse_cardList(cardList)
+	notify("{} looks at {} Hand.".format(me,targetPlayer))
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", minimumToTake=0)
 
 #Look at selected player's hand and discard all cards matching filterFunction
@@ -1631,12 +1632,6 @@ def fromGrave():
 	mute()
 	notify("{} looks at their Graveyard.".format(me))
 	me.piles['Graveyard'].lookAt(-1)
-
-def lookAtOppHand():
-	targetPlayer = getTargetPlayer(onlyOpponent=True)
-	if not targetPlayer: return
-	notify("{} looks at {} Hand.".format(me,targetPlayer))
-	targetPlayer.hand.lookAt(-1)
 
 #Shows X cards from top or bottom of the deck
 def lookAtCards(count=1, isTop=True, opponent=False):
