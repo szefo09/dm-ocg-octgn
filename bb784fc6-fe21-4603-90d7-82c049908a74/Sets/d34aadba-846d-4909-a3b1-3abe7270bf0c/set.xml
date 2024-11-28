@@ -20,6 +20,20 @@
     </pack>
   </packaging>
   <cards>
+    <card id="f3ea8b74-ccfe-4664-9a53-8ba7a8af5691" name="Gigajadou">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, put all your shields into your graveyard. For each shield put into your graveyard, your opponent chooses one of their creatures and destroys it. If they can't destroy a creature, this creature breaks one of your opponent's shields.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Gigajadou (Heroes Card)"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="2b659a50-5ac1-4591-91a6-20d2bd716cd2" name="Ulferios, White Knight Infinity Dragon">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -104,6 +118,20 @@
       <property name="Number" value="6/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
+    <card id="f710fbab-f6a3-4bd4-9fcc-59e71247e9f5" name="EVE, God of Spiritual Creation">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="God/Origin"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your Origins.&#xA;■ Meteorburn—When this creature would leave the battle zone, you may put a card under this creature into your graveyard. If you do, this creature stays in the battle zone instead.&#xA;■ God Link (ADAM, God of Worldly Creation) Left Side&#xA;■ While this creature is linked, it has &quot;triple breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="14554b38-2579-4d1f-863c-7acf5f7db5dc" name="EVE, God of Spiritual Creation">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -128,6 +156,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="8/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="d2aa419c-8ae0-4129-8bb3-c36f63af2651" name="ADAM, God of Worldly Creation">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="God/Origin"/>
+      <property name="Power" value="8000+"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Origins.&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. Your opponent puts that creature on the bottom of their deck.&#xA;{DOUBLE BREAKER}&#xA;■ God Link (EVE, God of Spiritual Creation) Right Side&#xA;■ Meteorburn—Whenever this creature attacks while linked, you may put 5 cards under this creature into your graveyard. If you do, put all cards in your opponent's mana zone into their shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
     <card id="18cf2fdf-0a64-4d22-9ff1-e79f8453fab8" name="ADAM, God of Worldly Creation">
@@ -324,6 +366,18 @@
       <property name="Number" value="22/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
+    <card id="660ce0af-1e3b-4250-b1d3-f1e1e5b105c6" name="Pillar of Feather, White Knight Fortress">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Your creatures that have &quot;White Knight&quot; in their names may each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your creatures in the battle zone that have &quot;White Knight&quot; in their name gets +3000 power and &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="76fb3216-4986-4589-a65a-5dbc4824c1d7" name="Pillar of Feather, White Knight Fortress">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -405,6 +459,18 @@
       <property name="Number" value="28/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
+    <card id="4da039aa-2ee8-4480-8fbf-f640a96fc30c" name="XENOM, the Reaper Fortress">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Castle"/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ When this castle is put into the shield zone to fortify a shield, your opponent discards a card at random from their hand.&#xA;■ Your creatures that have &quot;Reaper&quot; in their name may cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your creatures that have &quot;Reaper&quot; in their name gets +2000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="29/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="34b5526b-e4eb-47fb-9b52-b0c7b8f6b30c" name="XENOM, the Reaper Fortress">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -415,6 +481,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="29/55 XENOM, the Reaper Fortress (Heroes Card)"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="17e8ac5a-aa2c-4175-92e7-7810c8f19e4c" name="Bolzard, Super Infinite Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Super Infinite evolution—Put on one or more of your creatures.&#xA;■ Meteorburn—Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose one of the following:&#xA;► Your opponent chooses a card in their mana zone and puts it into their graveyard:&#xA;► Choose one of your opponent's cross gear and put it into its owner's graveyard:&#xA;► Choose a castle that is fortifying your opponent's shields and put it into its owner's graveyard.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
     <card id="77ed07be-36e7-4657-b489-606b6b05c4e8" name="Bolzard, Super Infinite Dragon">
@@ -569,6 +649,20 @@
       <property name="Number" value="40/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
+    <card id="b06e347e-827f-4575-8544-d9320dff9a62" name="Cutie Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ Whenever one of your creatures that has NEX in its name would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="41/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="774994a1-6fb2-4b93-9a03-cca236fb4a6e" name="Cutie Lupia">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
@@ -677,6 +771,20 @@
       <property name="Number" value="48/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
+    <card id="9f54a5c9-a43f-43e7-bf5b-626b83b496e4" name="Mach Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your creatures that have NEX in their name each cost 1 less to summon. They can't cost less than 1.&#xA;■ Each of your Armored Dragons in the battle zone has &quot;speed attacker&quot;.&#xA;■ At the end of each of your turns, return all non-evolution Armored Dragons you put into the battle zone this turn to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="49/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
     <card id="57dd23c0-c4d1-4450-86d0-f0be6407fcbe" name="Mach Lupia">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -728,6 +836,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="52/55"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="756d329d-a312-4c34-aa7a-39d98267a72b" name="Massu Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each of your other creatures in the battle zone that have NEX or Lupia in its name gets +1000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53/55"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
     <card id="cc036ce7-395c-4394-a896-631167c06680" name="Massu Lupia">
@@ -838,6 +960,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5/S5"/>
+      <property name="Set" value="DM-34 Cross Generation"/>
+    </card>
+    <card id="af62ac51-70c1-4793-bf79-20074fbf1834" name="Bolshack Cross NEX">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="12000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Players can't summon creatures that cost 4 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="秘1/秘1 (Secret Card)"/>
       <property name="Set" value="DM-34 Cross Generation"/>
     </card>
   </cards>

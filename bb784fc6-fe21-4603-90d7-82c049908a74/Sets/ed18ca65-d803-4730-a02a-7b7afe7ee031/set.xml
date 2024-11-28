@@ -148,6 +148,18 @@
       <property name="Number" value="9/54"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
+    <card id="de80b11d-9ca6-4114-87be-64c5b888e550" name="Dondon Vacuuming Now">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. Reveal one and put it into your hand, then put the rest on the bottom of your deck in any order. If the card revealed this way was a fire or nature card, you may choose a creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9m/54 (Mode Change Card)"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
     <card id="6573675f-69d4-459e-b0fc-e247d9538259" name="Zabi Libra, Lord of Demons">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -160,6 +172,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="10/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="c5709c7a-f9db-4e90-9f5f-62a46c6f36c5" name="Zabi Libra, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command/Alien"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your light or nature creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your other creatures would leave the battle zone by the effect of one of your opponent's spells, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10m/54 (Mode Change Card)"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="c31bfe21-795d-4f4b-9743-ab65fb24b5fe" name="Maji Sumarn Friendly Slicer">
@@ -214,6 +240,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="fa241b92-af71-4a09-a0c4-0fc81fcfd02e" name="Prin Prin, the Eternal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Alien/Hunter"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Each of your Aliens in the battle zone, your mana zone, and your graveyard is a Hunter in addition to its other races.&#xA;■ Each of your Hunters in the battle zone, your mana zone, and your graveyard is an Alien in addition to its other races.&#xA;■ Whenever this creature would lose a battle and be destroyed, it stays in the battle zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14m/54 (Mode Change Card)"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="cfd31a86-efb9-4190-9dba-3c7d110da55b" name="Deis Cupid, Ranger of Gaia">
@@ -353,6 +393,33 @@
         <property name="Set" value="DMR-03 Gaial Victory"/>
       </alternate>
     </card>
+    <card id="68506535-8bd1-4cf6-a160-23a0e31cad67" name="Geo Macho, Temporal Hyde">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Beast Folk/Alien"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ This creature gets +1000 power for each creature in your graveyard.&#xA;■ Loop Awaken—When this creature attacks your opponent and isn't blocked, flip this creature to the Zabi Gunman, Temporal Jekyll side."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23b/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+      <alternate name="Zabi Gunman, Temporal Jekyll" type="awakening" size="normal">
+        <property name="Civilization" value="Darkness"/>
+        <property name="Cost" value="4"/>
+        <property name="Type" value="Psychic Creature"/>
+        <property name="Race" value="Living Dead/Alien"/>
+        <property name="Power" value="1000"/>
+        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Loop Awaken— Whenever this creature blocks or is attacked, put the top 2 cards of your deck into your graveyard, then flip this creature to the Geo Macho, Temporal Hyde side. (The attack is not canceled.) (At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Uncommon"/>
+        <property name="Number" value="23a/54"/>
+        <property name="Set" value="DMR-03 Gaial Victory"/>
+      </alternate>
+    </card>
     <card id="8cf198b7-c90c-4d17-95ff-178193311050" name="Psychic Eater, Gourmet Treasure">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -393,6 +460,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="26/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="00c7803d-ff67-4aae-b0a3-21951eb274ea" name="Come On Pippi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Hunter"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put up to 2 Fire Bird psychic creatures that cost 3 or less from your hyperspatial zone:&#xA;► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="26m/54 (Mode Change Card)"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="d58ac60a-6370-4682-ac98-8db8f35bad2b" name="Hachiko, Jin's Faithful Dog">
@@ -445,6 +526,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="30/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="104bb161-7bb8-4456-a7f7-a7943cc908e4" name="Jealousy Shan, the Greedy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate/Hedrian/Hunter"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When this creature would be destroyed, you may discard a light card from your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30m/54 (Mode Change Card)"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="7875f798-a3c6-4532-8828-4f907309c51c" name="Overborder, the Holy Protector Brave">
@@ -501,6 +596,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="34/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="33d8305d-0541-4d08-9a05-cf274fb26d47" name="Aqua Humpty">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People/Hunter"/>
+      <property name="Power" value="2500+"/>
+      <property name="Rules" value="{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="34m/54 (Mode Change Card)"/>
       <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="8ebc8d16-bc46-40c3-8db1-23c47848c384" name="Gaga Cancer, Spirit Knight">
@@ -622,6 +731,20 @@
         <property name="Set" value="DMR-03 Gaial Victory"/>
       </alternate>
     </card>
+    <card id="6cb1dd30-255e-485b-b3b6-17cfee022444" name="Gaial Ryusei Dragon, Star Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="42b/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
     <card id="ef4fabdb-6cb8-405b-ad23-8d49a5a4f594" name="Sakon Pippi">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -648,6 +771,20 @@
         <property name="Number" value="42b/54"/>
         <property name="Set" value="DMR-03 Gaial Victory"/>
       </alternate>
+    </card>
+    <card id="553c2f26-0d0c-4a98-8003-1c3577923ac8" name="Gaial Ryusei Dragon, Star Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="43b/54"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
     <card id="ead9f52f-b0ac-4b31-8dba-f2a1d4001f4f" name="Ace of Swords, Ensign of the Galaxy Falcon Squadron">
       <property name="Format" value="OCG"/>
@@ -887,6 +1024,34 @@
         <property name="Number" value="42b/54"/>
         <property name="Set" value="DMR-03 Gaial Victory"/>
       </alternate>
+    </card>
+    <card id="8c562487-7258-45e4-92ff-2e93ca868192" name="Gaial Ryusei Dragon, Star Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1b/V1b"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
+    </card>
+    <card id="58b13662-1d35-4821-a631-fd83a96ff7a5" size="tall" name="Gaial Ryusei Dragon, Star Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1b/V1b + 42b/54 + 43b/54b"/>
+      <property name="Set" value="DMR-03 Gaial Victory"/>
     </card>
   </cards>
 </set>

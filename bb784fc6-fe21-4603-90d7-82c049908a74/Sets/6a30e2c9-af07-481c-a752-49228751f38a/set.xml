@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="English Promotional Cards" id="6a30e2c9-af07-481c-a752-49228751f38a" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
+    <card id="19ab95a5-8682-4468-b91e-160f948f544e" name="Syforce, Aurora Elemental">
+      <property name="Format" value="TCG,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="English Promotional Cards"/>
+      <property name="Number" value="15/46"/>
+    </card>
     <card id="c2653a07-9b2e-4be9-887b-bb697d76515a" name="Holy Awe">
       <property name="Format" value="TCG,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -62,19 +75,6 @@
       <property name="Set" value="English Promotional Cards"/>
       <property name="Number" value="(Kettou Da!) T1/Y1"/>
     </card>
-    <card id="c3a60e55-2298-46c7-ace4-a0e8343f435d" name="Bliss Totem, Avatar of Luck">
-      <property name="Format" value="TCG,OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Mystery Totem"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Put up to 3 cards from your graveyard into your mana zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="English Promotional Cards"/>
-      <property name="Number" value="Bliss Totem, Avatar of Luck"/>
-    </card>
     <card id="e82dcb7c-76b3-4855-a86d-84c535352dc9" name="Keeper of the Sunlit Abyss">
       <property name="Format" value="TCG,OCG"/>
       <property name="Civilization" value="Water"/>
@@ -100,19 +100,6 @@
       <property name="Mana" value="1"/>
       <property name="Set" value="English Promotional Cards"/>
       <property name="Number" value="10a/46"/>
-    </card>
-    <card id="19ab95a5-8682-4468-b91e-160f948f544e" name="Syforce, Aurora Elemental">
-      <property name="Format" value="TCG,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may return a spell from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="English Promotional Cards"/>
-      <property name="Number" value="15/46"/>
     </card>
     <card id="de9e9ae2-ace0-48dd-9d1c-dbf199366d18" name="Überdragon Zaschack">
       <property name="Format" value="TCG,OCG"/>
@@ -422,7 +409,7 @@
       <property name="Set" value="English Promotional Cards"/>
       <property name="Number" value="B7/7 Y1"/>
     </card>
-    <card id="22302cd2-6a04-4de4-b270-4ec197266e7a" name="Bliss Totem, Avatar of Luck">
+    <card id="c3a60e55-2298-46c7-ace4-a0e8343f435d" name="Bliss Totem, Avatar of Luck">
       <property name="Format" value="TCG,OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>

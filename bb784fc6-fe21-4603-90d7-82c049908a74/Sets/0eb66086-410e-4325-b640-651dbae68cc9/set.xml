@@ -20,6 +20,18 @@
     </pack>
   </packaging>
   <cards>
+    <card id="51feec01-39af-40c0-9797-b4fc8a6c86ec" name="Dogiragon Buster, Blue Leader">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Revolution Change: Fire or Nature Dragon that costs 5 or more&#xA;{TRIPLE BREAKER}&#xA;■ Each of your multicolored creatures gets &quot;speed attacker&quot;.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, put any number of non-evolution multicolored creatures that have total cost 6 or lessfrom your hand or mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+      <property name="Number" value="Peel-Off Sticker for Final Dogiragolden"/>
+    </card>
     <card id="02251730-aae9-40b9-b812-f11f3b846e8d" name="Vizenma, D2J2">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -312,6 +324,19 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="24/74"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="4c15c674-099c-4f83-a0a7-a32b72de102a" name="Beroringa M, Third Seed">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Dragon/Initials/Team Acme"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{REVOLUTION CHANGE} Darkness or Fire creature - (When one of your Darkness or Fire creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may put the top 3 cards of your deck into your graveyard."/>
+      <property name="Watermark" value="{Dokindam}"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25/94"/>
       <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
     </card>
     <card id="4e8e1c44-f22e-4736-b785-5fb7d37454ce" name="Team Acme's Evil Prison Go!">
@@ -638,6 +663,20 @@
       <property name="Number" value="51/74"/>
       <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
     </card>
+    <card id="d8f566ca-4c5e-4478-a603-49263df7784c" name="Dordrain, Final Forbidden Beta">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initials X"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have a field in the battle zone, each of your opponent's creatures get -1000 power and each of your creatures get +1000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="52/74"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
     <card id="8e32a406-68a8-4b26-9cb0-1728af15ae4f" name="Otaketake M">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -909,6 +948,80 @@
       <property name="Number" value="74/74"/>
       <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
     </card>
+    <card id="8ee2f6d5-08fb-4cd4-a7c0-64de2cbf513c" name="Dormageddon X, Forbidden Armageddon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="999"/>
+      <property name="Type" value="Final Forbidden Creature"/>
+      <property name="Power" value="999999"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Big Bangs, your opponent puts a seal on each of their creatures. (While creatures are sealed, both players ignore that creature.)&#xA;■ Your opponent can't put seals from their creatures into their graveyard.&#xA;■ This creature can't be sealed.&#xA;■ When this creature would leave the battle zone, you may put 2 of its forbidden cores under this card instead. If you do, put one of your shields into your graveyard.&#xA;■ If this card is anywhere other than the battle zone, destroy all creatures, then you lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Final Forbidden Legend Card"/>
+      <property name="Number" value="FFL1/FFL5+FFL2/FFL5+FFL3/FFL5+FFL4/FFL5+FFL5/FFL5"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="c990dbbe-04f7-40ef-b3aa-9a050ac0a953" size="wide" name="FORBIDDEN STAR ~World's Last Day~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Final Forbidden Field"/>
+      <property name="Rules" value="■ At the start of the game, put this Final Forbidden Field into the battle zone as a field linked by attaching 4 seals on each of its corners.&#xA;■ Your seals can only be removed when you summon a Darkness or Fire command that costs 5 or more or put it into the battle zone through ZERO once per turn.&#xA;■ You can't attack with creatures except commands, initials, or creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Final Forbidden Legend Card"/>
+      <property name="Number" value="FFL1a/FFL5+FFL2a/FFL5+FFL3a/FFL5+FFL4a/FFL5+FFL5a/FFL5"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+      <alternate name="Dormageddon X, Forbidden Armageddon" type="awakening" size="normal">
+        <property name="Civilization" value="Darkness/Fire"/>
+        <property name="Cost" value="999"/>
+        <property name="Type" value="Final Forbidden Creature"/>
+        <property name="Power" value="999999"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Big Bangs, your opponent puts a seal on each of their creatures. (While creatures are sealed, both players ignore that creature.)&#xA;■ Your opponent can't put seals from their creatures into their graveyard.&#xA;■ This creature can't be sealed.&#xA;■ When this creature would leave the battle zone, you may put 2 of its forbidden cores under this card instead. If you do, put one of your shields into your graveyard.&#xA;■ If this card is anywhere other than the battle zone, destroy all creatures, then you lose the game."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Final Forbidden Legend Card"/>
+        <property name="Number" value="FFL1㊙/FFL5+FFL2㊙/FFL5+FFL3㊙/FFL5+FFL4㊙/FFL5+FFL5㊙/FFL5  (Secret Card)"/>
+        <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+      </alternate>
+    </card>
+    <card id="9ab854b4-be48-46f5-b35c-c98a92d393a2" size="wide" name="FORBIDDEN STAR ~World's Last Day~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Final Forbidden Field"/>
+      <property name="Rules" value="■ At the start of the game, put this Final Forbidden Field into the battle zone as a field linked by attaching 4 seals on each of its corners.&#xA;■ Your seals can only be removed when you summon a Darkness or Fire command that costs 5 or more or put it into the battle zone through ZERO once per turn.&#xA;■ You can't attack with creatures except commands, initials, or creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Final Forbidden Legend Card"/>
+      <property name="Number" value="FFL1a㊙/FFL5+FFL2a㊙/FFL5+FFL3a㊙/FFL5+FFL4a㊙/FFL5+FFL5a㊙/FFL5  (Secret Card)"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+      <alternate name="Dormageddon X, Forbidden Armageddon" type="awakening" size="normal">
+        <property name="Civilization" value="Darkness/Fire"/>
+        <property name="Cost" value="999"/>
+        <property name="Type" value="Final Forbidden Creature"/>
+        <property name="Power" value="999999"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Big Bangs, your opponent puts a seal on each of their creatures. (While creatures are sealed, both players ignore that creature.)&#xA;■ Your opponent can't put seals from their creatures into their graveyard.&#xA;■ This creature can't be sealed.&#xA;■ When this creature would leave the battle zone, you may put 2 of its forbidden cores under this card instead. If you do, put one of your shields into your graveyard.&#xA;■ If this card is anywhere other than the battle zone, destroy all creatures, then you lose the game."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Final Forbidden Legend Card"/>
+        <property name="Number" value="FFL1㊙/FFL5+FFL2㊙/FFL5+FFL3㊙/FFL5+FFL4㊙/FFL5+FFL5㊙/FFL5  (Secret Card)"/>
+        <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+      </alternate>
+    </card>
+    <card id="be0617da-b0c1-442f-b10f-096dd5407178" name="Dormageddon X, Forbidden Armageddon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="999"/>
+      <property name="Type" value="Final Forbidden Creature"/>
+      <property name="Power" value="999999"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Big Bangs, your opponent puts a seal on each of their creatures. (While creatures are sealed, both players ignore that creature.)&#xA;■ Your opponent can't put seals from their creatures into their graveyard.&#xA;■ This creature can't be sealed.&#xA;■ When this creature would leave the battle zone, you may put 2 of its forbidden cores under this card instead. If you do, put one of your shields into your graveyard.&#xA;■ If this card is anywhere other than the battle zone, destroy all creatures, then you lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Final Forbidden Legend Card"/>
+      <property name="Number" value="FFL1㊙/FFL5+FFL2㊙/FFL5+FFL3㊙/FFL5+FFL4㊙/FFL5+FFL5㊙/FFL5  (Secret Card)"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
     <card id="8825073e-1e34-4eef-b68e-78293ae1790d" name="Jolly the Johnny Joe">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -919,6 +1032,30 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Legend Card"/>
       <property name="Number" value="L1/L2"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="85e70e43-87e6-4c88-b661-3a39a4e8daaf" name="Jolly the Johnny Joe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{QUATTRO BREAKER}&#xA;■ When you summon this creature, if your opponent has no creatures, you win the game. If your opponent has creatures, destroy all other creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="L1㊙1/L2 (Secret Card)"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="b447a5b7-1f83-4760-86a8-168e042450c4" name="Jolly the Johnny Joe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="19000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{QUATTRO BREAKER}&#xA;■ When you summon this creature, if your opponent has no creatures, you win the game. If your opponent has creatures, destroy all other creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="L1㊙2/L2 (Secret Card)"/>
       <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
     </card>
     <card id="e8dc24ed-4349-4bf0-b80d-cc88d0a3d2c1" name="Final Dogiragolden">
@@ -932,6 +1069,45 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Legend Card"/>
       <property name="Number" value="L2/L2"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="85a02c7e-4654-4ef9-bf52-4cbcccbe06eb" name="Final Dogiragolden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ Revolution Change: Fire or Nature dragon that costs 5 or more&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone. Then choose one of your opponent's forbidden creatures and destroy it.&#xA;■ Final Final Revolution: When you put this creature, if you haven't used another &quot;Final Revolution&quot; in this game, your opponent's creatures that have power 1000000 or less can't attack you next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="L2㊙1/L2 (Secret Card)"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="a6a98fc5-a5ea-4362-a5cb-756fa57438d7" name="Final Dogiragolden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ Revolution Change: Fire or Nature dragon that costs 5 or more&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone. Then choose one of your opponent's forbidden creatures and destroy it.&#xA;■ Final Final Revolution: When you put this creature, if you haven't used another &quot;Final Revolution&quot; in this game, your opponent's creatures that have power 1000000 or less can't attack you next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="L2㊙2/L2 (Secret Card)"/>
+      <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
+    </card>
+    <card id="2e48ecdc-e020-45d4-9aee-a5578fbead73" name="Final Dogiragolden">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ Revolution Change: Fire or Nature dragon that costs 5 or more&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone. Then choose one of your opponent's forbidden creatures and destroy it.&#xA;■ Final Final Revolution: When you put this creature, if you haven't used another &quot;Final Revolution&quot; in this game, your opponent's creatures that have power 1000000 or less can't attack you next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="L2㊙3/L2 (Secret Card)"/>
       <property name="Set" value="DMR-23 Dogiragolden VS Dormageddon X"/>
     </card>
     <card id="550c3d80-4f63-431d-815d-350e882ce490" name="Phantasm, Moon's Radiance">
