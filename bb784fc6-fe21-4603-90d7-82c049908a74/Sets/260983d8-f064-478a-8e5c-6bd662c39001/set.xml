@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMEX-08 Mysterious Black Box Pack" id="260983d8-f064-478a-8e5c-6bd662c39001" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
+    <card id="0da7f6ff-5dbb-4c11-b9f9-4ae7179ef718" name="Batorai Keep, Blazing Castle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="1c/25"/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+    </card>
+    <card id="f03fd014-dd38-4368-8b99-960c607e9b98" name="Batorai Keep, Blazing Castle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="1c/25"/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+    </card>
     <card id="5661dd06-f50c-4000-b0d5-82b0d929ffef" name="Deadly Fighter Braid Claw">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
@@ -49,6 +97,19 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="4/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="547ced79-d735-4fb7-8059-eb8243cc6877" name="Zachs Cot, the Wise">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="■ Shield evolution—Choose one of your shields and put this creature on top of it in the battle zone. (Put the face down card face down without looking at it.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature leaves the battle zone, put all cards under it into your hand. If you put a card that has &quot;shield trigger&quot; into your hand, you may use it for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="5/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="f6cc124b-1f48-461d-8dc6-7f7a55b756cb" name="Aqua Attack &lt;BAGOOON Panzer>">
@@ -143,67 +204,6 @@
       <property name="Number" value="9/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="56e7f7e5-efc4-4a54-b436-1344f133f270" name="Ballom Quake, Lord of Demons">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness/Nature"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Power" value="13000"/>
-      <property name="Rules" value="■ Mana evolution: Choose a Demon Command creature in your mana zone and put this creature on top of that creature.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except Demon Commands.&#xA;■ Whenever your opponent would put a creature for no cost, your opponent puts that creature into their mana zone instead."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="13/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="939bb1e6-4e02-42fc-bcc0-7dfe178076b6" name="Batorai Keep, Blazing Castle">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Victory Rare"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="8"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Gaial Command Dragon"/>
-        <property name="Power" value="12000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1c/25"/>
-        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      </alternate>
-    </card>
-    <card id="36079df7-72b2-4feb-b44d-2f2b06e06b27" name="Batorai Keep, Blazing Castle">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Victory Rare"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="8"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Gaial Command Dragon"/>
-        <property name="Power" value="12000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1c/25"/>
-        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      </alternate>
-    </card>
     <card id="e09f2e7a-8207-47a8-9cde-a9ba4945ee5c" name="Beast Liger, Legendary Zoid">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Fire"/>
@@ -231,7 +231,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="4a2de436-772d-4592-a257-f94d58121cd7" name="Bombersaur">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
@@ -254,7 +254,7 @@
       <property name="Number" value="20/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="d25b6085-7804-4490-95a2-8faee48ea26a" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="15403bab-0da4-4e26-a834-9067b4278f3f" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -264,17 +264,20 @@
       <property name="Rarity" value="No Rarity"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="06cb8412-cb0b-4543-bc6e-8f28ba78465c" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="689f2530-4f46-432f-9de5-030fb35ddc41" name="Fused Dreadnought! Jet Cascade Attack">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Psychic Field"/>
-      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="Liquid People/Hunter"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Your Hunters can't be attacked or blocked.&#xA;■ Whenever this creature attacks, draw up to 3 cards. Then reveal any number of cards in your hand. For each card revealed, choose one of your opponent's creatures in the battle zone that costs the same as or less than that revealed card and return it to its owner's hand.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="a0b1c4b0-54c4-4601-abf3-59fa36bc262d" name="Fused Dreadnought! Jet Cascade Attack">
+    <card id="fbfff2c0-5a09-40b4-bf2a-d183fd6c3482" name="Fused Dreadnought! Jet Cascade Attack">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water"/>
       <property name="Cost" value="24"/>
@@ -300,19 +303,6 @@
       <property name="Number" value="1/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="547ced79-d735-4fb7-8059-eb8243cc6877" name="Zachs Cot, the Wise">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Light Bringer"/>
-      <property name="Power" value="6500"/>
-      <property name="Rules" value="■ Shield evolution—Choose one of your shields and put this creature on top of it in the battle zone. (Put the face down card face down without looking at it.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature leaves the battle zone, put all cards under it into your hand. If you put a card that has &quot;shield trigger&quot; into your hand, you may use it for no cost."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="5/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
     <card id="48f47eff-7246-4196-b51f-5fd4edd42bae" name="Redzone, Roaring Invasion">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -327,7 +317,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="cf2036bd-5f4e-442b-8c0e-f1066e7fb2f7" name="Ularus, Punishment Elemental">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
@@ -341,7 +331,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="c54fd60b-6952-4211-bbbb-b414bcedd6d4" name="Engineer Kipo">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
@@ -352,6 +342,19 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="12/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="56e7f7e5-efc4-4a54-b436-1344f133f270" name="Ballom Quake, Lord of Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Mana evolution: Choose a Demon Command creature in your mana zone and put this creature on top of that creature.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except Demon Commands.&#xA;■ Whenever your opponent would put a creature for no cost, your opponent puts that creature into their mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="13/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="0fb83eb9-3ef8-4246-b598-5364af019bb9" name="Imen's Sign">
@@ -440,7 +443,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="ae0c4afd-57bc-4864-a67c-fdd9e7535ba8" name="Iocant, the Oracle">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
@@ -468,7 +471,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="4830fe03-0328-4ece-952d-d4650734b0bb" name="Bone Piercer">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
@@ -529,6 +532,20 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
       </alternate>
+    </card>
+    <card id="0453ec4d-9869-4844-967e-aefc5bd1eff9" name="Super Psychen Pippi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Hunter"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SAVER}: Hunter (When one of your Hunter(s) would be destroyed, you may destroy this creature instead.)&#xA;■ When this creature is discarded during your opponent's turn, you may put a Gaial Kaiser from your hyperspatial zone into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="34/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="f63e492d-9d34-4883-aed8-ce982be7ded3" name="Psychen Pippi">
       <property name="Format" value="OCG"/>
@@ -607,6 +624,16 @@
       <property name="Number" value="40/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
+    <card id="272288aa-5284-4960-a83a-d736d26aa8fd" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Psychic Field"/>
+      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="11f2edfe-2c05-4f5c-9a30-a6a6923ab19a" name="JK Paper Nature">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
@@ -622,7 +649,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="958d749d-c196-479e-916c-944159b3e8ab" name="Gigastand">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
@@ -776,7 +803,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="b6eea3f1-8658-4a2b-afd7-1caf160ae8d7" name="Cocco Lupia">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
@@ -813,6 +840,17 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
+    <card id="d25b6085-7804-4490-95a2-8faee48ea26a" size="wide" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Psychic Field"/>
+      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="52b+109b+110b/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="960e2171-b593-4be3-bca8-69f96988086b" name="Codefight Alibi Trick">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -828,7 +866,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="cca342fd-08da-4fcb-b30b-84170f090a40" name="Root Charger">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
@@ -994,7 +1032,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="10b67ab5-3d8c-4823-8086-27d8fd8631ee" name="Fruit of Eternity">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
@@ -1031,8 +1069,45 @@
       <property name="Number" value="69/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
+    <card id="c69f7b6a-7408-41e7-b5b7-0001fff5b3e2" name="Coco Yuyu Doxon, Dogenzaka Mongoose">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Human/Idol/Gang"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Your opponent's creatures block if able.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(Enjoy Play! Everyone's Playground! GANG PARADE!) 52b/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      <alternate name="Enjoy Play! Everyone's Playground! GANG PARADE!" type="awakening" size="wide">
+        <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Psychic Field"/>
+        <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+        <property name="Watermark" value=""/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="52b+109b+110b/???"/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+    </card>
+    <card id="a0b1c4b0-54c4-4601-abf3-59fa36bc262d" name="Fused Dreadnought! Jet Cascade Attack">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="Liquid People/Hunter"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Your Hunters can't be attacked or blocked.&#xA;■ Whenever this creature attacks, draw up to 3 cards. Then reveal any number of cards in your hand. For each card revealed, choose one of your opponent's creatures in the battle zone that costs the same as or less than that revealed card and return it to its owner's hand.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="162b7e49-eb48-4601-819e-cecc77cc3a5c" name="Ghastly Drain">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
@@ -1058,7 +1133,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="ef922f17-0196-4d73-8f42-19d6a952c9c4" name="Simian Warrior Grash">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
@@ -1085,115 +1160,14 @@
       <property name="Number" value="74/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="af7c386e-e4df-4770-b969-84ddfcc78810" name="Diehard Ryusei of Invincibility">
+    <card id="e530fb59-0fb4-42cc-a108-e071910aff4c" size="wide" name="Tearing Packunga, the Greedy">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Red Command Dragon/Hunter"/>
-      <property name="Power" value="8000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your Dragons attack, choose one of your opponent's shields and put it into its owner's graveyard.&#xA;■ When you would lose the game, or your opponent would win the game, destroy this creature instead.&#xA;■ When this creature is destroyed, this turn, you can't lose the game and your opponent can't win."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="80/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="3a70cd30-ed1b-4f57-9b52-9f9eb42960c8" name="Faerie Shower">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water/Nature"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 2 cards of your deck. Put one of them into your hand and the other into your mana zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="83/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="00f50ad5-9b4b-4a0f-8501-9965d7abbe8d" name="Dondodo Doramusko">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ All fire Jokers creatures in your hand get &quot;Jokers Over Explode&quot; 2. (You may pay 2 less to summon a creature that has &quot;Jokers Over Explode&quot; 2. If you do, put it on the bottom of your deck at the end of the turn. Then draw a card)&#xA;■ When you put this creature into the battle zone, reveal the top 4 cards of your deck. You may put a Jokers card from among them into your hand. Put the rest under your deck in any order."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="84/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="57ddb424-c4de-4340-89ff-4a0e3fb55001" name="Dueman">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Hero"/>
-      <property name="Power" value="2020"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="86/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="c772b5c9-1df2-4b70-b6ac-dc2def69d6e3" name="E-Gogogo">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Beat Jockey/Sonic Command/Specials"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="{Marshall Touch"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="88/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="0fc641f9-a925-4bc8-bfa5-c73f8b04f860" name="Emrakul, the Aeons Torn">
-      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="15"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Eldrazi/Zenith"/>
-      <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, take an extra turn after this one.&#xA;■ Whenever this creature attacks, your opponent chooses a total of 6 of their face up cards in the battle zone, shield zone, and mana zone and puts them into their graveyard.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="91/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="9412c755-5d47-4e34-a964-4fdf9504af84" name="Enma Dai King">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Power" value="7160"/>
-      <property name="Rules" value="■ Graveyard evolution—Choose a darkness creature in your graveyard and put this card into the battle zone on top of that creature.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put all your opponent's non-creature face up cards in the battle zone and all your opponent's face up cards in their shield zone into their owners' graveyard."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="93/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="fa1bd765-accd-4bd8-9d8c-7dd6b1c18d9b" name="Balloonshroom Q">
-      <property name="Format" value="OCG,TCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Survivor/Balloon Mushroom"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When this creature would be destroyed, put it into your mana zone instead."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="95/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="01269887-b07f-4a58-952a-d74d0a20f296" name="Fused Dreadnought! Jet Cascade Attack">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water"/>
-      <property name="Cost" value="24"/>
       <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="Liquid People/Hunter"/>
-      <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Your Hunters can't be attacked or blocked.&#xA;■ Whenever this creature attacks, draw up to 3 cards. Then reveal any number of cards in your hand. For each card revealed, choose one of your opponent's creatures in the battle zone that costs the same as or less than that revealed card and return it to its owner's hand.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Race" value="Berserker/Gaia Command/Alien"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, untap this creature.&#xA;■ While one of your opponent's creatures is attacking, this creature gets &quot;blocker&quot;.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -1212,7 +1186,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="630d379e-7a58-40c8-b22f-5208b56cbb2b" name="Sinister General Damudo">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
@@ -1299,6 +1273,19 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
+    <card id="af7c386e-e4df-4770-b969-84ddfcc78810" name="Diehard Ryusei of Invincibility">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your Dragons attack, choose one of your opponent's shields and put it into its owner's graveyard.&#xA;■ When you would lose the game, or your opponent would win the game, destroy this creature instead.&#xA;■ When this creature is destroyed, this turn, you can't lose the game and your opponent can't win."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="80/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="f7f9d4e5-0fd8-4308-98ff-cd72039bc917" name="Hellborof, Supreme Dragon Ruler">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -1323,6 +1310,30 @@
       <property name="Number" value="82/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
+    <card id="3a70cd30-ed1b-4f57-9b52-9f9eb42960c8" name="Faerie Shower">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 2 cards of your deck. Put one of them into your hand and the other into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="83/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="00f50ad5-9b4b-4a0f-8501-9965d7abbe8d" name="Dondodo Doramusko">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ All fire Jokers creatures in your hand get &quot;Jokers Over Explode&quot; 2. (You may pay 2 less to summon a creature that has &quot;Jokers Over Explode&quot; 2. If you do, put it on the bottom of your deck at the end of the turn. Then draw a card)&#xA;■ When you put this creature into the battle zone, reveal the top 4 cards of your deck. You may put a Jokers card from among them into your hand. Put the rest under your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="84/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="6b0b1fdc-1b40-4f29-9111-22f1cbb41663" name="Due Kamisama, Duema God Clerk">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
@@ -1332,6 +1343,18 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="85/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="57ddb424-c4de-4340-89ff-4a0e3fb55001" name="Dueman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Hero"/>
+      <property name="Power" value="2020"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="86/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="9e49ea18-dccf-4eeb-bdf2-79fd2828955c" name="Deadman, Rap Hermit">
@@ -1345,77 +1368,17 @@
       <property name="Number" value="87/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="386bcbb4-4062-42c3-bf26-fbdc0af3192a" name="A Stra Sensor">
+    <card id="c772b5c9-1df2-4b70-b6ac-dc2def69d6e3" name="E-Gogogo">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="1"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Look at the top 3 cards of your deck. You may choose a spell or aura from among them, show it to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="92/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="35cb8b2d-c932-4a50-aecd-835d1c1c6a94" name="Deathshiraz Infinity, Super Devil Corrupt King">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="20"/>
-      <property name="Type" value="Dragheart Creature"/>
-      <property name="Race" value="Demon Command Dragon"/>
-      <property name="Power" value="24000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy all your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put all non-evolution darkness creatures from your graveyard into the battle zone.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="NA70b/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="d02c2697-adfa-436f-99ff-9867209dea79" name="Deathshiraz Infinity, Super Devil Corrupt King">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="20"/>
-      <property name="Type" value="Dragheart Creature"/>
-      <property name="Race" value="Demon Command Dragon"/>
-      <property name="Power" value="24000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy all your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put all non-evolution darkness creatures from your graveyard into the battle zone.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="YU70b/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="ff48a550-d719-478d-9732-d69c7e2974ef" size="wide" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Psychic Field"/>
-      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beat Jockey/Sonic Command/Specials"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{Marshall Touch"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="52b+109b+110b/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="5951b0bf-0696-4d68-a91e-3504e81394d0" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Psychic Field"/>
-      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="4b24f045-333c-4f35-8b7e-1247deb41950" name="Fused Dreadnought! Jet Cascade Attack">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water"/>
-      <property name="Cost" value="24"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="Liquid People/Hunter"/>
-      <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Your Hunters can't be attacked or blocked.&#xA;■ Whenever this creature attacks, draw up to 3 cards. Then reveal any number of cards in your hand. For each card revealed, choose one of your opponent's creatures in the battle zone that costs the same as or less than that revealed card and return it to its owner's hand.&#xA;{TRIPLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="88/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="c8f2009b-c2e3-4499-8421-c247e7f8f1e0" name="Sasoris, Dragon Ruler">
@@ -1432,7 +1395,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="14fc1d41-ed58-4389-b42d-665f91f1d69a" name="Eldritch Poison">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
@@ -1441,6 +1404,42 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="90/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="0fc641f9-a925-4bc8-bfa5-c73f8b04f860" name="Emrakul, the Aeons Torn">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="15"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Eldrazi/Zenith"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature, take an extra turn after this one.&#xA;■ Whenever this creature attacks, your opponent chooses a total of 6 of their face up cards in the battle zone, shield zone, and mana zone and puts them into their graveyard.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="91/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="386bcbb4-4062-42c3-bf26-fbdc0af3192a" name="A Stra Sensor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at the top 3 cards of your deck. You may choose a spell or aura from among them, show it to your opponent and add it to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="92/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="9412c755-5d47-4e34-a964-4fdf9504af84" name="Enma Dai King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7160"/>
+      <property name="Rules" value="■ Graveyard evolution—Choose a darkness creature in your graveyard and put this card into the battle zone on top of that creature.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put all your opponent's non-creature face up cards in the battle zone and all your opponent's face up cards in their shield zone into their owners' graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="93/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="f48b6fa5-1566-4942-a871-8a6fbcc7128f" name="Red Ridaz', Explosive Daredevils">
@@ -1455,6 +1454,30 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="94/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="fa1bd765-accd-4bd8-9d8c-7dd6b1c18d9b" name="Balloonshroom Q">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Survivor/Balloon Mushroom"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.) When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="95/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="ffbcbe58-2e29-4015-877c-36f466a7822f" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Psychic Field"/>
+      <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="8c670528-9976-4cba-bd8a-967c3de860e3" name="Überdragon King Bolshack">
@@ -1557,7 +1580,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="c78b5631-2b18-4f66-bc4b-1c698d19ff4b" name="Faerie Life">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
@@ -1643,43 +1666,6 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="108/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="01364bd3-64b9-4baf-96cf-71fd1a64daaa" name="Athena -Non-, Guardian of the Holy Grounds">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Nature"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/God"/>
-      <property name="Power" value="11000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 2 cards of your deck into your shield zone face down.&#xA;■ If you have 7 or more shields, each of your Gods gets +6000 power and break an additional shield."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="123/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="39388b33-8a33-49b2-9078-2eb58bd7539f" name="Evolution Egg">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take an evolution creature from your deck, show that evolution creature to your opponent, and put it into your hand. Then shuffle your deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="125/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="2e9fc26f-c763-4e92-98ad-7f05a3a6a796" name="Gaial Killer Dragon, Gunlord">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="13"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="Red Command Dragon/Demon Command/Hunter"/>
-      <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each turn, the first time one of your opponent's creatures is destroyed that turn, untap this creature.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="ee6e3abc-7812-467d-a9e0-674a3ade85f6" name="Kamiya Miki Yua Narha, to the Future Beyond">
@@ -1819,7 +1805,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="5afd6c58-e869-4828-8d3d-da0f9abb065b" name="Dream Pirate, Shadow of Theft">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
@@ -1911,6 +1897,19 @@
       <property name="Number" value="122/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
+    <card id="01364bd3-64b9-4baf-96cf-71fd1a64daaa" name="Athena -Non-, Guardian of the Holy Grounds">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command/God"/>
+      <property name="Power" value="11000+"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 2 cards of your deck into your shield zone face down.&#xA;■ If you have 7 or more shields, each of your Gods gets +6000 power and break an additional shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="123/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="6e43449c-faff-42f2-8192-91b6d68fc43a" name="Dueland, Transformation of Dreams">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
@@ -1922,6 +1921,18 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="124/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="39388b33-8a33-49b2-9078-2eb58bd7539f" name="Evolution Egg">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take an evolution creature from your deck, show that evolution creature to your opponent, and put it into your hand. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="125/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="541db4f2-9728-44e3-bb6d-541b9e6cd467" name="Hundred Eyes, Secret Spirit Treasure">
@@ -1987,7 +1998,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="206791e7-33d7-490f-9e37-e8d75157bcef" name="Hydro Hurricane">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
@@ -2272,18 +2283,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="d2041e13-4871-4914-8ac3-9a8d18da3c3f" name="All Sunrise">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Shuffle all cards in your shield zone into one shield face down. Then swap that stack of shields with your deck. (The deck becomes one shield.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="160/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="586fe4db-24e9-4bee-afcf-3857607ff702" name="Batorai Keep, Blazing Castle">
+    <card id="939bb1e6-4e02-42fc-bcc0-7dfe178076b6" name="Batorai Keep, Blazing Castle">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
@@ -2418,6 +2418,17 @@
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="159/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
+    <card id="d2041e13-4871-4914-8ac3-9a8d18da3c3f" name="All Sunrise">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Shuffle all cards in your shield zone into one shield face down. Then swap that stack of shields with your deck. (The deck becomes one shield.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="160/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="5a619f30-8288-4432-9b38-56a341aa7415" name="Lava Coil">
@@ -2860,7 +2871,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="200403a4-9d62-482d-aab8-bb2b5cbcd142" name="Schuka, Duke of Amnesia">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
@@ -3165,7 +3176,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="f8350432-873c-46b6-acb9-6991ca6c0b62" name="Stallob, the Lifequasher">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
@@ -3344,7 +3355,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="8a519196-408c-4836-88f2-39c9589406e8" name="Raza Vega, Thunder Guardian">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
@@ -3396,7 +3407,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="025ee094-bf7f-4a74-8e31-c83275a975ff" name="Aqua Agent">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
@@ -3410,7 +3421,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="94eb24ff-8d12-4531-8216-b14799e17d3e" name="Bombazar, Dragon of Destiny">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
@@ -3449,7 +3460,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="70552beb-6ba5-49c9-95cd-0a8f0c89ba2c" name="Coiling Vines">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
@@ -3525,7 +3536,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="b8a4436f-2c84-4773-8993-37f94c51ea24" name="Fever Nuts">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
@@ -3552,7 +3563,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="f8b3f037-a3c0-4af1-84c7-77cd18925bc7" name="Aqua Hulcus">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
@@ -3645,7 +3656,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="7b9252b4-cd63-4120-80ef-961877c5b674" name="Cosmic Darts">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
@@ -3683,7 +3694,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="770ef170-ba9c-4f69-8387-182586e30da0" name="Spiral Gate">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
@@ -4039,32 +4050,6 @@
       <property name="Number" value="280/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="3aa4d3f2-aa39-4f10-a933-1367fc3ff618" name="Gaial King Dragon, Raging Dragon Lord">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="24"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="King Command Dragon/Hunter"/>
-      <property name="Power" value="25000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
-    <card id="0453ec4d-9869-4844-967e-aefc5bd1eff9" name="Super Psychen Pippi">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Fire Bird/Hunter"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="{SAVER}: Hunter (When one of your Hunter(s) would be destroyed, you may destroy this creature instead.)&#xA;■ When this creature is discarded during your opponent's turn, you may put a Gaial Kaiser from your hyperspatial zone into the battle zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-    </card>
     <card id="ab262423-a3fa-453d-9ebe-c2b54cb0c6fa" name="Trueangel Leo the Star">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -4307,7 +4292,7 @@
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
     <card id="d0659b6d-5d5c-4082-98e0-e13fb16342df" name="Hokira">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
@@ -4446,30 +4431,6 @@
       <property name="Number" value="308/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="c69f7b6a-7408-41e7-b5b7-0001fff5b3e2" name="Coco Yuyu Doxon, Dogenzaka Mongoose">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Human/Idol/Gang"/>
-      <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Your opponent's creatures block if able.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="(Enjoy Play! Everyone's Playground! GANG PARADE!) 52b/???"/>
-      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      <alternate name="Enjoy Play! Everyone's Playground! GANG PARADE!" type="awakening" size="wide">
-        <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-        <property name="Cost" value="10"/>
-        <property name="Type" value="Psychic Field"/>
-        <property name="Rules" value="■ Each of your creatures gets +3000 power, &quot;speed attacker&quot;, &quot;blocker&quot;, &quot;slayer&quot; and untaps at the end of your turns.&#xA;■ When this field is Ganpar Psychic Linked, look at the top 10 cards of your deck. Choose up to 2 of those cards and put them into your hand, then shuffle your deck."/>
-        <property name="Watermark" value=""/>
-        <property name="Rarity" value="No Rarity"/>
-        <property name="Number" value="52b+109b+110b/???"/>
-        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
-      </alternate>
-    </card>
     <card id="3a403c23-45ab-4a64-9ab8-eb0bed48c23a" name="Kamiya Miki Yua Narha, to the Future Beyond">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water/Fire/Nature"/>
@@ -4543,6 +4504,20 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
+    <card id="35cb8b2d-c932-4a50-aecd-835d1c1c6a94" name="Deathshiraz Infinity, Super Devil Corrupt King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Demon Command Dragon"/>
+      <property name="Power" value="24000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy all your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put all non-evolution darkness creatures from your graveyard into the battle zone.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="NA70b/???"/>
+      <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+    </card>
     <card id="06ab029d-8302-466f-8653-9f9b55a779f0" name="Hell or Hell, Super Devil Corrupt Tower">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -4568,20 +4543,21 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="e530fb59-0fb4-42cc-a108-e071910aff4c" size="wide" name="Tearing Packunga, the Greedy">
+    <card id="d02c2697-adfa-436f-99ff-9867209dea79" name="Deathshiraz Infinity, Super Devil Corrupt King">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Nature"/>
-      <property name="Cost" value="15"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="Berserker/Gaia Command/Alien"/>
-      <property name="Power" value="10500"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, untap this creature.&#xA;■ While one of your opponent's creatures is attacking, this creature gets &quot;blocker&quot;.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="20"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Demon Command Dragon"/>
+      <property name="Power" value="24000"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy all your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put all non-evolution darkness creatures from your graveyard into the battle zone.&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="YU70b/???"/>
       <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
     </card>
-    <card id="92fa18b3-b46c-4238-8401-4aa769dad72a" size="wide" name="Tearing Packunga, the Greedy">
+    <card id="7c74a4d6-1fa6-4136-bb00-97f100d52679" size="wide" name="Tearing Packunga, the Greedy">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="15"/>

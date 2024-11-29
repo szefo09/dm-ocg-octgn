@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMART-08 Fabulous Art: Greatest New World" id="f8e223af-902a-4913-b13f-f3bf1b8a540c" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
+    <card id="cd06b0d6-f2d3-4416-bc45-8a36e71a05e6" name="New World King's Authority">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="King Cell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="1"/>
+      <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
+    </card>
     <card id="bf18c113-11bf-4526-8af1-0cecdcee64c3" size="tall" name="Volzeos Balamord">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
@@ -11,18 +22,7 @@
       <property name="Rules" value="■ If you have the 3 King Cells of &quot;New World King's Authority&quot;, &quot;New World King's Thoughts&quot; and &quot;New World King's Fighting Spirit&quot; in your hand or mana zone, you may pay this creature's cost to combine them and summon this King Creature.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {WORLD BREAKER}&#xA;■ This creature can't be blocked on the turn you put it.&#xA;■ Whenever this creature attacks, your opponent discards their hand.&#xA;■ Whenever you use &quot;Guard Strike&quot;, you may put the top card of your deck into your mana zone, then choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
-      <property name="Number" value="1+2+3/6"/>
-      <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
-    </card>
-    <card id="cd06b0d6-f2d3-4416-bc45-8a36e71a05e6" name="New World King's Authority">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Darkness/Fire"/>
-      <property name="Cost" value="0"/>
-      <property name="Type" value="King Cell"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="King Master Card"/>
-      <property name="Number" value="1/6"/>
+      <property name="Number" value="1+2+3"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
     <card id="cd347182-19e4-4b6d-8572-3e700efd94ae" name="New World King's Thoughts">
@@ -33,7 +33,7 @@
       <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
-      <property name="Number" value="2/6"/>
+      <property name="Number" value="2"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
     <card id="05f8d340-15fb-4899-9e01-efbc202ad28d" name="New World King's Fighting Spirit">
@@ -44,18 +44,7 @@
       <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
-      <property name="Number" value="3/6"/>
-      <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
-    </card>
-    <card id="5bfac1f7-eb4d-4d05-8af6-f7e1417f623c" name="New World Order">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="0"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If you have the 2 King Cells of &quot;New World King's Creation&quot; and &quot;New World King's Destruction&quot; in your hand or mana zone, you may pay this spell's cost to combine them and cast this spell.&#xA;■ Return all non-dragon creatures to their owner's hands.&#xA;■ Put any number of dragons from your mana zone and graveyard. Each of them get &quot;speed attacker&quot; and &quot;blocker&quot; until the start of your next turn."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4+5/6"/>
+      <property name="Number" value="3"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
     <card id="466dc7b3-b4dc-4dd1-9209-d8d00cacaefe" name="New World King's Creation">
@@ -66,7 +55,18 @@
       <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4/6"/>
+      <property name="Number" value="4"/>
+      <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
+    </card>
+    <card id="5bfac1f7-eb4d-4d05-8af6-f7e1417f623c" name="New World Order">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ If you have the 2 King Cells of &quot;New World King's Creation&quot; and &quot;New World King's Destruction&quot; in your hand or mana zone, you may pay this spell's cost to combine them and cast this spell.&#xA;■ Return all non-dragon creatures to their owner's hands.&#xA;■ Put any number of dragons from your mana zone and graveyard. Each of them get &quot;speed attacker&quot; and &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4+5"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
     <card id="3873a2f0-08e7-497f-9240-7bad01b223e4" name="New World King's Destruction">
@@ -77,7 +77,7 @@
       <property name="Rules" value="{GUARD STRIKE} (When you add this cells from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5/6"/>
+      <property name="Number" value="5"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
     <card id="e700da7a-a414-4d84-9c70-2bf66171a816" name="Earth Dragon God's Magic Encampment">
@@ -88,7 +88,7 @@
       <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Look at the top 3 cards of your deck. Put one of them into your hand or mana zone and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="6/6"/>
+      <property name="Number" value="6"/>
       <property name="Set" value="DMART-08 Fabulous Art: Greatest New World"/>
     </card>
   </cards>

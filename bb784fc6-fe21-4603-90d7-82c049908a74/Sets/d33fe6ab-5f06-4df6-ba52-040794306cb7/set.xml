@@ -20,6 +20,20 @@
     </pack>
   </packaging>
   <cards>
+    <card id="03562de5-3f41-4fcb-b2d6-557d16254deb" name="Rei Soleil, Super Divine Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Apollonia Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;■ Whenever your creatures block, that creature breaks one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="1"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
     <card id="9b65c3f6-188b-4c80-8c0d-1ee89cc5469a" name="Astinos, White Knight Elemental">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -32,34 +46,6 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="Astinos, White Knight Elemental (Heroes Card)"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="2c31e8ec-44ac-497c-a2ae-6236cf174fa8" name="Deathraios, Cursed Blade Reaper">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy one of your creatures that has &quot;Reaper&quot; in its name. If you do, your opponent chooses one of their creatures and destroys it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="Deathraios, Cursed Blade Reaper (Heroes Card)"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="cc68a4a8-c75c-45bf-a10f-09ee30a805c0" name="Giganima, the Reaper">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Chimera"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put one of your other creatures that have &quot;Reaper&quot; in their name into the battle zone, you may return a creature that costs less than that creature and has &quot;Reaper&quot; in its name from your graveyard to your hand."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="Giganima, the Reaper (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="dac38def-a6a1-47a8-9bfb-71dd2330fb4a" name="Hellrush Max, the Super-Electric">
@@ -76,49 +62,63 @@
       <property name="Number" value="Hellrush Max, the Super-Electric (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="08518dae-888d-430e-9edc-6abd5438409f" name="Kaiser Wing Dragon">
+    <card id="83a1e254-9188-496b-8225-4d848610127e" name="Spell Samonion, Blue Divine Dragon">
       <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="6"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Reveal the top card of your deck. If that card is a Fire Bird you may put it into the battle zone. If that card isn't a Fire Bird, put it into your graveyard."/>
+      <property name="Race" value="Poseidia Dragon/Origin"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, each player reveals the top card of their deck. If both cards are spells that have different costs, the player that has the highest cost spell may cast it for no cost. If both cards are creatures that have different power, the player that has the highest power creature may summon it for no cost.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="Kaiser Wing Dragon (Heroes Card)"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="2"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="d6a41108-7299-4eba-94b5-007deb1a2649" name="Lunar Kuroro">
+    <card id="926424a5-173f-4f8c-acc5-5c4488d8e991" name="Hellgate Moon, the Enlightened">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Fire Bird"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Each creature in the battle zone gets &quot;slayer&quot;. (Whenever a creature that has &quot;Slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ Whenever your Dragons attack, you may return a creature from your graveyard to your hand."/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Lunatic Emperor/Devil Mask"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Ultimate evolution—Put on one of your evolution creatures.&#xA;■ When you put this creature into the battle zone, put all your creatures from your graveyard into the battle zone. Then your opponent puts all their creatures from their graveyard into the battle zone.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="Lunar Kuroro (Heroes Card)"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="9d44c64f-660e-493d-b36e-c0bbe88499fa" name="Toppa Lupia">
+    <card id="919f8f06-855a-463f-9317-3623eec87ff6" name="Überdragon Rasetsu">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Fire Bird"/>
-      <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Whenever a creature that has &quot;NEX&quot; in its name battles, you may destroy this creature. If you do, untap that creature and it wins the battle."/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Armored Dragon/Origin"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons or Origins.&#xA;{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Destroy one of your opponent's creatures that has power 7000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="Toppa Lupia (Heroes Card)"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="e1cd6890-7023-4893-9917-604cc31eb1f2" name="Wiz, White Knight Enlightener">
+    <card id="d13df996-4847-4580-9873-98d4e2393589" name="Asura, the Great Enigma">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Giant/Samurai"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Giants.&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. Add one of those cards into your shields face down, one into your mana zone, and one into your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="8150f9a8-93ef-4b3d-b10e-afc521f70cb4" name="Wiz, White Knight Enlightener">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
@@ -129,7 +129,252 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="Wiz, White Knight Enlightener (Heroes Card)"/>
+      <property name="Number" value="6"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="610ef7b3-329d-4400-a723-20be9fc18b28" name="Corteo, Spirit Knight">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Arc Seraphim/Origin"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, for each of your creatures in the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="5ee3d826-d29f-40af-83c7-7bfb07644557" name="Natalia, White Knight Channeler of Suns">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Sol"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each of your cards that have &quot;White Knight&quot; in their name put into your hand from your shieldsgets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="218c4b22-40a8-4b5e-af16-86b26f700059" name="Hellrush Max, the Super-Electric">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Cyber in its race or one of your Origins.&#xA;{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Destroy one of your other creatures. If you do, reveal cards from the top of your deck until you reveal a creature. You may put that creature into the battle zone. Then shuffle the rest of the cards into your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="ea82c161-daff-40cd-ab93-61eb26265811" name="Psychic You">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;■ Look at your opponent's hand and choose a card from it. You may add that card to your opponent's shields face down. If you do, choose one of your opponent's shields and put it into their hand. They can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="bc5e8194-e88d-47c8-94c7-6770d2cb8662" name="Dark Ikkaku, Reaper Beast">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Monster"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Whenever your creatures that have &quot;Reaper&quot; in its name would leave the battle zone due to an opponent's spell, they stay in the battle zone instead.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="e65ff627-3505-4add-aa1d-b9187e2ba3d9" name="Necrodragon Czar Gandhi">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a creature that has power 6000 or more from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="cc68a4a8-c75c-45bf-a10f-09ee30a805c0" name="Giganima, the Reaper">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put one of your other creatures that have &quot;Reaper&quot; in their name into the battle zone, you may return a creature that costs less than that creature and has &quot;Reaper&quot; in its name from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Giganima, the Reaper (Heroes Card)"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="d0da380f-4420-4de8-8beb-2ff020856396" name="Giganima, the Reaper">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Chimera"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put one of your other creatures that have &quot;Reaper&quot; in their name into the battle zone, you may return a creature that costs less than that creature and has &quot;Reaper&quot; in its name from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="83f62c81-9474-4cb0-b67d-891f469faac7" name="Final Answer">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Look at your opponent's hand and choose a card from it. Your opponent may discard that card. If they don't, discard the rest of their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="7004e861-d4b7-47be-b322-fc0708196c19" name="Ken Gou, Crimson Lord ~The Sundering~">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Flame Monster"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures that has &quot;Wan Ken, Crimson Lord&quot; in its name.&#xA;{SOULSHIFT} (When you summon this creature, this creature's cost is reduced by the base creature's cost. However, it can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy all your opponent's creatures that have power 2000 or less. Search your deck. You may choose a creature that has &quot;Lord Gou Ken&quot; in its name from it and put it on top of this creature. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="18123737-338f-4712-8667-7d057cbd5287" name="Titus, King of the Gods">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="God/Origin"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ God Link (Macbeth, King of the Gods) Right Side or (Lear, King of the Gods) Top Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ Whenever this creature links with another God, destroy one of your opponent's creatures that has power 2000 or less.&#xA;■ This creature can't be attacked or blocked by light creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="afbd8227-37f7-4714-95fe-d2e71f32f824" name="Rinne Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever one of your Dragons or Fire Birds would be destroyed, you may shuffle that creature into your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="c8ec0f83-c5f2-467f-8f3c-64581c840002" name="Diamond Crack">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;■ At the end of each of your turns, if your opponent has more cards in their mana zone than you have in yours, put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="0bb81be8-05c0-4728-b09b-33c2b7566709" name="Sanctuary of the Mother">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put one of your non-evolution creatures in the battle zone into your mana zone. If you do, choose an evolution creature in your mana zone that costs the same as or less than the number of cards in your mana zone and put it into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="5b7403c8-abb9-4e85-bc74-3b69900594dc" name="Leonidas, White Knight Elemental">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="21"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="40c3d32a-9514-4920-b7f8-261d27f9e0dc" name="Sterios, White Knight Guardian">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Guardian"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top card of your deck. If it's a card that has &quot;White Knight&quot; in its name you may add it to your shields face down."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="22"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="7850f333-93e4-4713-b651-4ba02988b047" name="Peace Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, you may choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="23"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="7e3dcf1a-b060-473d-ad29-210eb835fbf2" name="Shubil Punch, Strong Defense Mecha">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Great Mecha King/Origin"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Saver: Power 6000 or more (When one of your creatures that has power 6000 or more would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="24"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="51729a0c-f476-4211-81ef-054f17e1894c" name="Yasaka Shark, Viral Torpedo">
@@ -146,335 +391,6 @@
       <property name="Number" value="Yasaka Shark, Viral Torpedo (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="03562de5-3f41-4fcb-b2d6-557d16254deb" name="Rei Soleil, Super Divine Dragon">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Apollonia Dragon"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;■ Whenever your creatures block, that creature breaks one of your opponent's shields."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="83a1e254-9188-496b-8225-4d848610127e" name="Spell Samonion, Blue Divine Dragon">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Poseidia Dragon/Origin"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, each player reveals the top card of their deck. If both cards are spells that have different costs, the player that has the highest cost spell may cast it for no cost. If both cards are creatures that have different power, the player that has the highest power creature may summon it for no cost.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="926424a5-173f-4f8c-acc5-5c4488d8e991" name="Hellgate Moon, the Enlightened">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Lunatic Emperor/Devil Mask"/>
-      <property name="Power" value="13000"/>
-      <property name="Rules" value="■ Ultimate evolution—Put on one of your evolution creatures.&#xA;■ When you put this creature into the battle zone, put all your creatures from your graveyard into the battle zone. Then your opponent puts all their creatures from their graveyard into the battle zone.&#xA;{TRIPLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="919f8f06-855a-463f-9317-3623eec87ff6" name="Überdragon Rasetsu">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Armored Dragon/Origin"/>
-      <property name="Power" value="8000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Armored Dragons or Origins.&#xA;{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Destroy one of your opponent's creatures that has power 7000 or less."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="d13df996-4847-4580-9873-98d4e2393589" name="Asura, the Great Enigma">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Giant/Samurai"/>
-      <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Giants.&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. Add one of those cards into your shields face down, one into your mana zone, and one into your hand.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="8150f9a8-93ef-4b3d-b10e-afc521f70cb4" name="Wiz, White Knight Enlightener">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Mecha Thunder"/>
-      <property name="Power" value="10500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ Ignore any effects that would prevent your creatures that have &quot;blocker&quot; from attacking your opponent.&#xA;■ At the end of each of your turns, untap all your creatures in the battle zone that have &quot;White Knight&quot; in their name."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="6/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="610ef7b3-329d-4400-a723-20be9fc18b28" name="Corteo, Spirit Knight">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Arc Seraphim/Origin"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, for each of your creatures in the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="7/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="5ee3d826-d29f-40af-83c7-7bfb07644557" name="Natalia, White Knight Channeler of Suns">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Mecha Del Sol"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each of your cards that have &quot;White Knight&quot; in their name put into your hand from your shieldsgets &quot;shield trigger&quot;."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="8/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="e28fbb69-55b5-41ff-bc76-7d1de7cb895e" name="Aterui, the Patroller">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Cosmo Walker/Origin"/>
-      <property name="Power" value="4500"/>
-      <property name="Rules" value="■ Whenever your opponent would choose your creatures in the battle zone, they can't choose creatures that have power 6000 or more. (They can still be attacked or blocked.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="218c4b22-40a8-4b5e-af16-86b26f700059" name="Hellrush Max, the Super-Electric">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Cyber Command"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures that has Cyber in its race or one of your Origins.&#xA;{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Destroy one of your other creatures. If you do, reveal cards from the top of your deck until you reveal a creature. You may put that creature into the battle zone. Then shuffle the rest of the cards into your deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="10/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="ea82c161-daff-40cd-ab93-61eb26265811" name="Psychic You">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;■ Look at your opponent's hand and choose a card from it. You may add that card to your opponent's shields face down. If you do, choose one of your opponent's shields and put it into their hand. They can't use the &quot;shield trigger&quot; ability of that shield."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="bc5e8194-e88d-47c8-94c7-6770d2cb8662" name="Dark Ikkaku, Reaper Beast">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Dark Monster"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Whenever your creatures that have &quot;Reaper&quot; in its name would leave the battle zone due to an opponent's spell, they stay in the battle zone instead.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="e65ff627-3505-4add-aa1d-b9187e2ba3d9" name="Necrodragon Czar Gandhi">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Zombie Dragon"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may return a creature that has power 6000 or more from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="d0da380f-4420-4de8-8beb-2ff020856396" name="Giganima, the Reaper">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Chimera"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put one of your other creatures that have &quot;Reaper&quot; in their name into the battle zone, you may return a creature that costs less than that creature and has &quot;Reaper&quot; in its name from your graveyard to your hand."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="83f62c81-9474-4cb0-b67d-891f469faac7" name="Final Answer">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Look at your opponent's hand and choose a card from it. Your opponent may discard that card. If they don't, discard the rest of their hand."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="7004e861-d4b7-47be-b322-fc0708196c19" name="Ken Gou, Crimson Lord ~The Sundering~">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Flame Monster"/>
-      <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures that has &quot;Wan Ken, Crimson Lord&quot; in its name.&#xA;{SOULSHIFT} (When you summon this creature, this creature's cost is reduced by the base creature's cost. However, it can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;Instead of having this creature attack, you may tap it to use its {TAP} ability.&#xA;{TAP} Destroy all your opponent's creatures that have power 2000 or less. Search your deck. You may choose a creature that has &quot;Lord Gou Ken&quot; in its name from it and put it on top of this creature. Then shuffle your deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="18123737-338f-4712-8667-7d057cbd5287" name="Titus, King of the Gods">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="God/Origin"/>
-      <property name="Power" value="4000+"/>
-      <property name="Rules" value="■ God Link (Macbeth, King of the Gods) Right Side or (Lear, King of the Gods) Top Side {GOD LINK} (If you have the specified God in the battle zone, you may link it to this card. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave the battle zone, choose either card.)&#xA;■ Whenever this creature links with another God, destroy one of your opponent's creatures that has power 2000 or less.&#xA;■ This creature can't be attacked or blocked by light creatures."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="afbd8227-37f7-4714-95fe-d2e71f32f824" name="Rinne Lupia">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Fire Bird"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Whenever one of your Dragons or Fire Birds would be destroyed, you may shuffle that creature into your deck instead."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="c8ec0f83-c5f2-467f-8f3c-64581c840002" name="Diamond Crack">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Snow Faerie"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;■ At the end of each of your turns, if your opponent has more cards in their mana zone than you have in yours, put the top 2 cards of your deck into your mana zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="0bb81be8-05c0-4728-b09b-33c2b7566709" name="Sanctuary of the Mother">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put one of your non-evolution creatures in the battle zone into your mana zone. If you do, choose an evolution creature in your mana zone that costs the same as or less than the number of cards in your mana zone and put it into the battle zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="5b7403c8-abb9-4e85-bc74-3b69900594dc" name="Leonidas, White Knight Elemental">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="21/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="40c3d32a-9514-4920-b7f8-261d27f9e0dc" name="Sterios, White Knight Guardian">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Guardian"/>
-      <property name="Power" value="3500"/>
-      <property name="Rules" value="■ Whenever this creature attacks, reveal the top card of your deck. If it's a card that has &quot;White Knight&quot; in its name you may add it to your shields face down."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="22/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="7850f333-93e4-4713-b651-4ba02988b047" name="Peace Lupia">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Fire Bird"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature is destroyed, you may choose one of your opponent's creatures in the battle zone and tap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="23/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="7e3dcf1a-b060-473d-ad29-210eb835fbf2" name="Shubil Punch, Strong Defense Mecha">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Great Mecha King/Origin"/>
-      <property name="Power" value="1500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Saver: Power 6000 or more (When one of your creatures that has power 6000 or more would be destroyed, you may destroy this creature instead.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="24/55"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
     <card id="5da82d4b-00f2-49f6-af04-6c662d8029b9" name="Yasaka Shark, Viral Torpedo">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
@@ -486,7 +402,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="25/55"/>
+      <property name="Number" value="25"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="82a212ce-4258-4349-b729-96bdbb7b2fe0" name="Ken, Crimson Lord ~Playing with Water~">
@@ -500,7 +416,21 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="26/55"/>
+      <property name="Number" value="26"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="2c31e8ec-44ac-497c-a2ae-6236cf174fa8" name="Deathraios, Cursed Blade Reaper">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may destroy one of your creatures that has &quot;Reaper&quot; in its name. If you do, your opponent chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Deathraios, Cursed Blade Reaper (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="11a51921-a34c-4cfc-93fb-55afb611e4ec" name="Deathraios, Cursed Blade Reaper">
@@ -514,7 +444,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="27/55"/>
+      <property name="Number" value="27"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="34cfa8b3-3714-457b-b96d-d55bacf3452c" name="Grave Robber Reaper Man">
@@ -528,7 +458,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="28/55"/>
+      <property name="Number" value="28"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="a543600f-30d2-43e4-9800-866fcce19a95" name="Senseless Mike">
@@ -542,7 +472,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29/55"/>
+      <property name="Number" value="29"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="246006e9-28b3-41d6-ac83-aa95851235af" name="Iru Luka, Transforming Puppet">
@@ -556,7 +486,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30/55"/>
+      <property name="Number" value="30"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="b06c5e84-e335-4b56-a8de-70350a73a923" name="Megarock Rouser, Uber Rock Beast">
@@ -570,7 +500,21 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31/55"/>
+      <property name="Number" value="31"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="08518dae-888d-430e-9edc-6abd5438409f" name="Kaiser Wing Dragon">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{BREAK BONUS} (After this creature's attack, if this creature is still in the battle zone, for each shield this creature broke you may use the following Break Bonus ability.)&#xA;Reveal the top card of your deck. If that card is a Fire Bird you may put it into the battle zone. If that card isn't a Fire Bird, put it into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="Kaiser Wing Dragon (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="8ce2c3d7-7cd1-4702-881e-9f337e55d44a" name="Kaiser Wing Dragon">
@@ -584,7 +528,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32/55"/>
+      <property name="Number" value="32"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="6c15ae12-98a4-43e4-a437-65063db72ac4" name="Harpoon Launcher">
@@ -596,7 +540,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33/55"/>
+      <property name="Number" value="33"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="642e3add-29c3-4272-ac4f-f3ad1035598c" name="Galbozack, Earth's Roar">
@@ -610,7 +554,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34/55"/>
+      <property name="Number" value="34"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="0c66e6ad-5e86-427b-a8d5-8515c611f19e" name="Lear, King of the Gods">
@@ -624,7 +568,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35/55"/>
+      <property name="Number" value="35"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="d34f5092-de28-48a2-b7fe-34e0039cc4c3" name="Astinos, White Knight Elemental">
@@ -638,7 +582,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="36/55"/>
+      <property name="Number" value="36"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="3c182342-170c-40f8-9639-9009e8a62ceb" name="Effia, White Knight Oracle">
@@ -651,7 +595,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="37/55"/>
+      <property name="Number" value="37"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="3e06c6c2-0be5-4815-b4c0-b8f52f7741fd" name="Pure Ranga">
@@ -665,7 +609,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="38/55"/>
+      <property name="Number" value="38"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="d6a395fd-c454-422c-8762-71484e8ab566" name="Tirios, White Knight Oracle">
@@ -679,7 +623,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="39/55"/>
+      <property name="Number" value="39"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="39d539fb-b0f2-4ddb-968a-b0904b69cd1d" name="The Strong Guard">
@@ -691,7 +635,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="40/55"/>
+      <property name="Number" value="40"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="da00e0ca-5870-43f7-b212-df0811ab57de" name="Jaws Cluster">
@@ -705,7 +649,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="41/55"/>
+      <property name="Number" value="41"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="8397cf5a-512b-48fb-843d-3153e3150d67" name="Kuragen">
@@ -719,7 +663,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="42/55"/>
+      <property name="Number" value="42"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="6f010ed0-e26a-4fdf-a297-e1bf6f8d4461" name="The Strong Spiral">
@@ -731,7 +675,35 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="43/55"/>
+      <property name="Number" value="43"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="d6a41108-7299-4eba-94b5-007deb1a2649" name="Lunar Kuroro">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each creature in the battle zone gets &quot;slayer&quot;. (Whenever a creature that has &quot;Slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ Whenever your Dragons attack, you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Lunar Kuroro (Heroes Card)"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="e28fbb69-55b5-41ff-bc76-7d1de7cb895e" name="Aterui, the Patroller">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cosmo Walker/Origin"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="■ Whenever your opponent would choose your creatures in the battle zone, they can't choose creatures that have power 6000 or more. (They can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="db548c1d-703f-44b2-8ae7-e000350a1633" name="Lunar Kuroro">
@@ -745,7 +717,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="44/55"/>
+      <property name="Number" value="44"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="4c3fe4d0-83d8-43a3-a486-baebc1b4ec76" name="Bone Amigo, the Undead Reaper">
@@ -759,7 +731,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="45/55"/>
+      <property name="Number" value="45"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="3b8b6383-53c8-4410-a7ce-5b02b0a86117" name="Drain Worm, the Parasite">
@@ -773,7 +745,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="46/55"/>
+      <property name="Number" value="46"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="5a7d78de-29bf-41f0-895c-2d0dfa8fc91f" name="Deathproof, Shadow Reaper">
@@ -787,7 +759,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="47/55"/>
+      <property name="Number" value="47"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="68cfe42b-5133-4e30-97fa-9cc7ddccdc0c" name="The Strong Breath">
@@ -799,7 +771,21 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="48/55"/>
+      <property name="Number" value="48"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="9d44c64f-660e-493d-b36e-c0bbe88499fa" name="Toppa Lupia">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever a creature that has &quot;NEX&quot; in its name battles, you may destroy this creature. If you do, untap that creature and it wins the battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Toppa Lupia (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="f915d64f-2546-4bcd-8ff7-3c75dc2c0244" name="Toppa Lupia">
@@ -813,7 +799,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="49/55"/>
+      <property name="Number" value="49"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="6e5abdfc-f156-4257-88ed-105b02e1145a" name="Piara Heart">
@@ -827,11 +813,11 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="50/55"/>
+      <property name="Number" value="50"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="cc081434-9a67-4a04-b7de-389f80884462" name="Immortal Baron, Vorg">
-      <property name="Format" value="Set35,OCG,TCG"/>
+      <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
@@ -840,7 +826,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="51/55"/>
+      <property name="Number" value="51"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="e3afd0eb-7920-4e15-a357-a8b1214ce256" name="The Strong Crush">
@@ -852,7 +838,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="52/55"/>
+      <property name="Number" value="52"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="98678a6a-daef-4571-98e5-01dfca73275b" name="Foxy, Cursed Forest Fighter">
@@ -866,7 +852,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="53/55"/>
+      <property name="Number" value="53"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="3d4e6d4d-d9a5-4a33-8ac6-e16b8b5beadf" name="Bucket Buc-kid, Gentle Snow Faerie">
@@ -880,7 +866,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="54/55"/>
+      <property name="Number" value="54"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="1c962c71-9efc-4d40-8887-04a5b13d23df" name="The Strong Trap">
@@ -892,7 +878,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="55/55"/>
+      <property name="Number" value="55"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="e320bb18-b352-45a6-bf7f-7f682a0b57fa" name="HEAVEN, White Knight Lord of Spirits">
@@ -906,7 +892,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1/S5"/>
+      <property name="Number" value="S1"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="9da954bd-ca16-46ea-89b6-c16fc3330778" name="Caribbean Moon, the Enlightened">
@@ -920,7 +906,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2/S5"/>
+      <property name="Number" value="S2"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="f392782b-e02c-4110-957f-0878532ea1fe" name="XENOM, the Reaper King">
@@ -934,7 +920,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3/S5"/>
+      <property name="Number" value="S3"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="7b662b8b-7bf2-416c-bf4b-0ff5e735bcb9" name="Rising NEX, the Enlightened">
@@ -948,7 +934,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4/S5"/>
+      <property name="Number" value="S4"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="7690e251-ff4b-4d6a-b464-4d5515012778" name="Pangaea Moon, the Enlightened">
@@ -962,7 +948,21 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5/S5"/>
+      <property name="Number" value="S5"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="e1cd6890-7023-4893-9917-604cc31eb1f2" name="Wiz, White Knight Enlightener">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ Ignore any effects that would prevent your creatures that have &quot;blocker&quot; from attacking your opponent.&#xA;■ At the end of each of your turns, untap all your creatures in the battle zone that have &quot;White Knight&quot; in their name."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Wiz, White Knight Enlightener (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="ae49f517-b476-436a-b686-1ecfb27f6fb8" name="Rising NEX, the Enlightened">
