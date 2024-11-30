@@ -20,18 +20,6 @@
     </pack>
   </packaging>
   <cards>
-    <card id="54cf71d8-4084-4d14-a78f-846ba13715c9" name="DG ~The Thing Made By Man~">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Metallica"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone or whenever this creature taps, choose one of your shields and one of your opponent's. This creature breaks those chosen shields.&#xA;■ All Metallica and Judgment Emblems added to your hand from your shields gets &quot;shield trigger&quot;."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="DG Rare"/>
-      <property name="Number" value="1/1"/>
-      <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
-    </card>
     <card id="93712872-b011-47d2-9bef-35107cc9f5e2" name="Soji-San">
       <property name="Format" value="OCG"/>
       <property name="Cost" value="8"/>
@@ -41,7 +29,19 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Jokers creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, each player puts the top card of their deck into their shields face down. Then choose one of your opponent's shields and put it on the bottom of its owner's deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="1/93"/>
+      <property name="Number" value="1"/>
+      <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
+    </card>
+    <card id="54cf71d8-4084-4d14-a78f-846ba13715c9" name="DG ~The Thing Made By Man~">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Metallica"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone or whenever this creature taps, choose one of your shields and one of your opponent's. This creature breaks those chosen shields.&#xA;■ All Metallica and Judgment Emblems added to your hand from your shields gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="DG Rare"/>
+      <property name="Number" value="1"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="a93b6648-e074-4185-8499-6bde6660ebd9" name="DG ~The Thing Made By Man~">
@@ -78,7 +78,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Draw a card. Then cast a spell that costs 5 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="2/93"/>
+      <property name="Number" value="2"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c720e688-25b5-4f74-9483-22c016700125" name="Three Horn, Burst of Oni">
@@ -91,7 +91,7 @@
       <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ At the end of each of your turns, choose one of the following:&#xA;► Draw a card:&#xA;► Put a creature that costs the same as or less than the number of cards in your hand from your hand into the battle zone.&#xA;■ Labyrinth: Whenever an opponent's creature attacks, if you have more shields than your opponent, you may untap one of your creatures. If you do, change the attack of your opponent's creature to that creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="3/93"/>
+      <property name="Number" value="3"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="917f2858-070f-4a9b-9350-084fde5e6693" name="Melkajik, Whirlpool Recluse">
@@ -104,7 +104,7 @@
       <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your spells may each cost 1 less to cast. They can't cost 0 or less.&#xA;■ You may cast a spell from your graveyard once per turn. After you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ Whenever you cast a spell, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="4/93"/>
+      <property name="Number" value="4"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="393e42b4-ea09-4255-af61-ffe29287c54f" name="Gamesh, Longliving Shell">
@@ -117,7 +117,7 @@
       <property name="Rules" value="■ Whenever this creature taps during your turn, skip the rest of the turn.&#xA;■ Whenever this creature untaps, break 2 of your opponent's shields.&#xA;■ Whenever this creature is attacked, it gets +10000 power until the end of the turn.&#xA;■ When your opponent would choose a creature in the battle zone by the effect of a spell, they can't choose this one."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="5/93"/>
+      <property name="Number" value="5"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="ac83da33-39e4-4051-bc59-6f8f6b99a727" name="Jababa Hat">
@@ -130,7 +130,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy it after the attack.&#xA;■ When this creature is put into your graveyard, if it was an evolution creature, return it into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="6/93"/>
+      <property name="Number" value="6"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="8d1c2a59-ddd2-4936-9bb7-4986f4b08f6e" name="Latelier Robuchon">
@@ -143,7 +143,7 @@
       <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, you may look at the top 3 cards of your deck. If you do, put one of them into your hand and the rest into your graveyard.&#xA;■ At the end of each of your turns, if there are 8 or more creatures that have different costs in your graveyard, you may put all of them into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="7/93"/>
+      <property name="Number" value="7"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="674c9823-a593-47f0-8189-bc227130600e" name="Red Gearstar">
@@ -156,7 +156,7 @@
       <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Until the start of your next turn, this creature can't be destroyed."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="8/93"/>
+      <property name="Number" value="8"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="34efd8ae-6d2c-407a-ac9e-5572f9167276" name="Khan, Absolute Sound">
@@ -169,7 +169,7 @@
       <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, after the attack, each player may discard their hand. Those players draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="9/93"/>
+      <property name="Number" value="9"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="bb877fe1-1e37-434a-a8db-09cb9427684d" name="Rutsparfait Panzer">
@@ -182,7 +182,7 @@
       <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone from your hand, put it into your mana zone. When its put out from a zone other than your hand, choose one of your opponent's creatures and put it into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
-      <property name="Number" value="10/93"/>
+      <property name="Number" value="10"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c110fc64-01b4-419e-abed-4df95de3c96b" name="Coordinate">
@@ -194,7 +194,7 @@
       <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When one of your opponent's creatures would be destroyed while battling with this creature, tap it instead. That creature doesn't untap during the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="11/93"/>
+      <property name="Number" value="11"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="611e4a4a-1c05-4479-8817-cdecaacb35b4" name="Ballad, Sound Attack Silver">
@@ -207,7 +207,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Look at the top 4 cards of your deck. You may choose a spell from among them, show that spell to your opponent, and put it into your hand. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="12/93"/>
+      <property name="Number" value="12"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="753a72f4-e63d-4142-83fe-d8b323d1ded8" name="Justy Luminarie">
@@ -218,7 +218,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ You may put a non-evolution light creature that costs 5 or less from your hand into the battle zone.&#xA;■ Labyrinth: If you have more shields than your opponent, you may put a non-evolution Metallica that costs 8 or less from your hand into the battle zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="13/93"/>
+      <property name="Number" value="13"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="306d62cf-b668-494c-b737-63d8c18958fe" name="Ovidence Laser">
@@ -229,7 +229,7 @@
       <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose 3 of your opponent's creatures and tap them.&#xA;{SUPER}Your opponent's creatures don't untap at the start of their next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="14/93"/>
+      <property name="Number" value="14"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="b4544b67-aa0f-42c5-8079-42636b4867e6" name="Demethai, Oni Motion Soldier">
@@ -242,7 +242,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, return it to your hand after the attack.&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Your creatures can't be blocked until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="15/93"/>
+      <property name="Number" value="15"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="3364ed27-16d6-4728-9108-2ae00a6963a6" name="Kiribai, Dragon Armored">
@@ -255,7 +255,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you discard a creature from your hand, you may choose a creature that costs less than it and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="16/93"/>
+      <property name="Number" value="16"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="be7df73e-33ac-4aa9-8dfc-89cc93a22bd3" name="HAL, Dimensional Wave Guide Magic">
@@ -266,7 +266,7 @@
       <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw 2 cards.&#xA;{SUPER}Skip the rest of the turn. (Immediately start the next player's turn.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="17/93"/>
+      <property name="Number" value="17"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="fa277e0c-3465-442f-a17e-d7cf12795654" name="Gustasque, Faith Examiner">
@@ -279,7 +279,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Your opponent chooses one of their untapped creatures and destroys it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="18/93"/>
+      <property name="Number" value="18"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="52e58ca5-3290-43db-bdec-c66c1f49191a" name="Skullbent Gades">
@@ -290,7 +290,7 @@
       <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put a non-evolution darkness creature that costs 8 or less from your graveyard into the battle zone.&#xA;{SUPER}Destroy up to 2 of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="19/93"/>
+      <property name="Number" value="19"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0b9d72f2-4fa1-44aa-8a77-792b9056ba98" name="Shocking Dantal">
@@ -301,7 +301,7 @@
       <property name="Rules" value="■ Destroy one of your creatures. Then put a creature that costs 1 more than that creature from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="20/93"/>
+      <property name="Number" value="20"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="12d18aca-520f-43ac-8ce5-231b1d9d2ae1" name="Fight! Ippatsuman">
@@ -314,7 +314,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ If you have 4 or more Jokers in the battle zone or your mana zone, each of your creatures gets +3000 power while battling."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="21/93"/>
+      <property name="Number" value="21"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0fe8475b-5ac9-46ee-b953-c30b25c1f0ab" name="Sports Captain">
@@ -327,7 +327,7 @@
       <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put one of your shields into your hand. (You may use &quot;shield trigger&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="22/93"/>
+      <property name="Number" value="22"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="e3833195-b5e2-498e-8267-dbe668c3bc3e" name="Jibabon 3 Brothers">
@@ -339,7 +339,7 @@
       <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's creatures that has power 6000 or less.&#xA;■ If you have 6 or more Jokers in the battle zone or your mana zone, destroy one of your opponent's creatures that has power 12000 or less.&#xA;{SUPER}Destroy all your opponent's creatures. At the end of your next turn, you lose the game."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="23/93"/>
+      <property name="Number" value="23"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="5fc02d80-2754-45a5-bb1e-b509647f3c2e" name="Big Bang Flare">
@@ -350,7 +350,7 @@
       <property name="Rules" value="■ Bad Action Dynamite Spell 2 (You may reduce this spells cast cost by 2. If you do, discard a card from your hand.)&#xA;■ You may put a Beat Jockey from your hand. If you do, choose one of your opponent's creatures. Those 2 creatures battle. At the end of the turn, destroy that Beat Jockey."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="24/93"/>
+      <property name="Number" value="24"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="d98a0b5f-f39e-4636-acb7-2d6f557fea94" name="Goajigodi">
@@ -363,7 +363,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|One of your creatures gets +4000 power and breaks an additional shield until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="25/93"/>
+      <property name="Number" value="25"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="e829f49d-7de1-438f-9fbb-bb14a0ebc7b0" name="Jurange, Dragon Armored">
@@ -376,7 +376,7 @@
       <property name="Rules" value="{WORLD BREAKER}&#xA;■ When you summon another creature, put this creature into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="26/93"/>
+      <property name="Number" value="26"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f4f4f968-96c2-474a-8393-2654f9945868" name="Kolencoco Tank">
@@ -389,7 +389,7 @@
       <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, reveal the top 3 cards of your deck. From among them, put any number of creatures that have power 12000 or more into your hand, and the rest into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="27/93"/>
+      <property name="Number" value="27"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="64b48743-7fe4-490d-a1a6-f13aa374f643" name="Cocoon Shanabagan">
@@ -400,7 +400,7 @@
       <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put the top 2 cards of your deck into your mana zone. Then return a card from your mana zone to your hand.&#xA;{SUPER}Put up to 2 non-evolution nature creatures from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="28/93"/>
+      <property name="Number" value="28"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="cf5ad0b5-c593-42ce-961c-a9f8e7b5f932" name="Intense Anger! Fujiyaman">
@@ -412,7 +412,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that costs 3 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="29/93"/>
+      <property name="Number" value="29"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="d3db5975-a901-42bb-80a7-2711aac909e4" name="Torkoi, Sound Stone">
@@ -425,7 +425,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="30/93"/>
+      <property name="Number" value="30"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="91465723-b459-4a50-858e-be2c22dc04ec" name="Law Guard, Geared for War">
@@ -438,7 +438,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, add the top card of your deck to your shields face down.&#xA;■ Whenever a card is added to your shields, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="31/93"/>
+      <property name="Number" value="31"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c0fda008-c3ce-483c-b101-d1579f85a7a8" name="Guten, Blue Defense Silver">
@@ -451,7 +451,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature is destroyed, if you have no shields, add the top card of your deck to your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="32/93"/>
+      <property name="Number" value="32"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="a31e890a-3361-49b7-a14c-40e258bd5d62" name="Synchro Shield">
@@ -462,7 +462,7 @@
       <property name="Rules" value="■ Instead of paying the cost, you may tap 2 of your light creatures to cast this spell.&#xA;■ Add the top card of your deck to your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="33/93"/>
+      <property name="Number" value="33"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0beb55ad-d469-49c6-b000-af01197714bd" name="Awabbi, Shell Beast">
@@ -475,7 +475,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Draw 2 cards. Then discard a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="34/93"/>
+      <property name="Number" value="34"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="453cf50e-17c9-46db-90e2-c65803633e08" name="Hiyoku, Shell Beast">
@@ -488,7 +488,7 @@
       <property name="Rules" value="■ When you would discard this card, you may put it underneath one of your Neo Creatures instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="35/93"/>
+      <property name="Number" value="35"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0fd8cfa7-67d8-4e2f-b0ee-10cb2afc97d8" name="Iwashin, One Man Army">
@@ -501,7 +501,7 @@
       <property name="Rules" value="■ When this creature is put into your graveyard from anywhere, you may draw a card. If you do, discard a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="36/93"/>
+      <property name="Number" value="36"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="624e55d3-f844-4541-811c-97a28f25ed73" name="Revival of the Lost Forbidden Spell">
@@ -512,7 +512,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Cast a spell that costs 4 or less from your graveyard for no cost. After you cast it, put it on the bottom of your deck instead of your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="37/93"/>
+      <property name="Number" value="37"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="814cd397-57b1-49cb-85b6-8b46c73031ce" name="Synchro Spiral">
@@ -523,7 +523,7 @@
       <property name="Rules" value="■ Instead of paying the cost, you may tap 2 of your water creatures to cast this spell.&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="38/93"/>
+      <property name="Number" value="38"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="85a02416-5289-44ae-8946-4e518d589190" name="Staff, Misfortune Demon 82">
@@ -536,7 +536,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="39/93"/>
+      <property name="Number" value="39"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c41bf8ff-6d6d-4307-acb5-fedeeb39fe21" name="Aoge, Eye Doctor">
@@ -549,7 +549,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When your put this creature into the battle zone, your opponent chooses one of their untapped creatures and destroys it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="40/93"/>
+      <property name="Number" value="40"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="a938dc1d-e4d1-4fb0-8db9-3d84f10850b5" name="Simone Pétre">
@@ -562,7 +562,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, put the top 2 cards of your deck into your graveyard.&#xA;■ When this creature is destroyed during your turn, put it into the battle zone from your graveyard at the end of your turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="41/93"/>
+      <property name="Number" value="41"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0c6bddd1-37b5-43b8-9553-6683167e153f" name="Bonske, Misfortune Demon 68">
@@ -575,7 +575,7 @@
       <property name="Rules" value="■ This card is put into the battle zone tapped.&#xA;{DOUBLE BREAKER}&#xA;■ At the start of your turn, you may destroy one of your other creatures. If you don't, this creature doesn't untap."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="42/93"/>
+      <property name="Number" value="42"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="7b770934-3c8f-47c4-b828-1211d4a1043b" name="Kabedon, Misfortune Demon 65">
@@ -588,7 +588,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever any of your creatures attacks, destroy this creature after the attack."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="43/93"/>
+      <property name="Number" value="43"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="2dce44f5-8f5b-42ef-85bd-0e1fa02f4db4" name="Synchro Deathsize">
@@ -599,7 +599,7 @@
       <property name="Rules" value="■ Instead of paying the cost, you may tap 2 of your darkness creatures to cast this spell.&#xA;■ Choose one of your opponent's creatures. That creature gets -6000 power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="44/93"/>
+      <property name="Number" value="44"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="e324704b-751d-4588-927c-d8f6989b63c1" name="Red Duster">
@@ -612,7 +612,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Destroy one of your opponent's creatures that has power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="45/93"/>
+      <property name="Number" value="45"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="57563bb3-4e36-47df-89d6-8f6d9cb2e875" name="Bazazeap, Dragon Car">
@@ -625,7 +625,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the end of each of your turns, return one of your non-evolution creatures to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="46/93"/>
+      <property name="Number" value="46"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="5e19a47e-b1e7-42fd-906b-d47c59b0aa05" name="Barberpapa">
@@ -638,7 +638,7 @@
       <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="47/93"/>
+      <property name="Number" value="47"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f11b53fa-decb-4f33-a127-d6e7c4d78020" name="Sing Singer">
@@ -651,7 +651,7 @@
       <property name="Rules" value="■ At the end of your turn, if 2 or more shields have been put into a hand this turn, you may put this creature from your hand into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="48/93"/>
+      <property name="Number" value="48"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f0802937-1b60-4960-99bd-57a2c04f5499" name="Chokusin Go">
@@ -664,7 +664,7 @@
       <property name="Rules" value="■ Whenever one of your other creatures attack, you may tap this creature. If you do, untap the attacking creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="49/93"/>
+      <property name="Number" value="49"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="12f0436a-6f09-488f-9004-278ef0f8ef89" name="Third Generation Fan Kyuuroh">
@@ -677,7 +677,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may put this on the bottom of your deck. If you do, destroy one of your opponent's creatures that has power 1000 or less and draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="50/93"/>
+      <property name="Number" value="50"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="2df340dc-0cd1-46af-a88a-296bc56953ba" name="Synchro Tune">
@@ -688,7 +688,7 @@
       <property name="Rules" value="■ Instead of paying the cost, you may tap 2 of your fire creatures to cast this spell.&#xA;■ Discard a card from your hand, then draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="51/93"/>
+      <property name="Number" value="51"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="909898eb-b64e-4439-8822-ed04ae6cd5f2" name="Rorocagetti">
@@ -701,7 +701,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="52/93"/>
+      <property name="Number" value="52"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="2c58cdd3-4f5a-4a11-941b-1025df6b6f0e" name="Reorange">
@@ -714,7 +714,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="53/93"/>
+      <property name="Number" value="53"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="931ecfa3-3e2c-426e-8a63-f7f5d79ec11c" name="Kabochauchau">
@@ -727,7 +727,7 @@
       <property name="Rules" value="■ Your Neo Creatures cost 2 less to summon. They can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="54/93"/>
+      <property name="Number" value="54"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="5c48ea26-e353-4b8d-81ec-2886987bf564" name="Mamaroron">
@@ -740,7 +740,7 @@
       <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ Whenever this creature wins a battle, break one of your opponent's shields."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="55/93"/>
+      <property name="Number" value="55"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="9861dc3e-26a4-4049-86f2-43d2b80eca3f" name="Synchro Maneuver">
@@ -751,7 +751,7 @@
       <property name="Rules" value="■ Instead of paying the cost, you may tap 2 of your nature creatures to cast this spell.&#xA;■ Choose one of your opponent's creatures and put it into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="56/93"/>
+      <property name="Number" value="56"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c90f364c-f9a9-4085-858f-1b8f870075b1" name="Asimov, the Spydroid">
@@ -764,7 +764,7 @@
       <property name="Rules" value="■ At the end of each of your turns, choose a creature and tap or untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="57/93"/>
+      <property name="Number" value="57"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="654b6fd6-d206-4be7-b695-96bff358397e" name="Petokina, Channeler of Suns">
@@ -777,7 +777,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may return a spell from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="58/93"/>
+      <property name="Number" value="58"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="6257e625-c222-4e2a-a8fe-8282d3f8a869" name="Tellon, the Oracle">
@@ -789,7 +789,7 @@
       <property name="Power" value="5500"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="59/93"/>
+      <property name="Number" value="59"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="a17d5c77-18be-413a-abba-b626902f5393" name="Anyon, Green Knowledge Silver">
@@ -802,7 +802,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="60/93"/>
+      <property name="Number" value="60"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f1cd8a37-a826-4210-a3d8-6aac0760adf5" name="Shikyaku, Earth Learning">
@@ -815,7 +815,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, if your opponent has more cards in their mana zone than you have in yours, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="61/93"/>
+      <property name="Number" value="61"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="c86c2fb6-f4f0-40c2-83ac-37882770e757" name="Genbrew, Strange Stone">
@@ -828,7 +828,7 @@
       <property name="Rules" value="■ You may untap this creature to change your opponent's creatures attack to this creature or one of your tapped creatures.&#xA;■ When this creature is destroyed, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="62/93"/>
+      <property name="Number" value="62"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0a95af16-edf6-497e-aacb-7fee992a411d" name="Kanra, Strange Stone">
@@ -841,7 +841,7 @@
       <property name="Rules" value="■ Labyrinth: When you put this creature into the battle zone, if you have more shields than your opponent, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="63/93"/>
+      <property name="Number" value="63"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="66e31cd9-59ef-463f-bde9-7b327a51b3bd" name="Circle Legard">
@@ -852,7 +852,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Each of your creatures gets &quot;blocker&quot; until the start of your next turn. (Whenever an opponent's creature attacks, you may tap the creature that has &quot;blocker&quot; to change the attack to that creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="64/93"/>
+      <property name="Number" value="64"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="40812686-96a2-468b-bf8f-9acf12e1bc12" name="Kakiru, Shell Beast">
@@ -865,7 +865,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="65/93"/>
+      <property name="Number" value="65"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="d23426fd-18c0-42ef-90e7-392906115b89" name="Kaleido, Fantasy Fight">
@@ -878,7 +878,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, you may put a spell from your graveyard on the bottom of your deck. If you do, draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="66/93"/>
+      <property name="Number" value="66"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="3669ec4c-5ae8-4571-ba1a-df3b3cf1fa8e" name="Ranch, Shallow Searcher">
@@ -891,7 +891,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature is destroyed, you may return one of your opponent's creature that costs 4 or less to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="67/93"/>
+      <property name="Number" value="67"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="3f2869cf-4632-4a84-bc5d-000e79fc33f1" name="Golby Harpy">
@@ -904,7 +904,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever this creature blocks, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="68/93"/>
+      <property name="Number" value="68"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="75df34aa-b777-4fa5-9c0f-86731f0cf3d4" name="Major Cluster">
@@ -916,7 +916,7 @@
       <property name="Power" value="2000"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="69/93"/>
+      <property name="Number" value="69"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="8a034817-573d-4b23-ad64-8cea97c13441" name="Arisa, Shell Beast">
@@ -929,7 +929,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, you may return one of your other creatures to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="70/93"/>
+      <property name="Number" value="70"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="ae5d3d7e-2313-4687-883c-ada73af48d9c" name="Bubrubble, Foam Star City">
@@ -940,7 +940,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures. Those creatures can't attack or block until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="71/93"/>
+      <property name="Number" value="71"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="1751a64b-ff01-4df5-b7e1-a7652b2748cd" name="Dagma 65, Dragon Armored">
@@ -953,7 +953,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone or when it leaves the battle zone, your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="72/93"/>
+      <property name="Number" value="72"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="d9a1e213-8da9-4150-9464-2cfc8260c981" name="Thibourne, Double Edged Phantom">
@@ -965,7 +965,7 @@
       <property name="Power" value="4000"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="73/93"/>
+      <property name="Number" value="73"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="daaba816-c191-4911-b9d5-fe563b75bd63" name="Rib, Bone Ripping Doctor">
@@ -978,7 +978,7 @@
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="74/93"/>
+      <property name="Number" value="74"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="a11f62c1-483b-477f-8f0a-0742b0318fab" name="Bombardment Mutant">
@@ -991,7 +991,7 @@
       <property name="Rules" value="■ When this creature is put into your graveyard from anywhere, choose one of your opponent's creatures. That creature gets -2000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="75/93"/>
+      <property name="Number" value="75"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="16c29a9d-8aff-410f-b3bc-77439fddcec0" name="Killing Rinbo">
@@ -1002,7 +1002,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="76/93"/>
+      <property name="Number" value="76"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="6969d9b8-4823-4569-b3e2-a21e40aac1a0" name="Fakepital">
@@ -1013,7 +1013,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses a card from their hand and discards it.&#xA;■ Return a creature from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="77/93"/>
+      <property name="Number" value="77"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="489c4d49-dec0-4f10-8ee8-0ab894948e20" name="Kibasen Churis">
@@ -1026,7 +1026,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ This creature can't be attacked."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="78/93"/>
+      <property name="Number" value="78"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="5d59f6ea-c88f-4f95-9af1-270deb6b10c4" name="Higesori">
@@ -1039,7 +1039,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ This creature can attack untapped creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="79/93"/>
+      <property name="Number" value="79"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="e441d915-1d83-40a7-8c27-0fb0a2651e9c" name="Cameralife">
@@ -1052,7 +1052,7 @@
       <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has 4000 power or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="80/93"/>
+      <property name="Number" value="80"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="6f55ba06-fba2-42cb-a131-d9a8869ea020" name="Massive Churis">
@@ -1065,7 +1065,7 @@
       <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ While battling, this creature gets +6000 power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="81/93"/>
+      <property name="Number" value="81"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="1a4da941-0523-4e41-a714-3309a9d7dae8" name="The Tantanmen">
@@ -1077,7 +1077,7 @@
       <property name="Power" value="5000"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="82/93"/>
+      <property name="Number" value="82"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="ad8456bd-7171-4c20-9b85-0902135adfa0" name="Bochibochidana">
@@ -1090,7 +1090,7 @@
       <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="83/93"/>
+      <property name="Number" value="83"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="9d6f8a23-4975-4e88-94b3-085ef79e60c9" name="Energy Churis">
@@ -1103,7 +1103,7 @@
       <property name="Rules" value="{SAVER}: Beat Jockey (When one of your Beat Jockey(s) would be destroyed, you may destroy this creature instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="84/93"/>
+      <property name="Number" value="84"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="ea3e392c-226c-4cf8-88cd-058eeb536834" name="Frontier Charger">
@@ -1115,7 +1115,7 @@
       <property name="Rules" value="■ Destroy one of your opponent's creatures that has power 1000 or less.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="85/93"/>
+      <property name="Number" value="85"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f2a73891-7fb6-489d-b39e-efc50d1613c1" name="Gangan Sound Ball">
@@ -1126,7 +1126,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="86/93"/>
+      <property name="Number" value="86"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="374334ec-9b1d-4ed5-bd99-f6b68a1e2528" name="Hasaisaku">
@@ -1139,7 +1139,7 @@
       <property name="Rules" value="{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="87/93"/>
+      <property name="Number" value="87"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="8ad69689-7eb9-433e-9a20-d2f92df88ab3" name="Pimandoriru">
@@ -1152,7 +1152,7 @@
       <property name="Rules" value="■ When you summon a creature that has power 12000 or more, you may put this creature from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="88/93"/>
+      <property name="Number" value="88"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="26a2cd6f-c4ce-46ee-a6ca-a0ed33b8fbfc" name="Eitores Shell">
@@ -1165,7 +1165,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="89/93"/>
+      <property name="Number" value="89"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="2e2b833a-5cc3-4f53-b86f-36ee0677c07c" name="Yozorafuwafuwadake">
@@ -1178,7 +1178,7 @@
       <property name="Rules" value="■ When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="90/93"/>
+      <property name="Number" value="90"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="6fb82537-137b-4442-bb3c-97a32a2bc568" name="Appuppu Tank">
@@ -1191,7 +1191,7 @@
       <property name="Rules" value="■ Whenever you put a creature into the battle zone that has power 12000 or more, this creature gets +4000 power and has &quot;double breaker&quot; until end of the turn. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="91/93"/>
+      <property name="Number" value="91"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="24b7c604-b826-4565-a8b9-72c1a2443420" name="Tarutahoru">
@@ -1204,7 +1204,7 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, you may reveal a creature that has power 12000 or more from your hand. If you do, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="92/93"/>
+      <property name="Number" value="92"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="6cadd357-0010-4160-9891-2d3dd973dc58" name="Madou Scrum">
@@ -1215,7 +1215,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures that has power 5000 or less and put it into its owners mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="93/93"/>
+      <property name="Number" value="93"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="0e1f95c4-a516-4c56-828e-06022daa2edd" name="Merabeat the Johnny">
@@ -1228,7 +1228,7 @@
       <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ Master Double Merabeat: When you summon this creature in the battle zone, put up to 2 creatures that have the &quot;Jokers Over Explode&quot; ability from your hand into the battle zone. At the end of your turn, put them on the bottom of your deck in any order, then draw a card for each creature you put on the bottom of your deck this way.&#xA;■ When you put this creature, if you have 5 or more Jokers in the battle zone, destroy all your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Card"/>
-      <property name="Number" value="M1/M1"/>
+      <property name="Number" value="M1"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="804b811e-7421-48b4-b318-455b5a7dfa81" name="Merabeat the Johnny">
@@ -1280,7 +1280,7 @@
       <property name="Rules" value="■ Sympathy: Creature that costs 3 or less (This creature costs 1 less to summon for each of your creatures that cost 3 or less in the battle zone. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Whenever one of your creatures that cost 3 or less is destroyed, untap this creature.&#xA;■ Whenever one of your creatures that cost 4 or more would be destroyed, you may destroy one of your creatures that cost 3 or less instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S1/S9"/>
+      <property name="Number" value="S1"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="d2f1164e-69c6-4536-8e76-c490febaefda" name="Maruhavaan, Red Attack Silver">
@@ -1306,7 +1306,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ If you have 6 or more cards in your hand, this creature gets +2000 power and has &quot;double breaker&quot;.&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Draw 2 cards, or choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2/S9"/>
+      <property name="Number" value="S2"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="bb5ec84b-a639-4cc0-a6f3-5cf2da7982af" name="Sebichen, Crustacean Army">
@@ -1332,7 +1332,7 @@
       <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, shuffle your graveyard into your deck.&#xA;■ At the start of your opponent's turn, draw 5 cards, then discard 3 cards from your hand.&#xA;■ When you would lose the game by drawing the last card of your deck, you win the game instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3/S9"/>
+      <property name="Number" value="S3"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="24885417-c76f-4771-a94f-155b610ff651" name="Shakogairu, Water Academy No. 9">
@@ -1358,7 +1358,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Put a non-evolution creature from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4/S9"/>
+      <property name="Number" value="S4"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="f852ed2f-50e9-4051-babc-58f3f9491d60" name="Gustav Albussar">
@@ -1384,7 +1384,7 @@
       <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;■ At the end of each of your turns, you may put the top 2 cards of your deck into your graveyard. If you do, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5/S9"/>
+      <property name="Number" value="S5"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="fd76fce2-9e94-416a-a5ec-fbbd396dce98" name="Gyaribeta, Misfortune Demon 09">
@@ -1410,7 +1410,7 @@
       <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +1000000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it if you have 4 or more Jokers in the battle zone or your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S6/S9"/>
+      <property name="Number" value="S6"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="2455f73d-b922-49f4-9c20-3b8673e00e94" name="Buchigire! Fujiyamuscle">
@@ -1436,7 +1436,7 @@
       <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, destroy all creatures that have less power than it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S7/S9"/>
+      <property name="Number" value="S7"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="eb64d119-a01d-488c-b893-b14659cc666b" name="Heavy Baby, Meppou Tank">
@@ -1462,7 +1462,7 @@
       <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put 2 creatures from your graveyard into your mana zone.&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Put a creature that costs 4 or less from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S8/S9"/>
+      <property name="Number" value="S8"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="3ba3002c-ea17-487a-9744-a64d8aeccb56" name="Might Antility">
@@ -1488,7 +1488,7 @@
       <property name="Rules" value="■ Double Sympathy: Creatures that have power 12000 or more. (When you summon this creature, you may pay 2 less for each of your creatures in the battle zone that have power 12000 or more. It can't cost 0 or less.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures in your hand gets &quot;Double Sympathy: Creatures that have power 12000 or more&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S9/S9"/>
+      <property name="Number" value="S9"/>
       <property name="Set" value="DMRP-03 Feeling Joejoe Meraventure!!"/>
     </card>
     <card id="693360f9-3c7e-4d8e-88fa-19436aa5c410" name="Gale Vesper of Heavenly Winds">

@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Conquering All Challenges Pack: Volume 4" id="d8239d49-1a82-4cbd-94c6-83839c9af12d" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
-    <card id="d0f445b1-3e0e-480b-95c3-6b605ac756ce" name="Hyperspatial Guard Hole">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Darkness"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="68P/Y9"/>
-    </card>
     <card id="b11e1f46-5ff4-491b-af9f-38e86c14861c" name="Black Ganveet, Temporal Wicked Soldier">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
@@ -23,7 +12,7 @@
       <property name="Watermark" value="{Bloody} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P66a/Y9"/>
+      <property name="Number" value="P66a"/>
       <alternate name="Darkness Ganveet, the Assassin Awakened" type="awakening" size="normal">
         <property name="Civilization" value="Darkness"/>
         <property name="Cost" value="13"/>
@@ -48,7 +37,7 @@
       <property name="Watermark" value="{Bloody} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P66b/Y9"/>
+      <property name="Number" value="P66b"/>
     </card>
     <card id="da16da52-1cf0-45da-8659-252fff42f1b9" name="Tulk SP">
       <property name="Format" value="OCG"/>
@@ -61,7 +50,18 @@
       <property name="Watermark" value="{Holy} {Soul}"/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P67/Y9"/>
+      <property name="Number" value="P67"/>
+    </card>
+    <card id="d0f445b1-3e0e-480b-95c3-6b605ac756ce" name="Hyperspatial Guard Hole">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
+      <property name="Number" value="68P"/>
     </card>
     <card id="7cc06fa8-4f53-4d7d-ac10-af61815bb95e" name="Huckle Kirin Sawyer, Jungle Governor">
       <property name="Format" value="OCG"/>
@@ -74,10 +74,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P69/Y9"/>
+      <property name="Number" value="P69"/>
     </card>
     <card id="78290d2d-1e66-49ca-b8c6-8b67811140d4" name="Hide and Seek">
-      <property name="Format" value="OCG,TCG"/>
+      <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
@@ -85,7 +85,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P70/Y9"/>
+      <property name="Number" value="P70"/>
     </card>
     <card id="5b326421-4190-44d7-be5f-5202331cc8c2" name="Pildol, Bird of Fire">
       <property name="Format" value="OCG"/>
@@ -98,7 +98,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P71/Y9"/>
+      <property name="Number" value="P71"/>
     </card>
     <card id="16b1e806-1cb2-4d1a-94a3-52dd7b76363e" name="Jet R.E, Brave Vizier">
       <property name="Format" value="OCG"/>
@@ -111,7 +111,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P72/Y9"/>
+      <property name="Number" value="P72"/>
     </card>
     <card id="f156bee1-2114-43dd-a094-93615e10c1c5" name="Heaven's Gate">
       <property name="Format" value="OCG"/>
@@ -122,7 +122,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Conquering All Challenges Pack: Volume 4"/>
-      <property name="Number" value="P73/Y9"/>
+      <property name="Number" value="P73"/>
     </card>
   </cards>
 </set>

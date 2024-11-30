@@ -348,7 +348,7 @@ cardScripts = {
 	'Scheming Hands': {'onPlay': [lambda card: targetDiscard()]},
 	'Screaming Sunburst': {'onPlay': [lambda card: tapCreature(1, True, True, filterFunction='not re.search(r"Light", c.Civilization)')]},
 	'Screw Rocket': {'onPlay': [lambda card: gear("kill")]},
-	'Seventh Tower': {'onPlay': [lambda card: mana(me.Deck)], 
+	'Seventh Tower': {'onPlay': [lambda card: mana(me.Deck)],
 				   'onMetamorph': [lambda card: mana(me.Deck,3)]},
 	'Searing Wave': {'onPlay': [lambda card: destroyAll([c for c in table if c.owner != me], True, 3000), lambda card: burnShieldKill(1, True)]},
 	'Shock Hurricane':{'onPlay': [lambda card: shockHurricane(card)]},
@@ -397,7 +397,7 @@ cardScripts = {
 	# ON DESTROY EFFECTS
 
 	'Akashic First, Electro-Dragon': {'onDestroy': [lambda card: toHand(card)]},
-	'Akashic Second, Electro-Spirit': {'onPlay': [lambda card: draw(me.Deck, True)], 
+	'Akashic Second, Electro-Spirit': {'onPlay': [lambda card: draw(me.Deck, True)],
 									'onDestroy': [lambda card: toMana(card)]},
 	'Aless, the Oracle':{'onDestroy': [lambda card: toShields(card)]},
 	'Aqua Agent': {'onDestroy': [lambda card: toHand(card)]},
@@ -579,8 +579,8 @@ cardScripts = {
 	'Zanjides, Tragedy Demon Dragon': {'onTrigger': [lambda card: manaArmsCheck("Darkness", 5)]},
 
 	# Untargettable Cards
-	'Petrova, Channeler of Suns':{'untargettable':True, 
-							   'onPlay': [lambda card: declareRace("Mecha Del Sol")]},
+	'Petrova, Channeler of Suns':{'untargettable':True,
+							   'onPlay': [lambda card: declareRace(card, "Mecha Del Sol")]},
 	'Warlord Ailzonius':{'untargettable':True},
 	'Yuliana, Channeler of Suns':{'untargettable':True},
 }
@@ -2310,7 +2310,7 @@ def miraculousMeltdown(card):
 		return
 	remoteCall(targetPlayer,'_eMMHelper', len(myShields))
 
-def declareRace(excludedRace=None):
+def declareRace(card, excludedRace=None):
 	all_zones = itertools.chain(me.deck, [c for c in table if c.owner == me], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
 	all_races = itertools.chain.from_iterable(re.split(r'/+', card.race) for card in all_zones if card.race!='')
 
@@ -2325,11 +2325,15 @@ def declareRace(excludedRace=None):
 	sorted_races = sorted(race_counts.items(), key=lambda x: x[1], reverse=True)
 	race_names = [race for race, count in sorted_races if race !=excludedRace]
 	choice = askChoice("Select a race:", race_names, customButtons=["Custom Race"])
+	if choice == 0:
+		notify("{} didn't declare a race".format(me))
+		return
 	if choice > 0:
-		notify('{} declares {} Race'.format(me, race_names[choice-1]))
+		chosenRace = race_names[choice-1]
 	if choice < 0:
-		choice = askString("Type a custom race to declare:",'')
-		notify('{} declares {} Race'.format(me, choice))
+		chosenRace = askString("Type a custom race to declare:",'')
+	notify('{} declares {} Race'.format(me, chosenRace))
+	card.properties["Rules"] = '(Declared: {})\n{}'.format(chosenRace,card.properties["Rules"])
 
 def divineRiptide():
 	opponent=getTargetPlayer(onlyOpponent=True)
@@ -2483,9 +2487,10 @@ def soulSwap():
 	if len(targets) != 1:
 		return True
 	cardsToMana = getEvoBaits(targets[0])
-	cardsToMana.append(targets[0])
+	cardsToMana.insert(0,targets[0])
 	remoteCall(targets[0].owner, "toMana", convertCardListIntoCardIDsList(targets[0]))
-	_fromManaToField(targets[0].owner._id, cardsToMana)
+	update()
+	remoteCall(me,'_fromManaToField',[targets[0].owner._id, cardsToMana])
 
 def tanzanyte():
 	cardList = [card for card in me.piles['Graveyard'] if re.search('Creature', card.Type)]
@@ -2512,7 +2517,10 @@ def _fromManaToField(targetPlayerId, additionalTargetsList=[]):
 	mute()
 	targetPlayer = getPlayerById(targetPlayerId)
 	#Count the number of cards in mana zone for the one that will be added.
-	fullManaList = [card for card in table if isMana(card) and card.controller == targetPlayer]+additionalTargetsList
+	fullManaList = [card for card in table if isMana(card) and card.controller == targetPlayer]
+	for additionalTarget in additionalTargetsList:
+		if additionalTarget not in fullManaList:
+			fullManaList.append(additionalTarget)
 	count = len(fullManaList)
 	#get valid targets from mana
 	manaList = [card for card in fullManaList if re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type) and cardCostComparator(card,count,'<=',"Creature")]
@@ -2521,7 +2529,6 @@ def _fromManaToField(targetPlayerId, additionalTargetsList=[]):
 
 	if type(manaChoice) is not Card:
 		return
-	update()
 	remoteCall(targetPlayer, "toPlay", convertCardListIntoCardIDsList(manaChoice))
 
 def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
@@ -3509,9 +3516,9 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		notify("{} plays {}{}.".format(me, card, evolveText))
 
 	if not ignoreEffects:
+		card.resetProperties()
 		#Twin Pact Handling
 		if card.hasProperty('Name1'):
-			card.resetProperties()
 			choice = askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
 			if choice == 0: return
 			card.properties["Name"]=card.properties['Name{}'.format(choice)]
