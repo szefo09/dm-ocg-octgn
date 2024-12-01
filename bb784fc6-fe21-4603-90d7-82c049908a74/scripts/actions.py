@@ -421,7 +421,7 @@ cardScripts = {
 	'Crystal Jouster': {'onDestroy': [lambda card: toHand(card)]},
 	'Cubela, the Oracle': {'onDestroy': [lambda card: tapCreature()]},
 	'Death Monarch, Lord of Demons': {'onDestroy': [lambda card: SummonFromGrave(len([c for c in me.piles["Graveyard"] if not re.search("Evolution",c.type)]),"Creature", "ALL", "Demon Command")]},
-	'Dracodance Totem': {'onDestroy': [lambda card: fromMana(1,"ALL","ALL","Dragon"), lambda card: toMana(card)]},
+	'Dracodance Totem': {'onDestroy': [lambda card: dracodanceTotem(card)]},
 	'Engineer Kipo':{'onDestroy': [lambda card: bothPlayersFromMana(1,True)]},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': [lambda card: targetDiscard(True)]},
 	'Gigastand':{'onDestroy': [lambda card: returnAndDiscard(card)]},
@@ -558,7 +558,7 @@ cardScripts = {
 	'Le Quist, the Oracle':{'onAttack': [lambda card: tapCreature(1,filterFunction="re.search(r'Fire',c.Civilization) or re.search(r'Darkness',c.Civilization)")]},
 	'Metalwing Skyterror':{'onAttack': [lambda card: kill(rulesFilter="{BLOCKER}")]},
 	'Muramasa, Duke of Blades':{'onAttack': [lambda card: kill(2000)]},
-	'Necrodragon Galbazeek':{'onAttack':lambda card: burnShieldKill(1,True)},
+	'Necrodragon Galbazeek':{'onAttack': [lambda card: burnShieldKill(1,True)]},
 	'Plasma Chaser':{'onAttack': [lambda card: draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))]},
 	'Psyshroom':{'onAttack': [lambda card: fromGraveyardToMana(filterFunction="re.search(r'Nature',c.Civilization)",ask=True)]},
 	'Ra Vu, Seeker of Lightning':{'onAttack': [lambda card: search(me.piles["Graveyard"], 1, "Spell","Light")]},
@@ -2295,13 +2295,21 @@ def dracobarrier():
 		shields(me.deck)
 
 def waveLance():
-	target = [c for c in table if c.targetedBy == me and isCreature(c) and not isBait(c) and not isUntargettable(c)]
+	cardList=[c for c in table if
+				isCreature(c)
+				and not isBait(c)
+				and not isUntargettable(c)]
+	if len(cardList) == 0:
+		whisper("No valid targets on the table.")
+		return
+	target = [c for c in table if c.targetedBy == me and c in cardList]
 	if len(target) != 1:
+		whisper("Wrong number of targets!")	
 		return True
 	else:
-		remoteCall(target.owner, "toHand", convertCardListIntoCardIDsList(target))
-		if re.search(r'Dragon\\b', target.Race, re.I):
-			draw(ask=True)
+		remoteCall(target[0].owner, "toHand", convertCardListIntoCardIDsList(target))
+		if re.search(r'Dragon\b', target[0].Race, re.I):
+			draw(group=me.Deck, ask=True)
 
 
 def mechadragonsBreath():
@@ -2491,6 +2499,11 @@ def miraculousRebirth():
 def rothus():
 	sacrifice()
 	opponentSacrifice()
+
+def dracodanceTotem(card):
+	if len([c for c in table if isMana(c) and re.search(r'Dragon\b', choice.Race, re.I)])>0:
+		fromMana(1,"ALL","ALL","Dragon")
+		toMana(card)
 
 def soulSwap():
 	mute()
