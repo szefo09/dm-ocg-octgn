@@ -82,6 +82,9 @@
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
+		<cardseparator />
+		<cardaction menu="Detach Bait" execute="detachBait" showIf="isEvo" />
+		<cardaction menu="Attach Bait" execute="attachBait" showIf="isEvo"/>
 		
 	</table>
 
