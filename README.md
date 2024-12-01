@@ -217,13 +217,19 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
   - **New Cards Added**:
     - Cruel Naga, Avatar of Fate
-- **"Cannot be chosen by your opponent's card Effects Added**
+- **"Cannot be chosen by your opponent's card Effects" Added**
   - **New Cards Added**:
     - Petrova, Channeler of Suns (Petrova also recieved a race selector, so you can more easly declare the creature race.)
     - Warlord Ailzonius
     - Yuliana, Channeler of Suns
+- **Meteorburn Effects Added**
+  - **Works as a wrapper around onAttack action for automated cards with Meteorburn**
+  - **New Cards Added**:
+    - Supernova Jupiter King Empire
 
 - **Other Improvements**
+  - **Added new button for evolution creatures: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.
+  - **Allow picking order of simultanious effects resolving at the same time!**: Currently done for on Turn End/Start effects and when doing mass destruction effects.
   - **Look at top X cards, pick some, put rest to the bottom in any order Button added to Deck options!**
   - **Some choices are now multi-choices, allowing you to pick many cards at the same time!**
   - **Added Mana Calculation when you press Ctrl+C/Charge as Mana on Card already in Mana Zone**
