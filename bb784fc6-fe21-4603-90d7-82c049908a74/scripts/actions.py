@@ -1981,7 +1981,7 @@ def selfDiscard(count=1):
 	if len(cardList) == count:
 		cardChoices = cardList
 	else:
-		cardChoices = askCard2(cardList, "Choose {} Card(s) to discard".format(count), maximumToTake=count, returnAsArray=True)
+		cardChoices = askCard2(cardList, "Choose {} Card(s) to discard".format(count), minimumToTake=count, maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices, list):
 		notify("Discard cancelled.")
 		return
@@ -2300,15 +2300,17 @@ def hydroHurricane(card):
 	darknessCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)]
 	oppMana=[c for c in table if c.owner == targetPlayer and isMana(c)]
 	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c) and not isUntargettable(c)]
-	if len(oppMana)>0:
+	if len(oppMana)>0 and len(lightCards)>0:
 		if me.isInverted: reverseCardList(oppMana)
-		choices = askCard2(oppMana,"Select up to {} Cards from Mana".format(len(lightCards)), maximumToTake=len(lightCards), returnAsArray=True)
+		count = min(len(oppMana), len(lightCards))
+		choices = askCard2(oppMana,"Select up to {} Cards from Mana".format(count), maximumToTake=count, returnAsArray=True)
 		if not isinstance(choices,list):choices=[]
 		for choice in choices:
 			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
-	if len(oppCreatures)>0:
+	if len(oppCreatures)>0 and len(darknessCards)>0:
 		if me.isInverted: reverseCardList(oppCreatures)
-		choices = askCard2(oppCreatures, "Select up to {} Creatures from Battle Zone".format(len(darknessCards)),maximumToTake=len(darknessCards),returnAsArray=True)
+		count = min(len(oppCreatures), len(darknessCards))
+		choices = askCard2(oppCreatures, "Select up to {} Creatures from Battle Zone".format(count),maximumToTake=count,returnAsArray=True)
 		if not isinstance(choices,list):choices=[]
 		for choice in choices:
 			remoteCall(targetPlayer, "toHand", convertCardListIntoCardIDsList(choice))
