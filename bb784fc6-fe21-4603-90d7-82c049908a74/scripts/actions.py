@@ -1868,8 +1868,8 @@ def processTapUntapCreature(card, processTapEffects = True):
 					choice = askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.Name, card.Name, creature.Rules), ["Yes", "No"])
 					if choice != 1: return False
 					notify('{} uses Tap Effect of {} by tapping {}'.format(me, creature, card))
-					for function in functionList:
-						waitingFunct.append([card, function])
+					for index, function in enumerate(functionList):
+						waitingFunct.insert(index + 1, [card, function])
 					evaluateWaitingFunctions()
 					return True
 			return False
@@ -1881,8 +1881,8 @@ def processTapUntapCreature(card, processTapEffects = True):
 				if choice == 1:
 					notify('{} uses Tap Effect of {}'.format(me, card))
 					activatedTapEffect = True
-					for function in functionList:
-						waitingFunct.append([card, function])
+					for index, function in enumerate(functionList):
+						waitingFunct.insert(index + 1, [card, function])
 					evaluateWaitingFunctions()
 				else:
 					activatedTapEffect = handleOnAllyTapEffects(card)
@@ -1903,8 +1903,8 @@ def processTapUntapCreature(card, processTapEffects = True):
 					choice = askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
 				if choice == 1:
 					notify('{} uses on Attack Effect of {}'.format(me, card))
-					for function in functionList:
-						waitingFunct.append([card, function])
+					for index, function in enumerate(functionList):
+						waitingFunct.insert(index + 1, [card, function])
 					evaluateWaitingFunctions()
 	else:
 		notify('{} untaps {}.'.format(me, card))
@@ -2125,8 +2125,8 @@ def waveStriker(functionArray, card):
 	global wscount
 	wscount = getWaveStrikerCount()
 	if functionArray and wscount >= 3:
-		for funct in functionArray:
-				waitingFunct.append([card, funct])
+		for index, funct in enumerate(functionArray):
+			waitingFunct.insert(index + 1, [card, funct])
 
 def mode(functionArray,card, choiceText=[], deb=False, count=1):
 	if callable(functionArray):
@@ -2139,12 +2139,12 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		if choice == 1:
 			#add choices to waiting list. Usually 2 but maybe there will be exceptions
 			for i in range (0,len(functionArray)):
-				waitingFunct.append([card,functionArray[i]])
+				waitingFunct.insert(i+1, [card,functionArray[i]])
 			return
 	for i in range (0, count):
 		choice = askChoice("Which effect do you want to activate?",choiceText,[])
 		if choice == 0: return
-		waitingFunct.append([card,functionArray[choice-1]])
+		waitingFunct.insert(1, [card,functionArray[choice-1]])
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
 
 #Used for Meteorburn's: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, "EFFECT".
@@ -2153,8 +2153,8 @@ def meteorburn(functionArray, card, minimum=1, maximum=1):
 		functionArray=[functionArray]
 	baitList = detachBait(card, minimumToTake=minimum, maximumToTake=maximum)
 	if functionArray and len(baitList)>0:
-		for funct in functionArray:
-			waitingFunct.append([card, lambda card = card, baitList=baitList: funct(card, baitList)])
+		for index, funct in enumerate(functionArray):
+			waitingFunct.insert(index + 1, [card, lambda card = card, baitList=baitList: funct(card, baitList)])
 
 #Special Card Automatization
 
@@ -2258,7 +2258,7 @@ def shieldswap(card, count = 1):
 		handList.remove(cardFromHand)
 		toShields(cardFromHand)
 		counter+=1
-	waitingFunct.append([card,'bounceShield({})'.format(counter)])
+	waitingFunct.insert(1, [card,'bounceShield({})'.format(counter)])
 
 def funkyWizard():
 	for player in players:
@@ -2267,7 +2267,7 @@ def funkyWizard():
 def ghastlyDrain(card):
 	number=askNumber("How many shields to return?",1)
 	notify("{} chose {} shields".format(me,number))
-	waitingFunct.append([card, 'bounceShield({})'.format(number)])
+	waitingFunct.insert(1, [card, 'bounceShield({})'.format(number)])
 
 def returnAndDiscard(card):
 	choice = askYN("Return {} to hand?".format(card.name))
@@ -2403,7 +2403,7 @@ def crisisBoulder(card):
 	remoteCall(targetPlayer,'_eCrisisBoulderHelper',[card._id])
 
 def _eCrisisBoulderHelper(cardId):
-	waitingFunct.append([Card(cardId),'_enemyCrisisBoulder()'])
+	waitingFunct.insert(0, [Card(cardId),'_enemyCrisisBoulder()'])
 	evaluateWaitingFunctions()
 
 def _enemyCrisisBoulder():
@@ -2423,7 +2423,7 @@ def _enemyCrisisBoulder():
 
 #We use this function to queue the real function, to allow targetting of shields to work
 def _eMMHelper(cardId,count):
-	waitingFunct.append([Card(cardId),'_enemyMiraculousMeltdown({})'.format(count)])
+	waitingFunct.insert(0, [Card(cardId),'_enemyMiraculousMeltdown({})'.format(count)])
 	evaluateWaitingFunctions()
 
 def _enemyMiraculousMeltdown(count):
@@ -2913,13 +2913,12 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 					for function in functionList:
 						waitingFunct.append([card, function])
-					evaluateWaitingFunctions()
-
-
 		# Untap Mana
 		if card.orientation == Rot270:
 			card.orientation = Rot180
-
+	
+	orderEvaluatingFunctions()
+	evaluateWaitingFunctions()
 	if isNewTurn:
 		processOnTurnStartEffects()
 	notify("{} untaps all their cards.".format(me))
@@ -3061,8 +3060,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			for surv in survivors:
 				if cardScripts.get(surv.name, {}).get('onDestroy', []):
 					functionList.extend(cardScripts.get(surv.name).get('onDestroy'))
-		for function in functionList:
-			waitingFunct.append([card, function])
+		for index, function in enumerate(functionList):
+			waitingFunct.insert(index + 1, [card, function])
 		evaluateWaitingFunctions()
 
 #untaps creature
@@ -3311,8 +3310,8 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		functionList=[]
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
-			for function in functionList:
-				waitingFunct.append([card, function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(index + 1, [card, function])
 			evaluateWaitingFunctions()
 
 #Set as shield menu option / Ctrl+H (both from hand and battlezone)
@@ -3354,8 +3353,8 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		functionList=[]
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
-			for function in functionList:
-				waitingFunct.append([card,function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(1, [card,function])
 			evaluateWaitingFunctions()
 
 #Play Card menu option (both from hand and battlezone)
@@ -3577,8 +3576,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		elif cardScripts.get(card.name, {}).get('onPlay', []):
 			functionList = cardScripts.get(card.name).get('onPlay')
 
-		for function in functionList:
-			waitingFunct.append([card, function])  # This fuction will be queued(along with the card that called it). RN it's waiting.
+		for index, function in enumerate(functionList):
+			waitingFunct.insert(index + 1, [card, function]) # This fuction will be queued(along with the card that called it). RN it's waiting.
 			#notify("DEBUG: Function added to waiting list: "+str(function))
 		evaluateWaitingFunctions() #evaluate all the waiting functions. This thing stop evaluation if a function returns true(ie. its waiting for target)
 	if not waitingFunct: #Don't put card in grave if it's waiting for some effect.
@@ -3634,8 +3633,8 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDiscard', {}):
 			functionList = cardScripts.get(card.Name).get('onDiscard')
-			for function in functionList:
-				waitingFunct.append([card,function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(index + 1, [card, function])
 			evaluateWaitingFunctions()
 
 	#Handle on Remove From Battle Zone effects:
@@ -3643,8 +3642,8 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		functionList=[]
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
-			for function in functionList:
-				waitingFunct.append([card,function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(index + 1, [card, function])
 			evaluateWaitingFunctions()
 
 #Move To Hand (from battlezone)
@@ -3687,8 +3686,8 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		functionList=[]
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
-			for function in functionList:
-				waitingFunct.append([card,function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(index + 1, [card,function])
 			evaluateWaitingFunctions()
 
 #Move to Bottom (from battlezone)
@@ -3728,6 +3727,6 @@ def toDeck(card, bottom=False):
 		functionList=[]
 		if cardScripts.get(card.Name,{}).get('onLeaveBZ',[]):
 			functionList = cardScripts.get(card.Name).get('onLeaveBZ')
-			for function in functionList:
-				waitingFunct.append([card, function])
+			for index, function in enumerate(functionList):
+				waitingFunct.insert(index + 1, [card, function])
 			evaluateWaitingFunctions()
