@@ -2250,24 +2250,22 @@ def shieldswap(card, count = 1):
 	choice = askYN("Use {}'s effect?".format(card.Name))
 	if choice != 1: return
 	handList = [c for c in me.hand]
-	counter=0
+	count=min(count, len(handList))
 	reverseCardList(handList)
-	for i in range(0, count):
-		cardFromHand = askCard2(handList)
-		if type(cardFromHand) is not Card: break
-		handList.remove(cardFromHand)
-		toShields(cardFromHand)
-		counter+=1
-	waitingFunct.insert(1, [card,'bounceShield({})'.format(counter)])
+	choices = askCard2(handList,"Select {} Card(s) to put as Shield", maximumToTake=count, returnAsArray=True)
+	if not isinstance(choices, list): return
+	for choice in choices:
+		toShields(choice)
+	waitingFunct.insert(1, [card, lambda card=card, counter=len(choices): bounceShield(counter)])
 
 def funkyWizard():
 	for player in players:
 		remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), True])
 
 def ghastlyDrain(card):
-	number=askNumber("How many shields to return?",1)
+	number=askNumber("How many shields to return?", 1)
 	notify("{} chose {} shields".format(me,number))
-	waitingFunct.insert(1, [card, 'bounceShield({})'.format(number)])
+	waitingFunct.insert(1, [card, lambda card=card, counter=number: bounceShield(counter)])
 
 def returnAndDiscard(card):
 	choice = askYN("Return {} to hand?".format(card.name))
@@ -2403,7 +2401,7 @@ def crisisBoulder(card):
 	remoteCall(targetPlayer,'_eCrisisBoulderHelper',[card._id])
 
 def _eCrisisBoulderHelper(cardId):
-	waitingFunct.insert(0, [Card(cardId),'_enemyCrisisBoulder()'])
+	waitingFunct.insert(0, [Card(cardId),lambda card: _enemyCrisisBoulder()])
 	evaluateWaitingFunctions()
 
 def _enemyCrisisBoulder():
@@ -2423,14 +2421,13 @@ def _enemyCrisisBoulder():
 
 #We use this function to queue the real function, to allow targetting of shields to work
 def _eMMHelper(cardId,count):
-	waitingFunct.insert(0, [Card(cardId),'_enemyMiraculousMeltdown({})'.format(count)])
+	waitingFunct.insert(0, [Card(cardId),lambda card, count=count: _enemyMiraculousMeltdown(count)])
 	evaluateWaitingFunctions()
 
 def _enemyMiraculousMeltdown(count):
 	whisper("Choose {} Shields for the effect of Miraculous Meltdown".format(count))
 	targets = [c for c in table if c.targetedBy == me and isShield(c) and c.owner == me]
 	if len(targets) != count:
-		whisper("Wrong number of targets!")
 		return True
 	notSelectedShields = [c for c in table if c.owner == me and isShield(c) and c not in targets]
 	peekShields(notSelectedShields)
