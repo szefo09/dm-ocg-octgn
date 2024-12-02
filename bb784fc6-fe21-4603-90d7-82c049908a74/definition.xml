@@ -63,7 +63,7 @@
 		<property name="Race2" type="String" textKind="Enum" ignoreText="False" hidden="True" />
 		<property name="Rules2" type="String" ignoreText="False" hidden="True"/>
 		<size name = "normal" back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3"/>
-		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3"/>
+		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3" backWidth="63" backHeight="88" />
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>
 		<size name = "square" back="cards/back.jpg" front="cards/front.jpg" width="88" height="88" cornerRadius="3"/>
 		
