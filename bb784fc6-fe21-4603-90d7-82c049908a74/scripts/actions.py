@@ -1042,7 +1042,6 @@ def getEvoBaits(card):
 def isEvo(cards, x=0, y=0):
 	if len(cards)==0: return
 	card = cards[len(cards)-1]
-	notify('{}'.format(', '.join([c.name for c in cards])))
 	if card in table and re.search("Evolution", card.Type):
 		return True
 
