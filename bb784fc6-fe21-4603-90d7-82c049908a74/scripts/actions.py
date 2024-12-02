@@ -782,7 +782,7 @@ def removeIfEvo(card):
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
 
-	evolveDict = eval(me.getGlobalVariable("evolution"))
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 	resultList = []
 	for evo in evolveDict.keys():
 		if evo == card._id:
@@ -925,8 +925,7 @@ def processEvolution(card, targets):
 		for c in targets:
 			c.orientation = Rot90
 	targetList = [c._id for c in targets]
-	evolveDict = eval(
-		me.getGlobalVariable("evolution"))  ##evolveDict tracks all cards 'underneath' the evolution creature
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)  ##evolveDict tracks all cards 'underneath' the evolution creature
 	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
 		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
 			if isCreature(evolveTarget):
@@ -1024,7 +1023,7 @@ def isGacharange(card):
 		return True
 
 def isBait(card):  # check if card is under and evo(needs to be ignored by most things) This is (probably)inefficient, maybe make a func to get all baits once
-	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
+	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
 	for evo in evolveDict.keys():
 		baitList = evolveDict[evo]
 		if card._id in baitList:
@@ -1032,7 +1031,7 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 
 #Get a list of bait materials under Evo
 def getEvoBaits(card):
-	evolveDict = eval(card.owner.getGlobalVariable("evolution"))
+	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
 	if card._id in evolveDict:
 		baitList = []
 		for cardId in evolveDict[card._id]:
@@ -1228,7 +1227,7 @@ def lookAtHandAndDiscardAll(filterFunction="True"):
 	#Both players see their opponent's hand reversed
 	reverseCardList(cardList)
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", minimumToTake=0)
-	choices = [c for c in cardList if eval(filterFunction)]
+	choices = [c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 	for choice in choices:
 		remoteCall(choice.owner, 'toDiscard', convertCardListIntoCardIDsList(choice))
 
@@ -1285,7 +1284,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 	else:
 		cardsInGroup_CivTypeandRace_Filtered = [card for card in cardsInGroup_CivandType_Filtered]
 
-	cardsInGroup_CivTypeRaceandFunction_Filtered = [c for c in cardsInGroup_CivTypeandRace_Filtered if eval(filterFunction)]
+	cardsInGroup_CivTypeRaceandFunction_Filtered = [c for c in cardsInGroup_CivTypeandRace_Filtered if eval(filterFunction, allowed_globals, {'c': c})]
 
 	if len(cardsInGroup_CivTypeRaceandFunction_Filtered) == 0: return
 	if me.isInverted: reverseCardList(cardsInGroup_CivTypeRaceandFunction_Filtered)
@@ -1300,7 +1299,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 
 #move all cards fulfilling the condition from Mana to hand
 def fromManaAll(filterFunction='True'):
-	manaCards = [c for c in table if isMana(c) and c.owner == me if eval(filterFunction)]
+	manaCards = [c for c in table if isMana(c) and c.owner == me if eval(filterFunction, allowed_globals, {'c': c})]
 	if len(manaCards)== 0: return
 	for c in manaCards:
 		toHand(c)
@@ -1461,7 +1460,7 @@ def fromDeckToMana(count=1, filterFunction="True"):
 	if len(group) == 0: return
 	count = min(count,len(group))
 	cardsInGroup = sort_cardList([card for card in group])
-	validChoices = [c for c in cardsInGroup if eval(filterFunction)]
+	validChoices = [c for c in cardsInGroup if eval(filterFunction, allowed_globals, {'c': c})]
 	while (True):
 		choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count), maximumToTake=count, returnAsArray=True)
 		if not isinstance(choices, list):
@@ -1492,7 +1491,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 		cardList = [c for c in cardList if re.search(civFilter, c.Civilization)]
 	if rulesFilter != 'ALL':
 		cardList = [c for c in cardList if re.search(rulesFilter, c.Rules)]
-	cardList = [c for c in cardList if eval(filterFunction) and not isUntargettable(c)]
+	cardList = [c for c in cardList if eval(filterFunction, allowed_globals, {'c': c}) and not isUntargettable(c)]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
 		return
@@ -1705,10 +1704,10 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			return
 	if opponentOnly:
 		cardList = [c for c in table if
-					isCreature(c) and c.owner != me and not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
+					isCreature(c) and c.owner != me and not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 	else:
 		cardList = [c for c in table if
-					isCreature(c) and not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
+					isCreature(c) and not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) < 1:
 		whisper("No valid targets on the table.")
 		return
@@ -1741,7 +1740,7 @@ def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction = "T
 	cardList = [c for c in group if isCreature(c)
 										and not isBait(c)
 										and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
-										and eval(filterFunction)]
+										and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0: return
 	for card in cardList:
 		remoteCall(card.owner, "toHand", convertCardListIntoCardIDsList(card))
@@ -1862,7 +1861,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 				for functiononAllyTap in functionsonAllyTapList:
 					condition = functiononAllyTap[0]
 					c = card
-					if eval(condition):
+					if eval(condition, allowed_globals, {'c': c}):
 						functionList.extend(functiononAllyTap[1])
 				if len(functionList)>0:
 					choice = askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.Name, card.Name, creature.Rules), ["Yes", "No"])
@@ -1945,7 +1944,7 @@ def processOnTurnStartEffects():
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False, filterFunction='True'):
 	mute()
 	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isBait(c) and not isUntargettable(c)) or (manaFilter and isMana(c)))
-			  and ((myCards and c.owner == me) or (opponentCards and c.owner != me)) and eval(filterFunction)]
+			  and ((myCards and c.owner == me) or (opponentCards and c.owner != me)) and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0: return
 	count = min(count, len(cardList))
 	if count == 0: return
@@ -1964,7 +1963,7 @@ def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = 
 		  and not isBait(c)
 		  and not isUntargettable(c)
 		  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
-		  if eval(filterFunction)]
+		  if eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0: return
 	if me.isInverted: reverseCardList(cardList)
 	choices = askCard2(cardList, 'Choose {} Creature(s) to send to Mana Zone'.format(count), maximumToTake=count, returnAsArray=True)
@@ -2065,7 +2064,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
-		cardList = [c for c in cardList if eval(filterFunction)]
+		cardList = [c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList) == 0:
 			return
 		for card in cardList:
@@ -2078,7 +2077,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
-		cardList = [c for c in cardList if not isBait(c) and not isUntargettable(c) and eval(filterFunction)]
+		cardList = [c for c in cardList if not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList) == 0:
 			return
 		if me.isInverted: reverseCardList(cardList)
@@ -2574,7 +2573,7 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 		choice = askYN("Would you like to put {} Card(s) from Graveyard to Mana?".format(count))
 		if choice != 1: return
 	count = min(count,len(group))
-	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
+	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction, allowed_globals, {'c': c})])
 	choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count),minimumToTake=1,maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 			notify("{} finishes searching their {}.".format(me, group.name))
@@ -2672,7 +2671,7 @@ def moveCards(args): #this is triggered every time a card is moved
 			return
 		clearArrowOnMove(args)
 		card.resetProperties()
-		evolveDict = eval(me.getGlobalVariable("evolution"))
+		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
 				del evolveDict[evo]
@@ -2685,7 +2684,7 @@ def moveCards(args): #this is triggered every time a card is moved
 					del evolveDict[evo]
 				else:
 					evolveDict[evo] = evolvedList
-		if evolveDict != eval(me.getGlobalVariable("evolution")):
+		if evolveDict != eval(me.getGlobalVariable("evolution"), allowed_globals):
 			me.setGlobalVariable("evolution", str(evolveDict))
 
 def align():
@@ -2719,7 +2718,7 @@ def align():
 		return "BREAK"
 
 	cardorder = [[], [], []]
-	evolveDict = eval(me.getGlobalVariable("evolution"))
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 
 	for card in table:
 		if card.controller == me and not isCastle(card) and not card.anchor and not card._id in list(
@@ -2986,7 +2985,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			trigFunctions = cardScripts.get(card.Name).get('onTrigger')
 			#notify("On trig list is".format(trigFunctions[0]))
 			for function in trigFunctions:
-				conditionalTrigger = conditionalTrigger and eval(trigFunctions[0])
+				conditionalTrigger = conditionalTrigger and trigFunctions[0]()
 		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
@@ -3232,8 +3231,8 @@ def doPostAction(card, postAction, postArgs, postCondition):
 				mana(me.Deck)
 				break
 		return
-	if eval(postCondition):  # eg. Faerie Miracle
-		eval(postAction)  # simple eval of a function, if postCondition is satisfied(is true by default)
+	if eval(postCondition, allowed_globals, {'card': card}):  # eg. Faerie Miracle
+		eval(postAction, allowed_globals, {'card': card})  # simple eval of a function, if postCondition is satisfied(is true by default)
 
 #Charge top X cards as mana (not yet used)
 def massMana(group, conditional=False, x=0, y=0):
@@ -3727,3 +3726,12 @@ def toDeck(card, bottom=False):
 			for index, function in enumerate(functionList):
 				waitingFunct.insert(index + 1, [card, function])
 			evaluateWaitingFunctions()
+
+allowed_globals = {
+    '__builtins__': None,
+    're': __import__('re'),
+    'int': int,
+    'cardCostComparator': cardCostComparator,
+    'table': table,
+	'me': me
+}
