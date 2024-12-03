@@ -1420,14 +1420,14 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 		choices = askCard2(sort_cardList(cardsInGroup), dialogText,maximumToTake=maximumToTake,returnAsArray=True)
 		if not isinstance(choices,list):
 			group.shuffle()
-			notify("{} finishes searching their {} and shuffles their deck.".format(me, group.name))
+			notify("{} finishes searching their {}".format(me, group.name))
 			return
 		if all(c in cardsInGroup_CivTypeandRace_Filtered for c in choices):
 			for choice in choices:
 				toHand(choice, show)
 			break
 	group.shuffle()
-	notify("{} finishes searching their {} and shuffles their deck.".format(me, group.name))
+	notify("{} finishes searching their {}".format(me, group.name))
 
 #Pick a card from any Player's Deck and send it to Graveyard
 def fromDeckToGrave(count=1, onlyOpponent=False):
