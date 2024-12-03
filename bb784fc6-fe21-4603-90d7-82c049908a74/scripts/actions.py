@@ -3157,7 +3157,6 @@ def fromTopPickX(group, x=0, y=0):
 #Function used for "Detach Bait" option in right click menu for Evos. Returns newly removed card(s)
 def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	mute()
-	if not re.search("Evolution", card.Type): return
 	cardList = getEvoBaits(card)
 	if minimumToTake is None:
 		minimumToTake = 1
@@ -3179,7 +3178,6 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 #Function used for "Attach Bait" option in right click menu for Evos. Returns newly added card(s)
 def attachBait(card, x=0, y=0):
 	mute()
-	if not re.search("Evolution", card.Type): return
 	cardList = [c for c in table if not isMana(c) and not isShield(c) and c.owner==me and not isBait(c) and c != card]
 	if len(cardList) == 0: 
 		whisper('No cards on the field to attach.')

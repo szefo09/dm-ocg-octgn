@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="CoroCoro Jokers and Nature Double Deck" id="71a5187a-99c4-4a2b-81c6-ba53c21610c2" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
-    <card id="89b25801-726d-45b6-9632-ff8ff9f91758" name="Joragon Rising">
+    <card id="cd88b0b8-7cfc-4f07-bac5-f76565f94ab8" name="Joragon Rising">
       <property name="Format" value="OCG"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
@@ -10,23 +10,10 @@
       <property name="Rules" value="■ When you put this creature into the battle zone, you may draw a card.&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may discard a Jokers creature that costs 6 or less from your hand. If you do, use one of its abilities that start with &quot;When you put this creature into the battle zone&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="1-a"/>
+      <property name="Number" value="(SpDeck4) 1"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="f33cecf3-8e5e-4123-af78-afbb66dfd627" name="Ohkabuto Rising">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Gransect"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, break one of your opponent's shields."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="1-b"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="2c941def-7fb0-4a45-9e63-329e1100e0a6" name="Gunba Great / Gagun Gun Gagun">
+    <card id="e271cb04-9428-4470-981a-4ce3429a7847" name="Gunba Great / Gagun Gun Gagun">
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Gunba Great"/>
       <property name="Name2" value="Gagun Gun Gagun"/>
@@ -46,10 +33,118 @@
       <property name="Rules2" value="■ Put a Jokers card from your graveyard into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="2-a"/>
+      <property name="Number" value="(SpDeck4) 2"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="63a1a3cf-ddaa-4bd9-86b7-b45a4d075fc2" name="Shaman Broccoli">
+    <card id="acfaea9c-1fc0-4229-bb8a-1fe1874033cd" name="Baron Gelacho">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose a creature and tap or untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(SpDeck4) 3"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="7ce1dab4-f115-4bea-97e0-b648aeaf4f0b" name="Hakushon Mask">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent chooses one of their creatures that has the lowest power in the battle zone and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(SpDeck4) 4"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="4a5e42a5-35e7-46de-bbef-e158e4ca1a0e" name="Dotsuki Manjiro">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's tapped creatures and put it on the bottom of their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(SpDeck4) 5"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="5e2ba3b0-74f0-4066-a935-bc5d9e05ed11" name="Tutankhanen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(SpDeck4) 6"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="4f6ce0ef-5b37-4479-95d6-cbe669844797" name="The Shio Ramen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="(SpDeck4) 7"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="3f9d55f5-1060-4188-a835-a4d66a3cec95" name="Yattareman">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your Jokers creatures cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="(SpDeck4) 8"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="8f55d1b9-3aba-41b0-851b-c7fa7a5e9a0a" name="The Ramen">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="(SpDeck4) 9"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="17a46b87-47da-4625-9ecd-a4b42e8df44a" name="Okke Brothers">
+      <property name="Format" value="OCG"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, choose a creature and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="(SpDeck4) 10"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="b5a36523-7036-406c-801e-e547e2320302" name="Ohkabuto Rising">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="(SpDeck5) 1"/>
+      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
+    </card>
+    <card id="0c282c93-e22d-4e8d-9132-fc745c59b840" name="Shaman Broccoli">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
@@ -60,22 +155,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="2-b"/>
+      <property name="Number" value="(SpDeck5) 2"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="0bb83213-e90f-4c6d-9e44-8e890723d417" name="Baron Gelacho">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, choose a creature and tap or untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="3-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="87c8407a-176b-46b7-9697-7e908b008eef" name="Natural Snare">
+    <card id="90c79480-0d5e-4b62-a03a-a8022b746a97" name="Natural Snare">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
@@ -84,22 +167,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
-      <property name="Number" value="3-b"/>
+      <property name="Number" value="(SpDeck5) 3"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="7cc21ea2-4139-432a-b6de-3676d93d26c7" name="Hakushon Mask">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent chooses one of their creatures that has the lowest power in the battle zone and destroys it."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="4-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="11b28502-ef61-4c0f-9ea4-43c0072acfbd" name="Wa Tanpopo Tank">
+    <card id="760b3b20-58fb-411d-8371-618df3069a2a" name="Wa Tanpopo Tank">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
@@ -109,22 +180,10 @@
       <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
-      <property name="Number" value="4-b"/>
+      <property name="Number" value="(SpDeck5) 4"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="682e8436-5983-4016-9ea8-49716b78ad93" name="Dotsuki Manjiro">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's tapped creatures and put it on the bottom of their deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="5-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="8c3ed5fb-d1c3-4f62-8d68-04008d4d9dba" name="Bazion, Spirit Knight">
+    <card id="c92dae87-74f8-45e3-a8dc-2b6b6286e41a" name="Bazion, Spirit Knight">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
@@ -135,22 +194,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="5-b"/>
+      <property name="Number" value="(SpDeck5) 5"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="e5e3d573-620e-4f71-bf6a-1de4480a9976" name="Tutankhanen">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature, draw a card."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="6-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="f3642d9d-090a-4745-8fb8-dcd562d3522b" name="Alpaca Hammer">
+    <card id="2708a229-13f0-4a35-8c27-bf1c2e310fc5" name="Alpaca Hammer">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
@@ -160,22 +207,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="6-b"/>
+      <property name="Number" value="(SpDeck5) 6"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="16cc0f17-99b9-4cc9-8fbc-44b5d3a0353e" name="The Shio Ramen">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="7-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="b13ccba0-65ac-435a-b7dd-15811ea1e46f" name="Large Gathering! Acorn Army">
+    <card id="5bb6a13b-7f67-4c23-82ad-ac876175a9d5" name="Large Gathering! Acorn Army">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
@@ -186,22 +221,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="7-b"/>
+      <property name="Number" value="(SpDeck5) 7"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="af9389ec-10d2-45b7-9d55-0d136a247df2" name="Yattareman">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Your Jokers creatures cost 1 less to summon. They can't cost 0 or less."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="8-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="7636cbda-0891-4c44-9185-9fdb5db10637" name="Bronze-Arm Tribe">
+    <card id="aba7ae60-26c9-48f1-b7cd-78036fc25f1a" name="Bronze-Arm Tribe">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
@@ -212,21 +235,10 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="8-b"/>
+      <property name="Number" value="(SpDeck5) 8"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="69075918-c133-45d1-94b3-bc0cfdfa9814" name="The Ramen">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="1000"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="9-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="a7ee4c93-021b-417f-a675-47baa87abe5f" name="Kerasas, Start Dash">
+    <card id="ebff80b4-b284-4e3f-82cb-7a06e378707e" name="Kerasas, Start Dash">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
@@ -236,22 +248,10 @@
       <property name="Rules" value="■ Each turn, you may have the first nature creature you summon cost 1 less. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="9-b"/>
+      <property name="Number" value="(SpDeck5) 9"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
-    <card id="9cfcf921-3690-49a6-abee-6ddb5dfac42e" name="Okke Brothers">
-      <property name="Format" value="OCG"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Jokers"/>
-      <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose a creature and untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="10-a"/>
-      <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
-    </card>
-    <card id="58335b9a-e183-42ab-b0db-fa3278db1709" name="Hearty Cap'n Polligon">
+    <card id="5aab0634-c878-4b17-8c2a-6b316bccbb58" name="Hearty Cap'n Polligon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="1"/>
@@ -262,7 +262,7 @@
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
-      <property name="Number" value="10-b"/>
+      <property name="Number" value="(SpDeck5) 10"/>
       <property name="Set" value="CoroCoro Jokers and Nature Double Deck"/>
     </card>
   </cards>
