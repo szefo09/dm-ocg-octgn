@@ -3728,9 +3728,16 @@ def toDeck(card, bottom=False):
 
 allowed_globals = {
     '__builtins__': None,
-    're': __import__('re'),
+	'True': True,
+	'False': False,
+	'None': None,
+    're': re,
     'int': int,
+	'str': str,
+	'float': float,
+	'list': list,
+	'dict': dict,
+	'set': set,
     'cardCostComparator': cardCostComparator,
-    'table': table,
-	'me': me
+	'me': me,
 }
