@@ -286,7 +286,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mystery Totem/Fushigi Kingdom"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;{FUSHIGIVERSE} Nature 1 1 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 1 1 minus that creature's cost. It can't cost less than Nature 1.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;{FUSHIGIVERSE} Nature 11 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 11 minus that creature's cost. It can't cost less than Nature 1.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="21"/>
@@ -898,7 +898,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect/Fushigi Kingdom"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent chooses a card in their hand and one of their creatures in the battle zone and puts it into their mana zone.&#xA;{FUSHIGIVERSE} Darkness/Nature 1 2 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 1 2 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, your opponent chooses a card in their hand and one of their creatures in the battle zone and puts it into their mana zone.&#xA;{FUSHIGIVERSE} Darkness/Nature 12 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 12 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="55"/>
@@ -1602,7 +1602,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dynamite Dragon/Team Bomber"/>
       <property name="Power" value="9500"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;80px Double Magibomber 6 (Whenever this creature attacks, look at the top 2 cards of your deck. Choose up to 2 creatures that cost 6 or less from the top 2 cards of your deck or your hand and put them into the battle zone. Put the rest on the top of your deck in any order.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;Double Magibomber 6 (Whenever this creature attacks, look at the top 2 cards of your deck. Choose up to 2 creatures that cost 6 or less from the top 2 cards of your deck or your hand and put them into the battle zone. Put the rest on the top of your deck in any order.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="KM1"/>
@@ -1628,7 +1628,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Team Wave"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;15px Shuffle your deck and reveal the top card. If it's a creature, you may summon it for no cost. If it's a spell, you may cast it for no cost.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;Shuffle your deck and reveal the top card. If it's a creature, you may summon it for no cost. If it's a spell, you may cast it for no cost.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="KM3"/>
@@ -1667,7 +1667,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command/Fushigi Kingdom"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put the top 4 cards of your deck into your graveyard.&#xA;■ When this creature leaves the battle zone, you may put all creatures that cost 4 or less from your graveyard into the battle zone.&#xA;{FUSHIGIVERSE} Darkness 1 2 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness 1 2 minus that creature's cost. It can't cost less than Darkness 1.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put the top 4 cards of your deck into your graveyard.&#xA;■ When this creature leaves the battle zone, you may put all creatures that cost 4 or less from your graveyard into the battle zone.&#xA;{FUSHIGIVERSE} Darkness 12 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness 12 minus that creature's cost. It can't cost less than Darkness 1.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -1693,7 +1693,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
       <property name="Power" value="23000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone and your opponent's creature's ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature into the battle zone&quot;.)&#xA;{FUSHIGIVERSE} Nature 1 3 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 1 3 minus that creature's cost. It can't cost less than Nature 1.)"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone and your opponent's creature's ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature into the battle zone&quot;.)&#xA;{FUSHIGIVERSE} Nature 13 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 13 minus that creature's cost. It can't cost less than Nature 1.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>
@@ -1732,7 +1732,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Team Wave"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="50px Buzzrender file:C3.png|15px|text-top&#xA;file:Buzzrender2.png|15px|text-top Draw 5 cards.&#xA;{TRIPLE BREAKER}&#xA;■ When this creature's file:Buzzrender2.png|15px|text-top ability is used for the third time this turn, untap all cards in your mana zone.&#xA;■ When this creature would leave the battle zone, you may shuffle 5 cards in your hand into your deck instead.&#xA;■ You can't lose the game by having no cards in your deck."/>
+      <property name="Rules" value="Buzzrender file:C3.png|15px|text-top&#xA;file:Buzzrender2.png|15px|text-top Draw 5 cards.&#xA;{TRIPLE BREAKER}&#xA;■ When this creature's file:Buzzrender2.png|15px|text-top ability is used for the third time this turn, untap all cards in your mana zone.&#xA;■ When this creature would leave the battle zone, you may shuffle 5 cards in your hand into your deck instead.&#xA;■ You can't lose the game by having no cards in your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S8"/>
@@ -1758,7 +1758,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put the top 5 cards of your deck into your graveyard.&#xA;■ Whenever this creature wins a battle, you may switch all cards in your graveyard with all cards in your mana zone.&#xA;{FUSHIGIVERSE} Darkness/Nature 1 0 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 1 0 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put the top 5 cards of your deck into your graveyard.&#xA;■ Whenever this creature wins a battle, you may switch all cards in your graveyard with all cards in your mana zone.&#xA;{FUSHIGIVERSE} Darkness/Nature 10 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Darkness/Nature 10 minus that creature's cost. It can't cost less than Darkness/Nature 2.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10"/>

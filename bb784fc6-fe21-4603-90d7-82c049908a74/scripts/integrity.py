@@ -6,193 +6,196 @@
 # What I am trying to say is, go play some game, read a book, watch a movie, you don't
 # need to waste your energy on this. There are better treasures elsewhere.
 import _sha256
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiL=int
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiB=range
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP=len
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN=globals
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiD=callable
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiU=True
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaie=isinstance
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiv=str
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiQ=False
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiE=None
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiR=Exception
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWain=list
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWadJ=open
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE=_sha256.sha256
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXL=int
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXU=range
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB=len
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM=globals
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXz=callable
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXu=True
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXr=isinstance
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK=str
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXm=False
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXA=None
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXl=Exception
+PvVQodTtfOapyNsGejEWIRbhJCxFSDckg=list
+PvVQodTtfOapyNsGejEWIRbhJCxFSDckY=open
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA=_sha256.sha256
 import _random
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWajR=_random.Random
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcYl=_random.Random
 import sys
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWajn=sys.argv
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXg=sys.argv
 import binascii
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiG=binascii.a2b_hex
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid=binascii.a2b_base64
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaij=binascii.unhexlify
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiJ=binascii.hexlify
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXw=binascii.a2b_hex
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn=binascii.a2b_base64
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXk=binascii.unhexlify
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXY=binascii.hexlify
 import clr
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiM=clr.AddReference
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXH=clr.AddReference
 import time
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWail=time.time
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiM("System.Threading")
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiM("Octgn")
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiM("Octgn.Core")
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiM("Octgn.JodsEngine")
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXq=time.time
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXH("System.Threading")
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXH("Octgn")
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXH("Octgn.Core")
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXH("Octgn.JodsEngine")
 import Octgn
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiX=Octgn.Program
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXi=Octgn.Program
 from System.Threading import Timer
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj={'R7f9gK3Lw2zN5tX1vP0qQ4yHj6D8sUuC':mute,'aX7dZ9qN0V5yY4pP2tL6FhT8bJ3kC1Rr':remoteCall,'sV1hN7aL6TzQ4fP0jY3kX2bW9rU5D8y':notifyBar,'dF2gT1V9jH7qR0W3zP5kL4yX6bN8yUq':notify,'P8sQ3fN0Lz4tY6vJ1K5W9rV2bD7XjUo':me}
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY={'R7f9gK3Lw2zN5tX1vP0qQ4yHj6D8sUuC':mute,'aX7dZ9qN0V5yY4pP2tL6FhT8bJ3kC1Rr':remoteCall,'sV1hN7aL6TzQ4fP0jY3kX2bW9rU5D8y':notifyBar,'dF2gT1V9jH7qR0W3zP5kL4yX6bN8yUq':notify,'P8sQ3fN0Lz4tY6vJ1K5W9rV2bD7XjUo':me}
 def initiate_handshake(*args,**kwargs):
  def hex_encode(input_string):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiJ(input_string.encode()).decode()
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXY(input_string.encode()).decode()
  def hex_decode(encoded_string):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaij(encoded_string).decode()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJi=[hex_encode("X4vR"),hex_encode("2fN7q"),hex_encode("L5tP0"),hex_encode("yW8jK"),hex_encode("6zY3b"),hex_encode("U1Dh9"),hex_encode("sTC"),]
- def custom_randint(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG,a,b):
-  return a+sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiL(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG.random()*(b-a+1))
- def custom_shuffle(lst,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd=lst[:]
-  for i in sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiB(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd)-1,0,-1):
-   j=custom_randint(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG,0,i)
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd[i],sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd[j]=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd[j],sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd[i]
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJd
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajR()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG.seed(42) 
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJM=custom_shuffle(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJi,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJG)
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJM.sort(key=lambda part:sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(part)) 
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXk(encoded_string).decode()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgX=[hex_encode("X4vR"),hex_encode("2fN7q"),hex_encode("L5tP0"),hex_encode("yW8jK"),hex_encode("6zY3b"),hex_encode("U1Dh9"),hex_encode("sTC"),]
+ def custom_randint(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn,a,b):
+  return a+PvVQodTtfOapyNsGejEWIRbhJCxFSDcXL(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn.random()*(b-a+1))
+ def custom_shuffle(lst,PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn):
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk=lst[:]
+  for i in PvVQodTtfOapyNsGejEWIRbhJCxFSDcXU(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk)-1,0,-1):
+   j=custom_randint(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn,0,i)
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk[i],PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk[j]=PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk[j],PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk[i]
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgk
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYl()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn.seed(42) 
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgw=custom_shuffle(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgX,PvVQodTtfOapyNsGejEWIRbhJCxFSDcgn)
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgw.sort(key=lambda part:PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(part)) 
  def reconstruct_function_name(parts):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJX=[hex_decode(part)for part in parts]
-  return "".join(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJX)
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJL=reconstruct_function_name(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJi)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgq=[hex_decode(part)for part in parts]
+  return "".join(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgq)
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgi=reconstruct_function_name(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgX)
  def fetch_function(name):
-  if name in sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN()and sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiD(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN()[name]):
-   return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN()[name]
+  if name in PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM()and PvVQodTtfOapyNsGejEWIRbhJCxFSDcXz(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM()[name]):
+   return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM()[name]
  def validate_name(name):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiU if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaie(name,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiv)else sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiQ
- if not validate_name(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJL):
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXu if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXr(name,PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK)else PvVQodTtfOapyNsGejEWIRbhJCxFSDcXm
+ if not validate_name(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgi):
   pass
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJB=fetch_function(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJL)
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgL=fetch_function(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgi)
  def process_argument(argument):
-  if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaie(argument,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiv):
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJP=hex_encode(argument[::-1])
-   return hex_decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJP)[::-1]
+  if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXr(argument,PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK):
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgU=hex_encode(argument[::-1])
+   return hex_decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgU)[::-1]
   return argument
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJN=process_argument(args[0])if args else sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiE
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgB=process_argument(args[0])if args else PvVQodTtfOapyNsGejEWIRbhJCxFSDcXA
  def call_function(func,arg):
   try:
    return func(arg)
-  except sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiR as e:
+  except PvVQodTtfOapyNsGejEWIRbhJCxFSDcXl as e:
    pass
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJD=call_function(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJB,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJN)
- def validate_result(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJD):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiU 
- validate_result(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJD)
- return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJD
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgM=call_function(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgL,PvVQodTtfOapyNsGejEWIRbhJCxFSDcgB)
+ def validate_result(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgM):
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXu 
+ validate_result(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgM)
+ return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgM
 def Ap0DOi70uHA0y782Nuybw2pAYzvHtaDAC(contents):
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU=sgIbTHowOzyAcuSxYkFKqfthVmrCpWain(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ.keys())[0]
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU)<6 or sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU[2]!=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Yg=='.encode('utf-8')):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aGFuZHNoYWtlIHBlbmRpbmc='.encode('utf-8')))
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(contents[1])
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
- for sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJv in contents:
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJv.encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
- return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz=PvVQodTtfOapyNsGejEWIRbhJCxFSDckg(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm.keys())[0]
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz)<6 or PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz[2]!=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Yg=='.encode('utf-8')):
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aGFuZHNoYWtlIHBlbmRpbmc='.encode('utf-8')))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(contents[1])
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+ for PvVQodTtfOapyNsGejEWIRbhJCxFSDcgr in contents:
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgr.encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+ return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
 def XE5DPHL5MuksVz7IXOmATeSsTg6MtJaiX():
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJQ=sgIbTHowOzyAcuSxYkFKqfthVmrCpWain(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ.keys())[3]
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJQ)>15 and sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJQ[14]==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dg=='.encode('utf-8')):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiv(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiL(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajR().random()*(10**10))).encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aGFuZHNoYWtlIHN1Y2Nlc3NmdWw='.encode('utf-8')))
- return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
-def EP6W5Iwc3jzaPkyqhTqvAWUpHxQiQs8f9(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP,challenge):
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE=sgIbTHowOzyAcuSxYkFKqfthVmrCpWain(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ.keys())[2]
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE)<9 or sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE[8]==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('SA=='.encode('utf-8'))or not sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP:
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(challenge)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aGFuZHNoYWtlIGZhaWxlZA=='.encode('utf-8')))
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP)
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(challenge)
- return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
-def X4vR2fN7qL5tP0yW8jK6zY3bU1Dh9sTC(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ):
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]:
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgK=PvVQodTtfOapyNsGejEWIRbhJCxFSDckg(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm.keys())[3]
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgK)>15 and PvVQodTtfOapyNsGejEWIRbhJCxFSDcgK[14]==PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dg=='.encode('utf-8')):
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXL(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYl().random()*(10**10))).encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aGFuZHNoYWtlIHN1Y2Nlc3NmdWw='.encode('utf-8')))
+ return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+def EP6W5Iwc3jzaPkyqhTqvAWUpHxQiQs8f9(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB,challenge):
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm=PvVQodTtfOapyNsGejEWIRbhJCxFSDckg(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm.keys())[2]
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgA=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXi.DeveloperMode!= PvVQodTtfOapyNsGejEWIRbhJCxFSDcXm
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm)<9 or PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm[8]==PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('SA=='.encode('utf-8'))or not PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB:
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(challenge)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgA))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aGFuZHNoYWtlIGZhaWxlZA=='.encode('utf-8')))
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXK(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgA))
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB)
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(challenge)
+ return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+def X4vR2fN7qL5tP0yW8jK6zY3bU1Dh9sTC(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX):
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX==PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]:
   return
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE=sgIbTHowOzyAcuSxYkFKqfthVmrCpWain(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ.keys())[2]
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE)<9 or sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE[8]==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('cg=='.encode('utf-8'))or not sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ:
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aGFuZHNoYWtlIGZhaWxlZA=='.encode('utf-8')))
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
- elif sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE)<16 or sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJE[15]!=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Tw=='.encode('utf-8')):
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UjdmOWdLM0x3MnpONXRYMXZQMHFRNHlIajZEOHNVdUM=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]()
- global sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiQ
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('OW9nOU1YVnl5Q05DN1lZdTkwZEozd040ZEo4NDB6VU5G'.encode()).decode()]()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YVg3ZFo5cU4wVjV5WTRwUDJ0TDZGaFQ4Ykoza0MxUnI=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajJ,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiG('41774d70557237485736666a6a5667496f7351706a514a555a684f7177526b5066').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),[{sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c3RhZ2U=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aW5pdGlhdGU=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Y2hhbGxlbmdl').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn},sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]])
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZHF2Qzh6dWxyRm9mTmw2R1E2bmxuTjJJUXFrdm13ZmZF'.encode()).decode()]()
-def AwMpUr7HW6fjjVgIosQpjQJUZhOqwRkPf(message,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajD):
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UjdmOWdLM0x3MnpONXRYMXZQMHFRNHlIajZEOHNVdUM=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaji=message[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c3RhZ2U=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWajd=message.get(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Y2hhbGxlbmdl').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaji==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aW5pdGlhdGU=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG=__file__ if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('X19maWxlX18=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())in sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN()else sgIbTHowOzyAcuSxYkFKqfthVmrCpWajn[0]
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajM=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG.replace(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YWN0aW9ucy5weQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aW50ZWdyaXR5LnB5').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajl=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG.replace(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c2NyaXB0c1xhY3Rpb25zLnB5').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZGVmaW5pdGlvbi54bWw=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
-  if not sgIbTHowOzyAcuSxYkFKqfthVmrCpWajM.endswith(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxzY3JpcHRzXGludGVncml0eS5weQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())):
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('I0ZGMDAwMA=='.encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())).decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-  if not sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG.endswith(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxzY3JpcHRzXGFjdGlvbnMucHk=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())):
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('I0ZGMDAwMA=='.encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())).decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-  if not sgIbTHowOzyAcuSxYkFKqfthVmrCpWajl.endswith(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxkZWZpbml0aW9uLnhtbA==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())):
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('I0ZGMDAwMA=='.encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())).decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gZGVmaW5pdGlvbiBwYXRoIHdhcyBtb2RpZmllZCB0bzoge30=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())],sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG))
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajX=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajL=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajM)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajB=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajl)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('MFpLMUVlczFuUlVWR2hZZElyR1ZxTXBlYU8wSWlhajRG'.encode()).decode()]([sgIbTHowOzyAcuSxYkFKqfthVmrCpWajL,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajX,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajB])
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajN=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('cFpvNkpNbHRoWmxOUXdXdmRmWUF3NUVGdnRxeHFxd1dN'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajd)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YVg3ZFo5cU4wVjV5WTRwUDJ0TDZGaFQ4Ykoza0MxUnI=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajD,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiG('41774d70557237485736666a6a5667496f7351706a514a555a684f7177526b5066').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),[{sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c3RhZ2U=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('cmVzcG9uZA==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Y2hhbGxlbmdl').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):sgIbTHowOzyAcuSxYkFKqfthVmrCpWajd,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Y29tYmluZWRfaGFzaA==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):sgIbTHowOzyAcuSxYkFKqfthVmrCpWajN},sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]])
- elif sgIbTHowOzyAcuSxYkFKqfthVmrCpWaji==sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('cmVzcG9uZA==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajU=message[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Y29tYmluZWRfaGFzaA==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())]
-  global sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG=__file__ if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('X19maWxlX18=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())in sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiN()else sgIbTHowOzyAcuSxYkFKqfthVmrCpWajn[0]
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajM=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG.replace(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YWN0aW9ucy5weQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aW50ZWdyaXR5LnB5').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajl=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG.replace(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c2NyaXB0c1xhY3Rpb25zLnB5').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZGVmaW5pdGlvbi54bWw=').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajX=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajL=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajM)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajB=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajl)
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('MFpLMUVlczFuUlVWR2hZZElyR1ZxTXBlYU8wSWlhajRG'.encode()).decode()]([sgIbTHowOzyAcuSxYkFKqfthVmrCpWajL,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajX,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajB])
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWajN=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('cFpvNkpNbHRoWmxOUXdXdmRmWUF3NUVGdnRxeHFxd1dN'.encode()).decode()](sgIbTHowOzyAcuSxYkFKqfthVmrCpWajP,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn)
-  if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJn==sgIbTHowOzyAcuSxYkFKqfthVmrCpWajd and sgIbTHowOzyAcuSxYkFKqfthVmrCpWajN==sgIbTHowOzyAcuSxYkFKqfthVmrCpWajU:
-   global sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiU
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm=PvVQodTtfOapyNsGejEWIRbhJCxFSDckg(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm.keys())[2]
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm)<9 or PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm[8]==PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('cg=='.encode('utf-8'))or not PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX:
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aGFuZHNoYWtlIGZhaWxlZA=='.encode('utf-8')))
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+ elif PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm)<16 or PvVQodTtfOapyNsGejEWIRbhJCxFSDcgm[15]!=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Tw=='.encode('utf-8')):
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UjdmOWdLM0x3MnpONXRYMXZQMHFRNHlIajZEOHNVdUM=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]()
+ global PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg,PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXm
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('OW9nOU1YVnl5Q05DN1lZdTkwZEozd040ZEo4NDB6VU5G'.encode()).decode()]()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YVg3ZFo5cU4wVjV5WTRwUDJ0TDZGaFQ4Ykoza0MxUnI=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYX,PvVQodTtfOapyNsGejEWIRbhJCxFSDcXw('41774d70557237485736666a6a5667496f7351706a514a555a684f7177526b5066').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),[{PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c3RhZ2U=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aW5pdGlhdGU=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Y2hhbGxlbmdl').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg},PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]])
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZHF2Qzh6dWxyRm9mTmw2R1E2bmxuTjJJUXFrdm13ZmZF'.encode()).decode()]()
+def AwMpUr7HW6fjjVgIosQpjQJUZhOqwRkPf(message,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYz):
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UjdmOWdLM0x3MnpONXRYMXZQMHFRNHlIajZEOHNVdUM=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYk=message[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c3RhZ2U=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYn=message.get(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Y2hhbGxlbmdl').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcYk==PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aW5pdGlhdGU=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw=__file__ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('X19maWxlX18=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())in PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM()else PvVQodTtfOapyNsGejEWIRbhJCxFSDcXg[0]
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYH=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw.replace(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YWN0aW9ucy5weQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aW50ZWdyaXR5LnB5').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYq=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw.replace(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c2NyaXB0c1xhY3Rpb25zLnB5').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZGVmaW5pdGlvbi54bWw=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+  if not PvVQodTtfOapyNsGejEWIRbhJCxFSDcYH.endswith(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxzY3JpcHRzXGludGVncml0eS5weQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())):
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('I0ZGMDAwMA=='.encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())).decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+  if not PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw.endswith(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxzY3JpcHRzXGFjdGlvbnMucHk=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())):
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('I0ZGMDAwMA=='.encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())).decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+  if not PvVQodTtfOapyNsGejEWIRbhJCxFSDcYq.endswith(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('R2FtZURhdGFiYXNlXGJiNzg0ZmM2LWZlMjEtNDYwMy05MGQ3LTgyYzA0OTkwOGE3NFxkZWZpbml0aW9uLnhtbA==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())):
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('I0ZGMDAwMA=='.encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())).decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IHBhdGggd2FzIG1vZGlmaWVkIHRvOiB7fQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gZGVmaW5pdGlvbiBwYXRoIHdhcyBtb2RpZmllZCB0bzoge30=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())],PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYi=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYL=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYH)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYU=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYq)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('MFpLMUVlczFuUlVWR2hZZElyR1ZxTXBlYU8wSWlhajRG'.encode()).decode()]([PvVQodTtfOapyNsGejEWIRbhJCxFSDcYL,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYi,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYU])
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYM=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('cFpvNkpNbHRoWmxOUXdXdmRmWUF3NUVGdnRxeHFxd1dN'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYn)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YVg3ZFo5cU4wVjV5WTRwUDJ0TDZGaFQ4Ykoza0MxUnI=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYz,PvVQodTtfOapyNsGejEWIRbhJCxFSDcXw('41774d70557237485736666a6a5667496f7351706a514a555a684f7177526b5066').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),[{PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c3RhZ2U=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('cmVzcG9uZA==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Y2hhbGxlbmdl').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):PvVQodTtfOapyNsGejEWIRbhJCxFSDcYn,PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Y29tYmluZWRfaGFzaA==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):PvVQodTtfOapyNsGejEWIRbhJCxFSDcYM},PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('UDhzUTNmTjBMejR0WTZ2SjFLNVc5clYyYkQ3WGpVbw==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]])
+ elif PvVQodTtfOapyNsGejEWIRbhJCxFSDcYk==PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('cmVzcG9uZA==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()):
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYu=message[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Y29tYmluZWRfaGFzaA==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())]
+  global PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw=__file__ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('X19maWxlX18=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())in PvVQodTtfOapyNsGejEWIRbhJCxFSDcXM()else PvVQodTtfOapyNsGejEWIRbhJCxFSDcXg[0]
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYH=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw.replace(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YWN0aW9ucy5weQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aW50ZWdyaXR5LnB5').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYq=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw.replace(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c2NyaXB0c1xhY3Rpb25zLnB5').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZGVmaW5pdGlvbi54bWw=').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYi=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYL=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYH)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYU=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('YUhiTGNYeTdrbGtGb2lVVGtLTTZmcWdLZzlUV2FldGl5'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYq)
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('MFpLMUVlczFuUlVWR2hZZElyR1ZxTXBlYU8wSWlhajRG'.encode()).decode()]([PvVQodTtfOapyNsGejEWIRbhJCxFSDcYL,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYi,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYU])
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYM=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('cFpvNkpNbHRoWmxOUXdXdmRmWUF3NUVGdnRxeHFxd1dN'.encode()).decode()](PvVQodTtfOapyNsGejEWIRbhJCxFSDcYB,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg)
+  if PvVQodTtfOapyNsGejEWIRbhJCxFSDcYg==PvVQodTtfOapyNsGejEWIRbhJCxFSDcYn and PvVQodTtfOapyNsGejEWIRbhJCxFSDcYM==PvVQodTtfOapyNsGejEWIRbhJCxFSDcYu:
+   global PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXu
   else:
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('I0ZGMDAwMA=='.encode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())).decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()),sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IGZpbGUgZGlmZmVycyBmcm9tIHlvdXJzIQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajD))
-   sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode())](sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzoge30gc2NyaXB0IGZpbGUgZGlmZmVycyBmcm9tIHlvdXJzIQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()).format(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajD))
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('c1YxaE43YUw2VHpRNGZQMGpZM2tYMmJXOXJVNUQ4eQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('I0ZGMDAwMA=='.encode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())).decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()),PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IGZpbGUgZGlmZmVycyBmcm9tIHlvdXJzIQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYz))
+   PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('ZEYyZ1QxVjlqSDdxUjBXM3pQNWtMNHlYNmJOOHlVcQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode())](PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzoge30gc2NyaXB0IGZpbGUgZGlmZmVycyBmcm9tIHlvdXJzIQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()).format(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYz))
 def dzRq26uhUmmIjpe1izLkE3HtHQDpVi5ZZ(state):
- global sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR,sgIbTHowOzyAcuSxYkFKqfthVmrCpWaje,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajv
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJR:
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaje.Dispose()
+ global PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYr,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYK
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcgl:
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYr.Dispose()
   return
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWail()-sgIbTHowOzyAcuSxYkFKqfthVmrCpWajv>=10:
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaje.Dispose()
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiX.GameMess.Warning(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('V0FSTklORzogQ291bGRuJ3QgdmFsaWRhdGUgZmlsZXMgYmV0d2VlbiBwbGF5ZXJzIQ==').decode(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('dXRmLTg='.encode()).decode()))
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXq()-PvVQodTtfOapyNsGejEWIRbhJCxFSDcYK>=10:
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcYr.Dispose()
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcXi.GameMess.Warning(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('V0FSTklORzogQ291bGRuJ3QgdmFsaWRhdGUgZmlsZXMgYmV0d2VlbiBwbGF5ZXJzIQ==').decode(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('dXRmLTg='.encode()).decode()))
   return
-def V0VzlquKm7EgENnPQzwHP2Eky6jmUHScf(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG):
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU=sgIbTHowOzyAcuSxYkFKqfthVmrCpWain(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJj.keys())[0]
- if sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiP(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU)<3 or sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJU[2]!=sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('Nw=='.encode('utf-8'))or(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG and not sgIbTHowOzyAcuSxYkFKqfthVmrCpWaiU):
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe=sgIbTHowOzyAcuSxYkFKqfthVmrCpWajE()
-  sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.update(sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('aGFuZHNoYWtlIHN1Y2Nlc3NmdWw='.encode('utf-8')))
-  return sgIbTHowOzyAcuSxYkFKqfthVmrCpWaJe.digest()
- with sgIbTHowOzyAcuSxYkFKqfthVmrCpWadJ(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajG,"r")as script_file:
+def V0VzlquKm7EgENnPQzwHP2Eky6jmUHScf(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw):
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz=PvVQodTtfOapyNsGejEWIRbhJCxFSDckg(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgY.keys())[0]
+ if PvVQodTtfOapyNsGejEWIRbhJCxFSDcXB(PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz)<3 or PvVQodTtfOapyNsGejEWIRbhJCxFSDcgz[2]!=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('Nw=='.encode('utf-8'))or(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw and not PvVQodTtfOapyNsGejEWIRbhJCxFSDcXu):
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu=PvVQodTtfOapyNsGejEWIRbhJCxFSDcYA()
+  PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.update(PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('aGFuZHNoYWtlIHN1Y2Nlc3NmdWw='.encode('utf-8')))
+  return PvVQodTtfOapyNsGejEWIRbhJCxFSDcgu.digest()
+ with PvVQodTtfOapyNsGejEWIRbhJCxFSDckY(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYw,"r")as script_file:
   return script_file.read()
 def rZzUptlz64sdqmrYvjWDDy7ot6YK9EyOX():
- global sgIbTHowOzyAcuSxYkFKqfthVmrCpWaje,sgIbTHowOzyAcuSxYkFKqfthVmrCpWajv
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWajv=sgIbTHowOzyAcuSxYkFKqfthVmrCpWail()
- sgIbTHowOzyAcuSxYkFKqfthVmrCpWaje=Timer(sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ[sgIbTHowOzyAcuSxYkFKqfthVmrCpWaid('d3FXYjBheXhKOEJSUHFvT240Y2E3WGJQT2V2WlhqTWRC'.encode()).decode()],0,0,1000)
-sgIbTHowOzyAcuSxYkFKqfthVmrCpWajQ={"1dYncy6b5ZpRGevLUWqAHhSFAw12277CG":AwMpUr7HW6fjjVgIosQpjQJUZhOqwRkPf,"wqWb0ayxJ8BRPqoOn4ca7XbPOevZXjMdB":dzRq26uhUmmIjpe1izLkE3HtHQDpVi5ZZ,"dqvC8zulrFofNl6GQ6nlnN2IQqkvmwffE":rZzUptlz64sdqmrYvjWDDy7ot6YK9EyOX,"aHbLcXy7klkFoiUTkKM6fqgKg9TWaetiy":V0VzlquKm7EgENnPQzwHP2Eky6jmUHScf,"pZo6JMlthZlNQwWvdfYAw5EFvtqxqqwWM":EP6W5Iwc3jzaPkyqhTqvAWUpHxQiQs8f9,"0ZK1Ees1nRUVGhYdIrGVqMpeaO0Iiaj4F":Ap0DOi70uHA0y782Nuybw2pAYzvHtaDAC,"9og9MXVyyCNC7YYu90dJ3wN4dJ840zUNF":XE5DPHL5MuksVz7IXOmATeSsTg6MtJaiX,}
+ global PvVQodTtfOapyNsGejEWIRbhJCxFSDcYr,PvVQodTtfOapyNsGejEWIRbhJCxFSDcYK
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYK=PvVQodTtfOapyNsGejEWIRbhJCxFSDcXq()
+ PvVQodTtfOapyNsGejEWIRbhJCxFSDcYr=Timer(PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm[PvVQodTtfOapyNsGejEWIRbhJCxFSDcXn('d3FXYjBheXhKOEJSUHFvT240Y2E3WGJQT2V2WlhqTWRC'.encode()).decode()],0,0,1000)
+PvVQodTtfOapyNsGejEWIRbhJCxFSDcYm={"1dYncy6b5ZpRGevLUWqAHhSFAw12277CG":AwMpUr7HW6fjjVgIosQpjQJUZhOqwRkPf,"wqWb0ayxJ8BRPqoOn4ca7XbPOevZXjMdB":dzRq26uhUmmIjpe1izLkE3HtHQDpVi5ZZ,"dqvC8zulrFofNl6GQ6nlnN2IQqkvmwffE":rZzUptlz64sdqmrYvjWDDy7ot6YK9EyOX,"aHbLcXy7klkFoiUTkKM6fqgKg9TWaetiy":V0VzlquKm7EgENnPQzwHP2Eky6jmUHScf,"pZo6JMlthZlNQwWvdfYAw5EFvtqxqqwWM":EP6W5Iwc3jzaPkyqhTqvAWUpHxQiQs8f9,"0ZK1Ees1nRUVGhYdIrGVqMpeaO0Iiaj4F":Ap0DOi70uHA0y782Nuybw2pAYzvHtaDAC,"9og9MXVyyCNC7YYu90dJ3wN4dJ840zUNF":XE5DPHL5MuksVz7IXOmATeSsTg6MtJaiX,}
 # Created by pyminifier (https://github.com/liftoff/pyminifier)
