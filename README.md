@@ -102,6 +102,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Vine Charger**
   - **Zombie Carnival**
   - **Kalute, Vizier of Eternity**
+  - **Swamp Worm**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
