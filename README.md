@@ -93,6 +93,15 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Curious Eye**
   - **Stinger Ball**
   - **Wyn, the Oracle**
+  - **Dance of the Sproutlings**
+  - **Grinning Hunger**
+  - **Impossible Tunnel**
+  - **Relentless Blitz**
+  - **Submarine Project**
+  - **Unified Resistance**
+  - **Vine Charger**
+  - **Zombie Carnival**
+  - **Kalute, Vizier of Eternity**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -132,6 +141,13 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Crath Lade, Merciless King
     - Kipo's Contraption
     - Popple, Flowerpetal Dancer
+    - Gigio's Hammer
+    - Hokira
+    - Silvermoon Trailblazer
+    - Tra Rion, Penumbra Guardian
+    - Venom Worm
+
+
 
 - **Ally Tap Card Effects Added**:
   - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
@@ -172,6 +188,14 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Geoshine, Spectral Knight
     - Windmill Mutant
     - Überdragon Bajula
+    - Cavern Raider
+    - Cyclolink, Spectral Knight
+    - Shock Trooper Mykee
+    - Steam Rumbler Kain
+    - Tentacle Cluster
+    - Trixo, Wicked Doll
+    - Quakesaur
+
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
@@ -206,6 +230,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Lone Tear, Shadow of Solitude
     - Skullcutter, Swarm Leader
     - Laveil, Seeker of Catastrophe
+    - Betrale, the Explorer
+
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
   - **New Cards Added**:
@@ -217,13 +243,19 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
   - **New Cards Added**:
     - Cruel Naga, Avatar of Fate
-- **"Cannot be chosen by your opponent's card Effects Added**
+- **"Cannot be chosen by your opponent's card Effects" Added**
   - **New Cards Added**:
     - Petrova, Channeler of Suns (Petrova also recieved a race selector, so you can more easly declare the creature race.)
     - Warlord Ailzonius
     - Yuliana, Channeler of Suns
+- **Meteorburn Effects Added**
+  - **Works as a wrapper around onAttack action for automated cards with Meteorburn**
+  - **New Cards Added**:
+    - Supernova Jupiter King Empire
 
 - **Other Improvements**
+  - **Added new button for evolution creatures: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.
+  - **Allow picking order of simultanious effects resolving at the same time!**: Currently done for on Turn End/Start effects and when doing mass destruction effects.
   - **Look at top X cards, pick some, put rest to the bottom in any order Button added to Deck options!**
   - **Some choices are now multi-choices, allowing you to pick many cards at the same time!**
   - **Added Mana Calculation when you press Ctrl+C/Charge as Mana on Card already in Mana Zone**

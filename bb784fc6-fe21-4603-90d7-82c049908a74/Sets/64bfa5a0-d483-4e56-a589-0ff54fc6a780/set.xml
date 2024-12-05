@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMX-22 Super Black Box Pack" id="64bfa5a0-d483-4e56-a589-0ff54fc6a780" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
-    <card id="3e12e3d6-cce2-492d-8c4e-1536753abe16" name="Boaropagos, Evil Emperor Ruins">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ Whenever you summon a creature from your hand, you may put a nature creature that costs 5 or less from your mana zone into the battle zone.&#xA;■ Dragsolution: At the start of your turn, if the total cost of your creatures in the battle zone is 30 or more, you may flip this card to the dragheart creature side and untap it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Set" value="DMX-22 Super Black Box Pack"/>
-      <alternate name="Verokiboaros, Ga Ga Ga" type="awakening" size="normal">
-        <property name="Civilization" value="Nature"/>
-        <property name="Cost" value="10"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Jurassic Command Dragon"/>
-        <property name="Power" value="15000"/>
-        <property name="Rules" value="■ Whenever you summon a creature from your hand or whenever this creature attacks, you may put a nature creature from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Rarity" value="No Rarity"/>
-        <property name="Number" value="61b/???"/>
-        <property name="Set" value="DMX-22 Super Black Box Pack"/>
-      </alternate>
-    </card>
     <card id="117815cc-7c16-4537-ba1a-09106ea3498c" name="Kanzencrime, Criminal Nobleman">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -944,19 +920,6 @@
       <property name="Number" value="6/???"/>
       <property name="Set" value="DMX-22 Super Black Box Pack"/>
     </card>
-    <card id="0f5e322a-463d-40d0-a6a0-9506950ea0a2" name="July">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="2016 Calendar"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="7/???"/>
-      <property name="Set" value="DMX-22 Super Black Box Pack"/>
-    </card>
     <card id="6f97c3d8-09ea-4923-8b58-c1b2f2fb64ab" name="August">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
@@ -1702,6 +1665,44 @@
         <property name="Set" value="DMX-22 Super Black Box Pack"/>
       </alternate>
     </card>
+    <card id="3e12e3d6-cce2-492d-8c4e-1536753abe16" name="Boaropagos, Evil Emperor Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever you summon a creature from your hand, you may put a nature creature that costs 5 or less from your mana zone into the battle zone.&#xA;■ Dragsolution: At the start of your turn, if the total cost of your creatures in the battle zone is 30 or more, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value=""/>
+      <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      <alternate name="Verokiboaros, Ga Ga Ga" type="awakening" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Jurassic Command Dragon"/>
+        <property name="Power" value="15000"/>
+        <property name="Rules" value="■ Whenever you summon a creature from your hand or whenever this creature attacks, you may put a nature creature from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="61b/???"/>
+        <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      </alternate>
+    </card>
+    <card id="0f5e322a-463d-40d0-a6a0-9506950ea0a2" name="July">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="2016 Calendar"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="7/???"/>
+      <property name="Set" value="DMX-22 Super Black Box Pack"/>
+    </card>
     <card id="eb15478d-48f3-4da7-9b39-9c7c59750418" name="Verokiboaros, Ga Ga Ga">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
@@ -1716,6 +1717,31 @@
       <property name="Number" value="61b/???"/>
       <property name="Set" value="DMX-22 Super Black Box Pack"/>
     </card>
+    <card id="33a6a1ab-c29c-41ff-b541-63d57891786a" name="Boaropagos, Evil Emperor Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever you summon a creature from your hand, you may put a nature creature that costs 5 or less from your mana zone into the battle zone.&#xA;■ Dragsolution: At the start of your turn, if the total cost of your creatures in the battle zone is 30 or more, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="62a/???"/>
+      <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      <alternate name="Verokiboaros, Ga Ga Ga" type="awakening" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Jurassic Command Dragon"/>
+        <property name="Power" value="15000"/>
+        <property name="Rules" value="■ Whenever you summon a creature from your hand or whenever this creature attacks, you may put a nature creature from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="61b/???"/>
+        <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      </alternate>
+    </card>
     <card id="032215e9-bd2c-410b-8194-e4a7ecc9dfad" name="Verokiboaros, Ga Ga Ga">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
@@ -1729,6 +1755,31 @@
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="62b/???"/>
       <property name="Set" value="DMX-22 Super Black Box Pack"/>
+    </card>
+    <card id="eb4c97ba-5252-4e43-992c-deb911cee80e" name="Boaropagos, Evil Emperor Ruins">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever you summon a creature from your hand, you may put a nature creature that costs 5 or less from your mana zone into the battle zone.&#xA;■ Dragsolution: At the start of your turn, if the total cost of your creatures in the battle zone is 30 or more, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="No Rarity"/>
+      <property name="Number" value="63a/???"/>
+      <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      <alternate name="Verokiboaros, Ga Ga Ga" type="awakening" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Jurassic Command Dragon"/>
+        <property name="Power" value="15000"/>
+        <property name="Rules" value="■ Whenever you summon a creature from your hand or whenever this creature attacks, you may put a nature creature from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="61b/???"/>
+        <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      </alternate>
     </card>
     <card id="76c46e8b-4e4f-458c-bfb5-09e0aa978166" name="Verokiboaros, Ga Ga Ga">
       <property name="Format" value="OCG"/>
