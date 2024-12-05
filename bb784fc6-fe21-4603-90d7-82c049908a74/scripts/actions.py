@@ -845,7 +845,7 @@ def evaluateWaitingFunctions():
 			card = waitingFunct[0][0]
 			iterations+=1
 			if(iterations>100):
-				whisper('Report This to Developer!\nInfinite loop detected caused by card(s): {}'.format(', '.join(card.name for card, _ in waitingFunct)))
+				notify('Report This to Developer!\nInfinite loop detected - card(s): {}'.format(', '.join(card.name for card, _ in waitingFunct)))
 				clearWaitingFuncts()
 				break
 			#notify("{}, {}".format(card,waitingFunct[0][1]))
