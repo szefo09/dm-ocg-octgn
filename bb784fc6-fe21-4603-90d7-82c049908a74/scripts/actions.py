@@ -615,8 +615,7 @@ def endTurn(args, x=0, y=0):
 def resetGame():
 	mute()
 	me.setGlobalVariable("shieldCount", "0")
-	global arrow
-	arrow = {}
+	clearFunctionsAndTargets(table)
 	for player in players:
 		if player != me:
 			initiate_handshake(player)
@@ -2783,10 +2782,14 @@ def clear(group, x=0, y=0):
 	for card in group:
 		card.target(False)
 
+def clearFunctionsAndTargets(group, x=0, y=0):
+	mute()
+	clear(group)
+	clearWaitingFuncts()
+
 #Set Up Battlezone
 def setup(group, x=0, y=0):
 	mute()
-	clearWaitingFuncts()
 	global arrow
 	arrow = {}
 	cardsInTable = [c for c in table if c.controller == me and c.owner == me and not isPsychic(c)]
@@ -2801,7 +2804,7 @@ def setup(group, x=0, y=0):
 
 	if cardsInTable or cardsInHand or cardsInGrave or psychicsInTable or psychicsInGrave or psychicsInHand:
 		if confirm("Are you sure you want to setup battlezone? Current setup will be lost"):
-			clear(table)
+			clearFunctionsAndTargets(table)
 			for card in cardsInTable:
 				card.resetProperties()
 				card.moveTo(me.Deck)
