@@ -183,6 +183,7 @@ cardScripts = {
 	'Splash Zebrafish': {'onPlay': [lambda card: fromMana()]},
 	'Storm Shell':{'onPlay': [lambda card: opponentSendToMana()]},
 	'Steamroller Mutant': {'onPlay': [lambda card: waveStriker(lambda card: destroyAll(table, True), card)]},
+	'Swamp Worm': {'onPlay': [lambda card: opponentSacrifice()]},
 	'Syforce, Aurora Elemental': {'onPlay': [lambda card: fromMana(1,"Spell")]},
 	'Telitol, the Explorer': {'onPlay': [lambda card: peekShields([c for c in table if isShield(c) and c.owner == me])]},
 	'Tekorax': {'onPlay': [lambda card: peekShield(len([c for c in table if isShield(c) and c.owner != me]),True)]},
@@ -672,13 +673,11 @@ def clearArrowOnMove(args):
 	global arrow
 	if not arrow or table not in args.fromGroups:
 		return
-
 	keys_to_remove = []
 	for key, array in arrow.items():
 		arrow[key] = [card for card in array if not card or card not in cardsIdMoved]
 		if not arrow[key]:
 			keys_to_remove.append(key)
-
 	for key in keys_to_remove:
 		del arrow[key]
 
@@ -838,11 +837,17 @@ def waitForTarget():
 
 def evaluateWaitingFunctions():
 	global alreadyEvaluating
+	iterations = 0
 	if alreadyEvaluating:
 		return
 	alreadyEvaluating = True
 	while len(waitingFunct)>0:
 			card = waitingFunct[0][0]
+			iterations+=1
+			if(iterations>100):
+				whisper('Report This to Developer!\nInfinite loop detected caused by card(s): {}'.format(', '.join(card.name for card, _ in waitingFunct)))
+				clearWaitingFuncts()
+				break
 			#notify("{}, {}".format(card,waitingFunct[0][1]))
 			if waitingFunct[0][1](card):
 				waitForTarget()
@@ -864,7 +869,7 @@ def clearWaitingFuncts():  # clears any pending plays for a card that's waiting 
 			cardBeingPlayed = waitingFunct[0][0]
 			del waitingFunct[0]
 			notify("Waiting for target/effect for {} cancelled.".format(cardBeingPlayed))
-			if isSpellInBZ(cardBeingPlayed):
+			if cardBeingPlayed and isSpellInBZ(cardBeingPlayed):
 				endOfFunctionality(cardBeingPlayed)
 	global alreadyEvaluating, evaluateNextFunction
 	alreadyEvaluating = False
@@ -875,7 +880,7 @@ def orderEvaluatingFunctions():
 	if waitingFunct:
 		waitingFunctions = list(waitingFunct)
 		effectAlreadyProcessing = None
-		if alreadyEvaluating:
+		if alreadyEvaluating and waitingFunctions:
 			effectAlreadyProcessing = waitingFunctions.pop(0)
 
 		cardList = []
@@ -885,6 +890,7 @@ def orderEvaluatingFunctions():
 		if len(cardList)>1:
 			if me.isInverted: reverseCardList(cardList)
 			cardOrder = askCard2(cardList,'Choose the order of effects to activate (from left to right)', minimumToTake=0, maximumToTake=0, returnAsArray=True)
+			if not cardOrder: return
 			cardOrderMap = {card: index for index, card in enumerate(cardOrder)}
 			waitingFunctions = sorted(waitingFunctions, key=lambda x: cardOrderMap.get(x[0]))
 			if(effectAlreadyProcessing):
