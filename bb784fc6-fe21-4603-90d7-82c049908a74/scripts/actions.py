@@ -681,13 +681,13 @@ def clearArrowOnMove(args):
 	global arrow
 	if not arrow or table not in args.fromGroups:
 		return
-	keys_to_remove = []
+
+	updatedArrow = {}
 	for key, array in arrow.items():
-		arrow[key] = [card for card in array if not card or card not in cardsIdMoved]
-		if not arrow[key]:
-			keys_to_remove.append(key)
-	for key in keys_to_remove:
-		del arrow[key]
+		filteredArray = [card for card in array if card not in cardsIdMoved]
+		if filteredArray and key not in cardsIdMoved:
+			updatedArrow[key] = filteredArray
+	arrow = updatedArrow
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
