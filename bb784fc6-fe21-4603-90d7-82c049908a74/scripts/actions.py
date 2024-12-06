@@ -676,12 +676,11 @@ def onArrow(args):
 					del arrow[fromCard._id]
 
 def clearArrowOnMove(args):
-	cardsMoved = args.cards
-	cardsIdMoved = [card._id for card in cardsMoved]
 	global arrow
 	if not arrow or table not in args.fromGroups:
 		return
-
+	cardsMoved = args.cards
+	cardsIdMoved = [card._id for card in cardsMoved]
 	updatedArrow = {}
 	for key, array in arrow.items():
 		filteredArray = [card for card in array if card not in cardsIdMoved]
@@ -1074,9 +1073,11 @@ def getEvoBaits(card):
 	return []
 
 def isEvo(cards, x=0, y=0):
-	if len(cards)==0: return
-	card = cards[len(cards)-1]
-	if card in table and re.search("Evolution", card.Type):
+	if not isinstance(cards, list):
+		cards = [cards]
+	if len(cards)==0: return False
+	c = cards[len(cards)-1]
+	if c and re.search("Evolution", c.Type):
 		return True
 
 def isUntargettable(card):
@@ -3262,7 +3263,7 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 #Function used for "Attach Bait" option in right click menu for Evos. Returns newly added card(s)
 def attachBait(card, x=0, y=0):
 	mute()
-	cardList = [c for c in table if not isMana(c) and not isShield(c) and c.owner==me and not isBait(c) and c != card]
+	cardList = [c for c in table if c != card and not isMana(c) and not isShield(c) and c.owner == me and not isBait(c)]
 	if len(cardList) == 0:
 		whisper('No cards on the field to attach.')
 		return []
@@ -3499,7 +3500,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			targets = askCard2(materialList,textBox.format(' from Graveyard'),maximumToTake=maximumToTake, returnAsArray=True)
 			if not isinstance(targets,list): return
 			for target in targets:
-				toPlay(target,0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
+				toPlay(target, 0, 0,True,' for Graveyard Evolution of {}'.format(card),True, True)
 		#Mana Evolutions
 		elif re.search(r"Mana(?:\s+Galaxy)?(?:\s+Vortex)?\s+evolution", card.Rules, re.IGNORECASE):
 			materialList = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
