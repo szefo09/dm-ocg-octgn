@@ -103,6 +103,15 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Zombie Carnival**
   - **Kalute, Vizier of Eternity**
   - **Swamp Worm**
+  - **Drill Mutant**
+  - **Dolgeza, Strong Striker**
+  - **Spiritual Star Dragon**
+  - **Judgement of the Flame's Spear and the Water's Blade**
+  - **Magical Pot**
+  - **Nightmare Machine**
+  - **Eternal Phoenix, Dragonflame Phoenix**
+  - **Melcap, the Mutant Explorer**
+  - **Tick Tick, Swift Viral Swordfighter**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
