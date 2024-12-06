@@ -967,6 +967,22 @@ def processEvolution(card, targets):
 	evolveDict[card._id] = targetList
 	me.setGlobalVariable("evolution", str(evolveDict))
 
+def processExLife(card):
+	group = me.Deck
+	isExLife = re.search("{Ex Life}",card.Rules,re.IGNORECASE)
+	isExtraExLife = re.search("Extra Ex Life",card.Rules,re.IGNORECASE)
+	if len(group) == 0 or (not isExLife and not isExtraExLife): return
+	shieldCount = int(me.getGlobalVariable("shieldCount")) + 1
+	if isExLife or (isExtraExLife and len(group)==1):
+		card.properties["Rules"] = '(Ex Life - Shield #{})\n{}'.format(shieldCount, card.properties["Rules"])
+		toShields(group[0], notifymute=True)
+		notify("{} sets top card of {} as shield for Ex Life of {}.".format(me, group.name, card))
+	elif isExtraExLife:
+		card.properties["Rules"] = '(Extra Ex Life - Shield #{} and #{})\n{}'.format(shieldCount,shieldCount+1, card.properties["Rules"])
+		toShields(group[0], notifymute=True)
+		toShields(group[0], notifymute=True)
+		notify("{} sets top 2 cards of {} as shields for Extra Ex Life of {}.".format(me, group.name, card))
+
 #Useful to handle Twinpacts
 def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 	comparisons = {
@@ -1590,9 +1606,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	for card in myCardList:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if
-		cardToBeSaved != card and isCreature(card) and card.owner == me and not isBait(card) and re.search("Saver",card.rules, re.IGNORECASE) and (
-			re.search(cardToBeSaved.properties['Race'], card.rules) or re.search(
-			"Saver: All Races", card.rules, re.IGNORECASE))]
+		cardToBeSaved != card and isCreature(card) and card.owner == me and not isBait(card) and re.search(r"(?<!Shield )Saver",card.rules, re.IGNORECASE)]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
 					cardToBeSaved.Name)):
@@ -3070,7 +3084,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			#notify("On trig list is".format(trigFunctions[0]))
 			for function in trigFunctions:
 				conditionalTrigger = conditionalTrigger and trigFunctions[0]()
-		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules):
+		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 
@@ -3084,17 +3098,17 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				return
 
 		shieldCard = card
-		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules)]
+		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules, re.IGNORECASE)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
 			cardsInHandWithStrikeBackAbilityThatCanBeUsed = []
 			for cardInHandWithStrikeBackAbility in cardsInHandWithStrikeBackAbility:
-				if re.search("Super Strike Back", cardInHandWithStrikeBackAbility.rules):  # special case for Deadbrachio
+				if re.search("Super Strike Back", cardInHandWithStrikeBackAbility.rules, re.IGNORECASE):  # special case for Deadbrachio
 					if manaArmsCheck():
 						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
 				elif re.search("Strike Back.*Hunter", cardInHandWithStrikeBackAbility.rules):
 					if re.search("Hunter", shieldCard.Race):  # special case for Aqua Advisor
 						cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
-				elif re.search("Strike Back", cardInHandWithStrikeBackAbility.rules) and re.search(cardInHandWithStrikeBackAbility.Civilization, shieldCard.Civilization):
+				elif re.search("Strike Back", cardInHandWithStrikeBackAbility.rules, re.IGNORECASE) and re.search(cardInHandWithStrikeBackAbility.Civilization, shieldCard.Civilization, re.IGNORECASE):
 					cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed) > 0:
 				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name,
@@ -3115,9 +3129,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		toDiscard(card)
 	else:
 		cardToBeSaved = card
-		possibleSavers = [c for c in table if
-						  cardToBeSaved != c and isCreature(c) and c.owner == me and not isBait(c) and re.search("Saver",c.rules, re.IGNORECASE)
-						  and (re.search(cardToBeSaved.properties['Race'], c.rules) or re.search("Saver: All Races", c.rules, re.IGNORECASE))]
+		possibleSavers = [c for c in table if cardToBeSaved != c and isCreature(c) and c.owner == me and not isBait(c) and re.search(r"(?<!Shield )Saver",c.rules, re.IGNORECASE)]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
 					cardToBeSaved.Name)):
@@ -3637,6 +3649,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			card.Rules=card.properties['Rules{}'.format(choice)]
 
 			notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
+		processExLife(card)
 		functionList = []
 		if metamorph() and cardScripts.get(card.name, {}).get('onMetamorph', []):
 			functionList = cardScripts.get(card.name).get('onMetamorph')
