@@ -385,9 +385,10 @@ cardScripts = {
 	'Teleportation': {'onPlay': [lambda card: bounce(2)]},
 	'Ten-Ton Crunch': {'onPlay': [lambda card: kill(3000)]},
 	'Terror Pit': {'onPlay': [lambda card: kill("All")]},
-	'Thunder Net': {'onPlay': [lambda card: tapCreature(count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r'Water',c.Civilization)]))]},
+	'The Grave of Angels and Demons': {'onPlay': [lambda card: theGraveOfAngelsAndDemons()]},
 	'The Strong Spiral': {'onPlay': [lambda card: bounce()]},
 	'The Strong Breath': {'onPlay': [lambda card: kill("ALL","Untap")]},
+	'Thunder Net': {'onPlay': [lambda card: tapCreature(count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r'Water',c.Civilization)]))]},
 	'Timeless Garden': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Tornado Flame': {'onPlay': [lambda card: kill(4000)]},
 	'Transmogrify': {'onPlay': [lambda card: killAndSearch(True)]},
@@ -1020,7 +1021,6 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 
 	return False
 
-
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
@@ -1095,6 +1095,7 @@ def isEvo(cards, x=0, y=0):
 	c = cards[len(cards)-1]
 	if c and re.search("Evolution", c.Type):
 		return True
+	return False
 
 def isUntargettable(card):
 	mute()
@@ -2521,6 +2522,32 @@ def _enemyMiraculousMeltdown(count):
 	notSelectedShields = [c for c in table if c.owner == me and isShield(c) and c not in targets]
 	peekShields(notSelectedShields)
 
+def theGraveOfAngelsAndDemons():
+	if askYN('Destroy automatically?') != 1: return
+	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
+	manaList = [c for c in table if isMana(c)]
+
+	def groupByName(card_list):
+		sortedCards = sorted(card_list, key=lambda card: card.Name)
+		return itertools.groupby(sortedCards, key=lambda card: card.Name)
+
+	def findDuplicates(groupedCards):
+		duplicates = []
+		for name, group in groupedCards:
+			groupList = list(group)
+			if len(groupList) > 1:
+				duplicates.extend(groupList)
+		return duplicates
+
+	groupedCreatures = groupByName(creatureList)
+	groupedMana = groupByName(manaList)
+	creaturesToDestroy = findDuplicates(groupedCreatures)
+	manaToGraveyard = findDuplicates(groupedMana)
+
+	destroyAll(creaturesToDestroy, dontAsk=True)
+	for mana in manaToGraveyard:
+		toDiscard(mana)
+
 def miraculousPlague():
 	mute()
 	creatureList = [card for card in table if isCreature(card) and not isBait(card) and card.owner != me and not isUntargettable(card)]
@@ -3823,18 +3850,18 @@ def toDeck(card, bottom=False):
 			evaluateWaitingFunctions()
 
 allowed_globals = {
-    '__builtins__': None,
+	'__builtins__': None,
 	'True': True,
 	'False': False,
 	'None': None,
-    're': re,
-    'int': int,
+	're': re,
+	'int': int,
 	'str': str,
 	'float': float,
 	'list': list,
 	'dict': dict,
 	'set': set,
-    'cardCostComparator': cardCostComparator,
+	'cardCostComparator': cardCostComparator,
 	'me': me,
 	'Rot0': Rot0,
 	'Rot90': Rot90,
