@@ -618,7 +618,8 @@ cardScripts = {
 
 	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
 	# so manual it is for now.
-	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]}
+	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]},
+	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]}
 }
 
 ######### Events ##################
@@ -2224,6 +2225,8 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
 
 def activateButtonEffect(card, x=0, y=0):
+	mute()
+	notify('{} triggers the effect of {}'.format(me, card))
 	functionList = []
 	if re.search('Survivor', card.Race):
 		survivors = getSurvivorsOnYourTable()
