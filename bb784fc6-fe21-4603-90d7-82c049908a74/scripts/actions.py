@@ -615,6 +615,10 @@ cardScripts = {
 							   'onPlay': [lambda card: declareRace(card, "Mecha Del Sol")]},
 	'Warlord Ailzonius':{'untargettable':True},
 	'Yuliana, Channeler of Suns':{'untargettable':True},
+
+	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
+	# so manual it is for now.
+	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]}
 }
 
 ######### Events ##################
@@ -1096,6 +1100,22 @@ def isEvo(cards, x=0, y=0):
 	if c and re.search("Evolution", c.Type):
 		return True
 	return False
+
+def hasButtonEffect(cards, x=0, y=0):
+	if not isinstance(cards, list):
+		cards = [cards]
+	if len(cards)==0: return False
+	c = cards[len(cards)-1]
+	if c and cardScripts.get(c.name, {}).get('onButton', []) and not isMana(c) and not isShield(c) and not isBait(c):
+		return True
+	return False
+
+def getHasButtonEffect(cards, x=0, y=0):
+	if not isinstance(cards, list):
+		cards = [cards]
+	if len(cards)==0: return ''
+	c = cards[len(cards)-1]
+	return '■ Trigger {} Effect'.format(c.Name)
 
 def isUntargettable(card):
 	mute()
@@ -2202,6 +2222,22 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		if choice == 0: return
 		waitingFunct.insert(1, [card,functionArray[choice-1]])
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
+
+def activateButtonEffect(card, x=0, y=0):
+	functionList = []
+	if re.search('Survivor', card.Race):
+		survivors = getSurvivorsOnYourTable()
+		#for non-sharing survivors
+		if card not in survivors:
+			survivors.insert(0, card)
+		for surv in survivors:
+			if cardScripts.get(surv.name, {}).get('onButton', []):
+				functionList.extend(cardScripts.get(surv.name).get('onButton'))
+	elif cardScripts.get(card.name, {}).get('onButton', []):
+		functionList = cardScripts.get(card.name).get('onButton')
+	for index, function in enumerate(functionList):
+		waitingFunct.insert(index + 1, [card, function])
+	evaluateWaitingFunctions()
 
 #Used for Meteorburn's: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, "EFFECT".
 def meteorburn(functionArray, card, minimum=1, maximum=1):
