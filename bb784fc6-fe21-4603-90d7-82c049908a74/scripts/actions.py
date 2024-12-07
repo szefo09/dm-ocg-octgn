@@ -229,7 +229,10 @@ cardScripts = {
 	'Cataclysmic Eruption':{'onPlay': [lambda card: destroyMana(len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r'Nature',c.Civilization)]))]},
 	'Chains of Sacrifice': {'onPlay': [lambda card: kill("ALL","ALL","ALL",2), lambda card:sacrifice()]},
 	'Clone Factory': {'onPlay': [lambda card: fromMana(2)]},
-	'Cloned Nightmare': {'onPlay': [lambda card: clonedDiscard()]},
+	'Cloned Blade': {'onPlay': [lambda card: cloned(lambda card, count: kill('3000', count=count),card)]},
+	'Cloned Deflector': {'onPlay': [lambda card: cloned(lambda card, count: tapCreature(count),card)]},
+	'Cloned Nightmare': {'onPlay': [lambda card: cloned(lambda card, count: targetDiscard(True, count=count),card)]},
+	'Cloned Spiral': {'onPlay': [lambda card: cloned(lambda card, count: bounce(count),card)]},
 	'Comet Missile': {'onPlay': [lambda card: kill(powerFilter=6000, count=1, rulesFilter="{BLOCKER}")]},
 	'Corpse Charger': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Crimson Hammer': {'onPlay': [lambda card: kill(2000)]},
@@ -1292,25 +1295,6 @@ def discardAll(onlyOpponent=True, onlySelf=False):
 	for card in cardList:
 		remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(card))
 
-#Cloned Nightmares
-def clonedDiscard():
-	mute()
-	targetPlayer = getTargetPlayer(onlyOpponent=True)
-	if not targetPlayer: return
-	cardList = [card for card in targetPlayer.hand]
-
-	count = 1
-	for player in currentPlayers:
-		for card in player.piles["Graveyard"]:
-			if re.search(card.Name, "Cloned Nightmare"):
-				count += 1
-	notify("Cloned Nightmares in graves:{}".format(count - 1))
-
-	#if remoteCall(targetPlayer, 'antiDiscard', ['GENERALCHECK', me]): return
-
-	for i in range(0, count):
-		remoteCall(targetPlayer, 'randomDiscard', convertGroupIntoGroupNameList(targetPlayer.hand))
-
 # do some anti-discard inside dat randomdisc function
 
 #Move a card from Mana to hand/graveyard
@@ -2175,6 +2159,18 @@ def lonely(card):
 
 # Special Card Group Automatization
 
+def cloned(functionArray, card):
+	if callable(functionArray):
+		functionArray=[functionArray]
+	count = 1
+	for player in getPlayers():
+		for c in player.piles["Graveyard"]:
+			if re.search(c.Name, card.Name):
+				count += 1
+	notify("{}s in graves:{}".format(card.Name, count - 1))
+	for index, funct in enumerate(functionArray):
+		waitingFunct.insert(index + 1, [card, lambda card = card, count = count: funct(card, count)])
+
 def waveStriker(functionArray, card):
 	if callable(functionArray):
 		functionArray=[functionArray]
@@ -2258,7 +2254,6 @@ def bronks():
 
 def cyclonePanic():
 	if confirm("Are you sure you want to continue?"):
-		currentPlayers = getPlayers()
 		for player in getPlayers():
 			cardInHand = [c for c in player.hand]
 			for c in cardInHand:
