@@ -619,7 +619,9 @@ cardScripts = {
 	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
 	# so manual it is for now.
 	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]},
-	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]}
+	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
+	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]},
+	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]}
 }
 
 ######### Events ##################
