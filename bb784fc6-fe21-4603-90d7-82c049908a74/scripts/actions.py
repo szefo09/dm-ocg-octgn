@@ -2786,6 +2786,7 @@ def moveCards(args): #this is triggered every time a card is moved
 			##notify("Ignored")
 			return
 		clearArrowOnMove(args)
+		card.target(False)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 		for evo in evolveDict.keys():
