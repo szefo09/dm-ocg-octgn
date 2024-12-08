@@ -2154,8 +2154,9 @@ def swapManaAndHand(tapped = True):
 			handCard.orientation = Rot270
 
 def lonely(card):
-	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1: destroy(card)
-	notify("{} got destroyed because it was alone on board!".format(card))
+	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1: 
+		destroy(card)
+		notify("{} got destroyed because it was alone on board!".format(card))
 
 # Special Card Group Automatization
 
