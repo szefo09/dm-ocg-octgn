@@ -3144,9 +3144,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			toDiscard(card)
 			return
 		card.peek()
-
-		#Magical bugfix to remove Peek symbol in hand
-		rnd(1,1)
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
@@ -3157,7 +3154,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
-
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
 				card.isFaceUp = True
 				card.target(False)
@@ -3194,6 +3190,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
+		update() #update here fixes peek icon
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
@@ -3747,8 +3744,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		endOfFunctionality(card)
 
 def endOfFunctionality(card):
-	#Magical bugfix to remove Peek symbol
-	rnd(1,1)
+	update()
 	if card and isSpellInBZ(card):
 		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
 			toMana(card)
@@ -3825,6 +3821,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		# card.isFaceUp = False
 		card.resetProperties()
 		card.target(False)
+		update()
 		card.moveTo(card.owner.hand)
 	else:
 		# here, move the card to hand first so it will only show card link to only the player who can see the hand
