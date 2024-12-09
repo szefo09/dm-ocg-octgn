@@ -3146,7 +3146,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			#notify("On trig list is".format(trigFunctions[0]))
 			for function in trigFunctions:
 				conditionalTrigger = conditionalTrigger and trigFunctions[0]()
-		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
+		if conditionalTrigger and re.search("SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
@@ -3158,7 +3158,25 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				card.peek()
 				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
 				return
-
+		if re.search("{GUARD STRIKE}", card.Rules, re.IGNORECASE):
+			choice = askYN("Activate Guard Strike for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
+			if choice==1:
+				card.isFaceUp = True
+				card.target(False)
+				notify("{} uses {}'s Guard Strike.".format(me, card))
+				creatureList = [c for c in table if c.owner != me and isCreature(c) and not isBait(c) and not isUntargettable(c)]
+				if len(creatureList)>0:
+					if me.isInverted: reverseCardList(creatureList)
+					choice = askCard2(creatureList)
+					if type(choice) is Card:
+						choice.target(True)
+						notify('Guard Strike: {} cannot attack this turn.'.format(choice))
+				else:
+					whisper("No targets.")
+			elif choice==3 or choice==0:
+				card.peek()
+				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
+				return
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules, re.IGNORECASE)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
