@@ -3143,7 +3143,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if dest == True:
 			toDiscard(card)
 			return
-		card.peek()
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
@@ -3160,6 +3159,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				toPlay(card, notifymute=True)
 				return
 			elif choice==3 or choice==0:
+				card.peek()
 				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
 				return
 
@@ -3183,14 +3183,12 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					choice = askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
 						shieldCard.isFaceUp = True
-
 						toPlay(choice, notifymute=True)
 						toDiscard(shieldCard)
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
-		update() #update here fixes peek icon
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
@@ -3821,7 +3819,6 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		# card.isFaceUp = False
 		card.resetProperties()
 		card.target(False)
-		update()
 		card.moveTo(card.owner.hand)
 	else:
 		# here, move the card to hand first so it will only show card link to only the player who can see the hand
