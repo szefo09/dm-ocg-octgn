@@ -513,6 +513,7 @@ cardScripts = {
 	'Gigio\'s Hammer': {'onTap': [lambda card: declareRace(card)]},
 	'Grim Soul, Shadow of Reversal': {'onTap': [lambda card: search(me.piles["Graveyard"],1,"Creature","Darkness")]},
 	'Kachua, Keeper of the Icegate': {'onTap':[lambda card: fromDeckToField("re.search(r'Dragon\\b', c.Race, re.I)")]},
+	'Heavyweight Dragon': {'onTap': [lambda card: heavyweightDragon(card)]},
 	'Hokira': {'onTap': [lambda card: declareRace(card)]},
 	'Kipo\'s Contraption': {'onTap': [lambda card: kill(2000)]},
 	'Neon Cluster': {'onTap': [lambda card: draw(me.Deck,False,2)]},
@@ -2476,7 +2477,7 @@ def heavyweightDragon(card):
 	if totalPower<int(card.Power.strip('+')):
 		destroyAll(choices)
 	else:
-		notify("Your choices ({} Power) exceed {}'s Power".format(totalPower, card.Power))
+		notify("{}'s choices ({} Power) exceed {}'s Power".format(me, totalPower, card.Power))
 
 def hydroHurricane(card):
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
