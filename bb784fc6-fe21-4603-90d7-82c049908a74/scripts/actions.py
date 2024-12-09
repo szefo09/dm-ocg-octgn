@@ -648,7 +648,8 @@ cardScripts = {
 	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana()]},
 	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
 	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]},
-	'Turtle Horn, the Imposing': {'onButton': [lambda card: search(me.Deck, 1, "Creature")]}
+	'Turtle Horn, the Imposing': {'onButton': [lambda card: search(me.Deck, 1, "Creature")]},
+	'Thrumiss, Zephyr Guardian':{'onButton':[lambda card: tapCreature()]}
 }
 
 ######### Events ##################
@@ -2781,9 +2782,13 @@ def nigthmareMachine():
 	opponentSacrifice(['inf', 1, 'c.orientation == Rot0'])
 
 def dracodanceTotem(card):
-	if len([c for c in table if isMana(c) and re.search(r'Dragon\b', choice.Race, re.I)])>0:
-		fromMana(1,"ALL","ALL","Dragon")
-		toMana(card)
+	manaList = [c for c in table if c.owner==me and isMana(c) and re.search(r'Dragon\b', c.Race, re.I)]
+	if len(manaList)==0:return
+	if me.isInverted: reverseCardList(manaList)
+	choice = askCard2(manaList,'Choose a Dragon from the Mana Zone')	
+	if type(choice) is not Card:return
+	toHand(choice)
+	toMana(card)
 
 def soulSwap():
 	mute()
@@ -2890,19 +2895,18 @@ def fromDeckToField(filterFunction="True", count = 1):
 	if len(group) == 0: return
 	cardsInGroup = sort_cardList([card for card in group])
 	validChoices = [c for c in cardsInGroup if eval(filterFunction)]	
-	for i in range(count):
-		while (True):
-			c = askCard2(cardsInGroup, 'Search a Card to put to the Battle Zone (1 at a time)')
-			if type(c) is not Card:
-				shuffle(group)
-				notify("{} finishes searching their {}.".format(me, group.name))
-				return
-			if c in validChoices:
-				cardsInGroup.remove(c)
-				toPlay(c)
-				break
+	while (True):
+		choices = askCard2(cardsInGroup, 'Choose {} Creature(s) to Summon from the Deck'.format(count), maximumToTake=count,returnAsArray=True)
+		if not isinstance(choices,list):
+			shuffle(group)
+			notify("{} finishes searching their {}.".format(me, group.name))
+			return
+		if all(c in validChoices for c in choices):
+			for choice in choices:
+				toPlay(choice)
+			break
 	shuffle(group)
-
+	notify("{} finishes searching their {}.".format(me, group.name))
 
 # End of Automation Code
 

@@ -119,6 +119,14 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Mizoy, the Oracle**
   - **Frantic Chieftain**
   - **Wily Carpenter**
+  - **Bruiser Dragon**
+  - **Dimension Splitter**
+  - **Dracobarrier**
+  - **Dracodance Totem**
+  - **Grape Globbo**
+  - **Laser Whip**
+  - **Necrodragon Galbazeek**
+  - **Wave Lance**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -163,6 +171,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Silvermoon Trailblazer
     - Tra Rion, Penumbra Guardian
     - Venom Worm
+    - Kachua, Keeper of the Icegate
 
 
 
@@ -212,6 +221,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Tentacle Cluster
     - Trixo, Wicked Doll
     - Quakesaur
+    - Aqua Grappler
+    - Lalicious
 
 
 - **Silent Skill Effects Added**: 
@@ -287,6 +298,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Evil Incarnate
     - Gigavrand
     - Turtle Horn, the Imposing
+    - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
   - **Added new button for evolution creatures: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.
