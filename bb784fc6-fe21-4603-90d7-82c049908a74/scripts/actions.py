@@ -622,6 +622,8 @@ cardScripts = {
 	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
 	# so manual it is for now.
 	'Auzesu, Demonic Elemental': {'onButton': lambda card: kill(tapFilter='TAP')},
+	'Bluum Erkis, Flare Guardian': {'onButton': [lambda card: bluumErkis(card)]},
+	'Bolmeteus Steel Dragon': {'onButton': [lambda card: burnShieldKill(2)]},
 	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]},
 	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
 	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana()]},
@@ -1636,7 +1638,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
 			#notify('DEBUG: Added {} to {}'.format(cardScripts.get(card.Name).get('onDestroy'), card.Name))
-			functionList = cardScripts.get(card.Name).get('onDestroy')
+			functionList = list(cardScripts.get(card.Name).get('onDestroy'))
 		if re.search("Survivor", card.Race):
 			for surv in survivors:
 				if surv != card and cardScripts.get(surv.name, {}).get('onDestroy', []):
@@ -1951,7 +1953,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 
 		#OnAttack Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer() == me and not isBait(card) and not activatedTapEffect:
-			functionList = cardScripts.get(card.Name, {}).get('onAttack', [])
+			functionList = list(cardScripts.get(card.Name, {}).get('onAttack', []))
 			if re.search("Survivor",card.Race):
 				survivors = getSurvivorsOnYourTable()
 				for surv in survivors:
@@ -1972,7 +1974,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 def processOnTurnEndEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
 	for card in cardList:
-		functionList = cardScripts.get(card.name, {}).get('onTurnEnd', [])
+		functionList = list(cardScripts.get(card.name, {}).get('onTurnEnd', []))
 		if re.search("Survivor", card.Race):
 			survivors = getSurvivorsOnYourTable()
 			for surv in survivors:
@@ -1988,7 +1990,7 @@ def processOnTurnEndEffects():
 def processOnTurnStartEffects():
 	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
 	for card in cardList:
-		functionList = cardScripts.get(card.name, {}).get('onTurnStart', [])
+		functionList = list(cardScripts.get(card.name, {}).get('onTurnStart', []))
 		if re.search("Survivor", card.Race):
 			survivors = getSurvivorsOnYourTable()
 			for surv in survivors:
@@ -2269,6 +2271,31 @@ def apocalypseVise():
 		creatureList = [card for card in creatureList if int(card.Power.strip('+'))<=powerLeft]
 	if len(creaturesToDestroy)>0:
 		destroyAll(creaturesToDestroy, False)
+
+def bluumErkis(card):
+	mute()
+	targets = [c for c in table if c.targetedBy == me and c.owner != me and isShield(c)]
+	count = min(1, len([c for c in table if c!= me and isShield(c)]))
+	if count == 0:
+		whisper("No valid targets.")
+		return
+	if len(targets)!=count:
+		return True
+	for shield in targets:
+		remoteCall(shield.owner, 'flip', [shield])
+		update()
+		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
+			notify('{} casts {}'.format(me, shield.name, card.name))
+			if cardScripts.get(shield.name, {}).get('onPlay', []):
+				functionList = list(cardScripts.get(shield.name).get('onPlay'))
+				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', [card]))
+				for index, function in enumerate(functionList):
+					waitingFunct.insert(index + 1, [shield, function])
+			shield.target(False)
+		else:
+			remoteCall(shield.owner, 'toHand', [shield])
+	orderEvaluatingFunctions()
+	evaluateWaitingFunctions()
 
 def bronks():
 	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
@@ -3225,7 +3252,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDestroy', {}):
-			functionList = cardScripts.get(card.Name).get('onDestroy')
+			functionList = list(cardScripts.get(card.Name).get('onDestroy'))
 		if re.search("Survivor", card.Race):
 			survivors = getSurvivorsOnYourTable()
 			for surv in survivors:
@@ -3731,7 +3758,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		processExLife(card)
 		functionList = []
 		if metamorph() and cardScripts.get(card.name, {}).get('onMetamorph', []):
-			functionList = cardScripts.get(card.name).get('onMetamorph')
+			functionList = list(cardScripts.get(card.name).get('onMetamorph'))
 			notify("Metamorph for {} activated!".format(card))
 		elif re.search('Survivor', card.Race):
 			survivors = getSurvivorsOnYourTable()
@@ -3744,7 +3771,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				if cardScripts.get(surv.name, {}).get('onPlay', []):
 					functionList.extend(cardScripts.get(surv.name).get('onPlay'))
 		elif cardScripts.get(card.name, {}).get('onPlay', []):
-			functionList = cardScripts.get(card.name).get('onPlay')
+			functionList = list(cardScripts.get(card.name).get('onPlay'))
 
 		for index, function in enumerate(functionList):
 			waitingFunct.insert(index + 1, [card, function]) # This fuction will be queued(along with the card that called it). RN it's waiting.
