@@ -70,7 +70,7 @@ cardScripts = {
 	'Dandy Nasuo': {'onPlay': [lambda card: fromDeckToMana(),lambda card: fromMana(count=1, toGrave=True)]},
 	'Dark Hydra, Evil Planet Lord': {'onPlay': [lambda card: fromGrave()]},
 	'Death Mendosa, Death Dragonic Baron': {'onPlay': [lambda card: kill("ALL","Untap")]},
-	'Dimension Splitter':{'onPlay':[lambda card: fromGraveyardAll("re.search(r'Dragon\\b', c.Race, re.I)", False, True, True)]},
+	'Dimension Splitter':{'onPlay':[lambda card: fromGraveyardAll("re.search(r'Dragon\\b', c.Race, re.I)", True, False, True)]},
 	'Drill Mutant': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Evolution Creature")]},
 	'Doboulgyser, Giant Rock Beast': {'onPlay': [lambda card: kill(3000)]},
 	'Dolgeza, Strong Striker': {'onPlay': [lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isBait(c) and re.search("Earth Eater", c.Race)])), lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isBait(c) and re.search("Giant", c.Race)]))]},
@@ -2207,7 +2207,7 @@ def swapManaAndHand(tapped = True):
 			handCard.orientation = Rot270
 
 def lonely(card):
-	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1: 
+	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1:
 		destroy(card)
 		notify("{} got destroyed because it was alone on board!".format(card))
 
@@ -2533,7 +2533,7 @@ def waveLance():
 		return
 	target = [c for c in table if c.targetedBy == me and c in cardList]
 	if len(target) != 1:
-		whisper("Wrong number of targets!")	
+		whisper("Wrong number of targets!")
 		return True
 	else:
 		remoteCall(target[0].owner, "toHand", convertCardListIntoCardIDsList(target))
@@ -2785,7 +2785,7 @@ def dracodanceTotem(card):
 	manaList = [c for c in table if c.owner==me and isMana(c) and re.search(r'Dragon\b', c.Race, re.I)]
 	if len(manaList)==0:return
 	if me.isInverted: reverseCardList(manaList)
-	choice = askCard2(manaList,'Choose a Dragon from the Mana Zone')	
+	choice = askCard2(manaList,'Choose a Dragon from the Mana Zone')
 	if type(choice) is not Card:return
 	toHand(choice)
 	toMana(card)
@@ -2860,41 +2860,44 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 		toMana(c)
 
 def fromGraveyard(count=1,filterFunction="True", ask=False, moveToMana=True, moveToHand=False):
-    mute()
-    group=me.piles['Graveyard']
-    if len(group) == 0: return
-    if ask:
-        choice = askYN("Would you like to move {} Card(s) from Graveyard?".format(count))
-        if choice != 1: return
-    count = min(count,len(group))
-    cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
-    for i in range(count):
-        choice = askCard2(cardsInGroup, 'Pick a Card to put to Mana (1 at a time)')
-        if type(choice) is not Card:
-            notify("{} finishes searching their {}.".format(me, group.name))
-            return
-        cardsInGroup.remove(choice)
-        if moveToMana: toMana(choice)
-        elif moveToHand: toHand(choice)
+	mute()
+	group=me.piles['Graveyard']
+	if len(group) == 0: return
+	if ask:
+		choice = askYN("Would you like to move {} Card(s) from Graveyard?".format(count))
+		if choice != 1: return
+	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
+	count = min(count,len(cardsInGroup))
+	if len(count) == 0: 
+		notify("No cards to move!")
+		return
+	choices = askCard2(cardsInGroup, 'Pick {} Card(s) from Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
+	notify("{} finishes searching their Graveyard.".format(me))
+	if not isinstance(choices, list): return
+	for choice in choices:
+		if moveToMana: toMana(choice)
+		elif moveToHand: toHand(choice)
 
-def fromGraveyardAll(filterFunction="True",moveToMana=True, moveToHand=False, ask=False):
-    group=me.piles['Graveyard']
-    if len(group) == 0: return
-    if ask:
-        choice = askYN("Would you like to move Cards from Graveyard?")
-        if choice != 1: return
-    cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
-    if len(cardsInGroup) == 0: notify("No cards to move!") 
-    for c in cardsInGroup:
-        if moveToMana: toMana(c)
-        elif moveToHand: toHand(c)
+def fromGraveyardAll(filterFunction="True", ask=False, moveToMana=True, moveToHand=False):
+	group=me.piles['Graveyard']
+	if len(group) == 0: return
+	if ask:
+		choice = askYN("Would you like to move Cards from Graveyard?")
+		if choice != 1: return
+	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
+	if len(cardsInGroup) == 0: 
+		notify("No cards to move!")
+		return
+	for c in cardsInGroup:
+		if moveToMana: toMana(c)
+		elif moveToHand: toHand(c)
 
 def fromDeckToField(filterFunction="True", count = 1):
 	mute()
 	group = me.deck
 	if len(group) == 0: return
 	cardsInGroup = sort_cardList([card for card in group])
-	validChoices = [c for c in cardsInGroup if eval(filterFunction)]	
+	validChoices = [c for c in cardsInGroup if eval(filterFunction)]
 	while (True):
 		choices = askCard2(cardsInGroup, 'Choose {} Creature(s) to Summon from the Deck'.format(count), maximumToTake=count,returnAsArray=True)
 		if not isinstance(choices,list):
