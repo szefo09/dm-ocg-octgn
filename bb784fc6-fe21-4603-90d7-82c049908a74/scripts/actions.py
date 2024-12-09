@@ -1102,7 +1102,7 @@ def isEvo(cards, x=0, y=0):
 		cards = [cards]
 	if len(cards)==0: return False
 	c = cards[len(cards)-1]
-	if c and re.search("Evolution", c.Type):
+	if c and re.search("Evolution", c.Type) and not isMana(c) and not isShield(c) and not isBait(c):
 		return True
 	return False
 
