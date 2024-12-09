@@ -112,6 +112,13 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Eternal Phoenix, Dragonflame Phoenix**
   - **Melcap, the Mutant Explorer**
   - **Tick Tick, Swift Viral Swordfighter**
+  - **The Grave of Angels and Demons**
+  - **Cloned - Spells**
+  - **Extreme Crawler**
+  - **Gigarayze**
+  - **Mizoy, the Oracle**
+  - **Frantic Chieftain**
+  - **Wily Carpenter**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -252,7 +259,11 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **"When this creature leaves the battle zone" Effects Added**
   - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
   - **New Cards Added**:
+    - Aura Pegasus, Avatar of Life
     - Cruel Naga, Avatar of Fate
+    - Death Phoenix, Avatar of Doom
+    - Wise Starnoid, Avatar of Hope
+
 - **"Cannot be chosen by your opponent's card Effects" Added**
   - **New Cards Added**:
     - Petrova, Channeler of Suns (Petrova also recieved a race selector, so you can more easly declare the creature race.)
@@ -262,6 +273,20 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Works as a wrapper around onAttack action for automated cards with Meteorburn**
   - **New Cards Added**:
     - Supernova Jupiter King Empire
+- **Manual Effect Trigger Added**
+  - **A button appears on creatures on the field that have a manual effect trigger**
+  - **New Cards Added**
+    - Auzesu, Demonic Elemental
+    - Bluum Erkis, Flare Guardian
+    - Bolmeteus Steel Dragon
+    - Ice Vapor, Shadow of Anguish
+    - Joe's Toolkit
+    - Pocopen, Counterattacking Faerie
+    - Rieille, the Oracle
+    - Super Dragon Machine Dolzark
+    - Evil Incarnate
+    - Gigavrand
+    - Turtle Horn, the Imposing
 
 - **Other Improvements**
   - **Added new button for evolution creatures: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.
