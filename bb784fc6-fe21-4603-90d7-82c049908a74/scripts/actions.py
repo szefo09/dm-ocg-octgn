@@ -618,6 +618,15 @@ cardScripts = {
 							   'onPlay': [lambda card: declareRace(card, "Mecha Del Sol")]},
 	'Warlord Ailzonius':{'untargettable':True},
 	'Yuliana, Channeler of Suns':{'untargettable':True},
+
+	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
+	# so manual it is for now.
+	'Auzesu, Demonic Elemental': {'onButton': lambda card: kill(tapFilter='TAP')},
+	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]},
+	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
+	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana()]},
+	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
+	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]},
 }
 
 ######### Events ##################
@@ -1096,9 +1105,25 @@ def isEvo(cards, x=0, y=0):
 		cards = [cards]
 	if len(cards)==0: return False
 	c = cards[len(cards)-1]
-	if c and re.search("Evolution", c.Type):
+	if c and re.search("Evolution", c.Type) and not isMana(c) and not isShield(c) and not isBait(c):
 		return True
 	return False
+
+def hasButtonEffect(cards, x=0, y=0):
+	if not isinstance(cards, list):
+		cards = [cards]
+	if len(cards)==0: return False
+	c = cards[len(cards)-1]
+	if c and cardScripts.get(c.name, {}).get('onButton', []) and not isMana(c) and not isShield(c) and not isBait(c):
+		return True
+	return False
+
+def getHasButtonEffect(cards, x=0, y=0):
+	if not isinstance(cards, list):
+		cards = [cards]
+	if len(cards)==0: return ''
+	c = cards[len(cards)-1]
+	return '■ Trigger {} Effect'.format(c.Name)
 
 def isUntargettable(card):
 	mute()
@@ -2199,6 +2224,24 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		waitingFunct.insert(1, [card,functionArray[choice-1]])
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
 
+def activateButtonEffect(card, x=0, y=0):
+	mute()
+	notify('{} triggers the effect of {}'.format(me, card))
+	functionList = []
+	if re.search('Survivor', card.Race):
+		survivors = getSurvivorsOnYourTable()
+		#for non-sharing survivors
+		if card not in survivors:
+			survivors.insert(0, card)
+		for surv in survivors:
+			if cardScripts.get(surv.name, {}).get('onButton', []):
+				functionList.extend(cardScripts.get(surv.name).get('onButton'))
+	elif cardScripts.get(card.name, {}).get('onButton', []):
+		functionList = cardScripts.get(card.name).get('onButton')
+	for index, function in enumerate(functionList):
+		waitingFunct.insert(index + 1, [card, function])
+	evaluateWaitingFunctions()
+
 #Used for Meteorburn's: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, "EFFECT".
 def meteorburn(functionArray, card, minimum=1, maximum=1):
 	if callable(functionArray):
@@ -3096,10 +3139,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if dest == True:
 			toDiscard(card)
 			return
-		card.peek()
-
-		#Magical bugfix to remove Peek symbol in hand
-		rnd(1,1)
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.Name, {}).get('onTrigger'):
@@ -3110,13 +3149,13 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if conditionalTrigger and re.search("{SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
-
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
 				card.isFaceUp = True
 				card.target(False)
 				toPlay(card, notifymute=True)
 				return
 			elif choice==3 or choice==0:
+				card.peek()
 				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
 				return
 
@@ -3140,7 +3179,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					choice = askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
 						shieldCard.isFaceUp = True
-
 						toPlay(choice, notifymute=True)
 						toDiscard(shieldCard)
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
@@ -3700,8 +3738,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		endOfFunctionality(card)
 
 def endOfFunctionality(card):
-	#Magical bugfix to remove Peek symbol
-	rnd(1,1)
 	if card and isSpellInBZ(card):
 		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
 			toMana(card)
