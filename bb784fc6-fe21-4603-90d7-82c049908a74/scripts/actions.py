@@ -1097,7 +1097,7 @@ def isMana(card):
 
 def isShield(card):
 	mute()
-	if card in table and not card.isFaceUp:
+	if card in table and not card.isFaceUp and card.orientation != Rot180 and card.orientation != Rot270:
 		return True
 	elif card in table and card.markers[shieldMarker] > 0:
 		return True
