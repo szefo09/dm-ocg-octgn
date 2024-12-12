@@ -3349,7 +3349,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			#notify("On trig list is".format(trigFunctions[0]))
 			for function in trigFunctions:
 				conditionalTrigger = conditionalTrigger and trigFunctions[0]()
-		if conditionalTrigger and re.search("SHIELD TRIGGER}", card.Rules, re.IGNORECASE):
+		if conditionalTrigger and re.search(r"SHIELD TRIGGER[\sPLUS]{0,}}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
