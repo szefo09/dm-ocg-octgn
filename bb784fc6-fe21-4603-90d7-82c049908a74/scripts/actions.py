@@ -6,6 +6,7 @@ import re
 import itertools
 import time
 import operator
+from _random import Random
 
 shields = []
 playerside = None
@@ -231,6 +232,7 @@ cardScripts = {
 	'Bone Dance Charger': {'onPlay': [lambda card: mill(me.Deck, 2)]},
 	'Boomerang Comet': {'onPlay': [lambda card: fromMana(), lambda card: toMana(card)]},
 	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
+	'Brain Re:Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(table, True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
@@ -268,11 +270,13 @@ cardScripts = {
 	'Drill Bowgun': {'onPlay': [lambda card: gear("kill")]},
 	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard()]},
 	'Enchanted Soil': {'onPlay': [lambda card: fromGraveyardToMana(2, "re.search('Creature', c.Type)")]},
+	'Energy Re:Light': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Energy Stream': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Eureka Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Eureka Program': {'onPlay': [lambda card: eurekaProgram(True)]},
 	'Faerie Crystal': {'onPlay': [lambda card: mana(me.Deck, postAction="ManaIfCiv", postArgs=["Zero"])]},
 	'Faerie Life': {'onPlay': [lambda card: mana(me.Deck)]},
+	'Faerie Re:Life': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Faerie Miracle': {'onPlay': [lambda card: mana(me.Deck, postAction="mana(me.Deck)", postCondition="manaArmsCheck()")]},
 	'Faerie Shower': {'onPlay': [lambda card: lookAtTopCards(2,"card","hand","mana", False)]},
 	'Flame-Absorbing Palm': {'onPlay': [lambda card: kill(2000)]},
@@ -327,6 +331,7 @@ cardScripts = {
 	'Living Lithograph': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Logic Cube': {'onPlay': [lambda card: search(me.Deck, 1, "Spell")]},
 	'Logic Sphere': {'onPlay': [lambda card: fromMana(1, "Spell")]},
+	'Lost Re:Soul': {'onPlay': [lambda card: discardAll()]},
 	'Lost Soul': {'onPlay': [lambda card: discardAll()]},
 	'Mana Crisis': {'onPlay': [lambda card: destroyMana()]},
 	'Mana Nexus': {'onPlay': [lambda card: sendToShields(1, False, True, False, True)]},
@@ -369,6 +374,7 @@ cardScripts = {
 	'Reflecting Ray': {'onPlay': [lambda card: tapCreature()]},
 	'Relentless Blitz': {'onPlay': [lambda card: declareRace(card)]},
 	'Reverse Cyclone': {'onPlay': [lambda card: tapCreature()]},
+	'Reverse Re:Charger': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Riptide Charger': {'onPlay': [lambda card: bounce()]},
 	'Roar of the Earth': {'onPlay': [lambda card: fromMana(1,"Creature",filterFunction="cardCostComparator(c,6,'>=', typeFilter='Creature')")]},
 	'Roulette of Ruin': {'onPlay': [lambda card: rouletteOfRuin()]},
@@ -3454,6 +3460,17 @@ def untapCreatureAll(ask = True):
 		choice = askYN("Would you like to Untap All Your Creatures?")
 		if choice != 1: return
 	tapMultiple(cardList, clearFunctions=False)
+
+def shuffleToBottom(cards, x=0, y=0):
+	mute()
+	rng = Random()
+	for i in range(len(cards) - 1, 0, -1):
+		j = int(rng.random() * (i + 1))
+		cards[i], cards[j] = cards[j], cards[i] 
+	for card in cards:
+		card.isFaceUp = False
+		card.moveToBottom(me.Deck)
+	notify('{} shuffled {} Cards to the Bottom of their Deck'.format(me, len(cards)))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
