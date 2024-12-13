@@ -76,7 +76,7 @@ cardScripts = {
 	'Dimension Splitter': {'onPlay':[lambda card: fromGraveyardAll("re.search(r'Dragon\\b', c.Race, re.I)", True, False, True)]},
 	'Drill Mutant': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Evolution Creature")]},
 	'Doboulgyser, Giant Rock Beast': {'onPlay': [lambda card: kill(3000)]},
-	'Dolgeza, Strong Striker': {'onPlay': [lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isBait(c) and re.search("Earth Eater", c.Race)])), lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isBait(c) and re.search("Giant", c.Race)]))]},
+	'Dolgeza, Strong Striker': {'onPlay': [lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isRemovedFromPlay(c) and re.search("Earth Eater", c.Race)])), lambda card: draw(me.Deck, True, len([c for c in table if c.owner==me and isCreature(c) and not isRemovedFromPlay(c) and re.search("Giant", c.Race)]))]},
 	'Dolmarks, the Shadow Warrior': {'onPlay': [lambda card: dolmarks()]},
 	'Dorballom, Lord of Demons': {'onPlay': [lambda card: destroyAll(table, True, "ALL", "Darkness", True), lambda card: destroyAllMana(table, "Darkness", True)]},
 	'Emperor Himiko': {'onPlay': [lambda card: draw(me.Deck, True)]},
@@ -208,7 +208,7 @@ cardScripts = {
 	'Trenchdive Shark': {'onPlay': [lambda card: shieldswap(card,2)]},
 	'Triple Mouth, Decaying Savage': {'onPlay': [lambda card: mana(me.Deck), lambda card: targetDiscard(True)]},
 	'Trombo, Fractured Doll': {'onPlay': [lambda card: waveStriker(lambda card: sercah(me.piles["Graveyard"], 1, "Creature"), card)]},
-	'Trox, General of Destruction': {'onPlay': [lambda card: targetDiscard(randomDiscard=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization) and c._id!=card._id]))]},
+	'Trox, General of Destruction': {'onPlay': [lambda card: targetDiscard(randomDiscard=True, count=len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search("Darkness", c.Civilization) and c._id!=card._id]))]},
 	'Uncanny Turnip': {'onPlay': [lambda card: waveStriker([lambda card: mana(me.Deck), lambda card: fromMana(1,'Creature')], card)]},
 	'Unicorn Fish': {'onPlay': [lambda card: bounce()]},
 	'Vampire Silphy': {'onPlay': [lambda card: destroyAll(table, True, 3000)]},
@@ -224,7 +224,7 @@ cardScripts = {
 	# ON CAST EFFECTS
 
 	'Abduction Charger': {'onPlay': [lambda card: bounce(2)]},
-	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(table, len([c for c in table if isCreature(c) and not isBait(c)])>5)]},
+	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(table, len([c for c in table if isCreature(c) and not isRemovedFromPlay(c)])>5)]},
 	'Apocalypse Vise': {'onPlay': [lambda card: apocalypseVise()]},
 	'Big Beast Cannon': {'onPlay': [lambda card: kill(7000)]},
 	'Blizzard of Spears': {'onPlay': [lambda card: destroyAll(table, True, 4000)]},
@@ -238,7 +238,7 @@ cardScripts = {
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(table, True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
 						 'onMetaMorph': [lambda card: kill(6000)]},
-	'Cataclysmic Eruption': {'onPlay': [lambda card: destroyMana(len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r'Nature',c.Civilization)]))]},
+	'Cataclysmic Eruption': {'onPlay': [lambda card: destroyMana(len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search(r'Nature',c.Civilization)]))]},
 	'Chains of Sacrifice': {'onPlay': [lambda card: kill("ALL","ALL","ALL",2), lambda card:sacrifice()]},
 	'Clone Factory': {'onPlay': [lambda card: fromMana(2)]},
 	'Cloned Blade': {'onPlay': [lambda card: cloned(lambda card, count: kill('3000', count=count),card)]},
@@ -312,7 +312,7 @@ cardScripts = {
 	'Hyperspatial Energy Hole': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
 	'Hyperspatial Faerie Hole': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Hyperspatial Revive Hole': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
-	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, True, 3) if len([c for c in table if isCreature(c) and not isBait(c) and c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None]},
+	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, True, 3) if len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner == me and re.search("Cyber Lord", c.Race)]) > 0 else None]},
 	'Impossible Tunnel': {'onPlay': [lambda card: declareRace(card)]},
 	'Infernal Smash': {'onPlay': [lambda card: kill()]},
 	'Intense Evil': {'onPlay': [lambda card: intenseEvil()]},
@@ -393,7 +393,7 @@ cardScripts = {
 	'Solar Ray': {'onPlay': [lambda card: tapCreature()]},
 	'Solar Trap': {'onPlay': [lambda card: tapCreature()]},
 	'Soulswap': {'onPlay': [lambda card: soulSwap()]},
-	'Soul Gulp': {'onPlay': [lambda card: opponentToDiscard(len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me and re.search("Light", c.Civilization)]))]},
+	'Soul Gulp': {'onPlay': [lambda card: opponentToDiscard(len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner!=me and re.search("Light", c.Civilization)]))]},
 	'Spastic Missile': {'onPlay': [lambda card: kill(3000)]},
 	'Sphere of Wonder': {'onPlay': [lambda card: manaCompare(1,shield=True)]},
 	'Spiral Drive': {'onPlay': [lambda card: bounce()]},
@@ -410,8 +410,8 @@ cardScripts = {
 	'The Grave of Angels and Demons': {'onPlay': [lambda card: theGraveOfAngelsAndDemons()]},
 	'The Strong Spiral': {'onPlay': [lambda card: bounce()]},
 	'The Strong Breath': {'onPlay': [lambda card: kill("ALL","Untap")]},
-	'Thought Probe': {'onPlay':[lambda card: draw(me.Deck, False, 3) if len([c for c in table if c.owner!=me and isCreature(c) and not isBait(c)])>=3 else None]},
-	'Thunder Net': {'onPlay': [lambda card: tapCreature(count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search(r'Water',c.Civilization)]))]},
+	'Thought Probe': {'onPlay':[lambda card: draw(me.Deck, False, 3) if len([c for c in table if c.owner!=me and isCreature(c) and not isRemovedFromPlay(c)])>=3 else None]},
+	'Thunder Net': {'onPlay': [lambda card: tapCreature(count=len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search(r'Water',c.Civilization)]))]},
 	'Timeless Garden': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Tornado Flame': {'onPlay': [lambda card: kill(4000)]},
 	'Transmogrify': {'onPlay': [lambda card: killAndSearch(True)]},
@@ -587,11 +587,11 @@ cardScripts = {
 	#ON ATTACK EFFECTS
 	'Amber Piercer': {'onAttack': [lambda card: search(me.piles["Graveyard"], TypeFilter="Creature")]},
 	'Armored Warrior Quelos': {'onAttack': [lambda card: bothPlayersFromMana(1,True,"not re.search(r'Fire',c.Civilization)")]},
-	'Aqua Grappler': {'onAttack': [lambda card: draw(me.Deck,True,len([c for c in table if c!=card and isCreature(c) and not isBait(c) and c.owner==me and c.orientation==Rot90]))]},
+	'Aqua Grappler': {'onAttack': [lambda card: draw(me.Deck,True,len([c for c in table if c!=card and isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and c.orientation==Rot90]))]},
 	'Bloodwing Mantis': {'onAttack': [lambda card: fromMana(2,"Creature")]},
 	'Bolzard Dragon': {'onAttack': [lambda card: destroyMana()]},
 	'Cavern Raider': {'onAttack': [lambda card: search(me.Deck, 1, "Creature")]},
-	'Chaos Fish': {'onAttack': [lambda card: draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)]},
+	'Chaos Fish': {'onAttack': [lambda card: draw(group=me.Deck,count=len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)]},
 	'Curious Eye': {'onAttack': [lambda card: peekShield(1, True)]},
 	'Cyclolink, Spectral Knight': {'onAttack': [lambda card: search(me.Deck, 1, "Spell")]},
 	'Daidalos, General of Fury': {'onAttack': [lambda card: kill(targetOwn=True)]},
@@ -613,7 +613,7 @@ cardScripts = {
 	'Metalwing Skyterror': {'onAttack': [lambda card: kill(rulesFilter="{BLOCKER}")]},
 	'Muramasa, Duke of Blades': {'onAttack': [lambda card: kill(2000)]},
 	'Necrodragon Galbazeek': {'onAttack': [lambda card: burnShieldKill(1,True)]},
-	'Plasma Chaser': {'onAttack': [lambda card: draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isBait(c) and c.owner!=me]))]},
+	'Plasma Chaser': {'onAttack': [lambda card: draw(me.Deck, ask=True, count=len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner!=me]))]},
 	'Psyshroom': {'onAttack': [lambda card: fromGraveyardToMana(filterFunction="re.search(r'Nature',c.Civilization)",ask=True)]},
 	'Ra Vu, Seeker of Lightning': {'onAttack': [lambda card: search(me.piles["Graveyard"], 1, "Spell","Light")]},
 	'Shock Trooper Mykee': {'onAttack': [lambda card: kill(3000)]},
@@ -971,7 +971,7 @@ def manaArmsCheck(civ='ALL5', num=0):
 			return True
 
 def ifRaceInBattleZone(race):
-	cardList = [card for card in table if card.owner == me and isCreature(card) and not isBait(card) and re.search(race, card.Race)]
+	cardList = [card for card in table if card.owner == me and isCreature(card) and not isRemovedFromPlay(card) and re.search(race, card.Race)]
 
 def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 	def _civilization_rank(card_civilization):
@@ -1124,6 +1124,14 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		if card._id in baitList:
 			return True
 
+def isSealed(card): #check if there is a seal on the card
+	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
+	if card._id in sealDict:
+		return True
+
+def isRemovedFromPlay(card):
+	return isBait(card) or isSealed(card)
+
 #Get a list of bait materials under Evo
 def getEvoBaits(card):
 	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
@@ -1139,7 +1147,7 @@ def isEvo(cards, x=0, y=0):
 		cards = [cards]
 	if len(cards)==0: return False
 	c = cards[len(cards)-1]
-	if c and re.search("Evolution", c.Type) and not isMana(c) and not isShield(c) and not isBait(c):
+	if c and re.search("Evolution", c.Type) and not isMana(c) and not isShield(c) and not isRemovedFromPlay(c):
 		return True
 	return False
 
@@ -1148,7 +1156,7 @@ def hasButtonEffect(cards, x=0, y=0):
 		cards = [cards]
 	if len(cards)==0: return False
 	c = cards[len(cards)-1]
-	if c and cardScripts.get(c.name, {}).get('onButton', []) and not isMana(c) and not isShield(c) and not isBait(c):
+	if c and cardScripts.get(c.name, {}).get('onButton', []) and not isMana(c) and not isShield(c) and not isRemovedFromPlay(c):
 		return True
 	return False
 
@@ -1174,17 +1182,17 @@ def getWaveStrikerCount(player='ALL'):
 	mute()
 	cardList = []
 	if player != 'ALL':
-		cardList = [card for card in table if isCreature(card) and card.controller == player and re.search('wave striker', card.Rules, re.IGNORECASE) and not isBait(card)]
+		cardList = [card for card in table if isCreature(card) and card.controller == player and re.search('wave striker', card.Rules, re.IGNORECASE) and not isRemovedFromPlay(card)]
 	else:
-		cardList = [card for card in table if isCreature(card) and re.search('wave striker', card.Rules, re.IGNORECASE) and not isBait(card)]
+		cardList = [card for card in table if isCreature(card) and re.search('wave striker', card.Rules, re.IGNORECASE) and not isRemovedFromPlay(card)]
 	return len(cardList)
 
 def getSurvivorsOnYourTable(searchForEffects=True):
 	mute()
 	if searchForEffects:
-		return [card for card in table if isCreature(card) and card.controller == me and re.search('\{SURVIVOR\}', card.Rules) and not isBait(card)]
+		return [card for card in table if isCreature(card) and card.controller == me and re.search('\{SURVIVOR\}', card.Rules) and not isRemovedFromPlay(card)]
 	else:
-		return [card for card in table if isCreature(card) and card.controller == me and re.search('Survivor', card.Race) and not isBait(card)]
+		return [card for card in table if isCreature(card) and card.controller == me and re.search('Survivor', card.Race) and not isRemovedFromPlay(card)]
 
 ################ Functions used in the Automation dictionaries.####################
 
@@ -1401,7 +1409,7 @@ def fromManaAll(filterFunction='True'):
 def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
-	cardList = [c for c in table if isCreature(c) and not isBait(c) and not isUntargettable(c)]
+	cardList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverseCardList(cardList)
 	choice = askCard2(cardList, 'Choose a Creature to destroy')
@@ -1448,7 +1456,7 @@ def loopThroughDeck(playerId, play=False):
 
 def eurekaProgram(ask=True):
 	mute()
-	cardList = [card for card in table if isCreature(card) and not isBait(card) and card.owner == me]
+	cardList = [card for card in table if isCreature(card) and not isRemovedFromPlay(card) and card.owner == me]
 	cardList = [card for card in cardList if not re.search("Psychic", card.Type)]
 	if len(cardList) == 0: return
 	if me.isInverted: reverseCardList(cardList)
@@ -1587,9 +1595,9 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 	mute()
 	if powerFilter == 'ALL':	powerFilter = float('inf')
 	if targetOwn:
-		cardList = [c for c in table if isCreature(c) and not isBait(c) and int(c.Power.strip('+')) <= powerFilter]
+		cardList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and int(c.Power.strip('+')) <= powerFilter]
 	else:
-		cardList = [c for c in table if isCreature(c) and not isBait(c) and not c.owner == me and int(c.Power.strip('+')) <= powerFilter]
+		cardList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and not c.owner == me and int(c.Power.strip('+')) <= powerFilter]
 	if tapFilter != 'ALL':
 		if tapFilter == 'Untap':
 			cardList = [c for c in cardList if c.orientation == Rot0]
@@ -1653,7 +1661,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		wscount = getWaveStrikerCount()
 
 	# We do this to handle survivor/wavestriker effects properly.
-	myCardList = [card for card in cardList if card.owner == me and not isBait(card)]
+	myCardList = [card for card in cardList if card.owner == me and not isRemovedFromPlay(card)]
 	opponentList = [card for card in cardList if card.owner != me]
 
 	survivors = []
@@ -1663,7 +1671,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 	for card in myCardList:
 		cardToBeSaved = card
 		possibleSavers = [card for card in table if
-		cardToBeSaved != card and isCreature(card) and card.owner == me and not isBait(card) and re.search(r"(?<!Shield )Saver",card.rules, re.IGNORECASE)]
+		cardToBeSaved != card and isCreature(card) and card.owner == me and not isRemovedFromPlay(card) and re.search(r"(?<!Shield )Saver",card.rules, re.IGNORECASE)]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
 					cardToBeSaved.Name)):
@@ -1733,7 +1741,7 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0, t
 
 	if killCount == "ALL" or killCount > 0:
 		if powerFilter == 'ALL': powerFilter = float('inf')
-		validKillTargets = [c for c in table if isCreature(c) and not isBait(c) and not isUntargettable(c) and int(c.Power.strip(' +')) <= powerFilter]
+		validKillTargets = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c) and int(c.Power.strip(' +')) <= powerFilter]
 		if not targetOwnCr:
 			validKillTargets = [c for c in validKillTargets if not c.owner == me]
 			targetCr = [c for c in targetCr if not c.owner == me]
@@ -1795,7 +1803,7 @@ def sacrifice(power='inf', count=1, filterFunction='True'):
 	if power == 'inf':
 		power = float('inf')
 	cardList = [c for c in table if
-				isCreature(c) and not isBait(c) and c.owner == me and re.search("Creature", c.Type)]
+				isCreature(c) and not isRemovedFromPlay(c) and c.owner == me and re.search("Creature", c.Type)]
 	cardList = [c for c in cardList if int(c.Power.strip('+')) <= power and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0:
 		return
@@ -1816,10 +1824,10 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			return
 	if opponentOnly:
 		cardList = [c for c in table if
-					isCreature(c) and c.owner != me and not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
+					isCreature(c) and c.owner != me and not isRemovedFromPlay(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 	else:
 		cardList = [c for c in table if
-					isCreature(c) and not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
+					isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) < 1:
 		whisper("No valid targets on the table.")
 		return
@@ -1850,7 +1858,7 @@ def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction = "T
 	mute()
 	group=ensureGroupObject(group)
 	cardList = [c for c in group if isCreature(c)
-										and not isBait(c)
+										and not isRemovedFromPlay(c)
 										and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
 										and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0: return
@@ -1963,7 +1971,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		activatedTapEffect = False
 		#Helper inner function for onAllyTap
 		def handleOnAllyTapEffects(card):
-			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isBait(c) and c.controller == me and cardScripts.get(c.Name, {}).get('onAllyTap', [])]
+			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.controller == me and cardScripts.get(c.Name, {}).get('onAllyTap', [])]
 			#remove duplicates from list, only one Tap Effect can be activated at a time.
 			if len(creaturesonAllyTapList) == 0: return False
 			creaturesonAllyTapList = {c.name: c for c in creaturesonAllyTapList}.values()
@@ -1985,7 +1993,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 					return True
 			return False
 		#Tap Effects can only activate during active Player's turn.
-		if processTapEffects and getActivePlayer() == me and not isBait(card) and not card._id in arrow:
+		if processTapEffects and getActivePlayer() == me and not isRemovedFromPlay(card) and not card._id in arrow:
 			functionList = cardScripts.get(card.name, {}).get('onTap', [])
 			if len(functionList)>0:
 				choice = askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
@@ -2001,7 +2009,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 				activatedTapEffect = handleOnAllyTapEffects(card)
 
 		#OnAttack Effects can only activate during active Player's turn.
-		if processTapEffects and getActivePlayer() == me and not isBait(card) and not activatedTapEffect:
+		if processTapEffects and getActivePlayer() == me and not isRemovedFromPlay(card) and not activatedTapEffect:
 			functionList = list(cardScripts.get(card.Name, {}).get('onAttack', []))
 			if re.search("Survivor",card.Race):
 				survivors = getSurvivorsOnYourTable()
@@ -2021,7 +2029,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		notify('{} untaps {}.'.format(me, card))
 
 def processOnTurnEndEffects():
-	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
+	cardList = [card for card in table if card.controller == me and isCreature(card) and not isRemovedFromPlay(card)]
 	for card in cardList:
 		functionList = list(cardScripts.get(card.name, {}).get('onTurnEnd', []))
 		if re.search("Survivor", card.Race):
@@ -2037,7 +2045,7 @@ def processOnTurnEndEffects():
 	evaluateWaitingFunctions()
 
 def processOnTurnStartEffects():
-	cardList = [card for card in table if card.controller == me and isCreature(card) and not isBait(card)]
+	cardList = [card for card in table if card.controller == me and isCreature(card) and not isRemovedFromPlay(card)]
 	for card in cardList:
 		functionList = list(cardScripts.get(card.name, {}).get('onTurnStart', []))
 		if re.search("Survivor", card.Race):
@@ -2055,7 +2063,7 @@ def processOnTurnStartEffects():
 #Send Creature/Mana to shields
 def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter = True, manaFilter = False, filterFunction='True'):
 	mute()
-	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isBait(c) and not isUntargettable(c)) or (manaFilter and isMana(c)))
+	cardList = [c for c in table if ((creaturesFilter and isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c)) or (manaFilter and isMana(c)))
 			  and ((myCards and c.owner == me) or (opponentCards and c.owner != me)) and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) == 0: return
 	count = min(count, len(cardList))
@@ -2072,7 +2080,7 @@ def sendToShields(count=1, opponentCards=True, myCards = False, creaturesFilter 
 def sendToMana(count=1, opponentCards = True, myCards = False, filterFunction = "True"):
 	mute()
 	cardList = [c for c in table if isCreature(c)
-		  and not isBait(c)
+		  and not isRemovedFromPlay(c)
 		  and not isUntargettable(c)
 		  and ((opponentCards and c.owner != me) or (myCards and c.owner == me))
 		  if eval(filterFunction, allowed_globals, {'c': c})]
@@ -2194,7 +2202,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0]
 		else:
 			cardList = [card for card in table if isCreature(card) and card.orientation == Rot0 and card.owner != me]
-		cardList = [c for c in cardList if not isBait(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
+		cardList = [c for c in cardList if not isRemovedFromPlay(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList) == 0:
 			return
 		if me.isInverted: reverseCardList(cardList)
@@ -2230,7 +2238,7 @@ def swapManaAndHand(tapped = True):
 			handCard.orientation = Rot270
 
 def lonely(card):
-	if len([c for c in table if isCreature(c) and not isBait(c) and c.controller == me])==1:
+	if len([c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.controller == me])==1:
 		destroy(card)
 		notify("{} got destroyed because it was alone on board!".format(card))
 
@@ -2263,7 +2271,7 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 	if len(choiceText)==0:
 		for f in range(0,len(functionArray)):
 			choiceText.append(str(f+1))
-	if deb and len([c for c in table if re.search("Evolution", c.Type) and not isBait(c)]) != 0:
+	if deb and len([c for c in table if re.search("Evolution", c.Type) and not isRemovedFromPlay(c)]) != 0:
 		choice = askYN("Do you want to use both effects of {}?".format(card))
 		if choice == 1:
 			#add choices to waiting list. Usually 2 but maybe there will be exceptions
@@ -2308,7 +2316,7 @@ def meteorburn(functionArray, card, minimum=1, maximum=1):
 def apocalypseVise():
 	powerLeft=8000
 	creaturesToDestroy=[]
-	creatureList = [card for card in table if isCreature(card) and card.owner!=me and not isBait(card) and not isUntargettable(card) and int(card.Power.strip('+'))<=powerLeft]
+	creatureList = [card for card in table if isCreature(card) and card.owner!=me and not isRemovedFromPlay(card) and not isUntargettable(card) and int(card.Power.strip('+'))<=powerLeft]
 	if me.isInverted: reverseCardList(creatureList)
 	while powerLeft>0 and len(creatureList)>0:
 		creatureChoice = askCard2(creatureList, 'Choose a Creature to destroy.')
@@ -2359,7 +2367,7 @@ def bluumErkis(card):
 	evaluateWaitingFunctions()
 
 def bronks():
-	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
+	creatureList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c)]
 	minPower = min(int(c.Power.strip('+')) for c in creatureList)
 	notify("Lowest Power found: {}".format(minPower))
 	leastPowerCreatureList = [c for c in creatureList if int(c.Power.strip('+')) == minPower]
@@ -2452,7 +2460,7 @@ def shieldswap(card, count = 1):
 
 def flamespearWaterblade():
 	if askYN('Destroy automatically?') != 1: return
-	creatureList = [c for c in table if isCreature(c) and not isBait(c) and int(c.Power.strip('+')) <= 3000]
+	creatureList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and int(c.Power.strip('+')) <= 3000]
 	destroyAll(table, True, 3000, dontAsk=True)
 	draw(me.Deck, True, len(creatureList))
 
@@ -2493,7 +2501,7 @@ def gigandura(card):
 	remoteCall(targetPlayer,"toHand",convertCardListIntoCardIDsList(manaChoice))
 
 def heavyweightDragon(card):
-	cardList = [c for c in table if c.owner!=me and isCreature(c) and not isBait(c) and not isUntargettable(c)]
+	cardList = [c for c in table if c.owner!=me and isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c)]
 	if len(cardList)==0: return
 	if me.isInverted: reverseCardList(cardList)
 	choices = askCard2(cardList, "Select up to 2 Creatures to destroy.",maximumToTake=2, returnAsArray=True)
@@ -2507,10 +2515,10 @@ def heavyweightDragon(card):
 def hydroHurricane(card):
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
-	lightCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Light", c.Civilization)]
-	darknessCards=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me and re.search("Darkness", c.Civilization)]
+	lightCards=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search("Light", c.Civilization)]
+	darknessCards=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me and re.search("Darkness", c.Civilization)]
 	oppMana=[c for c in table if c.owner == targetPlayer and isMana(c)]
-	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isBait(c) and not isUntargettable(c)]
+	oppCreatures=[c for c in table if c.owner == targetPlayer and isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c)]
 	if len(oppMana)>0 and len(lightCards)>0:
 		if me.isInverted: reverseCardList(oppMana)
 		count = min(len(oppMana), len(lightCards))
@@ -2552,7 +2560,7 @@ def dracobarrier():
 def waveLance():
 	cardList=[c for c in table if
 				isCreature(c)
-				and not isBait(c)
+				and not isRemovedFromPlay(c)
 				and not isUntargettable(c)]
 	if len(cardList) == 0:
 		whisper("No valid targets on the table.")
@@ -2619,9 +2627,9 @@ def divineRiptide():
 	remoteCall(opponent,"fromManaAll",'True')
 
 def shockHurricane(card):
-	myCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me]
+	myCreatures=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me]
 	chosenCreatures=[]
-	enemyCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner!=me and not isUntargettable(c)]
+	enemyCreatures=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner!=me and not isUntargettable(c)]
 	enemyChosen=[]
 	if me.isInverted: reverseCardList(myCreatures)
 	while(len(myCreatures)>0):
@@ -2651,7 +2659,7 @@ def _enemyCrisisBoulder():
 	colorsList = ['#FF0000', '#11FF11']
 	choice = askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
 	if choice == 1:
-		cardsToChooseFrom = [c for c in table if isCreature(c) and not isBait(c) and c.owner == me]
+		cardsToChooseFrom = [c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner == me]
 		if me.isInverted: reverseCardList(cardsToChooseFrom)
 		selected = askCard2(cardsToChooseFrom, "Select a Creature to put to Graveyard")
 	elif choice == 2:
@@ -2699,7 +2707,7 @@ def _enemyMiraculousMeltdown(count):
 
 def theGraveOfAngelsAndDemons():
 	if askYN('Destroy automatically?') != 1: return
-	creatureList = [c for c in table if isCreature(c) and not isBait(c)]
+	creatureList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c)]
 	manaList = [c for c in table if isMana(c)]
 
 	def groupByName(card_list):
@@ -2725,7 +2733,7 @@ def theGraveOfAngelsAndDemons():
 
 def miraculousPlague():
 	mute()
-	creatureList = [card for card in table if isCreature(card) and not isBait(card) and card.owner != me and not isUntargettable(card)]
+	creatureList = [card for card in table if isCreature(card) and not isRemovedFromPlay(card) and card.owner != me and not isUntargettable(card)]
 	if len(creatureList) != 0:
 		if len(creatureList) == 1:
 			remoteCall(creatureList[0].owner, "toHand", convertCardListIntoCardIDsList(creatureList[0]))
@@ -2768,7 +2776,7 @@ def miraculousRebirth():
 	mute()
 	cardList = [card for card in table if
 				isCreature(card)
-				and not isBait(card)
+				and not isRemovedFromPlay(card)
 				and card.owner != me
 				and not isUntargettable(card)
 				and int(card.Power.strip('+')) <= 5000]
@@ -2854,7 +2862,7 @@ def upheaval():
 		remoteCall(player, 'swapManaAndHand', [])
 
 def intenseEvil():
-	myCreatures=[c for c in table if isCreature(c) and not isBait(c) and c.owner==me]
+	myCreatures=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me]
 	if me.isInverted: reverseCardList(myCreatures)
 	chosenCreatures = askCard2(myCreatures, 'Choose Creatures to destroy', maximumToTake=len(myCreatures),returnAsArray=True)
 	if not isinstance(chosenCreatures,list):return
@@ -3054,6 +3062,22 @@ def moveCards(args): #this is triggered every time a card is moved
 					evolveDict[evo] = evolvedList
 		if evolveDict != eval(me.getGlobalVariable("evolution"), allowed_globals):
 			me.setGlobalVariable("evolution", str(evolveDict))
+		
+		sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
+		for sealId in sealDict.keys():
+			if Card(sealId) not in table:
+				del sealDict[sealId]
+			else:
+				sealList = sealDict[sealId]
+				for sealCardId in sealList:
+					if Card(sealCardId) not in table:
+						sealList.remove(sealCardId)
+				if len(sealList) == 0:
+					del sealDict[sealId]
+				else:
+					sealDict[sealId] = evolvedList
+		if sealDict != eval(me.getGlobalVariable("seal"), allowed_globals):
+			me.setGlobalVariable("seal", str(sealDict))
 
 def align():
 	mute()
@@ -3136,6 +3160,8 @@ def align():
 			sealCard = Card(sealCardId)
 			if(not sealCard or not sealCard.markers[sealMarker] or sealCard not in table):
 				sealDict[seal].remove(sealCardId)
+				if not sealDict[seal]:
+					del sealDict[seal]
 				me.setGlobalVariable("seal", str(sealDict))
 				align()
 				return
@@ -3273,6 +3299,8 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	for card in group:
 		if not card.owner == me:
 			continue
+		if isSealed(card):
+			continue
 		# Untap Creatures
 		if card.orientation == Rot90:
 			if not isNewTurn:
@@ -3355,6 +3383,8 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card = ensureCardObjects(card)
+	if isSealed(card) and not confirm("Are you sure you want to destroy a Sealed Card?"):
+		return
 	if isShield(card):
 		if dest == True:
 			toDiscard(card)
@@ -3384,7 +3414,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				card.isFaceUp = True
 				card.target(False)
 				notify("{} uses {}'s Guard Strike.".format(me, card))
-				creatureList = [c for c in table if c.owner != me and isCreature(c) and not isBait(c) and not isUntargettable(c)]
+				creatureList = [c for c in table if c.owner != me and isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c)]
 				if len(creatureList)>0:
 					if me.isInverted: reverseCardList(creatureList)
 					choice = askCard2(creatureList)
@@ -3428,7 +3458,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		toDiscard(card)
 	else:
 		cardToBeSaved = card
-		possibleSavers = [c for c in table if cardToBeSaved != c and isCreature(c) and c.owner == me and not isBait(c) and re.search(r"(?<!Shield )Saver",c.rules, re.IGNORECASE)]
+		possibleSavers = [c for c in table if cardToBeSaved != c and isCreature(c) and c.owner == me and not isRemovedFromPlay(c) and re.search(r"(?<!Shield )Saver",c.rules, re.IGNORECASE)]
 		if len(possibleSavers) > 0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
 					cardToBeSaved.Name)):
@@ -3585,7 +3615,7 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 #Function used for "Attach Bait" option in right click menu for Evos. Returns newly added card(s)
 def attachBait(card, x=0, y=0):
 	mute()
-	cardList = [c for c in table if c != card and not isMana(c) and not isShield(c) and c.owner == me and not isBait(c)]
+	cardList = [c for c in table if c != card and not isMana(c) and not isShield(c) and c.owner == me and not isRemovedFromPlay(c)]
 	if len(cardList) == 0:
 		whisper('No cards on the field to attach.')
 		return []
@@ -3616,6 +3646,12 @@ def seal(card, x=0, y=0):
 		return
 	topCard = group[0]
 	cx, cy = card.position
+	if Table.isTwoSided():
+		if playerside == None:
+			if me.isInverted:
+				playerside = -1
+			else:
+				playerside = 1
 	topCard.moveToTable(cx - 10 * playerside,cy - 10 * playerside, True)
 	topCard.orientation = Rot90
 	sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
@@ -3626,10 +3662,10 @@ def seal(card, x=0, y=0):
 				sealDict[card._id].remove(cId)
 		sealDict[card._id].append(topCard._id)
 	else:
-		sealDict[card._id]=[topCard._id]
+		sealDict[card._id] = [topCard._id]
 	topCard.markers[sealMarker] = len(sealDict[card._id])
 	me.setGlobalVariable("seal", str(sealDict))
-	notify('{} seals {} with the top card of their deck.'.format(me, card))
+	notify('{} seals {} with the top card of their Deck.'.format(me, card))
 
 #Charge Top Card as Mana
 def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[], postCondition='True', preCondition=True):
@@ -3888,7 +3924,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			isGalaxy = False
 			materialListGY = [c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]
 			materialListMana = [c for c in table if isMana(c) and c.owner == me and re.search("Creature", c.Type)]
-			materialListBZ = [c for c in table if (isCreature(c) or isGear(c)) and c.owner == me and not isBait(c)]
+			materialListBZ = [c for c in table if (isCreature(c) or isGear(c)) and c.owner == me and not isRemovedFromPlay(c)]
 			if me.isInverted:
 				reverseCardList(materialListMana)
 				reverseCardList(materialListBZ)
@@ -3935,10 +3971,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 					   if c.controller == me
 					   and c.targetedBy == me
 					   and (isCreature(c) or isGear(c))
-					   and not isBait(c)]
+					   and not isRemovedFromPlay(c)]
 			clear(targets)
 			if len(targets) == 0:
-				materialList = [c for c in table if not isShield(c) and not isMana(c) and c.controller == me and not isBait(c) and c._id != card._id]
+				materialList = [c for c in table if not isShield(c) and not isMana(c) and c.controller == me and not isRemovedFromPlay(c) and c._id != card._id]
 				if me.isInverted: reverseCardList(materialList)
 				minimumToTake = 1
 				isNeoEvolution = False
