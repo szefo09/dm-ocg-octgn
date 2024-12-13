@@ -13,6 +13,10 @@
 		markersize="18" 
 	iconurl="https://i.imgur.com/Oq0548m.jpeg" >
 
+	<markers>
+		<marker name="SealMarker" id="0d9c9e74-7d60-4433-b0b2-361aef2b18ea" src="groups/seal.png" />
+	</markers>
+
 	<scripts>
 		<script src="scripts/integrity.py" />
 		<script src="scripts/actions.py" />
@@ -84,19 +88,21 @@
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
-		<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
 		<cardaction menu="Use Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
 		<cardactions menu="Evolution Options:" showIf="isEvo" >
 			<cardaction menu="Detach Bait" execute="detachBait" />
 			<cardaction menu="Attach Bait" execute="attachBait" />
 		</cardactions>
-		
-
+		<cardactions menu="OCG Options:" >
+			<cardaction menu="Seal a Card" execute="seal" />
+			<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
+		</cardactions>
 	</table>
 
 	<player summary="{#Hand}">
 		<globalvariable name="shieldCount" value="0" />
 		<globalvariable name="evolution" value="{}" />
+		<globalvariable name="seal" value="{}" />
 
 		<group name="Hand" visibility="me" ordered="False" shortcut="ctrl+B" icon="groups/hand.png" viewState="expanded">
 			<cardaction menu="Play Card" default="True" execute="toPlay" />

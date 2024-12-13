@@ -14,6 +14,7 @@ sideflip = None
 diesides = 20
 civ_order = ['Light', 'Water', 'Darkness', 'Fire', 'Nature']
 shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
+sealMarker = ('Seal', '0d9c9e74-7d60-4433-b0b2-361aef2b18ea')
 waitingFunct = []  # Functions waiting for targets. Please replace this with FUNCTIONS waiting for targets later. If a card calls 2 functions both will happen again otherwise
 evaluateNextFunction = True #For conditional evaluation of one function after the other, currently only implemented for bounce() in IVT
 alreadyEvaluating = False
@@ -1103,9 +1104,7 @@ def isMana(card):
 
 def isShield(card):
 	mute()
-	if card in table and not card.isFaceUp and card.orientation != Rot180 and card.orientation != Rot270:
-		return True
-	elif card in table and card.markers[shieldMarker] > 0:
+	if card in table and card.markers[shieldMarker] > 0:
 		return True
 
 def isPsychic(card):
@@ -3088,10 +3087,11 @@ def align():
 
 	cardorder = [[], [], []]
 	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
-
+	sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
 	for card in table:
 		if card.controller == me and not isCastle(card) and not card.anchor and not card._id in list(
-				itertools.chain.from_iterable(evolveDict.values())):
+				itertools.chain.from_iterable(evolveDict.values())) and not card._id in list(
+				itertools.chain.from_iterable(sealDict.values())):
 			if isShield(card):
 				cardorder[1].append(card)
 			elif isMana(card):
@@ -3130,6 +3130,17 @@ def align():
 			count += 1
 			Card(evolvedCard).moveToTable(x, y - 10 * count * playerside)
 			Card(evolvedCard).sendToBack()
+	for seal in sealDict:
+		for sealCardId in list(sealDict[seal]):
+			x,y = Card(seal).position
+			sealCard = Card(sealCardId)
+			if(not sealCard or not sealCard.markers[sealMarker] or sealCard not in table):
+				sealDict[seal].remove(sealCardId)
+				me.setGlobalVariable("seal", str(sealDict))
+				align()
+				return
+			Card(sealCardId).moveToTable(x - 10 * playerside, y - 10 * playerside)
+			Card(sealCardId).sendToFront()
 	# for landscape or large cards
 	xpos = 15
 	if playerside==1:
@@ -3470,7 +3481,7 @@ def shuffleToBottom(cards, x=0, y=0):
 	for card in cards:
 		card.isFaceUp = False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Cards to the Bottom of their Deck'.format(me, len(cards)))
+	notify('{} shuffled {} Card(s) to the Bottom of their Deck'.format(me, len(cards)))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3588,6 +3599,37 @@ def attachBait(card, x=0, y=0):
 	processEvolution(card, newBaitList)
 	align()
 	return choices
+
+def seal(card, x=0, y=0):
+	global playerside
+	mute()
+	if Table.isTwoSided():
+		if playerside == None:
+			if me.isInverted:
+				playerside = -1
+			else:
+				playerside = 1
+	group = me.Deck
+	if len(group) == 0:
+		return
+	if not card.isFaceUp and not confirm("Do you want to seal a face-down card?"):
+		return
+	topCard = group[0]
+	cx, cy = card.position
+	topCard.moveToTable(cx - 10 * playerside,cy - 10 * playerside, True)
+	topCard.orientation = Rot90
+	sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
+	if card._id in sealDict:
+		for cId in list(sealDict[card._id]):
+			c = Card(cId)
+			if c and not c.markers[sealMarker] or c not in table:
+				sealDict[card._id].remove(cId)
+		sealDict[card._id].append(topCard._id)
+	else:
+		sealDict[card._id]=[topCard._id]
+	topCard.markers[sealMarker] = len(sealDict[card._id])
+	me.setGlobalVariable("seal", str(sealDict))
+	notify('{} seals {} with the top card of their deck.'.format(me, card))
 
 #Charge Top Card as Mana
 def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[], postCondition='True', preCondition=True):
