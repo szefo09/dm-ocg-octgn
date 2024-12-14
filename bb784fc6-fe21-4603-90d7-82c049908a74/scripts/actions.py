@@ -1124,13 +1124,24 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		if card._id in baitList:
 			return True
 
-def isSealed(card): #check if there is a seal on the card
+def isSealedOrSeal(card): #check if there is a seal on the card
 	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
 	if card._id in sealDict:
 		return True
+	for seal in sealDict.keys():
+		sealList = sealDict[seal]
+		if card._id in sealList:
+			return True
+
+def isBait(card):
+	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
+	for evo in evolveDict.keys():
+		baitList = evolveDict[evo]
+		if card._id in baitList:
+			return True
 
 def isRemovedFromPlay(card):
-	return isBait(card) or isSealed(card)
+	return isBait(card) or isSealedOrSeal(card)
 
 #Get a list of bait materials under Evo
 def getEvoBaits(card):
@@ -3299,7 +3310,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	for card in group:
 		if not card.owner == me:
 			continue
-		if isSealed(card):
+		if isSealedOrSeal(card):
 			continue
 		# Untap Creatures
 		if card.orientation == Rot90:
@@ -3383,7 +3394,7 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card = ensureCardObjects(card)
-	if isSealed(card) and not confirm("Are you sure you want to destroy a Sealed Card?"):
+	if isSealedOrSeal(card) and not confirm("Are you sure you want to destroy a Sealed Card?"):
 		return
 	if isShield(card):
 		if dest == True:
