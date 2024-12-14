@@ -89,7 +89,7 @@
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 		<cardaction menu="Use Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
-		<cardactions menu="Evolution Options:" showIf="isEvo" >
+		<cardactions menu="Evolution Options:" >
 			<cardaction menu="Detach Bait" execute="detachBait" />
 			<cardaction menu="Attach Bait" execute="attachBait" />
 		</cardactions>
