@@ -2974,17 +2974,24 @@ def fromDeckToField(filterFunction="True", count = 1):
 def flip(card, x=0, y=0):
 	mute()
 	if (re.search("Psychic", card.Type)):
-		altName = card.alternateProperty('awakening', 'name')
-		if card.alternate is '':
-			card.alternate = 'awakening'
-			notify("{}'s' {} awakens to {}.".format(me, altName, card))
-			align()
-			return
+		forms = list(card.alternates)
+		if len(forms)==2:
+			altName = card.alternateProperty('awakening', 'name')
+			if card.alternate is '':
+				card.alternate = 'awakening'
+				notify("{}'s' {} awakens to {}.".format(me, altName, card))
 		else:
-			card.alternate = ''
-			notify("{}'s {} reverts to {}.".format(me, altName, card))
-			align()
-			return
+			current_index = forms.index(card.alternate)  # Find current form index
+			oldName = card.alternateProperty(forms[current_index], 'name')
+			next_index = (current_index + 1) % len(forms)  # Calculate next form index
+			card.alternate = forms[next_index]  # Set to the next form
+			altName = card.alternateProperty(forms[next_index], 'name')
+			if card.alternate == '':
+				notify("{}'s {} reverts to its default form {}.".format(me, oldName, card))
+			else:
+				notify("{}'s {} cycles to {}.".format(me, oldName, altName))
+		align()
+		return
 	elif (re.search("Dragheart", card.Type)):
 		# draghearts
 		old = card.Name
