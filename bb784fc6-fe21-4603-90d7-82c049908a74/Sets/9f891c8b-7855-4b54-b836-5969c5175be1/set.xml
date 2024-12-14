@@ -320,7 +320,7 @@
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ For each of your creatures you untapped at the start of your turn, during this turn, this spell costs 1 less to cast. It can't cost 1 or less.&#xA;&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;▶ Choose 2 of your opponent's creatures and tap them:&#xA;▶ Draw a card. Then put a light or fire creature that costs 4 or less from your hand:&#xA;▶ Choose one of your creatures. That creature gets +4000 power and &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="■ For each of your creatures you untapped at the start of your turn, during this turn, this spell costs 1 less to cast. It can't cost 1 or less.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;▶ Choose 2 of your opponent's creatures and tap them:&#xA;▶ Draw a card. Then put a light or fire creature that costs 4 or less from your hand:&#xA;▶ Choose one of your creatures. That creature gets +4000 power and &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="8"/>
@@ -444,7 +444,7 @@
       <property name="Civilization" value="Light/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ For each of your creatures you untapped at the start of your turn, during this turn, this spell costs 1 less to cast. It can't cost 1 or less.&#xA;&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;▶ Choose 2 of your opponent's creatures and tap them:&#xA;▶ Draw a card. Then put a light or fire creature that costs 4 or less from your hand:&#xA;▶ Choose one of your creatures. That creature gets +4000 power and &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="■ For each of your creatures you untapped at the start of your turn, during this turn, this spell costs 1 less to cast. It can't cost 1 or less.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;▶ Choose 2 of your opponent's creatures and tap them:&#xA;▶ Draw a card. Then put a light or fire creature that costs 4 or less from your hand:&#xA;▶ Choose one of your creatures. That creature gets +4000 power and &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="11A"/>
@@ -1190,7 +1190,7 @@
       <property name="Number" value="62"/>
       <property name="Set" value="DM22-RP2 Dragon Emperor of Booming Flame"/>
     </card>
-    <card id="259cff91-dceb-4ca6-aa40-731c1a76865c" name="Supreme King's Gift">
+    <card id="259cff91-dceb-4ca6-aa40-731c1a76865c" name="Tyrant's Gift">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
@@ -1508,7 +1508,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Sonic Command/RexStars"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP3"/>
@@ -1666,7 +1666,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}: When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="T8"/>
@@ -1734,6 +1734,7 @@
     </card>
     <card id="68060a7b-4a35-4c9b-9393-e421358405dd" name="God Wall, God Trick">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{GRAVITY ZERO} If you have a God in the battle zone you may cast this spell for no cost.&#xA;■ Choose one of your creatures in the battle zone. If it's a God, until the start of your next turn, when that creature would leave the battle zone, it stays in the battle zone instead. If it's not a God, until the start of your next turn, when that creature would be destroyed, it stays in the battle zone instead."/>
@@ -1959,7 +1960,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}: When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="TF8"/>
@@ -2027,6 +2028,7 @@
     </card>
     <card id="96901d5d-1fbb-4198-8c7f-edf612d3fbc7" name="God Wall, God Trick">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{GRAVITY ZERO} If you have a God in the battle zone you may cast this spell for no cost.&#xA;■ Choose one of your creatures in the battle zone. If it's a God, until the start of your next turn, when that creature would leave the battle zone, it stays in the battle zone instead. If it's not a God, until the start of your next turn, when that creature would be destroyed, it stays in the battle zone instead."/>
@@ -2171,7 +2173,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="TR3b/TR10"/>
+        <property name="Number" value="TR3b"/>
         <property name="Set" value="DM22-RP2 Dragon Emperor of Booming Flame"/>
       </alternate>
     </card>

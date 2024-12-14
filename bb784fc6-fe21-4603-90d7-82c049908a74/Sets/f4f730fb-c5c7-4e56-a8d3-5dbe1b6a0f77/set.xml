@@ -154,7 +154,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{Kirifudash} {FN10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top 3 cards of your deck into your mana zone tapped, then put 3 cards of your mana zone on the bottom of your deck in any order.&#xA;Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever your opponent would put a creature into the battle zone, your opponent puts it into its owner's mana zone instead."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top 3 cards of your deck into your mana zone tapped, then put 3 cards of your mana zone on the bottom of your deck in any order.&#xA;Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever your opponent would put a creature into the battle zone, your opponent puts it into its owner's mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="11"/>
@@ -191,7 +191,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {W2|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water 2 | s p e l l to summon this creature this turn.)&#xA;■ Return all creatures that cost less than the number of cards in your mana zone to their owner's hand."/>
+      <property name="Rules" value="{VIVIDDRAW} {W2} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water 2 to cast this spell this turn.)&#xA;■ Return all creatures that cost less than the number of cards in your mana zone to their owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14"/>
@@ -267,7 +267,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{Kirifudash} {N10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 10 to summon this creature.)&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. You may put a Team Kirifuda from among them into your mana zone tapped. Put the rest on the bottom of your deck in any order.&#xA;Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put each of your opponent's creatures into their owner's mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 10 to summon this creature.)&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. You may put a Team Kirifuda from among them into your mana zone tapped. Put the rest on the bottom of your deck in any order.&#xA;Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put each of your opponent's creatures into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="20"/>
@@ -355,7 +355,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF2|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 2 | s p e l l to summon this creature this turn.)&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block.&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF2} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 2 to cast this spell this turn.)&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block.&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -545,7 +545,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {F3|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Fire 3 | s p e l l to summon this creature this turn.)&#xA;■ You may put a creature that costs 4 or less from your hand into the battle zone. That creature gets &quot;Speed Attacker&quot; until the end of the turn. (Creatures that have &quot;speed attacker&quot; don't get summoning sickness.)"/>
+      <property name="Rules" value="{VIVIDDRAW} {F3} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Fire 3 to cast this spell this turn.)&#xA;■ You may put a creature that costs 4 or less from your hand into the battle zone. That creature gets &quot;Speed Attacker&quot; until the end of the turn. (Creatures that have &quot;speed attacker&quot; don't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="42"/>
@@ -570,7 +570,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{Kirifudash} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top 2 cards of your deck into your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put the top 2 cards of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="44"/>
@@ -711,7 +711,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF2|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 2 | s p e l l to summon this creature this turn.)&#xA;■ Discard a card from your hand. Then draw 3 cards."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF2} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 2 to cast this spell this turn.)&#xA;■ Discard a card from your hand. Then draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="55"/>
@@ -736,7 +736,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
-      <property name="Rules" value="{Kirifudash} {FN2|spell} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 2 | s p e l l to summon this creature.)&#xA;■ This turn, the next Team Kirifuda you summon may cost up to 5 less. It can't cost 0 or less."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 2 to cast this spell.)&#xA;■ This turn, the next Team Kirifuda you summon may cost up to 5 less. It can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="57"/>
@@ -876,7 +876,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {W1|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water 1 | s p e l l to summon this creature this turn.)&#xA;■ Choose one of your opponent's creatures and return to its owner's hand."/>
+      <property name="Rules" value="{VIVIDDRAW} {W1} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water 1 to cast this spell this turn.)&#xA;■ Choose one of your opponent's creatures and return to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="68"/>
@@ -993,7 +993,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{Kirifudash} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)"/>
+      <property name="Rules" value="{KIRIFUDASH} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="77"/>
@@ -1032,7 +1032,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{Kirifudash} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ You may summon this creature from your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ You may summon this creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="80"/>
@@ -1237,7 +1237,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{Kirifudash} {FN8} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 8 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Team Kirifuda in your hand gets &quot;Kirifudash&quot;.&#xA;Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put the top 2 cards of your deck into your mana zone, return up to 3 cards from your mana zone to your hand and untap all cards in your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN8} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 8 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Team Kirifuda in your hand gets &quot;Kirifudash&quot;.&#xA;Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put the top 2 cards of your deck into your mana zone, return up to 3 cards from your mana zone to your hand and untap all cards in your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="KM1"/>
@@ -1315,7 +1315,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{Kirifudash} {F10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Your Team Kirifuda cost up to 1 less to summon. They can't cost 0 or less.&#xA;Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever any of your creature's attacks, untap all your Team Kirifuda."/>
+      <property name="Rules" value="{KIRIFUDASH} {F10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Your Team Kirifuda cost up to 1 less to summon. They can't cost 0 or less.&#xA;Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever any of your creature's attacks, untap all your Team Kirifuda."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S4"/>

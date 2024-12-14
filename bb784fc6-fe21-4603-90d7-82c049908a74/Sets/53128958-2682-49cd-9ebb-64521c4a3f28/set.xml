@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Japanese Promotional Cards  (Year 11-15)" id="53128958-2682-49cd-9ebb-64521c4a3f28" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
+    <card id="96df1971-e068-4a11-b046-1a688686ad43" name="Tenshukaku, Dragon King Keep">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. From among them, you may show a fire creature to your opponent and destroy one of your opponent's creatures that has that creatures power or less.&#xA;{MANA ARMS} 5: if you have 5 or more fire cards in your mana zone, add the revealed card to your hand.&#xA;■ Shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Dramatic Card) P36"/>
+    </card>
+    <card id="8b123e94-0900-4ce9-8598-d16d0a611d00" name="Codename Balga Ragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Unknown"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If it's a non-evolution Dragon, you may put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P10"/>
+    </card>
+    <card id="bbf7cb38-5f6b-45e0-83aa-18d312115ff0" name="Gaial Kaiser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your shields break, look at that shield. You may put it into your graveyard instead of your hand. If you do, you may put a Hunter psychic creature from your hyperspatial zone into the battle zone that costs the same as the card that you put into your graveyard this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="Coro35th 1a"/>
+      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
+      </alternate>
+    </card>
+    <card id="02cb86a2-1a89-47bf-9f22-ae88bf5480c4" name="Gaial Kaiser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Red Command Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your shields break, look at that shield. You may put it into your graveyard instead of your hand. If you do, you may put a Hunter psychic creature from your hyperspatial zone into the battle zone that costs the same as the card that you put into your graveyard this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="Coro35th 1b"/>
+      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
+      </alternate>
+    </card>
+    <card id="9fc8b284-c3c6-4718-8bfa-32d22e248a7d" size="tall" name="Gaial King Dragon, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="Coro35th 1b+2b+3b"/>
+    </card>
+    <card id="c715430c-d015-45d5-a263-4d54de8d0e79" name="Gaial King Dragon, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value=""/>
+    </card>
     <card id="f2f8f283-4c85-4dd3-a474-1098838612c6" name="Tenshukaku, Dragon King Keep">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -10,6 +109,117 @@
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="(Dramatic Card) P13"/>
+    </card>
+    <card id="6da713d2-3dfc-4718-9f75-5ecb01c13d84" name="Batoraio, Victory Blastdragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Flame Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ When one of your fire Dragons wins a battle, you may put this creature from your hand into the battle zone.&#xA;■ Whenever your other fire creatures would battle, you may have this creature battle instead.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P14/Y13 (WINNER Card)"/>
+    </card>
+    <card id="a9f62f76-90bf-4130-8153-3db54570988f" name="Zabi Claw, Dark Warrior">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid/Alien"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P16"/>
+    </card>
+    <card id="3c15c28a-232f-4e4c-9285-bfe165bdc43e" name="Dorapon, Little Gunman">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Exile Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy one of your opponent's creatures that has power 3000 or less.&#xA;{DORON GO} Gunman:When this creature is destroyed, you may put an exile creature that has &quot;Gunman&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Gunman&quot; in their name into the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P16"/>
+    </card>
+    <card id="b2b29328-256a-47d6-a59d-9cdee2cbdb8b" name="Faerie Life">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P17"/>
+    </card>
+    <card id="1fc8ca0f-8c28-462c-8d22-b24337a6f2f6" name="Dragonic Pippi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Fire Bird/Hunter"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="Coro35th 2a"/>
+      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
+      </alternate>
+    </card>
+    <card id="709b26b5-118d-4c31-924e-497d0b3f8ba4" name="Dragonic Pippi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Psychic Creature"/>
+      <property name="Race" value="Fire Bird/Hunter"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="Coro35th 2b"/>
+      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="24"/>
+        <property name="Type" value="Psychic Super Creature"/>
+        <property name="Race" value="King Command Dragon/Hunter"/>
+        <property name="Power" value="25000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
+      </alternate>
+    </card>
+    <card id="b96a9beb-cccc-4577-ab30-22f78ead6c0a" name="Gaial King Dragon, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value=""/>
     </card>
     <card id="b421e348-5e08-4aaf-bfac-0813097df368" name="Protoheart, Galaxy Sword">
       <property name="Format" value="OCG"/>
@@ -79,113 +289,6 @@
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="(Dramatic Card) P22"/>
-    </card>
-    <card id="96df1971-e068-4a11-b046-1a688686ad43" name="Tenshukaku, Dragon King Keep">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Look at the top 5 cards of your deck. From among them, you may show a fire creature to your opponent and destroy one of your opponent's creatures that has that creatures power or less.&#xA;{MANA ARMS} 5: if you have 5 or more fire cards in your mana zone, add the revealed card to your hand.&#xA;■ Shuffle your deck."/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Dramatic Card) P36"/>
-    </card>
-    <card id="590c9e8b-3232-468e-b5e3-39ec4aabc150" name="Urovelia, Divine Dragon Spear">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ A creature equipped with this gets &quot;blocker&quot;.&#xA;{DRAGSOLUTION}: At the end of your turn, if the creature equipped with this is tapped, flip this card to the dragheart creature side and untap it. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Dramatic Card) P57a"/>
-      <alternate name="Ultimaria, Divine Dragon Elemental" type="awakening" size="normal">
-        <property name="Civilization" value="Light"/>
-        <property name="Cost" value="5"/>
-        <property name="Type" value="Dragheart Creature"/>
-        <property name="Race" value="Angel Command Dragon"/>
-        <property name="Power" value="7500"/>
-        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-        <property name="Number" value="(Dramatic Card) P57b/Y13"/>
-      </alternate>
-    </card>
-    <card id="2d8cfee2-1735-4e35-8dc4-837067f09374" name="Ultimaria, Divine Dragon Elemental">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Dragheart Creature"/>
-      <property name="Race" value="Angel Command Dragon"/>
-      <property name="Power" value="7500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Dramatic Card) P57b"/>
-    </card>
-    <card id="8b123e94-0900-4ce9-8598-d16d0a611d00" name="Codename Balga Ragon">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon/Unknown"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If it's a non-evolution Dragon, you may put it."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P10"/>
-    </card>
-    <card id="6da713d2-3dfc-4718-9f75-5ecb01c13d84" name="Batoraio, Victory Blastdragon">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon/Flame Command"/>
-      <property name="Power" value="8000"/>
-      <property name="Rules" value="■ When one of your fire Dragons wins a battle, you may put this creature from your hand into the battle zone.&#xA;■ Whenever your other fire creatures would battle, you may have this creature battle instead.&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P14/Y13 (WINNER Card)"/>
-    </card>
-    <card id="a9f62f76-90bf-4130-8153-3db54570988f" name="Zabi Claw, Dark Warrior">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="1"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Dragonoid/Alien"/>
-      <property name="Power" value="1000"/>
-      <property name="Rules" value="■ This creature attacks each turn if able."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P16"/>
-    </card>
-    <card id="3c15c28a-232f-4e4c-9285-bfe165bdc43e" name="Dorapon, Little Gunman">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="4"/>
-      <property name="Type" value="Exile Creature"/>
-      <property name="Race" value="Outrage MAX"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, destroy one of your opponent's creatures that has power 3000 or less.&#xA;{DORON GO} Gunman:When this creature is destroyed, you may put an exile creature that has &quot;Gunman&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Gunman&quot; in their name into the battle zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P16"/>
-    </card>
-    <card id="b2b29328-256a-47d6-a59d-9cdee2cbdb8b" name="Faerie Life">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put the top card of your deck into your mana zone."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P17"/>
     </card>
     <card id="7f3168ba-d19d-4a4b-b8f0-b3d89c0f0920" name="Emergency Typhoon">
       <property name="Format" value="OCG"/>
@@ -287,131 +390,6 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="(Mode Change Card) P42"/>
     </card>
-    <card id="00055883-b95a-4dc6-8974-1a32138228c7" name="Katsudon DASH, God Eater">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Exile Creature"/>
-      <property name="Race" value="Outrage MAX"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Climax Doron Go: When one of your exile creatures is destroyed, you may put this creature from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have 'Katsudon DASH, God Eater' in their name into the battle zone.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When this creature is destroyed, unlink all Gods."/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="(Mode Change Card) P90"/>
-    </card>
-    <card id="bbf7cb38-5f6b-45e0-83aa-18d312115ff0" name="Gaial Kaiser">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Red Command Dragon/Hunter"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your shields break, look at that shield. You may put it into your graveyard instead of your hand. If you do, you may put a Hunter psychic creature from your hyperspatial zone into the battle zone that costs the same as the card that you put into your graveyard this way."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="Coro35th 1a"/>
-      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="24"/>
-        <property name="Type" value="Psychic Super Creature"/>
-        <property name="Race" value="King Command Dragon/Hunter"/>
-        <property name="Power" value="25000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
-      </alternate>
-    </card>
-    <card id="02cb86a2-1a89-47bf-9f22-ae88bf5480c4" name="Gaial Kaiser">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Red Command Dragon/Hunter"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your shields break, look at that shield. You may put it into your graveyard instead of your hand. If you do, you may put a Hunter psychic creature from your hyperspatial zone into the battle zone that costs the same as the card that you put into your graveyard this way."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="Coro35th 1b"/>
-      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="24"/>
-        <property name="Type" value="Psychic Super Creature"/>
-        <property name="Race" value="King Command Dragon/Hunter"/>
-        <property name="Power" value="25000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
-      </alternate>
-    </card>
-    <card id="9fc8b284-c3c6-4718-8bfa-32d22e248a7d" size="tall" name="Gaial King Dragon, Raging Dragon Lord">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="24"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="King Command Dragon/Hunter"/>
-      <property name="Power" value="25000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="Coro35th 1b+2b+3b"/>
-    </card>
-    <card id="1fc8ca0f-8c28-462c-8d22-b24337a6f2f6" name="Dragonic Pippi">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Fire Bird/Hunter"/>
-      <property name="Power" value="2000+"/>
-      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="Coro35th 2a"/>
-      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="24"/>
-        <property name="Type" value="Psychic Super Creature"/>
-        <property name="Race" value="King Command Dragon/Hunter"/>
-        <property name="Power" value="25000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
-      </alternate>
-    </card>
-    <card id="709b26b5-118d-4c31-924e-497d0b3f8ba4" name="Dragonic Pippi">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Fire Bird/Hunter"/>
-      <property name="Power" value="2000+"/>
-      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have Gaial Kaiser and Boost, Crimson Lord in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-      <property name="Number" value="Coro35th 2b"/>
-      <alternate name="Gaial King Dragon, Raging Dragon Lord" type="awakening" size="tall">
-        <property name="Civilization" value="Fire"/>
-        <property name="Cost" value="24"/>
-        <property name="Type" value="Psychic Super Creature"/>
-        <property name="Race" value="King Command Dragon/Hunter"/>
-        <property name="Power" value="25000"/>
-        <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-        <property name="Watermark" value=""/>
-        <property name="Mana" value="N/A"/>
-        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
-        <property name="Number" value="Coro35th 1b+2b+3b/3"/>
-      </alternate>
-    </card>
     <card id="664ff989-adcd-42e1-9226-7bb07f52d204" name="Boost, Crimson Lord">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
@@ -461,6 +439,67 @@
         <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
         <property name="Number" value="Coro35th 1b+2b+3b/3"/>
       </alternate>
+    </card>
+    <card id="03300143-8cf3-4d7e-bd34-6816b77be342" name="Gaial King Dragon, Raging Dragon Lord">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="24"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="King Command Dragon/Hunter"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value=""/>
+    </card>
+    <card id="590c9e8b-3232-468e-b5e3-39ec4aabc150" name="Urovelia, Divine Dragon Spear">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Dragheart Weapon"/>
+      <property name="Rules" value="■ A creature equipped with this gets &quot;blocker&quot;.&#xA;{DRAGSOLUTION}: At the end of your turn, if the creature equipped with this is tapped, flip this card to the dragheart creature side and untap it. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Dramatic Card) P57a"/>
+      <alternate name="Ultimaria, Divine Dragon Elemental" type="awakening" size="normal">
+        <property name="Civilization" value="Light"/>
+        <property name="Cost" value="5"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Angel Command Dragon"/>
+        <property name="Power" value="7500"/>
+        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+        <property name="Number" value="(Dramatic Card) P57b/Y13"/>
+      </alternate>
+    </card>
+    <card id="2d8cfee2-1735-4e35-8dc4-837067f09374" name="Ultimaria, Divine Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Dramatic Card) P57b"/>
+    </card>
+    <card id="00055883-b95a-4dc6-8974-1a32138228c7" name="Katsudon DASH, God Eater">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Exile Creature"/>
+      <property name="Race" value="Outrage MAX"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Climax Doron Go: When one of your exile creatures is destroyed, you may put this creature from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have 'Katsudon DASH, God Eater' in their name into the battle zone.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When this creature is destroyed, unlink all Gods."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
+      <property name="Number" value="(Mode Change Card) P90"/>
     </card>
     <card id="116fae55-f4c4-45d5-bbda-a15913d9bf8e" name="Gaiheart, Galaxy Greatsword">
       <property name="Format" value="OCG"/>
@@ -541,7 +580,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature Dragon - (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature Dragon (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P1"/>
@@ -727,7 +766,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature Dragon - (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that costs 6 or less."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature Dragon (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that costs 6 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P4"/>
@@ -821,6 +860,7 @@
     </card>
     <card id="d9d22d6d-869a-4188-9fe2-4daa99705dc9" name="Prin, Reversal Princess">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hunter/Alien"/>
@@ -1152,6 +1192,7 @@
     </card>
     <card id="8da48953-829e-43e3-9593-e161747de156" name="Maximum the Max, Zenith of &quot;Military&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Unknown/Zenith"/>
@@ -1206,7 +1247,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature Dragon - (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy up to 2 of your opponent's creatures that have &quot;blocker&quot;."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature Dragon (When one of your Fire or Nature Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy up to 2 of your opponent's creatures that have &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P12"/>
@@ -1629,7 +1670,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature creature - (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature creature (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P20"/>
@@ -1685,6 +1726,7 @@
     </card>
     <card id="c3a8c46c-385b-4ec7-a342-d15dbb5811f2" name="Oasis, Dragon Machine Left God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Armored Dragon"/>
@@ -1734,6 +1776,7 @@
     </card>
     <card id="523b10d8-cb8b-4061-b1d4-bd737310e12a" name="Blur, True Flashing Right God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Zombie Dragon"/>
@@ -1954,20 +1997,19 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;Your creatures can't be blocked by creatures that have less power than them."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P27"/>
     </card>
-    <card id="9509902d-9407-49a0-8d99-8d46e8c16c0a" name="Vines, D2V">
+    <card id="9509902d-9407-49a0-8d99-8d46e8c16c0a" name="Forbidden">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="7"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Sonic Command/Master Initials"/>
-      <property name="Power" value="9000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures. If you have a D2 Field in the battle zone, destroy another one of their creatures."/>
+      <property name="Power" value="9999"/>
+      <property name="Rules" value="■ Creatures can't attack.&#xA;■ Seals can't be removed from creatures."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P27"/>
@@ -2498,7 +2540,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}This creature breaks an additional shield until the end of the turn."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}: This creature breaks an additional shield until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
@@ -2716,7 +2758,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;Your creatures can't be blocked by creatures that have less power than them."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
@@ -2729,7 +2771,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater/Giant"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Earth Eater and Giant (This creature costs 1 less to summon for each of your Earth Eater, Giant in play. It can't cost less than 2.)}&#xA;■ When you put this creature into the battle zone, you may draw a card for each of your Earth Eaters in the battle zone. Then you may draw a card for each of your Giants in the battle zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Earth Eater and Giant (This creature costs 1 less to summon for each of your Earth Eater, Giant in play. It can't cost less than 2.)&#xA;■ When you put this creature into the battle zone, you may draw a card for each of your Earth Eaters in the battle zone. Then you may draw a card for each of your Giants in the battle zone.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
@@ -2907,7 +2949,7 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P43"/>
     </card>
-    <card id="500c9c5c-3014-432e-b095-d1b70b6e489e" size="wide" name="Great Galaxy, Giant Castle">
+    <card id="500c9c5c-3014-432e-b095-d1b70b6e489e" size="wide" name="Great Galaxy, Giant Star Castle">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
@@ -2963,7 +3005,7 @@
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, look at the top 2 cards of your deck. From among them, add one to your shields face down and put the other into your mana zone.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Gonbuto|Treasure:When this creature is destroyed, you may put an exile creature that has &quot;Gonbuto|Treasure&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Shining Kinji&quot; in their name into the battle zone."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, look at the top 2 cards of your deck. From among them, add one to your shields face down and put the other into your mana zone.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Gonbuto or Treasure:When this creature is destroyed, you may put an exile creature that has &quot;Gonbuto&quot; or &quot;Treasure&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Shining Kinji&quot; in their name into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P44"/>
@@ -3277,13 +3319,14 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command Dragon"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ You may summon this creature by destroying 3 of your creatures instead of paying its cost.&#xA;&#xA;■ Whenever this creature attacks, return a creature from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ You may summon this creature by destroying 3 of your creatures instead of paying its cost.&#xA;■ Whenever this creature attacks, return a creature from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P49"/>
     </card>
     <card id="a1ea7f91-431b-4e91-8cac-81d46ddc9210" name="Kaiser &quot;Baki&quot;, Zenith of &quot;Certain Victory&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter/Zenith"/>
@@ -3451,6 +3494,7 @@
     </card>
     <card id="3c941604-3c9e-431a-981e-583c77e66b54" name="Kaiser &quot;Baki&quot;, Zenith of &quot;Certain Victory&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter/Zenith"/>
@@ -3488,6 +3532,7 @@
     </card>
     <card id="296cedb1-7331-4921-b619-5acf9e497b60" name="Bhutan POP, Shenton">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX/Oracle"/>
@@ -3584,7 +3629,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Human"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or when this creature leaves the battle zone, you and your opponent play Gachinko Judge. If you win, choose one of the following:&#xA;► Put a file:Victory Rare.png|30px|text-top Victory creature or a creature that costs 10 or more from your hand into the battle zone:&#xA;► Search your deck. Take a file:Victory Rare.png|30px|text-top Victory creature or a creature that costs 10 or more from your deck, show that creature to your opponent and add it to your hand. Then shuffle your deck."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature or when this creature leaves the battle zone, you and your opponent play Gachinko Judge. If you win, choose one of the following:&#xA;► Put a Victory creature or a creature that costs 10 or more from your hand into the battle zone:&#xA;► Search your deck. Take a Victory creature or a creature that costs 10 or more from your deck, show that creature to your opponent and add it to your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
@@ -3592,6 +3637,7 @@
     </card>
     <card id="ea5764f7-1938-46f2-a12a-9c874fd032b7" name="Battle the Climax, Zenith of &quot;Victory&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Zenith/Hunter/Alien"/>
@@ -3705,7 +3751,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Fire or Nature creature - (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, one of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Fire or Nature creature (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, one of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P56"/>
@@ -3815,7 +3861,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature creature - (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, look at the top 5 cards of your deck. You may take a multicolored creature, show that creature to your opponent and put it on top of your deck. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature creature (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, look at the top 5 cards of your deck. You may take a multicolored creature, show that creature to your opponent and put it on top of your deck. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P58"/>
@@ -3876,13 +3922,14 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Invader"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your darkness creatures.&#xA;{INVASION}-Darkness creature that costs 3 or more (When one of your darkness creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Darkness creature that costs 3 or more (When one of your darkness creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , you may put the top 5 cards of your deck into your graveyard."/>
+      <property name="Rules" value="■ Evolution—Put on one of your darkness creatures.&#xA;{INVASION}-Darkness creature that costs 3 or more (When one of your darkness creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , you may put the top 5 cards of your deck into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P59"/>
     </card>
     <card id="ed461a6b-69e7-48c0-9517-e3e9e3f0e875" name="Prelude of Horror">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
@@ -4353,7 +4400,7 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P67"/>
     </card>
-    <card id="64015ac8-4c6e-413d-8a08-d08ae53a37f6" size="wide" name="Great Galaxy, Giant Castle">
+    <card id="64015ac8-4c6e-413d-8a08-d08ae53a37f6" size="wide" name="Great Galaxy, Giant Star Castle">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
@@ -4519,6 +4566,7 @@
     </card>
     <card id="c5adba32-f4b0-45d2-a520-dc068194f5b0" name="Izumo">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Oracle"/>
@@ -4577,6 +4625,7 @@
     </card>
     <card id="6683568a-4e18-4ab8-b71f-b30c30e507a6" name="Pearljam, Faerie Left God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Snow Faerie"/>
@@ -4635,6 +4684,7 @@
     </card>
     <card id="a982ebbe-9d98-4c5b-a96e-59408b0602c0" name="Strokes, Explosive Right God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Flame Command"/>
@@ -4679,6 +4729,7 @@
     </card>
     <card id="5def9973-e0cb-40ed-a0d1-5caaded0d1e6" name="Destiny Ryusei of Fate">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Hunter"/>
@@ -4736,6 +4787,7 @@
     </card>
     <card id="e544052f-9205-4a25-9cd8-2b8d59f4264f" name="Prin, Reversal Princess">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hunter/Alien"/>
@@ -4956,7 +5008,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Light or Water creature - (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water creature (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P77"/>
@@ -5013,6 +5065,7 @@
     </card>
     <card id="e7a8c607-b674-4620-90ff-b47d96c8f284" name="LOVE x HATE, Secret Cruelty">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{ATTACK CHANCE}: Shangri-La, Climax of &quot;Cruelty&quot; (When one of your Shangri-La, Climax of &quot;Cruelty&quot;s attacks, you may cast this spell for no cost.)&#xA;■ Put a creature from your graveyard.&#xA;■ If you have a Zenith, choose one of your opponent's creatures. Your opponent puts that creature into their deck and shuffles it."/>
@@ -5052,7 +5105,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE} Fire or Nature creature - (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, look at the top 5 cards of your deck. You may take a multicolored creature, show that creature to your opponent and put it on top of your deck. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature creature (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, look at the top 5 cards of your deck. You may take a multicolored creature, show that creature to your opponent and put it on top of your deck. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 11-15)"/>
       <property name="Number" value="P79"/>

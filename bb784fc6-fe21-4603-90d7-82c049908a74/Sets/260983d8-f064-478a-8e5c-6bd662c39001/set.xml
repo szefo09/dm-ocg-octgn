@@ -81,6 +81,7 @@
     </card>
     <card id="db8bf337-1653-4cf5-acb6-aec0364d51f1" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -91,6 +92,7 @@
     </card>
     <card id="52812a6a-5516-43f9-99df-4bb9d885733c" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -101,6 +103,7 @@
     </card>
     <card id="42952915-4920-4a79-8f5e-97f49e8ec7e0" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -198,6 +201,7 @@
         <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
+        <property name="Number" value=""/>
       </alternate>
     </card>
     <card id="0453ec4d-9869-4844-967e-aefc5bd1eff9" name="Super Psychen Pippi">
@@ -349,7 +353,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Survivor/Horned Beast"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{SURVIVOR} NEW|THIS CREATURE GETS +1000 POWER."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): This creature gets +1000 power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="248/???"/>
@@ -557,7 +561,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, discard a card from your hand. Then draw 2 cards.&#xA;{SUPER}When you put this creature into the battle zone, destroy all your opponent's creatures with the &quot;ん&quot; sound at the end of the name."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, discard a card from your hand. Then draw 2 cards.&#xA;{SUPER}: When you put this creature into the battle zone, destroy all your opponent's creatures with the &quot;ん&quot; sound at the end of the name."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="261/???"/>
@@ -642,6 +646,7 @@
     </card>
     <card id="9f280544-0c84-44b7-a8bd-2b5f31f0371e" name="Deshibuko Guchipa, Zenith of &quot;Fist&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Unknown/Zenith/Specials"/>
@@ -701,7 +706,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone or whenever it attacks, you may discard a card from your hand. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone or whenever it attacks, you may discard a card from your hand. If you do, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="271/???"/>
@@ -709,6 +714,7 @@
     </card>
     <card id="a5978483-3faf-40d3-85b6-558b200916d4" name="Todomatsu, Freedom Youngest Brother">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Neet"/>
@@ -721,6 +727,7 @@
     </card>
     <card id="bcbbb389-abb9-4ced-9ff9-ce15516595ee" name="Todomatsu, Freedom Youngest Brother">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Neet"/>
@@ -757,6 +764,7 @@
     </card>
     <card id="cd5d0b23-45ae-42de-a63f-4b8aa7c21832" name="Dark Matter, Zenith of &quot;Magic&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Liquid People/Unknown/Zenith"/>
@@ -862,7 +870,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Guerrilla Command/Invader"/>
       <property name="Power" value="21000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your nature creatures.&#xA;{INVASION}-Nature evolution command (When one of your Nature evolution command attacks, you may put this creature from your hand onto it.)&#xA;{QUATTRO BREAKER}&#xA;■ Whenever this creature or one of your nature creatures would be destroyed, put them into your mana zone instead."/>
+      <property name="Rules" value="■ Evolution: Put on one of your nature creatures.&#xA;{INVASION}-Nature evolution command (When one of your Nature evolution command attacks, you may put this creature from your hand onto it.)&#xA;{QUATTRO BREAKER}&#xA;■ Whenever this creature or one of your nature creatures would be destroyed, put them into your mana zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="284/???"/>
@@ -1360,6 +1368,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -1400,6 +1409,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -1440,6 +1450,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -1621,6 +1632,7 @@
     </card>
     <card id="f8a3fd72-1431-49dc-bf82-53835d0a1086" name="Zeta-File, Zenith of &quot;Mystery&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Unknown/Zenith"/>
@@ -1772,7 +1784,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="9347477b-3379-4594-84a7-7170e8f313cb" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="450aa17f-b0cd-40c8-aac8-f0d948e851be" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -1812,6 +1824,7 @@
     </card>
     <card id="0ffbda82-14b4-4bbe-9640-c0303fad0707" name="Final Heikkie">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1859,6 +1872,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -2053,6 +2067,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -2159,7 +2174,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Discard a card from your opponent's hand at random.&#xA;■ Sing one song at Karaoke with a scoring function. If the score is 80 or more, discard a card from your opponent's hand at random.&#xA;{RECYCLE} Darkness 5 | r e c i t a l(You may pay Darkness 5 | r e c i t a l mana to cast this spell from your graveyard. After you cast, put it on the bottom of your deck instead of your graveyard.)"/>
+      <property name="Rules" value="■ Discard a card from your opponent's hand at random.&#xA;■ Sing one song at Karaoke with a scoring function. If the score is 80 or more, discard a card from your opponent's hand at random.&#xA;{RECITAL} Darkness 5(You may pay Darkness 5 mana to cast this spell from your graveyard. After you cast, put it on the bottom of your deck instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="87/???"/>
@@ -2172,7 +2187,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Sonic Command/Specials"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{Marshall Touch"/>
+      <property name="Rules" value="{MARSHALL TOUCH} (When you put this creature into the battle zone, you may return one of your other creatures in the battle zone to your hand. If you do, use this creature's Marshall Touch ability)&#xA; Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="88/???"/>
@@ -2219,6 +2234,7 @@
     </card>
     <card id="0fc641f9-a925-4bc8-bfa5-c73f8b04f860" name="Emrakul, the Aeons Torn">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="15"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Eldrazi/Zenith"/>
@@ -2310,6 +2326,7 @@
     </card>
     <card id="9dd0d47b-3ba6-427d-aac2-a46c23233162" name="Judge CREW Knee">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2337,7 +2354,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="100/???"/>
@@ -2356,6 +2373,7 @@
     </card>
     <card id="c4d4c7d3-f66c-43b6-a9ef-42db18b8ad76" name="The Fukuromen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2493,7 +2511,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="450aa17f-b0cd-40c8-aac8-f0d948e851be" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="70a6528d-b99f-4a8d-adf4-0f1609e58450" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -2748,7 +2766,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="70a6528d-b99f-4a8d-adf4-0f1609e58450" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="9347477b-3379-4594-84a7-7170e8f313cb" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -2781,6 +2799,7 @@
         <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each turn, the first time one of your opponent's creatures is destroyed that turn, untap this creature.&#xA;{DOUBLE BREAKER}"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
+        <property name="Number" value=""/>
       </alternate>
     </card>
     <card id="eab80c28-a5e5-481c-86b0-7c462e0ef529" name="Glodalmatia Heaven's Arm">
@@ -2875,7 +2894,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="113/???"/>
@@ -2897,6 +2916,7 @@
     </card>
     <card id="0a4ffaa8-ecf6-4f95-9477-4749cefcd5e7" name="Hazure Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3158,6 +3178,20 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value=""/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening2" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3182,7 +3216,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1c/25"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3205,6 +3239,20 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value=""/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening2" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3229,7 +3277,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1c/25"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3252,6 +3300,20 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value=""/>
+        <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
+      </alternate>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening2" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="Victory Rare"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3276,7 +3338,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1c/25"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
@@ -3313,7 +3375,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;&#xA;{SUPER SHIELD TRIGGER}When you put this creature, you may draw 10 cards."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{SUPER SHIELD TRIGGER}: When you put this creature, you may draw 10 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="18/???"/>
@@ -3335,6 +3397,7 @@
     </card>
     <card id="e1153872-ba72-46e5-aa6b-a92c6b073f14" name="Black Lotus">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Mono Artifact"/>
       <property name="Rules" value="■ When you put this artifact, put 3 seals on it. (To seal a card, put the top card of your deck on that card face down.)&#xA;■ At the start of your turn, put a seal on this artifact on the bottom of your deck.&#xA;■ When you remove all seals from this artifact, put it into your graveyard. The next time you use a card this turn, you may reduce its cost by up to 3. It can't cost 0 or less."/>
@@ -3359,6 +3422,7 @@
     </card>
     <card id="bcffd732-470f-4c19-ba2e-efddbd0c8004" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -3369,6 +3433,7 @@
     </card>
     <card id="22a01e71-24db-4fb7-aee4-62dff3a66ede" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -3379,6 +3444,7 @@
     </card>
     <card id="cc1e4438-c9b0-47d7-8167-bb0511ae8e9c" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -3402,6 +3468,7 @@
     </card>
     <card id="92d4d874-ca68-46c4-9c44-c7ddcdcf4d24" name="Keshikasu, Vanish King">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3414,6 +3481,7 @@
     </card>
     <card id="bb099a7c-5709-48cd-9229-c45f6113cbb2" name="Chotto☆Kyawa☆Joragon">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
@@ -3695,6 +3763,7 @@
     </card>
     <card id="ef3933e7-2c32-4c1d-871e-246979346a48" name="Zombieponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3712,7 +3781,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Light or Water creature - (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water creature (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="175/???"/>
@@ -3877,6 +3946,7 @@
     </card>
     <card id="7db2bdee-248f-400e-a7ec-309f0a652b02" name="Jishou Jisho">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
@@ -3888,6 +3958,7 @@
     </card>
     <card id="824bfa8a-da04-4bca-825f-229714b6a1e2" name="The Chow Men">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3900,11 +3971,12 @@
     </card>
     <card id="31b45e56-6b76-4f01-b7a1-8d4d7c03e536" name="Platinum Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Mana Drive 3 (&quot;Hazure Ponnosuke&quot;): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is &quot;Hazure Ponnosuke&quot;, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Mana Drive 3 (&quot;Hazure Ponnosuke&quot;): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is &quot;Hazure Ponnosuke&quot;, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="190/???"/>
@@ -4094,7 +4166,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Guardian Command Dragon/Master Revolutionary/Team Damama"/>
       <property name="Power" value="12500"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;{Revolution Change|Light|Nature dragon"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;{REVOLUTION CHANGE}-Light or Nature dragoncosts 5 or more(When one of your Light or Nature dragonscosts 5 or moreattacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may choose a D2 Field from your mana zone and put it into the battle zone.&#xA;■ If you have a D2 Field in the battle zone, nobody can put a D2 Field into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="204/???"/>
@@ -4183,7 +4255,7 @@
       <property name="Type" value="Neo Gacharange Creature"/>
       <property name="Race" value="Hunter/Alien"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="■ Neo Evolution: You may put it on one of your gacharange creatures.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +1000 power for each card it consists of.&#xA;■ Whenever this creature attacks, choose a card from your mana zone, hand or graveyard and put it under this creature."/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your gacharange creatures.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +1000 power for each card it consists of.&#xA;■ Whenever this creature attacks, choose a card from your mana zone, hand or graveyard and put it under this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="211/???"/>
@@ -4196,7 +4268,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{JOE} 3&#xA;Jokers Over Explode 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="212/???"/>
@@ -4400,6 +4472,7 @@
     </card>
     <card id="3ecfa5ba-8f9c-4669-a482-d79288322673" name="Tokyo Mystery Circus Letter of Challenge">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may use a card that has &quot;Mystery&quot;, &quot;Nazo&quot;, &quot;Mystery&quot; or &quot;Question&quot; in its name from your hand for no cost."/>
@@ -4448,6 +4521,7 @@
     </card>
     <card id="48ee8a9e-1f58-4c8f-9d0b-d02b9872ec21" name="Charmeijin, Hundred Delivery">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4460,6 +4534,7 @@
     </card>
     <card id="baa0146d-7de3-422d-9f2a-f85e18aec40b" name="The Ramen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4490,7 +4565,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Crystal Command Dragon/Revolutionary/Team Tech"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Water or Darkness Dragon - (When one of your Water or Darkness Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures. Your opponent may destroy that creature. If they don't, return all of their creatures to their hand."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Water or Darkness Dragon (When one of your Water or Darkness Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, choose one of your opponent's creatures. Your opponent may destroy that creature. If they don't, return all of their creatures to their hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="232/???"/>
@@ -4564,6 +4639,7 @@
     </card>
     <card id="55923a06-ba50-4806-85cb-7967d5faa736" name="The Shio Ramen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>

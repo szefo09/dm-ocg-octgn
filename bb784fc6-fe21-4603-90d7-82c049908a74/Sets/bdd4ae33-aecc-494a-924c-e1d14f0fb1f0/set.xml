@@ -27,7 +27,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Metallica"/>
       <property name="Power" value="4500"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Choose one of your creatures. That creature can't be destroyed until the start of your next turn."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Choose one of your creatures. That creature can't be destroyed until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -104,7 +104,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Beat Jockey"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Choose one of your creatures. At the end of that creature's first attack this turn, untap it."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Choose one of your creatures. At the end of that creature's first attack this turn, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="7"/>
@@ -151,11 +151,12 @@
     </card>
     <card id="5f4e6b82-74c9-4c43-acdf-e046ce80dac5" name="Rajikon Boy">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, put the card on the bottom of your deck into your hand.&#xA;{SUPER}When you put this creature into the battle zone, your opponent chooses 3 of their creatures, adds one of them to their hand, one into their mana zone and one on the bottom of their deck."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, put the card on the bottom of your deck into your hand.&#xA;{SUPER}: When you put this creature into the battle zone, your opponent chooses 3 of their creatures, adds one of them to their hand, one into their mana zone and one on the bottom of their deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="11"/>
@@ -194,7 +195,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragon Guild/Metallica"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may cast a spell from your hand that costs 3 or less for no cost.&#xA;{SUPER}When you put this creature into the battle zone, this turn, your creatures don't leave the battle zone and get 'Blocker' until the start of your next turn. (You may tap a creature that has &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may cast a spell from your hand that costs 3 or less for no cost.&#xA;{SUPER}: When you put this creature into the battle zone, this turn, your creatures don't leave the battle zone and get 'Blocker' until the start of your next turn. (You may tap a creature that has &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14"/>
@@ -245,7 +246,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SUPER}When you put this creature into the battle zone, choose up to 3 of your opponent's creatures and return to its owner's hand."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SUPER}: When you put this creature into the battle zone, choose up to 3 of your opponent's creatures and return to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="18"/>
@@ -271,7 +272,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}: When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="20"/>
@@ -295,7 +296,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Beat Jockey"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|One of your creatures breaks an additional shield until the end of the turn."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;One of your creatures breaks an additional shield until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="22"/>
@@ -308,7 +309,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your graveyard. If it's a non-evolution creature that costs 5 or less, destroy this creature and put that creature into the battle zone. Otherwise, this creature gets +4000 power, &quot;speed attacker&quot; and &quot;double breaker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your graveyard. If it's a non-evolution creature that costs 5 or less, destroy this creature and put that creature into the battle zone. Otherwise, this creature gets +4000 power, &quot;speed attacker&quot; and &quot;double breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="23"/>
@@ -334,7 +335,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SUPER}When you put this creature into the battle zone, destroy all your opponent's creatures that have power 5000 or less."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SUPER}: When you put this creature into the battle zone, destroy all your opponent's creatures that have power 5000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>
@@ -360,7 +361,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, put a card from your graveyard into your mana zone.&#xA;{SUPER}Choose 3 of your opponent's untapped creatures and put them into their owner's mana zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, put a card from your graveyard into your mana zone.&#xA;{SUPER}: Choose 3 of your opponent's untapped creatures and put them into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -386,7 +387,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Metallica"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|At the end of your turn, tap or untap any number of your creatures."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;At the end of your turn, tap or untap any number of your creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="29"/>
@@ -461,7 +462,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;Choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="35"/>
@@ -524,7 +525,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Put the top 3 cards of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;Put the top 3 cards of your deck into your graveyard. Then return a creature from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="40"/>
@@ -587,7 +588,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Beat Jockey"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Destroy one of your opponent's creatures that has power 1000 or less."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;Destroy one of your opponent's creatures that has power 1000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="45"/>
@@ -639,7 +640,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, one of your other creatures gets &quot;Power Attacker +4000&quot; and breaks an additional shield until the end of the turn. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, one of your other creatures gets &quot;Power Attacker +4000&quot; and breaks an additional shield until the end of the turn. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="49"/>
@@ -676,7 +677,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Reveal the top 3 cards of your deck. You may add a creature from among them to your hand. Put the rest on the bottom of the deck in any order."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;Reveal the top 3 cards of your deck. You may add a creature from among them to your hand. Put the rest on the bottom of the deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="52"/>
@@ -734,6 +735,7 @@
     </card>
     <card id="25574b11-57f7-4669-b278-21d59c93d647" name="Hazure Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1015,7 +1017,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="79"/>
@@ -1199,6 +1201,7 @@
     </card>
     <card id="199abc43-5194-4979-914a-6cfdb12c9a65" name="Savark DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master DG/Metallica"/>
@@ -1211,6 +1214,7 @@
     </card>
     <card id="e5c91a47-be23-4c42-9f32-49f61814a14f" name="Savark DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master DG/Metallica"/>
@@ -1223,6 +1227,7 @@
     </card>
     <card id="ec938f0b-a6af-48ba-8e86-c5f9db0609ac" name="Savark DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master DG/Metallica"/>
@@ -1235,6 +1240,7 @@
     </card>
     <card id="3ed89806-87a3-4f37-83f4-b188d2c1a84c" name="Savark DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master DG/Metallica"/>
@@ -1299,6 +1305,7 @@
     </card>
     <card id="00b69cd0-c76b-4fcf-a47b-8381f8e358e4" name="Final Heikkie">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1311,6 +1318,7 @@
     </card>
     <card id="68004792-8b6d-4a04-9679-d7c586e2f198" name="Final Heikkie">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1354,7 +1362,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|You may cast a spell that costs 7 or less from a graveyard for no cost. Put that spell on the bottom of its owner's deck instead of their graveyard."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;You may cast a spell that costs 7 or less from a graveyard for no cost. Put that spell on the bottom of its owner's deck instead of their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -1367,7 +1375,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|You may cast a spell that costs 7 or less from a graveyard for no cost. Put that spell on the bottom of its owner's deck instead of their graveyard."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;You may cast a spell that costs 7 or less from a graveyard for no cost. Put that spell on the bottom of its owner's deck instead of their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3㊙"/>
@@ -1406,7 +1414,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Destroy one of your opponent's creatures."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Destroy one of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>
@@ -1419,7 +1427,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Destroy one of your opponent's creatures."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Destroy one of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5㊙"/>
@@ -1458,7 +1466,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{JOE} 3&#xA;Jokers Over Explode 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>
@@ -1471,7 +1479,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{JOE} 3&#xA;Jokers Over Explode 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 3 (You may reduce this creature's summon cost by 3. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature's attack target can't be changed.&#xA;■ Whenever this creature would break a shield, if you have a total of 10 or more of your Jokers in the battle zone and/or your mana zone, your opponent puts it into their graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7㊙"/>
@@ -1510,7 +1518,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Look at the top 2 cards of your deck. From among them, you may put a non-evolution nature creature that has power 12000 or more into the battle zone. Add the rest into your hand."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Look at the top 2 cards of your deck. From among them, you may put a non-evolution nature creature that has power 12000 or more into the battle zone. Add the rest into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>
@@ -1523,7 +1531,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=comp|Look at the top 2 cards of your deck. From among them, you may put a non-evolution nature creature that has power 12000 or more into the battle zone. Add the rest into your hand."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;{KIZUNA COMP} (Whenever this creature attacks, you may use any number of your creature's Kizuna abilities.)&#xA;Look at the top 2 cards of your deck. From among them, you may put a non-evolution nature creature that has power 12000 or more into the battle zone. Add the rest into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9㊙"/>

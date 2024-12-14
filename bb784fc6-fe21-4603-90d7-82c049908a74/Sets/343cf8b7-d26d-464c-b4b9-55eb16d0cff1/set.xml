@@ -3,6 +3,7 @@
   <cards>
     <card id="81adabe6-d9b3-4f97-a924-1a7add159e3a" name="Jishou Jisho">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
@@ -14,6 +15,7 @@
     </card>
     <card id="a7f83df0-096c-4594-813b-974bb657418f" name="Pali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -44,7 +46,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Specials"/>
       <property name="Power" value="52000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;Whenever this creature attacks, your opponentputs all their creatures into their deck and shuffles it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="4"/>
@@ -240,7 +242,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}: When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="19"/>
@@ -267,7 +269,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, discard a card from your hand. Then draw 2 cards.&#xA;{SUPER}When you put this creature into the battle zone, destroy all your opponent's creatures with the &quot;ん&quot; sound at the end of the name."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, discard a card from your hand. Then draw 2 cards.&#xA;{SUPER}: When you put this creature into the battle zone, destroy all your opponent's creatures with the &quot;ん&quot; sound at the end of the name."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="21"/>
@@ -280,7 +282,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Sonic Command/Specials"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{Marshall Touch"/>
+      <property name="Rules" value="{MARSHALL TOUCH} (When you put this creature into the battle zone, you may return one of your other creatures in the battle zone to your hand. If you do, use this creature's Marshall Touch ability)&#xA; Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="22"/>
@@ -419,6 +421,7 @@
     </card>
     <card id="9fc56c05-517d-4301-b38b-1c7f1d0ee309" name="Deshibuko Guchipa, Zenith of &quot;Fist&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Unknown/Zenith/Specials"/>
@@ -476,7 +479,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
-        <property name="Number" value="36b/69"/>
+        <property name="Number" value="36b"/>
         <property name="Set" value="DMEX-03 Peri!!! Specialness Overloaded Mystery Pack"/>
       </alternate>
     </card>
@@ -501,7 +504,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
       <property name="Power" value="7000+"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ If you have a total of 10 or more Jokers in the battle zone or your mana zone, this creature gets +8000 power and has &quot;triple breaker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ If you have a total of 10 or more Jokers in the battle zone or your mana zone, this creature gets +8000 power and has &quot;triple breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="37"/>
@@ -547,6 +550,7 @@
     </card>
     <card id="a0128455-ab5d-466f-ab45-704799a2ac01" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -658,6 +662,7 @@
     </card>
     <card id="f6747572-8190-4e2d-b528-a1491f7af8a5" name="Jojojo Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -674,7 +679,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;Whenever this creature attacks, you may return all light spells in your graveyard to your hand."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: Whenever this creature attacks, you may return all light spells in your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -755,6 +760,7 @@
     </card>
     <card id="4344d3e2-28e3-47aa-9a08-5d1fffe7ce77" name="Chocolate House">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -767,6 +773,7 @@
     </card>
     <card id="f2ccbcdb-6bca-4c96-9c40-b4e7ed603566" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -779,6 +786,7 @@
     </card>
     <card id="b83757e3-45e8-4f7f-a063-28342eb5d7a2" name="Okke Brothers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -791,6 +799,7 @@
     </card>
     <card id="6056d621-159e-401c-8934-97d99260d139" name="Night's Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -803,6 +812,7 @@
     </card>
     <card id="0b259b06-bf4f-4603-b849-b668222039e3" name="Hazure Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -815,6 +825,7 @@
     </card>
     <card id="03a7a76c-dae1-46e8-8f29-63b6965cb390" name="Hazure Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -857,7 +868,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Knight"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;&#xA;{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Draw 2 cards."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -914,6 +925,7 @@
     </card>
     <card id="53e4e310-1701-446f-ac47-8e88aaaa134e" name="Golden the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -999,6 +1011,7 @@
     </card>
     <card id="8b07cae8-39ac-43f5-9e2e-20e0017eff83" name="Atari Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1011,6 +1024,7 @@
     </card>
     <card id="7ec4cdb6-fa21-4225-a9f1-911a960eeb0a" name="Norinorin">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
@@ -1093,7 +1107,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Jurassic Command Dragon/Revolutionary/Invader"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your creatures.&#xA;{INVASION}-Creature that costs 5 or more(When one of your creatures that costs 5 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Creature that costs 5 or more(When one of your creatures that costs 5 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;{TRIPLE BREAKER}&#xA;■ Your cards in the battle zone are considered to be cards of every civilization.&#xA;■ Revolution 2—If you have 2 shields or less, your creatures may cost up to 5 less to summon. They can't cost 0 or less."/>
+      <property name="Rules" value="■ Evolution—Put on one of your creatures.&#xA;{INVASION}-Creature that costs 5 or more(When one of your creatures that costs 5 or more attacks, you may put this creature from your hand onto it.)&#xA;{TRIPLE BREAKER}&#xA;■ Your cards in the battle zone are considered to be cards of every civilization.&#xA;■ Revolution 2—If you have 2 shields or less, your creatures may cost up to 5 less to summon. They can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S8"/>
@@ -1119,7 +1133,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{Revolution Change|Fire|Nature dragon"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{REVOLUTION CHANGE}-Fire or Nature dragoncosts 5 or more(When one of your Fire or Nature dragonscosts 5 or moreattacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, search your deck. You may choose a multicolored Dragon, show it to your opponent and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10"/>

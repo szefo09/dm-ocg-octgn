@@ -109,7 +109,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;Instead of tapping one of your opponent's creatures, tap all your opponent's creatures."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and tap it.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of tapping one of your opponent's creatures, tap all your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -135,7 +135,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Splash Queen"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{ACCELERATOR} (While this creature is crossed with a cross gear, this creature gets the following Accelerator ability.)&#xA;This creature can't be blocked.|When this creature would be destroyed, you may put a cross gear crossed with this creature into your graveyard instead."/>
+      <property name="Rules" value="{ACCELERATOR} (While this creature is crossed with a cross gear, this creature gets the following Accelerator ability.)&#xA;This creature can't be blocked.&#xA;When this creature would be destroyed, you may put a cross gear crossed with this creature into your graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -175,7 +175,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;When this creature is destroyed, return up to 2 other creatures from your graveyard to your hand."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: When this creature is destroyed, return up to 2 other creatures from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -321,7 +321,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets &quot;blocker&quot;.&#xA;■ When the crossed creature is destroyed, you may cross this with one of your creatures for no cost."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets &quot;blocker&quot;.&#xA;■ When the crossed creature is destroyed, you may cross this with one of your creatures for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -360,7 +360,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +5000 power and &quot;blocker&quot;.&#xA;■ The crossed creature can't attack."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +5000 power and &quot;blocker&quot;.&#xA;■ The crossed creature can't attack."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -400,7 +400,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +1000 power for each tapped creature in the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets +1000 power for each tapped creature in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -440,7 +440,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ Whenever the crossed creature attacks, you may destroy any number of your opponent's creatures that have total power 3000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ Whenever the crossed creature attacks, you may destroy any number of your opponent's creatures that have total power 3000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -697,7 +697,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Choose one of your opponent's cross gear and put it into its owner's graveyard.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;Instead of one of your opponent's cross gear, choose 2 of your opponent's cross gears and put them in their owner's graveyard."/>
+      <property name="Rules" value="■ Choose one of your opponent's cross gear and put it into its owner's graveyard.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of one of your opponent's cross gear, choose 2 of your opponent's cross gears and put them in their owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -817,7 +817,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Cross Gear"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets &quot;power attacker +9000&quot; and &quot;triple breaker&quot;."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ The crossed creature gets &quot;power attacker +9000&quot; and &quot;triple breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

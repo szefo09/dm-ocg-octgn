@@ -61,7 +61,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{Kirifudash} {F6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 6 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, untap all your creatures."/>
+      <property name="Rules" value="{KIRIFUDASH} {F6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 6 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, untap all your creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -82,6 +82,7 @@
     </card>
     <card id="d592a2db-7afa-4ae5-8729-44b2f751d315" name="Senno, Brainwash">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -135,7 +136,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{Kirifudash} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put all your opponent's creatures that have power 3000 or less into their owner's mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put all your opponent's creatures that have power 3000 or less into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="11"/>
@@ -196,7 +197,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Virus/Team Wave"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Draw a card, then discard a card from your hand.&#xA;■ If there are 5 or more cards in your graveyard, this creature gets +5000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Draw a card, then discard a card from your hand.&#xA;■ If there are 5 or more cards in your graveyard, this creature gets +5000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="16"/>
@@ -233,7 +234,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{Kirifudash} {N3} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 3 to summon this creature.)&#xA;■ When you put this creature into the battle zone, each player puts one of their creatures into their mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N3} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 3 to summon this creature.)&#xA;■ When you put this creature into the battle zone, each player puts one of their creatures into their mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="19"/>
@@ -401,7 +402,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(1) (When you pay this creature's cost, you may pay any number of additional (1). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (1).)&#xA;{BUZZRENDER}Look at the top 2 cards of your deck. Put one of them on the bottom of your deck.&#xA;■ Draw a card."/>
+      <property name="Rules" value="{BUZZRENDER}(1) (When you pay this creature's cost, you may pay any number of additional (1). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (1).)&#xA;{BUZZRENDER}: Look at the top 2 cards of your deck. Put one of them on the bottom of your deck.&#xA;■ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="32"/>
@@ -414,7 +415,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{Kirifudash} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{KIRIFUDASH} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="33"/>
@@ -493,7 +494,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}Put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}: Put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="39"/>
@@ -586,7 +587,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{Kirifudash} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your fire creatures gets &quot;speed attacker&quot;.&#xA;■ Each of your nature creatures gets &quot;mach fighter&quot;."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your fire creatures gets &quot;speed attacker&quot;.&#xA;■ Each of your nature creatures gets &quot;mach fighter&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S4"/>

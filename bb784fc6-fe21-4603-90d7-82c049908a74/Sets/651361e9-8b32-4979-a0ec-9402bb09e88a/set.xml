@@ -8,7 +8,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Survivor"/>
       <property name="Power" value="7500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;&#xA;{SURVIVOR} NEW|WHEN YOU PUT THIS CREATURE INTO THE BATTLE ZONE, CHOOSE ONE OF YOUR OPPONENT'S UNTAPPED CREATURES AND TAP IT. THAT CREATURE DOESN'T UNTAP AT THE START OF YOUR OPPONENT'S NEXT TURN."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): When you put this creature into the battle zone, choose one of your opponent's untapped creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="1"/>
@@ -21,7 +21,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Leviathan/Survivor"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SURVIVOR} NEW|WHEN YOU PUT THIS CREATURE INTO THE BATTLE ZONE, CHOOSE ONE OF YOUR OPPONENT'S CREATURES AND RETURN IT TO ITS OWNER'S HAND."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): When you put this creature into the battle zone, choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -35,7 +35,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Insect/Survivor"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{SURVIVOR} NEW|THIS CREATURE GETS +5000 POWER AND &quot;DOUBLE BREAKER&quot;."/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): This creature gets +5000 power and &quot;double breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="3"/>
@@ -76,7 +76,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gladiator/Survivor"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|ULTRA SAVER: SURVIVOR (WHEN ONE OF YOUR SURVIVORS WOULD LEAVE THE BATTLE ZONE, YOU MAY DESTROY THIS CREATURE INSTEAD.)"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): Ultra Saver: Survivor (When one of your Survivors would leave the battle zone, you may destroy this creature instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="6"/>
@@ -89,7 +89,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|WHENEVER THIS CREATURE ATTACKS, YOU MAY DRAW A CARD."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): Whenever this creature attacks, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="7"/>
@@ -102,7 +102,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|WHENEVER THIS CREATURE ATTACKS, YOU MAY PUT THE TOP CARD OF YOUR DECK INTO YOUR MANA ZONE."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="8"/>

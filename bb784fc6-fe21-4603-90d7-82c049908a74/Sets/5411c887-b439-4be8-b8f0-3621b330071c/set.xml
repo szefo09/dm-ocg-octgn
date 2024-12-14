@@ -3,6 +3,7 @@
   <cards>
     <card id="cd952490-cfd1-45f2-939a-bcf3edfb41d8" name="Almighty Zennou">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -15,6 +16,7 @@
     </card>
     <card id="e99b338f-28ca-42e8-94e3-276f2323ead4" name="Jojojo Maximum">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -26,6 +28,7 @@
     </card>
     <card id="6566bf1b-a955-443d-9e6b-958b1e84951f" name="Perfect Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -77,7 +80,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="12"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Gacharange summon 12 times."/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)&#xA;■ Gacharange summon 12 times."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="6"/>
@@ -188,7 +191,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SYMPATHY}: nature (This creature costs 1 less to summon for each of your nature in play. It can't cost less than 1.)}&#xA;{DOUBLE BREAKER}&#xA;■ Each of your nature creatures gets &quot;Mach Fighter&quot;.&#xA;■ Whenever one of your creatures that has power 12000 or more attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, put it. Otherwise, put it into your mana zone."/>
+      <property name="Rules" value="{SYMPATHY}: nature (This creature costs 1 less to summon for each of your nature in play. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your nature creatures gets &quot;Mach Fighter&quot;.&#xA;■ Whenever one of your creatures that has power 12000 or more attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, put it. Otherwise, put it into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="13"/>
@@ -303,7 +306,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dispector/Armored Dragon/God/Origin"/>
       <property name="Power" value="10000"/>
-      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +1000 power for each of your shields.&#xA;■ When you put this creature, choose one of your opponent's creatures. Your opponent puts it on the bottom of their deck.&#xA;■ Whenever this creature attacks, you may look at the top 2 cards of your deck. If you do, shieldify one of them and put the other into your hand."/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +1000 power for each of your shields.&#xA;■ When you put this creature, choose one of your opponent's creatures. Your opponent puts it on the bottom of their deck.&#xA;■ Whenever this creature attacks, you may look at the top 2 cards of your deck. If you do, shieldify one of them and put the other into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="21"/>
@@ -376,7 +379,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, draw a card. Then choose one of your opponent's creatures and return to its owner's hand.&#xA;{SUPER}When you put this creature into the battle zone, you may cast a spell that costs 9 or less from your hand for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, draw a card. Then choose one of your opponent's creatures and return to its owner's hand.&#xA;{SUPER}: When you put this creature into the battle zone, you may cast a spell that costs 9 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -412,7 +415,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put a non-evolution darkness creature that costs 8 or less from your graveyard into the battle zone.&#xA;{SUPER}Destroy up to 2 of your opponent's creatures."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put a non-evolution darkness creature that costs 8 or less from your graveyard into the battle zone.&#xA;{SUPER}: Destroy up to 2 of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="30"/>
@@ -423,7 +426,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's untapped creatures.&#xA;{SUPER}Your opponent chooses a total of 7 of their cards in the battle zone or their hand and puts them into their graveyard."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's untapped creatures.&#xA;{SUPER}: Your opponent chooses a total of 7 of their cards in the battle zone or their hand and puts them into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="31"/>
@@ -434,7 +437,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="32"/>
@@ -445,7 +448,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="33"/>
@@ -496,7 +499,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF4|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 4 | s p e l l to summon this creature this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF4} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 4 to cast this spell this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="37"/>
@@ -516,6 +519,7 @@
     </card>
     <card id="8c2481c5-ce20-4e21-9313-17aa9a2ade9d" name="Please! Deckie">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -542,8 +546,8 @@
       <property name="Race" value="Metallica"/>
       <property name="Race1" value="Metallica"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{NEO EVOLUTION}: You may put it on one of your Light|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all light cards from among them into your hand and the rest into your graveyard."/>
-      <property name="Rules1" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{NEO EVOLUTION}: You may put it on one of your Light|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all light cards from among them into your hand and the rest into your graveyard."/>
+      <property name="Rules1" value="{SYMPATHY}: Creature (This creature costs 1 less to summon for each of your creatures in the battle zone. It can't cost 0 or less.)&#xA;{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all light cards from among them into your hand and the rest into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -557,7 +561,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
@@ -618,7 +622,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Draw a card.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Draw a card.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="46"/>
@@ -631,7 +635,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Mafi Gang/Deletron"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 5 (Darkness): When you put this creature into the battle zone, if you have 5 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Look at your opponent's hand and discard a card from it."/>
+      <property name="Rules" value="■ Mana Drive 5 (Darkness): When you put this creature into the battle zone, if you have 5 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Look at your opponent's hand and discard a card from it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="47"/>
@@ -657,7 +661,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}: When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="49"/>
@@ -670,7 +674,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, if your opponent has 4 or less shields, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature, if your opponent has 4 or less shields, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="50"/>
@@ -707,7 +711,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF2|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 2 | s p e l l to summon this creature this turn.)&#xA;■ Discard a card from your hand. Then draw 3 cards."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF2} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 2 to cast this spell this turn.)&#xA;■ Discard a card from your hand. Then draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="53"/>
@@ -715,6 +719,7 @@
     </card>
     <card id="2cc488a2-d768-4d03-9113-4ae1a82e39f4" name="Owari Ponnosuke">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -727,6 +732,7 @@
     </card>
     <card id="23db6a25-c81f-4583-be4a-e36d5ec5aa25" name="Pali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -739,6 +745,7 @@
     </card>
     <card id="88877e15-c90d-4933-b335-fed27f27951b" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -754,7 +761,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ You may cast a spell that costs 3 or less from your hand for no cost."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ You may cast a spell that costs 3 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="57"/>
@@ -790,9 +797,9 @@
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Race1" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;TWINPACT&#xA;■ Gacharange summon 2 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;TWINPACT&#xA;■ Gacharange summon 2 times. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Rules1" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
-      <property name="Rules2" value="■ Gacharange summon 2 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules2" value="■ Gacharange summon 2 times. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="59"/>
@@ -854,7 +861,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="64"/>
@@ -890,7 +897,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="66"/>
@@ -1006,7 +1013,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Forbidden/RexStars"/>
       <property name="Power" value="99999"/>
-      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="M7"/>
@@ -1045,7 +1052,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{Kirifudash} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="M10"/>
@@ -1131,6 +1138,7 @@
     </card>
     <card id="61b008d8-ebdd-476d-a10e-f22a39af385d" name="Jhot Gun Joragon">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
@@ -1182,6 +1190,7 @@
     </card>
     <card id="53d118a4-4320-4d0d-b68a-ddf11cf940a3" name="The Jogiragon Abaregun">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Master Dragon/Jokers/Wonderforce"/>
@@ -1194,6 +1203,7 @@
     </card>
     <card id="2419fe96-d7dc-4d6c-951b-cdda6603ec1d" name="The Joragon Gunmaster">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Master Dragon/Jokers/Wonderforce"/>
@@ -1207,6 +1217,7 @@
     </card>
     <card id="961ea32a-9c6e-449f-a34d-e1222f630102" name="Jolly the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1219,6 +1230,7 @@
     </card>
     <card id="0b1ed5cc-4a2b-4f5e-ba16-bb699b520f0f" name="Savark DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master DG/Metallica"/>
@@ -1476,7 +1488,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="M㊙︎1/M㊙︎10"/>
@@ -1609,6 +1621,7 @@
     </card>
     <card id="ccd72259-f12f-4918-bb2a-ac6eda29c45a" name="Jolly the Johnny Final">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1621,6 +1634,7 @@
     </card>
     <card id="9fee6a8d-ebb6-4b11-8a2f-4c263224b640" name="Burning Dead Sword">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
@@ -1636,6 +1650,7 @@
       <property name="Name1" value="King the Slotton 7"/>
       <property name="Name2" value="Seventh Seven"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="7/3"/>
       <property name="Cost1" value="7"/>
@@ -1785,7 +1800,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's shields and this creature breaks the rest. Then you may discard a card from your hand. If you do, next turn, your opponent can't put 2 or more creatures into the battle zone."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's shields and this creature breaks the rest. Then you may discard a card from your hand. If you do, next turn, your opponent can't put 2 or more creatures into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S12"/>

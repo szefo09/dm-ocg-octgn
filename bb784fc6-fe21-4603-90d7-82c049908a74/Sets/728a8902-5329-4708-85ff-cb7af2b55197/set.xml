@@ -3,6 +3,7 @@
   <cards>
     <card id="5b017f4f-e52b-42d0-b74a-606b1ec18b9b" name="Almighty Zennou">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -217,6 +218,7 @@
     </card>
     <card id="beaf41d2-2611-48a8-9887-2e399a4db365" name="Shadan Q">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -307,7 +309,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw 2 cards.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Draw 2 cards.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="23"/>
@@ -644,7 +646,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SUPER SHIELD TRIGGER}Put the top card of your deck into your shield zone face up.&#xA;■ Put the top card of your deck on one of your shields face up. (The stack is still considered one shield.)&#xA;■ Gacharange summon once for each face up card in your shield zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SUPER SHIELD TRIGGER}: Put the top card of your deck into your shield zone face up.&#xA;■ Put the top card of your deck on one of your shields face up. (The stack is still considered one shield.)&#xA;■ Gacharange summon once for each face up card in your shield zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Special Move Card"/>
       <property name="Number" value="M2"/>
@@ -764,6 +766,7 @@
     </card>
     <card id="0709a599-94b9-4b42-b0c8-305eb75501e5" name="Gunbutler Great Seven">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>

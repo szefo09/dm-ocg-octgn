@@ -14,59 +14,33 @@
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="1a"/>
       <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
-      <alternate name="Ryusei the Final, True Dragon of All Creation" type="awakening" size="normal">
-        <property name="Civilization" value="Water/Fire/Nature"/>
-        <property name="Cost" value="21"/>
+      <alternate name="Ryusei Volcano the Burning" type="awakening" size="normal">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="7"/>
         <property name="Type" value="Psychic Creature"/>
-        <property name="Race" value="Rainbow Command Dragon/Hunter"/>
-        <property name="Power" value="11000"/>
-        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card and put the top card of your deck into your mana zone. Then you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Parallel Release (When this creature would leave the battle zone, flip this creature to any of the 3 creatures instead.)"/>
+        <property name="Race" value="Red Command Dragon/Hunter"/>
+        <property name="Power" value="5000"/>
+        <property name="Rules" value="■ When you put this creature into the battle zone, your opponent reveals the top 3 cards of their deck. Destroy one of your opponent's creatures that costs less than or the same as one of those costs. Then your opponent puts those 3 face up cards on the bottom of their deck in any order.&#xA;■ Awaken—At the start of your turn, if you have at least one water and one nature psychic creature in the battle zone, flip this creature to its higher cost side."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="1b"/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
-    </card>
-    <card id="5a9016a4-4d81-4124-ae5a-98304854d811" name="Ryusei Volcano the Burning">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Red Command Dragon/Hunter"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent reveals the top 3 cards of their deck. Destroy one of your opponent's creatures that costs less than or the same as one of those costs. Then your opponent puts those 3 face up cards on the bottom of their deck in any order.&#xA;■ Awaken—At the start of your turn, if you have at least one water and one nature psychic creature in the battle zone, flip this creature to its higher cost side."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="1b"/>
-      <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
-      <alternate name="Ryusei the Final, True Dragon of All Creation" type="awakening" size="normal">
-        <property name="Civilization" value="Water/Fire/Nature"/>
-        <property name="Cost" value="21"/>
+      <alternate name="Ryusei Gaia the Earth" type="awakening2" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="7"/>
         <property name="Type" value="Psychic Creature"/>
-        <property name="Race" value="Rainbow Command Dragon/Hunter"/>
-        <property name="Power" value="11000"/>
-        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card and put the top card of your deck into your mana zone. Then you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Parallel Release (When this creature would leave the battle zone, flip this creature to any of the 3 creatures instead.)"/>
+        <property name="Race" value="Green Command Dragon/Hunter"/>
+        <property name="Power" value="5000"/>
+        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand.&#xA;■ Awaken—At the start of your turn, if you have at least one water and one fire psychic creature in the battle zone, flip this creature to its higher cost side."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="1c"/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
-    </card>
-    <card id="67644c1f-2283-4425-a5c3-57fc736dd255" name="Ryusei Gaia the Earth">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Nature"/>
-      <property name="Cost" value="7"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Green Command Dragon/Hunter"/>
-      <property name="Power" value="5000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand.&#xA;■ Awaken—At the start of your turn, if you have at least one water and one fire psychic creature in the battle zone, flip this creature to its higher cost side."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value="1c"/>
-      <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
-      <alternate name="Ryusei the Final, True Dragon of All Creation" type="awakening" size="normal">
+      <alternate name="Ryusei the Final, True Dragon of All Creation" type="awakening3" size="tall">
         <property name="Civilization" value="Water/Fire/Nature"/>
         <property name="Cost" value="21"/>
         <property name="Type" value="Psychic Creature"/>
@@ -76,6 +50,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
     </card>
@@ -116,23 +91,9 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="2b/26"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
-    </card>
-    <card id="64c29220-ed09-4cac-9850-49e335d7e193" size="wide" name="Gaial Ore Dragon, the Vainglory">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="30"/>
-      <property name="Type" value="Psychic Super Creature"/>
-      <property name="Race" value="Rainbow Command Dragon/Hunter"/>
-      <property name="Power" value="26000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Victory Rare"/>
-      <property name="Number" value="2b"/>
-      <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
     </card>
     <card id="4d0372c6-e713-4d11-9cfa-773720cb189e" name="Gaial Kaiser, the Victorious">
       <property name="Format" value="OCG"/>
@@ -157,7 +118,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="2b/26"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
     </card>
@@ -198,7 +159,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="2b/26"/>
+        <property name="Number" value=""/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
     </card>
@@ -239,7 +200,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
-        <property name="Number" value="5b/26"/>
+        <property name="Number" value="5b"/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
     </card>
@@ -280,7 +241,7 @@
         <property name="Watermark" value="{Evil} {Soul}"/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
-        <property name="Number" value="6b/26"/>
+        <property name="Number" value="6b"/>
         <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
       </alternate>
     </card>
@@ -501,20 +462,6 @@
       <property name="Number" value="19"/>
       <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
     </card>
-    <card id="82b78915-1a68-4742-9a1a-58ddec5f7abe" name="Ryusei the Final, True Dragon of All Creation">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water/Fire/Nature"/>
-      <property name="Cost" value="21"/>
-      <property name="Type" value="Psychic Creature"/>
-      <property name="Race" value="Rainbow Command Dragon/Hunter"/>
-      <property name="Power" value="11000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card and put the top card of your deck into your mana zone. Then you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ Parallel Release (When this creature would leave the battle zone, flip this creature to any of the 3 creatures instead.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="No Rarity"/>
-      <property name="Number" value=""/>
-      <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
-    </card>
     <card id="0d02a712-d3e7-4be6-8887-342156b155be" name="Analith, Cyber Armor">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water/Nature"/>
@@ -600,6 +547,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="26"/>
+      <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
+    </card>
+    <card id="c9175fad-8511-42a0-a5ca-8c9a64884203" size="wide" name="Gaial Ore Dragon, the Vainglory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="30"/>
+      <property name="Type" value="Psychic Super Creature"/>
+      <property name="Race" value="Rainbow Command Dragon/Hunter"/>
+      <property name="Power" value="26000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value=""/>
       <property name="Set" value="DMBD-13 Chronicle Final Wars Deck: Psychic Meteor Saga"/>
     </card>
   </cards>

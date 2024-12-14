@@ -181,7 +181,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;When you put this creature or one of your other creatures into the battle zone, choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: When you put this creature or one of your other creatures into the battle zone, choose one of your opponent's creatures in the battle zone and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -261,7 +261,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Cluster"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ This creature can't be blocked.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Rules" value="■ This creature can't be blocked.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: When this creature would be destroyed, return it to your hand instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -341,7 +341,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Lord"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;This creature gets +7000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: This creature gets +7000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -436,7 +436,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Big Muscle"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;While this creature is tapped, each of your creatures in the battle zone gets &quot;power attacker +3000&quot; and &quot;double breaker&quot;."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: While this creature is tapped, each of your creatures in the battle zone gets &quot;power attacker +3000&quot; and &quot;double breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -518,7 +518,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wonder Trick"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;You can put an evolution creature of any race on this creature."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: You can put an evolution creature of any race on this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -572,7 +572,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Soltrooper"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;Whenever this creature attacks, you may return all light spells in your graveyard to your hand."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: Whenever this creature attacks, you may return all light spells in your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -680,7 +680,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Metamorph (If you have 7 or more cards in your mana zone, this creature gets the following {METAMORPH} abilities.):&#xA;{METAMORPH} This creature gets +2000 power:&#xA;{METAMORPH} This creature's &quot;This creature can't attack&quot; effect is ignored."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Metamorph (If you have 7 or more cards in your mana zone, this creature gets the following {METAMORPH}: abilities.):&#xA;{METAMORPH}: This creature gets +2000 power:&#xA;{METAMORPH}: This creature's &quot;This creature can't attack&quot; effect is ignored."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -786,7 +786,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Your opponent discards a card from theirs hand.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;Instead of your opponent choosing the card to discard, look at your opponent's hand, choose a card from it and discard it."/>
+      <property name="Rules" value="■ Your opponent discards a card from theirs hand.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of your opponent choosing the card to discard, look at your opponent's hand, choose a card from it and discard it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -864,7 +864,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 2000 or less.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;Instead of a creature that has power 2000 or less, destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 2000 or less.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of a creature that has power 2000 or less, destroy one of your opponent's creatures that has power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -996,7 +996,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Initiate"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;When you put this creature into the battle zone, you may draw a card."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: When you put this creature into the battle zone, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1118,7 +1118,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;When you put this creature into the battle zone, you may look at all of a player's shields. Then put them back where they were."/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: When you put this creature into the battle zone, you may look at all of a player's shields. Then put them back where they were."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1210,7 +1210,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hedrian"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;This creature gets +2000 power and &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: This creature gets +2000 power and &quot;slayer&quot;. (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1332,7 +1332,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragonoid"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;This creature can't be attacked.&#xA;This creature gets &quot;power attacker +3000&quot;.}"/>
+      <property name="Rules" value="{METAMORPH} (If you have 7 or more cards in your mana zone, this creature gets the following Metamorph ability.)&#xA;{METAMORPH}: This creature can't be attacked.&#xA;{METAMORPH}: This creature gets &quot;power attacker +3000&quot;.}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1479,7 +1479,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put the top card of your deck into your mana zone.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;Instead of the top card of your deck, put the top 3 cards of your deck into your mana zone."/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of the top card of your deck, put the top 3 cards of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>

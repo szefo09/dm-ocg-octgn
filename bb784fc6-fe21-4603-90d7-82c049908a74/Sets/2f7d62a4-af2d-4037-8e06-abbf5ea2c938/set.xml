@@ -26,6 +26,7 @@
   <cards>
     <card id="ed0a2069-445f-40a2-b3e8-4ff406afbbac" name="Amakusa, Izanai's Elemental">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Oracle/Angel Command"/>
@@ -70,7 +71,7 @@
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, your Outrage can't be blocked this turn and your opponent discards 2 cards at random from their hand.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Byte|Hell:When this creature is destroyed, you may put an exile creature that has &quot;Byte|Hell&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Majikkuma Taki&quot; in their name into the battle zone."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, your Outrage can't be blocked this turn and your opponent discards 2 cards at random from their hand.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Byte or Hell:When this creature is destroyed, you may put an exile creature that has &quot;Byte&quot; or &quot;Hell&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Majikkuma Taki&quot; in their name into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="4"/>
@@ -92,6 +93,7 @@
     </card>
     <card id="71502bd3-e30e-4c45-9f5c-672117928469" name="Jesus Mary Chain, True Flashing Right God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Zombie Dragon"/>
@@ -104,6 +106,7 @@
     </card>
     <card id="a7653424-184d-4220-9e58-8d685eb68545" name="Jesus Mary Chain, True Flashing Right God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Zombie Dragon"/>
@@ -116,6 +119,7 @@
     </card>
     <card id="b325f686-35bf-4052-a5fc-f816bcfff019" name="Bloody Valentine, Holy Princess Left God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Mecha Del Sol"/>
@@ -128,6 +132,7 @@
     </card>
     <card id="a1a4fa54-1282-402d-8c1c-eeb7ccf61aa1" name="Bloody Valentine, Holy Princess Left God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Mecha Del Sol"/>
@@ -269,7 +274,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Guardman {DOUBLE BREAKER}&#xA;&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this creature is face up in your shield zone, each of your opponent's creatures that have power 6000 or less attacks creatures if able."/>
+      <property name="Rules" value="■ Guardman {DOUBLE BREAKER}&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this creature is face up in your shield zone, each of your opponent's creatures that have power 6000 or less attacks creatures if able."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -306,7 +311,7 @@
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, look at the top 2 cards of your deck. From among them, add one to your shields face down and put the other into your mana zone.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Gonbuto|Treasure:When this creature is destroyed, you may put an exile creature that has &quot;Gonbuto|Treasure&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Shining Kinji&quot; in their name into the battle zone."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever this creature attacks, look at the top 2 cards of your deck. From among them, add one to your shields face down and put the other into your mana zone.&#xA;{DOUBLE BREAKER}&#xA;{DORON GO} Gonbuto or Treasure:When this creature is destroyed, you may put an exile creature that has &quot;Gonbuto&quot; or &quot;Treasure&quot; in its name from your hand into the battle zone.&#xA;■ You can't put other exile creatures that have &quot;Shining Kinji&quot; in their name into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="19"/>
@@ -314,6 +319,7 @@
     </card>
     <card id="bd464188-2f54-4422-bef2-32b8a350cc16" name="God Wall, God Trick">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{GRAVITY ZERO} If you have a God in the battle zone you may cast this spell for no cost.&#xA;■ Choose one of your creatures in the battle zone. If it's a God, until the start of your next turn, when that creature would leave the battle zone, it stays in the battle zone instead. If it's not a God, until the start of your next turn, when that creature would be destroyed, it stays in the battle zone instead."/>
@@ -324,6 +330,7 @@
     </card>
     <card id="404deb81-d5b5-40fc-85a7-bdc081473636" name="God Wall, God Trick">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{GRAVITY ZERO} If you have a God in the battle zone you may cast this spell for no cost.&#xA;■ Choose one of your creatures in the battle zone. If it's a God, until the start of your next turn, when that creature would leave the battle zone, it stays in the battle zone instead. If it's not a God, until the start of your next turn, when that creature would be destroyed, it stays in the battle zone instead."/>
@@ -885,6 +892,7 @@
     </card>
     <card id="b6e03a91-01eb-4950-a982-c168cc21e685" name="Shoegazer, Bright Deity">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Oraclion"/>

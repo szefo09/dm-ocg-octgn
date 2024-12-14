@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM24-RP4 World of Ballom" id="18e95e09-95d6-4fad-a12f-43da0928b1ea" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="790cc08a-f010-49f0-8e98-96af859efa47">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="640ba756-1469-49e9-9fad-04cbd1f5507d" name="World Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose one of the following:&#xA;► Put up to 2 Demon Commands that have total cost 7 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -12000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="3"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="74ef27a5-457d-4c58-83c5-67483c60952c" name="Storm Hyper Double Cross">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Flame Command"/>
+      <property name="Power" value="0000+"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your creatures that have different costs.&#xA;■ When you put this creature, destroy all your opponent's creatures that have less power than this one."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="4"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="2c30c251-2fd6-48e8-9393-ed6475378cff" name="Quakes, Fiendish General of Demon's Birth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top 3 cards of your deck. From among them, you may put any number of creatures that cost 6 or less that have different costs from among creatures you control. Put the rest into your graveyard.&#xA;■ Varavariety 5: Whenever a creature attacks a player, untap all your creatures. (If you have 5 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="5"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="66b3fc4a-84d9-446d-8b9c-fb1a59106d24" name="Etznab Nawal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem/Tzolkin"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's shields and put it into its owner's mana zone. Then you may put a creature from your mana zone that costs less than any of the cards put into a mana zone this way."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="6"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="6e0bd8b9-e5eb-42c5-9c94-e019b6cc6519" name="Magic Circle of the Wicked Brain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, you may put the top 3 cards of your deck into your graveyard. Then you may put a non-creature card that costs 4 or less from your graveyard for no cost.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="7"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="34ac90dc-d085-416a-85a3-315d55c6c0f0" name="Magic Circle of the Wicked Eye">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, look at the top card of your deck. Shieldify it, put it into your hand, or put it into your mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="8"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="1c7c91c1-4397-4257-bab2-6ccbd53b050f" name="Magic Circle of the Wicked Tail">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, draw a card. Then you may put a command that costs 3 or less from your hand or mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="9"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="5d0f4ab3-94e3-4888-a694-19a6f6cbfa3f" name="Magic Circle of the Wicked Claw">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, choose one of the following:&#xA;► Choose any number of cards from a player's graveyard. Their owner shuffles them and puts them on the bottom of their deck.&#xA;► Choose an element that costs 4 or less or a card a mana zone and put it on the bottom of its owner's deck. The owner of that card puts the top card of their deck into their mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="10"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="73f8cd88-182f-45f7-a162-4905850a215c" name="En Gorghini, Goldangel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or it attacks, you may choose one of your other creatures. That creature can't leave until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="d89e061e-d2ce-47ae-b311-393b3d647c65" name="World Flash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Untap all your creatures. Each of your creatures gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="3956212d-e9b4-40ce-8ff7-53d6387ca00b" name="Drache der'Zen, Violent Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, you may cast a spell that costs 5 or less from your hand or graveyard for no cost. If you do, after casting it, put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="fb37b95c-a757-4b7c-88f2-e72de4b9562e" name="World Stream">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Choose one of your creatures. Until the start of your next turn, your opponent can't choose or attack that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="af760871-bd04-4708-bab3-a44e3a066b09" name="Dolgo Barlowe, Demon's Birth Devil Priest">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, your opponent chooses one of their creatures and destroys it.&#xA;■ Varavariety 3: When you put this creature, put a creature that costs 8 or less from your graveyard. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="b13bea12-2917-4eb1-9a61-f078a90fcb4d" name="Jammer Ahead">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Your opponent chooses 3 of their creatures and destroys them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="49d23dd3-beea-466e-97e3-697f6a9dfe88" name="World Blaze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Choose one of the following:&#xA;► Break a shield.&#xA;► Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="d0fc1984-8743-4136-a5ee-b1a9737dac9e" name="World Blossom">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Put the same number of cards from the top of your deck into your mana zone as your number of creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="91448d2a-f369-458a-8d0e-7564a3689d5c" name="Syrix, Electro Explorer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Gladiator"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ This creature can't attack if you haven't cast a spell this turn.&#xA;■ Once per turn, whenever you cast a spell, you may put a creature from your hand that costs less than that spell."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="2c3c523c-9eca-4d52-b5f9-7f1ddaf9b29d" name="Nutsmoon, Brave Spectral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies/Rainbow Phantom"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Varavariety 3: Your creatures cost 1 less to summon. They can't cost 0 or less. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="c8035911-3fba-4b90-b4cd-f11b81f6d847" name="Ukondaimaru and Sakondaimaru, Oni of &quot;Buttagiri&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may put up to one card from your hand and shield zone into your graveyard. For each card you put into your graveyard in this way, this creature costs 1 less to summon.&#xA;■ When you put this creature, choose one of the following:&#xA;► Put a creature that costs 2 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="57a696af-7911-4156-861f-b812faccc30c" name="Aparicio, the Patroller">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cosmo Walker"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Varavariety 3: At the end of your turn, you may shieldify the top card of your deck. Then you may put one of your shields into your hand. You can't use the &quot;shield trigger&quot;. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="30"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="844ee562-deda-4876-b47b-b2071c6aa8c3" name="GENJI Hyper Double Cross">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+      <property name="Number" value="40"/>
+    </card>
+    <card id="4e7ad824-531d-4a4c-b734-137c65d1d754" name="Bakurodaihoshi, Oni of &quot;Hunger&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put up to 2 of your shields into your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="41"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="3416ec6b-3ab5-4ca5-a3a9-a5b9fabac824" name="Picador, Demon's Birth Beautiful Princess">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Splash Queen"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap:&#xA;► Look at the top 2 cards of your deck and put one into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="5bf22c74-bf5f-46f2-953d-ef5cb7d5638c" name="Suisen, Demon's Birth Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Snow Faerie"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's elements that costs 6 or less and put it into its owner's mana zone:&#xA;► Shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="4d5ba063-446c-414b-bbbe-f3d089449014" name="Bonmee, Demon's Birth Phantom Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Dreammate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's elements that costs 4 or less and destroy it:&#xA;► Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="b447fc92-5272-4c77-8a67-7ad65ae83742" name="Ranran, Demon's Birth Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Death Puppet"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's elements and return it to its owner's hand:&#xA;► Your opponent discards a card from their hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="c27c612c-b159-4c79-a2b5-4276f7d29165" name="Malupia, Demon's Birth Riser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► This creature breaks a shield:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has 0 power or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="065f515b-fe19-4754-84c0-598767bf7669" name="Krone Gorghini, Goldangel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="53"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="40919638-012f-4eaa-b64a-98d1ab6e36d7" name="Fumiballo, Demon's Birth Enjoyable Knowledge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Demon's Legacy"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="58"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="c69a53f7-c779-44c0-a625-efc1b8846886" name="Rougoku Doji">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, put one of your shields into your graveyard"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="71"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="3608ead8-6d9d-4d81-8163-40a607a9ee61" name="Muluc Kankin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mystery Totem/Tzolkin"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever this creature taps, you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="76"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="3396e165-9f3a-46e4-92c2-3084afde3325" name="Jaouga, Oniga Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Dream Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ When you put this creature, your opponent chooses 3 of their shields, 2 cards in their hand, one of their creatures and puts the rest of their shields, hand and creatures into their graveyard.&#xA;■ When this creature attacks for the first time in a turn, you may put the top 2 cards of your deck into your graveyard. Then you may put a non-evolution Darkness or Fire creature that costs 6 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dream Rare"/>
+      <property name="Number" value="DM1"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="6947d5cc-e3d6-4937-8938-5856f6ef8d59" name="Worldballom, Demon World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="d54d3957-0745-4636-9e3d-aa685b078ca1" name="Zagaan, Knight of Demon's Birth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Each turn, the first other creature you summon from your hand that turn gets &quot;Yobinion&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S1"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="564fb87e-387a-4f1b-b712-88b8970529ca" name="Olgate, Blade General of Demon's Birth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ During your opponent's turn, whenever your opponent puts a creature and that creature's ability triggers, you may also use that ability."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S2"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="a19a2493-d891-455e-8d44-25c5ea7a92e3" name="Bojagaist, Hyper Violent Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Dragon"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent chooses 2 cards from their hand and discards them. Then if your opponent has no cards in their hand, choose one of their creatures. That creature gets -9000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S3"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="2cedc342-3a42-49cb-a075-cb39919f8cc1" name="Daidalos, Furious General of Demon's Birth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Each of your creatures gets &quot;speed attacker&quot; and &quot;guardman&quot;&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that has power 4000 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S4"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="a528c092-ef3d-43d7-bd13-48f44b22ddb2" name="Sheba Elixia, Brute Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant/Angel Command"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{QUATTRO BREAKER}&#xA;■ When you put this creature, put up to 2 creatures that have total cost 7 or less from your mana zone.&#xA;■ Varavariety 5: Your creatures can't leave except by being destroyed. (If you have 5 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S7"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="371c245f-0228-4a4f-a9bb-487c07e10e3b" name="♪ From Hack, Temporarily Shift, Ten and Seven">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="13"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S8"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="51de326c-82da-413e-803b-13722a11ffb4" name="Gedodaigongen, Oni of &quot;Nirvana&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Darkness or Fire (When a darkness or fire card is put into your hand from your shield zone, you may discard that card. If you do, summon this creature for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, whenever your opponent would put a creature in any way except by summoning, destroy that creature.&#xA;Oniend: If any player has no shields, this creature gets &quot;blocker&quot; and &quot;slayer&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S9"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+    <card id="7b31461e-573f-4d3c-9b12-abcc5e630363" name="Kiyonaga, Seeker of the Five Rings">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate/Samurai/Wizard"/>
+      <property name="Power" value="8500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top 3 cards of your deck. If they all have different costs, you may use any number of elements that cost 9 or less from among them for no cost. Put the rest into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S11"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
+    </card>
+  </cards>
+</set>

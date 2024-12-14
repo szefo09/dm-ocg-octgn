@@ -22,6 +22,7 @@
   <cards>
     <card id="898df031-5666-4a63-a72a-205a769f7e78" name="Kaiser &quot;Baki&quot;, Zenith of &quot;Certain Victory&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter/Zenith"/>
@@ -92,7 +93,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="15000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="6"/>
@@ -105,7 +106,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Giant Hunter/Zenith"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)}&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
+      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="7"/>
@@ -139,7 +140,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Colorless Rainbow, Zenith of &quot;Color Disaster&quot;"/>
       <property name="Name2" value="Zenith Hazard"/>
-      <property name="Civilization" value="Light"/>
+      <property name="Civilization" value="Colorless/Light"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Light"/>
       <property name="Cost" value="11/8"/>
       <property name="Cost1" value="11"/>
@@ -204,7 +206,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="15000+"/>
-      <property name="Rules" value="■ While you are summoning this creature, the mana number of Gods in your mana zone becomes 2 instead of 1.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)&#xA;■ When you put this creature, if its linked as 3 cards, destroy all creatures except Gods, Creators and Oracles."/>
+      <property name="Rules" value="■ While you are summoning this creature, the mana number of Gods in your mana zone becomes 2 instead of 1.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)&#xA;■ When you put this creature, if its linked as 3 cards, destroy all creatures except Gods, Creators and Oracles."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="12"/>
@@ -251,6 +253,7 @@
     </card>
     <card id="a1ed50f8-51df-410d-bbc8-d18ecbbf15a4" name="Bainaradonden">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Shinobi"/>
@@ -319,7 +322,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Armored Samurai"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +1000 power for each Samurai in your graveyard.&#xA;■ Whenever one of your opponent's creatures is destroyed by the effect of one of your cards that has &quot;Musha&quot; in its name, choose one of your opponent's creatures that has power 12000 or less and destroy it."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +1000 power for each Samurai in your graveyard.&#xA;■ Whenever one of your opponent's creatures is destroyed by the effect of one of your cards that has &quot;Musha&quot; in its name, choose one of your opponent's creatures that has power 12000 or less and destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="20"/>
@@ -368,7 +371,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ At the start of your turn, God Mechraid 5. God {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a God card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ At the start of your turn, God Mechraid 5. God {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a God card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="23"/>
@@ -767,6 +770,7 @@
     </card>
     <card id="8fffaf99-5c28-4b31-9f88-8887df791d23" name="Izumo, Humanity God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Oracle"/>
@@ -1050,7 +1054,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Cross Gear"/>
       <property name="Race" value="Angel Command/Armored Samurai"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ When you put this cross gear or whenever the crossed creature attacks, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this cross gear is put into your hand from your shield zone, you may generate it, and cross it with a creature for no cost.)&#xA;■ {CROSS GEAR} (Put this card into the battle zone. To cross this card with a creature, pay this card's cost again. When that creature leaves the battle zone, this card remains in the battle zone.)&#xA;■ When you put this cross gear or whenever the crossed creature attacks, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="66"/>
@@ -1074,7 +1078,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Tool"/>
-      <property name="Rules" value="{SHIELD TRIGGER PLUS} (When this spell is put into your hand from your shield zone, you may cast it for no cost. If it's your opponent's turn, and you have had 2 or more of your shields broken this turn, this spell gets its Shield Trigger Plus ability.)&#xA;{SHIELD TRIGGER PLUS} Choose one of your opponent's elements and return it to its owner's hand.&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER PLUS} (When this spell is put into your hand from your shield zone, you may cast it for no cost. If it's your opponent's turn, and you have had 2 or more of your shields broken this turn, this spell gets its Shield Trigger Plus ability.)&#xA;{SHIELD TRIGGER PLUS}: Choose one of your opponent's elements and return it to its owner's hand.&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="68"/>
@@ -1410,7 +1414,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="15000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎4a/㊙︎6"/>
@@ -1423,7 +1427,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="15000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎4b/㊙︎6"/>
@@ -1436,7 +1440,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha God Nova OMG/Oracle"/>
       <property name="Power" value="15000+"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that costs the same as or less than this creature and destroy it. Then put a creature that costs the same as or less than this creature from your graveyard.&#xA;{CENTER GOD LINK} (As you put this creature or another God into the battle zone, you may unlink any number of your Gods. Then you may link this creature to a God that has &quot;Right God Link&quot; and/or &quot;Left God Link&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎4超/㊙︎6"/>
@@ -1449,7 +1453,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Giant Hunter/Zenith"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)}&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
+      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎5a/㊙︎6"/>
@@ -1462,7 +1466,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Giant Hunter/Zenith"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)}&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
+      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎5b/㊙︎6"/>
@@ -1475,7 +1479,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Giant Hunter/Zenith"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)}&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
+      <property name="Rules" value="{SYMPATHY}: Hunter (This creature costs 1 less to summon for each of your Hunter in play. It can't cost less than 1.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you summon this creature or whenever it attacks, Hunter Double Mechraid 10. (Hunter Double Mechraid 10: Look at the top 6 cards of your deck. From among them, you may use up to 2 Hunter cards that cost 10 or less for no cost. Put the rest on the bottom of your deck in any order.)&#xA;■ If your opponent has 5 or more shields, this creature gets &quot;speed attacker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="㊙︎5超/㊙︎6"/>
@@ -1485,7 +1489,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Colorless Rainbow, Zenith of &quot;Color Disaster&quot;"/>
       <property name="Name2" value="Zenith Hazard"/>
-      <property name="Civilization" value="Light"/>
+      <property name="Civilization" value="Colorless/Light"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Light"/>
       <property name="Cost" value="11/8"/>
       <property name="Cost1" value="11"/>
@@ -1509,7 +1514,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Colorless Rainbow, Zenith of &quot;Color Disaster&quot;"/>
       <property name="Name2" value="Zenith Hazard"/>
-      <property name="Civilization" value="Light"/>
+      <property name="Civilization" value="Colorless/Light"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Light"/>
       <property name="Cost" value="11/8"/>
       <property name="Cost1" value="11"/>
@@ -1533,7 +1539,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Colorless Rainbow, Zenith of &quot;Color Disaster&quot;"/>
       <property name="Name2" value="Zenith Hazard"/>
-      <property name="Civilization" value="Light"/>
+      <property name="Civilization" value="Colorless/Light"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Light"/>
       <property name="Cost" value="11/8"/>
       <property name="Cost1" value="11"/>

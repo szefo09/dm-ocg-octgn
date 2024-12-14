@@ -22,6 +22,7 @@
   <cards>
     <card id="820ab7c1-6aa2-4002-a138-866e81fe1a0e" name="Chomolanmacho">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
@@ -34,6 +35,7 @@
     </card>
     <card id="2c66b600-a05c-410e-a482-fc352336a6a1" name="Plan DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="DG Field"/>
       <property name="Rules" value="■ At the end of each of your turns, reveal the top card of your deck and add it to your hand. Then you may put a creature that costs less than that card from your hand into the battle zone. If you don't or can't, choose one of your shields and put it into your graveyard."/>
@@ -148,6 +150,7 @@
     </card>
     <card id="b4a8a277-59e0-4fdb-b585-125cd7b87f7f" name="Wasshoi Mantaro">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
@@ -160,6 +163,7 @@
     </card>
     <card id="d0c7732e-7965-4183-be85-1358ad3785b2" name="Todai Sensei">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -201,7 +205,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}: Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="15"/>
@@ -238,7 +242,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Return one of your untapped creatures to your hand. Then your opponent chooses one of their untapped creatures and returns it to their hand.&#xA;{SUPER}Return all creatures to their owner's hand."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Return one of your untapped creatures to your hand. Then your opponent chooses one of their untapped creatures and returns it to their hand.&#xA;{SUPER}: Return all creatures to their owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="18"/>
@@ -251,7 +255,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ If this is a Neo Evolution Creature, it gets +5000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker breaks 2 shields.)"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ If this is a Neo Evolution Creature, it gets +5000 power and has &quot;double breaker&quot;. (A creature that has &quot;double breaker breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="19"/>
@@ -275,7 +279,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's untapped creatures.&#xA;{SUPER}Destroy all creatures."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy one of your opponent's untapped creatures.&#xA;{SUPER}: Destroy all creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="21"/>
@@ -323,7 +327,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>
@@ -360,7 +364,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put the top card of your deck into your mana zone.&#xA;{SUPER SHIELD TRIGGER}Put all creatures that have power 5000 or less into their owners' mana zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put the top card of your deck into your mana zone.&#xA;{SUPER SHIELD TRIGGER}: Put all creatures that have power 5000 or less into their owners' mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="28"/>
@@ -368,6 +372,7 @@
     </card>
     <card id="674e610e-55ec-4112-9054-a82d8fbb8211" name="Texas Storm">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -379,10 +384,11 @@
     </card>
     <card id="579ccf62-b7b9-426f-866f-c5a14543cb38" name="Ura NICE">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER}Destroy all creatures that cost the same as or less than the total number of your Jokers in the battle zone and/or your mana zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER}: Destroy all creatures that cost the same as or less than the total number of your Jokers in the battle zone and/or your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="30"/>
@@ -718,6 +724,7 @@
     </card>
     <card id="566018bd-7f3f-4605-ba5e-520e52199f08" name="The Chow Men">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -730,6 +737,7 @@
     </card>
     <card id="a2507072-65aa-47c9-8c70-88b0152ac665" name="Mush Meganeil">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -742,6 +750,7 @@
     </card>
     <card id="e441e60a-b2fb-476c-9b32-aec79eb6b1a2" name="Chocolate House">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -836,7 +845,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can only attack if it's an evolution creature."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can only attack if it's an evolution creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="66"/>
@@ -1287,6 +1296,7 @@
     </card>
     <card id="b41b91f0-aaa8-4622-8b17-77fd763f651a" name="Bullet the Silver">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1299,6 +1309,7 @@
     </card>
     <card id="16802edb-a070-4091-ae69-2a3776285cdd" name="Bullet the Silver">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1498,7 +1509,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>
@@ -1511,7 +1522,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9㊙/S10 (Secret Card)"/>

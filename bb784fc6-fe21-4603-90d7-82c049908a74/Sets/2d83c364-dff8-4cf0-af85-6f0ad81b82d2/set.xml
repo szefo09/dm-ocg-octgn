@@ -213,7 +213,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="6000+"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="15"/>
@@ -226,7 +226,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="10000"/>
-      <property name="Rules" value="{Kirifudash} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, look at the top 2 cards of your deck. Put one into your mana zone and the other into your hand."/>
+      <property name="Rules" value="{KIRIFUDASH} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, look at the top 2 cards of your deck. Put one into your mana zone and the other into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="16"/>
@@ -239,7 +239,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{Kirifudash} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone. Then you may return a creature from your mana zone to your hand."/>
+      <property name="Rules" value="{KIRIFUDASH} {N4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 4 to summon this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone. Then you may return a creature from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="17"/>
@@ -247,6 +247,7 @@
     </card>
     <card id="7adc0d8e-986c-4efb-9a27-84d01e69ba3a" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -264,7 +265,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{Kirifudash} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card, then draw a card."/>
+      <property name="Rules" value="{KIRIFUDASH} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card, then draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="19"/>
@@ -277,7 +278,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{Kirifudash} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="20"/>
@@ -669,7 +670,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command Dragon"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ You may summon this creature by destroying 3 of your creatures instead of paying its cost.&#xA;&#xA;■ Whenever this creature attacks, return a creature from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ You may summon this creature by destroying 3 of your creatures instead of paying its cost.&#xA;■ Whenever this creature attacks, return a creature from your graveyard to your hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="49"/>
@@ -693,7 +694,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="12500"/>
-      <property name="Rules" value="{Revolution Change|Light|Water Dragon"/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water Dragoncosts 5 or more(When one of your Light or Water Dragonscosts 5 or moreattacks, you may switch that creature with this creature from your hand.)&#xA;{TRIPLE BREAKER}&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, you may draw a card. If you do, you may cast a light or water spell that costs 6 or less for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="51"/>
@@ -756,7 +757,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="God/Phoenix"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Graveyard Vortex evolution—Choose 2 darkness and/or fire creatures in your graveyard and put this creature into the battle zone on top of those creatures.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Tri God Link (Heavy, Dragon God) Right Side and (Metal, Dragon God) Left Side, Middle (If you have the specified God in the battle zone, you may link this card.)&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, put a Heavy, Dragon God or Metal, Dragon God from your graveyard."/>
+      <property name="Rules" value="■ Graveyard Vortex evolution—Choose 2 darkness and/or fire creatures in your graveyard and put this creature into the battle zone on top of those creatures.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Tri God Link (Heavy, Dragon God) Right Side and (Metal, Dragon God) Left Side, Middle (If you have the specified God in the battle zone, you may link this card.)&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, put a Heavy, Dragon God or Metal, Dragon God from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="56"/>
@@ -862,7 +863,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Tool"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER SHIELD TRIGGER}Until the start of your next turn, your opponent's creatures can't attack or block."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER SHIELD TRIGGER}: Until the start of your next turn, your opponent's creatures can't attack or block."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="63"/>
@@ -1091,7 +1092,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Dreammate"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Rules" value="{MANA EVOLUTION}: Choose a Nature creature in your mana zone and put this creature into the battle zone on top of that creature.&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;Your creatures can't be blocked by creatures that have less power than them."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -1251,7 +1252,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Liquid People/Team Ginga"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{GALAXYSHIELD} {W4} (You may pay Water 4 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;&#xA;■ When you put this creature, choose one of your opponent's creatures and return it to their hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{GALAXYSHIELD} {W4} (You may pay Water 4 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;■ When you put this creature, choose one of your opponent's creatures and return it to their hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="88"/>
@@ -1355,7 +1356,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Tricks/Poseidia Dragon/Team Wave/RexStars"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER} Draw a card.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast a spell from your hand that costs less than the number of cards in your hand for no cost."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Draw a card.&#xA;{STAR EVOLUTION} Put on one of your RexStars or Water creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast a spell from your hand that costs less than the number of cards in your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="96"/>
@@ -1367,7 +1368,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="97"/>
@@ -1379,7 +1380,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}Put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}: Put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="98"/>
@@ -1392,7 +1393,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Snow Faerie/Team Wave"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Draw a card.&#xA;■ When you put this creature, put a card in your hand into your mana zone."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Draw a card.&#xA;■ When you put this creature, put a card in your hand into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="99"/>

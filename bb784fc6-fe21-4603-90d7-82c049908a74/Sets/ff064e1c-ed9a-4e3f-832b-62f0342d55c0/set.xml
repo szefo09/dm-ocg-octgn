@@ -43,7 +43,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="1b/130"/>
+        <property name="Number" value="1b"/>
         <property name="Set" value="DM22-EX1 Golden Strategy!! Dueking MAX 2022"/>
       </alternate>
     </card>
@@ -82,7 +82,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="2b/130"/>
+        <property name="Number" value="2b"/>
         <property name="Set" value="DM22-EX1 Golden Strategy!! Dueking MAX 2022"/>
       </alternate>
     </card>
@@ -199,7 +199,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Sonic Command/RexStars"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="10"/>
@@ -238,7 +238,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragon Guild/Beat Jockey"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{SYMPATHY}: Beat Jockey (This creature costs 1 less to summon for each of your Beat Jockey in play. It can't cost less than 1.)}&#xA;{DOUBLE BREAKER}&#xA;■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever any of your creatures attacks, reveal the top card of your deck. If that card is a Beat Jockey or Dragon that costs the same or less than the attacking creature, put it. Otherwise, put it on the bottom of your deck."/>
+      <property name="Rules" value="{SYMPATHY}: Beat Jockey (This creature costs 1 less to summon for each of your Beat Jockey in play. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Whenever any of your creatures attacks, reveal the top card of your deck. If that card is a Beat Jockey or Dragon that costs the same or less than the attacking creature, put it. Otherwise, put it on the bottom of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="13"/>
@@ -327,7 +327,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="19"/>
@@ -348,6 +348,7 @@
     </card>
     <card id="14e8b20b-37f1-4584-b648-040cb0822b38" name="Ultra Special Punk, Shentury">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX/Oraclion"/>
@@ -442,7 +443,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Demon Command"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, if it's a Neo Evolution Creature, destroy all non-darkness creatures.&#xA;■ Whenever this creature attacks, you may put a darkness creature from your graveyard."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, if it's a Neo Evolution Creature, destroy all non-darkness creatures.&#xA;■ Whenever this creature attacks, you may put a darkness creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="27"/>
@@ -676,7 +677,7 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Codename Snake"/>
       <property name="Name2" value="Unknown Program"/>
-      <property name="Civilization" value="Water/Darkness/Nature/Darkness"/>
+      <property name="Civilization" value="Water/Darkness/Nature"/>
       <property name="Civilization1" value="Water/Darkness/Nature"/>
       <property name="Civilization2" value="Darkness"/>
       <property name="Cost" value="8/4"/>
@@ -701,6 +702,7 @@
       <property name="Name1" value="Maximum the Max, Zenith of &quot;Military&quot;"/>
       <property name="Name2" value="Zenith Symphony, Secret Zenith"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="10/9"/>
       <property name="Cost1" value="10"/>
@@ -786,7 +788,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Britania, Enshenton"/>
       <property name="Name2" value="&quot;Katsuking, The Battle is Between You and Me!&quot;"/>
-      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization" value="Colorless/Darkness"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Darkness"/>
       <property name="Cost" value="7/4"/>
       <property name="Cost1" value="7"/>
@@ -1239,6 +1242,7 @@
     </card>
     <card id="8768d637-d64b-4d4b-9526-c2af5c594de6" name="Bhutan POP, Shenton">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Exile Creature"/>
       <property name="Race" value="Outrage MAX/Oracle"/>
@@ -1251,6 +1255,7 @@
     </card>
     <card id="a404bfe0-0c98-4789-a735-36f9b6f6b773" name="No Rest For Outrage">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Reveal the top 5 cards of your deck. Put any number of exile creatures from among them into your hand, and put the rest on the bottom of your deck in any order."/>
@@ -1314,7 +1319,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Light Bringer/Survivor"/>
       <property name="Power" value="4500"/>
-      <property name="Rules" value="{SURVIVOR} {GALAXYSHIELD} {C2} (You may pay C 2 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{SUPER SURVIVOR} {Galaxy Go creature}"/>
+      <property name="Rules" value="{SURVIVOR}: {GALAXYSHIELD} {C2} (You may pay Colorless 2 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{SUPER SURVIVOR} {Galaxy Go creature}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="75"/>
@@ -1371,7 +1376,8 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Bhutan PUNK, Shenton"/>
       <property name="Name2" value="Bhutan Judgment"/>
-      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization" value="Colorless/Darkness"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Darkness"/>
       <property name="Cost" value="3/3"/>
       <property name="Cost1" value="3"/>
@@ -1562,7 +1568,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value="89b/130"/>
+        <property name="Number" value="89b"/>
         <property name="Set" value="DM22-EX1 Golden Strategy!! Dueking MAX 2022"/>
       </alternate>
     </card>
@@ -1612,7 +1618,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {F3|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Fire 3 | s p e l l to summon this creature this turn.)&#xA;■ You may put a creature that costs 4 or less from your hand into the battle zone. That creature gets &quot;Speed Attacker&quot; until the end of the turn. (Creatures that have &quot;speed attacker&quot; don't get summoning sickness.)"/>
+      <property name="Rules" value="{VIVIDDRAW} {F3} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Fire 3 to cast this spell this turn.)&#xA;■ You may put a creature that costs 4 or less from your hand into the battle zone. That creature gets &quot;Speed Attacker&quot; until the end of the turn. (Creatures that have &quot;speed attacker&quot; don't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="92"/>
@@ -1647,7 +1653,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Psychic Cross Gear"/>
-      <property name="Rules" value="■ Cross Gear (Put this card into the battle zone. To cross to a creature, pay this card's cost again. Even if that creature leaves, this card remains.)&#xA;&#xA;■ The crossed creature gets &quot;power attacker +4000&quot;. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)&#xA;■ While this card isn't crossed with a creature, each creature in the battle zone gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ Cross Gear (Put this card into the battle zone. To cross to a creature, pay this card's cost again. Even if that creature leaves, this card remains.)&#xA;■ The crossed creature gets &quot;power attacker +4000&quot;. (While attacking, a creature that has &quot;power attacker +4000&quot; gets +4000 power.)&#xA;■ While this card isn't crossed with a creature, each creature in the battle zone gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
@@ -2079,7 +2085,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Common"/>
-        <property name="Number" value="118b/130"/>
+        <property name="Number" value="118b"/>
         <property name="Set" value="DM22-EX1 Golden Strategy!! Dueking MAX 2022"/>
       </alternate>
     </card>
@@ -2207,7 +2213,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Wild Veggies"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{Kirifudash} {N1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 1 to summon this creature.)&#xA;{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
+      <property name="Rules" value="{KIRIFUDASH} {N1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 1 to summon this creature.)&#xA;{WAVE STRIKER} (While 2 or more other creatures in the battle zone have &quot;Wave Striker&quot; this creature has its Wave Striker ability.)&#xA;{WAVE STRIKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="125"/>
@@ -2515,7 +2521,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="超16/超50"/>
@@ -2771,7 +2777,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}: When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="超36/超50"/>
@@ -2996,7 +3002,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Sonic Command/RexStars"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="超G4/超G10"/>
@@ -3035,7 +3041,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="超G7/超G10"/>

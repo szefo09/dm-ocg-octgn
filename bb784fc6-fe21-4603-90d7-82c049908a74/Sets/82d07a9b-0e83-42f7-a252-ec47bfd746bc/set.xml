@@ -22,11 +22,12 @@
   <cards>
     <card id="f29d80b2-7e1d-4747-ba57-29392a51dd2d" name="King Jackpotton">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Mana Drive 7 (Jokers): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is jokers civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Your opponent chooses one of their cards in the battle zone and hand and puts it on the bottom of their deck in any order."/>
+      <property name="Rules" value="■ Mana Drive 7 (Jokers): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is jokers civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Your opponent chooses one of their cards in the battle zone and hand and puts it on the bottom of their deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -39,7 +40,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, this creature doesn't leave the battle zone."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, this creature doesn't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="2"/>
@@ -50,7 +51,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="12"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Gacharange summon 12 times."/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)&#xA;■ Gacharange summon 12 times."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="3"/>
@@ -63,7 +64,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Tricks/Deletron"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■Mana Drive 7 (Water): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is water civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Choose up to 3 of your opponent's creatures. Until the start of your next turn, those creatures can't attack or block."/>
+      <property name="Rules" value="■Mana Drive 7 (Water): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is water civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Choose up to 3 of your opponent's creatures. Until the start of your next turn, those creatures can't attack or block."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="4"/>
@@ -161,7 +162,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce/Specials"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, this creature gets &quot;speed attacker&quot;, &quot;power attacker +1000000&quot; and has &quot;double breaker&quot;."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, this creature gets &quot;speed attacker&quot;, &quot;power attacker +1000000&quot; and has &quot;double breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -199,7 +200,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="■ Mana Drive 7 (Light): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is light civilization, you may destroy this creature. If you do, use this creatures {MANA DRIVE} ability.&#xA;{MANA DRIVE} Draw a card. Then put a card from your hand into your shields face down."/>
+      <property name="Rules" value="■ Mana Drive 7 (Light): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is light civilization, you may destroy this creature. If you do, use this creatures {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Draw a card. Then put a card from your hand into your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="13"/>
@@ -249,7 +250,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, ignore any effects that would prevent your creatures from attacking. (However, summoning sickness is not ignored.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, ignore any effects that would prevent your creatures from attacking. (However, summoning sickness is not ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -335,7 +336,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Mafi Gang/Deletron"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 7 (Darkness): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Put a non-evolution creature that costs 8 or less or an aura that costs 8 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="■ Mana Drive 7 (Darkness): When you put this creature into the battle zone, if you have 7 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Put a non-evolution creature that costs 8 or less or an aura that costs 8 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="22"/>
@@ -416,7 +417,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon twice. Those creatures get &quot;speed attacker&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="28"/>
@@ -429,7 +430,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Gransect/Deletron"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Mana Drive 6 (Nature): When you put this creature into the battle zone, if you have 6 or more cards in your mana zone and one or more of them is nature civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Rules" value="■ Mana Drive 6 (Nature): When you put this creature into the battle zone, if you have 6 or more cards in your mana zone and one or more of them is nature civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Choose one of your opponent's creatures and put it into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="29"/>
@@ -501,7 +502,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Mana Drive 3 (Jokers): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is jokers, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Look at the top 2 cards of your deck. You may choose a jokers from among them, show it to your opponent and add it to your hand. Put the rest at the bottom of your deck in any order."/>
+      <property name="Rules" value="■ Mana Drive 3 (Jokers): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is jokers, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Look at the top 2 cards of your deck. You may choose a jokers from among them, show it to your opponent and add it to your hand. Put the rest at the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="33"/>
@@ -514,7 +515,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="■ Mana Drive 4 (Light): When you put this creature into the battle zone, if you have 4 or more cards in your mana zone and one or more of them is light civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="■ Mana Drive 4 (Light): When you put this creature into the battle zone, if you have 4 or more cards in your mana zone and one or more of them is light civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="34"/>
@@ -527,7 +528,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, your opponent can only untap up to 2 creatures at the start of their turn."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, your opponent can only untap up to 2 creatures at the start of their turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="35"/>
@@ -540,7 +541,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature or your other creatures is destroyed during your opponent's turn, if it's your first creature destroyed that turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When this creature or your other creatures is destroyed during your opponent's turn, if it's your first creature destroyed that turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36"/>
@@ -551,7 +552,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If your opponent has more creatures in the battle zone than you do, gacharange summon the same number of times as the number of creatures your opponent has."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If your opponent has more creatures in the battle zone than you do, gacharange summon the same number of times as the number of creatures your opponent has."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="37"/>
@@ -575,7 +576,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Tricks/Wonderforce"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Mana Drive 4 (Water): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is water civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Draw 2 cards."/>
+      <property name="Rules" value="■ Mana Drive 4 (Water): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is water civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="39"/>
@@ -640,7 +641,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, choose up to 2 creatures and return them to its owner's hand."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, choose up to 2 creatures and return them to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="44"/>
@@ -653,7 +654,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Mafi Gang/Deletron"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 5 (Darkness): When you put this creature into the battle zone, if you have 5 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Look at your opponent's hand and discard a card from it."/>
+      <property name="Rules" value="■ Mana Drive 5 (Darkness): When you put this creature into the battle zone, if you have 5 or more cards in your mana zone and one or more of them is darkness civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Look at your opponent's hand and discard a card from it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="45"/>
@@ -726,7 +727,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 4 (Fire): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is fire civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Rules" value="■ Mana Drive 4 (Fire): When you put this creature, if you have 4 or more cards in your mana zone and one or more of them is fire civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Destroy one of your opponent's creatures that has power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="51"/>
@@ -752,7 +753,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ After this creature attacks, you may destroy this creature. If you do, gacharange summon. That gacharange creature gets &quot;Speed Attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="■ After this creature attacks, you may destroy this creature. If you do, gacharange summon. That gacharange creature gets &quot;Speed Attacker&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="53"/>
@@ -765,7 +766,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, if it's not the first attack of the turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, if it's not the first attack of the turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="54"/>
@@ -800,7 +801,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Gransect/Deletron"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Mana Drive 3 (Nature): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is nature civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Put the top card of your deck into your mana zone tapped. Then you may return a card from your mana zone to your hand."/>
+      <property name="Rules" value="■ Mana Drive 3 (Nature): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is nature civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Put the top card of your deck into your mana zone tapped. Then you may return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="57"/>
@@ -826,7 +827,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. Then if you have 3 or more gacharange creatures in the battle zone, this creature gets &quot;mach fighter&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. Then if you have 3 or more gacharange creatures in the battle zone, this creature gets &quot;mach fighter&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.) (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -875,7 +876,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, choose one of your opponent's creatures and put it into its owner's mana zone."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, choose one of your opponent's creatures and put it into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="63"/>
@@ -883,6 +884,7 @@
     </card>
     <card id="a966fb21-6ce2-4167-b996-5288f22b518d" name="Bobobosanbozu">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -928,7 +930,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Whenever you put a creature that costs 6 or more into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Whenever you put a creature that costs 6 or more into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="67"/>
@@ -977,7 +979,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Until the start of your next turn, that creature gets &quot;Blocker&quot;. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.) (You may tap a creature that has &quot;blocker&quot; to change the attack target of one of your opponent's creatures to that creature.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Until the start of your next turn, that creature gets &quot;Blocker&quot;. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.) (You may tap a creature that has &quot;blocker&quot; to change the attack target of one of your opponent's creatures to that creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="71"/>
@@ -988,7 +990,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, gacharange summon."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, gacharange summon."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="72"/>
@@ -1015,7 +1017,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may jokers tornado. If you do, gacharange summon twice. {JOKERS TORNADO} Return one of your other Jokers to your hand {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may jokers tornado. If you do, gacharange summon twice. {JOKERS TORNADO} Return one of your other Jokers to your hand ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1082,7 +1084,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose a creature that has power less than that creature and return it to its owner's hand. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose a creature that has power less than that creature and return it to its owner's hand. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="79"/>
@@ -1093,7 +1095,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, draw 2 cards."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ If you have 3 or more gacharange creatures in the battle zone, draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="80"/>
@@ -1194,7 +1196,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 2 (You may reduce the cost of casting this spell by 2. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{GREAT SIN OF MOONLESS NIGHT} 2 (You may reduce the cost of casting this spell by 2. If you do, destroy one of your creatures at the end of your turn.)&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="88"/>
@@ -1385,7 +1387,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Put the top card of your deck into your mana zone.&#xA;■ If you have 3 or more gacharange creatures in the battle zone, put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Put the top card of your deck into your mana zone.&#xA;■ If you have 3 or more gacharange creatures in the battle zone, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="103"/>
@@ -1433,6 +1435,7 @@
       <property name="Name1" value="King the Slotton 7"/>
       <property name="Name2" value="Seventh Seven"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="7/3"/>
       <property name="Cost1" value="7"/>
@@ -1511,7 +1514,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}: When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="G8"/>
@@ -1519,6 +1522,7 @@
     </card>
     <card id="52d91871-bff7-4e9a-b759-486bb83bdb3c" name="The Jogiragon Abaregun">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Master Dragon/Jokers/Wonderforce"/>
@@ -1531,6 +1535,7 @@
     </card>
     <card id="f46d767f-6fbe-4f92-8369-d10eac5792a3" name="The Jogiragon Abaregun">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Master Dragon/Jokers/Wonderforce"/>
@@ -1771,7 +1776,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Shieldify the top card of your deck:&#xA;► Put a non-evolution light creature that has &quot;blocker&quot; from your hand:&#xA;► Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Shieldify the top card of your deck:&#xA;► Put a non-evolution light creature that has &quot;blocker&quot; from your hand:&#xA;► Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -1881,7 +1886,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="■ Mana Drive 5 (Fire): When you put this creature, if you have 5 or more cards in your mana zone and one or more of them is fire civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Break a shield.&#xA;■ While battling, this creature gets +2000 power."/>
+      <property name="Rules" value="■ Mana Drive 5 (Fire): When you put this creature, if you have 5 or more cards in your mana zone and one or more of them is fire civilization, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Break a shield.&#xA;■ While battling, this creature gets +2000 power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>

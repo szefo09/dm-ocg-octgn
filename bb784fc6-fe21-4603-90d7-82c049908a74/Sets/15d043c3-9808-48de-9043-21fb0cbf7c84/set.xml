@@ -3,11 +3,12 @@
   <cards>
     <card id="ebd076a5-2552-4080-855d-dce3d9228f6b" name="Joe Kirifuda &amp; Joragon -Story of Freedom-">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Master Dragon/Human"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +5000 power for each civilization in your mana zone.&#xA;■ Whenever this creature attacks, reveal the top 2 cards of your deck. Then choose any number of your opponent's cards that have total cost the same as or less than the total cost of those 2 cards. Your opponent puts them on the bottom of their deck in any order. Then put the revealed cards into your hand."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +5000 power for each civilization in your mana zone.&#xA;■ Whenever this creature attacks, reveal the top 2 cards of your deck. Then choose any number of your opponent's cards that have total cost the same as or less than the total cost of those 2 cards. Your opponent puts them on the bottom of their deck in any order. Then put the revealed cards into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Dai Sensei Rare"/>
       <property name="Number" value="1"/>
@@ -34,7 +35,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Double Victory"/>
-        <property name="Number" value="1b/50"/>
+        <property name="Number" value="1b"/>
         <property name="Set" value="DMEX-15 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Souls The BEST of Great Scenes"/>
       </alternate>
     </card>
@@ -86,7 +87,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Double Victory"/>
-        <property name="Number" value="2b/50"/>
+        <property name="Number" value="2b"/>
         <property name="Set" value="DMEX-15 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Souls The BEST of Great Scenes"/>
       </alternate>
     </card>
@@ -126,7 +127,7 @@
         <property name="Rules" value="■ Whenever this creature attacks, destroy all your opponent's creatures that have less power than it.&#xA;{WORLD BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
-        <property name="Number" value="3b/50"/>
+        <property name="Number" value="3b"/>
       </alternate>
     </card>
     <card id="aab26a47-ee38-4449-86b5-1326de5e5de9" name="Shobu Kirifuda &amp; Bolmeteus -Story of Duel-">
@@ -237,7 +238,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Forbidden Legend Card"/>
-        <property name="Number" value="5b/50"/>
+        <property name="Number" value="5b"/>
         <property name="Set" value="DMEX-15 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Souls The BEST of Great Scenes"/>
       </alternate>
     </card>
@@ -549,7 +550,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{Kirifudash} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When this creature wins a battle for the first time each turn, draw a card and untap this creature."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When this creature wins a battle for the first time each turn, draw a card and untap this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="16"/>
@@ -726,7 +727,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Shieldify the top card of your deck:&#xA;► Put a non-evolution light creature that has &quot;blocker&quot; from your hand:&#xA;► Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Shieldify the top card of your deck:&#xA;► Put a non-evolution light creature that has &quot;blocker&quot; from your hand:&#xA;► Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="22"/>
@@ -748,8 +749,8 @@
       <property name="Race" value="Zombie Dragon"/>
       <property name="Race1" value="Zombie Dragon"/>
       <property name="Power" value="11000+"/>
-      <property name="Rules" value="■ Evolution: Put on one of your Dragons.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +2000 power for each creature in your graveyard.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 3 cards of your deck into your graveyard.&#xA;■ Destroy one of your opponent's Dragons."/>
-      <property name="Rules1" value="■ Evolution: Put on one of your Dragons.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +2000 power for each creature in your graveyard."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Dragons.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +2000 power for each creature in your graveyard.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 3 cards of your deck into your graveyard.&#xA;■ Destroy one of your opponent's Dragons."/>
+      <property name="Rules1" value="■ Evolution: Put on one of your Dragons.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +2000 power for each creature in your graveyard."/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 3 cards of your deck into your graveyard.&#xA;■ Destroy one of your opponent's Dragons."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
@@ -883,8 +884,8 @@
       <property name="Race" value="Human"/>
       <property name="Race1" value="Human"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="■ Evolution: Put on one of your Humans.&#xA;■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;TWINPACT&#xA;■ Choose one of the following.&#xA;► Destroy one of your opponent's creatures that has power 3000 or less:&#xA;► Choose one of your opponent's non-creature cards in the battle zone and put it into its owner's graveyard."/>
-      <property name="Rules1" value="■ Evolution: Put on one of your Humans.&#xA;■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Humans.&#xA;■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;TWINPACT&#xA;■ Choose one of the following.&#xA;► Destroy one of your opponent's creatures that has power 3000 or less:&#xA;► Choose one of your opponent's non-creature cards in the battle zone and put it into its owner's graveyard."/>
+      <property name="Rules1" value="■ Evolution: Put on one of your Humans.&#xA;■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)"/>
       <property name="Rules2" value="■ Choose one of the following.&#xA;► Destroy one of your opponent's creatures that has power 3000 or less:&#xA;► Choose one of your opponent's non-creature cards in the battle zone and put it into its owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
@@ -1168,7 +1169,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sonic Command Dragon/Revolutionary"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Water, Fire or Nature command - (When one of your Water, Fire or Nature commands attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Commands get &quot;speed attacker&quot;, &quot;mach fighter&quot; and can't be blocked.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, untap all your other creatures."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Water, Fire or Nature command (When one of your Water, Fire or Nature commands attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Commands get &quot;speed attacker&quot;, &quot;mach fighter&quot; and can't be blocked.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="36"/>
@@ -1192,7 +1193,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SHIELD FORCE} (As you put this creature, you may choose one of your shields. While that shield is in your shield zone, this creature gets the following Shield Force abilities.)&#xA;This creature gets &quot;blocker&quot;.&#xA;When this creature would leave, it stays instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1339,7 +1340,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="14"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Tyranno Drake and Brave Spirit (This spell costs 1 less to play for each of your Tyranno Drake, Brave Spirit in play. It can't cost less than 1.)}&#xA;■ Your opponent puts all their shields into their hand. (Your opponent can use &quot;Shield Trigger&quot;.)"/>
+      <property name="Rules" value="{SYMPATHY}: Tyranno Drake and Brave Spirit (This spell costs 1 less to play for each of your Tyranno Drake, Brave Spirit in play. It can't cost less than 1.)&#xA;■ Your opponent puts all their shields into their hand. (Your opponent can use &quot;Shield Trigger&quot;.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1412,6 +1413,7 @@
     </card>
     <card id="07301383-96c8-45a1-805c-5e4ec176a095" name="Beethoven, Zenith of &quot;Horror&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
@@ -1514,7 +1516,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;&#xA;{SUPER SHIELD TRIGGER}When you put this creature, you may draw 10 cards."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{SUPER SHIELD TRIGGER}: When you put this creature, you may draw 10 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="49"/>
@@ -1595,6 +1597,7 @@
     </card>
     <card id="ffb7bb3e-a7c7-42c4-867e-766dc7042828" name="Fate">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{ATTACK CHANCE}: Beethoven, Zenith of &quot;Horror&quot; (When one of your Beethoven, Zenith of &quot;Horror&quot;s attacks, you may cast this spell for no cost.)&#xA;■ Draw up to 5 cards. Then your opponent chooses 3 cards in your hand at random and you reveal them to your opponent. You may put any number of Dragons from among them."/>
@@ -1606,6 +1609,7 @@
     </card>
     <card id="c7f6832a-9e55-45ea-b664-635351e0a7f1" name="Zenith Clutch Destiny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Shuffle your deck, then reveal the top card of your deck. If that card is a Zenith creature, you may summon it for no cost. If it's not a Zenith creature, add it to your hand."/>
@@ -1799,7 +1803,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{Kirifudash} {F1|spell} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 | s p e l l to summon this creature.)&#xA;■ Destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{KIRIFUDASH} {F1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 to cast this spell.)&#xA;■ Destroy one of your opponent's creatures that has power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="71"/>
@@ -1845,7 +1849,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put the top 2 cards of your deck into your mana zone. Then return a card from your mana zone to your hand.&#xA;{SUPER}Put up to 2 non-evolution nature creatures from your mana zone into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put the top 2 cards of your deck into your mana zone. Then return a card from your mana zone to your hand.&#xA;{SUPER}: Put up to 2 non-evolution nature creatures from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="74"/>
@@ -1937,7 +1941,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put a non-evolution light creature that has &quot;blocker&quot; from your hand into the battle zone.&#xA;■ Put a light, water or nature psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xA;&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Put a non-evolution light creature that has &quot;blocker&quot; from your hand into the battle zone.&#xA;■ Put a light, water or nature psychic creature that costs 6 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>

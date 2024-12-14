@@ -8,7 +8,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, break one of your opponent's shields for each of your Jokers in the battle zone."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, break one of your opponent's shields for each of your Jokers in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="1"/>
@@ -42,6 +42,7 @@
     </card>
     <card id="57823fa4-d8dc-4bd7-ad02-b91839b8bd31" name="Baron Gelacho">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -54,6 +55,7 @@
     </card>
     <card id="5aba1511-6a03-4603-ac0a-b9feaa8fcc45" name="Helcopta">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -66,6 +68,7 @@
     </card>
     <card id="2503c8d8-9af7-4c80-a6ee-6da9bc394223" name="Pali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -83,7 +86,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}: When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="7"/>
@@ -96,7 +99,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever a player puts a creature into the battle zone for no cost, destroy that creature."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever a player puts a creature into the battle zone for no cost, destroy that creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="8"/>
@@ -116,6 +119,7 @@
     </card>
     <card id="981a9edd-7c03-4862-a9d0-8c9d8568122d" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -128,10 +132,11 @@
     </card>
     <card id="f9078b61-60d7-4bb2-8cb3-378d159d51ba" name="Ura NICE">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER}Destroy all creatures that cost the same as or less than the total number of your Jokers in the battle zone and/or your mana zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Draw a card.&#xA;{SUPER}: Destroy all creatures that cost the same as or less than the total number of your Jokers in the battle zone and/or your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="11"/>
@@ -139,6 +144,7 @@
     </card>
     <card id="c13155a9-e35c-4b35-9558-8dcbc1f5dda6" name="Jojojo Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -155,7 +161,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="13"/>
@@ -163,6 +169,7 @@
     </card>
     <card id="0f2b758b-691a-46b8-ae3f-4c52f4fed6c8" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -180,7 +187,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has 4000 power or less."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has 4000 power or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="15"/>

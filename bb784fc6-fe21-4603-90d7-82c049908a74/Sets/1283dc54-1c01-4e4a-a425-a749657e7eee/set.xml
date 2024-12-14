@@ -3,6 +3,7 @@
   <cards>
     <card id="35268456-fe92-4db2-a56d-b113decae3a9" name="Bainaradonden">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Shinobi"/>
@@ -31,7 +32,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="D2 Field"/>
-      <property name="Rules" value="■ Whenever you put a Shinobi into the battle zone, draw a card.&#xA;■ At the end of each turn, you may choose one of your Shinobis in the battle zone or hand and put it under this D2 Field.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch—At the end of your opponent's turn, if there are 8 or more Shinobis under this D2 Field, you may turn this D2 Field upside down for the rest of the game. If you do, each player shuffles all their cards in the battle zone and shield zone into their deck.}"/>
+      <property name="Rules" value="■ Whenever you put a Shinobi into the battle zone, draw a card.&#xA;■ At the end of each turn, you may choose one of your Shinobis in the battle zone or hand and put it under this D2 Field.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch: At the end of your opponent's turn, if there are 8 or more Shinobis under this D2 Field, you may turn this D2 Field upside down for the rest of the game. If you do, each player shuffles all their cards in the battle zone and shield zone into their deck.}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="3"/>
@@ -57,7 +58,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Sonic Command/Invader"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your fire creatures.&#xA;{INVASION}-Fire creature that costs 3 or more (When one of your fire creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Fire creature that costs 3 or more (When one of your fire creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;■ After this creature attacks for the first time each turn, untap it."/>
+      <property name="Rules" value="■ Evolution—Put on one of your fire creatures.&#xA;{INVASION}-Fire creature that costs 3 or more (When one of your fire creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)&#xA;■ After this creature attacks for the first time each turn, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -261,7 +262,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Cyber Lord/Armored Dragon/Angel Command"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Multicolored|new creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Multicolored Dragon (When one of your Multicolored Dragon attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all multicolored cards into your hand. Then put the rest into your graveyard.&#xA;■ Your multicolored Dragons cost 2 less to summon. They can't cost 1 or less."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Multicolored creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Multicolored Dragon (When one of your Multicolored Dragon attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all multicolored cards into your hand. Then put the rest into your graveyard.&#xA;■ Your multicolored Dragons cost 2 less to summon. They can't cost 1 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="18"/>
@@ -294,6 +295,7 @@
     </card>
     <card id="3986e432-bebd-4dcc-874a-17a86b1e3a69" name="Dolge Ninpo, Dimension Hiding Jutsu">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Choose one of your opponent's creatures and put it into its owner's hyperspatial zone. Until the start of your next turn, your opponent can't put creatures that cost the same as that creature into the battle zone."/>
@@ -304,6 +306,7 @@
     </card>
     <card id="258ed531-8e48-407d-a6e1-75bbbc7394bf" name="Joe Star of Hope">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="D2 Field"/>
       <property name="Race" value="Jokers"/>
@@ -313,8 +316,9 @@
       <property name="Number" value="22"/>
       <property name="Set" value="DMEX-12 Super Powerful Strategies!! Draring Pack"/>
     </card>
-    <card id="bdeaa912-c3bf-4945-a177-57636fea9f11" size="wide" name="DG-Parthenon ~Where Dragon's are Created~">
+    <card id="bdeaa912-c3bf-4945-a177-57636fea9f11" name="DG-Parthenon ~Where Dragon's are Created~">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="DG Field"/>
       <property name="Rules" value="■ When you put this DG Field, draw a card.&#xA;■ Each player can only put up to 3 creatures each turn.&#xA;■ Each player can only cast up to 3 spells each turn."/>
@@ -404,7 +408,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Magic Command/Great Mecha King/Invader"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your water creatures.&#xA;{INVASION}-Water creature that costs 3 or more (When one of your water creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Water creature that costs 3 or more (When one of your water creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put a creature from your hand under this creature. If you do, draw 2 cards."/>
+      <property name="Rules" value="■ Evolution—Put on one of your water creatures.&#xA;{INVASION}-Water creature that costs 3 or more (When one of your water creatures that costs 3 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put a creature from your hand under this creature. If you do, draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="29"/>
@@ -679,7 +683,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Dragon/Initials/Team Acme"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Darkness or Fire creature - (When one of your Darkness or Fire creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may put the top 3 cards of your deck into your graveyard."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Darkness or Fire creature (When one of your Darkness or Fire creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may put the top 3 cards of your deck into your graveyard."/>
       <property name="Watermark" value="{Dokindam}"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="48"/>
@@ -712,6 +716,7 @@
     </card>
     <card id="aafb6c26-6470-4aff-813d-2ca13ce44d54" name="Prin, Reversal Princess">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hunter/Alien"/>
@@ -728,6 +733,7 @@
       <property name="Name1" value="Lilin, Transparent Faerie"/>
       <property name="Name2" value="Prelude to Faerie"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="2/3"/>
       <property name="Cost1" value="2"/>
@@ -943,7 +949,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever a player puts a creature into the battle zone for no cost, destroy that creature."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever a player puts a creature into the battle zone for no cost, destroy that creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="64"/>
@@ -984,7 +990,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Jokers creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Jokers that costs 3 or more (When one of your Jokers that costs 3 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Jokers that costs 3 or more (When one of your Jokers that costs 3 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Jokers creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Jokers that costs 3 or more (When one of your Jokers that costs 3 or more attacks, you may put this creature from your hand onto it.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="67"/>
@@ -1135,7 +1141,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Light or Water creature - (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ Your opponent's spells cost 2 more to cast."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water creature (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ Your opponent's spells cost 2 more to cast."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="76"/>
@@ -1148,7 +1154,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jurassic Dragon/Revolutionary/Team Damama"/>
       <property name="Power" value="4500"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Light or Nature creature - (When one of your Light or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Nature creature (When one of your Light or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="77"/>
@@ -1161,7 +1167,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Crystal Dragon/Revolutionary/Team Tech"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Water or Darkness creature - (When one of your Water or Darkness creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may draw a card. If you do, discard a card."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Water or Darkness creature (When one of your Water or Darkness creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, you may draw a card. If you do, discard a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="78"/>
@@ -1195,6 +1201,7 @@
     </card>
     <card id="34ef929c-69c3-46f0-a4f3-f6a70133b0ef" name="Wendigo Apache, Izanai's Blank">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Oracle"/>
@@ -1630,7 +1637,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mega Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Fire or Nature creature - (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, one of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Fire or Nature creature (When one of your Fire or Nature creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature into the battle zone, one of your creatures gets &quot;speed attacker&quot; until the end of the turn. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="110"/>
@@ -1664,6 +1671,7 @@
     </card>
     <card id="c3233f0a-1729-499c-bb77-971f3b8b42b5" name="Jhot Gun Joragon">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
@@ -1717,6 +1725,7 @@
     </card>
     <card id="17c9d46c-658a-4417-96ac-7b3eefe39834" name="VAN Beethoven, Zenith of &quot;Shura&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
@@ -1730,6 +1739,7 @@
     </card>
     <card id="ccc61ebf-354b-41b5-b26d-c883afffe14b" name="Trueking Viola Sonata">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown"/>
@@ -1743,6 +1753,7 @@
     </card>
     <card id="7bfda769-ff59-4c19-897c-a69724a4be06" name="Jogiragon and Johnny ~J's Journey~">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers Dragon"/>
@@ -1947,7 +1958,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Snow Faerie Dragon"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="■ Super Infinite evolution Omega: Put this creature on any number of your Snow Faerie creatures from your graveyard, mana zone or battle zone.&#xA;■ This creature gets +3000 power for each card under this creature.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When this creature leaves, add all cards under it to your hand."/>
+      <property name="Rules" value="■ Super Infinite evolution Omega: Put this creature on any number of your Snow Faerie creatures from your graveyard, mana zone or battle zone.&#xA;■ This creature gets +3000 power for each card under this creature.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When this creature leaves, add all cards under it to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S15"/>
@@ -1973,7 +1984,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX/Red Command Dragon/Team Hamukatsu"/>
       <property name="Power" value="10500"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Light or Fire Dragon or that costs 5 or more - (When one of your Light or Fire Dragon or that costs 5 or mores attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put this creature into the battle zone or attacks, add the top card of your deck to your shields face down and break one of your opponent's shields."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Fire Dragon (When one of your Light or Fire Dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put this creature into the battle zone or attacks, add the top card of your deck to your shields face down and break one of your opponent's shields."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S17"/>
@@ -2000,7 +2011,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mega Command Dragon/Invader"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Neo Evolution—You may put it on one of your Dragons.&#xA;{INVASION}-Dragon that costs 5 or more (When one of your Dragons that costs 5 or more attacks, you may put this creature from your hand onto it.)|l (When one of your Dragon that costs 5 or more (When one of your Dragons that costs 5 or more attacks, you may put this creature from your hand onto it.)|l attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ After this creature attacks, you may put the top card of your deck face up and stack it underneath this creature.&#xA;■ When this creature is destroyed, put all non-evolution Dragons underneath it into the battle zone."/>
+      <property name="Rules" value="■ Neo Evolution—You may put it on one of your Dragons.&#xA;{INVASION}-Dragon that costs 5 or more (When one of your Dragons that costs 5 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ After this creature attacks, you may put the top card of your deck face up and stack it underneath this creature.&#xA;■ When this creature is destroyed, put all non-evolution Dragons underneath it into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S19"/>
@@ -2013,7 +2024,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sonic Command Dragon/Revolutionary"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE} Water, Fire or Nature command - (When one of your Water, Fire or Nature commands attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Commands get &quot;speed attacker&quot;, &quot;mach fighter&quot; and can't be blocked.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, untap all your other creatures."/>
+      <property name="Rules" value="{REVOLUTION CHANGE}-Water, Fire or Nature command (When one of your Water, Fire or Nature commands attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Commands get &quot;speed attacker&quot;, &quot;mach fighter&quot; and can't be blocked.&#xA;■ Final Revolution: When you put this creature with &quot;Revolution Change&quot; and you haven't used another &quot;Final Revolution&quot; during this turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S20"/>

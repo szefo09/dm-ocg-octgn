@@ -8,7 +8,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="1000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +1000 power for each card in your hand.&#xA;■ Whenever this creature attacks, you may jokers tornado. If you do, draw a card. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +1000 power for each card in your hand.&#xA;■ Whenever this creature attacks, you may jokers tornado. If you do, draw a card. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -22,7 +22,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, Gacharange Summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever this creature attacks, you may jokers tornado. If you do, this creature gets +2000 power, &quot;double breaker&quot; and can't be blocked until the end of the turn. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, Gacharange Summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever this creature attacks, you may jokers tornado. If you do, this creature gets +2000 power, &quot;double breaker&quot; and can't be blocked until the end of the turn. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -64,7 +64,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -92,7 +92,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you may jokers tornado. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may jokers tornado. If you do, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -113,6 +113,7 @@
     </card>
     <card id="36008cef-c7bc-42ff-b2a2-751183f8c3b2" name="Jobato De Runo">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -125,6 +126,7 @@
     </card>
     <card id="53f44634-472a-4186-b0e3-5e0ca4bc761d" name="Tutankhanen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -137,6 +139,7 @@
     </card>
     <card id="9c8098e4-6525-494f-bdf8-fd2d79d4c392" name="Papparapali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -150,6 +153,7 @@
     </card>
     <card id="9ed7efd9-5ad0-4b7a-a92b-1fbe52114108" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -181,7 +185,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When this creature or one of your other creatures is returned to your hand from the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When this creature or one of your other creatures is returned to your hand from the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -190,6 +194,7 @@
     </card>
     <card id="887fa796-7751-49a2-aaab-4c7ee13c191a" name="Yattarerobo">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -236,7 +241,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>

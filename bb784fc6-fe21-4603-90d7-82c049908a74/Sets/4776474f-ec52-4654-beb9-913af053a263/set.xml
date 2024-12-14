@@ -71,7 +71,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's untapped creatures in the battle zone and put it into its owner's mana zone.&#xA;{SUPER}Put all your opponent's creatures that have power 3000 or less into their mana zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, choose one of your opponent's untapped creatures in the battle zone and put it into its owner's mana zone.&#xA;{SUPER}: Put all your opponent's creatures that have power 3000 or less into their mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="-a5"/>
@@ -82,6 +82,7 @@
       <property name="Name1" value="Gunba Great"/>
       <property name="Name2" value="Gagun Gun Gagun"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="6/2"/>
       <property name="Cost1" value="6"/>
@@ -102,6 +103,7 @@
     </card>
     <card id="19b41f83-c09d-44be-b04d-50807e253825" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -127,6 +129,7 @@
     </card>
     <card id="ffde170d-ce2a-4369-9f14-34124cfbb40b" name="Jojojo Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -189,6 +192,7 @@
     </card>
     <card id="e533f41b-55f2-4e71-85a9-affbc7144151" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>

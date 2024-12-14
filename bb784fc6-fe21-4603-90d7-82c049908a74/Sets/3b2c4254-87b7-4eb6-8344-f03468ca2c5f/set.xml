@@ -207,6 +207,7 @@
     </card>
     <card id="08c5b815-1ede-41de-9c61-b3ac8b695ebc" name="Torasan of the Fusen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -422,7 +423,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, your opponent puts all their creatures that cost more than the number of cards in their mana zone on the bottom of their deck in any order."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, your opponent puts all their creatures that cost more than the number of cards in their mana zone on the bottom of their deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="24"/>
@@ -493,6 +494,7 @@
     </card>
     <card id="2acf220a-bf9c-4801-9ced-308162cb1702" name="Gigigi's Guitaro">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -505,6 +507,7 @@
     </card>
     <card id="0a13e524-6b57-4dfb-9318-6fe963af0a5b" name="Surfing Zabunple">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -517,6 +520,7 @@
     </card>
     <card id="6b20f9cb-1697-44c5-9522-a49783784a6f" name="Joragon Reload">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -594,7 +598,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a non-evolution card in the battle zone that costs 6 or less and put it into its owner's shields face down.&#xA;{SUPER}After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a non-evolution card in the battle zone that costs 6 or less and put it into its owner's shields face down.&#xA;{SUPER}: After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36"/>
@@ -668,7 +672,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures and return it to its owners hand.&#xA;{SUPER}After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures and return it to its owners hand.&#xA;{SUPER}: After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
@@ -742,7 +746,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures. That creature gets -5000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures. That creature gets -5000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}: After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="46"/>
@@ -777,8 +781,8 @@
       <property name="Race" value="Sonic Command"/>
       <property name="Race1" value="Sonic Command"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)}&#xA;TWINPACT&#xA;■ One of your creatures gets +5000 power and &quot;speed attacker&quot; until the end of the turn."/>
-      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)}"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;TWINPACT&#xA;■ One of your creatures gets +5000 power and &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules1" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
       <property name="Rules2" value="■ One of your creatures gets +5000 power and &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
@@ -816,7 +820,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your creatures and one of your opponent's creatures, those 2 creatures battle.&#xA;{SUPER}After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your creatures and one of your opponent's creatures, those 2 creatures battle.&#xA;{SUPER}: After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="51"/>
@@ -890,7 +894,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a creature. That creature gets +4000 power and can't attack players until the end of the turn.&#xA;{SUPER}After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a creature. That creature gets +4000 power and can't attack players until the end of the turn.&#xA;{SUPER}: After you cast this spell from your hand, you may cast this spell from your graveyard for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="56"/>
@@ -898,6 +902,7 @@
     </card>
     <card id="340d67ac-5fb5-495e-a137-0ae4d29d1988" name="The Somen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1576,6 +1581,7 @@
       <property name="Name1" value="King the Slotton 7"/>
       <property name="Name2" value="Seventh Seven"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="7/3"/>
       <property name="Cost1" value="7"/>
@@ -1599,6 +1605,7 @@
       <property name="Name1" value="King the Slotton 7"/>
       <property name="Name2" value="Seventh Seven"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="7/3"/>
       <property name="Cost1" value="7"/>

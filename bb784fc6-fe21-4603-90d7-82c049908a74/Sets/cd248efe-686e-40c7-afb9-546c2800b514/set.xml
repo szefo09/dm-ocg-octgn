@@ -74,7 +74,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Dreammate"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +3000 power for each of your other Dragons or Dreammate creatures.&#xA;■ Whenever this creature attacks, if you have 5 or more other Dragons or Dreammate creatures, destroy all your opponent's creatures that have less power than this creature."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +3000 power for each of your other Dragons or Dreammate creatures.&#xA;■ Whenever this creature attacks, if you have 5 or more other Dragons or Dreammate creatures, destroy all your opponent's creatures that have less power than this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="6"/>
@@ -138,7 +138,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Psychic Field"/>
-      <property name="Rules" value="■ Whenever a player puts a card into their mana zone, that player may pay C 2:. If they do, that player draws a card. Then flip this card over to the Bolbalzak Jr, Awakened Dragonmech side."/>
+      <property name="Rules" value="■ Whenever a player puts a card into their mana zone, that player may pay Colorless 2:. If they do, that player draws a card. Then flip this card over to the Bolbalzak Jr, Awakened Dragonmech side."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10b"/>
@@ -219,6 +219,7 @@
     </card>
     <card id="fbb20f2d-cf4e-4539-a6f6-ef1705bb6f90" name="Dolge Ninpo, Dimension Hiding Jutsu">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Choose one of your opponent's creatures and put it into its owner's hyperspatial zone. Until the start of your next turn, your opponent can't put creatures that cost the same as that creature into the battle zone."/>
@@ -281,7 +282,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Rare"/>
-        <property name="Number" value="19b/75"/>
+        <property name="Number" value="19b"/>
         <property name="Set" value="DMEX-18 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Shadow Parallel Masters"/>
       </alternate>
     </card>
@@ -305,7 +306,7 @@
         <property name="Rules" value="■ You must start the game with an additional 5 cards in your deck."/>
         <property name="Watermark" value=""/>
         <property name="Rarity" value="Rare"/>
-        <property name="Number" value="19a/75"/>
+        <property name="Number" value="19a"/>
         <property name="Set" value="DMEX-18 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Shadow Parallel Masters"/>
       </alternate>
     </card>
@@ -379,7 +380,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Ignore any effects that would prevent you from casting this spell.&#xA;■ Destroy one of your opponent's creatures that has power 3000 or less.&#xA;■ 'Kicker' Fire 9: (When you cast this spell, you may pay an additional Fire 9:. If you do, this spell gets the following {OVER DRIVE}ability.)&#xA;{OVER DRIVE}Choose 3 of your opponent's shields and put them into their owner's graveyard."/>
+      <property name="Rules" value="■ Ignore any effects that would prevent you from casting this spell.&#xA;■ Destroy one of your opponent's creatures that has power 3000 or less.&#xA;■ 'Kicker' Fire 9: (When you cast this spell, you may pay an additional Fire 9:. If you do, this spell gets the following {OVER DRIVE}: ability.)&#xA;{OVER DRIVE}: Choose 3 of your opponent's shields and put them into their owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>
@@ -463,6 +464,7 @@
     </card>
     <card id="6115b187-8106-4828-b76f-26a85a20c6fb" name="Library of Alexandria">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Land"/>
       <property name="Rules" value="■ During your turn, before you attack, if you have exactly 7 cards in your hand, you may tap this card in your mana zone. If you do, draw a card."/>
@@ -473,6 +475,7 @@
     </card>
     <card id="1a6768f3-83d4-45c9-b669-60ababc06e94" name="Smith, Over the Left">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
@@ -490,7 +493,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Survivor"/>
       <property name="Power" value="7500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;&#xA;{SURVIVOR} NEW|WHEN YOU PUT THIS CREATURE INTO THE BATTLE ZONE, CHOOSE ONE OF YOUR OPPONENT'S UNTAPPED CREATURES AND TAP IT. THAT CREATURE DOESN'T UNTAP AT THE START OF YOUR OPPONENT'S NEXT TURN."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): When you put this creature into the battle zone, choose one of your opponent's untapped creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="34"/>
@@ -720,7 +723,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|{BLOCKER}&#xA;■ Each of your light creatures gets the Survivor race."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each of your light creatures gets the Survivor race."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="52"/>
@@ -768,7 +771,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Command/Survivor"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|{JUSTDIVER}&#xA;■ Each of your water creatures gets the Survivor race."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Each of your water creatures gets the Survivor race."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="55"/>
@@ -781,7 +784,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sea Hacker/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|WHENEVER THIS CREATURE ATTACKS, YOU MAY DRAW A CARD."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): Whenever this creature attacks, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="56"/>
@@ -869,7 +872,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dark Knightmare/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW2|{SLAYER}&#xA;■ Each of your darkness creatures gets the Survivor race."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ Each of your darkness creatures gets the Survivor race."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="63"/>
@@ -882,7 +885,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="64"/>
@@ -895,7 +898,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage/Survivor"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SURVIVOR} NEW2|{SPEED ATTACKER}&#xA;■ Each of your fire creatures gets the Survivor race."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Each of your fire creatures gets the Survivor race."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="65"/>
@@ -935,7 +938,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate/Survivor"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SURVIVOR} NEW2|{MACH FIGHTER}&#xA;■ Each of your nature creatures gets the Survivor race."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Each of your nature creatures gets the Survivor race."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="68"/>
@@ -972,7 +975,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tree Folk/Survivor"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} NEW|WHENEVER THIS CREATURE ATTACKS, YOU MAY PUT THE TOP CARD OF YOUR DECK INTO YOUR MANA ZONE."/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): Whenever this creature attacks, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="70"/>
@@ -1043,6 +1046,7 @@
     </card>
     <card id="ac783494-fbe6-4d81-b197-4798bcefc56f" name="Black Lotus">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Mono Artifact"/>
       <property name="Rules" value="■ When you put this artifact, put 3 seals on it. (To seal a card, put the top card of your deck on that card face down.)&#xA;■ At the start of your turn, put a seal on this artifact on the bottom of your deck.&#xA;■ When you remove all seals from this artifact, put it into your graveyard. The next time you use a card this turn, you may reduce its cost by up to 3. It can't cost 0 or less."/>
@@ -1053,6 +1057,7 @@
     </card>
     <card id="a70fd637-a18a-4c24-bee1-4be5803bf7c0" name="Emrakul, the Aeons Torn">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="15"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Eldrazi/Zenith"/>

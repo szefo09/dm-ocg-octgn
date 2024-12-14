@@ -81,7 +81,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
-        <property name="Number" value="2b/47"/>
+        <property name="Number" value="2b"/>
         <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
       </alternate>
     </card>
@@ -139,6 +139,7 @@
     </card>
     <card id="e1f74769-3809-4a39-88ff-596488cc606f" name="Burning Dead Sword">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Specials"/>
@@ -156,7 +157,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Forbidden/RexStars"/>
       <property name="Power" value="99999"/>
-      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="5"/>
@@ -164,6 +165,7 @@
     </card>
     <card id="cdb433fb-eb1b-4509-bfc0-3e1755de611c" name="Jolly the Johnny, Dream Bullet">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -207,7 +209,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{Kirifudash} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="7"/>
@@ -564,7 +566,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon/Human Baku/Draguner"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your draghearts in the battle zone.&#xA;■ When you put this creature or at the start of your turn, you may put a dragheart weapon that costs 5 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)&#xA;■ When this creature would leave, you may return one of your draghearts to your hyperspatial zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="18"/>
@@ -652,7 +654,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dispector/Green Command Dragon/Beat Jockey"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{BAD ACTION DYNAMITE} 4|jp (You may reduce this creature's summon cost by 4|jp. If you do, destroy this creature at the end of the turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may draw 2 cards.&#xA;■ Whenever your opponent puts a creature without tapping a card in their mana zone, you may skip the rest of the turn."/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 4 (You may reduce this creature's summon cost by 4. If you do, destroy this creature at the end of the turn.)&#xA;{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may draw 2 cards.&#xA;■ Whenever your opponent puts a creature without tapping a card in their mana zone, you may skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="21"/>
@@ -709,6 +711,7 @@
     </card>
     <card id="b9fb3784-c2d9-4545-9ae7-67e69c97a082" name="Tabula = Rasa, Heavenly Zenith of &quot;Nothingness&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="12"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
@@ -746,6 +749,7 @@
     </card>
     <card id="7ee93762-3364-4535-a592-176f751cb5b1" name="Jojojo Maximum">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -1014,7 +1018,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF4|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 4 | s p e l l to summon this creature this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF4} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 4 to cast this spell this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="34"/>
@@ -1249,6 +1253,7 @@
     </card>
     <card id="fee77ea0-d362-4dca-8e0b-0cf237fa8aa0" name="Crys = Buth, Heavenly Zenith of &quot;Recklessness&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="12"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
@@ -1274,6 +1279,7 @@
     </card>
     <card id="34439dda-eb40-48e3-a063-6eab9f8eec80" name="Alternative, Code of Cavalry">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Unknown Celes"/>
@@ -1655,6 +1661,7 @@
     </card>
     <card id="4778d373-22b3-4c03-9861-5dd2cb2b8fa0" name="Great-Armed Promixer">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -1667,6 +1674,7 @@
     </card>
     <card id="0e2bf727-6eda-449d-af51-70d7c8f4f768" name="Crystal's Serenade">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ The next Zenith creature you summon this turn costs 4 less.&#xA;■ You may turn a card in your mana zone face down."/>
@@ -1781,7 +1789,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="6000+"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +1000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="68"/>
@@ -1853,7 +1861,7 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Bolmeteus Energy, Flame of Memory"/>
       <property name="Name2" value="Bolmeteus Guard"/>
-      <property name="Civilization" value="Light/Water/Light"/>
+      <property name="Civilization" value="Light/Water"/>
       <property name="Civilization1" value="Light/Water"/>
       <property name="Civilization2" value="Light"/>
       <property name="Cost" value="3/4"/>
@@ -1912,7 +1920,7 @@
       <property name="Format" value="OCG"/>
       <property name="Name1" value="Marauder Deis Drive"/>
       <property name="Name2" value="Pandora Time"/>
-      <property name="Civilization" value="Darkness/Fire/Fire"/>
+      <property name="Civilization" value="Darkness/Fire"/>
       <property name="Civilization1" value="Darkness/Fire"/>
       <property name="Civilization2" value="Fire"/>
       <property name="Cost" value="3/2"/>
@@ -1985,6 +1993,7 @@
     </card>
     <card id="250b4310-42ed-4eb7-bc2e-0dbceebc571a" name="The Yeah Ramen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2254,7 +2263,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{Kirifudash} {C0} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay C 0 to summon this creature.)&#xA;■ This creature can't attack unless you have a fire and a nature card in your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {C0} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Colorless 0 to summon this creature.)&#xA;■ This creature can't attack unless you have a fire and a nature card in your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="100"/>
@@ -2366,6 +2375,7 @@
     </card>
     <card id="c022ea14-7c84-4a79-9f67-5e383e91cabe" name="Jolly the Johnny, Dream Bullet">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>

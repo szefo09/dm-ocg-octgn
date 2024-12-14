@@ -69,7 +69,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Survivor/Armored Wyvern"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SURVIVOR} {DOUBLE BREAKER}"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {DOUBLE BREAKER}}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -383,7 +383,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Survivor/Chimera"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SURVIVOR} {SLAYER}"/>
+      <property name="Rules" value="{SURVIVOR} (Each of your Survivors has this creature's Survivor ability.): {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>

@@ -227,7 +227,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {F6|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Fire 6 | s p e l l to summon this creature this turn.)&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less.&#xA;■ If you cast this spell with &quot;Vividdraw&quot;, destroy all your opponent's creatures that have power 6000 or less."/>
+      <property name="Rules" value="{VIVIDDRAW} {F6} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Fire 6 to cast this spell this turn.)&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less.&#xA;■ If you cast this spell with &quot;Vividdraw&quot;, destroy all your opponent's creatures that have power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="18"/>
@@ -253,7 +253,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Team Wave"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}Put the top 2 cards of your deck into your mana zone tapped.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ This creature gets +2000 power for each civilization in your mana zone."/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}: Put the top 2 cards of your deck into your mana zone tapped.&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +2000 power for each civilization in your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="20"/>
@@ -514,7 +514,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cosmo Walker/Team Bomber"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ During your turn, when you put another creature into the battle zone, this creature gets +2000 power until the end of the turn."/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ During your turn, when you put another creature into the battle zone, this creature gets +2000 power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
@@ -1478,7 +1478,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Cyber Command/Team Wave"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER} Put the top card of your deck into your mana zone. Then you may cast a spell that costs 7 or less from your mana zone for no cost.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}: Put the top card of your deck into your mana zone. Then you may cast a spell that costs 7 or less from your mana zone for no cost.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>
@@ -1517,7 +1517,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{Kirifudash} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If it's a Jokers creature, you may put it into the battle zone. Otherwise, put it on the bottom of your deck."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If it's a Jokers creature, you may put it into the battle zone. Otherwise, put it on the bottom of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10"/>

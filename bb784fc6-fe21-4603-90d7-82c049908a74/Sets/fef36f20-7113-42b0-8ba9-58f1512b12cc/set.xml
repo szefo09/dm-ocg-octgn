@@ -136,9 +136,9 @@
       <property name="Race" value="Mafi Gang/Specials"/>
       <property name="Race1" value="Mafi Gang/Specials"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Each of your creatures gets &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ At the end of your opponent's turn, if no creature attacked that turn, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Gacharange summon 3 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ At the end of your opponent's turn, if no creature attacked that turn, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Gacharange summon 3 times. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Rules1" value="■ Each of your creatures gets &quot;slayer.&quot; (Whenever a creature that has &quot;slayer&quot; battles, destroy the other creature after the battle.)&#xA;■ At the end of your opponent's turn, if no creature attacked that turn, your opponent discards a card from their hand."/>
-      <property name="Rules2" value="■ Gacharange summon 3 times. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules2" value="■ Gacharange summon 3 times. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="7"/>
@@ -187,7 +187,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, discard all cards in your hand.&#xA;■ Whenever you discard a card from your hand, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, discard all cards in your hand.&#xA;■ Whenever you discard a card from your hand, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -223,7 +223,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Orega Aura"/>
       <property name="Race" value="Gransect/Deletron"/>
-      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the creature attached with wins a battle, gacharange summon once for each aura attached to this creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the creature attached with wins a battle, gacharange summon once for each aura attached to this creature. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="12"/>
@@ -231,6 +231,7 @@
     </card>
     <card id="cc6ab043-8b5b-435f-8b06-ccec7a5aae83" name="Papparapali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -273,7 +274,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="5500"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attack, tap one of your opponent's creatures. (First choose what to attack, then choose which creature to tap.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attack, tap one of your opponent's creatures. (First choose what to attack, then choose which creature to tap.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="15"/>
@@ -284,7 +285,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon twice. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Until the start of your next turn, each of your gacharange creatures gets &quot;blocker&quot;."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon twice. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Until the start of your next turn, each of your gacharange creatures gets &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -319,9 +320,9 @@
       <property name="Race" value="Tricks/Wonderforce"/>
       <property name="Race1" value="Tricks/Wonderforce"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack unless you cast a spell during your turn.&#xA;TWINPACT&#xA;■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack unless you cast a spell during your turn.&#xA;TWINPACT&#xA;■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack unless you cast a spell during your turn."/>
-      <property name="Rules2" value="■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules2" value="■ Gacharange summon. That creature gets &quot;speed attacker&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="18"/>
@@ -334,7 +335,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may return one of your other creatures to your hand. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may return one of your other creatures to your hand. If you do, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="19"/>
@@ -429,8 +430,8 @@
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Race1" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;TWINPACT&#xA;■ Gacharange summon."/>
-      <property name="Rules1" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;TWINPACT&#xA;■ Gacharange summon."/>
+      <property name="Rules1" value="■ When this creature or another of your non-gacharange creatures is destroyed, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Rules2" value="■ Gacharange summon."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -455,7 +456,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="28"/>
@@ -525,6 +526,7 @@
     </card>
     <card id="9f5b18f3-c561-4bcb-b403-d78902e8f5b1" name="Rokepan Manjiro">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -579,7 +581,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon twice. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon twice. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36"/>
@@ -592,7 +594,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, you may tap one of your other light creatures. If you do, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may tap one of your other light creatures. If you do, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="37"/>
@@ -603,7 +605,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)}&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Tap one of your opponent's creatures for each of your gacharange creatures in the battle zone."/>
+      <property name="Rules" value="{SYMPATHY}: Creature (This spell costs 1 less to play for each of your Creature in play. It can't cost less than 0.)&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Tap one of your opponent's creatures for each of your gacharange creatures in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="38"/>
@@ -649,9 +651,9 @@
       <property name="Race" value="Magic Command"/>
       <property name="Race1" value="Magic Command"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, draw a card.&#xA;■ When this creature would be destroyed, return it to your hand instead.&#xA;TWINPACT&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, draw a card.&#xA;■ When this creature would be destroyed, return it to your hand instead.&#xA;TWINPACT&#xA;■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Rules1" value="■ When you put this creature into the battle zone, draw a card.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
-      <property name="Rules2" value="■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules2" value="■ Choose one of your opponent's untapped creatures and put it into its owner's mana zone.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="41"/>
@@ -687,7 +689,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Draw a card for each of your gacharange creatures in the battle zone."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Draw a card for each of your gacharange creatures in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="44"/>
@@ -698,7 +700,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="45"/>
@@ -837,7 +839,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attacks, you may discard a card from your hand. If you do, draw a card."/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever your gacharange creatures attacks, you may discard a card from your hand. If you do, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="54"/>
@@ -850,7 +852,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, if your opponent has 4 or less shields, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature, if your opponent has 4 or less shields, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="55"/>
@@ -873,7 +875,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Choose one of your opponent's cards in the battle zone that costs the same as or less than the number of your gacharange creatures in the battle zone and put it into its owner's graveyard."/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Choose one of your opponent's cards in the battle zone that costs the same as or less than the number of your gacharange creatures in the battle zone and put it into its owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="57"/>
@@ -947,7 +949,7 @@
       <property name="Cost" value="4"/>
       <property name="Type" value="Orega Aura"/>
       <property name="Race" value="Gransect/Deletron"/>
-      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the attached creature attacks, if it has 2 or more auras attached to it, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
+      <property name="Rules" value="■ The attached creature gets &quot;powered breaker&quot;. (A creature that has &quot;powered breaker&quot; breaks an additional shield for each 6000 power.)&#xA;■ Whenever the attached creature attacks, if it has 2 or more auras attached to it, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;{OREGA AURA}: Attach this to one of your gacharange creatures, or gacharange summon and attach this to it. If that creature leaves the battle zone, this goes to the same zone, then the gacharange creature returns to the bottom of your super gacharange."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="62"/>
@@ -967,6 +969,7 @@
     </card>
     <card id="160bf0d8-0762-4130-a2aa-66b0d825c5bb" name="Chocolate Factory">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -1133,7 +1136,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Draw 3 cards. Then discard 2 cards from your hand.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Draw 3 cards. Then discard 2 cards from your hand.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="77"/>
@@ -1144,7 +1147,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Choose one of your opponent's creatures that has power 7000 or less and return it to the owner's hand.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures that has power 7000 or less and return it to the owner's hand.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="78"/>
@@ -1155,7 +1158,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="79"/>
@@ -1330,7 +1333,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="{POWER ATTACKER} +8000 (While attacking, this creature gets +2000 power.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{POWER ATTACKER} +8000 (While attacking, this creature gets +2000 power.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="93"/>
@@ -1393,7 +1396,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, if you have a creature that has power 4000 or more in the battle zone, gacharange summon.{GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, if you have a creature that has power 4000 or more in the battle zone, gacharange summon.({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="98"/>
@@ -1441,7 +1444,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. That gacharange creature gets &quot;mach fighter&quot; until the end of the turn. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;(A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
+      <property name="Rules" value="■ Gacharange summon. That gacharange creature gets &quot;mach fighter&quot; until the end of the turn. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;(A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="102"/>
@@ -1627,6 +1630,7 @@
     </card>
     <card id="6f8954e3-8c06-4854-a467-a5da63ed9443" name="God Gayondam">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -1640,6 +1644,7 @@
     </card>
     <card id="dffa3d17-1120-468d-a5a6-3a02cd19e556" name="God Gayondam">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -1757,7 +1762,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce/Specials"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, or at the start of your turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;speed attacker&quot;.&#xA;■ Each of your non-gacharange creatures gets &quot;Guardman&quot;."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, or at the start of your turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;speed attacker&quot;.&#xA;■ Each of your non-gacharange creatures gets &quot;Guardman&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>

@@ -124,6 +124,7 @@
     </card>
     <card id="b1bd5af2-e750-4a01-bfea-c78395bef29a" name="Lance of Tonginus">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Attack Chance: Creature that has Shen in its name (When one your creatures that has Shen in its name attacks, you may cast this spell for no cost.)&#xA;■ Choose one of your opponent's cards from the battle zone, their mana zone or their shields. If you have Ultra Knight Punk, Shentury in the battle zone, choose a card from each zone. Your opponent puts the chosen card(s) on the bottom of their deck in any order."/>
@@ -769,6 +770,7 @@
     </card>
     <card id="250e513c-3531-45f2-ac02-5c05aa5b32fd" name="VAN Beethoven, Zenith of &quot;Shura&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
@@ -813,7 +815,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Demon Command"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Angel Command and Demon Command (This creature costs 1 less to summon for each of your Angel Command, Demon Command in play. It can't cost less than 2.)}&#xA;■ Whenever one of your Angel Commands or Demon Commands attacks, destroy one of your opponent's tapped creatures.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{SYMPATHY}: Angel Command and Demon Command (This creature costs 1 less to summon for each of your Angel Command, Demon Command in play. It can't cost less than 2.)&#xA;■ Whenever one of your Angel Commands or Demon Commands attacks, destroy one of your opponent's tapped creatures.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1053,6 +1055,7 @@
     </card>
     <card id="a2d9264d-03af-4fa0-b74e-61f765d79455" name="Egoist, Climax of &quot;Me&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="13"/>
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Unknown/Zenith"/>
@@ -1662,6 +1665,20 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value=""/>
+        <property name="Set" value="DMX-22 Super Black Box Pack"/>
+      </alternate>
+      <alternate name="Verokiboaros, Ga Ga Ga" type="awakening2" size="normal">
+        <property name="Civilization" value="Nature"/>
+        <property name="Cost" value="10"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Jurassic Command Dragon"/>
+        <property name="Power" value="15000"/>
+        <property name="Rules" value="■ Whenever you summon a creature from your hand or whenever this creature attacks, you may put a nature creature from your mana zone into the battle zone.&#xA;{TRIPLE BREAKER}"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Rarity" value="No Rarity"/>
+        <property name="Number" value="61b/???"/>
         <property name="Set" value="DMX-22 Super Black Box Pack"/>
       </alternate>
     </card>
@@ -2541,7 +2558,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage/Hedrian/Shinobi/Dynamo/Hunter/Children/Lost Crusader/Curry Bread/Pianist/World Idol"/>
       <property name="Power" value="2000+"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA; {STRIKE BACK} Strike Back: Multicolored&#xA; {SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA; {NINJA STRIKE} 5 (Whenever one of your opponent's creatures attacks or blocks, if you have 5 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA; {LOST PRISM} (When you put this creature into the battle zone, reveal the top card of your deck. If it's a multicolored card, put it into your hand.) {GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.) {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.) ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA; {POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.) {HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.) {DYNAMO} (At the beginning of a battle, or whenever this creature can attack, you may tap this creature. If you do, add this creature's power and abilities to one of your other Dynamos in the battle zone until the end of the turn.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA; {STRIKE BACK}: Strike Back: Multicolored&#xA; {SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA; {NINJA STRIKE} 5 (Whenever one of your opponent's creatures attacks or blocks, if you have 5 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA; {LOST PRISM} (When you put this creature into the battle zone, reveal the top card of your deck. If it's a multicolored card, put it into your hand.) {GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.) {SLAYER} (Whenever this creature battles, destroy the other creature after the battle.) ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)&#xA; {POWER ATTACKER} +1000 (While attacking, this creature gets +2000 power.) {HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.) {DYNAMO} (At the beginning of a battle, or whenever this creature can attack, you may tap this creature. If you do, add this creature's power and abilities to one of your other Dynamos in the battle zone until the end of the turn.)"/>
       <property name="Watermark" value="{Ultra} {Soul}"/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="No Rarity"/>
@@ -3328,6 +3345,7 @@
     </card>
     <card id="59c7516f-accd-4025-b364-2fcfd47c9cfa" name="Yomi, Humanity Left God">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="God Nova/Oracle"/>

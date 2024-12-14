@@ -28,7 +28,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="6000+"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="CP1"/>
@@ -52,7 +52,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When you put this creature or whenever it attacks, reveal the top card of your deck. If it's a RexStars or fire creature, put that creature. Otherwise, put it into your graveyard.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="CP3a"/>
@@ -213,6 +213,7 @@
     </card>
     <card id="7e317910-ae95-4160-bbaa-3c8cf3541f9a" name="Jolly the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -224,6 +225,7 @@
     </card>
     <card id="b1bbd012-a7ab-4e1d-940a-75fb1c37eb72" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -235,6 +237,7 @@
     </card>
     <card id="c5fcbff8-8b8d-45cc-80f5-8c17181c33b0" name="Chotto Q">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -246,6 +249,7 @@
     </card>
     <card id="14b0b1be-f92b-4c3a-b9f1-ba347eb349a6" name="Johnny the Beginning">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -257,6 +261,7 @@
     </card>
     <card id="986ebd7d-b20b-4468-b835-f399546ae6fd" name="Johnny and Joragon ~J's Will~">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
@@ -305,7 +310,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a card in the battle zone that costs 5 or less and put it into that owners graveyard.&#xA;{SUPER}Destroy all your opponent's creatures that cost 7 or less."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a card in the battle zone that costs 5 or less and put it into that owners graveyard.&#xA;{SUPER}: Destroy all your opponent's creatures that cost 7 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P2"/>
@@ -340,7 +345,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P2"/>
@@ -368,6 +373,7 @@
     </card>
     <card id="32a0b4b6-c5db-4b26-80e5-89ed980c6e84" name="Chotto Q">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -454,7 +460,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;{SUPER}When you put this creature into the battle zone, until the start of your next turn, your Jokers get +10000 power while battling."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;{SUPER}: When you put this creature into the battle zone, until the start of your next turn, your Jokers get +10000 power while battling."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P4"/>
@@ -466,7 +472,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can only attack if it's an evolution creature."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Water creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can only attack if it's an evolution creature."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P4"/>
@@ -478,7 +484,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/Team Kirifuda"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{Kirifudash} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ When this creature attacks for the first time each turn, untap it after the attack.&#xA;■ Your opponent can't choose this creature with non-multicolored creature abilities or spells."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P4"/>
@@ -629,6 +635,7 @@
     </card>
     <card id="0f33c6f2-a61a-4bee-9e7f-da7cfa2c0852" name="Bainaradoor">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -668,7 +675,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="7000+"/>
-      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ While battling, for each of your gacharange creatures in the battle zone, this creature gets +3000 power.&#xA;■ Whenever this creature wins a battle, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ While battling, for each of your gacharange creatures in the battle zone, this creature gets +3000 power.&#xA;■ Whenever this creature wins a battle, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P7"/>
@@ -699,6 +706,7 @@
     </card>
     <card id="1c579a0f-8bbc-4892-8a5d-ac2e96de4bd7" name="Danganteioh, Super Extreme Q">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -720,6 +728,7 @@
     </card>
     <card id="57f5fd16-8e83-44d4-ba11-f96aed6394e5" name="Machinegun Talk">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -737,7 +746,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Team Wave"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Your opponent chooses one of their creatures. Return that creature to your opponent's mana zone or hand."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Your opponent chooses one of their creatures. Return that creature to your opponent's mana zone or hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P8"/>
@@ -767,6 +776,7 @@
     </card>
     <card id="7d3849da-a70a-47a5-99d9-fadd00a9a21e" name="DG ~Time of Judgment~">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica"/>
@@ -814,6 +824,7 @@
     </card>
     <card id="85521d7d-f5ff-493f-9ce4-339d03b5f8a6" name="Danganoh, Super Special Q">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -902,7 +913,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy all creatures that have &quot;blocker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, destroy all creatures that have &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P11"/>
@@ -953,6 +964,7 @@
     </card>
     <card id="2556c100-2d0f-47f4-a661-6f78cd877bcb" name="Bikkura Box">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1048,7 +1060,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a card in the battle zone that costs 5 or less and put it into that owners graveyard.&#xA;{SUPER}Destroy all your opponent's creatures that cost 7 or less."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose a card in the battle zone that costs 5 or less and put it into that owners graveyard.&#xA;{SUPER}: Destroy all your opponent's creatures that cost 7 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P13/Y16 (WINNER Card)"/>
@@ -1096,7 +1108,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{Kirifudash} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 2 to summon this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P14"/>
@@ -1353,7 +1365,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{Kirifudash} {F4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 4 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules" value="{KIRIFUDASH} {F4} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 4 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P18"/>
@@ -1440,6 +1452,7 @@
     </card>
     <card id="198e8044-f43d-405e-a3e8-3bee262e543a" name="Jojojo Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -1477,7 +1490,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{Kirifudash} {F6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="{KIRIFUDASH} {F6} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 6 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P20"/>
@@ -1553,6 +1566,7 @@
     </card>
     <card id="eb2e4a37-9080-43fa-87fa-2bf815b6f242" name="Wasshoi Mantaro">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
@@ -1617,7 +1631,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="7000+"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, put the top 2 cards of your deck into your graveyard. Destroy one of your opponent's creatures that costs less than the total cost of those 2 cards.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, put the top 2 cards of your deck into your graveyard. Destroy one of your opponent's creatures that costs less than the total cost of those 2 cards.&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P22"/>
@@ -1641,7 +1655,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, your opponent puts all their creatures that cost more than the number of cards in their mana zone on the bottom of their deck in any order."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, your opponent puts all their creatures that cost more than the number of cards in their mana zone on the bottom of their deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P23"/>
@@ -1768,6 +1782,7 @@
     </card>
     <card id="5179000f-2878-412c-9b38-72c5c9868f86" name="Papparapali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -1796,7 +1811,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Beat Jockey/Tyranno Drake/RexStars"/>
       <property name="Power" value="7000+"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ When this creature attacks, this creature may get +7000 power until the end of that attack. If you do, destroy this creature after that attack.&#xA;■ When this card leaves, untap the creature underneath it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When this creature attacks, this creature may get +7000 power until the end of that attack. If you do, destroy this creature after that attack.&#xA;■ When this card leaves, untap the creature underneath it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P25"/>
@@ -1818,7 +1833,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}: Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P26"/>
@@ -1911,7 +1926,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ You may look at the top 2 cards of your deck. Put one of them into your hand, and the other into your shields face down.&#xA;{SUPER}: Each of your light cards put into your hand from your shields get &quot;shield trigger&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P27/Y16 (WINNER Card)"/>
@@ -1995,7 +2010,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P29"/>
@@ -2064,7 +2079,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P30"/>
@@ -2115,6 +2130,7 @@
     </card>
     <card id="5566eef9-7fcf-4976-ab00-82d160f0a3a4" name="Tenkuuoh, Super Extreme Class">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2173,6 +2189,7 @@
     </card>
     <card id="3e7a6134-3cdb-4f1f-ae0c-5632635b5650" name="Chomolanmacho">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2230,6 +2247,7 @@
     </card>
     <card id="a13138bc-9ad4-4a93-a23c-57f13ea3f051" name="Pali Nights">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2288,6 +2306,7 @@
     </card>
     <card id="1550d50d-5b1f-4df1-8756-753f738e4214" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2358,6 +2377,7 @@
       <property name="Name1" value="Gunba Great"/>
       <property name="Name2" value="Gagun Gun Gagun"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="6/2"/>
       <property name="Cost1" value="6"/>
@@ -2380,7 +2400,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Tap all your opponent's creatures."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Tap all your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P35"/>
@@ -2392,7 +2412,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater/Team Wave"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Return a card from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Return a card from your mana zone to your hand.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P35"/>
@@ -2411,6 +2431,7 @@
     </card>
     <card id="83c19380-e5b5-498d-8891-7bb1a45b5ec9" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2437,7 +2458,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Gacharange summon twice. Those gacharange creatures get &quot;speed attacker&quot;. At the end of the turn, destroy those creatures. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P36"/>
@@ -2479,6 +2500,7 @@
     </card>
     <card id="6ba9a553-cc47-4c51-9385-aadebf52b03f" name="Hakushon Mask">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2490,6 +2512,7 @@
     </card>
     <card id="06b2d61a-aa86-4786-ba35-fa6f5ecab00e" name="Blacking the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2506,7 +2529,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{Kirifudash} {F3} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 3 to summon this creature.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{KIRIFUDASH} {F3} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 3 to summon this creature.)&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P37"/>
@@ -2523,6 +2546,7 @@
     </card>
     <card id="139333ae-ee61-4101-87be-2e2c87dfb92c" name="Helcopta">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2544,6 +2568,7 @@
     </card>
     <card id="26376338-c7e0-47eb-8cec-66ef6aa47779" name="Yattarerobo">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
@@ -2579,10 +2604,11 @@
     </card>
     <card id="3c979a07-114d-404d-af2d-f3f859a07929" name="Time Stopon">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and put it on the bottom of their deck.&#xA;{SUPER}Creatures can't attack this turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and put it on the bottom of their deck.&#xA;{SUPER}: Creatures can't attack this turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P39"/>
@@ -2617,7 +2643,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demonio/Onifuda Kingdom"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;File:Onitime black.png|50px|text-top Onitime: When this creature leaves the battle zone, if you and your opponent have a total of 6 or less shields, put a creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;Onitime: When this creature leaves the battle zone, if you and your opponent have a total of 6 or less shields, put a creature that costs 7 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P39"/>
@@ -2665,7 +2691,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P40"/>
@@ -2759,6 +2785,7 @@
     </card>
     <card id="ec20f843-9363-4485-b8cc-f80418ecec16" name="Keshikasu, Vanish King">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2774,7 +2801,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P42"/>
@@ -2809,7 +2836,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Metallica/Cyber Lord/RexStars"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light|rex4 (When one of your Light|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P42"/>
@@ -2853,7 +2880,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P43"/>
@@ -2864,7 +2891,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{Kirifudash} {F1|spell} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 | s p e l l to summon this creature.)&#xA;■ Destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{KIRIFUDASH} {F1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 to cast this spell.)&#xA;■ Destroy one of your opponent's creatures that has power 6000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P43"/>
@@ -2876,13 +2903,14 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Metallica/Cyber Lord/RexStars"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light|rex4 (When one of your Light|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P43"/>
     </card>
     <card id="e8368a68-c996-4d9c-b672-0a74fe06456c" name="Todai Sensei">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -2921,7 +2949,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P44"/>
@@ -2933,7 +2961,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="10000"/>
-      <property name="Rules" value="{Kirifudash} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put your hand into your mana zone. If you do, draw 3 cards."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN5} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 5 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put your hand into your mana zone. If you do, draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P44"/>
@@ -2967,7 +2995,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, Gacharange Summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ When this creature attacks, you may jokers tornado. If you do, draw 3 cards. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, Gacharange Summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ When this creature attacks, you may jokers tornado. If you do, draw 3 cards. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3005,7 +3033,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, use the next ability 3 times:&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)&#xA;{SUPER}: When you put this creature, put any number of creatures that cost 4 or less from your graveyard into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P46"/>
@@ -3027,7 +3055,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{Kirifudash} {F1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 to summon this creature.)&#xA;■ When you put this creature into the battle zone, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="{KIRIFUDASH} {F1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 1 to summon this creature.)&#xA;■ When you put this creature into the battle zone, one of your other creatures gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P46"/>
@@ -3167,7 +3195,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Metallica"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA} (When you put this creature into the battle zone, you may use one of your creature's Kizuna abilities.)&#xA;type=plus|Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Light creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{KIZUNA PLUS} (Whenever this creature attacks, you may put a card under it into your graveyard. If you do, use this creature's and one of your other creature's Kizuna ability.)&#xA;Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P49"/>
@@ -3335,7 +3363,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Armored Dragon/RexStars"/>
       <property name="Power" value="6000+"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ While attacking, this creature gets +2000 power for each fire card in your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P51"/>
@@ -3455,6 +3483,7 @@
     </card>
     <card id="78d43b84-4081-4bcb-a4a5-0c9f8aaba68c" name="DG ~Time of Judgment~">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica"/>
@@ -3506,7 +3535,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's shields and this creature breaks the rest. Then you may discard a card from your hand. If you do, next turn, your opponent can't put 2 or more creatures into the battle zone."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's shields and this creature breaks the rest. Then you may discard a card from your hand. If you do, next turn, your opponent can't put 2 or more creatures into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P54/Y17 (WINNER Card)"/>
@@ -3604,7 +3633,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P56"/>
@@ -3634,6 +3663,7 @@
     </card>
     <card id="2a6036e5-e350-493a-884a-799ce3d05ac6" name="Prelude of Horror">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
@@ -3647,6 +3677,7 @@
       <property name="Name1" value="Metcha! Dangerous Grandpa"/>
       <property name="Name2" value="Kesshing Zero"/>
       <property name="Civilization" value="Colorless"/>
+      <property name="Civilization1" value="Colorless"/>
       <property name="Civilization2" value="Colorless"/>
       <property name="Cost" value="10/5"/>
       <property name="Cost1" value="10"/>
@@ -3714,6 +3745,7 @@
     </card>
     <card id="716a1f40-cfb6-45ae-8ee1-d2e2066380f6" name="Senno, Brainwash">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3819,6 +3851,7 @@
     </card>
     <card id="d72a3f59-fd29-4d20-9da6-164a67e8942c" name="Prelude of Horror">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
@@ -3876,6 +3909,7 @@
     </card>
     <card id="86cc27c2-9965-430c-80c6-e5e53751ec2e" name="Joecard">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="0"/>
       <property name="Rules" value="(Draw your own Jokers using this card.)"/>
       <property name="Watermark" value=""/>
@@ -3933,6 +3967,7 @@
     </card>
     <card id="0caa794a-6139-4b99-9158-c4c6563d321b" name="The Churuchuruzu">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -3957,6 +3992,7 @@
     </card>
     <card id="42d70ef3-c27c-467a-96f1-276289edc26e" name="VAN Beethoven, Zenith of &quot;Shura&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
@@ -3994,6 +4030,7 @@
     </card>
     <card id="d79e74c2-41d3-49a7-9509-138bc3e53b00" name="Golden the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4023,13 +4060,14 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P63"/>
     </card>
     <card id="250d725a-b37d-42ff-b4fd-b183e14d6c1f" name="Yattareman">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4053,6 +4091,7 @@
     </card>
     <card id="946bce34-88b0-4be6-8ce7-0b953aa5992c" name="Arizona Headshot">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -4135,6 +4174,7 @@
     </card>
     <card id="c60ed268-ab2e-441d-a5d9-b87488ee768d" name="VAN Beethoven, Zenith of &quot;Shura&quot;">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
@@ -4151,7 +4191,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Bikkuri Kingdom"/>
-      <property name="Rules" value="{VIVIDDRAW} {WF4|spell} (During your turn, when you draw this creature before you attack, you may reveal it. If you do, you may pay Water/Fire 4 | s p e l l to summon this creature this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
+      <property name="Rules" value="{VIVIDDRAW} {WF4} (During your turn, when you draw this spell before you attack, you may reveal it. If you do, you may pay Water/Fire 4 to cast this spell this turn.)&#xA;■ Draw a card. Then put a water or fire creature that costs 7 or less from your hand into the battle zone. That creature gets &quot;speed attacker&quot;. At the end of the turn, put that creature on the top of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P65"/>
@@ -4197,7 +4237,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica/Wonderforce"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P66"/>
@@ -4229,6 +4269,7 @@
     </card>
     <card id="658c14e6-a294-438e-b3f3-4b26b4af13fa" name="Tutankhanen">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4270,7 +4311,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{Kirifudash} {N10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 10 to summon this creature.)&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. You may put a Team Kirifuda from among them into your mana zone tapped. Put the rest on the bottom of your deck in any order.&#xA;File:Kirifuda Revolution black.png|70px|text-top Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put each of your opponent's creatures into their owner's mana zone."/>
+      <property name="Rules" value="{KIRIFUDASH} {N10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 10 to summon this creature.)&#xA;■ When you put this creature into the battle zone, look at the top 3 cards of your deck. You may put a Team Kirifuda from among them into your mana zone tapped. Put the rest on the bottom of your deck in any order.&#xA;Kirifuda Revolution: When you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, put each of your opponent's creatures into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P67"/>
@@ -4294,7 +4335,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{JOE} 1&#xA;Jokers Over Explode 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has 4000 power or less."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 1 (You may reduce this creature's summon cost by 1. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has 4000 power or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P68"/>
@@ -4318,7 +4359,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="■ Put the top card of your deck into your mana zone.&#xA;■ If you have a total of 7 or more Jokers in the battle zone or your mana zone,gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone.&#xA;■ If you have a total of 7 or more Jokers in the battle zone or your mana zone,gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P68"/>
@@ -4376,7 +4417,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Each of your gacharange creatures gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it into the battle zone.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P69"/>
@@ -4434,7 +4475,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Mana Drive 3 (Jokers): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is jokers, you may destroy this creature. If you do, use this creature's {MANA DRIVE} ability.&#xA;{MANA DRIVE} Look at the top 2 cards of your deck. You may choose a jokers from among them, show it to your opponent and add it to your hand. Put the rest at the bottom of your deck in any order."/>
+      <property name="Rules" value="■ Mana Drive 3 (Jokers): When you put this creature into the battle zone, if you have 3 or more cards in your mana zone and one or more of them is jokers, you may destroy this creature. If you do, use this creature's {MANA DRIVE}: ability.&#xA;{MANA DRIVE}: Look at the top 2 cards of your deck. You may choose a jokers from among them, show it to your opponent and add it to your hand. Put the rest at the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P70"/>
@@ -4473,6 +4514,7 @@
     </card>
     <card id="d288ba7e-5a38-4fed-98ed-678b28091f25" name="Okke Brothers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -4501,13 +4543,14 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{Kirifudash} {F10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Your Team Kirifuda cost up to 1 less to summon. They can't cost 0 or less.&#xA;File:Kirifuda Revolution.png|70px|text-top Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever any of your creature's attacks, untap all your Team Kirifuda."/>
+      <property name="Rules" value="{KIRIFUDASH} {F10} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 10 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Your Team Kirifuda cost up to 1 less to summon. They can't cost 0 or less.&#xA;Kirifuda Revolution: During the turn you put this creature into the battle zone with the &quot;Kirifudash&quot; ability, whenever any of your creature's attacks, untap all your Team Kirifuda."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P71"/>
     </card>
     <card id="2bc58cb3-1fed-4744-851f-2fa9d51c38dc" name="Prelude of Horror">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
@@ -4563,6 +4606,7 @@
     </card>
     <card id="62bfadcd-a25e-436a-861f-ca740f4084a7" name="Nothing Zero, Secret Destruction">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Attack Chance: Colorless creature (When one of your colorless creatures attacks, you may cast this spell for no cost.)&#xA;■ Reveal the top 3 cards of your deck. For each colorless card revealed, one of your creatures in the battle zone breaks an additional shield until the end of the turn. Put all revealed cards on the top or bottom of your deck in any order."/>
@@ -4602,7 +4646,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{Kirifudash} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card, then draw a card."/>
+      <property name="Rules" value="{KIRIFUDASH} {F2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire 2 to summon this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, discard a card, then draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P73"/>
@@ -4670,7 +4714,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Sonic Command/RexStars"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire|rex4 (When one of your Fire|rex4 attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P74"/>
@@ -4780,7 +4824,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Team Wave"/>
-      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}Put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{BUZZRENDER}(3) (When you pay this creature's cost, you may pay any number of additional (3). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (3).)&#xA;{BUZZRENDER}: Put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P76"/>
@@ -4801,7 +4845,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put a non-evolution darkness creature that costs 8 or less from your graveyard into the battle zone.&#xA;{SUPER}Destroy up to 2 of your opponent's creatures."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Put a non-evolution darkness creature that costs 8 or less from your graveyard into the battle zone.&#xA;{SUPER}: Destroy up to 2 of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P77"/>
@@ -4870,7 +4914,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your graveyard. If it's a non-evolution creature that costs 5 or less, destroy this creature and put that creature into the battle zone. Otherwise, this creature gets +4000 power, &quot;speed attacker&quot; and &quot;double breaker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;■ When you put this creature into the battle zone, put the top card of your deck into your graveyard. If it's a non-evolution creature that costs 5 or less, destroy this creature and put that creature into the battle zone. Otherwise, this creature gets +4000 power, &quot;speed attacker&quot; and &quot;double breaker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P78"/>
@@ -4893,7 +4937,7 @@
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Wonderforce"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and put it into its owner's mana zone.&#xA;■ Gacharange summon. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures in the battle zone and put it into its owner's mana zone.&#xA;■ Gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P78"/>
@@ -5082,7 +5126,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. {GACHARANGE SUMMON} (Gacharange summon: Summon the top card of your super gacharange with its cost paid.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Gacharange summon. Then you may choose one of your opponent's creatures. The summoned gacharange creature battles the chosen creature. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P81"/>
@@ -5094,7 +5138,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Tricks/Team Wave"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}Your opponent chooses one of their creatures. Return that creature to your opponent's mana zone or hand."/>
+      <property name="Rules" value="{BUZZRENDER}(2) (When you pay this creature's cost, you may pay any number of additional (2). When you put this creature into the battle zone, use its Buzzrender ability once and the number of additional times you paid (2).)&#xA;{BUZZRENDER}: Your opponent chooses one of their creatures. Return that creature to your opponent's mana zone or hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P81"/>
@@ -5119,7 +5163,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}: When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P82"/>
@@ -5202,7 +5246,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{Kirifudash} {N1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 1 to summon this creature.)"/>
+      <property name="Rules" value="{KIRIFUDASH} {N1} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Nature 1 to summon this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P83"/>
@@ -5237,7 +5281,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, your opponent discards a card at random from their hand.&#xA;{SUPER}: When you put this creature into the battle zone, your opponent chooses 2 of their untapped creatures and destroys them."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P83/Y16 (WINNER Card)"/>
@@ -5302,6 +5346,7 @@
     </card>
     <card id="b854e525-8059-414b-9213-30f61ed636f6" name="Maximum the Johnny">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -5476,6 +5521,7 @@
     </card>
     <card id="14450a02-550f-4c02-88f2-69473d8dc9e6" name="Batten Oyaji">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -5509,6 +5555,7 @@
     </card>
     <card id="8597bb6e-9710-427c-b15c-d6311f01037d" name="Joragon Reload">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -5548,13 +5595,14 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{JOE} 2&#xA;Jokers Over Explode 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has &quot;blocker&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P90"/>
     </card>
     <card id="e4e92a0b-9d86-4694-bb89-56b6f19476cb" name="Jojojo Jokers">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -5612,10 +5660,11 @@
     </card>
     <card id="5a40ce2a-c1c7-488f-b8b5-718b9e886265" name="Time Stopon">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and put it on the bottom of their deck.&#xA;{SUPER}Creatures can't attack this turn."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Choose one of your opponent's creatures that costs 6 or less and put it on the bottom of their deck.&#xA;{SUPER}: Creatures can't attack this turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P92"/>
@@ -5645,6 +5694,7 @@
     </card>
     <card id="a96ffa56-de70-4e17-a22b-70d4ec5fe589" name="Arizona Headshot">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -5810,7 +5860,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
-      <property name="Rules" value="{Kirifudash} {FN2|spell} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 2 | s p e l l to summon this creature.)&#xA;■ This turn, the next Team Kirifuda you summon may cost up to 5 less. It can't cost 0 or less."/>
+      <property name="Rules" value="{KIRIFUDASH} {FN2} (At the end of any of your creatures attacks, if that creature breaks a shield while attacking, you may pay Fire/Nature 2 to cast this spell.)&#xA;■ This turn, the next Team Kirifuda you summon may cost up to 5 less. It can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P97"/>
@@ -5863,6 +5913,7 @@
     </card>
     <card id="ab429aee-8edc-4019-8572-4b9d618c2870" name="Bullet the Silver">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -5943,6 +5994,7 @@
     </card>
     <card id="f19b0cc9-c832-45d2-a784-629be4726dbf" name="Surfing Zabunple">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -6175,6 +6227,7 @@
     </card>
     <card id="8778496d-4942-4249-9d3d-0b810c113e0c" name="Chocolate House">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -6197,6 +6250,7 @@
     </card>
     <card id="0bd4a6ec-9c86-4cdb-b609-6e4a8e1bf5f8" name="Joe Star of Dreams">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
@@ -6207,6 +6261,7 @@
     </card>
     <card id="0212326f-fed0-4515-8f5c-4626ab45b4fe" name="King the Slotton">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -6241,6 +6296,7 @@
     </card>
     <card id="f45f6f8c-648e-4ddc-a34a-8712d002162d" name="Senno, Brainwash">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
@@ -6257,13 +6313,14 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may return a card from your mana zone to your hand.&#xA;{SUPER}When you put this creature into the battle zone, put a nature creature from your hand into the battle zone."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature into the battle zone, you may return a card from your mana zone to your hand.&#xA;{SUPER}: When you put this creature into the battle zone, put a nature creature from your hand into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P118/Y16 (WINNER Card)"/>
     </card>
     <card id="22bc1f52-9110-4247-b279-de7ad2eb1dff" name="Ov Sidia DG">
       <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
       <property name="Race" value="Metallica"/>
@@ -6280,7 +6337,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dragons Zero"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures. Add that creature's power to this creature and that chosen creature's power becomes 0 until the end of the turn.&#xA;■ At the end of each of your turns, your opponent discards a card from their hand.&#xA;■ While you have a Zeron in the battle zone, your darkness cards cost 1 less to use. They can't cost 0 or less."/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures. Add that creature's power to this creature and that chosen creature's power becomes 0 until the end of the turn.&#xA;■ At the end of each of your turns, your opponent discards a card from their hand.&#xA;■ While you have a Zeron in the battle zone, your darkness cards cost 1 less to use. They can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P超㊙"/>
