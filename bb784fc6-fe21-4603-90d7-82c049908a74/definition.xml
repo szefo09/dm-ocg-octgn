@@ -72,7 +72,6 @@
 		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3" backWidth="63" backHeight="88" />
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>
 		<size name = "square" back="cards/back.jpg" front="cards/front.jpg" width="88" height="88" cornerRadius="3"/>
-		
 	</card>
 
 	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
@@ -95,7 +94,7 @@
 		</cardactions>
 		<cardactions menu="OCG Options:" >
 			<cardaction menu="Seal a Card" execute="seal" />
-			<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
+			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			<cardaction menu="Apply Marker" execute="addCustomMarker"/>
 		</cardactions>
 	</table>
@@ -134,7 +133,7 @@
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 			<cardaction menu="■ Trigger Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
 			<cardactions menu="OCG Options:" >
-				<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
+				<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			</cardactions>
 		</group>
 		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="True" /> 
