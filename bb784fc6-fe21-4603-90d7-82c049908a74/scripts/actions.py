@@ -3080,7 +3080,7 @@ def moveCards(args): #this is triggered every time a card is moved
 					evolveDict[evo] = evolvedList
 		if evolveDict != eval(me.getGlobalVariable("evolution"), allowed_globals):
 			me.setGlobalVariable("evolution", str(evolveDict))
-		
+
 		sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
 		for sealId in sealDict.keys():
 			if Card(sealId) not in table:
@@ -3093,7 +3093,7 @@ def moveCards(args): #this is triggered every time a card is moved
 				if len(sealList) == 0:
 					del sealDict[sealId]
 				else:
-					sealDict[sealId] = evolvedList
+					sealDict[sealId] = sealList
 		if sealDict != eval(me.getGlobalVariable("seal"), allowed_globals):
 			me.setGlobalVariable("seal", str(sealDict))
 
@@ -3401,7 +3401,7 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card = ensureCardObjects(card)
-	if isSealedOrSeal(card) and not confirm("Are you sure you want to destroy a Sealed Card?"):
+	if isSealedOrSeal(card) and not confirm("Are you sure you want to destroy a Sealed/Seal Card?"):
 		return
 	if isShield(card):
 		if dest == True:
@@ -3522,14 +3522,16 @@ def untapCreatureAll(ask = True):
 
 def shuffleToBottom(cards, x=0, y=0):
 	mute()
+	oldCards = list(cards)
 	rng = Random()
 	for i in range(len(cards) - 1, 0, -1):
 		j = int(rng.random() * (i + 1))
-		cards[i], cards[j] = cards[j], cards[i] 
+		cards[i], cards[j] = cards[j], cards[i]
 	for card in cards:
+		src = card.group
 		card.isFaceUp = False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Card(s) to the Bottom of their Deck'.format(me, len(cards)))
+	notify('{} shuffled {} Card(s) ({}) to the Bottom of their Deck from {}'.format(me, len(cards), ", ".join([c.name for c in oldCards]), src.name))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3648,6 +3650,7 @@ def attachBait(card, x=0, y=0):
 	align()
 	return choices
 
+#apply a seal to a card.
 def seal(card, x=0, y=0):
 	global playerside
 	mute()
@@ -3685,6 +3688,11 @@ def seal(card, x=0, y=0):
 	me.setGlobalVariable("seal", str(sealDict))
 	notify('{} seals {} with the top card of their Deck.'.format(me, card))
 
+def addCustomMarker(card, x=0, y=0):
+	marker, qty = askMarker()
+	if marker !=shieldMarker and marker != sealMarker:
+		card.markers[marker] += qty
+
 #Charge Top Card as Mana
 def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[], postCondition='True', preCondition=True):
 	mute()
@@ -3701,6 +3709,34 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 			card.orientation ^= Rot90
 		notify("{} charges {} from top of {} as mana.".format(me, card, group.name))
 	doPostAction(card, postAction, postArgs, postCondition)
+
+#Reveal cards from top deck until a card with X cost or lower is revealed, play it, shuffle the rest to bottom of the deck.
+def yobinion(group):
+	mute()
+	group = me.Deck
+	if len(group) == 0:
+		return
+	number = askNumber("Declare the card cost for Yobinion.", 1)
+	if number == None or number == 0:
+		return
+	notify('{} resolves Yobinion {}'.format(me, number))
+	cardList = []
+	for card in group:
+		card.isFaceUp = True
+		notify("{} reveals {}".format(me, card))
+		if re.search('Creature', card.Type) and cardCostComparator(card, number, '<=', "Creature"):
+			toPlay(card)
+			break
+		else:
+			cardList.append(card)
+
+	shuffleToBottom(cardList)
+
+#Graveyard Menu Options
+def chooseAndShuffleToBottom(group):
+	choices = askCard2(group, "Select up to {} Cards to shuffle to the bottom of the Deck".format(len(group)), "Shuffle", 1, len(group), True)
+	if not isinstance(choices, list): return
+	shuffleToBottom(choices)
 
 def doPostAction(card, postAction, postArgs, postCondition):
 	# does something more in the effect, might be based on what the first card was; eg: Geo Bronze Magic or simple stuff like Skysword(shield comes after mana)
@@ -3771,6 +3807,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		return
 	card.resetProperties()
 	card.target(False)
+	src = card.group
 	cardWasCreature = isCreature(card) and checkEvo
 	##notify("Removing from tracked evos if its bait or an evolved creature")
 	if checkEvo:
@@ -3788,7 +3825,10 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	if alignCheck:
 		align()
 	if notifymute == False:
-		notify("{} charges {} as mana.".format(me, card))
+		if src == card.owner.hand:
+			notify("{} charges {} as mana.".format(me, card))
+		else:
+			notify("{} charges {} as mana from {}.".format(me, card, src.name))
 
 	#Handle on Remove From Battle Zone effects:
 	if cardWasCreature:
@@ -3813,8 +3853,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	count = int(me.getGlobalVariable("shieldCount")) + 1
 	me.setGlobalVariable("shieldCount", convertToString(count))
 	if notifymute == False:
-		if isCreature(card) or isMana(
-				card):  ##If a visible card in play is turning into a shield, we want to record its name in the notify
+		if isCreature(card) or isMana(card) or card.group == card.owner.piles['Graveyard']:  ##If a visible card in play is turning into a shield, we want to record its name in the notify
 			notify("{} sets {} as shield #{}.".format(me, card, count))
 		else:
 			notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
@@ -3848,7 +3887,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	card = ensureCardObjects(card)
 	#global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
-	if card.group == card.owner.hand:
+	src = card.group
+	if src == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
 	if not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or re.search('{NEO EVOLUTION}', card.Rules))and not isEvoMaterial:
@@ -4028,7 +4068,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		card.markers[shieldMarker] = 0
 	align()
 	if notifymute == False and not card.hasProperty('Name1'):
-		notify("{} plays {}{}.".format(me, card, evolveText))
+		if src == card.owner.hand:
+			notify("{} plays {}{}.".format(me, card, evolveText))
+		else:
+			notify("{} plays {}{} from {}.".format(me, card, evolveText, src.name))
 
 	if not ignoreEffects:
 		card.resetProperties()
@@ -4042,8 +4085,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			card.Type=card.properties['Type{}'.format(choice)]
 			card.Race=card.properties['Race{}'.format(choice)]
 			card.Rules=card.properties['Rules{}'.format(choice)]
-
-			notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
+			if src == card.owner.hand:
+				notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
+			else:
+				notify("{} plays {} as {}{} from {}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText, src.name))
 		processExLife(card)
 		functionList = []
 		if metamorph() and cardScripts.get(card.name, {}).get('onMetamorph', []):
@@ -4113,7 +4158,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			notify("{} discards {} from {}.".format(me, card, src.name))
 
 	#Handle onDiscard effects
-	if src.name=="Hand":
+	if src == card.owner.hand:
 		functionList=[]
 		if cardScripts.get(card.Name, {}).get('onDiscard', {}):
 			functionList = cardScripts.get(card.Name).get('onDiscard')

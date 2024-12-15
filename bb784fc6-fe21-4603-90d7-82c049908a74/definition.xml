@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.1.0.15"
+		version="1.1.0.16"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -96,6 +96,7 @@
 		<cardactions menu="OCG Options:" >
 			<cardaction menu="Seal a Card" execute="seal" />
 			<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
+			<cardaction menu="Apply Marker" execute="addCustomMarker"/>
 		</cardactions>
 	</table>
 
@@ -117,13 +118,25 @@
 			<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawX" />
 			<groupaction menu="Set Top Card as Shield" shortcut="ctrl+shift+S" execute="shields" />
 			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-			<groupaction menu="Discard Top Card" execute="mill" />
-			<groupaction menu="Discard Top X Cards" execute="millX" />
-			<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
+			<groupaction menu="Discard Top Card" shortcut="ctrl+T" execute="mill" />
+			<groupaction menu="Discard Top X Cards" shortcut="ctrl+shift+T" execute="millX" />
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
+			<groupactions menu="OCG Options:" >
+				<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
+				<groupaction menu="Yobinion X" shortcut="ctrl+shift+Y" execute="yobinion" />
+			</groupactions>
 		</group>
 
-		<group name="Graveyard" visibility="all" ordered="False" shortcut="del" icon="groups/graveyard.png" collapsed="False" />
+		<group name="Graveyard" visibility="all" ordered="False" shortcut="del" icon="groups/graveyard.png" collapsed="False" >
+			<groupaction menu="Shuffle Cards to bottom of the Deck" execute="chooseAndShuffleToBottom" />
+			<cardaction menu="Play Card" default="True" execute="toPlay" />
+			<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
+			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
+			<cardaction menu="■ Trigger Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
+			<cardactions menu="OCG Options:" >
+				<cardaction menu="Shuffle to Bottom of the Deck" batchExecute="shuffleToBottom" />
+			</cardactions>
+		</group>
 		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="True" /> 
 		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="True" />
 
