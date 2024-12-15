@@ -1454,7 +1454,7 @@ def loopThroughDeck(playerId, play=False):
 	if len(group) == 0: return
 	newCard = group[0]
 	newCard.isFaceUp = True
-	notify("{} reveals {}".format(player, newCard.Name))
+	notify("{} reveals {}".format(player, newCard))
 
 	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
 		if play == True:
@@ -2052,7 +2052,7 @@ def processOnTurnEndEffects():
 				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnEnd', []):
 					functionList.extend(cardScripts.get(surv.Name).get('onTurnEnd'))
 		if len(functionList)>0:
-			notify('{} acitvates at the end of {}\'s turn'.format(card.Name, me))
+			notify('{} acitvates at the end of {}\'s turn'.format(card, me))
 			for function in functionList:
 				waitingFunct.append([card, function])
 	orderEvaluatingFunctions()
@@ -2068,7 +2068,7 @@ def processOnTurnStartEffects():
 				if surv._id != card._id and cardScripts.get(surv.name, {}).get('onTurnStart', []):
 					functionList.extend(cardScripts.get(surv.Name).get('onTurnStart'))
 		if len(functionList)>0:
-			notify('{} acitvates at the start of {}\'s turn'.format(card.Name, me))
+			notify('{} acitvates at the start of {}\'s turn'.format(card, me))
 			for function in functionList:
 				waitingFunct.append([card, function])
 	orderEvaluatingFunctions()
@@ -2349,7 +2349,7 @@ def auraPegasus():
 	notify("{} looks at the top Card of their deck".format(me))
 	card = me.Deck[0]
 	card.isFaceUp = True
-	notify("{} reveals {}".format(me, card.Name))
+	notify("{} reveals {}".format(me, card))
 	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
 		toPlay(card)
 	else:
@@ -2368,7 +2368,7 @@ def bluumErkis(card):
 		remoteCall(shield.owner, 'flip', convertCardListIntoCardIDsList(shield))
 		update()
 		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
-			notify('{} casts {}'.format(me, shield.name, card.name))
+			notify('{} casts {}'.format(me, shield.name))
 			if cardScripts.get(shield.name, {}).get('onPlay', []):
 				functionList = list(cardScripts.get(shield.name).get('onPlay'))
 				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', convertCardListIntoCardIDsList(card)))
@@ -3420,9 +3420,9 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		if conditionalTrigger and re.search(r"SHIELD TRIGGER[\sPLUS]{0,}}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
-				notify("{} uses {}'s Shield Trigger.".format(me, card.Name))
 				card.isFaceUp = True
 				card.target(False)
+				notify("{} uses {}'s Shield Trigger.".format(me, card))
 				toPlay(card, notifymute=True)
 				return
 			elif choice==3 or choice==0:
@@ -3470,7 +3470,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						shieldCard.isFaceUp = True
 						toPlay(choice, notifymute=True)
 						toDiscard(shieldCard)
-						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard.name, choice.name))
+						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard, choice))
 						return
 		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
