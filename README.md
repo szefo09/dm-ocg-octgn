@@ -132,6 +132,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Rainbow Stone**
   - **Roulette of Ruin**
   - **Thought Probe**
+  - **Diamondia, the Blizzard Rider**
+  - **Rainbow Gate**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -264,6 +266,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Skullcutter, Swarm Leader
     - Laveil, Seeker of Catastrophe
     - Betrale, the Explorer
+    - Nial, Vizier of Dexterity
 
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
