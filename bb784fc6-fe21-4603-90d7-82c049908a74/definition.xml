@@ -81,6 +81,7 @@
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clearFunctionsAndTargets" />
 		<groupactions menu="OCG Options:">
+			<groupaction menu="Seal your opponent's Creatures" execute="sealOpponentCreatures" />
 			<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
 			<groupaction menu="Add Card from outside the Game" execute="createCard" />
 		</groupactions>

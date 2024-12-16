@@ -1076,7 +1076,7 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
-	if not isShield(card) and not card.orientation in {Rot180, Rot270} and re.search("Creature", card.Type) and card in table :
+	if card.isFaceUp and not isShield(card) and not card.orientation in {Rot180, Rot270} and re.search("Creature", card.Type) and card in table:
 		return True
 	#by default python functions will return None, which is more or less the same as False
 
@@ -1119,6 +1119,23 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		if card._id in baitList:
 			return True
 
+def isSealed(card):
+	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
+	if card._id in sealDict:
+		return True
+
+def isSeal(card):
+	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
+	for seal in sealDict.keys():
+		sealList = sealDict[seal]
+		if card._id in sealList:
+			return True
+def getSeals(card):
+	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
+	if card._id in sealDict:
+		return [Card(cardId) for cardId in sealDict[card._id]]
+	return []
+
 def isSealedOrSeal(card): #check if there is a seal on the card
 	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
 	if card._id in sealDict:
@@ -1135,10 +1152,7 @@ def isRemovedFromPlay(card):
 def getEvoBaits(card):
 	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
 	if card._id in evolveDict:
-		baitList = []
-		for cardId in evolveDict[card._id]:
-			baitList.append(Card(cardId))
-		return baitList
+		return [Card(cardId) for cardId in evolveDict[card._id]]
 	return []
 
 def isEvo(cards, x=0, y=0):
@@ -3152,17 +3166,25 @@ def align():
 			Card(evolvedCard).moveToTable(x, y - 10 * count * playerside)
 			Card(evolvedCard).sendToBack()
 	for seal in sealDict:
+		sealedCard = Card(seal)
+		cardSide = 1
+		if Table.isTwoSided():
+			if sealedCard.controller.isInverted:
+				cardSide = -1
+			else:
+				cardSide = 1
+		cx,cy = sealedCard.position
 		for sealCardId in list(sealDict[seal]):
-			x,y = Card(seal).position
 			sealCard = Card(sealCardId)
-			if(not sealCard or not sealCard.markers[sealMarker] or sealCard not in table):
+			sealCardMarker = sealCard.markers[sealMarker]
+			if(not sealCard or not sealCardMarker or sealCard not in table):
 				sealDict[seal].remove(sealCardId)
 				if not sealDict[seal]:
 					del sealDict[seal]
 				me.setGlobalVariable("seal", str(sealDict))
 				align()
 				return
-			Card(sealCardId).moveToTable(x - 10 * playerside, y - 10 * playerside)
+			sealCard.moveToTable(cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide, True)
 			Card(sealCardId).sendToFront()
 	# for landscape or large cards
 	xpos = 15
@@ -3391,7 +3413,12 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card = ensureCardObjects(card)
-	if isSealedOrSeal(card) and askYN('Are you sure you want to destroy Seal/Sealed Card?') != 1: return
+	if isSealed(card):
+		choice = askYN('Are you sure you want to destroy Sealed Card?\n(All seals will be put to Graveyard.)')
+		if choice != 1: return
+		sealList = getSeals(card)
+		for seal in sealList:
+			toDiscard(seal)
 	if isShield(card):
 		if dest == True:
 			toDiscard(card)
@@ -3641,14 +3668,13 @@ def attachBait(card, x=0, y=0):
 
 #apply a seal to a card.
 def seal(card, x=0, y=0):
-	global playerside
 	mute()
+	cardSide = 1
 	if Table.isTwoSided():
-		if playerside == None:
-			if me.isInverted:
-				playerside = -1
+			if card.controller.isInverted:
+				cardSide = -1
 			else:
-				playerside = 1
+				cardSide = 1
 	group = me.Deck
 	if len(group) == 0:
 		return
@@ -3656,13 +3682,7 @@ def seal(card, x=0, y=0):
 		return
 	topCard = group[0]
 	cx, cy = card.position
-	if Table.isTwoSided():
-		if playerside == None:
-			if me.isInverted:
-				playerside = -1
-			else:
-				playerside = 1
-	topCard.moveToTable(cx - 10 * playerside,cy - 10 * playerside, True)
+	topCard.moveToTable(cx, cy, True)
 	topCard.orientation = Rot90
 	sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
 	if card._id in sealDict:
@@ -3674,8 +3694,21 @@ def seal(card, x=0, y=0):
 	else:
 		sealDict[card._id] = [topCard._id]
 	topCard.markers[sealMarker] = len(sealDict[card._id])
+	topCard.moveToTable(cx  + (card.width / 2 - topCard.width / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, cy + (card.height / 2 - topCard.height / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, True)
 	me.setGlobalVariable("seal", str(sealDict))
 	notify('{} seals {} with the top Card of their Deck.'.format(me, card))
+
+def sealOpponentCreatures(group, x=0, y=0):
+	creatureList = [c for c in group if c.owner != me and isCreature(c) and not isBait(c)]
+	creatureListCount = len(creatureList)
+	deckCount = len(me.Deck)
+	maxSeals = min(creatureList, deckCount)
+	if maxSeals == 0: return
+	if me.isInverted: reverseCardList(creatureList)
+	choices = askCard2(creatureList, "Select up to {} Creatures to Seal".format(maxSeals), "Seal", 1, maxSeals, True)
+	if not isinstance(choices,list): return
+	for choice in choices:
+		seal(choice)
 
 def addCustomMarker(card, x=0, y=0):
 	marker, qty = askMarker()
