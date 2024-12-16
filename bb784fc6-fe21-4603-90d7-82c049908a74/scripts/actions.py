@@ -231,7 +231,7 @@ cardScripts = {
 	'Bomber Doll': {'onPlay': [lambda card: kill(2000)]},
 	'Bonds of Justice': {'onPlay': [lambda card: tapCreature(1, True, True, filterFunction='not re.search(r"{BLOCKER}", c.Rules)')]},
 	'Bone Dance Charger': {'onPlay': [lambda card: mill(me.Deck, 2)]},
-	'Boomerang Comet': {'onPlay': [lambda card: fromMana(), lambda card: toMana(card)]},
+	'Boomerang Comet': {'onPlay': [lambda card: fromMana()]},
 	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
 	'Brain Re:Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
@@ -362,7 +362,7 @@ cardScripts = {
 	'Persistent Prison of Gaia': {'onPlay': [lambda card: bounce(1, True, filterFunction = 'not re.search("Evolution", c.Type)'), lambda card: targetDiscard(True)]},
 	'Phantom Dragon\'s Flame': {'onPlay': [lambda card: kill(2000)]},
 	'Phantasm Clutch': {'onPlay': [lambda card: kill("ALL","Tap")]},
-	'Pixie Cocoon': {'onPlay': [lambda card: fromMana(1, "Creature"), lambda card: toMana(card)]},
+	'Pixie Cocoon': {'onPlay': [lambda card: fromMana(1, "Creature")]},
 	'Pixie Life': {'onPlay': [lambda card: mana(me.Deck, 1, False, False), lambda card: fromMana(1, "ALL", "Zero")]},
 	'Primal Scream': {'onPlay': [lambda card: mill(me.Deck, 4, True), lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Proclamation of Death': {'onPlay': [lambda card: opponentSacrifice()] },
@@ -2346,10 +2346,10 @@ def bluumErkis(card):
 	if len(targets)!=count:
 		return True
 	for shield in targets:
-		remoteCall(shield.owner, 'flip', convertCardListIntoCardIDsList(shield))
+		remoteCall(shield.owner, 'flip', [convertCardListIntoCardIDsList(shield)])
 		update()
 		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
-			notify('{} casts {}'.format(me, shield.name))
+			notify('{} casts {} from {}\'s shields'.format(me, shield.name, shield.owner))
 			if cardScripts.get(shield.name, {}).get('onPlay', []):
 				functionList = list(cardScripts.get(shield.name).get('onPlay'))
 				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', convertCardListIntoCardIDsList(card)))
@@ -2357,7 +2357,7 @@ def bluumErkis(card):
 					waitingFunct.insert(index + 1, [shield, function])
 			shield.target(False)
 		else:
-			remoteCall(shield.owner, 'toHand', [shield])
+			remoteCall(shield.owner, 'toHand', [convertCardListIntoCardIDsList(shield)])
 	orderEvaluatingFunctions()
 	evaluateWaitingFunctions()
 
@@ -2952,6 +2952,7 @@ def fromDeckToField(filterFunction="True", count = 1):
 # Battlezone Options
 def flip(card, x=0, y=0):
 	mute()
+	card = ensureCardObjects(card)
 	if (re.search("Psychic", card.Type)):
 		forms = list(card.alternates)
 		if len(forms)==2:
@@ -4108,7 +4109,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 def endOfFunctionality(card):
 	if card and isSpellInBZ(card):
-		if re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE):
+		if any(name in card.name for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
 			toMana(card)
 			align()
 		else:
