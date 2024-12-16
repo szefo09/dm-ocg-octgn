@@ -3123,7 +3123,7 @@ def align():
 	temp = []
 	bigCards = []
 	for card in cardorder[0]:
-		if card.size == "tall":
+		if card.size in {"tall", "square"}:
 			bigCards.append(card)
 		else:
 			temp.append(card)
@@ -3266,6 +3266,7 @@ def rollDie(group, x=0, y=0):
 def initiateRPS(group, x=0, y=0):
 	mute()
 	opponent = getTargetPlayer(onlyOpponent=True)
+	if not opponent: return
 	choice = askChoice('Pick Rock/Paper/Scissors:',['Rock','Paper','Scissors'])
 	if choice==0: return
 	remoteCall(opponent,'finishRPS',[me,choice])
@@ -3288,10 +3289,14 @@ def finishRPS(opponent,oppChoice):
 		notify("{} Wins! - {} beats {}".format(opponent, choices[oppChoice], choices[choice]))
 
 def createCard(group, x=0, y=0):
+	mute()
 	cardGuid, quantity = askCard(title="Choose a Card to create on the table.")
 	if cardGuid and quantity:
-		table.create(cardGuid,x, y, quantity, False)
-		whisper("This card will disappear if it leaves the battle zone.")
+		temporary = confirm("Make the chosen card(s) temporary? (Remove them from game if they leave the table.)")
+		#We reverse temporary in the function call below, because it asks for persistant card.
+		cards = table.create(cardGuid, x, y, quantity, not temporary)
+		if not isinstance(cards,list): cards = [cards]
+		notify('{} creates {} {} on the table{}'.format(me, quantity, cards[0], " (Temporary)" if temporary else " (Persistent)"))
 		align()
 
 #untaps everything, creatures and mana

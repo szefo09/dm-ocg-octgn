@@ -71,7 +71,7 @@
 		<size name = "normal" back="cards/back.jpg" front="cards/front.jpg" width="63" height="88" cornerRadius="3"/>
 		<size name = "wide" back="cards/back.jpg" front="cards/front.jpg" width="88" height="63" cornerRadius="3" backWidth="63" backHeight="88" />
 		<size name = "tall" back="cards/back.jpg" front="cards/front.jpg" width="88" height="189" cornerRadius="9"/>
-		<size name = "square" back="cards/back.jpg" front="cards/front.jpg" width="88" height="88" cornerRadius="3"/>
+		<size name = "square" back="cards/back.jpg" front="cards/front.jpg" width="189" height="189" cornerRadius="3"/>
 	</card>
 
 	<table name="Battle Zone" visibility="undefined" ordered="False" width="800" height="600" background="background/background.jpg" backgroundStyle="uniformToFill">
@@ -92,8 +92,8 @@
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 		<cardaction menu="Use Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
 		<cardactions menu="Evolution Options:" >
-			<cardaction menu="Detach Bait" execute="detachBait" />
 			<cardaction menu="Attach Bait" execute="attachBait" />
+			<cardaction menu="Detach Bait" execute="detachBait" />
 		</cardactions>
 		<cardactions menu="OCG Options:" >
 			<cardaction menu="Seal a Card" execute="seal" />

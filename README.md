@@ -309,7 +309,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
-  - **Added new buttons for OCG gameplay: Seal, Yobinion X (ctrl+shift+Y), allowed an option to batch shuffle cards on the field and send them shuffled to the bottom of the deck, allowed cards in Graveyard to be played/set as shield/charged as mana/put to Bottom of Deck**
+  - **Added new buttons for OCG gameplay: Seal, Yobinion X (ctrl+shift+Y), allowed an option to batch shuffle cards on the field and send them shuffled to the bottom of the deck, allowed cards in Graveyard to be played/set as shield/charged as mana/put to Bottom of Deck, added a button to create a new card on the table (which can be temporary or persistent)**
   - **Added new buttons for creatures to support adding and removing cards from under them: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.
   - **Allow picking order of simultanious effects resolving at the same time!**: Currently done for on Turn End/Start effects and when doing mass destruction effects.
   - **Look at top X cards, pick some, put rest to the bottom in any order Button added to Deck options!**
