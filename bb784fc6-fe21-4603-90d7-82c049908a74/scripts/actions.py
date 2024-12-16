@@ -96,7 +96,7 @@ cardScripts = {
 	'Forest Sword, Great Hero': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Fortress Shell': {'onPlay': [lambda card: destroyMana(2)]},
 	'Forbos, Sanctum Guardian Q': {'onPlay': [lambda card: search(me.Deck, 1, "Spell")]},
-	'Frantic Chieftain': {'onPlay': [lambda card: bounce(1, filterFunction="c.owner==me and cardCostComparator(c,4,'<=')")]},
+	'Frantic Chieftain': {'onPlay': [lambda card: bounce(1, filterFunction="c.owner==me and cardCostComparator(c,4,'<=','Creature')")]},
 	'Funky Wizard': {'onPlay': [lambda card: funkyWizard()]},
 	'Gajirabute, Vile Centurion': {'onPlay': [lambda card: burnShieldKill(1)]},
 	'Galek, the Shadow Warrior': {'onPlay': [lambda card: kill(count=1, rulesFilter="{BLOCKER}"), lambda card: targetDiscard(True)]},
@@ -1029,12 +1029,12 @@ def processExLife(card):
 	if isExLife or (isExtraExLife and len(group)==1):
 		card.properties["Rules"] = '(Ex Life - Shield #{})\n{}'.format(shieldCount, card.properties["Rules"])
 		toShields(group[0], notifymute=True)
-		notify("{} sets top card of {} as shield for Ex Life of {}.".format(me, group.name, card))
+		notify("{} sets top card of {} as Shield for Ex Life of {}.".format(me, group.name, card))
 	elif isExtraExLife:
 		card.properties["Rules"] = '(Extra Ex Life - Shield #{} and #{})\n{}'.format(shieldCount,shieldCount+1, card.properties["Rules"])
 		toShields(group[0], notifymute=True)
 		toShields(group[0], notifymute=True)
-		notify("{} sets top 2 cards of {} as shields for Extra Ex Life of {}.".format(me, group.name, card))
+		notify("{} sets top 2 cards of {} as Shields for Extra Ex Life of {}.".format(me, group.name, card))
 
 #Useful to handle Twinpacts
 def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
@@ -1221,10 +1221,10 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 	mute()
 	if shuffle:
 		me.Deck.shuffle()
-		notify("{} shuffles their deck.".format(me))
+		notify("{} shuffles their Deck.".format(me))
 	card = me.Deck.top()
 	card.isFaceUp = True
-	notify("Top card is {}".format(card))
+	notify("Top Card is {}".format(card))
 	played = False  # Flag for resolving after shuffle, unused rn
 	if type == 'creature':
 		success = re.search("Creature", card.Type)
@@ -1249,12 +1249,12 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 	elif failZone == 'hand':
 		toHand(card)
 	else:
-		notify("{} puts {} back on top of deck".format(me, card))
+		notify("{} puts {} back on top of Deck".format(me, card))
 		card.isFaceUp = False
 
 def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='bottom', reveal=True, specialaction='NONE', specialaction_civs = [], count = 1):
 	mute()
-	notify("{} looks at the top {} Cards of their deck".format(me, num))
+	notify("{} looks at the top {} Cards of their Deck".format(me, num))
 	cardList = [card for card in me.Deck.top(num)]
 	choices = askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone),maximumToTake=count, returnAsArray=True)
 	cards_for_special_action = []
@@ -1284,7 +1284,7 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 		else:
 			card.resetProperties()
 			card.moveToBottom(me.Deck)
-			notify("{} moved a card to the bottom of their deck.".format(me))
+			notify("{} moved a Card to the bottom of their Deck.".format(me))
 	if specialaction == "BOUNCE":
 		if not any(re.search(civs, card.properties['Civilization']) for civs in specialaction_civs for card in cards_for_special_action):
 			global evaluateNextFunction
@@ -1316,7 +1316,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 			whisper("Putting {} as Mana.".format(cardChoice))
 			remoteCall(targetPlayer, 'toMana', convertCardListIntoCardIDsList(cardChoice))
 		if targetZone == 'shield':
-			whisper("Setting {} as shield.".format(cardChoice))
+			whisper("Setting {} as Shield.".format(cardChoice))
 			remoteCall(targetPlayer, 'toShields', convertCardListIntoCardIDsList(cardChoice))
 		elif targetZone == 'grave':
 			# do anti-discard check here
@@ -1460,7 +1460,7 @@ def eurekaProgram(ask=True):
 	originalCost = int(choice.Cost)
 	found = False
 	destroy(choice)
-	notify("Looking for a creature with cost {}...".format(originalCost + 1))
+	notify("Looking for a Creature with cost {}...".format(originalCost + 1))
 
 	for card in me.Deck:
 		card = me.Deck[0]
@@ -1496,12 +1496,12 @@ def eurekaProgram(ask=True):
 		if card.isFaceUp:
 			card.isFaceUp = False
 	me.Deck.shuffle()
-	notify("{} shuffles their deck.".format(me))
+	notify("{} shuffles their Deck.".format(me))
 	if found:
 		## Temporary fix without a proper resolve list
 		toPlay(choice, notifymute=True)
 	else:
-		notify("No card with cost {} found or action cancelled.".format(originalCost + 1))
+		notify("No Card with cost {} found or action cancelled.".format(originalCost + 1))
 
 def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, x=0, y=0, filterFunction='True'):
 	mute()
@@ -1554,7 +1554,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
-		notify("{} finishes searching {}'s {} and shuffles the deck.".format(me, targetPlayer, group.name))
+		notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 		return
 	for choice in choices:
 		remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choice))
@@ -1562,7 +1562,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 
 	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
 	update()
-	notify("{} finishes searching {}'s {} and shuffles the deck.".format(me, targetPlayer, group.name))
+	notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 
 #Pick a card from your deck and place it into Mana.
 def fromDeckToMana(count=1, filterFunction="True"):
@@ -1576,14 +1576,14 @@ def fromDeckToMana(count=1, filterFunction="True"):
 		choices = askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count), maximumToTake=count, returnAsArray=True)
 		if not isinstance(choices, list):
 			shuffle(group)
-			notify("{} finishes searching their {} and shuffles the deck.".format(me, group.name))
+			notify("{} finishes searching their {} and shuffles the Deck.".format(me, group.name))
 			return
 		if all(elem in validChoices for elem in choices):
 			for choice in choices:
 				toMana(choice)
 			break
 	shuffle(group)
-	notify("{} finishes searching their {} and shuffles the deck.".format(me, group.name))
+	notify("{} finishes searching their {} and shuffles the Deck.".format(me, group.name))
 
 #Target creatures, if they match the filter, they get destroyed.
 def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL', filterFunction="True"):
@@ -1676,8 +1676,7 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 					toDiscard(choice)
 					cardList.remove(choice)
 					cardList = [card for card in cardList]
-					notify(
-						"{} destroys {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
 					continue
 
 		toDiscard(cardToBeSaved)
@@ -1761,7 +1760,7 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0, t
 		return
 
 	if len(targetSh) != count or len(targetCr) != killCount:
-		whisper("Invalid shields and/or creatures targeted.")
+		whisper("Invalid Shields and/or Creatures targeted.")
 		return True  # =>will wait for target
 
 	for shield in targetSh:
@@ -1788,8 +1787,8 @@ def lookAtCards(count=1, isTop=True, opponent=False):
 	else:
 		targetPlayer = me
 	if isTop == False:
-		notify("{} looks at {} cards from bottom of their deck.".format(targetPlayer, count))
-	notify("{} looks at {} cards from top of their deck.".format(targetPlayer, count))
+		notify("{} looks at {} Cards from bottom of their Deck.".format(targetPlayer, count))
+	notify("{} looks at {} Cards from top of their Deck.".format(targetPlayer, count))
 	targetPlayer.Deck.lookAt(count, isTop)
 
 #Destroy your own creature
@@ -1824,7 +1823,7 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 		cardList = [c for c in table if
 					isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c) and eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList) < 1:
-		whisper("No valid targets on the table.")
+		whisper("No valid targets on the Table.")
 		return
 
 	count = min(count, len(cardList))
@@ -1864,7 +1863,7 @@ def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction = "T
 def peekShields(shields):
 	for shield in shields:
 		shield.peek()
-		notify("{} peeks at shield#{}".format(me, shield.markers[shieldMarker]))
+		notify("{} peeks at Shield#{}".format(me, shield.markers[shieldMarker]))
 
 #Used to target a shield(s) and peek at them.
 def peekShield(count = 1, onlyOpponent = False):
@@ -1876,7 +1875,7 @@ def peekShield(count = 1, onlyOpponent = False):
 	count = min(count, len(cardList))
 	targets = []
 	if count != len(cardList):
-		whisper('Target the opponent shield(s).')
+		whisper('Target opponent\'s Shield(s).')
 		targets = [c for c in table if c.targetedBy == me and c in cardList]
 		if len(targets) != count:
 			whisper('Wrong target(s)!')
@@ -2247,7 +2246,7 @@ def cloned(functionArray, card):
 		for c in player.piles["Graveyard"]:
 			if re.search(c.Name, card.Name):
 				count += 1
-	notify("{}s in graves:{}".format(card.Name, count - 1))
+	notify("{}s in Graveyards:{}".format(card.Name, count - 1))
 	for index, funct in enumerate(functionArray):
 		waitingFunct.insert(index + 1, [card, lambda card = card, count = count: funct(card, count)])
 
@@ -2327,7 +2326,7 @@ def apocalypseVise():
 
 def auraPegasus():
 	if len(me.Deck)==0: return
-	notify("{} looks at the top Card of their deck".format(me))
+	notify("{} looks at the top Card of their Deck".format(me))
 	card = me.Deck[0]
 	card.isFaceUp = True
 	notify("{} reveals {}".format(me, card))
@@ -2349,7 +2348,7 @@ def bluumErkis(card):
 		remoteCall(shield.owner, 'flip', [convertCardListIntoCardIDsList(shield)])
 		update()
 		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
-			notify('{} casts {} from {}\'s shields'.format(me, shield.name, shield.owner))
+			notify('{} casts {} from {}\'s Shields'.format(me, shield.name, shield.owner))
 			if cardScripts.get(shield.name, {}).get('onPlay', []):
 				functionList = list(cardScripts.get(shield.name).get('onPlay'))
 				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', convertCardListIntoCardIDsList(card)))
@@ -2463,7 +2462,7 @@ def ghastlyDrain(card):
 	if number == None:
 		notify("{} didn't make a choice.".format(me))
 		return
-	notify("{} chose {} shields".format(me,number))
+	notify("{} chose {} Shields".format(me,number))
 	waitingFunct.insert(1, [card, lambda card=card, counter=number: bounceShield(counter)])
 
 def returnAndDiscard(card):
@@ -2553,7 +2552,7 @@ def waveLance():
 				and not isRemovedFromPlay(c)
 				and not isUntargettable(c)]
 	if len(cardList) == 0:
-		whisper("No valid targets on the table.")
+		whisper("No valid targets on the Table.")
 		return
 	target = [c for c in table if c.targetedBy == me and c in cardList]
 	if len(target) != 1:
@@ -2582,7 +2581,7 @@ def miraculousMeltdown(card):
 	myShields = [c for c in table if c.owner == me and isShield(c)]
 	opponentShields = [c for c in table if c.owner == targetPlayer and isShield(c)]
 	if len(opponentShields)<=len(myShields):
-		whisper("You cannot cast this spell!")
+		whisper("You cannot cast this Spell!")
 		return
 	remoteCall(targetPlayer,'_eMMHelper', [card._id, len(myShields)])
 
@@ -2602,13 +2601,13 @@ def declareRace(card, excludedRace=None):
 	race_names = [race for race, count in sorted_races if race !=excludedRace]
 	choice = askChoice("Select a race:", race_names, customButtons=["Custom Race"])
 	if choice == 0:
-		notify("{} didn't declare a race".format(me))
+		notify("{} didn't declare a Race".format(me))
 		return
 	if choice > 0:
 		chosenRace = race_names[choice-1]
 	if choice < 0:
-		chosenRace = askString("Type a custom race to declare:",'')
-	notify('{} declares {} Race'.format(me, chosenRace))
+		chosenRace = askString("Type a custom Race to declare:",'')
+	notify('{} declares \'{}\' Race'.format(me, chosenRace))
 	card.properties["Rules"] = '(Declared: {})\n{}'.format(chosenRace,card.properties["Rules"])
 
 def divineRiptide():
@@ -2771,7 +2770,7 @@ def miraculousRebirth():
 				and not isUntargettable(card)
 				and int(card.Power.strip('+')) <= 5000]
 	if len(cardList) == 0:
-		whisper("No valid targets on the table.")
+		whisper("No valid targets on the Table.")
 		return
 	targetCard = [c for c in table if c.targetedBy == me and c in cardList]
 	if len(targetCard) != 1:
@@ -2921,7 +2920,7 @@ def fromGraveyardAll(filterFunction="True", ask=False, moveToMana=True, moveToHa
 		if choice != 1: return
 	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
 	if len(cardsInGroup) == 0:
-		notify("No cards to move!")
+		notify("No Cards to move!")
 		return
 	for c in cardsInGroup:
 		if moveToMana: toMana(c)
@@ -3031,11 +3030,11 @@ def moveCards(args): #this is triggered every time a card is moved
 		##When a player moves top card of deck to bottom of deck
 		if fromGroup == me.Deck and toGroup == me.Deck:
 			if card == me.Deck.bottom():
-				notify("{} moves a card in their deck to bottom".format(me))
+				notify("{} moves a Card in their Deck to bottom".format(me))
 			elif card == me.Deck.top():
-				notify("{} moves a card in their deck to top".format(me))
+				notify("{} moves a Card in their Deck to top".format(me))
 			else:
-				notify("{} moves a card around in their deck".format(me))
+				notify("{} moves a Card around in their Deck".format(me))
 			return
 
 		## This updates the evolution dictionary in the event one of the cards involved in an evolution leaves the battlezone.
@@ -3095,7 +3094,7 @@ def align():
 			playercount = [p for p in playersort if
 						   me.isInverted == p.isInverted]  ##counts the number of players on your side of the table
 			if len(playercount) > 2:  ##since alignment only works with a maximum of two players on each side
-				whisper("Cannot align: Too many players on your side of the table.")
+				whisper("Cannot align: Too many players on your side of the Table.")
 				sideflip = 0  ##disables alignment for the rest of the play session
 				return "BREAK"
 			if playercount[0] == me:  ##if you're the 'first' player on this side, you go on the positive (right) side
@@ -3236,16 +3235,16 @@ def setup(group, x=0, y=0):
 		else:
 			return
 	if len(me.Deck) < 10:  # We need at least 10 cards to properly setup the game
-		whisper("Not enough cards in deck")
+		whisper("Not enough Cards in Deck")
 		return
 
 	cardsInDeck = [c for c in me.Deck]
 	for card in cardsInDeck:
 		if isPsychic(card):
-			whisper("You cannot have Psychic creatures in your main deck")
+			whisper("You cannot have Psychic Creatures in your Main Deck")
 			return
 		if isGacharange(card):
-			whisper("You cannot have Gacharange creatures in your main deck")
+			whisper("You cannot have Gacharange Creatures in your Main Deck")
 			return
 
 	me.setGlobalVariable("shieldCount", "0")
@@ -3297,7 +3296,7 @@ def createCard(group, x=0, y=0):
 		#We reverse temporary in the function call below, because it asks for persistant card.
 		cards = table.create(cardGuid, x, y, quantity, not temporary)
 		if not isinstance(cards,list): cards = [cards]
-		notify('{} creates {} {} on the table{}'.format(me, quantity, cards[0], " (Temporary)" if temporary else " (Persistent)"))
+		notify('{} creates {} {} on the Table{}'.format(me, quantity, cards[0], " (Temporary)" if temporary else " (Persistent)"))
 		align()
 
 #untaps everything, creatures and mana
@@ -3338,7 +3337,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	evaluateWaitingFunctions()
 	if isNewTurn:
 		processOnTurnStartEffects()
-	notify("{} untaps all their cards.".format(me))
+	notify("{} untaps all their Cards.".format(me))
 
 #Default call for Destroy (del key), handles mass creature destruction effects
 def destroyMultiple(cards, x=0, y=0):
@@ -3358,7 +3357,7 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 	global lastExecutionTime, DEBOUNCE_DELAY, lastTappedCards
 	currentTime = time.time()
 	if currentTime - lastExecutionTime < DEBOUNCE_DELAY and any(c in lastTappedCards for c in cards):
-		whisper('You are tapping and untapping the same cards too quickly! Slow down!')
+		whisper('You are tapping and untapping the same Cards too quickly! Slow down!')
 		return
 	lastExecutionTime = currentTime
 	lastTappedCards = cards
@@ -3379,21 +3378,20 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 	untappedMana = len(mana) - tappedMana
 
 	if len(mana)==1:
-		notify('{} taps {} in mana.'.format(me, mana[0])) if mana[0].orientation & Rot90 == Rot90 else notify('{} untaps {} in mana.'.format(me,  mana[0]))
+		notify('{} taps {} in Mana.'.format(me, mana[0])) if mana[0].orientation & Rot90 == Rot90 else notify('{} untaps {} in Mana.'.format(me,  mana[0]))
 
 	elif len(mana)>1:
 		if tappedMana>0 and untappedMana>0:
-			notify('{} taps mana {} and untaps {} mana.'.format(me, tappedMana, untappedMana))
+			notify('{} taps Mana {} and untaps {} Mana.'.format(me, tappedMana, untappedMana))
 		elif tappedMana>0:
-			notify('{} taps {} mana.'.format(me, tappedMana))
+			notify('{} taps {} Mana.'.format(me, tappedMana))
 		else:
-			notify('{} untaps {} mana.'.format(me, untappedMana))
+			notify('{} untaps {} Mana.'.format(me, untappedMana))
 
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card = ensureCardObjects(card)
-	if isSealedOrSeal(card) and not confirm("Are you sure you want to destroy a Sealed/Seal Card?"):
-		return
+	if isSealedOrSeal(card) and askYN('Are you sure you want to destroy Seal/Sealed Card?') != 1: return
 	if isShield(card):
 		if dest == True:
 			toDiscard(card)
@@ -3415,7 +3413,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				return
 			elif choice==3 or choice==0:
 				card.peek()
-				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
+				notify("{} peeks at Shield#{}".format(me, card.markers[shieldMarker]))
 				return
 		if re.search("{GUARD STRIKE}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Guard Strike for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
@@ -3434,7 +3432,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					whisper("No targets.")
 			elif choice==3 or choice==0:
 				card.peek()
-				notify("{} peeks at shield#{}".format(me, card.markers[shieldMarker]))
+				notify("{} peeks at Shield#{}".format(me, card.markers[shieldMarker]))
 				return
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules, re.IGNORECASE)]
@@ -3460,7 +3458,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						toDiscard(shieldCard)
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard, choice))
 						return
-		notify("{}'s shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
+		notify("{}'s Shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
 		shieldCard.moveTo(shieldCard.owner.hand)
 	elif isMana(card) or ignoreEffects:
@@ -3522,7 +3520,7 @@ def shuffleToBottom(cards, x=0, y=0):
 		src = card.group
 		card.isFaceUp = False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Card(s) ({}) to the Bottom of their Deck from {}'.format(me, len(cards), cardNames, src.name))
+	notify('{} shuffled {} Card(s) ({}) from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3551,7 +3549,7 @@ def draw(group, conditional=False, count=1, x=0, y=0, ask=False):
 			if choice != 1:return
 		card = group[0]
 		card.moveTo(card.owner.hand)
-		notify("{} draws a card.".format(me))
+		notify("{} draws a Card.".format(me))
 
 def drawX(group, x=0, y=0):
 	group = (ensureGroupObject(group))
@@ -3560,18 +3558,18 @@ def drawX(group, x=0, y=0):
 	count = askInteger("Draw how many cards?", 7)
 	if count == None: return
 	for card in group.top(count): card.moveTo(card.owner.hand)
-	notify("{} draws {} cards.".format(me, count))
+	notify("{} draws {} Cards.".format(me, count))
 
 #Discard top card
 def mill(group, count=1, conditional=False, x=0, y=0):
 	mute()
 	if len(group) == 0:
-		notify("No cards left in Deck!")
+		notify("No Cards left in Deck!")
 		return
 	if conditional:
 		choiceList = ['Yes', 'No']
 		colorsList = ['#FF0000', '#FF0000']
-		choice = askChoice("Discard top {} cards?".format(count), choiceList, colorsList)
+		choice = askChoice("Discard top {} Cards?".format(count), choiceList, colorsList)
 		if choice != 1:return
 	if len(group) < count: count = len(group)
 	for card in group.top(count):
@@ -3611,7 +3609,7 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	if maximumToTake is None:
 		maximumToTake = len(cardList)
 	if len(cardList) < minimumToTake:
-		whisper('No cards to detach.')
+		whisper('No Cards to detach.')
 		return []
 	choices = askCard2(cardList, "Choose Card(s) to detach from Evo",minimumToTake=minimumToTake,maximumToTake=maximumToTake, returnAsArray=True)
 	if not isinstance(choices,list): return []
@@ -3628,7 +3626,7 @@ def attachBait(card, x=0, y=0):
 	mute()
 	cardList = [c for c in table if c != card and not isMana(c) and not isShield(c) and c.owner == me and not isRemovedFromPlay(c)]
 	if len(cardList) == 0:
-		whisper('No cards on the field to attach.')
+		whisper('No Cards on the field to attach.\nIf you want to attach Opponent\'s Cards, take control of them first.')
 		return []
 	if me.isInverted:
 		reverseCardList(cardList)
@@ -3677,7 +3675,7 @@ def seal(card, x=0, y=0):
 		sealDict[card._id] = [topCard._id]
 	topCard.markers[sealMarker] = len(sealDict[card._id])
 	me.setGlobalVariable("seal", str(sealDict))
-	notify('{} seals {} with the top card of their Deck.'.format(me, card))
+	notify('{} seals {} with the top Card of their Deck.'.format(me, card))
 
 def addCustomMarker(card, x=0, y=0):
 	marker, qty = askMarker()
@@ -3698,7 +3696,7 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 		toMana(card, notifymute=True)
 		if tapped and card.orientation & Rot90 != Rot90:
 			card.orientation ^= Rot90
-		notify("{} charges {} from top of {} as mana.".format(me, card, group.name))
+		notify("{} charges {} from top of {} as Mana.".format(me, card, group.name))
 	doPostAction(card, postAction, postArgs, postCondition)
 
 #Reveal cards from top deck until a card with X cost or lower is revealed, play it, shuffle the rest to bottom of the deck.
@@ -3758,7 +3756,7 @@ def massMana(group, conditional=False, x=0, y=0):
 	if conditional == True:
 		choiceList = ['Yes', 'No']
 		colorsList = ['#FF0000', '#FF0000']
-		choice = askChoice("Charge top {} cards to mana?".format(count), choiceList, colorsList)
+		choice = askChoice("Charge top {} cards to Mana?".format(count), choiceList, colorsList)
 		if choice != 1: return
 	for i in range(0, count):
 		if len(group) == 0: return
@@ -3766,20 +3764,20 @@ def massMana(group, conditional=False, x=0, y=0):
 		toMana(card, notifymute=True)
 		if card.orientation & Rot90 != Rot90:
 			card.orientation ^= Rot90
-	notify("{} charges top {} cards of {} as mana.".format(me, count, group.name))
+	notify("{} charges top {} cards of {} as Mana.".format(me, count, group.name))
 
 #Set Top Card as Shield
 def shields(group, count=1, conditional=False, x=0, y=0):
 	mute()
 	if conditional == True:
 		maxCount = count
-		count = askInteger("Set how many cards as shields? (Max = {})".format(maxCount), maxCount)
+		count = askInteger("Set how many cards as Shields? (Max = {})".format(maxCount), maxCount)
 		if count == 0 or count > maxCount: return
 	for card in group.top(count):
 		if len(group) == 0: return
 		card = group[0]
 		toShields(card, notifymute=True)
-		notify("{} sets top card of {} as shield.".format(me, group.name))
+		notify("{} sets top card of {} as Shield.".format(me, group.name))
 
 #Charge as Mana menu option / Ctrl+C
 def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
@@ -3799,6 +3797,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	card.resetProperties()
 	card.target(False)
 	src = card.group
+	srcName = card.group.name
 	cardWasCreature = isCreature(card) and checkEvo
 	##notify("Removing from tracked evos if its bait or an evolved creature")
 	if checkEvo:
@@ -3806,9 +3805,12 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		for baitCard in baitList:
 			toMana(baitCard, checkEvo=False, alignCheck=False)
 	if isShield(card):
+		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.resetProperties()
-		card.moveTo(me.hand)  # in case it is charged from shields
-	card.moveToTable(0, 0)
+		card.markers[shieldMarker] = 0
+		card.isFaceUp = True
+	if card.group != table:
+		card.moveToTable(0, 0)
 	card.orientation = Rot180
 
 	if re.search("/", card.Civilization):  # multi civ card
@@ -3817,9 +3819,9 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		align()
 	if notifymute == False:
 		if src == card.owner.hand:
-			notify("{} charges {} as mana.".format(me, card))
+			notify("{} charges {} as Mana.".format(me, card))
 		else:
-			notify("{} charges {} as mana from {}.".format(me, card, src.name))
+			notify("{} charges {} from {} as Mana.".format(me, card, srcName))
 
 	#Handle on Remove From Battle Zone effects:
 	if cardWasCreature:
@@ -3835,7 +3837,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	mute()
 	card = ensureCardObjects(card)
 	if isShield(card):
-		whisper("This is already a shield.")
+		whisper("This is already a Shield.")
 		return
 	if isPsychic(card):
 		toHyperspatial(card)
@@ -3844,13 +3846,16 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	count = int(me.getGlobalVariable("shieldCount")) + 1
 	me.setGlobalVariable("shieldCount", convertToString(count))
 	if notifymute == False:
-		if isCreature(card) or isMana(card) or card.group == card.owner.piles['Graveyard']:  ##If a visible card in play is turning into a shield, we want to record its name in the notify
-			notify("{} sets {} as shield #{}.".format(me, card, count))
+		if isCreature(card) or isMana(card):  ##If a visible card in play is turning into a shield, we want to record its name in the notify
+			notify("{} sets {} as Shield #{}.".format(me, card, count))
+		elif card.group == card.owner.piles['Graveyard']:
+			notify("{} sets {} from Graveyard as Shield #{} .".format(me, card, count))
 		else:
-			notify("{} sets a card in {} as shield #{}.".format(me, card.group.name, count))
+			notify("{} sets a card from {} as Shield #{}.".format(me, card.group.name, count))
 	card.resetProperties()
 	card.target(False)
-	card.moveToTable(0, 0, True)
+	if card.group != table:
+		card.moveToTable(0, 0, True)
 	if card.isFaceUp:
 		card.isFaceUp = False
 	if card.orientation != Rot0:
@@ -3879,6 +3884,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	#global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
 	src = card.group
+	srcName = card.group.name
 	if src == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 
@@ -3961,7 +3967,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			materialList = [c for c in me.hand if re.search("Creature", c.Type) and c != card]
 			reverseCardList(materialList)
 			if len(materialList)==0:
-					whisper("Cannot play {}, you don't have any Other Creatures in Hand for it.".format(card))
+					whisper("Cannot play {}, you don't have any other Creatures in Hand for it.".format(card))
 					return
 			choice = askCard2(materialList,textBox.format(' from Hand'))
 			if type(choice) is not Card: return
@@ -4052,17 +4058,22 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				card.Type = 'Neo Evolution Creature'
 			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card, targets)
-	if isMana(card) or isShield(card):
-		card.moveTo(me.hand)
-	card.moveToTable(0, 0)
-	if shieldMarker in card.markers:
+	if isMana(card):
+		srcName="Mana"
+	if isShield(card):
+		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.markers[shieldMarker] = 0
+	if card.group != table:
+		card.moveToTable(0, 0)
+	else:
+		card.orientation=Rot0
+		card.isFaceUp = True
 	align()
 	if notifymute == False and not card.hasProperty('Name1'):
 		if src == card.owner.hand:
 			notify("{} plays {}{}.".format(me, card, evolveText))
 		else:
-			notify("{} plays {}{} from {}.".format(me, card, evolveText, src.name))
+			notify("{} plays {}{} from {}.".format(me, card, evolveText, srcName))
 
 	if not ignoreEffects:
 		card.resetProperties()
@@ -4180,7 +4191,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		card.isFaceUp = True
 		# need to use just card instead of card.Name for link to card
 		# but it won't show as card name if card is not visible to a player, so turning it face up first
-		notify("{} moved {} to hand from {}.".format(me, card, src.name))
+		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
 		# card.isFaceUp = False
 		card.resetProperties()
 		card.target(False)
@@ -4191,7 +4202,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		card.target(False)
 		card.moveTo(card.owner.hand)
 		card.resetProperties()
-		notify("{} moved {} to hand from {}.".format(me, card, src.name))
+		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
 
 	if checkEvo:
 		baitList = removeIfEvo(card)
