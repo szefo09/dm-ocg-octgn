@@ -3163,7 +3163,9 @@ def align():
 		for evolvedCard in evolveDict[evolution]:
 			x, y = Card(evolution).position
 			count += 1
-			Card(evolvedCard).moveToTable(x, y - 10 * count * playerside)
+			newPosition = (x, y - 10 * count * playerside)
+			if Card(evolvedCard).position != newPosition:
+				Card(evolvedCard).moveToTable(*newPosition)
 			Card(evolvedCard).sendToBack()
 	for seal in sealDict:
 		sealedCard = Card(seal)
@@ -3184,7 +3186,9 @@ def align():
 				me.setGlobalVariable("seal", str(sealDict))
 				align()
 				return
-			sealCard.moveToTable(cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide, True)
+			newPosition = (cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide)
+			if sealCard.position != newPosition:
+				sealCard.moveToTable(*newPosition, forceFaceDown = True)
 			Card(sealCardId).sendToFront()
 	# for landscape or large cards
 	xpos = 15
@@ -3194,12 +3198,15 @@ def align():
 	for c in bigCards:
 		if playerside==1:
 			xpos += max(c.width, c.height) + 10
+		else:
+			differenceSquareCards = c.width - 88
+			xpos += differenceSquareCards
 		x = -1 * sideflip * xpos
 		y = playerside * ypos + (c.height/2 * playerside - c.height/2)
 		if c.position != (x, y):
 			c.moveToTable(x, y)
 		if playerside==-1:
-			xpos += max(c.width, c.height) + 10
+			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
 
 #Clear Targets/Arrows
 def clear(group, x=0, y=0):
