@@ -80,7 +80,10 @@
 		<groupaction menu="Set Up Battlezone" execute="setup" />
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clearFunctionsAndTargets" />
-		<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
+		<groupactions menu="OCG Options:">
+			<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
+			<groupaction menu="Add Card from outside the Game" execute="createCard" />
+		</groupactions>
 		<cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" batchExecute="tapMultiple" />
 		<cardaction menu="Play Card" execute="toPlay" />
 		<cardaction menu="Destroy Card / Break Shield" shortcut="del" batchExecute="destroyMultiple" />

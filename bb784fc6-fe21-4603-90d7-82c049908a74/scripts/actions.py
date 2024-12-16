@@ -12,7 +12,7 @@ shields = []
 playerside = None
 sideflip = None
 diesides = 20
-civ_order = ['Light', 'Water', 'Darkness', 'Fire', 'Nature']
+civ_order = ['Colorless', 'Light', 'Water', 'Darkness', 'Fire', 'Nature']
 shieldMarker = ('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 sealMarker = ('Seal', '0d9c9e74-7d60-4433-b0b2-361aef2b18ea')
 waitingFunct = []  # Functions waiting for targets. Please replace this with FUNCTIONS waiting for targets later. If a card calls 2 functions both will happen again otherwise
@@ -657,7 +657,7 @@ cardScripts = {
 	'Auzesu, Demonic Elemental': {'onButton': [lambda card: kill(tapFilter='TAP')]},
 	'Bluum Erkis, Flare Guardian': {'onButton': [lambda card: bluumErkis(card)]},
 	'Bolmeteus Steel Dragon': {'onButton': [lambda card: burnShieldKill(2)]},
-	'Evil Incarnate': {'onButton': [lambda card: evilIncarnate()]},
+	'Evil Incarnate': {'onButton': [lambda card: remoteCall(getActivePlayer(), 'sacrifice', []) if getActivePlayer() is not None else None]},
 	'Gigavrand': {'onButton': [lambda card: discardAll()]},
 	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana()]},
 	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
@@ -1001,7 +1001,8 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 	return sorted_list
 
 def reverseCardList(list):
-	list.reverse()
+	if list:
+		list.reverse()
 
 def processEvolution(card, targets):
 	if any(c.orientation == Rot90 for c in targets):
@@ -1075,48 +1076,39 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 ################ Quick card attribute checks ####################
 
 def isCreature(card):
-	mute()
-	if card in table and not isShield(card) and not card.orientation == Rot180 and not card.orientation == Rot270 and re.search("Creature", card.Type):
+	if not isShield(card) and not card.orientation in {Rot180, Rot270} and re.search("Creature", card.Type) and card in table :
 		return True
 	#by default python functions will return None, which is more or less the same as False
 
 def isSpellInBZ(card):
-	mute()
-	if card in table and not isShield(card) and not isMana(card) and re.search("Spell", card.Type):
+	if not isShield(card) and not isMana(card) and re.search("Spell", card.Type) and card in table:
 		return True
 
 def isGod(card):
-	mute()
 	if isCreature(card) and re.search("God", card.Race):
 		return True
 
 def isGear(card):
-	mute()
-	if card in table and not isShield(card) and not isMana(card) and re.search("Cross Gear", card.Type):
+	if not isShield(card) and not isMana(card) and re.search("Cross Gear", card.Type) and card in table:
 		return True
 
 def isCastle(card):
-	mute()
-	if card in table and not isShield(card) and not isMana(card) and re.search("Castle", card.Type) and not re.search("Dragheart", card.Type):
+	if not isShield(card) and not isMana(card) and re.search("Castle", card.Type) and not re.search("Dragheart", card.Type) and card in table :
 		return True
 
 def isMana(card):
-	mute()
-	if card in table and not isShield(card) and not card.orientation == Rot90 and not card.orientation == Rot0:
+	if not isShield(card) and not card.orientation in {Rot0, Rot90} and card in table:
 		return True
 
 def isShield(card):
-	mute()
-	if card in table and card.markers[shieldMarker] > 0:
+	if card.markers[shieldMarker] > 0 and card in table:
 		return True
 
 def isPsychic(card):
-	mute()
 	if re.search("Psychic", card.Type) or re.search("Dragheart", card.Type):
 		return True
 
 def isGacharange(card):
-	mute()
 	if re.search("Gacharange", card.Type):
 		return True
 
@@ -1134,13 +1126,6 @@ def isSealedOrSeal(card): #check if there is a seal on the card
 	for seal in sealDict.keys():
 		sealList = sealDict[seal]
 		if card._id in sealList:
-			return True
-
-def isBait(card):
-	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
-	for evo in evolveDict.keys():
-		baitList = evolveDict[evo]
-		if card._id in baitList:
 			return True
 
 def isRemovedFromPlay(card):
@@ -1182,18 +1167,15 @@ def getHasButtonEffect(cards, x=0, y=0):
 	return '■ Trigger {} Effect'.format(c.Name)
 
 def isUntargettable(card):
-	mute()
 	if card in table and card.owner != me and cardScripts.get(card.name, {}).get('untargettable', False):
 		return True
 
 def metamorph():
-	mute()
 	cardList = [card for card in table if isMana(card) and card.owner == me]
 	if len(cardList) >= 7:
 		return True
 
 def getWaveStrikerCount(player='ALL'):
-	mute()
 	cardList = []
 	if player != 'ALL':
 		cardList = [card for card in table if isCreature(card) and card.controller == player and re.search('wave striker', card.Rules, re.IGNORECASE) and not isRemovedFromPlay(card)]
@@ -1202,7 +1184,6 @@ def getWaveStrikerCount(player='ALL'):
 	return len(cardList)
 
 def getSurvivorsOnYourTable(searchForEffects=True):
-	mute()
 	if searchForEffects:
 		return [card for card in table if isCreature(card) and card.controller == me and re.search('\{SURVIVOR\}', card.Rules) and not isRemovedFromPlay(card)]
 	else:
@@ -2454,11 +2435,6 @@ def eternalPhoenix():
 	for creature in creatureList:
 		toHand(creature)
 
-def evilIncarnate():
-	for player in getPlayers():
-		if player.isActive():
-			remoteCall(player, 'sacrifice',[])
-
 def shieldswap(card, count = 1):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0 or len([me.hand])==0: return
 	choice = askYN("Use {}'s effect?".format(card.Name))
@@ -3212,7 +3188,6 @@ def clear(group, x=0, y=0):
 		card.target(False)
 
 def clearFunctionsAndTargets(group, x=0, y=0):
-	mute()
 	clear(group)
 	clearWaitingFuncts()
 
@@ -3311,6 +3286,13 @@ def finishRPS(opponent,oppChoice):
 		notify("{} Wins! - {} beats {}".format(me, choices[choice], choices[oppChoice]))
 	else:
 		notify("{} Wins! - {} beats {}".format(opponent, choices[oppChoice], choices[choice]))
+
+def createCard(group, x=0, y=0):
+	cardGuid, quantity = askCard(title="Choose a Card to create on the table.")
+	if cardGuid and quantity:
+		table.create(cardGuid,x, y, quantity, False)
+		whisper("This card will disappear if it leaves the battle zone.")
+		align()
 
 #untaps everything, creatures and mana
 def untapAll(group=table, x=0, y=0, isNewTurn=False):
@@ -3525,7 +3507,7 @@ def untapCreatureAll(ask = True):
 
 def shuffleToBottom(cards, x=0, y=0):
 	mute()
-	oldCards = list(cards)
+	cardNames = ", ".join([c.name for c in cards])
 	rng = Random()
 	for i in range(len(cards) - 1, 0, -1):
 		j = int(rng.random() * (i + 1))
@@ -3534,7 +3516,7 @@ def shuffleToBottom(cards, x=0, y=0):
 		src = card.group
 		card.isFaceUp = False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Card(s) ({}) to the Bottom of their Deck from {}'.format(me, len(cards), ", ".join([c.name for c in oldCards]), src.name))
+	notify('{} shuffled {} Card(s) ({}) to the Bottom of their Deck from {}'.format(me, len(cards), cardNames, src.name))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3720,7 +3702,7 @@ def yobinion(group):
 	if len(group) == 0:
 		return
 	number = askNumber("Declare the card cost for Yobinion.", 1)
-	if number == None or number == 0:
+	if not number:
 		return
 	notify('{} resolves Yobinion {}'.format(me, number))
 	cardList = []
