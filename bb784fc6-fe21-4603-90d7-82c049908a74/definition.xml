@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.1.0.18"
+		version="1.1.0.19"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -121,8 +121,8 @@
 			<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawX" />
 			<groupaction menu="Set Top Card as Shield" shortcut="ctrl+shift+S" execute="shields" />
 			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-			<groupaction menu="Discard Top Card" shortcut="ctrl+T" execute="mill" />
-			<groupaction menu="Discard Top X Cards" shortcut="ctrl+shift+T" execute="millX" />
+			<groupaction menu="Discard Top Card" shortcut="ctrl+F" execute="mill" />
+			<groupaction menu="Discard Top X Cards" shortcut="ctrl+shift+F" execute="millX" />
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
 			<groupactions menu="OCG Options:" >
 				<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
