@@ -810,8 +810,21 @@ def convertGroupIntoGroupNameList(group):
 
 ############################################ Misc utility functions ####################################################################################
 
-def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, maximumToTake=1, returnAsArray=False):  # askCard function was changed. So using the same name but with the new functionalit
+def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, maximumToTake=1, returnAsArray=False, noSorting = False):  # askCard function was changed. So using the same name but with the new functionalit
 #this is for showing a dialog box with the cards in the incoming list. Careful, all cards will be visible, even if they're facedown.
+	#this handles displaying big cards in reverse order than normal cards.
+	bigCards = [c for c in list if c.size in {"tall", "square"}]
+	if bigCards:
+		normalCards = [c for c in list if c.size in {"Default", "wide"}]
+		if normalCards:
+			reverseCardList(bigCards)
+			if me.isInverted:
+				list = normalCards + bigCards
+			else: 
+				list = bigCards + normalCards
+		else:
+			reverseCardList(list)
+
 	dlg = cardDlg(list)
 	dlg.title = title
 
@@ -1001,8 +1014,7 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 	return sorted_list
 
 def reverseCardList(list):
-	if list:
-		list.reverse()
+	list.reverse()
 
 def processEvolution(card, targets):
 	if any(c.orientation == Rot90 for c in targets):
@@ -3163,7 +3175,9 @@ def align():
 		for evolvedCard in evolveDict[evolution]:
 			x, y = Card(evolution).position
 			count += 1
-			Card(evolvedCard).moveToTable(x, y - 10 * count * playerside)
+			newPosition = (x, y - 10 * count * playerside)
+			if Card(evolvedCard).position != newPosition:
+				Card(evolvedCard).moveToTable(*newPosition)
 			Card(evolvedCard).sendToBack()
 	for seal in sealDict:
 		sealedCard = Card(seal)
@@ -3184,7 +3198,9 @@ def align():
 				me.setGlobalVariable("seal", str(sealDict))
 				align()
 				return
-			sealCard.moveToTable(cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide, True)
+			newPosition = (cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide)
+			if sealCard.position != newPosition:
+				sealCard.moveToTable(*newPosition, forceFaceDown = True)
 			Card(sealCardId).sendToFront()
 	# for landscape or large cards
 	xpos = 15
@@ -3194,12 +3210,15 @@ def align():
 	for c in bigCards:
 		if playerside==1:
 			xpos += max(c.width, c.height) + 10
+		else:
+			differenceSquareCards = c.width - 88
+			xpos += differenceSquareCards
 		x = -1 * sideflip * xpos
 		y = playerside * ypos + (c.height/2 * playerside - c.height/2)
 		if c.position != (x, y):
 			c.moveToTable(x, y)
 		if playerside==-1:
-			xpos += max(c.width, c.height) + 10
+			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
 
 #Clear Targets/Arrows
 def clear(group, x=0, y=0):
@@ -3702,7 +3721,7 @@ def sealOpponentCreatures(group, x=0, y=0):
 	creatureList = [c for c in group if c.owner != me and isCreature(c) and not isBait(c)]
 	creatureListCount = len(creatureList)
 	deckCount = len(me.Deck)
-	maxSeals = min(creatureList, deckCount)
+	maxSeals = min(creatureListCount, deckCount)
 	if maxSeals == 0: return
 	if me.isInverted: reverseCardList(creatureList)
 	choices = askCard2(creatureList, "Select up to {} Creatures to Seal".format(maxSeals), "Seal", 1, maxSeals, True)
