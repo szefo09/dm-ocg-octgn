@@ -33,6 +33,7 @@ start_time = None
 cardScripts = {
 	# ON PLAY EFFECTS
 
+	'All Sunrise': {'onPlay': [lambda card: allsunrise()]},
 	'Alshia, Spirit of Novas': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Angila, Electro-Mask': {'onPlay':[lambda card: waveStriker(lambda card:search(me.piles["Graveyard"], 1, "Creature"), card)]},
 	'Aures, Spirit Knight': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -1028,7 +1029,7 @@ def processEvolution(card, targets):
 	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)  ##evolveDict tracks all cards 'underneath' the evolution creature
 	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
 		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
-			if isCreature(evolveTarget):
+			if evolveTarget in table:
 				targetList += evolveDict[evolveTarget._id]  ##add those cards to the new evolution creature
 			del evolveDict[evolveTarget._id]
 	evolveDict[card._id] = targetList
@@ -1107,7 +1108,7 @@ def isGear(card):
 		return True
 
 def isCastle(card):
-	if not isShield(card) and not isMana(card) and re.search("Castle", card.Type) and not re.search("Dragheart", card.Type) and card in table :
+	if not isShield(card) and not isMana(card) and re.search("Castle", card.Type) and not re.search("Dragheart", card.Type) and card in table:
 		return True
 
 def isMana(card):
@@ -1132,6 +1133,19 @@ def isBait(card):  # check if card is under and evo(needs to be ignored by most 
 		baitList = evolveDict[evo]
 		if card._id in baitList:
 			return True
+
+def removeFromBaits(card):
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
+	for evo in evolveDict.keys():
+		baitList = evolveDict[evo]
+		if card._id in baitList:
+			baitList.remove(card._id)
+		if len(baitList) == 0:
+			del evolveDict[evo]
+		else:
+			evolveDict[evo] = baitList
+	if evolveDict != eval(me.getGlobalVariable("evolution"), allowed_globals):
+		me.setGlobalVariable("evolution", str(evolveDict))
 
 def isSealed(card):
 	sealDict = eval(card.owner.getGlobalVariable("seal"), allowed_globals)
@@ -2338,6 +2352,27 @@ def meteorburn(functionArray, card, minimum=1, maximum=1):
 
 #Special Card Automatization
 
+def allsunrise():
+	mute()
+	shieldList = [c for c in table if isShield(c) and c.owner == me]
+	for shield in list(shieldList):
+		baits = removeIfEvo(shield)
+		shieldList.extend(baits)
+	group = me.Deck
+	if len(group)>0:
+		deckList = [c for c in group]
+		topCard = deckList.pop(0)
+		if len(deckList)>0:
+			for c in deckList:
+				c.moveToTable(0, 0, True)
+			toShields(topCard, alignCheck=False)
+			processEvolution(topCard, deckList)
+		else:
+			toShields(topCard)
+	notify('{} puts their whole deck as a single Shield #{}.'.format(me, int(me.getGlobalVariable("shieldCount"))))
+	shuffleToBottom(shieldList)
+
+
 def apocalypseVise():
 	powerLeft=8000
 	creaturesToDestroy=[]
@@ -3167,14 +3202,14 @@ def align():
 	cardorder[0] = temp
 	# remove all big cards from normal aligned ones
 	xpos = 80
-	ypos = 5 + 10 * (max([len(evolveDict[x]) for x in evolveDict]) if len(evolveDict) > 0 else 1)
+	ypos = 5 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[0]] or [1])
 	for cardtype in cardorder:
 		if cardorder.index(cardtype) == 1:
 			xpos = 80
-			ypos += 93
+			ypos += 93 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[1]] or [1])
 		elif cardorder.index(cardtype) == 2:
 			xpos = 80
-			ypos += 93
+			ypos += 93 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[2]] or [1])
 		for c in cardtype:
 			x = sideflip * xpos
 			y = playerside * ypos + (44 * playerside - 44)
@@ -3191,12 +3226,13 @@ def align():
 	for evolution in evolveDict:
 		count = 0
 		for evolvedCard in evolveDict[evolution]:
-			x, y = Card(evolution).position
+			evoCard = Card(evolution)
+			x, y = evoCard.position
 			count += 1
 			newPosition = (x, y - 10 * count * playerside)
 			if Card(evolvedCard).position != newPosition:
 				Card(evolvedCard).moveToTable(*newPosition)
-			Card(evolvedCard).sendToBack()
+				Card(evolvedCard).sendToBack()
 	for seal in sealDict:
 		sealedCard = Card(seal)
 		cardSide = 1
@@ -3532,6 +3568,11 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		notify("{}'s Shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
 		shieldCard.moveTo(shieldCard.owner.hand)
+		baits =	removeIfEvo(shieldCard)
+		if baits:
+			for bait in baits:
+				notify('{} moves {} from Shield to Hand'.format(bait.owner, bait))
+				bait.moveTo(bait.owner.hand)
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
 	else:
@@ -3582,7 +3623,7 @@ def untapCreatureAll(ask = True):
 
 def shuffleToBottom(cards, x=0, y=0):
 	mute()
-	cardNames = ", ".join([c.name for c in cards])
+	cardNames = ", ".join(["Card" if not c.isFaceUp else c.name for c in cards])
 	rng = Random()
 	for i in range(len(cards) - 1, 0, -1):
 		j = int(rng.random() * (i + 1))
@@ -3704,8 +3745,7 @@ def attachBait(card, x=0, y=0):
 	choices = askCard2(cardList, "Choose Card(s) to attach to Evo",maximumToTake=len(cardList), returnAsArray=True)
 	if not isinstance(choices,list): return []
 	notify('{} attaches {} to {}'.format(me, ", ".join([c.name for c in choices]), card))
-	newBaitList = choices
-	newBaitList.extend(getEvoBaits(card))
+	newBaitList = getEvoBaits(card) + choices 
 	processEvolution(card, newBaitList)
 	align()
 	return choices
@@ -4146,6 +4186,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if card.group != table:
 		card.moveToTable(0, 0)
 	else:
+		if eval(me.getGlobalVariable("evolution"), allowed_globals):
+			removeFromBaits(card)
 		card.orientation=Rot0
 		card.isFaceUp = True
 	align()
@@ -4171,7 +4213,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
 			else:
 				notify("{} plays {} as {}{} from {}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText, src.name))
-		notify('{}, {}, {}'.format(card.properties["Name"], card.Name, card.name))
 		processExLife(card)
 		functionList = []
 		if metamorph() and cardScripts.get(card.properties["Name"], {}).get('onMetamorph', []):
