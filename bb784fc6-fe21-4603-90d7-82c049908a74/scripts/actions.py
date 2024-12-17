@@ -3854,7 +3854,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 			totalMana = [c for c in table if isMana(c) and c.controller == player]
 			totalUntappedMana = [c for c in totalMana if (c.orientation == Rot180 and (not c.isFaceUp or c.size != "wide")) or (c.orientation == Rot270 and c.isFaceUp and c.size == "wide")]
 			unique_civilizations = sorted({"Colorless" if not card.isFaceUp else civ for card in totalUntappedMana for civ in card.Civilization.split('/')}, key=civ_order.index)
-			notify("{} has {} Mana in total. ({} Untapped)\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
+			whisper("{} has {} Mana in total. ({} Untapped)\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
 		return
 	if isPsychic(card):
 		toHyperspatial(card)
