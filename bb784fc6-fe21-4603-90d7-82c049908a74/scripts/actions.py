@@ -3146,13 +3146,8 @@ def align():
 			else:  ##collect all creatures
 				cardorder[0].append(card)
 
-	temp = []
-	bigCards = []
-	for card in cardorder[0]:
-		if card.size in {"tall", "square"}:
-			bigCards.append(card)
-		else:
-			temp.append(card)
+	temp = [c for c in cardorder[0] if c.size not in {"tall, square"}]
+	bigCards = [c for c in cardorder[0] if c.size in {"tall, square"}]
 	cardorder[0] = temp
 	# remove all big cards from normal aligned ones
 	xpos = 80
@@ -3167,6 +3162,13 @@ def align():
 		for c in cardtype:
 			x = sideflip * xpos
 			y = playerside * ypos + (44 * playerside - 44)
+			#special aligning for wide cards
+			differenceWideCardsWidth = c.width - 63
+			differenceWideCardHeight = c.height - 88
+			if differenceWideCardsWidth and playerside == -1:
+				x -= differenceWideCardsWidth
+			if differenceWideCardHeight and playerside == 1:
+				y -= differenceWideCardHeight
 			if c.position != (x, y):
 				c.moveToTable(x, y)
 			xpos += 79
@@ -3370,8 +3372,8 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 					# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 					for function in functionList:
 						waitingFunct.append([card, function])
-		# Untap Mana
-		if card.orientation == Rot270:
+		# Untap Mana (wide cards are treated as untaped if Rot270)
+		if card.orientation == Rot270 and card.size !="wide":
 			card.orientation = Rot180
 
 	orderEvaluatingFunctions()
@@ -3414,12 +3416,13 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 
 	for card in mana:
 		card.orientation ^= Rot90
-		if card.orientation & Rot90 == Rot90:
+		#Wide cards are treated opposite to normal
+		if (card.orientation & Rot90 == Rot90 and card.size != "wide") or (card.orientation & Rot90 == Rot0 and card.size == "wide"):
 			tappedMana+=1
 	untappedMana = len(mana) - tappedMana
 
 	if len(mana)==1:
-		notify('{} taps {} in Mana.'.format(me, mana[0])) if mana[0].orientation & Rot90 == Rot90 else notify('{} untaps {} in Mana.'.format(me,  mana[0]))
+		notify('{} taps {} in Mana.'.format(me, mana[0])) if ((mana[0].orientation & Rot90 == Rot90 and mana[0].size == "Default") or (mana[0].orientation & Rot90 == Rot0 and mana[0].size == "wide")) else notify('{} untaps {} in Mana.'.format(me,  mana[0]))
 
 	elif len(mana)>1:
 		if tappedMana>0 and untappedMana>0:
@@ -3863,8 +3866,11 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		card.isFaceUp = True
 	if card.group != table:
 		card.moveToTable(0, 0)
-	card.orientation = Rot180
-
+	#Wide cards are treated as untapped with Rot270
+	if card.size=="wide":
+		card.orientation = Rot270
+	else:
+		card.orientation = Rot180
 	if re.search("/", card.Civilization):  # multi civ card
 		card.orientation = Rot270
 	if alignCheck:
