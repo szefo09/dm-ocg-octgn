@@ -182,7 +182,7 @@ cardScripts = {
 	'Ryokudou, the Principle Defender': {'onPlay': [lambda card: mana(me.Deck,2), lambda card: fromMana()]},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Saucer-Head Shark': {'onPlay': [lambda card: bounceAll(filterFunction="int(c.Power.strip('+'))<=2000")]},
-	'Scissor Scarab': {'onPlay': [lambda card: search(1,"ALL","ALL","Giant Insect")]},
+	'Scissor Scarab': {'onPlay': [lambda card: search(me.deck,1,"ALL","ALL","Giant Insect")]},
 	'Shtra': {'onPlay': [lambda card: bothPlayersFromMana()]},
 	'Self-Destructing Gil Poser': {'onPlay': [lambda card: suicide(card, kill, [2000])]},
 	'Sir Navaal, Thunder Mecha Knight': {'onPlay': [lambda card: fromMana(1,"Spell")]},
@@ -196,6 +196,7 @@ cardScripts = {
 	'Splash Zebrafish': {'onPlay': [lambda card: fromMana()]},
 	'Storm Shell': {'onPlay': [lambda card: opponentSendToMana()]},
 	'Steamroller Mutant': {'onPlay': [lambda card: waveStriker(lambda card: destroyAll(table, True), card)]},
+	'Stinger Worm':{'onPlay': [lambda card: sacrifice()]},
 	'Swamp Worm': {'onPlay': [lambda card: opponentSacrifice()]},
 	'Syforce, Aurora Elemental': {'onPlay': [lambda card: fromMana(1,"Spell")]},
 	'Telitol, the Explorer': {'onPlay': [lambda card: peekShields([c for c in table if isShield(c) and c.owner == me])]},
@@ -667,7 +668,8 @@ cardScripts = {
 	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
 	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="int(c.Power.strip('+'))<=5000")]},
 	'Turtle Horn, the Imposing': {'onButton': [lambda card: search(me.Deck, 1, "Creature")]},
-	'Thrumiss, Zephyr Guardian': {'onButton':[lambda card: tapCreature()]}
+	'Thrumiss, Zephyr Guardian': {'onButton':[lambda card: tapCreature()]},
+	'Zero Nemesis, Shadow of Panic': {'onButton': [lambda card: targetDiscard(True)]}
 }
 
 ######### Events ##################
