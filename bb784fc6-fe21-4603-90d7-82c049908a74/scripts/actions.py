@@ -3418,7 +3418,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 					if choice != 1:
 						card.orientation = Rot0
 						card.target(False)
-						return
+						continue
 					notify('{} uses Silent Skill of {}'.format(me, card))
 					card.target(False)
 					functionList = cardScripts.get(card.properties["Name"]).get('silentSkill')
