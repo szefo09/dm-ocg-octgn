@@ -2669,30 +2669,33 @@ def miraculousMeltdown(card):
 		return
 	remoteCall(targetPlayer,'_eMMHelper', [card._id, len(myShields)])
 
-def declareRace(card, excludedRace=None):
-	all_zones = itertools.chain(me.deck, [c for c in table if c.owner == me], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
-	all_races = itertools.chain.from_iterable(re.split(r'/+', card.race) for card in all_zones if card.race!='')
-
-	race_counts = {}
-	for race in all_races:
-		if race in race_counts:
-			race_counts[race] += 1
+def declareRace(card, excludedRace=None, returnRace=False):
+	allZones = itertools.chain(me.deck, [c for c in table if c.isFaceUp], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
+	
+	for player in getPlayers():
+		if player != me: 
+			allZones = itertools.chain(allZones,player.graveyard)
+	allRaces = itertools.chain.from_iterable(re.split(r'/+', card.race) for card in allZones if card.race!='')
+	raceCounts = {}
+	for race in allRaces:
+		if race in raceCounts:
+			raceCounts[race] += 1
 		else:
-			race_counts[race] = 1
-
+			raceCounts[race] = 1
 	# Sort races by count in descending order
-	sorted_races = sorted(race_counts.items(), key=lambda x: x[1], reverse=True)
-	race_names = [race for race, count in sorted_races if race !=excludedRace]
-	choice = askChoice("Select a race:", race_names, customButtons=["Custom Race"])
+	sortedRaces = sorted(raceCounts.items(), key=lambda x: x[1], reverse=True)
+	raceNames = [race for race, count in sortedRaces if race !=excludedRace]
+	choice = askChoice("Select a race:", raceNames, customButtons=["Custom Race"])
 	if choice == 0:
 		notify("{} didn't declare a Race".format(me))
 		return
 	if choice > 0:
-		chosenRace = race_names[choice-1]
+		chosenRace = raceNames[choice-1]
 	if choice < 0:
 		chosenRace = askString("Type a custom Race to declare:",'')
 	notify('{} declares \'{}\' Race'.format(me, chosenRace))
 	card.properties["Rules"] = '(Declared: {})\n{}'.format(chosenRace,card.properties["Rules"])
+	if returnRace: return(chosenRace)
 
 def divineRiptide():
 	opponent=getTargetPlayer(onlyOpponent=True)
