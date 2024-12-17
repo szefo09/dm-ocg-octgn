@@ -3840,7 +3840,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		for player in getPlayers():
 			totalMana = [c for c in table if isMana(c) and c.owner == player]
 			totalUntappedMana = [c for c in totalMana if c.orientation == Rot180]
-			unique_civilizations = sorted({civ for card in totalMana if card.orientation == Rot180 for civ in card.Civilization.split('/')}, key=civ_order.index)
+			unique_civilizations = sorted({"Colorless" if not card.isFaceUp else civ for card in totalMana if card.orientation == Rot180 for civ in card.Civilization.split('/')}, key=civ_order.index)
 			notify("{} has {} Mana in total. ({} Untapped)\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
 		return
 	if isPsychic(card):
