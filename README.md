@@ -134,6 +134,11 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Thought Probe**
   - **Diamondia, the Blizzard Rider**
   - **Rainbow Gate**
+  - **Necrodragon Zalva**
+  - **Enigmatic Cascade**
+  - **Stinger Worm**
+  - **Zero Nemesis, Shadow of Panic**
+  - **Scissor Scarab**
   - **Hurricane Crawler**
   - **Brain Charger**
   - **All Sunrise**
