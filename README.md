@@ -136,6 +136,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Rainbow Gate**
   - **Hurricane Crawler**
   - **Brain Charger**
+  - **All Sunrise**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -311,6 +312,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
+  - **You can now attach and detach your cards on the field to and from shields, for effects like Galaxyshield, and an attached card on the field can be Put to Play to detach automatically. (Cards are attached under the main card instead of being attached above for ease of resolving effects and to keep the shield visible)**
   - **Wide cards that go to mana rotated properly and are properly aligned for Player A and B**
   - **Added new buttons for OCG gameplay: Seal, Seal Opponent's Creatures, Yobinion X (ctrl+shift+Y), allowed an option to batch shuffle cards on the field and send them shuffled to the bottom of the deck, allowed cards in Graveyard to be played/set as shield/charged as mana/put to Bottom of Deck, added a button to create a new card on the table (which can be temporary or persistent)**
   - **Added new buttons for creatures to support adding and removing cards from under them: Detach Bait and Attach Bait!**: They show a pop-up allowing you to detach a material or attach a new one on the field.

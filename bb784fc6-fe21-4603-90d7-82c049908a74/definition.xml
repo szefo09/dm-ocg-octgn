@@ -92,9 +92,9 @@
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 		<cardaction menu="Use Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
-		<cardactions menu="Evolution Options:" >
-			<cardaction menu="Attach Bait" execute="attachBait" />
-			<cardaction menu="Detach Bait" execute="detachBait" />
+		<cardactions menu="Attachment Options:" >
+			<cardaction menu="Attach Card" execute="attachBait" />
+			<cardaction menu="Detach Card" execute="detachBait" />
 		</cardactions>
 		<cardactions menu="OCG Options:" >
 			<cardaction menu="Seal a Card" execute="seal" />

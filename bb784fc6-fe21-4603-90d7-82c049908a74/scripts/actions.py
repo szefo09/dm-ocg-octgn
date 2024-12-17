@@ -871,12 +871,11 @@ def getTargetPlayer(text="Pick a player:", onlyOpponent = False):
 		if choicePlayer < 1: return
 		return currentPlayers[choicePlayer - 1]
 
-def removeIfEvo(card):
+def removeIfEvo(card, evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)):
 	# Will remove passed card from the list of tracked evos/baits
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
-
-	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
+	originalEvolveDict = evolveDict.copy()
 	resultList = []
 	for evo in evolveDict.keys():
 		if evo == card._id:
@@ -891,7 +890,8 @@ def removeIfEvo(card):
 			evolveDict[evo] = baitList
 			# notify("Bait removed from evo in dict")
 			break
-	me.setGlobalVariable("evolution", str(evolveDict))
+	if originalEvolveDict != evolveDict:
+		me.setGlobalVariable("evolution", str(evolveDict))
 	return resultList
 
 def antiDiscard(card, sourcePlayer):
@@ -2355,9 +2355,11 @@ def meteorburn(functionArray, card, minimum=1, maximum=1):
 def allsunrise():
 	mute()
 	shieldList = [c for c in table if isShield(c) and c.owner == me]
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 	for shield in list(shieldList):
-		baits = removeIfEvo(shield)
-		shieldList.extend(baits)
+		baits = removeIfEvo(shield, evolveDict)
+		if baits:
+			shieldList.extend(baits)
 	group = me.Deck
 	if len(group)>0:
 		deckList = [c for c in group]
@@ -2369,7 +2371,7 @@ def allsunrise():
 			processEvolution(topCard, deckList)
 		else:
 			toShields(topCard)
-	notify('{} puts their whole deck as a single Shield #{}.'.format(me, int(me.getGlobalVariable("shieldCount"))))
+	notify('{} puts their Deck as a single Shield #{}.'.format(me, int(me.getGlobalVariable("shieldCount"))))
 	shuffleToBottom(shieldList)
 
 
@@ -3122,6 +3124,7 @@ def moveCards(args): #this is triggered every time a card is moved
 		card.target(False)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
+		originalEvolveDict = evolveDict.copy()
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
 				del evolveDict[evo]
@@ -3134,10 +3137,11 @@ def moveCards(args): #this is triggered every time a card is moved
 					del evolveDict[evo]
 				else:
 					evolveDict[evo] = evolvedList
-		if evolveDict != eval(me.getGlobalVariable("evolution"), allowed_globals):
+		if originalevolveDict != evolveDict:
 			me.setGlobalVariable("evolution", str(evolveDict))
 
 		sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
+		originalSealDict = sealDict.copy()
 		for sealId in sealDict.keys():
 			if Card(sealId) not in table:
 				del sealDict[sealId]
@@ -3150,7 +3154,7 @@ def moveCards(args): #this is triggered every time a card is moved
 					del sealDict[sealId]
 				else:
 					sealDict[sealId] = sealList
-		if sealDict != eval(me.getGlobalVariable("seal"), allowed_globals):
+		if originalSealDict != sealDict:
 			me.setGlobalVariable("seal", str(sealDict))
 
 def align():
@@ -3481,7 +3485,6 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 			notify('{} taps {} in Mana.'.format(me, mana[0])) 
 		else:
 			notify('{} untaps {} in Mana.'.format(me,  mana[0]))
-
 	elif len(mana)>1:
 		if tappedMana>0 and untappedMana>0:
 			notify('{} taps Mana {} and untaps {} Mana.'.format(me, tappedMana, untappedMana))
