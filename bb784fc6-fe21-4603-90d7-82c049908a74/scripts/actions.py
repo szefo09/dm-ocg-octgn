@@ -155,6 +155,7 @@ cardScripts = {
 	'Murian': {'onPlay': [lambda card: suicide(card, draw, [me.Deck])]},
 	'Nam=Daeddo, Bronze Style': {'onPlay': [lambda card: mana(me.Deck, preCondition=manaArmsCheck("Nature",3))]},
 	'Necrodragon Bryzenaga': {'onPlay': [lambda card: peekShields([c for c in table if isShield(c) and c.owner == me])]},
+	'Necrodragon Zalva': {'onPlay':[lambda card: remoteCall(getTargetPlayer(onlyOpponent=True), "draw",getTargetPlayer(onlyOpponent=True).deck)]},
 	'Niofa, Horned Protector': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "Nature")]},
 	'Ochappi, Pure Hearted Faerie': {'onPlay': [lambda card: fromGraveyardToMana(ask=True)]},
 	'Onslaughter Triceps': {'onPlay': [lambda card: fromMana(toGrave=True)]},
@@ -274,6 +275,7 @@ cardScripts = {
 	'Enchanted Soil': {'onPlay': [lambda card: fromGraveyardToMana(2, "re.search('Creature', c.Type)")]},
 	'Energy Re:Light': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Energy Stream': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
+	'Enigmatic Cascade':{'onPlay':[lambda card: enigmaticCascade()]},
 	'Eureka Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Eureka Program': {'onPlay': [lambda card: eurekaProgram(True)]},
 	'Faerie Crystal': {'onPlay': [lambda card: mana(me.Deck, postAction="ManaIfCiv", postArgs=["Zero"])]},
@@ -2460,6 +2462,13 @@ def eternalPhoenix():
 	for creature in creatureList:
 		toHand(creature)
 
+def enigmaticCascade():
+	handList = [c for c in me.hand]
+	choices = askCard2(handList,"Select Cards to discard", maximumToTake=len(handList), returnAsArray=True)
+	for choice in choices:
+		toDiscard(choice)
+	draw(me.Deck,False,len(choices))
+
 def shieldswap(card, count = 1):
 	if len([c for c in table if isShield(c) and c.owner == me]) == 0 or len([me.hand])==0: return
 	choice = askYN("Use {}'s effect?".format(card.Name))
@@ -2918,25 +2927,6 @@ def fromGraveyardToMana(count=1,filterFunction="True", ask=False):
 			return
 	for c in choices:
 		toMana(c)
-
-def fromGraveyard(count=1,filterFunction="True", ask=False, moveToMana=True, moveToHand=False):
-	mute()
-	group=me.piles['Graveyard']
-	if len(group) == 0: return
-	if ask:
-		choice = askYN("Would you like to move {} Card(s) from Graveyard?".format(count))
-		if choice != 1: return
-	cardsInGroup = sort_cardList([c for c in group if eval(filterFunction)])
-	count = min(count,len(cardsInGroup))
-	if len(count) == 0:
-		notify("No cards to move!")
-		return
-	choices = askCard2(cardsInGroup, 'Pick {} Card(s) from Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
-	notify("{} finishes searching their Graveyard.".format(me))
-	if not isinstance(choices, list): return
-	for choice in choices:
-		if moveToMana: toMana(choice)
-		elif moveToHand: toHand(choice)
 
 def fromGraveyardAll(filterFunction="True", ask=False, moveToMana=True, moveToHand=False):
 	group=me.piles['Graveyard']
@@ -4203,6 +4193,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	card = ensureCardObjects(card)
 	src = card.group
 	cardWasCreature = isCreature(card) and checkEvo
+
 	if src == table and checkEvo:
 		baitList = removeIfEvo(card)
 		for baitCard in baitList:
