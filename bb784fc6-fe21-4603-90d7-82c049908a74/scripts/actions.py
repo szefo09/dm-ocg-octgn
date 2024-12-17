@@ -3027,6 +3027,10 @@ def flip(card, x=0, y=0):
 		else:
 			card.isFaceUp = True
 			notify("{} flips {} face up.".format(me, card))
+		#Keep the card relative orientation (tapped/untapped) the same when flipping, and wide cards have their positions reversed relative to normal
+		if(card.size == "wide" and isMana(card)):
+			card.orientation ^= Rot90
+			align()	
 
 def toHyperspatial(card, x=0, y=0, notifymute=False):
 	mute()
@@ -3162,12 +3166,12 @@ def align():
 		for c in cardtype:
 			x = sideflip * xpos
 			y = playerside * ypos + (44 * playerside - 44)
-			#special aligning for wide cards
+			#special aligning for face-up wide cards
 			differenceWideCardsWidth = c.width - 63
 			differenceWideCardHeight = c.height - 88
-			if differenceWideCardsWidth and playerside == -1:
+			if differenceWideCardsWidth and playerside == -1 and c.isFaceUp:
 				x -= differenceWideCardsWidth
-			if differenceWideCardHeight and playerside == 1:
+			if differenceWideCardHeight and playerside == 1 and c.isFaceUp:
 				y -= differenceWideCardHeight
 			if c.position != (x, y):
 				c.moveToTable(x, y)
@@ -3292,6 +3296,7 @@ def setup(group, x=0, y=0):
 
 	me.setGlobalVariable("shieldCount", "0")
 	me.setGlobalVariable("evolution", "{}")
+	me.setGlobalVariable("seal", "{}")
 	me.Gacharange.shuffle()
 	me.Deck.shuffle()
 
@@ -3373,8 +3378,10 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 					for function in functionList:
 						waitingFunct.append([card, function])
 		# Untap Mana (wide cards are treated as untaped if Rot270)
-		if card.orientation == Rot270 and card.size !="wide":
+		if card.orientation == Rot270 and (not card.isFaceUp or card.size !="wide"):
 			card.orientation = Rot180
+		elif card.orientation == Rot180 and card.isFaceUp and card.size =="wide":
+			card.orientation = Rot270
 
 	orderEvaluatingFunctions()
 	evaluateWaitingFunctions()
@@ -3417,12 +3424,15 @@ def tapMultiple(cards, x=0, y=0, clearFunctions = True): #batchExecuted for mult
 	for card in mana:
 		card.orientation ^= Rot90
 		#Wide cards are treated opposite to normal
-		if (card.orientation & Rot90 == Rot90 and card.size != "wide") or (card.orientation & Rot90 == Rot0 and card.size == "wide"):
+		if (card.orientation & Rot90 == Rot90 and (not card.isFaceUp or card.size != "wide")) or (card.orientation & Rot90 == Rot0 and card.isFaceUp and card.size == "wide"):
 			tappedMana+=1
 	untappedMana = len(mana) - tappedMana
 
 	if len(mana)==1:
-		notify('{} taps {} in Mana.'.format(me, mana[0])) if ((mana[0].orientation & Rot90 == Rot90 and mana[0].size == "Default") or (mana[0].orientation & Rot90 == Rot0 and mana[0].size == "wide")) else notify('{} untaps {} in Mana.'.format(me,  mana[0]))
+		if tappedMana:
+			notify('{} taps {} in Mana.'.format(me, mana[0])) 
+		else:
+			notify('{} untaps {} in Mana.'.format(me,  mana[0]))
 
 	elif len(mana)>1:
 		if tappedMana>0 and untappedMana>0:
@@ -3841,9 +3851,9 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 	if isMana(card) and (x or y):
 		global civ_order
 		for player in getPlayers():
-			totalMana = [c for c in table if isMana(c) and c.owner == player]
-			totalUntappedMana = [c for c in totalMana if c.orientation == Rot180]
-			unique_civilizations = sorted({"Colorless" if not card.isFaceUp else civ for card in totalMana if card.orientation == Rot180 for civ in card.Civilization.split('/')}, key=civ_order.index)
+			totalMana = [c for c in table if isMana(c) and c.controller == player]
+			totalUntappedMana = [c for c in totalMana if (c.orientation == Rot180 and (not c.isFaceUp or c.size != "wide")) or (c.orientation == Rot270 and c.isFaceUp and c.size == "wide")]
+			unique_civilizations = sorted({"Colorless" if not card.isFaceUp else civ for card in totalUntappedMana for civ in card.Civilization.split('/')}, key=civ_order.index)
 			notify("{} has {} Mana in total. ({} Untapped)\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
 		return
 	if isPsychic(card):
