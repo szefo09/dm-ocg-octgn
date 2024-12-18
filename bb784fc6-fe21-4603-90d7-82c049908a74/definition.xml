@@ -81,7 +81,7 @@
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clearFunctionsAndTargets" />
 		<groupactions menu="OCG Options:">
-			<groupaction menu="Seal your opponent's Creatures" execute="sealOpponentCreatures" />
+			<groupaction menu="Seal your opponent's Elements" execute="sealOpponentElements" />
 			<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
 			<groupaction menu="Add Card from outside the Game" execute="createCard" />
 		</groupactions>
@@ -97,6 +97,7 @@
 			<cardaction menu="Detach Card" execute="detachBait" />
 		</cardactions>
 		<cardactions menu="OCG Options:" >
+			<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 			<cardaction menu="Seal a Card" execute="seal" />
 			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			<cardaction menu="Apply Marker" execute="addCustomMarker"/>
@@ -114,6 +115,10 @@
 			<cardaction menu="Discard Card" shortcut="del" execute="toDiscard" />
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 			<groupaction menu="Random Discard" shortcut="ctrl+X" execute="randomDiscard" />
+			<cardactions menu="OCG Options:" >
+			<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
+			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
+			</cardactions>
 		</group>
 
 		<group name="Deck" visibility="none" ordered="False" shortcut="ctrl+Y" icon="groups/deck.png" collapsed="False">
@@ -138,6 +143,7 @@
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 			<cardaction menu="■ Trigger Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
 			<cardactions menu="OCG Options:" >
+				<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 				<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			</cardactions>
 		</group>
