@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.1.0.22"
+		version="1.1.0.23"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -147,8 +147,13 @@
 				<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			</cardactions>
 		</group>
-		<group name="Hyperspatial" visibility="all" ordered="False" shortcut="" icon="groups/hyperspatial.png" collapsed="True" /> 
-		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="True" />
+		<group name="Hyperspatial" visibility="all" ordered="False" icon="groups/hyperspatial.png" collapsed="True" > 
+			<cardaction menu="Play Card" default="True" execute="toPlay" />
+		</group>
+		<group name="Gacharange" visibility="none" ordered="False" icon="groups/gacharange.png" collapsed="True" >
+			<groupaction menu="Gacharange Summon" default="True" shortcut="ctrl+alt+D" execute="gacharangeSummon" />
+			<groupaction menu="Shuffle" execute="shuffle" />
+		</group>
 
 	</player>
 

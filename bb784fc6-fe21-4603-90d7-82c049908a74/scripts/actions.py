@@ -3117,6 +3117,15 @@ def toHyperspatial(card, x=0, y=0, notifymute=False):
 		if notifymute == False:
 			notify("{}'s {} returns to the Hyperspatial Zone.".format(me, card))
 
+def toSuperGacharange(card, x=0, y=0, notifymute=False):
+	mute()
+	if notifymute == False:
+		notify("{}'s {} returns to the Bottom of the Super Gacharange Zone.".format(me, card))
+	card.resetProperties()
+	card.target(False)
+	card.moveToBottom(me.Gacharange)
+	align()
+
 def moveCards(args): #this is triggered every time a card is moved
 	mute()
 	clearWaitingFuncts()  # clear the waitingCard if ANY CARD moved
@@ -3953,22 +3962,25 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 			unique_civilizations = sorted({"Colorless" if not card.isFaceUp else civ for card in totalUntappedMana for civ in card.Civilization.split('/')}, key=civ_order.index)
 			whisper("{} has {} Mana in total. ({} Untapped)\nAvailable: {}".format(player, len(totalMana), len(totalUntappedMana), ", ".join(unique_civilizations)))
 		return
+	cardWasCreature = isCreature(card) and checkEvo
+	if checkEvo:
+		baitList = removeIfEvo(card)
+		for baitCard in baitList:
+			toMana(baitCard, checkEvo=False, alignCheck=False, faceDown=faceDown)	
 	if isPsychic(card):
 		toHyperspatial(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
+	if isGacharange(card):
+		toSuperGacharange(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
 		return
 	card.resetProperties()
 	card.target(False)
 	src = card.group
 	srcName = card.group.name
-	cardWasCreature = isCreature(card) and checkEvo
-	##notify("Removing from tracked evos if its bait or an evolved creature")
-	if checkEvo:
-		baitList = removeIfEvo(card)
-		for baitCard in baitList:
-			toMana(baitCard, checkEvo=False, alignCheck=False, faceDown=faceDown)
 	if isShield(card):
 		srcName="Shield #{}".format(card.markers[shieldMarker])
-		card.resetProperties()
 		card.markers[shieldMarker] = 0
 		card.isFaceUp = not faceDown
 	if card.group != table:
@@ -3993,13 +4005,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 	if faceDown:
 		card.peek()
 	#Handle on Remove From Battle Zone effects:
-	if cardWasCreature:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-			functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(index + 1, [card, function])
-			evaluateWaitingFunctions()
+	if cardWasCreature: handleOnLeaveBZ(card)
 
 #Wrapper function for toManaFace to call from Menu or by Ctrl+Shift+C
 def toManaFaceDown(card, x=0, y=0):
@@ -4012,10 +4018,19 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	if isShield(card):
 		whisper("This is already a Shield.")
 		return
+	cardWasCreature = isCreature(card) and checkEvo
+	if checkEvo:
+		baitList = removeIfEvo(card)
+		for baitCard in baitList:
+			toShields(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
 		toHyperspatial(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
 		return
-	cardWasCreature = isCreature(card) and checkEvo
+	if isGacharange(card):
+		toSuperGacharange(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
 	count = int(me.getGlobalVariable("shieldCount")) + 1
 	me.setGlobalVariable("shieldCount", convertToString(count))
 	if notifymute == False:
@@ -4036,24 +4051,14 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	if card.orientation != Rot0:
 		card.orientation = Rot0
 	card.markers[shieldMarker] = count
-	if checkEvo:
-		baitList = removeIfEvo(card)
-		for baitCard in baitList:
-			toShields(baitCard, checkEvo=False, alignCheck=False)
 	if alignCheck:
 		align()
 
 	#Handle on Remove From Battle Zone effects:
-	if cardWasCreature:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-			functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(1, [card,function])
-			evaluateWaitingFunctions()
+	if cardWasCreature: handleOnLeaveBZ(card)
 
 #Play Card menu option (both from hand and battlezone)
-def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False, isEvoMaterial = False):
+def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False, isEvoMaterial=False):
 	mute()
 	card = ensureCardObjects(card)
 	#global alreadyEvaluating #is true when already evaluating some functions of the last card played, or when continuing after wait for Target
@@ -4308,22 +4313,32 @@ def endOfFunctionality(card):
 			card.moveTo(card.owner.piles['Graveyard'])
 			align()
 
+def gacharangeSummon(group, x=0, y=0, notifymute=True, ignoreEffects=False, isEvoMaterial=False):
+	if len(group)>0:
+		card = group.top()
+		toPlay(card, x, y, notifymute, '', ignoreEffects, isEvoMaterial)
+		notify('{} Gacharange Summons {}'.format(me, card))
+	else:
+		whisper('No cards in Super Gacharange Zone to Gacharange Summon.')
+
 #Discard Card menu option
 def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	mute()
 	card = ensureCardObjects(card)
 	src = card.group
 	cardWasCreature = isCreature(card) and checkEvo
-
 	if src == table and checkEvo:
 		baitList = removeIfEvo(card)
 		for baitCard in baitList:
 			toDiscard(baitCard, checkEvo=False, alignCheck=False)
-
 	if isPsychic(card):
 		toHyperspatial(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
 		return
-
+	if isGacharange(card):
+		toSuperGacharange(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
 	cardWasMana = isMana(card)
 	card.resetProperties()
 	card.target(False)
@@ -4349,13 +4364,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 			evaluateWaitingFunctions()
 
 	#Handle on Remove From Battle Zone effects:
-	if cardWasCreature:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-			functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(index + 1, [card, function])
-			evaluateWaitingFunctions()
+	if cardWasCreature: handleOnLeaveBZ(card)
 
 #Move To Hand (from battlezone)
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
@@ -4363,10 +4372,19 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	card = ensureCardObjects(card)
 	card.target(False)
 	src = card.group
+	cardWasCreature = isCreature(card) and checkEvo
+	if checkEvo:
+		baitList = removeIfEvo(card)
+		for baitCard in baitList:
+			toHand(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
 		toHyperspatial(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
 		return
-	cardWasCreature = isCreature(card) and checkEvo
+	if isGacharange(card):
+		toSuperGacharange(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
 	if show:
 		card.isFaceUp = True
 		# need to use just card instead of card.Name for link to card
@@ -4383,64 +4401,65 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		card.moveTo(card.owner.hand)
 		card.resetProperties()
 		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
-
-	if checkEvo:
-		baitList = removeIfEvo(card)
-		for baitCard in baitList:
-			toHand(baitCard, checkEvo=False, alignCheck=False)
-
 	if alignCheck:
 		align()
 
 	#Handle on Remove From Battle Zone effects:
-	if cardWasCreature:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-			functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(index + 1, [card,function])
-			evaluateWaitingFunctions()
+	if cardWasCreature: handleOnLeaveBZ(card)
 
 #Move to Bottom (from battlezone)
 def toDeckBottom(card, x=0, y=0):
 	mute()
 	toDeck(card, bottom=True)
 
+def handleOnLeaveBZ(card):
+	functionList=[]
+	if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
+		functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
+		for index, function in enumerate(functionList):
+			waitingFunct.insert(index + 1, [card,function])
+		evaluateWaitingFunctions()
+
 #Move to Topdeck (from battlezone)
 def toDeck(card, bottom=False):
 	mute()
+	def chooseCardPlacementInDeck(cardList):
+		while len(cardList) > 0:
+			if len(cardList) == 1:
+				choice = 1
+			else:
+				choice = askChoice("Choose a card to place it on top of your deck.", [c.name for c in cardList])
+			if choice > 0:
+				c = cardList.pop(choice - 1)
+				if bottom == True:
+					notify("{} moves {} to bottom of Deck.".format(me, c))
+					card.resetProperties()
+					c.moveToBottom(c.owner.Deck)
+				else:
+					notify("{} moves {} to top of Deck.".format(me, c))
+					card.resetProperties()
+					c.moveTo(c.owner.Deck)
 	card = ensureCardObjects(card)
 	card.target(False)
-	if isPsychic(card):
-		toHyperspatial(card)
-		return
 	cardWasCreature = isCreature(card)
+	if isPsychic(card):
+		chooseCardPlacementInDeck(removeIfEvo(card))
+		toHyperspatial(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
+	if isGacharange(card):
+		baitList = removeIfEvo(card)
+		chooseCardPlacementInDeck(removeIfEvo(card))
+		toSuperGacharange(card)
+		if cardWasCreature: handleOnLeaveBZ(card)
+		return
+	
 	cardList = removeIfEvo(card)  # baits
 	cardList.append(card)  # top card as well
-	while len(cardList) > 0:
-		if len(cardList) == 1:
-			choice = 1
-		else:
-			choice = askChoice("Choose a card to place it on top of your deck.", [c.name for c in cardList])
-		if choice > 0:
-			c = cardList.pop(choice - 1)
-			if bottom == True:
-				notify("{} moves {} to bottom of Deck.".format(me, c))
-				card.resetProperties()
-				c.moveToBottom(c.owner.Deck)
-			else:
-				notify("{} moves {} to top of Deck.".format(me, c))
-				card.resetProperties()
-				c.moveTo(c.owner.Deck)
+	chooseCardPlacementInDeck(cardList)
 	align()
 	#Handle on Remove From Battle Zone effects:
-	if cardWasCreature:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-			functionList = cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(index + 1, [card, function])
-			evaluateWaitingFunctions()
+	if cardWasCreature: handleOnLeaveBZ(card)
 
 allowed_globals = {
 	'__builtins__': None,
