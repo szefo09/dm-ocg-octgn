@@ -875,7 +875,9 @@ def getTargetPlayer(text="Pick a player:", onlyOpponent = False):
 		if choicePlayer < 1: return
 		return currentPlayers[choicePlayer - 1]
 
-def removeIfEvo(card, evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)):
+def removeIfEvo(card, evolveDict):
+	if evolveDict == None:
+		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 	# Will remove passed card from the list of tracked evos/baits
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
