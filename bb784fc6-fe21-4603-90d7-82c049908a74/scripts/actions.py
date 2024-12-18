@@ -3426,7 +3426,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 	mute()
 	group = ensureGroupObject(group)
 	clearWaitingFuncts()
-	evolveDict = eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
 	for card in group:
 		if not card.owner == me:
 			continue
