@@ -3134,7 +3134,7 @@ def moveCards(args): #this is triggered every time a card is moved
 					del evolveDict[evo]
 				else:
 					evolveDict[evo] = evolvedList
-		if originalevolveDict != evolveDict:
+		if originalEvolveDict != evolveDict:
 			me.setGlobalVariable("evolution", str(evolveDict))
 
 		sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
@@ -3811,6 +3811,23 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 		if len(group) == 0: return
 		card = group[0]
 		toMana(card, notifymute=True)
+		if tapped and ((card.orientation & Rot90 != Rot90 and card.isFaceUp or card.size !='wide') or (card.orientation & Rot90 != Rot0 and card.size =='wide')):
+			card.orientation ^= Rot90
+		notify("{} charges {} from top of {} as Mana.".format(me, card, group.name))
+	doPostAction(card, postAction, postArgs, postCondition)
+
+#Charge Top Card as Mana
+def manaFaceDown(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[], postCondition='True', preCondition=True):
+	mute()
+	if not preCondition:
+		return
+	if ask:
+		choice = askYN("Charge top {} Card(s) as Mana?".format(count))
+		if choice != 1: return
+	for i in range(0, count):
+		if len(group) == 0: return
+		card = group[0]
+		toMana(card, notifymute=True, faceDown=True)
 		if tapped and card.orientation & Rot90 != Rot90:
 			card.orientation ^= Rot90
 		notify("{} charges {} from top of {} as Mana.".format(me, card, group.name))
@@ -3897,7 +3914,7 @@ def shields(group, count=1, conditional=False, x=0, y=0):
 		notify("{} sets top card of {} as Shield.".format(me, group.name))
 
 #Charge as Mana menu option / Ctrl+C
-def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
+def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, faceDown=False):
 	mute()
 	card = ensureCardObjects(card)
 	if isMana(card) and (x or y):
@@ -3925,15 +3942,15 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True):
 		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.resetProperties()
 		card.markers[shieldMarker] = 0
-		card.isFaceUp = True
+		card.isFaceUp = not faceDown
 	if card.group != table:
-		card.moveToTable(0, 0)
+		card.moveToTable(0, 0, faceDown)
 	#Wide cards are treated as untapped with Rot270
-	if card.size=="wide":
+	if card.size=="wide" and not faceDown:
 		card.orientation = Rot270
 	else:
 		card.orientation = Rot180
-	if re.search("/", card.Civilization):  # multi civ card
+	if re.search("/", card.Civilization) and not faceDown:  # multi civ card
 		card.orientation = Rot270
 	if alignCheck:
 		align()
