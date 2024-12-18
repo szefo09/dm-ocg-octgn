@@ -2035,7 +2035,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		notify('{} taps {}.'.format(me, card))
 		global arrow
 		activatedTapEffect = False
-		(evolveDict, sealDict)=getEvolveDictAndSealDict(c)
+		(evolveDict, sealDict)=getEvolveDictAndSealDict(card)
 		#Helper inner function for onAllyTap
 		def handleOnAllyTapEffects(card):
 			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c, evolveDict, sealDict) and c.controller == me and cardScripts.get(c.properties["Name"], {}).get('onAllyTap', [])]
