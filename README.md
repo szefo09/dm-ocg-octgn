@@ -142,6 +142,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Hurricane Crawler**
   - **Brain Charger**
   - **All Sunrise**
+  - **Berochika, Channeler of Suns**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.

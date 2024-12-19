@@ -53,6 +53,7 @@ cardScripts = {
 	'Baraga, Blade of Gloom': {'onPlay':[lambda card: bounceShield()]},
 	'Bega, Vizier of Shadow': {'onPlay': [lambda card: shields(me.Deck), lambda card:targetDiscard(True)]},
 	'Belix, the Explorer': {'onPlay': [lambda card: fromMana(1,"Spell")]},
+	'Berochika, Channeler of Suns': {'onPlay': [lambda card: berochika()]},
 	'Bombazar, Dragon of Destiny': {'onPlay': [lambda card: destroyAll([c for c in table if c != card], True, 6000, "ALL", False, True)]},
 	'Bonfire Lizard': {'onPlay':[lambda card: waveStriker(lambda card: kill(count=2, rulesFilter="{BLOCKER}"), card)]},
 	'Bronze-Arm Tribe': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -2440,6 +2441,11 @@ def auraPegasus():
 		toPlay(card)
 	else:
 		toHand(card)
+
+def berochika():
+	shieldList=[c for c in table if c.owner == me and isShield(c)]
+	if len(shieldList)>=5:
+		shields(me.Deck)
 
 def bluumErkis(card):
 	mute()
