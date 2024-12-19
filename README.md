@@ -364,4 +364,4 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Many code changes under the hood.**
 
 ## Attributions:
-- "Shield" icon created by [Mayor Icons](https://www.flaticon.com/authors/mayor-icons) - [Flaticon](https://www.flaticon.com/free-icons/shield)
+- "Shield" icon created by [Rukanicon](https://www.flaticon.com/authors/rukanicon) - [Flaticon](https://www.flaticon.com/free-icon/shield_8017361)
