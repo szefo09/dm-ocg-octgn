@@ -142,6 +142,17 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Hurricane Crawler**
   - **Brain Charger**
   - **All Sunrise**
+  - **Perfect Alcadeia** (Full Effect)
+  - **Perfect Oratoriocles** (only Conditional Shield Trigger)
+  - **"Boyan", Fireball Spell**
+  - **"Dogoru", Ground Spell**
+  - **"Frizzen", Freezing Spell** (only Conditional Shield Trigger)
+  - **"Pikabim", Prison Spell**
+  - **Awesome! Onsen Gallows** (only Conditional Shield Trigger)
+  - **Chopin, Dragon King** (only Conditional Shield Trigger)
+  - **Dogiragon, Royal Revolution** (only Conditional Shield Trigger)
+  - **Nova! Belunare** (only Conditional Shield Trigger)
+  - **Tamatango Panzer** (only Conditional Shield Trigger)
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -317,7 +328,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
-  - Changed Shield Icon - [Attributions](#attributions)
+  - **Added Support for finding Elements, rewrote basic functions to allow Elements, and not just creatures to be sent to Hand, Deck, Graveyard, Mana or Shields**
+  - **Changed Shield Icon - [Attributions](#attributions)**
   - **Added automated handling of Gacharange Creatures, added Gacharange Summon action to Super Gacharange Zone, added Play action to cards in Hyperspatial Zone**
   - **You can now attach and detach your cards on the field to and from shields, for effects like Galaxyshield, and an attached card on the field can be Put to Play to detach automatically. (Cards are attached under the main card instead of being attached above for ease of resolving effects and to keep the shield visible)**
   - **Wide cards that go to mana rotated properly and are properly aligned for Player A and B**
