@@ -881,22 +881,24 @@ def removeIfEvo(card, evolveDict = None):
 	# Will remove passed card from the list of tracked evos/baits
 	# returns a list of bait cards if evo was removed
 	# returns empty list if not found or bait was removed
-	originalEvolveDict = evolveDict.copy()
+	modified = False
 	resultList = []
 	for evo in evolveDict.keys():
 		if evo == card._id:
 			for cardID in evolveDict[evo]:
 				resultList.append(Card(cardID))
 			del evolveDict[evo]
+			modified = True
 			# notify("Evo removed from evo in dict")
 			break
 		baitList = evolveDict[evo]
 		if card._id in baitList:
 			baitList.remove(card._id)
+			modified = True
 			evolveDict[evo] = baitList
 			# notify("Bait removed from evo in dict")
 			break
-	if originalEvolveDict != evolveDict:
+	if modified:
 		me.setGlobalVariable("evolution", str(evolveDict))
 	return resultList
 
@@ -1025,14 +1027,15 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 def reverseCardList(list):
 	list.reverse()
 
-def processEvolution(card, targets):
+def processEvolution(card, targets, evolveDict=None):
 	if any(c.orientation == Rot90 for c in targets):
 		card.orientation = Rot90
 	if card.orientation == Rot90:
 		for c in targets:
 			c.orientation = Rot90
 	targetList = [c._id for c in targets]
-	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)  ##evolveDict tracks all cards 'underneath' the evolution creature
+	if evolveDict==None:
+		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)  ##evolveDict tracks all cards 'underneath' the evolution creature
 	for evolveTarget in targets:  ##check to see if the evolution targets are also evolution creatures
 		if evolveTarget._id in evolveDict:  ##if the card already has its own cards underneath it
 			if evolveTarget in table:
@@ -1146,16 +1149,18 @@ def isBait(card, evolveDict=None):  # check if card is under and evo(needs to be
 def removeFromBaits(card, evolveDict = None):
 	if evolveDict == None:
 		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
-	originalEvolveDict = evolveDict.copy()
+	modified = False
 	for evo in evolveDict.keys():
 		baitList = evolveDict[evo]
 		if card._id in baitList:
 			baitList.remove(card._id)
+			modified = True
 		if len(baitList) == 0:
 			del evolveDict[evo]
+			modified = True
 		else:
 			evolveDict[evo] = baitList
-	if originalEvolveDict != evolveDict:
+	if modified:
 		me.setGlobalVariable("evolution", str(evolveDict))
 
 #We pass sealDict if possible to minimize the amount of calls if doing loops
@@ -2036,6 +2041,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 		global arrow
 		activatedTapEffect = False
 		(evolveDict, sealDict)=getEvolveDictAndSealDict(card)
+		
 		#Helper inner function for onAllyTap
 		def handleOnAllyTapEffects(card):
 			creaturesonAllyTapList = [c for c in table if isCreature(c) and not isRemovedFromPlay(c, evolveDict, sealDict) and c.controller == me and cardScripts.get(c.properties["Name"], {}).get('onAllyTap', [])]
@@ -2059,6 +2065,7 @@ def processTapUntapCreature(card, processTapEffects = True):
 					evaluateWaitingFunctions()
 					return True
 			return False
+		
 		#Tap Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer() == me and not isRemovedFromPlay(card, evolveDict, sealDict) and not card._id in arrow:
 			functionList = cardScripts.get(card.properties["Name"], {}).get('onTap', [])
@@ -2395,14 +2402,16 @@ def allsunrise():
 		deckList = [c for c in group]
 		topCard = deckList.pop(0)
 		if len(deckList)>0:
-			for c in deckList:
-				c.moveToTable(0, 0, True)
-			toShields(topCard, alignCheck=False)
-			processEvolution(topCard, deckList)
+			#we reverse the decklist here to put bottom cards as shields first, so they have lower #.
+			for c in reversed(deckList):
+				toShields(c, 0, 0, True, False, False)
+			toShields(topCard, notifymute=True, checkEvo=False)
+			processEvolution(topCard, deckList, evolveDict)
 		else:
 			toShields(topCard)
-	notify('{} puts their Deck as a single Shield #{}.'.format(me, int(me.getGlobalVariable("shieldCount"))))
+	notify('{} puts their Deck as a single Shield #{}.'.format(me, me.getGlobalVariable("shieldCount")))
 	shuffleToBottom(shieldList)
+	table.refit()
 
 
 def apocalypseVise():
@@ -3155,37 +3164,45 @@ def moveCards(args): #this is triggered every time a card is moved
 		card.target(False)
 		card.resetProperties()
 		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
-		originalEvolveDict = evolveDict.copy()
+		#A flag to not save if no changes happened
+		evolveDictModified = False
 		for evo in evolveDict.keys():
 			if Card(evo) not in table:
 				del evolveDict[evo]
+				evolveDictModified = True
 			else:
 				evolvedList = evolveDict[evo]
 				for evolvedCard in evolvedList:
 					if Card(evolvedCard) not in table:
 						evolvedList.remove(evolvedCard)
+						evolveDictModified = True
 				if len(evolvedList) == 0:
 					del evolveDict[evo]
+					evolveDictModified = True
 				else:
 					evolveDict[evo] = evolvedList
-		if originalEvolveDict != evolveDict:
+		if evolveDictModified:
 			me.setGlobalVariable("evolution", str(evolveDict))
 
 		sealDict = eval(me.getGlobalVariable("seal"), allowed_globals)
-		originalSealDict = sealDict.copy()
+		#A flag to not save if no changes happened
+		sealDictModified = False
 		for sealId in sealDict.keys():
 			if Card(sealId) not in table:
 				del sealDict[sealId]
+				sealDictModified = True
 			else:
 				sealList = sealDict[sealId]
 				for sealCardId in sealList:
 					if Card(sealCardId) not in table:
 						sealList.remove(sealCardId)
+						sealDictModified = True
 				if len(sealList) == 0:
 					del sealDict[sealId]
+					sealDictModified = True
 				else:
 					sealDict[sealId] = sealList
-		if originalSealDict != sealDict:
+		if sealDictModified:
 			me.setGlobalVariable("seal", str(sealDict))
 
 def align():
@@ -3534,10 +3551,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		sealList = getSeals(card)
 		for seal in sealList:
 			toDiscard(seal)
-	if isShield(card):
-		if dest == True:
-			toDiscard(card)
-			return
+	#Returns True if Shield leaves table or False if it stayed.
+	def processShield(card):
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
 		conditionalTrigger = True
 		if cardScripts.get(card.properties["Name"], {}).get('onTrigger'):
@@ -3551,12 +3566,14 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				card.isFaceUp = True
 				card.target(False)
 				notify("{} uses {}'s Shield Trigger.".format(me, card))
+				processShieldBaits(card)
 				toPlay(card, notifymute=True)
-				return
+				return True
 			elif choice==3 or choice==0:
 				card.peek()
 				notify("{} peeks at Shield#{}".format(me, card.markers[shieldMarker]))
-				return
+				processShieldBaits(card)
+				return False
 		if re.search("{GUARD STRIKE}", card.Rules, re.IGNORECASE):
 			choice = askYN("Activate Guard Strike for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
@@ -3570,12 +3587,13 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					if type(choice) is Card:
 						choice.target(True)
 						notify('Guard Strike: {} cannot attack this turn.'.format(choice))
+					return True
 				else:
 					whisper("No targets.")
 			elif choice==3 or choice==0:
 				card.peek()
 				notify("{} peeks at Shield#{}".format(me, card.markers[shieldMarker]))
-				return
+				return False
 		shieldCard = card
 		cardsInHandWithStrikeBackAbility = [c for c in me.hand if re.search("Strike Back", c.rules, re.IGNORECASE)]
 		if len(cardsInHandWithStrikeBackAbility) > 0:
@@ -3599,15 +3617,39 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						toPlay(choice, notifymute=True)
 						toDiscard(shieldCard)
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard, choice))
-						return
+						return True
 		notify("{}'s Shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
 		shieldCard.target(False)
 		shieldCard.moveTo(shieldCard.owner.hand)
-		baits =	removeIfEvo(shieldCard)
+		processShieldBaits(shieldCard)
+		return True
+
+	def processShieldBaits(shieldCard):
+		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
+		baits =	removeIfEvo(shieldCard, evolveDict)
 		if baits:
-			for bait in baits:
-				notify('{} moves {} from Shield to Hand'.format(bait.owner, bait))
-				bait.moveTo(bait.owner.hand)
+			for bait in list(baits):
+				if isShield(bait):
+					shieldLeft = processShield(bait)
+					if shieldLeft:
+						baits.remove(bait)
+				else:
+					notify('{} moves {} from Shield to Hand'.format(bait.owner, bait))
+					bait.moveTo(bait.owner.hand)
+					baits.remove(bait)
+			if shieldCard.markers[shieldMarker]:
+				baits.insert(0, shieldCard)
+			if len(baits)>1:
+				topBait = baits.pop(0)
+				processEvolution(topBait, baits, evolveDict)
+			align()
+
+	if isShield(card):
+		if dest == True:
+			toDiscard(card)
+			return
+		processShield(card)
+	
 	elif isMana(card) or ignoreEffects:
 		toDiscard(card)
 	else:
@@ -3658,7 +3700,7 @@ def untapCreatureAll(ask = True):
 
 def shuffleToBottom(cards, x=0, y=0):
 	mute()
-	cardNames = ", ".join(["Card" if not c.isFaceUp else c.name for c in cards])
+	cardNames = " ({})".format(", ".join(c.name for c in cards if c.isFaceUp)) if any(c.isFaceUp for c in cards) else ""
 	rng = Random()
 	for i in range(len(cards) - 1, 0, -1):
 		j = int(rng.random() * (i + 1))
@@ -3667,7 +3709,7 @@ def shuffleToBottom(cards, x=0, y=0):
 		src = card.group
 		card.isFaceUp = False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Card(s) ({}) from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
+	notify('{} shuffled {} Card(s){} from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3750,7 +3792,7 @@ def fromTopPickX(group, x=0, y=0):
 #Function used for "Detach Bait" option in right click menu for Evos. Returns newly removed card(s)
 def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	mute()
-	cardList = getEvoBaits(card)
+	cardList = [c for c in getEvoBaits(card) if c.isFaceUp]
 	if minimumToTake is None:
 		minimumToTake = 1
 	if maximumToTake is None:
@@ -4067,7 +4109,25 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	srcName = card.group.name
 	if src == card.owner.hand:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
-
+	evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
+	if isMana(card):
+		srcName="Mana"
+	if isShield(card):
+		baits = removeIfEvo(card, evolveDict)
+		if baits and all(isShield(bait) for bait in baits):
+			topBait = baits.pop(0)
+			processEvolution(topBait, baits)
+		srcName="Shield #{}".format(card.markers[shieldMarker])
+		card.markers[shieldMarker] = 0
+	if card.group != table:
+		card.moveToTable(0, 0)
+	else:
+		if evolveDict:
+			removeFromBaits(card, evolveDict)
+		card.orientation=Rot0
+		card.isFaceUp = True
+		card.sendToFront()	
+	#Handle Evolutions coming to Play
 	if not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or re.search('{NEO EVOLUTION}', card.Rules))and not isEvoMaterial:
 		targets= []
 		textBox = 'Select Creature(s) to put under Evolution{}'
@@ -4237,21 +4297,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if re.search('{NEO EVOLUTION}', card.Rules):
 				card.Type = 'Neo Evolution Creature'
 			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
-			processEvolution(card, targets)
-	if isMana(card):
-		srcName="Mana"
-	if isShield(card):
-		srcName="Shield #{}".format(card.markers[shieldMarker])
-		card.markers[shieldMarker] = 0
-	if card.group != table:
-		card.moveToTable(0, 0)
-	else:
-		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)
-		if evolveDict:
-			removeFromBaits(card, evolveDict)
-		card.orientation=Rot0
-		card.isFaceUp = True
-		card.sendToFront()
+			processEvolution(card, targets, evolveDict)
+			
 	align()
 	if notifymute == False and not card.hasProperty('Name1'):
 		if src == card.owner.hand:
@@ -4423,6 +4470,7 @@ def handleOnLeaveBZ(card):
 #Move to Topdeck (from battlezone)
 def toDeck(card, bottom=False):
 	mute()
+
 	def chooseCardPlacementInDeck(cardList):
 		while len(cardList) > 0:
 			if len(cardList) == 1:
@@ -4439,6 +4487,7 @@ def toDeck(card, bottom=False):
 					notify("{} moves {} to top of Deck.".format(me, c))
 					card.resetProperties()
 					c.moveTo(c.owner.Deck)
+	
 	card = ensureCardObjects(card)
 	card.target(False)
 	cardWasCreature = isCreature(card)
