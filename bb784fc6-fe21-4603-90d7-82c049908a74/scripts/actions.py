@@ -1028,11 +1028,11 @@ def reverseCardList(list):
 	list.reverse()
 
 def processEvolution(card, targets, evolveDict=None):
-	if any(c.orientation == Rot90 for c in targets):
-		card.orientation = Rot90
-	if card.orientation == Rot90:
+	if isCreature(card):
+		if any(c.orientation == Rot90 for c in targets):
+			card.orientation = Rot90
 		for c in targets:
-			c.orientation = Rot90
+			c.orientation = card.orientation
 	targetList = [c._id for c in targets]
 	if evolveDict==None:
 		evolveDict = eval(me.getGlobalVariable("evolution"), allowed_globals)  ##evolveDict tracks all cards 'underneath' the evolution creature
@@ -2405,13 +2405,12 @@ def allsunrise():
 			#we reverse the decklist here to put bottom cards as shields first, so they have lower #.
 			for c in reversed(deckList):
 				toShields(c, 0, 0, True, False, False)
-			toShields(topCard, notifymute=True, checkEvo=False)
+			toShields(topCard, 0, 0, True, False, False)
 			processEvolution(topCard, deckList, evolveDict)
 		else:
 			toShields(topCard)
 	notify('{} puts their Deck as a single Shield #{}.'.format(me, me.getGlobalVariable("shieldCount")))
 	shuffleToBottom(shieldList)
-	table.refit()
 
 
 def apocalypseVise():
@@ -3277,6 +3276,7 @@ def align():
 			xpos += 79
 	for evolution in evolveDict:
 		count = 0
+		sendToBack = False
 		for evolvedCard in evolveDict[evolution]:
 			evoCard = Card(evolution)
 			x, y = evoCard.position
@@ -3284,6 +3284,8 @@ def align():
 			newPosition = (x, y - 10 * count * playerside)
 			if Card(evolvedCard).position != newPosition:
 				Card(evolvedCard).moveToTable(*newPosition)
+				sendToBack = True
+			if sendToBack:
 				Card(evolvedCard).sendToBack()
 	for seal in sealDict:
 		sealedCard = Card(seal)
@@ -3800,7 +3802,7 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	if len(cardList) < minimumToTake:
 		whisper('No Cards to detach.')
 		return []
-	choices = askCard2(cardList, "Choose Card(s) to detach from Evo",minimumToTake=minimumToTake,maximumToTake=maximumToTake, returnAsArray=True)
+	choices = askCard2(cardList, "Choose Card(s) to detach",minimumToTake=minimumToTake,maximumToTake=maximumToTake, returnAsArray=True)
 	if not isinstance(choices,list): return []
 	newBaitList = [c for c in cardList if c not in choices]
 	notify('{} detaches {} from {}'.format(me, ", ".join([c.name for c in choices]), card))
@@ -3808,23 +3810,33 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 		toDiscard(choice, notifymute=True)
 	processEvolution(card, newBaitList)
 	align()
+	#Attach things to shield on top of them.
+	if isShield(card):
+		for bait in newBaitList:
+			if bait.isFaceUp:
+				bait.sendToFront()
 	return choices
 
 #Function used for "Attach Bait" option in right click menu for Evos. Returns newly added card(s)
 def attachBait(card, x=0, y=0):
 	mute()
-	cardList = [c for c in table if c != card and not isMana(c) and not isShield(c) and c.owner == me and not isRemovedFromPlay(c)]
+	cardList = [c for c in table if c != card and c.isFaceUp and not isMana(c) and not isShield(c) and c.owner == me and not isRemovedFromPlay(c)]
 	if len(cardList) == 0:
 		whisper('No Cards on the field to attach.\nIf you want to attach Opponent\'s Cards, take control of them first.')
 		return []
 	if me.isInverted:
 		reverseCardList(cardList)
-	choices = askCard2(cardList, "Choose Card(s) to attach to Evo",maximumToTake=len(cardList), returnAsArray=True)
+	choices = askCard2(cardList, "Choose Card(s) to attach",maximumToTake=len(cardList), returnAsArray=True)
 	if not isinstance(choices,list): return []
 	notify('{} attaches {} to {}'.format(me, ", ".join([c.name for c in choices]), card))
 	newBaitList = getEvoBaits(card) + choices 
 	processEvolution(card, newBaitList)
 	align()
+	#Attach things to shield on top of them.
+	if isShield(card):
+		for bait in newBaitList:
+			if bait.isFaceUp:
+				bait.sendToFront()
 	return choices
 
 #apply a seal to a card.
@@ -4298,7 +4310,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				card.Type = 'Neo Evolution Creature'
 			evolveText = ", evolving {}".format(", ".join([c.name for c in targets]))
 			processEvolution(card, targets, evolveDict)
-			
+
 	align()
 	if notifymute == False and not card.hasProperty('Name1'):
 		if src == card.owner.hand:
