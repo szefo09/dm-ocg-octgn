@@ -317,6 +317,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
+  - Changed Shield Icon - [Attributions](#attributions)
   - **Added automated handling of Gacharange Creatures, added Gacharange Summon action to Super Gacharange Zone, added Play action to cards in Hyperspatial Zone**
   - **You can now attach and detach your cards on the field to and from shields, for effects like Galaxyshield, and an attached card on the field can be Put to Play to detach automatically. (Cards are attached under the main card instead of being attached above for ease of resolving effects and to keep the shield visible)**
   - **Wide cards that go to mana rotated properly and are properly aligned for Player A and B**
@@ -361,3 +362,6 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **XML Updates**: New Sets, up to year 2024 added!
 - **Mass-Destruction Effects Rewritten**: Improved order of operations for mass-destruction effects to support Survivors and Wave Strikers, enhancing interactions with cards like Balloonshroom Q and Revival Soldier.
 - **Many code changes under the hood.**
+
+## Attributions:
+- "Shield" icon created by [Mayor Icons](https://www.flaticon.com/authors/mayor-icons) - [Flaticon](https://www.flaticon.com/free-icons/shield)

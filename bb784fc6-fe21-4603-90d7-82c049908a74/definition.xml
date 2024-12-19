@@ -6,15 +6,17 @@
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
 		tags="Duel Masters, DM, TCG, OCG" 
-		description= "Duel Masters. Currently up to Sets released in 2024 with common card effects automated. English format also supported." 
+		description= "Duel Masters. Currently up to Sets released in 2024 with common card effects automated. English format also supported.&#xD;&#xA;Attributions:&#xD;&#xA;Shield icon is a part of Security icons created by rukanicon - Flaticon https://www.flaticon.com/free-icons/security" 
 		setsurl="https://dmoctgn.proboards.com/thread/378/image-packs" 
 		gameurl="https://dmoctgn.proboards.com/" 
 		authors= "naveed92(Light)&#xD;&#xA;zerovash&#xD;&#xA;vokes&#xD;&#xA;nitrox&#xD;&#xA;Raz&#xD;&#xA;Szefo09&#xD;&#xA;TheTiniestPumpkin" 
-		markersize="18" 
+		markersize=" 21" 
 	iconurl="https://i.imgur.com/Oq0548m.jpeg" >
 
 	<markers>
-		<marker name="SealMarker" id="0d9c9e74-7d60-4433-b0b2-361aef2b18ea" src="groups/seal.png" />
+		<!-- "shield.png" icon is a part of Security icons created by rukanicon - Flaticon https://www.flaticon.com/free-icons/security -->
+		<marker name="Shield" id="a4ba770e-3a38-4494-b729-ef5c89f561b7" src="groups/shield.png" />
+		<marker name="Seal" id="0d9c9e74-7d60-4433-b0b2-361aef2b18ea" src="groups/seal.png" />
 	</markers>
 
 	<scripts>
@@ -36,6 +38,7 @@
 
 	<documents>
 		<document name="Banlist" icon="documents/rules.png" src="documents/banlist.txt" />
+		<document name="Attributions" icon="documents/rules.png" src="documents/attribution.txt" />
 	</documents>
 
 	<globalvariables>
