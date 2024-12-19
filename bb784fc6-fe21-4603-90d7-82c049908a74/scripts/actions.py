@@ -1359,12 +1359,19 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 	notify("{} looks at the top {} Cards of their Deck".format(me, num))
 	cardList=[card for card in me.Deck.top(num)]
 	if revealAll:
+		for c in cardList:
+			c.isFaceUp=True
 		notify("{} reveals: ".format(me) + " ".join('{}, '.format(c) for c in cardList))
+		for c in cardList:
+			c.isFaceUp=False
 	cardList=[c for c in cardList if eval(filterFunction,allowed_globals, {'c': c})]
 	count=min(count, len(cardList))
 	choices=[]
 	if count>0:
-		choices=askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone), minimumToTake=0, maximumToTake=count, returnAsArray=True)
+		if len(cardList) != count:
+			choices=askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone), minimumToTake=0, maximumToTake=count, returnAsArray=True)
+		else:
+			choices = cardList
 		cards_for_special_action=[]
 		if isinstance(choices, list):
 			for choice in choices:
