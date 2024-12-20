@@ -754,7 +754,7 @@ def onArrow(args):
 		else:
 			arrow[fromCard._id]=[toCard._id]
 	else:
-		if fromCard in arrow:
+		if fromCard._id in arrow:
 				del arrow[fromCard._id]
 
 def clearArrowOnMove(args):
@@ -765,17 +765,16 @@ def clearArrowOnMove(args):
 	arrowKeysToRemove=[]
 	for card in cardsMoved:
 		if card._id in arrow:
-			card.target(False)
 			arrowKeysToRemove.append(card._id)
 		for targetterId, targets in arrow.items():
 			if card._id in targets:
-				Card(targetterId).arrow(card,False)
+				card.arrow(Card(targetterId),False)
 				targets.remove(card._id)
-				if not targets:
-					arrowKeysToRemove.append(targetterId)
-	
+			if not targets:
+				arrowKeysToRemove.append(targetterId)
 	for key in arrowKeysToRemove:
 		del arrow[key]
+		Card(key).target(False)
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
@@ -1453,11 +1452,12 @@ def lookAtOpponentHand():
 	cardList=[card for card in targetPlayer.hand]
 	#Both players see their opponent's hand reversed
 	reverseCardList(cardList)
-	notify("{} looks at {} Hand.".format(me,targetPlayer))
+	notify("{} looks at {}'s Hand.".format(me,targetPlayer))
 	askCard2(cardList, "Opponent's Hand. (Close to continue)", minimumToTake=0)
 
 #Look at selected player's hand and discard all cards matching filterFunction
 def lookAtHandAndDiscardAll(filterFunction="True"):
+	mute()
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	cardList=[card for card in targetPlayer.hand]
@@ -3681,8 +3681,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					if me.isInverted: reverseCardList(creatureList)
 					choice=askCard2(creatureList)
 					if type(choice) is Card:
-						choice.target(True)
-						card.moveTo(card.owner.hand)
 						notify('Guard Strike: {} cannot attack this turn.'.format(choice))
 				else:
 					whisper("No targets.")
