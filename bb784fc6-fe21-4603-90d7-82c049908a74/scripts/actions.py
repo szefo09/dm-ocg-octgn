@@ -689,7 +689,7 @@ cardScripts={
 	'Bolmeteus Steel Dragon': {'onButton': [lambda card: burnShieldKill(2)]},
 	'Evil Incarnate': {'onButton': [lambda card: remoteCall(getActivePlayer(), 'sacrifice', []) if getActivePlayer() is not None else None]},
 	'Gigavrand': {'onButton': [lambda card: discardAll()]},
-	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: targetDiscard(), lambda card: oppponentFromMana(toGrave=True)]},
+	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: opponentToDiscard(), lambda card: oppponentFromMana(toGrave=True)]},
 	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
 	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana(toGrave=True)]},
 	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
@@ -746,30 +746,36 @@ def onArrow(args):
 	toCard=args.toCard
 	targeted=args.targeted
 	scripted=args.scripted
-	if player!=me: return
-	if isElement(fromCard):
-		global arrow
-		if targeted:
-			if fromCard._id in arrow:
+	global arrow
+	if targeted:
+		if fromCard._id in arrow:
+			if toCard._id not in arrow[fromCard._id]:
 				arrow[fromCard._id].append(toCard._id)
-			else:
-				arrow[fromCard._id]=[toCard._id]
 		else:
-			if fromCard in arrow:
-					del arrow[fromCard._id]
+			arrow[fromCard._id]=[toCard._id]
+	else:
+		if fromCard in arrow:
+				del arrow[fromCard._id]
 
 def clearArrowOnMove(args):
 	global arrow
 	if not arrow or table not in args.fromGroups:
 		return
 	cardsMoved=args.cards
-	cardsIdMoved=[card._id for card in cardsMoved]
-	updatedArrow={}
-	for key, array in arrow.items():
-		filteredArray=[card for card in array if card not in cardsIdMoved]
-		if filteredArray and key not in cardsIdMoved:
-			updatedArrow[key]=filteredArray
-	arrow=updatedArrow
+	arrowKeysToRemove=[]
+	for card in cardsMoved:
+		if card._id in arrow:
+			card.target(False)
+			arrowKeysToRemove.append(card._id)
+		for targetterId, targets in arrow.items():
+			if card._id in targets:
+				Card(targetterId).arrow(card,False)
+				targets.remove(card._id)
+				if not targets:
+					arrowKeysToRemove.append(targetterId)
+	
+	for key in arrowKeysToRemove:
+		del arrow[key]
 
 ######### Network Related functions #########
 def getPlayerById(playerId):
@@ -1364,19 +1370,16 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 	if revealAll:
 		for c in cardList:
 			c.isFaceUp=True
-		notify("{} reveals: ".format(me) + " ".join('{}, '.format(c) for c in cardList))
+		notify("{} reveals: ".format(me) + ", ".join('{} '.format(c) for c in cardList))
 		for c in cardList:
 			c.isFaceUp=False
-	cardList=[c for c in cardList if eval(filterFunction,allowed_globals, {'c': c})]
 	count=min(count, len(cardList))
 	choices=[]
 	if count>0:
-		if len(cardList) != count:
-			choices=askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone), minimumToTake=0, maximumToTake=count, returnAsArray=True)
-		else:
-			choices = cardList
+		choices=askCard2(cardList, 'Choose up to {} Card(s) to put into {}'.format(count, targetZone), minimumToTake=0, maximumToTake=count, returnAsArray=True)
 		cards_for_special_action=[]
 		if isinstance(choices, list):
+			choices = [c for c in choices if eval(filterFunction,allowed_globals, {'c': c})]
 			for choice in choices:
 				if not 'NONE' in specialaction:
 					cards_for_special_action.append(choice)
@@ -2593,7 +2596,7 @@ def enigmaticCascade():
 	draw(me.Deck,False,len(choices))
 
 def shieldswap(card, count=1, ask=False):
-	if len([c for c in table if isShield(c) and c.owner==me])==0 or len([me.hand])==0: return
+	if len([c for c in table if isShield(c) and c.owner==me])==0 or len(me.hand)==0: return
 	if ask:
 		choice=askYN("Use {}'s effect?".format(card.Name))
 		if choice!=1: return
@@ -3679,8 +3682,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 					choice=askCard2(creatureList)
 					if type(choice) is Card:
 						choice.target(True)
+						card.moveTo(card.owner.hand)
 						notify('Guard Strike: {} cannot attack this turn.'.format(choice))
-					return True
 				else:
 					whisper("No targets.")
 			elif choice==3 or choice==0:

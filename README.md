@@ -368,6 +368,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Volcanic Arrows**: Allows you to destroy your own creature too.
   - **Gylus, Larval Lord**: When it leaves the field, opponent can recover a card from their graveyard.
 - **Mechanics Fixes**
+  - **Applied workaround to prevent Targetting Bug**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Infinite Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
   - **Evolution Creatures should come tapped if they are evolved from a tapped Creature**
