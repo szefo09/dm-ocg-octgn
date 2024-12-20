@@ -153,6 +153,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Dogiragon, Royal Revolution** (only Conditional Shield Trigger)
   - **Nova! Belunare** (only Conditional Shield Trigger)
   - **Tamatango Panzer** (only Conditional Shield Trigger)
+  - **Berochika, Channeler of Suns**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.

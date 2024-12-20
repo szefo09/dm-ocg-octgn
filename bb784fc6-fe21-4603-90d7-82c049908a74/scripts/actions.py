@@ -53,6 +53,7 @@ cardScripts={
 	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield()]},
 	'Bega, Vizier of Shadow': {'onPlay': [lambda card: shields(me.Deck), lambda card:targetDiscard(True)]},
 	'Belix, the Explorer': {'onPlay': [lambda card: fromMana(1,"Spell")]},
+	'Berochika, Channeler of Suns': {'onPlay': [lambda card: shields(me.Deck) if len([c for c in table if c.owner == me and isShield(c) and not isRemovedFromPlay(c)])>=5 else None]},
 	'Bombazar, Dragon of Destiny': {'onPlay': [lambda card: destroyAll([c for c in table if c!=card], True, 6000, "ALL", False, True)]},
 	'Bonfire Lizard': {'onPlay': [lambda card: waveStriker(lambda card: kill(count=2, rulesFilter="{BLOCKER}"), card)]},
 	'Bronze-Arm Tribe': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -2815,7 +2816,7 @@ def _enemyCrisisBoulder():
 	colorsList=['#FF0000', '#11FF11']
 	choice=askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
 	if choice==1:
-		cardsToChooseFrom=[c for c in table if isCreature(c) and not isRemovedFromPlay(c) and c.owner==me]
+		cardsToChooseFrom=[c for c in table if isElement(c) and not isRemovedFromPlay(c) and c.owner==me]
 		if me.isInverted: reverseCardList(cardsToChooseFrom)
 		selected=askCard2(cardsToChooseFrom, "Select a Creature to put to Graveyard")
 	elif choice==2:
