@@ -867,7 +867,7 @@ def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, 
 	if minimumToTake==0 and not returnAsArray:
 		# if this dialog is opened without any card to take, that means it's for rearranging cards.
 		dlg.min, dlg.max=0, 0
-		dlg.text="Card Order (drag to rearrange):"
+		dlg.text="← Closer to the top | Closer to the bottom → (drag to rearrange):"
 		dlg.show()
 		return dlg.list
 	else:
@@ -1397,7 +1397,7 @@ def lookAtTopCards(num, cardType='card', targetZone='hand', remainingZone='botto
 			return
 	cardList=[card for card in me.Deck.top(num-len(choices))]
 	if len(cardList) > 1 and remainingZone=='bottom':
-		cardList=askCard2(cardList, 'Rearrange the remaining Cards to put to {}'.format(remainingZone), 'OK', 0)
+		cardList=askCard2(cardList, 'Rearrange the remaining Cards to put to {}'.format(remainingZone), 'OK', 0, 0)
 	for card in cardList:
 		if remainingZone=='mana':
 			toMana(card)
@@ -4571,20 +4571,18 @@ def toDeck(card, bottom=False):
 	mute()
 
 	def chooseCardPlacementInDeck(cardList):
-		while len(cardList) > 0:
 			if len(cardList)==1:
-				choice=1
+				choices = cardList
 			else:
-				choice=askChoice("Choose a card to place it on top of your deck.", [c.name for c in cardList])
-			if choice > 0:
-				c=cardList.pop(choice - 1)
-				if bottom==True:
-					notify("{} moves {} to bottom of Deck.".format(me, c))
-					card.resetProperties()
+				choices = askCard2(cardList, "Rearrange the Cards to put to {} of the Deck".format("bottom" if bottom else "top"), minimumToTake=0)
+			if not bottom:
+				reverseCardList(choices)
+			for c in choices:
+				notify("{} moves {} to {} of Deck.".format(me, c, "bottom" if bottom else "top"))
+				c.resetProperties()
+				if bottom:
 					c.moveToBottom(c.owner.Deck)
 				else:
-					notify("{} moves {} to top of Deck.".format(me, c))
-					card.resetProperties()
 					c.moveTo(c.owner.Deck)
 
 	card=ensureCardObjects(card)
@@ -4603,7 +4601,7 @@ def toDeck(card, bottom=False):
 		return
 
 	cardList=removeBaits(card)  # baits
-	cardList.append(card)  # top card as well
+	cardList.insert(0, card)  # top card as well
 	chooseCardPlacementInDeck(cardList)
 	align()
 	#Handle on Remove From Battle Zone effects:
