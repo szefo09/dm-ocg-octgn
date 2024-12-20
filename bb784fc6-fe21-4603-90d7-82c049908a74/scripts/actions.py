@@ -2514,7 +2514,7 @@ def bronks():
 	minPower=min(int(c.Power.strip('+')) for c in creatureList)
 	notify("Lowest Power found: {}".format(minPower))
 	leastPowerCreatureList=[c for c in creatureList if int(c.Power.strip('+'))==minPower]
-	if len(leastPowerCreatureList==1):
+	if len(leastPowerCreatureList)==1:
 		remoteCall(leastPowerCreatureList[0].owner,'destroy', convertCardListIntoCardIDsList(leastPowerCreatureList[0]))
 		return
 
