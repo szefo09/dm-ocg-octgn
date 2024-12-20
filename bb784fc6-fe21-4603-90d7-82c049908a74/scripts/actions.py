@@ -53,7 +53,7 @@ cardScripts={
 	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield()]},
 	'Bega, Vizier of Shadow': {'onPlay': [lambda card: shields(me.Deck), lambda card:targetDiscard(True)]},
 	'Belix, the Explorer': {'onPlay': [lambda card: fromMana(1,"Spell")]},
-	'Berochika, Channeler of Suns': {'onPlay': [lambda card: shields(me.Deck) if len([c for c in table if c.owner == me and isShield(c) and not isRemovedFromPlay(c)])>=5 else None]},
+	'Berochika, Channeler of Suns': {'onPlay': [lambda card: shields(me.Deck) if len([c for c in table if c.owner==me and isShield(c) and not isRemovedFromPlay(c)])>=5 else None]},
 	'Bombazar, Dragon of Destiny': {'onPlay': [lambda card: destroyAll([c for c in table if c!=card], True, 6000, "ALL", False, True)]},
 	'Bonfire Lizard': {'onPlay': [lambda card: waveStriker(lambda card: kill(count=2, rulesFilter="{BLOCKER}"), card)]},
 	'Bronze-Arm Tribe': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -1516,7 +1516,7 @@ def fromMana(count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=
 #move all cards fulfilling the condition from Mana to hand
 def fromManaAll(filterFunction='True'):
 	manaCards=[c for c in table if isMana(c) and c.owner==me if eval(filterFunction, allowed_globals, {'c': c})]
-	if len(manaCards)== 0: return
+	if len(manaCards)==0: return
 	for c in manaCards:
 		toHand(c)
 
@@ -3529,7 +3529,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False):
 		# Untap Mana (wide cards are treated as untaped if Rot270)
 		if card.orientation==Rot270 and (not card.isFaceUp or card.size !="wide"):
 			card.orientation=Rot180
-		elif card.orientation==Rot180 and card.isFaceUp and card.size =="wide":
+		elif card.orientation==Rot180 and card.isFaceUp and card.size=="wide":
 			card.orientation=Rot270
 
 	orderEvaluatingFunctions()
@@ -3950,7 +3950,7 @@ def mana(group, count=1, ask=False, tapped=False, postAction="NONE", postArgs=[]
 		if len(group)==0: return
 		card=group[0]
 		toMana(card, notifymute=True)
-		if tapped and ((card.orientation & Rot90!=Rot90 and card.isFaceUp or card.size !='wide') or (card.orientation & Rot90!=Rot0 and card.size =='wide')):
+		if tapped and ((card.orientation & Rot90!=Rot90 and card.isFaceUp or card.size !='wide') or (card.orientation & Rot90!=Rot0 and card.size=='wide')):
 			card.orientation ^= Rot90
 		notify("{} charges {} from top of {} as Mana.".format(me, card, group.name))
 	doPostAction(card, postAction, postArgs, postCondition)
