@@ -33,7 +33,7 @@ start_time=None
 cardScripts={
 	# ON PLAY EFFECTS
 
-	'All Sunrise': {'onPlay': [lambda card: allsunrise()]},
+	'All Sunrise': {'onPlay': [lambda card: allSunrise()]},
 	'Alshia, Spirit of Novas': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Angila, Electro-Mask': {'onPlay': [lambda card: waveStriker(lambda card:search(me.piles["Graveyard"], 1, "Creature"), card)]},
 	'Aures, Spirit Knight': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -306,6 +306,7 @@ cardScripts={
 	'Grinning Hunger': {'onPlay': [lambda card: grinningHunger(card)]},
 	'Goromaru Communication': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
 	'Hell Chariot': {'onPlay': [lambda card: kill("ALL","Untap")]},
+	'Hell Hand': {'onPlay': [lambda card: hellHand()]},
 	'Hide and Seek': {'onPlay': [lambda card: bounce(1, True, filterFunction='not re.search("Evolution", c.Type)'), lambda card: targetDiscard(True)]},
 	'Hirameki Program': {'onPlay': [lambda card: eurekaProgram(True)]},
 	'Hogan Blaster': {'onPlay': [lambda card: drama(True, "creature or spell", "battlezone", "top")]},
@@ -898,7 +899,7 @@ def getTargetPlayer(text="Pick a player:", onlyOpponent=False):
 		if choicePlayer < 1: return
 		return currentPlayers[choicePlayer - 1]
 
-def removeIfEvo(card, evolveDict=None):
+def removeBaits(card, evolveDict=None):
 	if evolveDict==None:
 		evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 	# Will remove passed card from the list of tracked evos/baits
@@ -1044,7 +1045,7 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 def reverseCardList(list):
 	list.reverse()
 
-def processEvolution(card, targets, evolveDict=None):
+def addBaits(card, targets, evolveDict=None):
 	if isCreature(card):
 		if any(c.orientation==Rot90 for c in targets):
 			card.orientation=Rot90
@@ -1236,8 +1237,9 @@ def getEvolveDictAndSealDict(card=None):
 	return (eval(card.owner.getGlobalVariable("evolution"), allowed_globals), eval(card.owner.getGlobalVariable("seal"), allowed_globals))
 
 #Get a list of bait materials under Evo
-def getEvoBaits(card):
-	evolveDict=eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
+def getCardBaits(card, evolveDict=None):
+	if evolveDict==None:
+		evolveDict=eval(card.owner.getGlobalVariable("evolution"), allowed_globals)
 	if card._id in evolveDict:
 		return [Card(cardId) for cardId in evolveDict[card._id]]
 	return []
@@ -1437,7 +1439,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 		elif targetZone=='grave':
 			# do anti-discard check here
 			#if not remoteCall(targetPlayer, 'antiDiscard', [cardChoice, me]):
-				# anti discard will return false if no antiDiscard is available. Remotecalling because...idk might do some things in antiDiscard later.
+				# anti discard will return False if no antiDiscard is available. Remotecalling because...idk might do some things in antiDiscard later.
 				# Maybe change it to normal call later, and remoteCall from only inside anti-disc.
 				# still WIP
 			remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(cardChoice))
@@ -1979,9 +1981,8 @@ def peekShields(shields, checkEvo=True):
 		shield.peek()
 		notify("{} peeks at Shield#{}".format(me, shield.markers[shieldMarker]))
 		if checkEvo:
-			baits=removeIfEvo(shield)
+			baits=removeBaits(shield)
 			peekShields(baits, False)
-
 
 #Used to target a shield(s) and peek at them.
 def peekShield(count=1, onlyOpponent=False):
@@ -2073,7 +2074,7 @@ def processTapUntapCreature(card, processTapEffects=True):
 	card=ensureCardObjects(card)
 	mute()
 	card.orientation ^= Rot90
-	evoBaits=getEvoBaits(card)
+	evoBaits=getCardBaits(card)
 	for bait in evoBaits:
 		bait.orientation=card.orientation
 	update()
@@ -2432,12 +2433,12 @@ def meteorburn(functionArray, card, minimum=1, maximum=1):
 
 #Special Card Automatization
 
-def allsunrise():
+def allSunrise():
 	mute()
 	shieldList=[c for c in table if isShield(c) and c.owner==me and not isRemovedFromPlay(c)]
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 	for shield in list(shieldList):
-		baits=removeIfEvo(shield, evolveDict)
+		baits=removeBaits(shield, evolveDict)
 		if baits:
 			shieldList.extend(baits)
 	group=me.Deck
@@ -2449,12 +2450,12 @@ def allsunrise():
 			for c in reversed(deckList):
 				toShields(c, 0, 0, True, False, False)
 			toShields(topCard, 0, 0, True, False, False)
-			processEvolution(topCard, deckList, evolveDict)
+			addBaits(topCard, deckList, evolveDict)
 		else:
 			toShields(topCard)
 	notify('{} puts their Deck as a single Shield #{}.'.format(me, me.getGlobalVariable("shieldCount")))
 	shuffleToBottom(shieldList)
-
+	align()
 
 def apocalypseVise():
 	powerLeft=8000
@@ -2591,14 +2592,15 @@ def enigmaticCascade():
 		toDiscard(choice)
 	draw(me.Deck,False,len(choices))
 
-def shieldswap(card, count=1):
+def shieldswap(card, count=1, ask=False):
 	if len([c for c in table if isShield(c) and c.owner==me])==0 or len([me.hand])==0: return
-	choice=askYN("Use {}'s effect?".format(card.Name))
-	if choice!=1: return
+	if ask:
+		choice=askYN("Use {}'s effect?".format(card.Name))
+		if choice!=1: return
 	handList=[c for c in me.hand]
 	count=min(count, len(handList))
 	reverseCardList(handList)
-	choices=askCard2(handList,"Select {} Card(s) to put as Shield", maximumToTake=count, returnAsArray=True)
+	choices=askCard2(handList,"Select {} Card(s) to put as Shield".format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices, list): return
 	for choice in choices:
 		toShields(choice)
@@ -2645,6 +2647,43 @@ def gigandura(card):
 	manaChoice=askCard2(manaList, "Choose a Card from the opponent's Mana Zone")
 	if type(manaChoice) is not Card: return
 	remoteCall(targetPlayer,"toHand",convertCardListIntoCardIDsList(manaChoice))
+
+#
+def hellHand():
+	mute()
+	shieldList = [c for c in table if c.owner==me and isShield(c) and not isRemovedFromPlay(c)]
+	if len(shieldList)==0: return
+	shieldBaitList=[]
+	baitsToKeepDict={}
+	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
+	#Turn Shields Face-down, get and separate baits, remove shield markers.
+	for shield in shieldList:
+		baitsToMove=[]
+		if evolveDict:
+			baits=removeBaits(shield, evolveDict)
+			#Keep face-down baits in shields
+			baitsToKeep=[c for c in baits if isShield(c)]
+			baitsToMove=[c for c in baits if not isShield(c)]
+			baitsToKeepDict[shield._id]=baitsToKeep
+		shieldBaitList.append((shield.markers[shieldMarker], shield.index, baitsToMove))
+	shuffleToBottom(shieldList, notifymute=True)
+	shieldBaitList=sorted(shieldBaitList, key=lambda x: x[0])
+
+	for index, (marker,tableIndex, baits) in enumerate(shieldBaitList):
+		shield = shieldList[index]
+		shield.moveToTable(0,0, True)
+		shield.markers[shieldMarker]=marker
+		shield.index=tableIndex
+		if baits:
+			baitList=baitsToKeepDict.get(shield._id,[])
+			baitList.extend(baits)
+			addBaits(shield, baitList, evolveDict)
+			#put only face-up baits to Front.
+			for bait in baits:
+				bait.moveToTable(0,0)
+				bait.sendToFront()
+	align()
+	notify('{} shuffled their shields.'.format(me))
 
 def heavyweightDragon(card):
 	cardList=[c for c in table if c.owner!=me and isCreature(c) and not isRemovedFromPlay(c) and not isUntargettable(c) and c.Power!='Infinity']
@@ -3002,7 +3041,7 @@ def soulSwap():
 	targets=[c for c in table if c.targetedBy==me and isCreature(c) and not isUntargettable(c)]
 	if len(targets)!=1:
 		return True
-	cardsToMana=getEvoBaits(targets[0])
+	cardsToMana=getCardBaits(targets[0])
 	cardsToMana.insert(0,targets[0])
 	remoteCall(targets[0].owner, "toMana", convertCardListIntoCardIDsList(targets[0]))
 	update()
@@ -3159,7 +3198,7 @@ def flip(card, x=0, y=0):
 
 def toHyperspatial(card, x=0, y=0, notifymute=False):
 	mute()
-	removeIfEvo(card)
+	removeBaits(card)
 	if card.alternate is not '' and re.search("{RELEASE}", card.Rules):
 		flip(card)
 		return
@@ -3322,17 +3361,21 @@ def align():
 			xpos += 79
 	for evolution in evolveDict:
 		count=0
-		sendToBack=False
+		reposition=False
 		for evolvedCard in evolveDict[evolution]:
 			evoCard=Card(evolution)
+			bait=Card(evolvedCard)
 			x, y=evoCard.position
 			count += 1
 			newPosition=(x, y - 10 * count * playerside)
-			if Card(evolvedCard).position!=newPosition:
-				Card(evolvedCard).moveToTable(*newPosition)
-				sendToBack=True
-			if sendToBack:
-				Card(evolvedCard).sendToBack()
+			if bait.position!=newPosition:
+				bait.moveToTable(*newPosition)
+				reposition=True
+			if reposition:
+				if isShield(evoCard) and bait.isFaceUp:
+					bait.sendToFront()
+				else:
+					bait.sendToBack()
 	for seal in sealDict:
 		sealedCard=Card(seal)
 		cardSide=1
@@ -3355,7 +3398,7 @@ def align():
 			newPosition=(cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide)
 			if sealCard.position!=newPosition:
 				sealCard.moveToTable(*newPosition, forceFaceDown=True)
-			Card(sealCardId).sendToFront()
+			sealCard.sendToFront()
 	# for landscape or large cards
 	xpos=15
 	if playerside==1:
@@ -3676,7 +3719,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 
 	def processShieldBaits(shieldCard):
 		evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
-		baits =	removeIfEvo(shieldCard, evolveDict)
+		baits =	removeBaits(shieldCard, evolveDict)
 		if baits:
 			for bait in list(baits):
 				if isShield(bait):
@@ -3691,7 +3734,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				baits.insert(0, shieldCard)
 			if len(baits)>1:
 				topBait=baits.pop(0)
-				processEvolution(topBait, baits, evolveDict)
+				addBaits(topBait, baits, evolveDict)
 			align()
 
 	if isShield(card):
@@ -3748,18 +3791,24 @@ def untapCreatureAll(ask=True):
 		if choice!=1: return
 	tapMultiple(cardList, clearFunctions=False)
 
-def shuffleToBottom(cards, x=0, y=0):
+def shuffleCardList(cardList):
+	rng=Random()
+	for i in range(len(cardList) - 1, 0, -1):
+		j=int(rng.random() * (i + 1))
+		cardList[i], cardList[j]=cardList[j], cardList[i]
+	return cardList
+
+def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 	mute()
 	cardNames = " ({})".format(", ".join('{}'.format(c) for c in cards if c.isFaceUp)) if any(c.isFaceUp for c in cards) else ""
-	rng=Random()
-	for i in range(len(cards) - 1, 0, -1):
-		j=int(rng.random() * (i + 1))
-		cards[i], cards[j]=cards[j], cards[i]
+	shuffleCardList(cards)
 	for card in cards:
 		src=card.group
-		card.isFaceUp=False
+		if card.isFaceUp:
+			card.isFaceUp=False
 		card.moveToBottom(me.Deck)
-	notify('{} shuffled {} Card(s){} from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
+	if not notifymute:
+		notify('{} shuffled {} Card(s){} from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -3842,7 +3891,7 @@ def fromTopPickX(group, x=0, y=0):
 #Function used for "Detach Bait" option in right click menu for Evos. Returns newly removed card(s)
 def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	mute()
-	cardList=[c for c in getEvoBaits(card) if c.isFaceUp]
+	cardList=[c for c in getCardBaits(card) if c.isFaceUp]
 	if minimumToTake is None:
 		minimumToTake=1
 	if maximumToTake is None:
@@ -3856,13 +3905,8 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	notify('{} detaches {} from {}'.format(me, ", ".join('{}'.format(c) for c in choices), card))
 	for choice in choices:
 		toDiscard(choice, notifymute=True)
-	processEvolution(card, newBaitList)
+	addBaits(card, newBaitList)
 	align()
-	#Attach things to shield on top of them.
-	if isShield(card):
-		for bait in newBaitList:
-			if bait.isFaceUp:
-				bait.sendToFront()
 	return choices
 
 #Function used for "Attach Bait" option in right click menu for Evos. Returns newly added card(s)
@@ -3877,14 +3921,9 @@ def attachBait(card, x=0, y=0):
 	choices=askCard2(cardList, "Choose Card(s) to attach",maximumToTake=len(cardList), returnAsArray=True)
 	if not isinstance(choices,list): return []
 	notify('{} attaches {} to {}'.format(me, ", ".join('{}'.format(c) for c in choices), card))
-	newBaitList=getEvoBaits(card) + choices
-	processEvolution(card, newBaitList)
+	newBaitList=getCardBaits(card) + choices
+	addBaits(card, newBaitList)
 	align()
-	#Attach things to shield on top of them.
-	if isShield(card):
-		for bait in newBaitList:
-			if bait.isFaceUp:
-				bait.sendToFront()
 	return choices
 
 #apply a seal to a card.
@@ -4066,7 +4105,7 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 		return
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
-		baitList=removeIfEvo(card)
+		baitList=removeBaits(card)
 		for baitCard in baitList:
 			toMana(baitCard, checkEvo=False, alignCheck=False, faceDown=faceDown)
 	if isPsychic(card):
@@ -4122,7 +4161,7 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		return
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
-		baitList=removeIfEvo(card)
+		baitList=removeBaits(card)
 		for baitCard in baitList:
 			toShields(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
@@ -4173,10 +4212,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if isMana(card):
 		srcName="Mana"
 	if isShield(card):
-		baits=removeIfEvo(card, evolveDict)
+		baits=removeBaits(card, evolveDict)
 		if baits and all(isShield(bait) for bait in baits):
 			topBait=baits.pop(0)
-			processEvolution(topBait, baits)
+			addBaits(topBait, baits)
 		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.markers[shieldMarker]=0
 	if card.group!=table:
@@ -4357,7 +4396,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if re.search('{NEO EVOLUTION}', card.Rules):
 				card.Type='Neo Evolution Creature'
 			evolveText=", evolving {}".format(", ".join('{}'.format(c) for c in targets))
-			processEvolution(card, targets, evolveDict)
+			addBaits(card, targets, evolveDict)
 
 	align()
 	if notifymute==False and not card.hasProperty('Name1'):
@@ -4435,7 +4474,7 @@ def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	src=card.group
 	cardWasElement=isElement(card) and checkEvo
 	if src==table and checkEvo:
-		baitList=removeIfEvo(card)
+		baitList=removeBaits(card)
 		for baitCard in baitList:
 			toDiscard(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
@@ -4481,7 +4520,7 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	src=card.group
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
-		baitList=removeIfEvo(card)
+		baitList=removeBaits(card)
 		for baitCard in baitList:
 			toHand(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
@@ -4497,7 +4536,6 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		# need to use just card instead of card.Name for link to card
 		# but it won't show as card name if card is not visible to a player, so turning it face up first
 		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
-		# card.isFaceUp=False
 		card.resetProperties()
 		card.target(False)
 		card.moveTo(card.owner.hand)
@@ -4552,18 +4590,18 @@ def toDeck(card, bottom=False):
 	card.target(False)
 	cardWasElement=isElement(card)
 	if isPsychic(card):
-		chooseCardPlacementInDeck(removeIfEvo(card))
+		chooseCardPlacementInDeck(removeBaits(card))
 		toHyperspatial(card)
 		if cardWasElement: handleOnLeaveBZ(card)
 		return
 	if isGacharange(card):
-		baitList=removeIfEvo(card)
-		chooseCardPlacementInDeck(removeIfEvo(card))
+		baitList=removeBaits(card)
+		chooseCardPlacementInDeck(removeBaits(card))
 		toSuperGacharange(card)
 		if cardWasElement: handleOnLeaveBZ(card)
 		return
 
-	cardList=removeIfEvo(card)  # baits
+	cardList=removeBaits(card)  # baits
 	cardList.append(card)  # top card as well
 	chooseCardPlacementInDeck(cardList)
 	align()
