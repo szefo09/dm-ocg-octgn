@@ -189,6 +189,7 @@ cardScripts={
 	'Rothus, the Traveler': {'onPlay': [lambda card: rothus()]},
 	'Romanesk, the Dragon Wizard': {'onPlay': [lambda card: mana(me.Deck, 4)]},
 	'Rumbling Terahorn': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
+	'Rv Penicillin, Dragment Symbol': {'onPlay': [lambda card: bounceAll(myCards=False) if revolutionX(card,2) else None]},
 	'Ryokudou, the Principle Defender': {'onPlay': [lambda card: mana(me.Deck,2), lambda card: fromMana()]},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Saucer-Head Shark': {'onPlay': [lambda card: bounceAll(filterFunction="c.Power!='Infinity' and int(c.Power.strip('+'))<=2000")]},
