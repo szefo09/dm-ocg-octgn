@@ -242,7 +242,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demonio/Onifuda Kingdom"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Whenever a creature attacks, if you have at least one darkness card and one fire card in your mana zone, you may show this creature from your hand to your opponent and put it on the bottom of your deck. If you do, destroy one of your opponent's creatures that has power 3000 or less.&#xA;Oniend: When you put this creature into the battle zone, if there is a player that has no shields, destroy one of your opponent's creatures that has power 6000 or less."/>
+      <property name="Rules" value="■ Whenever a creature attacks, if you have at least one darkness card and one fire card in your mana zone, you may reveal this creature from your hand and put it on the bottom of your deck. If you do, choose one of your opponent's creatures that has power 3000 or less and destroy it.&#xA;Oniend: When you put this creature into the battle zone, if any player has no shields, choose one of your opponent's creatures that has power 6000 or less and destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="18"/>
@@ -367,7 +367,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="D2 Field"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ At the end of each turn, if a creature attacked that turn, that player chooses a shield. That shield's owner puts it into their hand. (You may use the &quot;shield trigger&quot;.)&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, neither player can put a card in their shield zone.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)"/>
+      <property name="Rules" value="■ At the end of each turn, if a creature attacked that turn, that player chooses a shield. Break that shield.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, neither player can put a card in their shield zone.&#xA;(Whenever another D2 Field is put, put this D2 Field into your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="28"/>

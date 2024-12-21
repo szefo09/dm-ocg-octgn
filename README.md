@@ -154,6 +154,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Nova! Belunare** (only Conditional Shield Trigger)
   - **Tamatango Panzer** (only Conditional Shield Trigger)
   - **Berochika, Channeler of Suns**
+  - **Hell Hand**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -367,6 +368,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Volcanic Arrows**: Allows you to destroy your own creature too.
   - **Gylus, Larval Lord**: When it leaves the field, opponent can recover a card from their graveyard.
 - **Mechanics Fixes**
+  - **Corile and other cards that ask to reaarrange the order of the cards to place to the bottom/top of the deck now tell you which way is which**
+  - **Applied workaround to prevent Targetting Bug**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Infinite Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
   - **Evolution Creatures should come tapped if they are evolved from a tapped Creature**
