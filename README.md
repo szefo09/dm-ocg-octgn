@@ -155,6 +155,26 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Tamatango Panzer** (only Conditional Shield Trigger)
   - **Berochika, Channeler of Suns**
   - **Hell Hand**
+  - **Ancient Horn, the Watcher**
+  - **Aqua Strummer**
+  - **Core-Crash Lizard**
+  - **Dedreen, the Hidden Corrupter**
+  - **Earth Ripper, Talon of Rage**
+  - **Explosive Trooper Zalmez**
+  - **Rimuel, Cloudbreak Elemental**
+  - **Mummy Wrap, Shadow of Fatigue**
+  - **Lukia Lex, Pinnacle Guardian**
+  - **Bulgluf, the Spydroid**
+  - **Charge Whipper**
+  - **Gigamente**
+  - **Kaemira, the Oracle**
+  - **Milporo**
+  - **Pinpoint Lunatron**
+  - **Rapid Reincarnation**
+  - **Siren Concerto**
+  - **Spark Chemist, Shadow of Whim**
+  - **Sporeblast Erengi**
+  - **Static Warp**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
