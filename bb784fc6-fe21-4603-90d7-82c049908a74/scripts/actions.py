@@ -678,7 +678,7 @@ cardScripts={
 	'Awesome! Hot Spring Gallows': {'onTrigger': [lambda card: manaArmsCheck("Water", 3)]},
 	'Awesome! Onsen Gallows': {'onTrigger': [lambda card: manaArmsCheck("Water", 3)]},
 	'Chopin, Dragon King': {'onTrigger': [lambda card: len([c for c in table if re.search(r"\bDragon\b",c.Type) and not isRemovedFromPlay(c)])>0]},
-	'Dogiragon, Royal Revolution': {'onTrigger': [lambda card: len([c for c in table if c!=card and isShield(c) and not me in c.peekers and not isBait(c)])<=2 or askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1]},
+	'Dogiragon, Royal Revolution': {'onTrigger': [lambda card: revolutionX(card,2,True)]},
 	'Mettagils, Passion Dragon': {'onTrigger': [lambda card: manaArmsCheck("Fire", 5)]},
 	'Nova! Belunare': {'onTrigger': [lambda card: manaArmsCheck("Light", 5)]},
 	'Perfect Alcadeia': {'onTrigger': [lambda card: len([c for c in table if c!=card and isShield(c) and not me in c.peekers and not isBait(c)])<=2 or askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1],
@@ -1312,6 +1312,13 @@ def isUntargettable(card):
 def metamorph():
 	cardList=[card for card in table if isMana(card) and card.owner==me]
 	if len(cardList) >= 7:
+		return True
+
+def revolutionX(card, number, shieldTrigger=False):
+	shieldList = [c for c in table if c.owner==me and isShield(c) and not isRemovedFromPlay(c)]
+	if not shieldTrigger and len(shieldList)<=number:
+		return True	
+	if shieldTrigger and (len(shieldList)<= number or askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1):
 		return True
 
 def getWaveStrikerCount(player='ALL'):
