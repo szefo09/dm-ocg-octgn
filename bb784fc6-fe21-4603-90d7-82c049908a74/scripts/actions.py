@@ -684,7 +684,7 @@ cardScripts={
 	'Dotou Henge <Sturm Ogre>': {'onTrigger': [lambda card: len(getTamaseeds(me))]},
 	'Fleece, Satori\'s Whirlwind': {'onTrigger': [lambda card: len([c for c in getCreatures(me) if re.search('Colorless',c.Civilization)])]},
 	'Guerrillafugan, Beast Army X': {'onTrigger': [lambda card: len(getMana(me))>=6],
-								  'onPlay': [lambda card: tapCreature(card, True)],
+								  'onPlay': [lambda card: tapThis(card, True)],
 								  'onDestroy': [lambda card: summonFromMana(CivFilter='Nature',filterFunction='cardCostComparator(c,6,"<=","Creature")')]},
 	'Hunbolt, Demonic Elemental': {'onTrigger': [lambda card: any(count > 1 for count in {name: names.count(name) for names in [[c.name for c in getCreatures(getTargetPlayer(onlyOpponent=True))]] for name in names}.values())]},
 	'Hyperspatial Basara Hole': {'onTrigger': [lambda card: len([c for c in getElements(me) if re.search(r"Darkness|Fire",c.Civilization) and re.search("Command",c.Race)])]},
@@ -1348,7 +1348,7 @@ def hasButtonEffect(cards, x=0, y=0):
 		cards=[cards]
 	if len(cards)==0: return False
 	c=cards[len(cards)-1]
-	if c and cardScripts.get(c.properties["Name"], {}).get('onButton', []) and isElement(c) and not isRemovedFromPlay(c):
+	if c and cardScripts.get(c.properties["Name"], {}).get('onButton', []) and (isElement(c) and not isRemovedFromPlay(c) or c in me.Graveyard):
 		return True
 	return False
 
@@ -1865,7 +1865,7 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 		return
 
 	count=min(count, len(cardList))
-	targets=[c for c in getCreatures() and not isUntargettable(c)]
+	targets=[c for c in getCreatures() if not isUntargettable(c)]
 	if len(targets)==0:return
 	targets=[c for c in targets if c.targetedBy==me]
 	if len(targets)!=count:
@@ -3967,9 +3967,9 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			waitingFunct.insert(index + 1, [card, function])
 		evaluateWaitingFunctions()
 
-#taps creature
-def tapCreature(card, ask=True):
-	if card.orientation==Rot0:
+#taps specified Card
+def tapThis(card, ask=True):
+	if isTapped(card):
 		if ask:
 			choice=askYN("Would you like to Tap {}?".format(card.name))
 			if choice!=1: return
@@ -4567,10 +4567,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				toPlay(target,0, 0,True,' for {} of {}'.format(evoTypeText,card),True, True)
 		#Default or Vortex Evolution
 		else:
-			targets=[c for c in getElements(c) if c.targetedBy==me]
+			targets=[c for c in getElements(me) if c.targetedBy==me]
 			clear(targets)
 			if len(targets)==0:
-				materialList=[c for c in getElements(c) if c!=card]
+				materialList=[c for c in getElements(me) if c!=card]
 				if me.isInverted: reverseCardList(materialList)
 				minimumToTake=1
 				isNeoEvolution=False
