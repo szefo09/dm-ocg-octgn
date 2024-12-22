@@ -142,17 +142,10 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Hurricane Crawler**
   - **Brain Charger**
   - **All Sunrise**
-  - **Perfect Alcadeia** (Full Effect)
-  - **Perfect Oratoriocles** (only Conditional Shield Trigger)
+  - **Perfect Alcadeia**
   - **"Boyan", Fireball Spell**
   - **"Dogoru", Ground Spell**
-  - **"Frizzen", Freezing Spell** (only Conditional Shield Trigger)
   - **"Pikabim", Prison Spell**
-  - **Awesome! Onsen Gallows** (only Conditional Shield Trigger)
-  - **Chopin, Dragon King** (only Conditional Shield Trigger)
-  - **Dogiragon, Royal Revolution** (only Conditional Shield Trigger)
-  - **Nova! Belunare** (only Conditional Shield Trigger)
-  - **Tamatango Panzer** (only Conditional Shield Trigger)
   - **Berochika, Channeler of Suns**
   - **Hell Hand**
   - **Ancient Horn, the Watcher**
@@ -175,6 +168,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Spark Chemist, Shadow of Whim**
   - **Sporeblast Erengi**
   - **Static Warp**
+  - **Mysterious Ogre Duel**
+  - **Just in You**
 
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
@@ -350,6 +345,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
+  - **Added many conditional shield trigger cards**
   - **Added Support for finding Elements, rewrote basic functions to allow Elements, and not just creatures to be sent to Hand, Deck, Graveyard, Mana or Shields**
   - **Changed Shield Icon - [Attributions](#attributions)**
   - **Added automated handling of Gacharange Creatures, added Gacharange Summon action to Super Gacharange Zone, added Play action to cards in Hyperspatial Zone**
