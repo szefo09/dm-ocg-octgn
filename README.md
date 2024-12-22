@@ -345,6 +345,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
+  - **Added settings that persist between lobbies with following settings:**
+    - Toggle: Card Script Automation
+    - Toggle: Untap Creatures at the start of your Turn
+    - Toggle: Untap Mana at the start of your Turn
+    - Toggle: Move Spells to graveyard after play
+    - Toggle: Ask before discarding a card from your hand
   - **Added many conditional shield trigger cards**
   - **Added Support for finding Elements, rewrote basic functions to allow Elements, and not just creatures to be sent to Hand, Deck, Graveyard, Mana or Shields**
   - **Changed Shield Icon - [Attributions](#attributions)**

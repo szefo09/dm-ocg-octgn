@@ -772,6 +772,8 @@ def resetGame():
 	mute()
 	me.setGlobalVariable("shieldCount", "0")
 	clearFunctionsAndTargets(table)
+	if not getAutomationsSetting(): notify('{} has "Card Script Automation" setting disabled.'.format(me))
+	if getAskBeforeDiscardingOwnCardsSetting(): notify('{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me))
 	for player in getPlayers():
 		if player!=me:
 			initiate_handshake(player)
@@ -996,9 +998,12 @@ def evaluateWaitingFunctions():
 		return
 	alreadyEvaluating=True
 	while len(waitingFunct)>0:
+			if not getAutomationsSetting():
+				del waitingFunct[0]
+				continue
 			card=waitingFunct[0][0]
 			#notify("{}, {}".format(card,waitingFunct[0][1]))
-			if automationsCheck() and waitingFunct[0][1](card):
+			if waitingFunct[0][1](card):
 				waitForTarget()
 				break #stop evaluating further functions, will start again when target is triggered
 			else:
@@ -1540,7 +1545,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	if not targetPlayer: return
 	if randomDiscard:
 		for i in range(count):
-			remoteCall(targetPlayer, 'randomDiscard', convertGroupIntoGroupNameList(targetPlayer.hand))
+			remoteCall(targetPlayer, 'randomDiscard', [convertGroupIntoGroupNameList(targetPlayer.hand), 0, 0, True])
 		return
 	cardList=[card for card in targetPlayer.hand]
 	#Both players see the opponent's hand reversed
@@ -1553,6 +1558,9 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	if not isinstance(cardChoices,list):
 		notify("Discard cancelled.")
 		return
+	if targetZone=='grave':
+		remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(cardChoices), 0, 0, False, True, rue, False, True])
+		return
 	for cardChoice in cardChoices:
 		if targetZone=='mana':
 			whisper("Putting {} as Mana.".format(cardChoice))
@@ -1560,13 +1568,6 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 		if targetZone=='shield':
 			whisper("Setting {} as Shield.".format(cardChoice))
 			remoteCall(targetPlayer, 'toShields', convertCardListIntoCardIDsList(cardChoice))
-		elif targetZone=='grave':
-			# do anti-discard check here
-			#if not remoteCall(targetPlayer, 'antiDiscard', [cardChoice, me]):
-				# anti discard will return False if no antiDiscard is available. Remotecalling because...idk might do some things in antiDiscard later.
-				# Maybe change it to normal call later, and remoteCall from only inside anti-disc.
-				# still WIP
-			remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(cardChoice))
 
 def lookAtOpponentHand():
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
@@ -1590,8 +1591,7 @@ def lookAtHandAndDiscardAll(filterFunction='True'):
 		choices=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 	else:
 		choices=cardList
-	for choice in choices:
-		remoteCall(choice.owner, 'toDiscard', convertCardListIntoCardIDsList(choice))
+	remoteCall(choice.owner, 'toDiscard', [convertCardListIntoCardIDsList(choices), 0, 0, False, True, True, False, True])
 
 def discardAll(onlyOpponent=True, onlySelf=False):
 	mute()
@@ -1600,8 +1600,7 @@ def discardAll(onlyOpponent=True, onlySelf=False):
 	if onlySelf==False: targetPlayer=getTargetPlayer(onlyOpponent=onlyOpponent)
 	if not targetPlayer: return
 	cardList=[card for card in targetPlayer.hand]
-	for card in cardList:
-		remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(card))
+	remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(cardList), 0, 0, False, True, True, False, onlyOpponent])
 
 # do some anti-discard inside dat randomdisc function
 
@@ -1813,8 +1812,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
 		notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 		return
-	for choice in choices:
-		remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choice))
+	remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choices))
 	update()
 
 	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
@@ -2700,9 +2698,8 @@ def deklowazDiscard():
 	cardList=[card for card in targetPlayer.hand]
 	reverseCardList(cardList)
 	cardChoice=askCard2(cardList, "Look at opponent's hand. (close pop-up or select any card to finish.)")
-	for c in cardList:
-		if re.search("Creature", c.Type) and c.Power!='Infinity' and int(c.Power.strip('+')) <= 3000:
-			remoteCall(targetPlayer, 'toDiscard', convertCardListIntoCardIDsList(c))
+	cardsToDiscard=[c for c in cardList if re.search("Creature", c.Type) and c.Power!='Infinity' and int(c.Power.strip('+')) <= 3000]
+	remoteCall(targetPlayer, 'toDiscard',[convertCardListIntoCardIDsList(cardsToDiscard), 0, 0, False, True, True, False, True])
 
 def dolmarks():
 	sacrifice()
@@ -3754,14 +3751,14 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False, clearWaitingFunctions=True)
 			if not isNewTurn:
 				card.orientation=Rot0
 			elif not isCreature(card) or isBait(card, evolveDict) or not cardScripts.get(card.properties["Name"], {}).get('silentSkill', []):
-				if autoUntapCreaturesCheck():
+				if getAutoUntapCreaturesSetting():
 					card.orientation=Rot0
 			#Silent Skill Check
 			else:
 					silentSkillCards.append(card)
 					continue
 		# Untap Mana (wide cards are treated as untaped if Rot270)
-		if isTapped(card) and autoUntapManaCheck():
+		if isTapped(card) and getAutoUntapManaSetting():
 			card.orientation^=Rot90
 	for card in silentSkillCards:
 		choice=askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
@@ -4012,10 +4009,11 @@ def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 
 def showSettingWindow(group,x=0,y=0):
 	mute()
-	options= {1: ("automations", "Card Script Automation", automationsCheck()),
-				2: ("autoUntapCreatures", "Untap Creatures at the start of your Turn", autoUntapCreaturesCheck()),
-				3: ("autoUntapMana", "Untap Mana at the start of your Turn", autoUntapManaCheck()),
-				4: ("autoMoveSpellsAfterPlay", "Move Spells to graveyard after play", autoMoveSpellsAfterPlayCheck())}
+	options= {1: ("automations", "Card Script Automation", getAutomationsSetting()),
+				2: ("autoUntapCreatures", "Untap Creatures at the start of your Turn", getAutoUntapCreaturesSetting()),
+				3: ("autoUntapMana", "Untap Mana at the start of your Turn", getAutoUntapManaSetting()),
+				4: ("autoMoveSpellsAfterPlay", "Move Spells to graveyard after play", getAutoMoveSpellsAfterPlaySetting()),
+				5: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", getAskBeforeDiscardingOwnCardsSetting())}
 	ret=1
 	while ret>0:
 		names=[]
@@ -4023,26 +4021,36 @@ def showSettingWindow(group,x=0,y=0):
 		for x in options:
 			names.append(options[x][1])
 			colors.append("#6a6f76" if options[x][2] == False else "#2b5ba9")
-		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors)
+		ret=askChoice("Toggle Automation Settings:\n(Those settings affect only you and stay between games)", names, colors)
 		if ret>0:
 			options[ret]=(options[ret][0], options[ret][1], not options[ret][2])
-	if options[1][2]!=automationsCheck():
+	if options[1][2]!=getAutomationsSetting():
+		notify('{} changes {} to: "{}"'.format(me, options[1][1], options[1][2]))
 		setSetting(options[1][0], options[1][2])
-	if options[2][2]!=autoUntapCreaturesCheck():
+	if options[2][2]!=getAutoUntapCreaturesSetting():
+		notify('{} changes {} to: "{}"'.format(me, options[2][1], options[2][2]))
 		setSetting(options[2][0], options[2][2])
-	if options[3][2]!=autoUntapManaCheck():
+	if options[3][2]!=getAutoUntapManaSetting():
+		notify('{} changes {} to: "{}"'.format(me, options[3][1], options[3][2]))
 		setSetting(options[3][0], options[3][2])
-	if options[4][2]!=autoMoveSpellsAfterPlayCheck():
+	if options[4][2]!=getAutoMoveSpellsAfterPlaySetting():
+		notify('{} changes {} to: "{}"'.format(me, options[4][1], options[4][2]))
 		setSetting(options[4][0], options[4][2])
+	if options[5][2]!=getAskBeforeDiscardingOwnCardsSetting():
+		notify('{} changes {} to: "{}"'.format(me, options[5][1], options[5][2]))
+		setSetting(options[5][0], options[5][2])
 
-def automationsCheck():
+def getAutomationsSetting():
 	return getSetting("automations", True)
-def autoUntapCreaturesCheck():
+def getAutoUntapCreaturesSetting():
 	return getSetting("autoUntapCreatures", True)
-def autoUntapManaCheck():
+def getAutoUntapManaSetting():
 	return getSetting("autoUntapMana", True)
-def autoMoveSpellsAfterPlayCheck():
+def getAutoMoveSpellsAfterPlaySetting():
 	return getSetting("autoMoveSpellsAfterPlay", True)
+def getAskBeforeDiscardingOwnCardsSetting():
+	return getSetting("askBeforeDiscardingACardFromHand", False)
+
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
@@ -4111,13 +4119,12 @@ def millX(group, x=0, y=0):
 	notify("{} discards top {} cards of Deck.".format(me, count))
 
 #Random discard function (from hand)
-def randomDiscard(group, x=0, y=0):
+def randomDiscard(group, x=0, y=0, remote=False):
 	mute()
 	group=ensureGroupObject(group)
 	if len(group)==0: return
 	card=group.random()
-	toDiscard(card, notifymute=True)
-	notify("{} randomly discards {}.".format(me, card))
+	toDiscard(card, notifymute=True, wasRandom=True, remote=remote)
 
 def fromTopPickX(group, x=0, y=0):
 	if len(group)==0: return
@@ -4686,7 +4693,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		endOfFunctionality(card)
 
 def endOfFunctionality(card):
-	if card and isSpellInBZ(card) and autoMoveSpellsAfterPlayCheck():
+	if card and isSpellInBZ(card) and getAutoMoveSpellsAfterPlaySetting():
 		if any(name in card.name for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
 			toMana(card)
 		else:
@@ -4704,49 +4711,57 @@ def gacharangeSummon(group, x=0, y=0, notifymute=True, ignoreEffects=False, isEv
 		whisper('No cards in Super Gacharange Zone to Gacharange Summon.')
 
 #Discard Card menu option
-def toDiscard(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
+def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True, wasRandom=False, remote=False):
 	mute()
-	card=ensureCardObjects(card)
-	src=card.group
-	cardWasElement=isElement(card) and checkEvo
-	if src==table and checkEvo:
-		baitList=removeBaits(card)
-		for baitCard in baitList:
-			toDiscard(baitCard, checkEvo=False, alignCheck=False)
-	if isPsychic(card):
-		toHyperspatial(card)
-		if cardWasElement: handleOnLeaveBZ(card)
-		return
-	if isGacharange(card):
-		toSuperGacharange(card)
-		if cardWasElement: handleOnLeaveBZ(card)
-		return
-	cardWasMana=isMana(card)
-	card.resetProperties()
-	card.target(False)
-	card.moveTo(card.owner.piles['Graveyard'])
-	if notifymute==False:
-		if src==table:
-			if cardWasMana:
-				notify("{} destroys {} from mana.".format(me, card))
+	cards=ensureCardObjects(cards, True)
+	if any([c.group==me.Hand for c in cards]) and getAskBeforeDiscardingOwnCardsSetting() and remote:
+		if askYN("Card(s) will be discarded from your hand.",choices=["Continue", "Cancel"])!=1:
+			notify("{} canceled the discard of Card(s) in their Hand.".format(me))
+			return
+	for card in cards:
+		src=card.group
+		cardWasElement=isElement(card) and checkEvo
+		if src==table and checkEvo:
+			baitList=removeBaits(card)
+			for baitCard in baitList:
+				toDiscard(baitCard, checkEvo=False, alignCheck=False)
+		if isPsychic(card):
+			toHyperspatial(card)
+			if cardWasElement: handleOnLeaveBZ(card)
+			return
+		if isGacharange(card):
+			toSuperGacharange(card)
+			if cardWasElement: handleOnLeaveBZ(card)
+			return
+		cardWasMana=isMana(card)
+		card.resetProperties()
+		card.target(False)
+		card.moveTo(card.owner.piles['Graveyard'])
+		if notifymute==False:
+			if src==table:
+				if cardWasMana:
+					notify("{} destroys {} from mana.".format(me, card))
+				else:
+					notify("{} destroys {}.".format(me, card))
+				if alignCheck:
+					align()
 			else:
-				notify("{} destroys {}.".format(me, card))
-			if alignCheck:
-				align()
-		else:
-			notify("{} discards {} from {}.".format(me, card, src.name))
-
-	#Handle onDiscard effects
-	if src==card.owner.hand:
-		functionList=[]
-		if cardScripts.get(card.properties["Name"], {}).get('onDiscard', {}):
-			functionList=cardScripts.get(card.properties["Name"]).get('onDiscard')
-			for index, function in enumerate(functionList):
-				waitingFunct.insert(index + 1, [card, function])
-			evaluateWaitingFunctions()
+				if not wasRandom:
+					notify("{} discards {} from {}.".format(me, card, src.name))
+				else:
+					notify("{} randomly discards {} from {}.".format(me, card, src.name))
+		#Handle onDiscard effects
+		if src==card.owner.hand:
+			functionList=[]
+			if cardScripts.get(card.properties["Name"], {}).get('onDiscard', {}):
+				functionList=cardScripts.get(card.properties["Name"]).get('onDiscard')
+				for index, function in enumerate(functionList):
+					waitingFunct.insert(index + 1, [card, function])
+		if cardWasElement: handleOnLeaveBZ(card)
+	orderEvaluatingFunctions()
+	evaluateWaitingFunctions()
 
 	#Handle on Remove From Battle Zone effects:
-	if cardWasElement: handleOnLeaveBZ(card)
 
 #Move To Hand (from battlezone)
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
