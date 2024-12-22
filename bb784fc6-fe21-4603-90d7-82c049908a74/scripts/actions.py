@@ -772,7 +772,7 @@ def resetGame():
 	mute()
 	me.setGlobalVariable("shieldCount", "0")
 	clearFunctionsAndTargets(table)
-	if not getAutomationsSetting(): notify('{} has "Card Script Automation" setting disabled.'.format(me))
+	if not getAutomationsSetting(): notify('{} has " My Card Script Automation" setting disabled.'.format(me))
 	if getAskBeforeDiscardingOwnCardsSetting(): notify('{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me))
 	for player in getPlayers():
 		if player!=me:
@@ -4009,10 +4009,10 @@ def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 
 def showSettingWindow(group,x=0,y=0):
 	mute()
-	options= {1: ("automations", "Card Script Automation", getAutomationsSetting()),
-				2: ("autoUntapCreatures", "Untap Creatures at the start of your Turn", getAutoUntapCreaturesSetting()),
-				3: ("autoUntapMana", "Untap Mana at the start of your Turn", getAutoUntapManaSetting()),
-				4: ("autoMoveSpellsAfterPlay", "Move Spells to graveyard after play", getAutoMoveSpellsAfterPlaySetting()),
+	options= {1: ("automations", "My Card Script Automation", getAutomationsSetting()),
+				2: ("autoUntapCreatures", "Untap my Creatures at the start of your Turn", getAutoUntapCreaturesSetting()),
+				3: ("autoUntapMana", "Untap my Mana at the start of your Turn", getAutoUntapManaSetting()),
+				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play", getAutoMoveSpellsAfterPlaySetting()),
 				5: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", getAskBeforeDiscardingOwnCardsSetting())}
 	ret=1
 	while ret>0:
@@ -4021,7 +4021,15 @@ def showSettingWindow(group,x=0,y=0):
 		for x in options:
 			names.append(options[x][1])
 			colors.append("#6a6f76" if options[x][2] == False else "#2b5ba9")
-		ret=askChoice("Toggle Automation Settings:\n(Those settings affect only you and stay between games)", names, colors)
+		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors, ["Restore defaults"])
+		if ret==-1:
+			setSetting("automations", True)
+			setSetting("autoUntapCreatures", True)
+			setSetting("autoUntapMana", True)
+			setSetting("autoMoveSpellsAfterPlay", True)
+			setSetting("askBeforeDiscardingACardFromHand", False)
+			notify('{} restores the settings to defaults.'.format(me))
+			return
 		if ret>0:
 			options[ret]=(options[ret][0], options[ret][1], not options[ret][2])
 	if options[1][2]!=getAutomationsSetting():
