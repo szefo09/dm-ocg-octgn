@@ -83,7 +83,8 @@
 		<groupaction menu="Set Up Battlezone" execute="setup" />
 		<groupaction menu="End Turn" shortcut="ctrl+E" execute="endTurn" />
 		<groupaction menu="Clear Targets/Arrows" shortcut="esc" execute="clearFunctionsAndTargets" />
-		<groupactions menu="OCG Options:">
+		<groupactions menu="Other options:">
+			<groupaction menu="Change Settings" execute="showSettingWindow" />
 			<groupaction menu="Seal your opponent's Elements" execute="sealOpponentElements" />
 			<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
 			<groupaction menu="Add Card from outside the Game" execute="createCard" />
@@ -99,7 +100,7 @@
 			<cardaction menu="Attach Card" execute="attachBait" />
 			<cardaction menu="Detach Card" execute="detachBait" />
 		</cardactions>
-		<cardactions menu="OCG Options:" >
+		<cardactions menu="Other options:" >
 			<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 			<cardaction menu="Seal a Card" execute="seal" />
 			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
@@ -118,7 +119,7 @@
 			<cardaction menu="Discard Card" shortcut="del" execute="toDiscard" />
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 			<groupaction menu="Random Discard" shortcut="ctrl+X" execute="randomDiscard" />
-			<cardactions menu="OCG Options:" >
+			<cardactions menu="Other options:" >
 			<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			</cardactions>
@@ -132,7 +133,7 @@
 			<groupaction menu="Discard Top Card" shortcut="ctrl+F" execute="mill" />
 			<groupaction menu="Discard Top X Cards" shortcut="ctrl+shift+F" execute="millX" />
 			<groupaction menu="Charge Top Card as Mana" shortcut="ctrl+M" execute="mana" />
-			<groupactions menu="OCG Options:" >
+			<groupactions menu="Other options:" >
 				<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
 				<groupaction menu="Yobinion X" shortcut="ctrl+shift+Y" execute="yobinion" />
 				<groupaction menu="Charge Top Card as Face-Down Mana" shortcut="ctrl+shift+M" execute="manaFaceDown" />
@@ -145,7 +146,7 @@
 			<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 			<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
 			<cardaction menu="■ Trigger Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
-			<cardactions menu="OCG Options:" >
+			<cardactions menu="Other options:" >
 				<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 				<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
 			</cardactions>
