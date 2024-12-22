@@ -238,7 +238,7 @@ cardScripts={
 	# ON CAST EFFECTS
 
 	'Abduction Charger': {'onPlay': [lambda card: bounce(2)]},
-	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(getCreatures(), len(getCreatures())>5)]},
+	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(getCreatures()) if len(getCreatures())>5 else None]},
 	'Apocalypse Vise': {'onPlay': [lambda card: apocalypseVise()]},
 	'Big Beast Cannon': {'onPlay': [lambda card: kill(7000)]},
 	'Blizzard of Spears': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 4000)]},
@@ -490,7 +490,7 @@ cardScripts={
 	'Hammerhead Cluster': {'onDestroy': [lambda card: bounce()]},
 	'Jewel Spider': {'onDestroy': [lambda card: bounceShield()]},
 	'Jil Warka, Time Guardian': {'onDestroy': [lambda card: tapCreature(2)]},
-	'Kalute, Vizier of Eternity': {'onDestroy': [lambda card: toHand(card) if any(c for c in getCreatures() if c.Name==card.Name) else None]},
+	'Kalute, Vizier of Eternity': {'onDestroy': [lambda card: toHand(card) if any(c for c in getCreatures(me) if c.Name==card.Name) else None]},
 	'Mighty Shouter': {'onDestroy': [lambda card: toMana(card)]},
 	'Ouks, Vizier of Restoration': {'onDestroy': [lambda card: toShields(card)]},
 	'Peace Lupia': {'onDestroy': [lambda card: tapCreature()]},
@@ -1386,13 +1386,13 @@ def getSurvivorsOnYourTable(searchForEffects=True, evolveDict=None, sealDict=Non
 	if searchForEffects:
 		return [card for card in getCreatures(me, evolveDict, sealDict) if re.search('\{SURVIVOR\}', card.Rules)]
 	else:
-		return [card for card in getCreatures(me, evolveDict, sealDict) and re.search('Survivor', card.Race)]
+		return [card for card in getCreatures(me, evolveDict, sealDict) if re.search('Survivor', card.Race)]
 
 def civilCount(civilization="ALL", count=2):
 	creaturesAndTamaseeds=getCreatures(me)+getTamaseeds(me)
 	if civilization=="ALL":
 		return len(creaturesAndTamaseeds)>=count
-	return len([c for c in getCreatures(me)+getTamaseeds(me) if re.search(civilization,c.Civilization)])>=count
+	return len([c for c in creaturesAndTamaseeds if re.search(civilization,c.Civilization)])>=count
 
 ################ Functions used in the Automation dictionaries.####################
 
@@ -2297,7 +2297,7 @@ def processOnTurnEndEffects():
 
 def processOnTurnStartEffects():
 	(evolveDict, sealDict)=getEvolveDictAndSealDict()
-	cardList=getCreatures(evolveDict, sealDict)
+	cardList=getCreatures(me, evolveDict, sealDict)
 	for card in cardList:
 		functionList=list(cardScripts.get(card.properties["Name"], {}).get('onTurnStart', []))
 		if re.search("Survivor", card.Race):
@@ -2438,9 +2438,9 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 	if targetALL:
 		cardList=[card for card in getCreatures() if card.orientation==Rot0]
 		if onlyOwn:
-			cardList=[card for card in cardList if card.owner==me]
+			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
-			cardList=[card for card in cardList if card.owner!=me]
+			cardList=[card for card in cardList if card.controller!=me]
 		if filterFunction=='True':
 			cardList=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList)==0:
@@ -2452,7 +2452,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 		if onlyOwn:
 			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
-			cardList=[card for card in cardList and card.owner!=me]
+			cardList=[card for card in cardList and card.controller!=me]
 		cardList=[c for c in cardList if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList)==0:
 			return
@@ -2889,7 +2889,7 @@ def dracobarrier():
 		shields(me.deck)
 
 def waveLance():
-	cardList=getCreatures()
+	cardList=[c for c in getCreatures() if not isUntargettable(c)]
 	if len(cardList)==0:
 		whisper("No valid targets on the Table.")
 		return
