@@ -189,6 +189,7 @@ cardScripts={
 	'Rothus, the Traveler': {'onPlay': [lambda card: rothus()]},
 	'Romanesk, the Dragon Wizard': {'onPlay': [lambda card: mana(me.Deck, 4)]},
 	'Rumbling Terahorn': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
+	'Rv Penicillin, Dragment Symbol': {'onPlay': [lambda card: bounceAll(myCards=False) if revolution(card,2) else None]},
 	'Ryokudou, the Principle Defender': {'onPlay': [lambda card: mana(me.Deck,2), lambda card: fromMana()]},
 	'Sarvarti, Thunder Spirit Knight': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Saucer-Head Shark': {'onPlay': [lambda card: bounceAll(filterFunction="c.Power!='Infinity' and int(c.Power.strip('+'))<=2000")]},
@@ -678,7 +679,7 @@ cardScripts={
 	'Awesome! Hot Spring Gallows': {'onTrigger': [lambda card: manaArmsCheck("Water", 3)]},
 	'Awesome! Onsen Gallows': {'onTrigger': [lambda card: manaArmsCheck("Water", 3)]},
 	'Chopin, Dragon King': {'onTrigger': [lambda card: len([c for c in table if re.search(r"\bDragon\b",c.Type) and not isRemovedFromPlay(c)])>0]},
-	'Dogiragon, Royal Revolution': {'onTrigger': [lambda card: len([c for c in table if c!=card and isShield(c) and not me in c.peekers and not isBait(c)])<=2 or askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1]},
+	'Dogiragon, Royal Revolution': {'onTrigger': [lambda card: revolution(card,2,True)]},
 	'Mettagils, Passion Dragon': {'onTrigger': [lambda card: manaArmsCheck("Fire", 5)]},
 	'Nova! Belunare': {'onTrigger': [lambda card: manaArmsCheck("Light", 5)]},
 	'Perfect Alcadeia': {'onTrigger': [lambda card: len([c for c in table if c!=card and isShield(c) and not me in c.peekers and not isBait(c)])<=2 or askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1],
@@ -1313,6 +1314,10 @@ def metamorph():
 	cardList=[card for card in table if isMana(card) and card.owner==me]
 	if len(cardList) >= 7:
 		return True
+
+def revolution(card, number, shieldTrigger=False):
+    shieldList = [c for c in table if c.owner==me and c!=card and isShield(c) and not isRemovedFromPlay(c) and me in c.peekers]
+    return len(shieldList)<=number or (shieldTrigger and askYN("Do you have {} or less shields to treat {} as a Shield Trigger?".format(number,card.name))==1)
 
 def getWaveStrikerCount(player='ALL'):
 	cardList=[]
