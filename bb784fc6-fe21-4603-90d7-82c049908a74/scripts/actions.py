@@ -43,7 +43,7 @@ cardScripts={
 	'Aqua Deformer': {'onPlay': [lambda card: bothPlayersFromMana(2, exactCount=True)]},
 	'Aqua Hulcus': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Aqua Hulk': {'onPlay': [lambda card: draw(me.Deck, True)]},
-	'Aqua Sniper': {'onPlay': [lambda card: bounce(2)]},
+	'Aqua Sniper': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Aqua Strummer': {'onPlay': [lambda card: me.Deck.lookAt(5)]},
 	'Aqua Surfer': {'onPlay': [lambda card: bounce()]},
 	'Aqua Trickster': {'onPlay': [lambda card: waveStriker(lambda card: tapCreature(), card)]},
@@ -237,7 +237,7 @@ cardScripts={
 
 	# ON CAST EFFECTS
 
-	'Abduction Charger': {'onPlay': [lambda card: bounce(2)]},
+	'Abduction Charger': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(getCreatures()) if len(getCreatures())>5 else None]},
 	'Apocalypse Vise': {'onPlay': [lambda card: apocalypseVise()]},
 	'Big Beast Cannon': {'onPlay': [lambda card: kill(7000)]},
@@ -426,7 +426,7 @@ cardScripts={
 	'Super Burst Shot': {'onPlay': [lambda card: destroyAll([c for c in getCreatures() if c.owner!=me], True, 2000)]},
 	'Super Infernal Gate Smash': {'onPlay': [lambda card: kill()]},
 	'Super Spark': {'onPlay': [lambda card: tapCreature(1,True)]},
-	'Teleportation': {'onPlay': [lambda card: bounce(2)]},
+	'Teleportation': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Ten-Ton Crunch': {'onPlay': [lambda card: kill(3000)]},
 	'Terror Pit': {'onPlay': [lambda card: kill("All")]},
 	'The Grave of Angels and Demons': {'onPlay': [lambda card: theGraveOfAngelsAndDemons()]},
@@ -1031,6 +1031,8 @@ def clearWaitingFuncts():  # clears any pending plays for a card that's waiting 
 
 def orderEvaluatingFunctions():
 	global alreadyEvaluating, waitingFunct
+	if not getDialogSimultaneousCardEffectsSetting():
+		return
 	if waitingFunct:
 		waitingFunctions=list(waitingFunct)
 		effectAlreadyProcessing=None
@@ -2058,7 +2060,7 @@ def sacrifice(power='inf', count=1, filterFunction='True'):
 		destroy(choice)
 
 #Return targeted creatures to hand
-def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', conditionalFromLastFunction=False):
+def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', conditionalFromLastFunction=False, upTo=False):
 	mute()
 	if count==0: return
 	global evaluateNextFunction
@@ -2070,26 +2072,18 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 		cardList=[c for c in getElements() if c.owner!=me and not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 	else:
 		cardList=[c for c in getElements() if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
-	if len(cardList) < 1:
+	if len(cardList)==0:
 		whisper("No valid targets on the Table.")
 		return
-
 	count=min(count, len(cardList))
-	targets=[c for c in table if c.targetedBy==me]
-	if len(targets)!=count:
+	targets=[c for c in cardList if c.targetedBy==me]
+	if (not upTo and len(targets)!=count) or (upTo and len(targets)==0):
 		return True #forcing octgn to go to targets function and wait
+	if upTo and len(targets) and len(targets)<count:
+		choice =  askYN("Pick another target?")
+		if choice == 1: return True
 
-	bounceList=[]
-	for i in range(0, count):
-		if (targets[i] in cardList):
-			choice=targets[i]
-			bounceList.append(choice)
-			whisper("{}.".format(choice))
-		else:
-			whisper("Wrong target(s)!")
-			return True #true return forces wait. The same function is called again when targets change.
-
-	for card in bounceList:
+	for card in targets:
 		if toDeckTop:
 			remoteCall(card.owner, "toDeck", convertCardListIntoCardIDsList(card))
 		else:
@@ -4009,44 +4003,38 @@ def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 
 def showSettingWindow(group,x=0,y=0):
 	mute()
-	options= {1: ("automations", "My Card Script Automation", getAutomationsSetting()),
-				2: ("autoUntapCreatures", "Untap my Creatures at the start of your Turn", getAutoUntapCreaturesSetting()),
-				3: ("autoUntapMana", "Untap my Mana at the start of your Turn", getAutoUntapManaSetting()),
-				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play", getAutoMoveSpellsAfterPlaySetting()),
-				5: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", getAskBeforeDiscardingOwnCardsSetting())}
+	options= {1: ("automations", "My Cards' Script Automation", lambda: getAutomationsSetting()),
+				2: ("autoUntapCreatures", "Untap my Creatures at the start of your Turn", lambda: getAutoUntapCreaturesSetting()),
+				3: ("autoUntapMana", "Untap my Mana at the start of your Turn", lambda: getAutoUntapManaSetting()),
+				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play", lambda: getAutoMoveSpellsAfterPlaySetting()),
+				5: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", lambda: getAskBeforeDiscardingOwnCardsSetting()),
+				6: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating", lambda: getDialogSimultaneousCardEffectsSetting())}
 	ret=1
 	while ret>0:
 		names=[]
 		colors=[]
-		for x in options:
-			names.append(options[x][1])
-			colors.append("#6a6f76" if options[x][2] == False else "#2b5ba9")
+		for value in options.values():
+			names.append(value[1])
+			colors.append("#6a6f76" if not value[2]() else "#2b5ba9")
+
 		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors, ["Restore defaults"])
 		if ret==-1:
-			setSetting("automations", True)
-			setSetting("autoUntapCreatures", True)
-			setSetting("autoUntapMana", True)
-			setSetting("autoMoveSpellsAfterPlay", True)
-			setSetting("askBeforeDiscardingACardFromHand", False)
+			defaults={
+				"automations": True,
+				"autoUntapCreatures": True,
+				"autoUntapMana": True,
+				"autoMoveSpellsAfterPlay": True,
+				"askBeforeDiscardingACardFromHand": False,
+				"showDialogSimultaneousCardEffects": True}
+			for key, value in defaults.items():
+				setSetting(key, value)
 			notify('{} restores the settings to defaults.'.format(me))
 			return
 		if ret>0:
-			options[ret]=(options[ret][0], options[ret][1], not options[ret][2])
-	if options[1][2]!=getAutomationsSetting():
-		notify('{} changes {} to: "{}"'.format(me, options[1][1], options[1][2]))
-		setSetting(options[1][0], options[1][2])
-	if options[2][2]!=getAutoUntapCreaturesSetting():
-		notify('{} changes {} to: "{}"'.format(me, options[2][1], options[2][2]))
-		setSetting(options[2][0], options[2][2])
-	if options[3][2]!=getAutoUntapManaSetting():
-		notify('{} changes {} to: "{}"'.format(me, options[3][1], options[3][2]))
-		setSetting(options[3][0], options[3][2])
-	if options[4][2]!=getAutoMoveSpellsAfterPlaySetting():
-		notify('{} changes {} to: "{}"'.format(me, options[4][1], options[4][2]))
-		setSetting(options[4][0], options[4][2])
-	if options[5][2]!=getAskBeforeDiscardingOwnCardsSetting():
-		notify('{} changes {} to: "{}"'.format(me, options[5][1], options[5][2]))
-		setSetting(options[5][0], options[5][2])
+			key, title, currentSetting = options[ret]
+			newSetting = not currentSetting()
+			setSetting(key, newSetting)
+			notify('{} changes {} to: "{}"'.format(me, title, newSetting))
 
 def getAutomationsSetting():
 	return getSetting("automations", True)
@@ -4058,6 +4046,8 @@ def getAutoMoveSpellsAfterPlaySetting():
 	return getSetting("autoMoveSpellsAfterPlay", True)
 def getAskBeforeDiscardingOwnCardsSetting():
 	return getSetting("askBeforeDiscardingACardFromHand", False)
+def getDialogSimultaneousCardEffectsSetting():
+	return getSetting("showDialogSimultaneousCardEffects", True)
 
 
 #Deck Menu Options

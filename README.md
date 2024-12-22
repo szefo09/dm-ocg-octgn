@@ -346,11 +346,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 - **Other Improvements**
   - **Added settings that persist between lobbies with following settings:**
-    - Toggle: Card Script Automation
-    - Toggle: Untap Creatures at the start of your Turn
-    - Toggle: Untap Mana at the start of your Turn
-    - Toggle: Move Spells to graveyard after play
-    - Toggle: Ask before discarding a card from your hand
+    - Toggle: My Card Script Automation
+    - Toggle: Untap my Creatures at the start of your Turn
+    - Toggle: Untap my Mana at the start of your Turn
+    - Toggle: Move my Spells to Graveyard after play
+    - Toggle: Ask before discarding a card from my hand
+    - Toggle: Pick order of simultaneous Card Effects activating
   - **Added many conditional shield trigger cards**
   - **Added Support for finding Elements, rewrote basic functions to allow Elements, and not just creatures to be sent to Hand, Deck, Graveyard, Mana or Shields**
   - **Changed Shield Icon - [Attributions](#attributions)**
@@ -376,6 +377,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 ### Fixes
 - **Card Fixes**
+  - **Aqua Sniper, Teleportation, Abduction Charger**: Allow you to stop picking targets after the first one.
   - **Dandy Eggplant**: Now let's you pick a card from Deck to put to Mana, and then a card from Mana to Graveyard.
   - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
   - **Emperor Marco, Cyber Brain**: Fixed to prompt for stopping the draw when applicable.
