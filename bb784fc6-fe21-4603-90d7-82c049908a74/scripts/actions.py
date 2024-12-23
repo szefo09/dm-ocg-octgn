@@ -2092,10 +2092,7 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction='True'):
 	mute()
 	group=ensureGroupObject(group)
-	cardList=[c for c in group if isCreature(c)
-										and not isRemovedFromPlay(c)
-										and ((opponentCards and c.owner!=me) or (myCards and c.owner==me))
-										and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in getCreatures() if ((opponentCards and c.controller!=me) or (myCards and c.controller==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList)==0: return
 	for card in cardList:
 		remoteCall(card.owner, "toHand", convertCardListIntoCardIDsList(card))
@@ -2121,7 +2118,7 @@ def peekShield(count=1, onlyOpponent=False):
 	targets=[]
 	if count!=len(cardList):
 		whisper('Target opponent\'s Shield(s).')
-		targets=[c for c in table if c.targetedBy==me and c in cardList]
+		targets=[c for c in cardList if c.targetedBy==me]
 		if len(targets)!=count:
 			whisper('Wrong target(s)!')
 			return True
@@ -2313,7 +2310,7 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 	if len(cardList)==0: return
 	count=min(count, len(cardList))
 	if count==0: return
-	targets=[c for c in table if c.targetedBy==me and c in cardList]
+	targets=[c for c in cardList if c.targetedBy==me]
 	if len(targets)!=count:
 		whisper("Wrong number of targets!")
 		return True
@@ -2324,11 +2321,7 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 #Send creature to Mana
 def sendToMana(count=1, opponentCards=True, myCards=False, filterFunction='True'):
 	mute()
-	cardList=[c for c in table if isElement(c)
-		  and not isRemovedFromPlay(c)
-		  and not isUntargettable(c)
-		  and ((opponentCards and c.owner!=me) or (myCards and c.owner==me))
-		  and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in getElements() if not isUntargettable(c) and ((opponentCards and c.owner!=me) or (myCards and c.owner==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList)==0: return
 	if me.isInverted: reverseCardList(cardList)
 	choices=askCard2(cardList, 'Choose {} Creature(s) to send to Mana Zone'.format(count), maximumToTake=count, returnAsArray=True)
@@ -2882,7 +2875,7 @@ def waveLance():
 	if len(cardList)==0:
 		whisper("No valid targets on the Table.")
 		return
-	target=[c for c in table if c.targetedBy==me and c in cardList]
+	target=[c for c in cardList if c.targetedBy==me]
 	if len(target)!=1:
 		whisper("Wrong number of targets!")
 		return True
@@ -3105,7 +3098,7 @@ def miraculousRebirth():
 	if len(cardList)==0:
 		whisper("No valid targets on the Table.")
 		return
-	targetCard=[c for c in table if c.targetedBy==me and c in cardList]
+	targetCard=[c for c in cardList if c.targetedBy==me]
 	if len(targetCard)!=1:
 		whisper("Wrong number of targets!")
 		return True
