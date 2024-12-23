@@ -551,7 +551,7 @@ cardScripts={
 	'Heavyweight Dragon': {'onTap': [lambda card: heavyweightDragon(card)]},
 	'Hokira': {'onTap': [lambda card: declareRace(card)]},
 	'Kipo\'s Contraption': {'onTap': [lambda card: kill(2000)]},
-	'Mummy Wrap, Shadow of Fatigue': {'onTap': [lambda card: randomDiscard(me.Hand), lambda card: targetDiscard(True)]},
+	'Mummy Wrap, Shadow of Fatigue': {'onTap': [lambda card: randomDiscard(me.Hand, remote=True), lambda card: targetDiscard(True)]},
 	'Neon Cluster': {'onTap': [lambda card: draw(me.Deck,False,2)]},
 	'Popple, Flowerpetal Dancer': {'onTap': [lambda card: mana(me.Deck)]},
 	'Rikabu\'s Screwdriver': {'onTap': [lambda card: kill(count=1, rulesFilter="{BLOCKER}")]},
@@ -1546,8 +1546,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	if randomDiscard:
-		for i in range(count):
-			remoteCall(targetPlayer, 'randomDiscard', [convertGroupIntoGroupNameList(targetPlayer.hand), 0, 0, True])
+		remoteCall(targetPlayer, 'randomDiscard', [convertGroupIntoGroupNameList(targetPlayer.hand), 0, 0, True, count])
 		return
 	cardList=[card for card in targetPlayer.hand]
 	#Both players see the opponent's hand reversed
@@ -2351,9 +2350,8 @@ def selfDiscard(count=1):
 		notify("Discard cancelled.")
 		return
 		# do anti-discard check here
-	for cardChoice in cardChoices:
-		toDiscard(cardChoice)
-		update()
+	toDiscard(cardChoices)
+	update()
 
 #Summon creature after it got discarded
 def toPlayAfterDiscard(card, onlyOnOpponentTurn=True):
@@ -4117,12 +4115,19 @@ def millX(group, x=0, y=0):
 	notify("{} discards top {} cards of Deck.".format(me, count))
 
 #Random discard function (from hand)
-def randomDiscard(group, x=0, y=0, remote=False):
+def randomDiscard(group, x=0, y=0, remote=False, count=1):
 	mute()
 	group=ensureGroupObject(group)
-	if len(group)==0: return
-	card=group.random()
-	toDiscard(card, wasRandom=True, remote=remote)
+	cardsToDiscard=set()
+	count=min(count, len(group))
+	if count==0:return
+	for i in range(0, count):
+		while (True):
+			card=group.random()
+			if card not in cardsToDiscard:
+				cardsToDiscard.add(card)
+				break
+	toDiscard(list(cardsToDiscard), wasRandom=True, remote=remote)
 
 def fromTopPickX(group, x=0, y=0):
 	if len(group)==0: return
