@@ -1560,7 +1560,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 		notify("Discard cancelled.")
 		return
 	if targetZone=='grave':
-		remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(cardChoices), 0, 0, False, True, rue, False, True])
+		remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(cardChoices), 0, 0, False, True, True, False, True])
 		return
 	for cardChoice in cardChoices:
 		if targetZone=='mana':
