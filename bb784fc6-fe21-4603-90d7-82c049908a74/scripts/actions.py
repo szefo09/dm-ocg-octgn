@@ -4122,7 +4122,7 @@ def randomDiscard(group, x=0, y=0, remote=False):
 	group=ensureGroupObject(group)
 	if len(group)==0: return
 	card=group.random()
-	toDiscard(card, notifymute=True, wasRandom=True, remote=remote)
+	toDiscard(card, wasRandom=True, remote=remote)
 
 def fromTopPickX(group, x=0, y=0):
 	if len(group)==0: return
@@ -4744,10 +4744,7 @@ def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True,
 				if alignCheck:
 					align()
 			else:
-				if not wasRandom:
-					notify("{} discards {} from {}.".format(me, card, src.name))
-				else:
-					notify("{} randomly discards {} from {}.".format(me, card, src.name))
+				notify("{} {}discards {} from {}.".format(me,"randomly " if wasRandom else "", card, src.name))
 		#Handle onDiscard effects
 		if src==card.owner.hand:
 			functionList=[]
