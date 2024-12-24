@@ -16,6 +16,8 @@ civ_order=['Colorless', 'Light', 'Water', 'Darkness', 'Fire', 'Nature']
 shieldMarker=('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 sealMarker=('Seal', '0d9c9e74-7d60-4433-b0b2-361aef2b18ea')
 waitingFunct=[]  # Functions waiting for targets. Please replace this with FUNCTIONS waiting for targets later. If a card calls 2 functions both will happen again otherwise
+endOfTurnFunct=[]  # Functions waiting for end of turn to resolve.
+startOfTurnFunct=[]  # Functions waiting for end of turn to resolve.
 evaluateNextFunction=True #For conditional evaluation of one function after the other, currently only implemented for bounce() in IVT
 alreadyEvaluating=False
 wscount=0
@@ -151,6 +153,7 @@ cardScripts={
 	'Lucky Ball': {'onPlay': [lambda card: draw(me.Deck,True, 2) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=3 else None]},
 	'Lugias, The Explorer': {'onPlay': [lambda card: tapCreature()]},
 	'Locomotiver': {'onPlay': [lambda card: targetDiscard(True)]},
+	'Loth Rix, the Iridescent': {'onPlay': [lambda card: shields(me.deck)]},
 	'Magris, Vizier of Magnetism': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Magmarex': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 1000,"ALL", False, True)]},
 	'Marinomancer': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, "re.search('Light', c.Civilization) or re.search('Darkness', c.Civilization)")]},
@@ -166,6 +169,7 @@ cardScripts={
 	'Nam=Daeddo, Bronze Style': {'onPlay': [lambda card: mana(me.Deck, preCondition=manaArmsCheck("Nature",3))]},
 	'Necrodragon Bryzenaga': {'onPlay': [lambda card: peekShields(getShields(me), False)]},
 	'Necrodragon Zalva': {'onPlay': [lambda card: remoteCall(getTargetPlayer(onlyOpponent=True), "draw", [])]},
+	'Neve, the Leveler': {'onPlay': [lambda card: search(me.Deck, len(getCreatures(getTargetPlayer(onlyOpponent=True)))-len(getCreatures(me)), "Creature")]},
 	'Niofa, Horned Protector': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "Nature")]},
 	'Ochappi, Pure Hearted Faerie': {'onPlay': [lambda card: fromGraveyardToMana(ask=True)]},
 	'Onslaughter Triceps': {'onPlay': [lambda card: fromMana(toGrave=True)]},
@@ -485,6 +489,7 @@ cardScripts={
 	'Dracodance Totem': {'onDestroy': [lambda card: dracodanceTotem(card)]},
 	'Engineer Kipo': {'onDestroy': [lambda card: bothPlayersFromMana(1,True)]},
 	'Fly Lab, Crafty Demonic Tree': {'onDestroy': [lambda card: targetDiscard(True)]},
+	'Gigagrax': {'onDestroy': [lambda card: kill()]},
 	'Gigastand': {'onDestroy': [lambda card: returnAndDiscard(card)]},
 	'Glider Man': {'onDestroy': [lambda card: targetDiscard()]},
 	'Hammerhead Cluster': {'onDestroy': [lambda card: bounce()]},
@@ -547,7 +552,7 @@ cardScripts={
 	'Deklowaz, the Terminator': {'onTap': [lambda card: destroyAll(getCreatures(), True, 3000), lambda card: deklowazDiscard()]},
 	'Gigio\'s Hammer': {'onTap': [lambda card: declareRace(card)]},
 	'Grim Soul, Shadow of Reversal': {'onTap': [lambda card: search(me.piles["Graveyard"],1,"Creature","Darkness")]},
-	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(1, "re.search(r'Dragon\\b', c.Race, re.I)")]},
+	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(1, "re.search(r'Dragon\\b', c.Race, re.I)", {"delayTo":"EndOfTurn", "card":card, "effects":[lambda card, c: destroy(c) if isCreature(c) and not isRemovedFromPlay(c) else None]})]},
 	'Heavyweight Dragon': {'onTap': [lambda card: heavyweightDragon(card)]},
 	'Hokira': {'onTap': [lambda card: declareRace(card)]},
 	'Kipo\'s Contraption': {'onTap': [lambda card: kill(2000)]},
@@ -1762,6 +1767,7 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 	group=ensureGroupObject(group)
 	if len(group)==0: return
 	maximumToTake=min(count,len(group))
+	if maximumToTake<=0: return
 	dialogText='Search {} '.format(maximumToTake) + '{}(s) to take to hand'
 	cardsInGroup=[card for card in group]
 	if TypeFilter!="ALL":
@@ -2277,9 +2283,22 @@ def processOnTurnEndEffects():
 				if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onTurnEnd', []):
 					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnEnd'))
 		if len(functionList)>0:
-			notify('{} acitvates at the end of {}\'s turn'.format(card, me))
+			notify('{} activates at the end of {}\'s turn'.format(card, me))
 			for function in functionList:
 				waitingFunct.append([card, function])
+
+	#endOfTurnFunct is an array: [requireCardOnFieldToActivate, removeAfterActivation, [card, functionList]]
+	for function in list(endOfTurnFunct):
+		requireCardOnFieldToActivate=function[0]
+		removeAfterActivation=function[1]
+		cardFunctList=function[2]
+		if requireCardOnFieldToActivate and (not isElement(card) or isRemovedFromPlay(card)):
+			endOfTurnFunct.remove(function)
+			return
+		notify('{} activates at the end of {}\'s turn'.format(function[1][0], me))
+		waitingFunct.append(cardFunctList)
+		if removeAfterActivation:
+			endOfTurnFunct.remove(function)
 	orderEvaluatingFunctions()
 	evaluateWaitingFunctions()
 
@@ -2294,9 +2313,21 @@ def processOnTurnStartEffects():
 				if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onTurnStart', []):
 					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnStart'))
 		if len(functionList)>0:
-			notify('{} acitvates at the start of {}\'s turn'.format(card, me))
+			notify('{} activates at the start of {}\'s turn'.format(card, me))
 			for function in functionList:
 				waitingFunct.append([card, function])
+	#startOfTurnFunct is an array: [requireCardOnFieldToActivate, removeAfterActivation, [card, functionList]]
+	for function in list(startOfTurnFunct):
+		requireCardOnFieldToActivate=function[0]
+		removeAfterActivation=function[1]
+		cardFunctList=function[2]
+		if requireCardOnFieldToActivate and (not isElement(card) or isRemovedFromPlay(card)):
+			startOfTurnFunct.remove(function)
+			return
+		notify('{} activates at the start of {}\'s turn'.format(function[1][0], me))
+		waitingFunct.append(cardFunctList)
+		if removeAfterActivation:
+			startOfTurnFunct.remove(function)
 	orderEvaluatingFunctions()
 	evaluateWaitingFunctions()
 
@@ -2518,6 +2549,31 @@ def mode(functionArray,card, choiceText=[], deb=False, count=1):
 		if choice==0: return
 		waitingFunct.insert(1, [card,functionArray[choice-1]])
 		notify("{} chose {} effect of {}".format(me,choiceText[choice-1],card))
+
+#addDelayedEffect allows you to add an effect to activate on turn Start or on turn End. Args are passed down to the function to activate.
+#effectDictionary is a dictionary with those keys: {"delayTo", "card", "effects", "requireCardOnFieldToActivate", "removeAfterActivation"}
+#it appends to either EndOfTurnFunct or startOfTurnFunct arrays looking like so: [requireCardOnFieldToActivate, removeAfterActivation, [card,function]
+def addDelayedEffect(effectDictionary, args):
+	if type(effectDictionary) is not dict:
+		return
+	if type(args) is not list:
+		args=[args]
+	delayTo=effectDictionary.get("delayTo")
+	card=effectDictionary.get("card")
+	functionArray=effectDictionary.get("effects")
+	if callable(functionArray):
+		functionArray=[functionArray]
+	requireCardOnFieldToActivate=effectDictionary.get("requireCardOnFieldToActivate", False)
+	removeAfterActivation=effectDictionary.get("removeAfterActivation", True)
+	
+	if delayTo=="EndOfTurn":
+		listToAppendTo=endOfTurnFunct
+	elif delayTo=="StartOfTurn":
+		listToAppendTo=startOfTurnFunct
+	else: 
+		return
+	for funct in functionArray:
+		listToAppendTo.append([requireCardOnFieldToActivate, removeAfterActivation, [card, lambda card=card, args=args: funct(card, *args)]])
 
 def activateButtonEffect(card, x=0, y=0):
 	mute()
@@ -3286,7 +3342,8 @@ def fromGraveyardAll(filterFunction='True', ask=False, moveToMana=True, moveToHa
 		if moveToMana: toMana(c)
 		elif moveToHand: toHand(c)
 
-def fromDeckToField(count=1, filterFunction='True'):
+#delayedEffect takes a 
+def fromDeckToField(count=1, filterFunction='True', delayedEffect=False):
 	mute()
 	group=me.deck
 	if len(group)==0: return
@@ -3301,6 +3358,8 @@ def fromDeckToField(count=1, filterFunction='True'):
 		if all(c in validChoices for c in choices):
 			for choice in choices:
 				toPlay(choice)
+				if delayedEffect:
+					addDelayedEffect(delayedEffect, choice)
 			break
 	shuffle(group)
 	notify("{} finishes searching their {}.".format(me, group.name))
