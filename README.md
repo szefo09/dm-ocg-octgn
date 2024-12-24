@@ -8,389 +8,392 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-- **New Cards Added (381+)**:
-  - **All Sunrise**
-  - **Ancient Horn, the Watcher**
-  - **Angila, Electro-Mask**
-  - **Aquan**
-  - **Aqua Strummer**
-  - **Aqua Trickster**
-  - **Baraga, Blade of Gloom**
-  - **Berochika, Channeler of Suns**
-  - **Bombazar, Dragon of Destiny**
-  - **Bonfire Lizard**
-  - **Bubble Lamp**
-  - **Carnival Totem**
-  - **Cebu Aquman Jr.**
-  - **Core-Crash Lizard**
-  - **Cranium Clamp**
-  - **Crystal Paladin**
-  - **Dandy Nasuo**
-  - **Dedreen, the Hidden Corrupter**
-  - **Dimension Splitter**
-  - **Drill Mutant**
-  - **Doboulgyser, Giant Rock Beast**
-  - **Dolgeza, Strong Striker**
-  - **Dolmarks, the Shadow Warrior**
-  - **Dorballom, Lord of Demons**
-  - **Earth Ripper, Talon of Rage**
-  - **Emeral**
-  - **Eviscerating Warrior Lumez**
-  - **Explosive Fighter Ucarn**
-  - **Explosive Trooper Zalmez**
-  - **Extreme Crawler**
-  - **Flame Trooper Goliac**
-  - **Frantic Chieftain**
-  - **Galklife Dragon**
-  - **Gigabuster**
-  - **Gigandura**
-  - **Gigarayze**
-  - **Grape Globbo**
-  - **Hazaria, Duke of Thorns**
-  - **Hurricane Crawler**
-  - **Imen=Bugo, Dragon Edge**
-  - **Imen=Bugo, Dragon Ruler**
-  - **Jagila, the Hidden Pillager**
-  - **Katta Kirifuda & Katsuking -Story of Passion-**
-  - **King Aquakamui**
-  - **King Mazelan**
-  - **King Muu Q**
-  - **King Tsunami**
-  - **Klujadras**
-  - **Kulus, Soulshine Enforcer**
-  - **Larba Geer, the Immaculate**
-  - **Lucky Ball**
-  - **Loth Rix, the Iridescent**
-  - **Magmarex**
-  - **Marinomancer**
-  - **Metal Avenger Solid, Dragon Edge**
-  - **Metal Avenger Solid, Dragon Ruler**
-  - **Mechadragon's Breath**
-  - **Midnight Crawler**
-  - **Mizoy, the Oracle**
-  - **Necrodragon Bryzenaga**
-  - **Necrodragon Zalva**
-  - **Neve, the Leveler**
-  - **Onslaughter Triceps**
-  - **Poison Worm**
-  - **Punch Trooper Bronks**
-  - **Q-tronic Hypermind**
-  - **Raptor Fish**
-  - **Rimuel, Cloudbreak Elemental**
-  - **Ripple Lotus Q**
-  - **Rv Penicillin, Dragment Symbol**
-  - **Saucer-Head Shark**
-  - **Sasoris, Dragon Edge**
-  - **Sasoris, Dragon Ruler**
-  - **Scarlet Skyterror**
-  - **Skeleton Thief, the Revealer**
-  - **Skyscraper Shell**
-  - **Spark Chemist, Shadow of Whim**
-  - **Storm Shell**
-  - **Steamroller Mutant**
-  - **Stinger Worm**
-  - **Swamp Worm**
-  - **Telitol, the Explorer**
-  - **Tekorax**
-  - **The=Deadman, Dragon Edge**
-  - **The=Deadman, Dragon Ruler**
-  - **Three-Faced Ashura Fang**
-  - **Trenchdive Shark**
-  - **Trombo, Fractured Doll**
-  - **Trox, General of Destruction**
-  - **Uncanny Turnip**
-  - **Vampire Silphy**
-  - **Wily Carpenter**
-  - **Apocalypse Vise**
-  - **Aquan Jr.'s Delivery**
-  - **Bonds of Justice**
-  - **Brain Charger**
-  - **Brain Re:Charger**
-  - **Brutal Charge**
-  - **Cataclysmic Eruption**
-  - **Child Festival of Faerie Fire**
-  - **Cloned Blade**
-  - **Cloned Deflector**
-  - **Cloned Spiral**
-  - **Comet Missile**
-  - **Crisis Boulder**
-  - **Critical Blade**
-  - **Cyclone Panic**
-  - **Dance of the Sproutlings**
-  - **Darkpact**
-  - **Death Cruzer, the Annihilator**
-  - **Diamondia, the Blizzard Rider**
-  - **Divine Riptide**
-  - **Slash Charger**
-  - **Emergency Typhoon**
-  - **Energy Re:Light**
-  - **Enigmatic Cascade**
-  - **Faerie Re:Life**
-  - **Freezing Icehammer**
-  - **Future Slash**
-  - **Ghastly Drain**
-  - **Glory Snow**
-  - **Grinning Hunger**
-  - **Hell Hand**
-  - **Hirameki Program**
-  - **Hydro Hurricane**
-  - **Illusionary Merfolk**
-  - **Impossible Tunnel**
-  - **Intense Evil**
-  - **Dondon Vacuuming Now**
-  - **Invincible Cataclysm**
-  - **Judgement of the Flame's Spear and the Water's Blade**
-  - **Justice Jamming**
-  - **Laser Whip**
-  - **Liquid Scope**
-  - **Lost Re:Soul**
-  - **Lunar Charger**
-  - **Mana Nexus**
-  - **Magical Pot**
-  - **Mendelssohn**
-  - **Miraculous Meltdown**
-  - **Miraculous Plague**
-  - **Mulch Charger**
-  - **Mystic Treasure Chest**
-  - **Nightmare Machine**
-  - **Proclamation of Death**
-  - **Rain of Arrows**
-  - **Rainbow Gate**
-  - **Rainbow Stone**
-  - **Rapid Reincarnation**
-  - **Recon Operation**
-  - **Relentless Blitz**
-  - **Reverse Re:Charger**
-  - **Roar of the Earth**
-  - **Roulette of Ruin**
-  - **Scheming Hands**
-  - **Screaming Sunburst**
-  - **Shock Hurricane**
-  - **Siren Concerto**
-  - **Snake Attack**
-  - **Soulswap**
-  - **Soul Gulp**
-  - **Sphere of Wonder**
-  - **Static Warp**
-  - **Submarine Project**
-  - **The Grave of Angels and Demons**
-  - **Thought Probe**
-  - **Thunder Net**
-  - **Treasure Map**
-  - **Unified Resistance**
-  - **Upheaval**
-  - **Vacuum Gel**
-  - **Vine Charger**
-  - **Virtual Tripwire**
-  - **Wave Lance**
-  - **Whisking Whirlwind**
-  - **Aless, the Oracle**
-  - **Asylum, Elemental Dragon Knight**
-  - **Balloonshroom Q**
-  - **Bombersaur**
-  - **Bruiser Dragon**
-  - **Chilias, the Oracle**
-  - **Engineer Kipo**
-  - **Gigagrax**
-  - **Gigastand**
-  - **Jewel Spider**
-  - **Kalute, Vizier of Eternity**
-  - **Dream Pirate, Shadow of Theft**
-  - **Raza Vega, Thunder Guardian**
-  - **Ryudmila, Channeler of Suns**
-  - **Schuka, Duke of Amnesia**
-  - **Sinister General Damudo**
-  - **Stallob, the Lifequasher**
-  - **Jasper, the Stubborn**
-  - **Revival Soldier**
-  - **Aura Pegasus, Avatar of Life**
-  - **Cruel Naga, Avatar of Fate**
-  - **Death Phoenix, Avatar of Doom**
-  - **Eternal Phoenix, Dragonflame Phoenix**
-  - **Wise Starnoid, Avatar of Hope**
-  - **Algo Bardiol, Devil Admiral**
-  - **Baiken, Blue Dragon of the Hidden Blade**
-  - **Bingole, the Explorer**
-  - **Dava Torey, Seeker of Clouds**
-  - **Gauss Blazer, Flame Dragon Admiral**
-  - **Lanerva Stratus, Poseidon's Admiral**
-  - **Mecha Admiral Sound Shooter**
-  - **Sanfist, the Savage Vizier**
-  - **Sephia Parthenon, Spirit Admiral**
-  - **Sir Matthias, Ice Fang Admiral**
-  - **Terradragon Arque Delacerna**
-  - **Yu Wandafor, Phantom Beast Admiral**
-  - **Zack Pichi, Winged Dragon Admiral**
-  - **Adomis, the Oracle**
-  - **Aeropica**
-  - **Aqua Fencer**
-  - **Bliss Totem, Avatar of Luck**
-  - **Brood Shell**
-  - **Charmilia, the Enticer**
-  - **Chen Treg, Vizier of Blades**
-  - **Cosmogold, Spectral Knight**
-  - **Crath Lade, Merciless King**
-  - **Deklowaz, the Terminator**
-  - **Gandar, Seeker of Explosions**
-  - **Gigio's Hammer**
-  - **Grim Soul, Shadow of Reversal**
-  - **Kachua, Keeper of the Icegate**
-  - **Heavyweight Dragon**
-  - **Hokira**
-  - **Kipo's Contraption**
-  - **Mummy Wrap, Shadow of Fatigue**
-  - **Neon Cluster**
-  - **Popple, Flowerpetal Dancer**
-  - **Rikabu's Screwdriver**
-  - **Rondobil, the Explorer**
-  - **Silvermoon Trailblazer**
-  - **Sky Crusher, the Agitator**
-  - **Tanzanyte, the Awakener**
-  - **Tank Mutant**
-  - **Techno Totem**
-  - **Tra Rion, Penumbra Guardian**
-  - **Venom Worm**
-  - **Arc Bine, the Astounding**
-  - **Fort Megacluster**
-  - **Living Citadel Vosh**
-  - **Phantasmal Horror Gigazald**
-  - **Aqua Officer**
-  - **Balesk Baj, the Timeburner**
-  - **Ballus, Dogfight Enforcer Q**
-  - **Bazagazeal Dragon**
-  - **Betrale, the Explorer**
-  - **Cutthroat Skyterror**
-  - **Comet Eye, the Spectral Spud**
-  - **Frei, Vizier of Air**
-  - **Gnarvash, Merchant of Blood**
-  - **Hazard Hopper**
-  - **Hearty Cap'n Polligon**
-  - **Laveil, Seeker of Catastrophe**
-  - **Lone Tear, Shadow of Solitude**
-  - **Lukia Lex, Pinnacle Guardian**
-  - **Nial, Vizier of Dexterity**
-  - **Pyrofighter Magnus**
-  - **Ruby Grass**
-  - **Skullcutter, Swarm Leader**
-  - **Toel, Vizier of Hope**
-  - **Urth, Purifying Elemental**
-  - **Aloro, War God**
-  - **Cosmic Nebula**
-  - **Cosmoview Lunatron**
-  - **Wingeye Moth**
-  - **Brad, Super Kickin' Dynamo**
-  - **Bulgluf, the Spydroid**
-  - **Charge Whipper**
-  - **Flohdani, the Spydroid**
-  - **Gazer Eyes, Shadow of Secrets**
-  - **Gigamente**
-  - **Hustle Berry**
-  - **Kaemira, the Oracle**
-  - **Milporo**
-  - **Minelord Skyterror**
-  - **Pinpoint Lunatron**
-  - **Soderlight, the Cold Blade**
-  - **Sporeblast Erengi**
-  - **Vorg's Engine**
-  - **Amber Piercer**
-  - **Armored Warrior Quelos**
-  - **Aqua Grappler**
-  - **Bloodwing Mantis**
-  - **Bolzard Dragon**
-  - **Cavern Raider**
-  - **Chaos Fish**
-  - **Curious Eye**
-  - **Cyclolink, Spectral Knight**
-  - **Daidalos, General of Fury**
-  - **Dark Titan Maginn**
-  - **Earthstomp Giant**
-  - **Flametropus**
-  - **Gamil, Knight of Hatred**
-  - **General Dark Fiend**
-  - **Geoshine, Spectral Knight**
-  - **Headlong Giant**
-  - **Horrid Worm**
-  - **Hypersquid Walter**
-  - **King Neptas**
-  - **King Ponitas**
-  - **Lalicious**
-  - **Laguna, Lightning Enforcer**
-  - **Le Quist, the Oracle**
-  - **Melcap, the Mutant Explorer**
-  - **Metalwing Skyterror**
-  - **Muramasa, Duke of Blades**
-  - **Necrodragon Galbazeek**
-  - **Plasma Chaser**
-  - **Psyshroom**
-  - **Ra Vu, Seeker of Lightning**
-  - **Sabermask Scarab**
-  - **Shock Trooper Mykee**
-  - **Silver Axe**
-  - **Skullsweeper Q**
-  - **Smile Angler**
-  - **Sniper Mosquito**
-  - **Stained Glass**
-  - **Steam Rumbler Kain**
-  - **Stinger Ball**
-  - **Split-Head Hydroturtle Q**
-  - **Supernova Jupiter King Empire**
-  - **Tentacle Cluster**
-  - **Tick Tick, Swift Viral Swordfighter**
-  - **Trixo, Wicked Doll**
-  - **Quakesaur**
-  - **Windmill Mutant**
-  - **Wyn, the Oracle**
-  - **Überdragon Bajula**
-  - **"Boyan", Fireball Spell**
-  - **"Dogoru", Ground Spell**
-  - **"Frizzen", Freezing Spell**
-  - **"Pikabim", Prison Spell**
-  - **Awesome! Onsen Gallows**
-  - **Chopin, Dragon King**
-  - **Dogiragon, Royal Revolution**
-  - **Dokeidaimos <Grave Star>**
-  - **Dotou Henge <Sturm Ogre>**
-  - **Fleece, Satori's Whirlwind**
-  - **Guerrillafugan, Beast Army X**
-  - **Hunbolt, Demonic Elemental**
-  - **Hyperspatial Basara Hole**
-  - **Just in You**
-  - **Mysterious Ogre Duel**
-  - **Nova! Belunare**
-  - **Oracion, Mysterious Samurai**
-  - **Perfect Alcadeia**
-  - **Perfect Coldflame**
-  - **Perfect Freestyle**
-  - **Perfect Oratoriocles**
-  - **Polaris, Goldkind**
-  - **Prison Spark**
-  - **Pure Zaru**
-  - **Rain, Accurate Reaper**
-  - **Reef, Revolution Captain**
-  - **Star Paladin <Kolon Star>**
-  - **Tamatango Panzer**
-  - **Petrova, Channeler of Suns**
-  - **Warlord Ailzonius**
-  - **Yuliana, Channeler of Suns**
-  - **Auzesu, Demonic Elemental**
-  - **Bluum Erkis, Flare Guardian**
-  - **Bolmeteus Steel Dragon**
-  - **Evil Incarnate**
-  - **Gachack, Mechanical Doll**
-  - **Gigaclaws**
-  - **Gigavrand**
-  - **Ice Vapor, Shadow of Anguish**
-  - **Joe's Toolkit**
-  - **Pocopen, Counterattacking Faerie**
-  - **Rieille, the Oracle**
-  - **Slaphappy Soldier Galback**
-  - **Solar Grass**
-  - **Super Dragon Machine Dolzark**
-  - **Turtle Horn, the Imposing**
-  - **Thrumiss, Zephyr Guardian**
-  - **Vikorakys**
-  - **Zero Nemesis, Shadow of Panic**
-
+<details><summary><h2>New Cards Added (381+)</h2> (click to expand)</summary>
+  
+- **All Sunrise**
+- **Ancient Horn, the Watcher**
+- **Angila, Electro-Mask**
+- **Aquan**
+- **Aqua Strummer**
+- **Aqua Trickster**
+- **Baraga, Blade of Gloom**
+- **Berochika, Channeler of Suns**
+- **Bombazar, Dragon of Destiny**
+- **Bonfire Lizard**
+- **Bubble Lamp**
+- **Carnival Totem**
+- **Cebu Aquman Jr.**
+- **Core-Crash Lizard**
+- **Cranium Clamp**
+- **Crystal Paladin**
+- **Dandy Nasuo**
+- **Dedreen, the Hidden Corrupter**
+- **Dimension Splitter**
+- **Drill Mutant**
+- **Doboulgyser, Giant Rock Beast**
+- **Dolgeza, Strong Striker**
+- **Dolmarks, the Shadow Warrior**
+- **Dorballom, Lord of Demons**
+- **Earth Ripper, Talon of Rage**
+- **Emeral**
+- **Eviscerating Warrior Lumez**
+- **Explosive Fighter Ucarn**
+- **Explosive Trooper Zalmez**
+- **Extreme Crawler**
+- **Flame Trooper Goliac**
+- **Frantic Chieftain**
+- **Galklife Dragon**
+- **Gigabuster**
+- **Gigandura**
+- **Gigarayze**
+- **Grape Globbo**
+- **Hazaria, Duke of Thorns**
+- **Hurricane Crawler**
+- **Imen=Bugo, Dragon Edge**
+- **Imen=Bugo, Dragon Ruler**
+- **Jagila, the Hidden Pillager**
+- **Katta Kirifuda & Katsuking -Story of Passion-**
+- **King Aquakamui**
+- **King Mazelan**
+- **King Muu Q**
+- **King Tsunami**
+- **Klujadras**
+- **Kulus, Soulshine Enforcer**
+- **Larba Geer, the Immaculate**
+- **Lucky Ball**
+- **Loth Rix, the Iridescent**
+- **Magmarex**
+- **Marinomancer**
+- **Metal Avenger Solid, Dragon Edge**
+- **Metal Avenger Solid, Dragon Ruler**
+- **Mechadragon's Breath**
+- **Midnight Crawler**
+- **Mizoy, the Oracle**
+- **Necrodragon Bryzenaga**
+- **Necrodragon Zalva**
+- **Neve, the Leveler**
+- **Onslaughter Triceps**
+- **Poison Worm**
+- **Punch Trooper Bronks**
+- **Q-tronic Hypermind**
+- **Raptor Fish**
+- **Rimuel, Cloudbreak Elemental**
+- **Ripple Lotus Q**
+- **Rv Penicillin, Dragment Symbol**
+- **Saucer-Head Shark**
+- **Sasoris, Dragon Edge**
+- **Sasoris, Dragon Ruler**
+- **Scarlet Skyterror**
+- **Skeleton Thief, the Revealer**
+- **Skyscraper Shell**
+- **Spark Chemist, Shadow of Whim**
+- **Storm Shell**
+- **Steamroller Mutant**
+- **Stinger Worm**
+- **Swamp Worm**
+- **Telitol, the Explorer**
+- **Tekorax**
+- **The=Deadman, Dragon Edge**
+- **The=Deadman, Dragon Ruler**
+- **Three-Faced Ashura Fang**
+- **Trenchdive Shark**
+- **Trombo, Fractured Doll**
+- **Trox, General of Destruction**
+- **Uncanny Turnip**
+- **Vampire Silphy**
+- **Wily Carpenter**
+- **Apocalypse Vise**
+- **Aquan Jr.'s Delivery**
+- **Bonds of Justice**
+- **Brain Charger**
+- **Brain Re:Charger**
+- **Brutal Charge**
+- **Cataclysmic Eruption**
+- **Child Festival of Faerie Fire**
+- **Cloned Blade**
+- **Cloned Deflector**
+- **Cloned Spiral**
+- **Comet Missile**
+- **Crisis Boulder**
+- **Critical Blade**
+- **Cyclone Panic**
+- **Dance of the Sproutlings**
+- **Darkpact**
+- **Death Cruzer, the Annihilator**
+- **Diamondia, the Blizzard Rider**
+- **Divine Riptide**
+- **Slash Charger**
+- **Emergency Typhoon**
+- **Energy Re:Light**
+- **Enigmatic Cascade**
+- **Faerie Re:Life**
+- **Freezing Icehammer**
+- **Future Slash**
+- **Ghastly Drain**
+- **Glory Snow**
+- **Grinning Hunger**
+- **Hell Hand**
+- **Hirameki Program**
+- **Hydro Hurricane**
+- **Illusionary Merfolk**
+- **Impossible Tunnel**
+- **Intense Evil**
+- **Dondon Vacuuming Now**
+- **Invincible Cataclysm**
+- **Judgement of the Flame's Spear and the Water's Blade**
+- **Justice Jamming**
+- **Laser Whip**
+- **Liquid Scope**
+- **Lost Re:Soul**
+- **Lunar Charger**
+- **Mana Nexus**
+- **Magical Pot**
+- **Mendelssohn**
+- **Miraculous Meltdown**
+- **Miraculous Plague**
+- **Mulch Charger**
+- **Mystic Treasure Chest**
+- **Nightmare Machine**
+- **Proclamation of Death**
+- **Rain of Arrows**
+- **Rainbow Gate**
+- **Rainbow Stone**
+- **Rapid Reincarnation**
+- **Recon Operation**
+- **Relentless Blitz**
+- **Reverse Re:Charger**
+- **Roar of the Earth**
+- **Roulette of Ruin**
+- **Scheming Hands**
+- **Screaming Sunburst**
+- **Shock Hurricane**
+- **Siren Concerto**
+- **Snake Attack**
+- **Soulswap**
+- **Soul Gulp**
+- **Sphere of Wonder**
+- **Static Warp**
+- **Submarine Project**
+- **The Grave of Angels and Demons**
+- **Thought Probe**
+- **Thunder Net**
+- **Treasure Map**
+- **Unified Resistance**
+- **Upheaval**
+- **Vacuum Gel**
+- **Vine Charger**
+- **Virtual Tripwire**
+- **Wave Lance**
+- **Whisking Whirlwind**
+- **Aless, the Oracle**
+- **Asylum, Elemental Dragon Knight**
+- **Balloonshroom Q**
+- **Bombersaur**
+- **Bruiser Dragon**
+- **Chilias, the Oracle**
+- **Engineer Kipo**
+- **Gigagrax**
+- **Gigastand**
+- **Jewel Spider**
+- **Kalute, Vizier of Eternity**
+- **Dream Pirate, Shadow of Theft**
+- **Raza Vega, Thunder Guardian**
+- **Ryudmila, Channeler of Suns**
+- **Schuka, Duke of Amnesia**
+- **Sinister General Damudo**
+- **Stallob, the Lifequasher**
+- **Jasper, the Stubborn**
+- **Revival Soldier**
+- **Aura Pegasus, Avatar of Life**
+- **Cruel Naga, Avatar of Fate**
+- **Death Phoenix, Avatar of Doom**
+- **Eternal Phoenix, Dragonflame Phoenix**
+- **Wise Starnoid, Avatar of Hope**
+- **Algo Bardiol, Devil Admiral**
+- **Baiken, Blue Dragon of the Hidden Blade**
+- **Bingole, the Explorer**
+- **Dava Torey, Seeker of Clouds**
+- **Gauss Blazer, Flame Dragon Admiral**
+- **Lanerva Stratus, Poseidon's Admiral**
+- **Mecha Admiral Sound Shooter**
+- **Sanfist, the Savage Vizier**
+- **Sephia Parthenon, Spirit Admiral**
+- **Sir Matthias, Ice Fang Admiral**
+- **Terradragon Arque Delacerna**
+- **Yu Wandafor, Phantom Beast Admiral**
+- **Zack Pichi, Winged Dragon Admiral**
+- **Adomis, the Oracle**
+- **Aeropica**
+- **Aqua Fencer**
+- **Bliss Totem, Avatar of Luck**
+- **Brood Shell**
+- **Charmilia, the Enticer**
+- **Chen Treg, Vizier of Blades**
+- **Cosmogold, Spectral Knight**
+- **Crath Lade, Merciless King**
+- **Deklowaz, the Terminator**
+- **Gandar, Seeker of Explosions**
+- **Gigio's Hammer**
+- **Grim Soul, Shadow of Reversal**
+- **Kachua, Keeper of the Icegate**
+- **Heavyweight Dragon**
+- **Hokira**
+- **Kipo's Contraption**
+- **Mummy Wrap, Shadow of Fatigue**
+- **Neon Cluster**
+- **Popple, Flowerpetal Dancer**
+- **Rikabu's Screwdriver**
+- **Rondobil, the Explorer**
+- **Silvermoon Trailblazer**
+- **Sky Crusher, the Agitator**
+- **Tanzanyte, the Awakener**
+- **Tank Mutant**
+- **Techno Totem**
+- **Tra Rion, Penumbra Guardian**
+- **Venom Worm**
+- **Arc Bine, the Astounding**
+- **Fort Megacluster**
+- **Living Citadel Vosh**
+- **Phantasmal Horror Gigazald**
+- **Aqua Officer**
+- **Balesk Baj, the Timeburner**
+- **Ballus, Dogfight Enforcer Q**
+- **Bazagazeal Dragon**
+- **Betrale, the Explorer**
+- **Cutthroat Skyterror**
+- **Comet Eye, the Spectral Spud**
+- **Frei, Vizier of Air**
+- **Gnarvash, Merchant of Blood**
+- **Hazard Hopper**
+- **Hearty Cap'n Polligon**
+- **Laveil, Seeker of Catastrophe**
+- **Lone Tear, Shadow of Solitude**
+- **Lukia Lex, Pinnacle Guardian**
+- **Nial, Vizier of Dexterity**
+- **Pyrofighter Magnus**
+- **Ruby Grass**
+- **Skullcutter, Swarm Leader**
+- **Toel, Vizier of Hope**
+- **Urth, Purifying Elemental**
+- **Aloro, War God**
+- **Cosmic Nebula**
+- **Cosmoview Lunatron**
+- **Wingeye Moth**
+- **Brad, Super Kickin' Dynamo**
+- **Bulgluf, the Spydroid**
+- **Charge Whipper**
+- **Flohdani, the Spydroid**
+- **Gazer Eyes, Shadow of Secrets**
+- **Gigamente**
+- **Hustle Berry**
+- **Kaemira, the Oracle**
+- **Milporo**
+- **Minelord Skyterror**
+- **Pinpoint Lunatron**
+- **Soderlight, the Cold Blade**
+- **Sporeblast Erengi**
+- **Vorg's Engine**
+- **Amber Piercer**
+- **Armored Warrior Quelos**
+- **Aqua Grappler**
+- **Bloodwing Mantis**
+- **Bolzard Dragon**
+- **Cavern Raider**
+- **Chaos Fish**
+- **Curious Eye**
+- **Cyclolink, Spectral Knight**
+- **Daidalos, General of Fury**
+- **Dark Titan Maginn**
+- **Earthstomp Giant**
+- **Flametropus**
+- **Gamil, Knight of Hatred**
+- **General Dark Fiend**
+- **Geoshine, Spectral Knight**
+- **Headlong Giant**
+- **Horrid Worm**
+- **Hypersquid Walter**
+- **King Neptas**
+- **King Ponitas**
+- **Lalicious**
+- **Laguna, Lightning Enforcer**
+- **Le Quist, the Oracle**
+- **Melcap, the Mutant Explorer**
+- **Metalwing Skyterror**
+- **Muramasa, Duke of Blades**
+- **Necrodragon Galbazeek**
+- **Plasma Chaser**
+- **Psyshroom**
+- **Ra Vu, Seeker of Lightning**
+- **Sabermask Scarab**
+- **Shock Trooper Mykee**
+- **Silver Axe**
+- **Skullsweeper Q**
+- **Smile Angler**
+- **Sniper Mosquito**
+- **Stained Glass**
+- **Steam Rumbler Kain**
+- **Stinger Ball**
+- **Split-Head Hydroturtle Q**
+- **Supernova Jupiter King Empire**
+- **Tentacle Cluster**
+- **Tick Tick, Swift Viral Swordfighter**
+- **Trixo, Wicked Doll**
+- **Quakesaur**
+- **Windmill Mutant**
+- **Wyn, the Oracle**
+- **Überdragon Bajula**
+- **"Boyan", Fireball Spell**
+- **"Dogoru", Ground Spell**
+- **"Frizzen", Freezing Spell**
+- **"Pikabim", Prison Spell**
+- **Awesome! Onsen Gallows**
+- **Chopin, Dragon King**
+- **Dogiragon, Royal Revolution**
+- **Dokeidaimos <Grave Star>**
+- **Dotou Henge <Sturm Ogre>**
+- **Fleece, Satori's Whirlwind**
+- **Guerrillafugan, Beast Army X**
+- **Hunbolt, Demonic Elemental**
+- **Hyperspatial Basara Hole**
+- **Just in You**
+- **Mysterious Ogre Duel**
+- **Nova! Belunare**
+- **Oracion, Mysterious Samurai**
+- **Perfect Alcadeia**
+- **Perfect Coldflame**
+- **Perfect Freestyle**
+- **Perfect Oratoriocles**
+- **Polaris, Goldkind**
+- **Prison Spark**
+- **Pure Zaru**
+- **Rain, Accurate Reaper**
+- **Reef, Revolution Captain**
+- **Star Paladin <Kolon Star>**
+- **Tamatango Panzer**
+- **Petrova, Channeler of Suns**
+- **Warlord Ailzonius**
+- **Yuliana, Channeler of Suns**
+- **Auzesu, Demonic Elemental**
+- **Bluum Erkis, Flare Guardian**
+- **Bolmeteus Steel Dragon**
+- **Evil Incarnate**
+- **Gachack, Mechanical Doll**
+- **Gigaclaws**
+- **Gigavrand**
+- **Ice Vapor, Shadow of Anguish**
+- **Joe's Toolkit**
+- **Pocopen, Counterattacking Faerie**
+- **Rieille, the Oracle**
+- **Slaphappy Soldier Galback**
+- **Solar Grass**
+- **Super Dragon Machine Dolzark**
+- **Turtle Horn, the Imposing**
+- **Thrumiss, Zephyr Guardian**
+- **Vikorakys**
+- **Zero Nemesis, Shadow of Panic**
+</details>
+<details><summary><h3>Mechanics added</h3> (click to expand)</summary>
+  
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
 
@@ -423,7 +426,8 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 - **Manual Effect Trigger Added**
   - **A button appears on creatures on the field that have a manual effect trigger**
-  - **Current list of cards with manual effect trigger:**
+  - <details><summary><h4>Current list of cards with manual effect trigger</h4> (click to expand)</summary>
+
     - Auzesu, Demonic Elemental
     - Bluum Erkis, Flare Guardian
     - Bolmeteus Steel Dragon
@@ -436,8 +440,12 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Gigavrand
     - Turtle Horn, the Imposing
     - Thrumiss, Zephyr Guardian
+  </details>
 
-- **Other Improvements**
+</details>
+
+<details><summary><h3>Other Improvements</h3> (click to expand)</summary>
+  
   - **Added a function AddDelayedEffect() that allows you to add a function that will be resolved at the end or at the start of a turn.**
   - **Added settings that persist between lobbies with following settings:**
     - Toggle: My Card Script Automation
@@ -468,9 +476,11 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
   - **onDiscard**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
+</details>
 
 ### Fixes
-- **Card Fixes**
+<details><summary><h3>Card Fixes</h3> (click to expand)</summary>
+  
   - **Aqua Sniper, Teleportation, Abduction Charger**: Allow you to stop picking targets after the first one.
   - **Dandy Eggplant**: Now let's you pick a card from Deck to put to Mana, and then a card from Mana to Graveyard.
   - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
@@ -485,12 +495,16 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Apocalypse Day**: No longer counts Baits into the 6 card count.
   - **Volcanic Arrows**: Allows you to destroy your own creature too.
   - **Gylus, Larval Lord**: When it leaves the field, opponent can recover a card from their graveyard.
-- **Mechanics Fixes**
+</details>
+
+<details><summary><h3>Mechanics Fixes</h3> (click to expand)</summary>
+  
   - **Corile and other cards that ask to reaarrange the order of the cards to place to the bottom/top of the deck now tell you which way is which**
   - **Applied workaround to prevent Targetting Bug**
   - **Player B’s Card Choice Order**: Fixed inconsistent order when selecting cards.
   - **Infinite Targeting Issue**: Resolved infinite wait if a card required more targets than available on the field (for Destroy/Bounce effects).
   - **Evolution Creatures should come tapped if they are evolved from a tapped Creature**
+</details>
 
 #### Additional Notes
 - **XML Updates**: New Sets, up to year 2024 added!
