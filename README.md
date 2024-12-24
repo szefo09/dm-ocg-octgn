@@ -8,7 +8,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-<details><summary><h2>New Cards Added (381+)</h2> (click to expand)</summary>
+<details><summary><h2>New Card Scripts Added (381+)</h2> (click to expand)</summary>
   
 - **All Sunrise**
 - **Ancient Horn, the Watcher**
