@@ -4111,16 +4111,10 @@ def millX(group, x=0, y=0):
 def randomDiscard(group, x=0, y=0, remote=False, count=1):
 	mute()
 	group=ensureGroupObject(group)
-	cardsToDiscard=set()
 	count=min(count, len(group))
 	if count==0:return
-	for i in range(0, count):
-		while (True):
-			card=group.random()
-			if card not in cardsToDiscard:
-				cardsToDiscard.add(card)
-				break
-	toDiscard(list(cardsToDiscard), wasRandom=True, remote=remote)
+	shuffledGroup=shuffleCardList(list(group))
+	toDiscard(shuffledGroup[:count], wasRandom=True, remote=remote)
 
 def fromTopPickX(group, x=0, y=0):
 	if len(group)==0: return
