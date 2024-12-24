@@ -5,63 +5,64 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 ### *I'm a freelance developer doing this in my free time. If you feel that what I'm doing it worthwhile for the community and deserves a coffee, consider donating to [my Paypal](<https://www.paypal.com/paypalme/szefo09>)*
 
-## Changelog
+## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-- **New Cards Added**:
-  - **Apocalypse Vise**: Destroy creatures up to a combined total power of 8000.
-  - **Bubble Lamp** and **Illusionary Merfolk**: Conditional draw mechanics.
-  - **Carnival Totem**: Added effect.
-  - **Cranium Clamp**: Opponent chooses two cards from their hand to discard.
-  - **Critical Blade and Comet Missile**: Added as new spell options.
-  - **Dolmarks, the Shadow Warrior**: Similar to Rothus, but also burns mana.
-  - **Emergency Typhoon**: Draw up to two cards, then discard one.
-  - **Magmarex**: Destroys all creatures with exactly 1000 power.
-  - **Mechadragon's Breath**: Choose a power number; all creatures with that power are destroyed.
-  - **Miraculous Plague**: Select two cards from the field and opponent chooses one to take to their hand, and the other is sent to Graveyard. Repeat for cards in Mana Zone.
-  - **Proclamation of Death**: Rothus-like effect, prompting destruction.
-  - **Slash Charger**: View entire deck of selected player, pick one card to send to Graveyard.
-  - **Soulswap**: Select side, pick a creature on the field to send to mana, and choose a creature to play from mana.
-  - **Galklife Dragon**: Destroys all cards with 4000 Power or less from Light civilization
-  - **Scarlet Skyterror**: Destroys all cards with Blocker.
-  - **Death Cruzer, the Annihilator**: Destroys all other creatures of the player.
-  - **Dorballom, Lord of Demons**: Destroys all non-darkness creatures and puts non-darkness mana into graveyard.
-  - **Stallob the Lifequasher**: Destroys all creatures after being destroyed.
-  - **Jewel Spider**: After it's destroyed, you can target a shield and it comes to your hand.
-  - **Emeral**: If you have more than 0 shields, you can pick a card from hand and place it as a shield and then bounce a shield.
-  - **Scheming Hands**: Look at your opponent's hand and discard the selected card.
-  - **Punch Trooper Bronks**: Shows you the card(s) with lowest Power and asks you to confirm.
-  - **Lucky Ball**: Checks Opponent's Shield Count, then decides if you can draw.
-  - **Virtual tripwire**: Taps one of the opponent's creatures.
-  - **Vampire Silphy**: Destroys all cards with 3000 Power or less 
-  - **Bonds of Justice**: Taps all creatures that don't have {BLOCKER}
-  - **Screaming Sunburst**: Taps all creatures that aren't Light Civilization.
-  - **Rain of Arrows**: You see opponent's hand. When you close the window, all darkness spells get discarded.
-  - **Crystal Paladin**: Bounces every blocker to hand.
-  - **Bombazar, Dragon of Destiny**: Destroys other 6000 Power Creatures on Board when played.
-  - **Upheaval**: Switches Mana with Hand for both players, newly placed mana is tapped. 
-  - **Necrodragon Bryzenaga**: On play reveals all of your shields on the board to You.
-  - **Miraculous Meltdown**: On play the opponent has to select cards for every shield you have. All the other ones are revealed to them on the board.
-  - **Baraga, Blade of Gloom** Returns one shield to hand.
-  - **Doboulgyser, Giant Rock Beast** Destroys one of opponent's creatures with power 3000 or lower.
-  - **King Aquakamui** Returns all Angel Commands and Demon Commands from graveyard to hand.
-  - **Larba Geer, the Immaculate** Taps all opponent's blockers.
-  - **Poison Worm** Dstroys one of your creatures with 3000 power or less
-  - **Rimuel, Cloudbreak Elemental** Taps opponent creatures for each of your untapped mana.
-  - **Skeleton Thief, the Revealer** Returns one Living Dead from graveyard to hand.
-  - **Trox, General of Destruction** Discards random card from opponent's hand  for each other Darkness creature you have.
-  - **Darkpact** Let's you put any number of cards from mana to graveyard and then draws that many cards.
-  - **Ghastly Drain** Let's you put any number of shields into your hand.
-  - **Hydro Hurricane** For each of yours Light creatures let's you return opponent mana to their hand and for each Darkness creatures returns one of opponent's creatures to hand.
-  - **Roar of the Earth** Returns a creature that costs 6 or more from mana to hand.
-  - **Snake Attack** Puts one of your shields to graveyard.
-  - **Soul Gulp** Opponent discards a card for each of his Light creatures.
-  - **Aless, the Oracle** Adds itself to shield instead of being destroyed.
-  - **Bombersaur** When it is destroyed each player puts 2 mana into graveyard.
-  - **Engineer Kipo** When it is destroyed each player puts one mana into graveyard.
-  - **Gigastand** When it is destroyed you can put it into your hand and discard a card.
-  - **Raza Vega, Thunder Guardian** Adds itself to shield instead of being destroyed.
-  - **Mana Nexus**: Shows pop-up to pick Mana to place to Shields.
+- **New Cards Added (316+)**:
+  - **Apocalypse Vise**
+  - **Bubble Lamp**
+  - **Illusionary Merfolk**
+  - **Carnival Totem**
+  - **Cranium Clamp**
+  - **Critical Blade and Comet Missile**
+  - **Dolmarks, the Shadow Warrior**
+  - **Emergency Typhoon**
+  - **Magmarex**
+  - **Mechadragon's Breath**
+  - **Miraculous Plague**
+  - **Proclamation of Death**
+  - **Slash Charger**
+  - **Soulswap**
+  - **Galklife Dragon**
+  - **Scarlet Skyterror**
+  - **Death Cruzer, the Annihilator**
+  - **Dorballom, Lord of Demons**
+  - **Stallob the Lifequasher**
+  - **Jewel Spider**
+  - **Emeral**
+  - **Scheming Hands**
+  - **Punch Trooper Bronks**
+  - **Lucky Ball**
+  - **Virtual tripwire**
+  - **Vampire Silphy**
+  - **Bonds of Justice**
+  - **Screaming Sunburst**
+  - **Rain of Arrows**
+  - **Crystal Paladin**
+  - **Bombazar, Dragon of Destiny**
+  - **Upheaval**
+  - **Necrodragon Bryzenaga**
+  - **Miraculous Meltdown**
+  - **Baraga, Blade of Gloom**
+  - **Doboulgyser, Giant Rock Beast**
+  - **King Aquakamui**
+  - **Larba Geer, the Immaculate**
+  - **Poison Worm**
+  - **Rimuel, Cloudbreak Elemental**
+  - **Skeleton Thief, the Revealer**
+  - **Trox, General of Destruction**
+  - **Darkpact**
+  - **Ghastly Drain**
+  - **Hydro Hurricane**
+  - **Roar of the Earth**
+  - **Snake Attack**
+  - **Soul Gulp**
+  - **Aless, the Oracle**
+  - **Bombersaur**
+  - **Engineer Kipo**
+  - **Gigastand**
+  - **Raza Vega, Thunder Guardian**
+  - **Mana Nexus**
   - **King Mazelan**
   - **King Tsunami**
   - **Kulus, Soulshine Enforcer**
@@ -84,7 +85,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Trenchdive Shark**
   - **Katta Kirifuda & Katsuking -Story of Passion-**
   - **Gigandura**
-  - **Pointa, the Aqua Shadow** (Automated Peek at opponent's shield)
+  - **Pointa, the Aqua Shadow**
   - **Estol, Vizier of Aqua**
   - **Telitol, the Explorer**
   - **Tekorax**
@@ -170,167 +171,195 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Static Warp**
   - **Mysterious Ogre Duel**
   - **Just in You**
-
+  - **Loth Rix, the Iridescent**
+  - **Neve, the Leveler**
+  - **Gigagrax**
+  - **Brutal Charge**
+  - **Lunar Charger**
+  - **Whisking Whirlwind**
+  - **Gandar, Seeker of Explosions**
+  - **Comet Eye, the Spectral Spud**
+  - **Hazard Hopper**
+  - **Hearty Cap'n Polligon**
+  - **Gachack, Mechanical Doll**
+  - **Gigaclaws**
+  - **Slaphappy Soldier Galback**
+  - **Solar Grass**
+  - **Vikorakys**
+  - **Angila, Electro-Mask**
+  - **Aqua Trickster**
+  - **Bonfire Lizard**
+  - **Hazaria, Duke of Thorns**
+  - **Eviscerating Warrior Lumez**
+  - **Flame Trooper Goliac**
+  - **Jagila the Hidden Pillager**
+  - **Klujadras**
+  - **Revival Soldier**
+  - **Skyscraper Shell**
+  - **Steamroller Mutant**
+  - **Trombo, Fractured Doll**
+  - **Uncanny Turnip**
+  - **Aeropica**
+  - **Aqua Fencer**
+  - **Bliss Totem, Avatar of Luck**
+  - **Brood Shell**
+  - **Charmilia, the Enticer**
+  - **Cosmogold, Spectral Knight**
+  - **Deklowaz, the Terminator**
+  - **Rikabu's Screwdriver**
+  - **Rondobil, the Explorer**
+  - **Tanzanyte, the Awakener**
+  - **Techno Totem (only Tap effect for now)**
+  - **Chen Treg, Vizier of Blades**
+  - **Neon Cluster**
+  - **Tank Mutant**
+  - **Grim Soul, Shadow of Reversal**
+  - **Crath Lade, Merciless King**
+  - **Kipo's Contraption**
+  - **Popple, Flowerpetal Dancer**
+  - **Gigio's Hammer**
+  - **Hokira**
+  - **Silvermoon Trailblazer**
+  - **Tra Rion, Penumbra Guardian**
+  - **Venom Worm**
+  - **Kachua, Keeper of the Icegate**
+  - **Arc Bine, the Astounding**
+  - **Fort Megacluster**
+  - **Living Citadel Vosh**
+  - **Phantasmal Horror Gigazald**
+  - **Horrid Worm**
+  - **Amber Piercer**
+  - **Armored Warrior Quelos**
+  - **Bloodwing Mantis**
+  - **Bolzard Dragon**
+  - **Chaos Fish**
+  - **Dark Titan Maginn**
+  - **Earthstomp Giant**
+  - **Flametropus**
+  - **Gamil, Knight of Hatred**
+  - **General Dark Fiend**
+  - **Hypersquid Walter**
+  - **King Neptas**
+  - **King Ponitas**
+  - **Laguna, Lightning Enforcer**
+  - **Le Quist, the Oracle**
+  - **Metalwing Skyterror**
+  - **Muramasa, Duke of Blades**
+  - **Plasma Chaser**
+  - **Psyshroom**
+  - **Silver Axe**
+  - **Skullsweeper Q**
+  - **Smile Angler**
+  - **Sniper Mosquito**
+  - **Stained Glass**
+  - **Split-Head Hydroturtle Q**
+  - **Daidalos, General of Fury**
+  - **Geoshine, Spectral Knight**
+  - **Windmill Mutant**
+  - **Überdragon Bajula**
+  - **Cavern Raider**
+  - **Cyclolink, Spectral Knight**
+  - **Shock Trooper Mykee**
+  - **Steam Rumbler Kain**
+  - **Tentacle Cluster**
+  - **Trixo, Wicked Doll**
+  - **Quakesaur**
+  - **Aqua Grappler**
+  - **Lalicious**
+  - **Brad, Super Kickin' Dynamo**
+  - **Flohdani, the Spydroid**
+  - **Gazer Eyes, Shadow of Secrets**
+  - **Hustle Berry**
+  - **Minelord Skyterror**
+  - **Soderlight, the Cold Blade**
+  - **Vorg's Engine**
+  - **Jamming Justice**
+  - **Aqua Officer**
+  - **Balesk Baj, the Timeburner**
+  - **Ballus, Dogfight Enforcer Q**
+  - **Bazagazeal Dragon**
+  - **Cutthroat Skyterror**
+  - **Frei, Vizier of Air**
+  - **Pyrofighter Magnus**
+  - **Ruby Grass**
+  - **Toel, Vizier of Hope**
+  - **Urth, Purifying Elemental**
+  - **Gnarvash, Merchant of Blood**
+  - **Lone Tear, Shadow of Solitude**
+  - **Skullcutter, Swarm Leader**
+  - **Laveil, Seeker of Catastrophe**
+  - **Betrale, the Explorer**
+  - **Nial, Vizier of Dexterity**
+  - **Aloro, Ward God**
+  - **Cosmic Nebula**
+  - **Cosmoview Lunatron**
+  - **Wingeye Moth**
+  - **Aura Pegasus, Avatar of Life**
+  - **Cruel Naga, Avatar of Fate**
+  - **Death Phoenix, Avatar of Doom**
+  - **Wise Starnoid, Avatar of Hope**
+  - **Petrova, Channeler of Suns**
+  - **Warlord Ailzonius**
+  - **Yuliana, Channeler of Suns**
+  - **Supernova Jupiter King Empire**
+  - **Auzesu, Demonic Elemental**
+  - **Bluum Erkis, Flare Guardian**
+  - **Bolmeteus Steel Dragon**
+  - **Ice Vapor, Shadow of Anguish**
+  - **Joe's Toolkit**
+  - **Pocopen, Counterattacking Faerie**
+  - **Rieille, the Oracle**
+  - **Super Dragon Machine Dolzark**
+  - **Evil Incarnate**
+  - **Gigavrand**
+  - **Turtle Horn, the Imposing**
+  - **Thrumiss, Zephyr Guardian**
+  - **Bingole the Explorer**
+  - **Dava Torey, Seeker of Clouds**
+  - **Sanfist the Savage Vizier**
+  - **Sir Matthias, Ice Fang Admiral**
+  - **Terradragon Arque Delacerna**
+  - **Algo Bardiol, Devil Admiral**
+  - **Baiken, Blue Dragon of the Hidden Blade**
+  - **Gauss Blazer, Flame Dragon Admiral**
+  - **Mecha Admiral Sound Shooter**
+  - **Lanerva Stratus, Poseidon's Admiral**
+  - **Sephia Parthenon, Spirit Admiral**
+  - **Zack Pichi, Winged Dragon Admiral**
+  
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
-  - **New Cards Added**:
-    - Angila, Electro-Mask
-    - Aqua Trickster
-    - Bonfire Lizard
-    - Hazaria, Duke of Thorns
-    - Eviscerating Warrior Lumez
-    - Flame Trooper Goliac
-    - Jagila the Hidden Pillager
-    - Klujadras
-    - Revival Soldier
-    - Skyscraper Shell
-    - Steamroller Mutant
-    - Trombo, Fractured Doll
-    - Uncanny Turnip
+
 - **Survivor Automation**: Shared effects are now automated for Survivors.
 - **Tap Effects Added**: 
   - **During Your Turn, if you tap an automated Creature with Tap Effect, you'll get a prompt if you want to use the Tap effect!** *You can bypass the prompt by declaring an attack by arrow targeting before tapping.*
-  - **New Cards Added**:
-    - Aeropica
-    - Aqua Fencer
-    - Bliss Totem, Avatar of Luck
-    - Brood Shell
-    - Charmilia, the Enticer
-    - Cosmogold, Spectral Knight
-    - Deklowaz, the Terminator
-    - Rikabu's Screwdriver
-    - Rondobil, the Explorer
-    - Tanzanyte, the Awakener
-    - Techno Totem (only Tap effect for now)
-    - Chen Treg, Vizier of Blades
-    - Neon Cluster
-    - Tank Mutant
-    - Grim Soul, Shadow of Reversal
-    - Crath Lade, Merciless King
-    - Kipo's Contraption
-    - Popple, Flowerpetal Dancer
-    - Gigio's Hammer
-    - Hokira
-    - Silvermoon Trailblazer
-    - Tra Rion, Penumbra Guardian
-    - Venom Worm
-    - Kachua, Keeper of the Icegate
-
-
 
 - **Ally Tap Card Effects Added**:
   - **During Your Turn if you tap any of your cards that matches the requirement, you'll get a prompt if you want to use the shared Tap effect!**
-  - **New Cards Added**:
-    - Arc Bine, the Astounding
-    - Fort Megacluster
-    - Living Citadel Vosh
-    - Phantasmal Horror Gigazald
-- **"When this creature attacks" Effects Added**:
-  - **New Cards Added**:
-    - Horrid Worm
-    - Amber Piercer
-    - Armored Warrior Quelos
-    - Bloodwing Mantis
-    - Bolzard Dragon
-    - Chaos Fish
-    - Dark Titan Maginn
-    - Earthstomp Giant
-    - Flametropus
-    - Gamil, Knight of Hatred
-    - General Dark Fiend
-    - Hypersquid Walter
-    - King Neptas
-    - King Ponitas
-    - Laguna, Lightning Enforcer
-    - Le Quist, the Oracle
-    - Metalwing Skyterror
-    - Muramasa, Duke of Blades
-    - Plasma Chaser
-    - Psyshroom
-    - Silver Axe
-    - Skullsweeper Q
-    - Smile Angler
-    - Sniper Mosquito
-    - Stained Glass
-    - Split-Head Hydroturtle Q
-    - Daidalos, General of Fury
-    - Geoshine, Spectral Knight
-    - Windmill Mutant
-    - Überdragon Bajula
-    - Cavern Raider
-    - Cyclolink, Spectral Knight
-    - Shock Trooper Mykee
-    - Steam Rumbler Kain
-    - Tentacle Cluster
-    - Trixo, Wicked Doll
-    - Quakesaur
-    - Aqua Grappler
-    - Lalicious
-
 
 - **Silent Skill Effects Added**: 
   - **After your opponent ends turn, during the untapping phase, if you have a Silent Skill creature tapped on your side of the board, you'll get a prompt if you want it tapped to activate Silent Skill effect!**
-  - **New Cards Added**:
-    - Brad, Super Kickin' Dynamo
-    - Flohdani, the Spydroid
-    - Gazer Eyes, Shadow of Secrets
-    - Hustle Berry
-    - Minelord Skyterror
-    - Soderlight, the Cold Blade
-    - Vorg's Engine
 
 - **Modal Ability Effect Added**
   - **Cards that have multiple effects to choose from are now automated**
-    - **New Cards Added**:
-      - Jamming Justice
 
 - **"At the end of your turn" Effects Added**: 
   - **When you pass the turn to your opponent, all of the automated cards' effects will trigger!**
-  - **New Cards Added**:
-    - Aqua Officer
-    - Balesk Baj, the Timeburner
-    - Ballus, Dogfight Enforcer Q
-    - Bazagazeal Dragon
-    - Cutthroat Skyterror
-    - Frei, Vizier of Air
-    - Pyrofighter Magnus
-    - Ruby Grass
-    - Toel, Vizier of Hope
-    - Urth, Purifying Elemental
-    - Gnarvash, Merchant of Blood
-    - Lone Tear, Shadow of Solitude
-    - Skullcutter, Swarm Leader
-    - Laveil, Seeker of Catastrophe
-    - Betrale, the Explorer
-    - Nial, Vizier of Dexterity
 
 - **"At the start of your turn" Effects Added**:
   - **When your opponent passes their turn to you, you get to activate your automated "At the start of your turn" effects!**
-  - **New Cards Added**:
-    - Aloro, Ward God
-    - Cosmic Nebula
-    - Cosmoview Lunatron
-    - Wingeye Moth
+
 - **"When this creature leaves the battle zone" Effects Added**
-  - **Cards that go not only to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
-  - **New Cards Added**:
-    - Aura Pegasus, Avatar of Life
-    - Cruel Naga, Avatar of Fate
-    - Death Phoenix, Avatar of Doom
-    - Wise Starnoid, Avatar of Hope
+  - **Cards that go to Graveyard, but also to Hand, Mana, Shields or Deck can activate their effects**
 
 - **"Cannot be chosen by your opponent's card Effects" Added**
-  - **New Cards Added**:
-    - Petrova, Channeler of Suns (Petrova also recieved a race selector, so you can more easly declare the creature race.)
-    - Warlord Ailzonius
-    - Yuliana, Channeler of Suns
+
 - **Meteorburn Effects Added**
   - **Works as a wrapper around onAttack action for automated cards with Meteorburn**
-  - **New Cards Added**:
-    - Supernova Jupiter King Empire
+
 - **Manual Effect Trigger Added**
   - **A button appears on creatures on the field that have a manual effect trigger**
-  - **New Cards Added**
+  - **Current list of cards with manual effect trigger:**
     - Auzesu, Demonic Elemental
     - Bluum Erkis, Flare Guardian
     - Bolmeteus Steel Dragon
@@ -345,6 +374,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
     - Thrumiss, Zephyr Guardian
 
 - **Other Improvements**
+  - **Added a function AddDelayedEffect() that allows you to add a function that will be resolved at the end or at the start of a turn.**
   - **Added settings that persist between lobbies with following settings:**
     - Toggle: My Card Script Automation
     - Toggle: Untap my Creatures at the start of your Turn
@@ -373,7 +403,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Added new Implementation for Evolutions: Basic, Vortex, Galaxy Vortex, Deck, Mad Deck, Graveyard, Vortex Graveyard, Super Infinite Graveyard, Hand, Mana, Mana Vortex and Super Infinite evolution Omega**: Just play them and you'll see.
   - **Deck Search Sorting**: Added sorting feature to deck search results.
   - **Card Choice Header Update**: Now displays card type (Spell/Creature/Race) for better clarity during search.
-  - **toDiscard Function**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
+  - **onDiscard**: Enables cards like Bingole the Explorer, Dava Torey, Seeker of Clouds, Sanfist the Savage Vizier, Sir Matthias, Ice Fang Admiral, Terradragon Arque Delacerna, Algo Bardiol, Devil Admiral, Baiken, Blue Dragon of the Hidden Blade, Gauss Blazer, Flame Dragon Admiral, Mecha Admiral Sound Shooter, Lanerva Stratus, Poseidon's Admiral, Sephia Parthenon, Spirit Admiral, Zack Pichi, Winged Dragon Admiral to come into play from the opponent’s hand due to Lost Soul.
 
 ### Fixes
 - **Card Fixes**

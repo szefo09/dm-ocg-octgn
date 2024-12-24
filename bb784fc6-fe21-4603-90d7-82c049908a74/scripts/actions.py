@@ -62,7 +62,7 @@ cardScripts={
 	'Bonfire Lizard': {'onPlay': [lambda card: waveStriker(lambda card: kill(count=2, rulesFilter="{BLOCKER}"), card)]},
 	'Bronze-Arm Tribe': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Bronze Chain Sickle': {'onPlay': [lambda card: mana(me.Deck)]},
-	'Bubble Lamp': {'onPlay': [lambda card: draw(me.Deck, True) if len([c for c in me.piles["Graveyard"] if re.search("Bubble Lamp", c.Name)])>0 else None]},
+	'Bubble Lamp': {'onPlay': [lambda card: draw(me.Deck, True) if len([c for c in me.piles["Graveyard"] if re.search("Bubble Lamp", c.properties["Name"])])>0 else None]},
 	'Buinbe, Airspace Guardian': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Carnival Totem': {'onPlay': [lambda card: swapManaAndHand()]},
 	'Chaos Worm': {'onPlay': [lambda card: kill()]},
@@ -138,7 +138,7 @@ cardScripts={
 	'Jenny, the Dismantling Puppet': {'onPlay': [lambda card: targetDiscard()]},
 	'Jenny, the Suicide Doll': {'onPlay': [lambda card: suicide(card, targetDiscard, [True])]},
 	'Jet R.E, Brave Vizier': {'onPlay': [lambda card: shields(me.Deck)]},
-	'Katta Kirifuda & Katsuking -Story of Passion-': {'onTrigger': [lambda card: askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.name))==1],
+	'Katta Kirifuda & Katsuking -Story of Passion-': {'onTrigger': [lambda card: askYN("Do you have 2 or less shields to treat {} as a Shield Trigger?".format(card.properties["Name"]))==1],
 		'onPlay': [lambda card: lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"]), lambda card: bounce(conditionalFromLastFunction=True)]},
 	'King Aquakamui': {'onPlay': [lambda card: kingAquakamui(card)]},
 	'King Mazelan': {'onPlay': [lambda card: bounce()]},
@@ -254,6 +254,7 @@ cardScripts={
 	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
 	'Brain Re:Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
+	'Brutal Charge': {'onPlay': [lambda card: addDelayedEffect({"card":card, "effects":[lambda card, args: search(me.Deck, askNumber("Enter a number of broken opponent shields.", 1, True), "Creature")] }, None)]},
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
 						 'onMetaMorph': [lambda card: kill(6000)]},
@@ -356,6 +357,7 @@ cardScripts={
 	'Logic Sphere': {'onPlay': [lambda card: fromMana(1, "Spell")]},
 	'Lost Re:Soul': {'onPlay': [lambda card: discardAll()]},
 	'Lost Soul': {'onPlay': [lambda card: discardAll()]},
+	'Lunar Charger': {'onPlay': [lambda card: lunarCharger(card)]},
 	'Mana Crisis': {'onPlay': [lambda card: destroyMana()]},
 	'Mana Nexus': {'onPlay': [lambda card: sendToShields(1, False, True, False, True)]},
 	'Martial Law': {'onPlay': [lambda card: gear("kill")]},
@@ -455,6 +457,7 @@ cardScripts={
 	'Volcano Charger': {'onPlay': [lambda card: kill(2000)]},
 	'Wave Lance': {'onPlay': [lambda card: waveLance()]},
 	'Wave Rifle': {'onPlay': [lambda card: gear("bounce")]},
+	'Whisking Whirlwind': {'onPlay': [lambda card: addDelayedEffect({'card':card, "effects":[lambda card, args: untapCreatureAll(False)]}, None)]},
 	'White Knight Spark': {'onPlay': [lambda card: tapCreature(1,True)]},
 	'Wizard Resurrection': {'onPlay': [lambda card: mana(me.Deck), lambda card: fromMana(1,"Spell")]},
 	'XENOM, the Reaper Fortress': {'onPlay': [lambda card: targetDiscard(True)]},
@@ -495,7 +498,7 @@ cardScripts={
 	'Hammerhead Cluster': {'onDestroy': [lambda card: bounce()]},
 	'Jewel Spider': {'onDestroy': [lambda card: bounceShield()]},
 	'Jil Warka, Time Guardian': {'onDestroy': [lambda card: tapCreature(2)]},
-	'Kalute, Vizier of Eternity': {'onDestroy': [lambda card: toHand(card) if any(c for c in getCreatures(me) if c.Name==card.Name) else None]},
+	'Kalute, Vizier of Eternity': {'onDestroy': [lambda card: toHand(card) if any(c for c in getCreatures(me) if c.properties["Name"]==card.properties["Name"]) else None]},
 	'Mighty Shouter': {'onDestroy': [lambda card: toMana(card)]},
 	'Ouks, Vizier of Restoration': {'onDestroy': [lambda card: toShields(card)]},
 	'Peace Lupia': {'onDestroy': [lambda card: tapCreature()]},
@@ -550,9 +553,10 @@ cardScripts={
 	'Cosmogold, Spectral Knight': {'onTap': [lambda card: fromMana(1, "Spell")]},
 	'Crath Lade, Merciless King': {'onTap': [lambda card: targetDiscard(randomDiscard=True, count=2)]},
 	'Deklowaz, the Terminator': {'onTap': [lambda card: destroyAll(getCreatures(), True, 3000), lambda card: deklowazDiscard()]},
+	'Gandar, Seeker of Explosions': {'onTap': [lambda card: addDelayedEffect({"card":card, "effects": [lambda card, args: untapCreatureAll(False, 're.search("Light",c.Civilization)')]}, None)]},
 	'Gigio\'s Hammer': {'onTap': [lambda card: declareRace(card)]},
 	'Grim Soul, Shadow of Reversal': {'onTap': [lambda card: search(me.piles["Graveyard"],1,"Creature","Darkness")]},
-	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(1, "re.search(r'Dragon\\b', c.Race, re.I)", {"delayTo":"EndOfTurn", "card":card, "effects":[lambda card, c: destroy(c) if isCreature(c) and not isRemovedFromPlay(c) else None]})]},
+	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(1, "re.search(r'Dragon\\b', c.Race, re.I)", {"card":card, "effects":[lambda card, c: destroy(c) if isCreature(c) and not isRemovedFromPlay(c) else None]})]},
 	'Heavyweight Dragon': {'onTap': [lambda card: heavyweightDragon(card)]},
 	'Hokira': {'onTap': [lambda card: declareRace(card)]},
 	'Kipo\'s Contraption': {'onTap': [lambda card: kill(2000)]},
@@ -566,7 +570,7 @@ cardScripts={
 	'Tanzanyte, the Awakener': {'onTap': [lambda card: tanzanyte()]},
 	'Tank Mutant': {'onTap': [lambda card: opponentSacrifice()]},
 	'Techno Totem': {'onTap': [lambda card: tapCreature()]},
-	'Tra Rion, Penumbra Guardian': {'onTap': [lambda card: declareRace(card)]},
+	'Tra Rion, Penumbra Guardian': {'onTap': [lambda card: addDelayedEffect({'card':card, "effects":[lambda card, args: untapCreatureAll(False, 're.search("{}", c.Race)'.format(*args))]}, declareRace(card, returnRace=True))]},
 	'Venom Worm': {'onTap': [lambda card: declareRace(card)]},
 
 	#ON ALLY TAP EFFECTS (Effects that give their on Tap Effect to other creatures)
@@ -588,8 +592,11 @@ cardScripts={
 	'Bazagazeal Dragon': {'onTurnEnd': [lambda card: toHand(card)]},
 	'Betrale, the Explorer': {'onTurnEnd': [lambda card: untapCreature(card, True)]},
 	'Cutthroat Skyterror': {'onTurnEnd': [lambda card: toHand(card)]},
+	'Comet Eye, the Spectral Spud': {'onTurnEnd': [lambda card: ([untapCreature(c) for c in getCreatures(me) if re.search(r"Wild Veggie|Rainbow Phantom",c.Race)], False)[1]]},
 	'Frei, Vizier of Air': {'onTurnEnd': [lambda card: untapCreature(card)]},
 	'Gnarvash, Merchant of Blood': {'onTurnEnd': [lambda card: lonely(card)]},
+	'Hazard Hopper': {'onTurnEnd': [lambda card: toHand(card) if isTapped(card) and askYN("Did Hazard Hopper broke any shields this turn?")==1 else None]},
+	'Hearty Cap\'n Polligon': {'onTurnEnd': [lambda card: toHand(card) if isTapped(card) and askYN("Did Hearty Cap'n Polligon broke any shields this turn?")==1 else None]},
 	'Laveil, Seeker of Catastrophe': {'onTurnEnd': [lambda card: untapCreature(card)]},
 	'Lone Tear, Shadow of Solitude': {'onTurnEnd': {lambda card: lonely(card)}},
 	'Lukia Lex, Pinnacle Guardian': {'onTurnEnd': [lambda card: untapCreature(card, True)]},
@@ -691,9 +698,9 @@ cardScripts={
 	'Guerrillafugan, Beast Army X': {'onTrigger': [lambda card: len(getMana(me))>=6],
 								  'onPlay': [lambda card: tapThis(card, True)],
 								  'onDestroy': [lambda card: summonFromMana(CivFilter='Nature',filterFunction='cardCostComparator(c,6,"<=","Creature")')]},
-	'Hunbolt, Demonic Elemental': {'onTrigger': [lambda card: any(count>1 for count in {name: names.count(name) for names in [[c.name for c in getCreatures(getTargetPlayer(onlyOpponent=True))]] for name in names}.values())]},
+	'Hunbolt, Demonic Elemental': {'onTrigger': [lambda card: any(count>1 for count in {name: names.count(name) for names in [[c.properties["Name"] for c in getCreatures(getTargetPlayer(onlyOpponent=True))]] for name in names}.values())]},
 	'Hyperspatial Basara Hole': {'onTrigger': [lambda card: len([c for c in getElements(me) if re.search(r"Darkness|Fire",c.Civilization) and re.search("Command",c.Race)])]},
-	'Just in You': {'onTrigger': [lambda card: civilCount("Darkness")], 
+	'Just in You': {'onTrigger': [lambda card: civilCount("Darkness")],
 					'onPlay': [lambda card: mill(me.Deck, 4), lambda card: summonFromGrave(RaceFilter="Abyss", filterFunction='cardCostComparator(c,4,"<=","Creature")')]},
 	'Mettagils, Passion Dragon': {'onTrigger': [lambda card: manaArmsCheck("Fire", 5)]},
 	'Mysterious Ogre Duel': {'onTrigger': [lambda card: len([c for c in getElements(me) if re.search("Human", c.Race)])],
@@ -710,13 +717,13 @@ cardScripts={
 						"Choose an element that costs 3 or less and shieldify it."], False, 2)]},
 	'Perfect Coldflame': {'onTrigger': [lambda card: len([c for c in me.Graveyard if re.search("Spell",c.Type)])>=2]},
 	'Perfect Freestyle': {'onTrigger': [lambda card: len([c for c in getCreatures(getTargetPlayer(onlyOpponent=True)) if cardCostComparator(c,len(getMana(getTargetPlayer(onlyOpponent=True))),'>', "Creature")])]},
-	'Perfect Oratoriocles': {'onTrigger': [lambda card: askYN("Did you put a creature this turn to treat {} as a Shield Trigger?".format(card.name))==1]},
+	'Perfect Oratoriocles': {'onTrigger': [lambda card: askYN("Did you put a creature this turn to treat {} as a Shield Trigger?".format(card.properties["Name"]))==1]},
 	'Polaris, Goldkind': {'onTrigger': [lambda card: len([c for c in getMana(me) if re.search(r"Light|Nature",c.Civilization)])>=7]},
 	'Prison Spark': {'onTrigger': [lambda card: len(c for c in getElements(me) if re.search('Light',c.Civilization) and re.search('Demon Command',c.Race))],
 				  	'onPlay': [lambda card: tapCreature(1, True)]},
 	'Pure Zaru': {'onTrigger': [lambda card: len(getGears(me))]},
 	'Rain, Accurate Reaper': {'onTrigger': [lambda card: askYN("♫Is the music playing?♫")==1]},
-	'Reef, Revolution Captain': {'onTrigger': [lambda card: len([c for c in getCreatures(me) and re.search("Water",c.Civilization)])]},
+	'Reef, Revolution Captain': {'onTrigger': [lambda card: len([c for c in getCreatures(me) if re.search("Water",c.Civilization)])]},
 	'Sg Spagelia, Dragment Symbol': {'onTrigger': [lambda card: manaArmsCheck("Water", 5)]},
 	'Soul Garde, Storage Dragon Elemental': {'onTrigger': [lambda card: manaArmsCheck("Light", 5)]},
 	'Star Paladin <Kolon Star>': {'onTrigger': [lambda card: len(getTamaseeds(me))]},
@@ -736,14 +743,19 @@ cardScripts={
 	'Bluum Erkis, Flare Guardian': {'onButton': [lambda card: bluumErkis(card)]},
 	'Bolmeteus Steel Dragon': {'onButton': [lambda card: burnShieldKill(2)]},
 	'Evil Incarnate': {'onButton': [lambda card: remoteCall(getActivePlayer(), 'sacrifice', []) if getActivePlayer() is not None else None]},
+	'Gachack, Mechanical Doll': {'onButton': [lambda card: kill(targetOwn=True)]},
+	'Gigaclaws': {'onButton': [lambda card: discardAll()]},
 	'Gigavrand': {'onButton': [lambda card: discardAll()]},
 	'Ice Vapor, Shadow of Anguish': {'onButton': [lambda card: opponentToDiscard(), lambda card: oppponentFromMana(toGrave=True)]},
 	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
 	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana(toGrave=True)]},
 	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
+	'Slaphappy Soldier Galback': {'onButton': [lambda card: kill(4000)]},
+	'Solar Grass': {'onButton': [lambda card: untapCreatureAll(False, 'not re.search("Solar Grass",c.properties["Name"])')]},
 	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="c.Power!='Infinity' and int(c.Power.strip('+'))<=5000")]},
 	'Turtle Horn, the Imposing': {'onButton': [lambda card: search(me.Deck, 1, "Creature")]},
 	'Thrumiss, Zephyr Guardian': {'onButton': [lambda card: tapCreature()]},
+	'Vikorakys': {'onButton': [lambda card: search(me.Deck, 1, "ALL", "ALL", "ALL", False)]},
 	'Zero Nemesis, Shadow of Panic': {'onButton': [lambda card: targetDiscard(True)]}
 }
 
@@ -939,8 +951,10 @@ def askYN(text="Proceed?", choices=["Yes", "No"], colorsList=['#FF0000', '#FF000
 	choice=askChoice(text, choices, colorsList)
 	return choice
 
-def askNumber(text="Enter a Number", defaultAnswer=1000):
+def askNumber(text="Enter a Number", defaultAnswer=1000, alwaysReturnNumber=False):
 	choice=askInteger(text, defaultAnswer)
+	if not choice and alwaysReturnNumber:
+		return 0
 	return choice
 
 def getTargetPlayer(text="Pick a player:", onlyOpponent=False):
@@ -1094,9 +1108,8 @@ def sort_cardList(cards, sortCiv=True, sortCost=True, sortName=True):
 	sorted_list=sorted(cards,key=lambda card: (
 		(_civilization_rank(card.Civilization) if sortCiv else float('inf')),
 		(card.Cost if sortCost else float('inf')),
-		(card.Name if sortName else float('inf')),
-
-	))
+		(card.properties["Name"] if sortName else float('inf'))
+		))
 	return sorted_list
 
 def reverseCardList(list):
@@ -1360,7 +1373,7 @@ def hasButtonEffect(cards, x=0, y=0):
 		cards=[cards]
 	if len(cards)==0: return False
 	c=cards[len(cards)-1]
-	if c and cardScripts.get(c.properties["Name"], {}).get('onButton', []) and (isElement(c) and not isRemovedFromPlay(c) or c in me.Graveyard):
+	if c and cardScripts.get(c.properties["Name"], {}).get('onButton') and (isElement(c) and not isRemovedFromPlay(c) or c in me.Graveyard):
 		return True
 	return False
 
@@ -1369,7 +1382,7 @@ def getHasButtonEffect(cards, x=0, y=0):
 		cards=[cards]
 	if len(cards)==0: return ''
 	c=cards[len(cards)-1]
-	return '■ Trigger {} Effect'.format(c.Name)
+	return '■ Trigger {} Effect'.format(c.properties["Name"])
 
 def isUntargettable(card):
 	if card in table and card.owner!=me and cardScripts.get(card.properties["Name"], {}).get('untargettable', False):
@@ -1382,7 +1395,7 @@ def metamorph():
 
 def revolution(card, number, shieldTrigger=False):
 	shieldList=[c for c in getShields(me) if c!=card and me in c.peekers]
-	return len(shieldList)<=number or (shieldTrigger and askYN("Do you have {} or less shields to treat {} as a Shield Trigger?".format(number,card.name))==1)
+	return len(shieldList)<=number or (shieldTrigger and askYN("Do you have {} or less shields to treat {} as a Shield Trigger?".format(number,card.properties["Name"]))==1)
 
 def getWaveStrikerCount(player='ALL'):
 	cardList=[]
@@ -1475,7 +1488,7 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 		success=re.search("Creature", card.Type) or re.search("Spell", card.Type)
 	if success:
 		if conditional:
-			choice=askYN("Put {} into {}?\n\n {}".format(card.Name, targetZone, card.Rules))
+			choice=askYN("Put {} into {}?\n\n {}".format(card.properties["Name"], targetZone, card.Rules))
 			# more conditions for non-bz to be added?
 			if choice==1:
 				toPlay(card)
@@ -1731,7 +1744,7 @@ def eurekaProgram(ask=True):
 			if re.search("Creature", card.Type):
 				if not re.search("Evo", card.Type):
 					if ask:
-						yn=askYN("Put {} into the battle zone?\n\n {}".format(card.Name, card.Rules))
+						yn=askYN("Put {} into the battle zone?\n\n {}".format(card.properties["Name"], card.Rules))
 						if yn==1:
 							found=True
 							toPlay(card, ignoreEffects=True)
@@ -1740,7 +1753,7 @@ def eurekaProgram(ask=True):
 					break
 				else:
 					if ask:
-						yn=askYN("Put {} into the battle zone?\n\n {}".format(card.Name, card.Rules))
+						yn=askYN("Put {} into the battle zone?\n\n {}".format(card.properties["Name"], card.Rules))
 						if yn==1:
 							found=True
 							toPlay(card, ignoreEffects=True)
@@ -1931,28 +1944,28 @@ def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllEx
 		cardToBeSaved!=card and re.search(r"(?<!Shield )Saver",card.rules, re.IGNORECASE)]
 		if len(possibleSavers)>0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
-					cardToBeSaved.Name)):
+					cardToBeSaved.properties["Name"])):
 				if me.isInverted: reverseCardList(possibleSavers)
 				choice=askCard2(possibleSavers, 'Choose Saver to destroy')
 				if type(choice) is Card:
 					toDiscard(choice)
 					cardList.remove(choice)
 					cardList=[card for card in cardList]
-					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.properties["Name"], cardToBeSaved.properties["Name"]))
 					continue
 
 		toDiscard(cardToBeSaved)
 		c=cardToBeSaved  # fix for onDestroy effect, as toDiscard somehow changes card
 
 		functionList=[]
-		if cardScripts.get(c.properties["Name"], {}).get('onDestroy', {}):
+		if cardScripts.get(c.properties["Name"], {}).get('onDestroy'):
 			#notify('DEBUG: Added {} to {}'.format(cardScripts.get(card.properties["Name"]).get('onDestroy'), card.Name))
-			functionList=list(cardScripts.get(c.properties["Name"]).get('onDestroy'))
+			functionList=list(cardScripts.get(c.properties["Name"]).get('onDestroy'), [])
 		if re.search("Survivor", c.Race):
 			for surv in survivors:
-				if surv!=c and cardScripts.get(surv.properties["Name"], {}).get('onDestroy', []):
+				if surv!=c and cardScripts.get(surv.properties["Name"], {}).get('onDestroy'):
 					#notify('DEBUG: Added {} to {}'.format(cardScripts.get(surv.properties["Name"]).get('onDestroy'), card.Name))
-					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onDestroy'))
+					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onDestroy'), [])
 		for function in functionList:
 			waitingFunct.append([c, function])
 	orderEvaluatingFunctions()
@@ -2214,20 +2227,20 @@ def processTapUntapCreature(card, processTapEffects=True):
 
 		#Helper inner function for onAllyTap
 		def handleOnAllyTapEffects(card):
-			creaturesonAllyTapList=[c for c in getCreatures(me) if cardScripts.get(c.properties["Name"], {}).get('onAllyTap', [])]
+			creaturesonAllyTapList=[c for c in getCreatures(me) if cardScripts.get(c.properties["Name"], {}).get('onAllyTap')]
 			#remove duplicates from list, only one Tap Effect can be activated at a time.
 			if len(creaturesonAllyTapList)==0: return False
-			creaturesonAllyTapList={c.name: c for c in creaturesonAllyTapList}.values()
+			creaturesonAllyTapList={c.properties["Name"]: c for c in creaturesonAllyTapList}.values()
 			for creature in creaturesonAllyTapList:
 				functionList=[]
-				functionsonAllyTapList=cardScripts.get(creature.properties["Name"]).get('onAllyTap')
+				functionsonAllyTapList=list(cardScripts.get(creature.properties["Name"]).get('onAllyTap', []))
 				for functiononAllyTap in functionsonAllyTapList:
 					condition=functiononAllyTap[0]
 					c=card
 					if eval(condition, allowed_globals, {'c': c}):
 						functionList.extend(functiononAllyTap[1])
 				if len(functionList)>0:
-					choice=askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.Name, card.Name, creature.Rules), ["Yes", "No"])
+					choice=askYN("Activate Tap Effect(s) for {} by tapping {}?\n\n{}".format(creature.properties["Name"], card.properties["Name"], creature.Rules), ["Yes", "No"])
 					if choice!=1: return False
 					notify('{} uses Tap Effect of {} by tapping {}'.format(me, creature, card))
 					for index, function in enumerate(functionList):
@@ -2238,9 +2251,9 @@ def processTapUntapCreature(card, processTapEffects=True):
 
 		#Tap Effects can only activate during active Player's turn.
 		if processTapEffects and getActivePlayer()==me and not isRemovedFromPlay(card, evolveDict, sealDict) and not card._id in arrow:
-			functionList=cardScripts.get(card.properties["Name"], {}).get('onTap', [])
+			functionList=list(cardScripts.get(card.properties["Name"], {}).get('onTap', []))
 			if len(functionList)>0:
-				choice=askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+				choice=askYN("Activate Tap Effect(s) for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No"])
 				if choice==1:
 					notify('{} uses Tap Effect of {}'.format(me, card))
 					activatedTapEffect=True
@@ -2258,12 +2271,12 @@ def processTapUntapCreature(card, processTapEffects=True):
 			if re.search("Survivor",card.Race):
 				survivors=getSurvivorsOnYourTable(True, evolveDict, sealDict)
 				for surv in survivors:
-					if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onAttack', []):
-						functionList.extend(cardScripts.get(surv.properties["Name"]).get('onAttack'))
+					if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onAttack'):
+						functionList.extend(cardScripts.get(surv.properties["Name"]).get('onAttack'), [])
 			if len(functionList)>0:
 				choice=1
 				if(card._id not in arrow):
-					choice=askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+					choice=askYN("Activate on Attack Effect(s) for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No"])
 				if choice==1:
 					notify('{} uses on Attack Effect of {}'.format(me, card))
 					for index, function in enumerate(functionList):
@@ -2281,7 +2294,7 @@ def processOnTurnEndEffects():
 			survivors=getSurvivorsOnYourTable(True, evolveDict, sealDict)
 			for surv in survivors:
 				if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onTurnEnd', []):
-					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnEnd'))
+					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnEnd', []))
 		if len(functionList)>0:
 			notify('{} activates at the end of {}\'s turn'.format(card, me))
 			for function in functionList:
@@ -2295,7 +2308,7 @@ def processOnTurnEndEffects():
 		if requireCardOnFieldToActivate and (not isElement(card) or isRemovedFromPlay(card)):
 			endOfTurnFunct.remove(function)
 			return
-		notify('{} activates at the end of {}\'s turn'.format(function[1][0], me))
+		notify('{} activates at the end of {}\'s turn'.format(cardFunctList[0], me))
 		waitingFunct.append(cardFunctList)
 		if removeAfterActivation:
 			endOfTurnFunct.remove(function)
@@ -2311,7 +2324,7 @@ def processOnTurnStartEffects():
 			survivors=getSurvivorsOnYourTable(True, evolveDict, sealDict)
 			for surv in survivors:
 				if surv._id!=card._id and cardScripts.get(surv.properties["Name"], {}).get('onTurnStart', []):
-					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnStart'))
+					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onTurnStart', []))
 		if len(functionList)>0:
 			notify('{} activates at the start of {}\'s turn'.format(card, me))
 			for function in functionList:
@@ -2380,7 +2393,7 @@ def selfDiscard(count=1):
 #Summon creature after it got discarded
 def toPlayAfterDiscard(card, onlyOnOpponentTurn=True):
 	if not onlyOnOpponentTurn or getActivePlayer()!=me:
-		choice=askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+		choice=askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No"])
 		if choice==1:
 			toPlay(card)
 
@@ -2516,9 +2529,9 @@ def cloned(functionArray, card):
 	count=1
 	for player in getPlayers():
 		for c in player.piles["Graveyard"]:
-			if re.search(c.Name, card.Name):
+			if re.search(c.properties["Name"], card.properties["Name"]):
 				count += 1
-	notify("{}s in Graveyards:{}".format(card.Name, count - 1))
+	notify("{}s in Graveyards:{}".format(card.properties["Name"], count - 1))
 	for index, funct in enumerate(functionArray):
 		waitingFunct.insert(index + 1, [card, lambda card=card, count=count: funct(card, count)])
 
@@ -2558,22 +2571,21 @@ def addDelayedEffect(effectDictionary, args):
 		return
 	if type(args) is not list:
 		args=[args]
-	delayTo=effectDictionary.get("delayTo")
+	delayTo=effectDictionary.get("delayTo", "EndOfTurn")
 	card=effectDictionary.get("card")
 	functionArray=effectDictionary.get("effects")
 	if callable(functionArray):
 		functionArray=[functionArray]
 	requireCardOnFieldToActivate=effectDictionary.get("requireCardOnFieldToActivate", False)
 	removeAfterActivation=effectDictionary.get("removeAfterActivation", True)
-	
 	if delayTo=="EndOfTurn":
 		listToAppendTo=endOfTurnFunct
 	elif delayTo=="StartOfTurn":
 		listToAppendTo=startOfTurnFunct
-	else: 
+	else:
 		return
 	for funct in functionArray:
-		listToAppendTo.append([requireCardOnFieldToActivate, removeAfterActivation, [card, lambda card=card, args=args: funct(card, *args)]])
+		listToAppendTo.append([requireCardOnFieldToActivate, removeAfterActivation, [card, lambda card=card, args=args: funct(card, args)]])
 
 def activateButtonEffect(card, x=0, y=0):
 	mute()
@@ -2585,10 +2597,10 @@ def activateButtonEffect(card, x=0, y=0):
 		if card not in survivors:
 			survivors.insert(0, card)
 		for surv in survivors:
-			if cardScripts.get(surv.properties["Name"], {}).get('onButton', []):
-				functionList.extend(cardScripts.get(surv.properties["Name"]).get('onButton'))
-	elif cardScripts.get(card.properties["Name"], {}).get('onButton', []):
-		functionList=cardScripts.get(card.properties["Name"]).get('onButton')
+			if cardScripts.get(surv.properties["Name"], {}).get('onButton'):
+				functionList.extend(cardScripts.get(surv.properties["Name"]).get('onButton', []))
+	elif cardScripts.get(card.properties["Name"], {}).get('onButton'):
+		functionList=list(cardScripts.get(card.properties["Name"]).get('onButton', []))
 	for index, function in enumerate(functionList):
 		waitingFunct.insert(index + 1, [card, function])
 	evaluateWaitingFunctions()
@@ -2670,9 +2682,9 @@ def bluumErkis(card):
 		remoteCall(shield.owner, 'flip', [convertCardListIntoCardIDsList(shield)])
 		update()
 		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
-			notify('{} casts {} from {}\'s Shields'.format(me, shield.name, shield.owner))
-			if cardScripts.get(shield.properties["Name"], {}).get('onPlay', []):
-				functionList=list(cardScripts.get(shield.properties["Name"]).get('onPlay'))
+			notify('{} casts {} from {}\'s Shields'.format(me, shield.properties["Name"], shield.owner))
+			if cardScripts.get(shield.properties["Name"], {}).get('onPlay'):
+				functionList=list(cardScripts.get(shield.properties["Name"], {}).get('onPlay', []))
 				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', convertCardListIntoCardIDsList(card)))
 				for index, function in enumerate(functionList):
 					waitingFunct.insert(index + 1, [shield, function])
@@ -2765,7 +2777,7 @@ def enigmaticCascade():
 def shieldswap(card, count=1, ask=False):
 	if len(getShields(me))==0 or len(me.hand)==0: return
 	if ask:
-		choice=askYN("Use {}'s effect?".format(card.Name))
+		choice=askYN("Use {}'s effect?".format(card.properties["Name"]))
 		if choice!=1: return
 	handList=[c for c in me.hand]
 	count=min(count, len(handList))
@@ -2795,7 +2807,7 @@ def ghastlyDrain(card):
 	waitingFunct.insert(1, [card, lambda card=card, counter=number: bounceShield(counter)])
 
 def returnAndDiscard(card):
-	choice=askYN("Return {} to hand?".format(card.name))
+	choice=askYN("Return {} to hand?".format(card.properties["Name"]))
 	if choice!=1: return
 	toHand(card)
 	selfDiscard()
@@ -2916,6 +2928,14 @@ def klujadras():
 		if count:
 			remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), False, count])
 
+def lunarCharger(card):
+	creatureList=getCreatures(me)
+	if len(creatureList)==0: return
+	choices=askCard2(creatureList,"Select up to 2 creatures.","Select", 1, min(2, len(creatureList)), True)
+	if not isinstance(choices, list):return
+	notify("{} chose {} for the effect of {}".format(me, ", ".join(["{}".format(c) for c in choices]), card))
+	addDelayedEffect({"card":card, "effects":[lambda card, args: ([untapCreature(c) for c in choices], False)[0]]}, choices)
+
 def dracobarrier():
 	cardList= [card for card in getCreatures(getTargetPlayer(onlyOpponent=True)) if card.orientation==Rot0 and not isUntargettable(card)]
 	if len(cardList)==0:
@@ -2981,7 +3001,10 @@ def declareRace(card, excludedRace=None, returnRace=False):
 	choice=askChoice("Select a race:", raceNames, customButtons=["Custom Race"])
 	if choice==0:
 		notify("{} didn't declare a Race".format(me))
-		return
+		if returnRace:
+			return "No race"
+		else:
+			return
 	if choice>0:
 		chosenRace=raceNames[choice-1]
 	if choice < 0:
@@ -3082,8 +3105,8 @@ def theGraveOfAngelsAndDemons():
 	manaList=getMana()
 
 	def groupByName(card_list):
-		sortedCards=sorted(card_list, key=lambda card: card.Name)
-		return itertools.groupby(sortedCards, key=lambda card: card.Name)
+		sortedCards=sorted(card_list, key=lambda card: card.properties["Name"])
+		return itertools.groupby(sortedCards, key=lambda card: card.properties["Name"])
 
 	def findDuplicates(groupedCards):
 		duplicates=[]
@@ -3219,7 +3242,7 @@ def mysteriousOgreDuel(card):
 	cardToReveal=opponent.hand.random()
 	cost=cardToReveal.cost
 	update()
-	notify('{} reveals {} randomly. Cost: {}'.format(opponent, cardToReveal.name, cost))
+	notify('{} reveals {} randomly. Cost: {}'.format(opponent, cardToReveal.properties["Name"], cost))
 	if not cost:
 		notify("The revealed card has no cost.")
 		return
@@ -3278,7 +3301,7 @@ def tanzanyte():
 	choice=askCard2(sort_cardList(cardList), 'Select a Creature to return all copies of from Graveyard.')
 	if type(choice) is not Card: return
 	for card in cardList:
-		if card.Name==choice.Name:
+		if card.properties["Name"]==choice.properties["Name"]:
 			toHand(card, True)
 
 def upheaval():
@@ -3342,8 +3365,8 @@ def fromGraveyardAll(filterFunction='True', ask=False, moveToMana=True, moveToHa
 		if moveToMana: toMana(c)
 		elif moveToHand: toHand(c)
 
-#delayedEffect takes a 
-def fromDeckToField(count=1, filterFunction='True', delayedEffect=False):
+#delayedEffectDictionary is a dictionary with those keys: {"delayTo", "card", "effects", "requireCardOnFieldToActivate", "removeAfterActivation"}. Learn more from addDelayedEffect() function.
+def fromDeckToField(count=1, filterFunction='True', delayedEffectDictionary=False):
 	mute()
 	group=me.deck
 	if len(group)==0: return
@@ -3402,7 +3425,7 @@ def flip(card, x=0, y=0):
 		return
 	elif (re.search("Dragheart", card.Type)):
 		# draghearts
-		old=card.Name
+		old=card.properties["Name"]
 		forms=card.alternates
 		if card.alternate is forms[0]:
 			card.alternate=forms[1]
@@ -3794,7 +3817,7 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False, clearWaitingFunctions=True)
 		if card.orientation==Rot90:
 			if not isNewTurn:
 				card.orientation=Rot0
-			elif not isCreature(card) or isBait(card, evolveDict) or not cardScripts.get(card.properties["Name"], {}).get('silentSkill', []):
+			elif not isCreature(card) or isBait(card, evolveDict) or not cardScripts.get(card.properties["Name"], {}).get('silentSkill'):
 				if getAutoUntapCreaturesSetting():
 					card.orientation=Rot0
 			#Silent Skill Check
@@ -3805,12 +3828,12 @@ def untapAll(group=table, x=0, y=0, isNewTurn=False, clearWaitingFunctions=True)
 		if isTapped(card) and getAutoUntapManaSetting():
 			card.orientation^=Rot90
 	for card in silentSkillCards:
-		choice=askYN("Activate Silent Skill for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No"])
+		choice=askYN("Activate Silent Skill for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No"])
 		if choice!=1:
 			card.orientation=Rot0
 			continue
 		notify('{} uses Silent Skill of {}'.format(me, card))
-		functionList=cardScripts.get(card.properties["Name"]).get('silentSkill')
+		functionList=list(cardScripts.get(card.properties["Name"]).get('silentSkill', []))
 		# THERE ARE CURRENTLY NO SURVIVORS THAT HAVE SILENT SKILL
 		for function in functionList:
 			waitingFunct.append([card, function])
@@ -3823,6 +3846,7 @@ def destroyMultiple(cards, x=0, y=0):
 	if len(cards)==1:
 		destroy(cards[0])
 	else:
+		if me.isInverted: reverseCardList(cards)
 		creatureList=[]
 		for card in cards:
 			if isCreature(card):
@@ -3885,13 +3909,13 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		conditionalTrigger=False
 		if cardScripts.get(card.properties["Name"], {}).get('onTrigger'):
 			conditionalTrigger=True
-			trigFunctions=cardScripts.get(card.properties["Name"]).get('onTrigger')
+			trigFunctions=list(cardScripts.get(card.properties["Name"]).get('onTrigger', []))
 			for function in trigFunctions:
 				if conditionalTrigger==False:
 					break
 				conditionalTrigger=function(card)
 		if conditionalTrigger or re.search(r"SHIELD TRIGGER[\sPLUS]{0,}}", card.Rules, re.IGNORECASE):
-			choice=askYN("Activate Shield Trigger for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
+			choice=askYN("Activate Shield Trigger for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				card.isFaceUp=True
 				card.target(False)
@@ -3905,7 +3929,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				processShieldBaits(card)
 				return False
 		if re.search("{GUARD STRIKE}", card.Rules, re.IGNORECASE):
-			choice=askYN("Activate Guard Strike for {}?\n\n{}".format(card.Name, card.Rules), ["Yes", "No", "Wait"])
+			choice=askYN("Activate Guard Strike for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				card.isFaceUp=True
 				card.target(False)
@@ -3936,7 +3960,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				elif re.search("Strike Back", cardInHandWithStrikeBackAbility.rules, re.IGNORECASE) and re.search(cardInHandWithStrikeBackAbility.Civilization, shieldCard.Civilization, re.IGNORECASE):
 					cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed)>0:
-				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.Name,
+				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.properties["Name"],
 																							   shieldCard.Rules)):
 					if me.isInverted: reverseCardList(cardsInHandWithStrikeBackAbilityThatCanBeUsed)
 					choice=askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
@@ -3985,12 +4009,12 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		possibleSavers=[c for c in getCreatures(me) if cardToBeSaved!=c and re.search(r"(?<!Shield )Saver",c.rules, re.IGNORECASE)]
 		if len(possibleSavers)>0:
 			if confirm("Prevent {}'s destruction by using a Saver on your side of the field?\n\n".format(
-					cardToBeSaved.Name)):
+					cardToBeSaved.properties["Name"])):
 				if me.isInverted: reverseCardList(possibleSavers)
 				choice=askCard2(possibleSavers, 'Choose Saver to destroy')
 				if type(choice) is Card:
 					toDiscard(choice)
-					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.name, cardToBeSaved.name))
+					notify("{} destroys {} to prevent {}'s destruction.".format(me, choice.properties["Name"], cardToBeSaved.properties["Name"]))
 					return
 		global wscount
 		wscount=getWaveStrikerCount()
@@ -3998,13 +4022,13 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		card=cardToBeSaved
 
 		functionList=[]
-		if cardScripts.get(card.properties["Name"], {}).get('onDestroy', {}):
-			functionList=list(cardScripts.get(card.properties["Name"]).get('onDestroy'))
+		if cardScripts.get(card.properties["Name"], {}).get('onDestroy'):
+			functionList=list(cardScripts.get(card.properties["Name"]).get('onDestroy'), [])
 		if re.search("Survivor", card.Race):
 			survivors=getSurvivorsOnYourTable()
 			for surv in survivors:
-				if cardScripts.get(surv.properties["Name"], {}).get('onDestroy', []):
-					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onDestroy'))
+				if cardScripts.get(surv.properties["Name"], {}).get('onDestroy'):
+					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onDestroy'), [])
 		for index, function in enumerate(functionList):
 			waitingFunct.insert(index + 1, [card, function])
 		evaluateWaitingFunctions()
@@ -4013,7 +4037,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 def tapThis(card, ask=True):
 	if isTapped(card):
 		if ask:
-			choice=askYN("Would you like to Tap {}?".format(card.name))
+			choice=askYN("Would you like to Tap {}?".format(card.properties["Name"]))
 			if choice!=1: return
 		tapMultiple([card], clearFunctions=False)
 
@@ -4021,12 +4045,15 @@ def tapThis(card, ask=True):
 def untapCreature(card, ask=True):
 	if card.orientation==Rot90:
 		if ask:
-			choice=askYN("Would you like to Untap {}?".format(card.name))
+			choice=askYN("Would you like to Untap {}?".format(card.properties["Name"]))
 			if choice!=1: return
 		tapMultiple([card], clearFunctions=False)
 
-def untapCreatureAll(ask=True):
-	cardList=[c for c in getCreatures(me) if isTapped(c)]
+def untapCreatureAll(ask=True, filterFunction="True"):
+	if filterFunction=="True":
+		cardList=[c for c in getCreatures(me) if isTapped(c)]
+	else:
+		cardList=[c for c in getCreatures(me) if isTapped(c) if eval(filterFunction, allowed_globals, {"c":c})]
 	if ask:
 		choice=askYN("Would you like to Untap All Your Creatures?")
 		if choice!=1: return
@@ -4716,21 +4743,19 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				notify("{} plays {} as {}{} from {}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText, src.name))
 		processExLife(card)
 		functionList=[]
-		if metamorph() and cardScripts.get(card.properties["Name"], {}).get('onMetamorph', []):
-			functionList=list(cardScripts.get(card.properties["Name"]).get('onMetamorph'))
+		if metamorph() and cardScripts.get(card.properties["Name"], {}).get('onMetamorph'):
+			functionList=list(cardScripts.get(card.properties["Name"]).get('onMetamorph', []))
 			notify("Metamorph for {} activated!".format(card))
 		elif re.search('Survivor', card.Race):
 			survivors=getSurvivorsOnYourTable()
-
 			#for non-sharing survivors
 			if card not in survivors:
 				survivors.insert(0, card)
-
 			for surv in survivors:
-				if cardScripts.get(surv.properties["Name"], {}).get('onPlay', []):
-					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onPlay'))
-		elif cardScripts.get(card.properties["Name"], {}).get('onPlay', []):
-			functionList=list(cardScripts.get(card.properties["Name"]).get('onPlay'))
+				if cardScripts.get(surv.properties["Name"], {}).get('onPlay'):
+					functionList.extend(cardScripts.get(surv.properties["Name"]).get('onPlay', []))
+		elif cardScripts.get(card.properties["Name"], {}).get('onPlay'):
+			functionList=list(cardScripts.get(card.properties["Name"]).get('onPlay', []))
 
 		for index, function in enumerate(functionList):
 			waitingFunct.insert(index + 1, [card, function]) # This fuction will be queued(along with the card that called it). RN it's waiting.
@@ -4743,7 +4768,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 
 def endOfFunctionality(card):
 	if card and isSpellInBZ(card) and getAutoMoveSpellsAfterPlaySetting():
-		if any(name in card.name for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.name, re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
+		if any(name in card.properties["Name"] for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.properties["Name"], re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
 			toMana(card)
 		else:
 			card.resetProperties()
@@ -4799,8 +4824,8 @@ def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True,
 		#Handle onDiscard effects
 		if src==card.owner.hand:
 			functionList=[]
-			if cardScripts.get(card.properties["Name"], {}).get('onDiscard', {}):
-				functionList=cardScripts.get(card.properties["Name"]).get('onDiscard')
+			if cardScripts.get(card.properties["Name"], {}).get('onDiscard'):
+				functionList=list(cardScripts.get(card.properties["Name"]).get('onDiscard'))
 				for index, function in enumerate(functionList):
 					waitingFunct.insert(index + 1, [card, function])
 		if cardWasElement: handleOnLeaveBZ(card)
@@ -4856,8 +4881,8 @@ def toDeckBottom(card, x=0, y=0):
 
 def handleOnLeaveBZ(card):
 	functionList=[]
-	if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ',[]):
-		functionList=cardScripts.get(card.properties["Name"]).get('onLeaveBZ')
+	if cardScripts.get(card.properties["Name"],{}).get('onLeaveBZ'):
+		functionList=list(cardScripts.get(card.properties["Name"]).get('onLeaveBZ'))
 		for index, function in enumerate(functionList):
 			waitingFunct.insert(index + 1, [card,function])
 		evaluateWaitingFunctions()
