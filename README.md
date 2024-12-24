@@ -326,7 +326,16 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
   - **Lanerva Stratus, Poseidon's Admiral**
   - **Sephia Parthenon, Spirit Admiral**
   - **Zack Pichi, Winged Dragon Admiral**
-  
+  - **Cebu Aquman Jr.**
+  - **Imen=Bugo, Dragon Ruler**
+  - **Metal Avenger Solid, Dragon Ruler**
+  - **Sasoris, Dragon Ruler**
+  - **The=Deadman, Dragon Ruler**
+  - **Aquan Jr.'s Delivery**
+  - **Child Festival of Faerie Fire**
+  - **Mendelssohn**
+  - **Treasure Map**
+
 - **Wavestrikers Added**:
   - **Wavestriker cards got special encapsulated effects that trigger only if Wavestriker is active** *(3 or more on board)*.
 
