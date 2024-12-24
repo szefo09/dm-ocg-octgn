@@ -8,7 +8,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-- **New Cards Added (316+)**:
+- **New Cards Added (325+)**:
   - **Apocalypse Vise**
   - **Bubble Lamp**
   - **Illusionary Merfolk**
