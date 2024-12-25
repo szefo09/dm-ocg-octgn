@@ -58,6 +58,7 @@ cardScripts={
 	'Bega, Vizier of Shadow': {'onPlay': [lambda card: shields(me.Deck), lambda card:targetDiscard(True)]},
 	'Belix, the Explorer': {'onPlay': [lambda card: fromMana(1,"Spell")]},
 	'Berochika, Channeler of Suns': {'onPlay': [lambda card: shields(me.Deck) if len(getShields(me))>=5 else None]},
+	'Black Feather, Shadow of Rage': {'onPlay': [lambda card: sacrifice()]},
 	'Bombazar, Dragon of Destiny': {'onPlay': [lambda card: destroyAll([c for c in getCreatures() if c!=card], True, 6000, "ALL", False, True)]},
 	'Bonfire Lizard': {'onPlay': [lambda card: waveStriker(lambda card: kill(count=2, rulesFilter="{BLOCKER}"), card)]},
 	'Bronze-Arm Tribe': {'onPlay': [lambda card: mana(me.Deck)]},
@@ -114,9 +115,10 @@ cardScripts={
 	'Galklife Dragon': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 4000, "Light")]},
 	'Gardner, the Invoked': {'onPlay': [lambda card: gear("mana")]},
 	'Gigabalza': {'onPlay': [lambda card: targetDiscard(True)]},
+	'Gigaberos': {'onPlay': [lambda card: sacrifice(count=2) if len(getCreatures(me))>1 else destroy(card)]},
 	'Gigabuster': {'onPlay': [lambda card: bounceShield()]},
 	'Gigandura': {'onPlay': [lambda card: gigandura(card)]},
-	'Gigarayze': {'onPlay': [lambda card: search(me.piles["Graveyard"],1, "Creature", filterFunction="re.search('Water',c.Civilization) or re.search('Fire',c.Civilization)")]},
+	'Gigarayze': {'onPlay': [lambda card: search(me.piles["Graveyard"],1, "Creature", filterFunction='re.search(r"Water|Fire",c.Civilization)')]},
 	'Gigargon': {'onPlay': [lambda card: search(me.piles["Graveyard"], 2, "Creature")]},
 	'Grape Globbo': {'onPlay': [lambda card: lookAtOpponentHand()]},
 	'Grave Worm Q': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "ALL", "ALL", "Survivor")]},
@@ -159,7 +161,7 @@ cardScripts={
 	'Loth Rix, the Iridescent': {'onPlay': [lambda card: shields(me.deck)]},
 	'Magris, Vizier of Magnetism': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Magmarex': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 1000,"ALL", False, True)]},
-	'Marinomancer': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, "re.search('Light', c.Civilization) or re.search('Darkness', c.Civilization)")]},
+	'Marinomancer': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, 're.search(r"Light|Darkness", c.Civilization)')]},
 	'Masked Horror, Shadow of Scorn': {'onPlay': [lambda card: targetDiscard(True)]},
 	'Metal Avenger Solid, Dragon Edge': {'onPlay': [lambda card: fromHyperspatial(1, 're.search("Dragheart", c.Type) and re.search("Water", c.Civilization) and cardCostComparator(c,4, "<=")'), lambda card: bounce(filterFunction='cardCostComparator(c, 6, "<=", "Creature")')]},
 	'Metal Avenger Solid, Dragon Ruler': {'onPlay': [lambda card: fromHyperspatial(1, 're.search("Dragheart", c.Type) and re.search("Water", c.Civilization) and cardCostComparator(c,4, "<=")'), lambda card: bounce(filterFunction='cardCostComparator(c, 6, "<=", "Creature")'),]},
@@ -167,12 +169,12 @@ cardScripts={
 	'Meteosaur': {'onPlay': [lambda card: kill(2000)]},
 	'Miele, Vizier of Lightning': {'onPlay': [lambda card: tapCreature()]},
 	'Midnight Crawler': {'onPlay': [lambda card: opponentManaToHand()]},
-	'Mizoy, the Oracle': {'onPlay': [lambda card: tapCreature(filterFunction="re.search('Darkness',c.Civilization) or re.search('Fire',c.Civilization)")]},
+	'Mizoy, the Oracle': {'onPlay': [lambda card: tapCreature(filterFunction='re.search(r"Darkness|Fire", c.Civilization)')]},
 	'Moors, the Dirty Digger Puppet': {'onPlay': [lambda card: search(me.piles["Graveyard"])]},
 	'Muramasa\'s Socket': {'onPlay': [lambda card: kill(1000)]},
 	'Murian': {'onPlay': [lambda card: suicide(card, draw, [me.Deck])]},
 	'Nam=Daeddo, Bronze Style': {'onPlay': [lambda card: mana(me.Deck, preCondition=manaArmsCheck("Nature",3))]},
-	'Necrodragon Bryzenaga': {'onPlay': [lambda card: peekShields(getShields(me), False)]},
+	'Necrodragon Bryzenaga': {'onPlay': [lambda card: peekShields(getShields(me))]},
 	'Necrodragon Zalva': {'onPlay': [lambda card: remoteCall(getTargetPlayer(onlyOpponent=True), "draw", [])]},
 	'Neve, the Leveler': {'onPlay': [lambda card: search(me.Deck, len(getCreatures(getTargetPlayer(onlyOpponent=True)))-len(getCreatures(me)), "Creature")]},
 	'Niofa, Horned Protector': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "Nature")]},
@@ -185,6 +187,7 @@ cardScripts={
 	'Piara Heart': {'onPlay': [lambda card: kill(1000)]},
 	'Pointa, the Aqua Shadow': {'onPlay': [lambda card: peekShield(1, True), lambda card: targetDiscard(True)]},
 	'Poison Worm': {'onPlay': [lambda card: kill(3000, 1, targetOwn=True)]},
+	'Pouch Shell': {'onPlay': [lambda card: pouchShell()]},
 	'Prometheus, Splash Axe': {'onPlay': [lambda card: mana(me.Deck, 2, False, True)]},
 	'Punch Trooper Bronks': {'onPlay': [lambda card: bronks()]},
 	'Q-tronic Hypermind': {'onPlay': [lambda card: draw(me.Deck, True, len(getSurvivorsOnYourTable(False)))]},
@@ -195,7 +198,7 @@ cardScripts={
 	'Rimuel, Cloudbreak Elemental': {'onPlay': [lambda card: tapCreature(len([c for c in getMana(me) if re.search("Light", c.Civilization) and not isTapped(c)]))]},
 	'Ripple Lotus Q': {'onPlay': [lambda card: tapCreature()]},
 	'Rom, Vizier of Tendrils': {'onPlay': [lambda card: tapCreature()]},
-	'Rothus, the Traveler': {'onPlay': [lambda card: rothus()]},
+	'Rothus, the Traveler': {'onPlay': [lambda card: opponentSacrifice() if not sacrifice(returnTrueIfNoDestruction=True) else None]},
 	'Romanesk, the Dragon Wizard': {'onPlay': [lambda card: mana(me.Deck, 4)]},
 	'Rumbling Terahorn': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
 	'Rv Penicillin, Dragment Symbol': {'onPlay': [lambda card: bounceAll(myCards=False) if revolution(card,2) else None]},
@@ -224,8 +227,8 @@ cardScripts={
 	'Stinger Worm': {'onPlay': [lambda card: sacrifice()]},
 	'Swamp Worm': {'onPlay': [lambda card: opponentSacrifice()]},
 	'Syforce, Aurora Elemental': {'onPlay': [lambda card: fromMana(1,"Spell")]},
-	'Telitol, the Explorer': {'onPlay': [lambda card: peekShields(getShields(me), False)]},
-	'Tekorax': {'onPlay': [lambda card: peekShields(getShields(getTargetPlayer(onlyOpponent=True)), False)]},
+	'Telitol, the Explorer': {'onPlay': [lambda card: peekShields(getShields(me))]},
+	'Tekorax': {'onPlay': [lambda card: peekShields(getShields(getTargetPlayer(onlyOpponent=True)))]},
 	'Terradragon Zalberg': {'onPlay': [lambda card: destroyMana(2)]},
 	'The=Deadman, Dragon Edge': {'onPlay': [lambda card: fromHyperspatial(1,'re.search("Dragheart", c.Type) and re.search("Nature",c.Civilization) and cardCostComparator(c, 5,"<=")')]},
 	'The=Deadman, Dragon Ruler': {'onPlay': [lambda card: fromHyperspatial(1,'re.search("Dragheart", c.Type) and re.search("Nature",c.Civilization) and cardCostComparator(c, 5,"<=")')]},
@@ -303,6 +306,7 @@ cardScripts={
 	'Slash Charger': {'onPlay': [lambda card: fromDeckToGrave()]},
 	'Dracobarrier': {'onPlay': [lambda card: dracobarrier()]},
 	'Drill Bowgun': {'onPlay': [lambda card: gear("kill")]},
+	'Eldritch Poison': {'onPlay': [lambda card: fromMana(1, "Creature") if not sacrifice(filterFunction='re.search("Darkness",c.Civilization)', returnTrueIfNoDestruction=True) else None]},
 	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard()]},
 	'Enchanted Soil': {'onPlay': [lambda card: fromGraveyardToMana(2, "re.search('Creature', c.Type)")]},
 	'Energy Re:Light': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
@@ -319,7 +323,7 @@ cardScripts={
 	'Fire Crystal Bomb': {'onPlay': [lambda card: kill(5000)]},
 	'Flame Lance Trap': {'onPlay': [lambda card: kill(5000)]},
 	'Flood Valve': {'onPlay': [lambda card: fromMana()]},
-	'Freezing Icehammer': {'onPlay': [lambda card: sendToMana(filterFunction="re.search(r'Water', c.Civilization) or re.search(r'Darkness', c.Civilization)")]},
+	'Freezing Icehammer': {'onPlay': [lambda card: sendToMana(filterFunction='re.search(r"Water|Darkness", c.Civilization)')]},
 	'Future Slash': {'onPlay': [lambda card: fromDeckToGrave(2,True)]},
 	'Gardening Drive': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Gatling Cyclone': {'onPlay': [lambda card: kill(2000)]},
@@ -364,7 +368,7 @@ cardScripts={
 	'Lightning Charger': {'onPlay': [lambda card: tapCreature()]},
 	'Like a Rolling Storm': {'onPlay': [lambda card: mill(me.Deck, 3, True), lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Lionic Phantom Dragon\'s Flame': {'onPlay': [lambda card: kill(2000)]},
-	'Liquid Scope': {'onPlay': [lambda card: lookAtOpponentHand(), lambda card: peekShields(getShields(getTargetPlayer(onlyOpponent=True)), False)]},
+	'Liquid Scope': {'onPlay': [lambda card: lookAtOpponentHand(), lambda card: peekShields(getShields(getTargetPlayer(onlyOpponent=True)))]},
 	'Living Lithograph': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Logic Cube': {'onPlay': [lambda card: search(me.Deck, 1, "Spell")]},
 	'Logic Sphere': {'onPlay': [lambda card: fromMana(1, "Spell")]},
@@ -403,6 +407,7 @@ cardScripts={
 	'Pixie Life': {'onPlay': [lambda card: mana(me.Deck, 1, False, False), lambda card: fromMana(1, "ALL", "Zero")]},
 	'Primal Scream': {'onPlay': [lambda card: mill(me.Deck, 4, True), lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Proclamation of Death': {'onPlay': [lambda card: opponentSacrifice()] },
+	'Psychic Shaper': {'onPlay': [lambda card: revealFromDeckAndAddToHand(4, 're.search("Water",c.Civilization)')]},
 	'Punish Hold': {'onPlay': [lambda card: tapCreature(2)]},
 	'Purgatory Force': {'onPlay': [lambda card: search(me.piles["Graveyard"], 2, "Creature")]},
 	'Rain of Arrows': {'onPlay': [lambda card: lookAtHandAndDiscardAll(filterFunction='re.search(r"Darkness",c.Civilization) and re.search(r"Spell",c.Type)')]},
@@ -462,7 +467,7 @@ cardScripts={
 	'Ultimate Force': {'onPlay': [lambda card: mana(me.Deck, 2)]},
 	'Unified Resistance': {'onPlay': [lambda card: declareRace(card)]},
 	'Upheaval': {'onPlay': [lambda card: upheaval()]},
-	'Vacuum Gel': {'onPlay': [lambda card: kill(filterFunction="re.search(r'Light',c.Civilization) or re.search(r'Nature',c.Civilization)")]},
+	'Vacuum Gel': {'onPlay': [lambda card: kill(filterFunction='re.search(r"Light|Nature",c.Civilization)')]},
 	'Vacuum Ray': {'onPlay': [lambda card: tapCreature()]},
 	'Valiant Spark': {'onPlay': [lambda card: tapCreature()],
 					  'onMetamorph': [lambda card: tapCreature(1,True)]},
@@ -660,7 +665,7 @@ cardScripts={
 	'Flametropus': {'onAttack': [lambda card: fromMana(toGrave=True,ask=True)]},
 	'Gamil, Knight of Hatred': {'onAttack': [lambda card: search(me.piles["Graveyard"], CivFilter="Darkness")]},
 	'General Dark Fiend': {'onAttack': [lambda card: burnShieldKill(1,True)]},
-	'Geoshine, Spectral Knight': {'onAttack': [lambda card: tapCreature(includeOwn=True, filterFunction="re.search(r'Fire',c.Civilization) or re.search(r'Darkness',c.Civilization)")]},
+	'Geoshine, Spectral Knight': {'onAttack': [lambda card: tapCreature(includeOwn=True, filterFunction='re.search(r"Fire|Darkness",c.Civilization)')]},
 	'Headlong Giant': {'onAttack': [lambda card: selfDiscard()]},
 	'Horrid Worm': {'onAttack': [lambda card: targetDiscard(True)]},
 	'Hypersquid Walter': {'onAttack': [lambda card: draw(me.Deck, True)]},
@@ -668,7 +673,7 @@ cardScripts={
 	'King Ponitas': {'onAttack': [lambda card: search(me.Deck, CivFilter="Water")]},
 	'Lalicious': {'onAttack': [lambda card: lookAtOpponentHand(),lambda card: lookAtCards(opponent=True) ]},
 	'Laguna, Lightning Enforcer': {'onAttack': [lambda card: search(me.Deck, TypeFilter="Spell")]},
-	'Le Quist, the Oracle': {'onAttack': [lambda card: tapCreature(1,filterFunction="re.search(r'Fire',c.Civilization) or re.search(r'Darkness',c.Civilization)")]},
+	'Le Quist, the Oracle': {'onAttack': [lambda card: tapCreature(1,filterFunction='re.search(r"Fire|Darkness",c.Civilization)')]},
 	'Melcap, the Mutant Explorer': {'onAttack': [lambda card: tapCreature(1, True)]},
 	'Metalwing Skyterror': {'onAttack': [lambda card: kill(rulesFilter="{BLOCKER}")]},
 	'Muramasa, Duke of Blades': {'onAttack': [lambda card: kill(2000)]},
@@ -682,7 +687,7 @@ cardScripts={
 	'Skullsweeper Q': {'onAttack': [lambda card: opponentToDiscard()]},
 	'Smile Angler': {'onAttack': [lambda card: opponentManaToHand()]},
 	'Sniper Mosquito': {'onAttack': [lambda card: fromMana()]},
-	'Stained Glass': {'onAttack': [lambda card: bounce(opponentOnly=True, filterFunction="re.search(r'Fire',c.Civilization) or re.search(r'Nature',c.Civilization)")]},
+	'Stained Glass': {'onAttack': [lambda card: bounce(opponentOnly=True, filterFunction='re.search(r"Fire|Nature",c.Civilization)')]},
 	'Steam Rumbler Kain': {'onAttack': [lambda card: burnShieldKill(1, True)]},
 	'Stinger Ball': {'onAttack': [lambda card: peekShield(1, True)]},
 	'Split-Head Hydroturtle Q': {'onAttack': [lambda card: draw(me.Deck,True)]},
@@ -765,6 +770,7 @@ cardScripts={
 	'Joe\'s Toolkit': {'onButton': [lambda card: kill(2000)]},
 	'Pocopen, Counterattacking Faerie': {'onButton': [lambda card: oppponentFromMana(toGrave=True)]},
 	'Rieille, the Oracle': {'onButton': [lambda card: tapCreature()]},
+	'Scream Slicer, Shadow of Fear': {'onButton': [lambda card: bronks()]},
 	'Slaphappy Soldier Galback': {'onButton': [lambda card: kill(4000)]},
 	'Solar Grass': {'onButton': [lambda card: untapCreatureAll(False, 'not re.search("Solar Grass",c.properties["Name"])')]},
 	'Super Dragon Machine Dolzark': {'onButton': [lambda card: sendToMana(1, filterFunction="c.Power!='Infinity' and int(c.Power.strip('+'))<=5000")]},
@@ -1131,7 +1137,7 @@ def reverseCardList(list):
 	list.reverse()
 	return list
 
-def addBaits(card, targets, evolveDict=None):
+def updateBaits(card, targets, evolveDict=None):
 	if isCreature(card):
 		if any(c.orientation==Rot90 for c in targets):
 			card.orientation=Rot90
@@ -1245,7 +1251,7 @@ def isShield(card):
 		return True
 
 def isPsychic(card):
-	if re.search("Psychic", card.Type) or re.search("Dragheart", card.Type):
+	if re.search(r"Psychic|Dragheart", card.Type)
 		return True
 
 def isGacharange(card):
@@ -1500,7 +1506,7 @@ def drama(shuffle=True, type='creature', targetZone='battlezone', failZone='mana
 	if type=='creature':
 		success=re.search("Creature", card.Type)
 	elif type=='creature or spell':
-		success=re.search("Creature", card.Type) or re.search("Spell", card.Type)
+		success=re.search(r"Creature|Spell", card.Type)
 	if success:
 		if conditional:
 			choice=askYN("Put {} into {}?\n\n {}".format(card.properties["Name"], targetZone, card.Rules))
@@ -1627,7 +1633,7 @@ def lookAtHandAndDiscardAll(filterFunction='True'):
 		choices=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 	else:
 		choices=cardList
-	remoteCall(choice.owner, 'toDiscard', [convertCardListIntoCardIDsList(choices), 0, 0, False, True, True, False, True])
+	remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(choices), 0, 0, False, True, True, False, True])
 
 def discardAll(onlyOpponent=True, onlySelf=False):
 	mute()
@@ -1881,9 +1887,9 @@ def fromDeckToMana(count=1, filterFunction='True'):
 def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn=False, rulesFilter='ALL', filterFunction='True'):
 	mute()
 	if targetOwn:
-		cardList=[c for c in getCreatures() if (powerFilter=='ALL' or c.Power!='Infinity' and int(c.Power.strip('+')) <= powerFilter)]
+		cardList=[c for c in getCreatures() if (powerFilter=='ALL' or c.Power!='Infinity' and int(c.Power.strip('+')) <= powerFilter) and not isUntargettable(c)]
 	else:
-		cardList=[c for c in getCreatures() if c.owner!=me if (powerFilter=='ALL' or c.Power!='Infinity' and int(c.Power.strip('+')) <= powerFilter)]
+		cardList=[c for c in getCreatures() if c.owner!=me if (powerFilter=='ALL' or c.Power!='Infinity' and int(c.Power.strip('+')) <= powerFilter) and not isUntargettable(c)]
 	if tapFilter!='ALL':
 		if tapFilter=='Untap':
 			cardList=[c for c in cardList if c.orientation==Rot0]
@@ -1894,29 +1900,21 @@ def kill(powerFilter='ALL', tapFilter='ALL', civFilter='ALL', count=1, targetOwn
 	if rulesFilter!='ALL':
 		cardList=[c for c in cardList if re.search(rulesFilter, c.Rules)]
 	if filterFunction!='True':
-		cardList=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c}) and not isUntargettable(c)]
+		cardList=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList)==0:
 		whisper("No valid targets on the table.")
 		return
 
 	count=min(count, len(cardList))
-	targets=[c for c in getCreatures() if not isUntargettable(c)]
-	if len(targets)==0:return
-	targets=[c for c in targets if c.targetedBy==me]
+	if count==0:
+		whisper("No valid targets.")
+		return
+	targets=[c for c in cardList if c.targetedBy==me]
 	if len(targets)!=count:
 		whisper("Wrong number of targets!")
 		return True  # return true activates the cardStack/waiting for targets mechanism
-	killList=[]
-	for i in range(0, count):
-		if (targets[i] in cardList):
-			choice=targets[i]
-			killList.append(choice)
-		else:
-			whisper("Invalid target(s)! Waiting for targets...")
-			return True
 
-	for card in killList:
-		remoteCall(card.owner, "destroy", convertCardListIntoCardIDsList(card))
+	destroyAll(targets)
 
 #Mass Destruction handling, call this instead of destroy() if you are destroying more than 1 Creature at once.
 def destroyAll(group, condition=False, powerFilter='ALL', civFilter="ALL", AllExceptFiltered=False, exactPower=False, dontAsk=False):
@@ -2026,14 +2024,15 @@ def burnShieldKill(count=1, targetOwnSh=False, powerFilter='ALL', killCount=0, t
 			targetCr.append(c)
 
 	if killCount=="ALL" or killCount>0:
-		validKillTargets=[c for c in getCreatures() if not isUntargettable(c) and (powerFilter=='ALL' or c.Power!='Infinity' and int(c.Power.strip(' +')) <= powerFilter)]
+		validKillTargets=[c for c in getCreatures() if not isUntargettable(c) and (powerFilter=='ALL' or (c.Power!='Infinity' and int(c.Power.strip(' +'))<=powerFilter))]
 		if not targetOwnCr:
 			validKillTargets=[c for c in validKillTargets if not c.owner==me]
-			targetCr=[c for c in targetCr if not c.owner==me]
+			targetCr=[c for c in targetCr if not c.owner==me and c in validKillTargets]
 		if killCount=="ALL":
 			targetCr=validKillTargets
 			killCount=len(targetCr)
 		else:
+			targetCr=[c for c in targetCr if c in validKillTargets]
 			killCount=min(killCount, len(validKillTargets))
 
 	myShields=len(getShields(me))
@@ -2083,16 +2082,23 @@ def lookAtCards(count=1, isTop=True, opponent=False):
 	targetPlayer.Deck.lookAt(count, isTop)
 
 #Destroy your own creature
-def sacrifice(power='inf', count=1, filterFunction='True'):
+def sacrifice(power='inf', count=1, filterFunction='True', returnTrueIfNoDestruction=False):
 	mute()
 	cardList=[c for c in getCreatures(me) if (power=='inf' or c.Power!='Infinity' and int(c.Power.strip('+')) <= power) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList)==0:
+		if returnTrueIfNoDestruction:
+			return True
 		return
 	if me.isInverted: reverseCardList(cardList)
 	choices=askCard2(cardList, 'Choose {} Creature(s) to destroy'.format(count), maximumToTake=count, returnAsArray=True)
-	if not isinstance(choices,list): return
+	if not isinstance(choices,list) or not choices:
+		if returnTrueIfNoDestruction:
+			return True
+		return
 	for choice in choices:
 		destroy(choice)
+
+	if returnTrueIfNoDestruction and len(choices)<count: return True
 
 #Return targeted creatures to hand
 def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', conditionalFromLastFunction=False, upTo=False):
@@ -2128,7 +2134,7 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction='True'):
 	mute()
 	group=ensureGroupObject(group)
-	cardList=[c for c in getCreatures() if ((opponentCards and c.controller!=me) or (myCards and c.controller==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in group if isCreature(c) and not isRemovedFromPlay(c) and ((opponentCards and c.controller!=me) or (myCards and c.controller==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 	if len(cardList)==0: return
 	for card in cardList:
 		remoteCall(card.owner, "toHand", convertCardListIntoCardIDsList(card))
@@ -2137,10 +2143,11 @@ def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction='Tru
 def peekShields(shields, checkEvo=True):
 	mute()
 	for shield in shields:
+		if not isShield(shield): return
 		shield.peek()
 		notify("{} peeks at Shield#{}".format(me, shield.markers[shieldMarker]))
 		if checkEvo:
-			baits=removeBaits(shield)
+			baits=getCardBaits(shield)
 			peekShields(baits, False)
 
 #Used to target a shield(s) and peek at them.
@@ -2650,7 +2657,7 @@ def allSunrise():
 			for c in reversed(deckList):
 				toShields(c, 0, 0, True, False, False)
 			toShields(topCard, 0, 0, True, False, False)
-			addBaits(topCard, deckList, evolveDict)
+			updateBaits(topCard, deckList, evolveDict)
 		else:
 			toShields(topCard)
 	notify('{} puts their Deck as a single Shield #{}.'.format(me, me.getGlobalVariable("shieldCount")))
@@ -2875,7 +2882,7 @@ def hellHand():
 		if baits:
 			baitList=baitsToKeepDict.get(shield._id,[])
 			baitList.extend(baits)
-			addBaits(shield, baitList, evolveDict)
+			updateBaits(shield, baitList, evolveDict)
 			#put only face-up baits to Front.
 			for bait in baits:
 				bait.moveToTable(0,0)
@@ -2889,6 +2896,27 @@ def pinpointLunatron():
 	cardList=[c for c in cardList if c.targetedBy==me]
 	if len(cardList)!=1: return True
 	toHand(cardList[0])
+
+def pouchShell():
+	player=getTargetPlayer(onlyOpponent=True)
+	cardList=[c for c in getCreatures(player) if re.search("Evolution", c.Type) and not isUntargettable(c)]
+	if cardList==0: return
+	choice=askCard2(cardList, "Select an evolution creature")
+	if type(choice) is not Card: return
+	baits=getCardBaits(choice)
+	if len(baits)==0:
+		remoteCall(player, 'toDiscard', [choice])
+	else:
+		remoteCall(player, '_pouchShellOpp', [choice])
+
+def _pouchShellOpp(card):
+	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
+	baits=removeBaits(card, evolveDict)
+	if len(baits)>1:
+		topCard=baits.pop(0)
+		updateBaits(topCard,baits, evolveDict)
+	toDiscard(card)
+	align()
 
 def heavyweightDragon(card):
 	cardList=[c for c in getCreatures(getTargetPlayer(onlyOpponent=True)) if not isUntargettable(c) and c.Power!='Infinity']
@@ -2935,7 +2963,7 @@ def hydroHurricane(card):
 def kingAquakamui(card):
 	choice=askYN("Return all Angel Commands and Demon Commands from Graveyard to Hand?")
 	if choice!=1: return
-	cardsInGrave=[c for c in me.piles['Graveyard'] if re.search("Angel Command", c.Race) or re.search("Demon Command", c.Race)]
+	cardsInGrave=[c for c in me.piles['Graveyard'] if re.search(r"Angel Command|Demon Command", c.Race)]
 	for c in cardsInGrave:
 		toHand(c)
 
@@ -3237,10 +3265,6 @@ def rapidReincarnation():
 	if type(choice) is not Card: return
 	destroy(cardList[0])
 	toPlay(choice, clearWaitingFunctions=False)
-
-def rothus():
-	sacrifice()
-	opponentSacrifice()
 
 def rouletteOfRuin():
 	mute()
@@ -4024,7 +4048,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				baits.insert(0, shieldCard)
 			if len(baits)>1:
 				topBait=baits.pop(0)
-				addBaits(topBait, baits, evolveDict)
+				updateBaits(topBait, baits, evolveDict)
 			align()
 
 	if isShield(card):
@@ -4256,7 +4280,7 @@ def detachBait(card, x=0, y=0, minimumToTake=None, maximumToTake=None):
 	notify('{} detaches {} from {}'.format(me, ", ".join('{}'.format(c) for c in choices), card))
 	for choice in choices:
 		toDiscard(choice, notifymute=True)
-	addBaits(card, newBaitList)
+	updateBaits(card, newBaitList)
 	align()
 	return choices
 
@@ -4273,7 +4297,7 @@ def attachBait(card, x=0, y=0):
 	if not isinstance(choices,list): return []
 	notify('{} attaches {} to {}'.format(me, ", ".join('{}'.format(c) for c in choices), card))
 	newBaitList=getCardBaits(card) + choices
-	addBaits(card, newBaitList)
+	updateBaits(card, newBaitList)
 	align()
 	return choices
 
@@ -4461,8 +4485,9 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
 		baitList=removeBaits(card)
-		for baitCard in baitList:
-			toMana(baitCard, checkEvo=False, alignCheck=False, faceDown=faceDown)
+		if not (getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity"):
+			for baitCard in baitList:
+				toMana(baitCard, checkEvo=False, alignCheck=False, faceDown=faceDown)
 	if isPsychic(card):
 		toHyperspatial(card)
 		if cardWasElement: handleOnLeaveBZ(card)
@@ -4519,8 +4544,9 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
 		baitList=removeBaits(card)
-		for baitCard in baitList:
-			toShields(baitCard, checkEvo=False, alignCheck=False)
+		if not (getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity"):
+			for baitCard in baitList:
+				toShields(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
 		toHyperspatial(card)
 		if cardWasElement: handleOnLeaveBZ(card)
@@ -4572,7 +4598,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		baits=removeBaits(card, evolveDict)
 		if baits and all(isShield(bait) for bait in baits):
 			topBait=baits.pop(0)
-			addBaits(topBait, baits)
+			updateBaits(topBait, baits)
 		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.markers[shieldMarker]=0
 	if card.group!=table:
@@ -4749,7 +4775,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			if re.search('{NEO EVOLUTION}', card.Rules):
 				card.Type='Neo Evolution Creature'
 			evolveText=", evolving {}".format(", ".join('{}'.format(c) for c in targets))
-			addBaits(card, targets, evolveDict)
+			updateBaits(card, targets, evolveDict)
 
 	align()
 	if notifymute==False and not card.hasProperty('Name1'):
@@ -4830,8 +4856,9 @@ def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True,
 		cardWasElement=isElement(card) and checkEvo
 		if src==table and checkEvo:
 			baitList=removeBaits(card)
-			for baitCard in baitList:
-				toDiscard(baitCard, checkEvo=False, alignCheck=False)
+			if not (getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity"):
+				for baitCard in baitList:
+					toDiscard(baitCard, checkEvo=False, alignCheck=False)
 		if isPsychic(card):
 			toHyperspatial(card)
 			if cardWasElement: handleOnLeaveBZ(card)
@@ -4876,8 +4903,9 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	cardWasElement=isElement(card) and checkEvo
 	if checkEvo:
 		baitList=removeBaits(card)
-		for baitCard in baitList:
-			toHand(baitCard, checkEvo=False, alignCheck=False)
+		if not (getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity"):
+			for baitCard in baitList:
+				toHand(baitCard, checkEvo=False, alignCheck=False)
 	if isPsychic(card):
 		toHyperspatial(card)
 		if cardWasElement: handleOnLeaveBZ(card)
@@ -4955,6 +4983,8 @@ def toDeck(card, bottom=False):
 		return
 
 	cardList=removeBaits(card)  # baits
+	if getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity":
+		cardList=[]
 	cardList.insert(0, card)  # top card as well
 	chooseCardPlacementInDeck(cardList)
 	align()

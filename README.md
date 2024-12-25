@@ -8,7 +8,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-<details><summary><h2>New Card Scripts Added (381+)</h2> (click to expand)</summary>
+<details><summary><h2>New Card Scripts Added (387+)</h2> (click to expand)</summary>
   
 - **All Sunrise**
 - **Ancient Horn, the Watcher**
@@ -18,6 +18,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Aqua Trickster**
 - **Baraga, Blade of Gloom**
 - **Berochika, Channeler of Suns**
+- **Black Feather, Shadow of Rage**
 - **Bombazar, Dragon of Destiny**
 - **Bonfire Lizard**
 - **Bubble Lamp**
@@ -43,6 +44,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Flame Trooper Goliac**
 - **Frantic Chieftain**
 - **Galklife Dragon**
+- **Gigaberos**
 - **Gigabuster**
 - **Gigandura**
 - **Gigarayze**
@@ -74,6 +76,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Neve, the Leveler**
 - **Onslaughter Triceps**
 - **Poison Worm**
+- **Pouch Shell**
 - **Punch Trooper Bronks**
 - **Q-tronic Hypermind**
 - **Raptor Fish**
@@ -123,6 +126,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Diamondia, the Blizzard Rider**
 - **Divine Riptide**
 - **Slash Charger**
+- **Eldritch Poison**
 - **Emergency Typhoon**
 - **Energy Re:Light**
 - **Enigmatic Cascade**
@@ -155,6 +159,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Mystic Treasure Chest**
 - **Nightmare Machine**
 - **Proclamation of Death**
+- **Psychic Shaper**
 - **Rain of Arrows**
 - **Rainbow Gate**
 - **Rainbow Stone**
@@ -384,6 +389,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Joe's Toolkit**
 - **Pocopen, Counterattacking Faerie**
 - **Rieille, the Oracle**
+- **Scream Slicer, Shadow of Fear**
 - **Slaphappy Soldier Galback**
 - **Solar Grass**
 - **Super Dragon Machine Dolzark**
@@ -481,6 +487,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ### Fixes
 <details><summary><h3>Card Fixes</h3> (click to expand)</summary>
   
+  - **Soul Phoenix, Avatar of Unity**: Added an edge-case to functions to only move it from the field, leaving baits behind.
   - **Aqua Sniper, Teleportation, Abduction Charger**: Allow you to stop picking targets after the first one.
   - **Dandy Eggplant**: Now let's you pick a card from Deck to put to Mana, and then a card from Mana to Graveyard.
   - **Boomerang Comet and Pixie Cocoon**: Now properly go to mana after being played.
