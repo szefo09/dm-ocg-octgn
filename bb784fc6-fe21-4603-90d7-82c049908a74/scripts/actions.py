@@ -3740,7 +3740,7 @@ def displayDeck(group, x=0, y=0):
 	if rowLimit==0:
 		whisper("Operation canceled.")
 		return
-	rowOrder=askChoice("Select alignment option:", ["Single cards", "Ladder pairings", "Side pairings"])
+	rowOrder=askChoice("Select layout:", ["Singles layout", "Ladder layout", "Side layout"])
 	if rowOrder==0:
 		whisper("Operation canceled.")
 		return
