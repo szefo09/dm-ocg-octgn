@@ -3734,6 +3734,79 @@ def align():
 		if playerside==-1:
 			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
 
+def displayDeck(group, x=0, y=0):
+	if len(table)>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"): return
+	rowLimit=askNumber("How many cards per row?", 5, alwaysReturnNumber=True)
+	if rowLimit==0:
+		whisper("Operation canceled.")
+		return
+	rowOrder=askChoice("Select alignment option:", ["Single cards", "Ladder pairings", "Side pairings"])
+	if rowOrder==0:
+		whisper("Operation canceled.")
+		return
+
+	def isAlreadyAdded(c):
+		return cardsAddedToList.get(c.name, None)
+	sideflip=1
+	if me.isInverted:
+		sideflip=-1
+	rows=[]
+	cardsAddedToList={}
+	cardsReduced=[]
+	allZones=itertools.chain(me.deck, me.Hyperspatial, me.Gacharange)
+	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
+	for card in allZones:
+		existingCard=isAlreadyAdded(card)
+		if rowOrder>1 and existingCard:
+			baits=removeBaits(existingCard,evolveDict)
+			baits.append(card)
+			updateBaits(existingCard,baits, evolveDict)
+			continue
+		else:
+			cardsReduced.append(card)
+			cardsAddedToList[card.name]=card
+	for card in cardsReduced:
+		if rows and len(rows[-1])<rowLimit:
+			rows[-1].append(card)
+		else:
+			rows.append([card])
+	xpos=80
+	ypos=-88
+	for row in rows:
+		xpos=80
+		ypos+=89
+		if rowOrder==2:
+			ypos+= 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in row] or [1])
+		for card in row:
+			x=sideflip * xpos
+			y=sideflip * ypos + (44 * sideflip - 44)
+			differenceWideCardsWidth=card.width - 63
+			differenceWideCardHeight=card.height - 88
+			if differenceWideCardsWidth and sideflip==-1 and card.isFaceUp:
+				x -= differenceWideCardsWidth
+			if differenceWideCardHeight and sideflip==1 and card.isFaceUp:
+				y -= differenceWideCardHeight
+			if card.position!=(x, y):
+				card.moveToTable(x, y)
+			xpos += 64
+			if rowOrder==3:
+				xpos += 15 * len(evolveDict[card._id])
+	for evolution in evolveDict:
+		count=0
+		for evolvedCard in evolveDict[evolution]:
+			evoCard=Card(evolution)
+			bait=Card(evolvedCard)
+			x, y=evoCard.position
+			count += 1
+			if rowOrder==2:
+				y-= 10 * count * sideflip
+			if rowOrder==3:
+				x+= 13 * count * sideflip
+			newPosition=(x , y)
+			if bait.position!=newPosition:
+				bait.moveToTable(*newPosition)
+				bait.sendToBack()
+
 #Clear Targets/Arrows
 def clear(group, x=0, y=0):
 	mute()
