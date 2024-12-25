@@ -1251,7 +1251,7 @@ def isShield(card):
 		return True
 
 def isPsychic(card):
-	if re.search(r"Psychic|Dragheart", card.Type)
+	if re.search(r"Psychic|Dragheart", card.Type):
 		return True
 
 def isGacharange(card):
