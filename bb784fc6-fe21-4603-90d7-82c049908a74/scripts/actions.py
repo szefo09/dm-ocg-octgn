@@ -4245,6 +4245,8 @@ def showWelcomeMessage():
 		openUrl("https://discord.gg/DkJXpTEBNe")
 	if choice==3:
 		openUrl("https://github.com/szefo09/dm-ocg-octgn")
+	if choice>1:
+		showWelcomeMessage()
 
 def showSettingWindow(group,x=0,y=0):
 	mute()
