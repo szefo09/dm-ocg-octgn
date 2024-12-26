@@ -642,11 +642,14 @@ cardScripts={
 	'Gigamente': {'silentSkill': [lambda card: search(me.piles["Graveyard"], TypeFilter="Creature")]},
 	'Hustle Berry': {'silentSkill': [lambda card: mana(me.Deck)]},
 	'Kaemira, the Oracle': {'silentSkill': [lambda card: shields(me.deck)]},
+	'Kejila, the Hidden Horror': {'silentSkill': [lambda card: burnShieldKill(2)]},
 	'Milporo': {'silentSkill': [lambda card: draw(me.Deck)]},
 	'Minelord Skyterror': {'silentSkill': [lambda card: destroyAll(getCreatures(), True, 3000)]},
 	'Pinpoint Lunatron': {'silentSkill': [lambda card: pinpointLunatron()]},
+	'Pyramitotem': {'silentSkill': [lambda card: tapCreature()]},
 	'Soderlight, the Cold Blade': {'silentSkill': [lambda card: opponentSacrifice()]},
 	'Sporeblast Erengi': {'silentSkill': [lambda card: search(me.Deck, 1, "Creature")]},
+	'Venom Capsule':{'silentSkill': [lambda card: burnShieldKill(1)]},
 	'Vorg\'s Engine': {'silentSkill': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 
 	#ON ATTACK EFFECTS
@@ -2503,7 +2506,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 		if onlyOwn:
 			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
-			cardList=[card for card in cardList and card.controller!=me]
+			cardList=[card for card in cardList if card.controller!=me]
 		cardList=[c for c in cardList if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList)==0:
 			return
