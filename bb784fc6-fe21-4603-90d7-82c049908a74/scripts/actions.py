@@ -30,6 +30,24 @@ validated=False
 global_timer=None
 start_time=None
 
+welcomeMessage="""WELCOME TO DUEL MASTERS ON OCTGN!\n────────────────────────────────────────
+This platform provides manual play with some card effect automation, helping you enjoy smooth and engaging gameplay. Currently, over {} cards have scripts designed to speed up the action.
+
+Make sure you have Image Packs installed and take a moment to learn key shortcuts—they’ll enhance your experience and keep the game flowing smoothly.
+
+You will still need to handle a few things manually:
+- Drawing a card at the start of each turn.
+- Declaring and selecting attack targets.
+- Tracking Creatures' Power changes from effects.
+- Breaking shields.
+
+You can learn more about the project by clicking 'Open Project Page' button.
+
+(You can reopen this window at any moment by right-clicking on the table > Other Options: > Change Settings > Show Welcome Message)
+
+──────────────Let's play!──────────────
+"""
+
 # Start of Automation code
 
 cardScripts={
@@ -812,6 +830,8 @@ def resetGame():
 	clearFunctionsAndTargets(table)
 	if not getAutomationsSetting(): notify('{} has " My Card Script Automation" setting disabled.'.format(me))
 	if getAskBeforeDiscardingOwnCardsSetting(): notify('{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me))
+	if not getWelcomePageSetting():
+		showWelcomeMessage()
 	for player in getPlayers():
 		if player!=me:
 			initiate_handshake(player)
@@ -4216,6 +4236,15 @@ def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 	if not notifymute:
 		notify('{} shuffled {} Card(s){} from {} to the Bottom of their Deck'.format(me, len(cards), cardNames, src.name))
 
+def showWelcomeMessage():
+	mute()
+	choice=askChoice(welcomeMessage.format(len(cardScripts.keys())), ["Got it!", "Join IDC TCG Tournament Community" , "Open Project Page"], ["#902000","#5865F2", "#2b5ba9"])
+	setSetting("welcomePage", True)
+	if choice==2:
+		openUrl("https://discord.gg/DkJXpTEBNe")
+	if choice==3:
+		openUrl("https://github.com/szefo09/dm-ocg-octgn")
+
 def showSettingWindow(group,x=0,y=0):
 	mute()
 	options= {1: ("automations", "My Cards' Script Automation", lambda: getAutomationsSetting()),
@@ -4232,8 +4261,11 @@ def showSettingWindow(group,x=0,y=0):
 			names.append(value[1])
 			colors.append("#6a6f76" if not value[2]() else "#2b5ba9")
 
-		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors, ["Restore defaults"])
+		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors, ["Show Welcome Message", "Restore defaults"])
 		if ret==-1:
+			showWelcomeMessage()
+			return
+		if ret==-2:
 			defaults={
 				"automations": True,
 				"autoUntapCreatures": True,
@@ -4263,7 +4295,8 @@ def getAskBeforeDiscardingOwnCardsSetting():
 	return getSetting("askBeforeDiscardingACardFromHand", False)
 def getDialogSimultaneousCardEffectsSetting():
 	return getSetting("showDialogSimultaneousCardEffects", True)
-
+def getWelcomePageSetting():
+	return getSetting("welcomePage", False)
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
