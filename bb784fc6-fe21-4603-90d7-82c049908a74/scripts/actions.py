@@ -3735,16 +3735,21 @@ def align():
 			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
 
 def displayDeck(group, x=0, y=0):
-	if len(table)>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"): return
-	rowLimit=askNumber("How many cards per row?", 5, alwaysReturnNumber=True)
-	if rowLimit==0:
-		whisper("Operation canceled.")
+	if len([c for c in itertools.chain(table,me.Hand) if c.controller==me])>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"):
+		return
+	allZones=list(itertools.chain(me.deck, me.Hyperspatial, me.Gacharange))
+	if len(allZones)==0:
+		whisper("Load a deck first.")
 		return
 	rowOrder=askChoice("Select layout:", ["Singles layout", "Ladder layout", "Side layout"])
 	if rowOrder==0:
 		whisper("Operation canceled.")
 		return
-
+	defaultNumber={1:10,2:7,3:5}.get(rowOrder)
+	rowLimit=askNumber("How many cards per row?", defaultNumber, alwaysReturnNumber=True)
+	if rowLimit==0:
+		whisper("Operation canceled.")
+		return
 	def isAlreadyAdded(c):
 		return cardsAddedToList.get(c.name, None)
 	sideflip=1
@@ -3753,7 +3758,6 @@ def displayDeck(group, x=0, y=0):
 	rows=[]
 	cardsAddedToList={}
 	cardsReduced=[]
-	allZones=itertools.chain(me.deck, me.Hyperspatial, me.Gacharange)
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 	for card in allZones:
 		existingCard=isAlreadyAdded(card)
@@ -3770,13 +3774,17 @@ def displayDeck(group, x=0, y=0):
 			rows[-1].append(card)
 		else:
 			rows.append([card])
-	xpos=80
+
 	ypos=-88
 	for row in rows:
-		xpos=80
+		xpos=0
+		if sideflip==-1:
+			xpos-= 64*(rowLimit-1)
+			if rowOrder==3:
+				xpos-=13*(sum([len(evolveDict[x]) for x in evolveDict if Card(x) in row] or [0]))
 		ypos+=89
 		if rowOrder==2:
-			ypos+= 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in row] or [1])
+			ypos+= 10*max([len(evolveDict[x]) for x in evolveDict if Card(x) in row] or [0])
 		for card in row:
 			x=sideflip * xpos
 			y=sideflip * ypos + (44 * sideflip - 44)
@@ -3790,7 +3798,7 @@ def displayDeck(group, x=0, y=0):
 				card.moveToTable(x, y)
 			xpos += 64
 			if rowOrder==3:
-				xpos += 15 * len(evolveDict[card._id])
+				xpos += 13*len(evolveDict.get(card._id, []))
 	for evolution in evolveDict:
 		count=0
 		for evolvedCard in evolveDict[evolution]:
