@@ -123,7 +123,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zombie Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your creatures with Dragon in its race is destroyed, you may draw 2 cards."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your Dragons is destroyed, you may draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -179,7 +179,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Dragon"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Whenever one of your Dragons attacks, you may reveal the top card of your deck. If it's a Dragon, put it into your hand. Oherwise, put it into your mana zone."/>
+      <property name="Rules" value="■ Whenever one of your Dragons attacks, you may reveal the top card of your deck. If it's a Dragon, put it into your hand. Otherwise, put it into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -233,7 +233,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your creatures that have Dragon in their race each cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever your &quot;Bolmeteus Musha Dragon&quot; attacks, you may add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your Dragons cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever your &quot;Bolmeteus Musha Dragon&quot; attacks, you may add the top card of your deck to your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -247,7 +247,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your creatures that have Dragon in their race each cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever your &quot;Bolmeteus Musha Dragon&quot; attacks, you may add the top card of your deck to your shields face down."/>
+      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Your Dragons cost 1 less to summon. They can't cost less than 1.&#xA;■ Whenever your &quot;Bolmeteus Musha Dragon&quot; attacks, you may add the top card of your deck to your shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -493,7 +493,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less. If you have at least one Bolmeteus Musha Dragon in the battle zone, destroy one more of your opponent's creatures that has power 5000 or less."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy one of your opponent's creatures that has power 5000 or less. If you have at least one Bolmeteus Musha Dragon in the battle zone, destroy another of your opponent's creatures that has power 5000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -783,7 +783,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Whenever one of your Dragons are destroyed, you may destroy one of your opponent's creatures."/>
+      <property name="Rules" value="■ Whenever one of your Dragons is destroyed, you may destroy one of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
