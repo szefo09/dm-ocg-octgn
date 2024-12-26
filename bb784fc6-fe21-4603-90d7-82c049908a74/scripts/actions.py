@@ -54,7 +54,7 @@ cardScripts={
 	'Astral Warper': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
 	'Baban Ban Ban, Earth\'s Blessing': {'onPlay': [lambda card: massMana(me.Deck, True)]},
 	'Ballom, Master of Death': {'onPlay': [lambda card: destroyAll(getCreatures(), True, "ALL", "Darkness", True)]},
-	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield()]},
+	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield(optional=False)]},
 	'Bega, Vizier of Shadow': {'onPlay': [lambda card: shields(me.Deck), lambda card:targetDiscard(True)]},
 	'Belix, the Explorer': {'onPlay': [lambda card: fromMana(1,"Spell")]},
 	'Berochika, Channeler of Suns': {'onPlay': [lambda card: shields(me.Deck) if len(getShields(me))>=5 else None]},
@@ -116,7 +116,7 @@ cardScripts={
 	'Gardner, the Invoked': {'onPlay': [lambda card: gear("mana")]},
 	'Gigabalza': {'onPlay': [lambda card: targetDiscard(True)]},
 	'Gigaberos': {'onPlay': [lambda card: sacrifice(count=2) if len(getCreatures(me))>1 else destroy(card)]},
-	'Gigabuster': {'onPlay': [lambda card: bounceShield()]},
+	'Gigabuster': {'onPlay': [lambda card: bounceShield(optional=False)]},
 	'Gigandura': {'onPlay': [lambda card: gigandura(card)]},
 	'Gigarayze': {'onPlay': [lambda card: search(me.piles["Graveyard"],1, "Creature", filterFunction='re.search(r"Water|Fire",c.Civilization)')]},
 	'Gigargon': {'onPlay': [lambda card: search(me.piles["Graveyard"], 2, "Creature")]},
@@ -234,7 +234,7 @@ cardScripts={
 	'The=Deadman, Dragon Ruler': {'onPlay': [lambda card: fromHyperspatial(1,'re.search("Dragheart", c.Type) and re.search("Nature",c.Civilization) and cardCostComparator(c, 5,"<=")')]},
 	'Thorny Mandra': {'onPlay': [lambda card: fromGraveyardToMana(ask=True)]},
 	'Thrash Crawler': {'onPlay': [lambda card: fromMana()]},
-	'Three-Faced Ashura Fang': {'onPlay': [lambda card: bounceShield()]},
+	'Three-Faced Ashura Fang': {'onPlay': [lambda card: bounceShield(optional=False)]},
 	'Titan Giant': {'onPlay': [lambda card: mana (me.Deck, 2, True)]},
 	'Torpedo Cluster': {'onPlay': [lambda card: fromMana()]},
 	'Trenchdive Shark': {'onPlay': [lambda card: shieldswap(card,2)]},
@@ -2084,13 +2084,13 @@ def lookAtCards(count=1, isTop=True, opponent=False):
 #Destroy your own creature
 def sacrifice(power='inf', count=1, filterFunction='True', returnTrueIfNoDestruction=False):
 	mute()
-	cardList=[c for c in getCreatures(me) if (power=='inf' or c.Power!='Infinity' and int(c.Power.strip('+')) <= power) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in getCreatures(me) if (power=='inf' or c.Power!='Infinity' and int(c.Power.strip('+')) <= power) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0:
 		if returnTrueIfNoDestruction:
 			return True
 		return
 	if me.isInverted: reverseCardList(cardList)
-	choices=askCard2(cardList, 'Choose {} Creature(s) to destroy'.format(count), maximumToTake=count, returnAsArray=True)
+	choices=askCard2(cardList, 'Choose {} Creature(s) to destroy'.format(count, ), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list) or not choices:
 		if returnTrueIfNoDestruction:
 			return True
@@ -2110,9 +2110,9 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 			evaluateNextFunction=True
 			return
 	if opponentOnly:
-		cardList=[c for c in getElements() if c.owner!=me and not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+		cardList=[c for c in getElements() if c.owner!=me and not isUntargettable(c) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	else:
-		cardList=[c for c in getElements() if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+		cardList=[c for c in getElements() if not isUntargettable(c) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0:
 		whisper("No valid targets on the Table.")
 		return
@@ -2134,7 +2134,7 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 def bounceAll(group=table, opponentCards=True, myCards=True, filterFunction='True'):
 	mute()
 	group=ensureGroupObject(group)
-	cardList=[c for c in group if isCreature(c) and not isRemovedFromPlay(c) and ((opponentCards and c.controller!=me) or (myCards and c.controller==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in group if isCreature(c) and not isRemovedFromPlay(c) and ((opponentCards and c.controller!=me) or (myCards and c.controller==me)) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0: return
 	for card in cardList:
 		remoteCall(card.owner, "toHand", convertCardListIntoCardIDsList(card))
@@ -2172,7 +2172,7 @@ def peekShield(count=1, onlyOpponent=False):
 	peekShields(targets)
 
 #for Effects that return shield and don't trigger shield triggers
-def bounceShield(count=1, selfOnly=True):
+def bounceShield(count=1, selfOnly=True, optional=True):
 	mute()
 	cardList=[]
 	if selfOnly:
@@ -2181,11 +2181,13 @@ def bounceShield(count=1, selfOnly=True):
 		cardList=getShields()
 	if len(cardList)==0: return
 	count=min(count, len(cardList))
-	targets=[c for c in cardList if c.targetedBy==me]
-	if len(targets)!=count:
-		whisper("Target a Shield to return to Hand.")
-		return True #forcing octgn to go to targets function and wait
-
+	if not optional and count==len(cardList):
+		targets=cardList
+	else:
+		targets=[c for c in cardList if c.targetedBy==me]
+		if len(targets)!=count:
+			whisper("Target {} Shield(s) to return to Hand.".format(count))
+			return True #forcing octgn to go to targets function and wait
 	bounceList=[]
 	for i in range(0, count):
 		if (targets[i] in cardList):
@@ -2374,7 +2376,7 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 	cardList=[c for c in table if not isShield(c) and not isRemovedFromPlay(c) and not isUntargettable(c)
 			and ((creaturesFilter and isCreature(c)) or (manaFilter and isMana(c)) or isElement(c))
 			and ((myCards and c.owner==me) or (opponentCards and c.owner!=me))
-			and filterFunction==True or eval(filterFunction, allowed_globals, {'c': c})]
+			and (filterFunction==True or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0: return
 	count=min(count, len(cardList))
 	if count==0: return
@@ -2389,7 +2391,7 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 #Send creature to Mana
 def sendToMana(count=1, opponentCards=True, myCards=False, filterFunction='True'):
 	mute()
-	cardList=[c for c in getElements() if not isUntargettable(c) and ((opponentCards and c.owner!=me) or (myCards and c.owner==me)) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+	cardList=[c for c in getElements() if not isUntargettable(c) and ((opponentCards and c.owner!=me) or (myCards and c.owner==me)) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0: return
 	if me.isInverted: reverseCardList(cardList)
 	choices=askCard2(cardList, 'Choose {} Creature(s) to send to Mana Zone'.format(count), maximumToTake=count, returnAsArray=True)
@@ -2504,7 +2506,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
 			cardList=[card for card in cardList if card.controller!=me]
-		cardList=[c for c in cardList if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
+		cardList=[c for c in cardList if not isUntargettable(c) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 		if len(cardList)==0:
 			return
 		if me.isInverted: reverseCardList(cardList)
@@ -2810,7 +2812,7 @@ def shieldswap(card, count=1, ask=False):
 	if not isinstance(choices, list): return
 	for choice in choices:
 		toShields(choice)
-	waitingFunct.insert(1, [card, lambda card=card, counter=len(choices): bounceShield(counter)])
+	waitingFunct.insert(1, [card, lambda card=card, counter=len(choices): bounceShield(counter, True, False)])
 
 def flamespearWaterblade():
 	if askYN('Destroy automatically?')!=1: return
@@ -2828,7 +2830,7 @@ def ghastlyDrain(card):
 		notify("{} didn't make a choice.".format(me))
 		return
 	notify("{} chose {} Shields".format(me,number))
-	waitingFunct.insert(1, [card, lambda card=card, counter=number: bounceShield(counter)])
+	waitingFunct.insert(1, [card, lambda card=card, counter=number: bounceShield(counter, True, False)])
 
 def returnAndDiscard(card):
 	choice=askYN("Return {} to hand?".format(card.properties["Name"]))
@@ -3384,7 +3386,7 @@ def fromGraveyardToMana(count=1, filterFunction='True', ask=False):
 		choice=askYN("Would you like to put {} Card(s) from Graveyard to Mana?".format(count))
 		if choice!=1: return
 	count=min(count,len(group))
-	cardsInGroup=sort_cardList([c for c in group if filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})])
+	cardsInGroup=sort_cardList([c for c in group if (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))])
 	choices=askCard2(cardsInGroup, 'Search {} Card(s) to put to Mana'.format(count),minimumToTake=1,maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 			notify("{} finishes searching their {}.".format(me, group.name))
@@ -3398,7 +3400,7 @@ def fromGraveyardAll(filterFunction='True', ask=False, moveToMana=True, moveToHa
 	if ask:
 		choice=askYN("Would you like to move Cards from Graveyard?")
 		if choice!=1: return
-	cardsInGroup=sort_cardList([c for c in group if filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c})])
+	cardsInGroup=sort_cardList([c for c in group if (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c}))])
 	if len(cardsInGroup)==0:
 		notify("No Cards to move!")
 		return
@@ -3412,7 +3414,7 @@ def fromDeckToField(count=1, filterFunction='True', delayedEffectDictionary=Fals
 	group=me.deck
 	if len(group)==0: return
 	cardsInGroup=sort_cardList([card for card in group])
-	validChoices=[c for c in cardsInGroup if filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c})]
+	validChoices=[c for c in cardsInGroup if (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c}))]
 	while (True):
 		choices=askCard2(cardsInGroup, 'Choose {} Creature(s) to Summon from the Deck'.format(count), maximumToTake=count,returnAsArray=True)
 		if not isinstance(choices,list):
@@ -3432,7 +3434,7 @@ def fromHandToMana(count=1, filterFunction='True', faceDown=False):
 	mute()
 	group=me.Hand
 	if len(group)==0: return
-	cardsInGroup=reverseCardList([card for card in group if filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c})])
+	cardsInGroup=reverseCardList([card for card in group if (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c}))])
 	choices=askCard2(cardsInGroup, 'Choose {} Cards(s) to put from your hand to Mana'.format(count), maximumToTake=count,returnAsArray=True)
 	if not isinstance(choices,list):return
 	for choice in choices:
