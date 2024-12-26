@@ -138,6 +138,7 @@
 				<groupaction menu="Look at top X, to Hand up to X, rest to Bottom" execute="fromTopPickX" />
 				<groupaction menu="Yobinion X" shortcut="ctrl+shift+Y" execute="yobinion" />
 				<groupaction menu="Charge Top Card as Face-Down Mana" shortcut="ctrl+shift+M" execute="manaFaceDown" />
+				<groupaction menu="Play from Deck" execute="fromDeckToField" />
 			</groupactions>
 		</group>
 

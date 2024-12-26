@@ -41,7 +41,7 @@ You will still need to handle a few things manually:
 - Tracking Creatures' Power changes from effects.
 - Breaking shields.
 
-You can learn more about the project by clicking 'Open Project Page' button.
+If you find any issues or want to learn more about the project, you can open it by clicking 'Open Project Page' button.
 
 (You can reopen this window at any moment by right-clicking on the table > Other Options: > Change Settings > Show Welcome Message)
 
@@ -594,7 +594,7 @@ cardScripts={
 	'Gandar, Seeker of Explosions': {'onTap': [lambda card: addDelayedEffect({"card":card, "effects": [lambda card, args: untapCreatureAll(False, 're.search("Light",c.Civilization)')]}, None)]},
 	'Gigio\'s Hammer': {'onTap': [lambda card: declareRace(card)]},
 	'Grim Soul, Shadow of Reversal': {'onTap': [lambda card: search(me.piles["Graveyard"],1,"Creature","Darkness")]},
-	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(1, "re.search(r'Dragon\\b', c.Race, re.I)", {"card":card, "effects":[lambda card, c: destroy(c) if isCreature(c) and not isRemovedFromPlay(c) else None]})]},
+	'Kachua, Keeper of the Icegate': {'onTap': [lambda card: fromDeckToField(me.Deck, 1,'re.search("Creature",c.Type) and re.search(r"Dragon\\b", c.Race, re.I)', {"card":card, "effects":[lambda card, args: destroy(*args) if isCreature(*args) and not isRemovedFromPlay(*args) else None]})]},
 	'Heavyweight Dragon': {'onTap': [lambda card: heavyweightDragon(card)]},
 	'Hokira': {'onTap': [lambda card: declareRace(card)]},
 	'Kipo\'s Contraption': {'onTap': [lambda card: kill(2000)]},
@@ -3429,14 +3429,15 @@ def fromGraveyardAll(filterFunction='True', ask=False, moveToMana=True, moveToHa
 		elif moveToHand: toHand(c)
 
 #delayedEffectDictionary is a dictionary with those keys: {"delayTo", "card", "effects", "requireCardOnFieldToActivate", "removeAfterActivation"}. Learn more from addDelayedEffect() function.
-def fromDeckToField(count=1, filterFunction='True', delayedEffectDictionary=False):
+def fromDeckToField(group=me.Deck, count=1, filterFunction='True', delayedEffectDictionary=False):
 	mute()
-	group=me.deck
+	ensureGroupObject(group)
 	if len(group)==0: return
+	notify('{} started searching their {}'.format(me, group.name))
 	cardsInGroup=sort_cardList([card for card in group])
 	validChoices=[c for c in cardsInGroup if (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c}))]
 	while (True):
-		choices=askCard2(cardsInGroup, 'Choose {} Creature(s) to Summon from the Deck'.format(count), maximumToTake=count,returnAsArray=True)
+		choices=askCard2(cardsInGroup, 'Choose {} Card(s) to play from the Deck'.format(count), maximumToTake=count,returnAsArray=True)
 		if not isinstance(choices,list):
 			shuffle(group)
 			notify("{} finishes searching their {}.".format(me, group.name))
@@ -3444,8 +3445,8 @@ def fromDeckToField(count=1, filterFunction='True', delayedEffectDictionary=Fals
 		if all(c in validChoices for c in choices):
 			for choice in choices:
 				toPlay(choice)
-				if delayedEffect:
-					addDelayedEffect(delayedEffect, choice)
+				if delayedEffectDictionary:
+					addDelayedEffect(delayedEffectDictionary, choice)
 			break
 	shuffle(group)
 	notify("{} finishes searching their {}.".format(me, group.name))
