@@ -2503,7 +2503,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 		if onlyOwn:
 			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
-			cardList=[card for card in cardList and card.controller!=me]
+			cardList=[card for card in cardList if card.controller!=me]
 		cardList=[c for c in cardList if not isUntargettable(c) and filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList)==0:
 			return
