@@ -30,23 +30,6 @@ validated=False
 global_timer=None
 start_time=None
 
-welcomeMessage="""WELCOME TO DUEL MASTERS ON OCTGN!\n────────────────────────────────────────
-This platform provides manual play with some card effect automation, helping you enjoy smooth and engaging gameplay. Currently, over {} cards have scripts designed to speed up the action.
-
-Make sure you have Image Packs installed and take a moment to learn key shortcuts—they’ll enhance your experience and keep the game flowing smoothly.
-
-You will still need to handle a few things manually:
-- Drawing a card at the start of each turn.
-- Declaring and selecting attack targets.
-- Tracking Creatures' Power changes from effects.
-- Breaking shields.
-
-If you find any issues or want to learn more about the project, you can open it by clicking 'Open Project Page' button.
-
-(You can reopen this window at any moment by right-clicking on the table > Other Options: > Change Settings > Show Welcome Message)
-
-──────────────Let's play!──────────────
-"""
 
 # Start of Automation code
 
@@ -2396,7 +2379,7 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 	cardList=[c for c in table if not isShield(c) and not isRemovedFromPlay(c) and not isUntargettable(c)
 			and ((creaturesFilter and isCreature(c)) or (manaFilter and isMana(c)) or isElement(c))
 			and ((myCards and c.owner==me) or (opponentCards and c.owner!=me))
-			and (filterFunction==True or eval(filterFunction, allowed_globals, {'c': c}))]
+			and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 	if len(cardList)==0: return
 	count=min(count, len(cardList))
 	if count==0: return
@@ -2514,7 +2497,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 			cardList=[card for card in cardList if card.controller==me]
 		elif not includeOwn:
 			cardList=[card for card in cardList if card.controller!=me]
-		if filterFunction=='True':
+		if filterFunction!='True':
 			cardList=[c for c in cardList if eval(filterFunction, allowed_globals, {'c': c})]
 		if len(cardList)==0:
 			return
@@ -3463,7 +3446,7 @@ def fromHandToMana(count=1, filterFunction='True', faceDown=False):
 
 def fromHyperspatial(count=1, filterFunction='True'):
 	mute()
-	if filterFunction=="True":
+	if filterFunction=='True':
 		cardList=[c for c in me.Hyperspatial]
 	else:
 		cardList=[c for c in me.Hyperspatial if eval(filterFunction,allowed_globals,{"c":c})]
@@ -4208,8 +4191,8 @@ def untapCreature(card, ask=True):
 			if choice!=1: return
 		tapMultiple([card], clearFunctions=False)
 
-def untapCreatureAll(ask=True, filterFunction="True"):
-	if filterFunction=="True":
+def untapCreatureAll(ask=True, filterFunction='True'):
+	if filterFunction=='True':
 		cardList=[c for c in getCreatures(me) if isTapped(c)]
 	else:
 		cardList=[c for c in getCreatures(me) if isTapped(c) if eval(filterFunction, allowed_globals, {"c":c})]
@@ -4239,6 +4222,24 @@ def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 
 def showWelcomeMessage():
 	mute()
+	welcomeMessage="""WELCOME TO DUEL MASTERS ON OCTGN!\n────────────────────────────────────────
+This platform provides manual play with some card effect automation, helping you enjoy smooth and engaging gameplay. Currently, over {} cards have scripts designed to speed up the action.
+
+Make sure you have Image Packs installed and take a moment to learn key shortcuts—they’ll enhance your experience and keep the game flowing smoothly.
+
+You will still need to handle a few things manually:
+- Drawing a card at the start of each turn.
+- Declaring and selecting attack targets.
+- Tracking Creatures' Power changes from effects.
+- Breaking shields.
+
+If you find any issues or want to learn more about the project, you can open it by clicking 'Open Project Page' button.
+
+(You can reopen this window at any moment by right-clicking on the table > Other Options: > Change Settings > Show Welcome Message)
+
+──────────────Let's play!──────────────
+"""
+
 	choice=askChoice(welcomeMessage.format(len(cardScripts.keys())), ["Got it!", "Join IDC TCG Tournament Community" , "Open Project Page"], ["#902000","#5865F2", "#2b5ba9"])
 	setSetting("welcomePage", True)
 	if choice==2:
