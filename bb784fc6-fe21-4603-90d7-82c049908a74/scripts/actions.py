@@ -4946,7 +4946,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		endOfFunctionality(card)
 
 def endOfFunctionality(card):
-	if card and isSpellInBZ(card) and getAutoMoveSpellsAfterPlaySetting():
+	if card and card.controller==me and isSpellInBZ(card) and getAutoMoveSpellsAfterPlaySetting():
 		if any(name in card.properties["Name"] for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.properties["Name"], re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
 			toMana(card)
 		else:
