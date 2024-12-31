@@ -4721,9 +4721,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			updateBaits(topBait, baits)
 		srcName="Shield #{}".format(card.markers[shieldMarker])
 		card.markers[shieldMarker]=0
-	if card.group!=table:
-		card.moveToTable(0, 0)
-	else:
+	if card.group==table:
 		if evolveDict:
 			removeFromBaits(card, evolveDict)
 		card.orientation=Rot0
@@ -4897,6 +4895,8 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			evolveText=", evolving {}".format(", ".join('{}'.format(c) for c in targets))
 			updateBaits(card, targets, evolveDict)
 
+	if card.group!=table:
+		card.moveToTable(0, 0)
 	align()
 	if notifymute==False and not card.hasProperty('Name1'):
 		if src==card.owner.hand:
