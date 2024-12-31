@@ -387,7 +387,7 @@ cardScripts={
 	'Magic Shot - Sword Launcher': {'onPlay': [lambda card: kill(3000)]},
 	'Magical Pot': {'onPlay': [lambda card: bounce(1, filterFunction='re.search("Evolution Creature", c.Type)')]},
 	'Mana Bonanza': {'onPlay': [lambda card: massMana(me.Deck, False)]},
-	'Mendelssohn': {'onPlay': [lambda card: lookAtTopCards(2, targetZone="mana",remainingZone='grave', count=2, revealAll=True, filterFunction='re.search(r"\\bDragon\\b",c.Race)')]},
+	'Mendelssohn': {'onPlay': [lambda card: lookAtTopCards(2, targetZone="mana",remainingZone='grave', count=2, revealAll=True, filterFunction='re.search(r"\\bDragon\\b",c.Race)', toManaTapped=True)]},
 	'Miraculous Meltdown': {'onPlay': [lambda card: miraculousMeltdown(card)]},
 	'Miraculous Plague': {'onPlay': [lambda card: miraculousPlague()]},
 	'Miraculous Rebirth': {'onPlay': [lambda card: miraculousRebirth()]},
