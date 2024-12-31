@@ -2388,7 +2388,8 @@ def sendToShields(count=1, opponentCards=True, myCards=False, creaturesFilter=Tr
 		whisper("Wrong number of targets!")
 		return True
 	for target in targets:
-		target.target(False)
+		if target.targetedBy:
+			target.target(False)
 		remoteCall(target.owner, "toShields", convertCardListIntoCardIDsList(target))
 
 #Send creature to Mana
@@ -2717,7 +2718,8 @@ def bluumErkis(card):
 				functionList.append(lambda card: remoteCall(card.owner, 'toDiscard', convertCardListIntoCardIDsList(card)))
 				for index, function in enumerate(functionList):
 					waitingFunct.insert(index + 1, [shield, function])
-			shield.target(False)
+			if shield.targetedBy:
+				shield.target(False)
 		else:
 			remoteCall(shield.owner, 'toHand', [convertCardListIntoCardIDsList(shield)])
 	orderEvaluatingFunctions()
@@ -3527,7 +3529,8 @@ def toHyperspatial(card, x=0, y=0, notifymute=False):
 		return
 	else:
 		card.resetProperties()
-		card.target(False)
+		if card.targetedBy:
+			card.target(False)
 		card.moveTo(me.Hyperspatial)
 		align()
 		if notifymute==False:
@@ -3538,7 +3541,8 @@ def toSuperGacharange(card, x=0, y=0, notifymute=False):
 	if notifymute==False:
 		notify("{}'s {} returns to the Bottom of the Super Gacharange Zone.".format(me, card))
 	card.resetProperties()
-	card.target(False)
+	if card.targetedBy:
+		card.target(False)
 	card.moveToBottom(me.Gacharange)
 	align()
 
@@ -3568,7 +3572,8 @@ def moveCards(args): #this is triggered every time a card is moved
 			##notify("Ignored")
 			return
 		clearArrowOnMove(args)
-		card.target(False)
+		if card.targetedBy:
+			card.target(False)
 		card.resetProperties()
 		evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 		#A flag to not save if no changes happened
@@ -3827,7 +3832,8 @@ def clear(group, x=0, y=0):
 	global arrow
 	arrow={}
 	for card in group:
-		card.target(False)
+		if card.targetedBy:
+			card.target(False)
 
 def clearFunctionsAndTargets(group, x=0, y=0):
 	clear(group)
@@ -4060,7 +4066,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			choice=askYN("Activate Shield Trigger for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				card.isFaceUp=True
-				card.target(False)
+				if card.targetedBy:
+					card.target(False)
 				notify("{} uses {}'s Shield Trigger.".format(me, card))
 				processShieldBaits(card)
 				toPlay(card, notifymute=True)
@@ -4074,7 +4081,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 			choice=askYN("Activate Guard Strike for {}?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No", "Wait"])
 			if choice==1:
 				card.isFaceUp=True
-				card.target(False)
+				if card.targetedBy:
+					card.target(False)
 				notify("{} uses {}'s Guard Strike.".format(me, card))
 				creatureList=[c for c in getCreatures() if c.owner!=me]
 				if len(creatureList)>0:
@@ -4113,7 +4121,8 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 						notify("{} destroys {} to use {}'s Strike Back.".format(me, shieldCard, choice))
 						return True
 		notify("{}'s Shield #{} is broken.".format(me, shieldCard.markers[shieldMarker]))
-		shieldCard.target(False)
+		if shieldCard.targetedBy:
+			shieldCard.target(False)
 		shieldCard.moveTo(shieldCard.owner.hand)
 		processShieldBaits(shieldCard)
 		return True
@@ -4617,7 +4626,8 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 		if cardWasElement: handleOnLeaveBZ(card)
 		return
 	card.resetProperties()
-	card.target(False)
+	if card.targetedBy:
+		card.target(False)
 	src=card.group
 	srcName=card.group.name
 	if isShield(card):
@@ -4685,7 +4695,8 @@ def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
 		else:
 			notify("{} sets a card from {} as Shield #{}.".format(me, card.group.name, count))
 	card.resetProperties()
-	card.target(False)
+	if card.targetedBy:
+		card.target(False)
 	if card.group!=table:
 		card.moveToTable(0, 0, True)
 	else:
@@ -4951,7 +4962,8 @@ def endOfFunctionality(card):
 			toMana(card)
 		else:
 			card.resetProperties()
-			card.target(False)
+			if card.targetedBy:
+				card.target(False)
 			card.moveTo(card.owner.piles['Graveyard'])
 	align()
 
@@ -4989,7 +5001,8 @@ def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True,
 			return
 		cardWasMana=isMana(card)
 		card.resetProperties()
-		card.target(False)
+		if card.targetedBy:
+			card.target(False)
 		card.moveTo(card.owner.piles['Graveyard'])
 		if notifymute==False:
 			if src==table:
@@ -5018,9 +5031,10 @@ def toDiscard(cards, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True,
 def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 	mute()
 	card=ensureCardObjects(card)
-	card.target(False)
 	src=card.group
 	cardWasElement=isElement(card) and checkEvo
+	if card.targetedBy:
+		card.target(False)
 	if checkEvo:
 		baitList=removeBaits(card)
 		if not (getAutomationsSetting() and cardWasElement and card.properties["Name"]=="Soul Phoenix, Avatar of Unity"):
@@ -5040,12 +5054,10 @@ def toHand(card, show=True, x=0, y=0, alignCheck=True, checkEvo=True):
 		# but it won't show as card name if card is not visible to a player, so turning it face up first
 		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
 		card.resetProperties()
-		card.target(False)
 		card.moveTo(card.owner.hand)
 	else:
 		# here, move the card to hand first so it will only show card link to only the player who can see the hand
 		# if you show first then move to hand 'card' won't show card name to the owner in the notify message
-		card.target(False)
 		card.moveTo(card.owner.hand)
 		card.resetProperties()
 		notify("{} moved {} from {} to Hand.".format(me, card, src.name))
@@ -5088,7 +5100,8 @@ def toDeck(card, bottom=False):
 					c.moveTo(c.owner.Deck)
 
 	card=ensureCardObjects(card)
-	card.target(False)
+	if card.targetedBy:
+		card.target(False)
 	cardWasElement=isElement(card)
 	if isPsychic(card):
 		chooseCardPlacementInDeck(removeBaits(card))
