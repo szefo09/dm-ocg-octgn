@@ -13,6 +13,7 @@ playerside=None
 sideflip=None
 diesides=20
 civ_order=['Colorless', 'Light', 'Water', 'Darkness', 'Fire', 'Nature']
+startOfGameCards={"Forbidden ~The Sealed X~", "FORBIDDEN STAR ~World's Last Day~", "Zerom, Origin of Destruction", "Ceremony of Hands", "Ceremony of Graveyard", "Ceremony of Resurrection", "Ceremony of Destruction"}
 shieldMarker=('Shield', 'a4ba770e-3a38-4494-b729-ef5c89f561b7')
 sealMarker=('Seal', '0d9c9e74-7d60-4433-b0b2-361aef2b18ea')
 waitingFunct=[]  # Functions waiting for targets. Please replace this with FUNCTIONS waiting for targets later. If a card calls 2 functions both will happen again otherwise
@@ -935,7 +936,7 @@ def convertGroupIntoGroupNameList(group):
 def askCard2(list, title="Select a card", buttonText="Select", minimumToTake=1, maximumToTake=1, returnAsArray=False, noSorting=False):  # askCard function was changed. So using the same name but with the new functionalit
 #this is for showing a dialog box with the cards in the incoming list. Careful, all cards will be visible, even if they're facedown.
 	#this handles displaying big cards in reverse order than normal cards.
-	bigCards=[c for c in list if c.size in {"tall", "square"}]
+	bigCards=[c for c in list if c.size in {"tall", "square"} or c.Name in startOfGameCards]
 	if bigCards:
 		normalCards=[c for c in list if c.size in {"Default", "wide"}]
 		if normalCards:
@@ -1217,6 +1218,17 @@ def cardCostComparator(card, value, comparisonOperator='==', typeFilter="ALL"):
 			return True
 
 	return False
+
+def processStartOfGameCards(group):
+	startOfGameCardsList=[c for c in group if c.Name in startOfGameCards]
+	if len(startOfGameCardsList)==0:return
+	for card in startOfGameCardsList:
+		card.moveToTable(0,0)
+	for card in startOfGameCardsList:
+		if card.Name=="Forbidden ~The Sealed X~":
+			seal(card, count=6)
+		if card.Name=="FORBIDDEN STAR ~World's Last Day~":
+			seal(card, count=4)
 
 ################ Quick card attribute checks ####################
 
@@ -2124,8 +2136,8 @@ def bounce(count=1, opponentOnly=False, toDeckTop=False, filterFunction='True', 
 	if (not upTo and len(targets)!=count) or (upTo and len(targets)==0):
 		return True #forcing octgn to go to targets function and wait
 	if upTo and len(targets) and len(targets)<count:
-		choice =  askYN("Pick another target?")
-		if choice == 1: return True
+		choice=askYN("Pick another target?")
+		if choice==1: return True
 
 	for card in targets:
 		if toDeckTop:
@@ -3467,26 +3479,7 @@ def fromHyperspatial(count=1, filterFunction='True'):
 def flip(card, x=0, y=0):
 	mute()
 	card=ensureCardObjects(card)
-	if (re.search("Psychic", card.Type)):
-		forms=list(card.alternates)
-		if len(forms)==2:
-			altName=card.alternateProperty('awakening', 'name')
-			if card.alternate is '':
-				card.alternate='awakening'
-				notify("{}'s' {} awakens to {}.".format(me, altName, card))
-		else:
-			current_index=forms.index(card.alternate)  # Find current form index
-			oldName=card.alternateProperty(forms[current_index], 'name')
-			next_index=(current_index + 1) % len(forms)  # Calculate next form index
-			card.alternate=forms[next_index]  # Set to the next form
-			altName=card.alternateProperty(forms[next_index], 'name')
-			if card.alternate=='':
-				notify("{}'s {} reverts to its default form {}.".format(me, oldName, card))
-			else:
-				notify("{}'s {} cycles to {}.".format(me, oldName, altName))
-		align()
-		return
-	elif (re.search("Dragheart", card.Type)):
+	if (re.search("Dragheart", card.Type)):
 		# draghearts
 		old=card.properties["Name"]
 		forms=card.alternates
@@ -3508,7 +3501,29 @@ def flip(card, x=0, y=0):
 			notify("{}'s {} reverts to {}.".format(me, old, card))
 		align()
 		return
-
+	elif len(card.alternates)>0:
+		forms=list(card.alternates)
+		if len(forms)==2:
+			altName=card.alternateProperty('', 'name')
+			if card.alternate is '':
+				card.alternate='awakening'
+				notify("{}'s' {} awakens to {}.".format(me, altName, card))
+			else:
+				altName=card.alternateProperty('awakening', 'name')
+				card.alternate=''
+				notify("{}'s {} reverts to its default form {}.".format(me, altName, card))
+		else:
+			current_index=forms.index(card.alternate)  # Find current form index
+			oldName=card.alternateProperty(forms[current_index], 'name')
+			next_index=(current_index + 1) % len(forms)  # Calculate next form index
+			card.alternate=forms[next_index]  # Set to the next form
+			altName=card.alternateProperty(forms[next_index], 'name')
+			if card.alternate=='':
+				notify("{}'s {} reverts to its default form {}.".format(me, oldName, card))
+			else:
+				notify("{}'s {} cycles to {}.".format(me, oldName, altName))
+		align()
+		return
 	else:
 		if card.isFaceUp:
 			notify("{} flips {} Face-down.".format(me, card))
@@ -3660,9 +3675,13 @@ def align():
 				cardorder[2].append(card)
 			else:  ##collect all creatures
 				cardorder[0].append(card)
-
-	temp=[c for c in cardorder[0] if c.size not in {"tall, square"}]
-	bigCards=[c for c in cardorder[0] if c.size in {"tall, square"}]
+	temp=[]
+	bigCards=[]
+	for c in cardorder[0]:
+		if c.size not in {"tall", "square"} and c.Name not in startOfGameCards:
+			temp.append(c)
+		else:
+			bigCards.append(c)
 	cardorder[0]=temp
 	# remove all big cards from normal aligned ones
 	xpos=80
@@ -3901,6 +3920,7 @@ def setup(group, x=0, y=0):
 	me.Gacharange.shuffle()
 	me.Deck.shuffle()
 
+	processStartOfGameCards(me.Deck)
 	for card in me.Deck.top(5): toShields(card, notifymute=True)
 	for card in me.Deck.top(5): card.moveTo(card.owner.hand)
 	align()
@@ -4291,8 +4311,8 @@ def showSettingWindow(group,x=0,y=0):
 			notify('{} restores the settings to defaults.'.format(me))
 			return
 		if ret>0:
-			key, title, currentSetting = options[ret]
-			newSetting = not currentSetting()
+			key, title, currentSetting=options[ret]
+			newSetting=not currentSetting()
 			setSetting(key, newSetting)
 			notify('{} changes {} to: "{}"'.format(me, title, newSetting))
 
@@ -4431,36 +4451,43 @@ def attachBait(card, x=0, y=0):
 	return choices
 
 #apply a seal to a card.
-def seal(card, x=0, y=0):
+def seal(card, x=0, y=0, count=1):
 	mute()
 	cardSide=1
 	if Table.isTwoSided():
-			if card.controller.isInverted:
-				cardSide=-1
-			else:
-				cardSide=1
+		if card.controller.isInverted:
+			cardSide=-1
+		else:
+			cardSide=1
 	group=me.Deck
 	if len(group)==0:
 		return
+	count=min(count, len(group))
 	if not card.isFaceUp and not confirm("Do you want to seal a face-down card?"):
 		return
-	topCard=group[0]
+	
 	cx, cy=card.position
-	topCard.moveToTable(cx, cy, True)
-	topCard.orientation=Rot90
-	sealDict=eval(me.getGlobalVariable("seal"), allowed_globals)
-	if card._id in sealDict:
-		for cId in list(sealDict[card._id]):
-			c=Card(cId)
-			if c and not c.markers[sealMarker] or c not in table:
-				sealDict[card._id].remove(cId)
-		sealDict[card._id].append(topCard._id)
-	else:
-		sealDict[card._id]=[topCard._id]
-	topCard.markers[sealMarker]=len(sealDict[card._id])
-	topCard.moveToTable(cx  + (card.width / 2 - topCard.width / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, cy + (card.height / 2 - topCard.height / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, True)
+	sealDict=eval(me.getGlobalVariable("seal"), {"__builtins__": None}, {})
+	
+	for i in range(0,count):
+		if len(group)==0:
+			break
+		topCard=group[0]
+		topCard.moveToTable(cx, cy, True)
+		topCard.orientation=Rot90
+		if card._id in sealDict:
+			for cId in list(sealDict[card._id]):
+				c=Card(cId)
+				if c and not c.markers[sealMarker] or c not in table:
+					sealDict[card._id].remove(cId)
+			sealDict[card._id].append(topCard._id)
+		else:
+			sealDict[card._id]=[topCard._id]
+		topCard.markers[sealMarker]=len(sealDict[card._id])
+		topCard.moveToTable(cx + (card.width / 2 - topCard.width / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, cy + (card.height / 2 - topCard.height / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, True)
+	
 	me.setGlobalVariable("seal", str(sealDict))
-	notify('{} seals {} with the top Card of their Deck.'.format(me, card))
+	notify('{} seals {} with {} Card(s) from the top of their Deck.'.format(me, card, count))
 
 #Allow selection of opponent Elements
 def sealOpponentElements(group, x=0, y=0):
