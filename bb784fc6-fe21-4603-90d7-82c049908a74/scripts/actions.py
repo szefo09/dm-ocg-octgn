@@ -319,7 +319,7 @@ cardScripts={
 	'Faerie Crystal': {'onPlay': [lambda card: mana(me.Deck, postAction="ManaIfCiv", postArgs=["Zero"])]},
 	'Faerie Life': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Faerie Re:Life': {'onPlay': [lambda card: mana(me.Deck)]},
-	'Faerie Miracle': {'onPlay': [lambda card: mana(me.Deck, postAction="mana(me.Deck)", postCondition="manaArmsCheck()")]},
+	'Faerie Miracle': {'onPlay': [lambda card: mana(me.Deck, postAction=lambda card: mana(me.Deck), postCondition=lambda card: manaArmsCheck())]},
 	'Faerie Shower': {'onPlay': [lambda card: lookAtTopCards(2,"card","hand","mana", False)]},
 	'Flame-Absorbing Palm': {'onPlay': [lambda card: kill(2000)]},
 	'Fire Crystal Bomb': {'onPlay': [lambda card: kill(5000)]},
@@ -4590,8 +4590,8 @@ def doPostAction(card, postAction, postArgs, postCondition):
 				mana(me.Deck)
 				break
 		return
-	if eval(postCondition, allowed_globals, {'card': card}):  # eg. Faerie Miracle
-		eval(postAction, allowed_globals, {'card': card})  # simple eval of a function, if postCondition is satisfied(is true by default)
+	if callable(postAction) and callable(postCondition) and postCondition(card):  # eg. Faerie Miracle
+		postAction(card)  # simple eval of a function, if postCondition is satisfied(is true by default)
 
 #Charge top X cards as mana (not yet used)
 def massMana(group, conditional=False, x=0, y=0):
@@ -5169,5 +5169,6 @@ allowed_globals={
 	'Rot90': Rot90,
 	'Rot180': Rot180,
 	'Rot270': Rot270,
-	'isElement': isElement
+	'isElement': isElement,
+	'manaArmsCheck': manaArmsCheck
 }
