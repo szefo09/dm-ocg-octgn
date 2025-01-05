@@ -3501,7 +3501,7 @@ def flip(card, x=0, y=0):
 			notify("{}'s {} reverts to {}.".format(me, old, card))
 		align()
 		return
-	elif len(card.alternates)>0:
+	elif len(card.alternates)>1:
 		forms=list(card.alternates)
 		if len(forms)==2:
 			altName=card.alternateProperty('', 'name')
