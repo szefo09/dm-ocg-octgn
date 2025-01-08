@@ -1334,6 +1334,16 @@ def getSeals(card, sealDict=None):
 		return [Card(cardId) for cardId in sealDict[card._id]]
 	return []
 
+def removeSeals(card, sealDict=None):
+	if sealDict==None:
+		sealDict=eval(card.owner.getGlobalVariable("seal"), allowed_globals)
+	if card._id in sealDict:
+		sealArray=[Card(cardId) for cardId in sealDict[card._id]]
+		del sealDict[card._id]
+		me.setGlobalVariable("seal", str(sealDict))
+		return sealArray
+	return []
+
 #We pass sealDict if possible to minimize the amount of calls if doing loops
 def isSealedOrSeal(card, sealDict=None):
 	if sealDict==None:
@@ -3524,6 +3534,7 @@ def flip(card, x=0, y=0):
 				notify("{}'s {} reverts to its default form {}.".format(me, oldName, card))
 			else:
 				notify("{}'s {} cycles to {}.".format(me, oldName, altName))
+		removeFromBaits(card)
 		align()
 		return
 	else:
@@ -3707,7 +3718,7 @@ def align():
 				y -= differenceWideCardHeight
 			if c.position!=(x, y):
 				c.moveToTable(x, y)
-			xpos += 79
+			xpos += 87
 	for evolution in evolveDict:
 		count=0
 		reposition=False
@@ -3744,7 +3755,19 @@ def align():
 				me.setGlobalVariable("seal", str(sealDict))
 				align()
 				return
-			newPosition=(cx  + (sealedCard.width / 2 - sealCard.width / 2 - 16 + 2 * sealCardMarker) * cardSide, cy + (sealedCard.height / 2 - sealCard.height / 2 - 16 + 2 * sealCardMarker) * cardSide)
+			if sealedCard.orientation==Rot0 and sealedCard.size!='wide':
+				sealCard.orientation=sealedCard.orientation^Rot90
+				newPosition=(cx + sealedCard.width / 2 - sealCard.width / 2 - 16 * cardSide + 2 * sealCardMarker  * cardSide, cy + sealedCard.height / 2 - sealCard.height / 2 - 16 * cardSide + 2 * sealCardMarker * cardSide)
+			else:
+				if sealedCard.size=='wide':
+					sealCard.orientation=sealedCard.orientation
+					if cardSide==-1:
+						newPosition=(cx + sealedCard.height / 2 - sealCard.width / 2 + 21 + 2 * sealCardMarker  * cardSide, cy + sealedCard.width / 2 - sealCard.height / 2 - 4 + 2 * sealCardMarker * cardSide)
+					else:
+						newPosition=(cx + sealedCard.height / 2 - sealCard.width / 2 + 4 + 2 * sealCardMarker, cy + sealedCard.width / 2 - sealCard.height / 2 - 21 + 2 * sealCardMarker)
+				else:
+					sealCard.orientation=sealedCard.orientation^Rot90
+					newPosition=(cx + sealedCard.width / 2 - sealCard.width / 2 + 4 * cardSide + 2 * sealCardMarker  * cardSide, cy + sealedCard.height / 2 - sealCard.height / 2 + 4 * cardSide + 2 * sealCardMarker * cardSide)
 			if sealCard.position!=newPosition:
 				sealCard.moveToTable(*newPosition, forceFaceDown=True)
 			sealCard.sendToFront()
@@ -3765,6 +3788,10 @@ def align():
 			c.moveToTable(x, y)
 		if playerside==-1:
 			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
+
+def alignTable(group=table, x=0, y=0):
+	mute()
+	align()
 
 def displayDeck(group, x=0, y=0):
 	if len([c for c in itertools.chain(table,me.Hand) if c.controller==me])>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"):
@@ -4067,12 +4094,15 @@ def tapMultiple(cards, x=0, y=0, clearFunctions=True): #batchExecuted for multip
 def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 	mute()
 	card=ensureCardObjects(card)
-	if isSealed(card):
+	evolveDict, sealDict=getEvolveDictAndSealDict(card)
+	if isSealed(card, sealDict):
 		choice=askYN('Are you sure you want to destroy Sealed Card?\n(All seals will be put to Graveyard.)')
 		if choice!=1: return
-		sealList=getSeals(card)
+		sealList=removeSeals(card)
 		for seal in sealList:
 			toDiscard(seal)
+	if isSeal(card, sealDict):
+		toDiscard(card)
 	#Returns True if Shield leaves table or False if it stayed.
 	def processShield(card):
 		#check conditional trigger for cards like Awesome! Hot Spring Gallows or Traptops
@@ -4150,7 +4180,6 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 		return True
 
 	def processShieldBaits(shieldCard):
-		evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 		baits =	removeBaits(shieldCard, evolveDict)
 		if baits:
 			for bait in list(baits):
@@ -4469,14 +4498,13 @@ def seal(card, x=0, y=0, count=1):
 		return
 	
 	cx, cy=card.position
-	sealDict=eval(me.getGlobalVariable("seal"), {"__builtins__": None}, {})
+	sealDict=eval(me.getGlobalVariable("seal"), allowed_globals, {})
 	
 	for i in range(0,count):
 		if len(group)==0:
 			break
 		topCard=group[0]
 		topCard.moveToTable(cx, cy, True)
-		topCard.orientation=Rot90
 		if card._id in sealDict:
 			for cId in list(sealDict[card._id]):
 				c=Card(cId)
@@ -4486,8 +4514,19 @@ def seal(card, x=0, y=0, count=1):
 		else:
 			sealDict[card._id]=[topCard._id]
 		topCard.markers[sealMarker]=len(sealDict[card._id])
-		topCard.moveToTable(cx + (card.width / 2 - topCard.width / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, cy + (card.height / 2 - topCard.height / 2 - 16 + 2 * len(sealDict[card._id])) * cardSide, True)
-	
+		if card.orientation==Rot0 and card.size!='wide':
+			topCard.orientation=card.orientation^Rot90
+			topCard.moveToTable(cx + card.width / 2 - topCard.width / 2 - 16 * cardSide + 2 * len(sealDict[card._id]) * cardSide, cy + card.height / 2 - topCard.height / 2 - 16 * cardSide + 2 * len(sealDict[card._id]) * cardSide, True)
+		else:
+			if card.size=='wide':
+				topCard.orientation=card.orientation
+				if cardSide==-1:
+					topCard.moveToTable(cx + card.height / 2 - topCard.width / 2 + 21 + 2 * len(sealDict[card._id]) * cardSide, cy + card.width / 2 - topCard.height / 2 - 4 + 2 * len(sealDict[card._id]) * cardSide, True)
+				else:
+					topCard.moveToTable(cx + card.height / 2 - topCard.width / 2 + 4 + 2 * len(sealDict[card._id]), cy + card.width / 2 - topCard.height / 2 - 21 + 2 * len(sealDict[card._id]), True)
+			else: 
+				topCard.orientation=card.orientation^Rot90
+				topCard.moveToTable(cx + card.width / 2 - topCard.width / 2 + 4 * cardSide + 2 * len(sealDict[card._id]) * cardSide, cy + card.height / 2 - topCard.height / 2 + 4 * cardSide + 2 * len(sealDict[card._id]) * cardSide, True)
 	me.setGlobalVariable("seal", str(sealDict))
 	notify('{} seals {} with {} Card(s) from the top of their Deck.'.format(me, card, count))
 
