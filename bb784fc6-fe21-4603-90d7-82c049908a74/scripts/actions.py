@@ -3849,10 +3849,10 @@ def displayDeck(group, x=0, y=0):
 def clear(group, x=0, y=0):
 	mute()
 	global arrow
-	arrow={}
 	for card in group:
-		if card.targetedBy:
+		if card.targetedBy or card._id in arrow.keys() or any(card._id in idList for idList in arrow.values()):
 			card.target(False)
+	arrow={}
 
 def clearFunctionsAndTargets(group, x=0, y=0):
 	clear(group)
