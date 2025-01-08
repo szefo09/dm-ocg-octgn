@@ -107,6 +107,7 @@ cardScripts={
 	'Flame Trooper Goliac': {'onPlay': [lambda card: waveStriker(lambda card: kill(5000), card)]},
 	'Flameburn Dragon': {'onPlay': [lambda card: kill(4000)]},
 	'Fonch, the Oracle': {'onPlay': [lambda card: tapCreature()]},
+	'FORBIDDEN SUNRISE ~Dawn of Forbidden~': {'onPlay': [lambda card: seal(card, count=4)]},
 	'Forest Sword, Great Hero': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Fortress Shell': {'onPlay': [lambda card: destroyMana(2)]},
 	'Forbos, Sanctum Guardian Q': {'onPlay': [lambda card: search(me.Deck, 1, "Spell")]},
@@ -3499,6 +3500,7 @@ def flip(card, x=0, y=0):
 		elif card.alternate is forms[2]:
 			card.alternate=forms[0]
 			notify("{}'s {} reverts to {}.".format(me, old, card))
+		removeFromBaits(card)
 		align()
 		return
 	elif len(card.alternates)>1:
