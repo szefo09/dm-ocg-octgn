@@ -1730,7 +1730,7 @@ def revealFromDeckAndAddToHand(count=1, filterFunction='True'):
 
 def loopThroughDeck(playerId, play=False):
 	mute()
-	player=getPlayerById(playerId)
+	player=Player(playerId)
 	group=player.Deck
 	if len(group)==0: return
 	newCard=group[0]
@@ -3370,7 +3370,7 @@ def intenseEvil():
 #The additional targets list is used to handle evo creatures moving their baits with them to mana too late to catch this in this function.
 def _fromManaToField(targetPlayerId, additionalTargetsList=[]):
 	mute()
-	targetPlayer=getPlayerById(targetPlayerId)
+	targetPlayer=Player(targetPlayerId)
 	#Count the number of cards in mana zone for the one that will be added.
 	fullManaList=getMana(targetPlayer)
 	for additionalTarget in additionalTargetsList:
