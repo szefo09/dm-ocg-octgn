@@ -865,45 +865,22 @@ def clearArrowOnMove(args):
 		Card(key).target(False)
 
 ######### Network Related functions #########
-def getPlayerById(playerId):
-	for player in players:
-		if player._id==playerId:
-			return player
-	return None
-
-def findCardByIdAndGroup(cardId, playerId, groupName):
-	# Check if we need to search in the global table
-	if groupName=="Table":
-		# Search in the shared table pile
-		for card in table:
-			if card._id==cardId:
-				return card
-	else:
-		# Retrieve the specific player by controller ID and search in their group
-		controller=getPlayerById(playerId)  # Assume getPlayerById retrieves a player by their ID
-		if controller:
-			pile=controller.piles.get(groupName)
-			if pile:
-				for card in pile:
-					if card._id==cardId:
-						return card
-	return None
-
-def retrieveCardsFromData(cardDataList):
+def retrieveCardsFromCardId(cardIDList):
 	cards=[]
-	for cardData in cardDataList:
-		card=findCardByIdAndGroup(cardData["id"], cardData["playerId"], cardData["groupName"])
+	for id in cardIDList:
+		card=Card(id)
 		if card:
 			cards.append(card)
 	return cards
+
 #Handles both a single Card object and a list
 def ensureCardObjects(cardInput, keepAsList=False):
 	if not isinstance(cardInput, list):
 		cardInput=[cardInput]
 	if all(isinstance(card, Card) for card in cardInput):
 		cards=cardInput
-	elif all(isinstance(card, dict) and "id" in card for card in cardInput):
-		cards=retrieveCardsFromData(cardInput)
+	elif all(isinstance(cardId, int) for cardId in cardInput):
+		cards=retrieveCardsFromCardId(cardInput)
 	if keepAsList:
 		return cards
 	return cards[0] if len(cards)==1 else cards
@@ -911,9 +888,7 @@ def ensureCardObjects(cardInput, keepAsList=False):
 def findGroupByNameAndPlayer(groupName, playerId):
 	if groupName=="Table":
 		return table
-
-	player=getPlayerById(playerId)
-	return player.piles[groupName]
+	return Player(playerId).piles[groupName]
 
 def ensureGroupObject(group):
 	if isinstance(group, Group):
@@ -927,7 +902,7 @@ def ensureGroupObject(group):
 def convertCardListIntoCardIDsList(cardList):
 	if not isinstance(cardList,list):
 		cardList=[cardList]
-	return [{"id": card._id,"playerId": card.controller._id,"groupName": card.group.name} for card in cardList]
+	return [card._id for card in cardList]
 ## IMPORTANT: Send this object instead of Group for remoteCall!
 def convertGroupIntoGroupNameList(group):
 	return {"name":group.name, "playerId":group.player._id if group.player else None}
@@ -1726,10 +1701,14 @@ def killAndSearch(play=False, singleSearch=False):
 	# looks like this is only used for Transmogrify
 	mute()
 	cardList=[c for c in getCreatures() if not isUntargettable(c)]
-	if len(cardList)==0: return
-	if me.isInverted: reverseCardList(cardList)
-	choice=askCard2(cardList, 'Choose a Creature to destroy')
-	if type(choice) is not Card: return
+	if len(cardList)==0: 
+		whisper('No valid targets on the table.')
+		return
+	target=[c for c in cardList if c.targetedBy==me]
+	if len(target)!=1:
+		whisper("Wrong number of targets!")
+		return True
+	choice=target[0]
 	remoteCall(choice.owner, 'destroy', convertCardListIntoCardIDsList(choice))
 	if singleSearch:
 		return
@@ -2536,6 +2515,7 @@ def tapCreature(count=1, targetALL=False, includeOwn=False, onlyOwn=False, filte
 		cardList=[c for c in cardList if not isUntargettable(c) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c': c}))]
 		if len(cardList)==0:
 			return
+		cardList=sorted(cardList, key=lambda x: (int(me.isInverted) if x.owner!=me else int(not me.isInverted)))
 		if me.isInverted: reverseCardList(cardList)
 		count=min(count, len(cardList))
 		if count==0: return
@@ -2765,10 +2745,6 @@ def bronks():
 
 	if me.isInverted:
 		reverseCardList(leastPowerCreatureList)
-	else:
-		leastPowerCreatureList=sorted(leastPowerCreatureList, key=lambda x: (
-	   	 	0 if x in opponentCreatures else 1,
-			(opponentCreatures + myCreatures).index(x)))
 	choice=askCard2(leastPowerCreatureList, "Select a card to destroy (Opponent's are shown first).")
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
@@ -2935,9 +2911,9 @@ def pouchShell():
 	if type(choice) is not Card: return
 	baits=getCardBaits(choice)
 	if len(baits)==0:
-		remoteCall(player, 'toDiscard', [choice])
+		remoteCall(player, 'toDiscard', [convertCardListIntoCardIDsList(choice)])
 	else:
-		remoteCall(player, '_pouchShellOpp', [choice])
+		remoteCall(player, '_pouchShellOpp', [convertCardListIntoCardIDsList(choice)])
 
 def _pouchShellOpp(card):
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
@@ -3342,7 +3318,11 @@ def soulSwap():
 	# targetPlayer=getTargetPlayer()
 	# if not targetPlayer: return
 	#list of creatures in battlezone
-	targets=[c for c in getCreatures() if c.targetedBy==me and not isUntargettable(c)]
+	cardList=[c for c in getCreatures() if not isUntargettable(c)]
+	if len(cardList)==0:
+		whisper('No valid targets!')
+		return
+	targets=[c for c in cardList if c.targetedBy==me]
 	if len(targets)!=1:
 		return True
 	cardsToMana=getCardBaits(targets[0])
@@ -3354,7 +3334,7 @@ def soulSwap():
 def staticWarp():
 	mute()
 	for player in getPlayers():
-		remoteCall(player, '_staticWarp',[])
+		remoteCall(player, '_staticWarp', [])
 
 def _staticWarp():
 	creatureList=getCreatures(me)
