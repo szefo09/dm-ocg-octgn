@@ -53,7 +53,7 @@ cardScripts={
 	'Aqua Trickster': {'onPlay': [lambda card: waveStriker(lambda card: tapCreature(), card)]},
 	'Armored Decimator Valkaizer': {'onPlay': [lambda card: kill(4000)]},
 	'Artisan Picora': {'onPlay': [lambda card: fromMana(1,"ALL","ALL","ALL",False,True)]},
-	'Astral Warper': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
+	'Astral Warper': {'onPlay': [lambda card: draw(me.Deck, False, 3, ask=True, upTo=True)]},
 	'Baban Ban Ban, Earth\'s Blessing': {'onPlay': [lambda card: massMana(me.Deck, True)]},
 	'Ballom, Master of Death': {'onPlay': [lambda card: destroyAll(getCreatures(), True, "ALL", "Darkness", True)]},
 	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield(optional=False)]},
@@ -94,7 +94,7 @@ cardScripts={
 	'Earth Ripper, Talon of Rage': {'onPlay': [lambda card: ([toHand(c) for c in getMana(me) if isTapped(c)], False)[1]]}, #We do a tuple and return element at index 1, to not return array, as it would evaluate to True and ask for target.
 	'Emperor Himiko': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Emeral': {'onPlay': [lambda card: shieldswap(card)]},
-	'Emperor Marco': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
+	'Emperor Marco': {'onPlay': [lambda card: draw(me.Deck, False, 3, ask=True)]},
 	'Estol, Vizier of Aqua': {'onPlay': [lambda card: shields(me.Deck), lambda card: peekShield(1, True)]},
 	'Eviscerating Warrior Lumez': {'onPlay': [lambda card: waveStriker(lambda card: destroyAll(getCreatures(), True, 2000), card)]},
 	'Evolution Totem': {'onPlay': [lambda card: search(me.Deck, 1, "Evolution Creature")]},
@@ -150,7 +150,7 @@ cardScripts={
 		'onPlay': [lambda card: lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"]), lambda card: bounce(conditionalFromLastFunction=True)]},
 	'King Aquakamui': {'onPlay': [lambda card: kingAquakamui(card)]},
 	'King Mazelan': {'onPlay': [lambda card: bounce()]},
-	'King Ripped-Hide': {'onPlay': [lambda card: draw(me.Deck, True, 2)]},
+	'King Ripped-Hide': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
 	'King Muu Q': {'onPlay': [lambda card: bounce()]},
 	'King Tsunami': {'onPlay': [lambda card: bounceAll(group=[c for c in table if c!=card])]},
 	'Klujadras': {'onPlay': [lambda card: waveStriker(lambda card: klujadras(), card)]},
@@ -158,7 +158,7 @@ cardScripts={
 	'Kulus, Soulshine Enforcer': {'onPlay': [lambda card: manaCompare(1,True)]},
 	'Larba Geer, the Immaculate': {'onPlay': [lambda card: tapCreature(1, True, filterFunction='re.search(r"{BLOCKER}", c.Rules)')]},
 	'Lena, Vizier of Brilliance': {'onPlay': [lambda card: fromMana(1,"Spell")]},
-	'Lucky Ball': {'onPlay': [lambda card: draw(me.Deck,True, 2) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=3 else None]},
+	'Lucky Ball': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=3 else None]},
 	'Lugias, The Explorer': {'onPlay': [lambda card: tapCreature()]},
 	'Locomotiver': {'onPlay': [lambda card: targetDiscard(True)]},
 	'Loth Rix, the Iridescent': {'onPlay': [lambda card: shields(me.deck)]},
@@ -251,7 +251,7 @@ cardScripts={
 	'Viblo Blade, Hulcus Range': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Walmiel, Electro-Sage': {'onPlay': [lambda card: tapCreature()]},
 	'Whispering Totem': {'onPlay': [lambda card: fromDeck()]},
-	'Wily Carpenter': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard(2)]},
+	'Wily Carpenter': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True), lambda card: selfDiscard(2)]},
 	'Wind Axe, the Warrior Savage': {'onPlay': [lambda card: kill(count=1, rulesFilter="{BLOCKER}"), lambda card: mana(me.Deck)]},
 	'Zardia, Spirit of Bloody Winds': {'onPlay': [lambda card: shields(me.Deck)]},
 	'Zemechis, the Explorer': {'onPlay': [lambda card: gear("kill")]},
@@ -269,9 +269,9 @@ cardScripts={
 	'Bone Dance Charger': {'onPlay': [lambda card: mill(me.Deck, 2)]},
 	'Boomerang Comet': {'onPlay': [lambda card: fromMana()]},
 	'Brain Charger': {'onPlay': [lambda card: draw(me.Deck)]},
-	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
+	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Re:Charger': {'onPlay': [lambda card: draw(me.Deck)]},
-	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
+	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
 	'Brutal Charge': {'onPlay': [lambda card: addDelayedEffect({"card":card, "effects":[lambda card, args: search(me.Deck, askNumber("Enter a number of broken opponent shields.", 1, True), "Creature")] }, None)]},
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
@@ -290,7 +290,7 @@ cardScripts={
 	'Crisis Boulder': {'onPlay': [lambda card: crisisBoulder(card)]},
 	'Critical Blade': {'onPlay': [lambda card: kill(count=1, rulesFilter="{BLOCKER}")]},
 	'Crystal Memory': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "ALL", "ALL", False)]},
-	'Cyber Brain': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
+	'Cyber Brain': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True)]},
 	'Cyclone Panic': {'onPlay': [lambda card: cyclonePanic()]},
 	'Dance of the Sproutlings': {'onPlay': [lambda card: declareRace(card)]},
 	'Darkflame Drive': {'onPlay': [lambda card: kill("ALL","Untap")]},
@@ -310,7 +310,7 @@ cardScripts={
 	'Dracobarrier': {'onPlay': [lambda card: dracobarrier()]},
 	'Drill Bowgun': {'onPlay': [lambda card: gear("kill")]},
 	'Eldritch Poison': {'onPlay': [lambda card: fromMana(1, "Creature") if not sacrifice(filterFunction='re.search("Darkness",c.Civilization)', returnTrueIfNoDestruction=True) else None]},
-	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard()]},
+	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True), lambda card: selfDiscard()]},
 	'Enchanted Soil': {'onPlay': [lambda card: fromGraveyardToMana(2, "re.search('Creature', c.Type)")]},
 	'Energy Re:Light': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Energy Stream': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
@@ -352,10 +352,10 @@ cardScripts={
 	'Hyperspatial Guard Hole': {'onPlay': [lambda card: sendToShields(1, True, True, True, False, 'not re.search(r"Evolution", c.Type)')]},
 	'Hyperspatial Vice Hole': {'onPlay': [lambda card: targetDiscard()]},
 	'Hyperspatial Shiny Hole': {'onPlay': [lambda card: tapCreature()]},
-	'Hyperspatial Energy Hole': {'onPlay': [lambda card: draw(me.Deck, False, 1)]},
+	'Hyperspatial Energy Hole': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Hyperspatial Faerie Hole': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Hyperspatial Revive Hole': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
-	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, True, 3) if len([c for c in getCreatures(me) if re.search("Cyber Lord", c.Race)])>0 else None]},
+	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True) if len([c for c in getCreatures(me) if re.search("Cyber Lord", c.Race)])>0 else None]},
 	'Impossible Tunnel': {'onPlay': [lambda card: declareRace(card)]},
 	'Infernal Smash': {'onPlay': [lambda card: kill()]},
 	'Intense Evil': {'onPlay': [lambda card: intenseEvil()]},
@@ -466,7 +466,7 @@ cardScripts={
 	'Tornado Flame': {'onPlay': [lambda card: kill(4000)]},
 	'Transmogrify': {'onPlay': [lambda card: killAndSearch(True)]},
 	'Treasure Map': {'onPlay': [lambda card: lookAtTopCards(5, "Creature", filterFunction='re.search("Nature",c.Civilization)')]},
-	'Triple Brain': {'onPlay': [lambda card: draw(me.Deck, False, 3)]},
+	'Triple Brain': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True)]},
 	'Ultimate Force': {'onPlay': [lambda card: mana(me.Deck, 2)]},
 	'Unified Resistance': {'onPlay': [lambda card: declareRace(card)]},
 	'Upheaval': {'onPlay': [lambda card: upheaval()]},
@@ -498,7 +498,7 @@ cardScripts={
 	'Aqua Ranger': {'onDestroy': [lambda card: toHand(card)]},
 	'Aqua Skydiver': {'onDestroy': [lambda card: toHand(card)]},
 	'Aqua Soldier': {'onDestroy': [lambda card: toHand(card)]},
-	'Aqua Warrior': {'onDestroy': [lambda card: draw(me.Deck, True, 2)]},
+	'Aqua Warrior': {'onDestroy': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
 	'Asylum, Elemental Dragon Knight': {'onDestroy': [lambda card: toShields(card)]},
 	'Balloonshroom Q': {'onDestroy': [lambda card: toMana(card)]},
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
@@ -609,7 +609,7 @@ cardScripts={
 
 	#ON YOUR TURN END EFFECTS
 
-	'Aqua Officer': {'onTurnEnd': [lambda card: tapCreature(2, onlyOwn=True)], 'onTurnStart': [lambda card: draw(me.Deck, True, 2)]},
+	'Aqua Officer': {'onTurnEnd': [lambda card: tapCreature(2, onlyOwn=True)], 'onTurnStart': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
 	'Balesk Baj, the Timeburner': {'onTurnEnd': [lambda card: toHand(card)]},
 	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': [lambda card: untapCreature(card, False)]},
 	'Bazagazeal Dragon': {'onTurnEnd': [lambda card: toHand(card)]},
@@ -659,7 +659,7 @@ cardScripts={
 	'Bloodwing Mantis': {'onAttack': [lambda card: fromMana(2,"Creature", exactCount=True)]},
 	'Bolzard Dragon': {'onAttack': [lambda card: destroyMana()]},
 	'Cavern Raider': {'onAttack': [lambda card: search(me.Deck, 1, "Creature")]},
-	'Chaos Fish': {'onAttack': [lambda card: draw(group=me.Deck,count=len([c for c in getCreatures(me) if re.search("Water", c.Civilization) and c._id!=card._id]),ask=True)]},
+	'Chaos Fish': {'onAttack': [lambda card: draw(me.Deck,True,len([c for c in getCreatures(me) if re.search("Water", c.Civilization) and c._id!=card._id]))]},
 	'Curious Eye': {'onAttack': [lambda card: peekShield(1, True)]},
 	'Cyclolink, Spectral Knight': {'onAttack': [lambda card: search(me.Deck, 1, "Spell")]},
 	'Daidalos, General of Fury': {'onAttack': [lambda card: kill(targetOwn=True)]},
@@ -681,7 +681,7 @@ cardScripts={
 	'Metalwing Skyterror': {'onAttack': [lambda card: kill(rulesFilter="{BLOCKER}")]},
 	'Muramasa, Duke of Blades': {'onAttack': [lambda card: kill(2000)]},
 	'Necrodragon Galbazeek': {'onAttack': [lambda card: burnShieldKill(1,True)]},
-	'Plasma Chaser': {'onAttack': [lambda card: draw(me.Deck, ask=True, count=len(getCreatures(getTargetPlayer(onlyOpponent=True))))]},
+	'Plasma Chaser': {'onAttack': [lambda card: draw(me.Deck, True, len(getCreatures(getTargetPlayer(onlyOpponent=True))))]},
 	'Psyshroom': {'onAttack': [lambda card: fromGraveyardToMana(filterFunction="re.search(r'Nature',c.Civilization)",ask=True)]},
 	'Ra Vu, Seeker of Lightning': {'onAttack': [lambda card: search(me.piles["Graveyard"], 1, "Spell","Light")]},
 	'Sabermask Scarab': {'onAttack': [lambda card: fromMana()]},
@@ -4358,19 +4358,28 @@ def shuffle(group, x=0, y=0):
 	group.shuffle()
 	notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group=None, conditional=False, count=1, x=0, y=0, ask=False):
+def draw(group=None, conditional=False, count=1, x=0, y=0, ask=False, upTo=False):
 	mute()
 	if group==None:
-		group==me.Deck
+		group=me.Deck
 	else:
 		group=ensureGroupObject(group)
-	if ask:
-		choice=askYN("Would you like to Draw {} Card(s)?".format(count))
-		if choice!=1: return
+	if len(group)==0:
+		return
+	count=min(count, len(group))
+	if ask or upTo:
+		if not upTo:
+			choice=askChoice("Draw {} card{}?".format(count, "s" if count>1 else ""), ['Yes', 'No'], ['#FF0000', '#FF0000'])
+			if choice!=1:return
+		else:
+			choice=int(askChoice("How many cards to draw?", [str(i) for i in range(1, count + 1)]))
+			notify("{} declares to draw {} card{}.".format(me, choice, "s" if choice>1 else ""))
+			if choice<1:return
+			count=choice
 	for i in range(0, count):
 		if len(group)==0:
 			return
-		if conditional==True:
+		if conditional:
 			choiceList=['Yes', 'No']
 			colorsList=['#FF0000', '#FF0000']
 			choice=askChoice("Draw a card?", choiceList, colorsList)
