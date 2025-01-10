@@ -261,7 +261,7 @@ cardScripts={
 	'Abduction Charger': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(getCreatures()) if len(getCreatures())>5 else None]},
 	'Apocalypse Vise': {'onPlay': [lambda card: apocalypseVise()]},
-	'Aquan Jr.\'s Delivery': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, 're.search(r"Light|Darkness", c.Civilization)')]},
+	'Aquan Jr.\'s Delivery': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, 're.search(r"Light|Darkness", c.Civilization)', False)]},
 	'Big Beast Cannon': {'onPlay': [lambda card: kill(7000)]},
 	'Blizzard of Spears': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 4000)]},
 	'Bomber Doll': {'onPlay': [lambda card: kill(2000)]},
@@ -410,7 +410,7 @@ cardScripts={
 	'Pixie Life': {'onPlay': [lambda card: mana(me.Deck, 1, False, False), lambda card: fromMana(1, "ALL", "Zero")]},
 	'Primal Scream': {'onPlay': [lambda card: mill(me.Deck, 4, True), lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
 	'Proclamation of Death': {'onPlay': [lambda card: opponentSacrifice()] },
-	'Psychic Shaper': {'onPlay': [lambda card: revealFromDeckAndAddToHand(4, 're.search("Water",c.Civilization)')]},
+	'Psychic Shaper': {'onPlay': [lambda card: revealFromDeckAndAddToHand(4, 're.search("Water",c.Civilization)', False)]},
 	'Punish Hold': {'onPlay': [lambda card: tapCreature(2)]},
 	'Purgatory Force': {'onPlay': [lambda card: search(me.piles["Graveyard"], 2, "Creature")]},
 	'Rain of Arrows': {'onPlay': [lambda card: lookAtHandAndDiscardAll(filterFunction='re.search(r"Darkness",c.Civilization) and re.search(r"Spell",c.Type)')]},
@@ -1715,8 +1715,11 @@ def killAndSearch(play=False, singleSearch=False):
 	else:
 		remoteCall(choice.owner, 'loopThroughDeck', [choice.owner._id, play])
 
-def revealFromDeckAndAddToHand(count=1, filterFunction='True'):
+def revealFromDeckAndAddToHand(count=1, filterFunction='True', ask=True):
 	mute()
+	if ask:
+		if askYN("Do you want to reveal the top {} cards?".format(count))!=1:
+			return
 	cardList=[card for card in me.Deck.top(count)]
 	notify("{} reveals the top {} Cards of their deck:".format(me, count))
 	for c in cardList:
@@ -3694,7 +3697,10 @@ def align():
 				y -= differenceWideCardHeight
 			if c.position!=(x, y):
 				c.moveToTable(x, y)
-			xpos += 87
+			if getCompactCardAlignmentSetting():
+				xpos += 42 if getCompressManaSetting() and cardorder.index(cardtype)==2 else 79
+			else:
+				xpos += 42 if getCompressManaSetting() and cardorder.index(cardtype)==2 else 87
 	for evolution in evolveDict:
 		count=0
 		reposition=False
@@ -4284,12 +4290,14 @@ If you find any issues or want to learn more about the project, you can open it 
 
 def showSettingWindow(group,x=0,y=0):
 	mute()
-	options= {1: ("automations", "My Cards' Script Automation", lambda: getAutomationsSetting()),
-				2: ("autoUntapCreatures", "Untap my Creatures at the start of your Turn", lambda: getAutoUntapCreaturesSetting()),
-				3: ("autoUntapMana", "Untap my Mana at the start of your Turn", lambda: getAutoUntapManaSetting()),
+	options= {	1: ("automations", "My Cards' Script Automation", lambda: getAutomationsSetting()),
+				2: ("autoUntapCreatures", "Untap my Creatures at the start of my Turn", lambda: getAutoUntapCreaturesSetting()),
+				3: ("autoUntapMana", "Untap my Mana at the start of my Turn", lambda: getAutoUntapManaSetting()),
 				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play", lambda: getAutoMoveSpellsAfterPlaySetting()),
-				5: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", lambda: getAskBeforeDiscardingOwnCardsSetting()),
-				6: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating", lambda: getDialogSimultaneousCardEffectsSetting())}
+				5: ("compactCardAlignment", "Compact Card Alignment", lambda: getCompactCardAlignmentSetting()),
+				6: ("compressMana", "Compress Cards in Mana Zone", lambda: getCompressManaSetting()), 
+				7: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", lambda: getAskBeforeDiscardingOwnCardsSetting()),
+				8: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating", lambda: getDialogSimultaneousCardEffectsSetting()),}
 	ret=1
 	while ret>0:
 		names=[]
@@ -4332,6 +4340,10 @@ def getAskBeforeDiscardingOwnCardsSetting():
 	return getSetting("askBeforeDiscardingACardFromHand", False)
 def getDialogSimultaneousCardEffectsSetting():
 	return getSetting("showDialogSimultaneousCardEffects", True)
+def getCompactCardAlignmentSetting():
+	return getSetting("compactCardAlignment", True)
+def getCompressManaSetting():
+	return getSetting("compressMana", False)
 def getWelcomePageSetting():
 	return getSetting("welcomePage", False)
 
