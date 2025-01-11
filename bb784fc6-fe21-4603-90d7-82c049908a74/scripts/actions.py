@@ -4801,7 +4801,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		card.isFaceUp=True
 		card.sendToFront()
 	#Handle Evolutions coming to Play
-	if not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or re.search('{NEO EVOLUTION}', card.Rules))and not isEvoMaterial:
+	if not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or (re.search("Neo Creature", card.Type, re.IGNORECASE) and re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE)))and not isEvoMaterial:
 		targets= []
 		textBox='Select Creature(s) to put under Evolution{}'
 		#Deck Evolutions
@@ -4942,7 +4942,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				if me.isInverted: reverseCardList(materialList)
 				minimumToTake=1
 				isNeoEvolution=False
-				if re.search('{NEO EVOLUTION}', card.Rules):
+				if re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE):
 					minimumToTake=0
 					isNeoEvolution=True
 				elif len(materialList)==0:
@@ -4963,7 +4963,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				whisper("No targets for {}'s Evolution selected. Aborting...".format(card))
 				return
 		else:
-			if re.search('{NEO EVOLUTION}', card.Rules):
+			if re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE):
 				card.Type='Neo Evolution Creature'
 			evolveText=", evolving {}".format(", ".join('{}'.format(c) for c in targets))
 			updateBaits(card, targets, evolveDict)

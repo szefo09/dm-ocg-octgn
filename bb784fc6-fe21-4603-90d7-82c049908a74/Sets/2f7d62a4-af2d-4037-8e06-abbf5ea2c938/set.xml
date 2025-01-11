@@ -57,7 +57,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Hunter"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Guardman&#xA;■ When you put this creature or one of your other creatures into the battle zone, reveal the top card of your deck. If it's a creature, put it into your hand. If it's not a creature, put it into your mana zone.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ When you put this creature or one of your other creatures into the battle zone, reveal the top card of your deck. If it's a creature, put it into your hand. If it's not a creature, put it into your mana zone.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -150,7 +150,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA; {SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face up in your shield zone, each of your creatures in the battle zone gets &quot;Shield Saver&quot;. (When one of your shields would break, you may destroy one of your creatures that has &quot;Shield Saver&quot; instead.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face up in your shield zone, each of your creatures in the battle zone gets &quot;Shield Saver&quot;. (When one of your shields would break, you may destroy one of your creatures that has &quot;Shield Saver&quot; instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="8"/>
@@ -200,7 +200,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA; {SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face up in your shield zone, whenever you cast a spell or summon a creature, you may draw a card."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face up in your shield zone, whenever you cast a spell or summon a creature, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="11"/>
@@ -274,7 +274,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Guardman {DOUBLE BREAKER}&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this creature is face up in your shield zone, each of your opponent's creatures that have power 6000 or less attacks creatures if able."/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.) {DOUBLE BREAKER}&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this creature is face up in your shield zone, each of your opponent's creatures that have power 6000 or less attacks creatures if able."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="16"/>
@@ -287,7 +287,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ You may summon exile creatures from your mana zone.&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face-up in your shield zone, each of your exile creatures gets +3000 power."/>
+      <property name="Rules" value="■ You may summon exile creatures from your mana zone.&#xA;{SHIELD GO} (When this creature is destroyed, put it face up into your shield zone. When this creature is face up and would leave your shield zone, put it into your graveyard instead.)&#xA;■ While this card is face up in your shield zone, each of your exile creatures gets +3000 power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="17"/>
