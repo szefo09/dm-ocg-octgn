@@ -3176,7 +3176,7 @@ def theGraveOfAngelsAndDemons():
 
 	destroyAll(creaturesToDestroy, dontAsk=True)
 	for mana in manaToGraveyard:
-		toDiscard(mana)
+		remoteCall(mana.owner, 'toDiscard', convertCardListIntoCardIDsList(mana))
 
 def miraculousPlague():
 	mute()
