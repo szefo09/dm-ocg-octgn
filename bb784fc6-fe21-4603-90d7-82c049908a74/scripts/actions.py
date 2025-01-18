@@ -454,6 +454,7 @@ cardScripts={
 	'Super Burst Shot': {'onPlay': [lambda card: destroyAll([c for c in getCreatures() if c.owner!=me], True, 2000)]},
 	'Super Infernal Gate Smash': {'onPlay': [lambda card: kill()]},
 	'Super Spark': {'onPlay': [lambda card: tapCreature(1,True)]},
+	'Surfer Charger': {'onPlay': [lambda card: bounce()]},
 	'Teleportation': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Ten-Ton Crunch': {'onPlay': [lambda card: kill(3000)]},
 	'Terror Pit': {'onPlay': [lambda card: kill("All")]},
