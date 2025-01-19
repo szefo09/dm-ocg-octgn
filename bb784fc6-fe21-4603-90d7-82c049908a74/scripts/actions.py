@@ -2715,14 +2715,15 @@ def bluumErkis(card):
 	mute()
 	shieldList=[c for c in getShields() if c.owner!=me and not isRemovedFromPlay(c)]
 	targets=[c for c in shieldList if c.targetedBy==me]
-	count=min(1, len(shieldList))
+	count=min(2, len(shieldList))
 	if count==0:
 		whisper("No valid targets.")
 		return
 	if len(targets)!=count:
 		return True
 	for shield in targets:
-		remoteCall(shield.owner, 'flip', [convertCardListIntoCardIDsList(shield)])
+		if not shield.isFaceUp:
+			remoteCall(shield.owner, 'flip', [convertCardListIntoCardIDsList(shield)])
 		update()
 		if re.search("Spell", shield.Type) and re.search("{SHIELD TRIGGER}", shield.Rules, re.IGNORECASE):
 			notify('{} casts {} from {}\'s Shields'.format(me, shield.properties["Name"], shield.owner))
