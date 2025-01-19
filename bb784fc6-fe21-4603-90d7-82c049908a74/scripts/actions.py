@@ -2715,7 +2715,7 @@ def bluumErkis(card):
 	mute()
 	shieldList=[c for c in getShields() if c.owner!=me and not isRemovedFromPlay(c)]
 	targets=[c for c in shieldList if c.targetedBy==me]
-	count=min(2, len(shieldList))
+	count=min(1, len(shieldList))
 	if count==0:
 		whisper("No valid targets.")
 		return
