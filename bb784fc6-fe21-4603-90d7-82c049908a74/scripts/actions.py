@@ -2706,7 +2706,7 @@ def auraPegasus():
 	card=me.Deck[0]
 	card.isFaceUp=True
 	notify("{} reveals {}".format(me, card))
-	if re.search("Creature", newCard.Type) and not re.search("Evolution Creature", newCard.Type):
+	if re.search("Creature", card.Type) and not re.search("Evolution Creature", card.Type):
 		toPlay(card)
 	else:
 		toHand(card)
@@ -5029,7 +5029,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 def endOfFunctionality(card):
 	if card and card.controller==me and isSpellInBZ(card) and getAutoMoveSpellsAfterPlaySetting():
 		if any(name in card.properties["Name"] for name in {'Boomerang Comet', 'Pixie Cocoon'}) or (re.search("Charger", card.properties["Name"], re.IGNORECASE) and re.search("Charger", card.rules, re.IGNORECASE)):
-			toMana(card)
+			toMana(card, tapped=card.properties["Name"]=='Pixie Cocoon')
 		else:
 			card.resetProperties()
 			card.target(False)
