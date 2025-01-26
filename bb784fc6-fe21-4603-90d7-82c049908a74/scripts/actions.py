@@ -344,6 +344,7 @@ cardScripts={
 	'Goromaru Communication': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
 	'Hell Chariot': {'onPlay': [lambda card: kill("ALL","Untap")]},
 	'Hell Hand': {'onPlay': [lambda card: hellHand()]},
+	'Hell Slash': {'onPlay': [lambda card: fromDeckToGrave(3,True)]},
 	'Hide and Seek': {'onPlay': [lambda card: bounce(1, True, filterFunction='not re.search("Evolution", c.Type)'), lambda card: targetDiscard(True)]},
 	'Hirameki Program': {'onPlay': [lambda card: eurekaProgram(True)]},
 	'Hogan Blaster': {'onPlay': [lambda card: drama(True, "creature or spell", "battlezone", "top")]},
@@ -1752,11 +1753,10 @@ def loopThroughDeck(playerId, play=False):
 			remoteCall(newCard.owner, 'toPlay', convertCardListIntoCardIDsList(newCard))
 			return
 		else:
-			#moveTo is a API function, cannot convert Group
-			remoteCall(newCard.owner, 'moveTo', newCard.owner.hand)
+			remoteCall(newCard.owner, 'toHand', [convertCardListIntoCardIDsList(newCard)])
 			return
 	else:
-		remoteCall(newCard.owner, 'toDiscard', convertCardListIntoCardIDsList(newCard))
+		remoteCall(newCard.owner, 'toDiscard', [convertCardListIntoCardIDsList(newCard)])
 		remoteCall(newCard.owner, 'loopThroughDeck', [playerId, play])
 
 def eurekaProgram(ask=True):
@@ -1870,7 +1870,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
 		notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 		return
-	remoteCall(targetPlayer,'toDiscard',convertCardListIntoCardIDsList(choices))
+	remoteCall(targetPlayer,'toDiscard', [convertCardListIntoCardIDsList(choices)])
 	update()
 
 	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
