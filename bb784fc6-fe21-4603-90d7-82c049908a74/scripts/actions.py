@@ -278,7 +278,7 @@ cardScripts={
 	'Brutal Charge': {'onPlay': [lambda card: addDelayedEffect({"card":card, "effects":[lambda card, args: search(me.Deck, askNumber("Enter a number of broken opponent shields.", 1, True), "Creature")] }, None)]},
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
-						 'onMetaMorph': [lambda card: kill(6000)]},
+						 'onMetamorph': [lambda card: kill(6000)]},
 	'Cataclysmic Eruption': {'onPlay': [lambda card: destroyMana(len([c for c in getCreatures(me) if re.search(r'Nature',c.Civilization)]))]},
 	'Chains of Sacrifice': {'onPlay': [lambda card: kill("ALL","ALL","ALL",2), lambda card:sacrifice()]},
 	'Child Festival of Faerie Fire': {'onPlay':[ lambda card: lookAtTopCards(2, 'card', 'mana', toManaTapped=True), lambda card: toHand(card) if re.search("Fire",getMana(me)[-1].Civilization) else None]},
