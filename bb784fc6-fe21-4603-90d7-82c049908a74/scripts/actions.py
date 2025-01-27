@@ -263,7 +263,7 @@ cardScripts={
 
 	'Abduction Charger': {'onPlay': [lambda card: bounce(2, upTo=True)]},
 	'Apocalypse Day': {'onPlay': [lambda card: destroyAll(getCreatures()) if len(getCreatures())>5 else None]},
-	'Apocalypse Vise': {'onPlay': [lambda card: apocalypseVise()]},
+	'Apocalypse Vise': {'onPlay': [lambda card: destroyCreaturesUntilPower(card, 8000)]},
 	'Aquan Jr.\'s Delivery': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, 're.search(r"Light|Darkness", c.Civilization)', False)]},
 	'Big Beast Cannon': {'onPlay': [lambda card: kill(7000)]},
 	'Blizzard of Spears': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 4000)]},
@@ -344,6 +344,7 @@ cardScripts={
 	'Goromaru Communication': {'onPlay': [lambda card: search(me.Deck, 1, "Creature")]},
 	'Hell Chariot': {'onPlay': [lambda card: kill("ALL","Untap")]},
 	'Hell Hand': {'onPlay': [lambda card: hellHand()]},
+	'Hell\'s Scrapper': {'onPlay': [lambda card: destroyCreaturesUntilPower(card, 5000)]},
 	'Hell Slash': {'onPlay': [lambda card: fromDeckToGrave(3,True)]},
 	'Hide and Seek': {'onPlay': [lambda card: bounce(1, True, filterFunction='not re.search("Evolution", c.Type)'), lambda card: targetDiscard(True)]},
 	'Hirameki Program': {'onPlay': [lambda card: eurekaProgram(True)]},
@@ -2683,8 +2684,8 @@ def allSunrise():
 	shuffleToBottom(shieldList)
 	align()
 
-def apocalypseVise():
-	powerLeft=8000
+def destroyCreaturesUntilPower(card, power):
+	powerLeft=power
 	creaturesToDestroy=[]
 	creatureList=[c for c in getCreatures() if c.owner!=me and c.Power!='Infinity' and int(c.Power.strip('+'))<=powerLeft]
 	if me.isInverted: reverseCardList(creatureList)
@@ -2695,7 +2696,7 @@ def apocalypseVise():
 		creatureChoice.target()
 		creaturesToDestroy.append(creatureChoice)
 		creatureList.remove(creatureChoice)
-		notify("Apocalypse Vise - Power Spent: {}".format(8000-powerLeft))
+		notify("{} - Power Spent: {} - {}".format(card.name,power-powerLeft, creatureChoice))
 		creatureList=[c for c in creatureList if int(c.Power.strip('+'))<=powerLeft]
 	if len(creaturesToDestroy)>0:
 		destroyAll(creaturesToDestroy, False)
