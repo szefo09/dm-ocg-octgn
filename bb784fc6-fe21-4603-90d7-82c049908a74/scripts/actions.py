@@ -3110,15 +3110,24 @@ def _eCrisisBoulderHelper(cardId):
 	evaluateWaitingFunctions()
 
 def _enemyCrisisBoulder():
-	choiceList=['Creature', 'Mana']
-	colorsList=['#FF0000', '#11FF11']
-	choice=askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
+	elements=getElements(me)
+	mana=getMana(me)
+	if len(elements)==0 and len(mana)==0:
+		return
+	if len(elements)>0 and len(mana)>0:
+		choiceList=['Creature', 'Mana']
+		colorsList=['#FF0000', '#11FF11']
+		choice=askChoice("Put Creature or Mana to Graveyard?",choiceList,colorsList)
+	elif len(elements)==0:
+		choice=2
+	else:
+		choice=1
 	if choice==1:
-		cardsToChooseFrom=getElements(me)
+		cardsToChooseFrom=elements
 		if me.isInverted: reverseCardList(cardsToChooseFrom)
 		selected=askCard2(cardsToChooseFrom, "Select a Creature to put to Graveyard")
 	elif choice==2:
-		cardsToChooseFrom=getMana(me)
+		cardsToChooseFrom=mana
 		if me.isInverted: reverseCardList(cardsToChooseFrom)
 		selected=askCard2(cardsToChooseFrom, "Select Mana to put to Graveyard")
 	else: return
