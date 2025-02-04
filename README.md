@@ -514,6 +514,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 </details>
 
 #### Additional Notes
+- **Classic 05 Format Added**
 - **XML Updates**: New Sets, up to year 2024 added!
 - **Mass-Destruction Effects Rewritten**: Improved order of operations for mass-destruction effects to support Survivors and Wave Strikers, enhancing interactions with cards like Balloonshroom Q and Revival Soldier.
 - **Many code changes under the hood.**
