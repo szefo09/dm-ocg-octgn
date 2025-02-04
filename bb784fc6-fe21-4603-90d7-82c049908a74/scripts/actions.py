@@ -4160,8 +4160,7 @@ def destroy(card, x=0, y=0, dest=False, ignoreEffects=False):
 				elif re.search("Strike Back", cardInHandWithStrikeBackAbility.rules, re.IGNORECASE) and re.search(cardInHandWithStrikeBackAbility.Civilization, shieldCard.Civilization, re.IGNORECASE):
 					cardsInHandWithStrikeBackAbilityThatCanBeUsed.append(cardInHandWithStrikeBackAbility)
 			if len(cardsInHandWithStrikeBackAbilityThatCanBeUsed)>0:
-				if confirm("Activate Strike Back by sending {} to the graveyard?\n\n{}".format(shieldCard.properties["Name"],
-																							   shieldCard.Rules)):
+				if confirm("Activate Strike Back by sending {} ({}) to the graveyard?\n\n{}".format(shieldCard.properties["Name"], shieldCard.properties["Civilization"], shieldCard.Rules)):
 					if me.isInverted: reverseCardList(cardsInHandWithStrikeBackAbilityThatCanBeUsed)
 					choice=askCard2(cardsInHandWithStrikeBackAbilityThatCanBeUsed, 'Choose Strike Back to activate')
 					if type(choice) is Card:
