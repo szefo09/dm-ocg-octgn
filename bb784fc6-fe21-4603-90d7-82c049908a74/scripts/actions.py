@@ -2735,7 +2735,7 @@ def bluumErkis(card):
 					waitingFunct.insert(index + 1, [shield, function])
 			shield.target(False)
 		else:
-			remoteCall(shield.owner, 'toHand', [convertCardListIntoCardIDsList(shield)])
+			remoteCall(shield.owner, 'destroy', [convertCardListIntoCardIDsList(shield)])
 	orderEvaluatingFunctions()
 	evaluateWaitingFunctions()
 
