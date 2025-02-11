@@ -1603,12 +1603,17 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	#Both players see the opponent's hand reversed
 	reverseCardList(cardList)
 	count=min(count, len(cardList))
-	if len(cardList)==count:
+	if len(cardList)==count and targetZone!='shield':
 		cardChoices=cardList
 	else:
-		cardChoices=askCard2(cardList, "Choose {} Card(s) to discard.".format(count),minimumToTake=count, maximumToTake=count, returnAsArray=True)
+		messages={
+		'grave':"Choose {} Card(s) to discard.",
+		'shield':"Choose {} Card(s) to send to Shield.",
+		'mana':"Choose {} Card(s) to send to Mana."
+		}
+		cardChoices=askCard2(cardList, messages.get(targetZone).format(count),minimumToTake=count, maximumToTake=count, returnAsArray=True)
 	if not isinstance(cardChoices,list):
-		notify("Discard cancelled.")
+		notify("Effect cancelled.")
 		return
 	if targetZone=='grave':
 		remoteCall(targetPlayer, 'toDiscard', [convertCardListIntoCardIDsList(cardChoices), 0, 0, False, True, True, False, True])
@@ -1618,7 +1623,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 			whisper("Putting {} as Mana.".format(cardChoice))
 			remoteCall(targetPlayer, 'toMana', convertCardListIntoCardIDsList(cardChoice))
 		if targetZone=='shield':
-			whisper("Setting {} as Shield.".format(cardChoice))
+			notify("Setting {} as Shield.".format(cardChoice.name))
 			remoteCall(targetPlayer, 'toShields', convertCardListIntoCardIDsList(cardChoice))
 
 def lookAtOpponentHand():
