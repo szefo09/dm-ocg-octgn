@@ -457,7 +457,7 @@ cardScripts={
 	'Static Warp': {'onPlay': [lambda card: staticWarp()]},
 	'Stronghold of Lightning and Flame': {'onPlay': [lambda card: kill(3000), lambda card: tapCreature()]},
 	'Streaming Shaper': {'onPlay': [lambda card: revealFromDeckAndAddToHand(4, 're.search(r"Water", c.Civilization)', False)]},
-	'Submarine Project': {'onPlay': [lambda card: lookAtTopCards(4)]},
+	'Submarine Project': {'onPlay': [lambda card: lookAtTopCards(4, reveal=False)]},
 	'Super Burst Shot': {'onPlay': [lambda card: destroyAll([c for c in getCreatures() if c.owner!=me], True, 2000)]},
 	'Super Infernal Gate Smash': {'onPlay': [lambda card: kill()]},
 	'Super Spark': {'onPlay': [lambda card: tapCreature(1,True)]},
