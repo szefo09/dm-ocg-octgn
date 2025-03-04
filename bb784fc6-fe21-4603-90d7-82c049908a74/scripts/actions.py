@@ -772,6 +772,7 @@ cardScripts={
 	# On Button (Manual trigger effects) - for cards that require a lot of automation to detect the trigger,
 	# so manual it is for now.
 	'Auzesu, Demonic Elemental': {'onButton': [lambda card: kill(tapFilter='TAP')]},
+	'Bajula\'s Soul': {'onButton': [lambda card: destroyMana(2)]},
 	'Bluum Erkis, Flare Guardian': {'onButton': [lambda card: bluumErkis(card)]},
 	'Bolmeteus Steel Dragon': {'onButton': [lambda card: burnShieldKill(2)]},
 	'Evil Incarnate': {'onButton': [lambda card: remoteCall(getActivePlayer(), 'sacrifice', []) if getActivePlayer() is not None else None]},
