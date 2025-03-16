@@ -30,6 +30,7 @@ my_challenge=None
 validated=False
 global_timer=None
 start_time=None
+settingsCache=None 
 
 
 # Start of Automation code
@@ -819,14 +820,20 @@ def endTurn(args, x=0, y=0):
 		# The first turn. Can be passed to anyone.
 		nextTurn(nextPlayer, True)
 
+def gameStartNotification():
+	mute()
+	message=''
+	if getNotifyVersionSetting(): message+='{} is playing on version:\nOCTGN - {}\nGame - {}'.format(me, version, gameVersion)
+	if not getAutomationsSetting(): message+='\n{} has " My Card Script Automation" setting disabled.'.format(me)
+	if getAskBeforeDiscardingOwnCardsSetting(): message+='\n{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me)
+	message=message.lstrip('\n')
+	notify(message)
+	if not getWelcomePageSetting(): showWelcomeMessage()
+
 def resetGame():
 	mute()
 	me.setGlobalVariable("shieldCount", "0")
 	clearFunctionsAndTargets(table)
-	if not getAutomationsSetting(): notify('{} has " My Card Script Automation" setting disabled.'.format(me))
-	if getAskBeforeDiscardingOwnCardsSetting(): notify('{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me))
-	if not getWelcomePageSetting():
-		showWelcomeMessage()
 	for player in getPlayers():
 		if player!=me:
 			initiate_handshake(player)
@@ -4302,32 +4309,36 @@ If you find any issues or want to learn more about the project, you can open it 
 ──────────────Let's play!──────────────
 """
 
-	choice=askChoice(welcomeMessage.format(len(cardScripts.keys())), ["Got it!", "Join IDC TCG Tournament Community" , "Open Project Page"], ["#902000","#5865F2", "#2b5ba9"])
-	setSetting("welcomePage", True)
+	choice=askChoice(welcomeMessage.format(len(cardScripts.keys())), ["Got it!", "Open Settings", "Join IDC Tournament Community" , "Open Project Page"], ["#902000","#8C7D1C","#5865F2","#2B5BA9" ])
+	setSettingCached("welcome", True)
 	if choice==2:
-		openUrl("https://discord.gg/DkJXpTEBNe")
+		showSettingWindow()
+		return
 	if choice==3:
+		openUrl("https://discord.gg/DkJXpTEBNe")
+	if choice==4:
 		openUrl("https://github.com/szefo09/dm-ocg-octgn")
 	if choice>1:
 		showWelcomeMessage()
 
-def showSettingWindow(group,x=0,y=0):
+def showSettingWindow(group=None,x=0,y=0):
 	mute()
-	options= {	1: ("automations", "My Cards' Script Automation", lambda: getAutomationsSetting()),
-				2: ("autoUntapCreatures", "Untap my Creatures at the start of my Turn", lambda: getAutoUntapCreaturesSetting()),
-				3: ("autoUntapMana", "Untap my Mana at the start of my Turn", lambda: getAutoUntapManaSetting()),
-				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play", lambda: getAutoMoveSpellsAfterPlaySetting()),
-				5: ("compactCardAlignment", "Compact Card Alignment", lambda: getCompactCardAlignmentSetting()),
-				6: ("compressMana", "Compress Cards in Mana Zone", lambda: getCompressManaSetting()), 
-				7: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand", lambda: getAskBeforeDiscardingOwnCardsSetting()),
-				8: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating", lambda: getDialogSimultaneousCardEffectsSetting()),}
+	options= {	1: ("automations", "My Cards' Script Automation"),
+				2: ("autoUntapCreatures", "Untap my Creatures at the start of my Turn"),
+				3: ("autoUntapMana", "Untap my Mana at the start of my Turn"),
+				4: ("autoMoveSpellsAfterPlay", "Move my Spells to Graveyard after play"),
+				5: ("compactCardAlignment", "Compact Card Alignment"),
+				6: ("compressMana", "Compress Cards in Mana Zone"), 
+				7: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand"),
+				8: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating"),
+				9: ("notifyVersionSetting", "Show game version notification")}
 	ret=1
 	while ret>0:
 		names=[]
 		colors=[]
-		for value in options.values():
-			names.append(value[1])
-			colors.append("#6a6f76" if not value[2]() else "#2b5ba9")
+		for key,title in options.values():
+			names.append(title)
+			colors.append("#6a6f76" if not getSettingCached(key) else "#2b5ba9")
 
 		ret=askChoice("Toggle Automation Settings:\n(Those settings stay between games)", names, colors, ["Show Welcome Message", "Restore defaults"])
 		if ret==-1:
@@ -4339,36 +4350,75 @@ def showSettingWindow(group,x=0,y=0):
 				"autoUntapCreatures": True,
 				"autoUntapMana": True,
 				"autoMoveSpellsAfterPlay": True,
+				"compactCardAlignment": True,
+				"compressMana": False,
 				"askBeforeDiscardingACardFromHand": False,
-				"showDialogSimultaneousCardEffects": True}
+				"showDialogSimultaneousCardEffects": True,
+				"notifyVersionSetting": True,
+				"welcome": False
+				}
 			for key, value in defaults.items():
-				setSetting(key, value)
+				setSettingCached(key, value)
 			notify('{} restores the settings to defaults.'.format(me))
+			align()
 			return
 		if ret>0:
-			key, title, currentSetting=options[ret]
-			newSetting=not currentSetting()
-			setSetting(key, newSetting)
-			notify('{} changes {} to: "{}"'.format(me, title, newSetting))
+			key, title=options[ret]
+			newSetting=not getSettingCached(key)
+			setSettingCached(key, newSetting)
+			notify('{} changes "{}" to: "{}"'.format(me, title, newSetting))
+			if key=="compressMana" or key=="compactCardAlignment":
+				align()
+			if key=="notifyVersionSetting" and newSetting:
+				gameStartNotification()
 
 def getAutomationsSetting():
-	return getSetting("automations", True)
+	return getSettingCached("automations")
 def getAutoUntapCreaturesSetting():
-	return getSetting("autoUntapCreatures", True)
+	return getSettingCached("autoUntapCreatures")
 def getAutoUntapManaSetting():
-	return getSetting("autoUntapMana", True)
+	return getSettingCached("autoUntapMana")
 def getAutoMoveSpellsAfterPlaySetting():
-	return getSetting("autoMoveSpellsAfterPlay", True)
-def getAskBeforeDiscardingOwnCardsSetting():
-	return getSetting("askBeforeDiscardingACardFromHand", False)
-def getDialogSimultaneousCardEffectsSetting():
-	return getSetting("showDialogSimultaneousCardEffects", True)
+	return getSettingCached("autoMoveSpellsAfterPlay")
 def getCompactCardAlignmentSetting():
-	return getSetting("compactCardAlignment", True)
+	return getSettingCached("compactCardAlignment")
 def getCompressManaSetting():
-	return getSetting("compressMana", False)
+	return getSettingCached("compressMana")
+def getAskBeforeDiscardingOwnCardsSetting():
+	return getSettingCached("askBeforeDiscardingACardFromHand")
+def getDialogSimultaneousCardEffectsSetting():
+	return getSettingCached("showDialogSimultaneousCardEffects")
+def getNotifyVersionSetting():
+	return getSettingCached("notifyVersionSetting")
 def getWelcomePageSetting():
-	return getSetting("welcomePage", False)
+	return getSettingCached("welcome")
+
+def loadSettings():
+    global settingsCache
+    if settingsCache is None:
+        settingsCache={
+            "automations": getSetting("automations", True),
+            "autoUntapCreatures": getSetting("autoUntapCreatures", True),
+            "autoUntapMana": getSetting("autoUntapMana", True),
+            "autoMoveSpellsAfterPlay": getSetting("autoMoveSpellsAfterPlay", True),
+            "compactCardAlignment": getSetting("compactCardAlignment", True),
+            "compressMana": getSetting("compressMana", False),
+            "askBeforeDiscardingACardFromHand": getSetting("askBeforeDiscardingACardFromHand", False),
+            "showDialogSimultaneousCardEffects": getSetting("showDialogSimultaneousCardEffects", True),
+			"notifyVersionSetting": getSetting("notifyVersionSetting", True),
+			"welcome": getSetting("welcome", False)
+        }
+
+def getSettingCached(key):
+    if settingsCache is None:
+        loadSettings()
+    return settingsCache.get(key)
+
+def setSettingCached(key, value):
+    global settingsCache
+    setSetting(key, value)
+    if settingsCache is not None:
+        settingsCache[key]=value
 
 #Deck Menu Options
 def shuffle(group, x=0, y=0):
