@@ -72,6 +72,7 @@ cardScripts={
 	'Carnival Totem': {'onPlay': [lambda card: swapManaAndHand()]},
 	'Cebu Aquman Jr.': {'onPlay': [lambda card: revealFromDeckAndAddToHand(3, 're.search(r"Light|Darkness", c.Civilization)')]},
 	'Chaos Worm': {'onPlay': [lambda card: kill()]},
+	'Cherenko': {'onPlay':[lambda card: cherenko()]},
 	'Chief De Baula, Machine King of Mystic Light': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Cobalt Hulcus, Aqua Savage': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Core-Crash Lizard': {'onPlay': [lambda card: burnShieldKill(1)]},
@@ -2773,6 +2774,72 @@ def bronks():
 	if type(choice) is not Card: return
 	remoteCall(choice.owner,'destroy', convertCardListIntoCardIDsList(choice))
 
+def shieldPlusCard(card, x=0, y=0, askCount=True, count=1, alignAfter=True):
+	mute()
+	if not isShield(card) or card.owner!=me:
+		whisper("You can only Shield Plus a Shield!")
+		return
+	if askCount:
+		count=askNumber("How Many Cards to put under shield?",1,True)
+		count=min(count, len(me.Deck))
+		if count==0:
+			return
+	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
+	baits=removeBaits(card, evolveDict)
+	deckList=[c for c in me.Deck.top(count)]
+	for c in deckList:
+		c.moveToTable(0,0, True)
+		c.markers[shieldMarker]=card.markers[shieldMarker]
+		baits.append(c)
+	updateBaits(card, baits, evolveDict)
+	notify("{} used Shield Plus on Shield #{} ({} from Deck)".format(me, card.markers[shieldMarker], count))
+	align()
+
+def shieldPlus(count=1, returnShieldTargets=False):
+	if len(getShields(me))==0 or len(me.Deck)<count: return
+	mute()
+	cardList=getShields(me)
+	if len(cardList)==count:
+		targets=cardList
+	else:
+		targets=[c for c in cardList if c.targetedBy==me]
+		if len(targets)!=count:
+			whisper("Target a Shield for Shield Plus.")
+			return True #forcing octgn to go to targets function and wait
+	
+	for shield in targets:
+		shieldPlusCard(shield, askCount=False)
+	if returnShieldTargets:
+		return targets
+
+def cherenko():
+	shieldTargets=shieldPlus(1,True)
+	if not isinstance(shieldTargets, list):
+		return shieldTargets
+	shieldTarget=shieldTargets[0]
+	shieldTarget.target(False)
+	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
+	if isShield(shieldTarget) and shieldTarget.owner==me:
+		baits=getCardBaits(shieldTarget, evolveDict)
+		cardList=[c for c in baits]
+		cardList.insert(0, shieldTarget)
+		if me.isInverted: reverseCardList(cardList)
+		for c in cardList:
+			c.peek()
+		choice=askCard2(cardList, 'Choose a card to put on top of the Deck', minimumToTake=1, maximumToTake=1)
+		if type(choice) is not Card:
+			notify("No card was returned to top of {}'s Deck.".format(me))
+			return
+		if choice==shieldTarget:
+			baits=removeBaits(shieldTarget, evolveDict)
+			newShield=baits[0]
+			newShield.markers[shieldMarker]=choice.markers[shieldMarker]
+			if len(baits)>1:
+				baits.remove(newShield)
+				updateBaits(newShield, baits, evolveDict)
+		toDeck(choice)
+		alignTable()
+
 def cyclonePanic():
 	if confirm("Are you sure you want to continue?"):
 		for player in getPlayers():
@@ -3688,6 +3755,7 @@ def align():
 	cardorder=[[], [], []]
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
 	sealDict=eval(me.getGlobalVariable("seal"), allowed_globals)
+	realignShields()
 	for card in table:
 		if card.controller==me and not isCastle(card) and not card.anchor and not card._id in list(
 				itertools.chain.from_iterable(evolveDict.values())) and not card._id in list(
@@ -3801,6 +3869,13 @@ def align():
 			c.moveToTable(x, y)
 		if playerside==-1:
 			xpos += max(c.width-88, c.height) + 10 - differenceSquareCards
+
+def realignShields():
+	shieldList=getShields(me)
+	shieldsSorted=sorted(shieldList, key=lambda x: int(x.markers[shieldMarker]))
+	if shieldList!=shieldsSorted:
+		for s in shieldsSorted:
+			s.sendToFront()
 
 def alignTable(group=table, x=0, y=0):
 	mute()

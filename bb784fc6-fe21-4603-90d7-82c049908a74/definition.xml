@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.1.1.41"
+		version="1.1.1.42"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -107,6 +107,7 @@
 			<cardaction menu="Charge as Mana Face-Down" shortcut="ctrl+shift+C" execute="toManaFaceDown" />
 			<cardaction menu="Seal a Card" execute="seal" />
 			<cardaction menu="Shuffle to bottom of the Deck" batchExecute="shuffleToBottom" />
+			<cardaction menu="Shield Plus" execute="shieldPlusCard"/>
 			<cardaction menu="Apply Marker" execute="addCustomMarker"/>
 		</cardactions>
 	</table>
