@@ -467,7 +467,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Stella/Shinobi"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="17"/>
@@ -1170,7 +1170,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you summon a Mecha creature, you may reduce its cost by 2. If you do, destroy this creature. That Mecha can't cost less than 0."/>
+      <property name="Rules" value="■ When you summon a Mecha creature, you may reduce its cost by 2. If you do, destroy this creature. That Mecha can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="62"/>

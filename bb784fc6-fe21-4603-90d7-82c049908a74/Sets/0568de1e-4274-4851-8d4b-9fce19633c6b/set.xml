@@ -638,32 +638,46 @@
       <property name="Number" value="40"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
-    <card id="b5fcf70b-ab30-4383-8db7-1e84462b0d8c" name="Truename Lalala Lionel">
+    <card id="32aec7c7-fef5-4107-8570-9a122db2a535" name="Wedding, Zenith of &quot;Celebration&quot;">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="7"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="11"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command/Unknown"/>
-      <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you and your opponent play Gachinko Judge. If you win, search your deck. You may take a spell that has Heaven's in its name, show that spell to your opponent, and add it to your shields face down. Then shuffle your deck.&#xA;(Gachinko Judge: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Race" value="Unknown/Zenith"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, your opponent chooses a total of 4 cards from their hand and/or creatures in the battle zone and shieldifies them.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S3"/>
+      <property name="Number" value="S2"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
-    <card id="2d56711d-addc-4f1e-8df3-f6d716a06c47" name="Oninaguri, Last Attack">
+    <card id="c926ee56-1aa5-4d10-bd81-257a6d4fdabb" name="Necrodragon Danchigai Fankigai">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Human/Hunter/Alien"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ Whenever this creature attacks, choose any number of your opponent's creatures that have total cost 6 or less and destroy them.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon/Hunter"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you and your opponent play {GACHINKO JUDGE}. If you win,you may put a non-evolution Zombie Dragon from your graveyard into the battle zone&#xA;({GACHINKO JUDGE}: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S5"/>
+      <property name="Number" value="S4"/>
+      <property name="Set" value="DMR-06 Victory Rush"/>
+    </card>
+    <card id="8b5a6b52-25c8-4672-b7c7-ee44c5568964" name="Onimaru &quot;Head&quot;, Victory Rush">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Red Command Dragon/Hunter/Alien"/>
+      <property name="Power" value="9000+"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, you and your opponent play {GACHINKO JUDGE}. If you win,take an extra turn after this one&#xA;({GACHINKO JUDGE}: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="V1"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
     <card id="e7c046eb-a1b1-4d98-9975-71eb65607b4f" name="Mouse Sittrain, Express Machine">
@@ -744,6 +758,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="44"/>
+      <property name="Set" value="DMR-06 Victory Rush"/>
+    </card>
+    <card id="96b583ba-4872-49da-86f3-7cacd2b40f77" name="Jooni Mamoriya">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human/Hunter/Alien"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="45"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
     <card id="3d520249-f9b3-44b8-8cc0-adcfd880e1bc" name="Guillotine Charger">
@@ -892,46 +920,32 @@
       <property name="Number" value="S1"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
-    <card id="32aec7c7-fef5-4107-8570-9a122db2a535" name="Wedding, Zenith of &quot;Celebration&quot;">
+    <card id="b5fcf70b-ab30-4383-8db7-1e84462b0d8c" name="Truename Lalala Lionel">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Colorless"/>
-      <property name="Cost" value="11"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Unknown/Zenith"/>
-      <property name="Power" value="13000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, your opponent chooses a total of 4 cards from their hand and/or creatures in the battle zone and shieldifies them.&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Race" value="Angel Command/Unknown"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you and your opponent play Gachinko Judge. If you win, search your deck. You may take a spell that has Heaven's in its name, show that spell to your opponent, and add it to your shields face down. Then shuffle your deck.&#xA;(Gachinko Judge: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S2"/>
+      <property name="Number" value="S3"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
-    <card id="c926ee56-1aa5-4d10-bd81-257a6d4fdabb" name="Necrodragon Danchigai Fankigai">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Zombie Dragon/Hunter"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, you and your opponent play {GACHINKO JUDGE}. If you win,you may put a non-evolution Zombie Dragon from your graveyard into the battle zone&#xA;({GACHINKO JUDGE}: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)&#xA;{DOUBLE BREAKER}"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Super Rare"/>
-      <property name="Number" value="S4"/>
-      <property name="Set" value="DMR-06 Victory Rush"/>
-    </card>
-    <card id="8b5a6b52-25c8-4672-b7c7-ee44c5568964" name="Onimaru &quot;Head&quot;, Victory Rush">
+    <card id="2d56711d-addc-4f1e-8df3-f6d716a06c47" name="Oninaguri, Last Attack">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="10"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Human/Red Command Dragon/Hunter/Alien"/>
-      <property name="Power" value="9000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +5000 (While attacking, this creature gets +2000 power.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, you and your opponent play {GACHINKO JUDGE}. If you win,take an extra turn after this one&#xA;({GACHINKO JUDGE}: Each player reveals the top card of their deck, then puts it on the bottom. You win if your card costs the same as or more than your opponent.)"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Human/Hunter/Alien"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Humans.&#xA;■ Whenever this creature attacks, choose any number of your opponent's creatures that have total cost 6 or less and destroy them.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Victory Rare"/>
-      <property name="Number" value="V1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="S5"/>
       <property name="Set" value="DMR-06 Victory Rush"/>
     </card>
     <card id="00f87043-9be1-44b4-8c62-7d81f4439a04" name="Lifeplan Charger">

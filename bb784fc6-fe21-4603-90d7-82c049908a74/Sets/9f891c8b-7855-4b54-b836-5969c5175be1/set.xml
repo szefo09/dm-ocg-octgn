@@ -213,7 +213,7 @@
       <property name="Number" value="5"/>
       <property name="Set" value="DM22-RP2 Dragon Emperor of Booming Flame"/>
     </card>
-    <card id="06a58bd9-a5ae-4a57-a07e-3f5dc54af265" name="Madan = Row, Abyssal Furnace">
+    <card id="06a58bd9-a5ae-4a57-a07e-3f5dc54af265" name="Madan = Low, Abyssal Furnace">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
@@ -302,7 +302,7 @@
       <property name="Number" value="7A"/>
       <property name="Set" value="DM22-RP2 Dragon Emperor of Booming Flame"/>
     </card>
-    <card id="52618711-896a-44d5-bc0d-71d6f00baa85" name="Madan = Row, Abyssal Furnace">
+    <card id="52618711-896a-44d5-bc0d-71d6f00baa85" name="Madan = Low, Abyssal Furnace">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
@@ -457,7 +457,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Magic Cyber Moon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ This creature costs 3 less to summon for each of your spells and tamaseeds used this turn. It can't cost less than 0.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card, then choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each of your spells and tamaseeds used this turn. It can't cost 0 or less.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card, then choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="12"/>
@@ -1206,7 +1206,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ You may discard a creature from your hand. If you do, choose one of your opponent's creatures. This turn, reduce the chosen creature's power by the power of the discarded creature. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Rules" value="■ You may discard a creature from your hand. If you do, choose one of your opponent's creatures. Reduce the chosen creature's power by the power of the discarded creature until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="64"/>
@@ -1412,7 +1412,7 @@
       <property name="Number" value="S4"/>
       <property name="Set" value="DM22-RP2 Dragon Emperor of Booming Flame"/>
     </card>
-    <card id="97ded455-8e8d-431d-afbf-7dbe906f81ad" name="Madan = Row, Abyssal Furnace">
+    <card id="97ded455-8e8d-431d-afbf-7dbe906f81ad" name="Madan = Low, Abyssal Furnace">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
@@ -1715,7 +1715,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mana Bird"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Flying&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
+      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="T12"/>
@@ -2009,7 +2009,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mana Bird"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Flying&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
+      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="TF12"/>

@@ -88,7 +88,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Poseidia Dragon/Unknown"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Your opponent can't choose this creature with the effect of their first card they use each turn.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, whenever you cast a spell, each of your colorless cards in your mana zone are considered to be cards of every civilization, and your spells cost 4 less to cast. They can't cost less than 0."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or at the start of your turn, you may turn a card in your mana zone face down.&#xA;■ Your opponent can't choose this creature with the effect of their first card they use each turn.&#xA;■ Crystal Arms 4: If you have 4 or more face down cards in your mana zone, whenever you cast a spell, each of your colorless cards in your mana zone are considered to be cards of every civilization, and your spells cost 4 less to cast. They can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -439,7 +439,7 @@
       <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck face down into your mana zone tapped. {CRYSTAL MANA} (A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, put the top card of your deck into your mana zone face down."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Put the top card of your deck face down into your mana zone tapped. {CRYSTAL MANA} (A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;■ Crystal Arms 2: If you have 2 or more face down cards in your mana zone, put the top card of your deck into your mana zone face down."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="29"/>
@@ -1126,7 +1126,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
       <property name="Power" value="13500"/>
-      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. You may then choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. They you may choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>
@@ -1242,7 +1242,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
       <property name="Power" value="13500"/>
-      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. You may then choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you summon this creature, shieldify the top 2 cards of your deck. They you may choose an element and shieldify it.&#xA;■ Each of your Oracles, Unknowns, and Zenith in your shield zone gets &quot;shield trigger&quot;.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP1"/>
@@ -1491,8 +1491,8 @@
       <property name="Race" value="Oracle/Snow Faerie"/>
       <property name="Race1" value="Oracle/Snow Faerie"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Your colorless creatures cost 1 less to summon. They can't cost less than 0.&#xA;■ Snow Faeries in your mana zone get all civilizations.&#xA;TWINPACT&#xA;■ This turn, the next colorless creature you summon may cost up to 5 less."/>
-      <property name="Rules1" value="■ Your colorless creatures cost 1 less to summon. They can't cost less than 0.&#xA;■ Snow Faeries in your mana zone get all civilizations."/>
+      <property name="Rules" value="■ Your colorless creatures cost 1 less to summon. They can't cost 0 or less.&#xA;■ Snow Faeries in your mana zone get all civilizations.&#xA;TWINPACT&#xA;■ This turn, the next colorless creature you summon may cost up to 5 less."/>
+      <property name="Rules1" value="■ Your colorless creatures cost 1 less to summon. They can't cost 0 or less.&#xA;■ Snow Faeries in your mana zone get all civilizations."/>
       <property name="Rules2" value="■ This turn, the next colorless creature you summon may cost up to 5 less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>

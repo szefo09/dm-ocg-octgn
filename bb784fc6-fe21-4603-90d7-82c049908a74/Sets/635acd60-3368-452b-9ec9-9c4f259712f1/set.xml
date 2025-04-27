@@ -132,7 +132,7 @@
       <property name="Civilization" value="Colorless"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)&#xA;■ While summoning a Partner, you may tap this card in your mana zone as if it had all civilizations."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)&#xA;■ While summoning a Partner, you may tap this card in your mana zone as if it had all civilizations."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="10"/>
@@ -285,9 +285,9 @@
       <property name="Race" value="Fire Bird/Armored Dragon"/>
       <property name="Race1" value="Fire Bird/Armored Dragon"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy all creatures that have power 3000 or less."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy all your opponent's creatures that have power 3000 or less."/>
       <property name="Rules1" value="{NEO EVOLUTION}: You may put it on one of your Fire creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
-      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy all creatures that have power 3000 or less."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy all your opponent's creatures that have power 3000 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="20"/>
@@ -363,7 +363,7 @@
       <property name="Power" value="25000"/>
       <property name="Rules" value="■ Double Sympathy: Dragon (This creature costs 2 less to summon for each of your dragon creatures. It can't cost 0 or less.)&#xA;{WORLD BREAKER}&#xA;■ Each of your Dragons gets &quot;speed attacker&quot;.&#xA;■ Whenever one of your Dragons attacks, reveal the top card of your deck. If it's a Dragon, you may put it."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="RAre"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="24"/>
       <property name="Set" value="DM23-BD4 Exciting Duepa Deck: Doradoradoragon Paradise"/>
     </card>
@@ -881,7 +881,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Earth Dragon/Samurai"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Your Dragons may each cost up to 2 less to summon. They can't cost 0 or less.&#xA;{SAVER}: Dragon (When one of your Dragon(s) would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Rules" value="■ Your Dragon creatures each cost 2 less to summon. They can't cost 0 or less.&#xA;{SAVER}: Dragon (When one of your Dragon(s) would be destroyed, you may destroy this creature instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="59"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DMPCD-02 DueMa Play's CollaboDeck: The Dragon-Geared Samurais and The Knights of Magic Bullet" id="e19d0757-8024-40b8-93e5-c6dfeb58f595" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
   <cards>
-    <card id="03b4b030-ae73-4d81-beb8-3891b89dce08" name="Living Lithograph">
+    <card id="73c46862-0d45-473b-bac9-620bdedb9437" name="Living Lithograph">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="2"/>
@@ -9,8 +9,9 @@
       <property name="Rules" value="■ Put the top card of your deck into your mana zone. If that card is a creature, each of your creatures gets +2000 power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="SP1"/>
       <property name="Set" value="DMPCD-02 DueMa Play's CollaboDeck: The Dragon-Geared Samurais and The Knights of Magic Bullet"/>
-      <property name="Number" value="Living Lithograph"/>
     </card>
     <card id="0590dd7e-e05b-4f72-b5e8-330de72a0757" name="Bolmeteus Musha Dragon Play's">
       <property name="Format" value="OCG"/>
@@ -245,7 +246,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Zombie Dragon/Knight"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may return a Knight from your graveyard to your hand.&#xA;■ This creature can't attack players."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, you may return a Knight from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>

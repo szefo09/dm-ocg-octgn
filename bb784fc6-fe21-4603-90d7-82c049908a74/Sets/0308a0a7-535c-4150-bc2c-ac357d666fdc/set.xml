@@ -124,7 +124,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Earth Dragon/Samurai"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Your Dragons may each cost up to 2 less to summon. They can't cost 0 or less.&#xA;{SAVER}: Dragon (When one of your Dragon(s) would be destroyed, you may destroy this creature instead.)"/>
+      <property name="Rules" value="■ Your Dragon creatures each cost 2 less to summon. They can't cost 0 or less.&#xA;{SAVER}: Dragon (When one of your Dragon(s) would be destroyed, you may destroy this creature instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="CP7"/>
@@ -136,7 +136,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Forbidden/RexStars"/>
       <property name="Power" value="9999"/>
-      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Darkness or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ When you put another RexStars, you may put the top card of your deck under this creature.&#xA;■ This creature can't attack or be chosen by your opponent if it doesn't have 4 cards underneath it.&#xA;■ When this card consists of 4 cards, destroy one of your opponent's creatures that costs 9 or less.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{MULTI STAR EVOLUTION} Put on one of your RexStars or Darkness or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;■ When you put another RexStars, you may put the top card of your deck under this creature.&#xA;■ This creature can't attack or be chosen by your opponent if it doesn't have 4 cards under it.&#xA;■ When this card consists of 4 cards, destroy one of your opponent's creatures that costs 9 or less.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="CP8"/>
@@ -1959,8 +1959,8 @@
       <property name="Race" value="Gransect"/>
       <property name="Race1" value="Gransect"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost less than 0.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
-      <property name="Rules1" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost less than 0."/>
+      <property name="Rules" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost 0 or less.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
+      <property name="Rules1" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost 0 or less."/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -2065,8 +2065,8 @@
       <property name="Race" value="Gransect"/>
       <property name="Race1" value="Gransect"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost less than 0.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
-      <property name="Rules1" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost less than 0."/>
+      <property name="Rules" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost 0 or less.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
+      <property name="Rules1" value="■ Your creatures that have power 6000 or more cost 1 less to summon. They can't cost 0 or less."/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put all your opponent's creatures that have power 4000 or less into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -2147,7 +2147,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beat Jockey"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, this creature gets &quot;speed attacker&quot;. (A creature that has &quot;speed attacker&quot; doesn't get summoning sickness.)&#xA;■ At the end of your turn, if this creature is untapped, return it to your hand."/>
+      <property name="Rules" value="■ Gogogo Gangan Galaxy: If you have 1 or less card in your hand, this creature gets &quot;speed attacker&quot;.&#xA;■ At the end of your turn, if this creature is untapped, return it to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P31"/>
@@ -5006,9 +5006,9 @@
       <property name="Race" value="Mafi Gang"/>
       <property name="Race1" value="Mafi Gang"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
       <property name="Rules1" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
-      <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard into the battle zone."/>
+      <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P79"/>
@@ -5495,7 +5495,19 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P87"/>
     </card>
-    <card id="617ac534-7f93-48bb-8aca-6dcd72361dfe" name="Zanboron, Gig">
+    <card id="617ac534-7f93-48bb-8aca-6dcd72361dfe" name="Rich Police Cash!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, you may show your opponent a card in your hand. If you do, draw cards equal to the cost of that card."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
+      <property name="Number" value="P87"/>
+    </card>
+    <card id="f22e10de-3057-4ff7-af6f-cf1e4d32d062" name="Zanboron, Gig">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
@@ -5503,18 +5515,6 @@
       <property name="Race" value="Mafi Gang/Team Zero"/>
       <property name="Power" value="3000"/>
       <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever you tap this creature using the &quot;Mugen Climb&quot; ability, draw a card."/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
-      <property name="Number" value="P87"/>
-    </card>
-    <card id="f22e10de-3057-4ff7-af6f-cf1e4d32d062" name="Sunblade NEX, Elemental Dragon Knight">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Dragon/Angel Command"/>
-      <property name="Power" value="6000"/>
-      <property name="Rules" value="■ While you are summoning this creature, you may reduce the cost by 2. If you do, your opponent may put the top card of their deck into their shields face down.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may discard a card from your hand. If you do, draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P87"/>
@@ -5616,7 +5616,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Count the number of cards in your hand and put them on the bottom of your deck in any order. Then draw cards equal to that number plus 1."/>
+      <property name="Rules" value="■ Count the number of cards in your hand and put them on the bottom of your deck in any order. Then draw cards equal to that number plus one."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -6351,6 +6351,19 @@
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="ThankYou20th!!"/>
+    </card>
+    <card id="0bf2db9c-069c-480f-ba81-4a1d9732f5f8" name="The Joragon Gunmaster">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Gacharange Creature"/>
+      <property name="Race" value="Master Dragon/Jokers/Wonderforce"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can attack your opponent on the turn you put it into the battle zone.&#xA;■ Super Heaven Fever: If you have a total of 10 or more Jokers in the battle zone or your mana zone, this creature gets +8000 power and has &quot;double breaker&quot;, and whenever this creature attacks, you may discard any number of Jokers from your hand. For each Jokers discarded in this way, destroy one of your opponent's creatures that has power 10000 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
+      <property name="Number" value="超天SP"/>
     </card>
   </cards>
 </set>

@@ -41,7 +41,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Human"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ This creature costs 3 less to summon for each of your Dragons in the battle zone and 1 less for each of your Dragons in your mana zone. It can't cost less than 1.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Each Dragon put into your hand from your shield zone gets &quot;shield trigger&quot;.&#xA;■ Whenever this creature attacks, shieldify the top card of your deck. Then this creature breaks one of your shields."/>
+      <property name="Rules" value="■ This creature costs 3 less to summon for each of your Dragons in the battle zone and 1 less for each of your Dragons in your mana zone. It can't cost 1 or less.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Each Dragon put into your hand from your shield zone gets &quot;shield trigger&quot;.&#xA;■ Whenever this creature attacks, shieldify the top card of your deck. Then this creature breaks one of your shields."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Dai Sensei Rare"/>
       <property name="Number" value="1"/>
@@ -157,7 +157,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Forbidden/RexStars"/>
       <property name="Power" value="99999"/>
-      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it underneath this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up underneath this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="■ Forbidden Star Evolution: When you put this creature, reveal cards from the top of your deck until you reveal a non-evolution RexStars, then put it under this creature and shuffle your deck.&#xA;■ When you put another RexStars, you may put the top card of your deck face up under this creature.&#xA;■ If this creature doesn't contain 6 or more cards, it can't attack or be chosen by your opponent.&#xA;■ When this creature contains 6 cards, each of your opponent's creatures gets -99999 power until the end of the turn.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="5"/>
@@ -382,7 +382,7 @@
       <property name="Number" value="12"/>
       <property name="Set" value="DM24-EX2 Unparalleled!! Dueking DreaM 2024"/>
     </card>
-    <card id="b0596e9f-1ce2-4278-a1b7-c622672a46c3" name="Rudolph Alcadeia, Mystic Light Shinkan">
+    <card id="b0596e9f-1ce2-4278-a1b7-c622672a46c3" name="Rudolph Alcadeia, Mystic Light Pontiff">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="5"/>
@@ -402,7 +402,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="13"/>
@@ -827,7 +827,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Stella/Shinobi"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.) {BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="27"/>
@@ -943,7 +943,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mana Bird"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Flying&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
+      <property name="Rules" value="■ Flying (This creature can't be attacked or blocked by creatures without flying.)&#xA;■ This creature can't break shields.&#xA;■ You may tap this creature as if it were in your mana zone and had all civilizations."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="31"/>
