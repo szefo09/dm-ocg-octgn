@@ -1715,7 +1715,7 @@ def fromManaAll(filterFunction='True'):
 	if filterFunction!='True':
 		manaCards=[c for c in getMana(me) if eval(filterFunction, allowed_globals, {'c': c})]
 	else:
-		manaCards=getMana(c)
+		manaCards=getMana(me)
 	if len(manaCards)==0: return
 	for c in manaCards:
 		toHand(c)
