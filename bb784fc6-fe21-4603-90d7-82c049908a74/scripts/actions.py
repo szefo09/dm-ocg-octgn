@@ -103,7 +103,7 @@ cardScripts={
 	'Evolution Totem': {'onPlay': [lambda card: search(me.Deck, 1, "Evolution Creature")]},
 	'Explosive Fighter Ucarn': {'onPlay': [lambda card: fromMana(2, toGrave=True, exactCount=True)]},
 	'Explosive Trooper Zalmez': {'onPlay': [lambda card:kill(3000) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=2 else None]},
-	'Extreme Crawler': {'onPlay': [lambda card: bounceAll([c for c in table if c!=card])]},
+	'Extreme Crawler': {'onPlay': [lambda card: bounceAll([c for c in table if c!=card], opponentCards=False)]},
 	'Factory Shell Q': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "ALL", "Survivor")]},
 	'Fighter Dual Fang': {'onPlay': [lambda card: mana(me.Deck,2)]},
 	'Fist Dragoon': {'onPlay': [lambda card: kill(2000)]},
