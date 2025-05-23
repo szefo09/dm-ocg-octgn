@@ -4930,6 +4930,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
 	src=card.group
 	srcName=card.group.name
+	cardType=False
 	if src==card.owner.hand and clearWaitingFunctions:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
@@ -5112,7 +5113,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 				return
 		else:
 			if re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE):
-				card.Type='Neo Evolution Creature'
+				cardType='Neo Evolution Creature'
 			evolveText=", evolving {}".format(", ".join('{}'.format(c) for c in targets))
 			updateBaits(card, targets, evolveDict)
 
@@ -5125,8 +5126,10 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		else:
 			notify("{} plays {}{} from {}.".format(me, card, evolveText, srcName))
 
-	if not ignoreEffects:
+	if not ignoreEffects: 
 		card.resetProperties()
+		if cardType: #a hack to update cardType for neo evolution
+			card.Type=cardType
 		#Twin Pact Handling
 		if card.hasProperty('Name1'):
 			choice=askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
