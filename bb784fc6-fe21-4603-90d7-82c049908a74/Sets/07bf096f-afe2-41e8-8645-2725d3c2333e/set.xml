@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM24-EX3 Explosive Excitement Duenamite Pack" id="07bf096f-afe2-41e8-8645-2725d3c2333e" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="8c828552-e2a4-4e1f-9766-2cfb87940a35">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="667dfd20-c3b6-44bc-bb1a-29866d87aa2d" name="Estol, Vizier of Reversal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Initiate"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, for each player that has more shields than you do, shieldify the top card of your deck.&#xA;■ Whenever one of your shields would be broken, you may tap one of your creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="1"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ded921ad-2007-48f9-8048-b85768895d6e" name="Won Gorghini, Goldangel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ Whenever this creature taps, this creature gets +3000 power for each of your other tapped creatures until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="2"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5f3f491b-d8d1-46e3-bbc2-73e271abd0b4" name="Avatar, Light Divine Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Apollonia Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ If you have 3 or more elements that have different costs, this creature costs 5 less to summon. It can't cost less than 1.&#xA;■ When you put this creature or it taps, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="3"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="12762430-617d-425a-a77b-0218c4bcc7c3" name="Mao, Seeker of Void">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever a card is put into or leaves your shield zone, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="4"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="41aaa08c-8480-4e15-9098-0348666f5c51" name="White Kid, White Knight Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, you may put a creature that costs 5 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="5"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="03478baa-dc93-453e-8c24-0ae80b788ba9" name="En Gorghini, Goldangel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or it attacks, you may choose one of your other creatures. That creature can't leave until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="6"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="72cb0522-a420-41c4-9752-63c5c46e36c2" name="Chaosmantra, Memento">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="■ Once per turn, when one of your creatures taps, you may draw a card.&#xA;■ During your opponent's turn, when this creature leaves, you may put a creature that costs 4 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="7"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7da1a372-aa1d-4d84-9c98-6382ed20a5e3" name="World Flash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Untap all your creatures. Each of your creatures gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="8"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="871b0c6e-116d-44ea-9906-de34d2771f35" name="Aqua Gyakutenpointer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Liquid People"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you summon this creature, choose up to one creature from each player and put it on the bottom of its owner's deck. A player whose creature has been chosen in this way reveals cards from the top of their deck until they reveal a creature, then puts that creature. Then that player shuffles their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5e167678-7fc1-432b-b2a1-52ddc149c2a6" name="Drache der'Zen, Violent Blue Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, you may cast a spell that costs 5 or less from your hand or graveyard for no cost. If you do, after casting it, put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="10"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e5cc0a61-c6c2-4dda-98a5-3221cf88ca7d" name="Kakuremi Fish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ At the end of your turn, if you have 3 or more tapped creatures and didn't put a 'Kakuremi Fish' this turn, you may put this creature from your hand.&#xA;■ When this creature would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="11"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="42b8039a-2045-46da-8e81-5218065c73a7" name="Yobinion Crawler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Eater"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When this creature would be destroyed, you may return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="12"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7ba8e8fc-79c7-44fa-89e8-9d93b9a57c7b" name="Daiquiri">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Splash Queen"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Once per turn, when you put an element or cast a spell, you may draw a card.&#xA;■ Whenever one of your tapped creatures would be destroyed, return it to your hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="13"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="b1dd354d-c600-4727-833d-01aa141e592b" name="Bruce, Thrill or Live">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Outrage"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;▶ Choose one of your opponent's creatures and return it to its owner's hand:&#xA;▶ Return all your opponent's creatures that cost 2 or less to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="14"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f95d9215-f44a-4ebb-845c-03a66981dcac" name="What I don't know yet is what I enjoy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw a card. Then put up to 2 non-evolution creatures that cost 3 or less from your hand. At the end of the turn, return those creatures to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="15"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="abce080e-749d-44b5-bae7-0a36bd5a1234" name="World Stream">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="0"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Choose one of your creatures. Until the start of your next turn, your opponent can't choose or attack that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="16"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8414b0bb-a720-49bd-8039-f25e25ec3498" name="Galek, Shadow of Reversal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Ghost"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose from the following 3 times. (You may choose the same one more than once.):&#xA;► Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.):&#xA;► Put the top 3 cards of your deck into your graveyard:&#xA;► Put a creature that costs 3 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="17"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4d659394-477c-4af6-99c1-e6024ccbd8d6" name="Fence = Cadussence">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may return any number of cards from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="18"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7fe8513e-16d0-41bb-80fa-e22c4d229b04" name="Gachack 2, Mechanical Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's untapped creatures and destroy it. Then put a creature from your graveyard that costs the same as or less than the chosen creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="19"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9b007596-9027-4b3d-a827-73356d561edd" name="Timpani = Simbarry">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Each turn, when you put your second creature, you may destroy this creature. If you do, your opponent chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a26d91ab-5bab-48f1-b81d-87f0b70354b6" name="Post = Potter">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ Whenever you put a Hyper Beast, you may return this creature from your graveyard to your hand.&#xA;■ When you put this creature, put the top card of your deck into your graveyard. Then you may return a Hyper Beast creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="21"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="95c88f35-4d3b-47cf-b908-b3689d7cb5de" name="Jooro = Suiro">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each of your tapped creatures gets &quot;slayer&quot;. (When a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)&#xA;■ Whenever one of your creatures is destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="22"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c2cede28-3d50-4718-b1ae-aef0597a5a83" name="Jammer Ahead">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Your opponent chooses 3 of their creatures and destroys them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="23"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="749de91c-0e82-4a02-87b6-7b36e568d801" name="Wind Axe, Reversal Warrior">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Human"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 3000 or less.&#xA;■ Whenever one of your opponent's creatures attack you or one of your creatures, your opponent chooses one of their untapped creatures that has the lowest power and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="24"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="55b243c9-ef23-4636-80cd-02032285b411" name="Tornado Shiva Hyper Double Cross">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Flame Command"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or it attacks, you may choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="25"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="596b1e68-3c04-461d-b4d7-ccbc28d158c6" name="Volcanodon, Violent Crimson Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragonoid"/>
+      <property name="Power" value="10000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="26"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7c58a7b0-1946-4058-8c46-95fbeaff1aee" name="Basenterej, Geima Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Monster/Game Command"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ This creature costs 2 less to summon for each card you discarded from your hand this turn. It can't cost 0 or less.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ At the end of your turn, you may draw cards equal to the number of cards you discarded this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="27"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f0ffe40f-76f8-4094-ab7d-824228668a25" name="Kensuke, Armor Working Soldier">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Human"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Each of your tapped creatures gets +2000 power and &quot;powered breaker&quot;. (A creature that has &quot;powered breaker breaks an additional shield for each 6000 power.)&#xA;■ During your opponent's turn, when this creature leaves, you may break one of your opponent's shields."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="28"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="023f4cc5-fd7a-48ef-a5e2-b4b472114a44" name="Kensuke's Toolbox">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;■ Whenever this creature untaps, you may discard a card from your hand. If you do, destroy one of your opponent's creatures that costs less than the discarded card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="29"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c47a227f-637a-4792-b82b-2d74ca0c9501" name="Ignite the Oil of Anger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a creature that costs 6 or less from your hand and choose one of your opponent's creatures. Those creatures battle. Then if your creature costs more than the number of cards in your mana zone, destroy that creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="30"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e20e2bca-401c-451b-bc19-10a88ebde4d0" name="Showdown! Moon and the Sun!!">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Until the start of your next turn, whenever one of your opponent's creatures breaks one of your shields, put one of your opponent's shields into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="31"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="115068e6-9a48-42fa-9509-663b3a1354fe" name="World Blaze">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Choose one of the following:&#xA;► Break a shield.&#xA;► Each of your creatures gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="32"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a9817602-6c5b-489b-9052-3f5660cbbe00" name="Counterattack Skysword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures and put it into it owner's mana zone. Then you may put one of your creatures from your mana zone that costs less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="33"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9ad3aee2-3a9b-4e13-9109-da5b07bb08c8" name="Mosquito, Violent Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may put one of your other creatures into your mana zone. If you do, put a creature that costs less than that creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="34"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0e33e225-388c-4e07-9eaf-c7e79dd31690" name="Colliding Screw Horn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Horned Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ During your opponent's turn, this creature gets +5000 power.&#xA;■ Whenever this creature wins a battle, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="35"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="dc4daecd-3b75-436e-9440-a5f3142004d9" name="Akane, Explosive Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Snow Faerie"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ Whenever this creature wins a battle, you may put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="36"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="cc983c0a-d92e-4944-b19d-b2760c4620a5" name="Asagi, Lunar Cobalt">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ During your turn, you may summon a Hyper Beast creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="83611089-76cb-42e0-b3cf-b63be0ff1adc" name="Rosespike Butterfly">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■Whenever one of your creatures win a battle, draw a card.&#xA;■ Whenever this creature taps, you may choose one of your creatures that you put this turn. That creature gets &quot;mach fighter&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="38"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="2a7c77bb-9647-47bb-9311-c0ff97426d09" name="Beigoma Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Snow Faerie"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may put this creature tapped.&#xA;■ Whenever one of your opponent's creatures attacks, they attack this creature if able.&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="39"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8a39b0e2-478f-46b6-8473-7dff6ed7a834" name="World Blossom">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{YOBINION} (You may reveal cards from the top of your deck until you reveal a creature that costs less than this spell. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ Put the same number of cards from the top of your deck into your mana zone as your number of creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="40"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="254cdb08-d9d2-4feb-8d21-42d59a2cb5da" name="Nutsmoon, Brave Spectral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies/Rainbow Phantom"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Varavariety 3: Your creatures cost 1 less to summon. They can't cost 0 or less. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="41"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="140a5514-b3b5-4872-a09b-0710e03d7ecf" name="Poseidolite, Soul Crystal Ridge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Leviathan/Spirit Quartz"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may discard a card from your hand. This creature cost to summon is reduced by the discarded card's cost from your hand. It can't cost 1 or less.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0028bd2a-2361-400a-bdc4-73c3f2d4513c" name="Ukondaimaru and Sakondaimaru, Oni of &quot;Buttagiri&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ While you are summoning this creature, you may put up to one card from your hand and shield zone into your graveyard. For each card you put into your graveyard in this way, this creature costs 1 less to summon.&#xA;■ When you put this creature, choose one of the following:&#xA;► Put a creature that costs 2 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. This creature and that creature battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="43"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="077cdf9c-55de-4cdb-8baa-6ad775de15eb" name="Dream the Silver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="44"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="108595c6-6c3c-4ef8-9080-c36ecfd0870a" name="Dol Gorghini, Goldangel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="45"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="421bfc8f-9e33-48b3-b705-2abb22514e57" name="Marshias, Nova Princess">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ You may summon this creature by paying Light 2:. If you do, when you put this creature, your opponent may put a creature that costs 3 or less from their hand.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="46"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="35521dee-c413-42ec-9a63-d3a4c03b8f97" name="Koa, the Oracle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Light Bringer"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, you may choose a creature. Until the start of your next turn, that creature can't be destroyed.&#xA;■ At the end of your turn, if you have 3 or more tapped creatures, you may shieldify the top 2 cards of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="47"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ca1e50ca-a315-4a29-b59d-87c1f9db8df4" name="Arian, Spectral Knight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Rainbow Phantom"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="■ Whenever this creature untaps, this turn, your next creature costs 2 less to summon. It can't cost 0 or less.&#xA;■ During your opponent's turn, when this creature leaves, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="48"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a86a0ade-5e37-432c-9db4-ca15599f40fa" name="Synchrotron Tree">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Starlight Tree"/>
+      <property name="Power" value="2500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Whenever your opponent puts a creature that costs more than the number of cards in your mana zone, you may put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="49"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="19ee6b06-443f-4edc-8272-08181f2ef1bf" name="Venerack-F5">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent puts a creature without tapping a card in your opponent's mana zone, you may shieldify it.&#xA;■ During your opponent's turn, when this creature leaves, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="50"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0d1e610b-c060-44db-b4e6-cd723fee0c62" name="Nyje, the Patroller">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cosmo Walker"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="■ Your opponent can't choose this creature. (It can still be attacked and blocked).&#xA;■ Your hand can't be discarded by one of your opponent's spells or creature abilities."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="51"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="fc646dd2-2637-42dd-9fb9-6e134a8b4ece" name="Screw Driver">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Splash Queen"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Varavariety 3: At the start of your opponent's turn, choose one of your opponent's creatures. That creature can't attack this turn. (If you have 3 or more elements that have different costs, this creature gets this ability.)&#xA;■ At the end of your opponent's turn, if no creatures attacked that turn, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4e9b2435-d1a7-47fb-8e01-a35875f02e1e" name="Bicorn Fish">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fish"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature or it leaves, choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9601a4e4-eea8-41c1-a9d7-68c2a9b66db7" name="Occult Tuner">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Merfolk"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, draw 3 cards and discard 2 cards from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="08258b73-29dd-4573-acaf-5734cc83cd32" name="Caclarico">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature in a way except by summoning, your opponent puts it on the top or bottom of their deck.&#xA;■ During your opponent's turn, when this creature leaves, you may draw a card. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ceb36c59-d482-4fe6-a652-11db2f4c485a" name="Bubble Ball">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever this creature is tapped, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8ba4f7f6-4aea-4045-90ba-f57ed71acf57" name="♪ For our Friends, Kerora's, Operation">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Draw a card for each of your creatures that have a different cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="cc7ea307-9cad-47a7-86c0-0f5930cc383b" name="♪ Rakurakuraku Rakurakurakuraku Rakurakuraku">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Magic Song"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Whenever you put a creature that costs 6 or more, if you have water civilization in your mana zone, you may cast this spell from your hand for no cost.&#xA;■ Choose one of your opponent's creatures. Your opponent puts it on the top or bottom of their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="58"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="59c2030f-77b2-4c76-9a2b-0bbda2055dab" name="Bouma = Dhamma, Violent Abyss">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="59"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9ef4d65b-1e79-4cf9-a14a-f50cac851fbf" name="Horn = Stron">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When you put this creature, your opponent discards a card at random from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="60"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="06fee492-d209-4aff-b173-7c19e9976833" name="Arch = Garchy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0ad70632-e75c-4c90-9302-62ee5fc3d2dc" name="Scissor = Saw">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn.&#xA;■ Whenever a creature that has unleashed Hyper Mode attacks, you may put this creature from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="62"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4ad970ca-48bf-4574-8b75-f672fce69a55" name="Gaslan = Ryukasurain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard.&#xA;■ You may summon Hyper Beast creatures from your graveyard. (Pay the cost.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="63"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="45c83b8e-8566-44bb-b511-b15349226bd7" name="Karikki = Rikki">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, put the top 3 cards of your deck into your graveyard.&#xA;■ Whenever this creature taps, you may return a creature from your graveyard to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="64"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="2e79877c-01a9-48aa-9ef1-9ce9e81a8095" name="Abyss Assault, Secret Hyper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Creature in Hyper Mode (When one of your creatures that has unleashed Hyper Mode attacks, you may cast this spell for no cost.)&#xA;■ Put the top 3 cards of your deck into your graveyard. Then put a creature that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="65"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="2714527d-3420-4346-8a22-307403a2017b" name="Cocco Specia Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, unleash one of your Hyper Beast's Hyper Mode until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="66"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="40b016bd-f385-4311-9c09-bc366d6cffcc" name="Nine, Air Air">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Outrage"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Gravity Zero: If you have 4 or more cards in your mana zone, you may summon this creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="67"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="60997330-4ff2-4003-9d69-da5f28d45b64" name="Kooc Unbeliever Blecchi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, the next Hyper Beast you summon this turn costs 3 less to summon. It can't cost 0 or less. When you put that creature, it gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="68"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1f926b17-0427-4bd3-a379-2ee3ca4a0d85" name="Bakurodaihoshi, Oni of &quot;Hunger&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, put up to 2 of your shields into your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="69"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="b37f8506-3af8-4861-bcf7-574213c93732" name="Brand's Gear">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Xenoparts"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature untaps, you may return one of your shields to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="70"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9ecf1fad-99bc-498a-8487-9c70c7d9dc24" name="Durian, Violent Green Moon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wild Veggies"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, you may choose a creature and put it into its owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="71"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ebe265df-696e-4b2c-9a89-8c0f9bda6948" name="Kohaku, Lunar Sunlight">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Snow Faerie"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ When you put this creature, until the start of your next turn, unleash one of your Hyper Beast's Hyper Mode.&#xA;■ Whenever this creature taps, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="72"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="afeb512b-39cb-4819-8ebb-2ac52511623b" name="Bunker Antlion">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature from anywhere except their hand, put it into it's owner's mana zone.&#xA;■ During your opponent's turn, when this creature leaves, put the top 2 cards of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="73"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a1c53d80-f578-4910-9568-a4e7147559bc" name="Banitas, Devotee Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature or when it leaves, put the top card of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="74"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c73d0e12-8243-408f-bff9-56189b61f9e6" name="Koyuki, Silver Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Your opponent's creatures can't attack you on the turn they are put."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="75"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="01691f46-86ce-41d5-8834-7dc3e9e85306" name="Rock'n Mole Grind">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ Your cards that cost 6 or more cost 1 less to use. They can't cost less than 1.&#xA;■ Whenever you put a creature that costs 6 or more, that creature gets &quot;mach fighter&quot;. (A creature that has &quot;mach fighter&quot; can attack tapped or untapped creatures on the turn you put it.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="76"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="3f60052b-bbb7-4f70-9834-74f5a14516e1" name="&quot;Faaaaar! I am sorrowful!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Put your graveyard into your deck and shuffle, then look at the top 4 cards of your deck. You may put a creature from among them. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="77"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="108538a7-712f-4ea9-8a75-c9e31c1a4f54" name="Ranran, Demon's Birth Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Death Puppet"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's elements and return it to its owner's hand:&#xA;► Your opponent discards a card from their hand at random."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="78"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="fada85dd-34a0-41c0-b777-e6e092884776" name="Malupia, Demon's Birth Riser">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► This creature breaks a shield:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has 0 power or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="79"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1f2a6d59-d406-4ab7-929d-21af60612ee4" name="Bonmee, Demon's Birth Phantom Beast">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Dreammate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of the following:&#xA;► Choose one of your opponent's elements that costs 4 or less and destroy it:&#xA;► Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="80"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1a3fa7c9-1685-4e45-af01-a51fe8ca552d" name="Gordran Gorghini, Hyper Angel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Angel Command"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {TRIPLE BREAKER}&#xA;■ When you put this creature, it can't leave until the start of your next turn.&#xA;■ Whenever one of your creatures attacks, you may shieldify the top card of your deck. Then if you have 10 or more shields, reveal any number of your shields. Put all creatures from among them and put the rest into your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR1"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ec347656-3af5-4e98-bd40-310a7e6335bb" name="Elbollom, Night of Joyful Light">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Hyper Beast"/>
+      <property name="Power" value="6500"/>
+      <property name="Hyper Power" value="12500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR2"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8df2360c-569c-47c3-9595-3fdf551f1272" name="Jashin Emperor, Abyss King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale/Hyper Beast"/>
+      <property name="Power" value="4000"/>
+      <property name="Hyper Power" value="13000"/>
+      <property name="Rules" value="■ You may summon Abyss creatures from your graveyard. (Pay the cost.)&#xA;{HYPERIFY}: Tap 2 of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your graveyard. Then choose up to 2 of your opponent's creatures that have total cost the same as or less than the number of cards in your graveyard and destroy them."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR3"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ef5d9425-c1f0-4f12-9510-b249d90fbcd2" name="Bolshack Hyperdragon, Dragon Emperor of Final Flame">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Hyper Beast"/>
+      <property name="Power" value="5000"/>
+      <property name="Hyper Power" value="11000"/>
+      <property name="Rules" value="■ Each of your creatures that cost 5 or less get &quot;speed attacker&quot;.&#xA;■ Whenever this creature attacks, look at the top card of your deck. If its a creature that costs 5 or less, you may put it. At the end of the turn, destroy that creature.&#xA;{HYPERIFY}: Tap 2 of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ After one of your creature's attacks, if you have 5 or more tapped creatures, untap all your creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR4"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="50c51e5d-0833-4fe7-b7e0-26d5af465468" name="Worldballom, Demon World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="OR5"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="76b3652c-5a06-4656-9ecc-3634c9918aaf" name="Tigavock, Sea General">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each card you drew this turn. However, it can't cost 0 or less.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw up to 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP1"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="71a502e0-408a-4e83-b314-ce2d51c276e8" name="Codemiracle Onimaru &quot;Period&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon/Unknown"/>
+      <property name="Power" value="6000+"/>
+      <property name="Rules" value="■ If your opponent has a multicolored card in their mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During your turn, this creature gets +4000 power.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■Whenever one of your creatures win a battle, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP2"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="bd696f82-588e-4c61-a8ba-626472af5cb4" name="Ballcadeia NEX, Lord of Demon Dragons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="15"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command/Demon Command/Armored Dragon"/>
+      <property name="Power" value="25000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution―Put on 3 of your creatures, whose race is Angel Command, Demon Command, or Armored Dragon.&#xA;{WORLD BREAKER}&#xA;■ Your opponent can't cast spells.&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures and search your deck. You may take a Dragon or Command from among it and put it. Then shuffle your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="SP3"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="38bed59f-bf52-4eee-b173-b8932bcda8c2" name="Cobra, Snake Ninja Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top 2 cards of your deck into your graveyard. Then put a creature that costs 5 or less from your graveyard.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="SP4"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5948e1b0-4e60-40cc-b770-5230a00d303c" name="The Grave of Angels and Demons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ (This spell is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ If there are 2 or more creatures that have the same name in the battle zone, destroy all of them.&#xA;■ Look at each player's mana zone. If there are 2 or more cards that have the same name, put all of them into their owner's graveyards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="SP5"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="747c56c0-19d5-4dea-9b39-3600dc66d424" name="Pizzastar's Antihamuto">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card. Then you may put a creature that costs 3 or less from your hand. That creature gets &quot;speed attacker&quot; and +3000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="SP6"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="86b19f9d-8459-44b3-9453-589e61889fdc" name="Katta Kirifuda &amp; Katsuking -Story of Passion-">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Outrage Dragon/Human"/>
+      <property name="Power" value="5000+"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ When you put this creature, look at the top 5 cards of your deck. Reveal one to your opponent, add it to your hand, and put the rest on the bottom of your deck in any order. If the revealed card is fire or nature, you may choose a creature and return it to its owner's hand.&#xA;■ Revolution 2: If you have 2 shields or less, this creature gets &quot;shield trigger&quot; when added to your hand from your shield zone.&#xA;■ Revolution 0: If you have no shields, this creature gets +10000 power, &quot;speed attacker&quot; and &quot;triple breaker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Dai Sensei Rare"/>
+      <property name="Number" value="TD1"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5174b5ff-88d9-442b-be1d-21bc8288c51a" name="Sky Dragon's Final Judgment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Judgment Emblem"/>
+      <property name="Rules" value="{ATTACK CHANCE}: Master Dragon (When one of your Master Dragons attacks, you may cast this spell for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone. They don't untap at the start of their next turn.&#xA;■ You may untap all your Master Dragons.&#xA;■ After you cast this spell from your hand, put it on top of one of your shields face up instead of your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD2"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="d52d3067-0bc6-4c77-98af-244c4c83e898" name="Batal Neptaras, Super Divine Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Poseidia Dragon"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}: Search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD3"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="94038618-e59c-4550-94f6-0929ae68d99a" name="Sr Spellcyclica, Dragment Symbol">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Crystal Command Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a spell that costs 7 or less from your graveyard for no cost. If you do, put the spell you cast into your hand instead of your graveyard.&#xA;■ When this creature would be destroyed, put it on the bottom of your deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD4"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="58390497-47d6-4578-8bb9-574161c62490" name="Dorballom D, Demon Dragon King">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Demon Command Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your darkness Dragon creatures.&#xA;■ When you put this creature, destroy all creatures except darkness creatures. Then each player puts all non-darkness cards in their mana zone into their graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD5"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="09e1988a-6812-459c-908b-fd7b272aed70" name="Necrodragon End of the World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Zombie Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, search your deck. Choose 3 cards from it, and put the rest into your graveyard. Then put the 3 chosen cards on top of your deck in any order."/>
+      <property name="Watermark" value="{Evil} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD6"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a91a494b-9555-4adb-9aa7-6b9be096c95d" name="Hayabusaryu, Dragon Ninja">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gaial Command Dragon/Guardian/Shinobi"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD7"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f65614e6-11a7-4bbf-8b43-cd23b26d0ed8" name="Balomealady, Demonic Lady">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 2 cards from your graveyard into your mana zone.&#xA;■ Whenever this creature attacks, put a creature that has &quot;Ballom&quot; in its name from your mana zone that costs the same as or less than the number of cards in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD8"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="a16a287a-5d05-41b7-a4af-1440d0b8c272" name="Perfect Earth, Planetary Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="World Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Each card put into your hand from your shield zone gets &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="TD9"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="13ea2aa5-0995-4169-b1f2-e3955dc4de67" name="Akashic Final">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Lord/Armored Dragon/Angel Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Multicolored creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{INVASION}-Multicolored Dragon (When one of your Multicolored Dragon attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all multicolored cards into your hand. Then put the rest into your graveyard.&#xA;■ Your multicolored Dragons cost 2 less to summon. They can't cost 1 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="TD10"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e5798a27-7d13-4a38-ba61-2a57555c9cd9" name="Order's Will">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TD11"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="b4919c42-65e5-4da7-8e00-3b202370c53e" name="Stegoro Kaiser, Struggling Battlekind / Purification Sharrup">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Stegoro Kaiser, Struggling Battlekind"/>
+      <property name="Name2" value="Purification Sharrup"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Race1" value="Jurassic Command Dragon/Hunter"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone.&#xA;■ You may choose one or more cards from a player's graveyard. That player shuffles those cards into their deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TD12"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ae243671-aab0-4f4a-a246-6f66268d4406" name="Blue Dragon Earth">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution creature from your mana zone that costs less than the number of cards in your mana zone. If it's a fire or nature creature, you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TD13"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c2c39517-8ec3-437c-986e-f24aa0608c4a" name="Humpty Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Fire Bird"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, look at your opponent's hand and discard a card from it. Then choose one of your opponent's creatures that costs the same as the discarded card and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TD14"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8b5ce50f-a4c0-4bfd-abc5-f1d11abfba0e" size="wide" name="Taburasa Chantaram, Temple of D">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Zenith"/>
+      <property name="Rules" value="■ Once per turn, when you put a card into your mana zone, you may turn it face down. {CRYSTAL MANA} (A face down card in your mana zone is treated as a colorless card with a mana number of 1. Its owner may look at them at any time.)&#xA;(Whenever another D2 Field is put, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: Whenever you put a Zenith creature, you may turn this D2 Field upside down for the rest of the game. If you do, untap all face down cards in your mana zone.}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TD15"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="2f973811-6bb4-497f-b746-9ef3cc4317f9" name="Bolshack Glory Lupia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon/Fire Bird"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a dragon, put another card from the top of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TD16"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1a010c21-177e-4b2a-8de3-de3e6f6b0e73" name="Judge CREW Knee">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Players can't win or lose except by attacking with creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF1"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8213a6bc-5d63-4c79-8556-83dda9a14220" name="Nothing Zero, Secret Destruction">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Attack Chance: Colorless creature (When one of your colorless creatures attacks, you may cast this spell for no cost.)&#xA;■ Reveal the top 3 cards of your deck. For each colorless card revealed, one of your creatures in the battle zone breaks an additional shield until the end of the turn. Put all revealed cards on the top or bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF2"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ae4a9661-c059-485d-9655-37786dc1bb1b" name="Bonsoir, Dragon Elemental Admiral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature would be discarded by the effect of one of your opponent's spells or ability of a creature, you may put it instead.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. Put all creatures that have &quot;blocker&quot; from the revealed cards into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF3"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4a82f0ba-c29d-4c03-b629-55bcd7f161a9" name="Osonis, Five Compassion Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Your opponent's multicolored cards cost 2 more to use."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF4"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4d899e90-98f8-45d8-98bc-e7b6b7ef2379" name="Final Stop">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Until the end of your opponent's next turn, your opponent can't cast spells.&#xA;■ Draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF5"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4cb33cdc-e3d4-403c-9f62-e2e11f9f6b1e" name="Dorokio Gai, Climb">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mafi Gang/Team Zero"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{MUGEN CLIMB} Water 2(You may summon this creature from your hand or graveyard by tapping 2 of your creatures and paying Water 2.)&#xA;{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature taps, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF6"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="587262c2-b921-4ca7-abdb-ed5e0d8a5396" name="Pittdel, Death Devil">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mutopia"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ You may summon this creature by discarding 2 water cards instead of paying its cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF7"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1f741c29-f4b8-43d0-b531-5cd4485b6f2a" name="Bon Kigomime / ♪ A Thin Frog, Lucky Number is Here">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Bon Kigomime"/>
+      <property name="Name2" value="♪ A Thin Frog, Lucky Number is Here"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Magic Merfolk/Magic Song"/>
+      <property name="Race1" value="Magic Merfolk"/>
+      <property name="Race2" value="Magic Song"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature, that creature can't attack that turn. If that creature was put without paying it's cost, you may draw a card.&#xA;TWINPACT&#xA;■ Choose a number. Until the start of your next turn, your opponent's creatures that have the same cost as that number can't attack or block."/>
+      <property name="Rules1" value="■ Whenever your opponent puts a creature, that creature can't attack that turn. If that creature was put without paying it's cost, you may draw a card."/>
+      <property name="Rules2" value="■ Choose a number. Until the start of your next turn, your opponent's creatures that have the same cost as that number can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="TF8"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="ff1becf0-f2d2-428d-abdc-1e9707736a3b" name="The World Pillar's Punishment">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Return one of your untapped creatures to your hand. Then your opponent chooses one of their untapped creatures and returns it to their hand.&#xA;{SUPER}: Return all creatures to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF9"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c315c943-cc93-4a84-acf0-970754498334" name="Mushimushinonnon / Heat enough to burn to Ash">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Mushimushinonnon"/>
+      <property name="Name2" value="Heat enough to burn to Ash"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="6/5"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Race1" value="Jokers"/>
+      <property name="Power" value="4000+"/>
+      <property name="Rules" value="■ While battling, this creature gets +4000 power.&#xA;■ Whenever this creature wins a battle, you may put a Jokers creature that costs 5 or less from your hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may put a Jokers creature that costs 6 or less from your hand. If you do, you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Rules1" value="■ While battling, this creature gets +4000 power.&#xA;■ Whenever this creature wins a battle, you may put a Jokers creature that costs 5 or less from your hand."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may put a Jokers creature that costs 6 or less from your hand. If you do, you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF10"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="771f8bda-6a15-4814-840a-df44db65ca35" name="Anyaku Yasha">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio/Onifuda Kingdom"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Whenever a creature attacks, if you have at least one darkness card and one fire card in your mana zone, you may reveal this creature from your hand and put it on the bottom of your deck. If you do, choose one of your opponent's creatures that has power 3000 or less and destroy it.&#xA;Oniend: When you put this creature into the battle zone, if any player has no shields, choose one of your opponent's creatures that has power 6000 or less and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF11"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="3d1b9a49-92e0-4542-8ee3-970cd33ecdc3" name="Grand Guignol, Dark Advisor">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demon Command/Team Zero"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{MUGEN CLIMB} Water/Darkness 2(You may summon this creature from your hand or graveyard by tapping 2 of your creatures and paying Water/Darkness 2.)&#xA;■ When you put this creature, choose one of the following:&#xA;▶ Choose another creature and return it to its owner's hand.&#xA;▶ You may put the top 2 cards of your deck into your graveyard. If you do, return one of them to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF12"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="790c9bd7-8b0c-4789-897d-c161536d033f" name="Basara">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{ZERO}: At the end of your opponent's turn, if your opponent put a creature into the battle zone for no cost, you may put this Creature from your hand into the battle zone for no cost.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Revolution 0: When you put this creature, if you have 0 shields, destroy all your opponent's creatures that have the highest power. For each creature destroyed in this way, your opponent chooses one of their shields and puts it into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF13"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="90493370-a89d-498f-8de9-e4e787fdfed9" name="Hyakki no Jaoumon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Onifuda Kingdom"/>
+      <property name="Rules" value="{ONIEND}: Whenever a creature attacks, if there is a player that has no shields and you have at least one darkness card and one fire card in your mana zone, you may cast this spell from your hand for no cost.&#xA;■ Put the top 4 cards of your deck into your graveyard. From among the cards put into your graveyard in this way, choose a darkness or fire non-evolution creature that costs 6 or less and put it. Then you may choose one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF14"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="d7a36c7b-de25-46fc-ba70-2a7944822cf7" name="Oniyose's Jutsu">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Onifuda Kingdom"/>
+      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF15"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c1cebd06-ba91-429a-83cd-b567e964b9e8" size="wide" name="Heinous! Prison Oni Night Castle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="D2 Field"/>
+      <property name="Race" value="Onifuda Kingdom"/>
+      <property name="Rules" value="■ At the end of each turn, if a creature attacked that turn, that player chooses a shield. Break that shield.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, neither player can put a card in their shield zone.&#xA;(Whenever another D2 Field is put, put this D2 Field into your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF16"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7ba526f0-e93c-4919-85b2-324afa814904" name="Disnomenon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect/Distas"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever this creature wins a battle, look at the top card of your deck and add it to your hand or put it into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF17"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="767dc833-1ecf-42ef-a541-166bd30f46ef" name="Shadan Q">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have a Jokers that costs 5 or more in the battle zone, you may summon this creature for no cost.&#xA;■ Whenever you are attacked by a creature, you may tap this creature to stop the attack."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF18"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="b201c8ac-d1f0-4948-9be9-8ca511964e07" name="Bikkura Box">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, reveal the top card of your deck. If it's a Jokers creature that costs 6 or less, put it into the battle zone. If it's not, put it into your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF19"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f26cb2e6-e9f2-4fad-9dc9-4d4f5d2afdc4" name="Joe Star of Dreams">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Rules" value="■ Instead of paying the cost, you may tap 4 of your Jokers to cast this spell.&#xA;■ Look at the top 4 cards of your deck, put a card from among them into your hand, on the bottom of your deck, into your mana zone and on the top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4f7bd228-021a-4877-bb38-2557f33676c1" name="Magatsukaze, Toberutsubasa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Adamunit/Demonio/Oni RexStars"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever your opponent would look at or reveal one or more cards from their deck, your opponent reveals the top card of their deck instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF21"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4bd57126-121d-45f9-8cbe-fa4808b54775" name="Zapump">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each turn, you may have the first spell you cast cost 1 less. It can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF22"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="2ef814e5-81db-4079-83d9-1ead8ebe0f23" name="Footrest = Trace / &quot;Do you want power?&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Footrest = Trace"/>
+      <property name="Name2" value="&quot;Do you want power?&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="4/4"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Abyss Royale/Invitation to the Abyss"/>
+      <property name="Race1" value="Abyss Royale"/>
+      <property name="Race2" value="Invitation to the Abyss"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the end of your turn, put the top card of your deck into your graveyard. Then you may return a darkness card from your graveyard to your hand.&#xA;TWINPACT&#xA;■ Abyss Mechraid 5. Abyss {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a Abyss card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the end of your turn, put the top card of your deck into your graveyard. Then you may return a darkness card from your graveyard to your hand."/>
+      <property name="Rules2" value="■ Abyss Mechraid 5. Abyss {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a Abyss card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF23"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="04f58042-4811-484c-b9a8-b57882d191f8" name="Keshikas = Kas, Abyssal Stationary">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Kas/Corocoroyale"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{ABYSS RUSH} You may summon this creature from your graveyard. If you do, this creature can attack players this turn and is put on the bottom of your deck at the end of the turn.&#xA;■ When you put this creature, choose one of the following.&#xA;▼ Your opponent shuffles their graveyard and puts it on the bottom of their deck.&#xA;▼ Put the top 2 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF24"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5c442b6e-6496-407f-9cf7-274b0386184b" name="Kooni Benten">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio/Oni RexStars"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy 2 of your creatures and/or tamaseeds. Then your opponent chooses one of their creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF25"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4b37b4de-16a3-4315-ab06-50c840bc8e1a" name="Kodamadance Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF26"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="223e50ad-eb61-4dc0-a43d-6b1a17fcbc1e" name="Demon's Ons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Onifuda Kingdom"/>
+      <property name="Rules" value="■ Each of your creatures gets &quot;slayer&quot; until the end of the turn. (Whenever a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)&#xA;■ Add one of your shields to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF27"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="41a35e18-5dac-4c5b-bee9-7de7f572b50d" name="Shiraz's Death Oni Seal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demonio/Oni RexStars"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, put any number of creatures that have total cost 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF28"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="178255a4-eef5-4497-be01-03addc914904" name="Smapon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may summon it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ When you put this creature, destroy all your opponent's creatures that have power 2000 or less.&#xA;{SUPER}: When you put this creature, you can't lose the game and your opponent can't win the game until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF29"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="dddfc899-c208-4598-8dc9-f8bd7a6ce72f" name="Disturbing Chuusa">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dreammate"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ This creature attacks each turn if able.&#xA;■ While this creature is tapped, players can't cast spells."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF30"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="7d014646-c55d-475e-88bf-1887437d09a9" name="Kangoku Nyudo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio/Onifuda Kingdom"/>
+      <property name="Power" value="2000+"/>
+      <property name="Rules" value="■ At the end of your turn, add one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, this creature gets +3000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF31"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e3186ba6-d776-4aa8-a6ce-ff388331228f" name="The Verde, Rainbow Sonic">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Sonic Command/Invader"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;■ This creature has all civilizations while in the battle zone or in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF32"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f8797055-3984-4bf0-8c94-e80ac8ed6a26" name="Tentaikansokun">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, look at the top 3 cards of your deck. Put one of them into your mana zone, one on the bottom of your deck and one on the top of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF33"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="704b9db3-5bf4-4aff-9246-ab7ae8bdac62" name="Retweegyo #Cherry #Full Bloom">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Tricks/Team Wave"/>
+      <property name="Power" value="3000+"/>
+      <property name="Rules" value="■ Whenever your opponent would put a creature, if your opponent had put 2 or more other creatures this turn, they put it into their mana zone instead.&#xA;■ During your opponents turn, this creature gets +4000 power."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF34"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="361b2fb6-b4c2-423f-a398-e63d31d3b434" name="Shishimai, the Invoked">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Wonder Trick"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ While this creature is tapped, your opponent can't use their creatures &quot;shield trigger&quot; abilities."/>
+      <property name="Watermark" value="{Wild} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF35"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c87f5bc9-3f67-40cc-acee-c1759b5bd460" name="Tyke Tysons">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{JOKERS CHANGE} 4 (When this creature attacks, you may switch this creature with a Jokers creature that costs 4 or less from your mana zone.)&#xA;■ When this creature leaves, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF36"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5168692e-266c-4cb4-837e-3bc102f564a3" name="Segare, Bei B">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Milkboy"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ When your opponent would put a creature that costs more than the number of cards in their mana zone, your opponent puts it into its owner's mana zone instead, then put this creature into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF37"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="811eaec9-2421-4c5c-9e97-09f44cfd1cc4" name="Dokindam's Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Sonic Command/RexStars"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, put the top 2 cards of your deck into your graveyard. Then put a Sonic Command that costs 4 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF38"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c2b24be8-606f-48f6-a90d-f17cf97ffbd6" name="Tutankhanen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Colorless"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF39"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="78e1aa55-40ce-438c-a8f8-7fde7c22697d" name="Tsuruhashi Doji">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Demonio/Onifuda Kingdom"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, put the top 3 cards of your deck into your graveyard. Then you may return a creature from your graveyard to your hand.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, this creature gets &quot;blocker&quot;. (You may tap a creature that has &quot;blocker&quot; to change the attack target of your opponent's creature to that creature.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF40"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="f6fa2258-daa0-424f-8ae0-432b90b4f9c0" name="Mad Guitar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gargoyle"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If there is a Demon Command in the battle zone, you may summon this creature for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF41"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="1ea1e3d2-835d-44b0-bd33-975bafbe748c" name="Testa Rossa, Flaming Playing">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Outrage MAX"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, you may discard a Magic or Outrage from your hand. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF42"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="02f96f7b-fd2e-4883-98d4-303567c68681" name="Hanabishi Hanako">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF43"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="00614e22-3782-4e0d-83bc-f3e2c1d233d9" name="Kodamanma GS, Gil Gil Doll">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Death Puppet/Alien"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you put this creature, return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF44"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="9501e63c-46b0-48c2-9ae4-ec8329c5d89f" name="Maple Chomomijin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Jokers"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature into the battle zone, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="TF45"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0f91a4a2-6510-46a6-b3eb-99ad51cd92d9" name="Kiyuri, Coral Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Team Wave"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Each turn, the first creature you summon may cost 1 less to summon. It can't cost 0 or less.&#xA;■ Whenever your opponent would choose a creature, they can't choose this one. (It can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="TF46"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8d3d5e2b-6b39-4c91-afd5-ad7194fbe892" name="Viride Gor Gels">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Mecha Angel Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ If your opponent has 3 or more creatures, this creature in your shield zone gets &quot;shield trigger&quot;.&#xA;■ If you have more shields than your opponent, you may pay Light 2: to summon this creature.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ During your opponent's turn, when your opponent puts an element or casts a spell for the first time, you may draw a card. Then you may put a creature from your hand that costs the same as or less than that element or spell."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙1/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8cbc454e-6e8f-4180-8172-b40578a6a054" name="Another World, Blue Divine Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Poseidia Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature would be discarded from your hand by the effect of one of your opponent's spells or creature ability, you may put it instead.&#xA;■ When you put this creature, each player shuffles all cards in their hand and graveyard into their deck. Then each player draws 5 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙2/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="6ccf0cf3-d4a9-4d6c-934a-adc9bda4ae83" name="seiWond'Ramar">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Magic Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ At the end of your opponent's turn, if this creature is tapped, you may draw 2 cards. Then you may use a water card from your hand that costs the same as or less than the number of cards in your hand for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙3/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="0732c281-983d-4848-9a71-b285f95ae285" name="Foun = Tain, Abyssal Wrath">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ If you have 6 or more creatures in your graveyard, you may pay Darkness 2: to summon this creature.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put up to 2 darkness creatures that cost 3 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙4/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e1683d4d-b2da-410c-933e-97ee0e5540ba" name="Black XENARCH, Reaper Tyrant">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dark Lord"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ At the end of your turn, if this creature is in your graveyard and you have a Darkness card in your mana zone, you may destroy 3 of your tapped creatures. If you do, put this creature from your graveyard.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put a creature or whenever one of your creatures leaves, your opponent chooses one of their creatures and destroys it. If they can't, your opponent chooses a card from their hand and discards it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙5/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="d346235a-1041-4a40-9d33-11d0dcca2dfc" name="Sumire, Sincerity Faerie">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each card that costs 2 or less in your mana zone. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone.&#xA;■ Whenever this creature taps, you may put up to 3 creatures that cost 2 or less from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙6/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="6b0ee888-b0f7-4cda-8038-b2b80527db2b" name="Neo Ultimate Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="7000"/>
+      <property name="Rules" value="■ For each creature you untapped this turn, this creature costs 2 less to summon. It can't cost 0 or less.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature taps, you may discard all cards in your hand. If you do, draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙7/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="e2ef9d4d-5a94-47de-9921-a348828b5b59" name="Yobinion Flameburn">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Armored Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When you put this creature, you may discard a card from your hand. If you do, draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙8/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="55d33b3a-2f19-4572-bde5-6016d951b36d" name="Terradragon Dearable Bols">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Earth Dragon"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ For each creature you untapped this turn, this creature costs 2 less to summon. It can't cost 0 or less.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your mana zone.&#xA;■ This creature gets +1000 power for each card in your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙9/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="174e4029-f405-4f18-a30f-aed33f62ffab" name="Princess Party ~Bond of Shiraha~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Snow Faerie/Dreammate/Splash Queen"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose up to 3 of your opponent's creatures. Your opponent shieldifies one of them, puts one into their mana zone and returns one to it's owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙10/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="c7547786-4503-460b-83a3-005cfb41c6f7" name="Syphogate, Enlightenment Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put a non-evolution Light creature that has &quot;blocker&quot; from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙11/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="54c9d651-0c49-4a3b-a8ac-c06cc5d394f7" name="Gold Flavum">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Mecha Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When you put this creature, you may shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙12/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="29c9973e-e708-4ee0-9ca6-048564a66af9" name="Hyper Entry">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ You may put a Hyper Beast that costs 7 or less from your hand. Until the start of your next turn, unleash that creature's Hyper Mode and it gets &quot;blocker&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙13/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="8e328d4f-ad23-4a8b-a313-03e3fd5a5fc3" name="♪ Hyper, Haiku is more and more, Highclass">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw a card,&#xA;■ Until the start of your next turn, each of your opponent's creatures that costs the same as or less than the number of cards in your hand can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙14/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="6f7b0e34-c47e-41b3-b982-25ac8272d75f" name="Yobinion Tribe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Beast Folk"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When this creature would be destroyed, put it into your mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙15/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="757195ca-c6dc-45f7-ad67-87289a763caf" name="Magic Circle of the Wicked Brain">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, you may put the top 3 cards of your deck into your graveyard. Then you may use a non-creature card that costs 4 or less from your graveyard for no cost.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙16/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="57f347de-1f8f-4d7d-a18e-c4c5b9167cee" name="Magic Circle of the Wicked Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, discard a card from your hand, draw 3 cards and discard a card from your hand.&#xA;■ When you put this tamaseed from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙17/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="5d3b93d2-7c91-49dd-8958-4285b0114fda" name="Magic Circle of the Wicked Claw">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, choose one of the following:&#xA;► Choose any number of cards from a player's graveyard. Their owner shuffles them and puts them on the bottom of their deck.&#xA;► Choose an element that costs 4 or less or a card a mana zone and put it on the bottom of its owner's deck. The owner of that card puts the top card of their deck into their mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙18/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="21c038a6-fcaf-425d-ac84-c30ec816250d" name="Magic Circle of the Wicked Eye">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, look at the top card of your deck. Shieldify it, put it into your hand, or put it into your mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙19/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+    <card id="4754efae-b074-46ae-a85b-c74bcb638196" name="Magic Circle of the Wicked Tail">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, draw a card. Then you may put a command that costs 3 or less from your hand or mana zone.&#xA;■ When you put this card from your hand into your mana zone, untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Secret Card"/>
+      <property name="Number" value="㊙20/㊙20"/>
+      <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
+    </card>
+  </cards>
+</set>
