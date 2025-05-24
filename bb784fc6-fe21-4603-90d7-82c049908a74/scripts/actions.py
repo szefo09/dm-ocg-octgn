@@ -4930,7 +4930,6 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	#notify("DEBUG: AlreadyEvaluating is "+str(alreadyEvaluating))
 	src=card.group
 	srcName=card.group.name
-	cardType=False
 	if src==card.owner.hand and clearWaitingFunctions:
 		clearWaitingFuncts() # this ensures that waiting for targers is cancelled when a new card is played from hand(not when through a function).
 	evolveDict=eval(me.getGlobalVariable("evolution"), allowed_globals)
@@ -4949,8 +4948,20 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 		card.orientation=Rot0
 		card.isFaceUp=True
 		card.sendToFront()
+	if not ignoreEffects: 
+		card.resetProperties()
+		#Twin Pact Handling
+		if card.hasProperty('Name1'):
+			choice=askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
+			if choice==0: return
+			card.properties["Name"]=card.properties['Name{}'.format(choice)]
+			card.Civilization=card.properties['Civilization{}'.format(choice)]
+			card.Cost=card.properties['Cost{}'.format(choice)]
+			card.Type=card.properties['Type{}'.format(choice)]
+			card.Race=card.properties['Race{}'.format(choice)]
+			card.Rules=card.properties['Rules{}'.format(choice)]
 	#Handle Evolutions coming to Play
-	if not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or (re.search("Neo Creature", card.Type, re.IGNORECASE) and re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE)))and not isEvoMaterial:
+	if not isEvoMaterial and not re.search("Star Max Evolution", card.Type,re.IGNORECASE) and (re.search("Evolution", card.Type) or (re.search("Neo Creature", card.Type, re.IGNORECASE) and re.search('NEO EVOLUTION', card.Rules, re.IGNORECASE))):
 		targets= []
 		textBox='Select Creature(s) to put under Evolution{}'
 		#Deck Evolutions
@@ -5120,30 +5131,20 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 	if card.group!=table:
 		card.moveToTable(0, 0)
 	align()
-	if notifymute==False and not card.hasProperty('Name1'):
-		if src==card.owner.hand:
-			notify("{} plays {}{}.".format(me, card, evolveText))
-		else:
-			notify("{} plays {}{} from {}.".format(me, card, evolveText, srcName))
 
-	if not ignoreEffects: 
-		card.resetProperties()
-		if cardType: #a hack to update cardType for neo evolution
-			card.Type=cardType
-		#Twin Pact Handling
-		if card.hasProperty('Name1'):
-			choice=askYN('Which Side?',[card.properties['Name1'], card.properties['Name2']])
-			if choice==0: return
-			card.properties["Name"]=card.properties['Name{}'.format(choice)]
-			card.Civilization=card.properties['Civilization{}'.format(choice)]
-			card.Cost=card.properties['Cost{}'.format(choice)]
-			card.Type=card.properties['Type{}'.format(choice)]
-			card.Race=card.properties['Race{}'.format(choice)]
-			card.Rules=card.properties['Rules{}'.format(choice)]
+	if notifymute==False:
+		if not card.hasProperty('Name1'):
+			if src==card.owner.hand:
+				notify("{} plays {}{}.".format(me, card, evolveText))
+			else:
+				notify("{} plays {}{} from {}.".format(me, card, evolveText, srcName))
+		else:			
 			if src==card.owner.hand:
 				notify("{} plays {} as {}{}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText))
 			else:
 				notify("{} plays {} as {}{} from {}.".format(me,card,card.properties['Name{}'.format(choice)],evolveText, src.name))
+
+	if not ignoreEffects: 
 		processExLife(card)
 		functionList=[]
 		if metamorph() and cardScripts.get(card.properties["Name"], {}).get('onMetamorph'):
