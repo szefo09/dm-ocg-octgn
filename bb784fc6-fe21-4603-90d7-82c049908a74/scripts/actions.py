@@ -4353,6 +4353,8 @@ def shuffleCardList(cardList):
 
 def shuffleToBottom(cards, x=0, y=0, notifymute=False):
 	mute()
+	if len(cards)==0:
+		return
 	cardNames=" ({})".format(", ".join('{}'.format(c) for c in cards if c.isFaceUp)) if any(c.isFaceUp for c in cards) else ""
 	shuffleCardList(cards)
 	for card in cards:
