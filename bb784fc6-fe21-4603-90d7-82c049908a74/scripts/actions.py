@@ -3,7 +3,7 @@
 # Constant and Variables Values
 # ------------------------------------------------------------------------------
 import re
-import itertools
+from itertools import chain, groupby, combinations
 import time
 import operator
 from _random import Random
@@ -824,7 +824,7 @@ def endTurn(args, x=0, y=0):
 def gameStartNotification():
 	mute()
 	message=''
-	if getNotifyVersionSetting(): message+='{} is playing on version:\nOCTGN - {}\nGame - {}'.format(me, version, gameVersion)
+	if getNotifyVersionSetting(): message+='{} is playing on game version: {}'.format(me, gameVersion)
 	if not getAutomationsSetting(): message+='\n{} has " My Card Script Automation" setting disabled.'.format(me)
 	if getAskBeforeDiscardingOwnCardsSetting(): message+='\n{} has "Ask before discarding Cards from my Hand" setting enabled.'.format(me)
 	message=message.lstrip('\n')
@@ -1828,7 +1828,7 @@ def eurekaProgram(ask=True):
 	else:
 		notify("No Card with cost {} found or action cancelled.".format(originalCost + 1))
 
-def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, x=0, y=0, filterFunction='True'):
+def search(group=me.Deck, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", show=True, x=0, y=0, filterFunction='True'):
 	mute()
 	group=ensureGroupObject(group)
 	if len(group)==0: return
@@ -1858,6 +1858,7 @@ def search(group, count=1, TypeFilter="ALL", CivFilter="ALL", RaceFilter="ALL", 
 		filteredCardsInGroup=cardsInGroup_CivTypeandRace_Filtered
 	dialogText=dialogText.format('Card')
 	while(True):
+		notify("{} started searching {}'s {}".format(me,group.player.name,group.name))
 		choices=askCard2(sort_cardList(cardsInGroup), dialogText,maximumToTake=maximumToTake,returnAsArray=True)
 		if not isinstance(choices,list):
 			group.shuffle()
@@ -1880,6 +1881,7 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	if len(group)==0: return
 	count=min(count,len(group))
 	cardsInGroup=sort_cardList([card for card in group])
+	notify("{} started searching {}'s Deck.".format(me, targetPlayer))
 	choices=askCard2(cardsInGroup, 'Search {} Card(s) to put to Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
 		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
@@ -3021,7 +3023,7 @@ def heavyweightDragon(card):
 	if me.isInverted: reverseCardList(cardList)
 	choices=askCard2(cardList, "Select up to 2 Creatures to destroy.",maximumToTake=2, returnAsArray=True)
 	if not isinstance(choices, list): return
-	totalPower=sum(map(lambda c: int(c.Power.strip('+')), itertools.chain(cardList)))
+	totalPower=sum(map(lambda c: int(c.Power.strip('+')), chain(cardList)))
 	if totalPower<int(card.Power.strip('+')):
 		destroyAll(choices)
 	else:
@@ -3125,12 +3127,12 @@ def miraculousMeltdown(card):
 	remoteCall(targetPlayer,'_eMMHelper', [card._id, len(myShields)])
 
 def declareRace(card, excludedRace=None, returnRace=False):
-	allZones=itertools.chain(me.deck, [c for c in table if c.isFaceUp], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
+	allZones=chain(me.deck, [c for c in table if c.isFaceUp], me.hand, me.graveyard, me.Hyperspatial, me.Gacharange)
 
 	for player in getPlayers():
 		if player!=me:
-			allZones=itertools.chain(allZones,player.graveyard)
-	allRaces=itertools.chain.from_iterable(re.split(r'/+', card.race) for card in allZones if card.race!='')
+			allZones=chain(allZones,player.graveyard)
+	allRaces=chain.from_iterable(re.split(r'/+', card.race) for card in allZones if card.race!='')
 	raceCounts={}
 	for race in allRaces:
 		if race in raceCounts:
@@ -3257,7 +3259,7 @@ def theGraveOfAngelsAndDemons():
 
 	def groupByName(card_list):
 		sortedCards=sorted(card_list, key=lambda card: card.properties["Name"])
-		return itertools.groupby(sortedCards, key=lambda card: card.properties["Name"])
+		return groupby(sortedCards, key=lambda card: card.properties["Name"])
 
 	def findDuplicates(groupedCards):
 		duplicates=[]
@@ -3758,8 +3760,8 @@ def align():
 	realignShields()
 	for card in table:
 		if card.controller==me and not isCastle(card) and not card.anchor and not card._id in list(
-				itertools.chain.from_iterable(evolveDict.values())) and not card._id in list(
-				itertools.chain.from_iterable(sealDict.values())):
+				chain.from_iterable(evolveDict.values())) and not card._id in list(
+				chain.from_iterable(sealDict.values())):
 			if isShield(card):
 				cardorder[1].append(card)
 			elif isMana(card):
@@ -3777,13 +3779,10 @@ def align():
 	# remove all big cards from normal aligned ones
 	xpos=80
 	ypos=5 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[0]] or [1])
-	for cardtype in cardorder:
-		if cardorder.index(cardtype)==1:
+	for index, cardtype in enumerate(cardorder):
+		if index>0: # reset xpos and add ypos for mana and shields.
 			xpos=80
-			ypos += 93 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[1]] or [1])
-		elif cardorder.index(cardtype)==2:
-			xpos=80
-			ypos += 93 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[2]] or [1])
+			ypos += 93 + 10 * max([len(evolveDict[x]) for x in evolveDict if Card(x) in cardorder[index]] or [1])
 		for c in cardtype:
 			x=sideflip * xpos
 			y=playerside * ypos + (44 * playerside - 44)
@@ -3797,9 +3796,9 @@ def align():
 			if c.position!=(x, y):
 				c.moveToTable(x, y)
 			if getCompactCardAlignmentSetting():
-				xpos += 42 if getCompressManaSetting() and cardorder.index(cardtype)==2 else 79
+				xpos += 42 if getCompressManaSetting() and index==2 else 79
 			else:
-				xpos += 42 if getCompressManaSetting() and cardorder.index(cardtype)==2 else 87
+				xpos += 42 if getCompressManaSetting() and index==2 else 87
 	for evolution in evolveDict:
 		count=0
 		reposition=False
@@ -3882,9 +3881,9 @@ def alignTable(group=table, x=0, y=0):
 	align()
 
 def displayDeck(group, x=0, y=0):
-	if len([c for c in itertools.chain(table,me.Hand) if c.controller==me])>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"):
+	if len([c for c in chain(table,me.Hand) if c.controller==me])>0 and not confirm("WARNING:This feature works with freshly loaded deck. Do you want to continue?"):
 		return
-	allZones=list(itertools.chain(me.deck, me.Hyperspatial, me.Gacharange))
+	allZones=list(chain(me.deck, me.Hyperspatial, me.Gacharange))
 	if len(allZones)==0:
 		whisper("Load a deck first.")
 		return
