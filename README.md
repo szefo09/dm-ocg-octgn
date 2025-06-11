@@ -742,6 +742,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 </details>
 
 <details><summary><h3>Other Improvements</h3> (click to expand)</summary>
+  
   - **Added Shield Plus Feature, which allows you to add cards from the top of your deck to a shield**
   - **Added a function AddDelayedEffect() that allows you to add a function that will be resolved at the end or at the start of a turn.**
   - **Added settings that persist between lobbies with following settings:**
