@@ -909,12 +909,14 @@ def findGroupByNameAndPlayer(groupName, playerId):
 	return Player(playerId).piles[groupName]
 
 def ensureGroupObject(group):
-	if isinstance(group, Group):
-		return group
-	if isinstance(group, list):
-		return ensureCardObjects(group, True)
-	if isinstance(group, dict):
-		return findGroupByNameAndPlayer(group['name'], group['playerId'])
+    if isinstance(group, Group):
+        return group
+    if isinstance(group, list):
+        if all(isinstance(elements, (list, tuple)) and len(elements) == 2 for elements in group):
+            group = dict(group)
+            return findGroupByNameAndPlayer(group['name'], group['playerId'])
+        else:
+            return ensureCardObjects(group, True)
 
 ## IMPORTANT: Send this object instead of Card/CardList for remoteCall!
 def convertCardListIntoCardIDsList(cardList):
@@ -923,7 +925,7 @@ def convertCardListIntoCardIDsList(cardList):
 	return [card._id for card in cardList]
 ## IMPORTANT: Send this object instead of Group for remoteCall!
 def convertGroupIntoGroupNameList(group):
-	return {"name":group.name, "playerId":group.player._id if group.player else None}
+	return [["name",group.name], ["playerId",group.player._id if group.player else None]]
 
 ############################################ Misc utility functions ####################################################################################
 
