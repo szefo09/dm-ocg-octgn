@@ -27,7 +27,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="18000"/>
-      <property name="Rules" value="■ Neo Evolution: You may put it on one of your Jokers. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{QUATTRO BREAKER}&#xA;■ You can't cast spells.&#xA;■ Each of your other creatures gets +10000 power, breaks 2 additional shields, and attacks creatures if able."/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your Jokers. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{QUATTRO BREAKER}&#xA;■ You can't cast spells.&#xA;■ Each of your other creatures gets +10000 power, breaks 2 additional shields, and attack creatures each turn if able."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -142,7 +142,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever an opponent's creature attacks, they attack this creature if able.&#xA;■ If this creature battles, if it is a Neo Evolution Creature, you may put both creatures into their owner's mana zone instead of battling."/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ Whenever an opponent's creature attacks, they attack this creature if able.&#xA;■ When this creature battles, if it's a Neo Evolution Creature, you may put both creatures into their owner's mana zone instead of battling."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -327,7 +327,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. You may put a non-evolution fire creature from among them. If you do, choose one of your opponent's creatures, those 2 creatures battle. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>
@@ -984,7 +984,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mafi Gang"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, draw a card. Then your opponent discards a card."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this creature is destroyed, draw a card. Then your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="77"/>
@@ -1509,7 +1509,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>
@@ -1522,7 +1522,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone into the battle zone."/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9㊙/S10 (Secret Card)"/>
@@ -1535,7 +1535,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect/Specials"/>
       <property name="Power" value="18000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't cast spells or expand fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't play spells or fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10"/>
@@ -1548,7 +1548,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect/Specials"/>
       <property name="Power" value="18000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't cast spells or expand fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't play spells or fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S10㊙/S10 (Secret Card)"/>

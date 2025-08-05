@@ -236,7 +236,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="17"/>
@@ -286,7 +286,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ When you put this fortress into the battle zone, your opponent chooses and discards a card from their hand. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this fortress into the battle zone, your opponent chooses a card from their hand and discards it. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
@@ -885,7 +885,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command Dragon/Revolutionary"/>
       <property name="Power" value="14500"/>
-      <property name="Rules" value="■ Revolution 0 Trigger—Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution light creature, put that creature into the battle zone and put this creature on top of it.&#xA;■ Evolution—Put on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, it gets &quot;Blocker&quot; and your opponent's Commands can't attack until the start of your next turn."/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution light creature, put it and put this creature on top of it.&#xA;■ Evolution: Put on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, it gets &quot;Blocker&quot; and your opponent's Commands can't attack until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Legend Card"/>
       <property name="Number" value="L1"/>
@@ -1159,7 +1159,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures in the battle zone. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into their owner's graveyard instead."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into its owner's graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Victory Rare"/>
       <property name="Number" value="V6"/>

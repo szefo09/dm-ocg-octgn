@@ -786,7 +786,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Your opponent discards a card from theirs hand.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of your opponent choosing the card to discard, look at your opponent's hand, choose a card from it and discard it."/>
+      <property name="Rules" value="■ Your opponent chooses a card from their hand and discards it.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of your opponent choosing the card to discard, look at your opponent's hand, choose a card from it and discard it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -1224,7 +1224,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Ghost"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature, your opponent discards a card from their hand."/>
+      <property name="Rules" value="■ When you put this creature, your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1259,7 +1259,7 @@
       <property name="Number" value="92"/>
       <property name="Set" value="DM-14 Generate Gear"/>
     </card>
-    <card id="80ba3268-da0b-4e69-ba88-041abcf84785" name="Toxic Vibe">
+    <card id="80ba3268-da0b-4e69-ba88-041abcf84785" name="Toxic Pipe">
       <property name="Format" value="Classic05,Set17,Set35,OCG"/>
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="1"/>

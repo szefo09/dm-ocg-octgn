@@ -352,7 +352,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Zombie Dragon"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;■ Whenever you would summon an evolution Phoenix, you may put it on one of your creatures in your graveyard instead of one of your creatures in the battle zone."/>
+      <property name="Rules" value="■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;■ Whenever you would summon an evolution Phoenix creatures, you may put it on top of one of your creatures in your graveyard instead of one of your creatures in the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -668,7 +668,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Virus"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Cyber Viruses.&#xA;■ When you put this creature, you may draw 3 cards."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Cyber Virus creatures.&#xA;■ When you put this creature, you may draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -747,7 +747,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Evolution: Put on one of your Phoenix.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Phoenix creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -797,7 +797,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Reveal the top 3 cards of your deck. For each Phoenix creature revealed, take an extra turn after this one. (Return the revealed cards to the top of your deck in the original order.)"/>
+      <property name="Rules" value="■ Reveal the top 3 cards of your deck. For each Phoenix creature revealed this way, take an extra turn after this one. (Return the revealed cards to the top of your deck in the same order they were revealed.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -888,7 +888,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="No Rarity"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="68"/>
       <property name="Set" value="DMX-21 Masters Chronicle Pack: Comic of Heroes"/>
     </card>

@@ -5048,7 +5048,7 @@ def toPlay(card, x=0, y=0, notifymute=False, evolveText='', ignoreEffects=False,
 			toPlay(choice,0, 0,True,' for Hand Evolution of {}'.format(card),True, True)
 			targets=[choice]
 		#Omega Evolutions
-		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE):
+		elif re.search("Super Infinite evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Evolution Omega", card.Rules, re.IGNORECASE) or re.search("Galaxy Vortex Omega Evolution", card.Rules, re.IGNORECASE):
 			evoTypeText='Super Infinite evolution Omega'
 			isGalaxy=False
 			materialListGY=[c for c in me.piles['Graveyard'] if re.search("Creature",c.Type)]

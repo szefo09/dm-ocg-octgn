@@ -117,8 +117,8 @@
       <property name="Race" value="Unknown Celes"/>
       <property name="Race1" value="Unknown Celes"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, look at the top 3 cards of your deck. You may summon a Zenith creature that costs 18 or less from among them for no cost. Put the rest on the bottom of your deck in any order. Choose one of your Zenith creatures and one of your opponent's creatures. Those creatures battle. Then destroy the creature you put this way.&#xA;TWINPACT&#xA;■ Reveal the top card of your deck. If its an Oracle, Unknown or Zenith, put it into your hand.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
-      <property name="Rules1" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, look at the top 3 cards of your deck. You may summon a Zenith creature that costs 18 or less from among them for no cost. Put the rest on the bottom of your deck in any order. Choose one of your Zenith creatures and one of your opponent's creatures. Those creatures battle. Then destroy the creature you put this way."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, look at the top 3 cards of your deck. You may summon a Zenith creature that costs 18 or less from among them for no cost. Put the rest on the bottom of your deck in any order. Choose one of your Zenith creatures and one of your opponent's creatures. Those 2 creatures battle. Then destroy the creature you put this way.&#xA;TWINPACT&#xA;■ Reveal the top card of your deck. If its an Oracle, Unknown or Zenith, put it into your hand.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, look at the top 3 cards of your deck. You may summon a Zenith creature that costs 18 or less from among them for no cost. Put the rest on the bottom of your deck in any order. Choose one of your Zenith creatures and one of your opponent's creatures. Those 2 creatures battle. Then destroy the creature you put this way."/>
       <property name="Rules2" value="■ Reveal the top card of your deck. If its an Oracle, Unknown or Zenith, put it into your hand.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -269,9 +269,9 @@
       <property name="Race" value="King Command Dragon/Unknown"/>
       <property name="Race1" value="King Command Dragon/Unknown"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells.&#xA;TWINPACT&#xA;■ Look at the top 9 cards of your deck. You may take a card that costs 9 from your deck, show that card to your opponent, and put it into your hand. Shuffle the rest and put them on the bottom of your deck."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells.&#xA;TWINPACT&#xA;■ Look at the top 9 cards of your deck. You may take a card that costs 9 from among them, show that card to your opponent, and put it into your hand. Shuffle the rest and put them on the bottom of your deck."/>
       <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Your opponent can't cast spells."/>
-      <property name="Rules2" value="■ Look at the top 9 cards of your deck. You may take a card that costs 9 from your deck, show that card to your opponent, and put it into your hand. Shuffle the rest and put them on the bottom of your deck."/>
+      <property name="Rules2" value="■ Look at the top 9 cards of your deck. You may take a card that costs 9 from among them, show that card to your opponent, and put it into your hand. Shuffle the rest and put them on the bottom of your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="18"/>
@@ -359,7 +359,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
       <property name="Power" value="13579"/>
-      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. Those 2 battle.&#xA;■ Creatures battle based on cost instead of comparing power.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a creature, you may choose one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Creatures battle based on cost instead of comparing power.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="24"/>
@@ -492,8 +492,8 @@
       <property name="Race" value="Oracle Celes/Human"/>
       <property name="Race1" value="Oracle Celes/Human"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
-      <property name="Rules1" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand."/>
+      <property name="Rules" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent chooses a card from their hand and discards it.&#xA;TWINPACT&#xA;■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent chooses a card from their hand and discards it."/>
       <property name="Rules2" value="■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>

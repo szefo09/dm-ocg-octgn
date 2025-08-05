@@ -706,7 +706,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves the battle zone, your opponent discards 2 cards from their hand. Then you may choose 2 cards in your opponent's mana zone and put them into their graveyard."/>
+      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves, your opponent chooses 2 cards from their hand and discards them. Then you may choose up to 2 cards in your opponent's mana zone. Your opponent puts them into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -1608,14 +1608,14 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
       <property name="Number" value="P27"/>
     </card>
-    <card id="524a3e3b-93c7-4fa7-8956-fd8960b42fdd" name="Gigappi Ponto">
+    <card id="524a3e3b-93c7-4fa7-8956-fd8960b42fdd" name="Bucket Bucket, Chopping Snow Faerie">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Darkness/Fire"/>
-      <property name="Cost" value="3"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Chimera/Fire Bird"/>
-      <property name="Power" value="4000"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)"/>
+      <property name="Race" value="Snow Faerie/Samurai"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD SAVER} (When one of your shields would be broken, you may destroy this creature instead.)&#xA;■ When this creature is destroyed, choose one of your opponent's creatures in the battle zone and put it into its owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -2141,7 +2141,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;■ When you put this creature into the battle zone, each player puts all non-dragon cards from their mana zone into their graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature , each player puts all non-dragon cards from their mana zone into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -3208,7 +3208,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -3930,7 +3930,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;■ When you put this creature into the battle zone, each player puts all non-dragon cards from their mana zone into their graveyard.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature , each player puts all non-dragon cards from their mana zone into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -4282,7 +4282,7 @@
       <property name="Civilization" value="Nature"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Choose a race, then search your deck. Take 3 creatures that have the chosen race that have different names from your deck, and show them to your opponent. Shuffle your deck and put the 3 cards on the top of your deck in any order."/>
+      <property name="Rules" value="■ Choose a race, then search your deck. From among it, reveal up to 3 creatures that have the chosen race and different names. Then shuffle your deck and put them on top of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>
@@ -4535,7 +4535,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 6-10)"/>

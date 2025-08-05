@@ -1285,7 +1285,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P17"/>
@@ -1468,7 +1468,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P20"/>
@@ -1811,7 +1811,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Beat Jockey/Tyranno Drake/RexStars"/>
       <property name="Power" value="7000+"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When this creature attacks, this creature may get +7000 power until the end of that attack. If you do, destroy this creature after that attack.&#xA;■ When this card leaves, untap the creature underneath it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ When this creature attacks, this creature may get +7000 power until the end of that attack. If you do, destroy this creature after that attack.&#xA;■ When this card leaves, untap the creature that was under it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P25"/>
@@ -2194,7 +2194,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="18000"/>
-      <property name="Rules" value="■ Neo Evolution: You may put it on one of your Jokers. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{QUATTRO BREAKER}&#xA;■ You can't cast spells.&#xA;■ Each of your other creatures gets +10000 power, breaks 2 additional shields, and attacks creatures if able."/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your Jokers. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{QUATTRO BREAKER}&#xA;■ You can't cast spells.&#xA;■ Each of your other creatures gets +10000 power, breaks 2 additional shields, and attack creatures each turn if able."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P32"/>
@@ -2880,7 +2880,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. You may put a non-evolution fire creature from among them. If you do, choose one of your opponent's creatures, those 2 creatures battle. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P43"/>
@@ -2995,7 +2995,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Wonderforce"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, Gacharange Summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ When this creature attacks, you may jokers tornado. If you do, draw 3 cards. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, Gacharange Summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)&#xA;■ Whenever this creature attacks, you may jokers tornado. If you do, draw 3 cards. {JOKERS TORNADO} Return one of your other Jokers to your hand"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3441,8 +3441,8 @@
       <property name="Race" value="Demon Command"/>
       <property name="Race1" value="Demon Command"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Whenever one of your other creatures are destroyed, your opponent chooses and discards a card from their hand.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Each player chooses and destroys one of their creatures."/>
-      <property name="Rules1" value="■ Whenever one of your other creatures are destroyed, your opponent chooses and discards a card from their hand.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
+      <property name="Rules" value="■ Whenever one of your other creatures are destroyed, your opponent chooses a card from their hand and discards it.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Each player chooses and destroys one of their creatures."/>
+      <property name="Rules1" value="■ Whenever one of your other creatures are destroyed, your opponent chooses a card from their hand and discards it.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
       <property name="Rules2" value="■ Each player chooses and destroys one of their creatures."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3600,8 +3600,8 @@
       <property name="Race" value="Demon Command"/>
       <property name="Race1" value="Demon Command"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Whenever one of your other creatures are destroyed, your opponent chooses and discards a card from their hand.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Each player chooses and destroys one of their creatures."/>
-      <property name="Rules1" value="■ Whenever one of your other creatures are destroyed, your opponent chooses and discards a card from their hand.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
+      <property name="Rules" value="■ Whenever one of your other creatures are destroyed, your opponent chooses a card from their hand and discards it.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Each player chooses and destroys one of their creatures."/>
+      <property name="Rules1" value="■ Whenever one of your other creatures are destroyed, your opponent chooses a card from their hand and discards it.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
       <property name="Rules2" value="■ Each player chooses and destroys one of their creatures."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3750,7 +3750,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ During your opponent's turn, they can't put creatures into the battle zone in any way except by summoning."/>
+      <property name="Rules" value="■ During your opponent's turn, they can't put creatures in any way except by summoning."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P58"/>
@@ -4107,7 +4107,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures in the battle zone. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into their owner's graveyard instead."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into its owner's graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P64"/>
@@ -4286,7 +4286,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose one of your creatures and one of your opponent's creatures in the battle zone. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into their owner's graveyard instead."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into its owner's graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P67"/>
@@ -4658,7 +4658,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers/Jokas"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ During your opponent's turn, when the effect of your opponent's spell is triggered, you may shout &quot;None!!&quot; and put this creature on the bottom of your deck. If you do, ignore that spell's effect.&#xA;■ Ignore any abilities that prevent your creatures from attacking your opponent."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ During your opponent's turn, when the effect of your opponent's spell is played, you may shout &quot;None!!&quot; and put this creature on the bottom of your deck. If you do, ignore that spell's effect.&#xA;■ Ignore any abilities that prevent your creatures from attacking your opponent."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P73"/>
@@ -5234,7 +5234,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P83"/>
@@ -6009,7 +6009,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P101"/>
@@ -6301,7 +6301,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ During your opponent's turn, they can't put creatures into the battle zone in any way except by summoning."/>
+      <property name="Rules" value="■ During your opponent's turn, they can't put creatures in any way except by summoning."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P117"/>

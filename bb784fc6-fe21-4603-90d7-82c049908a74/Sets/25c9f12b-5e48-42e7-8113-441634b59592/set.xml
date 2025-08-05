@@ -140,7 +140,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
       <property name="Power" value="13579"/>
-      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures. Those 2 battle.&#xA;■ Creatures battle based on cost instead of comparing power.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a creature, you may choose one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Creatures battle based on cost instead of comparing power.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="9"/>
@@ -280,8 +280,8 @@
       <property name="Race" value="Oracle Celes/Human"/>
       <property name="Race1" value="Oracle Celes/Human"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand.&#xA;TWINPACT&#xA;■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
-      <property name="Rules1" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent discards a card from their hand."/>
+      <property name="Rules" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent chooses a card from their hand and discards it.&#xA;TWINPACT&#xA;■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
+      <property name="Rules1" value="■ Whenever your opponent puts a card into their mana zone from a zone other than their hand, your opponent chooses a card from their hand and discards it."/>
       <property name="Rules2" value="■ Look at the top card of a player's deck. You may put it into its owner's graveyard.&#xA;{CRYSTAL CHARGER} (After you cast this spell, put it into your mana zone face down instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -1178,7 +1178,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Unknown"/>
       <property name="Power" value="6000+"/>
-      <property name="Rules" value="■ If your opponent has a multicolored card in their mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During your turn, this creature gets +4000 power.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■Whenever one of your creatures win a battle, draw a card."/>
+      <property name="Rules" value="■ If your opponent has a multicolored card in their mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During your turn, this creature gets +4000 power.&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■Whenever one of your creatures win a battle, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>
@@ -1843,7 +1843,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Guardian/Zenith"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Galaxy Vortex evolution Omega: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures and your opponent shuffle it into their deck.&#xA;■ While this creature is tapped, your opponent's creatures can't attack or block.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Rules" value="■ Galaxy Vortex Omega Evolution: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures and your opponent shuffle it into their deck.&#xA;■ While this creature is tapped, your opponent's creatures can't attack or block.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR7"/>

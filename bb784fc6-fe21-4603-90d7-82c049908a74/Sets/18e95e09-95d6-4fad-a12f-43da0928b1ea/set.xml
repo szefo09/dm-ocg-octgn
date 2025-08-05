@@ -476,7 +476,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Varavariety 3: Whenever this creature attacks, your opponent chooses one of their creatures and destroys it."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Varavariety 3: Whenever this creature attacks, your opponent chooses one of their creatures and destroys it. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="37"/>
@@ -515,8 +515,9 @@
       <property name="Power" value="5000"/>
       <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)"/>
       <property name="Watermark" value=""/>
-      <property name="Set" value="DM24-RP4 World of Ballom"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="40"/>
+      <property name="Set" value="DM24-RP4 World of Ballom"/>
     </card>
     <card id="4e7ad824-531d-4a4c-b734-137c65d1d754" name="Bakurodaihoshi, Oni of &quot;Hunger&quot;">
       <property name="Format" value="OCG"/>
@@ -668,7 +669,7 @@
       <property name="Power" value="4500"/>
       <property name="Rules" value="■ Gravity Zero: If you have a creature that costs 6 or more, you may summon this creature for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Uncommon"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="52"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>
     </card>
@@ -731,7 +732,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Magic Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't be blocked."/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ This creature can't be blocked."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="57"/>
@@ -822,7 +823,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Varavariety 3: Slayer (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Varavariety 3: Slayer (If you have 3 or more elements that have different costs, whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="64"/>
@@ -889,7 +890,7 @@
       <property name="Power" value="4000"/>
       <property name="Rules" value="■ When you put this creature, choose one of your opponent's elements that costs 3 or less and destroy it."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Uncommon"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="69"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>
     </card>
@@ -1121,7 +1122,7 @@
       <property name="Cost" value="13"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Song"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this spell gets this ability.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S8"/>
@@ -1646,7 +1647,7 @@
       <property name="Cost" value="13"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Song"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this spell gets this ability.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙9/㊙24"/>

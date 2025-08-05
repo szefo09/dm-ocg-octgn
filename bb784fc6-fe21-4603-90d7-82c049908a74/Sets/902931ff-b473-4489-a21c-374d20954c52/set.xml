@@ -40,7 +40,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Infinite Master Dragon/Team Zero"/>
       <property name="Power" value="Infinity"/>
-      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures and effects of spells that cost 5 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="King Master Card"/>
       <property name="Number" value="2"/>
@@ -110,8 +110,8 @@
       <property name="Race" value="Angel Command"/>
       <property name="Race1" value="Angel Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
       <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -228,7 +228,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Dark Lord"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -306,7 +306,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command/Starnoid"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent summons a creature or casts a spell, draw 2 cards.&#xA;■ Your opponent can't summon creatures that cost the same as or less than the number of cards in your hand.&#xA;■ Your opponent can't cast spells that cost the same as or less than the number of cards in your hand."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent plays a creature or spell, draw 2 cards.&#xA;■ Your opponent can't play creatures or spells that cost the same as or less than the number of cards in your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1107,7 +1107,7 @@
       <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy it."/>
       <property name="Rules2" value="■ The next time one of your creatures is put and its ability would trigger this turn, that ability triggers twice instead."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Common"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="64"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -1905,7 +1905,7 @@
       <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave the battle zone.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Forbidden Legend Card"/>
       <property name="Number" value="超1a/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       <alternate name="Dokindam X, The Legendary Forbidden" type="awakening" size="normal">
@@ -1916,7 +1916,7 @@
         <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Liberates, your opponent puts a seal on each of their creatures.&#xA;■ Your opponent can't choose this creature with spells that cost 4 or less.&#xA;■ If this card is in a zone other than the battle zone, you lose the game."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
-        <property name="Rarity" value="Super Rare"/>
+        <property name="Rarity" value="Forbidden Legend Card"/>
         <property name="Number" value="超1b/超38"/>
         <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       </alternate>
@@ -1930,7 +1930,7 @@
       <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature Forbidden Liberates, your opponent puts a seal on each of their creatures.&#xA;■ Your opponent can't choose this creature with spells that cost 4 or less.&#xA;■ If this card is in a zone other than the battle zone, you lose the game."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Forbidden Legend Card"/>
       <property name="Number" value="超1b/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2067,7 +2067,7 @@
       <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose a number. Return all your opponent's creatures that cost the same as that number to their owner's hand."/>
       <property name="Rules2" value="■ Choose a number. Until the start of your next turn, your opponent can't summon creatures that have the same cost or cast spells that have the same cost."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="超9/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2091,7 +2091,7 @@
       <property name="Rules1" value="{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="超10/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2102,7 +2102,7 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Reveal cards from the top of your deck until you show 2 cards that have the same cost.&#xA;■ If you reveal your entire deck in this way, take an extra turn after this one, and during the rest of this game, even if you don't have a card in your deck, you won't lose the game.&#xA;■ Add all face up cards to your hand."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="超11/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2116,7 +2116,7 @@
       <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;■ Ultimate evolution MAX—Put on one of your Ultimate Evolution creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your mana zone. Then put any number of creatures from your mana zone. Ignore all effects that are triggered when those creatures are put."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="超12/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2130,7 +2130,7 @@
       <property name="Rules" value="■ You may summon this creature from your graveyard.&#xA;■ Ultimate Evolution: Put on one of your evolution creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put the top 3 cards of your deck into your graveyard. Then put a creature from among those 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="超13/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2141,7 +2141,7 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Each player puts all their creatures that cost the same as or more than the number of cards in their mana zones on the bottom of their decks in any order."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超14/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2154,7 +2154,7 @@
       <property name="Power" value="5000"/>
       <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature or when this creature is discarded by the effect of one of your opponent's spells or ability of your opponent's creature, you may draw 4 cards."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超15/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2179,7 +2179,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="超17/超38"/>
@@ -2216,7 +2216,7 @@
       <property name="Type" value="Rule Plus"/>
       <property name="Rules" value="■ You must start the game with an additional 5 cards in your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超20a/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       <alternate name="Sapphire Misty" type="awakening" size="normal">
@@ -2228,7 +2228,7 @@
         <property name="Rules" value="■ At the end of your turn, if you have 40 or more cards in the battle zone and/or mana zone, you win the game.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
-        <property name="Rarity" value="Super Rare"/>
+        <property name="Rarity" value="Rare"/>
         <property name="Number" value="超20b/超38"/>
         <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       </alternate>
@@ -2243,7 +2243,7 @@
       <property name="Rules" value="■ At the end of your turn, if you have 40 or more cards in the battle zone and/or mana zone, you win the game.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超20b/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       <alternate name="Invincible Thirteen" type="awakening" size="normal">
@@ -2252,7 +2252,7 @@
         <property name="Type" value="Rule Plus"/>
         <property name="Rules" value="■ You must start the game with an additional 5 cards in your deck."/>
         <property name="Watermark" value=""/>
-        <property name="Rarity" value="Super Rare"/>
+        <property name="Rarity" value="Rare"/>
         <property name="Number" value="超20a/超38"/>
         <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
       </alternate>
@@ -2337,7 +2337,7 @@
       <property name="Power" value="2500"/>
       <property name="Rules" value="■ Your opponent's spells cost 1 more to cast.&#xA;■ Whenever your opponent casts a spell during your turn, gacharange summon. ({GACHARANGE SUMMON}: Summon the top card of your super gacharange with its cost paid.)"/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="超27/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2349,7 +2349,7 @@
       <property name="Race" value="Jokers/RexStars"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, draw a card, then your opponent chooses one of their untapped creatures and taps it."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="超28/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2362,7 +2362,7 @@
       <property name="Power" value="1000"/>
       <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ During your opponent's turn, whenever your opponent would put a card in their mana zone from anywhere other than their hand, put it into their graveyard instead."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="超29/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2400,7 +2400,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a card in your opponent's mana zone and put it into his graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="超32/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2426,7 +2426,7 @@
       <property name="Race" value="Magic Tool"/>
       <property name="Rules" value="■ Look at the top 3 cards of your deck. Add one from among them into your hand and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="超34/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2439,7 +2439,7 @@
       <property name="Power" value="1000"/>
       <property name="Rules" value="■ When you put this creature, choose one of your opponent's non-creature cards in the battle zone and destroy it."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="超35/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2462,7 +2462,7 @@
       <property name="Race" value="Jokers/RexStars"/>
       <property name="Rules" value="{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, look at the top 4 cards of your deck. You may take an evolution creature from among them, show that creature to your opponent, and put it into your hand. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="超37/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2474,7 +2474,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 4 cards of your deck. Your opponent chooses a non-evolution creature from among them and you put it into the battle zone. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Common"/>
       <property name="Number" value="超38/超38"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2668,7 +2668,7 @@
       <property name="Rules1" value="■ Whenever your opponent puts a creature that costs more than the number of cards in your opponent's mana zone, your opponent puts it on the bottom of their deck."/>
       <property name="Rules2" value="■ Until the start of your next turn, your opponent can't cast spells.&#xA;■ Draw a card."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超G11/超G12"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>
@@ -2677,9 +2677,9 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Super Rare"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="超G12/超G12"/>
       <property name="Set" value="DM23-EX2 Battle of Top!! Dueking MAX 2023"/>
     </card>

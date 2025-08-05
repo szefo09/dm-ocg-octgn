@@ -8,7 +8,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Cyber Virus"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Cyber Viruses.&#xA;■ When you put this creature, you may draw 3 cards."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Cyber Virus creatures.&#xA;■ When you put this creature, you may draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -496,7 +496,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -1669,9 +1669,9 @@
       <property name="Race1" value="Gargoyle/Knight"/>
       <property name="Race2" value="Knight"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Your &quot;Knight Magic&quot; spells cost 1 less to cast. They can't cost 0 or less.&#xA;TWINPACT&#xA;{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Your opponent discards a card from their hand."/>
+      <property name="Rules" value="■ Your &quot;Knight Magic&quot; spells cost 1 less to cast. They can't cost 0 or less.&#xA;TWINPACT&#xA;{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Your opponent chooses a card from their hand and discards it."/>
       <property name="Rules1" value="■ Your &quot;Knight Magic&quot; spells cost 1 less to cast. They can't cost 0 or less."/>
-      <property name="Rules2" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Your opponent discards a card from their hand."/>
+      <property name="Rules2" value="{KNIGHT MAGIC} (If you have a Knight in the battle zone, you may use this spell's Knight Magic ability once more.)&#xA;Your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="83"/>
@@ -2023,7 +2023,7 @@
       <property name="Number" value="103"/>
       <property name="Set" value="DMEX-17 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Ultimacy Dueking MAX"/>
     </card>
-    <card id="babe6fc8-0022-4fb9-8507-09b8defdfeef" name="Victorious Apache Urara">
+    <card id="babe6fc8-0022-4fb9-8507-09b8defdfeef" name="Apache Urara, the Victorious">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="6"/>
@@ -2540,7 +2540,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Flame Monster/Blue Monster/Emerald Monster"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have a Phoenix in the battle zone, you may summon this creature for no cost.&#xA;■ When you put this creature, draw a card. Then you may put a card from your hand into your mana zone tapped."/>
+      <property name="Rules" value="■ Gravity Zero: If you have a Phoenix, you may summon this creature for no cost.&#xA;■ When you put this creature, draw a card. Then you may put a card from your hand into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="138"/>
@@ -2655,7 +2655,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Evolution: Put on one of your Phoenix.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Phoenix creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

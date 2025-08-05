@@ -118,7 +118,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon/Armored Dragon/Earth Dragon"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may put the top 2 cards of your deck into your mana zone tapped."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -132,7 +132,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon/Armored Dragon/Earth Dragon"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may put the top 2 cards of your deck into your mana zone tapped."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -146,7 +146,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Command"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Chain Cascade (When you put this creature into the battle zone, look at the top 2 cards of your deck. If any of those cards are creatures that cost less than this creature, you may put them into the battle zone. Put the rest of the cards on top of your deck in any order.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Chain Cascade (When you put this creature, look at the top 2 cards of your deck. From among them, you may put any number of creatures that cost less than this creature. Put the rest of the cards on top of your deck in any order.)"/>
       <property name="Watermark" value="{Magic} {Soul}"/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -209,7 +209,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -233,7 +233,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have an Angel Command Dragon in the battle zone you may cast this spell for no cost.&#xA;■ Your opponent can't cast spells until the start of your next turn."/>
+      <property name="Rules" value="■ Gravity Zero: If you have an Angel Command Dragon, you may cast this spell for no cost.&#xA;■ Your opponent can't cast spells until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14"/>
@@ -383,7 +383,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put the top 5 cards of your deck into your graveyard. If there are Gods among these cards that are able to link with one of your Gods in the battle zone, you may put those Gods into the battle zone and link it with that God."/>
+      <property name="Rules" value="■ Put the top 5 cards of your deck into your graveyard. If there are Gods from among them that can link to one of your Gods in the battle zone, you may put those cards into the battle zone and link them."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -412,7 +412,7 @@
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
-      <property name="Rarity" value="No Rarity"/>
+      <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="28"/>
       <property name="Set" value="DMX-24 Shine! Duedemy Prize Pack"/>
     </card>
@@ -765,7 +765,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Dark Lord"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -779,7 +779,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Dark Lord"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, put a non-evolution darkness creature from your graveyard. Then you may put a darkness creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -793,7 +793,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command/Starnoid"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent summons a creature or casts a spell, draw 2 cards.&#xA;■ Your opponent can't summon creatures that cost the same as or less than the number of cards in your hand.&#xA;■ Your opponent can't cast spells that cost the same as or less than the number of cards in your hand."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent plays a creature or spell, draw 2 cards.&#xA;■ Your opponent can't play creatures or spells that cost the same as or less than the number of cards in your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -807,7 +807,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command/Starnoid"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Angel Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent summons a creature or casts a spell, draw 2 cards.&#xA;■ Your opponent can't summon creatures that cost the same as or less than the number of cards in your hand.&#xA;■ Your opponent can't cast spells that cost the same as or less than the number of cards in your hand."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever your opponent plays a creature or spell, draw 2 cards.&#xA;■ Your opponent can't play creatures or spells that cost the same as or less than the number of cards in your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

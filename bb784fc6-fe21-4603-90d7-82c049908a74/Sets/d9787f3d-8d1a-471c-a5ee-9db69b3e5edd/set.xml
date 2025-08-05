@@ -89,8 +89,8 @@
       <property name="Race1" value="Magic Command Dragon"/>
       <property name="Race2" value="Magic Song"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;TWINPACT&#xA;■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
-      <property name="Rules1" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your creatures in the battle zone without paying it's cost while it's in the battle zone."/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;TWINPACT&#xA;■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
+      <property name="Rules1" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone."/>
       <property name="Rules2" value="■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
@@ -348,7 +348,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature battles that creature."/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="7A"/>
@@ -449,7 +449,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature battles that creature."/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="9B"/>
@@ -1100,7 +1100,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Stella/Shinobi"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ This creature can't attack.&#xA;■ Ultra Saver: Mecha (When one of your Mecha would leave the battle zone, you may destroy this creature instead.)&#xA;■ Whenever an opponent's creatures attacks, if you have a Mecha, you may put this creature from your hand."/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Ultra Saver: Mecha (When one of your Mecha would leave, you may destroy this creature instead.)&#xA;■ Whenever an opponent's creatures attacks, if you have a Mecha, you may put this creature from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="30"/>
@@ -1890,7 +1890,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="5000+"/>
-      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature battles that creature."/>
+      <property name="Rules" value="{POWERED BREAKER} (This creature breaks an additional shield for each 6000 power.)&#xA;■ This creature gets +3000 power for each of your Fire Birds.&#xA;■ When you put this creature, Armored Mechraid 5.&#xA;■ Once per turn, when you put a Fire Bird, you may choose one of your opponent's creatures. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>

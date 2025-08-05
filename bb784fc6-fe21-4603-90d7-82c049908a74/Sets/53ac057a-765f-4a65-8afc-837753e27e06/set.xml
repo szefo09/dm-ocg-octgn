@@ -337,8 +337,8 @@
       <property name="Race1" value="Magic Command Dragon"/>
       <property name="Race2" value="Magic Song"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;TWINPACT&#xA;■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
-      <property name="Rules1" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your creatures in the battle zone without paying it's cost while it's in the battle zone."/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;TWINPACT&#xA;■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
+      <property name="Rules1" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone."/>
       <property name="Rules2" value="■ Choose one of the following 5 times. (You may choose the same one.):&#xA;▶ Choose an element and return it to its owner's hand:&#xA;▶ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
@@ -461,7 +461,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. You may put a non-evolution fire creature from among them. If you do, choose one of your opponent's creatures, those 2 creatures battle. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>

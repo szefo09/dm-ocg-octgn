@@ -68,7 +68,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Infinite Master Dragon/Team Zero"/>
       <property name="Power" value="Infinity"/>
-      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures and effects of spells that cost 5 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P1"/>
@@ -197,7 +197,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Infinite Master Dragon/Team Zero"/>
       <property name="Power" value="Infinity"/>
-      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures and effects of spells that cost 5 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P4"/>
@@ -282,18 +282,6 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P6"/>
     </card>
-    <card id="aa1e6c18-b39a-4b53-9ea7-290b0fdfe88c" name="Redzone, Roaring Invasion">
-      <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Fire"/>
-      <property name="Cost" value="6"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Sonic Command/Invader"/>
-      <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution: Put on one of your fire creatures.&#xA;{INVASION}-Fire command (When one of your Fire command attacks, you may put this creature from your hand onto it.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, destroy all your opponent's creatures that have the highest power."/>
-      <property name="Watermark" value=""/>
-      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
-      <property name="Number" value="P7"/>
-    </card>
     <card id="84f8a1bc-a1e4-4c6a-af80-3d8c6b14cf5c" name="Spiral Vision">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
@@ -316,17 +304,15 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P7"/>
     </card>
-    <card id="0bdb7d27-01cc-443c-a4c3-b37a3224b945" name="5000VT, Flying V">
+    <card id="aa1e6c18-b39a-4b53-9ea7-290b0fdfe88c" name="Order's Will">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Magic Outrage MAX"/>
-      <property name="Power" value="12000"/>
-      <property name="Rules" value="■ This creature costs 1 less to summon for each creature in the battle zone. It can't cost 0 or less.&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, return your opponent's creatures that have power 5000 or less to their owner's hand. During your opponent's next turn, they can't put creatures that have power 5000 or less."/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
-      <property name="Number" value="P8"/>
+      <property name="Number" value="P7"/>
     </card>
     <card id="e36827f0-4d50-4855-b42f-02558e070299" name="Nia, Intruding Shadow">
       <property name="Format" value="OCG"/>
@@ -351,15 +337,28 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P8"/>
     </card>
-    <card id="677dee32-5d81-4b82-9809-b2290bb20c10" name="Perfect Coldflame">
+    <card id="0bdb7d27-01cc-443c-a4c3-b37a3224b945" name="Yell, Cheering Faerie / Please support us together!">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Water/Fire"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If you have 2 or more spells in your graveyard, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn:&#xA;► Discard a card from your hand and draw 2 cards:&#xA;► Put an element that costs 2 or less from your hand."/>
+      <property name="Name1" value="Yell, Cheering Faerie"/>
+      <property name="Name2" value="Please support us together!"/>
+      <property name="Civilization" value="Nature/Fire"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="2/4"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Snow Faerie"/>
+      <property name="Race1" value="Snow Faerie"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ When you put this creature, untap up to 2 cards in your mana zone.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Discard a card from your hand. Then choose one of your opponent's creatures that has 6000 power or less and destroy it. If the discarded card was a Snow Faerie, choose another one of your opponent's creatures that has 6000 power or less and destroy it."/>
+      <property name="Rules1" value="■ When you put this creature, untap up to 2 cards in your mana zone."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Discard a card from your hand. Then choose one of your opponent's creatures that has 6000 power or less and destroy it. If the discarded card was a Snow Faerie, choose another one of your opponent's creatures that has 6000 power or less and destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
-      <property name="Number" value="P9"/>
+      <property name="Number" value="P8"/>
     </card>
     <card id="cf15455d-04fa-4cc8-a0a3-4e969b5e8b1e" name="Romanes's Wizard Oni Seal">
       <property name="Format" value="OCG"/>
@@ -384,17 +383,15 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P9"/>
     </card>
-    <card id="a7fe06b8-ad76-44b8-801c-1c2beb01e6df" name="Lupia and Ga:Nateha">
+    <card id="677dee32-5d81-4b82-9809-b2290bb20c10" name="Kodamadance Charger">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness"/>
-      <property name="Cost" value="2"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Fire Bird/Noir Abyss"/>
-      <property name="Power" value="2000"/>
-      <property name="Rules" value="■ At the end of the turn, put one of your shields into your graveyard. Then draw a card."/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot; ability of that shield.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
-      <property name="Number" value="P10"/>
+      <property name="Number" value="P9"/>
     </card>
     <card id="5c8f67e6-e097-4063-82ac-72af59acb9fe" name="Momoking-MAX">
       <property name="Format" value="OCG"/>
@@ -428,6 +425,18 @@
       <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever your opponent puts a creature in any way except by summoning during their turn, you may have that creature battle this creature.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. From among them, put all Giants and Snow Faeries into your hand and put the rest on the bottom of your deck in any order."/>
       <property name="Rules1" value="■ This creature can't attack.&#xA;■ Whenever your opponent puts a creature in any way except by summoning during their turn, you may have that creature battle this creature."/>
       <property name="Rules2" value="■ Reveal the top 3 cards of your deck. From among them, put all Giants and Snow Faeries into your hand and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P10"/>
+    </card>
+    <card id="a7fe06b8-ad76-44b8-801c-1c2beb01e6df" name="Discotton &amp; Diskerasas">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Oracle/Outrage/Distas"/>
+      <property name="Power" value="1500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a multicolored card, put another card from the top of your deck into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P10"/>
@@ -886,7 +895,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Apollonia Dragon/Armored Dragon/Earth Dragon"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, you may put the top 2 cards of your deck into your mana zone tapped."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put the top 2 cards of your deck into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
@@ -1069,8 +1078,8 @@
       <property name="Race" value="Angel Command"/>
       <property name="Race1" value="Angel Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
       <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
@@ -1650,7 +1659,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dreammate"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Once per turn, whenever you put a creature, you may choose a creature and tap or untap it."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Once per turn, when you put a creature, you may choose a creature and tap or untap it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P43"/>
@@ -1788,7 +1797,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, choose the following ability twice:&#xA;► Choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, use the following ability twice:&#xA;► Choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P47"/>
@@ -1811,7 +1820,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P48"/>
@@ -2082,6 +2091,17 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P54"/>
     </card>
+    <card id="5fb3d381-b789-4b47-ad8e-20ea4991409b" name="【Immediate】Wow...my opponent's attack stopped too much..? 【Click】">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Team Wave"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Until the start of your next turn, your opponent's creatures that cost 5 or less can't attack or block.&#xA;■ When you put this spell into your graveyard from anywhere, you may shuffle your graveyard and put it on the bottom of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P54"/>
+    </card>
     <card id="11397471-12bc-4a06-8e82-a9e125c2cb5e" name="Astmaple-T3">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -2115,6 +2135,41 @@
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P55"/>
+    </card>
+    <card id="bd53af63-1c50-47a7-a016-03b207fb33ab" name="Garyou Tensei-G01 and T02">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Armored Dragon/Earth Dragon/Techno Samurai"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="■ If you have no elements, you may pay Light/Fire/Nature 3: to summon this creature from your mana zone.&#xA;■ Neo Evolution: You may put this creature on top of one of your light, fire or nature creatures.&#xA;■ Super Soul Raid (When you put this creature, reveal the top 3 cards of your deck. You may choose one from among them that can be an evolution source for this creature and put it under this creature. Put the rest on the bottom of your deck in any order.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P55"/>
+    </card>
+    <card id="4b9b74da-0d63-4285-a558-cb7490b6193c" name="Deathliger, Lion of Chaos / Chaos Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Deathliger, Lion of Chaos"/>
+      <property name="Name2" value="Chaos Charger"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Demon Command"/>
+      <property name="Race1" value="Demon Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;TWINPACT&#xA;■ Look at the top 4 cards of your deck. Reveal up to 2 Demon Command cards from among them and put them into your hand. Put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{DOUBLE BREAKER}"/>
+      <property name="Rules2" value="■ Look at the top 4 cards of your deck. Reveal up to 2 Demon Command cards from among them and put them into your hand. Put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P56"/>
     </card>
     <card id="6785cdf0-acaf-47c9-8f58-dfc1dc0ceffa" name="Cocco Lupia GS">
       <property name="Format" value="OCG"/>
@@ -2947,7 +3002,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
@@ -3422,7 +3477,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Varavariety 3: Slayer (If you have 3 or more elements that have different costs, this creature gets this ability.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Varavariety 3: Slayer (If you have 3 or more elements that have different costs, whenever this creature battles, destroy the other creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P100"/>
@@ -4060,7 +4115,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P9"/>
@@ -4072,7 +4127,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P10"/>
@@ -4084,7 +4139,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P11"/>
@@ -4096,7 +4151,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P12"/>
@@ -4108,7 +4163,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P13"/>
@@ -4120,7 +4175,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P14"/>
@@ -4132,7 +4187,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P15"/>
@@ -4144,7 +4199,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, skip the rest of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="神P16"/>

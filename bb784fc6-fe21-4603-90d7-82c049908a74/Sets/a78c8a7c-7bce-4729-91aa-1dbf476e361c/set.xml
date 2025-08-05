@@ -612,7 +612,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Sonic Command/Initials"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, your opponent chooses and discards a card."/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Whenever this creature attacks, your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="46"/>
@@ -996,8 +996,8 @@
       <property name="Race" value="Demonio"/>
       <property name="Race1" value="Demonio"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, each player discards a card from their hand.&#xA;TWINPACT&#xA;■ Discard your hand, then draw 3 cards."/>
-      <property name="Rules1" value="■ When you put this creature, each player discards a card from their hand."/>
+      <property name="Rules" value="■ When you put this creature, each player chooses a card from their hand and discards it.&#xA;TWINPACT&#xA;■ Discard your hand, then draw 3 cards."/>
+      <property name="Rules1" value="■ When you put this creature, each player chooses a card from their hand and discards it."/>
       <property name="Rules2" value="■ Discard your hand, then draw 3 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
@@ -1127,7 +1127,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix/Armored Dragon/Zombie Dragon"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Galaxy Vortex Deck Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
+      <property name="Rules" value="■ Deck Galaxy Vortex Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Hero Rare"/>
       <property name="Number" value="H4A"/>
@@ -1140,7 +1140,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix/Armored Dragon/Zombie Dragon"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Galaxy Vortex Deck Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
+      <property name="Rules" value="■ Deck Galaxy Vortex Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Hero Rare"/>
       <property name="Number" value="H4B"/>
@@ -1231,7 +1231,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="New World Dragon/Dispector"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="■ Galaxy Vortex evolution Omega: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
+      <property name="Rules" value="■ Galaxy Vortex Omega Evolution: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="Hero Rare"/>
@@ -1245,7 +1245,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="New World Dragon/Dispector"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="■ Galaxy Vortex evolution Omega: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
+      <property name="Rules" value="■ Galaxy Vortex Omega Evolution: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="Hero Rare"/>
@@ -1428,7 +1428,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix/Armored Dragon/Zombie Dragon"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Galaxy Vortex Deck Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
+      <property name="Rules" value="■ Deck Galaxy Vortex Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put any number of cards under this creature into your graveyard. For each card put into your graveyard in this way, each of your opponent's creatures gets -4000 power until the end of the turn.&#xA;■ Whenever your opponent chooses this creature, choose 2 of your opponent's shields and put them into their owner's graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Hero Rare"/>
       <property name="Number" value="S6"/>
@@ -1546,7 +1546,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="New World Dragon/Dispector"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="■ Galaxy Vortex evolution Omega: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
+      <property name="Rules" value="■ Galaxy Vortex Omega Evolution: Choose a creature from your graveyard, mana zone and battle zone and put this card on top of them.&#xA;■ Extra EX Life (As you put this creature, shieldify the top 2 cards of your deck. When this creature would leave, put one of its shields into your graveyard instead.)&#xA;{WORLD BREAKER}&#xA;■ Whenever an &quot;EX Life&quot; shield leaves your shield zone, put a card under this creature into the graveyard. If it's a non-evolution creature, put it from your graveyard.&#xA;■ Each of your Dispectors in your shield zone gets &quot;Guard Strike&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="Hero Rare"/>
@@ -1586,7 +1586,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Phoenix"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves the battle zone, your opponent discards 2 cards from their hand. Then you may choose 2 cards in your opponent's mana zone and put them into their graveyard."/>
+      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves, your opponent chooses 2 cards from their hand and discards them. Then you may choose up to 2 cards in your opponent's mana zone. Your opponent puts them into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

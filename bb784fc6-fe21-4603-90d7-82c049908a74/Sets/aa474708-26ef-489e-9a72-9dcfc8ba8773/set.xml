@@ -88,8 +88,8 @@
       <property name="Race" value="Angel Command"/>
       <property name="Race1" value="Angel Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ Your opponent can only summon creatures or cast spells up to a total of 3 times per turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
       <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -129,7 +129,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero/Supercar Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="8"/>
@@ -653,7 +653,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -844,7 +844,7 @@
       <property name="Race" value="Onifuda Kingdom"/>
       <property name="Rules" value="{ONIEND}: Whenever a creature attacks, if there is a player that has no shields and you have at least one darkness card and one fire card in your mana zone, you may cast this spell from your hand for no cost.&#xA;■ Put the top 4 cards of your deck into your graveyard. From among the cards put into your graveyard in this way, choose a darkness or fire non-evolution creature that costs 6 or less and put it. Then you may choose one of your opponent's creatures. Those 2 creatures battle."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Uncommon"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="57"/>
       <property name="Set" value="DM24-EX4 NIJISANJI Collab Masters: Virtual Duelist"/>
     </card>
@@ -1254,7 +1254,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When this creature would be discarded from your hand due to one of your opponent's creatures abilities or spells, you may put it into the battle zone instead.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose a player. That player shuffles all cards in their graveyard into their deck. Then draw 2 cards."/>
+      <property name="Rules" value="■ When this creature would be discarded from your hand by one of your opponent's creatures abilities or spells, you may put it into the battle zone instead.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose a player. That player shuffles all cards in their graveyard into their deck. Then draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="85"/>
@@ -1528,7 +1528,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put up to 2 non-evolution light creatures that have &quot;blocker&quot; from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -1719,7 +1719,7 @@
       <property name="Race" value="Onifuda Kingdom"/>
       <property name="Rules" value="{ONIEND}: Whenever a creature attacks, if there is a player that has no shields and you have at least one darkness card and one fire card in your mana zone, you may cast this spell from your hand for no cost.&#xA;■ Put the top 4 cards of your deck into your graveyard. From among the cards put into your graveyard in this way, choose a darkness or fire non-evolution creature that costs 6 or less and put it. Then you may choose one of your opponent's creatures. Those 2 creatures battle."/>
       <property name="Watermark" value=""/>
-      <property name="Rarity" value="Uncommon"/>
+      <property name="Rarity" value="Rare"/>
       <property name="Number" value="PR17"/>
       <property name="Set" value="DM24-EX4 NIJISANJI Collab Masters: Virtual Duelist"/>
     </card>
@@ -2129,7 +2129,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ When this creature would be discarded from your hand due to one of your opponent's creatures abilities or spells, you may put it into the battle zone instead.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose a player. That player shuffles all cards in their graveyard into their deck. Then draw 2 cards."/>
+      <property name="Rules" value="■ When this creature would be discarded from your hand by one of your opponent's creatures abilities or spells, you may put it into the battle zone instead.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose a player. That player shuffles all cards in their graveyard into their deck. Then draw 2 cards."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="PR45"/>

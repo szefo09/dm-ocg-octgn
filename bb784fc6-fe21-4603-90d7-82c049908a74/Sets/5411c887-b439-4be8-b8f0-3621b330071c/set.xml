@@ -191,7 +191,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SYMPATHY}: nature (This creature costs 1 less to summon for each of your nature in play. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your nature creatures gets &quot;Mach Fighter&quot;.&#xA;■ Whenever one of your creatures that has power 12000 or more attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, put it. Otherwise, put it into your mana zone."/>
+      <property name="Rules" value="■ Sympathy: Nature creature (This creature costs 1 less to summon for each of your nature creatures. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your nature creatures gets &quot;Mach Fighter&quot;.&#xA;■ Whenever one of your creatures that has power 12000 or more attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, put it. Otherwise, put it into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="13"/>
@@ -437,7 +437,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. From among them, put a non-evolution fire creature into the battle zone. If you do, choose one of your opponent's creatures and battle it with that creature. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules" value="{SUPER SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast it immediately for no cost. Then if you have no shields, you may use this card's Super Shield Trigger ability.)&#xA;■ Destroy any number of your opponent's creatures that have total cost 8 or less.&#xA;{SUPER SHIELD TRIGGER}: Look at the top 5 cards of your deck. You may put a non-evolution fire creature from among them. If you do, choose one of your opponent's creatures, those 2 creatures battle. Put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="32"/>
@@ -511,7 +511,7 @@
       <property name="Cost" value="5"/>
       <property name="Type" value="D2 Field"/>
       <property name="Race" value="Jokers/Team Kirifuda"/>
-      <property name="Rules" value="Kirifudash (At the end of any of your creature's attacks, if that creature breaks a shield while attacking, you may pay to expand this D2 Field.)&#xA;■ Whenever any of your creatures become blocked, that creature breaks one of your opponent's shields.&#xA;■ Your creature's can't be tapped due to the effects of your opponent's spells or a creature's ability.&#xA;■ Whenever any of your creatures would put into the battle zone tapped, they are put in untapped instead.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)"/>
+      <property name="Rules" value="Kirifudash (At the end of any of your creature's attacks, if that creature breaks a shield while attacking, you may pay to expand this D2 Field.)&#xA;■ Whenever any of your creatures become blocked, that creature breaks one of your opponent's shields.&#xA;■ Your creatures can't be tapped due to the effects of your opponent's spells or a creature's ability.&#xA;■ Whenever any of your creatures would put into the battle zone tapped, they are put in untapped instead.&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="38"/>
@@ -1514,7 +1514,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Infinite Master Dragon/Team Zero"/>
       <property name="Power" value="Infinity"/>
-      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures that cost 5 or less and the effects of spells that cost 5 or less."/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures and effects of spells that cost 5 or less."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master MAX Card"/>
       <property name="Number" value="M㊙︎3/M㊙︎10"/>
@@ -1851,7 +1851,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gransect/Specials"/>
       <property name="Power" value="18000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't cast spells or expand fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Your opponent can't play spells or fields.&#xA;■ Whenever this creature wins a battle, choose up to 3 of your opponent's shields and put them into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S15"/>
