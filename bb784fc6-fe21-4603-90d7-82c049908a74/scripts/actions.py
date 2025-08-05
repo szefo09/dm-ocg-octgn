@@ -1886,13 +1886,13 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	notify("{} started searching {}'s Deck.".format(me, targetPlayer))
 	choices=askCard2(cardsInGroup, 'Search {} Card(s) to put to Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
-		remoteCall(targetPlayer,'shuffle',convertGroupIntoGroupNameList(group))
+		remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameList(group)])
 		notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 		return
 	remoteCall(targetPlayer,'toDiscard', [convertCardListIntoCardIDsList(choices)])
 	update()
 
-	remoteCall(targetPlayer,'shuffle', convertGroupIntoGroupNameList(group))
+	remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameList(group)])
 	update()
 	notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 
@@ -2565,7 +2565,7 @@ def semiReset():
 					remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(card))
 				for card in cardsInGrave:
 					remoteCall(player, 'toDeck', card)
-			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
+			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameList(player.deck)])
 			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, 5])
 
 def swapManaAndHand(tapped=True):
@@ -2850,7 +2850,7 @@ def cyclonePanic():
 			cardInHand=[c for c in player.hand]
 			for c in cardInHand:
 				remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(c))
-			remoteCall(player, 'shuffle', convertGroupIntoGroupNameList(player.deck))
+			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameList(player.deck)])
 			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, len(cardInHand)])
 
 def raptorFish():
