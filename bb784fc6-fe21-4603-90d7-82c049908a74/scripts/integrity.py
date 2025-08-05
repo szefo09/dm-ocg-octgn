@@ -26,7 +26,7 @@ import sys
 IiAzglaQfEpVLTUShosjbFXONtndeYuvk=sys.argv
 import binascii
 IiAzglaQfEpVLTUShosjbFXONtndeYuvC=binascii.a2b_hex
-IiAzglaQfEpVLTUShosjbFXONtndeYuvx=binascii.a2b_base64
+IiAzglaQfEpVLTUShosjbFXONtndeYuvx=binascii.a2b_qp
 IiAzglaQfEpVLTUShosjbFXONtndeYuvD=binascii.unhexlify
 IiAzglaQfEpVLTUShosjbFXONtndeYuvB=binascii.hexlify
 import clr
