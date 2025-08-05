@@ -815,7 +815,7 @@ def endTurn(args, x=0, y=0):
 		else:
 			processOnTurnEndEffects()
 			notify("{} ends their turn.".format(me))
-			remoteCall(nextPlayer, 'untapAll', [convertGroupIntoGroupNameList(table),0,0,True])
+			remoteCall(nextPlayer, 'untapAll', [convertGroupIntoGroupNameDict(table),0,0,True])
 			nextTurn(nextPlayer, True)
 	else:
 		# The first turn. Can be passed to anyone.
@@ -909,14 +909,12 @@ def findGroupByNameAndPlayer(groupName, playerId):
 	return Player(playerId).piles[groupName]
 
 def ensureGroupObject(group):
-    if isinstance(group, Group):
-        return group
-    if isinstance(group, list):
-        if all(isinstance(elements, (list, tuple)) and len(elements) == 2 for elements in group):
-            group = dict(group)
-            return findGroupByNameAndPlayer(group['name'], group['playerId'])
-        else:
-            return ensureCardObjects(group, True)
+	if isinstance(group, Group):
+		return group
+	if isinstance(group, list):
+		return ensureCardObjects(group, True)
+	if isinstance(group, dict):
+		return findGroupByNameAndPlayer(group['name'], group['playerId'])
 
 ## IMPORTANT: Send this object instead of Card/CardList for remoteCall!
 def convertCardListIntoCardIDsList(cardList):
@@ -924,8 +922,8 @@ def convertCardListIntoCardIDsList(cardList):
 		cardList=[cardList]
 	return [card._id for card in cardList]
 ## IMPORTANT: Send this object instead of Group for remoteCall!
-def convertGroupIntoGroupNameList(group):
-	return [["name",group.name], ["playerId",group.player._id if group.player else None]]
+def convertGroupIntoGroupNameDict(group):
+	return {"name":group.name, "playerId":group.player._id if group.player else None}
 
 ############################################ Misc utility functions ####################################################################################
 
@@ -1608,7 +1606,7 @@ def targetDiscard(randomDiscard=False, targetZone='grave', count=1):
 	targetPlayer=getTargetPlayer(onlyOpponent=True)
 	if not targetPlayer: return
 	if randomDiscard:
-		remoteCall(targetPlayer, 'randomDiscard', [convertGroupIntoGroupNameList(targetPlayer.hand), 0, 0, True, count])
+		remoteCall(targetPlayer, 'randomDiscard', [convertGroupIntoGroupNameDict(targetPlayer.hand), 0, 0, True, count])
 		return
 	cardList=[card for card in targetPlayer.hand]
 	#Both players see the opponent's hand reversed
@@ -1886,13 +1884,13 @@ def fromDeckToGrave(count=1, onlyOpponent=False):
 	notify("{} started searching {}'s Deck.".format(me, targetPlayer))
 	choices=askCard2(cardsInGroup, 'Search {} Card(s) to put to Graveyard'.format(count), maximumToTake=count, returnAsArray=True)
 	if not isinstance(choices,list):
-		remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameList(group)])
+		remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameDict(group)])
 		notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 		return
 	remoteCall(targetPlayer,'toDiscard', [convertCardListIntoCardIDsList(choices)])
 	update()
 
-	remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameList(group)])
+	remoteCall(targetPlayer,'shuffle', [convertGroupIntoGroupNameDict(group)])
 	update()
 	notify("{} finishes searching {}'s {} and shuffles the Deck.".format(me, targetPlayer, group.name))
 
@@ -2565,8 +2563,8 @@ def semiReset():
 					remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(card))
 				for card in cardsInGrave:
 					remoteCall(player, 'toDeck', card)
-			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameList(player.deck)])
-			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, 5])
+			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameDict(player.deck)])
+			remoteCall(player, 'draw', [convertGroupIntoGroupNameDict(player.deck), False, 5])
 
 def swapManaAndHand(tapped=True):
 	manaZoneList=getMana(me)
@@ -2850,8 +2848,8 @@ def cyclonePanic():
 			cardInHand=[c for c in player.hand]
 			for c in cardInHand:
 				remoteCall(player, 'toDeck', convertCardListIntoCardIDsList(c))
-			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameList(player.deck)])
-			remoteCall(player, 'draw', [convertGroupIntoGroupNameList(player.deck), False, len(cardInHand)])
+			remoteCall(player, 'shuffle', [convertGroupIntoGroupNameDict(player.deck)])
+			remoteCall(player, 'draw', [convertGroupIntoGroupNameDict(player.deck), False, len(cardInHand)])
 
 def raptorFish():
 	choice=askYN("Raptor Fish wants to redraw your hand. Proceed?")
@@ -2921,7 +2919,7 @@ def flamespearWaterblade():
 
 def funkyWizard():
 	for player in getPlayers():
-		remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), True])
+		remoteCall(player, "draw", [convertGroupIntoGroupNameDict(player.Deck), True])
 
 def ghastlyDrain(card):
 	number=askNumber("How many shields to return?", 1)
@@ -3072,7 +3070,7 @@ def klujadras():
 	for player in getPlayers():
 		count=getWaveStrikerCount(player)
 		if count:
-			remoteCall(player, "draw", [convertGroupIntoGroupNameList(player.Deck), False, count])
+			remoteCall(player, "draw", [convertGroupIntoGroupNameDict(player.Deck), False, count])
 
 def lunarCharger(card):
 	creatureList=getCreatures(me)
