@@ -3458,8 +3458,9 @@ def tanzanyte():
 			toHand(card, True)
 
 def upheaval():
-	for player in getPlayers():
-		remoteCall(player, 'swapManaAndHand', [])
+	if confirm("Are you sure you want to continue?"):
+		for player in getPlayers():
+			remoteCall(player, 'swapManaAndHand', [])
 
 def intenseEvil():
 	myCreatures=getCreatures(me)
