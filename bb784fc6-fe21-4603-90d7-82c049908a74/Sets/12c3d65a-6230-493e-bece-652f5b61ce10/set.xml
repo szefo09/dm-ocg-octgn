@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="DM25-EX1 Love Thanksgiving: Heroine BEST" id="12c3d65a-6230-493e-bece-652f5b61ce10" gameId="bb784fc6-fe21-4603-90d7-82c049908a74" gameVersion="3.0.0.0" version="2.0.0.0">
+  <packaging>
+    <pack name="Booster" id="3b93c7c0-1a4e-464a-8fe6-8780889bd301">
+      <options>
+        <option probability="0.083">
+          <pick qty="1" key="Rarity" value="Super Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.250">
+          <pick qty="1" key="Rarity" value="Very Rare"/>
+          <pick qty="5" key="Rarity" value="Common"/>
+        </option>
+        <option probability="0.667">
+          <pick qty="6" key="Rarity" value="Common"/>
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="Rare"/>
+      <pick qty="3" key="Rarity" value="Uncommon"/>
+    </pack>
+  </packaging>
+  <cards>
+    <card id="430d15e5-5ef1-473e-8339-20e8e03b1313" name="Perfect, Domination Elemental / Galaxy Charger">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Perfect, Domination Elemental"/>
+      <property name="Name2" value="Galaxy Charger"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/3"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Race1" value="Angel Command"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can only play a total of 3 creatures or spells each turn.&#xA;■ When this creature would leave, if it has more than 0 power, it stays instead."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put all Angel Commands from among them into your hand, and put the rest on the bottom of your deck in any order.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="1"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="4a7809e0-fb90-4c9b-86c7-7c773b2b166b" name="Dekorose, Flash Dragon Ruler">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Draguner"/>
+      <property name="Power" value="11500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and put it into its owner's hyperspatial zone.&#xA;■ Your opponent can't put creatures from their hyperspatial zone and they can't put creatures that have the same name as a card in their hyperspatial zone.&#xA;■ When this creature leaves, choose one of your opponent's creatures that has the lowest cost in your opponent's hyperspatial zone. Your opponent may put it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="2"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="6e5f84b0-48d3-4f8d-96d6-9425fbe8b7a4" name="Twilight Mk.1 Type Hogan / &quot;I'll Become The Best!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Twilight Mk.1 Type Hogan"/>
+      <property name="Name2" value="&quot;I'll Become The Best!&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="8/5"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Neo Creature/Spell"/>
+      <property name="Type1" value="Neo Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Cyber Command/Cyber Word"/>
+      <property name="Race1" value="Cyber Command"/>
+      <property name="Race2" value="Cyber Word"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.) {DOUBLE BREAKER} {SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;■ As you summon this creature, you may reveal any number of cyber cards from your hand. For each card revealed, this creature costs 1 less to summon. It can't cost 0 or less.&#xA;■ Neo Evolution: You may put this creature on top of one of your water creatures.&#xA;TWINPACT&#xA;■ Shuffle your deck, then reveal the top card of your deck. If it's an element, you may put it. If it's a spell, you may cast it for no cost."/>
+      <property name="Rules1" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.) {DOUBLE BREAKER} {SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;■ As you summon this creature, you may reveal any number of cyber cards from your hand. For each card revealed, this creature costs 1 less to summon. It can't cost 0 or less.&#xA;■ Neo Evolution: You may put this creature on top of one of your water creatures."/>
+      <property name="Rules2" value="■ Shuffle your deck, then reveal the top card of your deck. If it's an element, you may put it. If it's a spell, you may cast it for no cost."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="3"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="9cb75e04-b01f-4feb-9f79-1733dcb40509" name="Blue Impulse / &quot;Find the Truth, Johnny!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Blue Impulse"/>
+      <property name="Name2" value="&quot;Find the Truth, Johnny!&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="10/7"/>
+      <property name="Cost1" value="10"/>
+      <property name="Cost2" value="7"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Spriggan/Mutopia"/>
+      <property name="Race1" value="Spriggan/Mutopia"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if your opponent has at least 4 or more creatures than you do and you have no 'Blue Impulse', you may summon this creature for no cost.&#xA;{TRIPLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 3 creatures and return them to their owner's hand."/>
+      <property name="Rules1" value="■ At the end of your opponent's turn, if your opponent has at least 4 or more creatures than you do and you have no 'Blue Impulse', you may summon this creature for no cost.&#xA;{TRIPLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 3 creatures and return them to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="4"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="1a7ae050-2be3-41de-a651-7947af243bf0" name="Twilight Mk.2 Type Orochi">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="G-Neo Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution water creature, put that creature and put this creature on top of it.&#xA;■ G-Neo Evolution: You may put this creature on top of one of your water creatures.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent's creatures can't attack you on the turn they are put."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="5a70fdf5-7c61-4f31-982b-3258a48328f6" name="Miracle Stellar, Heaven Revolutionary Knight Lady">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent plays a card, you may draw a card. Your opponent's creatures can't attack this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="6"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="78c5eec2-56d6-4139-aa8b-9446736105c1" name="Ater Gorghini">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Dinero/Supercar Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="7"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="1d30d524-bc14-45b5-8406-fb1cc4d5c071" name="Xenoverse Lapia / &quot;Everyone's waiting in the usual place!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Xenoverse Lapia"/>
+      <property name="Name2" value="&quot;Everyone's waiting in the usual place!&quot;"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Civilization1" value="Fire"/>
+      <property name="Civilization2" value="Fire"/>
+      <property name="Cost" value="5/2"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Fire Bird/Fire Bird Word"/>
+      <property name="Race1" value="Fire Bird"/>
+      <property name="Race2" value="Fire Bird Word"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ At the start of your turn, if you have 2 or more Phoenix cards in your graveyard, you may return this creature from your graveyard to your hand.&#xA;■ When you put this creature, you may put an evolution Phoenix creature that costs 7 or less from your hand on top of this creature, ignoring evolution conditions. If you do, destroy this creature at the end of the turn.&#xA;TWINPACT&#xA;■ Discard a card from your hand, then draw 2 cards."/>
+      <property name="Rules1" value="■ At the start of your turn, if you have 2 or more Phoenix cards in your graveyard, you may return this creature from your graveyard to your hand.&#xA;■ When you put this creature, you may put an evolution Phoenix creature that costs 7 or less from your hand on top of this creature, ignoring evolution conditions. If you do, destroy this creature at the end of the turn."/>
+      <property name="Rules2" value="■ Discard a card from your hand, then draw 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="8"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="c7c49468-177d-477c-822b-5852771e0f4d" name="Supernova Lyra Bolstorm">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution: Put this card on top of 3 of your Zombie Dragon, Armored Dragon or Earth Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a creature under this creature into your graveyard. If you do, put a non-evolution Dragon from your hand, choose one of your opponent's creatures that has power 5000 or less and destroy it, then choose a card from your opponent's mana zone and put it into its owner's graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="9"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f4555c2a-420b-4a22-93a9-5b96c8df862f" name="Mars Singularity, Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Fire Bird/Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ If you have a total of 5 or more elements and cards in your mana zone that have a Fire Bird and/or Phoenix race, you may summon this creature by paying Fire 3:.&#xA;■ Deck Galaxy Vortex Evolution: Put this creature on top of the top 3 cards of your deck. (Put the cards from your deck face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Meteorburn: Whenever this creature attacks, you may have your opponent choose a card from under it without looking at it and put it into your graveyard. If its a fire creature, put it from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="10"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f4cac336-b9ae-40ab-b43b-78b7f8f6fd07" name="Minogami, Great Rainbow Emperor / &quot;Minomaru chan! I'm with you!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Minogami, Great Rainbow Emperor"/>
+      <property name="Name2" value="&quot;Minomaru chan! I'm with you!&quot;"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="6/2"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="G-Neo Creature/Spell"/>
+      <property name="Type1" value="G-Neo Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Gransect Word"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Race2" value="Gransect Word"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your nature creatures.&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;■ At the start of your turn, if you have a creature that has power 12000 or more, you may return this creature from your graveyard to your hand.&#xA;{TRIPLE BREAKER}&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Rules1" value="■ G-Neo Evolution: You may put this creature on top of one of your nature creatures.&#xA;■ Whenever this creature attacks, you may cast the spell side of one of your twinpact creatures in the battle zone without paying it's cost while it's in the battle zone.&#xA;■ At the start of your turn, if you have a creature that has power 12000 or more, you may return this creature from your graveyard to your hand.&#xA;{TRIPLE BREAKER}"/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="11"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="aca1a77f-4564-4803-9a72-ee5ec5ce3854" name="Ohkabuki Ohkabuto">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="9"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="17000+"/>
+      <property name="Rules" value="{NEO EVOLUTION}: You may put it on one of your Nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Each of your evolution creatures have their power doubled and get &quot;powered breaker&quot;. They can't be blocked by creatures that have less power than them.&#xA;■ Whenever your opponent would put a creature that has less than power 12000 and that creature's ability would trigger, if this is an evolution creature, that ability doesn't trigger instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="12"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="d72f6778-809e-4ef3-9a0f-37f5b01ab8a0" name="Sieg Nachtfalter">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="18000"/>
+      <property name="Rules" value="■ At the start of your turn, you may return this creature from your mana zone to your hand.&#xA;{QUATTRO BREAKER}&#xA;■ When you put this creature or another creature that has power 12000 or more, put the top 2 cards of your deck into your mana zone, then return a creature from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="13"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a9fe70ad-81b8-4350-8350-dd4c79dcc4ba" name="Dororonmantra, Returning Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="{NINJA CHANGE} 5 (Whenever one of your opponent's creatures attacks or blocks, if during that attack you didn't use a Ninja ability, you may switch one of your Mecha or Shinobi that costs 5 or more with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, Shinobi Mechraid 5.&#xA;■ Each of your Shinobi creatures gets &quot;blocker&quot;.&#xA;■ Whenever one of your Shinobi are destroyed, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="14"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f1123fef-ba0e-456e-b913-8a1a50c85f10" name="Happoumantra, Overflowing Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6500"/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if you have 2 or more Shinobis and no 'Happoumantra, Overflowing Chaos' , you may summon this creature for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever one of your Shinobi attacks a player, that player discards a card at random from their hand.&#xA;■ Whenever one of your Shinobi attacks a creature, that attacking creature gets &quot;slayer&quot; this turn and that creature can't be destroyed while battling."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="15"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="6b800d08-647c-44d2-9b65-cdcf482c5469" name="Venus Cosmicnova, Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command Dragon/Phoenix"/>
+      <property name="Power" value="12500"/>
+      <property name="Rules" value="■ If you have a total of 5 or more elements and cards in your mana zone that have the Angel Command and/or Phoenix race, you may summon this creature by paying Light 4:.&#xA;■ Shield Galaxy Vortex Evolution: Choose 3 shields from your shield zone and put this creature on top of them. (Put the face down cards face down without looking at them.)&#xA;{TRIPLE BREAKER}&#xA;■ This creature can't be destroyed.&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, shieldify the top 2 cards of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="16"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="3dbdd209-f1ea-4ce2-aa3f-332d670e13c5" name="Kusokzeshki, Holy Chaos Great Ninja">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="5500"/>
+      <property name="Rules" value="{SHIELD TRIGGER PLUS} (When this creature is put into your hand from your shield zone, you may summon it for no cost. If it's your opponent's turn, and you have had 2 or more of your shields broken this turn, this creature gets its Shield Trigger Plus ability.)&#xA;{SHIED TRIGGER PLUS}: When you put this creature, look at the top 2 cards of your deck. Shieldify one of them and put the other into your hand.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Each of your Mecha creatures that cost 8 or less in your shield zone get &quot;Shield Trigger&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="17"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="ce686da4-b339-40e6-896a-13a003ae9b33" name="Kaiserrule, Consecutive Battle Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ At the start of your turn, you may look at the top card of your deck. If it's an Angel Command, you may put it. If you don't put it, shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="18"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="38a22850-aa33-44e0-b5ca-80cfbac5ef8b" name="Mukujumeddo, Holy Chaos Great Ninja">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="3500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever you put a Shinobi, you may draw a card.&#xA;■ Once per turn, when one of your Shinobi would leave, you may have it stay instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="19"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="614681d3-51aa-44af-8d51-0ae26c1527d9" name="Duel of Flash">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Angel Command Word"/>
+      <property name="Rules" value="■ Gravity Zero: If you have 5 or more Angel Commands, you may cast this spell for no cost.&#xA;■ Tap all your opponent's creatures.&#xA;■ Your Angel Commands can't leave until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="20"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="d9445b84-64b6-49e4-98e7-d88305852ab3" name="Cyber J Eleven / &quot;I’m glad I got to fight alongside everyone ♥&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Cyber J Eleven"/>
+      <property name="Name2" value="&quot;I’m glad I got to fight alongside everyone ♥&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="11/1"/>
+      <property name="Cost1" value="11"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Cyber Command/Cyber Word"/>
+      <property name="Race1" value="Cyber Command"/>
+      <property name="Race2" value="Cyber Word"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If you have 11 or more water creatures, you win the game.&#xA;TWINPACT&#xA;■ Draw a card.&#xA;■ After you cast this spell, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ If you have 11 or more water creatures, you win the game."/>
+      <property name="Rules2" value="■ Draw a card.&#xA;■ After you cast this spell, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Watermark" value="{Magic} {Soul}"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="21"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="67ea2f69-9776-4211-8c1e-2889056bec8e" name="Astral Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your water creatures.&#xA;■ When you put this creature, draw 3 cards. Then if this creature isn't evolved from a Cyber card, put 3 cards from your hand on the top of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="22"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="226d9b7b-9d42-4dbe-8538-161b93647909" name="Mercury Starforge, Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Command/Phoenix"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="■ If you have a total of 5 or more elements and cards in your mana zone that have a Cyber and/or Phoenix race, you may summon this creature by paying Water 3:.&#xA;■ Hand Galaxy Vortex Evolution: Choose 3 creatures in your hand and put this creature on top of those creatures.&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, draw up to 2 cards, then choose up to 2 of your opponent's elements and return them to their owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="23"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="85386d64-96fe-46c2-9685-ae89dd48e76e" name="Cyber G Hogan">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Chain Cascade (When you put this creature, look at the top 2 cards of your deck. From among them, you may put any number of creatures that cost less than this creature. Put the rest of the cards on top of your deck in any order.)"/>
+      <property name="Watermark" value="{Magic} {Soul}"/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="24"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="aefad2f3-b014-4c94-b7e7-a9c9501de937" name="Duel of Challenge">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Cyber Word"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Cyber (When you add a Cyber card from your shields to your hand, you may discard that card. If you do, you may play this card for no cost.)&#xA;■ Choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ Draw up to 2 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="25"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f9a0f507-8bae-4952-bab7-40ab0073b27c" name="Duel of Betrayal">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Shinobi Word"/>
+      <property name="Rules" value="■ Ninja Kick 3 (Whenever one of your opponent's creatures attacks or blocks, if during that attack you didn't use a Ninja ability, you may return one of your Mecha or Shinobi creatures that costs 3 or more to your hand. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and destroy it.&#xA;■ You may put the top 3 cards of your deck into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="26"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a9bea41a-48bf-40aa-ab99-999017a163ca" name="Supernova Ixion Burning Rave">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Galaxy Vortex evolution: Put on top of 3 of your Armored Dragon, Tyranno Drake or Brave Spirit creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If its a non-evolution creature, put it from your graveyard. That creature gets &quot;speed attacker&quot; until the end of the turn. Destroy that creature at the end of this turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="27"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="32182f1e-9719-40f4-8a84-2bf6a4dc3ad7" name="Duel of Destiny">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Fire Bird Word"/>
+      <property name="Rules" value="■ Attack Chance: Phoenix (When one of your Phoenix attacks, you may play this card for no cost.)&#xA;■ You may put any number of creatures from your graveyard under any number of your Phoenix creatures.&#xA;■ Until the start of your next turn, if you have any Phoenix creatures, you can't lose the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="28"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="c59dc34c-1623-4ec7-9036-cc43564f57c5" name="Dangerdeon, Super Temporal Trap / &quot;Trap? No, I'm just asking a favor!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Dangerdeon, Super Temporal Trap"/>
+      <property name="Name2" value="&quot;Trap? No, I'm just asking a favor!&quot;"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/8"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="8"/>
+      <property name="Type" value="Neo Creature/Spell"/>
+      <property name="Type1" value="Neo Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Gransect Word"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Race2" value="Gransect Word"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put the top 3 cards of your deck into your mana zone tapped.&#xA;■ Once per turn, you may summon a creature from your mana zone.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's elements and put them into their owner's mana zone."/>
+      <property name="Rules1" value="■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put the top 3 cards of your deck into your mana zone tapped.&#xA;■ Once per turn, you may summon a creature from your mana zone."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's elements and put them into their owner's mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="29"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="3f444d44-8bb3-4031-87cc-181a3c199ae5" name="Baraghiara, Heavenly Earth Revolution">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Master Hazard/Gransect"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution nature creature, put that creature and put this creature on top of it.&#xA;■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;■ Your opponent's creatures that have 5000 power or less cant attack you."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="30"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="dbad5ac1-38e9-4c3a-99f0-466d622b4917" name="Geotajio, Dragon Armored">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Dragon Guild/Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Your creatures that have power 12000 or more can't leave except by losing a battle."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="31"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="9ee3ca8f-4c62-4fa8-88c1-ce4e0af9223a" name="Duel of Dedication">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Gransect Word"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ When you use this spell's &quot;Guard Strike&quot;, you may put all your opponent's creatures that have power 3000 or less into their owner's mana zone.&#xA;■ You may put the same number of cards in your mana zone from the top of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="32"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="e3b5c1b9-f6f4-443d-9a46-f116a2328cd4" name="Lulu Kirifuda">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="99999"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, you may draw a card for each of your Angel Commands. This creature can't leave until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="33"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="b5a97da1-c71b-4593-9306-00e5298f7630" name="Musasabimantra, Saving Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{NINJA CHANGE} 3 (Whenever one of your opponent's creatures attacks or blocks, if during that attack you didn't use a Ninja ability, you may switch one of your Mecha or Shinobi that costs 3 or more with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or it attacks, return up to 3 Shinobi cards from your graveyard to your hand.&#xA;■ At the end of each of your turns, untap this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="34"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="b0debf40-908b-4c6b-8294-aee08be12aea" name="Giganto Usagi Robo Future X">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Trinity Command"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, look at the top 3 cards of your deck. From among them, put any number of neo creatures and put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="0"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="35"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="b7b0f062-b108-4b32-8c24-5c7eb0de51bc" name="Generarose, Red Rose Dragon Elemental / &quot;It's a bald and hot spark!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Generarose, Red Rose Dragon Elemental"/>
+      <property name="Name2" value="&quot;It's a bald and hot spark!&quot;"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Civilization1" value="Light"/>
+      <property name="Civilization2" value="Light"/>
+      <property name="Cost" value="7/6"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="6"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Angel Command Word"/>
+      <property name="Race1" value="Angel Command Dragon/Revolutionary"/>
+      <property name="Race2" value="Angel Command Word"/>
+      <property name="Power" value="7500"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then you may put a non-evolution light creature that costs 6 or less from your hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose 2 of your opponent's creatures and tap them. Then you may draw a card for each of your opponent's tapped creatures."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then you may put a non-evolution light creature that costs 6 or less from your hand."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose 2 of your opponent's creatures and tap them. Then you may draw a card for each of your opponent's tapped creatures."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="36"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f0129b18-360d-42be-9ad7-0fb1be75cc63" name="Ganma, Ninja Chain Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, you may shieldify the top card of your deck.&#xA;■ Once per turn, whenever you put a card into your shield zone, Mecha Mechraid 5. Mecha {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a Mecha card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="37"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="5ac3c4e5-920e-4eff-b175-58564214442a" name="Dragon's Sign">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put a non-evolution Light dragon creature that costs 7 or less from your hand. That creature gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="38"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="1eeca631-7ee7-4d3b-ae35-de92fd53f6f0" name="Miracle Stop">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Gravity Zero: If you have an Angel Command Dragon, you may cast this spell for no cost.&#xA;■ Your opponent can't cast spells until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="39"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="7c7902ca-f614-4f76-91eb-8b8d233febed" name="Cosmoview Lunatron / &quot;This is my Tasogare Hell Punch!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Cosmoview Lunatron"/>
+      <property name="Name2" value="&quot;This is my Tasogare Hell Punch!&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="0/undefined"/>
+      <property name="Cost1" value="0"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="undefined"/>
+      <property name="Race1" value="undefined"/>
+      <property name="Rules" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ At the start of your turn, you may draw a card.&#xA;TWINPACT&#xA;■ Draw 2 cards.&#xA;■ Return all your creatures that have&quot;blocker&quot; to their owners' hands."/>
+      <property name="Rules1" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ At the start of your turn, you may draw a card."/>
+      <property name="Rules2" value="■ Draw 2 cards.&#xA;■ Return all your creatures that have&quot;blocker&quot; to their owners' hands."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="40"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f0fec8de-7ab3-4320-9b92-35cd58d0c916" name="Script">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, choose another creatureand return it to its owner's hand. Then you may put a creature that costs less than that creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="41"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f99e32ce-2e81-4af6-832f-fcaaef6d1196" name="Idol Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Fusioner"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■When this card is put into your graveyard, if just before it was in the battle zone, Cyber Mechraid 8. Cyber {MECHRAID} 8 - Look at the top 3 cards of your deck. From among them, you may use a Cyber card that costs 8 or less for no cost. Put the rest on the bottom of your deck in any order.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;{Blocker}"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="42"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="68e183da-32b0-4059-b0db-0c358adb82a9" name="Tatamimantra, Defending Chaos / &quot;You’re not getting through here!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Tatamimantra, Defending Chaos"/>
+      <property name="Name2" value="&quot;You’re not getting through here!&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="3/4"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="4"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi/Shinobi Word"/>
+      <property name="Race1" value="Mecha Del Stella/Shinobi"/>
+      <property name="Race2" value="Shinobi Word"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. Then you may return a Shinobi card from your graveyard to your hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 4 cards of your deck into your graveyard. Then destroy one of your opponent's creatures that costs the same as or less than the number of cards in your graveyard."/>
+      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. Then you may return a Shinobi card from your graveyard to your hand."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Put the top 4 cards of your deck into your graveyard. Then destroy one of your opponent's creatures that costs the same as or less than the number of cards in your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="43"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="eca11435-d91a-41ed-be28-073e4e4791e5" name="Pluto Tidelock, Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Shinobi/Phoenix"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ If you have a total of 5 or more elements and cards in your mana zone that have a Shinobi and/or Phoenix race, you may summon this creature by paying Darkness 2:.&#xA;■ Graveyard Galaxy Vortex Evolution: Choose 3 creatures in your graveyard and put this creature on top of those creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, put the top 3 cards of your deck into your graveyard. Then choose one of your opponent's creatures and destroy it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="44"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="76e69deb-b7a1-4bd0-9532-2aad9e4ed647" name="Makibishimantra, Running Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 3 (Darkness) (Whenever one of your opponent's creatures attacks or blocks, if you have 3 or more cards in your mana zone and at least one of them is a darkness card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ Whenever your opponent breaks one or more of your shields, they choose one of their untapped creatures and destroys it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="45"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="340e60ba-abfe-4ca8-8fd5-3393c497231f" name="The Universe Gate">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Reveal the top 3 cards of your deck. For each Phoenix creature revealed this way, take an extra turn after this one. (Return the revealed cards to the top of your deck in the same order they were revealed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="46"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="dc008b51-0cae-4628-9a2b-e646e6a4444d" name="Cabbage Sessions / Soilpimp Cabbage">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Cabbage Sessions"/>
+      <property name="Name2" value="Soilpimp Cabbage"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="9/5"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Neo Creature/Spell"/>
+      <property name="Type1" value="Neo Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a creature, you may put a nature creature that has power 12000 or more that costs 1 less than that creature from your mana zone.&#xA;TWINPACT&#xA;■ This turn, the next nature creature that has power 12000 or more you summon may cost up to 8 less to summon. It can't cost 0 or less."/>
+      <property name="Rules1" value="■ Neo Evolution: You may put it on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever you put a creature, you may put a nature creature that has power 12000 or more that costs 1 less than that creature from your mana zone."/>
+      <property name="Rules2" value="■ This turn, the next nature creature that has power 12000 or more you summon may cost up to 8 less to summon. It can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="47"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="2d791e25-876d-405b-9bb7-fa7273515d95" name="Kolencoco Tank / Bonto Plantbo">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Kolencoco Tank"/>
+      <property name="Name2" value="Bonto Plantbo"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="6/3"/>
+      <property name="Cost1" value="6"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. From among them, put any number of creatures that have power 12000 or more into your hand and put the rest into your mana zone tapped.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone. If it's a creature that has power 12000 or more, put the top card of your deck into your mana zone."/>
+      <property name="Rules1" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack players.&#xA;■ When you put this creature, reveal the top 3 cards of your deck. From among them, put any number of creatures that have power 12000 or more into your hand and put the rest into your mana zone tapped."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone. If it's a creature that has power 12000 or more, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="48"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="029aacea-715a-4e54-8516-4392118263fb" name="Q.Q.G.QX. / &quot;I won't let you touch this child!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Q.Q.G.QX."/>
+      <property name="Name2" value="&quot;I won't let you touch this child!&quot;"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="4/7"/>
+      <property name="Cost1" value="4"/>
+      <property name="Cost2" value="7"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Gransect Word"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Race2" value="Gransect Word"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ This creature can't attack players.&#xA;■ When you put this creature, you may put the top card of your deck into your mana zone.&#xA;■ Your opponent can't look at, reveal, or rearrange the order of their deck.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Shuffle your deck, then reveal the top card. If its a creature that has power 12000 or more, you may put it tapped. Until the start of your next turn, whenever one of your opponent's creatures attack, they attack that creature if able."/>
+      <property name="Rules1" value="■ This creature can't attack players.&#xA;■ When you put this creature, you may put the top card of your deck into your mana zone.&#xA;■ Your opponent can't look at, reveal, or rearrange the order of their deck."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Shuffle your deck, then reveal the top card. If its a creature that has power 12000 or more, you may put it tapped. Until the start of your next turn, whenever one of your opponent's creatures attack, they attack that creature if able."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="49"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="53730ca3-ff65-440a-980e-ca9e75ce5f6d" name="Jupiter Callistoeffect, Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Gransect/Phoenix"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ If you have a total of 5 or more elements and cards in your mana zone that have a Gransect and/or Phoenix race, you may summon this creature by paying Nature 3:.&#xA;■ Mana Galaxy Vortex Evolution: Choose 3 creatures in your mana zone and put this creature on top of those creatures.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If you do, choose one of opponent's creatures and put it into its owner's mana zone. Then put the top 2 cards of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="50"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="de4cb1d4-dc8b-4882-b769-f63352a985d2" name="Blue Rose's Jewel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this tamaseed is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, you may choose one of your opponent's elements that costs 5 or less and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="51"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="64711cec-a994-4944-9cdd-ede882e5f875" name="Naikuna, Blinking Appearance Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Ultra Saver: Mecha (When one of your Mecha would leave, you may destroy this creature instead.)&#xA;■ Whenever an opponent's creatures attacks, if you have a Mecha, you may put this creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="52"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="45b4b524-38f1-4f9c-ad41-0f849d4214a1" name="Mukade, Ninja Feet Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Once per turn, whenever one of your Shinobi taps for the first time, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="53"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="34de608f-0010-4309-b9fa-9749a3c26cf6" name="Valhalla's Jewel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Rules" value="{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ Your opponent can't take extra turns.&#xA;■ Your can't lose the game in any way except by being attacked."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="54"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a79f5ff9-9d68-43af-b029-1ec53e8fbf66" name="Belufall, Starlight Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ Whenever your opponent would put a creature from anywhere other than their hand, put it into its owner's hand instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="55"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="5f8a1d21-a102-4055-9556-ed2b25259998" name="Pakurio">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, look at your opponent's hand. You may choose a card from among it and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="56"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="040c7e0f-9aab-43ad-b982-167a56029a3b" name="Tensai Heart, Hideaway Hidden Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Great Mecha King/Shinobi"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 3 (Water) (Whenever one of your opponent's creatures attacks or blocks, if you have 3 or more cards in your mana zone and at least one of them is a water card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, draw 2 cards, then discard a card from your hand. Until the start of your next turn, each of your opponent's creatures that cost the same as the discarded card can't attack or block."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="57"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="25b5341c-bb5a-419d-bed9-32b437349c76" name="Hartmeral">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord/Fusioner"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Water creatures that evolve from this creature cost 2 less to summon. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="58"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="5739a60c-e565-4c6e-9ff2-cfff0f82a96b" name="Caclarico">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="■ Whenever your opponent puts a creature in a way except by summoning, your opponent puts it on the top or bottom of their deck.&#xA;■ During your opponent's turn, when this creature leaves, you may draw a card. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="59"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="bfd071ce-dc43-4c4f-a6a4-ca11fb2baad8" name="Reverse Lapia / &quot;This is what happens when you defy the Dark Lord ♪&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Reverse Lapia"/>
+      <property name="Name2" value="&quot;This is what happens when you defy the Dark Lord ♪&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="5/3"/>
+      <property name="Cost1" value="5"/>
+      <property name="Cost2" value="3"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Fire Bird/Zombie Dragon/Fire Bird Word"/>
+      <property name="Race1" value="Fire Bird/Zombie Dragon"/>
+      <property name="Race2" value="Fire Bird Word"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. If you do, choose one of your opponent's creatures that costs less than the number of cards in your graveyard and destroy it.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your graveyard. Then you may return a Phoenix card from your graveyard to your hand.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard. If you do, choose one of your opponent's creatures that costs less than the number of cards in your graveyard and destroy it."/>
+      <property name="Rules2" value="■ Put the top card of your deck into your graveyard. Then you may return a Phoenix card from your graveyard to your hand.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="60"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="872e6799-b76e-4c92-b770-9a1cd0d1eaf6" name="Oogumo, Spider Paper Holy Chaos / &quot;That's a Shinobi's destiny...&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Oogumo, Spider Paper Holy Chaos"/>
+      <property name="Name2" value="&quot;That's a Shinobi's destiny...&quot;"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Civilization1" value="Darkness"/>
+      <property name="Civilization2" value="Darkness"/>
+      <property name="Cost" value="2/5"/>
+      <property name="Cost1" value="2"/>
+      <property name="Cost2" value="5"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi/Shinobi Word"/>
+      <property name="Race1" value="Mecha Del Stella/Shinobi"/>
+      <property name="Race2" value="Shinobi Word"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Whenever your opponent puts a creature in any way except by summoning, destroy that creature.&#xA;TWINPACT&#xA;■ Put a Shinobi that costs 7 or less from your graveyard."/>
+      <property name="Rules1" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Whenever your opponent puts a creature in any way except by summoning, destroy that creature."/>
+      <property name="Rules2" value="■ Put a Shinobi that costs 7 or less from your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="61"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="aad9f013-cdcc-46b1-855d-e4f9a7c7a9ef" name="Metaverse Lapia, Hideaway Hidden Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Fire Bird/Shinobi"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 3 (Fire) (Whenever one of your opponent's creatures attacks or blocks, if you have 3 or more cards in your mana zone and at least one of them is a fire card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, destroy all elements that cost 2 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="62"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="aa910194-ec6f-4299-a676-cac9c121016d" name="Aple, Great Elder / &quot;Am I the Nature Civilization's Princess?&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Aple, Great Elder"/>
+      <property name="Name2" value="&quot;Am I the Nature Civilization's Princess?&quot;"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="8/1"/>
+      <property name="Cost1" value="8"/>
+      <property name="Cost2" value="1"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect/Gransect Word"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Race2" value="Gransect Word"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ This creature can't attack players.&#xA;TWINPACT&#xA;■ Reveal the top 3 cards of your deck. Put a creature that has power 12000 or more from among them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Rules1" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ This creature can't attack players."/>
+      <property name="Rules2" value="■ Reveal the top 3 cards of your deck. Put a creature that has power 12000 or more from among them into your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="63"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="57321a1e-d36b-4ba2-b5c8-aa6ed8a9a29e" name="Deathmatch Beetle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Giant Insect"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{GUARDMAN} (You may tap this creature to change the attack target of your opponent's creature from your other creatures to this creature.)&#xA;■ This creature can't attack.&#xA;■ During your opponent's turn, whenever your opponent puts a creature for no cost, you may have that creature battle this creature."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="64"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="8c262698-80c8-49ef-a57d-d454d7660785" name="Queen and Kabochauchau">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ This creature can't attack.&#xA;■ Whenever your opponent would put a creature that costs more than the number of cards in their mana zone, put that creature into its owner's mana zone instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="65"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="275bc041-fe62-450c-a162-bb23272252a6" name="Soul Calling">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Choose a race, then search your deck. From among it, reveal up to 3 creatures that have the chosen race and different names. Then shuffle your deck and put them on top of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="66"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="65780681-f5c9-4111-9083-1050da9e9d5c" name="Jumbo Rapadise">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 4 cards of your deck. Add all creatures that have power 12000 or more from among them to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="67"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="9d49c434-b516-4492-8a38-d41c9e9537f7" name="Alca Girl, Holy Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, draw a card.&#xA;■ Your Command creatures cost 2 less to summon. They can't cost less than 1."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="68"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="8fc3bcb1-b872-4bf9-9485-9ddbea444623" name="Poppo Juvira, Winged God-destroyer">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Zombie Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;■ Whenever you would summon an evolution Phoenix creatures, you may put it on top of one of your creatures in your graveyard instead of one of your creatures in the battle zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="69"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="591891ee-75a9-4344-9b45-95cf79efb2a0" name="Commanduo, Order Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card. Then you may put a non-evolution light creature that costs 5 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="70"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="b590579b-8731-46cd-94df-006ad135d31b" name="Red Rose, Crimson Dragon Elemental">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, draw a card.&#xA;{MANA ARMS} 3: When you put this creature, if you have 3 or more light cards in your mana zone, you may put a non-evolution light creature that costs 4 or less from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="71"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="13111697-2290-4dc2-adda-154e1fa7fb5b" name="Utsusemimantra, Dodging Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 5 (Light) (Whenever one of your opponent's creatures attacks or blocks, if you have 5 or more cards in your mana zone and at least one of them is a light card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, shieldify the top card of your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="72"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="82abc49e-2593-4cd8-a3db-b82f7740d96a" name="Dekokick Dekorianu, Hideaway Hidden Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command Dragon/Mecha Del Sol/Shinobi"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 3 (Light) (Whenever one of your opponent's creatures attacks or blocks, if you have 3 or more cards in your mana zone and at least one of them is a light card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="73"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="7c8e27a1-7650-4b1f-b44e-f55bec6d455f" name="Narco, Alarmbell Holy Chaos">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top 5 cards of your deck. You may reveal a Mecha or Shinobi from among them and add it to your hand. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="74"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f49d1fe7-2a6e-4fcb-b294-a9fffdd7cf68" name="Southern's Jewel">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Tamaseed"/>
+      <property name="Race" value="Angel Command Dragon"/>
+      <property name="Rules" value="{SHINKARISE}: You may put evolution creatures on this tamaseed as if it were a creature.&#xA;■ When you put this tamaseed, if you have another Angel, draw a card.&#xA;■ Once per turn, your Command cards may cost 1 less to play. They can't cost 0 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="75"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="876695c6-12e1-4371-b044-42b2e9c45cd4" name="Backdoor, Holy Chaos Ninpo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Mecha Del Tech/Shinobi"/>
+      <property name="Rules" value="■ You may tap one of your Mecha. If you do, Mecha Mechraid 5. Mecha {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a Mecha card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="76"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="f30c0cdb-008c-495b-b005-ead8a3825aaf" name="Paradise Aroma / &quot;Challenge, it's an Endless Spiral!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Paradise Aroma"/>
+      <property name="Name2" value="&quot;Challenge, it's an Endless Spiral!&quot;"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Civilization1" value="Water"/>
+      <property name="Civilization2" value="Water"/>
+      <property name="Cost" value="3/2"/>
+      <property name="Cost1" value="3"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Cyber Virus/Cyber Word"/>
+      <property name="Race1" value="Cyber Virus"/>
+      <property name="Race2" value="Cyber Word"/>
+      <property name="Power" value="2000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If there is a Cyber Lord in the battle zone, you may summon this creature for no cost.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Rules1" value="{GRAVITY ZERO} If there is a Cyber Lord in the battle zone, you may summon this creature for no cost."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose a creature in the battle zone and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="77"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="46b3e079-cbe5-48f4-8342-f8fe3a4f2f5e" name="Maxhart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Lord"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ When you put this creature, you may return one of your other elements to your hand. If you do, Cyber Mechraid 5. Cyber {MECHRAID} 5 - Look at the top 3 cards of your deck. From among them, you may use a Cyber card that costs 5 or less for no cost. Put the rest on the bottom of your deck in any order."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="78"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="3a91439b-16a6-488a-a95d-599025c391de" name="Jelly Ronin">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, look at the top card of your deck. If it's a Cyber card, you may reveal it and add it to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="79"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="3b94fdb5-504a-4a16-b461-e6ed0a6249b2" name="Flower Heart">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cyber Virus/Fusioner"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When this card is put into your graveyard, if just before it was in the battle zone, you may draw a card.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Whenever this creature attacks, you may draw a card. If you do, discard a card from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="80"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="53772875-28f7-4f1c-abb4-ac4e7b54bd05" name="&quot;Th, This is Secret Ninja, Fire Style Jutsu!!&quot;">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Race" value="Shinobi Word"/>
+      <property name="Rules" value="■ Attack Chance: Shinobi (Whenever one of your Shinobi attacks, you may play this card for no cost.)&#xA;■ Your opponent chooses a card in their hand and discards it.&#xA;■ Choose one of your opponent's creatures. That creature gets -3000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="81"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="6aa0f76e-cc46-4e36-b672-ffb48f353c1a" name="Pappi Rappy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird"/>
+      <property name="Power" value="1000"/>
+      <property name="Rules" value="■ When you put this creature, search your deck. You may reveal a Phoenix creature from among it. Then shuffle your deck and put that card on top of it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="82"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="e2ae674b-a13c-49f7-a4d0-586a14ed3aa5" name="Ichigotchi Tank / Let's Goichigo">
+      <property name="Format" value="OCG"/>
+      <property name="Name1" value="Ichigotchi Tank"/>
+      <property name="Name2" value="Let's Goichigo"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Civilization1" value="Nature"/>
+      <property name="Civilization2" value="Nature"/>
+      <property name="Cost" value="7/2"/>
+      <property name="Cost1" value="7"/>
+      <property name="Cost2" value="2"/>
+      <property name="Type" value="Creature/Spell"/>
+      <property name="Type1" value="Creature"/>
+      <property name="Type2" value="Spell"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Race1" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone."/>
+      <property name="Rules1" value="{TRIPLE BREAKER}"/>
+      <property name="Rules2" value="■ Put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="83"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="36debbca-6589-4eb3-a8b8-3bc576b1b0b9" name="Messer Schmitt, Hideaway Hidden Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect/Mecha Spriggan/Shinobi"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 3 (Nature) (Whenever one of your opponent's creatures attacks or blocks, if you have 3 or more cards in your mana zone and at least one of them is a nature card and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose a creature. This turn, that creature gets +4000 power and can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="84"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="16326e25-48ee-468f-890e-1842c4e77fc9" name="Totenton and Bontobo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="85"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="7e44e6a3-8075-4135-93e4-280ee1762cef" name="Zalber Lapia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Earth Dragon"/>
+      <property name="Power" value="3000"/>
+      <property name="Rules" value="■ When you put this creature, put the top card of your deck into your mana zone tapped. If it's a Phoenix card or a Fire Bird card, put the top card of your deck into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="86"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="15ad84b7-e845-45a4-8346-a8e061d3b900" name="Bonto Plantbo">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Put the top card of your deck into your mana zone. If it's a creature that has power 12000 or more, put the top card of your deck into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="87"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="c3714aa9-e23c-4377-bc38-780b45de679e" name="Nature Glennya">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Flame Monster/Blue Monster/Emerald Monster"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Gravity Zero: If you have a Phoenix, you may summon this creature for no cost.&#xA;■ When you put this creature, draw a card. Then you may put a card from your hand into your mana zone tapped."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Uncommon"/>
+      <property name="Number" value="88"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="d26d9f2e-eac5-4076-a610-286384eb2763" name="Bigbang Lapia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire/Nature"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Fire Bird/Fusioner"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="■ You may summon this creature from your graveyard or mana zone.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ You may evolve Phoenix creatures from this creature as if it had any race or any civilization."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="89"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="0ed01b49-4dc3-41a1-bee7-b9674bcefe86" name="Miracle Miradante">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary"/>
+      <property name="Power" value="14500"/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution light creature, put that creature and put this creature on top of it.&#xA;■ Evolution: Put on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, it gets &quot;Blocker&quot; and your opponent's Commands can't attack until the start of your next turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Legend Card"/>
+      <property name="Number" value="MC1"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="51795cc0-6fdf-48fa-a74e-da59693606a9" name="Chaosmantra, Holy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="9500"/>
+      <property name="Rules" value="{NINJA CHANGE} 5 (Whenever one of your opponent's creatures attacks or blocks, if during that attack you didn't use a Ninja ability, you may switch one of your Mecha or Shinobi that costs 5 or more with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, tap all your opponent's creatures.&#xA;■ Your opponent's creatures can't attack the turn they are put."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Over Rare"/>
+      <property name="Number" value="MC2"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="446b5ce7-e915-4f00-aa4d-26acc29b92a5" name="Ultimate Galaxy Universe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="17000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Phoenix creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's the last card under this creature and it was a Phoenix, you win the game."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="MC3"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="9881afba-512d-4e49-903b-513bf4bde19f" name="Twilight Sigma, the Super-Electric">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Cyber creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may return any number of your non-evolution Cybers from the battle zone to your hand. Then for each creature returned in this way, you may put a non-evolution Cyber creature from your hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="MC4"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="0539c56c-491c-4d65-8f94-1ed87143c30d" name="Great Grasper">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="14000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put it on one of your nature creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose a creature and put it into its owner's mana zone.&#xA;■ Whenever one of your neo creatures attacks, you may put a creature that has power less than that creature from your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="MC5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="327e9c2c-66ec-4018-ba57-72b03f0dd4e9" name="Perfect Alcadeia">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water"/>
+      <property name="Cost" value="4"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Revolution 2: If you have 2 shields or less, this spell put into your hand from your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may chooses the same one twice.):&#xA;► Reveal the top 2 cards of your deck. Put all Light and Water cards from among them into your hand, and put the rest on the bottom of your deck in any order:&#xA;► Shieldify the top card of your deck:&#xA;► Choose an element that costs 3 or less and shieldify it."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="MC6"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="ebffd0bf-1ce7-4242-9825-0e42a9523c3c" name="Zero Phoenix, Phoenix of Darkness">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness/Fire"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="11000"/>
+      <property name="Rules" value="■ Vortex evolution: Put on one of your darkness creatures and one of your fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature would break a shield, your opponent puts that shield into their graveyard instead.&#xA;■ When this creature leaves, your opponent chooses 2 cards from their hand and discards them. Then you may choose up to 2 cards in your opponent's mana zone. Your opponent puts them into their graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="MC7"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="66c53285-632d-4976-b6ce-3e108393852a" name="Astral Reef">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="2"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Cyber Virus"/>
+      <property name="Power" value="4000"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Cyber Virus creatures.&#xA;■ When you put this creature, you may draw 3 cards."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="MC8"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="cd44f566-a0b5-45bd-88d3-4feefc9708dd" name="Chaosmantra, Fallen">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{NINJA CHANGE} 3 (Whenever one of your opponent's creatures attacks or blocks, if during that attack you didn't use a Ninja ability, you may switch one of your Mecha or Shinobi that costs 3 or more with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, each of your opponent's creatures attack if able until the start of your next turn.&#xA;■ Each of your creatures gets &quot;slayer&quot;."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="MC9"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="ad37e0e0-45a1-4ab3-983b-c35b7bbc441b" name="Queen of Nature">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Sympathy: Nature creature (This creature costs 1 less to summon for each of your nature creatures. It can't cost less than 1.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your nature creatures gets &quot;Mach Fighter&quot;.&#xA;■ Whenever one of your creatures that has power 12000 or more attacks, reveal the top card of your deck. If it's a creature that has power 12000 or more, put it. Otherwise, put it into your mana zone."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Very Rare"/>
+      <property name="Number" value="MC10"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="1a46b8f3-bbd8-4965-add1-53fba3bef23a" name="Dorago the Great, Dragon World">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Red Command Dragon"/>
+      <property name="Power" value="13000"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, you may choose one of your creatures and one of your opponent's creatures. Those 2 creatures battle.&#xA;■ Whenever a non-dragon creature would be put into the battle zone, put it into its owner's graveyard instead."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Victory Rare"/>
+      <property name="Number" value="PR1"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a7d6c9db-7d38-45de-8551-467cb15ead9d" name="Genmu Emperor, Infinite Dragon">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Darkness"/>
+      <property name="Cost" value="Infinity"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Infinite Master Dragon/Team Zero"/>
+      <property name="Power" value="Infinity"/>
+      <property name="Rules" value="{MUGEN CLIMB} Water/Darkness 4(You may summon this creature from your hand or graveyard by tapping 4 of your creatures and paying Water/Darkness 4.)&#xA;{INFINITY BREAKER}&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Ignore the abilities of creatures and effects of spells that cost 5 or less."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="King Master Card"/>
+      <property name="Number" value="PR2"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a037ee6c-7837-4f78-aad7-b17c5c9da47a" name="Baiken, Blue Dragon of the Hidden Blade">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Poseidia Dragon/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When this creature would be discarded from your hand during your opponent's turn, you may put it instead. If you do, you may choose a creature and return it to its owner's hand.&#xA;■ Whenever you use a &quot;Ninja Strike&quot; ability of your Shinobi, you may draw a card."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="PR3"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="24de73b9-b6ba-4e96-9806-10e838d17564" name="Romanesque, Dragon Wizard">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Apollonia Dragon/Armored Dragon/Earth Dragon"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put the top 4 cards of your deck into your mana zone.&#xA;■ At the end of each of your turns, put a card from your mana zone into your graveyard."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Super Rare"/>
+      <property name="Number" value="PR5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="4bf2100a-33ef-4a28-82f5-949876ebd6ff" name="Lulu Takigawa and Rafululu ~Heroine of Radiance~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
+      <property name="Power" value="17500"/>
+      <property name="Rules" value="■ Double Sympathy: Angel Command (This creature costs 2 less to summon for each of your Angel Commands. It can't cost 0 or less.)&#xA;■ Neo Evolution: You may put this on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, draw 2 cards. Then you may put up to 2 Angel Commands that cost 7 or less from your hand.&#xA;■ Each of your creatures get &quot;blocker&quot; and untaps at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR1"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="b6fdb655-ee1a-4c3c-bba1-b2c4f3121625" name="Mimi Tasogare and Twilight Mk3 ~Heroine of Challenge~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put this on one of your water creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, if its an evolution creature, Cyber Mechraid 8. If it's not, Cyber Mechraid 5.&#xA;■ Once per turn, whenever you put another Cyber creature, you may choose a creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR2"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="41904126-ba21-48f2-ae55-322e5bdc417f" name="Karen Honnouji and Chaosmantra ~Heroine of Betrayal~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 5 (Darkness)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may reveal any number of Shinobi cards from your hand. For each card revealed this way and for each of your Shinobi, each of your opponent's creatures gets -1000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR3"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="609c8b7b-245a-498f-8114-4d37bb2ff91c" name="Momo Uraraka and Minomaru ~Heroine of Devotion~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Gravity Zero: If you have 4 or more creatures that have power 12000 or more, you may summon this creature for no cost.&#xA;■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Once per turn, when your opponent would play a non-creature card, you may put that card into their mana zone instead. (Cards put into their mana zone in this way aren't considered played.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR4"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="a0308e59-a6e0-4886-afc4-f789c7357483" name="Quasar Love Expansion, Super Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="G-Neo Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="1dcce23d-0b5e-4303-afe1-6cf0f95b5f6e" name="Lulu Takigawa and Rafululu ~Heroine of Radiance~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
+      <property name="Power" value="17500"/>
+      <property name="Rules" value="■ Double Sympathy: Angel Command (This creature costs 2 less to summon for each of your Angel Commands. It can't cost 0 or less.)&#xA;■ Neo Evolution: You may put this on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, draw 2 cards. Then you may put up to 2 Angel Commands that cost 7 or less from your hand.&#xA;■ Each of your creatures get &quot;blocker&quot; and untaps at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙1/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="84daa8d1-a060-421d-80d0-fa6d404d10a5" name="Lulu Takigawa and Rafululu ~Heroine of Radiance~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="11"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Angel Command Dragon/Revolutionary/Team Doremi"/>
+      <property name="Power" value="17500"/>
+      <property name="Rules" value="■ Double Sympathy: Angel Command (This creature costs 2 less to summon for each of your Angel Commands. It can't cost 0 or less.)&#xA;■ Neo Evolution: You may put this on one of your light creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, draw 2 cards. Then you may put up to 2 Angel Commands that cost 7 or less from your hand.&#xA;■ Each of your creatures get &quot;blocker&quot; and untaps at the end of your turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙1超/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="761aac2d-db2c-45c0-8beb-cf455ca37a22" name="Mimi Tasogare and Twilight Mk3 ~Heroine of Challenge~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put this on one of your water creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, if its an evolution creature, Cyber Mechraid 8. If it's not, Cyber Mechraid 5.&#xA;■ Once per turn, whenever you put another Cyber creature, you may choose a creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙2/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="5b53492e-72d0-4c88-8144-c70380982743" name="Mimi Tasogare and Twilight Mk3 ~Heroine of Challenge~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Cyber Command"/>
+      <property name="Power" value="8000"/>
+      <property name="Rules" value="■ Neo Evolution: You may put this on one of your water creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, if its an evolution creature, Cyber Mechraid 8. If it's not, Cyber Mechraid 5.&#xA;■ Once per turn, whenever you put another Cyber creature, you may choose a creature and return it to its owner's hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙2超/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="d2b52853-622a-4a9d-ba3d-a2abdfd831d3" name="Karen Honnouji and Chaosmantra ~Heroine of Betrayal~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 5 (Darkness)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may reveal any number of Shinobi cards from your hand. For each card revealed this way and for each of your Shinobi, each of your opponent's creatures gets -1000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙3/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="99aa921f-c415-4881-b278-bd8eaaabf7dd" name="Karen Honnouji and Chaosmantra ~Heroine of Betrayal~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Mecha Del Stella/Shinobi"/>
+      <property name="Power" value="6000"/>
+      <property name="Rules" value="■ Ura Ninja Strike 5 (Darkness)&#xA;{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may reveal any number of Shinobi cards from your hand. For each card revealed this way and for each of your Shinobi, each of your opponent's creatures gets -1000 power until the end of the turn."/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙3超/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="3a025a2e-749a-4596-99c0-907559365d7a" name="Momo Uraraka and Minomaru ~Heroine of Devotion~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Gravity Zero: If you have 4 or more creatures that have power 12000 or more, you may summon this creature for no cost.&#xA;■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Once per turn, when your opponent would play a non-creature card, you may put that card into their mana zone instead. (Cards put into their mana zone in this way aren't considered played.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙4/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="d39a5ed1-b408-44d7-9720-c6dc5bd98211" name="Momo Uraraka and Minomaru ~Heroine of Devotion~">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Nature"/>
+      <property name="Cost" value="10"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Gransect"/>
+      <property name="Power" value="15000"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this creature from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Gravity Zero: If you have 4 or more creatures that have power 12000 or more, you may summon this creature for no cost.&#xA;■ Neo Evolution: You may put this on one of your nature creatures.&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {TRIPLE BREAKER}&#xA;■ Once per turn, when your opponent would play a non-creature card, you may put that card into their mana zone instead. (Cards put into their mana zone in this way aren't considered played.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙4超/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="86ec3a33-00b9-408f-8951-b9d67efd7866" name="Quasar Love Expansion, Super Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="G-Neo Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙5/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+    <card id="770e41ee-04ef-4668-94cc-899651ef403a" name="Quasar Love Expansion, Super Love Galaxy">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
+      <property name="Cost" value="6"/>
+      <property name="Type" value="G-Neo Creature"/>
+      <property name="Race" value="Phoenix"/>
+      <property name="Power" value="16000"/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Heroine Rare"/>
+      <property name="Number" value="SPR㊙5超/SPR㊙5"/>
+      <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
+    </card>
+  </cards>
+</set>

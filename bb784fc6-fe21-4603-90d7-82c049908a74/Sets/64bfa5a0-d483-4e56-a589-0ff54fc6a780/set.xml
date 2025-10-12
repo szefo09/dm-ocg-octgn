@@ -88,7 +88,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Armored Dragon"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ This creature costs 1 less to summon for each Angel Command and Armored Dragon in your graveyard. It can't cost less than 2.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ This creature costs 1 less to summon for each Angel Command and Armored Dragon in your graveyard. It can't cost 1 or less.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{POWER ATTACKER} +4000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -775,7 +775,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon creature, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

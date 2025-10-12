@@ -76,7 +76,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature becomes an evolution source, untap it each time it wins a battle this turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="CP3c"/>
@@ -3072,9 +3072,9 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P46"/>
     </card>
-    <card id="1da3018a-2fac-406d-80b4-106498ba7845" name="Sa Kyura Kyurax / Five Start Up">
+    <card id="3f2c10c9-f3e2-4d10-b127-0c87afc05767" name="S.Q.QX / Five Start Up">
       <property name="Format" value="OCG"/>
-      <property name="Name1" value="Sa Kyura Kyurax"/>
+      <property name="Name1" value="S.Q.QX"/>
       <property name="Name2" value="Five Start Up"/>
       <property name="Civilization" value="Nature"/>
       <property name="Civilization1" value="Nature"/>
@@ -3547,7 +3547,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution fire creature, put this creature on top of it.&#xA;■ Evolution: Put on one of your fire creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, you may choose one of your opponent's creatures in the battle zone. This creature and that creature battle."/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution fire creature, put that creature into the battle zone, and put this creature on top of it.&#xA;■ Evolution: Put on one of your fire creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, you may choose one of your opponent's creatures in the battle zone. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P55"/>
@@ -3738,7 +3738,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution fire creature, put this creature on top of it.&#xA;■ Evolution: Put on one of your fire creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, you may choose one of your opponent's creatures in the battle zone. This creature and that creature battle."/>
+      <property name="Rules" value="■ Revolution 0 Trigger: Whenever a creature attacks you, if you have no shields, you may reveal this creature from your hand. If you do, reveal the top card of your deck. If it's a non-evolution fire creature, put that creature into the battle zone, and put this creature on top of it.&#xA;■ Evolution: Put on one of your fire creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature or whenever it attacks, you may choose one of your opponent's creatures in the battle zone. This creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P58"/>
@@ -3960,7 +3960,7 @@
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Your opponent chooses one of their creatures and puts it into its owner's mana zone.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, you may draw a card."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Your opponent chooses one of their creatures and puts it into its owner's mana zone.&#xA;■ If you have a creature in the battle zone that has power 6000 or more, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P61"/>
@@ -3997,7 +3997,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon creature, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -4154,7 +4154,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="15500"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have 5 or more Angel Command creatures in the battle zone, you may summon this creature for no cost.&#xA;■ Evolution—Put on one of your Angel Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Your opponent can't cast spells.&#xA;■ Your opponent's creatures cost 5 more to summon."/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 5 or more Angel Command creatures in the battle zone, you may summon this creature for no cost.&#xA;■ Evolution: Put on one of your Angel Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Your opponent can't cast spells.&#xA;■ Your opponent's creatures cost 5 more to summon."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P65"/>
@@ -4179,7 +4179,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown/Zenith"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, return all your opponent's creatures to their owners' hands.&#xA;■ Whenever your opponent would put a command or dragon creature, put it into their graveyard instead.&#xA;{ETERNAL OMEGA} (When this creature would leave, return it to your hand instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>

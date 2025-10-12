@@ -51,7 +51,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ Neo Evolution:You may put this creature on top of one of your water, darkness or fire creatures.&#xA;■ Super Soul Raid (When you put this creature, reveal the top 3 cards of your deck. You may choose one from among them that can be an evolution source for this creature and put it under this creature. Put the rest on the bottom of your deck in any order.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When this creature is destroyed, put any number of creatures from your graveyard they were under it that have total cost 5 or less. Then you may return any number of other cards under it from your graveyard to your hand."/>
+      <property name="Rules" value="■ Neo Evolution:You may put this creature on top of one of your water, darkness or fire creatures.&#xA;■ Super Soul Raid (When you put this creature, reveal the top 3 cards of your deck. You may choose one from among them that can be an evolution source for this creature and put it under this creature. Put the rest on the bottom of your deck in any order.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When this creature is destroyed, put any number of creatures from your graveyard that were under it that have total cost 5 or less. Then return any number of other cards that were under it from your graveyard to your hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="3"/>
@@ -385,7 +385,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shine Monster/Techno Samurai/Fusioner"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Whenever this creature attacks, if this creature as 3 or more cards under it, your opponent chooses 2 of their untapped creatures and taps them. They don't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack players.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Whenever this creature attacks, if this creature has 3 or more cards under it, your opponent chooses 2 of their untapped creatures and taps them. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="31"/>
@@ -973,7 +973,7 @@
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
+      <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Magic Angel Command"/>
       <property name="Power" value="5500"/>
       <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or nature creatures.&#xA;■ Super Soul Raid (When you put this creature, reveal the top 3 cards of your deck. You may choose one from among them that can be an evolution source for this creature and put it under this creature. Put the rest on the bottom of your deck in any order.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose one of your opponents elements and shieldify it.&#xA;■ When this creature is destroyed, put all cards under it from your graveyard under one of your Neo Creatures or Evolution Creatures or shieldify them as one shield face up."/>
@@ -1060,7 +1060,7 @@
       <property name="Type" value="G-Neo Creature"/>
       <property name="Race" value="Angel Command/Techno Samurai"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, fire or nature creatures.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ Your Neo Evolution Creatures won't leave if they consist of 3 or more cards and have more than 0 power.&#xA;■ Whenever one of your Neo Creatures attacks, you may put the top card of your deck into your mana zone. If you do, put a creature from your mana zone under that Neo Creature or put it into your hand."/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, fire or nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature, and when it would leave, all cards under it leave instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ Your Neo Evolution Creatures won't leave if they consist of 3 or more cards and have more than 0 power.&#xA;■ Whenever one of your Neo Creatures attacks, you may put the top card of your deck into your mana zone. If you do, put a creature from your mana zone under that Neo Creature or put it into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="S8"/>
@@ -1082,7 +1082,7 @@
       <property name="Civilization" value="Water/Darkness/Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If you have 6 or more cards in your graveyard, you may pay 4/Water/Darkness/Fire: to cast this spell.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;►Discard all cards in your hand and draw one more card than that number:&#xA;► Choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand:&#xA;► Put a creature that costs 5 or less from your graveyard. That creature gets &quot;speed attacker&quot; and is destroyed at the end of the turn."/>
+      <property name="Rules" value="■ If you have 6 or more cards in your graveyard, you may pay Water/Darkness/Fire 4: to cast this spell.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;►Discard all cards in your hand and draw one more card than that number:&#xA;► Choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand:&#xA;► Put a creature that costs 5 or less from your graveyard. That creature gets &quot;speed attacker&quot; and is destroyed at the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="S10"/>
@@ -1374,7 +1374,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Hero Dragon/Jokers/RexStars"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature evolves, untap each time it wins a battle this turn."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand and draw 2 cards. Then you may put a creature from your hand that costs 7 or less that can evolve from this creature on top of this creature.&#xA;■ 'Shinkapower': When this creature becomes an evolution source, untap it each time it wins a battle this turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="TR2"/>
@@ -1477,7 +1477,7 @@
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
-      <property name="Type" value="Creature"/>
+      <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Magic Angel Command"/>
       <property name="Power" value="5500"/>
       <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or nature creatures.&#xA;■ Super Soul Raid (When you put this creature, reveal the top 3 cards of your deck. You may choose one from among them that can be an evolution source for this creature and put it under this creature. Put the rest on the bottom of your deck in any order.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may choose one of your opponents elements and shieldify it.&#xA;■ When this creature is destroyed, put all cards under it from your graveyard under one of your Neo Creatures or Evolution Creatures or shieldify them as one shield face up."/>
@@ -1564,7 +1564,7 @@
       <property name="Type" value="G-Neo Creature"/>
       <property name="Race" value="Angel Command/Techno Samurai"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, fire or nature creatures.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ Your Neo Evolution Creatures won't leave if they consist of 3 or more cards and have more than 0 power.&#xA;■ Whenever one of your Neo Creatures attacks, you may put the top card of your deck into your mana zone. If you do, put a creature from your mana zone under that Neo Creature or put it into your hand."/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, fire or nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature, and when it would leave, all cards under it leave instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ Your Neo Evolution Creatures won't leave if they consist of 3 or more cards and have more than 0 power.&#xA;■ Whenever one of your Neo Creatures attacks, you may put the top card of your deck into your mana zone. If you do, put a creature from your mana zone under that Neo Creature or put it into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="㊙9/㊙24"/>
@@ -1586,7 +1586,7 @@
       <property name="Civilization" value="Water/Darkness/Fire"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If you have 6 or more cards in your graveyard, you may pay 4/Water/Darkness/Fire: to cast this spell.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;►Discard all cards in your hand and draw one more card than that number:&#xA;► Choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand:&#xA;► Put a creature that costs 5 or less from your graveyard. That creature gets &quot;speed attacker&quot; and is destroyed at the end of the turn."/>
+      <property name="Rules" value="■ If you have 6 or more cards in your graveyard, you may pay Water/Darkness/Fire 4: to cast this spell.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;►Discard all cards in your hand and draw one more card than that number:&#xA;► Choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand:&#xA;► Put a creature that costs 5 or less from your graveyard. That creature gets &quot;speed attacker&quot; and is destroyed at the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="DM25-RP2 Jashin Versus Jashin: ~Jashin in the Shell~"/>
       <property name="Number" value="㊙11/㊙24"/>
