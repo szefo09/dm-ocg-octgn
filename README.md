@@ -8,7 +8,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
-<details><summary><h2>Card Scripts (697+)</h2> (click to expand)</summary>
+<details><summary><h2>Card Scripts (700+)</h2> (click to expand)</summary>
   
 - **"Boyan", Fireball Spell**
 - **"Dogoru", Ground Spell**
@@ -455,6 +455,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Nightmare Machine**
 - **Niofa, Horned Protector**
 - **Nova! Belunare**
+- **Obsidian Scarab**
 - **Ochappi, Pure Hearted Faerie**
 - **Onslaughter Triceps**
 - **Oracion, Mysterious Samurai**
@@ -528,6 +529,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Ripple Lotus Q**
 - **Riptide Charger**
 - **Roar of the Earth**
+- **Rollicking Totem**
 - **Rom, Vizier of Tendrils**
 - **Romanesk, the Dragon Wizard**
 - **Rondobil, the Explorer**
@@ -601,6 +603,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Splash Zebrafish**
 - **Split-Head Hydroturtle Q**
 - **Sporeblast Erengi**
+- **Squawking Lunatron**
 - **Stained Glass**
 - **Stallob, the Lifequasher**
 - **Star Paladin <Kolon Star>**

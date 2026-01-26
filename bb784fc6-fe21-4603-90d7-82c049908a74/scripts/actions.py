@@ -534,6 +534,7 @@ cardScripts={
 	'Jil Warka, Time Guardian': {'onDestroy': [lambda card: tapCreature(2)]},
 	'Kalute, Vizier of Eternity': {'onDestroy': [lambda card: toHand(card) if any(c for c in getCreatures(me) if c.properties["Name"]==card.properties["Name"]) else None]},
 	'Mighty Shouter': {'onDestroy': [lambda card: toMana(card)]},
+	'Obsidian Scarab': {'onDestroy': [lambda card: fromManaToField(1, 're.search("Obsidian Scarab",c.Name)')]},
 	'Ouks, Vizier of Restoration': {'onDestroy': [lambda card: toShields(card)]},
 	'Peace Lupia': {'onDestroy': [lambda card: tapCreature()]},
 	'Peru Pere, Viral Guardian': {'onDestroy': [lambda card: toHand(card)]},
@@ -648,19 +649,25 @@ cardScripts={
 	'Wingeye Moth': {'onTurnStart': [lambda card: draw(me.Deck, True)]},
 
 	#SILENT SKILL EFFECTS
+	'Baraid, the Explorer': {'silentSkill': [lambda card: ()]},
 	'Brad, Super Kickin\' Dynamo': {'silentSkill': [lambda card: kill(count=1, rulesFilter="{BLOCKER}")]},
 	'Bulgluf, the Spydroid': {'silentSkill': [lambda card: shields(me.deck)]},
 	'Charge Whipper': {'silentSkill': [lambda card: shieldswap(card, 1)]},
 	'Flohdani, the Spydroid': {'silentSkill': [lambda card: tapCreature(2)]},
+	'Gankloak, Rogue Commando': {'silentSkill': [lambda card: ()]},
 	'Gazer Eyes, Shadow of Secrets': {'silentSkill': [lambda card: targetDiscard()]},
 	'Gigamente': {'silentSkill': [lambda card: search(me.piles["Graveyard"], TypeFilter="Creature")]},
 	'Hustle Berry': {'silentSkill': [lambda card: mana(me.Deck)]},
 	'Kaemira, the Oracle': {'silentSkill': [lambda card: shields(me.deck)]},
+	'Kejila, the Hidden Horror': {'silentSkill': [lambda card: ()]},
 	'Milporo': {'silentSkill': [lambda card: draw(me.Deck)]},
 	'Minelord Skyterror': {'silentSkill': [lambda card: destroyAll(getCreatures(), True, 3000)]},
 	'Pinpoint Lunatron': {'silentSkill': [lambda card: pinpointLunatron()]},
+	'Rollicking Totem': {'silentSkill': [lambda card: (fromManaToField(1,'re.search(r"Dragon\\b", c.Race, re.I)'))]},
 	'Soderlight, the Cold Blade': {'silentSkill': [lambda card: opponentSacrifice()]},
 	'Sporeblast Erengi': {'silentSkill': [lambda card: search(me.Deck, 1, "Creature")]},
+	'Squawking Lunatron': {'silentSkill': [lambda card: fromMana(3)]},
+	'Venom Capsule': {'silentSkill': [lambda card: ()]},
 	'Vorg\'s Engine': {'silentSkill': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 
 	#ON ATTACK EFFECTS
@@ -3431,7 +3438,7 @@ def soulSwap():
 	cardsToMana.insert(0,targets[0])
 	remoteCall(targets[0].owner, "toMana", convertCardListIntoCardIDsList(targets[0]))
 	update()
-	remoteCall(me,'_fromManaToField',[targets[0].owner._id, cardsToMana])
+	remoteCall(me,'_soulSwapHelper',[targets[0].owner._id, cardsToMana])
 
 def staticWarp():
 	mute()
@@ -3471,7 +3478,7 @@ def intenseEvil():
 	destroyAll(chosenCreatures)
 	draw(me.Deck,False,len(chosenCreatures))
 #The additional targets list is used to handle evo creatures moving their baits with them to mana too late to catch this in this function.
-def _fromManaToField(targetPlayerId, additionalTargetsList=[]):
+def _soulSwapHelper(targetPlayerId, additionalTargetsList=[]):
 	mute()
 	targetPlayer=Player(targetPlayerId)
 	#Count the number of cards in mana zone for the one that will be added.
@@ -3541,6 +3548,18 @@ def fromDeckToField(group=me.Deck, count=1, filterFunction='True', delayedEffect
 			break
 	shuffle(group)
 	notify("{} finishes searching their {}.".format(me, group.name))
+
+def fromManaToField(count=1, filterFunction='True'):
+	mute()
+	manaCards=[c for c in getMana(me) if re.search("Creature", c.Type) and (filterFunction=='True' or eval(filterFunction, allowed_globals, {'c':c}))]
+	if len(manaCards)==0: return
+	while (True):
+		choices=askCard2(manaCards, 'Choose {} Creature(s) to play from the Mana'.format(count), maximumToTake=count,returnAsArray=True)
+		if not isinstance(choices,list):
+			return
+		for choice in choices:
+			toPlay(choice)
+		break
 
 def fromHandToMana(count=1, filterFunction='True', faceDown=False):
 	mute()
