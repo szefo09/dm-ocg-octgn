@@ -421,6 +421,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Metalwing Skyterror**
 - **Meteosaur**
 - **Mettagils, Passion Dragon**
+- **Micute, the Oracle**
 - **Midnight Crawler**
 - **Miele, Vizier of Lightning**
 - **Mighty Shouter**
@@ -583,6 +584,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 - **Smile Angler**
 - **Snake Attack**
 - **Sniper Mosquito**
+- **Snork La, Shrine Guardian**
 - **Soderlight, the Cold Blade**
 - **Solar Grace**
 - **Solar Grass**
