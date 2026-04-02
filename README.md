@@ -5,6 +5,7 @@ All automations are based on python. OCTGN plugin dev refernce: https://github.c
 
 ### *I'm a freelance developer doing this in my free time. If you feel that what I'm doing it worthwhile for the community and deserves a coffee, consider donating to [my Paypal](<https://www.paypal.com/paypalme/szefo09>)*
 
+#### You can also check this [Duel Masters Plugin](https://github.com/szefo09/Duel-Masters-Deck-Parser-OCTGN) I made.
 ## Changelog compared to the PranjalBishtNX/dm-ocg-octgn
 
 ### New Features
