@@ -163,7 +163,7 @@
       <property name="Race" value="Mecha Angel Command/Hyper Beast"/>
       <property name="Power" value="4500"/>
       <property name="Hyper Power" value="8500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures and shieldify it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, when one of your creatures attacks for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures and shieldify it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, when one of your creatures attacks for the first time, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="11"/>
@@ -343,7 +343,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Snow Faerie"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ During your turn, you may summon a Hyper Beast creature from your mana zone."/>
+      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ Once during your turn, you may summon a Hyper Beast creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="25"/>
@@ -851,7 +851,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature attacks, after the attack, destroy it.&#xA;■ While you have a Hyper Beast, this creature gets &quot;slayer&quot;. (When a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When this creature attacks, after the attack, destroy it.&#xA;■ While you have a Hyper Beast creature, this creature gets &quot;slayer&quot;. (When a creature that has &quot;slayer&quot; battles, destroy your opponent's creature after the battle.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="64"/>
@@ -1029,7 +1029,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="■ Revolution 0: When you put this creature into your hand from your shield zone, if you have no shields, you may summon this creature from your hand for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. At the start of your opponent's next turn, they don't untap.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's elements and shieldify it."/>
+      <property name="Rules" value="■ Revolution 0: When you put this creature into your hand from your shield zone, if you have no shields, you may summon this creature from your hand for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's elements and shieldify it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S1"/>
@@ -1175,7 +1175,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero/Supercar Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has 0 power or less is destroyed.):&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP2"/>
@@ -1298,7 +1298,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon costs up to 4 less to summon. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="T6"/>
@@ -1437,7 +1437,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="■ Revolution 0: When you put this creature into your hand from your shield zone, if you have no shields, you may summon this creature from your hand for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. At the start of your opponent's next turn, they don't untap.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's elements and shieldify it."/>
+      <property name="Rules" value="■ Revolution 0: When you put this creature into your hand from your shield zone, if you have no shields, you may summon this creature from your hand for no cost.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ Whenever this creature attacks, you may choose one of your opponent's elements and shieldify it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR1"/>
@@ -1527,7 +1527,7 @@
       <property name="Type" value="Tamaseed / Creature"/>
       <property name="Race" value="Giant Insect/ACE"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this tamaseed, choose a player. That player shuffles their graveyard and puts it on the bottom of their deck.&#xA;■ Once per turn, you may summon a creature from your mana zone.&#xA;■ If you don't have a total of 4 or more nature creatures and/or nature tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures and put it into its owner's mana zone, then put up to 2 cards from the top of your deck into your mana zone."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this tamaseed, choose a player. That player shuffles their graveyard and puts it on the bottom of their deck.&#xA;■ Once during your turn, you may summon a creature from your mana zone.&#xA;■ If you don't have a total of 4 or more nature creatures and/or nature tamaseeds, this tamaseed isn't treated as a creature in the battle zone.&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures and put it into its owner's mana zone, then put up to 2 cards from the top of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR8"/>
@@ -1743,7 +1743,7 @@
       <property name="Race" value="Mecha Angel Command/Hyper Beast"/>
       <property name="Power" value="4500"/>
       <property name="Hyper Power" value="8500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures and shieldify it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, when one of your creatures attacks for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's creatures and shieldify it.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, when one of your creatures attacks for the first time, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="㊙12/㊙21"/>

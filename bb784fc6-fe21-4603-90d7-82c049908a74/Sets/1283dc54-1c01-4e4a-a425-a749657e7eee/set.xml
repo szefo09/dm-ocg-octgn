@@ -71,7 +71,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Gaial Command Dragon/Team Hamukatsu"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="■ Revolution Change—Fire dragon (When one of your fire dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ While battling, this creature gets +4000 power.&#xA;■ Whenever your opponent chooses this creature, take an extra turn after this one."/>
+      <property name="Rules" value="■ Revolution Change: Fire dragon&#xA;{DOUBLE BREAKER}&#xA;■ While battling, this creature gets +4000 power.&#xA;■ Whenever your opponent chooses this creature, take an extra turn after this one."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -137,7 +137,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, look at the top 4 cards of your deck. You may choose a Jokers creature from it, show it to your opponent, and add it to your hand. Put the rest on the bottom of your deck in any order.&#xA;■ Revolution 0—When you put this creature into the battle zone, if you have no shields, you may put a Jokers creature that have cost 7 or less from your hand into the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, look at the top 4 cards of your deck. You may choose a Jokers creature from it, show it to your opponent, and add it to your hand. Put the rest on the bottom of your deck in any order.&#xA;■ Revolution 0: When you put this creature into the battle zone, if you have no shields, you may put a Jokers creature that have cost 7 or less from your hand into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -249,7 +249,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Draguner Dragon"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Super Infinite evolution—Put on one or more of your Draguners.&#xA;{INVASION}-Draguner (When one of your Draguner attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a Dragheart that costs 3 or less from your hyperspatial zone into the battle zone for each card under this creature. (All Dragheart Weapons are equipped to this creature.)"/>
+      <property name="Rules" value="■ Super Infinite evolution: Put on one or more of your Draguner creatures.&#xA;{INVASION}-Draguner (When one of your Draguner attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, for each card under this creature, put a Dragheart that costs 3 or less from your hyperspatial zone. Equip all weapons to this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="17"/>
@@ -275,7 +275,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Shinobi"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
+      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -287,7 +287,7 @@
       <property name="Civilization" value="Light/Water/Nature"/>
       <property name="Cost" value="15"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ You may cast this spell by discarding 5 Snow Faerie creatures from your hand instead of paying the cost.&#xA;■ Destroy all your opponent's face up non-creature cards and put all your opponent's face up cards in their shield zone into their owner's graveyard.&#xA;■ Tap all your opponent's creatures and all your opponent's cards in their mana zone. They don't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="■ You may cast this spell by discarding 5 Snow Faerie creatures from your hand instead of paying the cost.&#xA;■ Destroy all your opponent's face up non-creature cards and put all your opponent's face up cards in their shield zone into their owner's graveyard.&#xA;■ Tap all your opponent's creatures and cards in their mana zone. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="20"/>
@@ -483,7 +483,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="35"/>
@@ -797,7 +797,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Shinobi"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -1676,7 +1676,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that starts with &quot;When you put this creature&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="DR3"/>
@@ -1689,7 +1689,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jurassic Command Dragon"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Multicolored Mana Arms 5: If you have this card in your hand and 5 or more civilizations and cards in your mana zone, this creature gets &quot;Super Strike Back&quot;. (When a card is put into your hand from your shield zone, you may discard that card. If you do, summon this creature for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;■ Your opponent's draghearts can't dragsolution."/>
+      <property name="Rules" value="■ Multicolored Mana Arms 5: If you have this card in your hand and 5 or more civilizations and cards in your mana zone, this creature gets &quot;Super Strike Back&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and put it into its owner's mana zone.&#xA;■ Your opponent's draghearts can't dragsolution."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="DR4"/>
@@ -1702,7 +1702,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="King Command Dragon/Unknown"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy. Then choose a card from your opponent's mana zone and put it into its owner's graveyard.&#xA;■ Whenever your opponent puts a card into their graveyard from anywhere, you may put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, choose one of your opponent's creatures and destroy it. Then choose a card from your opponent's mana zone and put it into its owner's graveyard.&#xA;■ Whenever your opponent puts a card into their graveyard from anywhere, you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1847,7 +1847,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Shinobi Dragon/Origin"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{NINJA STRIKE} 8 (Whenever one of your opponent's creatures attacks or blocks, if you have 8 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put a Shinobi, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
+      <property name="Rules" value="■ Ninja Strike 8&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever you put a Shinobi, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S9"/>
@@ -1997,7 +1997,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Earth Eater/Giant/Shinobi"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have 4 or more Giants, you may summon this creature for no cost.&#xA;■ Evolution—Put on one of your Giants.&#xA;■ Triple breaker&#xA;■ When you put this creature, return up to 3 creatures from your mana zone to your hand. Then put up to 3 cards from your hand into your mana zone tapped."/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 4 or more Giants, you may summon this creature for no cost.&#xA;■ Evolution: Put on one of your Giant creatures.&#xA;■ Triple breaker&#xA;■ When you put this creature, return up to 3 creatures from your mana zone to your hand. Then put up to 3 cards from your hand into your mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>

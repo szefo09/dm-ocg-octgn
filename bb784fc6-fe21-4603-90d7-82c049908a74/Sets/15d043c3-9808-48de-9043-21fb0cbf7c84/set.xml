@@ -223,7 +223,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Forbidden Impulse"/>
-      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave the battle zone.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Forbidden Legend Card"/>
@@ -298,7 +298,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Forbidden Creature"/>
       <property name="Power" value="12345"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck and put 2 of them into your hand. Put 3 seals on this creature.&#xA;■ Forbidden Mechanism: When this creature has no seals on it, take an extra turn after this one.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck and put 2 of them into your hand. Put 3 seals on this creature.&#xA;■ Forbidden Mechanism: When this creature has no seals on it, take an extra turn after this one."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Legend Card"/>
       <property name="Number" value="7"/>
@@ -389,7 +389,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demonio"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="■ When you put this creature, put the top 5 cards of your deck into your graveyard. Then destroy this creature.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, ignore the ■ ability above.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}&#xA;■ You may summon this creature from your graveyard."/>
+      <property name="Rules" value="■ When you put this creature, put the top 5 cards of your deck into your graveyard. Then destroy this creature.&#xA;{ONITIME}: If you and your opponent have a total of 6 or less shields, ignore the ■ ability above.&#xA;■ You may summon this creature from your graveyard.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="10"/>
@@ -412,7 +412,7 @@
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ At the start of your turn, if this spell is in your mana zone, you may return it to your hand.&#xA;■ Look at the top 5 cards of your deck. You may put a light creature, a water creature, a darkness creature, fire creature and a nature creature from among them that costs 9 or less. Then put the rest into your hand. Those creatures get &quot;speed attacker&quot;, &quot;slayer&quot; and &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="■ At the start of your turn, if this spell is in your mana zone, you may return it to your hand.&#xA;■ Look at the top 5 cards of your deck. You may put a creature of each civilization from among them that costs 9 or less. Then put the rest into your hand. Those creatures get &quot;speed attacker&quot;, &quot;slayer&quot; and &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="Super Rare"/>
@@ -685,7 +685,7 @@
       <property name="Number" value="20"/>
       <property name="Set" value="DMEX-15 20th Anniversary Huge Thanks Memorial Pack: The Chapter of The Souls The BEST of Great Scenes"/>
     </card>
-    <card id="5ef29084-ddf7-435b-8be3-cd44efba2435" name="「Chikushioooooo!!」">
+    <card id="5ef29084-ddf7-435b-8be3-cd44efba2435" name="「Chikushoooooo!!」">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="6"/>
@@ -811,8 +811,8 @@
       <property name="Race" value="Demon Command"/>
       <property name="Race1" value="Demon Command"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures.&#xA;TWINPACT&#xA;■ Each player puts all non-darkness cards from their mana zone into their graveyard."/>
-      <property name="Rules1" value="■ Evolution—Put on one of your Demon Commands.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Commands.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures.&#xA;TWINPACT&#xA;■ Each player puts all non-darkness cards from their mana zone into their graveyard."/>
+      <property name="Rules1" value="■ Evolution: Put on one of your Demon Commands.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy all creatures except darkness creatures."/>
       <property name="Rules2" value="■ Each player puts all non-darkness cards from their mana zone into their graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -1340,7 +1340,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="14"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SYMPATHY}: Tyranno Drake and Brave Spirit (This spell costs 1 less to play for each of your Tyranno Drake, Brave Spirit in play. It can't cost less than 1.)&#xA;■ Your opponent puts all their shields into their hand. (Your opponent can use &quot;Shield Trigger&quot;.)"/>
+      <property name="Rules" value="■ Sympathy: Tyranno Drake creatures and Brave Spirit creatures (This spell costs 1 less to cast for each of your Tyranno Drake and Brave Spirit creatures. It can't cost less than 1.)&#xA;■ Break all your opponent's shields."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1393,7 +1393,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter/Alien"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone for no cost, put that creature into its owner's mana zone.&#xA;■ When this creature would be put into your graveyard from anywhere, shuffle this card and your graveyard into your deck instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature for no cost, put that creature into its owner's mana zone.&#xA;■ When this creature would be put into your graveyard from anywhere, shuffle this card and your graveyard into your deck instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1541,7 +1541,7 @@
       <property name="Civilization" value="Water/Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Castle"/>
-      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever you put a God into the battle zone, you may draw a card.&#xA;■ Whenever any of your creatures attacks, you may put a God that has &quot;Emperor of the Gods&quot; in its name from your hand into the battle zone."/>
+      <property name="Rules" value="■ {CASTLE} —Choose one of your shields and attach this card to fortify that shield. When that fortified shield leaves your shields, put this card into your graveyard. (Use &quot;Shield Trigger&quot; abilities before putting this card into your graveyard.)&#xA;■ Whenever you put a God, you may draw a card.&#xA;■ Whenever any of your creatures attacks, you may put a God that has &quot;Emperor of the Gods&quot; in its name from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>
@@ -1718,7 +1718,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="65"/>
@@ -1729,7 +1729,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy any number of your creatures. Then draw 2 cards for each creature destroyed this way."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy any number of your creatures. Then draw 2 cards for each creature destroyed this way."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -1741,7 +1741,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Destroy one of your creatures. Then put a creature that costs 1 more than that creature from your graveyard into the battle zone."/>
+      <property name="Rules" value="■ Destroy one of your creatures. Then put a creature that costs 1 more than that creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="67"/>
@@ -1919,7 +1919,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon costs up to 4 less to summon. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="80"/>
@@ -2002,7 +2002,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have an Outrage in the battle zone you may cast this spell for no cost.&#xA;■ One of your creatures in the battle zone gets &quot;Power attacker +1000000&quot; until the end of your turn."/>
+      <property name="Rules" value="■ Gravity Zero: If you have an Outrage, you may cast this spell for no cost.&#xA;■ One of your creatures gets &quot;Power attacker +1000000&quot; until the end of your turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="87"/>

@@ -790,7 +790,7 @@
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
-        <property name="Number" value="51b"/>
+        <property name="Number" value="73b"/>
         <property name="Set" value="DMR-13 Dragsolution Gaiginga"/>
       </alternate>
     </card>
@@ -1522,7 +1522,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ When you put this dragheart into the battle zone, or whenever a creature equipped with this attacks, you may draw a card.&#xA;{DRAGSOLUTION}: At the end of your turn, if you cast 3 water spells and/or summoned 3 water creatures, flip this card to the dragheart creature side and untap it. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this dragheart or whenever a creature equipped with this attacks, you may draw a card.&#xA;{DRAGSOLUTION}: At the end of your turn, if you played 3 water creatures or spells that turn, flip this card to the dragheart creature side and untap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1534,7 +1534,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Crystal Command Dragon"/>
         <property name="Power" value="11000"/>
-        <property name="Rules" value="■ Whenever your opponent would choose a creature in the battle zone by the effect of a spell, they can't choose this one.&#xA;■ Each turn, you may summon your first water creature for no cost.&#xA;■ Each turn, you may cast your first water spell for no cost.&#xA;{DOUBLE BREAKER}"/>
+        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature can't be chosen by your opponent's spells.&#xA;■ Each turn, you may play your first water creature and your first water spell for no cost."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -1547,7 +1547,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ When you put this dragheart or whenever a creature equipped with this attacks, you may put a Funky Knightmare that costs 5 or less from your graveyard.&#xA;■ Dragsolution: At the end of your turn, you may flip this card to the dragheart creature side and untap it.If you do, destroy 4 of your creatures. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this dragheart or whenever a creature equipped with this attacks, you may put a Funky Knightmare that costs 5 or less from your graveyard.&#xA;■ Dragsolution: At the end of your turn, you may flip this card to the dragheart creature side and untap it.If you do, destroy 4 of your creatures."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1559,7 +1559,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Demon Command Dragon"/>
         <property name="Power" value="12000"/>
-        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy one of your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put a non-evolution darkness creature from your graveyard into the battle zone."/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature is Dragsolutioned, choose one of your opponent's creatures and destroy it.&#xA;■ Whenever this creature attacks, you may put a non-evolution darkness creature from your graveyard."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -1753,7 +1753,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Crystal Command Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Whenever your opponent would choose a creature in the battle zone by the effect of a spell, they can't choose this one.&#xA;■ Each turn, you may summon your first water creature for no cost.&#xA;■ Each turn, you may cast your first water spell for no cost.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ This creature can't be chosen by your opponent's spells.&#xA;■ Each turn, you may play your first water creature and your first water spell for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1767,7 +1767,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Demon Command Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature is Dragsolutioned, destroy one of your opponent's creatures.&#xA;■ Whenever this creature attacks, you may put a non-evolution darkness creature from your graveyard into the battle zone."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When this creature is Dragsolutioned, choose one of your opponent's creatures and destroy it.&#xA;■ Whenever this creature attacks, you may put a non-evolution darkness creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>

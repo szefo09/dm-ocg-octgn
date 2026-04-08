@@ -129,7 +129,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero/Supercar Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has 0 power or less is destroyed.):&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="8"/>
@@ -140,7 +140,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard..&#xA;■Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="9"/>
@@ -179,7 +179,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="15500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="12"/>
@@ -244,7 +244,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon Command/Unknown"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. After you cast, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast it, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. If you do, after you cast it, put it on the bottom of your deck instead of your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="17"/>
@@ -257,7 +257,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Crystal Command Dragon/Dark Lord"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, you may cast a spell that costs 4 or less from your graveyard for no cost.&#xA;■ Once per turn, whenever you cast a spell from your hand, you may cast that spell again from your graveyard for no cost.&#xA;■ After you cast a spell from your graveyard, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;■ When you put this creature, you may cast a spell that costs 4 or less from your graveyard for no cost.&#xA;■ Once per turn, when you cast a spell from your hand, you may cast that spell again from your graveyard for no cost.&#xA;■ After you cast a spell from your graveyard, put it on the bottom of your deck instead of your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="18"/>
@@ -395,7 +395,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dynamite Dragon/RexStars"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Each turn, you may untap this creature the first time it's tapped.&#xA;■ 'Shinkapower': When this creature evolves, you may choose one of your opponent's creatures. After it evolves, this creature and that creature battle."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ Each turn, when this creature attacks for the first time, untap it.&#xA;■ 'Shinkapower': When this creature evolves, you may choose one of your opponent's creatures. After it evolves, this creature and that creature battle."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="27"/>
@@ -630,7 +630,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Apollonia Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="41"/>
@@ -701,8 +701,8 @@
       <property name="Race" value="Mafi Gang"/>
       <property name="Race1" value="Mafi Gang"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
-      <property name="Rules1" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
+      <property name="Rules" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
+      <property name="Rules1" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
       <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -1505,7 +1505,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Apollonia Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="PR1"/>
@@ -1576,8 +1576,8 @@
       <property name="Race" value="Mafi Gang"/>
       <property name="Race1" value="Mafi Gang"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
-      <property name="Rules1" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
+      <property name="Rules" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
+      <property name="Rules1" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
       <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -2380,7 +2380,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="15500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙1/㊙10"/>
@@ -2393,7 +2393,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command"/>
       <property name="Power" value="15500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn.&#xA;■ Final End: At the start of your turn, you may put any number of creatures that have &quot;blocker&quot; from your hand. Then, if you have 12 or more creatures that have &quot;blocker&quot;, take an extra turn after this one. (&quot;Final End&quot; can only be used once per game.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙1超/㊙10"/>
@@ -2484,7 +2484,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon Command/Unknown"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. After you cast, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast it, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. If you do, after you cast it, put it on the bottom of your deck instead of your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙5/㊙10"/>
@@ -2497,7 +2497,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Moon Command/Unknown"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. After you cast, put it on the bottom of your deck instead of your graveyard."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may cast a water or darkness spell that costs 7 or less from your hand or graveyard for no cost. If you do, after you cast it, put it into your hyperspatial zone instead of your graveyard.&#xA;■ Whenever this creature attacks, you may cast a spell from your hyperspatial zone for no cost. If you do, after you cast it, put it on the bottom of your deck instead of your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙5超/㊙10"/>

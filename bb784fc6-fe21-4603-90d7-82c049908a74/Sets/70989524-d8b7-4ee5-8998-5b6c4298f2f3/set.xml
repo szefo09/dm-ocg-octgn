@@ -45,7 +45,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ When you put this dragheart, you may choose one of your opponent's creatures in the battle zone. That creature battles with the equipped creature.&#xA;■ While battling, the creature equipped with this gets +3000 power.&#xA;{DRAGSOLUTION}: When one of your creatures wins a battle, if it's the second time one of your creatures won a battle this turn, flip this card to the dragheart creature side and untap it.&#xA;{HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this dragheart, you may choose one of your opponent's creatures. That creature battles with the equipped creature.&#xA;■ While battling, the creature equipped with this gets +3000 power.&#xA;{DRAGSOLUTION}: When one of your creatures wins a battle, if it's the second time one of your creatures won a battle this turn, flip this card to the dragheart creature side and untap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -57,7 +57,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Gaial Command Dragon"/>
         <property name="Power" value="11000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During each turn, when you are attacked for the first time, you may have the attacking creature battle with this creature."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, the first time a creature attacks you, you may have this creature battle that creature."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -72,7 +72,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ During each turn, when you are attacked for the first time, you may have the attacking creature battle with this creature."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, the first time a creature attacks you, you may have this creature battle that creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -174,7 +174,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Gaial Command Dragon"/>
         <property name="Power" value="12000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -189,7 +189,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -201,7 +201,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ If the equipped creature is a fire draguner, that creature gets &quot;speed attacker&quot;.&#xA;■ Whenever the equipped creature attacks, you may reveal the top card of your deck. If it's a non-evolution Dragon or non-evolution Draguner, add it to your hand. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: At the end of your turn, if the equipped creature is tapped, flip this dragheart over to the creature side and untap it. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ If the equipped creature is a fire draguner, that creature gets &quot;speed attacker&quot;.&#xA;■ Whenever the equipped creature attacks, you may reveal the top card of your deck. If it's a non-evolution Dragon or non-evolution Draguner, add it to your hand. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: At the end of your turn, if the equipped creature is tapped, flip this dragheart over to the creature side and untap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -531,7 +531,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Weapon"/>
-      <property name="Rules" value="■ If the equipped creature is a fire draguner, that creature gets &quot;speed attacker&quot;.&#xA;■ Whenever the equipped creature attacks, you may reveal the top card of your deck. If it's a non-evolution Dragon or non-evolution Draguner, add it to your hand. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: At the end of your turn, if the equipped creature is tapped, flip this dragheart over to the creature side and untap it. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ If the equipped creature is a fire draguner, that creature gets &quot;speed attacker&quot;.&#xA;■ Whenever the equipped creature attacks, you may reveal the top card of your deck. If it's a non-evolution Dragon or non-evolution Draguner, add it to your hand. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: At the end of your turn, if the equipped creature is tapped, flip this dragheart over to the creature side and untap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -667,7 +667,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Gaial Command Dragon"/>
         <property name="Power" value="12000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -682,7 +682,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>

@@ -27,7 +27,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Bouken Kingdom"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, you may cast a spell that costs 4 or less from your hand for no cost. If you don't, draw a card."/>
+      <property name="Rules" value="Abarechain: Each turn, whenever any of your creatures attacks for the first time, you may cast a spell that costs 4 or less from your hand for no cost. If you don't, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -760,7 +760,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Bouken Kingdom"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, choose one of your opponent's creature's and tap it. That creature doesn't untap at the start of their next turn."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, choose one of your opponent's creature's and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="51"/>
@@ -1667,7 +1667,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command/Gekko Kingdom/Specials"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the start of your turn, if this creature is in your graveyard and you have at least one light card and one darkness card in your mana zone, you may destroy one of your creatures. If you do, put this creature into the battle zone and put one of your shields into your graveyard.&#xA;{OSHIOKIMOON}: Whenever a card leaves your shield zone, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ At the start of your turn, if this creature is in your graveyard and you have at least one light card and one darkness card in your mana zone, you may destroy one of your creatures. If you do, put this creature into the battle zone and put one of your shields into your graveyard.&#xA;{OSHIOKIMOON}: Whenever a card leaves your shield zone, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S6"/>

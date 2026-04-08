@@ -311,7 +311,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;&#x9;&#xA;■ Creatures can't attack this turn.&#xA;■ Shieldify this spell. Then put one of your shields into your graveyard."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;&#x9;&#xA;■ Creatures can't attack this turn.&#xA;■ Shieldify this spell. Then put one of your shields into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -445,7 +445,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Shinobi"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -486,7 +486,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Creator/Origin"/>
       <property name="Power" value="21000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Gods.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, your opponent chooses and discards 2 cards from their hand. Then choose 2 creatures from your graveyard and return them to your hand.&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures. That creature gets -8000 power until the end of the turn.&#xA;■ After this creature attacks, untap it."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Gods.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, your opponent chooses and discards 2 cards from their hand. Then choose 2 creatures from your graveyard and return them to your hand.&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures. That creature gets -8000 power until the end of the turn.&#xA;■ After this creature attacks, untap it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="37"/>
@@ -539,7 +539,7 @@
       <property name="Type" value="Evolution Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="24000"/>
-      <property name="Rules" value="■ Super Infinite evolution—Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures into the battle zone or awaken them, you may put this creature from your hyperspatial zone into the battle zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
+      <property name="Rules" value="■ Super Infinite evolution: Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures or awaken them, you may put this creature from your hyperspatial zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -551,7 +551,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
         <property name="Power" value="35000"/>
-        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
@@ -566,7 +566,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="35000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -702,7 +702,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Melt Warrior/Dark Lord/Hunter"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature, or when this creature is destroyed, choose a card in your opponent's hand at random, and your opponent reveals that card. Put a Hunter psychic creature that has the same civilization as the revealed card that costs 8 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature or when this creature is destroyed, choose a card from your opponent's hand at random, reveal it, and put a Hunter psychic creature that has the same civilization as the revealed card that costs 8 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -949,7 +949,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Forbidden Impulse"/>
-      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave the battle zone.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Forbidden Legend Card"/>
@@ -1001,7 +1001,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Angel Command Dragon/Revolutionary"/>
       <property name="Power" value="13500"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures. Those creatures don't untap at the start of his next turn.&#xA;■ Revolution 0: If you have no shields, your opponent can't summon creatures."/>
+      <property name="Rules" value="■ Evolution—: Put on one of your Dragons.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature into the battle zone, tap all your opponent's creatures. Those creatures don't untap at the start of your opponent's next turn.&#xA;■ Revolution 0: If you have no shields, your opponent can't summon creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="68"/>

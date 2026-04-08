@@ -450,7 +450,7 @@
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Choose a non-evolution creature and shieldify it.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -462,7 +462,7 @@
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Choose a non-evolution creature and shieldify it.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -865,7 +865,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="World Command"/>
       <property name="Power" value="23000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's Light, Water, Darkness, Fire and Nature creatures.&#xA;{RELEASE} - Diabolos Zeta, Temporal Ruler (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures from each civilization and destroy them.&#xA;■ Release"/>
       <property name="Watermark" value="{Evil} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -963,7 +963,7 @@
       <property name="Type" value="Evolution Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="24000"/>
-      <property name="Rules" value="■ Super Infinite evolution—Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures into the battle zone or awaken them, you may put this creature from your hyperspatial zone into the battle zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
+      <property name="Rules" value="■ Super Infinite evolution: Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures or awaken them, you may put this creature from your hyperspatial zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -975,7 +975,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
         <property name="Power" value="35000"/>
-        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
@@ -990,7 +990,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="35000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1128,7 +1128,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="World Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever your opponent would choose a creature due to the ability of a creature, this creature can't be chosen.&#xA;■ Awaken—At the start of your turn, you may choose 3 of your cards in the battle zone and/or your mana zone, return them to your deck, and then shuffle it. If you do, flip this creature to its higher cost side."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Your opponent can't choose this creature with creature abilities.&#xA;■ Awaken: At the start of your turn, you may choose 3 of your cards in the battle zone and/or your mana zone, put them into your deck, and shuffle them. If you do, flip this creature to its higher cost side."/>
       <property name="Watermark" value="{Evil} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1140,7 +1140,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="World Command"/>
         <property name="Power" value="23000"/>
-        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's Light, Water, Darkness, Fire and Nature creatures.&#xA;{RELEASE} - Diabolos Zeta, Temporal Ruler (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures from each civilization and destroy them.&#xA;■ Release"/>
         <property name="Watermark" value="{Evil} {Soul}"/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
@@ -1155,7 +1155,7 @@
       <property name="Type" value="Evolution Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="24000"/>
-      <property name="Rules" value="■ Super Infinite evolution—Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures into the battle zone or awaken them, you may put this creature from your hyperspatial zone into the battle zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
+      <property name="Rules" value="■ Super Infinite evolution: Put this creature on one or more of your psychic creature(s) that have total cost 20 or more.&#xA;■ Whenever you put psychic creatures or awaken them, you may put this creature from your hyperspatial zone.&#xA;{QUATTRO BREAKER}&#xA;■ Meteorburn Awaken: At the start of your turn, put all cards under this creature into your graveyard and flip this creature to its higher cost side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1167,7 +1167,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
         <property name="Power" value="35000"/>
-        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+        <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
@@ -1182,7 +1182,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Armored Dragon/Flame Command/Samurai"/>
       <property name="Power" value="35000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever your opponent would choose a creature in the battle zone, they can't choose this one. (It can still be attacked and blocked.)&#xA;■ Whenever this creature attacks, you may put any number of psychic creatures that cost 10 or less from your hyperspatial zone into the battle zone."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ Whenever this creature attacks, put any number of psychic creatures that cost 10 or less from your hyperspatial zone.&#xA;■ Your opponent can't choose this creature."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>

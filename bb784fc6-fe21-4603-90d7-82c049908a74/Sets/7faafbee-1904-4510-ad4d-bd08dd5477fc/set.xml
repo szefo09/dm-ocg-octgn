@@ -20,7 +20,7 @@
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="8"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Sumo Wrestler Command/Alien"/>
+      <property name="Race" value="Rikishi Command/Alien"/>
       <property name="Power" value="12000"/>
       <property name="Rules" value="■ (This creature is put into your mana zone tapped.)&#xA;■ Whenever you tap a card in your mana zone, you may have that card's mana number become 2.&#xA;{TRIPLE BREAKER}"/>
       <property name="Watermark" value=""/>
@@ -50,7 +50,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your Fire Birds is destroyed, your opponent chooses one of their shields and returns it to their hand.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever one of your Fire Birds is destroyed, your opponent chooses one of their shields. This creature breaks that shield.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
@@ -62,7 +62,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="Red Command Dragon/Hunter"/>
         <property name="Power" value="9000"/>
-        <property name="Rules" value="■ Whenever your Hunters win a battle, your opponent chooses one of their shields and returns it to their hand.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your Hunters win a battle, your opponent chooses one of their shields. This creature breaks that shield.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -77,7 +77,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Whenever your Hunters win a battle, your opponent chooses one of their shields and returns it to their hand.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your Hunters win a battle, your opponent chooses one of their shields. This creature breaks that shield.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -91,7 +91,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Whenever your Hunters win a battle, your opponent chooses one of their shields and returns it to their hand.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your Hunters win a battle, your opponent chooses one of their shields. This creature breaks that shield.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -188,7 +188,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Fire Bird/Hunter"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have a Zero Kaiser in the battle zone, link it to this creature and flip this creature.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Psychic Link: At the start of your turn, if you have a Zero Kaiser in the battle zone, link it to this creature and flip this creature.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
@@ -200,7 +200,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="Red Command Dragon/Hunter"/>
         <property name="Power" value="9000"/>
-        <property name="Rules" value="■ Whenever your Hunters win a battle, your opponent chooses one of their shields and returns it to their hand.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your Hunters win a battle, your opponent chooses one of their shields. This creature breaks that shield.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -215,7 +215,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="■ Whenever your Hunters win a battle, your opponent chooses one of their shields and returns it to their hand.&#xA;■ While this creature is tapped, your opponent's attacking creatures must attack this creature if able.&#xA;{DOUBLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your Hunters win a battle, your opponent chooses one of their shields. This creature breaks that shield.&#xA;■ While this creature is tapped, whenever one of your opponent's creatures attack, they must attack this creature if able.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -360,7 +360,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Alien"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, put a light, fire or nature psychic creature that costs 6 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature, put a light, fire or nature psychic creature that costs 6 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>

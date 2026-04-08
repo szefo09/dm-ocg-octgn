@@ -34,20 +34,6 @@
       <property name="Number" value="1"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
-    <card id="9b65c3f6-188b-4c80-8c0d-1ee89cc5469a" name="Astinos, White Knight Elemental">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Power" value="4500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, reveal the top 4 cards of your deck. Put one of these cards that has &quot;White Knight&quot; in its name into your hand. Then put the rest on the bottom of your deck in any order.&#xA;■ This creature can't attack players."/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Common"/>
-      <property name="Number" value="Astinos, White Knight Elemental (Heroes Card)"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
     <card id="dac38def-a6a1-47a8-9bfb-71dd2330fb4a" name="Hellrush Max, the Super-Electric">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Water"/>
@@ -158,6 +144,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="8"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="e28fbb69-55b5-41ff-bc76-7d1de7cb895e" name="Aterui, the Patroller">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Cosmo Walker/Origin"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="■ Whenever your opponent would choose your creatures in the battle zone, they can't choose creatures that have power 6000 or more. (They can still be attacked or blocked.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="9"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="218c4b22-40a8-4b5e-af16-86b26f700059" name="Hellrush Max, the Super-Electric">
@@ -571,6 +571,20 @@
       <property name="Number" value="35"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
+    <card id="9b65c3f6-188b-4c80-8c0d-1ee89cc5469a" name="Astinos, White Knight Elemental">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Creature"/>
+      <property name="Race" value="Angel Command"/>
+      <property name="Power" value="4500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature into the battle zone, reveal the top 4 cards of your deck. Put one of these cards that has &quot;White Knight&quot; in its name into your hand. Then put the rest on the bottom of your deck in any order.&#xA;■ This creature can't attack players."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Common"/>
+      <property name="Number" value="Astinos, White Knight Elemental (Heroes Card)"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
     <card id="d34f5092-de28-48a2-b7fe-34e0039cc4c3" name="Astinos, White Knight Elemental">
       <property name="Format" value="Set35,OCG"/>
       <property name="Civilization" value="Light"/>
@@ -690,20 +704,6 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="Lunar Kuroro (Heroes Card)"/>
-      <property name="Set" value="DM-33 Rising Dragon"/>
-    </card>
-    <card id="e28fbb69-55b5-41ff-bc76-7d1de7cb895e" name="Aterui, the Patroller">
-      <property name="Format" value="Set35,OCG"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Cost" value="5"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Cosmo Walker/Origin"/>
-      <property name="Power" value="4500"/>
-      <property name="Rules" value="■ Whenever your opponent would choose your creatures in the battle zone, they can't choose creatures that have power 6000 or more. (They can still be attacked or blocked.)"/>
-      <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
-      <property name="Rarity" value="Rare"/>
-      <property name="Number" value="9"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="db548c1d-703f-44b2-8ae7-e000350a1633" name="Lunar Kuroro">
@@ -963,6 +963,20 @@
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="Wiz, White Knight Enlightener (Heroes Card)"/>
+      <property name="Set" value="DM-33 Rising Dragon"/>
+    </card>
+    <card id="138e134e-09e0-47c5-bd3b-23794d49a21f" name="Woodz, White Knight Enlightener">
+      <property name="Format" value="Set35,OCG"/>
+      <property name="Civilization" value="Light"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Evolution Creature"/>
+      <property name="Race" value="Mecha Thunder"/>
+      <property name="Power" value="10500"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Evolution—Put on one of your creatures that has &quot;Blocker&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ Ignore any effects that would prevent your creatures that have &quot;blocker&quot; from attacking your opponent.&#xA;■ At the end of each of your turns, untap all your creatures in the battle zone that have &quot;White Knight&quot; in their name."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
+      <property name="Rarity" value="Rare"/>
+      <property name="Number" value="Woodz, White Knight Enlightener (Heroes Card)"/>
       <property name="Set" value="DM-33 Rising Dragon"/>
     </card>
     <card id="ae49f517-b476-436a-b686-1ecfb27f6fb8" name="Rising NEX, the Enlightened">

@@ -328,7 +328,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="World Command"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Whenever your opponent would choose a creature due to the ability of a creature, this creature can't be chosen.&#xA;■ Awaken—At the start of your turn, you may choose 3 of your cards in the battle zone and/or your mana zone, return them to your deck, and then shuffle it. If you do, flip this creature to its higher cost side."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ Your opponent can't choose this creature with creature abilities.&#xA;■ Awaken: At the start of your turn, you may choose 3 of your cards in the battle zone and/or your mana zone, put them into your deck, and shuffle them. If you do, flip this creature to its higher cost side."/>
       <property name="Watermark" value="{Evil} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -340,7 +340,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="World Command"/>
         <property name="Power" value="23000"/>
-        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's Light, Water, Darkness, Fire and Nature creatures.&#xA;{RELEASE} - Diabolos Zeta, Temporal Ruler (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+        <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures from each civilization and destroy them.&#xA;■ Release"/>
         <property name="Watermark" value="{Evil} {Soul}"/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Super Rare"/>
@@ -355,7 +355,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="World Command"/>
       <property name="Power" value="23000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's Light, Water, Darkness, Fire and Nature creatures.&#xA;{RELEASE} - Diabolos Zeta, Temporal Ruler (When this creature would leave, flip this creature to its lower cost side instead.)"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures from each civilization and destroy them.&#xA;■ Release"/>
       <property name="Watermark" value="{Evil} {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -457,8 +457,8 @@
       <property name="Race" value="Jokers"/>
       <property name="Race1" value="Jokers"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;■ Draw 3 cards. Your opponent discards 2 cards at random from your hand."/>
-      <property name="Rules1" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
+      <property name="Rules" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)&#xA;TWINPACT&#xA;■ Draw 3 cards. Your opponent discards 2 cards at random from your hand."/>
+      <property name="Rules1" value="{JOKERS OVER EXPLODE} 2 (You may reduce this creature's summon cost by 2. If you do, put this creature on the bottom of your deck at the end of the turn. Then draw a card.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.) {DOUBLE BREAKER}&#xA;{SMASH BURST} (Whenever this creature attacks, you may cast its spell side in the battle zone for no cost.)"/>
       <property name="Rules2" value="■ Draw 3 cards. Your opponent discards 2 cards at random from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -483,9 +483,9 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Beat Jockey/Dragon Guild"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Rules" value="■ Bad Action Dynamite 2&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="16"/>
@@ -577,7 +577,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that starts with &quot;When you put this creature&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="19"/>
@@ -599,8 +599,8 @@
       <property name="Race" value="Angel Command Dragon/Team Doremi/Revolutionary"/>
       <property name="Race1" value="Angel Command Dragon/Team Doremi/Revolutionary"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Revolution Change: Light or Water Dragon&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn.&#xA;TWINPACT&#xA;■ Draw 3 cards. Then you may cast a spell that costs 5 or less from your hand for no cost."/>
-      <property name="Rules1" value="■ Revolution Change: Light or Water Dragon&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn."/>
+      <property name="Rules" value="■ Revolution Change: Light or Water Dragon (When one of your Light or Water dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn.&#xA;TWINPACT&#xA;■ Draw 3 cards. Then you may cast a spell that costs 5 or less from your hand for no cost."/>
+      <property name="Rules1" value="■ Revolution Change: Light or Water Dragon (When one of your Light or Water dragons attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, your opponent can't cast spells until the end of your opponent's next turn."/>
       <property name="Rules2" value="■ Draw 3 cards. Then you may cast a spell that costs 5 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -852,7 +852,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="God Nova OMG/Dark Lord/Knight"/>
       <property name="Power" value="3000+"/>
-      <property name="Rules" value="■ OMG Deck Evolution: Shuffle your deck, then put this creature on top of the top card face down.&#xA;■ Meteorburn-Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's a darkness or fire spell, you may cast it for no cost.&#xA;■ Left God Link OMG: (Rock Romanov, the Wicked God), (Chester Romanov, the Wicked God) or God with Center God Link or Right God Link, Left Side (As you put this creature, you may link it to the left side of the specified God. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave, choose one of them.)"/>
+      <property name="Rules" value="■ OMG Deck Evolution: Shuffle your deck, then put this creature on top of the top card face down.&#xA;■ Meteorburn: Whenever this creature attacks, you may put a card under this creature into your graveyard. If it's a darkness or fire spell, you may cast it for no cost.&#xA;■ Left God Link OMG: (Rock Romanov, the Wicked God), (Chester Romanov, the Wicked God) or God with Center God Link or Right God Link, Left Side (As you put this creature, you may link it to the left side of the specified God. The linked God has the characteristics of each God (power and abilities) and becomes one creature. When it would leave, choose one of them.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="37"/>
@@ -967,7 +967,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Cyber Command"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Revolution Change: Water or Fire Dragon that costs 3 or more (When one of your water or fire dragons that costs 3 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Your opponent chooses one of their creatures that has the lowest power and destroys it:&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Rules" value="■ Revolution Change: Water or Fire Dragon that costs 3 or more&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Your opponent chooses one of their creatures that has the lowest power and destroys it:&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="43"/>
@@ -1076,7 +1076,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command Dragon/Justice Wing/Draguner"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone. (Equip it to this creature.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone and equip it to this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="49"/>
@@ -1157,8 +1157,8 @@
       <property name="Race" value="Liquid People/Hunter"/>
       <property name="Race1" value="Liquid People/Hunter"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ During your opponent's turn, whenever your opponent puts a creature into the battle zone without paying its cost, you may return that creature to its owner's hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw 2 cards, then put a card from your hand on the bottom of your deck.&#xA;■ Put a water psychic creature that costs 7 or less from your hyperspatial zone into the battle zone."/>
-      <property name="Rules1" value="■ During your opponent's turn, whenever your opponent puts a creature into the battle zone without paying its cost, you may return that creature to its owner's hand."/>
+      <property name="Rules" value="■ During your opponent's turn, whenever your opponent puts a creature without paying its cost, you may return that creature to its owner's hand.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw 2 cards, then put a card from your hand on the bottom of your deck.&#xA;■ Put a water psychic creature that costs 7 or less from your hyperspatial zone into the battle zone."/>
+      <property name="Rules1" value="■ During your opponent's turn, whenever your opponent puts a creature without paying its cost, you may return that creature to its owner's hand."/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Draw 2 cards, then put a card from your hand on the bottom of your deck.&#xA;■ Put a water psychic creature that costs 7 or less from your hyperspatial zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -1560,7 +1560,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Angel Command Dragon"/>
         <property name="Power" value="5500"/>
-        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves the battle zone, you may choose one of your opponent's creatures and tap it."/>
+        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves, you may choose one of your opponent's creatures and tap it."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Uncommon"/>
@@ -1575,7 +1575,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="5500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves the battle zone, you may choose one of your opponent's creatures and tap it."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves, you may choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
@@ -1808,7 +1808,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, discard one of your opponent's cards at random.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, your opponent discards their hand."/>
+      <property name="Rules" value="■ When you put this creature, discard one of your opponent's cards at random.&#xA;■ During your turn, whenever a creature that costs 8 or more is summoned or a spell that costs 8 or more is cast, your opponent discards their hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="91"/>
@@ -1854,9 +1854,9 @@
       <property name="Race" value="Human Baku/Draguner"/>
       <property name="Race1" value="Human Baku/Draguner"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, reveal the top card of your deck. If it's a Draguner or Dragon, add it to your hand.&#xA;TWINPACT&#xA;■ Choose one of your creatures. Then put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone into the battle zone and equip to that creature."/>
-      <property name="Rules1" value="■ When you put this creature, reveal the top card of your deck. If it's a Draguner or Dragon, add it to your hand."/>
-      <property name="Rules2" value="■ Choose one of your creatures. Then put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone into the battle zone and equip to that creature."/>
+      <property name="Rules" value="■ When you put this creature, reveal the top card of your deck. If it's a Draguner card or Dragon card, add it to your hand.&#xA;TWINPACT&#xA;■ Choose one of your creatures. Then put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone and equip to that creature."/>
+      <property name="Rules1" value="■ When you put this creature, reveal the top card of your deck. If it's a Draguner card or Dragon card, add it to your hand."/>
+      <property name="Rules2" value="■ Choose one of your creatures. Then put a dragheart weapon that costs 4 or less that has the same civilization as a card in your mana zone from your hyperspatial zone and equip to that creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="93"/>
@@ -1895,7 +1895,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Beat Jockey/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 2 (Fire): When you put this creature, if you have 2 or more cards in your mana zone and one or more of them is fire civilization, you may choose one of your opponent's creatures. This creature battles that chosen creature.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Rules" value="■ Mana Drive 2 (Fire): When you put this creature, if you have 2 or more cards in your mana zone and one or more of them is fire civilization, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="96"/>
@@ -1967,8 +1967,8 @@
       <property name="Race" value="Beast Folk/Hunter"/>
       <property name="Race1" value="Beast Folk/Hunter"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, put a nature psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone. If it's a spell that has &quot;Hyperspatial&quot; in its name, put another card from your deck into your mana zone."/>
-      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, put a nature psychic creature that costs 7 or less from your hyperspatial zone into the battle zone."/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, put a nature psychic creature that costs 7 or less from your hyperspatial zone.&#xA;TWINPACT&#xA;■ Put the top card of your deck into your mana zone. If it's a spell that has &quot;Hyperspatial&quot; in its name, put another card from your deck into your mana zone."/>
+      <property name="Rules1" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature wins a battle, put a nature psychic creature that costs 7 or less from your hyperspatial zone."/>
       <property name="Rules2" value="■ Put the top card of your deck into your mana zone. If it's a spell that has &quot;Hyperspatial&quot; in its name, put another card from your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
@@ -2030,7 +2030,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Melt Warrior/Dark Lord/Hunter"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature, or when this creature is destroyed, choose a card in your opponent's hand at random, and your opponent reveals that card. Put a Hunter psychic creature that has the same civilization as the revealed card that costs 8 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature or when this creature is destroyed, choose a card from your opponent's hand at random, reveal it, and put a Hunter psychic creature that has the same civilization as the revealed card that costs 8 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -2376,7 +2376,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Human Baku/Draguner"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, put a dragheart weapon that costs 3 or less that has the same civilization as a card in your mana zone from your hyperspatial zone into the battle zone. (Equip it to this creature.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, you may put a dragheart weapon that costs 3 or less that has the same civilization as a card in your mana zone from your hyperspatial zone and equip it to this creature.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="127"/>
@@ -2804,7 +2804,7 @@
       <property name="Civilization" value="Light/Darkness"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Shieldify a non-evolution creature.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Choose a non-evolution creature and shieldify it.&#xA;■ Put a Light or Darkness command psychic creature that costs 10 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -3016,7 +3016,7 @@
       <property name="Cost" value="99"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Dolszak"/>
-      <property name="Rules" value="■ You may summon up to 4 Dolszaks from your hand or graveyard for no cost.&#xA;■ Take an extra turn after this one."/>
+      <property name="Rules" value="■ You may summon up to 4 Dolszak creatures from your hand or graveyard for no cost.&#xA;■ Take an extra turn after this one."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="超33/超40"/>

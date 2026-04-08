@@ -105,7 +105,7 @@
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If your opponent has a creature in the battle zone that costs more than the number of cards in your opponent's mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="■ If your opponent has a creature that costs more than the number of cards in their mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="7"/>
@@ -1030,7 +1030,7 @@
       <property name="Race" value="Demon Command/Hyper Beast"/>
       <property name="Power" value="6500"/>
       <property name="Hyper Power" value="12500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="OR1"/>
@@ -1486,7 +1486,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero"/>
       <property name="Power" value="5500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures. Your opponent shieldifies it.&quot;."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may draw a card for each of your light creatures and/or light tamaseeds.&#xA;■ Your light creatures and light tamaseeds cost 2 less to use. They can't cost 0 or less.&#xA;■ 'Civil Count 5': If you have a total of 5 or more light creatures and/or light tamaseeds, this creature gets +10000 power, &quot;triple breaker&quot; and &quot;Whenever this creature attacks, you may choose one of your opponent's creatures shieldify it.&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR3"/>
@@ -1597,7 +1597,7 @@
       <property name="Civilization" value="Light/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ If your opponent has a creature in the battle zone that costs more than the number of cards in your opponent's mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
+      <property name="Rules" value="■ If your opponent has a creature that costs more than the number of cards in their mana zone, this spell in your shield zone gets &quot;shield trigger&quot;.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Put all your opponent's creatures that have the lowest power into their owner's mana zone.&#xA;► Look at the top 2 cards of your deck. Shieldify one of them and put the one into your mana zone:&#xA;► Put an element that costs 5 or less from your hand. It gets &quot;blocker&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="TR11"/>
@@ -1611,7 +1611,7 @@
       <property name="Race" value="Demon Command/Hyper Beast"/>
       <property name="Power" value="6500"/>
       <property name="Hyper Power" value="12500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="㊙1/㊙22"/>

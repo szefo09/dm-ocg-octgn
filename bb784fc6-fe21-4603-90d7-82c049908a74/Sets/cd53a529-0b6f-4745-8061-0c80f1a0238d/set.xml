@@ -20,7 +20,7 @@
         <property name="Type" value="Psychic Creature"/>
         <property name="Race" value="Sonic Command/Invader/Initials X"/>
         <property name="Power" value="15000"/>
-        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► Your opponent chooses 2 cards from their hand and discards them:&#xA;► Choose one of your opponent's creatures and they put a seal on it.&#xA;(To seal a card, put the top card of your deck face down on it.)"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► Your opponent chooses 2 cards from their hand and discards them:&#xA;► Choose one of your opponent's creatures and they put a seal on it."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -35,7 +35,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Sonic Command/Invader/Initials X"/>
       <property name="Power" value="15000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► Your opponent chooses 2 cards from their hand and discards them:&#xA;► Choose one of your opponent's creatures and they put a seal on it.&#xA;(To seal a card, put the top card of your deck face down on it.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of the following:&#xA;► Your opponent chooses 2 cards from their hand and discards them:&#xA;► Choose one of your opponent's creatures and they put a seal on it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -49,7 +49,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Forbidden Sonic Command/Initials X"/>
       <property name="Power" value="9999"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever your opponent would choose a creature due to the effect of a spell that costs 5 or less or ability of a creature that costs 5 or less, they can't choose this creature. (It can still be attacked or blocked.)&#xA;■ At the start of your turn, if your opponent has a seal, flip this creature to its higher cost side."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Your opponent can't choose this creature with creature abilities that cost 5 or less or spells that costs 5 or less.&#xA;■ At the start of your turn, if your opponent has a seal, flip this creature to its higher cost side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -63,7 +63,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Forbidden Sonic Command/Initials X"/>
       <property name="Power" value="99999"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, if your opponent has a seal, summon a darkness or fire command from your graveyard for no cost.&#xA;■ Whenever your opponent would choose a creature due to the effect of a spell that costs 5 or less or ability of a creature that costs 5 or less, they can't choose your creatures that have &quot;Forbidden&quot; in their name."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, if your opponent has a seal, summon a darkness or fire command creature from your graveyard for no cost.&#xA;■ Your opponent can't choose your creatures that have &quot;Forbidden&quot; in their name with creature abilities that cost 5 or less or spells that costs 5 or less."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -200,7 +200,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Angel Command/Demon Command"/>
       <property name="Power" value="4500"/>
-      <property name="Rules" value="■ Awaken—At the start of each player's turn, if you have 2 Angel Commands or Demon Commands that cost 6 or more in the battle zone, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Awaken: At the start of each player's turn, if you have 2 Angel Commands or Demon Commands that cost 6 or more in the battle zone, flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value="{Holy}  {Soul}, {Evil}  {Soul}"/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Uncommon"/>
@@ -335,7 +335,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="D2 Field"/>
-      <property name="Rules" value="■ Each of your commands gets &quot;slayer&quot;. (Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch: At the end of the turn, you may turn this D2 Field upside down for the rest of the game. If you do, summon a darkness or fire command that costs 6 or less from your graveyard or hyperspatial zone for no cost.}"/>
+      <property name="Rules" value="■ Each of your commands gets &quot;slayer&quot;. (Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch: At the end of the turn, you may turn this D2 Field upside down for the rest of the game. If you do, summon a darkness or fire command creature that costs 6 or less from your graveyard or hyperspatial zone for no cost.}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="17"/>

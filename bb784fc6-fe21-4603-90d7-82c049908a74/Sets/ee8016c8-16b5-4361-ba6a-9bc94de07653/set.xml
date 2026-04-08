@@ -18,7 +18,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Gaial Command Dragon"/>
         <property name="Power" value="12000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -33,7 +33,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -45,7 +45,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Forbidden Impulse"/>
-      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave the battle zone.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Forbidden Legend Card"/>
@@ -368,9 +368,9 @@
       <property name="Race" value="Blue Command Dragon/Hunter"/>
       <property name="Race1" value="Blue Command Dragon/Hunter"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn."/>
       <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Whenever your opponent puts a creature, each of your opponent's creatures can't attack that turn.&#xA;■ Whenever your opponent casts a spell, you may draw 2 cards."/>
-      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Rules2" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="24"/>
@@ -523,7 +523,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Reveal the top card of your deck. If it's a creature that has &quot;blocker&quot; or a spell, add it to your hand. Otherwise, put it on the bottom of your deck.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Rules" value="■ Reveal the top card of your deck. If it's a spell or a creature that has &quot;blocker&quot;, put it into your hand. Otherwise, put it on the bottom of your deck.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="35"/>
@@ -610,7 +610,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk Go/Draguner"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a nature dragheart that costs 4 or less from your hyperspatial zone into the battle zone. (If it's a weapon, equip it to this creature.)"/>
+      <property name="Rules" value="■ You may summon this creature from your mana zone.&#xA;{POWER ATTACKER} +2000 (While attacking, this creature gets +2000 power.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put a nature dragheart weapon that costs 4 or less from your hyperspatial zone. If it's a weapon, equip it to this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="40"/>
@@ -1056,7 +1056,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Arc Seraphim/Shinobi"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures in the battle zone and tap it."/>
+      <property name="Rules" value="{NINJA STRIKE} 1 (Whenever one of your opponent's creatures attacks or blocks, if you have 1 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -1081,7 +1081,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Your opponent can't choose this creature. (It can still be attacked and blocked).&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
+      <property name="Rules" value="■ Your opponent can't choose this creature.&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="77"/>
@@ -1368,7 +1368,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ At the end of your turn, you may put a Light creature that has &quot;blocker&quot; from your hand into the battle zone.&#xA;■ Non-light spells cost 1 more to cast.&#xA;{DRAGSOLUTION}: At the start of your turn, if you have 3 or more creatures that have &quot;blocker&quot; in the battle zone, flip this card to the dragheart creature side and untap it."/>
+      <property name="Rules" value="■ At the end of your turn, you may put a Light creature that has &quot;blocker&quot; from your hand.&#xA;■ Non-light spells cost 1 more to cast.&#xA;{DRAGSOLUTION}: At the start of your turn, if you have 3 or more creatures that have &quot;blocker&quot;, flip this card to the dragheart creature side and untap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1422,7 +1422,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that starts with &quot;When you put this creature&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="DK4"/>

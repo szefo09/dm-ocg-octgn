@@ -27,7 +27,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Giant Angel Command"/>
       <property name="Power" value="7500"/>
-      <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or nature creatures.&#xA;■ If you summon this creature as a Neo Evolution Creature, it costs 2 less to summon.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. Those creatures don't untap at the start of your opponent's next turn.&#xA;■ Whenever one of your evolution creatures would be destroyed, you may put it into your shields instead."/>
+      <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or nature creatures.&#xA;■ If you summon this creature as a Neo Evolution Creature, it costs 2 less to summon.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures. They don't untap at the start of your opponent's next turn.&#xA;■ Whenever one of your evolution creatures would be destroyed, you may put it into your shields instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -92,7 +92,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale/Fusioner"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once per turn, you may summon a creature from your graveyard."/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once during your turn, you may summon a creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="6"/>
@@ -194,7 +194,7 @@
       <property name="Type" value="G-Neo Creature"/>
       <property name="Race" value="Grand Devil/Steam Knight"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, water or darkness creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures and return them to their owner's hand.&#xA;■ Whenever your opponent puts a creature, you may draw a card."/>
+      <property name="Rules" value="■ G-Neo Evolution: You may put this creature on top of one of your light, water or darkness creatures. (If a creature is under it, treat it as a Neo Evolution Creature, and when it would leave, all cards under it leave instead.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose up to 2 of your opponent's creatures and return them to their owner's hand.&#xA;■ Whenever your opponent puts a creature, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14"/>
@@ -298,7 +298,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Snow Faerie/Fusioner"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's elements and put it into its owner's mana zone.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once per turn, you may summon a creature from your mana zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature, choose one of your opponent's elements and put it into its owner's mana zone.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once during your turn, you may summon a creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="22"/>
@@ -311,7 +311,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Zombie Dragon/Steam Knight"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature, choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand.&#xA;■ Whenever your opponent discards a card, choose one of their creatures and tap it. That creature doesn't untap at the start of their next turn."/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand.&#xA;■ Whenever your opponent discards a card, choose one of their creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="23"/>
@@ -789,7 +789,7 @@
       <property name="Number" value="60"/>
       <property name="Set" value="DM25-RP1 Jashin Versus Jashin: ~Soul of the Abyss~"/>
     </card>
-    <card id="29a2d83b-53db-43ac-bdca-8ab3841d18a3" name="Skull Hunter">
+    <card id="29a2d83b-53db-43ac-bdca-8ab3841d18a3" name="Skelhunter">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="1"/>
@@ -1066,7 +1066,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Liquid People/Poseidia Dragon/Steam Knight"/>
-      <property name="Power" value="8000"/>
+      <property name="Power" value="6000"/>
       <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or darkness creatures.&#xA;■ If you summon this creature as a Neo Evolution Creature, it costs 3 less to summon.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw 3 cards and put a card from your hand on top of your deck.&#xA;■ Once per turn, when a creature attacks you, you may look at the top card of your deck. If it's a card that costs the same as or less than the number of cards in your hand, you may play it for no cost. If you don't play it, put it into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -1130,7 +1130,7 @@
       <property name="Civilization" value="Light/Water/Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ At the end of your opponent's turn, if 3 or more creatures were put that turn, you may cast this spell for no cost.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards and discard a card from your hand:&#xA;► Play a card that has &quot;shield trigger&quot; from your graveyard for no cost. If you cast a spell this way, put it on the bottom of your deck instead of your graveyard:&#xA;► Choose a creature and shieldify it."/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if 3 or more creatures were put that turn, you may cast this spell for no cost.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards and discard a card from your hand:&#xA;► Play a card that has &quot;shield trigger&quot; from your graveyard for no cost. If you cast a spell this way, after you cast it, put it on the bottom of your deck instead of your graveyard:&#xA;► Choose a creature and shieldify it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S7"/>
@@ -1208,7 +1208,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ If you have 4 or more Dragons in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
+      <property name="Rules" value="■ If you have 4 or more Dragon cards in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP2"/>
@@ -1221,7 +1221,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Dispector/Angel Command/Beast Folk Go/Draguner"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put an element that costs 6 or less from your hyperspatial zone. If you do, you may put the top 5 cards of your deck under this creature's EX Life shield. (If its a weapon, equip it to this creature.)&#xA;■ Cards in your mana zone are considered to be cards of every civilization."/>
+      <property name="Rules" value="{EX LIFE} (As you put this creature, shieldify the top card of your deck. When this creature would leave, put that shield into your graveyard instead.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may put an element that costs 6 or less from your hyperspatial zone. If you do, you may put the top 5 cards of your deck under this creature's EX Life shield face down.&#xA;■ Cards in your mana zone are considered to be cards of every civilization."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="SP3"/>
@@ -1468,7 +1468,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature into the battle zone, it gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature, it gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -1506,7 +1506,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
+      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name. (When one of your multicolored creatures that cost 7 or more that has &quot;Bolshack&quot; in its name attacks, you may switch that creature with this creature from your hand.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="TR2"/>
@@ -1543,7 +1543,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, look at your opponent's hand and discard a creature from it.&#xA;■ 'Civil Count 3': Whenever this creature attacks, if you have a total of 3 or more darkness creatures and/or darkness tamaseeds, you may choose a card in your opponent's graveyard. You may use one of that card's &quot;when you put&quot; abilities. Then your opponent puts that card on the bottom of their deck."/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, look at your opponent's hand and discard a creature from it.&#xA;■ Civil Count 3: Whenever this creature attacks, if you have a total of 3 or more darkness creatures and/or darkness tamaseeds, you may choose a card in your opponent's graveyard. You may use one of that card's &quot;when you put&quot; abilities. Then put that card on the bottom of its owner's deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR4"/>
@@ -1630,7 +1630,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Sonic Command/S-Rank Invader"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution: Put on a darkness or fire creature.&#xA;■ S-Rank Invasion &quot;Lightning Sonic&quot;: Darkness or Fire Command (When one of your darkness or fire commands attacks, you may put this creature from your hand, your graveyard, or the battle zone on top of it.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, your opponent puts a seal on all their creatures that have the lowest power.&#xA;(To seal a card, put the top of your deck face down on it. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ Evolution: Put on a darkness or fire creature.&#xA;■ S-Rank Invasion &quot;Lightning Sonic&quot;: Darkness or Fire Command&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, your opponent puts a seal on all their creatures that have the lowest power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR9"/>
@@ -1668,7 +1668,7 @@
       <property name="Cost" value="6"/>
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Liquid People/Poseidia Dragon/Steam Knight"/>
-      <property name="Power" value="8000"/>
+      <property name="Power" value="6000"/>
       <property name="Rules" value="■ Neo Evolution: You may put this creature on top of one of your light, water or darkness creatures.&#xA;■ If you summon this creature as a Neo Evolution Creature, it costs 3 less to summon.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, draw 3 cards and put a card from your hand on top of your deck.&#xA;■ Once per turn, when a creature attacks you, you may look at the top card of your deck. If it's a card that costs the same as or less than the number of cards in your hand, you may play it for no cost. If you don't play it, put it into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
@@ -1732,7 +1732,7 @@
       <property name="Civilization" value="Light/Water/Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ At the end of your opponent's turn, if 3 or more creatures were put that turn, you may cast this spell for no cost.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards and discard a card from your hand:&#xA;► Play a card that has &quot;shield trigger&quot; from your graveyard for no cost. If you cast a spell this way, put it on the bottom of your deck instead of your graveyard:&#xA;► Choose a creature and shieldify it."/>
+      <property name="Rules" value="■ At the end of your opponent's turn, if 3 or more creatures were put that turn, you may cast this spell for no cost.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Draw 2 cards and discard a card from your hand:&#xA;► Play a card that has &quot;shield trigger&quot; from your graveyard for no cost. If you cast a spell this way, after you cast it, put it on the bottom of your deck instead of your graveyard:&#xA;► Choose a creature and shieldify it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙8/㊙24"/>
@@ -1810,7 +1810,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale/Fusioner"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once per turn, you may summon a creature from your graveyard."/>
+      <property name="Rules" value="{SLAYER} (Whenever this creature battles, destroy the other creature after the battle.)&#xA;■ When you put this creature, you may put the top 3 cards of your deck into your graveyard.&#xA;{SUPER SOUL CROSS} (If this is under a creature, that creature also gets the following ability.)&#xA;■ Once during your turn, you may summon a creature from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="㊙14/㊙24"/>
@@ -1860,7 +1860,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Zombie Dragon/Steam Knight"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature, choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand.&#xA;■ Whenever your opponent discards a card, choose one of their creatures and tap it. That creature doesn't untap at the start of their next turn."/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's elements and return it to its owner's hand. Then your opponent discards a card at random from their hand.&#xA;■ Whenever your opponent discards a card, choose one of their creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="㊙18/㊙24"/>

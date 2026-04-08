@@ -127,7 +127,7 @@
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="D2 Field"/>
-      <property name="Rules" value="■ (This D2field is put into your mana zone tapped.)&#xA;{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Each of your creatures gets &quot;Ultra Saver: Multicolored Creature&quot;. (When one of your multicolored creatures would leave the battle zone, you may destroy one of your creatures that has &quot;Ultra Saver: Multicolored Creature&quot; instead.)&#xA;(Whenever another D2 Field is put into the battle zone, put this D2 Field into your graveyard.)&#xA;D2 WRAP Denjara Switch: At the start of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, each player puts each of their creatures on the bottom of their deck, then puts all non-evolution creatures from their graveyard into the battle zone.}"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Each of your creatures gets &quot;Ultra Saver: Multicolored Creature&quot;. (When one of your multicolored creatures would leave, you may destroy one of your creatures that has &quot;Ultra Saver: Multicolored Creature&quot; instead.)&#xA;(Whenever another D2 Field is played, destroy this D2 Field.)&#xA;D2 WRAP Denjara Switch: At the start of your turn, you may turn this D2 Field upside down for the rest of the game. If you do, each player puts each of their creatures on the bottom of their deck, then puts all non-evolution creatures from their graveyard into the battle zone.}"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="9"/>
@@ -224,7 +224,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them into the battle zone."/>
+      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="17"/>
@@ -248,7 +248,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water creature (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
+      <property name="Rules" value="■ Revolution Change: Light or Water creature&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="19"/>
@@ -954,7 +954,7 @@
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Final Forbidden Field"/>
-      <property name="Rules" value="■ This Final Forbidden Field starts the game in the battle zone with one seal put on each of its 4 corners.&#xA;■ You can remove only one seal from the battle zone each turn and only by putting a darkness and/or fire command that costs 5 or more by summoning it or using its 'ZERO' ability.&#xA;■ You can't attack with creatures except commands, initials and creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
+      <property name="Rules" value="■ This Final Forbidden Field starts the gamein the battle zone with one seal put on each of its 4 corners.&#xA;■ You can remove only one seal from the battle zone each turn and only by putting a darkness and/or fire command that costs 5 or more by summoning it or using its 'ZERO' ability.&#xA;■ You can't attack with creatures except commands, initials and creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Final Forbidden Legend Card"/>
@@ -978,7 +978,7 @@
       <property name="Civilization" value="Darkness/Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Final Forbidden Field"/>
-      <property name="Rules" value="■ This Final Forbidden Field starts the game in the battle zone with one seal put on each of its 4 corners.&#xA;■ You can remove only one seal from the battle zone each turn and only by putting a darkness and/or fire command that costs 5 or more by summoning it or using its 'ZERO' ability.&#xA;■ You can't attack with creatures except commands, initials and creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
+      <property name="Rules" value="■ This Final Forbidden Field starts the gamein the battle zone with one seal put on each of its 4 corners.&#xA;■ You can remove only one seal from the battle zone each turn and only by putting a darkness and/or fire command that costs 5 or more by summoning it or using its 'ZERO' ability.&#xA;■ You can't attack with creatures except commands, initials and creatures that have &quot;Forbidden&quot; in their name.&#xA;■ This Final Forbidden Field can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Final Forbidden Legend Card"/>
@@ -1143,7 +1143,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command/Revolutionary"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="■ Revolution Change: Darkness Command that costs 5 or more (When one of your darkness commands that costs 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put a darkness creature from your graveyard on the bottom of your deck. If you do, destroy one of your opponent's creatures."/>
+      <property name="Rules" value="■ Revolution Change: Darkness command that costs 5 or more (When one of your darkness commands that costs 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, you may put a darkness creature from your graveyard on the bottom of your deck. If you do, destroy one of your opponent's creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S3"/>

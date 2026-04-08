@@ -20,7 +20,7 @@
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have 11 or more Jokers in the battle zone and/or your mana zone you may cast this spell for no cost.&#xA;■ Count your creatures. One of your creatures breaks that number of additional shields and while that creature's attacking, your opponent can't cast spells until the end of the turn."/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 11 or more Jokers in the battle zone and/or your mana zone you may cast this spell for no cost.&#xA;■ Count your creatures. One of your creatures breaks that number of additional shields until the end of the turn and while that creature's attacking, your opponent can't cast spells."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="2"/>
@@ -69,7 +69,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Bouken Kingdom"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, you may cast a spell that costs 4 or less from your hand for no cost. If you don't, draw a card."/>
+      <property name="Rules" value="Abarechain: Each turn, whenever any of your creatures attacks for the first time, you may cast a spell that costs 4 or less from your hand for no cost. If you don't, draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -143,7 +143,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Beat Jockey/Gaial Command Dragon/Draguner/RexStars"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, destroy one of your opponent's creatures that has power 6000 or less. Then if you have 5 or more fire Dragons in your mana zone, you may draw a card. If you do, you may put a Dragon from your hand.&#xA;■ When this card leaves, untap the creatures underneath."/>
+      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose one of your opponent's creatures that has power 6000 or less and destroy it. Then if you have 5 or more fire Dragon creatures in your mana zone, you may draw a card. If you do, you may put a Dragon creature from your hand.&#xA;■ When this creature leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="10"/>
@@ -1143,7 +1143,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Jokers"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that start with &quot;When you put this creature&quot;."/>
+      <property name="Rules" value="■ While you are summoning this creature, you may return any number of your Jokers in the battle zone to your hand. For each Jokers returned this way, this creature costs 1 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card, then, discard a card from your hand.&#xA;■ Joragon Big 1 Whenever you discard a Jokers from your hand, you may use one of its abilities that starts with &quot;When you put this creature&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="M17"/>
@@ -1156,7 +1156,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Metallica"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ Whenever this creature would leave the battle zone, if you have 3 or more face up cards in your shields, it can't leave the battle zone."/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ If you have 3 or more face up cards in your shield zone, this creature can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="M18"/>
@@ -1222,7 +1222,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="10000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Card"/>
       <property name="Number" value="M23"/>
@@ -1788,7 +1788,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard..&#xA;■Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S11"/>
@@ -1914,7 +1914,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demonio"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Instead of paying this creature’s cost, you may shuffle 8 darkness and/or fire cards from your graveyard and put them on the bottom of your deck to summon this creature.&#xA;■ Each of your creatures get &quot;speed attacker&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your graveyard. From among them, you may put a Demonio."/>
+      <property name="Rules" value="■ Instead of paying this creature’s cost, you may shuffle 8 darkness and/or fire cards from your graveyard and put them on the bottom of your deck to summon this creature.&#xA;{DOUBLE BREAKER}&#xA;■ Each of your creatures get &quot;speed attacker&quot;.&#xA;■ Whenever this creature attacks, put the top 3 cards of your deck into your graveyard. From among them, you may put a Demonio."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S19"/>

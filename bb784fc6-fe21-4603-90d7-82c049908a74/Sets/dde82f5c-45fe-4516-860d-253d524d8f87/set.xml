@@ -168,7 +168,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ When you put this fortress into the battle zone, you may draw a card. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this fortress, you may draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
@@ -180,7 +180,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="World Command Dragon"/>
         <property name="Power" value="50000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player shuffles all cards in their hand, battle zone and graveyard (except this creature) into their owners' deck.&#xA;■ When this creature would leave, if it's tapped, it stays in the battle zone instead."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -195,7 +195,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="World Command Dragon"/>
       <property name="Power" value="50000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player shuffles all cards in their hand, battle zone and graveyard (except this creature) into their owners' deck.&#xA;■ When this creature would leave, if it's tapped, it stays in the battle zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -231,7 +231,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Dragheart Fortress"/>
-      <property name="Rules" value="■ When you put this fortress into the battle zone, your opponent chooses a card from their hand and discards it. {HYPERSPATIAL DRAGHEART FORTRESS} (At the start of your game, draghearts are put into your hyperspatial zone. If it leaves the battle zone, return it there.)"/>
+      <property name="Rules" value="■ When you put this fortress, your opponent chooses a card from their hand and discards it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Rare"/>
@@ -243,7 +243,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="World Command Dragon"/>
         <property name="Power" value="50000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player shuffles all cards in their hand, battle zone and graveyard (except this creature) into their owners' deck.&#xA;■ When this creature would leave, if it's tapped, it stays in the battle zone instead."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -258,7 +258,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="World Command Dragon"/>
       <property name="Power" value="50000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player puts all cards in their hand, battle zone and graveyard other than this creature into their owners' decks and shuffles it.&#xA;■ When this creature would leave the battle zone, if it's tapped, it stays in the battle zone instead."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{WORLD BREAKER}&#xA;■ When this creature is dragsolutioned, each player shuffles all cards in their hand, battle zone and graveyard (except this creature) into their owners' deck.&#xA;■ When this creature would leave, if it's tapped, it stays in the battle zone instead."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -372,7 +372,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ Draw a card."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures.&#xA;■ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -384,7 +384,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ Draw a card."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures.&#xA;■ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>

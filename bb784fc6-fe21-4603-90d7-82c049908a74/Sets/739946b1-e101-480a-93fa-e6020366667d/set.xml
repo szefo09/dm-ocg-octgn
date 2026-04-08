@@ -27,7 +27,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, choose a player. That player puts their hand on the bottom of their deck and draws the same number of cards. Then that player puts all their shields on the bottom of their deck, then adds the same number of cards to their shields face down."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, choose a player. That player puts their hand on the bottom of their deck and draws the same number of cards. Then that player puts all their shields on the bottom of their deck, then adds the same number of cards to their shields face down."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="1"/>
@@ -577,8 +577,8 @@
       <property name="Race" value="Dragon Guild/Mutopia"/>
       <property name="Race1" value="Dragon Guild/Mutopia"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="■ Whenever this creature attacks, choose one of your opponent's creatures. It can't attack or block until the start of your next turn.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Return a creature to its owner's hand."/>
-      <property name="Rules1" value="■ Whenever this creature attacks, choose one of your opponent's creatures. It can't attack or block until the start of your next turn.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
+      <property name="Rules" value="■ Whenever this creature attacks, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)&#xA;TWINPACT&#xA;■ Return a creature to its owner's hand."/>
+      <property name="Rules1" value="■ Whenever this creature attacks, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;{LAST BURST} (When this creature is destroyed, you may cast its spell side for no cost.)"/>
       <property name="Rules2" value="■ Return a creature to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
@@ -1530,7 +1530,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Metallica"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ Whenever this creature would leave the battle zone, if you have 3 or more face up cards in your shields, it can't leave the battle zone."/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ If you have 3 or more face up cards in your shield zone, this creature can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="MD1"/>
@@ -1543,7 +1543,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Metallica"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ Whenever this creature would leave the battle zone, if you have 3 or more face up cards in your shields, it can't leave the battle zone."/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ If you have 3 or more face up cards in your shield zone, this creature can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="MD1㊙1"/>
@@ -1556,7 +1556,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Metallica"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ Whenever this creature would leave the battle zone, if you have 3 or more face up cards in your shields, it can't leave the battle zone."/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ If you have 3 or more face up cards in your shield zone, this creature can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="MD1㊙2"/>
@@ -1569,7 +1569,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Master Dragon/Metallica"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ Whenever this creature would leave the battle zone, if you have 3 or more face up cards in your shields, it can't leave the battle zone."/>
+      <property name="Rules" value="■ Whenever an opponent's creature attacks, you may put 3 face up cards in your shields face down. If you do, put this creature from your hand into the battle zone.&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Dragon Triple Breaker (This creature breaks 3 shields. Before each break, add the top card of your deck to your shields face down or on top on one of your shields face up.)&#xA;■ If you have 3 or more face up cards in your shield zone, this creature can't leave the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Master Dragon Card"/>
       <property name="Number" value="MD1㊙3"/>

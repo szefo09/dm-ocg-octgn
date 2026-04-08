@@ -92,7 +92,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there is 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there are 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="2A"/>
@@ -105,7 +105,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
+      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name. (When one of your multicolored creatures that cost 7 or more that has &quot;Bolshack&quot; in its name attacks, you may switch that creature with this creature from your hand.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="2B"/>
@@ -118,7 +118,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
+      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name. (When one of your multicolored creatures that cost 7 or more that has &quot;Bolshack&quot; in its name attacks, you may switch that creature with this creature from your hand.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="2S/2S"/>
@@ -218,7 +218,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there is 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there are 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="4B"/>
@@ -484,7 +484,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Apollonia Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="10"/>
@@ -597,7 +597,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Apollonia Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="12A"/>
@@ -711,7 +711,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Apollonia Dragon"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, tap all your opponent's creatures.&#xA;■ During your opponent's turn, when you put this creature, if 2 or more of your shields weren't broken this turn, destroy this creature."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="14B"/>
@@ -1429,8 +1429,8 @@
       <property name="Race1" value="Armored Fire Bird"/>
       <property name="Race2" value="Armored Arts"/>
       <property name="Power" value="2500"/>
-      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures that have total power 7000 or less and destroy them."/>
-      <property name="Rules1" value="■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;TWINPACT&#xA;{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures that have total power 7000 or less and destroy them."/>
+      <property name="Rules1" value="■ When you put this creature, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Rules2" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose up to 2 of your opponent's creatures that have total power 7000 or less and destroy them."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
@@ -1844,7 +1844,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="17000"/>
-      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
+      <property name="Rules" value="■ Revolution Change: Multicolored creature that costs 7 or more that has &quot;Bolshack&quot; in its name. (When one of your multicolored creatures that cost 7 or more that has &quot;Bolshack&quot; in its name attacks, you may switch that creature with this creature from your hand.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 4 cards of your deck and put any number of Armored cards except 'Bolshack Bakuterasu, Dragon Emperor God'. Put the rest on the bottom of your deck in any order.&#xA;■ Each of your other creatures gets &quot;blocker&quot; and &quot;speed attacker&quot;.&#xA;■ At the end of each turn, untap all your other creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="OR2"/>
@@ -1870,7 +1870,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there is 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there are 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
@@ -2020,7 +2020,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard..&#xA;■Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn."/>
+      <property name="Rules" value="■ You may cast this spell from your graveyard, If you do, after you cast, put it on the bottom of your deck instead of your graveyard.&#xA;■ Choose 2 of the following. (You may choose the same one twice.):&#xA;► Your opponent chooses a card in their hand and discards it:&#xA;► Put a darkness creature that costs 4 or less or a darkness aura that costs 4 or less from your graveyard:&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has power 0 or less is destroyed.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP5"/>
@@ -2031,7 +2031,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them into the battle zone."/>
+      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="T1"/>
@@ -2188,7 +2188,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them into the battle zone."/>
+      <property name="Rules" value="■ Put 2 of your cards in the battle zone into your graveyard. Then put a non-evolution Fire creature from among them."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="TF1"/>
@@ -2398,7 +2398,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Sonic Command/S-Rank Invader"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution: Put on a darkness or fire creature.&#xA;■ S-Rank Invasion &quot;Lightning Sonic&quot;: Darkness or Fire Command (When one of your darkness or fire commands attacks, you may put this creature from your hand, your graveyard, or the battle zone on top of it.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, your opponent puts a seal on all their creatures that have the lowest power.&#xA;(To seal a card, put the top of your deck face down on it. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ Evolution: Put on a darkness or fire creature.&#xA;■ S-Rank Invasion &quot;Lightning Sonic&quot;: Darkness or Fire Command&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, your opponent puts a seal on all their creatures that have the lowest power."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR5"/>

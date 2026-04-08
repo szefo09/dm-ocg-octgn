@@ -455,7 +455,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Hunter"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put up to 2 Fire Bird psychic creatures that cost 3 or less from your hyperspatial zone:&#xA;► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put up to 2 Fire Bird psychic creatures that cost 3 or less from your hyperspatial zone:&#xA;► Put a fire psychic creature that costs 6 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -469,7 +469,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Fire Bird/Hunter"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put up to 2 Fire Bird psychic creatures that cost 3 or less from your hyperspatial zone:&#xA;► Put a Fire psychic creature that costs 6 or less from your hyperspatial zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature, choose one of the following:&#xA;► Put up to 2 Fire Bird psychic creatures that cost 3 or less from your hyperspatial zone:&#xA;► Put a fire psychic creature that costs 6 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -711,7 +711,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Fire Bird/Hunter"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ Each of your Dragons in the battle zone gets +2000 power.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Each of your Dragons gets +2000 power.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Common"/>
@@ -723,7 +723,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="King Command Dragon/Hunter"/>
         <property name="Power" value="19000"/>
-        <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -738,7 +738,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="King Command Dragon/Hunter"/>
       <property name="Power" value="19000"/>
-      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -752,7 +752,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Fire Bird/Hunter"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Psychic Link—At the start of your turn, if you have Forever Kaiser, the Meteor and Ukon Pippi in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Psychic Link: At the start of your turn, if you have a Forever Kaiser, the Meteor and Ukon Pippi, link them to this creature and flip them.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Common"/>
@@ -764,7 +764,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="King Command Dragon/Hunter"/>
         <property name="Power" value="19000"/>
-        <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -779,7 +779,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="King Command Dragon/Hunter"/>
       <property name="Power" value="19000"/>
-      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1017,7 +1017,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="King Command Dragon/Hunter"/>
         <property name="Power" value="19000"/>
-        <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -1032,7 +1032,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="King Command Dragon/Hunter"/>
       <property name="Power" value="19000"/>
-      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1046,7 +1046,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="King Command Dragon/Hunter"/>
       <property name="Power" value="19000"/>
-      <property name="Rules" value="■ Each of your creatures in the battle zone gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, put a psychic creature that has that card's cost or less from your hyperspatial zone into the battle zone.&#xA;{TRIPLE BREAKER}&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ Each of your creatures gets &quot;speed attacker&quot;.&#xA;■ Your opponent's psychic creatures can't attack or block.&#xA;■ Whenever this creature attacks, you may put up to 2 cards from the top of your deck into your graveyard. For each card put into your graveyard in this way, you may put a psychic creature that costs the same as or less than that card from your hyperspatial zone.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>

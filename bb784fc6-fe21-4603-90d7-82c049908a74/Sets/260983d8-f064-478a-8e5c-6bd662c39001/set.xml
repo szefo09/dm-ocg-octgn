@@ -782,7 +782,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Flame Command/Hunter"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Hunter creatures.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent chooses a card in their mana zone and puts it into their graveyard. Then you may put the top card of your deck into your mana zone."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Hunter creatures.&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, your opponent chooses a card in their mana zone and puts it into their graveyard. Then you may put the top card of your deck into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -883,7 +883,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Armored Dragon/Beast Folk"/>
       <property name="Power" value="24000"/>
-      <property name="Rules" value="■ Vortex evolution—Put on 2 of your fire and/or nature creatures.&#xA;{WORLD BREAKER}&#xA;■ 'Hold Nothing Back!' — When you put this creature into the battle zone, each of your other creatures can attack untapped creatures and can't be blocked this turn while attacking creatures."/>
+      <property name="Rules" value="■ Vortex evolution: Put on 2 of your fire and/or nature creatures.&#xA;{WORLD BREAKER}&#xA;■ 'Hold Nothing Back!': When you put this creature into the battle zone, each of your other creatures can attack untapped creatures and can't be blocked this turn while attacking creatures."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="No Rarity"/>
       <property name="Number" value="285/???"/>
@@ -1010,7 +1010,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Your opponent can't choose this creature. (It can still be attacked and blocked).&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
+      <property name="Rules" value="■ Your opponent can't choose this creature.&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="295/???"/>
@@ -1109,7 +1109,7 @@
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="7"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose 2 of the following:&#xA;► Choose any number of your opponent's creatures that have total power 5000 or less and destroy them.&#xA;► Draw up to 3 cards:&#xA;► Choose one of your opponent's creatures and put it into its owner's mana zone:&#xA;► Tap all your opponent's creatures:&#xA;► Destroy one of your opponent's creatures."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Choose 2 of the following. (You can't choose the same on twice.):&#xA;► Choose any number of your opponent's creatures that have total power 5000 or less and destroy them.&#xA;► Draw up to 3 cards:&#xA;► Choose one of your opponent's creatures and put it into its owner's mana zone:&#xA;► Tap all your opponent's creatures:&#xA;► Choose one of your opponent's creatures and destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="0"/>
       <property name="Rarity" value="No Rarity"/>
@@ -1784,7 +1784,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="450aa17f-b0cd-40c8-aac8-f0d948e851be" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="9347477b-3379-4594-84a7-7170e8f313cb" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -1997,7 +1997,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Angel Command Dragon"/>
         <property name="Power" value="5500"/>
-        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves the battle zone, you may choose one of your opponent's creatures and tap it."/>
+        <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves, you may choose one of your opponent's creatures and tap it."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="No Rarity"/>
@@ -2012,7 +2012,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Angel Command Dragon"/>
       <property name="Power" value="5500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves the battle zone, you may choose one of your opponent's creatures and tap it."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks or leaves, you may choose one of your opponent's creatures and tap it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="No Rarity"/>
@@ -2140,7 +2140,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ All fire Jokers creatures in your hand get &quot;Jokers Over Explode&quot; 2. (You may pay 2 less to summon a creature that has &quot;Jokers Over Explode&quot; 2. If you do, put it on the bottom of your deck at the end of the turn. Then draw a card)&#xA;■ When you put this creature into the battle zone, reveal the top 4 cards of your deck. You may put a Jokers card from among them into your hand. Put the rest under your deck in any order."/>
+      <property name="Rules" value="■ All fire Jokers creatures in your hand get &quot;Jokers Over Explode&quot; 2. (You may pay 2 less to summon a creature that has &quot;Jokers Over Explode&quot; 2. If you do, put it on the bottom of your deck at the end of the turn. Then draw a card)&#xA;■ When you put this creature, reveal the top 4 cards of your deck. You may put a Jokers card from among them into your hand. Put the rest under your deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="84/???"/>
@@ -2417,7 +2417,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Command/Master Initials"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of your turn, you may draw a card. Then you may put a light creature that costs 3 or less from your hand into the battle zone.&#xA;■ At the start of your turn, if you have a D2 Field and 4 or more creatures that have the same name in the battle zone, you win the game."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ At the end of your turn, you may draw a card. Then you may put a light creature that costs 3 or less from your hand.&#xA;■ At the start of your turn, if you have a D2 Field and 4 or more creatures that have the same name , you win the game."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="105/???"/>
@@ -2428,7 +2428,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="0"/>
       <property name="Type" value="Forbidden Impulse"/>
-      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave the battle zone.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side.&#xA;{SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="■ This impulse starts the game in the battle zone with 6 seals on it.&#xA;■ This impulse can't leave.&#xA;■ Forbidden Liberate: When this impulse has no seals on it, flip it to its creature side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Forbidden Legend Card"/>
@@ -2511,7 +2511,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="70a6528d-b99f-4a8d-adf4-0f1609e58450" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="450aa17f-b0cd-40c8-aac8-f0d948e851be" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -2722,7 +2722,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature into the battle zone, it gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature, it gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
@@ -2765,7 +2765,7 @@
         <property name="Set" value="DMEX-08 Mysterious Black Box Pack"/>
       </alternate>
     </card>
-    <card id="9347477b-3379-4594-84a7-7170e8f313cb" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
+    <card id="70a6528d-b99f-4a8d-adf4-0f1609e58450" name="Enjoy Play! Everyone's Playground! GANG PARADE!">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
       <property name="Cost" value="10"/>
@@ -2819,7 +2819,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="The Answer"/>
       <property name="Power" value="14000"/>
-      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature into the battle zone, put the top 7 cards of your deck into your graveyard. From among them, use any number of water cards that cost 7 or less for no cost. If you used all 7 cards, you win the game.&#xA;■ When this creature leaves the battle zone, shuffle all cards in your graveyard into your deck."/>
+      <property name="Rules" value="{TRIPLE BREAKER}&#xA;■ When you summon this creature, put the top 7 cards of your deck into your graveyard. From among them, you may play any number of water cards that cost 7 or less for no cost. If you played all 7 cards, you win the game.&#xA;■ When this creature leaves, shuffle all cards in your graveyard into your deck."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="124/???"/>
@@ -3780,7 +3780,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Angel Dragon/Revolutionary/Team Doremi"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{REVOLUTION CHANGE}-Light or Water creature (When one of your Light or Water creatures attacks, you may switch that creature with this creature from your hand.)&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
+      <property name="Rules" value="■ Revolution Change: Light or Water creature&#xA;■ When you put this creature, you may cast a light or water spell that costs 3 or less from your hand for no cost."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="175/???"/>
@@ -3831,7 +3831,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Unknown"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Demon Commands.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever one of your Demon Commands win a battle, you may draw a card. Then you may put a non-evolution Demon Command from your hand into the battle zone."/>
+      <property name="Rules" value="■ Evolution: Put on one of your Demon Command creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever one of your Demon Commands win a battle, you may draw a card. Then you may put a non-evolution Demon Command creature from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="No Rarity"/>

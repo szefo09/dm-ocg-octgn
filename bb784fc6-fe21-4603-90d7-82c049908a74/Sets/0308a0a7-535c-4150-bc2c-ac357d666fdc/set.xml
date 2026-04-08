@@ -218,7 +218,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="10000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have a total of 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{MASTER DOUBLE BREAKER}&#xA;■ If you have 5 or more Jokers in the battle zone or your mana zone, this creature can't be blocked, and after the attack, if your opponent has no shields and no creatures, you win the game."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="Coro4th 1"/>
@@ -661,9 +661,9 @@
       <property name="Race" value="Metallica"/>
       <property name="Race1" value="Metallica"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature doesn't leave the battle zone.&#xA;TWINPACT&#xA;■ Tap up to 2 of your opponent's creatures. Those creatures doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature doesn't leave the battle zone.&#xA;TWINPACT&#xA;■ Tap up to 2 of your opponent's creatures. They don't untap at the start of your opponent's next turn."/>
       <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ If you have more creatures in the battle zone than your opponent, this creature doesn't leave the battle zone."/>
-      <property name="Rules2" value="■ Tap up to 2 of your opponent's creatures. Those creatures doesn't untap at the start of your opponent's next turn."/>
+      <property name="Rules2" value="■ Tap up to 2 of your opponent's creatures. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P7"/>
@@ -1258,9 +1258,9 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Beat Jockey/Dragon Guild"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Rules" value="■ Bad Action Dynamite 2&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P16"/>
@@ -1319,7 +1319,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Shinobi"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
+      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -1592,8 +1592,8 @@
       <property name="Race" value="Mafi Gang/Dolszak"/>
       <property name="Race1" value="Mafi Gang/Dolszak"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{GATE OF MOONLESS NIGHT}: When you put a Magic Tool, you may choose 2 of your Magic Tools in the battle zone and your graveyard and summon this creature from your hand or graveyard onto those 4 cards for no cost. {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, destroy one of your opponent's untapped creatures.&#xA;TWINPACT&#xA;■ Put the top 2 cards of your deck into your graveyard."/>
-      <property name="Rules1" value="{GATE OF MOONLESS NIGHT}: When you put a Magic Tool, you may choose 2 of your Magic Tools in the battle zone and your graveyard and summon this creature from your hand or graveyard onto those 4 cards for no cost. {DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, destroy one of your opponent's untapped creatures."/>
+      <property name="Rules" value="{GATE OF MOONLESS NIGHT}: When you put a Magic Tool, you may choose 2 of your Magic Tools in the battle zone and your graveyard and summon this creature from your hand or graveyard onto those 4 cards for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, destroy one of your opponent's untapped creatures.&#xA;TWINPACT&#xA;■ Put the top 2 cards of your deck into your graveyard."/>
+      <property name="Rules1" value="{GATE OF MOONLESS NIGHT}: When you put a Magic Tool, you may choose 2 of your Magic Tools in the battle zone and your graveyard and summon this creature from your hand or graveyard onto those 4 cards for no cost.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone or whenever it attacks, destroy one of your opponent's untapped creatures."/>
       <property name="Rules2" value="■ Put the top 2 cards of your deck into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -2240,7 +2240,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Death Puppet"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ When you put this creature, discard one of your opponent's cards at random.&#xA;■ During your turn, whenever you summon a creature that costs 8 or more or cast a spell that costs 8 or more, your opponent discards their hand."/>
+      <property name="Rules" value="■ When you put this creature, discard one of your opponent's cards at random.&#xA;■ During your turn, whenever a creature that costs 8 or more is summoned or a spell that costs 8 or more is cast, your opponent discards their hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P32"/>
@@ -2276,7 +2276,7 @@
       <property name="Type" value="Gacharange Creature"/>
       <property name="Race" value="Tricks/Wonderforce"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Mana Drive 2 (Water): When you put this creature into the battle zone, if you have 2 or more card in your mana zone and one or more of them is water civilization, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
+      <property name="Rules" value="■ Mana Drive 2 (Water): When you put this creature into the battle zone, if you have 2 or more cards in your mana zone and one or more of them is water civilization, choose one of your opponent's creatures. Until the start of your next turn, that creature can't attack or block.&#xA;(At the start of the game, gacharange creatures aren't put into your deck and are put into your super gacharange, and if a gacharange creature would be put into a zone other than the battle zone, return them to the bottom of your super gacharange.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P33"/>
@@ -2620,7 +2620,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mutopia"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="■ Your opponent can't choose this creature. (It can still be attacked and blocked).&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
+      <property name="Rules" value="■ Your opponent can't choose this creature.&#xA;■ Whenever your opponent puts a creature in a way except by summoning during their turn, you may return that creature to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P39"/>
@@ -2836,7 +2836,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Metallica/Cyber Lord/RexStars"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P42"/>
@@ -2903,7 +2903,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Metallica/Cyber Lord/RexStars"/>
       <property name="Power" value="6500"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Light creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Light RexStars that costs 4 or more (When one of your Light RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P43"/>
@@ -3170,7 +3170,7 @@
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value="Team Kirifuda"/>
+      <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following. If you have at least one fire creature and at least one nature creature in the battle zone, you may choose both:&#xA;► Destroy up to 2 of your opponent's creatures that have total cost 6 or less:&#xA;► Put a fire or nature creature that costs 5 or less from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3231,7 +3231,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon costs up to 4 less to summon. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P49"/>
@@ -3655,7 +3655,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="6"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures in the battle zone.&#xA;■ Draw a card."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Tap all your opponent's creatures.&#xA;■ Draw a card."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -3949,7 +3949,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Beast Folk/Bouken Kingdom"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, choose one of your opponent's creature's and tap it. That creature doesn't untap at the start of their next turn."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;{ABARECHAIN}: Whenever any of your creatures attacks, if it's the first attack this turn, choose one of your opponent's creature's and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P61"/>
@@ -4714,7 +4714,7 @@
       <property name="Type" value="Star Evolution Creature"/>
       <property name="Race" value="Jokers/Sonic Command/RexStars"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this card leaves, untap the creature under it."/>
+      <property name="Rules" value="{STAR EVOLUTION} Put on one of your RexStars or Fire creatures. (When this creature would leave, the top card leaves instead.)&#xA;{INVASION}-Fire RexStars that costs 4 or more (When one of your Fire RexStars that costs 4 or more attacks, you may put this creature from your hand onto it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, during your opponent's next turn, your opponent can only put one creature.&#xA;■ When this creature leaves, untap the creature under it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P74"/>
@@ -5006,8 +5006,8 @@
       <property name="Race" value="Mafi Gang"/>
       <property name="Race1" value="Mafi Gang"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
-      <property name="Rules1" value="■ When you put this creature , you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
+      <property name="Rules" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random.&#xA;TWINPACT&#xA;■ Put a creature that costs 7 or less from your graveyard."/>
+      <property name="Rules1" value="■ When you put this creature, you may discard a card from your hand. If you do, discard a card from your opponent's hand at random."/>
       <property name="Rules2" value="■ Put a creature that costs 7 or less from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
@@ -5410,7 +5410,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon/Cyber Command"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="■ Revolution Change: Water or Fire Dragon that costs 3 or more (When one of your water or fire dragons that costs 3 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Your opponent chooses one of their creatures that has the lowest power and destroys it:&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
+      <property name="Rules" value="■ Revolution Change: Water or Fire Dragon that costs 3 or more&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Your opponent chooses one of their creatures that has the lowest power and destroys it:&#xA;► Choose one of your opponent's creatures and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 16-20)"/>
       <property name="Number" value="P85"/>

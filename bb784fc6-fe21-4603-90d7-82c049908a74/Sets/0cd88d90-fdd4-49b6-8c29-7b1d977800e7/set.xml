@@ -209,7 +209,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Cyber Lord/Team Ginga"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may add a card from your hand face up or face down into your shields as a new shield. If you do, choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ When you put this creature, you may add a card from your hand into your shields face up or face down. If you do, choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="15"/>
@@ -383,7 +383,7 @@
       <property name="Civilization" value="Fire/Nature"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Race" value="Team Kirifuda"/>
+      <property name="Race" value="Jokers/Team Kirifuda"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of the following. If you have at least one fire creature and at least one nature creature in the battle zone, you may choose both:&#xA;► Destroy up to 2 of your opponent's creatures that have total cost 6 or less:&#xA;► Put a fire or nature creature that costs 5 or less from your mana zone into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
@@ -538,7 +538,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk/Team Ginga"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{GALAXYSHIELD} {W3} (You may pay Water 3 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;■ When you put this creature face up into your shield zone, look at one of your other shields. You may turn that shield face up."/>
+      <property name="Rules" value="{GALAXYSHIELD} {W3} (You may pay Water 3 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;■ When you put this creature into your shield zone face up, look at one of your other shields. You may turn that shield face up."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36"/>
@@ -551,7 +551,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Merfolk/Team Ginga"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{GALAXYSHIELD} {W3} (You may pay Water 3 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;■ When you put this creature face up into your shield zone, look at one of your other shields. You may turn that shield face up."/>
+      <property name="Rules" value="{GALAXYSHIELD} {W3} (You may pay Water 3 instead of the cost of using this card. If you do, put this card into your shields face up.)&#xA;■ At the start of your turn, if this creature is face up in your shields, summon it with its cost paid.&#xA;{GALAXY GO}&#xA;■ At the start of your turn, if this card is face up in your shields, summon it with its cost paid.&#xA;■ When you put this creature into your shield zone face up, look at one of your other shields. You may turn that shield face up."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="36f"/>
@@ -1051,7 +1051,7 @@
       <property name="Civilization" value="Light"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Common"/>
@@ -1693,7 +1693,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon/Fushigi Kingdom"/>
       <property name="Power" value="23000"/>
-      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever your opponent puts a creature into the battle zone and your opponent's creature's ability would trigger, that ability won't trigger instead. (For example, your opponent can't use an ability that starts with &quot;When you put this creature into the battle zone&quot;.)&#xA;{FUSHIGIVERSE} Nature 13 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 13 minus that creature's cost. It can't cost less than Nature 1.)"/>
+      <property name="Rules" value="{QUATTRO BREAKER}&#xA;■ Whenever your opponent puts a creature and your opponent's creature's ability would trigger, that ability won't trigger instead.&#xA;{FUSHIGIVERSE} Nature 13 (You may put one of your creatures into your mana zone tapped to summon this creature from your graveyard for a cost equal to Nature 13 minus that creature's cost. It can't cost less than Nature 1.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S5"/>

@@ -139,7 +139,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero/Supercar Dragon"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, Choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn:&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose 2 of the following. (You may choose the same one twice.):&#xA;► Choose one of your opponent's creatures. That creature gets -4000 power until the end of the turn. (A creature that has 0 power or less is destroyed.):&#xA;► Put the top 4 cards of your deck into your graveyard:&#xA;► Put a creature that costs 4 or less from your graveyard.&#xA;■ When this creature would leave, you may destroy one of your other creatures instead."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="7"/>
@@ -623,16 +623,19 @@
       <property name="Civilization" value="Water"/>
       <property name="Civilization1" value="Water"/>
       <property name="Civilization2" value="Water"/>
-      <property name="Cost" value="0/undefined"/>
-      <property name="Cost1" value="0"/>
+      <property name="Cost" value="9/4"/>
+      <property name="Cost1" value="9"/>
+      <property name="Cost2" value="4"/>
       <property name="Type" value="Creature/Spell"/>
       <property name="Type1" value="Creature"/>
       <property name="Type2" value="Spell"/>
-      <property name="Race" value="undefined"/>
-      <property name="Race1" value="undefined"/>
-      <property name="Rules" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ At the start of your turn, you may draw a card.&#xA;TWINPACT&#xA;■ Draw 2 cards.&#xA;■ Return all your creatures that have&quot;blocker&quot; to their owners' hands."/>
-      <property name="Rules1" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ At the start of your turn, you may draw a card."/>
-      <property name="Rules2" value="■ Draw 2 cards.&#xA;■ Return all your creatures that have&quot;blocker&quot; to their owners' hands."/>
+      <property name="Race" value="Cyber Moon/Cyber Word"/>
+      <property name="Race1" value="Cyber Moon"/>
+      <property name="Race2" value="Cyber Word"/>
+      <property name="Power" value="5000"/>
+      <property name="Rules" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ During your turn, whenever you draw your first card, you may draw another card.&#xA;TWINPACT&#xA;■ Draw 2 cards.&#xA;■ Return all creatures that have &quot;blocker&quot; to their owners' hands."/>
+      <property name="Rules1" value="{GRAVITY ZERO} If a player has 9 or more cards in their hand, you may summon this creature for no cost.&#xA;■ During your turn, whenever you draw your first card, you may draw another card."/>
+      <property name="Rules2" value="■ Draw 2 cards.&#xA;■ Return all creatures that have &quot;blocker&quot; to their owners' hands."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="40"/>
@@ -1618,7 +1621,6 @@
       <property name="Power" value="16000"/>
       <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Heroine Rare"/>
       <property name="Number" value="SPR5"/>
       <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
@@ -1736,7 +1738,6 @@
       <property name="Power" value="16000"/>
       <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Heroine Rare"/>
       <property name="Number" value="SPR㊙5/SPR㊙5"/>
       <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>
@@ -1750,7 +1751,6 @@
       <property name="Power" value="16000"/>
       <property name="Rules" value="■ G-Neo Evolution: You may put this on one of your creatures.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, look at the top 5 cards of your deck. Shieldify one of them, put one into your hand, and put the rest into your mana zone, graveyard, and under this creature.&#xA;■ When this creature leaves, choose any number of cards from your graveyard and shuffle them into your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Heroine Rare"/>
       <property name="Number" value="SPR㊙5超/SPR㊙5"/>
       <property name="Set" value="DM25-EX1 Love Thanksgiving: Heroine BEST"/>

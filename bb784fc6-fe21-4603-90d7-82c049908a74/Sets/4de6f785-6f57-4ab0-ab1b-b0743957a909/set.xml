@@ -309,7 +309,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P7"/>
@@ -706,7 +706,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demonio/Oni RexStars"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks, if you don't have a tamaseed, destroy this creature after the attack.&#xA;■ Your Demonio cost 1 less to summon. They can't cost 0 or less."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ Whenever this creature attacks or blocks, if you don't have a tamaseed, destroy this creature after the attack.&#xA;■ Your Demonio creatures cost 1 less to summon. They can't cost 0 or less."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P18"/>
@@ -1275,7 +1275,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Snow Faerie"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ During your turn, you may summon a Hyper Beast creature from your mana zone."/>
+      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ Once during your turn, you may summon a Hyper Beast creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P32"/>
@@ -1691,8 +1691,8 @@
       <property name="Race1" value="Abyss Royale"/>
       <property name="Race2" value="Invitation to the Abyss"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Once per turn, you may summon a creature from your graveyard.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures that costs 4 or less and destroy it."/>
-      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Once per turn, you may summon a creature from your graveyard.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Once during your turn, you may summon a creature from your graveyard.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures that costs 4 or less and destroy it."/>
+      <property name="Rules1" value="{DOUBLE BREAKER}&#xA;■ Once during your turn, you may summon a creature from your graveyard.&#xA;{MEGA LAST BURST} (When this creature leaves and is put into your hand, mana zone or graveyard, you may cast the spell side of this card for no cost.)"/>
       <property name="Rules2" value="■ Choose one of your opponent's creatures that costs 4 or less and destroy it."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
@@ -1703,7 +1703,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Draw 3 cards, then put a card in your hand into your hyperspatial zone."/>
+      <property name="Rules" value="■ Draw 3 cards, then put a card from your hand into your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P44"/>
@@ -2327,9 +2327,9 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="10"/>
       <property name="Type" value="Creature"/>
-      <property name="Race" value="Beat Jockey/Dragon Guild"/>
+      <property name="Race" value="Dragon Guild/Beat Jockey"/>
       <property name="Power" value="9000+"/>
-      <property name="Rules" value="{BAD ACTION DYNAMITE} 2 (You may reduce this creature's summon cost by 2. If you do, destroy this creature at the end of the turn.)&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
+      <property name="Rules" value="■ Bad Action Dynamite 2&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ When this creature is destroyed while it's tapped, take an extra turn after this one.&#xA;■ While battling, this creature gets +5000 power."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P60"/>
@@ -2523,7 +2523,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="1"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature into the battle zone, it gets &quot;speed attacker&quot; until the end of the turn."/>
+      <property name="Rules" value="■ This turn, the next creature you summon may cost 1 less. It can't cost less than 1. When you put that creature, it gets &quot;speed attacker&quot; until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
@@ -2749,6 +2749,16 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P70"/>
     </card>
+    <card id="f1389208-23c0-436c-8467-4be7d488c37f" name="Lost Re:Soul">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Darkness"/>
+      <property name="Cost" value="7"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{GUARD STRIKE} (When you add this spell from your shield zone to your hand, you may reveal it to your opponent and choose one of your opponent's creatures. That creature can't attack this turn.)&#xA;■ Your opponent discards all cards from their hand."/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P71"/>
+    </card>
     <card id="1c2147ba-5c0f-478c-b7c6-73ead572a5b6" name="Rumbling Dragon's Gift">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
@@ -2893,6 +2903,16 @@
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P74"/>
+    </card>
+    <card id="a06d5785-7a0b-48ae-ae4a-5a87edb4c60e" name="Legend of Hope and Victory">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Water/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="■ Draw 2 cards. Then you may put a creature that has &quot;Bolmeteus Steel Dragon&quot; in its name from your hand,"/>
+      <property name="Watermark" value=""/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P75"/>
     </card>
     <card id="0834e335-f448-4d0d-8826-ef16d4d45890" name="Secret and Splendid Kaitai">
       <property name="Format" value="OCG"/>
@@ -3125,7 +3145,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Magic Outrage MAX"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="{SHIELD TRIGGER PLUS} (When this creature is put into your hand from your shield zone, you may summon it for no cost. If it's your opponent's turn, and you have had 2 or more of your shields broken this turn, this creature gets its Shield Trigger Plus ability.)&#xA;{SHIELD TRIGGER PLUS}: When you put this creature, your opponent can't attack with creatures this turn.&#xA;■ When you put this creature, you may draw 2 cards. If you do, discard a card from your hand."/>
+      <property name="Rules" value="{SHIELD TRIGGER PLUS}: When you put this creature, your opponent can't attack with creatures this turn.&#xA;■ When you put this creature, you may draw 2 cards. If you do, discard a card from your hand."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P81"/>
@@ -3137,7 +3157,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Pandora's Box"/>
       <property name="Power" value="25000"/>
-      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there is 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
+      <property name="Rules" value="{WORLD BREAKER}&#xA;■ This creature is put tapped.&#xA;■ Whenever another creature leaves or at the start of your turn, you may reveal the top card of your deck and put it under this creature.&#xA;■ If there are 7 or less cards under this creature, this creature can't leave or untap.&#xA;■ Whenever an 8th card is put under this creature, untap this creature.&#xA;■ Whenever this creature attacks, you may put a card under this creature into your graveyard. If that card is a creature, put it from your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P81"/>
@@ -3210,7 +3230,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
+      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more (When one of your Abyss that cost 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P83"/>
@@ -3246,7 +3266,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
+      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more (When one of your Abyss that cost 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P84"/>
@@ -3268,7 +3288,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Abyss Royale"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;{DOUBLE BREAKER}&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
+      <property name="Rules" value="■ Revolution Change: Abyss that costs 5 or more (When one of your Abyss that cost 5 or more attacks, you may switch that creature with this creature from your hand.)&#xA;{DOUBLE BREAKER}&#xA;■ Each of your Abyss get &quot;mach fighter&quot;.&#xA;■ At the end of your turn, you may put an Abyss creature that costs 6 or less from your graveyard or mana zone.&#xA;■ Each turn, whenever one of your opponent's creatures attacks for the first time, they attack this creature if able."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P85"/>
@@ -3630,15 +3650,14 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P112"/>
     </card>
-    <card id="1b2ab2b3-981a-4a24-a615-162e4fd474d5" name="Poppi Crown Lucky">
+    <card id="1b2ab2b3-981a-4a24-a615-162e4fd474d5" name="Positron Sign">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Light"/>
-      <property name="Cost" value="3"/>
-      <property name="Type" value="Creature"/>
-      <property name="Race" value="Armored Fire Bird"/>
-      <property name="Power" value="3000"/>
-      <property name="Rules" value="■ Your opponent can't use cards from anywhere except from their hand or deck.&#xA;■ Your opponent can't put elements from anywhere except from their hand or deck.&#xA;ESCAPE (When this creature would be destroyed, you may add one of your shields to your hand instead. You can't use the &quot;shield trigger&quot; ability of that shield.)"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Look at the top 4 cards of your deck. You may choose a spell that has &quot;shield trigger&quot; from among them. Put the rest of the cards on the bottom of your deck in any order. Then cast the chosen spell for no cost."/>
       <property name="Watermark" value=""/>
+      <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P113"/>
     </card>
@@ -3674,20 +3693,16 @@
       <property name="Power" value="15000"/>
       <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P115"/>
     </card>
-    <card id="7ae23ff9-e14e-4ce1-9f98-ebfeb56a2964" name="Worldballom, Demon World">
+    <card id="7ae23ff9-e14e-4ce1-9f98-ebfeb56a2964" name="Lost Watergate">
       <property name="Format" value="OCG"/>
-      <property name="Civilization" value="Light/Water/Darkness/Fire/Nature"/>
-      <property name="Cost" value="8"/>
-      <property name="Type" value="Evolution Creature"/>
-      <property name="Race" value="Demon Command"/>
-      <property name="Power" value="15000"/>
-      <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
+      <property name="Civilization" value="Water"/>
+      <property name="Cost" value="1"/>
+      <property name="Type" value="Spell"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Search your deck. You may take a multicolored card from it, and show it to your opponent. Then shuffle your deck and put that card on top of your deck."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P116"/>
     </card>
@@ -3700,9 +3715,77 @@
       <property name="Power" value="15000"/>
       <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P117"/>
+    </card>
+    <card id="5c7f57c2-a52f-4fdd-9d48-42880d1e8ab9" name="Batorai Edge, Blazing Sword">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="3"/>
+      <property name="Type" value="Dragheart Weapon"/>
+      <property name="Rules" value="■ Whenever a creature equipped with this attacks, you may reveal the top card of your deck. If it's a non-evolution Human or a non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ A creature equipped with this can't be attacked.&#xA;■ Dragsolution: At the end of your turn, if you put a dragon in the battle zone this turn, you may flip this card to the dragheart fortress side. {HYPERSPATIAL DRAGHEART}&#xA;■ Dragsolution: At the start of your turn, if you have 2 or more fire creatures in the battle zone, flip this card to the dragheart creature side and untap it. (At the start of your game, draghearts are put into your hyperspatial zone. If a creature equipped with it or the dragheart leaves the battle zone, return it there.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P117a"/>
+      <alternate name="Batorai Keep, Blazing Castle" type="awakening" size="wide">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="5"/>
+        <property name="Type" value="Dragheart Fortress"/>
+        <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+        <property name="Number" value="P117bY24"/>
+      </alternate>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening2" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+        <property name="Number" value="P117c/Y24"/>
+      </alternate>
+    </card>
+    <card id="f1e3f144-8117-4969-ae32-e1f6f6d0c2bd" size="wide" name="Batorai Keep, Blazing Castle">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Dragheart Fortress"/>
+      <property name="Rules" value="■ Whenever one of your Humans or fire Dragons attacks, you may reveal the top card of your deck. If it's a non-evolution Human or non-evolution Dragon, put it into the battle zone. Otherwise, put it on the bottom of your deck.&#xA;■ Dragsolution: When you put a Dragon in the battle zone, if it's not the first Dragon put into the battle zone this turn, you may flip this card to the dragheart creature side and untap it."/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P117bY24"/>
+      <alternate name="Batorai Bushin, Blazing Deluxe" type="awakening" size="tall">
+        <property name="Civilization" value="Fire"/>
+        <property name="Cost" value="8"/>
+        <property name="Type" value="Dragheart Creature"/>
+        <property name="Race" value="Gaial Command Dragon"/>
+        <property name="Power" value="12000"/>
+        <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+        <property name="Watermark" value=""/>
+        <property name="Mana" value="N/A"/>
+        <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+        <property name="Number" value="P117c/Y24"/>
+      </alternate>
+    </card>
+    <card id="d37f69d4-d3d7-49b0-b517-5f2053f9e3d9" size="tall" name="Batorai Bushin, Blazing Deluxe">
+      <property name="Format" value="OCG"/>
+      <property name="Civilization" value="Fire"/>
+      <property name="Cost" value="8"/>
+      <property name="Type" value="Dragheart Creature"/>
+      <property name="Race" value="Gaial Command Dragon"/>
+      <property name="Power" value="12000"/>
+      <property name="Rules" value="■ Whenever this creature attacks, reveal the top 3 cards of your deck. Put all non-evolution Humans and non-evolution Dragons into the battle zone. If all cards are Dragons, each of your creatures gets &quot;speed attacker&quot;. Put the rest on the bottom of your deck in any order.&#xA;{TRIPLE BREAKER}&#xA;{DRAGON EVADE} (When this creature would leave the battle zone, flip it to the fortress side instead.)"/>
+      <property name="Watermark" value=""/>
+      <property name="Mana" value="N/A"/>
+      <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
+      <property name="Number" value="P117c"/>
     </card>
     <card id="4b9fccc6-6f6a-42b2-a199-5fa1a0fa4077" name="Bolzard Gold Dragon">
       <property name="Format" value="OCG"/>
@@ -3739,25 +3822,14 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P119"/>
     </card>
-    <card id="de8212b7-2bc5-4f54-9683-465679e0f609" name="Forceorder, Deliberation Elemental / Silence Charger">
+    <card id="de8212b7-2bc5-4f54-9683-465679e0f609" name="Abysslove = Jashin Emperor">
       <property name="Format" value="OCG"/>
-      <property name="Name1" value="Forceorder, Deliberation Elemental"/>
-      <property name="Name2" value="Silence Charger"/>
-      <property name="Civilization" value="Light"/>
-      <property name="Civilization1" value="Light"/>
-      <property name="Civilization2" value="Light"/>
-      <property name="Cost" value="6/3"/>
-      <property name="Cost1" value="6"/>
-      <property name="Cost2" value="3"/>
-      <property name="Type" value="Creature/Spell"/>
-      <property name="Type1" value="Creature"/>
-      <property name="Type2" value="Spell"/>
-      <property name="Race" value="Angel Command"/>
-      <property name="Race1" value="Angel Command"/>
-      <property name="Power" value="7000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 2 cards of your deck. Shieldify one of them and put the other into your hand.&#xA;TWINPACT&#xA;■ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
-      <property name="Rules1" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 2 cards of your deck. Shieldify one of them and put the other into your hand."/>
-      <property name="Rules2" value="■ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;{CHARGER} (After you cast this spell, put it into your mana zone instead of your graveyard.)"/>
+      <property name="Civilization" value="Water/Darkness/Fire"/>
+      <property name="Cost" value="5"/>
+      <property name="Type" value="Neo Creature"/>
+      <property name="Race" value="Abyss Royale"/>
+      <property name="Power" value="9000"/>
+      <property name="Rules" value="■ Special-Neo Evolution (Graveyard): You may put this creature on top of one of your Abyss creatures in the battle zone or graveyard.(If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Whenever this creature attacks, choose up to one of your opponent's creatures and send them to the Abyss. (Put it into its owner's Abyss Zone. This movement can't be prevented.)&#xA;■ When this creature would leave, you may put the top 5 cards of your deck into your graveyard instead."/>
       <property name="Watermark" value=""/>
       <property name="Set" value="Japanese Promotional Cards  (Year 21-25)"/>
       <property name="Number" value="P120"/>

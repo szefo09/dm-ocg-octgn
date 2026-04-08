@@ -560,7 +560,6 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 6 cards of your deck. Put all evolution creatures from among them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="40"/>
       <property name="Set" value="DM-14 Generate Gear"/>
@@ -762,7 +761,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Devil Mask"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, discard your hand."/>
+      <property name="Rules" value="■ When you put this creature, discard your hand."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -786,7 +785,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Your opponent chooses a card from their hand and discards it.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of your opponent choosing the card to discard, look at your opponent's hand, choose a card from it and discard it."/>
+      <property name="Rules" value="■ Your opponent chooses a card from their hand and discards it.&#xA;{METAMORPH} (If you have 7 or more cards in your mana zone, this spell gets the following Metamorph ability.)&#xA;{METAMORPH}: Instead of your opponent choosing the card to discard, look at your opponent's hand, and discard a card from it."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>

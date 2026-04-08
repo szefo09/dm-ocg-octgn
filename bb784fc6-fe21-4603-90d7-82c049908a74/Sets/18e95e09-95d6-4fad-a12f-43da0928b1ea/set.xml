@@ -150,7 +150,6 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Choose 2 of the following. (You may choose the same one twice) If you have all 5 civilizations in your elements, you may use each one once instead:&#xA;► Shieldify the top card of your deck:&#xA;► Draw 2 cards:&#xA;► Your opponent discards a card at random from their hand:&#xA;► Choose one of your opponent's elements that costs 6 or less and destroy it:&#xA;► Put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="11"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>
@@ -680,7 +679,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Angel Command"/>
       <property name="Power" value="3500"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap."/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ When you put this creature, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="53"/>
@@ -1020,7 +1019,6 @@
       <property name="Power" value="15000"/>
       <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="OR1"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>
@@ -1045,7 +1043,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ During your opponent's turn, whenever your opponent puts a creature and that creature's ability triggers, you may also use that ability."/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.){DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and return it to its owner's hand.&#xA;■Whenever your opponent puts a creature during their turn and that creature's ability triggers, you may also use that ability."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
@@ -1122,7 +1120,7 @@
       <property name="Cost" value="13"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Song"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this spell gets this ability.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S8"/>
@@ -1187,7 +1185,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="SP2"/>
@@ -1213,7 +1211,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant/Shinobi"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature , shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
+      <property name="Rules" value="{NINJA STRIKE} 7 (Whenever one of your opponent's creatures attacks or blocks, if you have 7 or more cards in your mana zone and if during that attack you didn't use a &quot;Ninja Strike&quot; ability, you may summon this Shinobi for no cost. At the end of that turn, put this Shinobi on the bottom of your deck.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, shuffle all cards in your graveyard into your deck. Then shieldify the top card of your deck. At the start of your next turn, put one of your shields into your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1264,7 +1262,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon costs up to 4 less to summon. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="T4"/>
@@ -1491,7 +1489,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Veil Abyss"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.) {DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand:&#xA;► Choose a player. That player shuffles their graveyard and puts it on the bottom of their deck.&#xA;► Your opponent puts all their non-creature elements that cost 5 or less into their owner's mana zone."/>
+      <property name="Rules" value="{MACH FIGHTER} (This creature can attack tapped or untapped creatures on the turn you put it.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, choose one of the following:&#xA;► Put the top 2 cards of your deck into your mana zone tapped. Then return a card from your mana zone to your hand:&#xA;► Choose a player. That player shuffles their graveyard and puts it on the bottom of their deck.&#xA;► Your opponent puts all their non-creature elements that cost 5 or less into their owner's mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="TR6"/>
@@ -1545,7 +1543,6 @@
       <property name="Power" value="15000"/>
       <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="㊙1/㊙24"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>
@@ -1570,7 +1567,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
       <property name="Power" value="7000"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and return it to its owner's hand.&#xA;■ During your opponent's turn, whenever your opponent puts a creature and that creature's ability triggers, you may also use that ability."/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.){DOUBLE BREAKER}&#xA;■ When you put this creature, you may choose one of your opponent's creatures and return it to its owner's hand.&#xA;■Whenever your opponent puts a creature during their turn and that creature's ability triggers, you may also use that ability."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙3/㊙24"/>
@@ -1647,7 +1644,7 @@
       <property name="Cost" value="13"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Magic Song"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you cast this spell, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this spell costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one. (If you have 3 or more elements that have different costs, this spell gets this ability.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;■ Choose a number between 1 and 13 and put the same number of cards from the top of your deck into your graveyard. Then put a creature from your graveyard.&#xA;■ Varavariety 3: If this spell is the first one you've cast this game named '♪ From Hack, Temporarily Shift, Ten and Seven', take an extra turn after this one."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙9/㊙24"/>
@@ -1725,7 +1722,6 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="■ Choose 2 of the following. (You may choose the same one twice) If you have all 5 civilizations in your elements, you may use each one once instead:&#xA;► Shieldify the top card of your deck:&#xA;► Draw 2 cards:&#xA;► Your opponent discards a card at random from their hand:&#xA;► Choose one of your opponent's elements that costs 6 or less and destroy it:&#xA;► Put the top card of your deck into your mana zone. Then you may return a card from your mana zone to your hand."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="㊙15/㊙24"/>
       <property name="Set" value="DM24-RP4 World of Ballom"/>

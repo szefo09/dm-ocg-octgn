@@ -481,7 +481,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Snow Faerie"/>
       <property name="Power" value="3000"/>
-      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ During your turn, you may summon a Hyper Beast creature from your mana zone."/>
+      <property name="Rules" value="■ When you put this creature, look at the top 2 cards of your deck. Put one of them into your mana zone and the other into your hand.&#xA;■ Once during your turn, you may summon a Hyper Beast creature from your mana zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="37"/>
@@ -1059,7 +1059,7 @@
       <property name="Race" value="Demon Command/Hyper Beast"/>
       <property name="Power" value="6500"/>
       <property name="Hyper Power" value="12500"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{DOUBLE BREAKER}&#xA;■ Each turn, whenever you put a Hyper Beast for the first time, choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn.&#xA;{HYPERIFY} Tap one of your other creatures. (During your main step, you may unleash Hyper Mode. Hyper Mode stays until the start of your next turn.)&#xA;----&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks a player, look at the top 3 cards of your deck. Put any number of Hyper Beasts from among them that have total cost 8 or less. Put the rest into your hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="OR2"/>
@@ -1102,7 +1102,6 @@
       <property name="Power" value="15000"/>
       <property name="Rules" value="■ Super Infinite Evolution: Put on one or more of your Demon Command creatures.&#xA;{WORLD BREAKER}&#xA;■ When you put this creature, if it evolved on 3 or more cards, your opponent discards all cards in their hand. If it evolved on 5 or more cards, change the mana number of all cards in your opponent's mana zone to 0 until the start of your next turn.&#xA;■ Whenever this creature attacks, choose a civilization and destroy all your opponent's elements that have that civilization."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Rarity" value="Over Rare"/>
       <property name="Number" value="OR5"/>
       <property name="Set" value="DM24-EX3 Explosive Excitement Duenamite Pack"/>
@@ -1217,7 +1216,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Poseidia Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your Dragons.&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}: Search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
+      <property name="Rules" value="■ Evolution: Put on one of your Dragons.&#xA;{THRILLING THREE}: Dragon (When you put this creature into the battle zone, reveal the top 3 cards of your deck. For each Dragon revealed, use the following Thrilling Three ability once. Then put the revealed cards on the bottom of your deck in any order.)&#xA;}:&#xA;{THRILLING THREE}: Search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.&#xA;{DOUBLE BREAKER}"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1324,7 +1323,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{STRIKE BACK}-Darkness (When a Darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
+      <property name="Rules" value="{STRIKE BACK}: Strike Back: Darkness (When a darkness card is put into your hand from your shield zone, you may discard that card. If you do, cast this spell for no cost.)&#xA;■ Choose one of your opponent's creatures and they put a seal on it.&#xA; {SEAL}&#xA;(To seal a card, put the top card of your deck on top of that card face down. Whenever a Command is put, its owner puts a seal from one of their cards that has the same civilization as that Command into their graveyard. Sealed creatures are ignored.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="TD11"/>
@@ -1607,7 +1606,7 @@
       <property name="Cost" value="2"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Onifuda Kingdom"/>
-      <property name="Rules" value="■ Choose one of your shields and add it to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon may cost up to 4 less to summon. It can't cost 0 or less."/>
+      <property name="Rules" value="■ Return one of your shields to your hand. You can't use the &quot;shield trigger&quot;.&#xA;■ This turn, the next darkness or fire creature you summon costs up to 4 less to summon. It can't cost less than 1."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="TF15"/>

@@ -77,7 +77,7 @@
         <property name="Type" value="Dragheart Creature"/>
         <property name="Race" value="Gaial Command Dragon"/>
         <property name="Power" value="12000"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -92,7 +92,7 @@
       <property name="Type" value="Dragheart Creature"/>
       <property name="Race" value="Gaial Command Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-Dragon creatures can't attack on the turn they are put."/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, draw a card. Then you may put a non-evolution Dragon from your hand.&#xA;■ Your opponent's non-dragon creatures can't attack on the turn they are put."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -274,7 +274,7 @@
       <property name="Type" value="Evolution Psychic Creature"/>
       <property name="Race" value="Sonic Command/Invader"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution: Put on one of your light creatures.&#xA;■ Parallel Invasion: When one of your non-psychic light commands attacks, you may put this creature from your hyperspatial zone onto it.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put a card from your hand into your hyperspatial zone, then tap all your opponent's creatures that have the highest power. At the start of your opponent's next turn, they don't untap."/>
+      <property name="Rules" value="■ Evolution: Put on one of your light creatures.&#xA;■ Parallel Invasion: When one of your non-psychic light commands attacks, you may put this creature from your hyperspatial zone onto it.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, put a card from your hand into your hyperspatial zone, then tap all your opponent's creatures that have the highest power. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -288,7 +288,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="13000"/>
-      <property name="Rules" value="■ Parallel Revolution Change: When one of your non-psychic water or darkness dragons that cost 5 or more attacks, you may switch that creature with this creature in your hyperspatial zone.&#xA;{TRIPLE BREAKER}&#xA;■ This creature can't be blocked.&#xA;■ When you put this creature, discard a card from your hand.&#xA;■ Whenever you discard from your hand, each of your other multicolored creatures gets &quot;slayer&quot; until the start of your next turn."/>
+      <property name="Rules" value="■ Parallel Revolution Change: When one of your non-psychic water or darkness dragons that cost 5 or more attacks, you may switch that creature with this creature in your hyperspatial zone.&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, discard a card from your hand.&#xA;■ This creature can't be blocked.&#xA;■ Whenever you discard a card, each of your other multicolored creatures gets &quot;slayer&quot; until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Super Rare"/>
@@ -402,7 +402,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Giant Dragon"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.) {DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;{JUSTDIVER} (When you put this creature, it can't be chosen by your opponent and can't be attacked until the start of your next turn.)&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, look at the top 6 cards of your deck. Put 2 of them into your hand and put the rest on the bottom of your deck in any order. Then you may reveal a card from your hand to your opponent. If you do, choose one of your opponent's creatures that costs the same as the revealed card and return it to its owner's hand."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="13"/>
@@ -590,7 +590,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ If you have 4 or more Dragons in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
+      <property name="Rules" value="■ If you have 4 or more Dragon cards in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="19"/>
@@ -753,7 +753,7 @@
       <property name="Cost" value="9"/>
       <property name="Type" value="Spell"/>
       <property name="Race" value="Jokers"/>
-      <property name="Rules" value="{GRAVITY ZERO} If you have 11 or more Jokers in the battle zone and/or your mana zone you may cast this spell for no cost.&#xA;■ Count your creatures. One of your creatures breaks that number of additional shields and while that creature's attacking, your opponent can't cast spells until the end of the turn."/>
+      <property name="Rules" value="{GRAVITY ZERO} If you have 11 or more Jokers in the battle zone and/or your mana zone you may cast this spell for no cost.&#xA;■ Count your creatures. One of your creatures breaks that number of additional shields until the end of the turn and while that creature's attacking, your opponent can't cast spells."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="24"/>
@@ -1043,7 +1043,7 @@
       <property name="Type" value="Evolution Psychic Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="12000"/>
-      <property name="Rules" value="■ Evolution: Put on one of your Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ You may summon this creature from your hyperspatial zone.&#xA;■ Whenever this creature attacks, choose up to 2 cards from your opponent's mana zone and put them into their owner's graveyard.&#xA;■ When this creature leaves, put all cards under this creature into your graveyard instead and flip this creature to the cross gear side."/>
+      <property name="Rules" value="■ You may summon this creature from your hyperspatial zone.&#xA;■ Evolution: Put on one of your Dragon creatures.&#xA;{TRIPLE BREAKER}&#xA;■ Whenever this creature attacks, choose up to 2 cards from your opponent's mana zone and put them into their owner's graveyard.&#xA;■ When this creature leaves, if there are card under this card, put all cards under it into your graveyard instead and flip this creature to the cross gear side."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Very Rare"/>
@@ -1258,7 +1258,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Zenith Celes"/>
       <property name="Power" value="12921"/>
-      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, each player chooses up to 2 cards in their mana zone and turns them face down.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
+      <property name="Rules" value="{CRYSTAL SOUL} 3 (While you are summoning this creature, the mana number of face down cards in your mana zone becomes 3.)&#xA;{TRIPLE BREAKER}&#xA;■ When you put this creature, choose up to 2 cards in each player's mana zone and turn them face down.&#xA;{ETERNAL KAPPA} (When this creature would leave, you may turn 3 face down cards in your mana zone face up instead.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Rare"/>
       <property name="Number" value="41"/>
@@ -1910,7 +1910,7 @@
       <property name="Civilization" value="Water/Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Draw 2 cards. Then you may put a creature that has &quot;Bolmeteus Steel Dragon&quot; in its name from your hand into the battle zone."/>
+      <property name="Rules" value="■ Draw 2 cards. Then you may put a creature that has &quot;Bolmeteus Steel Dragon&quot; in its name from your hand,"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="75"/>
@@ -1960,7 +1960,7 @@
       <property name="Type" value="Neo Creature"/>
       <property name="Race" value="Mega Command Dragon/Revolutionary/Team Hamukatsu"/>
       <property name="Power" value="4000+"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Neo Evolution: You may put it one of your fire or nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature battles that chosen creature.&#xA;■ If this is a Neo Evolution Creature, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this creature is put into your hand from your shield zone, you may summon it immediately for no cost.)&#xA;■ Neo Evolution: You may put it one of your fire or nature creatures. (If a creature is under it, treat it as a Neo Evolution Creature.)&#xA;■ When you put this creature, you may choose one of your opponent's creatures. This creature and that creature battle.&#xA;■ If this is a Neo Evolution Creature, this creature gets +5000 power and &quot;double breaker&quot;. (A creature that has &quot;double breaker&quot; breaks 2 shields.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="78"/>
@@ -2113,7 +2113,7 @@
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Draw 3 cards, then put a card in your hand into your hyperspatial zone."/>
+      <property name="Rules" value="■ Draw 3 cards, then put a card from your hand into your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Common"/>
       <property name="Number" value="89"/>
@@ -2487,7 +2487,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Armored Dragon"/>
       <property name="Power" value="11000"/>
-      <property name="Rules" value="■ If you have 4 or more Dragons in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
+      <property name="Rules" value="■ If you have 4 or more Dragon cards in your mana zone, this creature costs 3 less to summon.&#xA;{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{DOUBLE BREAKER}&#xA;■ Once per turn, when you put a dragon, you may choose one of your opponent's creatures and tap it.&#xA;■ Whenever this creature attacks, reveal the top card of your deck. If its a Dragon, put it. Otherwise, put it into your graveyard."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="G9"/>

@@ -121,7 +121,7 @@
       <property name="Type" value="Evolution Creature"/>
       <property name="Race" value="Demon Command/Alien"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="■ Evolution—Put on one of your water or fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature into the battle zone, put a water, darkness, or fire psychic creature that costs 7 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Evolution: Put on one of your water or fire creatures.&#xA;{DOUBLE BREAKER}&#xA;■ When you put this creature, put a water, darkness, or fire psychic creature that costs 7 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Very Rare"/>
@@ -199,7 +199,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Earth Eater/Cyber Lord/Alien"/>
       <property name="Power" value="2000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature into the battle zone, put a light, water, or darkness psychic creature that costs 5 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.)&#xA;■ This creature can't attack.&#xA;■ When you put this creature, put a light, water, or darkness psychic creature that costs 5 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -263,7 +263,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Hunter/Alien"/>
       <property name="Power" value="4000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone. Until the start of your next turn, that creature can't attack or block.&#xA;■ Victory Psychic Link—If you have Ryusei Kaiser, the Victorious and Gaial Kaiser, the Victorious in the battle zone, link them to this creature and flip this creature to its higher cost side.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ When you put this creature, choose one of your opponent's creatures. That creature can't attack or block until the start of your next turn.&#xA;■ Victory Psychic Link: If you have a Ryusei Kaiser, the Victorious and Gaial Kaiser, the Victorious, link them to this creature and flip them.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Common"/>
@@ -275,7 +275,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="Rainbow Command Dragon/Hunter"/>
         <property name="Power" value="26000+"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -290,7 +290,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Rainbow Command Dragon/Hunter"/>
       <property name="Power" value="26000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -774,7 +774,7 @@
       <property name="Civilization" value="Fire"/>
       <property name="Cost" value="5"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Destroy one of your opponent's creatures that has &quot;blocker&quot;.&#xA;■ Put a Fire psychic creature that costs 9 or less from your hyperspatial zone into the battle zone.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="■ Choose one of your opponent's creatures that has &quot;blocker&quot; and destroy it.&#xA;■ Put a fire psychic creature that costs 9 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Uncommon"/>
@@ -935,7 +935,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command/Alien"/>
       <property name="Power" value="9000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy any number of your other creatures. For each creature destroyed this way, you may put a psychic creature that costs 6 or less from your hyperspatial zone.&#xA; (At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ When you put this creature, destroy any number of your other creatures. For each creature destroyed this way, you may put a psychic creature that costs 6 or less from your hyperspatial zone."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Rarity" value="Super Rare"/>
@@ -1265,7 +1265,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your opponent's cards are put into their mana zone tapped&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="{DOUBLE BREAKER}&#xA;■ Your opponent's cards are put into their mana zone tapped."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1277,7 +1277,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="Rainbow Command Dragon/Hunter"/>
         <property name="Power" value="26000+"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -1292,7 +1292,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Rainbow Command Dragon/Hunter"/>
       <property name="Power" value="26000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1306,7 +1306,7 @@
       <property name="Type" value="Psychic Creature"/>
       <property name="Race" value="Red Command Dragon/Hunter"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, this creature can attack untapped creatures until the end of the turn.&#xA;(At the start of the game, psychic creatures aren't put into your deck and are put into your hyperspatial zone, and if a psychic creature is put into a zone other than the battle zone, they are returned there.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;■ When you put this creature, this creature can attack untapped creatures until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>
@@ -1318,7 +1318,7 @@
         <property name="Type" value="Psychic Super Creature"/>
         <property name="Race" value="Rainbow Command Dragon/Hunter"/>
         <property name="Power" value="26000+"/>
-        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+        <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
         <property name="Watermark" value=""/>
         <property name="Mana" value="N/A"/>
         <property name="Rarity" value="Victory Rare"/>
@@ -1333,7 +1333,7 @@
       <property name="Type" value="Psychic Super Creature"/>
       <property name="Race" value="Rainbow Command Dragon/Hunter"/>
       <property name="Power" value="26000+"/>
-      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap this creature, then choose 2 of your opponent's shields. Your opponent puts those shields into their hand.&#xA;{LINK RELEASE} (When this creature leaves the battle zone, choose one of its psychic cells and return it to your hyperspatial zone and flip the rest of the cards.)"/>
+      <property name="Rules" value="{SPEED ATTACKER} (This creature doesn't get summoning sickness.)&#xA;{HUNTING} (While battling, this creature gets +1000 power for each of your Hunters in the battle zone.)&#xA;{WORLD BREAKER}&#xA;■ Whenever this creature wins a battle, untap it and break 2 of your opponent's shields.&#xA;■ Link Release"/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="N/A"/>
       <property name="Rarity" value="Victory Rare"/>

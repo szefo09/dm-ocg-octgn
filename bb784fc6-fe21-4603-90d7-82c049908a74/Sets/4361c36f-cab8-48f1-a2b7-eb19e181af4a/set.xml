@@ -31,7 +31,7 @@
       <property name="Number" value="1"/>
       <property name="Set" value="DM24-RP3 Gold of Hyperangel"/>
     </card>
-    <card id="e9bc7cfc-0fdd-4043-94d2-0285e61e5926" name="Skullhunter, Violent Blue Moon">
+    <card id="e9bc7cfc-0fdd-4043-94d2-0285e61e5926" name="Skelhunter, Violent Blue Moon">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="7"/>
@@ -73,7 +73,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Counterattack Darkness 3: When a creature attacks you, if you haven't used 'Counterattack' during that attack, you may cast this spell from your hand for no cost. If you do, pay Darkness 3: at the start of your next turn. If you can't pay, you lose the game.&#xA;■ Choose one of your opponent's creatures. That creature loses infinite power until the end of the turn. (A creature that has 0 power or less is destroyed.)"/>
+      <property name="Rules" value="■ Counterattack Darkness 3: When a creature attacks you, if you haven't used 'Counterattack' during that attack, you may cast this spell from your hand for no cost. If you do, pay Darkness 3: at the start of your next turn. If you can't pay, you lose the game.&#xA;■ Choose one of your opponent's creatures. That creature loses infinite power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="5"/>
@@ -406,7 +406,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Del Dinero/Mecha Angel Command"/>
       <property name="Power" value="5000"/>
-      <property name="Rules" value="{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. Those creatures don't untap at the start of your opponent's next turn."/>
+      <property name="Rules" value="{YOBINION} (When you summon this creature, you may reveal cards from the top of your deck until you reveal a creature that costs less than this one. Put that creature. Shuffle the rest and put them on the bottom of your deck.)&#xA;■ When you put this creature, choose 2 of your opponent's creatures and tap them. They don't untap at the start of your opponent's next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Uncommon"/>
       <property name="Number" value="31"/>
@@ -1033,7 +1033,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
       <property name="Power" value="9500"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card for each of your tapped creatures.&#xA;■ Ignore all abilities that prevent your creatures from attacking. (This doesn't ignore summoning sickness.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card for each of your tapped creatures.&#xA;■ Ignore all abilities of your creatures that prevent them from attacking. (This doesn't ignore summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S1"/>
@@ -1046,7 +1046,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ This creature is put tapped and doesn't untap at the start of your turn.&#xA;■ Whenever a card is put into your shield zone, untap this creature, then choose one of the following:&#xA;▶ Draw a card.&#xA;▶ Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;▶ This creature can't leave until the start of your next turn."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ This creature is put tapped and doesn't untap at the start of your turn.&#xA;■ Whenever a card is put into your shield zone, untap this creature, then choose one of the following:&#xA;▶ Draw a card.&#xA;▶ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn:&#xA;▶ This creature can't leave until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="S2"/>
@@ -1569,7 +1569,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Jokers"/>
       <property name="Power" value="1000"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, look at the top 4 cards of your deck. You may choose a Jokers creature from it, show it to your opponent, and add it to your hand. Put the rest on the bottom of your deck in any order.&#xA;■ Revolution 0—When you put this creature into the battle zone, if you have no shields, you may put a Jokers creature that have cost 7 or less from your hand into the battle zone."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ When you put this creature into the battle zone, look at the top 4 cards of your deck. You may choose a Jokers creature from it, show it to your opponent, and add it to your hand. Put the rest on the bottom of your deck in any order.&#xA;■ Revolution 0: When you put this creature into the battle zone, if you have no shields, you may put a Jokers creature that have cost 7 or less from your hand into the battle zone."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="TR9"/>
@@ -1595,7 +1595,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Demon Command"/>
       <property name="Power" value="9500"/>
-      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card for each of your tapped creatures.&#xA;■ Ignore all abilities that prevent your creatures from attacking. (This doesn't ignore summoning sickness.)"/>
+      <property name="Rules" value="{HYPER ENERGY} (As you summon this creature, you may tap any number of your creatures that have different costs. For each creature you tapped in this way, this creature costs 2 less to summon. It can't cost less than 1.)&#xA;{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ When you put this creature, draw a card for each of your tapped creatures.&#xA;■ Ignore all abilities of your creatures that prevent them from attacking. (This doesn't ignore summoning sickness.)"/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙2/㊙24"/>
@@ -1608,7 +1608,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Mecha Thunder"/>
       <property name="Power" value="8000"/>
-      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ This creature is put tapped and doesn't untap at the start of your turn.&#xA;■ Whenever a card is put into your shield zone, untap this creature, then choose one of the following:&#xA;▶ Draw a card.&#xA;▶ Choose one of your opponent's creatures and tap it. At the start of your opponent's next turn, that creature doesn't untap.&#xA;▶ This creature can't leave until the start of your next turn."/>
+      <property name="Rules" value="{BLOCKER} (You may tap this creature to change the attack target of your opponent's creature to this creature.) {DOUBLE BREAKER}&#xA;■ This creature is put tapped and doesn't untap at the start of your turn.&#xA;■ Whenever a card is put into your shield zone, untap this creature, then choose one of the following:&#xA;▶ Draw a card.&#xA;▶ Choose one of your opponent's creatures and tap it. That creature doesn't untap at the start of your opponent's next turn:&#xA;▶ This creature can't leave until the start of your next turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Super Rare"/>
       <property name="Number" value="㊙3/㊙24"/>
@@ -1756,7 +1756,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="4"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="■ Counterattack Darkness 3: When a creature attacks you, if you haven't used 'Counterattack' during that attack, you may cast this spell from your hand for no cost. If you do, pay Darkness 3: at the start of your next turn. If you can't pay, you lose the game.&#xA;■ Choose one of your opponent's creatures. That creature loses infinite power until the end of the turn. (A creature that has 0 power or less is destroyed.)"/>
+      <property name="Rules" value="■ Counterattack Darkness 3: When a creature attacks you, if you haven't used 'Counterattack' during that attack, you may cast this spell from your hand for no cost. If you do, pay Darkness 3: at the start of your next turn. If you can't pay, you lose the game.&#xA;■ Choose one of your opponent's creatures. That creature loses infinite power until the end of the turn."/>
       <property name="Watermark" value=""/>
       <property name="Rarity" value="Very Rare"/>
       <property name="Number" value="㊙15/㊙24"/>

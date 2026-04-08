@@ -363,7 +363,6 @@
       <property name="Type" value="Spell"/>
       <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Reveal the top 6 cards of your deck. Put all evolution creatures from among them into your hand, and put the rest on the bottom of your deck in any order."/>
       <property name="Watermark" value=""/>
-      <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 1-5)"/>
       <property name="Number" value="P6"/>
     </card>
@@ -461,7 +460,7 @@
       <property name="Civilization" value="Darkness"/>
       <property name="Cost" value="3"/>
       <property name="Type" value="Spell"/>
-      <property name="Rules" value="{SHIELD TRIGGER} (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)&#xA;■ Destroy any number of your creatures. Then draw 2 cards for each creature destroyed this way."/>
+      <property name="Rules" value="{SHIELD TRIGGER} (When this card is put into your hand from your shield zone, you may cast/summon it immediately for no cost.)&#xA;■ Destroy any number of your creatures. Then draw 2 cards for each creature destroyed this way."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 1-5)"/>
@@ -978,7 +977,7 @@
       <property name="Type" value="Creature"/>
       <property name="Race" value="Machine Hero"/>
       <property name="Power" value="6000"/>
-      <property name="Rules" value="■ When you put this creature into the battle zone, your opponent reveals cards from the top of their deck until they reveal a non-evolution creature. Your opponent puts that creature into the battle zone then puts the rest of the revealed cards on the bottom of their deck in any order."/>
+      <property name="Rules" value="■ When you put this creature, your opponent reveals cards from the top of their deck until they reveal a non-evolution creature, then put that creature. Then your opponent puts the rest of the revealed cards on the bottom of their deck in any order."/>
       <property name="Watermark" value=""/>
       <property name="Mana" value="1"/>
       <property name="Set" value="Japanese Promotional Cards  (Year 1-5)"/>
@@ -2280,7 +2279,7 @@
       <property name="Set" value="Japanese Promotional Cards  (Year 1-5)"/>
       <property name="Number" value="P42"/>
     </card>
-    <card id="9106b247-e8a8-40a2-a308-c5be8e7822e7" name="Osmosis Bullet Soul Skull Hunter">
+    <card id="9106b247-e8a8-40a2-a308-c5be8e7822e7" name="Osmosis Bullet Soul Skelhunter">
       <property name="Format" value="OCG"/>
       <property name="Civilization" value="Water"/>
       <property name="Cost" value="3"/>
