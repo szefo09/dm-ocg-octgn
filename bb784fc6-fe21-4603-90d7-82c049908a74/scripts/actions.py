@@ -41,7 +41,7 @@ cardScripts={
 	'All Sunrise': {'onPlay': [lambda card: allSunrise()]},
 	'Alshia, Spirit of Novas': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Spell")]},
 	'Ancient Horn, the Watcher': {'onPlay': [lambda card: untapAll(getMana(me), clearWaitingFunctions=False) if len(getShields(me))>=5 else None]},
-	'Andorage, Lord of Devils': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True), lambda card: selfDiscard(2)]},
+	'Andorage, Lord of Devils': {'onPlay': [lambda card: draw(me.Deck, False, 2), lambda card: selfDiscard(2)]},
 	'Angila, Electro-Mask': {'onPlay': [lambda card: waveStriker(lambda card:search(me.piles["Graveyard"], 1, "Creature"), card)]},
 	'Aures, Spirit Knight': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Aquan': {'onPlay': [lambda card: revealFromDeckAndAddToHand(5, 're.search(r"Light|Darkness", c.Civilization)')]},
@@ -55,7 +55,7 @@ cardScripts={
 	'Aqua Trickster': {'onPlay': [lambda card: waveStriker(lambda card: tapCreature(), card)]},
 	'Armored Decimator Valkaizer': {'onPlay': [lambda card: kill(4000)]},
 	'Artisan Picora': {'onPlay': [lambda card: fromMana(1,"ALL","ALL","ALL",False,True)]},
-	'Astral Warper': {'onPlay': [lambda card: draw(me.Deck, False, 3, ask=True, upTo=True)]},
+	'Astral Warper': {'onPlay': [lambda card: draw(me.Deck, True, 3, ask=True)]},
 	'Baban Ban Ban, Earth\'s Blessing': {'onPlay': [lambda card: massMana(me.Deck, True)]},
 	'Ballom, Master of Death': {'onPlay': [lambda card: destroyAll(getCreatures(), True, "ALL", "Darkness", True)]},
 	'Baraga, Blade of Gloom': {'onPlay': [lambda card: bounceShield(optional=False)]},
@@ -154,7 +154,7 @@ cardScripts={
 		'onPlay': [lambda card: lookAtTopCards(5, "card", "hand", "bottom", True, "BOUNCE", ["Fire", "Nature"]), lambda card: bounce(conditionalFromLastFunction=True)]},
 	'King Aquakamui': {'onPlay': [lambda card: kingAquakamui(card)]},
 	'King Mazelan': {'onPlay': [lambda card: bounce()]},
-	'King Ripped-Hide': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
+	'King Ripped-Hide': {'onPlay': [lambda card: draw(me.Deck, True, 2)]},
 	'King Muu Q': {'onPlay': [lambda card: bounce()]},
 	'King Tsunami': {'onPlay': [lambda card: bounceAll(group=[c for c in table if c!=card])]},
 	'Klujadras': {'onPlay': [lambda card: waveStriker(lambda card: klujadras(), card)]},
@@ -162,7 +162,7 @@ cardScripts={
 	'Kulus, Soulshine Enforcer': {'onPlay': [lambda card: manaCompare(1,True)]},
 	'Larba Geer, the Immaculate': {'onPlay': [lambda card: tapCreature(1, True, filterFunction='re.search(r"{BLOCKER}", c.Rules)')]},
 	'Lena, Vizier of Brilliance': {'onPlay': [lambda card: fromMana(1,"Spell")]},
-	'Lucky Ball': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=3 else None]},
+	'Lucky Ball': {'onPlay': [lambda card: draw(me.Deck, True, 2) if len(getShields(getTargetPlayer(onlyOpponent=True)))<=3 else None]},
 	'Lugias, The Explorer': {'onPlay': [lambda card: tapCreature()]},
 	'Locomotiver': {'onPlay': [lambda card: targetDiscard(True)]},
 	'Loth Rix, the Iridescent': {'onPlay': [lambda card: shields(me.deck)]},
@@ -256,7 +256,7 @@ cardScripts={
 	'Viblo Blade, Hulcus Range': {'onPlay': [lambda card: draw(me.Deck, True)]},
 	'Walmiel, Electro-Sage': {'onPlay': [lambda card: tapCreature()]},
 	'Whispering Totem': {'onPlay': [lambda card: fromDeck()]},
-	'Wily Carpenter': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True), lambda card: selfDiscard(2)]},
+	'Wily Carpenter': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard(2)]},
 	'Wind Axe, the Warrior Savage': {'onPlay': [lambda card: kill(count=1, rulesFilter="{BLOCKER}"), lambda card: mana(me.Deck)]},
 	'Zardia, Spirit of Bloody Winds': {'onPlay': [lambda card: shields(me.Deck)]},
 	'Zemechis, the Explorer': {'onPlay': [lambda card: gear("kill")]},
@@ -276,7 +276,7 @@ cardScripts={
 	'Brain Charger': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Cyclone': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Brain Re:Charger': {'onPlay': [lambda card: draw(me.Deck)]},
-	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
+	'Brain Serum': {'onPlay': [lambda card: draw(me.Deck, True, 2)]},
 	'Brutal Charge': {'onPlay': [lambda card: addDelayedEffect({"card":card, "effects":[lambda card, args: search(me.Deck, askNumber("Enter a number of broken opponent shields.", 1, True), "Creature")] }, None)]},
 	'Burst Shot': {'onPlay': [lambda card: destroyAll(getCreatures(), True, 2000)]},
 	'Cannonball Sling': {'onPlay': [lambda card: kill(2000)],
@@ -295,7 +295,7 @@ cardScripts={
 	'Crisis Boulder': {'onPlay': [lambda card: crisisBoulder(card)]},
 	'Critical Blade': {'onPlay': [lambda card: kill(count=1, rulesFilter="{BLOCKER}")]},
 	'Crystal Memory': {'onPlay': [lambda card: search(me.Deck, 1, "ALL", "ALL", "ALL", False)]},
-	'Cyber Brain': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True)]},
+	'Cyber Brain': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
 	'Cyclone Panic': {'onPlay': [lambda card: cyclonePanic()]},
 	'Dance of the Sproutlings': {'onPlay': [lambda card: declareRace(card)]},
 	'Darkflame Drive': {'onPlay': [lambda card: kill("ALL","Untap")]},
@@ -315,7 +315,7 @@ cardScripts={
 	'Dracobarrier': {'onPlay': [lambda card: dracobarrier()]},
 	'Drill Bowgun': {'onPlay': [lambda card: gear("kill")]},
 	'Eldritch Poison': {'onPlay': [lambda card: fromMana(1, "Creature") if not sacrifice(filterFunction='re.search("Darkness",c.Civilization)', returnTrueIfNoDestruction=True) else None]},
-	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, False, 2, upTo=True), lambda card: selfDiscard()]},
+	'Emergency Typhoon': {'onPlay': [lambda card: draw(me.Deck, True, 2), lambda card: selfDiscard()]},
 	'Enchanted Soil': {'onPlay': [lambda card: fromGraveyardToMana(2, "re.search('Creature', c.Type)")]},
 	'Energy Re:Light': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
 	'Energy Stream': {'onPlay': [lambda card: draw(me.Deck, False, 2)]},
@@ -363,7 +363,7 @@ cardScripts={
 	'Hyperspatial Energy Hole': {'onPlay': [lambda card: draw(me.Deck)]},
 	'Hyperspatial Faerie Hole': {'onPlay': [lambda card: mana(me.Deck)]},
 	'Hyperspatial Revive Hole': {'onPlay': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
-	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True) if len([c for c in getCreatures(me) if re.search("Cyber Lord", c.Race)])>0 else None]},
+	'Illusionary Merfolk': {'onPlay': [lambda card: draw(me.Deck, True, 3) if len([c for c in getCreatures(me) if re.search("Cyber Lord", c.Race)])>0 else None]},
 	'Impossible Tunnel': {'onPlay': [lambda card: declareRace(card)]},
 	'Infernal Smash': {'onPlay': [lambda card: kill()]},
 	'Intense Evil': {'onPlay': [lambda card: intenseEvil()]},
@@ -476,7 +476,7 @@ cardScripts={
 	'Tornado Flame': {'onPlay': [lambda card: kill(4000)]},
 	'Transmogrify': {'onPlay': [lambda card: killAndSearch(True)]},
 	'Treasure Map': {'onPlay': [lambda card: lookAtTopCards(5, "Creature", filterFunction='re.search("Nature",c.Civilization)')]},
-	'Triple Brain': {'onPlay': [lambda card: draw(me.Deck, False, 3, upTo=True)]},
+	'Triple Brain': {'onPlay': [lambda card: draw(me.Deck, True, 3)]},
 	'Ultimate Force': {'onPlay': [lambda card: mana(me.Deck, 2)]},
 	'Unified Resistance': {'onPlay': [lambda card: declareRace(card)]},
 	'Upheaval': {'onPlay': [lambda card: upheaval()]},
@@ -508,7 +508,7 @@ cardScripts={
 	'Aqua Ranger': {'onDestroy': [lambda card: toHand(card)]},
 	'Aqua Skydiver': {'onDestroy': [lambda card: toHand(card)]},
 	'Aqua Soldier': {'onDestroy': [lambda card: toHand(card)]},
-	'Aqua Warrior': {'onDestroy': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
+	'Aqua Warrior': {'onDestroy': [lambda card: draw(me.Deck, True, 2)]},
 	'Asylum, Elemental Dragon Knight': {'onDestroy': [lambda card: toShields(card)]},
 	'Balloonshroom Q': {'onDestroy': [lambda card: toMana(card)]},
 	'Bat Doctor, Shadow of Undeath': {'onDestroy': [lambda card: search(me.piles["Graveyard"], 1, "Creature")]},
@@ -621,7 +621,7 @@ cardScripts={
 
 	#ON YOUR TURN END EFFECTS
 
-	'Aqua Officer': {'onTurnEnd': [lambda card: tapCreature(2, onlyOwn=True)], 'onTurnStart': [lambda card: draw(me.Deck, False, 2, upTo=True)]},
+	'Aqua Officer': {'onTurnEnd': [lambda card: tapCreature(2, onlyOwn=True)], 'onTurnStart': [lambda card: draw(me.Deck, True, 2)]},
 	'Balesk Baj, the Timeburner': {'onTurnEnd': [lambda card: toHand(card)]},
 	'Ballus, Dogfight Enforcer Q': {'onTurnEnd': [lambda card: untapCreature(card, False)]},
 	'Bazagazeal Dragon': {'onTurnEnd': [lambda card: toHand(card)]},
@@ -4428,8 +4428,9 @@ def showSettingWindow(group=None,x=0,y=0):
 				5: ("compactCardAlignment", "Compact Card Alignment"),
 				6: ("compressMana", "Compress Cards in Mana Zone"), 
 				7: ("askBeforeDiscardingACardFromHand", "Ask before discarding Cards from my Hand"),
-				8: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating"),
-				9: ("notifyVersionSetting", "Show game version notification")}
+				8: ("askBeforeConditionalDraw", "Ask before drawing each card from effects"),
+				9: ("showDialogSimultaneousCardEffects", "Pick order of simultaneous Card Effects activating"),
+				10: ("notifyVersionSetting", "Show game version notification")}
 	ret=1
 	while ret>0:
 		names=[]
@@ -4451,6 +4452,7 @@ def showSettingWindow(group=None,x=0,y=0):
 				"compactCardAlignment": True,
 				"compressMana": False,
 				"askBeforeDiscardingACardFromHand": False,
+				"askBeforeConditionalDraw": True,
 				"showDialogSimultaneousCardEffects": True,
 				"notifyVersionSetting": True,
 				"welcome": False
@@ -4484,6 +4486,8 @@ def getCompressManaSetting():
 	return getSettingCached("compressMana")
 def getAskBeforeDiscardingOwnCardsSetting():
 	return getSettingCached("askBeforeDiscardingACardFromHand")
+def getAskBeforeConditionalDrawSetting():
+	return getSettingCached("askBeforeConditionalDraw")
 def getDialogSimultaneousCardEffectsSetting():
 	return getSettingCached("showDialogSimultaneousCardEffects")
 def getNotifyVersionSetting():
@@ -4502,6 +4506,7 @@ def loadSettings():
             "compactCardAlignment": getSetting("compactCardAlignment", True),
             "compressMana": getSetting("compressMana", False),
             "askBeforeDiscardingACardFromHand": getSetting("askBeforeDiscardingACardFromHand", False),
+			"askBeforeConditionalDraw": getSetting("askBeforeConditionalDraw", True),
             "showDialogSimultaneousCardEffects": getSetting("showDialogSimultaneousCardEffects", True),
 			"notifyVersionSetting": getSetting("notifyVersionSetting", True),
 			"welcome": getSetting("welcome", False)
@@ -4529,7 +4534,7 @@ def shuffle(group, x=0, y=0):
 	group.shuffle()
 	notify("{} shuffled their {}".format(me, group.name))
 
-def draw(group=None, conditional=False, count=1, x=0, y=0, ask=False, upTo=False):
+def draw(group=None, conditional=False, count=1, x=0, y=0, ask=False):
 	mute()
 	if group==None:
 		group=me.Deck
@@ -4538,19 +4543,17 @@ def draw(group=None, conditional=False, count=1, x=0, y=0, ask=False, upTo=False
 	if len(group)==0:
 		return
 	count=min(count, len(group))
-	if ask or upTo:
-		if not upTo:
-			choice=askChoice("Draw {} card{}?".format(count, "s" if count>1 else ""), ['Yes', 'No'], ['#FF0000', '#FF0000'])
-			if choice!=1:return
-		else:
-			choice=int(askChoice("How many cards to draw?", [str(i) for i in range(1, count + 1)]))
-			notify("{} declares to draw {} card{}.".format(me, choice, "s" if choice>1 else ""))
-			if choice<1:return
-			count=choice
+	if ask:
+		choice=askChoice("Draw {} card{}?".format(count, "s" if count>1 else ""), ['Yes', 'No'], ['#FF0000', '#FF0000'])
+		if choice!=1:return
+	if count>0 and conditional and not getAskBeforeConditionalDrawSetting():	
+		choice=int(askChoice("How many cards to draw?", [str(i) for i in range(0, count + 1)]))-1
+		if choice<1:return
+		count=choice
 	for i in range(0, count):
 		if len(group)==0:
 			return
-		if conditional:
+		if conditional and getAskBeforeConditionalDrawSetting():
 			choiceList=['Yes', 'No']
 			colorsList=['#FF0000', '#FF0000']
 			choice=askChoice("Draw a card?", choiceList, colorsList)
