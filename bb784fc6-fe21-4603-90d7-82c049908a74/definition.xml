@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		id="bb784fc6-fe21-4603-90d7-82c049908a74" 
-		version="1.1.1.64"
+		version="1.1.1.65"
 		octgnVersion="3.3.132.0" 
 		scriptVersion="3.1.0.2" 
 		name="Duel Masters" 
@@ -87,6 +87,7 @@
 		<groupactions menu="Other options:">
 			<groupaction menu="Change Settings" execute="showSettingWindow" />
 			<groupaction menu="Align Cards" execute="alignTable" />
+			<groupaction menu="Reset my Creatures Power" execute="resetCreaturePowerAll" shortcut="ctrl+shift+1" />
 			<groupaction menu="Display Deck on Table" execute="displayDeck" />
 			<groupaction menu="Play Rock Paper Scissors" execute="initiateRPS" />
 			<groupaction menu="Seal your opponent's Elements" execute="sealOpponentElements" />
@@ -98,6 +99,7 @@
 		<cardaction menu="Set as Shield" shortcut="ctrl+H" execute="toShields" />
 		<cardaction menu="Awaken / Release / Flip Card" shortcut="ctrl+A" execute="flip" />
 		<cardaction menu="Charge as Mana" shortcut="ctrl+C" execute="toMana" />
+		<cardaction menu="Change Creature's Power" shortcut="ctrl+1" execute="changePowerDialog" />
 		<cardaction menu="Use Card Effect" showIf="hasButtonEffect" getName="getHasButtonEffect" execute="activateButtonEffect" />
 		<cardactions menu="Attachment Options:" >
 			<cardaction menu="Attach Card" execute="attachBait" />

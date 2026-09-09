@@ -3629,9 +3629,9 @@ def flip(card, x=0, y=0):
 				card.alternate=''
 				notify("{}'s {} reverts to its default form {}.".format(me, altName, card))
 		else:
-			current_index=forms.index(card.alternate)  # Find current form index
-			oldName=card.alternateProperty(forms[current_index], 'name')
-			next_index=(current_index + 1) % len(forms)  # Calculate next form index
+			currentIndex=forms.index(card.alternate)  # Find current form index
+			oldName=card.alternateProperty(forms[currentIndex], 'name')
+			next_index=(currentIndex + 1) % len(forms)  # Calculate next form index
 			card.alternate=forms[next_index]  # Set to the next form
 			altName=card.alternateProperty(forms[next_index], 'name')
 			if card.alternate=='':
@@ -4899,6 +4899,65 @@ def toMana(card, x=0, y=0, notifymute=False, checkEvo=True, alignCheck=True, fac
 #Wrapper function for toManaFace to call from Menu or by Ctrl+Shift+C
 def toManaFaceDown(card, x=0, y=0, tapped=False):
 	toMana(card, x, y, faceDown=True, tapped=tapped)
+
+#Show dialog to modify Creature's Power. / Ctrl+1
+def changePowerDialog(card, x=0, y=0):
+	if not isCreature(card):
+		whisper("{} is not a Creature.".format(card))
+		return
+	commonChanges=["+4000","+3000","+2000","+1000","-1000","-2000","-3000","-4000"]
+	choice=askChoice("Select Power change ({}, {}):".format(card.name,card.Power), commonChanges, customButtons=["Custom Power", "Restore to default"])
+	if choice==0:
+		return
+	if choice>0:
+		change=commonChanges[choice-1]
+		changeCreaturePower(card, change, False)
+		
+	if choice == -1:
+		currentPower=int(card.Power.strip('+')) if card.Power!='Infinity' else 0
+		update=askNumber("Type new Power for this Creature",currentPower)
+		if update==None:
+			return
+		changeCreaturePower(card, update, False)
+	if choice == -2:
+		resetCreaturePower(card, False)
+
+def changeCreaturePower(card, power, notifymute=True):
+	if not isCreature(card):
+		return
+	if isinstance(power, int):
+		power=str(power)
+	if "+" in power or "-" in power:
+		if card.Power!='Infinity':
+			newPower=int(card.Power.strip('+')) + int(power)
+			if newPower<0:
+				newPower=0
+		else:
+			newPower=str(card.Power);
+
+		card.Power=str(newPower);
+		if not notifymute:
+			notify("{} changes {}'s Power to {} ({})".format(me, card, newPower, power))
+	else:
+		card.Power=str(power)
+		if not notifymute:
+			notify("{} declared that {} has a Power of {}".format(me,card,power))
+
+def resetCreaturePower(card, notifymute=True):
+	if not isCreature(card):
+		return
+	forms=list(card.alternates)
+	currentIndex=forms.index(card.alternate)
+	originalPower=card.defaultProperty(forms[currentIndex], 'power')
+	card.Power=str(originalPower)
+	if not notifymute:
+		notify("{} reset {}'s Power to original {}".format(me,card,originalPower))
+
+#Resets power of all creatures on your side / Ctrl+Shift+1
+def resetCreaturePowerAll(table,x=0,y=0):
+	for c in getCreatures(me):
+		resetCreaturePower(c)
+	notify("{} resets the Power of all of their Creatures".format(me))
 
 #Set as shield menu option / Ctrl+H (both from hand and battlezone)
 def toShields(card, x=0, y=0, notifymute=False, alignCheck=True, checkEvo=True):
