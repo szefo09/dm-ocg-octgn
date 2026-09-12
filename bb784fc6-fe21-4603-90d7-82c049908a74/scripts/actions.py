@@ -566,7 +566,7 @@ cardScripts={
 	'Algo Bardiol, Devil Admiral':  {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
 	'Baiken, Blue Dragon of the Hidden Blade': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
 	'Bingole, the Explorer': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
-	'Dava Torey, Seeker of Clouds': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
+	'Dava Torey, Seeker of Clouds': {'onDiscard': [lambda card: toPlayAfterDiscard(card,forced=True)]},
 	'Gauss Blazer, Flame Dragon Admiral': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
 	'Lanerva Stratus, Poseidon\'s Admiral': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
 	'Mecha Admiral Sound Shooter': {'onDiscard': [lambda card: toPlayAfterDiscard(card)]},
@@ -2459,11 +2459,12 @@ def selfDiscard(count=1):
 	update()
 
 #Summon creature after it got discarded
-def toPlayAfterDiscard(card, onlyOnOpponentTurn=True):
+def toPlayAfterDiscard(card, onlyOnOpponentTurn=True, forced=False):
 	if not onlyOnOpponentTurn or getActivePlayer()!=me:
-		choice=askYN("Summon {} because it was discarded during opponent's turn?\n\n{}".format(card.properties["Name"], card.Rules), ["Yes", "No"])
-		if choice==1:
-			toPlay(card)
+		if forced or 1==askYN("Summon {} because it was discarded{}?\n\n{}".format(card.properties["Name"]," during opponent's turn" if onlyOnOpponentTurn else "", card.Rules), ["Yes", "No"]):
+			card.moveTo(card.owner.hand)
+			toPlay(card, notifymute=True, clearWaitingFunctions=False)
+			notify("{} puts {} instead of discarding it from Hand.".format(card.owner, card))
 
 def suicide(card, action, args):
 	mute()
